@@ -1,0 +1,19 @@
+= Project description =
+
+<i>Put project description here, with links to project page, on-line project documentation (if it exists), project screenshots (if they exist).</i>
+
+* More information <i>(link to documentation)</i> ...
+* Screenshots <i>(link to screenshot(s))</i> ...
+
+= Project information =
+
+* <b>Author</b>: J. Random Hacker <J.Hacker@example.com>
+* <b>Homepage</b>: http://example.com/projectname/
+* <b>Repository</b>: http://example.com/projectname/projectname.git/
+* <b>gitweb</b>: http://example.com/gitweb.cgi?p=projectname.git;a=summary <<BR>>''(if exists and is different from repository above)
+* <b>License</b>: e.g. GPLv2 or later
+
+----
+[[CategoryTools]]
+
+__NOTOC__
