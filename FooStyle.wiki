@@ -1,0 +1,10 @@
+= [[FooStyle]] =
+How to conference it un.
+== Foo Conference Room Organisation Style ==
+The available room(s) and timeslots are laid out on a few big sheets of paper.  Post-it notes and/or big markers are left for people to scribble in something.
+== Foo Conference Session Style ==
+This session style is designed to break down the barrier between "presenter" and "audience".  Most of the session is set aside for discussion and free-flow conversation.  The presenter merely sets the scene for the discussion - this might include slides etc, but plan for no projector use during the discussion time.  ie "the lights are not dimmed" for the discussion part, whether or not any actual dimming happened to begin with!
+
+See also http://barcamp.org
+
+__NOTOC__
