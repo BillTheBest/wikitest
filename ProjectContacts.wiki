@@ -1,0 +1,35 @@
+= List of contact persons =
+
+This is a list of people who volunteered to forward messages regarding git to the projects that use git they belong to.
+
+The primary purpose of this list is to allow the git maintainer to send out important announcements to user communities without having to subscribing to their mailing list, but if you have an important announcement that would affect git user communities, you can use the list to ask these volunteers to forward your message.
+
+Please do not spam these people.  They retain rights to discard your request.
+
+If your favourite project that uses git is not listed, and you are willing to volunteer, please add yourself and the name of the project to the table.  If the mailing list of the project allows messages from non-subscribers, it is preferred to list the mailing list address, not your address, as such a project does not need volunteering forwarder.
+{| border="1" cellpadding="2" cellspacing="0"
+| <tablewidth="659px" tableheight="99px" tablestyle="">Project 
+| Forwarder 
+| 
+|-
+| Linux Kernel 
+|  linux-kernel@vger.kernel.org 
+| 
+|-
+| X.org 
+|  
+| 
+|-
+| Wine 
+|  
+| 
+|-
+| Emacs Org Mode
+|  
+| 
+|-
+|  Perl 5 
+|  perl5-porters at perl; ask@perl.org 
+| 
+
+__NOTOC__
