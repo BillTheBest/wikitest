@@ -1,0 +1,17 @@
+<!-- #format wiki
+ -->
+<!-- #language en
+ -->
+
+Pages which are linked from wiki glossary: [[GitGlossary]] page, and provide expansion to the short description in the glossary entry, or are related to the term described.
+
+To add a page to this category, add a link to this page on the last line of the page. You can add multiple categories to a page.
+
+<b>List of pages in this category:</b>
+
+<<[[FullSearch]]()>>
+
+----
+[[CategoryCategory]]
+
+__NOTOC__
