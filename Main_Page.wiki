@@ -10,9 +10,24 @@
  -->
 <!-- #pragma section-numbers off
  -->
-= [[WikiName]] Wiki =
+= Git Wiki =
 
-What is this wiki about?
+This is the Git Wiki site. It is a little experimental right now; it is not
+currently meant as the primary source of information about Git but it might
+be useful for easy information exchange between users of Git and the Git
+porcelains like Cogito, StGIT and such.  Well, have fun! And as the wiki
+users say, edit with courage.
+
+The other information sources are the [http://git.or.cz/ Git Homepage] (the
+webmaster takes patches) and obviously the stock documentation:
+* http://www.kernel.org/pub/software/scm/git/docs
+* http://www.kernel.org/pub/software/scm/cogito/docs
+
+----
+
+== Wiki Metainformation ==
+
+=== What is this wiki about? ===
 
 Interesting starting points:
 * [[RecentChanges]]: see where people are currently working
@@ -21,7 +36,7 @@ Interesting starting points:
 * [http://meta.wikimedia.org/wiki/Help:Editing SyntaxReference]: quick access to wiki syntax
 * [[Special:Specialpages|SiteNavigation]]: get an overview over this site and what it contains
 
-== How to use this site ==
+=== How to use this site ===
 
 A Wiki is a collaborative site, anyone can contribute and share:
 * Edit any page by pressing <b>Edit</b> at the top or the bottom of the page 
