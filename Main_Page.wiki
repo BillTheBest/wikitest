@@ -15,7 +15,7 @@
 This is the Git Wiki site. It is a little experimental right now; it is not
 currently meant as the primary source of information about [[Git]] but it might
 be useful for easy information exchange between users of Git and the Git
-[[porcelain]]s like [[Cogito]], [[StGIT]] and such.  Well, have fun! And as the wiki
+[[porcelains]] like [[Cogito]], [[StGIT]] and such.  Well, have fun! And as the wiki
 users say, edit with courage.
 
 The other information sources are the [http://git.or.cz/ Git Homepage] (the
@@ -39,12 +39,12 @@ Interesting starting points:
 === How to use this site ===
 
 A Wiki is a collaborative site, anyone can contribute and share:
-* Edit any page by pressing <b>Edit</b> at the top or the bottom of the page 
+* Edit any page by pressing <b>Edit</b> at the top or the bottom of the page
 * Create a link to another page with joined capitalized words (like [[WikiSandBox]]) or with <code><nowiki>[[quoted words in brackets]]</nowiki></code>
 * Search for page titles or text within pages using the search box at the top of any page
 * See [[HelpForBeginners]] to get you going, [[HelpContents]] for all help pages.
 
-To learn more about what a [[WikiWikiWeb]] is, read about [[MoinMoin]]:[[WhyWikiWorks]] and the [[MoinMoin]]:[[WikiNature]]. Also, consult the [[MoinMoin]]:[[WikiWikiWebFaq]]. 
+To learn more about what a [[WikiWikiWeb]] is, read about [[MoinMoin]]:[[WhyWikiWorks]] and the [[MoinMoin]]:[[WikiNature]]. Also, consult the [[MoinMoin]]:[[WikiWikiWebFaq]].
 
 This wiki is powered by MediaWiki.
 
