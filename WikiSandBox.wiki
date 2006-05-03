@@ -42,6 +42,12 @@ def syntax(highlight):
 
 == Linking ==
 
+[[a|b]]
+
+[[tilly dally]]
+
+[[git|the best thing]]
+
 [[HelpOnEditing]] [[MoinMoin]]:[[InterWiki]] 
 
 http://moinmoin.wikiwikiweb.de/ [http://www.python.org/ Python]
