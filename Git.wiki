@@ -1,5 +1,5 @@
-<b>Git</b> is a modern distributed version control system known especially for its speed and effectivity. More generally, Git can serve as a general tool for directory content tracking.
+<b>Git</b> is a modern [[distributed version control system]] known especially for its speed and effectivity. More generally, Git can serve as a general tool for directory content tracking.
 
-Git was created by Linus Torvalds with assistance from a loosely-knit team of hackers across the Net. It is currently maintained by Junio C. Hamano.
+Git was created by [[Linus Torvalds]] with assistance from a loosely-knit team of hackers across the Net. It is currently maintained by [[Junio C. Hamano]].
 
 __NOTOC__
