@@ -27,8 +27,8 @@ webmaster takes patches) and obviously the stock documentation:
 
 == Wiki Metainformation ==
 
-<b>Warning!</b> The syntax here is Wikipedia-like, not [[MoinMoinWiki]]-like (since
-everyone is used to Wikipedia and it's much easier to write):
+FYI, a Wikipedia-like link syntax is also supported aside of the [[MoinMoinWiki]]-like one
+(since everyone is used to Wikipedia and it's much easier to write):
 
 * You can make links using <code><nowiki>[[linkname]]</nowiki></code> (or even <code><nowiki>[[target|label]]</nowiki></code>; all the other moinmoin ways to make links work as well). The link target's initial letter will be automagically capitalized; if you want to avoid that, use <code><nowiki>[[link]]</nowiki></code>
 * If you ever need to use macros here, use a <code><nowiki> <<macroname>> </nowiki></code> syntax.
@@ -45,7 +45,7 @@ Interesting starting points:
 === How to use this site ===
 
 A Wiki is a collaborative site, anyone can contribute and share:
-* Edit any page by pressing <b>Edit</b> at the top or the bottom of the page
+* Edit any page by pressing <b><<[[GetText]](Edit)>></b> at the top or the bottom of the page
 * Create a link to another page with joined capitalized words (like [[WikiSandBox]]) or with <code><nowiki>[[quoted words in brackets]]</nowiki></code>
 * Search for page titles or text within pages using the search box at the top of any page
 * See [[HelpForBeginners]] to get you going, [[HelpContents]] for all help pages.
