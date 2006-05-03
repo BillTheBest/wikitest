@@ -27,10 +27,10 @@ webmaster takes patches) and obviously the stock documentation:
 
 == Wiki Metainformation ==
 
-<b>Warning</b>! The syntax here is Wikipedia-like, not [[MoinMoinWiki]]-like (since
+<b>Warning!</b> The syntax here is Wikipedia-like, not [[MoinMoinWiki]]-like (since
 everyone is used to Wikipedia and it's much easier to write):
 
-* You can make links using <code><nowiki>[[linkname]]</nowiki></code> (all the other moinmoin ways to make links work as well).
+* You can make links using <code><nowiki>[[linkname]]</nowiki></code> (or even <code><nowiki>[[target|label]]</nowiki></code>; all the other moinmoin ways to make links work as well). The link target's initial letter will be automagically capitalized; if you want to avoid that, use <code><nowiki>[[link]]</nowiki></code>
 * If you ever need to use macros here, use a <code><nowiki> <<macroname>> </nowiki></code> syntax.
 
 === What is this wiki about? ===
