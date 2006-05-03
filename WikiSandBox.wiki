@@ -13,6 +13,11 @@ Please feel free to experiment here, after the four dashes below... and please d
 <b>Tip:</b> Shift-click "[[HelpOnEditing]]" to open a second window with the help pages.
 ----
 
+== Test Section ==
+
+hmm... how would one go about creating a user account?  the [[UserPreferences]] page
+behind the login link seems to be b0rken.
+
 == Formatting ==
 
 <i>italic</i> <b>bold</b> <code><nowiki>typewriter</nowiki></code> 
