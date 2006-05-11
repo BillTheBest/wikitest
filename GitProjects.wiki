@@ -20,4 +20,10 @@ If your project is not listed, please add it here.
 
    http://git.xmms.se/ (repository)
 
+* dash (POSIX-compliant shell)
+
+   http://gondor.apana.org.au/~herbert/dash/ (description)
+
+   http://gondor.apana.org.au/~herbert/dash/dash.git/ (repository)
+
 __NOTOC__
