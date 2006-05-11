@@ -6,19 +6,19 @@ If your project is not listed, please add it here.
 
    http://wiki.winehq.org/[[GitWine]] (description)
 
-   http://source.winehq.org/git/?p=wine.git;a=summary (repository)
+   http://source.winehq.org/git/?p=wine.git;a=summary (repository, gitweb)
 
 * X.org (some)
 
    http://freedesktop.org/wiki/[[UsingGit]] (description)
 
-   http://gitweb.freedesktop.org/ (repository)
+   http://gitweb.freedesktop.org/ (repository, gitweb)
 
 * xmms2
 
    http://wiki.xmms2.xmms.se/index.php/Download_XMMS2 (description)
 
-   http://git.xmms.se/ (repository)
+   http://git.xmms.se/ (repository, gitweb)
 
 * dash (POSIX-compliant shell)
 
