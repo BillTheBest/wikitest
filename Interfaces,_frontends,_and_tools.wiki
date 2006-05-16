@@ -92,7 +92,6 @@ export GIT_DIFF_PAGER="colordiff | less -RS"</nowiki></pre>
     [http://www.linux.org.uk/pub/people/viro/remapper/ remapper] by Al Viro, announced in [http://marc.theaimsgroup.com/?l=git&m=114756555630327 Re: |RFC| Add "rcs format diff" support], is a tool to (re)map position (file name and line number) in one revision to corresponding position (file name and line number) in other revision.  E.g. user sends report "linux-2.6.16 with configuration XYZZY fails to compile with: `arch/wii/kernel/l33t.c:42:parse error`" and with the remap tool you can map the error report to the current commit's state, when that bit of code got moved around to `drivers/input/wii/l33tcontrol.c:31337`.  It also already very useful for log comparison, with the noise due to line number changes excluded.   Note that it's not just for build logs; the thing is useful for sparse logs, grep -n output, etc., etc.
 
 <b>gitfs</b>::
-    [http://www.sfgoth.com/~mitch/linux/gitfs/ GitFS] is a FUSE-based filesystem for working with source trees stored in git repositories.  The eventual goal is to provide a convenient way to work
-with lots of branches and patches.  Currently (pre-release version 0.03) only very basic functionality is implemented - read-only access to the existing tags and objects.
+    [http://www.sfgoth.com/~mitch/linux/gitfs/ GitFS] is a FUSE-based filesystem for working with source trees stored in git repositories.  The eventual goal is to provide a convenient way to work with lots of branches and patches.  Currently (pre-release version 0.03) only very basic  functionality is implemented - read-only access to the existing tags and objects.
 
 __NOTOC__
