@@ -9,7 +9,7 @@ Describe [[InterfacesFrontendsAndTools]] here.
     [[Cogito]] is the most popular version control system on top of Git. It aims at seamless user interface and ease of use, providing generally smoother user experience than the "raw" Git interface and indeed also many other version control systems.
 
 <b>StGIT (Stacked Git)</b>:: 
-    [[StGIT]] ([http://www.procode.org/stgit/ homepage]) provides a Quilt-like patch management functionality in the Git environment. You can easily manage your patches in the scope of Git until they get merged upstream.
+    [[StGIT]] ([http://www.procode.org/stgit/ homepage]) provides a Quilt-like patch management functionality (i.e. pushing/popping patches to/from a stack) in the Git environment. You can easily manage your patches in the scope of Git until they get merged upstream. <b>See also</b>: [http://savannah.nongnu.org/projects/quilt/ Quilt project page].
 
 <b>Patchy Git (pg)</b>:: 
     [[pg]] ([http://www.spearce.org/category/projects/scm/pg/ homepage]) aims to help the user manage a set of patches on top of the current branch. pg is somewhat like Quilt or StGIT, but it does have a slightly different feature set.
@@ -35,5 +35,10 @@ Describe [[InterfacesFrontendsAndTools]] here.
 
 <b>wit</b>:: 
     [[wit]] ([http://www.grmso.net:8090/ homepage]) is a Python implementation maintained by Christian Meder.
+
+= Editors and Integrated Development Environments =
+
+<b>Emacs integration</b> (in `contrib/`)::
+    Preliminary Emacs mode for Git from Alexandre Julliard (in `contrib/emacs` directory) consist of `git.el` which is project tree browser similar to pcl-cvs, and `vc-git.el` which is VC backend. There is also a project,  [http://download.gna.org/dvc/ DVC] (Distributed Version Control), by the authors of Xtla, to create a generic library for fancy Emacs interfaces to modern version control systems. Currently it supports <i>tla</i> and <i>bazaar</i> (<i>baz</i>), and has initial support for <i>bzr</i> and <i>mercurial</i> (<i>xhg</i>).
 
 __NOTOC__
