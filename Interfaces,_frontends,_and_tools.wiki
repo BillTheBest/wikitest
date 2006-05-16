@@ -7,47 +7,53 @@
 <<<!-- ! TOC here -->(2)>>
 -~
 ----
+<b>See also:</b> [[InterfacesFrontendsAndToolsWishlist]]
 
 = Version Control Interface layers =
 
 <b><u>Core Git</u></b>::
-    Core Git contains a set of script on the top of Git plumbing, providing version control system interface, distributed along the GIT itself. It is quite powerful, but rather unfriendly.
+    Core Git contains a set of script on the top of [[Git]] plumbing, providing version control system interface, distributed along the Git itself. It is quite powerful, but rather unfriendly.
 
-<b>Cogito</b>:: 
+<b>Cogito</b>::
     [[Cogito]] is the most popular version control system on top of Git. It aims at seamless user interface and ease of use, providing generally smoother user experience than the "raw" Git interface and indeed also many other version control systems.
 
-<b>StGIT (Stacked Git)</b>:: 
-    [[StGIT]] ([http://www.procode.org/stgit/ homepage]) provides a Quilt-like patch management functionality (i.e. pushing/popping patches to/from a stack) in the Git environment. You can easily manage your patches in the scope of Git until they get merged upstream. <b>See also</b>: [http://savannah.nongnu.org/projects/quilt/ Quilt project page].
+<b>StGIT (Stacked Git)</b>::
+    [[StGIT]] ([http://www.procode.org/stgit/ homepage]) provides a Quilt-like patch management functionality (i.e. pushing/popping patches to/from a stack) in the Git environment. You can easily manage your patches in the scope of Git until they get merged upstream. <<BR>>
+    <b>See also</b>: [http://savannah.nongnu.org/projects/quilt/ Quilt project page].
 
-<b>Patchy Git (pg)</b>:: 
+<b>Patchy Git (pg)</b>::
     [[pg]] ([http://www.spearce.org/category/projects/scm/pg/ homepage]) aims to help the user manage a set of patches on top of the current branch. pg is somewhat like Quilt or StGIT, but it does have a slightly different feature set.
 
-<b>(h)gct</b>:: 
+<b>(h)gct</b>::
     [[(h)gct]] ([http://www.cyd.liu.se/~freku045/gct/ homepage]) is a GUI enabled commit tool. It has support for both Git and Mercurial.
 
 = History Visualization =
 
-<b><u>gitk</u></b> (distributed with Git):: 
+<b><u>gitk</u></b> (distributed with Git)::
     [[gitk]] is a simple Tcl/Tk GUI for browsing history of Git repositories easily, distributed with Git.
 
-<b>QGit</b>:: 
+<b>QGit</b>::
      [[QGit]] ([http://digilander.libero.it/mcostalba/ homepage]) is a Qt GUI for browsing history of Git repositories, similar to gitk.
 
 <b>gitview</b> (in `contrib/`)::
-     [[GitView]] is a GTK based repository browser for git written in Python by Aneesh Kumar K.V. In `contrib/` directory of Git source tree.
+     [[GitView]] is a GTK based repository browser for git written in Python by Aneesh Kumar K.V. It  can be found in `contrib/` directory of Git source tree.
 
 = Web Interface =
 
-<b>gitweb</b>:: 
-    [[gitweb]] provides full-fledged web interface for Git repositories. It is written in Perl and maintained by Kay Sievers. Used at [http://www.kernel.irg/git/ kernel.org].
+<b>gitweb</b>::
+    [[gitweb]] provides full-fledged web interface for Git repositories. It is written in Perl and maintained by Kay Sievers. Used at [http://www.kernel.org/git/ kernel.org].
 
-<b>wit</b>:: 
+<b>wit</b>::
     [[wit]] ([http://www.grmso.net:8090/ homepage]) is a Python implementation maintained by Christian Meder.
 
 = Editors and Integrated Development Environments =
 
 <b>Emacs integration</b> (in `contrib/`)::
-    Preliminary Emacs mode for Git from Alexandre Julliard (in `contrib/emacs` directory) consist of `git.el` which is project tree browser similar to pcl-cvs, and `vc-git.el` which is VC backend. There is also a project,  [http://download.gna.org/dvc/ DVC] (Distributed Version Control), by the authors of Xtla, to create a generic library for fancy Emacs interfaces to modern version control systems. Currently it supports <i>tla</i> and <i>bazaar</i> (<i>baz</i>), and has initial support for <i>bzr</i> and <i>mercurial</i> (<i>xhg</i>).
+    Preliminary Emacs mode for Git from Alexandre Julliard (in `contrib/emacs` directory) consist of `git.el` which is project tree browser similar to pcl-cvs, and `vc-git.el` which is VC backend.<<BR>>
+
+    There is also a project,  [http://download.gna.org/dvc/ DVC] (Distributed Version Control), by the authors of Xtla, to create a generic library for fancy Emacs interfaces to modern version control systems. Currently it supports [http://www.gnu.org/software/gnu-arch/ GNU Arch] (<i>tla</i>) and [http://freshmeat.net/projects/baz/ Bazaar] (<i>baz</i>), and has initial support for [http://bazaar-vcs.org/ Bazaar-NG] (<i>bzr</i>) and [http://www.selenic.com/mercurial/ Mercurial] (<i>xhg</i>).
+
+    <b>See also:</b> [[EmacsWiki/[[CategoryVersionControl]]|[[CategoryVersionControl]]] on [[EmacsWiki]]].
 
 = Interaction with other Revision Control Systems =
 
@@ -64,7 +70,7 @@
     [http://gitweb.freedesktop.org/?p=users-keithp-parsecvs;a=summary parsecvs] by Keith Packard is a C-based CVS file parser and Git import tool. It directly reads RCS ,v files (you can get them using CVSsuck if you don't have access to $CVSROOT) and generates a git-style rev-list structure from them.
 
 <b>git-svnconvert</b>:
-    git-svnconvert, written by Rutger Nijlunsing in Ruby, appeared only on git mailing list in post [http://marc.theaimsgroup.com/?l=git&m=114460050718696 [ANNOUNCE] git-svnconvert: YASI (Yet Another SVN importer)].
+    git-svnconvert, written by Rutger Nijlunsing in Ruby, appeared only on git mailing list in post [http://marc.theaimsgroup.com/?l=git&m=114460050718696 |ANNOUNCE| git-svnconvert: YASI (Yet Another SVN importer)].
 
 <b>Tailor</b>::
     [http://www.darcs.net/DarcsWiki/Tailor Tailor] is an any-to-any version control system converter, with support for most free SCM. It was written by Lele and it is implemented in Python. Note that you need [http://www.darcs.net/DarcsWiki/Tailor/[[VersionOne]] /[[VersionOne]]], and it supports Git as target system only. Note also that as of 2006-02-21, it only supports linear histories and no branches.
