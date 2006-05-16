@@ -75,4 +75,22 @@
 <b>Tailor</b>::
     [http://www.darcs.net/DarcsWiki/Tailor Tailor] is an any-to-any version control system converter, with support for most free SCM. It was written by Lele and it is implemented in Python. Note that you need [http://www.darcs.net/DarcsWiki/Tailor/[[VersionOne]] /[[VersionOne]]], and it supports Git as target system only. Note also that as of 2006-02-21, it only supports linear histories and no branches.
 
+= Other tools =
+
+<b>colordiff</b> (in `contrib/`)::
+    [http://colordiff.sourceforge.net/ colordiff] by Dave Ewart (version modified specifically for Git is available in `contrib/`) is a wrapper/replacement for 'diff' producing colourful output. You can use it by assigning a filter to the environment variable, like so:
+    <pre><nowiki>
+export GIT_DIFF_PAGER="colordiff | less -RS"</nowiki></pre>
+
+<b>gitcompletion</b> and <b>generate-completions</b>::
+    [http://www.hawaga.org.uk/ben/tech/gitcompletion/ gitcompletion] ([http://www.hawaga.org.uk/gitcompletion.git/ git repository]) by Ben Clifford is bash tab-completion for Git, gitk, Cogito (<i>cg</i>) and StGIT (<i>stg</i>). Cogito has the cogito bits of the above already included. There is also `generate-completions.sh` by Johannes Schindelin, available on git mailing list archive [http://marc.theaimsgroup.com/?l=git&m=114515313911717 |FYI| generated completions]. <span style="font-size: smaller">Yet another StGIT completions by Paolo Giarrusso, aka Blaisorblade are available at  [http://marc.theaimsgroup.com/?l=git&m=113025114026388 Re: latest stg/git commandline completions code]</span>.
+
+<b>remapper</b>::
+    [http://www.linux.org.uk/pub/people/viro/remapper/ remapper] by Al Viro. This tool is already very useful for log comparison.  E.g. if old-log is from the old tree and new-log is from the new one, we can do
+    <pre><nowiki>
+git-remap map <old-log >foo
+git-remap /dev/null <new-log >bar
+diff -u foo bar</nowiki></pre>
+  and have the noise due to line number changes excluded. Note that it's not just for build logs; the thing is useful for sparse logs, grep -n output, etc., etc. <b><i>Needs better description!</b></i>.
+
 __NOTOC__
