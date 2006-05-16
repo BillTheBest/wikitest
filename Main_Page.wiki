@@ -26,9 +26,11 @@ webmaster takes patches) and obviously the stock documentation:
 Non-kernel projects that use [[Git]] for their source code management are
 listed in [[GitProjects]]
 
+[[InterfacesFrontendsAndTools]] lists other programs that work with [[Git]]
+
 == TODO LIST ==
 An updated TODO list can be found here:
-http://kernel.org/git/?p=git/git.git;a=blob;hb=todo;f=TODO
+* http://kernel.org/git/?p=git/git.git;a=blob;hb=todo;f=TODO
 
 ----
 
