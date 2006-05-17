@@ -25,10 +25,15 @@
     <b>See also</b>: [http://savannah.nongnu.org/projects/quilt/ Quilt project page].
 
 <b>Patchy Git (pg)</b>::
-    [[pg]] ([http://www.spearce.org/category/projects/scm/pg/ homepage]) aims to help the user manage a set of patches on top of the current branch. pg is somewhat like Quilt or StGIT, but it does have a slightly different feature set.
+    [[pg]] ([http://www.spearce.org/category/projects/scm/pg/ homepage]) by Shawn Pearce aims to help the user manage a set of patches on top of the current branch. pg is somewhat like Quilt or StGIT, but it does have a slightly different feature set.
+
+= Graphical Interfaces =
 
 <b>(h)gct</b>::
-    [[(h)gct]] ([http://www.cyd.liu.se/~freku045/gct/ homepage]) is a GUI enabled commit tool. It has support for both Git and Mercurial.
+    [[(h)gct]] ([http://www.cyd.liu.se/~freku045/gct/ homepage]) by Fredrik Kuivinen is a GUI enabled commit tool. It has support for both Git and Mercurial. Writtent in PyQt.
+
+<b>tig</b> (Text-mode Interface for Git):
+    [[tig]] ([http://jonas.nitro.dk/tig/ homepage]) by Jonas Fonseca is a simple git repository browser written using ncurses. Basically, it just acts as a front-end for `git-log` and `git-show`/`git-diff`. Additionally, you can also use it as a pager for git commands.
 
 = History Visualization =
 
