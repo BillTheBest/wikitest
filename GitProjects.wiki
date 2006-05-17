@@ -14,6 +14,18 @@ If your project is not listed, please add it here.
 
    http://gitweb.freedesktop.org/ (repository, gitweb)
 
+* Cairo
+
+   http://cairographics.org (description)
+
+   http://gitweb.freedesktop.org/ (repository, gitweb)
+
+* The X protocol C-language Binding (XCB)
+
+   http://xcb.freedesktop.org/wiki/ (description)   
+
+   http://gitweb.freedesktop.org/ (repository, gitweb)
+
 * xmms2
 
    http://wiki.xmms2.xmms.se/index.php/Download_XMMS2 (description)
