@@ -1,21 +1,21 @@
 = Other programs that *should* be taught to work with Git, but haven't been =
 
-<b>DVC (Distributed Version Control)</b> (Emacs interface)::
-    [http://download.gna.org/dvc/ DVC] is a project to create a generic library for fancy Emacs interfaces to modern version control systems. Has support for several systems, but not Git -- yet. <i>(emacs, elisp)</i>
-
 <b>Trac</b> (bugtracker/wiki/history browser)::
-    [http://trac.edgewall.com/ Trac] is a popular integrated history browser/wiki/bug tracker, which has very recently grown a plugin interface that lets it work with VCS-es besides Subversion. The right place to start is probably the [http://projects.edgewall.com/trac/wiki/TracMercurial [[TracMercurial]] plugin], since Mercurial uses the same history model as Git. <i>(python)</i>
+    [http://www.edgewall.com/trac/ Trac] is a popular integrated history browser/wiki/bug tracker, which has very recently grown a plugin interface that lets it work with VCS-es besides Subversion. The right place to start is probably the [http://projects.edgewall.com/trac/wiki/TracMercurial [[TracMercurial]] plugin], since Mercurial uses the same history model as Git. <i>(Python)</i>
+
+<b>DVC (Distributed Version Control)</b> (Emacs interface)::
+    [http://download.gna.org/dvc/ DVC] is a project to create a generic library for fancy Emacs interfaces to modern version control systems. Has support for several systems, but not Git -- yet. <i>(Emacs, elisp)</i>
 
 <b>Eclipse</b> (IDE):: 
-    [http://eclipse.org/ Eclipse] -- a well known, extremely pluggable IDE. Might be useful to look at the [http://eclipsedarcs.org/doku.php Darcs plugin] or [http://www.eclipse.org/community/team.php other existing VCS] plugins. Currently one can work with Eclipse using CVS plugin and `git-cvsserver`. One wonders if one can use `git-svn` and [http://subclipse.tigris.org/ Subclipse] (Subversion plugin) instead... <i>(java)</i>
+    [http://www.eclipse.org/ Eclipse] -- a well known, extremely pluggable IDE. Might be useful to look at the [http://eclipsedarcs.org/doku.php Darcs plugin] or [http://www.eclipse.org/community/team.php other existing VCS] plugins. Currently one can work with Eclipse using CVS plugin and `git-cvsserver`. One wonders if one can use `git-svn` and [http://subclipse.tigris.org/ Subclipse] (Subversion plugin) instead... <i>(Java)</i>
 
 <b>PIDA</b> (IDE)::
-    [http://pida.berlios.de/ PIDA] Integrated development environment supporting CVS, Subversion, Darcs, Mercurial, Monotone, Bazaar-NG (<i>bzr</i>), GNU Arch. It allows embedding Vim or any editor. <i>(python, GTK)</i>
+    [http://pida.berlios.de/ PIDA] Integrated development environment supporting CVS, Subversion, Darcs, Mercurial, Monotone, Bazaar-NG (<i>bzr</i>), GNU Arch. It allows embedding Vim or any editor. <i>(Python, GTK)</i>
 
 <b>Eric3</b> (IDE)::
-    [http://www.die-offenbachs.de/detlev/eric3.html Eric3] is a full featured Python (and Ruby) IDE that is written in [[PyQt]] using the QScintilla editor widget. It supports CVS, Subversion and Mercurial. <i>(python, Qt)</i>
+    [http://www.die-offenbachs.de/detlev/eric3.html Eric3] is a full featured Python (and Ruby) IDE that is written in [[PyQt]] using the QScintilla editor widget. It supports CVS, Subversion and Mercurial. <i>(Python, Qt)</i>
 
 <b>Meld</b> (merge tool)::
-    [http://meld.sourceforge.net/ Meld] is a general diff, merge, and history browsing tool written in Python for GNOME. Has CVS, Subversion, Bazaar-NG and Monotone support. Perhaps [http://kdiff3.sourceforge.net/ KDiff3] should also have some VCS support... <i>(python, GNOME)</i>
+    [http://meld.sourceforge.net/ Meld] is a general diff, merge, and history browsing tool written in Python for GNOME. Has CVS, Subversion, Bazaar-NG and Monotone support. Perhaps [http://kdiff3.sourceforge.net/ KDiff3] should also have some VCS support... <i>(Python, GNOME)</i>
 
 __NOTOC__
