@@ -6,7 +6,7 @@
  <span style="font-size: smaller">Bugzilla, Bonsai, Trac, TWiki, SCMBug, Savane, GForge, DVC, Eclipse, PIDA, Eric3, Meld, KDiff3 (?).</span>
 ----
 
-<b>Bugzilla</b> (bugtracker)::
+<b>Bugzilla</b> (bugtracker):: <span style="font-size: x-large; color: red">!</span>
     [http://www.bugzilla.org/ Bugzilla] is a "Defect Tracking System" or "Bug-Tracking System".  [http://bugzilla.kernel.org/ Kernel Bug Tracker] for posting bugs against the mainline Linux kernels is based on Bugzilla.
 
     Patch Viewer is (built in?) an enhancement to Bugzilla designed to provide adequate context for submitted patches through integration with [http://www.mozilla.org/projects/bonsai/ Bonsai], [http://lxr.sourceforge.net/ LXR] and CVS. [http://www.cvszilla.org/ CVSZilla] is a small piece of Perl-glue to integrate either CVS or Subversion with Bugzilla and CVSWeb or ViewCVS. <b>See also:</b> SCMBug entry below.
