@@ -13,7 +13,7 @@
     [http://pida.berlios.de/ PIDA] Integrated development environment supporting CVS, Subversion, Darcs, Mercurial, Monotone, Bazaar-NG (<i>bzr</i>), GNU Arch. It allows embedding Vim or any editor. <i>(Python, GTK)</i>
 
 <b>Eric3</b> (IDE)::
-    [http://www.die-offenbachs.de/detlev/eric3.html Eric3] is a full featured Python (and Ruby) IDE that is written in [[PyQt]] using the QScintilla editor widget. It supports CVS, Subversion and Mercurial. <i>(Python, Qt)</i>
+    [http://www.die-offenbachs.de/detlev/eric3.html Eric3] is a full featured Python (and Ruby) IDE that is written in PyQt using the QScintilla editor widget. It supports CVS, Subversion and Mercurial. <i>(Python, Qt)</i>
 
 <b>Meld</b> (merge tool)::
     [http://meld.sourceforge.net/ Meld] is a general diff, merge, and history browsing tool written in Python for GNOME. Has CVS, Subversion, Bazaar-NG and Monotone support. Perhaps [http://kdiff3.sourceforge.net/ KDiff3] should also have some VCS support... <i>(Python, GNOME)</i>
