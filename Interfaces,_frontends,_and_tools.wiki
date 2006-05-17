@@ -7,7 +7,10 @@
 <<<!-- ! TOC here -->(2)>>
 -~
 ----
-<b>See also:</b> [[InterfacesFrontendsAndToolsWishlist]]
+
+<b>See also:</b> 
+* [[InterfacesFrontendsAndToolsWishlist]] 
+* [http://git.or.cz/tools.html Git - Related Tools] (at Git homepage)
 
 = Version Control Interface layers =
 
