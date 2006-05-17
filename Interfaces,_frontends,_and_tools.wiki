@@ -12,7 +12,9 @@
 * [[InterfacesFrontendsAndToolsWishlist]] 
 * [http://git.or.cz/tools.html Git - Related Tools] (at Git homepage)
 
-= Version Control Interface layers =
+= Frontends and Interfaces =
+
+== Version Control Interface layers ==
 
 <b><u>Core Git</u></b> (in distribution)::
     Core Git contains a set of script on the top of [[Git]] plumbing, providing version control system interface, distributed along the Git itself. It is quite powerful, but rather unfriendly.
@@ -27,7 +29,7 @@
 <b>Patchy Git (pg)</b>::
     [[pg]] ([http://www.spearce.org/category/projects/scm/pg/ homepage]) by Shawn Pearce aims to help the user manage a set of patches on top of the current branch. pg is somewhat like Quilt or StGIT, but it does have a slightly different feature set.
 
-= Graphical Interfaces =
+== Graphical Interfaces ==
 
 <b>(h)gct</b>::
     [[(h)gct]] ([http://www.cyd.liu.se/~freku045/gct/ homepage]) by Fredrik Kuivinen is a GUI enabled commit tool. It has support for both Git and Mercurial. Writtent in PyQt.
@@ -35,7 +37,7 @@
 <b>tig</b> (Text-mode Interface for Git):
     [[tig]] ([http://jonas.nitro.dk/tig/ homepage]) by Jonas Fonseca is a simple git repository browser written using ncurses. Basically, it just acts as a front-end for `git-log` and `git-show`/`git-diff`. Additionally, you can also use it as a pager for git commands.
 
-= History Visualization =
+== History Visualization ==
 
 <b><u>gitk</u></b> (distributed with Git)::
     [[gitk]] is a simple Tcl/Tk GUI for browsing history of Git repositories easily, distributed with Git.
@@ -46,7 +48,7 @@
 <b>gitview</b> (in `contrib/`)::
      [[GitView]] is a GTK based repository browser for git written in Python by Aneesh Kumar K.V. It  can be found in `contrib/` directory of Git source tree.
 
-= Web Interface =
+== Web Interface ==
 
 <b>gitweb</b>::
     [[gitweb]] provides full-fledged web interface for Git repositories. It is written in Perl and maintained by Kay Sievers. Used at [http://www.kernel.org/git/ kernel.org].
@@ -57,7 +59,9 @@
 <b>gittracker</b>::
     [http://www.tglx.de/cgi-bin/gittracker/about git tracker] by Thomas Gleixner is a GPL licenced project to track the history of Git repositories.
 
-= Editors and Integrated Development Environments =
+= Tools =
+
+== Editors and IDE integration ==
 
 <b>Emacs integration</b> (in `contrib/`)::
     Preliminary Emacs mode for Git from Alexandre Julliard (in `contrib/emacs` directory) consist of `git.el` which is project tree browser similar to pcl-cvs, and `vc-git.el` which is VC backend.<<BR>>
@@ -66,7 +70,7 @@
 
     <b>See also:</b> [[EmacsWiki/[[CategoryVersionControl]]|[[CategoryVersionControl]]] on [[EmacsWiki]]].
 
-= Interaction with other Revision Control Systems =
+== Interaction with other Revision Control Systems ==
 
 <b>Built-in import</b> (built in)::
     Core Git contains `git-xxximport` commands for importing from other systems: [http://www.gnu.org/software/gnu-arch/ GNU Arch] (`tla`), [http://www.nongnu.org/cvs/ CVS] (needs `cvsps`) and [http://subversion.tigris.org/ Subversion] (using `SVN::Perl` module); [https://savannah.nongnu.org/projects/quilt/ Quilt] import is in the works.
@@ -86,7 +90,7 @@
 <b>Tailor</b>::
     [http://www.darcs.net/DarcsWiki/Tailor Tailor] is an any-to-any version control system converter, with support for most free SCM. It was written by Lele and it is implemented in Python. Note that you need [http://www.darcs.net/DarcsWiki/Tailor/[[VersionOne]] /[[VersionOne]]], and it supports Git as target system only. Note also that as of 2006-02-21, it only supports linear histories and no branches.
 
-= Other tools =
+== Other tools ==
 
 <b>colordiff</b> (in `contrib/`)::
     [http://colordiff.sourceforge.net/ colordiff] by Dave Ewart (version modified specifically for Git is available in `contrib/`) is a wrapper/replacement for 'diff' producing colourful output. You can use it by assigning a filter to the environment variable, like so:
