@@ -1,3 +1,5 @@
+<b>See also:</b> [[InterfacesFrontendsAndTools]]
+
 = Other programs that *should* be taught to work with Git, but haven't been =
 
 <b>Trac</b> (bugtracker/wiki/history browser)::
