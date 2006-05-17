@@ -53,7 +53,11 @@ def syntax(highlight):
 
 [[git|the best thing]]
 
-[[HelpOnEditing]] [[MoinMoin]]:[[InterWiki]] 
+[[HelpOnEditing]] 
+
+<b>InterWiki</b> links:
+* <code><nowiki>[[MoinMoin]]:[[InterWiki]]</nowiki></code> -> [[MoinMoin]]:[[InterWiki]]
+* <code><nowiki>[[MoinMoin:[[InterWiki]]|[[InterWiki]]] on [[MoinMoin]]]</nowiki></code> -> [[MoinMoin:[[InterWiki]]|[[InterWiki]]] on [[MoinMoin]]]
 
 http://moinmoin.wikiwikiweb.de/ [http://www.python.org/ Python]
 
