@@ -1,6 +1,6 @@
 <b>Cogito</b> (originally git-pasky) is a [[revision control system]] layered on top of [[Git]].  It is historically the first Git frontend, which appeared in April 2005, just days after Git itself.  While Git was initially meant just as the low-level interface, Cogito started with the stated goal of becoming a user-friendly frontend.
 
-Cogito has significantly less sub-commands compared to Git, in line with its purpose to present a simple user interface sufficient for common workflows.  As of May [[2006]], Cogito has only 41 sub-commands, compared to Git's 119.  Some features that started in Cogito migrated later to Git, making Git more suitable for standalone use.
+Cogito has significantly less sub-commands compared to Git, in line with its purpose to present a simple user interface sufficient for common workflows.  As of May 2006, Cogito has only 41 sub-commands, compared to Git's 119.  Some features that started in Cogito migrated later to Git, making Git more suitable for standalone use.
 
 Cogito is generally considered to be more familiar to people used to working with other [[SCM]] tools like [[CVS]] and [[Subversion]], although it still follows the model of distributed development used by Git.
 
@@ -17,7 +17,6 @@ Cogito is implemented a set of [[Bash]] scripts (unlike Git, which is written mo
 == External links ==
 * http://www.kernel.org/pub/software/scm/cogito/
 
-[[Category:Free version control systems]]
 ----
 [[CategoryHomepage]]
 
