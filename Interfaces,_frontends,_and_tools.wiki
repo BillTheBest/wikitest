@@ -2,12 +2,15 @@
  -->
 <!-- #language en
  -->
-----
-~-
+-----
+<!-- ## reducing font size doesn't work with 2-level table of contents
+ -->
+<b>Table of contents:</b>
 <<<!-- ! TOC here -->(2)>>
--~
 ----
-
+<b>List of tools:</b>
+ <span style="font-size: smaller">[[#Cogito Cogito]], [[#StGIT StGIT]], [[#pg pg]], [[#hgct (h)gct]], [[#tig tig]], [[#gitk gitk]], [[#qgit QGit]], [[#gitview GitView]], [[#gitweb gitweb]], [[#wit wit]], [[#gittracker gittracker]], [[#git.el git.el]], [[#git-xxximport other SCM import]], [[#git-cvsserver git-cvsserver]], [[#git-svn git-svn]], [[#parsecvs parsecvs]], [[#git-svnconvert git-svnconvert]], [[#Tailor Tailor]], [[#colordiff colordiff]], [[#completion completion]], [[#remapper remapper]], [[#gitfs gitfs]]</span>
+-----
 <b>See also:</b> 
 * [[InterfacesFrontendsAndToolsWishlist]] 
 * [http://git.or.cz/tools.html Git - Related Tools] (at Git homepage)
@@ -19,51 +22,51 @@
 <b><u>Core Git</u></b> (in distribution)::
     Core Git contains a set of script on the top of [[Git]] plumbing, providing version control system interface, distributed along the Git itself. It is quite powerful, but rather unfriendly.
 
-<b>Cogito</b>::
+<b>Cogito</b><<Anchor(Cogito)>>::
     [[Cogito]] is the most popular version control system on top of Git. It aims at seamless user interface and ease of use, providing generally smoother user experience than the "raw" Git interface and indeed also many other version control systems.
 
-<b>StGIT (Stacked Git)</b>::
+<b>StGIT (Stacked Git)</b><<Anchor(StGIT)>>::
     [[StGIT]] ([http://www.procode.org/stgit/ homepage]) provides a Quilt-like patch management functionality (i.e. pushing/popping patches to/from a stack) in the Git environment. You can easily manage your patches in the scope of Git until they get merged upstream. <<BR>>
     <b>See also</b>: [http://savannah.nongnu.org/projects/quilt/ Quilt project page].
 
-<b>Patchy Git (pg)</b>::
+<b>Patchy Git (pg)</b><<Anchor(pg)>>::
     [[pg]] ([http://www.spearce.org/category/projects/scm/pg/ homepage]) by Shawn Pearce aims to help the user manage a set of patches on top of the current branch. pg is somewhat like Quilt or StGIT, but it does have a slightly different feature set.
 
 == Graphical Interfaces ==
 
-<b>(h)gct</b>::
+<b>(h)gct</b><<Anchor(hgct)>>::
     [[(h)gct]] ([http://www.cyd.liu.se/~freku045/gct/ homepage]) by Fredrik Kuivinen is a GUI enabled commit tool. It has support for both Git and Mercurial. Writtent in PyQt.
 
-<b>tig</b> (Text-mode Interface for Git):
+<b>tig (Text-mode Interface for Git)</b><<Anchor(tig)>>::
     [[tig]] ([http://jonas.nitro.dk/tig/ homepage]) by Jonas Fonseca is a simple git repository browser written using ncurses. Basically, it just acts as a front-end for `git-log` and `git-show`/`git-diff`. Additionally, you can also use it as a pager for git commands.
 
 == History Visualization ==
 
-<b><u>gitk</u></b> (distributed with Git)::
+<b><u>gitk</u></b> (distributed with Git)<<Anchor(gitk)>>::
     [[gitk]] is a simple Tcl/Tk GUI for browsing history of Git repositories easily, distributed with Git.
 
-<b>QGit</b>::
+<b>QGit</b><<Anchor(qgit)>>::
      [[QGit]] ([http://digilander.libero.it/mcostalba/ homepage]) is a Qt GUI for browsing history of Git repositories, similar to gitk.
 
-<b>gitview</b> (in `contrib/`)::
+<b>gitview</b> (in `contrib/`)<<Anchor(gitview)>>::
      [[GitView]] is a GTK based repository browser for git written in Python by Aneesh Kumar K.V. It  can be found in `contrib/` directory of Git source tree.
 
 == Web Interface ==
 
-<b>gitweb</b>::
+<b>gitweb</b><<Anchor(gitview)>>::
     [[gitweb]] provides full-fledged web interface for Git repositories. It is written in Perl and maintained by Kay Sievers. Used at [http://www.kernel.org/git/ kernel.org].
 
-<b>wit</b>::
+<b>wit</b><<Anchor(wit)>>::
     [[wit]] ([http://www.grmso.net:8090/ homepage]) is a Python implementation maintained by Christian Meder.
 
-<b>gittracker</b>::
+<b>gittracker</b><<Anchor(gittracker)>>::
     [http://www.tglx.de/cgi-bin/gittracker/about git tracker] by Thomas Gleixner is a GPL licenced project to track the history of Git repositories.
 
 = Tools =
 
 == Editors and IDE integration ==
 
-<b>Emacs integration</b> (in `contrib/`)::
+<b>Emacs integration</b> (in `contrib/`)<<Anchor(git.el)>>::
     Preliminary Emacs mode for Git from Alexandre Julliard (in `contrib/emacs` directory) consist of `git.el` which is project tree browser similar to pcl-cvs, and `vc-git.el` which is VC backend.<<BR>>
 
     There is also a project,  [http://download.gna.org/dvc/ DVC] (Distributed Version Control), by the authors of Xtla, to create a generic library for fancy Emacs interfaces to modern version control systems. Currently it supports [http://www.gnu.org/software/gnu-arch/ GNU Arch] (<i>tla</i>) and [http://freshmeat.net/projects/baz/ Bazaar] (<i>baz</i>), and has initial support for [http://bazaar-vcs.org/ Bazaar-NG] (<i>bzr</i>) and [http://www.selenic.com/mercurial/ Mercurial] (<i>xhg</i>).
@@ -72,38 +75,38 @@
 
 == Interaction with other Revision Control Systems ==
 
-<b>Built-in import</b> (built in)::
+<b>Built-in import</b> (built in)<<Anchor(git-xxximport)>>::
     Core Git contains `git-xxximport` commands for importing from other systems: [http://www.gnu.org/software/gnu-arch/ GNU Arch] (`tla`), [http://www.nongnu.org/cvs/ CVS] (needs `cvsps`) and [http://subversion.tigris.org/ Subversion] (using `SVN::Perl` module); [https://savannah.nongnu.org/projects/quilt/ Quilt] import is in the works.
 
-<b>git-cvsserver</b> (built in)::
+<b>git-cvsserver</b> (built in)<<Anchor(git-cvsserver)>>::
     `git-cvsserver` is a CVS emulation layer for git. It is highly functional; the mapping is bidirectional, so people who like cvs, can do both checkout and commit using cvs, and it shows up in git. However, not all methods are implemented, and for those methods that are implemented, not all switches are implemented. Testing has been done using both the CLI CVS client, and the Eclipse CVS plugin. Most functionality works fine with both of these clients.
 
-<b>git-svn</b> (in `contrib/`)::
+<b>git-svn</b> (in `contrib/`)<<Anchor(git-svn)>>::
     [http://git-svn.yhbt.net/ git-svn], written by Eric Wong, is a simple conduit for bidirectional operation between a <i>single</i> Subversion branch and git. It is designed for developers who wish to contribute to projects that use Subversion, but would rather be using git.
 
-<b>parsecvs</b>::
+<b>parsecvs</b><<Anchor(parsecvs)>>::
     [http://gitweb.freedesktop.org/?p=users-keithp-parsecvs;a=summary parsecvs] by Keith Packard is a C-based CVS file parser and Git import tool. It directly reads RCS ,v files (you can get them using CVSsuck if you don't have access to $CVSROOT) and generates a git-style rev-list structure from them.
 
-<b>git-svnconvert</b>::
+<b>git-svnconvert</b><<Anchor(git-svnconvert)>>::
     git-svnconvert, written by Rutger Nijlunsing in Ruby, appeared only on git mailing list in post [http://marc.theaimsgroup.com/?l=git&m=114460050718696 |ANNOUNCE| git-svnconvert: YASI (Yet Another SVN importer)].
 
-<b>Tailor</b>::
+<b>Tailor</b><<Anchor(Tailor)>>::
     [http://www.darcs.net/DarcsWiki/Tailor Tailor] is an any-to-any version control system converter, with support for most free SCM. It was written by Lele and it is implemented in Python. Note that you need [http://www.darcs.net/DarcsWiki/Tailor/[[VersionOne]] /[[VersionOne]]], and it supports Git as target system only. Note also that as of 2006-02-21, it only supports linear histories and no branches.
 
 == Other tools ==
 
-<b>colordiff</b> (in `contrib/`)::
+<b>colordiff</b> (in `contrib/`)<<Anchor(colordif)>>::
     [http://colordiff.sourceforge.net/ colordiff] by Dave Ewart (version modified specifically for Git is available in `contrib/`) is a wrapper/replacement for 'diff' producing colourful output. You can use it by assigning a filter to the environment variable, like so:
     <pre><nowiki>
 export GIT_DIFF_PAGER="colordiff | less -RS"</nowiki></pre>
 
-<b>gitcompletion</b> and <b>generate-completions</b>::
+<b>gitcompletion</b> and <b>generate-completions</b><<Anchor(completion)>>::
     [http://www.hawaga.org.uk/ben/tech/gitcompletion/ gitcompletion] ([http://www.hawaga.org.uk/gitcompletion.git/ git repository]) by Ben Clifford is bash tab-completion for Git, gitk, Cogito (<i>cg</i>) and StGIT (<i>stg</i>). Cogito has the cogito bits of the above already included. There is also `generate-completions.sh` by Johannes Schindelin, available on git mailing list archive [http://marc.theaimsgroup.com/?l=git&m=114515313911717 |FYI| generated completions]. <span style="font-size: smaller">Yet another StGIT completions by Paolo Giarrusso, aka Blaisorblade are available at  [http://marc.theaimsgroup.com/?l=git&m=113025114026388 Re: latest stg/git commandline completions code]</span>.
 
-<b>log remapper</b>::
+<b>log remapper</b><<Anchor(remapper)>>::
     [http://www.linux.org.uk/pub/people/viro/remapper/ remapper] by Al Viro, announced in [http://marc.theaimsgroup.com/?l=git&m=114756555630327 Re: |RFC| Add "rcs format diff" support], is a tool to (re)map position (file name and line number) in one revision to corresponding position (file name and line number) in other revision.  E.g. user sends report "linux-2.6.16 with configuration XYZZY fails to compile with: `arch/wii/kernel/l33t.c:42:parse error`" and with the remap tool you can map the error report to the current commit's state, when that bit of code got moved around to `drivers/input/wii/l33tcontrol.c:31337`.  It also already very useful for log comparison, with the noise due to line number changes excluded.   Note that it's not just for build logs; the thing is useful for sparse logs, grep -n output, etc., etc.
 
-<b>gitfs</b>::
+<b>gitfs</b><<Anchor(gitfs)>>::
     [http://www.sfgoth.com/~mitch/linux/gitfs/ GitFS] is a FUSE-based filesystem for working with source trees stored in git repositories.  The eventual goal is to provide a convenient way to work with lots of branches and patches.  Currently (pre-release version 0.03) only very basic  functionality is implemented - read-only access to the existing tags and objects.
 
 __NOTOC__
