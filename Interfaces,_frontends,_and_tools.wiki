@@ -9,7 +9,7 @@
 <<<!-- ! TOC here -->(2)>>
 ----
 <b>List of tools:</b>
- <span style="font-size: smaller">[[#Cogito Cogito]], [[#StGIT StGIT]], [[#pg pg]], [[#hgct (h)gct]], [[#tig tig]], [[#gitk gitk]], [[#qgit QGit]], [[#gitview GitView]], [[#gitweb gitweb]], [[#wit wit]], [[#gittracker gittracker]], [[#git.el git.el]], [[#git-xxximport other SCM import]], [[#git-cvsserver git-cvsserver]], [[#git-svn git-svn]], [[#parsecvs parsecvs]], [[#git-svnconvert git-svnconvert]], [[#Tailor Tailor]], [[#colordiff colordiff]], [[#completion completion]], [[#remapper remapper]], [[#gitfs gitfs]]</span>
+ <span style="font-size: smaller">[[#Cogito Cogito]], [[#StGIT StGIT]], [[#pg pg]], [[#hgct (h)gct]], [[#tig tig]], [[#qgit QGit]], [[#gitk gitk]], [[#gitview GitView]], [[#gitweb gitweb]], [[#wit wit]], [[#gittracker gittracker]], [[#git.el git.el]], [[#git-xxximport other SCM import]], [[#git-cvsserver git-cvsserver]], [[#git-svn git-svn]], [[#parsecvs parsecvs]], [[#git-svnconvert git-svnconvert]], [[#Tailor Tailor]], [[#colordiff colordiff]], [[#completion completion]], [[#remapper remapper]], [[#gitfs gitfs]]</span>
 -----
 <b>See also:</b> 
 * [[InterfacesFrontendsAndToolsWishlist]] 
@@ -32,7 +32,7 @@
 <b>Patchy Git (pg)</b><<Anchor(pg)>>::
     [[pg]] ([http://www.spearce.org/category/projects/scm/pg/ homepage]) by Shawn Pearce aims to help the user manage a set of patches on top of the current branch. pg is somewhat like Quilt or StGIT, but it does have a slightly different feature set.
 
-== Graphical Interfaces ==
+== Graphical Interfaces and History Viewers ==
 
 <b>(h)gct</b><<Anchor(hgct)>>::
     [[(h)gct]] ([http://www.cyd.liu.se/~freku045/gct/ homepage]) by Fredrik Kuivinen is a GUI enabled commit tool. It has support for both Git and Mercurial. Writtent in PyQt.
@@ -41,7 +41,7 @@
     [[tig]] ([http://jonas.nitro.dk/tig/ homepage]) by Jonas Fonseca is a simple git repository browser written using ncurses. Basically, it just acts as a front-end for `git-log` and `git-show`/`git-diff`. Additionally, you can also use it as a pager for git commands.
 
 <b>QGit</b><<Anchor(qgit)>>::
-     [[QGit]] ([http://digilander.libero.it/mcostalba/ homepage]) is a Qt GUI for browsing the history of Git repositories. It also acts as a commit tool, like gct.
+     [[QGit]] ([http://digilander.libero.it/mcostalba/ homepage]) is a Qt GUI for browsing the history of Git repositories, similar to gitk. It also acts as a commit tool, like (h)gct.
 
 <b><u>gitk</u></b> (distributed with Git)<<Anchor(gitk)>>::
     [[gitk]] is a simple Tcl/Tk GUI for browsing history of Git repositories easily, distributed with Git.
