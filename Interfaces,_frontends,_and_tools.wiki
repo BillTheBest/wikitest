@@ -40,13 +40,11 @@
 <b>tig (Text-mode Interface for Git)</b><<Anchor(tig)>>::
     [[tig]] ([http://jonas.nitro.dk/tig/ homepage]) by Jonas Fonseca is a simple git repository browser written using ncurses. Basically, it just acts as a front-end for `git-log` and `git-show`/`git-diff`. Additionally, you can also use it as a pager for git commands.
 
-== History Visualization ==
+<b>QGit</b><<Anchor(qgit)>>::
+     [[QGit]] ([http://digilander.libero.it/mcostalba/ homepage]) is a Qt GUI for browsing the history of Git repositories. It also acts as a commit tool, like gct.
 
 <b><u>gitk</u></b> (distributed with Git)<<Anchor(gitk)>>::
     [[gitk]] is a simple Tcl/Tk GUI for browsing history of Git repositories easily, distributed with Git.
-
-<b>QGit</b><<Anchor(qgit)>>::
-     [[QGit]] ([http://digilander.libero.it/mcostalba/ homepage]) is a Qt GUI for browsing history of Git repositories, similar to gitk.
 
 <b>gitview</b> (in `contrib/`)<<Anchor(gitview)>>::
      [[GitView]] is a GTK based repository browser for git written in Python by Aneesh Kumar K.V. It  can be found in `contrib/` directory of Git source tree.
