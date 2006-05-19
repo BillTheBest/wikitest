@@ -111,4 +111,7 @@ export GIT_DIFF_PAGER="colordiff | less -RS"</nowiki></pre>
 <b>gitfs</b><<Anchor(gitfs)>>::
     [http://www.sfgoth.com/~mitch/linux/gitfs/ GitFS] is a FUSE-based filesystem for working with source trees stored in git repositories.  The eventual goal is to provide a convenient way to work with lots of branches and patches.  Currently (pre-release version 0.03) only very basic  functionality is implemented - read-only access to the existing tags and objects.
 
+----
+[[CategoryTools]]
+
 __NOTOC__
