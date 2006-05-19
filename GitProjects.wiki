@@ -44,4 +44,12 @@ If your project is not listed, please add it here.
 
    http://www.denx.de/cgi-bin/gitweb.cgi?p=u-boot.git;a=summary (gitweb)
 
+* ELinks
+
+   http://elinks.cz/ (description)
+
+   http://elinks.cz/elinks.git (repository, Cogito managed)
+
+   http://pasky.or.cz/gitweb.cgi?p=elinks.git;a=summary (gitweb)
+
 __NOTOC__
