@@ -9,7 +9,7 @@
 <<<!-- ! TOC here -->(2)>>
 ----
 <b>List of tools:</b>
- <span style="font-size: smaller">[[#Cogito Cogito]], [[#StGIT StGIT]], [[#pg pg]], [[#hgct (h)gct]], [[#tig tig]], [[#qgit QGit]], [[#gitk gitk]], [[#gitview GitView]], [[#gitweb gitweb]], [[#wit wit]], [[#gittracker gittracker]], [[#git.el git.el]], [[#git-xxximport other SCM import]], [[#git-cvsserver git-cvsserver]], [[#git-svn git-svn]], [[#parsecvs parsecvs]], [[#git-svnconvert git-svnconvert]], [[#Tailor Tailor]], [[#colordiff colordiff]], [[#completion completion]], [[#ciabot CIAbot]], [[#remapper remapper]], [[#gitfs gitfs]]</span>
+ <span style="font-size: smaller">[[#Cogito Cogito]], [[#StGIT StGIT]], [[#pg pg]], [[#hgct (h)gct]], [[#tig tig]], [[#qgit QGit]], [[#gitk gitk]], [[#gitview GitView]], [[#gitweb gitweb]], [[#wit wit]], [[#gittracker gittracker]], [[#git.el git.el]], [[#git-xxximport other SCM import]], [[#git-cvsexportcommit git-cvsexportcommit]], [[#git-cvsserver git-cvsserver]], [[#git-svn git-svn]], [[#parsecvs parsecvs]], [[#git-svnconvert git-svnconvert]], [[#Tailor Tailor]], [[#colordiff colordiff]], [[#completion completion]], [[#ciabot CIAbot]], [[#remapper remapper]], [[#gitfs gitfs]]</span>
 -----
 <b>See also:</b> 
 * [[InterfacesFrontendsAndToolsWishlist]] 
@@ -75,6 +75,9 @@
 
 <b>Built-in import</b> (built in)<<Anchor(git-xxximport)>>::
     Core Git contains `git-xxximport` commands for importing from other systems: [http://www.gnu.org/software/gnu-arch/ GNU Arch] (`tla`), [http://www.nongnu.org/cvs/ CVS] (needs `cvsps`) and [http://subversion.tigris.org/ Subversion] (using `SVN::Perl` module); [https://savannah.nongnu.org/projects/quilt/ Quilt] import is in the works.
+
+<b>git-cvsexportcommit</b> (built in)<<Anchor(git-cvsexportcommit)>>::
+    `git-cvsexportcommit` exports a commit from Git to a CVS checkout, making it easier to merge patches from a git repository into a CVS repository. Supports file additions, removals, and commits that affect binary files.
 
 <b>git-cvsserver</b> (built in)<<Anchor(git-cvsserver)>>::
     `git-cvsserver` is a CVS emulation layer for git. It is highly functional; the mapping is bidirectional, so people who like cvs, can do both checkout and commit using cvs, and it shows up in git. However, not all methods are implemented, and for those methods that are implemented, not all switches are implemented. Testing has been done using both the CLI CVS client, and the Eclipse CVS plugin. Most functionality works fine with both of these clients.
