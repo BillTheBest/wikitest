@@ -3,41 +3,44 @@
 = Other programs that *should* be taught to work with Git, but haven't been =
 
 ----
- <span style="font-size: smaller">Bugzilla, Bonsai, Trac, TWiki, SCMBug, Savane, GForge, DVC, Eclipse, PIDA, Eric3, Meld, KDiff3 (?).</span>
+ <span style="font-size: smaller">[[#Bugzilla Bugzilla]], [[#Bonsai Bonsai]], [[#Trac Trac]], [[#TWiki TWiki]], [[#scmbug SCMBug]], [[#Savane Savane]], [[#GForge GForge]], [[#DVC DVC (Emacs)]], [[#Eclipse Eclipse]], [[#PIDA PIDA]], [[#Eric3 Eric3]], [[#Meld Meld]]</span>
 ----
 
-<b>Bugzilla</b> (bugtracker):: <span style="font-size: x-large; color: red">!</span>
+<b>Bugzilla</b> (bugtracker)<<Anchor(Bugzilla)>><<Anchor(Bonsai)>>:: <span style="font-size: x-large; color: red">!</span>
     [http://www.bugzilla.org/ Bugzilla] is a "Defect Tracking System" or "Bug-Tracking System".  [http://bugzilla.kernel.org/ Kernel Bug Tracker] for posting bugs against the mainline Linux kernels is based on Bugzilla.
 
     Patch Viewer is (built in?) an enhancement to Bugzilla designed to provide adequate context for submitted patches through integration with [http://www.mozilla.org/projects/bonsai/ Bonsai], [http://lxr.sourceforge.net/ LXR] and CVS. [http://www.cvszilla.org/ CVSZilla] is a small piece of Perl-glue to integrate either CVS or Subversion with Bugzilla and CVSWeb or ViewCVS. <b>See also:</b> SCMBug entry below.
 
     It would be nice to have also Git integration, for example referencing commits and tags, perhaps via making (additionally) Bonsai report against Git. <i>(Perl)</i>
 
-<b>Trac</b> (bugtracker/wiki/history browser)::
+<b>Trac</b> (bugtracker/wiki/history browser)<<Anchor(Trac)>>::
     [http://www.edgewall.com/trac/ Trac] is a popular integrated history browser/wiki/bug tracker, which has very recently grown a plugin interface that lets it work with VCS-es besides Subversion. The right place to start is probably the [http://projects.edgewall.com/trac/wiki/TracMercurial [[TracMercurial]] plugin], since Mercurial uses the same history model as Git. <i>(Python)</i>
 
-<b>TWiki</b> (wiki)::
+<b>TWiki</b> (wiki)<<Anchor(TWiki)>>::
     [http://twiki.org/ TWiki] is a flexible, powerful, and easy to use enterprise collaboration platform and knowledge management system. It includes plugins for integration with bug-tracking software: Bugzilla and GNATS. Plugins are developed under CVS and Subversion; moving to Subversion is encouraged. No support for plugin development under Git. <i>(Perl CGI)</i>
 
-<b>SCMBug</b> (SCM with bugtracking integration)::
+<b>SCMBug</b> (SCM with bugtracking integration)<<Anchor(scmbug)>>::
     [http://www.mkgnu.net/?q=scmbug Scmbug] is a system that integrates software configuration management (SCM) with bug-tracking. It aims to be a universal tool that will glue any source code version control system (supports CVS and Subversion, no Git support yet) with any bug-tracking system (supports Bugzilla, Mantis and Request Tracker). It is in early version. <i>(Perl)</i>
 
-<b>Savane and GForge</b> (software hosting system)::
+<b>Savane and GForge</b> (software hosting system)<<Anchor(Savane)>><<Anchor(GForge)>>::
     [https://gna.org/projects/savane Savane] and [http://gforge.org/ GForge] are web-based software hosting system. They currently include issue tracking, project member management by roles and individual account maintenance. The issue tracking handles bugs, tasks, support, news and documentation management. Both currently support CVS and Subversion; moving to Subversion is encouraged. No Git support yet (nor any other distributed SCM). <i>(Perl or PHP)</i>
 
-<b>DVC (Distributed Version Control)</b> (Emacs interface)::
+<b>DVC (Distributed Version Control)</b> (Emacs interface)<<Anchor(DVC)>>::
     [http://download.gna.org/dvc/ DVC] is a project to create a generic library for fancy Emacs interfaces to modern version control systems. Has support for several systems, but not Git -- yet. <i>(Emacs, elisp)</i>
 
-<b>Eclipse</b> (IDE):: 
+<b>Eclipse</b> (IDE)<<Anchor(Eclipse)>>:: 
     [http://www.eclipse.org/ Eclipse] -- a well known, extremely pluggable IDE. Might be useful to look at the [http://eclipsedarcs.org/doku.php Darcs plugin] or [http://www.eclipse.org/community/team.php other existing VCS] plugins. Currently one can work with Eclipse using CVS plugin and `git-cvsserver`. One wonders if one can use `git-svn` and [http://subclipse.tigris.org/ Subclipse] (Subversion plugin) instead... <i>(Java)</i>
 
-<b>PIDA</b> (IDE)::
+<b>PIDA</b> (IDE)<<Anchor(PIDA)>>::
     [http://pida.berlios.de/ PIDA] Integrated development environment supporting CVS, Subversion, Darcs, Mercurial, Monotone, Bazaar-NG (<i>bzr</i>), GNU Arch. It allows embedding Vim or any editor. <i>(Python, GTK)</i>
 
-<b>Eric3</b> (IDE)::
+<b>Eric3</b> (IDE)<<Anchor(Eric3)>>::
     [http://www.die-offenbachs.de/detlev/eric3.html Eric3] is a full featured Python (and Ruby) IDE that is written in PyQt using the QScintilla editor widget. It supports CVS, Subversion and Mercurial. <i>(Python, Qt)</i>
 
-<b>Meld</b> (merge tool)::
+<b>Meld</b> (merge tool)<<Anchor(Meld)>>::
     [http://meld.sourceforge.net/ Meld] is a general diff, merge, and history browsing tool written in Python for GNOME. Has CVS, Subversion, Bazaar-NG and Monotone support. Perhaps [http://kdiff3.sourceforge.net/ KDiff3] should also have some VCS support... <i>(Python, GNOME)</i>
+
+----
+[[CategoryTools]]
 
 __NOTOC__
