@@ -5,7 +5,7 @@
 
 A category for git-related tools pages, tools lists and tools comparisons.
 
-To add a page to this category, add a link to this page on the last line of the page. You can add multiple categories to a page.
+To add a page to this category, add a link to this page on the last line of the page (you can do this using "Make this page belong to category" select box). You can add multiple categories to a page.
 
 <b>List of pages in this category:</b>
 
