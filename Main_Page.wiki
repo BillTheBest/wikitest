@@ -23,6 +23,9 @@ webmaster takes patches) and obviously the stock documentation:
 * http://www.kernel.org/pub/software/scm/git/docs
 * http://www.kernel.org/pub/software/scm/cogito/docs
 
+== Getting Help ==
+* See the [[GitCommunity]] page for mailing list and IRC information.
+
 == Interfaces and other Git Tools ==
 
 [[InterfacesFrontendsAndTools]] lists other programs that work with [[Git]]
