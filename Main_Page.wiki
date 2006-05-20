@@ -25,6 +25,7 @@ webmaster takes patches) and obviously the stock documentation:
 
 == Getting Help ==
 * See the [[GitCommunity]] page for mailing list and IRC information.
+* See the [[GitDocumentation]] page for an overview of git related documentation.
 
 == Interfaces and other Git Tools ==
 
