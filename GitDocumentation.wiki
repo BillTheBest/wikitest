@@ -39,6 +39,15 @@ Similarly, Cogito man pages are available from:
 
 * http://www.kernel.org/pub/software/scm/cogito/docs/
 
+= Howtos =
+
+Several howtos exist that describes the workflow for accomplishing
+various specific tasks, such as using the post-update hook to rebuild
+documentation. Note, these are typically derived from discussions
+on the git mailing list and only available in plain text.
+
+* http://kernel.org/pub/software/scm/git/docs/howto/
+
 = Getting and installing documentation =
 
 You can find all the plain text documentation in the git source tree's
