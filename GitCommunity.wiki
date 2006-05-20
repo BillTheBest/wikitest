@@ -18,7 +18,7 @@ to subscribe send an email to:
 With an empty subject line and the words "subscribe git" in the message
 body.
 
-= Mailing List Archives = 
+= Mailing List Archives =
 
 There are several sites that archive all of the mailing list traffic
 so that you can search for discussions that have happened in the past
@@ -30,6 +30,5 @@ or read ongoing threads without subscribing:
 
 For quick questions or just to hang out with fellow git enthusiasts, join
 the #git channel on irc.freenode.net.
-
 
 __NOTOC__
