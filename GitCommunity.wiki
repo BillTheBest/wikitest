@@ -1,0 +1,35 @@
+= Mailing List =
+
+The best place to talk about Git and get questions answered is usually
+the mailing list.  You don't even need to be subscribed to post, just
+send an email to:
+
+   git@vger.kernel.org
+
+You can find more official information about the mailing list here:
+
+   http://vger.kernel.org/vger-lists.html#git
+
+The list volume is pretty low (from a half dozen to 20 posts a day),
+to subscribe send an email to:
+
+   majordomo@vger.kernel.org
+
+With an empty subject line and the words "subscribe git" in the message
+body.
+
+= Mailing List Archives = 
+
+There are several sites that archive all of the mailing list traffic
+so that you can search for discussions that have happened in the past
+or read ongoing threads without subscribing:
+
+* nntp://news.gmane.org/gmane.comp.version-control.git
+
+= IRC =
+
+For quick questions or just to hang out with fellow git enthusiasts, join
+the #git channel on irc.freenode.net.
+
+
+__NOTOC__
