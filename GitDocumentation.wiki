@@ -1,3 +1,6 @@
+<b>Table of contents:</b>
+<<<!-- ! TOC here -->(2)>>
+
 = Getting started =
 
 If you are new to git, here are some essential documents that will
@@ -39,7 +42,7 @@ Similarly, Cogito man pages are available from:
 
 * http://www.kernel.org/pub/software/scm/cogito/docs/
 
-= Howtos =
+= Howtos and technical documents =
 
 Several howtos exist that describes the workflow for accomplishing
 various specific tasks, such as using the post-update hook to rebuild
@@ -47,6 +50,12 @@ documentation. Note, these are typically derived from discussions
 on the git mailing list and only available in plain text.
 
 * http://kernel.org/pub/software/scm/git/docs/howto/
+
+There also exists a handful of technical documents that describes
+lowlevel details on how different parts of git operates. These are
+mostly useful for developers. You can find them in the
+[http://www.kernel.org/git/?p=git/git.git;a=tree;f=Documentation/technical Documentation/technical]
+directory in the git source tree.
 
 = Getting and installing documentation =
 
