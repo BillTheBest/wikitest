@@ -1,6 +1,9 @@
 = Projects that use Git for their source code management. =
 
 If your project is not listed, please add it here.
+
+== Kernel-related projects that use Git for their source code management. ==
+
 * Linux Kernel
 
    http://kernel.org
@@ -8,6 +11,20 @@ If your project is not listed, please add it here.
    http://www.kernel.org/git/?p=linux/kernel/git/torvalds/linux-2.6.git (gitweb)
 
    http://www.kernel.org/git (gitweb of many related kernel projects)
+
+* Linux/MIPS
+
+   http://www.linux-mips.org/wiki/Git (description, includes repository URLs)
+
+   http://www.linux-mips.org/git (gitweb)
+
+* NFS client patches for Linux
+
+   http://linux-nfs.org/ (homepage)
+
+   http://linux-nfs.org/cgi-bin/gitweb.cgi (gitweb)
+
+== Non-kernel projects that use Git for their source code management. ==
 
 * Wine
 
