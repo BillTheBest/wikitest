@@ -1,6 +1,13 @@
-= Non-kernel projects that use Git for their source code management. =
+= Projects that use Git for their source code management. =
 
 If your project is not listed, please add it here.
+* Linux Kernel
+
+   http://kernel.org
+
+   http://www.kernel.org/git/?p=linux/kernel/git/torvalds/linux-2.6.git (gitweb)
+
+   http://www.kernel.org/git (gitweb of many related kernel projects)
 
 * Wine
 
