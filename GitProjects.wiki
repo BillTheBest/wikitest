@@ -5,77 +5,43 @@ If your project is not listed, please add it here.
 == Kernel-related projects that use Git for their source code management. ==
 
 * Linux Kernel
-
-   http://kernel.org
-
-   http://www.kernel.org/git/?p=linux/kernel/git/torvalds/linux-2.6.git (gitweb)
-
+** http://kernel.org
+** http://www.kernel.org/git/?p=linux/kernel/git/torvalds/linux-2.6.git (gitweb)
 * Linux/MIPS
-
-   http://www.linux-mips.org/wiki/Git (description, includes repository URLs)
-
-   http://www.linux-mips.org/git (gitweb)
-
+** http://www.linux-mips.org/wiki/Git (description, includes repository URLs)
+** http://www.linux-mips.org/git (gitweb)
 * NFS client patches for Linux
-
-   http://linux-nfs.org/ (homepage)
-
-   http://linux-nfs.org/cgi-bin/gitweb.cgi (gitweb)
-
-* Many other Linux related projects
-
-   http://www.kernel.org/git (gitweb)
+** http://linux-nfs.org/ (homepage)
+** http://linux-nfs.org/cgi-bin/gitweb.cgi (gitweb)
+* Many other Linux related projects...
+** http://www.kernel.org/git (gitweb)
 
 == Non-kernel projects that use Git for their source code management. ==
 
 * Wine
-
-   http://wiki.winehq.org/[[GitWine]] (description)
-
-   http://source.winehq.org/git/?p=wine.git;a=summary (gitweb)
-
+** http://wiki.winehq.org/[[GitWine]] (description)
+** http://source.winehq.org/git/?p=wine.git;a=summary (gitweb)
 * X.org (some)
-
-   http://freedesktop.org/wiki/[[UsingGit]] (description)
-
-   http://gitweb.freedesktop.org/ (repository, gitweb)
-
+** http://freedesktop.org/wiki/[[UsingGit]] (description)
+** http://gitweb.freedesktop.org/ (repository, gitweb)
 * Cairo
-
-   http://cairographics.org (description)
-
-   http://gitweb.freedesktop.org/ (repository, gitweb)
-
+** http://cairographics.org (description)
+** http://gitweb.freedesktop.org/ (repository, gitweb)
 * The X protocol C-language Binding (XCB)
-
-   http://xcb.freedesktop.org/wiki/ (description)   
-
-   http://gitweb.freedesktop.org/ (repository, gitweb)
-
+** http://xcb.freedesktop.org/wiki/ (description)   
+** http://gitweb.freedesktop.org/ (repository, gitweb)
 * xmms2
-
-   http://wiki.xmms2.xmms.se/index.php/Download_XMMS2 (description)
-
-   http://git.xmms.se/ (repository, gitweb)
-
-* dash (POSIX-compliant shell)
-
-   http://gondor.apana.org.au/~herbert/dash/ (description)
-
-   http://gondor.apana.org.au/~herbert/dash/dash.git/ (repository)
-
-* U-Boot
-
-   http://u-boot.sourceforge.net/ (index page)
-
-   http://www.denx.de/cgi-bin/gitweb.cgi?p=u-boot.git;a=summary (gitweb)
-
+** http://wiki.xmms2.xmms.se/index.php/Download_XMMS2 (description)
+** http://git.xmms.se/ (repository, gitweb)
 * ELinks
-
-   http://elinks.cz/ (description)
-
-   http://elinks.cz/elinks.git (repository, Cogito managed)
-
-   http://pasky.or.cz/gitweb.cgi?p=elinks.git;a=summary (gitweb)
+** http://elinks.cz/ (description)
+** http://elinks.cz/elinks.git (repository, Cogito managed)
+** http://pasky.or.cz/gitweb.cgi?p=elinks.git;a=summary (gitweb)
+* dash (POSIX-compliant shell)
+** http://gondor.apana.org.au/~herbert/dash/ (description)
+** http://gondor.apana.org.au/~herbert/dash/dash.git/ (repository)
+* U-Boot
+** http://u-boot.sourceforge.net/ (index page)
+** http://www.denx.de/cgi-bin/gitweb.cgi?p=u-boot.git;a=summary (gitweb)
 
 __NOTOC__
