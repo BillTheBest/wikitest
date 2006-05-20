@@ -43,5 +43,8 @@ If your project is not listed, please add it here.
 * U-Boot
 ** http://u-boot.sourceforge.net/ (index page)
 ** http://www.denx.de/cgi-bin/gitweb.cgi?p=u-boot.git;a=summary (gitweb)
+* SWISDK (A web application framework)
+** http://spinlock.ch/projects/swisdk/ (description)
+** http://spinlock.ch/cgi-bin/gitweb.pl (gitweb)
 
 __NOTOC__
