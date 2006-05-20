@@ -23,10 +23,13 @@ webmaster takes patches) and obviously the stock documentation:
 * http://www.kernel.org/pub/software/scm/git/docs
 * http://www.kernel.org/pub/software/scm/cogito/docs
 
-Non-kernel projects that use [[Git]] for their source code management are
-listed in [[GitProjects]]
+= Interfaces and other Git Tools =
 
 [[InterfacesFrontendsAndTools]] lists other programs that work with [[Git]]
+
+= Projects using Git =
+
+Projects that use [[Git]] for their source code management are listed in [[GitProjects]]
 
 == TODO LIST ==
 An updated TODO list can be found here:
