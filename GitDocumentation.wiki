@@ -1,6 +1,4 @@
-= [[GitDocumentation]] =
-
-== Getting started ==
+= Getting started =
 
 If you are new to git, here are some essential documents that will
 give you an introduction to the basic workflows.
@@ -12,7 +10,7 @@ give you an introduction to the basic workflows.
 * See [http://www.kernel.org/pub/software/scm/git/docs/everyday.html the Everyday Git handbook]
  for a useful minimum set of commands depending on your style of git usage.
 
-== Other relevant tutorials ==
+= Other relevant tutorials =
 
 * Cogito also has an
  [http://www.kernel.org/pub/software/scm/cogito/docs/introduction.html introduction]
@@ -22,7 +20,7 @@ give you an introduction to the basic workflows.
 * [http://linux.yyz.us/git-howto.html The Kernel Hacker's Git Tutorial]
  by Jeff Garzik may be useful.
 
-== Man pages ==
+= Man pages =
 
 Each git command is documented in it's own man page. If the man pages are installed
 on your local system running: <pre><nowiki>
@@ -41,7 +39,7 @@ Similarly, Cogito man pages are available from:
 
 * http://www.kernel.org/pub/software/scm/cogito/docs/
 
-== Getting and installing documentation ==
+= Getting and installing documentation =
 
 You can find all the plain text documentation in the git source tree's
 [http://www.kernel.org/git/?p=git/git.git;a=tree;f=Documentation Documentation/]
