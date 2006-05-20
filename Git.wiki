@@ -2,7 +2,4 @@
 
 Git was created by [[Linus Torvalds]] with assistance from a loosely-knit team of hackers across the Net. It is currently maintained by [[Junio C. Hamano]].
 
-----
-[[CategoryHomepage]]
-
 __NOTOC__
