@@ -60,7 +60,7 @@ $ git log tag-2.0 ^tag-1.0
 You can think of `^` as a negation operator. Using this alternate syntax,
 it is possible to further prune commits by specifying multiple "cut offs".
 
-= Combining revisions specification =
+= Combining Revision Specifications =
 
 Revisions options can to some degree be combined, which makes it possible
 to say "show at most 20 commits from within the last month that changed
@@ -68,7 +68,7 @@ files under the Documentation/ directory." <pre><nowiki>
 $ git log --since=1.month -n20 -- Documentation/
 </nowiki></pre>
 
-= Examining all repository references =
+= Examining All Repository References =
 
 In some cases, it can be useful to query changes across all references
 in a repository. This is especially useful if you are using a visualization
