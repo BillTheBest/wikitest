@@ -17,6 +17,8 @@ give you an introduction to the basic workflows.
  for a useful minimum set of commands depending on your style of git usage.
 
 * CVS users may also want to read [http://www.kernel.org/pub/software/scm/git/docs/cvs-migration.html git for CVS users].
+* An overview of the [[RevisionSpecification]] used by the git log command and
+ several repository visualizers.
 
 = Other relevant tutorials =
 
