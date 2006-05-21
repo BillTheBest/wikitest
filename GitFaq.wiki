@@ -123,6 +123,27 @@ your changes and revert your files, or use the `-m` flag like this: <pre><nowiki
 $ git checkout -m -b my-branch
 </nowiki></pre>
 
+<<Anchor(pu)>>
+== refs/heads/pu: does not fast forward to branch 'pu' ==
+
+The "pu" branch often won't fast forward because some commits have
+been completely deleted in it since the last time you pulled.
+
+If you want to track it, add a plus (+) sign to the proper line in 
+your `.git/remotes/origin` file, like this:
+
+<pre><nowiki>
+Pull: +refs/heads/pu:refs/heads/pu
+</nowiki></pre>
+
+Which tells git to deal with the problem for you by merging instead
+of fast forwarding.  Or you can just delete that line completely
+if you don't want to track the pu branch at all.
+It is conceivable that in future versions
+of git we might want to be able to mark some branches "this is
+expected to be rewound" explicitly and make the clone operation
+to take notice, to give you the plus sign automatically.
+
 = Importing from other revision control systems =
 
 See the [[Self:InterfacesFrontendsAndTools#rcs-interaction|[[InterfacesFrontendsAndTools]]]] page
