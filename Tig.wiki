@@ -23,4 +23,7 @@ colorize it.
 * <b>Repository</b>: http://jonas.nitro.dk/tig/tig.git/
 * <b>License</b>: GPLv2 or later
 
+----
+[[CategoryTools]]
+
 __NOTOC__
