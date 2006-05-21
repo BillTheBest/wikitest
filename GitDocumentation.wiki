@@ -1,5 +1,7 @@
+----
 <b>Table of contents:</b>
 <<<!-- ! TOC here -->(2)>>
+----
 
 = Getting started =
 
@@ -12,6 +14,8 @@ give you an introduction to the basic workflows.
 
 * See [http://www.kernel.org/pub/software/scm/git/docs/everyday.html the Everyday Git handbook]
  for a useful minimum set of commands depending on your style of git usage.
+
+* CVS users may also want to read [http://www.kernel.org/pub/software/scm/git/docs/cvs-migration.html git for CVS users].
 
 = Other relevant tutorials =
 
