@@ -102,7 +102,10 @@ your changes and revert your files, or use the `-m` flag like this: <pre><nowiki
 $ git checkout -m -b my-branch
 </nowiki></pre>
 
-= Importing from other SCMs =
+= Importing from other revision control systems =
+
+See the [[Self:InterfacesFrontendsAndTools#rcs-interaction|tools]] page,
+for a good reference on how to interact with other revision control systems.
 
 <<Anchor(import-cvs)>>
 == Can I import from CVS? ==
@@ -125,6 +128,6 @@ Yes, use [http://www.kernel.org/pub/software/scm/git/docs/git-archimport.html gi
 <<Anchor(import-others)>>
 == Can I import from others? ==
 
-Maybe, check if http://www.darcs.net/[[DarcsWiki]]/Tailor[tailor.py] can do it.
+Maybe, check if [[Self:InterfacesFrontendsAndTools#Tailor|Tailor]] can do it.
 
 __NOTOC__
