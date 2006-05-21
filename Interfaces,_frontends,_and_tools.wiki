@@ -6,6 +6,7 @@
 <!-- ## reducing font size doesn't work with 2-level table of contents
  -->
 <b>Table of contents:</b>
+
 <<<!-- ! TOC here -->(2)>>
 ----
 <b>List of tools:</b>
