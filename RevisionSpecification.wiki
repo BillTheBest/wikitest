@@ -1,6 +1,7 @@
 This section describes various ways to specify what revisions you are
-interested in. Aside from being used by git-log(1), they may also be used
-with graphical frontends such as [[gitk]]
+interested in. Aside from being used by 
+[http://www.kernel.org/pub/software/scm/git/docs/git-log.html git-log(1)],
+they may also be used with graphical frontends such as [[gitk]].
 
 = Limit by Path Name =
 
@@ -19,8 +20,9 @@ $ git log -- master
 = Limit by Date or Number =
 
 You can limit the amount of history to show from a given revision.
-Either limit by date using e.g. `--since=1.month` or limit by
-the number of commits using `-n400`.
+Either limit by date using e.g. `--since=1.month` or 
+`--since=2.weeks.ago`, or limit by the number of commits using `-n400`
+(or deprecated `-15`).
 
 If you are only interested in changed that happened between two dates
 you can use: <pre><nowiki>
@@ -45,11 +47,14 @@ upstream remote branch, using: <pre><nowiki>
 $ git log origin..HEAD
 </nowiki></pre>
 will list what changes are pending to be pushed to the remote branch.
-Optionally, the ending `HEAD` can be left out since it is implied.
+Optionally, the ending or beginning `HEAD` can be left out since 
+it is implied.
+
+Or you can say <code><nowiki>--all</nowiki></code>.
 
 = Limiting by Reachability =
 
-Git interprets the range specifier "tag-1.0..tag-2.0" as "all commits
+Git interprets the range specifier "<code><nowiki>tag-1.0..tag-2.0</nowiki></code>" as "all commits
 reachable from tag-2.0 but not from tag-1.0". Where reachability refers
 to what commits are ancestors (or part of the history) of the branch or
 tagged revision in question. If you prefer to specify which commits you
@@ -59,6 +64,10 @@ $ git log tag-2.0 ^tag-1.0
 
 You can think of `^` as a negation operator. Using this alternate syntax,
 it is possible to further prune commits by specifying multiple "cut offs".
+
+For example you can say <code><nowiki>a <sup>b </sup>c ^d</nowiki></code> or <code><nowiki>a --not b c d</nowiki></code> for the more 
+complex case where you're interested in one (or more) commit, but not 
+anything that flows from any of a number of other commits.
 
 = Combining Revision Specifications =
 
@@ -78,6 +87,13 @@ This can be accomplished using: <pre><nowiki>
 $ gitk --all --since=1.week -- Makefile
 </nowiki></pre>
 
+Another example: <pre><nowiki>
+$ gitk --all --since=1.month -15 -- t/
+</nowiki></pre>
+will show at most fifteen commits from <i>any</i> branch that changed the 
+test subdirectory in the last month.
+
+----
 = References =
 
 * Relevant man pages:
@@ -86,6 +102,5 @@ $ gitk --all --since=1.week -- Makefile
 
 * [http://marc.theaimsgroup.com/?l=git&m=114770975630539&w=2 Mail] from Linus
  giving an overview of revision specification.
-
 
 __NOTOC__
