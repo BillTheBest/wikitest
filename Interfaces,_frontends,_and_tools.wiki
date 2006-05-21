@@ -72,6 +72,7 @@
 
     <b>See also:</b> [[EmacsWiki/[[CategoryVersionControl]]|[[CategoryVersionControl]]] on [[EmacsWiki]]].
 
+<<Anchor(rcs-interaction)>>
 == Interaction with other Revision Control Systems ==
 
 <b>Built-in import</b> (built in)<<Anchor(git-xxximport)>>::
