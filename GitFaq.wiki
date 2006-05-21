@@ -12,14 +12,14 @@
 In Linus' own words as the inventor of git: "git" can mean anything, depending
 on your mood:
 
-* random three-letter combination that is pronounceable, and not actually
+* Random three-letter combination that is pronounceable, and not actually
  used by any common UNIX command. The fact that it is a mispronunciation of
  "get" may or may not be relevant.
-* stupid. contemptible and despicable. simple. Take your pick from the
+* Stupid. Contemptible and despicable. Simple. Take your pick from the
  dictionary of slang.
-* global information tracker": you're in a good mood, and it actually works
+* "Global information tracker": you're in a good mood, and it actually works
  for you. Angels sing, and a light suddenly fills the room.
-* "goddamn idiotic truckload of sh*t": when it breaks
+* "Goddamn idiotic truckload of sh*t": when it breaks
 
 <<Anchor(fetch-vs-pull)>>
 == What's the difference between fetch and pull? ==
@@ -29,20 +29,20 @@ The short definition is:
 <b>Fetch</b>: Download objects and a head from another repository.<<BR>>
 <b>Pull</b>:  Fetch (as defined above) and merge with the current development.
 
-* See the
- [http://www.kernel.org/pub/software/scm/git/docs/git-fetch.html git-fetch(1)]
- and
- [http://www.kernel.org/pub/software/scm/git/docs/git-pull.html git-pull(1)]
- man pages or the tutorials for more details.
+See the
+[http://www.kernel.org/pub/software/scm/git/docs/git-fetch.html git-fetch(1)]
+and
+[http://www.kernel.org/pub/software/scm/git/docs/git-pull.html git-pull(1)]
+man pages or the tutorials for more details.
 
 <<Anchor(public-repo)>>
 == What can I use to setup a public repository? ==
 
 A SSH server, an HTTP server, or the git-daemon.
 
-* See the
- [http://www.kernel.org/pub/software/scm/git/docs/tutorial.html Git tutorial]
- for more details.
+See the
+[http://www.kernel.org/pub/software/scm/git/docs/tutorial.html Git tutorial]
+for more details.
 
 <<Anchor(empty-dirs)>>
 == Can I add empty directories ==
@@ -59,13 +59,13 @@ on their own.
 <<Anchor(repo-sharing)>>
 == How do I share a git public repository and use it in a CVS way? ==
 
-Use cg-admin-setuprepo -g or do git-init-db --shared and some additional
-stuff. It's ok that refs aren't group writable, it's enough the directory is.
+Use `cg-admin-setuprepo -g` (if you use [[Cogito]]) or do `git-init-db --shared` (if you use core [[Git]]) and some additional stuff. It's ok that refs aren't group writable, it's enough the directory is.
+
 See the
 [http://www.kernel.org/pub/software/scm/cogito/docs/introduction.html introduction to Cogito]
 or GIT's
 [http://www.kernel.org/pub/software/scm/git/docs/cvs-migration.html cvs-migration] doc,
-"Emulating the CVS Development Model" for details.
+"Emulating the CVS Development Model" section for details.
 
 <<Anchor(gitignore)>>
 == How do I tell git to ignore files? ==
@@ -75,6 +75,8 @@ put the files path in the repository in the `.git/info/exclude` file.
 
 If you want to make the ignore matters for all and everyone who checkouts the
 project you have to put the files path in the `.gitignore` in the tree itself.
+
+See the [http://www.kernel.org/pub/software/scm/git/docs/git-ls-files.html git-ls-files(1)] man page, section "Exclude Patterns" for details.
 
 = Error diagnostic =
 
@@ -86,7 +88,7 @@ line in `/etc/passwd` isn't empty. You can also set the `GIT_AUTHOR_NAME`
 environment variable. If your @myhost is empty make sure your hostname is
 correctly set. Use `git-var -l` to make git display user identity variables.
 
-* See [http://www.kernel.org/pub/software/scm/git/docs/git-var.html git-var(1)]
+See [http://www.kernel.org/pub/software/scm/git/docs/git-var.html git-var(1)]
 
 <<Anchor(change-branch)>>
 == Why won't git let me change to a different branch? ==
@@ -113,8 +115,8 @@ for a good reference on how to interact with other revision control systems.
 
 Yes, use [http://www.kernel.org/pub/software/scm/git/docs/git-cvsimport.html git-cvsimport].
 
-* See [http://www.kernel.org/pub/software/scm/git/docs/cvs-migration.html the CVS migration doc]
- for more examples.
+See [http://www.kernel.org/pub/software/scm/git/docs/cvs-migration.html the CVS migration doc]
+for more examples.
 
 <<Anchor(import-svn)>>
 == Can I import from svn? ==
