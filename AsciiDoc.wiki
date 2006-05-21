@@ -16,7 +16,4 @@ Much of the [[GitDocumentation]] is written in [[AsciiDoc]].
 * <b>Author</b>: Stuart Rackham <srackham@methods.co.nz>
 * <b>Homepage</b>: http://www.methods.co.nz/asciidoc/
 
-----
-[[CategoryTools]]
-
 __NOTOC__
