@@ -55,6 +55,9 @@
 <b>gitweb</b><<Anchor(gitweb)>>::
     [[gitweb]] ([ftp://ftp.kernel.org/pub/software/scm/gitweb/ ftp archive]) provides full-fledged web interface for Git repositories. It is written in Perl and maintained by Kay Sievers. Used at [http://www.kernel.org/git/ kernel.org].
 
+    The [http://wiki.xmms2.xmms.se/index.php/Main_Page XMMS2 project] maintains their own version of gitweb which has some additional features. The latest snapshot
+    of this effort can be downloaded from [http://git.xmms.se/?p=gitweb-xmms2.git;a=summary].
+
 <b>wit</b><<Anchor(wit)>>::
     [[wit]] ([http://www.grmso.net:8090/ homepage]) is a Python implementation maintained by Christian Meder.
 
