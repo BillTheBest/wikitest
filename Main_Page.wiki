@@ -36,9 +36,15 @@ webmaster takes patches) and obviously the stock documentation:
 
 Projects that use [[Git]] for their source code management are listed in [[GitProjects]]
 
-== TODO LIST ==
-An updated TODO list can be found here:
+== Getting Involved ==
+
+If you want to get involved you should subscribe to the git mailing list, see
+how on the [[GitCommunity]] page. For a list of what needs work an updated TODO
+list can be found here:
+
 * http://kernel.org/git/?p=git/git.git;a=blob;hb=todo;f=TODO
+
+Additionally, also have a look at [[InterfacesFrontendsAndToolsWishlist]].
 
 ----
 ----
