@@ -3,6 +3,12 @@ interested in. Aside from being used by
 [http://www.kernel.org/pub/software/scm/git/docs/git-log.html git-log(1)],
 they may also be used with graphical frontends such as [[gitk]].
 
+----
+<b>Table of contents:</b>
+
+<<<!-- ! TOC here -->(2)>>
+----
+
 = Limit by Path Name =
 
 If you are interested only in those revisions that made changes
