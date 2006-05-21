@@ -56,8 +56,6 @@ will list what changes are pending to be pushed to the remote branch.
 Optionally, the ending or beginning `HEAD` can be left out since 
 it is implied.
 
-Or you can say <code><nowiki>--all</nowiki></code>.
-
 = Limiting by Reachability =
 
 Git interprets the range specifier "<code><nowiki>tag-1.0..tag-2.0</nowiki></code>" as "all commits
