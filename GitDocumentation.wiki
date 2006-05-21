@@ -83,4 +83,7 @@ branches if you are installing git from a the git repository.
 Many distributions bundle pregenerated documentation with either the git-core
 package or in a separate git-doc package.
 
+----
+[[CategoryGitHomepage]] ([http://git.or.cz/documentation.html Documentation])
+
 __NOTOC__
