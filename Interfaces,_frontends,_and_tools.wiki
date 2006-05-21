@@ -53,7 +53,7 @@
 == Web Interface ==
 
 <b>gitweb</b><<Anchor(gitweb)>>::
-    [[gitweb]] provides full-fledged web interface for Git repositories. It is written in Perl and maintained by Kay Sievers. Used at [http://www.kernel.org/git/ kernel.org].
+    [[gitweb]] ([ftp://ftp.kernel.org/pub/software/scm/gitweb/ ftp archive]) provides full-fledged web interface for Git repositories. It is written in Perl and maintained by Kay Sievers. Used at [http://www.kernel.org/git/ kernel.org].
 
 <b>wit</b><<Anchor(wit)>>::
     [[wit]] ([http://www.grmso.net:8090/ homepage]) is a Python implementation maintained by Christian Meder.
