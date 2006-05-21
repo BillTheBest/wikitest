@@ -42,4 +42,7 @@ the #git channel on irc.freenode.net.
 * [http://colabti.de/irclogger/irclogger_logs/git Official #git channel log]
 * [http://pasky.or.cz/~pasky/cp/%23git/ Historical #git channel log]
 
+----
+[[CategoryGitHomepage]] ([http://git.or.cz/community.html Community])
+
 __NOTOC__
