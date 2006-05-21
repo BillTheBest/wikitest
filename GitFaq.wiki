@@ -41,7 +41,7 @@ The short definition is:
 A SSH server, an HTTP server, or the git-daemon.
 
 * See the
- [http://www.kernel.org/pub/software/scm/git/docs/tutorial.html tutorial]
+ [http://www.kernel.org/pub/software/scm/git/docs/tutorial.html Git tutorial]
  for more details.
 
 <<Anchor(empty-dirs)>>
@@ -104,7 +104,8 @@ $ git checkout -m -b my-branch
 
 = Importing from other revision control systems =
 
-See the [[Self:InterfacesFrontendsAndTools#rcs-interaction|tools]] page,
+See the [[Self:InterfacesFrontendsAndTools#rcs-interaction|[[InterfacesFrontendsAndTools]]]] page
+("Interaction with other Revision Control Systems" section),
 for a good reference on how to interact with other revision control systems.
 
 <<Anchor(import-cvs)>>
@@ -126,8 +127,13 @@ Yes, use [http://www.kernel.org/pub/software/scm/git/docs/git-svnimport.html git
 Yes, use [http://www.kernel.org/pub/software/scm/git/docs/git-archimport.html git-archimport].
 
 <<Anchor(import-others)>>
-== Can I import from others? ==
+== Can I import from other SCMs? ==
 
 Maybe, check if [[Self:InterfacesFrontendsAndTools#Tailor|Tailor]] can do it.
+
+----
+= References =
+* [http://koalabs.org/~ange/git_faq/faq.html GIT FAQ by Thomas Riboulet].
+* [[GitCommunity]], mainly Git mailing list.
 
 __NOTOC__
