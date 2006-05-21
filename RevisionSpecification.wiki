@@ -1,6 +1,7 @@
 This section describes various ways to specify what revisions you are
 interested in. Aside from being used by 
-[http://www.kernel.org/pub/software/scm/git/docs/git-log.html git-log(1)],
+[http://www.kernel.org/pub/software/scm/git/docs/git-log.html git-log(1)] and
+[http://www.kernel.org/pub/software/scm/git/docs/git-whatchanged.html git-whatchanged(1)],
 they may also be used with graphical frontends such as [[gitk]].
 
 ----
