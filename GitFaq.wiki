@@ -71,6 +71,19 @@ to provide a more flexible way to track how your tree is changing.
 * [http://permalink.gmane.org/gmane.comp.version-control.git/217 Mail] by
  Linus on this topic.
 
+However, this does not mean that [[Git]] has no support for renames. The diff
+machinery in Git has support for automatically detecting renames, this is turned
+on by the '-M' switch to the git-diff-* family of commands. The rename detection machinery is used
+by
+[http://www.kernel.org/pub/software/scm/git/docs/git-log.html git-log(1)] and
+[http://www.kernel.org/pub/software/scm/git/docs/git-whatchanged.html git-whatchanged(1)],
+so for example, 'git-log -M' will give the commit history with rename information.
+Git also supports a limited form of merging across renames. The two tools for
+assigning blame,
+[http://www.kernel.org/pub/software/scm/git/docs/git-blame.html git-blame(1)] and
+[http://www.kernel.org/pub/software/scm/git/docs/git-annotate.html git-annotate(1)]
+both uses the automatic rename detection code to track renames.
+
 = How do I ... =
 
 <<Anchor(repo-sharing)>>
