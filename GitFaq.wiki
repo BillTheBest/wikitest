@@ -171,7 +171,7 @@ for a good reference on how to interact with other revision control systems.
 <<Anchor(import-cvs)>>
 == Can I import from CVS? ==
 
-Yes, use [http://www.kernel.org/pub/software/scm/git/docs/git-cvsimport.html git-cvsimport].
+Yes, use [http://www.kernel.org/pub/software/scm/git/docs/git-cvsimport.html git-cvsimport(1)].
 
 * See [http://www.kernel.org/pub/software/scm/git/docs/cvs-migration.html the CVS migration doc]
  for more examples.
@@ -179,17 +179,20 @@ Yes, use [http://www.kernel.org/pub/software/scm/git/docs/git-cvsimport.html git
 <<Anchor(import-svn)>>
 == Can I import from svn? ==
 
-Yes, use [http://www.kernel.org/pub/software/scm/git/docs/git-svnimport.html git-svnimport].
+Yes, use [http://www.kernel.org/pub/software/scm/git/docs/git-svnimport.html git-svnimport(1)].
 
 <<Anchor(import-arch)>>
 == Can I import from arch/baz/tla? ==
 
-Yes, use [http://www.kernel.org/pub/software/scm/git/docs/git-archimport.html git-archimport].
+Yes, use [http://www.kernel.org/pub/software/scm/git/docs/git-archimport.html git-archimport(1)].
 
 <<Anchor(import-others)>>
 == Can I import from other SCMs? ==
 
-Maybe, check if [[Self:InterfacesFrontendsAndTools#Tailor|Tailor]] ([http://www.darcs.net/DarcsWiki/Tailor homepage]) can do it.
+Maybe, check if [[Self:InterfacesFrontendsAndTools#Tailor|Tailor]] ([http://www.darcs.net/DarcsWiki/Tailor homepage]) can do it. 
+Take a look at 
+[[Self:InterfacesFrontendsAndTools#rcs-interaction|[[InterfacesFrontendsAndTools]]]] page
+("Interaction with other Revision Control Systems" section)
 
 ----
 = References =
