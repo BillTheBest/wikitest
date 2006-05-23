@@ -106,7 +106,9 @@ test subdirectory in the last month.
  section about "Exploring History".
 
 * Relevant man pages:
- [http://www.kernel.org/pub/software/scm/git/docs/git-log.html git-log(1)] and
- [http://www.kernel.org/pub/software/scm/git/docs/git-rev-list.html git-rev-list(1)].
+ [http://www.kernel.org/pub/software/scm/git/docs/git-log.html git-log(1)],
+ [http://www.kernel.org/pub/software/scm/git/docs/git-rev-list.html git-rev-list(1)], and
+ the section on "Specifying Revisions" in
+ [http://www.kernel.org/pub/software/scm/git/docs/git-rev-parse.html git-rev-parse(1)].
 
 __NOTOC__
