@@ -101,11 +101,12 @@ test subdirectory in the last month.
 ----
 = References =
 
+* More examples can be found in the Git
+ [http://kernel.org/pub/software/scm/git/docs/tutorial.html tutorial's]
+ section about "Exploring History".
+
 * Relevant man pages:
  [http://www.kernel.org/pub/software/scm/git/docs/git-log.html git-log(1)] and
  [http://www.kernel.org/pub/software/scm/git/docs/git-rev-list.html git-rev-list(1)].
-
-* [http://marc.theaimsgroup.com/?l=git&m=114770975630539&w=2 Mail] from Linus
- giving an overview of revision specification.
 
 __NOTOC__
