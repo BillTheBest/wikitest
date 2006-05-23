@@ -189,11 +189,12 @@ Yes, use [http://www.kernel.org/pub/software/scm/git/docs/git-archimport.html gi
 <<Anchor(import-others)>>
 == Can I import from other SCMs? ==
 
-Maybe, check if [[Self:InterfacesFrontendsAndTools#Tailor|Tailor]] can do it.
+Maybe, check if [[Self:InterfacesFrontendsAndTools#Tailor|Tailor]] ([http://www.darcs.net/DarcsWiki/Tailor homepage]) can do it.
 
 ----
 = References =
 * [http://koalabs.org/~ange/git_faq/faq.html GIT FAQ by Thomas Riboulet].
 * [[GitCommunity]], mainly Git mailing list.
+* [[WikiPedia:Git_(software)|Git (software)]] article at WikiPedia.
 
 __NOTOC__
