@@ -21,6 +21,7 @@ colorize it.
 * <b>Author</b>: Jonas Fonseca <fonseca@diku.dk>
 * <b>Homepage</b>: http://jonas.nitro.dk/tig/
 * <b>Repository</b>: http://jonas.nitro.dk/tig/tig.git/
+* <b>Gitweb</b>: http://pasky.or.cz/gitweb.cgi?p=tig.git;a=summary
 * <b>License</b>: GPLv2 or later
 
 ----
