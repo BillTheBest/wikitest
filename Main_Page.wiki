@@ -27,10 +27,13 @@ webmaster takes patches) and obviously the stock documentation:
 * See the [[GitCommunity]] page for mailing list and IRC information.
 * See the [[GitDocumentation]] page for an overview of git related documentation.
 * See the [[GitFaq]] page for frequently asked questions.
+* See the [[GitHistory]] for a bit of history, inspirations and design decisions.
 
 == Interfaces and other Git Tools ==
 
-[[InterfacesFrontendsAndTools]] lists other programs that work with [[Git]]
+[[InterfacesFrontendsAndTools]] lists other programs that work with [[Git]].
+
+[[GitBenchmarks]] shows gow Git compares to other version control systems.
 
 == Projects using Git ==
 
