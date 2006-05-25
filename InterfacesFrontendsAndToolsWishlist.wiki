@@ -37,8 +37,8 @@
 <b>Eric3</b> (IDE)<<Anchor(Eric3)>>::
     [http://www.die-offenbachs.de/detlev/eric3.html Eric3] is a full featured Python (and Ruby) IDE that is written in PyQt using the QScintilla editor widget. It supports CVS, Subversion and Mercurial. <i>(Python, Qt)</i>
 
-<b>Meld</b> (merge tool)<<Anchor(Meld)>><<Anchor(KDiff3)>>Anchor(Kompare)>>::
-    [http://meld.sourceforge.net/ Meld] is a general diff, merge, and history browsing tool written in Python for GNOME. Has CVS, Subversion, Bazaar-NG and Monotone support. Perhaps [http://kdiff3.sourceforge.net/ KDiff3] and/or [http://www.caffeinated.me.uk/kompare/ Kompare] (Kompare is diff only) should also have some VCS support... <i>(Python, GNOME)</i>
+<b>Meld</b> (merge tool)<<Anchor(Meld)>><<Anchor(xxdiff)>><<Anchor(KDiff3)>>Anchor(Kompare)>>::
+    [http://meld.sourceforge.net/ Meld] is a general diff, merge, and history browsing tool written in Python for GNOME. Has CVS, Subversion, Bazaar-NG and Monotone support. Perhaps [http://furius.ca/xxdiff/ xxdiff] (Qt; has CVS and Subversion integration with scripts), [http://kdiff3.sourceforge.net/ KDiff3] and/or [http://www.caffeinated.me.uk/kompare/ Kompare] (Kompare is diff only) should also have some VCS support... <i>(Python, GNOME)</i>
 
 ----
 [[CategoryTools]]
