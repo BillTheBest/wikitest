@@ -3,7 +3,7 @@
 = Other programs that *should* be taught to work with Git, but haven't been =
 
 ----
- <span style="font-size: smaller">[[#Bugzilla Bugzilla]], [[#Bonsai Bonsai]], [[#Trac Trac]], [[#TWiki TWiki]], [[#scmbug SCMBug]], [[#Savane Savane]], [[#GForge GForge]], [[#DVC DVC (Emacs)]], [[#Eclipse Eclipse]], [[#PIDA PIDA]], [[#Eric3 Eric3]], [[#Meld Meld]]</span>
+ <span style="font-size: smaller">[[#Bugzilla Bugzilla]], [[#Bonsai Bonsai]], [[#Trac Trac]], [[#TWiki TWiki]], [[#scmbug SCMBug]], [[#Savane Savane]], [[#GForge GForge]], [[#DVC DVC (Emacs)]], [[#Eclipse Eclipse]], [[#PIDA PIDA]], [[#Eric3 Eric3]], [[#Meld Meld]], [[#xxdiff xxdiff]]</span>
 ----
 
 <b>Bugzilla</b> (bugtracker)<<Anchor(Bugzilla)>><<Anchor(Bonsai)>>:: <span style="font-size: x-large; color: red">!</span>
