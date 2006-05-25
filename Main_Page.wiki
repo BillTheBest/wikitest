@@ -33,7 +33,7 @@ webmaster takes patches) and obviously the stock documentation:
 
 [[InterfacesFrontendsAndTools]] lists other programs that work with [[Git]].
 
-[[GitBenchmarks]] shows gow Git compares to other version control systems.
+[[GitBenchmarks]] shows how Git compares to other version control systems.
 
 == Projects using Git ==
 
