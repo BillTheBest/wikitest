@@ -155,9 +155,10 @@ Pull: +refs/heads/pu:refs/heads/pu
 </nowiki></pre>
 
 Which tells git to deal with the problem for you by simply skip
-the fast forward check.
+the fast forward check (doing "true" merge instead of fast-forward).
 Or you can just delete that line completely
 if you don't want to track the pu branch at all.
+
 It is conceivable that in future versions
 of git we might want to be able to mark some branches "this is
 expected to be rewound" explicitly and make the clone operation
