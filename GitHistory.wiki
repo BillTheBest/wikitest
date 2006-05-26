@@ -9,13 +9,13 @@
 
 On Fri, 5 May 2006, Petr Baudis wrote:<<BR>>
 > <<BR>>
-> It's a philosophical question here, but I'd say that Git is much closer<<BR>>
-> to Monotone than to any other version control system<<BR>>
+> It's a philosophical question here, but I'd say that [[Git]] is much closer<<BR>>
+> to [[Monotone]] than to any other version control system<<BR>>
 
 Some historical background..
 
-Before I dropped BK, I ended up being involved in trying to get Larry and 
-Tridge to come to some agreement about how to solve the issues Tridge had 
+Before I dropped [[BitKeeper|BK]], I ended up being involved in trying to get [[Larry McVoy|Larry]] and 
+[[Andrew Tridgell|Tridge]] to come to some agreement about how to solve the issues Tridge had 
 with BK not being open-source. That actually went on for maybe two months 
 or so, and I kept on hoping that we'd find some acceptably middle ground. 
 
@@ -26,7 +26,7 @@ more palatable to the "free software or bust" contingency.
 One of the suggestions that I tried to push as an acceptable middle ground 
 was to make a "generic" BK repository export format, so that people who 
 didn't want to use BK could still get all the information, and not in a 
-broken format like CVS (yes, CVS makes sense as an interchange format, 
+broken format like [[CVS]] (yes, CVS makes sense as an interchange format, 
 since <i>everybody</i> speaks CVS, but it's a horrible, horrible, horrible 
 format from any technical standpoint).
 
@@ -70,12 +70,12 @@ from the beginning, so I also was planning to have an "cache" that
 maintained the current state of the tree as a separate state from the 
 working tree, so that I would always have the "working tree" and the 
 "result of patches up to this moment" as two separate things (so that I 
-could do the "bk diff" that I was used to doing to see the difference 
+could do the "`bk diff`" that I was used to doing to see the difference 
 between my last state and the current state of the working tree).
 
 In other words, I was already working on the git "index" file. And I was 
 planning to just have a patch-based system behind it, with a hashed 
-history. Kind of "quilt with history and an index to speed things up".
+history. Kind of "[[quilt]] with history and an index to speed things up".
 
 The index itself would be backed-up with whole files (all hidden in the 
 ".dircache" directory), and the patch series would thus normally never 
@@ -84,7 +84,7 @@ never be much of an issue. A "commit" would create a new patch from the
 current working directory and the previous shadow tree, and update the 
 shadow tree and add a new entry to the history list.
 
-And then I found Monotone.
+And then I found [[Monotone]].
 
 Now, monotone was slow. Monotone was so <i>horrendously</i> slow that I had to 
 do special hacks just to import <i>one</i> version of Linux into it in less 
@@ -102,7 +102,7 @@ It also already matched how I had conceptually planned on doing on the
 history anyway, and had some ideas for, but it took that whole "history 
 hashing" all the way.
 
-And thus git was born. 
+And thus [[git]] was born. 
 
 So git really has three parents. In a very real sense, BK (or, perhaps 
 more appropriately - the way I personally used BK, which is not 
@@ -168,7 +168,7 @@ Linus wanted a distributed system that he could use like BitKeeper, but none of 
 Linus achieved his performance goals; on April 29, 2005, the nascent Git was benchmarked recording patches to the Linux kernel tree at the rate of 6.7 per second.
 
 He developed the system until it was usable by technical users, then turned over
-maintenance on July 26, 2005 to [[Junio C Hamano]], a major contributor to the project.
+maintenance on July 26, 2005 to [[Junio C. Hamano]], a major contributor to the project.
 Junio was responsible for the 1.0 release on December 21, 2005.
 As of May 2006, the current release is 1.3.3.
 
