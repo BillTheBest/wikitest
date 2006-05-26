@@ -4,7 +4,7 @@ From the [[AsciiDoc]] homepage
 
     [[AsciiDoc]] is a text document format for writing short documents,
     articles, books and UNIX man pages. [[AsciiDoc]] files can be
-    translated to HTML and [[DocBook]] markups using the asciidoc(1) command.
+    translated to HTML and DocBook markups using the asciidoc(1) command.
 
 It's output formats include PDF, <b>XHTML</b>, HTML Help, <b>manpage</b> or plain text
 (the formats used by [[Git]] are emphasized).
@@ -15,5 +15,8 @@ Much of the [[GitDocumentation]] is written in [[AsciiDoc]].
 
 * <b>Author</b>: Stuart Rackham <srackham@methods.co.nz>
 * <b>Homepage</b>: http://www.methods.co.nz/asciidoc/
+
+----
+[[CategoryTools]]
 
 __NOTOC__
