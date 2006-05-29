@@ -41,7 +41,7 @@ Miscelaneous git-related links, not including [http://git.or.cz/ Git homepage], 
 
 == Magazines ==
 * [http://www.pcworld.idg.com.au PC World]
-  *[http://www.pcworld.idg.com.au/index.php/id;1852076002;fp;16;fpid;0 After controversy, Torvalds begins work on "git"] by Robert [[McMillan]].
+  *[http://www.pcworld.idg.com.au/index.php/id;1852076002;fp;16;fpid;0 After controversy, Torvalds begins work on "git"] by Robert McMillan.
 * [http://www.linux-mag.com Linux Magazine] (requires free subscription)
   *[http://www.linux-mag.com/index.php?option=com_content&task=view&id=2130 Git With It!], written by Sam Williams 
   *[http://www.linux-mag.com/index.php?option=com_content&task=view&id=2533 How To Git It], written by Jon Loeliger.<<BR>>  Also available as [http://www.jdl.com/papers/How_To_Git_It.html How To Git It] on Jon Loeliger (jdl) [http://www.jdl.com/papers/ papers] page.
@@ -53,9 +53,9 @@ Only those including [[Git]] as one of the systems.
 * [[WikiPedia:Comparison_of_revision_control_software|Comparison of revision control software]] table at Wikipedia.
 * [http://bazaar-vcs.org/RcsComparisons [[RcsComparisons]]] (user-oriented table), [http://bazaar-vcs.org/RCSChoices RCSChoices] (table of the decisions), [http://bazaar-vcs.org/SCMComparisons SCMComparisons] (lists of features) at Bazaar-NG wiki.
 * [http://zooko.com/revision_control_quick_ref.html Quick Reference Guide to Free Software Decentralized Revision Control Systems] by Zooko
-* [http://www.dwheeler.com/essays/scm.html Comments on Open Source Software / Free Software (OSS/FS) Software Configuration Management (SCM) Systems] by David A. Wheeler, <i>April 10, 2004; lightly revised May 18, 2005</i>. Git at the very end of article.
-* [http://linuxmafia.com/faq/Apps/scm.html Source-code management on Linux] - large list of SCMs with descriptions.
-* [http://bramcohen.livejournal.com/17319.html Version Control Shenanigans] and [http://bramcohen.livejournal.com/17925.html More version control stuff] Live''Journal articles by Bram Cohen, founder of Codeville and a current contributor.
+* [http://www.dwheeler.com/essays/scm.html Comments on Open Source Software / Free Software (OSS/FS) Software Configuration Management (SCM) Systems] by David A. Wheeler, (April 10, 2004; lightly revised May 18, 2005). Git at the very end of article.
+* [http://linuxmafia.com/faq/Apps/scm.html Source-code management on Linux] - large list of SCMs with descriptions at LinuxMafia.
+* [http://bramcohen.livejournal.com/17319.html Version Control Shenanigans] and [http://bramcohen.livejournal.com/17925.html More version control stuff] LiveJournal articles by Bram Cohen, founder of Codeville and a current contributor.
 
 
 __NOTOC__
