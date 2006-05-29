@@ -21,6 +21,7 @@ Miscelaneous git-related links, not including [http://git.or.cz/ Git homepage], 
 * [http://freedesktop.org/wiki/UsingGit Using Git] at freedesktop.org
 * [http://www.denx.de/en/Documents/GitDocs Software Configuration Management using `git`] from DENX, home of the U-Boot boot loader.
 * [http://wiki.xmms2.xmms.se/index.php/Download_XMMS2 Download XMMS2] at XMMS2 wiki.
+* [http://www.foo.be/cgi-bin/wiki.pl/GITNotes GITNotes] on adulau's (Alexandre Dulaunoy) wiki.
 
 = Articles about Git =
 
@@ -53,9 +54,15 @@ Only those including [[Git]] as one of the systems.
 * [[WikiPedia:Comparison_of_revision_control_software|Comparison of revision control software]] table at Wikipedia.
 * [http://bazaar-vcs.org/RcsComparisons [[RcsComparisons]]] (user-oriented table), [http://bazaar-vcs.org/RCSChoices RCSChoices] (table of the decisions), [http://bazaar-vcs.org/SCMComparisons SCMComparisons] (lists of features) at Bazaar-NG wiki.
 * [http://zooko.com/revision_control_quick_ref.html Quick Reference Guide to Free Software Decentralized Revision Control Systems] by Zooko
-* [http://www.dwheeler.com/essays/scm.html Comments on Open Source Software / Free Software (OSS/FS) Software Configuration Management (SCM) Systems] by David A. Wheeler, (April 10, 2004; lightly revised May 18, 2005). Git at the very end of article.
+* [http://www.dwheeler.com/essays/scm.html Comments on Open Source Software / Free Software (OSS/FS) Software Configuration Management (SCM) Systems] by David A. Wheeler, (April 10, 2004; lightly revised May 18, 2005). Git added at the very end of article.
 * [http://linuxmafia.com/faq/Apps/scm.html Source-code management on Linux] - large list of SCMs with descriptions at LinuxMafia.
 * [http://bramcohen.livejournal.com/17319.html Version Control Shenanigans] and [http://bramcohen.livejournal.com/17925.html More version control stuff] LiveJournal articles by Bram Cohen, founder of Codeville and a current contributor.
 
+== Generic version control ==
+There is place for generic, non concrete SCM specific, links
+* [http://www.dwheeler.com/essays/scm-security.html Software Configuration Management (SCM) Security] by David A. Wheeler (March 13, 2004; Revised May 6, 2005).
+* [http://www.usenix.org/events/hotos03/tech/full_papers/henson/henson.pdf An Analysis of Compare-by-hash] (PDF) by Val Henson, in <i>Proceedings of HotOS IX: The 9th Workshop on Hot Topics in Operating Systems</i>.
+* [http://revctrl.org/ Revctrl Wiki], including [http://revctrl.org/CategoryMergeAlgorithm Examples of different merge algorithms] article there.
+* [http://software.ericsink.com/scm/source_control.html Source Control HOWTO] (work in progress) and [http://software.ericsink.com/Beyond_CheckOut_and_CheckIn.html Beyond CheckOut and [[CheckIn]]] by Eric Sink, heavily inspired by Vault and Subversion.
 
 __NOTOC__
