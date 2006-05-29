@@ -29,6 +29,7 @@ webmaster takes patches) and obviously the stock documentation:
 * See the [[GitFaq]] page for frequently asked questions.
 * See the [[GitHistory]] for a bit of history, inspirations and design decisions.
 * See the [[GitLinks]] for further reading.
+* Read [[WikiPedia:Git_(software)|Git (software)]] article at [http://wn.wikipedia.org Wikipedia].
 
 == Interfaces and other Git Tools ==
 
