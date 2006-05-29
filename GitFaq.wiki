@@ -115,6 +115,20 @@ project you have to put the files path in the `.gitignore` in the tree itself.
  [http://www.kernel.org/pub/software/scm/git/docs/git-ls-files.html git-ls-files(1)] man page,
  section "Exclude Patterns" for details.
 
+<<Anchor(saving-draft)>>
+== How do I save some local modifications? ==
+
+Sometimes it is neccessary to have some local modifications in the tree
+in order to test it and work with it.
+
+One can use
+<pre><nowiki>
+$ git-update-index $(git-ls-files --modified)
+$ git-checkout -b tempBranch
+$ git-commit -m "to test"
+</nowiki></pre>
+where `tempBranch` is the unique original throwaway branch name.
+
 = Error diagnostic =
 
 <<Anchor(empty-ident)>>
