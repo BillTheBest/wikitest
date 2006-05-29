@@ -2,6 +2,8 @@
 
 If your project is not listed, please add it here.
 
+List does not currently include [[Git]], [[Cogito]] and other git-related tools.
+
 == Kernel-related projects that use Git for their source code management. ==
 
 * Linux Kernel
@@ -16,6 +18,9 @@ If your project is not listed, please add it here.
 * OpenVZ
 ** http://openvz.org/ (homepage)
 ** http://git.openvz.org/ (repository, gitweb)
+* Nico Schottelius (Linux|Unix) projects
+** http://linux.schottelius.org/ (homepage)
+** http://linux.schottelius.org/cgi-bin/gitweb.cgi (gitweb)
 * Many other Linux related projects...
 ** http://www.kernel.org/git (gitweb)
 
