@@ -1,12 +1,28 @@
-Miscelaneous git-related links, not including [http://git.or.cz/ Git homepage], [[GitDocumentation]], 
-[[GitCommunity]] including mailing list archives and IRC logs, [[InterfacesFrontendsAndTools]].
+----
+<b>Table of contents:</b>
 
-== "Using Git" project pages ==
+<<<!-- ! TOC here -->(2)>>
+----
+
+Miscelaneous git-related links, not including [http://git.or.cz/ Git homepage], [[GitDocumentation]], 
+[[GitCommunity]] links including mailing list archives and IRC logs, [[InterfacesFrontendsAndTools]].
+
+= Wikipedia =
+[http://en.wikipedia.org Wikipedia] (English version)
+* [[WikiPedia:Git_(software)|Git (software)]] article.
+* [[WikiPedia:Cogito_(software)|Cogito (software)]] stub article.
+* [[WikiPedia:List_of_revision_control_software|List of revision control software]].
+* [[WikiPedia:Comparison_of_revision_control_software|Comparison of revision control software]] tables.
+* [[WikiPedia:Revision_control|Revision control]] (Version control) article.
+
+= "Using Git" project pages =
 * [http://www.linux-mips.org/wiki/Git Git] and [http://www.linux-mips.org/wiki/WhatIsGit What Is Git] on Linux/MIPS wiki.
 * [http://wiki.winehq.org/GitWine [[GitWine]] tutorial] at WINE wiki.
 * [http://freedesktop.org/wiki/UsingGit Using Git] at freedesktop.org
 * [http://www.denx.de/en/Documents/GitDocs Software Configuration Management using `git`] from DENX, home of the U-Boot boot loader.
 * [http://wiki.xmms2.xmms.se/index.php/Download_XMMS2 Download XMMS2] at XMMS2 wiki.
+
+= Articles about Git =
 
 == Mailing list digests ==
 * [http://www.kerneltraffic.org/git/index.html Git Traffic] - Newsletter that summarises events on the git mailing list<<BR>> (only one issue, for 2 May 2005, seems abandoned)
@@ -23,11 +39,23 @@ Miscelaneous git-related links, not including [http://git.or.cz/ Git homepage], 
   *[http://kerneltrap.org/node/5496 Junio Hamano New Git Maintainer]
   *[http://kerneltrap.org/node/5557 Using Git For More Than The Kernel]
 
-== Articles about Git ==
+== Magazines ==
 * [http://www.pcworld.idg.com.au PC World]
   *[http://www.pcworld.idg.com.au/index.php/id;1852076002;fp;16;fpid;0 After controversy, Torvalds begins work on "git"] by Robert [[McMillan]].
 * [http://www.linux-mag.com Linux Magazine] (requires free subscription)
   *[http://www.linux-mag.com/index.php?option=com_content&task=view&id=2130 Git With It!], written by Sam Williams 
   *[http://www.linux-mag.com/index.php?option=com_content&task=view&id=2533 How To Git It], written by Jon Loeliger.<<BR>>  Also available as [http://www.jdl.com/papers/How_To_Git_It.html How To Git It] on Jon Loeliger (jdl) [http://www.jdl.com/papers/ papers] page.
+
+= Other version control software =
+
+== Git comparison with other SCMs ==
+Only those including [[Git]] as one of the systems.
+* [[WikiPedia:Comparison_of_revision_control_software|Comparison of revision control software]] table at Wikipedia.
+* [http://bazaar-vcs.org/RcsComparisons [[RcsComparisons]]] (user-oriented table), [http://bazaar-vcs.org/RCSChoices RCSChoices] (table of the decisions), [http://bazaar-vcs.org/SCMComparisons SCMComparisons] (lists of features) at Bazaar-NG wiki.
+* [http://zooko.com/revision_control_quick_ref.html Quick Reference Guide to Free Software Decentralized Revision Control Systems] by Zooko
+* [http://www.dwheeler.com/essays/scm.html Comments on Open Source Software / Free Software (OSS/FS) Software Configuration Management (SCM) Systems] by David A. Wheeler, <i>April 10, 2004; lightly revised May 18, 2005</i>. Git at the very end of article.
+* [http://linuxmafia.com/faq/Apps/scm.html Source-code management on Linux] - large list of SCMs with descriptions.
+* [http://bramcohen.livejournal.com/17319.html Version Control Shenanigans] and [http://bramcohen.livejournal.com/17925.html More version control stuff] Live''Journal articles by Bram Cohen, founder of Codeville and a current contributor.
+
 
 __NOTOC__
