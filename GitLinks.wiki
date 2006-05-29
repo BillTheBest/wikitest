@@ -21,7 +21,6 @@ Miscelaneous git-related links, not including [http://git.or.cz/ Git homepage], 
 * [http://freedesktop.org/wiki/UsingGit Using Git] at freedesktop.org
 * [http://www.denx.de/en/Documents/GitDocs Software Configuration Management using `git`] from DENX, home of the U-Boot boot loader.
 * [http://wiki.xmms2.xmms.se/index.php/Download_XMMS2 Download XMMS2] at XMMS2 wiki.
-* [http://www.foo.be/cgi-bin/wiki.pl/GITNotes GITNotes] on adulau's (Alexandre Dulaunoy) wiki.
 
 = Articles about Git =
 
@@ -29,6 +28,7 @@ Miscelaneous git-related links, not including [http://git.or.cz/ Git homepage], 
 * [http://www.kerneltraffic.org/git/index.html Git Traffic] - Newsletter that summarises events on the git mailing list<<BR>> (only one issue, for 2 May 2005, seems abandoned)
 * [http://lwn.net/ LWN.net] (Linux Weekly News)
   *[http://lwn.net/Articles/131657/ The guts of git]
+  *[http://lwn.net/Articles/132796/ A very quick guide to starting with git]
 * [http://kerneltrap.org KernelTrap] (all pre 1.0 release):
   *[http://kerneltrap.org/node/4982 Managing the Kernel Source With 'git']
   *[http://kerneltrap.org/node/4998 Continued git Development]
@@ -39,6 +39,7 @@ Miscelaneous git-related links, not including [http://git.or.cz/ Git homepage], 
   *[http://kerneltrap.org/node/5011 git for beginners]
   *[http://kerneltrap.org/node/5496 Junio Hamano New Git Maintainer]
   *[http://kerneltrap.org/node/5557 Using Git For More Than The Kernel]
+  *[http://kerneltrap.org/node/5993 Git Milestone, 1.0 Release]
 
 == Magazines ==
 * [http://www.pcworld.idg.com.au PC World]
@@ -46,6 +47,10 @@ Miscelaneous git-related links, not including [http://git.or.cz/ Git homepage], 
 * [http://www.linux-mag.com Linux Magazine] (requires free subscription)
   *[http://www.linux-mag.com/index.php?option=com_content&task=view&id=2130 Git With It!], written by Sam Williams 
   *[http://www.linux-mag.com/index.php?option=com_content&task=view&id=2533 How To Git It], written by Jon Loeliger.<<BR>>  Also available as [http://www.jdl.com/papers/How_To_Git_It.html How To Git It] on Jon Loeliger (jdl) [http://www.jdl.com/papers/ papers] page.
+
+== Blogs ==
+* [http://willowbend.cx/2005/08/24/git-epiphany/ Git Epiphany] by Darrin 'Willowbend' Thompson, at 
+Willowbend: Confessions of a Wannabe Capitalist, (Wednesday, August 24th, 2005).
 
 = Other version control software =
 
