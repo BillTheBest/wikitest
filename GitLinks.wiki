@@ -2,6 +2,11 @@ Miscelaneous git-related links, not including [http://git.or.cz/ Git homepage], 
 [[GitCommunity]] including mailing list archives and IRC logs, [[InterfacesFrontendsAndTools]].
 
 == "Using Git" project pages ==
+* [http://www.linux-mips.org/wiki/Git Git] and [http://www.linux-mips.org/wiki/WhatIsGit What Is Git] on Linux/MIPS wiki.
+* [http://wiki.winehq.org/GitWine [[GitWine]] tutorial] at WINE wiki.
+* [http://freedesktop.org/wiki/UsingGit Using Git] at freedesktop.org
+* [http://www.denx.de/en/Documents/GitDocs Software Configuration Management using `git`] from DENX, home of the U-Boot boot loader.
+* [http://wiki.xmms2.xmms.se/index.php/Download_XMMS2 Download XMMS2] at XMMS2 wiki.
 
 == Mailing list digests ==
 * [http://www.kerneltraffic.org/git/index.html Git Traffic] - Newsletter that summarises events on the git mailing list<<BR>> (only one issue, for 2 May 2005, seems abandoned)
@@ -23,6 +28,6 @@ Miscelaneous git-related links, not including [http://git.or.cz/ Git homepage], 
   *[http://www.pcworld.idg.com.au/index.php/id;1852076002;fp;16;fpid;0 After controversy, Torvalds begins work on "git"] by Robert [[McMillan]].
 * [http://www.linux-mag.com Linux Magazine] (requires free subscription)
   *[http://www.linux-mag.com/index.php?option=com_content&task=view&id=2130 Git With It!], written by Sam Williams 
-  *[http://www.linux-mag.com/index.php?option=com_content&task=view&id=2533 How To Git It], written by Jon Loeliger. Also available as [http://www.jdl.com/papers/How_To_Git_It.html How To Git It] on Jon Loeliger (jdl) [http://www.jdl.com/papers/ papers] page.
+  *[http://www.linux-mag.com/index.php?option=com_content&task=view&id=2533 How To Git It], written by Jon Loeliger.<<BR>>  Also available as [http://www.jdl.com/papers/How_To_Git_It.html How To Git It] on Jon Loeliger (jdl) [http://www.jdl.com/papers/ papers] page.
 
 __NOTOC__
