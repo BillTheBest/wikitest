@@ -26,8 +26,8 @@ on your mood:
 
 The short definition is:
 
-<b>Fetch</b>: Download objects and a head from another repository.<<BR>>
-<b>Pull</b>:  Fetch (as defined above) and merge with the current development.
+<b>Fetch</b>: Download (new) objects and a head from another repository.<<BR>>
+<b>Pull</b>:  Fetch (as defined above), and then merge what was downloaded with the current development.
 
 * See the
  [http://www.kernel.org/pub/software/scm/git/docs/git-fetch.html git-fetch(1)] and
