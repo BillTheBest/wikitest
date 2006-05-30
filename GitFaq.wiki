@@ -121,13 +121,22 @@ project you have to put the files path in the `.gitignore` in the tree itself.
 Sometimes it is neccessary to have some local modifications in the tree
 in order to test it and work with it.
 
-One can use
+One can use temporary branch, to merge later
 <pre><nowiki>
 $ git-update-index $(git-ls-files --modified)
 $ git-checkout -b tempBranch
 $ git-commit -m "to test"
 </nowiki></pre>
-where `tempBranch` is the unique original throwaway branch name.
+where `tempBranch` is the unique (original) throwaway branch name.
+
+Another solution is to save changes in a patch, to apply later
+<pre><nowiki>
+$ git diff --binary HEAD > tempPatch.diff
+$ git reset --hard
+</nowiki></pre>
+(<b>warning:</b> <code><nowiki>git reset --hard</nowiki></code> removes changes to the working tree!)
+
+* You can also search git mailing list archives (links at [[GitCommunity]]) for `git-undo/git-redo` or `stash/unstash`.
 
 = Error diagnostic =
 
