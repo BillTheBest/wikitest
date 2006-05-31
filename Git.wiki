@@ -2,16 +2,11 @@
 
 Git was created by [[Linus Torvalds]] with assistance from a loosely-knit team of hackers across the Net. It is currently maintained by [[Junio C. Hamano]].
 
-<!-- ##----
- -->
-<!-- ##<b>Table of contents:</b>
- -->
-<!-- ##
- -->
-<!-- ##<<<!-- ! TOC here -->(2)>>
- -->
-<!-- ##----
- -->
+----
+<b>Table of contents:</b>
+
+<<<!-- ! TOC here -->(2)>>
+----
 
 = Git Features =
 * <b>Strong support for non-linear development.</b>  Git supports rapid and convenient branching and merging, and includes powerful tools for visualizing and navigating a non-linear development history.
@@ -22,6 +17,21 @@ Git was created by [[Linus Torvalds]] with assistance from a loosely-knit team o
 * <b>Pluggable merge strategies.</b> As part of its toolkit design, git has a well-defined model of an incomplete merge, and it has multiple algorithms for completing it, culminating in telling the user that it is unable to complete the merge automatically and manual editing is required. It is thus easy to experiment with new merge algorithms.
 
 Besides providing a version control system, the Git project provides a generic low-level toolkit for tree history storage and directory content management.  Traditionally, the toolkit is called the [[plumbing]].  Several other projects (so-called <i>[[porcelain|porcelains]]</i>) offer compatible version control interfaces -- see the [http://git.or.cz/tools.html related tools page on Git Homepage] and [[InterfacesFrontendsAndTools]] page on this wiki.
+
+= Implementation =
+
+Git has two data structures, a mutable <i>index</i> that caches information about the working directory and the next revision to be committed, and an immutable, append-only <i>object database</i> (repository) containing four types of objects:
+
+* A <i>blob</i> object is the content of a file. Blob objects have no names, timestamps, or other metadata.
+* A <i>tree</i> object is the equivalent of a (sub)directory: it contains a list of filenames, each with some type bits and the name of a blob or tree object that is that file, symbolic link, or directory's contents. This object describes a snapshot of the source tree.
+* A <i>commit</i> object links tree objects together into a history. It contains the name of a tree object (of the top-level source directory), a timestamp, a log message, and the names of zero or more parent commit objects.
+* A <i>tag</i> object is a container that contains reference to another object and can hold additional meta-data related to another object. Most commonly it is used to store a digital signature of a commit object corresponding to a particular release of the data being tracked by Git.
+
+The object database can hold any kind of object. An intermediate layer, the index, serves as connection point between the object database and the working tree.
+
+Each object is identified by a SHA1 hash of its contents. Git computes the hash, and uses this value for the object's name. The object is put into a directory matching the first two characters of its hash. The rest of the hash is used as the file name for that object.
+
+Git stores each revision of a file as a unique blob object. The relationships between the blobs can be found through examining the tree and commit objects. Newly added objects are stored in their entirety using zlib compression. This can consume a large amount of hard disk space quickly, so objects can be combined into <b>packs</b>, which use delta compression to save space, storing blobs as their changes relative to other blobs.
 
 ----
 [[CategoryGitHomepage]] ([http://git.or.cz/about.html About])
