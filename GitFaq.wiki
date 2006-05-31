@@ -89,6 +89,18 @@ showing renames outside limit), but on git mailing list there was patch to add
 * [http://permalink.gmane.org/gmane.comp.version-control.git/217 Mail] by
  Linus on this topic.
 
+<<Anchor(git-version)>>
+== Why git --version is not reporting the "full" version number? ==
+
+There is a bit of chicken and egg problem involved.  The build
+procedure wants to have an already installed git to figure out
+the "full" version number.  If you are bootstrapping, make clean
+and rebuild after you install git once would give you a git
+binary that knows what version it is.
+
+<code><nowiki>GIT-VERSION-GEN</nowiki></code> script show current (used) git version,
+<code><nowiki>git --version</nowiki></code> shows git version used at the time git was build.
+
 = How do I ... =
 
 <<Anchor(repo-sharing)>>
