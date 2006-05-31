@@ -54,6 +54,23 @@ Willowbend: Confessions of a Wannabe Capitalist, (Wednesday, August 24th, 2005).
 
 = Other version control software =
 
+== List of revision control software ==
+=== Software using a non-distributed approach ===
+* [http://www.nongnu.org/cvs/ CVS] — very stable and built on RCS — the most used but has many limitations.
+* [http://subversion.tigris.org/ Subversion] (`svn`) — like CVS but without some of its limitations.
+* [http://www.perforce.com/ Perforce] (`p4`) — comprehensive SCM capabilities built around a scalable client/server architecture. Free for use in open source projects.
+
+=== Software using a distributed approach ===
+* [http://www.bitkeeper.com/ BitKeeper] (`bk`) (was used in Linux kernel development December 1999 - April 2005)
+* [http://www.gnu.org/software/gnu-arch/ GNU Arch] (`tla`) — the original Arch
+* [http://bazaar.canonical.com/ Bazaar] (`baz`) — GNU arch fork retaining compatibility with a nicer UI.
+* [http://www.bazaar-ng.org/ Bazaar-NG] (`bzr`) — written in Python. Decentralised and easy to use. Can losslessly import Arch archives.
+* [http://www.venge.net/monotone/ Monotone] — full-decentralized in a P2P way.
+* [http://www.selenic.com/mercurial/ Mercurial] (`hg`) — written in Python. Extremely fast, lightweight, portable, and easy to use.
+* Codeville written in Python — Uses an innovative merging algorithm.
+* Darcs is a decentralized and free revision control system written in the Haskell language can keep track of inter-patch dependencies using a "theory of patches" with roots in quantum mechanics.
+* SVK is written in Perl — built on top of Subversion to allow distributed commits.
+
 == Git comparison with other SCMs ==
 Only those including [[Git]] as one of the systems.
 * [[WikiPedia:Comparison_of_revision_control_software|Comparison of revision control software]] table at Wikipedia.
@@ -63,7 +80,7 @@ Only those including [[Git]] as one of the systems.
 * [http://linuxmafia.com/faq/Apps/scm.html Source-code management on Linux] - large list of SCMs with descriptions at LinuxMafia.
 * [http://bramcohen.livejournal.com/17319.html Version Control Shenanigans] and [http://bramcohen.livejournal.com/17925.html More version control stuff] LiveJournal articles by Bram Cohen, founder of Codeville and a current contributor.
 
-== Generic version control ==
+== Generic version control info ==
 There is place for generic, non SCM specific, links
 * [http://www.dwheeler.com/essays/scm-security.html Software Configuration Management (SCM) Security] by David A. Wheeler (March 13, 2004; Revised May 6, 2005).
 * [http://www.usenix.org/events/hotos03/tech/full_papers/henson/henson.pdf An Analysis of Compare-by-hash] (PDF) by Val Henson, in <i>Proceedings of HotOS IX: The 9th Workshop on Hot Topics in Operating Systems</i>.
