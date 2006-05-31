@@ -53,6 +53,8 @@ Directories are added automatically when adding files inside them. That is,
 directories never have to be added to the repository, and are not tracked
 on their own.
 
+Though you can say "`git add <dir>`" and it will add files in there.
+
 <<Anchor(rename-tracking)>>
 == Why does git not track renames? ==
 
