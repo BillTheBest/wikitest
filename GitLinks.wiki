@@ -49,8 +49,7 @@ Miscelaneous git-related links, not including [http://git.or.cz/ Git homepage], 
   *[http://www.linux-mag.com/index.php?option=com_content&task=view&id=2533 How To Git It], written by Jon Loeliger.<<BR>>  Also available as [http://www.jdl.com/papers/How_To_Git_It.html How To Git It] on Jon Loeliger (jdl) [http://www.jdl.com/papers/ papers] page.
 
 == Blogs ==
-* [http://willowbend.cx/2005/08/24/git-epiphany/ Git Epiphany] by Darrin 'Willowbend' Thompson, at 
-Willowbend: Confessions of a Wannabe Capitalist, (Wednesday, August 24th, 2005).
+* [http://willowbend.cx/2005/08/24/git-epiphany/ Git Epiphany] by Darrin 'Willowbend' Thompson, at [http://willowbend.cx/ Willowbend: Confessions of a Wannabe Capitalist] blog, (Wednesday, August 24th, 2005).
 
 = Other version control software =
 
@@ -67,9 +66,12 @@ Willowbend: Confessions of a Wannabe Capitalist, (Wednesday, August 24th, 2005).
 * [http://www.bazaar-ng.org/ Bazaar-NG] (`bzr`) — written in Python. Decentralised and easy to use. Can losslessly import Arch archives.
 * [http://www.venge.net/monotone/ Monotone] — full-decentralized in a P2P way.
 * [http://www.selenic.com/mercurial/ Mercurial] (`hg`) — written in Python. Extremely fast, lightweight, portable, and easy to use.
-* Codeville written in Python — Uses an innovative merging algorithm.
-* Darcs is a decentralized and free revision control system written in the Haskell language can keep track of inter-patch dependencies using a "theory of patches" with roots in quantum mechanics.
-* SVK is written in Perl — built on top of Subversion to allow distributed commits.
+* [http://codeville.org/ Codeville] written in Python — Uses an innovative merging algorithm.
+* [http://abridgegame.org/darcs/ Darcs] is a decentralized and free revision control system written in the Haskell language can keep track of inter-patch dependencies using a "theory of patches" with roots in quantum mechanics.
+* [http://svk.elixus.org/ SVK] is written in Perl — built on top of Subversion to allow distributed commits.
+
+=== Other approaches ===
+* [http://savannah.nongnu.org/projects/quilt Quilt] is a set of scripts to manage a series of patches by keeping track of the changes each patch makes. [[StGIT]] and [[pg]] are Git version control interface layers provides a Quilt-like patch management functionality in the Git environment.
 
 == Git comparison with other SCMs ==
 Only those including [[Git]] as one of the systems.
