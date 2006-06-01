@@ -44,4 +44,8 @@ My benchmark is to apply all 819 patches from -mm3 to 2.6.12-rc:
 
 ----
 
+On Tue, May 23, 2006 in [http://lists.ibiblio.org/pipermail/sm-discuss/2006-May/014586.html |SM-Discuss| scm next steps] post Jeremy Blosser did speed benchmarks with hg vs. git.  The post contains fairly large table of results, so it is not copied yet.
+
+----
+
 __NOTOC__
