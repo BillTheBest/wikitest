@@ -7,18 +7,21 @@
 = General =
 
 <<Anchor(--amend)>>
-== Fix the most recent Commit ==
+== How to fix the most recent commit ==
 
 Git allows you to easily fix up the most recent commit you've made on
 a branch with the --amend option:
 
-  $ git commit --amend
-
-Will allow you to alter the commit message.
-
-  $ git commit -s --amend
-
-Will let you alter the commit message and will also automatically
+For example the following command will allow you to alter 
+the commit message at the top of current head:
+<pre><nowiki>
+$ git commit --amend
+</nowiki></pre>
+while 
+<pre><nowiki>
+$ git commit -s --amend
+</nowiki></pre>
+will let you alter the commit message and will also automatically
 add a sign-off message for you.
 
 __NOTOC__
