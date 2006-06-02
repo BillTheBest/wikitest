@@ -27,12 +27,12 @@ webmaster takes patches) and obviously the stock documentation:
 * See the [[GitCommunity]] page for mailing list and IRC information.
 * See the [[GitDocumentation]] page for an overview of git related documentation.
 * See the [[GitFaq]] page for frequently asked questions.
-* The [[GitTips]] page for tips on how to get the most out of git.
+* See the [[GitTips]] page for tips on how to get the most out of git.
 
 == Additional Information ==
 * See the [[GitHistory]] for a bit of history, inspirations and design decisions.
 * See the [[GitLinks]] for further reading.
-* Read [[WikiPedia:Git_(software)|Git (software)]] article at [http://wn.wikipedia.org Wikipedia].
+* Read [[WikiPedia:Git_(software)|Git (software)]] article at [http://en.wikipedia.org Wikipedia].
 
 == Interfaces and other Git Tools ==
 
