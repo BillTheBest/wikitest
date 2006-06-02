@@ -88,7 +88,7 @@
     `git-cvsserver` is a CVS emulation layer for git. It is highly functional; the mapping is bidirectional, so people who like cvs, can do both checkout and commit using cvs, and it shows up in git. However, not all methods are implemented, and for those methods that are implemented, not all switches are implemented. Testing has been done using both the CLI CVS client, and the Eclipse CVS plugin. Most functionality works fine with both of these clients.
 
 <b>gitcvs</b><<Anchor(gitcvs)>>::
-    [http://git.catalyst.net.nz/gitweb?p=gitcvs.git;a=summary gitcvs] is git/CVS emulation project by Martyn Smith and Martin Langhoff. Currently gitcvs works only over ssh connections. Testing has been done using both the CLI CVS client, and the Eclipse CVS plugin.
+    [http://git.catalyst.net.nz/gitweb?p=gitcvs.git;a=summary gitcvs] is git/CVS emulation project by Martyn Smith and Martin Langhoff. Currently gitcvs works only over ssh connections. Testing has been done using both the CLI CVS client, and the Eclipse CVS plugin. Note that this is the predecessor of `git-cvsserver`.
 
 <b>parsecvs</b><<Anchor(parsecvs)>>::
     [http://gitweb.freedesktop.org/?p=users-keithp-parsecvs;a=summary parsecvs] by Keith Packard is a C-based CVS file parser and Git import tool. It directly reads RCS ,v files (you can get them using CVSsuck if you don't have access to $CVSROOT) and generates a git-style rev-list structure from them.
