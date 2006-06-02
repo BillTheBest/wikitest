@@ -224,6 +224,9 @@ See the [[Self:InterfacesFrontendsAndTools#rcs-interaction|[[InterfacesFrontends
 ("Interaction with other Revision Control Systems" section),
 for a good reference on how to interact with other revision control systems.
 
+Note that you can add/import old history from other revision control system later,
+and join the histories using [[GraftPoint|Graft Points]].
+
 <<Anchor(import-cvs)>>
 == Can I import from CVS? ==
 
