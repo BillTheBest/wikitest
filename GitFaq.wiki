@@ -154,9 +154,8 @@ in order to test it and work with it.
 
 One can use temporary branch, to merge later
 <pre><nowiki>
-$ git-update-index $(git-ls-files --modified)
 $ git-checkout -b tempBranch
-$ git-commit -m "to test"
+$ git-commit -a -m "to test"
 </nowiki></pre>
 where `tempBranch` is the unique (original) throwaway branch name.
 
