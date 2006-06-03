@@ -50,6 +50,8 @@ This list is sorted alphabetically:
 	introduced by an existing [[#commit commit]] and to record it based
 	on the tip of the current [[#branch branch]] as a new [[#commit commit]].
 
+        See also [http://www.kernel.org/pub/software/scm/git/docs/git-cherry-pick.html git-cherry-pick(1)]
+
 ; clean : <<Anchor(clean)>>
 	A [[#working_tree working tree]] is <i>clean</i>, if it corresponds to the [[#revision revision]]
 	referenced by the current [[#head head]].  Also see "[[#dirty dirty]]".
@@ -160,6 +162,8 @@ This list is sorted alphabetically:
 	merge uses heuristics to accomplish that. Evidently, an automatic
 	merge can fail.
 
+        See also [http://www.kernel.org/pub/software/scm/git/docs/git-merge.html git-merge(1)]
+
 ; object : <<Anchor(object)>>
 	The unit of storage in git. It is uniquely identified by
 	the [[#SHA1 SHA1]] of its contents. Consequently, an object can not
@@ -240,6 +244,8 @@ This list is sorted alphabetically:
 	To clean a [[#branch branch]] by starting from the [[#head head]] of the main line of
 	development ("[[#master master]]"), and reapply the (possibly [[#cherry-picking cherry-picked]])
 	changes from that branch.
+
+        See also [http://www.kernel.org/pub/software/scm/git/docs/git-rebase.html git-rebase(1)]
 
 ; ref : <<Anchor(ref)>>
 	A 40-byte hex representation of a [[#SHA1 SHA1]] or a name that denotes
