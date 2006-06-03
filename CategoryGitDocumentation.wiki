@@ -3,7 +3,7 @@
 <!-- #language en
  -->
 
-This is category for pages which are [[GitDocumentation]], i.e. pages which are equivalent, or could end in the `Documentation/` directory in [[Git]] repository (as separate file, or as part of manpage, or as part of some tutorial).
+This is category for pages which are [[GitDocumentation]].
 
 To add a page to this category, add a link to this page on the last line of the page. You can add multiple categories to a page.
 
