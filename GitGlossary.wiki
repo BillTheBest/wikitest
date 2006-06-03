@@ -345,4 +345,7 @@ $ git push $URL refs/heads/master:refs/heads/to-upstream</nowiki></pre>
 * [http://www.kernel.org/pub/software/scm/git/docs/glossary.html HTML] version of GIT Glossary.
 * Glossary [http://www.kernel.org/git/?p=git/git.git;a=blob;hb=HEAD;f=Documentation/glossary.txt source], HEAD version (in [[AsciiDoc]]).
 
+----
+[[CategoryGitDocumentation]]
+
 __NOTOC__
