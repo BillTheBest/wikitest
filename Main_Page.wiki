@@ -26,6 +26,7 @@ webmaster takes patches) and obviously the stock documentation:
 == Getting Help ==
 * See the [[GitCommunity]] page for mailing list and IRC information.
 * See the [[GitDocumentation]] page for an overview of git related documentation.
+* See the [[GitGlossary]] ([http://www.kernel.org/pub/software/scm/git/docs/glossary.html original]) for explanation of terminology.
 * See the [[GitFaq]] page for frequently asked questions.
 * See the [[GitTips]] page for tips on how to get the most out of git.
 
