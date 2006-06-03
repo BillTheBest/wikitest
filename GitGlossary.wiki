@@ -1,3 +1,5 @@
+This list is sorted alphabetically:
+
 ; alternate object database : <<Anchor(alternate_object_database)>>
 	Via the alternates mechanism, a [[#repository repository]] can inherit part of its
 	[[#object_database object database]] from another object database, which is called
@@ -14,7 +16,7 @@
 	are present and checked out.  Usually publishers of public
 	repositories make bare repositories available.
 
-; blob object : <<Anchor(blob_object)>>
+; blob object : <<Anchor(blob_object)>><<Anchor(blob)>>
 	Untyped [[#object object]], e.g. the contents of a file.
 
 ; branch : <<Anchor(branch)>>
@@ -28,7 +30,7 @@
 ; chain : <<Anchor(chain)>>
 	A list of objects, where each [[#object object]] in the list contains a
 	reference to its successor (for example, the successor of a [[#commit commit]]
-	could be one of its parents).
+	could be one of its [[#parent parents]]).
 
 ; changeset : <<Anchor(changeset)>>
 	BitKeeper/cvsps speak for "[[#commit commit]]". Since git does not store
@@ -60,7 +62,7 @@
 
 ; commit object : <<Anchor(commit_object)>>
 	An [[#object object]] which contains the information about a particular
-	[[#revision revision]], such as parents, committer, author, date and the
+	[[#revision revision]], such as [[#parent parents]], committer, author, date and the
 	[[#tree_object tree object]] which corresponds to the [[#directory top directory]] of the
 	stored revision.
 
@@ -104,7 +106,7 @@
 	the local [[#object_database object database]], and to get them, too.
 
 ; file system : <<Anchor(file_system)>>
-	Linus Torvalds originally designed git to be a user space file
+	[[Linus Torvalds]] originally designed git to be a user space file
 	system, i.e. the infrastructure to hold files and directories.
 	That ensured the efficiency and speed of git.
 
@@ -181,11 +183,11 @@
 	the type of an [[#object object]].
 
 ; octopus : <<Anchor(octopus)>>
-	To [[#merge merge]] more than two [[#branche branches]]. Also denotes an intelligent
+	To [[#merge merge]] more than two [[#branch branches]]. Also denotes an intelligent
 	predator.
 
 ; origin : <<Anchor(origin)>>
-	The default [[#upstream upstream]] [[#tracking_branch tracking branch]]. Most projects have at
+	The default upstream [[#tracking_branch tracking branch]]. Most projects have at
 	least one upstream project which they track. By default
 	'origin' is used for that purpose.  New upstream updates (from '[[#master master]]')
 	will be [[#fetch fetched]] into this branch; you should never commit
@@ -215,7 +217,7 @@
 
 ; porcelain : <<Anchor(porcelain)>>
 	Cute name for programs and program suites depending on [[#core_git core git]],
-	presenting a high level access to core git. Porcelains expose
+	presenting a high level access to core git. [[Porcelain|Porcelains]] expose
 	more of a [[#SCM SCM]] interface than the [[#plumbing plumbing]].
 
 ; pull : <<Anchor(pull)>>
@@ -248,12 +250,15 @@
 	between remote [[#ref ref]] and local [[#ref ref]].  They are combined with
 	a colon in the format <code><nowiki><src>:<dst></nowiki></code>, preceded by an optional
 	plus sign, <code><nowiki>+</nowiki></code>.  For example:
-	<code><nowiki>git fetch $URL refs/heads/master:refs/heads/origin</nowiki></code>
+	<pre><nowiki>
+$ git fetch $URL refs/heads/master:refs/heads/origin</nowiki></pre>
 	means "grab the master branch head from the $URL and store
 	it as my origin branch head".
-	And <code><nowiki>git push $URL refs/heads/master:refs/heads/to-upstream</nowiki></code>
+	And <pre><nowiki>
+$ git push $URL refs/heads/master:refs/heads/to-upstream</nowiki></pre>
 	means "publish my master branch head as to-upstream master head
-	at $URL".  
+	at $URL".
+
         See also [http://www.kernel.org/pub/software/scm/git/docs/git-push.html git-push(1)]
 
 ; repository : <<Anchor(repository)>><<Anchor(remote_repository)>>
@@ -329,6 +334,7 @@
 	The set of files and directories currently being worked on,
 	i.e. you can work in your working tree without using git at all.
 
+----
 = References =
 * [http://www.kernel.org/pub/software/scm/git/docs/glossary.html HTML] version of GIT Glossary.
 * Glossary [http://www.kernel.org/git/?p=git/git.git;a=blob;hb=HEAD;f=Documentation/glossary.txt source], HEAD version (in [[AsciiDoc]]).
