@@ -89,7 +89,7 @@ There is place for generic, non SCM specific, links
 * [http://revctrl.org/ Revctrl Wiki], including [http://revctrl.org/CategoryMergeAlgorithm Examples of different merge algorithms] article there.
 * [http://software.ericsink.com/scm/source_control.html Source Control HOWTO] (work in progress) and [http://software.ericsink.com/Beyond_CheckOut_and_CheckIn.html Beyond CheckOut and [[CheckIn]]] by Eric Sink, heavily inspired by Vault and Subversion.
 * [http://ydirson.free.fr/en/software/scm/ SCM - Software Configuration Management] page by Yann Dirson, dedicated to the research of the ultimate free-software SCM system. Includes [http://ydirson.free.fr/en/software/scm/vc.txt Version control according to Yann Dirson] (aka. "Thoughts about the ideal version-control tool") and [http://ydirson.free.fr/en/software/scm/scm-domains.txt SCMs near-distinct sub-domains list].
-* [http://blog.ianbicking.org/distributed-vs-centralized-scm.html Distributed vs. Centralized Version Control] in Ian Bicking blog, pro-Centralized SCM.
-* [http://community.livejournal.com/relisoft/9641.html Distributed Systems] by Bartosz Milewski, in Reliable Software (relisoft) Developers' Journal, about truly distributed SCM vs. distributed database/filesystem centralized SCM. Pro Code Co-Op.
+* [http://blog.ianbicking.org/distributed-vs-centralized-scm.html Distributed vs. Centralized Version Control] in Ian Bicking blog, pro-Centralized SCM. /!\
+* [http://community.livejournal.com/relisoft/9641.html Distributed Systems] by Bartosz Milewski, in Reliable Software (relisoft) Developers' Journal, about truly distributed SCM vs. distributed database/filesystem centralized SCM. Pro Code Co-Op. /!\
 
 __NOTOC__
