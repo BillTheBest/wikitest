@@ -30,6 +30,8 @@ give you an introduction to the basic workflows.
 * [http://linux.yyz.us/git-howto.html The Kernel Hacker's Git Tutorial]
  by Jeff Garzik may be useful.
 
+* Check [[GitLinks]] for further info (including git-related info on pages of projects using git). 
+
 = Man pages =
 
 Each git command is documented in it's own man page. If the man pages are installed
@@ -95,6 +97,7 @@ package or in a separate git-doc package. They also should be available from
 in the incoming version.
 
 ----
+[[CategoryGitDocumentation]]
 [[CategoryGitHomepage]] ([http://git.or.cz/documentation.html Documentation])
 
 __NOTOC__
