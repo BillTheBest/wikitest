@@ -1,12 +1,12 @@
 This list is sorted alphabetically:
 
 ; alternate object database : <<Anchor(alternate_object_database)>>
-	Via the alternates mechanism, a [[#repository repository]] can inherit part of its
+	Via the <i>alternates mechanism</i>, a [[#repository repository]] can inherit part of its
 	[[#object_database object database]] from another object database, which is called
 	"alternate".
 
 ; bare repository : <<Anchor(bare_repository)>>
-	A bare [[#repository repository]] is normally an appropriately named
+	A <i>bare [[#repository repository]]</i> is normally an appropriately named
 	directory with a `.git` suffix that does not have a
 	[[#working_tree locally checked-out copy]] of any of the files under revision
 	control.  That is, all of the git administrative and
@@ -42,7 +42,7 @@ This list is sorted alphabetically:
 	stored in the [[#object_database object database]].
 
 ; cherry-picking : <<Anchor(cherry-picking)>>
-	In [[#SCM SCM]] jargon, "cherry pick" means to choose a subset of
+	In [[#SCM SCM]] jargon, <i>"cherry pick"</i> means to choose a subset of
 	changes out of a series of changes (typically commits)
 	and record them as a new series of changes on top of
 	different codebase.  In GIT, this is performed by
@@ -51,7 +51,7 @@ This list is sorted alphabetically:
 	on the tip of the current [[#branch branch]] as a new [[#commit commit]].
 
 ; clean : <<Anchor(clean)>>
-	A [[#working_tree working tree]] is clean, if it corresponds to the [[#revision revision]]
+	A [[#working_tree working tree]] is <i>clean</i>, if it corresponds to the [[#revision revision]]
 	referenced by the current [[#head head]].  Also see "[[#dirty dirty]]".
 
 ; commit : <<Anchor(commit)>>
@@ -80,7 +80,7 @@ This list is sorted alphabetically:
 	You are *waaaaay* behind.
 
 ; dirty : <<Anchor(dirty)>>
-	A [[#working_tree working tree]] is said to be dirty if it contains modifications
+	A [[#working_tree working tree]] is said to be <i>dirty</i> if it contains modifications
 	which have not been committed to the current [[#branch branch]].
 
 ; directory : <<Anchor(directory)>>
@@ -92,7 +92,7 @@ This list is sorted alphabetically:
 	explanation.
 
 ; fast forward : <<Anchor(fast_forward)>>
-	A fast-forward is a special type of [[#merge merge]] where you have
+	A <i>fast-forward</i> is a special type of [[#merge merge]] where you have
 	a [[#revision revision]] and you are "merging" another [[#branch branch]]'s changes
 	that happen to be a descendant of what you have.
 
@@ -101,7 +101,7 @@ This list is sorted alphabetically:
 	frequently on a [[#tracking_branch tracking branch]] of a [[#remote_repository remote repository]].
 
 ; fetch : <<Anchor(fetch)>>
-	Fetching a branch means to get the [[#branch branch]]'s [[#head_ref head ref]] from a
+	<i>Fetching a [[#branch branch]]</i> means to get the [[#branch branch]]'s [[#head_ref head ref]] from a
 	[[#remote_repository remote repository]], to find out which [[#object objects]] are missing from
 	the local [[#object_database object database]], and to get them, too.
 
@@ -155,7 +155,7 @@ This list is sorted alphabetically:
 	development, though that is purely conventional and not required.
 
 ; merge : <<Anchor(merge)>>
-	To merge branches means to try to accumulate the changes since a
+	To <i>merge branches</i> means to try to accumulate the changes since a
 	common ancestor and apply them to the first [[#branch branch]]. An automatic
 	merge uses heuristics to accomplish that. Evidently, an automatic
 	merge can fail.
@@ -206,7 +206,7 @@ This list is sorted alphabetically:
 	predecessor(s) in the line of development, i.e. its parents.
 
 ; pickaxe : <<Anchor(pickaxe)>>
-	The term pickaxe refers to an option to the diffcore routines
+	The term <i>pickaxe</i> refers to an option to the diffcore routines
 	that help select changes that add or delete a given text string.
 	With the `--pickaxe-all` option, it can be used to view the
 	full [[#changeset changeset]] that introduced or removed, say, a particular
@@ -221,10 +221,10 @@ This list is sorted alphabetically:
 	more of a [[#SCM SCM]] interface than the [[#plumbing plumbing]].
 
 ; pull : <<Anchor(pull)>>
-	Pulling a [[#branch branch]] means to [[#fetch fetch]] it and [[#merge merge]] it.
+	<i>Pulling a [[#branch branch]]</i> means to [[#fetch fetch]] it and [[#merge merge]] it.
 
 ; push : <<Anchor(push)>>
-	Pushing a [[#branch branch]] means to get the branch's [[#head_ref head ref]] from 
+	<i>Pushing a [[#branch branch]]</i> means to get the branch's [[#head_ref head ref]] from 
         a [[#remote_repository remote repository]] , find out if it is an ancestor to the branch's local
 	head ref is a direct, and in that case, putting all [[#object objects]], which
 	are reachable from the local head ref, and which are missing from
@@ -233,7 +233,7 @@ This list is sorted alphabetically:
 	local [[#head head]], the push fails.
 
 ; reachable : <<Anchor(reachable)>>
-	An [[#object object]] is reachable from a [[#ref ref]]/[[#commit commit]]/[[#tree tree]]/[[#tag tag]], if there is a
+	An [[#object object]] is <i>reachable</i> from a [[#ref ref]]/[[#commit commit]]/[[#tree tree]]/[[#tag tag]], if there is a
 	[[#chain chain]] leading from the latter to the former.
 
 ; rebase : <<Anchor(rebase)>>
@@ -246,7 +246,7 @@ This list is sorted alphabetically:
 	a particular [[#object object]]. These may be stored in `$GIT_DIR/refs/`.
 
 ; refspec : <<Anchor(refspec)>>
-	A refspec is used by [[#fetch fetch]] and [[#push push]] to describe the mapping
+	A <i>refspec</i> is used by [[#fetch fetch]] and [[#push push]] to describe the mapping
 	between remote [[#ref ref]] and local [[#ref ref]].  They are combined with
 	a colon in the format <code><nowiki><src>:<dst></nowiki></code>, preceded by an optional
 	plus sign, <code><nowiki>+</nowiki></code>.  For example:
