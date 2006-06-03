@@ -15,8 +15,8 @@
 This is the Git Wiki site. It is a little experimental right now; it is not
 currently meant as the primary source of information about [[Git]] but it might
 be useful for easy information exchange between users of Git and the Git
-[[porcelain]]s like [[Cogito]], [[StGIT]] and such.  Well, have fun! And as the wiki
-users say, edit with courage.
+[[Porcelain|porcelains]] like [[Cogito]], [[StGIT]] and such.  Well, have fun! 
+And as the wiki users say, edit with courage.
 
 The other information sources are the [http://git.or.cz/ Git Homepage] (the
 webmaster takes patches) and obviously the stock documentation:
@@ -32,17 +32,18 @@ webmaster takes patches) and obviously the stock documentation:
 == Additional Information ==
 * See the [[GitHistory]] for a bit of history, inspirations and design decisions.
 * See the [[GitLinks]] for further reading.
+* Read [[Git]] and [[Cogito]] pages.
 * Read [[WikiPedia:Git_(software)|Git (software)]] article at [http://en.wikipedia.org Wikipedia].
 
 == Interfaces and other Git Tools ==
 
 [[InterfacesFrontendsAndTools]] lists other programs that work with [[Git]].
 
-[[GitBenchmarks]] shows how Git compares to other version control systems.
+[[GitBenchmarks]] shows how Git performs and how compares to other version control systems.
 
 == Projects using Git ==
 
-Projects that use [[Git]] for their source code management are listed in [[GitProjects]]
+Projects that use [[Git]] for their source code management are listed in [[GitProjects]].
 
 == Getting Involved ==
 
