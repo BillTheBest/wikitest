@@ -82,6 +82,12 @@ Only those including [[Git]] as one of the systems.
 * [http://www.dwheeler.com/essays/scm.html Comments on Open Source Software / Free Software (OSS/FS) Software Configuration Management (SCM) Systems] by David A. Wheeler, (April 10, 2004; lightly revised May 18, 2005). Git added at the very end of article.
 * [http://linuxmafia.com/faq/Apps/scm.html Source-code management on Linux] - large list of SCMs with descriptions at LinuxMafia.
 * [http://bramcohen.livejournal.com/17319.html Version Control Shenanigans] and [http://bramcohen.livejournal.com/17925.html More version control stuff] LiveJournal articles by Bram Cohen, founder of Codeville and a current contributor.
+* [http://opensolaris.org/os/community/tools/scm/ Source Code Management for OpenSolaris] describes choosing SCM for OpenSolaris (Subversion for centralized SCM, Mercurial for distributed SCM was chosen).
+
+== SCMs comparison not including Git ==
+* [http://better-scm.berlios.de/comparison/ Better SCM Initiative: Comparison] by Shlomi Fish (includes Darcs, Mercurial, Monotone but not Git/Cogito).
+* [http://wiki.gnuarch.org/SubVersionAndCvsComparison Subversion and CVS Comparison], includes Aegis, Arch, CVS, Subversion, SVK briefly compared table.
+* [http://www.onlamp.com/pub/a/onlamp/2004/01/29/scm_overview.html The New Breed of Version Control Systems] by Shlomi Fish, at O'Reilly ONLamp (CVS, Subversion, Arch, OpenCM, Aegis, Monotone, BitKeeper).
 
 == Generic version control info ==
 There is place for generic, non SCM specific, links
