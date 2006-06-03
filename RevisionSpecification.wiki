@@ -111,4 +111,7 @@ test subdirectory in the last month.
  the section on "Specifying Revisions" in
  [http://www.kernel.org/pub/software/scm/git/docs/git-rev-parse.html git-rev-parse(1)].
 
+----
+[[CategoryGitDocumentation]]
+
 __NOTOC__
