@@ -8,6 +8,21 @@ Git was created by [[Linus Torvalds]] with assistance from a loosely-knit team o
 <<<!-- ! TOC here -->(2)>>
 ----
 
+= Design =
+* <b>Pure content tracker.</b> The main design idea of Git is that it is <i>"pure content tracker"</i>. 
+ Regardless of how you get to a particular state, git will consider that state 100% identical. 
+ The consequence of it is that git separates the notion of history (which is purely a list of 
+ commits and their relationships), and the notion of place and name of file in filesystem (structure),
+ from the notion of "content", which has no history nor structure in itself.
+* content is stored in <i>blob objects</i>.
+* history is stored in <i>commit objects</i>.
+* structure is stored in <i>tree objects</i>.
+* <b>Storing states.</b> 
+<!-- ## initial version.
+ -->
+ One property of Git that has led to considerable controversy is that it snapshots directory trees of files. The earliest systems for tracking versions of source code, SCCS and RCS, worked on individual files and emphasized the space savings to be gained from delta encoding the (mostly similar) versions. Later revision control systems maintained this notion of a file having an identity across multiple revisions of a project.
+ Git rejects this concept and does not explicitly record file revision relationships at any level below the source code tree.
+
 = Git Features =
 == Advantages ==
 * <b>Strong support for non-linear development.</b>  Git supports rapid and convenient branching and merging, and includes powerful tools for visualizing and navigating a non-linear development history.
