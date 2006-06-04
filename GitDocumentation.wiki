@@ -6,7 +6,7 @@
 
 = Getting started =
 
-If you are new to git, here are some essential documents that will
+If you are new to [[Git]], here are some essential documents that will
 give you an introduction to the basic workflows.
 
 * For a quick start,
@@ -21,12 +21,13 @@ give you an introduction to the basic workflows.
 == Pages in category [[GitDocumentation]] ==
 See also the pages in [[CategoryGitDocumentation|[[GitDocumentation]] category]].
 
+* Git glossary ([[GitGlossary|[[GitWiki]] version]], [http://www.kernel.org/pub/software/scm/git/docs/glossary.html HTML version], [http://www.kernel.org/git/?p=git/git.git;a=blob;hb=HEAD;f=Documentation/glossary.txt source via gitweb]) offers an explanation of terminology used.
 * An overview of the [[RevisionSpecification]] used by the `git log` command and
  several repository visualizers.
 
 = Other relevant tutorials =
 
-* Cogito also has an
+* [[Cogito]] also has an
  [http://www.kernel.org/pub/software/scm/cogito/docs/introduction.html introduction]
  and a [http://www.kernel.org/pub/software/scm/cogito/docs/cg-ref.html quick reference] of
  frequently used commands.
@@ -46,12 +47,12 @@ will give you the man page for the git log command.
 [http://www.kernel.org/pub/software/scm/git/docs/git.html git(7)]
 serves as an overview of git commands and man pages.
 
-Online versions of the git man pages corresponding to the
+Online versions of the [[Git]] man pages corresponding to the
 latest development version can be found at:
 
 * http://www.kernel.org/pub/software/scm/git/docs/
 
-Similarly, Cogito man pages are available from:
+Similarly, [[Cogito]] man pages are available from:
 
 * http://www.kernel.org/pub/software/scm/cogito/docs/
 
@@ -98,7 +99,7 @@ $ git tar-tree html > git-html.tar
 Many distributions bundle pregenerated documentation with either the git-core
 package or in a separate git-doc package. They also should be available from
 * http://www.kernel.org/pub/software/scm/git/ 
-in the incoming version.
+in the incoming 1.4.x version.
 
 ----
 [[CategoryGitDocumentation]]
