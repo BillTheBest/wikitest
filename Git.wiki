@@ -9,9 +9,9 @@ Git was created by [[Linus Torvalds]] with assistance from a loosely-knit team o
 ----
 
 = Design =
-* <b>Pure content tracker.</b> The main design idea of Git is that it is <i>"pure content tracker"</i>. 
+* <b>Pure content tracker.</b> The main design idea of Git is <i>"pure content tracking"</i>. 
  Regardless of how you get to a particular state, git will consider that state 100% identical. 
- The consequence of it is that git separates the notion of history (which is purely a list of 
+ Consequently, git separates the notion of history (which is purely a list of 
  commits and their relationships), and the notion of place and name of file in filesystem (structure),
  from the notion of "content", which has no history nor structure in itself.
 * content is stored in <i>blob objects</i>.
