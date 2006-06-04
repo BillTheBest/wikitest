@@ -79,7 +79,7 @@
 == Interaction with other Revision Control Systems ==
 
 <b>Built-in import</b> (built in)<<Anchor(git-xxximport)>>::
-    Core Git contains `git-xxximport` commands for importing from other systems: [http://www.gnu.org/software/gnu-arch/ GNU Arch] (`tla`), [http://www.nongnu.org/cvs/ CVS] (needs `cvsps`) and [http://subversion.tigris.org/ Subversion] (using `SVN::Perl` module); [https://savannah.nongnu.org/projects/quilt/ Quilt] and [http://www.perforce.com/ Peforce] (`p4`) import is in the works (both available from [[GitCommunity|git mailing list archives]]). There exist also (dumb and slow) unpublished BitKeeper (`bk`) importer.
+    Core Git contains `git-xxximport` commands for importing from other systems: [http://www.gnu.org/software/gnu-arch/ GNU Arch] (`tla`), [http://www.nongnu.org/cvs/ CVS] (needs `cvsps`) and [http://subversion.tigris.org/ Subversion] (using `SVN::Perl` module); [https://savannah.nongnu.org/projects/quilt/ Quilt] and [http://www.perforce.com/ Perforce] (`p4`) import is in the works (both available from [[GitCommunity|git mailing list archives]]). There exist also (dumb and slow) unpublished BitKeeper (`bk`) importer.
 
 <b>git-cvsexportcommit</b> (built in)<<Anchor(git-cvsexportcommit)>>::
     `git-cvsexportcommit` exports a commit from Git to a CVS checkout, making it easier to merge patches from a git repository into a CVS repository. Supports file additions, removals, and commits that affect binary files.
