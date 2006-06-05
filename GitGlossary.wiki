@@ -115,6 +115,12 @@ This list is sorted alphabetically:
 ; git archive : <<Anchor(git_archive)>>
 	Synonym for [[#repository repository]] (for arch people).
 
+ grafts::
+	Also known as [[GraftPoint]], enable two otherwise different lines of development to
+	be joined together. It works by letting users record fake ancestry information for
+	commits. This way you can make git pretend the set of parents a commit has is
+	different from what was recorded when the commit was created.
+
 ; hash : <<Anchor(hash)>>
 	In git's context, synonym to [[#object_name object name]].
 
