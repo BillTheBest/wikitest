@@ -8,7 +8,7 @@ is different from what was recorded when the commit was created.
 
 Grafts can be useful when moving development to git, since it allows you
 to make cloning of the old history imported from another SCM optional.
-This keeps the initial clone for users who just want the follow the
+This keeps the initial clone for users who just wants to follow the
 latest version down while developers can have the full development
 history available.
 
@@ -17,9 +17,6 @@ there didn't exist any tools to convert the old kernel history.
 Later, when the old kernel history was imported into git from
 the bkcvs gateway, grafts was created as a method for making
 it possible to tie the two different repositories together.
-
-So grafts also make it possible to switch to using git today and
-later worry about converting the old history.
 
 = How to Use Grafts =
 
