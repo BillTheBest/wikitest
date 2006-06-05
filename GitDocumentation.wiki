@@ -24,6 +24,7 @@ See also the pages in [[CategoryGitDocumentation|[[GitDocumentation]] category]]
 * Git glossary ([[GitGlossary|[[GitWiki]] version]], [http://www.kernel.org/pub/software/scm/git/docs/glossary.html HTML version], [http://www.kernel.org/git/?p=git/git.git;a=blob;hb=HEAD;f=Documentation/glossary.txt source via gitweb]) offers an explanation of terminology used.
 * An overview of the [[RevisionSpecification]] used by the `git log` command and
  several repository visualizers.
+* A bit about [[GraftPoint|[[GraftPoints]]]]; when and how to use them.
 
 = Other relevant tutorials =
 
