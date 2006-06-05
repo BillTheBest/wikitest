@@ -1,6 +1,6 @@
-<b>Graft points</b> or <b>grafts</b> enables two otherwise different
-lines of development to be joined together. It works by enabling
-users to record <i>fake</i> ancestry information for commits.
+<b>Graft points</b> or <b>grafts</b> enable two otherwise different
+lines of development to be joined together. It works by letting
+users record <i>fake</i> ancestry information for commits.
 This way you can make git pretend the set of parents a commit has
 is different from what was recorded when the commit was created.
 
@@ -14,12 +14,12 @@ history available.
 
 When Linus started using git for maintaining his kernel tree
 there didn't exist any tools to convert the old kernel history.
-Later when the old kernel history was imported into git from
-the bkcvs gateway grafts was created as a method for making
+Later, when the old kernel history was imported into git from
+the bkcvs gateway, grafts was created as a method for making
 it possible to tie the two different repositories together.
 
 So grafts also make it possible to switch to using git today and
-later worry about converting old history.
+later worry about converting the old history.
 
 = How to Use Grafts =
 
