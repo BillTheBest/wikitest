@@ -229,7 +229,7 @@ and join the histories using [[GraftPoint|Graft Points]].
 <<Anchor(import-cvs)>>
 == Can I import from CVS? ==
 
-Yes, use [http://www.kernel.org/pub/software/scm/git/docs/git-cvsimport.html git-cvsimport(1)].
+Yes, use [http://www.kernel.org/pub/software/scm/git/docs/git-cvsimport.html git-cvsimport(1)], which needs [http://www.cobite.com/cvsps/ CVSps], or use [http://gitweb.freedesktop.org/?p=users-keithp-parsecvs;a=summary parsecvs], which parses directly `,v` files.
 
 * See [http://www.kernel.org/pub/software/scm/git/docs/cvs-migration.html the CVS migration doc]
  for more examples.
