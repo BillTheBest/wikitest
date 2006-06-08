@@ -20,11 +20,13 @@ give you an introduction to the basic workflows.
 
 == Pages in category [[GitDocumentation]] ==
 See also the pages in [[CategoryGitDocumentation|[[GitDocumentation]] category]].
-
+<!-- ## To be reworded
+ -->
 * Git glossary ([[GitGlossary|[[GitWiki]] version]], [http://www.kernel.org/pub/software/scm/git/docs/glossary.html HTML version], [http://www.kernel.org/git/?p=git/git.git;a=blob;hb=HEAD;f=Documentation/glossary.txt source via gitweb]) offers an explanation of terminology used.
 * An overview of the [[RevisionSpecification]] used by the `git log` command and
  several repository visualizers.
 * A bit about [[GraftPoint|[[GraftPoints]]]]; when and how to use them.
+* Introduction to git's [[IndexFile]].
 
 = Other relevant tutorials =
 
