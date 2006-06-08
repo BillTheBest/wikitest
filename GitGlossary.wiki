@@ -103,9 +103,10 @@ This list is sorted alphabetically:
 	frequently on a [[#tracking_branch tracking branch]] of a [[#remote_repository remote repository]].
 
 ; fetch : <<Anchor(fetch)>>
-	<i>Fetching a [[#branch branch]]</i> means to get the [[#branch branch]]'s [[#head_ref head ref]] from a
-	[[#remote_repository remote repository]], to find out which [[#object objects]] are missing from
-	the local [[#object_database object database]], and to get them, too.
+	<i>Fetching a [[#branch branch]]</i> means to get the [[#branch branch]]'s 
+        [[#head_ref head ref]] from a [[#remote_repository remote repository]], 
+        to find out which [[#object objects]] are missing from the local 
+        [[#object_database object database]], and to get them, too.
 
 ; file system : <<Anchor(file_system)>>
 	[[Linus Torvalds]] originally designed git to be a user space file
@@ -115,11 +116,11 @@ This list is sorted alphabetically:
 ; git archive : <<Anchor(git_archive)>>
 	Synonym for [[#repository repository]] (for arch people).
 
- grafts::
+; graft : <<Anchor(graft)>>
 	Also known as [[GraftPoint]], enable two otherwise different lines of development to
 	be joined together. It works by letting users record fake ancestry information for
-	commits. This way you can make git pretend the set of parents a commit has is
-	different from what was recorded when the commit was created.
+	[[#commit commits]]. This way you can make [[Git]] pretend the set of [[#parent parents]] 
+        a [[#commit commit]] has is different from what was recorded when the commit was created.
 
 ; hash : <<Anchor(hash)>>
 	In git's context, synonym to [[#object_name object name]].
@@ -149,6 +150,8 @@ This list is sorted alphabetically:
         [[#working_tree working tree]]. Truth be told, it can also contain 
         a second, and even a third version of a working tree, which are used
         when [[#merge merging]].
+
+        See also: [[IndexFile]]
 
 ; index entry : <<Anchor(index_entry)>>
 	The information regarding a particular file, stored in the [[#index index]].
@@ -184,9 +187,9 @@ This list is sorted alphabetically:
 
 ; object name : <<Anchor(object_name)>>
 	The unique identifier of an [[#object object]]. The [[#hash hash]] of the object's contents
-	using the [[WikiPedia:SHA_hash_functions|Secure Hash Algorithm 1]] and usually represented by the 40
-	character hexadecimal encoding of the hash of the object (possibly
-	followed by a white space).
+	using the [[WikiPedia:SHA_hash_functions|Secure Hash Algorithm 1]] and usually 
+        represented by the 40 character hexadecimal encoding of the hash of the object 
+        (possibly followed by a white space).
 
 ; object type : <<Anchor(object_type)>>
 	One of the identifiers "[[#commit commit]]","[[#tree tree]]","[[#tag tag]]" and "[[#blob blob]]" describing
@@ -213,7 +216,8 @@ This list is sorted alphabetically:
 
 ; parent : <<Anchor(parent)>>
 	A [[#commit_object commit object]] contains a (possibly empty) list of the logical
-	predecessor(s) in the line of development, i.e. its parents.
+	predecessor(s) in the line of development, i.e. its <i>parents</i>. Ancestry information
+        can be changed (faked) using [[#graft grafts]].
 
 ; pickaxe : <<Anchor(pickaxe)>>
 	The term <i>pickaxe</i> refers to an option to the diffcore routines
