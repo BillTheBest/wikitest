@@ -1,4 +1,4 @@
-<b>Git</b> is a modern [[distributed version control system]] focused on speed, effectivity and real-world usability on large projects.  More generally, Git can serve as a general tool for directory content tracking.
+<b>Git</b> is a modern [[DistibutedSCM|distributed version control system]] focused on speed, effectivity and real-world usability on large projects.  More generally, Git can serve as a general tool for directory content tracking.
 
 Git was created by [[Linus Torvalds]] with assistance from a loosely-knit team of hackers across the Net. It is currently maintained by [[Junio C. Hamano]].
 
@@ -17,11 +17,14 @@ Git was created by [[Linus Torvalds]] with assistance from a loosely-knit team o
 * content is stored in <i>blob objects</i>.
 * history is stored in <i>commit objects</i>.
 * structure is stored in <i>tree objects</i>.
-* <b>Storing states.</b> 
-<!-- ## initial version.
+* <b>Storing states.</b> Closely tied with "pure content tracking" is that Git versions ''whole
+ contents'' of a project, i.e. revision/commit refers to the snapshot of the top directory tree.
+ Git does not explicitly record file revision relationships at any level below the source code tree;
+ content copying and moving between files (so called "rename detection") is done at runtime.
+<!-- ## Three tier infrastructure: working directory, index, repository
  -->
- One property of Git that has led to considerable controversy is that it snapshots directory trees of files. The earliest systems for tracking versions of source code, SCCS and RCS, worked on individual files and emphasized the space savings to be gained from delta encoding the (mostly similar) versions. Later revision control systems maintained this notion of a file having an identity across multiple revisions of a project.
- Git rejects this concept and does not explicitly record file revision relationships at any level below the source code tree.
+<!-- ## Explicit packing 
+ -->
 
 = Git Features =
 == Advantages ==
