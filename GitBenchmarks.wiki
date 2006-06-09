@@ -6,7 +6,7 @@
 
 = Speed benchmarks =
 
-== Comparing with Mercurial ==
+== Initial patchbomb comparison with Mercurial ==
 
 On Mon, Apr 25, 2005 at 07:08:28PM -0700, Linus Torvalds wrote:<<BR>>
 > <<BR>>
@@ -42,19 +42,81 @@ My benchmark is to apply all 819 patches from -mm3 to 2.6.12-rc:
 
 <b>Reference:</b> [http://marc.theaimsgroup.com/?l=git&m=111475459526688 Mercurial 0.4b vs git patchbomb benchmark] by Matt Mackall, via [[WikiPedia:Git_(software)|Git (software)]] article at Wikipedia.
 
-----
+== Clone/status/pull comparison of Git and Mercurial ==
 
 On Tue, May 23, 2006 in [http://lists.ibiblio.org/pipermail/sm-discuss/2006-May/014586.html |SM-Discuss| scm next steps] post Jeremy Blosser did speed benchmarks with hg vs. git.  The post contains fairly large table of results. Here's the summary, where all times are given in seconds, and are user+sys time averaged over all results and all cases:
 
- ||<|2> tool ||||||     clone         ||||   status   ||||      log      ||||   pull/merge    ||
- ||<:>          local    ||<:>ssh     ||<:>  http  ||<:> test ||<:> full ||<:> log  ||<:>log -p||<:>server||<:> workst. ||
- || git      ||<)> 9,529s||<)> 14,020s||<)> 36,820s||<)>0,723s||<)>1,893s||<)>0,380s||<)>20,005s  ||<)>165,494s||<)>479,750s ||
- || hg       ||<)>53,783s||<)>109,052s||<)>109,305s||<)>1,857s||<)>4,167s||<)>6,020s||(stopped)||<)> 48,992s||<)>108,150s ||
+{| border="1" cellpadding="2" cellspacing="0"
+|rowspan="2" | tool 
+|colspan="3" |     clone         
+|colspan="2" |   status   
+|colspan="2" |      log      
+|colspan="2" |   pull/merge    
+| 
+|-
+|align="center" |          local    
+|align="center" |ssh     
+|align="center" |  http  
+|align="center" | test 
+|align="center" | full 
+|align="center" | log  
+|align="center" |log -p
+|align="center" |server
+|align="center" | workst. 
+| 
+|-
+|  git      
+|align="right" | 9,529s
+|align="right" | 14,020s
+|align="right" | 36,820s
+|align="right" |0,723s
+|align="right" |1,893s
+|align="right" |0,380s
+|align="right" |20,005s  
+|align="right" |165,494s
+|align="right" |479,750s 
+| 
+|-
+|  hg       
+|align="right" |53,783s
+|align="right" |109,052s
+|align="right" |109,305s
+|align="right" |1,857s
+|align="right" |4,167s
+|align="right" |6,020s
+| (stopped)
+|align="right" | 48,992s
+|align="right" |108,150s 
+| 
+|}
 
 Git repository has all 4 branches in one repository, Mercurial (hg) had one repository per branch; `git log` is for git_p4 with only 2 branches.
 
 As it can be easily seen Git is faster than Mercurial in all tested areas except pull/merge, where it is around 4 times slower.
 
-----
+<b>Reference:</b> [http://lists.ibiblio.org/pipermail/sm-discuss/2006-May/014586.html |SM-Discuss| scm next steps] by Jeremy Blosser.
+
+= Repository size benchmarks =
+
+== Estimate size of Linux kernel repository ==
+
+The historic Linux repo currently repacks itself into a ~175MB pack for 
+63428 commits.
+
+The current Linux repo is ~103MB with a much shorter history (27153 
+commits).
+
+Given the above we can estimate the size of the kernel repository after 
+x commits as follows:
+
+ slope = (175 - 103) / (63428 - 27153) = approx 2KB per commit
+
+ initial size = 175 - .001985*63428 = 49MB
+
+So the initial kernel commit is about 49MB in size which is coherent 
+with the corresponding compressed tarball.  Subsequent commits are 2KB 
+in size on average.
+
+<b>Reference:</b> Nicolas Pitre's [http://permalink.gmane.org/gmane.comp.version-control.git/21531 email] on [[GitCommunity|[[GitMailingList]]]]
 
 __NOTOC__
