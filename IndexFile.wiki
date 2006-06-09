@@ -36,5 +36,6 @@ to diff against this particular state instead of the last commit.
 
 ----
 [[CategoryGitDocumentation]]
+[[CategoryGlossary]]
 
 __NOTOC__
