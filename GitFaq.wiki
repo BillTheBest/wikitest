@@ -172,7 +172,13 @@ $ git reset --hard
 == How to manually resolve conflicts when Git failed to detect rename? ==
 What to do when you renamed a bunch of files, the merge is having a hard time autoresolving, and you have a couple of conflicts?
 
-First, check which files have conflicts to resolve using <code><nowiki>git ls-files --unmerged</nowiki></code>. Then you can tell the blob object names for the original (i.e. stage1 of A), yours (i.e. stage2 of D/A) and his/hers (i.e. stage3 of A). stage1 is from the common ancestor, stage2 is from your branch, and stage3 is from his/her branch. If you don't have stage2 that means that Git failed to detect rename.
+First, check which files have conflicts to resolve using <code><nowiki>git ls-files --unmerged</nowiki></code>. Then you can tell the blob object names for the original (i.e. stage1 of A), yours (i.e. stage2 of D/A) and his/hers (i.e. stage3 of A). stage1 is from the common ancestor, stage2 is from your branch, and stage3 is from his/her branch. If you don't have stage2 that means that Git failed to detect rename, e.g.:
+<pre><nowiki>
+$ git ls-files --unmerged --abbrev
+...
+100755 33cd1f76... 1       util/endian.h
+100755 7f531bb7... 3       util/endian.h
+</nowiki></pre>
 
 Then to do merge between the versions for the "undetected rename" file, extract two blobs (whose sha1 you have from [http://www.kernel.org/pub/software/scm/git/docs/git-ls-files.html git-ls-files(1)] or [http://www.kernel.org/pub/software/scm/git/docs/git-status.html git-status(1)] output) to temporary files, and run "merge" command by hand, e.g.
 <pre><nowiki>
@@ -180,9 +186,9 @@ $ git cat-file blob 33cd1f76 > endian.h-1
 $ git cat-file blob 7f531bb7 > endian.h-3
 $ merge src/util/endian.h endian.h-1 endian.h-3
 </nowiki></pre>
-(that is merge yours, original and his). Of course instead of `merge` from RCS you can use your favorite 3-way file merge program, e.g. [http://www.delorie.com/gnu/docs/emacs/ediff_2.html Ediff3 from Emacs], [http://meld.sourceforge.net/ Meld], [http://furius.ca/xxdiff/ xxdiff] or [http://kdiff3.sourceforge.net/ KDiff3]. In newer versions of Git you could use <i><stage>:<filename></i> instead of SHA1 to extract files to temporary files.
+(that is merge yours, original and his). Of course instead of `merge` from RCS you can use your favorite 3-way file merge program, e.g. [http://www.delorie.com/gnu/docs/emacs/ediff_2.html Ediff3 from Emacs], [http://meld.sourceforge.net/ Meld], [http://furius.ca/xxdiff/ xxdiff] or [http://kdiff3.sourceforge.net/ KDiff3]. In newer versions of Git you could use "<i>:<stage>:<filename></i>" instead of SHA1 to extract files to temporary files (<code><nowiki>:1:util/endian.h</nowiki></code> and <code><nowiki>:3:util/endian.h</nowiki></code>, respectively); check [[RevisionSpecification]] and references therein.
 
-Once you come up with the desired state in your file (`src/util/endian.h` in our example), then you have to inform Git that file was renamed, i.e. say "git update-index --remove <i><file-before-rename></i>" (removing the file from working directory as well, if it exist there) and "git update-index <i><file-after-rename></i>" (`src/util/endian.h` in example) - you should have it already in the index, so you do not have to say `--add`.
+Once you come up with the desired state in your file (`src/util/endian.h` in our example), then you have to inform Git that file was renamed, i.e. say "<code><nowiki>git update-index --remove util/endian.h</nowiki></code>" in our example (removing the file from working directory as well, if it exist there) and then "<code><nowiki>git update-index src/util/endian.h</nowiki></code>" (you should have it already in the index, so you do not have to say `--add`).
 
 We've dealt with one path, three more to go but I think the procedure is the same.
 
