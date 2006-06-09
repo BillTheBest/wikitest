@@ -120,10 +120,6 @@ ignored in reseted version, and shows e.g. in the `git status` output.
 
 * See [http://marc.theaimsgroup.com/?l=git&m=114917892328066 Linus Torvalds] answer or [http://marc.theaimsgroup.com/?l=git&m=114917892613019 Sean Estabrooks] answer at [[GitCommunity|git mailing list]].
 
-<<Anchor(git-push-ssh-umask)>>
-== Git push via ssh and git-shell is leaving files unreadable by gitweb ==
-[http://www.kernel.org/pub/software/scm/git/docs/git-shell.html git-shell(1)] doesn't read `.bashrc` or any similar file. `umask` should be tweakable by configuring what sshd does for the user. The "LOGIN PROCESS" section from `man sshd(8)` talks about <code><nowiki>$HOME/.ssh/environment</nowiki></code> (if users are allowed to change their environment; see PermitUserEnvironment option in sshd_config(5)), <code><nowiki>$HOME/.ssh/rc</nowiki></code> and <code><nowiki>/etc/ssh/sshrc</nowiki></code>. You should set <code><nowiki>umask 0022</nowiki></code> there.
-
 = How do I ... =
 
 <<Anchor(repo-sharing)>>
