@@ -36,5 +36,6 @@ terminated by a newline. <pre><nowiki>
 
 ----
 [[CategoryGitDocumentation]]
+[[CategoryGlossary]]
 
 __NOTOC__
