@@ -44,7 +44,16 @@ My benchmark is to apply all 819 patches from -mm3 to 2.6.12-rc:
 
 ----
 
-On Tue, May 23, 2006 in [http://lists.ibiblio.org/pipermail/sm-discuss/2006-May/014586.html |SM-Discuss| scm next steps] post Jeremy Blosser did speed benchmarks with hg vs. git.  The post contains fairly large table of results, so it is not copied yet.
+On Tue, May 23, 2006 in [http://lists.ibiblio.org/pipermail/sm-discuss/2006-May/014586.html |SM-Discuss| scm next steps] post Jeremy Blosser did speed benchmarks with hg vs. git.  The post contains fairly large table of results. Here's the summary, where all times are given in seconds, and are user+sys time averaged over all results and all cases:
+
+ ||<|2> tool ||||||     clone         ||||   status   ||||      log      ||||   pull/merge    ||
+ ||<:>          local    ||<:>ssh     ||<:>  http  ||<:> test ||<:> full ||<:> log  ||<:>log -p||<:>server||<:> workst. ||
+ || git      ||<)> 9,529s||<)> 14,020s||<)> 36,820s||<)>0,723s||<)>1,893s||<)>0,380s||<)>20,005s  ||<)>165,494s||<)>479,750s ||
+ || hg       ||<)>53,783s||<)>109,052s||<)>109,305s||<)>1,857s||<)>4,167s||<)>6,020s||(stopped)||<)> 48,992s||<)>108,150s ||
+
+Git repository has all 4 branches in one repository, Mercurial (hg) had one repository per branch; `git log` is for git_p4 with only 2 branches.
+
+As it can be easily seen Git is faster than Mercurial in all tested areas except pull/merge, where it is around 4 times slower.
 
 ----
 
