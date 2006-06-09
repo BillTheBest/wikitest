@@ -229,7 +229,7 @@ and join the histories using [[GraftPoint|Graft Points]].
 <<Anchor(import-cvs)>>
 == Can I import from CVS? ==
 
-Yes, use [http://www.kernel.org/pub/software/scm/git/docs/git-cvsimport.html git-cvsimport(1)], which needs [http://www.cobite.com/cvsps/ CVSps], or use [http://gitweb.freedesktop.org/?p=users-keithp-parsecvs;a=summary parsecvs], which parses directly `,v` files.
+Yes, use [http://www.kernel.org/pub/software/scm/git/docs/git-cvsimport.html git-cvsimport(1)], which needs [http://www.cobite.com/cvsps/ CVSps], or use [http://gitweb.freedesktop.org/?p=users-keithp-parsecvs;a=summary parsecvs], which parses directly `,v` files. Yet another solution would be to use [http://cvs2svn.tigris.org/ cvs2svn] to import CVS repository to Subversion, then import from Subversion to Git (at least until cvs2svn is ported to git as e.g. cvs2git).
 
 * See [http://www.kernel.org/pub/software/scm/git/docs/cvs-migration.html the CVS migration doc]
  for more examples.
@@ -237,7 +237,7 @@ Yes, use [http://www.kernel.org/pub/software/scm/git/docs/git-cvsimport.html git
 <<Anchor(import-svn)>>
 == Can I import from svn? ==
 
-Yes, use [http://www.kernel.org/pub/software/scm/git/docs/git-svnimport.html git-svnimport(1)].
+Yes, use [http://www.kernel.org/pub/software/scm/git/docs/git-svnimport.html git-svnimport(1)]. Check also [[Self:InterfacesFrontendsAndTools#git-svnconvert|git-svnconvert]] in [[InterfacesFrontendsAndTools]].
 
 <<Anchor(import-arch)>>
 == Can I import from arch/baz/tla? ==
