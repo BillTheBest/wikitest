@@ -52,11 +52,10 @@
 
 == Web Interface ==
 
-<b>gitweb</b><<Anchor(gitweb)>>::
+<b><u>gitweb</u></b> (distributed with Git)<<Anchor(gitweb)>>::
     [[gitweb]] ([ftp://ftp.kernel.org/pub/software/scm/gitweb/ ftp archive]) provides full-fledged web interface for Git repositories. It is written in Perl and maintained by Kay Sievers. Used at [http://www.kernel.org/git/ kernel.org].
 
-    The [http://wiki.xmms2.xmms.se/index.php/Main_Page XMMS2 project] maintains their own version of gitweb which has some additional features. The latest snapshot
-    of this effort can be downloaded from [http://git.xmms.se/?p=gitweb-xmms2.git;a=summary].
+    The [http://wiki.xmms2.xmms.se/index.php/Main_Page XMMS2 project] maintains their own version of gitweb which has some additional features. The latest snapshot of this effort can be downloaded from [http://git.xmms.se/?p=gitweb-xmms2.git;a=summary].
 
 <b>wit</b><<Anchor(wit)>>::
     [[wit]] ([http://www.grmso.net:8090/ homepage]) is a Python implementation maintained by Christian Meder.
@@ -79,7 +78,7 @@
 == Interaction with other Revision Control Systems ==
 
 <b>Built-in import</b> (built in)<<Anchor(git-xxximport)>>::
-    Core Git contains `git-xxximport` commands for importing from other systems: [http://www.gnu.org/software/gnu-arch/ GNU Arch] (`tla`), [http://www.nongnu.org/cvs/ CVS] (needs `cvsps`) and [http://subversion.tigris.org/ Subversion] (using `SVN::Perl` module); [https://savannah.nongnu.org/projects/quilt/ Quilt] and [http://www.perforce.com/ Perforce] (`p4`) import is in the works (both available from [[GitCommunity|git mailing list archives]]). There exist also (dumb and slow) unpublished BitKeeper (`bk`) importer.
+    Core Git contains `git-xxximport` commands for importing from other systems: [http://www.gnu.org/software/gnu-arch/ GNU Arch] (`tla`), [http://www.nongnu.org/cvs/ CVS] (needs `cvsps`) and [http://subversion.tigris.org/ Subversion] (using `SVN::Perl` module), [https://savannah.nongnu.org/projects/quilt/ Quilt] and [http://www.perforce.com/ Perforce] (`p4`). There exist also (dumb and slow) unpublished BitKeeper (`bk`) importer.
 
 <b>git-cvsexportcommit</b> (built in)<<Anchor(git-cvsexportcommit)>>::
     `git-cvsexportcommit` exports a commit from Git to a CVS checkout, making it easier to merge patches from a git repository into a CVS repository. Supports file additions, removals, and commits that affect binary files.
