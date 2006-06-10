@@ -24,6 +24,8 @@ This list is sorted alphabetically:
 	a particular [[#revision revision]], which is called the branch [[#head head]]. The
 	branch heads are stored in `$GIT_DIR/refs/heads/`.
 
+        See also: [[BranchesInGit]].
+
 ; cache : <<Anchor(cache)>>
 	Obsolete for: [[#index index]].
 
@@ -50,7 +52,7 @@ This list is sorted alphabetically:
 	introduced by an existing [[#commit commit]] and to record it based
 	on the tip of the current [[#branch branch]] as a new [[#commit commit]].
 
-        See also [http://www.kernel.org/pub/software/scm/git/docs/git-cherry-pick.html git-cherry-pick(1)]
+        See also: [http://www.kernel.org/pub/software/scm/git/docs/git-cherry-pick.html git-cherry-pick(1)]
 
 ; clean : <<Anchor(clean)>>
 	A [[#working_tree working tree]] is <i>clean</i>, if it corresponds to the [[#revision revision]]
@@ -137,12 +139,14 @@ This list is sorted alphabetically:
 	During the normal execution of several git commands,
 	call-outs are made to optional scripts that allow
 	a developer to add functionality or checking.
-	Typically, the hooks allow for a command to be pre-verified
+	Typically, the <i>hooks</i> allow for a command to be pre-verified
 	and potentially aborted, and allow for a post-notification
 	after the operation is done.
 
 	The hook scripts are found in the `$GIT_DIR/hooks/` directory,
 	and are enabled by simply making them executable.
+
+        See also: [http://www.kernel.org/pub/software/scm/git/docs/hooks.html Hooks used by git].
 
 ; index : <<Anchor(index)>>
 	A collection of files with stat information, whose contents are
