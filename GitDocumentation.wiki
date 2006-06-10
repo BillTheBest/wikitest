@@ -100,10 +100,12 @@ $ git tar-tree man  > git-man.tar
 $ git tar-tree html > git-html.tar
 </nowiki></pre>
 
-Many distributions bundle pregenerated documentation with either the git-core
-package or in a separate git-doc package. They also should be available from
+Many distributions bundle <b>pregenerated documentation</b> with either the git-core
+package or in a separate git-doc package. They also are be available from
 * http://www.kernel.org/pub/software/scm/git/ 
-in the incoming 1.4.x version.
+beginning with the 1.4.0 version, as
+* http://www.kernel.org/pub/software/scm/git/git-htmldocs-1.4.0.tar.gz
+* http://www.kernel.org/pub/software/scm/git/git-manpages-1.4.0.tar.gz
 
 ----
 [[CategoryGitDocumentation]]
