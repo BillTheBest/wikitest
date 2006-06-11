@@ -141,11 +141,14 @@ Use `cg-admin-setuprepo -g` (if you use [[Cogito]]) or do `git-init-db --shared`
 <<Anchor(gitignore)>>
 == How do I tell git to ignore files? ==
 
-If you want to ignore files locally (only for you in your local work copy)
-put the files path in the repository in the `.git/info/exclude` file.
+You can put shell-style globs (e.g. `*.o`) in either `.git/info/exclude`
+or `.gitignore`.
 
-If you want to make the ignore matters for all and everyone who checkouts the
-project you have to put the files path in the `.gitignore` in the tree itself.
+`.git/info/exclude` is local to your repository only, and not shared by others who might
+fetch from your repository.
+
+`.gitignore` is more commonly used, as it can be checked into the repository and thereby
+automatically shared with all users of the project.
 
 * See the
  [http://www.kernel.org/pub/software/scm/git/docs/git-ls-files.html git-ls-files(1)] man page,
