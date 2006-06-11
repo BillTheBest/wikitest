@@ -25,10 +25,11 @@ will let you alter the commit message and will also automatically
 add a sign-off message for you.
 
 <<Anchor(rewrite-hist)>>
-== How to change commit deeper in history ==
+== How to change commits deeper in history ==
 
-As in Git commits depends on the whole history up to it, fixing not the most recent commit
-(commit which is not branch head) requires rewriting history from the changed commit upwards.
+Since history in Git is immutable, fixing anything but the most recent commit
+(commit which is not branch head) requires that the history is rewritten from
+the changed commit and forward.
 
 You can use [[Cogito]]'s [http://www.kernel.org/git/?p=cogito/cogito-doc.git;a=blob;hb=HEAD;f=txt/cg-admin-rewritehist.1.txt cg-admin-rewritehist(1)] for that.
 
