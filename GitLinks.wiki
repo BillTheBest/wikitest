@@ -99,4 +99,7 @@ There is place for generic, non SCM specific, links
 * [http://blog.ianbicking.org/distributed-vs-centralized-scm.html Distributed vs. Centralized Version Control] in Ian Bicking blog, pro-Centralized SCM. /!\
 * [http://community.livejournal.com/relisoft/9641.html Distributed Systems] by Bartosz Milewski, in Reliable Software (relisoft) Developers' Journal, about truly distributed SCM vs. distributed database/filesystem centralized SCM. Pro Code Co-Op. /!\
 
+= Other links =
+* [http://ydirson.free.fr/en/software/scm/cvsps.html CvsPs patches] - collection of patches to CVSps, tool needed for `git-cvsimport` (see [[Self:InterfacesFrontendsAndTools#git-xxximport|[[InterfacesFrontendsAndTools]]]]).
+
 __NOTOC__
