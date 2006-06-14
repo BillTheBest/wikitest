@@ -283,7 +283,7 @@ Yes, use [http://www.kernel.org/pub/software/scm/git/docs/git-cvsimport.html git
 <<Anchor(import-svn)>>
 == Can I import from svn? ==
 
-Yes, use [http://www.kernel.org/pub/software/scm/git/docs/git-svnimport.html git-svnimport(1)]. Check also [[Self:InterfacesFrontendsAndTools#git-svnconvert|git-svnconvert]] in [[InterfacesFrontendsAndTools]].
+Yes, use [http://www.kernel.org/pub/software/scm/git/docs/git-svnimport.html git-svnimport(1)] or [http://git-svn.yhbt.net/git-svn.html git-svn(1)]. Check also [[Self:InterfacesFrontendsAndTools#git-svnconvert|git-svnconvert]] (in Ruby) in [[InterfacesFrontendsAndTools]].
 
 <<Anchor(import-arch)>>
 == Can I import from arch/baz/tla? ==
