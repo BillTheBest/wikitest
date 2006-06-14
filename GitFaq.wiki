@@ -283,7 +283,7 @@ Yes, use [http://www.kernel.org/pub/software/scm/git/docs/git-cvsimport.html git
 <<Anchor(import-svn)>>
 == Can I import from svn? ==
 
-Yes, use [http://www.kernel.org/pub/software/scm/git/docs/git-svnimport.html git-svnimport(1)] or [http://git-svn.yhbt.net/git-svn.html git-svn(1)]. Check also [[Self:InterfacesFrontendsAndTools#git-svnconvert|git-svnconvert]] (in Ruby) in [[InterfacesFrontendsAndTools]].
+Yes, use [http://www.kernel.org/pub/software/scm/git/docs/git-svnimport.html git-svnimport(1)] or [http://git-svn.yhbt.net/git-svn.html git-svn(1)]. Check also [[Self:InterfacesFrontendsAndTools#git-svnconvert|git-svnconvert]] (in Ruby) in [[InterfacesFrontendsAndTools]]. There is also an idea to use `svnadmin dump` [http://svn.collab.net/repos/svn/trunk/notes/fs_dumprestore.txt "dumpfile" format] as an input for Subversion to Git repository conversion, (similary to what `parsecvs` does for CVS repositories).
 
 <<Anchor(import-arch)>>
 == Can I import from arch/baz/tla? ==
