@@ -29,7 +29,7 @@
     [http://download.gna.org/dvc/ DVC] is a project to create a generic library for fancy Emacs interfaces to modern version control systems. Has support for several systems, but not Git -- yet. <i>(Emacs, elisp)</i>
 
 <b>Eclipse</b> (IDE)<<Anchor(Eclipse)>>:: 
-    [http://www.eclipse.org/ Eclipse] -- a well known, extremely pluggable IDE. Might be useful to look at the [http://eclipsedarcs.org/doku.php Darcs plugin] or [http://www.eclipse.org/community/team.php other existing VCS] plugins. Currently one can work with Eclipse using CVS plugin and `git-cvsserver`. One wonders if one can use `git-svn` and [http://subclipse.tigris.org/ Subclipse] (Subversion plugin) instead... <i>(Java)</i>
+    [http://www.eclipse.org/ Eclipse] -- a well known, extremely pluggable IDE. Might be useful to look at the [http://eclipsedarcs.org/doku.php Darcs plugin] or [http://www.eclipse.org/community/team.php other existing VCS] plugins. Currently one can work with Eclipse using CVS plugin and `git-cvsserver`. One wonders if one can use `git-svn` and [http://subclipse.tigris.org/ Subclipse] (Subversion plugin) instead... <b>in development, unreleased</b>. <i>(Java)</i>
 
 <b>PIDA</b> (IDE)<<Anchor(PIDA)>>::
     [http://pida.berlios.de/ PIDA] Integrated development environment supporting CVS, Subversion, Darcs, Mercurial, Monotone, Bazaar-NG (<i>bzr</i>), GNU Arch. It allows embedding Vim or any editor. <i>(Python, GTK)</i>
