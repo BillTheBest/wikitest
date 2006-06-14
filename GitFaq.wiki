@@ -263,6 +263,15 @@ for a good reference on how to interact with other revision control systems.
 Note that you can add/import old history from other revision control system later,
 and join the histories using [[GraftPoint|Graft Points]].
 
+<<Anchor(import-tar)>>
+== Can I import from tar files (archives)? ==
+
+To import from archives (one archive file per version), to make Git know which files changed between versions despite the fact that time stamps on everything changed (i.e. <code><nowiki>--atime-preserve</nowiki></code> option of `tar` didn't work), use
+<pre><nowiki>
+$ git-update-index --refresh
+</nowiki></pre>
+between versions, so the index <i>thinks</i> things are newer. It won't touch the "really changed" files.
+
 <<Anchor(import-cvs)>>
 == Can I import from CVS? ==
 
