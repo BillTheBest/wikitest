@@ -9,7 +9,7 @@ Git was created by [[Linus Torvalds]] with assistance from a loosely-knit team o
 ----
 
 = Design =
-Git was designed to be extremly fast (seconds per patch), distributed SCM with good support for nonlinear history.
+Git was designed to be extremly fast (seconds per patch), distributed SCM with good support for nonlinear history (including working with multiple branches).
 
 * <b>Pure content tracker.</b> The main design idea of Git is <i>"pure content tracking"</i>. 
  Regardless of how you get to a particular state, git will consider that state 100% identical. 
