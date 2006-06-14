@@ -1,0 +1,20 @@
+http://git.or.cz/git-logo.png
+
+Logo of [[Git]] [[DistributedSCM|distributed revision control system]]. 
+Used by [[Gitweb]] installations to link to [http://www.kernel.org/pub/software/scm/git/docs/ git(7)], 
+and by [http://git.or.cz/ Git homepage] to link to [http://git.or.cz/index.html Home].
+
+----
+
+http://upload.wikimedia.org/wikipedia/en/4/48/Git-favicon-white_background-16x16.png
+
+Proposed [[WikiPedia:Favicon|favicon]] for Git-related web pages.<<BR>>
+PNG, 16x16, 3 colors including white background: see below.
+
+Resized fragment of above Git logo.
+
+{| border="1" cellpadding="2" cellspacing="0"
+|bgcolor="#A0A0A0" | http://upload.wikimedia.org/wikipedia/en/4/48/Git-favicon-white_background-16x16.png 
+| 
+
+__NOTOC__
