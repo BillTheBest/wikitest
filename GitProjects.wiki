@@ -61,6 +61,7 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 ** http://spinlock.ch/cgi-bin/gitweb.pl (gitweb)
 * Source Mage GNU/Linux
 ** http://www.sourcemage.org/ (description)
+** http://wiki.sourcemage.org/Git_Guide (guide)
 ** http://scmweb.sourcemage.org/ (gitweb)
 
 __NOTOC__
