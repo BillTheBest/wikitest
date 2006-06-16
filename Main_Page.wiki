@@ -56,6 +56,9 @@ list can be found here:
 
 Additionally, also have a look at [[InterfacesFrontendsAndToolsWishlist]].
 
+=== Git Wiki ===
+* [[GitWikiSuggestions]] – Your suggestions for improvement of the wiki.
+
 ----
 ----
 
