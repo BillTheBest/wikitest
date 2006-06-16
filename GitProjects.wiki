@@ -26,6 +26,10 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 
 == Non-kernel projects that use Git for their source code management. ==
 
+* One Laptop Per Child (OLPC)
+** http://laptop.org
+** http://crank.laptop.org/code/wiki/[[CentralTree]] (basic description)
+** http://crank.laptop.org/code/browser (gitweb)
 * Wine
 ** http://wiki.winehq.org/[[GitWine]] (description)
 ** http://source.winehq.org/git/?p=wine.git;a=summary (gitweb)
