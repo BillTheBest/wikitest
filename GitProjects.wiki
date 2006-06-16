@@ -59,5 +59,8 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * SWISDK (A web application framework written in PHP) and a Wiki built on git and markdown
 ** http://spinlock.ch/projects/swisdk/ (description)
 ** http://spinlock.ch/cgi-bin/gitweb.pl (gitweb)
+* Source Mage GNU/Linux
+** http://www.sourcemage.org/ (description)
+** http://scmweb.sourcemage.org/ (gitweb)
 
 __NOTOC__
