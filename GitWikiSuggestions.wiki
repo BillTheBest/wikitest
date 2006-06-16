@@ -5,24 +5,24 @@ Make sure your suggestion doesn’t exist already or that your question has alre
 = Editing =
 
 == Parsers ==
-It would be nice to have installed parsers fro [[MoinMoin:[[ParserMarket]]|[[ParserMarket]]]] for languages used in [[Git]], [[Cogito]] and examples, i.e for <b>Perl</b>, <b>shell</b> and e.g. <b>diff</b>. 
+It would be nice to have installed parsers from [[MoinMoin:[[ParserMarket]]|[[ParserMarket]]]] for languages used in [[Git]], [[Cogito]] and examples, i.e for <b>Perl</b>, <b>shell</b> and e.g. <b>diff</b>.
 
 == [[InterWiki]] Links ==
-It would be nice if there were shorter [[InterWiki]] liks for linking to the [[Git]] and [[Cogito]] [[GitDocumentation|documentation]], both HTML version and gitweb sources, i.e. instead of writing e.g. 
+It would be nice if there were shorter [[InterWiki]] links for linking to the [[Git]] and [[Cogito]] [[GitDocumentation|documentation]], both HTML version and gitweb sources, i.e. instead of writing e.g.
 <pre><nowiki>
 [http://www.kernel.org/pub/software/scm/git/docs/git-apply.html git-apply(1)]
-</nowiki></pre> 
- ([http://www.kernel.org/pub/software/scm/git/docs/git-apply.html git-apply(1)]) use <i>(proposal)</i> GitDoc InterWiki link, i.e. use one of the following (ones that are possible to create)
+</nowiki></pre>
+([http://www.kernel.org/pub/software/scm/git/docs/git-apply.html git-apply(1)]) use <i>(proposal)</i> GitDoc InterWiki link, i.e. use one of the following (ones that are possible to create)
 <pre><nowiki>
 [wiki:GitDoc:git-apply git-apply(1)]
 [wiki:GitDoc:git-apply.html git-apply(1)]
 GitDoc:git-apply
-</nowiki></pre> 
- if it is not possible). Analogous for Cogito docs. Instead of using e.g. 
+</nowiki></pre>
+if it is not possible). Analogous for Cogito docs. Instead of using e.g.
 <pre><nowiki>
 [http://www.kernel.org/git/?p=git/git.git;a=blob;hb=HEAD;f=Documentation/git-apply.txt git-apply.txt]
-</nowiki></pre> 
- ([http://www.kernel.org/git/?p=git/git.git;a=blob;hb=HEAD;f=Documentation/git-apply.txt git-apply.txt]) use GitSource InterWiki link 
+</nowiki></pre>
+([http://www.kernel.org/git/?p=git/git.git;a=blob;hb=HEAD;f=Documentation/git-apply.txt git-apply.txt]) use GitSource InterWiki link
 <pre><nowiki>
 [wiki:GitSource:Documentation/git-apply.txt git-apply.txt]
 </nowiki></pre>.
