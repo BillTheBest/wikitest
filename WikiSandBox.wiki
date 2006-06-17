@@ -63,6 +63,8 @@ http://moinmoin.wikiwikiweb.de/ [http://www.python.org/ Python]
 
 someone@the.inter.net
 
+wiki:[[PythonFaq]]:[[RecentChanges]] = [[PythonFaq:[[RecentChanges]]|wiki:[[PythonFaq]]]:[[RecentChanges]]] with `.htp` extension.
+
 === Image Link ===
 http://c2.com/sig/wiki.gif
 
