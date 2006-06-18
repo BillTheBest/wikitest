@@ -51,7 +51,7 @@ Miscelaneous git-related links, not including [http://git.or.cz/ Git homepage], 
   *[http://www.linux-mag.com/index.php?option=com_content&task=view&id=2533 How To Git It], written by Jon Loeliger.<<BR>>  Also available as [http://www.jdl.com/papers/How_To_Git_It.html How To Git It] on Jon Loeliger (jdl) [http://www.jdl.com/papers/ papers] page.
 
 == Seminars and presentations ==
-* [http://www.osdl.jp/docs/Seminar0613/JunioCHamano_Introduction_to_git.pdf Junio C Hamano "Introduction to git"] (PDF) - slides for OSDL seminar. 
+* [http://www.osdl.jp/docs/Seminar0613/JunioCHamano_Introduction_to_git.pdf Junio C Hamano "Introduction to git"] (PDF) - slides for OSDL Japan Linux Symposium.
 
 == Blogs ==
 * [http://willowbend.cx/2005/08/24/git-epiphany/ Git Epiphany] by Darrin 'Willowbend' Thompson, at [http://willowbend.cx/ Willowbend: Confessions of a Wannabe Capitalist] blog, (Wednesday, August 24th, 2005).
