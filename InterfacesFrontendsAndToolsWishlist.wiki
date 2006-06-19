@@ -9,7 +9,7 @@
 <b>Bugzilla</b> (bugtracker)<<Anchor(Bugzilla)>><<Anchor(Bonsai)>>:: <span style="font-size: x-large; color: red">!</span>
     [http://www.bugzilla.org/ Bugzilla] is a "Defect Tracking System" or "Bug-Tracking System".  [http://bugzilla.kernel.org/ Kernel Bug Tracker] for posting bugs against the mainline Linux kernels is based on Bugzilla.
 
-    Patch Viewer is (built in?) an enhancement to Bugzilla designed to provide adequate context for submitted patches through integration with [http://www.mozilla.org/projects/bonsai/ Bonsai], [http://lxr.sourceforge.net/ LXR] and CVS. [http://www.cvszilla.org/ CVSZilla] is a small piece of Perl-glue to integrate either CVS or Subversion with Bugzilla and CVSWeb or ViewCVS. <b>See also:</b> SCMBug entry below.
+    Patch Viewer is (built in?) an enhancement to Bugzilla designed to provide adequate context for submitted patches through integration with [http://www.mozilla.org/projects/bonsai/ Bonsai], [http://lxr.sourceforge.net/ LXR] and CVS. [http://www.cvszilla.org/ CVSZilla] is a small piece of Perl-glue to integrate either CVS or Subversion with Bugzilla and CVSWeb or ViewCVS. <b>See also:</b> [[#scmbug SCMBug]] entry below.
 
     It would be nice to have also Git integration, for example referencing commits and tags, perhaps via making (additionally) Bonsai report against Git. <i>(Perl)</i>
 
