@@ -3,7 +3,7 @@
 = Other programs that *should* be taught to work with Git, but haven't been =
 
 ----
- <span style="font-size: smaller">[[#Bugzilla Bugzilla]], [[#Bonsai Bonsai]], [[#Trac Trac]], [[#TWiki TWiki]], [[#scmbug SCMBug]], [[#Savane Savane]], [[#GForge GForge]], [[#DVC DVC (Emacs)]], [[#Eclipse Eclipse]], [[#PIDA PIDA]], [[#Eric3 Eric3]], [[#Meld Meld]], [[#xxdiff xxdiff]]</span>
+ <span style="font-size: smaller">[[#Bugzilla Bugzilla]], [[#Bonsai Bonsai]], [[#Trac Trac]], [[#TWiki TWiki]], [[#scmbug SCMBug]], [[#be BugsEverywhere]], [[#Savane Savane]], [[#GForge GForge]], [[#DVC DVC (Emacs)]], [[#Eclipse Eclipse]], [[#PIDA PIDA]], [[#Eric3 Eric3]], [[#Meld Meld]], [[#xxdiff xxdiff]]</span>
 ----
 
 <b>Bugzilla</b> (bugtracker)<<Anchor(Bugzilla)>><<Anchor(Bonsai)>>:: <span style="font-size: x-large; color: red">!</span>
@@ -21,6 +21,9 @@
 
 <b>SCMBug</b> (SCM with bugtracking integration)<<Anchor(scmbug)>>::
     [http://www.mkgnu.net/?q=scmbug Scmbug] is a system that integrates software configuration management (SCM) with bug-tracking. It aims to be a universal tool that will glue any source code version control system (supports CVS and Subversion, no Git support yet) with any bug-tracking system (supports Bugzilla, Mantis and Request Tracker). It is in early version. <i>(Perl)</i>
+
+<b>Bugs Everywhere</b> (bugtracker)<<Anchor(be)>>::
+    [http://www.panoramicfeedback.com/opensource/ Bugs Everywhere] is a bug-tracker for distributed developement. It stores bugreports inside the repository, so the status of bugs are propagated with push/pull/merges, and no glue is needed between the SCM and the Bug Tracker. No Git support yet. <i>(Python)</i>
 
 <b>Savane and GForge</b> (software hosting system)<<Anchor(Savane)>><<Anchor(GForge)>>::
     [https://gna.org/projects/savane Savane] and [http://gforge.org/ GForge] are web-based software hosting system. Both Savannah ([https://savannah.gnu.org GNU] and [https://savannah.nongnu.org/ non-GNU]) and [https://gna.org Gna!] use Savane as their software hosting engine. They currently include issue tracking, project member management by roles and individual account maintenance. The issue tracking handles bugs, tasks, support, news and documentation management. Both currently support CVS and Subversion; moving to Subversion is encouraged. Savane additionally supports GNU Arch. No Git support yet. <i>(Perl or PHP)</i>
