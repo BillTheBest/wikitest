@@ -63,5 +63,7 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 ** http://www.sourcemage.org/ (description)
 ** http://wiki.sourcemage.org/Git_Guide (guide)
 ** http://scmweb.sourcemage.org/ (gitweb)
+* Eddt (A directory browsing plugin written in Python for the Gnome text editor, gedit.)
+** http://eddt.mbrio.org/ (index page)
 
 __NOTOC__
