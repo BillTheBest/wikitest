@@ -12,8 +12,8 @@
 <b>List of tools:</b>
  <span style="font-size: smaller">[[#Cogito Cogito]], [[#StGIT StGIT]], [[#pg pg]], [[#hgct (h)gct]], [[#tig tig]], [[#qgit QGit]], [[#gitk gitk]], [[#gitview GitView]], [[#gitweb gitweb]], [[#wit wit]], [[#gittracker gittracker]], [[#git.el git.el]], [[#git-xxximport other SCM import]], [[#git-cvsexportcommit git-cvsexportcommit]], [[#git-cvsserver git-cvsserver]], [[#git-svn git-svn]], [[#parsecvs parsecvs]], [[#git-svnconvert git-svnconvert]], [[#Tailor Tailor]], [[#darcs-git Darcs-Git]], [[#colordiff colordiff]], [[#completion completion]], [[#ciabot CIAbot]], [[#remapper remapper]], [[#gitfs gitfs]]</span>
 -----
-<b>See also:</b> 
-* [[InterfacesFrontendsAndToolsWishlist]] 
+<b>See also:</b>
+* [[InterfacesFrontendsAndToolsWishlist]]
 * [http://git.or.cz/tools.html Git - Related Tools] (at Git homepage)
 
 = Frontends and Interfaces =
@@ -124,8 +124,11 @@ export GIT_DIFF_PAGER="colordiff | less -RS"</nowiki></pre>
 <b>Nico Schottelius scripts</b><<Anchor(schottelius)>>::
     Some of [http://unix.schottelius.org/scripts/ Nico Schottelius (unix|linux) scripts] deal with Git: `db-dump+git.sh`, `update-gitweb.sh`, `update-git+cogito.sh`.
 
+<b>ISISetup</b>::
+    [http://www.isisetup.ch/ IsiSetup] is a utility to help managing your configuration files with Git as backend.  You can rollback changes, explore the history of changes, replicate your configuration, backup your configuration and blame changes to admins.
+
 ----
-[[CategoryTools]] 
+[[CategoryTools]]
 [[CategoryGitHomepage]] ([http://git.or.cz/tools.html Related Tools])
 
 __NOTOC__
