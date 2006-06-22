@@ -16,6 +16,8 @@ Getting off to a good start is important to avoid backlash from comitters during
 
 ==== xcb: Monolithic repository ====
 
+http://lists.freedesktop.org/archives/xcb/2006-June/001688.html
+
 TODO: explain
 
 ==== Xorg: Incorrectly mapped names ====
