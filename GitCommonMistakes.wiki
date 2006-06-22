@@ -21,7 +21,7 @@ There's usually no going back. This is a feature. Once a git repository is publi
 * Release/snapshot announcements containing hashes
 * Email archives with gitweb URLs
 * Bugzilla links
-* Every git clone that any developer or users has ever made
+* Every git clone that any developer or user has ever made
 
 It's clear by this point that getting things right to start with is highly desirable.
 
