@@ -1,8 +1,8 @@
-There are cases where projects migrating to git from SVN or CVS have made mistakes in the transition which are hard to back out because of git's cryptograpically signed commit history.
+There are cases where projects migrating to [[Git]] from SVN or CVS have made mistakes in the transition which are hard to back out because of git's cryptograpically signed commit history.
 
 This page details some common mistakes and pitfalls that projects have experienced when switching to git for version control.
 
-It might make sense to eventually update git or its porcelains to identify some of these cases programattically, or to update the official documentation to help users avoid these mistakes.
+It might make sense to eventually update git or its [[porcelain|porcelains]] to identify some of these cases programattically, or to update the official [[GitDocumentation|documentation]] to help users avoid these mistakes.
 
 If you wish to add to this list, avoid hypothetical cases and try to cite real cases in the wild where your mistake has been observed.
 
@@ -43,6 +43,8 @@ Getting off to a good start is important to avoid backlash from comitters during
 ==== xcb: Monolithic repository ====
 
 http://lists.freedesktop.org/archives/xcb/2006-June/001688.html
+
+This is example where one can see lack of [[SubprojectSupport]] in git is visible.
 
 TODO: explain
 
