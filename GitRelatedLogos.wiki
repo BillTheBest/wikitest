@@ -26,6 +26,11 @@ http://front.fuw.edu.pl/cgi-bin/jnareb/gitweb.cgi?p=git.git;a=blob_plain;h=7b181
 `t/test4012.png` image, used in `t4012-diff-binary.sh` test<<BR>>
 <i>(linked from Jakub Narebski gitweb installation)</i>.
 
+http://www.cs.indiana.edu/picons/db/users/net/cox/junkio/face.gif
+
+<code><nowiki>http://www.cs.indiana.edu/picons/db/users/net/cox/junkio/face.gif</nowiki></code><<BR>>
+Picons Search Results for Junio C Hamano picon.
+
 In case people do not know, this is gitster's ([[Junio C Hamano]]) [[WikiPedia:Picon_(Apple)|picon]] (personal icon: see [http://www.cs.indiana.edu/picons/ftp/faq.html Picons FAQ]) and also appears on his "Git Maintainer" business card.
 
 __NOTOC__
