@@ -36,8 +36,18 @@ git is a joy to use, but there are cases when developers misunderstand the day-t
 
 These mistakes are generally less severe than mistakes made when a repository is first initialised or converted from a legacy format, but they are also less obvious and harder to catch.
 
-== Linux: The botched DVB merges ==
+==== Linux: The botched DVB merges ====
+
+http://www.ussg.iu.edu/hypermail/linux/kernel/0603.2/1961.html
 
 TODO: explain
+
+==== Xorg: Log message conventions not followed ====
+
+"Appearantly, several git tools assume a special formated log message.
+We don't follow these conventions yet, and at least git-rebase behaves
+strangely if they are not followed." mhopf
+
+TODO: explain, link
 
 __NOTOC__
