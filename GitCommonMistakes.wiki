@@ -81,9 +81,11 @@ TODO: explain
 
 http://lists.freedesktop.org/archives/xorg/2006-June/016127.html
 
-"Appearantly, several git tools assume a special formated log message.
-We don't follow these conventions yet, and at least git-rebase behaves
-strangely if they are not followed." mhopf
+ "Appearantly, several git tools assume a special formated log message.
+ We don't follow these conventions yet, and at least git-rebase behaves
+ strangely if they are not followed." - mhopf
+
+<b>See also:</b> [[CommitMessageConventions]].
 
 TODO: explain, link
 
