@@ -6,6 +6,12 @@ It might make sense to eventually update git or its porcelains to identify some 
 
 If you wish to add to this list, avoid hypothetical cases and try to cite real cases in the wild where your mistake has been observed.
 
+----
+<b>Table of contents:</b>
+
+<<<!-- ! TOC here -->>>
+----
+
 == Why does this matter? ==
 
 You only get one shot at publishing your repository.
@@ -33,6 +39,7 @@ In the rush to benifit from the new generation of distributed versioning tools, 
 
 Getting off to a good start is important to avoid backlash from comitters during the transition, and doing it right will save headache in the long run.
 
+=== Examples ===
 ==== xcb: Monolithic repository ====
 
 http://lists.freedesktop.org/archives/xcb/2006-June/001688.html
@@ -53,14 +60,15 @@ TODO: explain, particularly vendor branches etc.
 
 http://gitweb.cairographics.org/?p=cairo;a=commit;h=b913a81c3482f4dc8bc452d91bfaf64b416523f3
 
-This commit highlights a near worst-case scenario where the git log and author have absolutely no relevance to the actual commit. To see for yourself, compare the [[ChangeLog]] contents to the information on the gitweb page.
+This commit highlights a near worst-case scenario where the git log and author have absolutely no relevance to the actual commit. To see for yourself, compare the ChangeLog contents to the information on the gitweb page.
 
 == Mistakes made in day-to-day operation ==
 
-git is a joy to use, but there are cases when developers misunderstand the day-to-day operation of a git repository. It's possible to think you are using git properly for months without realising that you are getting it wrong and have a project history that is less useful than it could have been.
+Git is a joy to use, but there are cases when developers misunderstand the day-to-day operation of a git repository. It's possible to think you are using git properly for months without realising that you are getting it wrong and have a project history that is less useful than it could have been.
 
 These mistakes are generally less severe than mistakes made when a repository is first initialised or converted from a legacy format, but they are also less obvious and harder to catch.
 
+=== Examples ===
 ==== Linux: The botched DVB merges ====
 
 http://www.ussg.iu.edu/hypermail/linux/kernel/0603.2/1961.html
