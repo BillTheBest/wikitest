@@ -33,5 +33,7 @@ deal with e-mailed patches expect you to follow that convention:
 
 ----
 <b>Reference:</b> [http://lists.freedesktop.org/archives/xorg/2006-June/016127.html git log messages - FYI] email from Matthias Hopf at Xorg mailing list.
+----
+[[CategoryGitDocumentation]]
 
 __NOTOC__
