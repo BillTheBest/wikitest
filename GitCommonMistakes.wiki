@@ -1,0 +1,43 @@
+There are cases where projects migrating to git from SVN or CVS have made mistakes in the transition which are hard to back out because of git's cryptograpically signed commit history.
+
+This page details some common mistakes and pitfalls that projects have experienced when switching to git for version control.
+
+It might make sense to eventually update git or its porcelains to identify some of these cases programattically, or to update the official documentation to help users avoid these mistakes.
+
+If you wish to add to this list, avoid hypothetical cases and try to cite real cases in the wild where your mistake has been observed.
+
+== Mistakes made during repository migration ==
+
+Some projects have a decade or more of incredibly valuable version history locked up in their existing legacy source code repositories.
+
+In the rush to benifit from the new generation of distributed versioning tools, some projects have failed to accurately convert their existing project history accurately to the git format.
+
+Getting off to a good start is important to avoid backlash from comitters during the transition, and doing it right will save headache in the long run.
+
+==== xcb: Monolithic repository ====
+
+TODO: explain
+
+==== Xorg: Incorrectly mapped names ====
+
+TODO: explain mixup between commiters with similar initials
+
+==== Xorg: Missing branches ====
+
+TODO: explain, particularly vendor branches etc.
+
+==== Using a home-rolled or outdated conversion tool ====
+
+TODO: explain
+
+== Mistakes made in day-to-day operation ==
+
+git is a joy to use, but there are cases when developers misunderstand the day-to-day operation of a git repository. It's possible to think you are using git properly for months without realising that you are getting it wrong and have a project history that is less useful than it could have been.
+
+These mistakes are generally less severe than mistakes made when a repository is first initialised or converted from a legacy format, but they are also less obvious and harder to catch.
+
+== Linux: The botched DVB merges ==
+
+TODO: explain
+
+__NOTOC__
