@@ -39,9 +39,9 @@ webmaster takes patches) and obviously the stock documentation:
 
 == Interfaces and other Git Tools ==
 
-[[InterfacesFrontendsAndTools]] lists other programs that work with [[Git]].
-
-[[GitBenchmarks]] shows how Git performs and how compares to other version control systems.
+* [[InterfacesFrontendsAndTools]] lists other programs that work with [[Git]].
+* [[InterfacesForntendsAndToolsWishlist]] list other programs that we would want to work with Git.
+* [[GitBenchmarks]] shows how Git performs and how compares to other version control systems.
 
 == Projects using Git ==
 
