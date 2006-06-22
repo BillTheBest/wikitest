@@ -6,6 +6,25 @@ It might make sense to eventually update git or its porcelains to identify some 
 
 If you wish to add to this list, avoid hypothetical cases and try to cite real cases in the wild where your mistake has been observed.
 
+== Why does this matter? ==
+
+You only get one shot at publishing your repository.
+
+Misattribution of authors can taint the legality of your entire codebase and bring in to question the source of your changesets.
+
+Mismatched commit history is less than useless; it can lead to confusion and may conceal bugs.
+
+You will have to keep your legacy CVS/SVN tree around forever and won't get the benefits that are made possible with the git workflow.
+
+There's usually no going back. This is a feature. Once a git repository is published, attempting to rewrite its history will invalidate:
+
+* Release/snapshot announcements containing hashes
+* Email archives with gitweb URLs
+* Bugzilla links
+* Every git clone that any developer or users has ever made
+
+It's clear by this point that getting things right to start with is highly desirable.
+
 == Mistakes made during repository migration ==
 
 Some projects have a decade or more of incredibly valuable version history locked up in their existing legacy source code repositories.
