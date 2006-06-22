@@ -30,9 +30,11 @@ TODO: explain mixup between commiters with similar initials leading to author mi
 
 TODO: explain, particularly vendor branches etc.
 
-==== Using a home-rolled or outdated conversion tool ====
+==== Cairo: Using a home-rolled or outdated conversion tool ====
 
-TODO: explain
+http://gitweb.cairographics.org/?p=cairo;a=commit;h=b913a81c3482f4dc8bc452d91bfaf64b416523f3
+
+This commit highlights a near worst-case scenario where the git log and author have absolutely no relevance to the actual commit. To see for yourself, compare the [[ChangeLog]] contents to the information on the gitweb page.
 
 == Mistakes made in day-to-day operation ==
 
