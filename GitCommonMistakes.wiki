@@ -20,7 +20,9 @@ http://lists.freedesktop.org/archives/xcb/2006-June/001688.html
 
 TODO: explain
 
-==== Xorg: Incorrectly mapped names ====
+==== Cairo: Incorrectly mapped names ====
+
+http://lists.freedesktop.org/archives/cairo/2006-May/006992.html
 
 TODO: explain mixup between commiters with similar initials leading to author misattribution
 
