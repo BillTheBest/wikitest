@@ -1,10 +1,10 @@
-There are cases where projects migrating to [[Git]] from SVN or CVS have made mistakes in the transition which are hard to back out because of git's cryptograpically signed commit history.
+There are cases where projects migrating to [[Git]] from SVN or CVS have made mistakes in the transition which are hard to back out because of git's cryptographically signed commit history.
 
 This page details some common mistakes and pitfalls that projects have experienced when switching to git for version control.
 
 It might make sense to eventually update git or its [[porcelain|porcelains]] to identify some of these cases programattically, or to update the official [[GitDocumentation|documentation]] to help users avoid these mistakes.
 
-If you wish to add to this list, avoid hypothetical cases and try to cite real cases in the wild where your mistake has been observed.
+If you wish to add to this list, avoid hypothetical cases and try to cite real repositories in the wild where your mistake has been observed.
 
 ----
 <b>Table of contents:</b>
@@ -35,7 +35,7 @@ It's clear by this point that getting things right to start with is highly desir
 
 Some projects have a decade or more of incredibly valuable version history locked up in their existing legacy source code repositories.
 
-In the rush to benifit from the new generation of distributed versioning tools, some projects have failed to accurately convert their existing project history accurately to the git format.
+In the rush to benifit from the new generation of distributed versioning tools, repository administrators have failed to accurately convert their existing project history accurately to the git format.
 
 Getting off to a good start is important to avoid backlash from comitters during the transition, and doing it right will save headache in the long run.
 
