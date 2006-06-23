@@ -41,6 +41,7 @@ Check the pages [[CategoryGitDocumentation|[[GitDocumentation]] category]] on th
 * A bit about [[GraftPoint|[[GraftPoints]]]]; when and how to use them.
 * Introduction to git's [[IndexFile]].
 * [[BranchesInGit]] is an explanation about how Git understand branches.
+* Use common [[CommitMessageConventions]], which are used by some of Git tools. 
 
 = Man pages =
 
