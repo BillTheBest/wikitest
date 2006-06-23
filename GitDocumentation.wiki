@@ -4,7 +4,8 @@
 <<<!-- ! TOC here -->(2)>>
 ----
 
-= Getting started =
+= Tutorials =
+== Getting started ==
 
 If you are new to [[Git]], here are some essential documents that will
 give you an introduction to the basic workflows.
@@ -18,18 +19,7 @@ give you an introduction to the basic workflows.
 
 * CVS users may also want to read [http://www.kernel.org/pub/software/scm/git/docs/cvs-migration.html git for CVS users].
 
-== Pages in category [[GitDocumentation]] ==
-See also [[CategoryGitDocumentation|[[GitDocumentation]] category]].
-<!-- ## To be reworded
- -->
-* Git glossary ([[GitGlossary|[[GitWiki]] version]], [http://www.kernel.org/pub/software/scm/git/docs/glossary.html HTML version], [http://www.kernel.org/git/?p=git/git.git;a=blob;hb=HEAD;f=Documentation/glossary.txt source via gitweb]) offers an explanation of terminology used.
-* An overview of the [[RevisionSpecification]] used by the `git log` command and
- several repository visualizers.
-* A bit about [[GraftPoint|[[GraftPoints]]]]; when and how to use them.
-* Introduction to git's [[IndexFile]].
-* [[BranchesInGit]]
-
-= Other relevant tutorials =
+== Other relevant tutorials ==
 
 * [[Cogito]] also has an
  [http://www.kernel.org/pub/software/scm/cogito/docs/introduction.html introduction]
@@ -40,6 +30,17 @@ See also [[CategoryGitDocumentation|[[GitDocumentation]] category]].
  by Jeff Garzik may be useful.
 
 * Check [[GitLinks]] for further info (including git-related info on pages of projects using git). 
+
+= Git Wiki =
+
+Check the pages [[CategoryGitDocumentation|[[GitDocumentation]] category]] on this wiki.
+
+* Git glossary ([[GitGlossary|[[GitWiki]] version]], [http://www.kernel.org/pub/software/scm/git/docs/glossary.html HTML version], [http://www.kernel.org/git/?p=git/git.git;a=blob;hb=HEAD;f=Documentation/glossary.txt source via gitweb]) offers an explanation of terminology used.
+* An overview of the [[RevisionSpecification]] used by the `git log` command and
+ several repository visualizers.
+* A bit about [[GraftPoint|[[GraftPoints]]]]; when and how to use them.
+* Introduction to git's [[IndexFile]].
+* [[BranchesInGit]] is an explanation about how Git understand branches.
 
 = Man pages =
 
@@ -75,6 +76,7 @@ mostly useful for developers. You can find them in the
 [http://www.kernel.org/git/?p=git/git.git;a=tree;f=Documentation/technical Documentation/technical]
 directory in the git source tree.
 
+----
 = Getting and installing documentation =
 
 You can find all the plain text documentation in the git source tree's
