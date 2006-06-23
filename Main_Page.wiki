@@ -47,6 +47,10 @@ webmaster takes patches) and obviously the stock documentation:
 
 Projects that use [[Git]] for their source code management are listed in [[GitProjects]].
 
+== Other pages ==
+
+Check out [[GitRelatedLogos]].
+
 == Getting Involved ==
 
 If you want to get involved you should subscribe to the git mailing list, see
