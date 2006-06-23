@@ -77,6 +77,8 @@ mostly useful for developers. You can find them in the
 [http://www.kernel.org/git/?p=git/git.git;a=tree;f=Documentation/technical Documentation/technical]
 directory in the git source tree.
 
+<<BR>>
+----
 ----
 = Getting and installing documentation =
 
