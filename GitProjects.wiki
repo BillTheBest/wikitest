@@ -68,6 +68,6 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 ** git://source.mbrio.org/eddt.git (repository)
 * barvinok (A library for counting integer points in polytopes)
 ** http://freshmeat.net/projects/barvinok/
-** http://www.liacs.nl/~sverdool/barvinok.git (gitweb)
+** http://www.liacs.nl/~sverdool/gitweb.cgi?p=barvinok.git;a=summary (gitweb)
 
 __NOTOC__
