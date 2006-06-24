@@ -66,5 +66,8 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * Eddt (A directory browsing plugin written in Python for the Gnome text editor, gedit.)
 ** http://eddt.mbrio.org/ (index page)
 ** git://source.mbrio.org/eddt.git (repository)
+* barvinok (A library for counting integer points in polytopes)
+** http://freshmeat.net/projects/barvinok/
+** http://www.liacs.nl/~sverdool/barvinok.git (gitweb)
 
 __NOTOC__
