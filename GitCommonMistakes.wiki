@@ -93,6 +93,9 @@ TODO: explain, link
 
 http://lists.freedesktop.org/archives/xorg/2006-June/015946.html
 
-TODO: explain
+For each commit, git keeps track of both the committer and the author or the patch.  This is useful in cases like the one in the mail above where you commit a patch on behalf of the author who doesn't have commit access.   There are several ways to do this, but for a one-off commit the easiest is to use the --author option to git-commit:
+<pre><nowiki>
+    git commit --author "Name Surname <email@address.com>"
+</nowiki></pre>
 
 __NOTOC__
