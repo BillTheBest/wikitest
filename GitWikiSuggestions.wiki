@@ -41,4 +41,25 @@ For links to file in the git.git source via gitweb, instead of using for example
 ----
 Would be also of use to have [[InterWiki]] links for common [[GitCommunity|[[GitMailingList]]]] archives, i.e. MARC and GMane, similarly like there is now <code><nowiki>MsgID</nowiki></code> InterWiki link?
 
+= New Pages =
+
+Here a few suggestions for new pages.
+
+== Best Practice Page ==
+* commit message: short summary\n\nlong description
+   Reason: emailed patches, oneline log, gitweb overview
+   Some tools currently insert new lines after the first line if there is none. This may be considered as a bug and should be fixed.
+* branching is easy and cheap, use it!
+* rebase if you've been the only person working on the branch to prevent unnecessary merges (making the history complicated)
+
+== Development Page ==
+* common pitfalls
+** run make test after patching
+** check for correct whitespaces (tabs, no spaces for indentation, no space at eol)
+* editor settings
+   vim:tabstop=8:softtabstop=8:shiftwidth=8:noexpandtab:textwidth=80 for C files
+   documentation seems to use a bit less than 80 for the textwidth most of the time, is there any recommendation for that?
+* mua settings
+   Is it possible in some user agents to reply automatically to all people in a thread and the mailing list, if so please post configuration options :)
+
 __NOTOC__
