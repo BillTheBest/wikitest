@@ -36,7 +36,7 @@ For links to file in the git.git source via gitweb, instead of using for example
 ([http://www.kernel.org/git/?p=git/git.git;a=blob;hb=HEAD;f=Documentation/git-apply.txt git-apply.txt]) use GitSource InterWiki link
 <pre><nowiki>
 [wiki:GitSource:Documentation/git-apply.txt git-apply.txt]
-</nowiki></pre>.
+</nowiki></pre>
 
 ----
 Would be also of use to have [[InterWiki]] links for common [[GitCommunity|[[GitMailingList]]]] archives, i.e. MARC and GMane, similarly like there is now <code><nowiki>MsgID</nowiki></code> InterWiki link?
@@ -46,10 +46,10 @@ Would be also of use to have [[InterWiki]] links for common [[GitCommunity|[[Git
 Here a few suggestions for new pages.
 
 == Best Practice Page ==
-* commit message: short summary\n\nlong description
-   Reason: emailed patches, oneline log, gitweb overview
+* commit message: short summary (<80 characters and not the beginning sentence continuing in second line) \n\n long description
+   Reason: emailed patches, oneline log, gitweb overview.
    Some tools currently insert new lines after the first line if there is none. This may be considered as a bug and should be fixed.
-* branching is easy and cheap, use it!
+* branching is easy and fast, use it (encourage topic branches)
 * rebase if you've been the only person working on the branch to prevent unnecessary merges (making the history complicated)
 
 == Development Page ==
@@ -60,6 +60,9 @@ Here a few suggestions for new pages.
    vim:tabstop=8:softtabstop=8:shiftwidth=8:noexpandtab:textwidth=80 for C files
    documentation seems to use a bit less than 80 for the textwidth most of the time, is there any recommendation for that?
 * mua settings
-   Is it possible in some user agents to reply automatically to all people in a thread and the mailing list, if so please post configuration options :)
+   Is it possible in some user agents to reply automatically to all people in a thread and the mailing list? If so please post configuration options :)
+
+= Random stuff =
+* Why is there always a Git-prefix to the wiki pages?
 
 __NOTOC__
