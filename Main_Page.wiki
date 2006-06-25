@@ -53,13 +53,10 @@ Check out [[GitRelatedLogos]].
 
 == Getting Involved ==
 
-If you want to get involved you should subscribe to the git mailing list, see
-how on the [[GitCommunity]] page. For a list of what needs work an updated TODO
-list can be found here:
-
-* http://kernel.org/git/?p=git/git.git;a=blob;hb=todo;f=TODO
-
-Additionally, also have a look at [[InterfacesFrontendsAndToolsWishlist]].
+* Subscribe to the git mailing list (see [[GitCommunity]] page).
+* Check the current [http://kernel.org/git/?p=git/git.git;a=blob;hb=todo;f=TODO TODO list], it is in the todo branch in the git repository.
+* Read [http://kernel.org/git/?p=git/git.git;a=blob;f=Documentation/SubmittingPatches Documentation/[[SubmittingPatches]]] before submitting patches.
+* Additionally, have a look at [[InterfacesFrontendsAndToolsWishlist]].
 
 === Git Wiki ===
 * [[GitWikiSuggestions]] – Your suggestions for improvement of the wiki.
