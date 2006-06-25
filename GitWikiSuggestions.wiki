@@ -51,6 +51,7 @@ Here a few suggestions for new pages.
    Some tools currently insert new lines after the first line if there is none. This may be considered as a bug and should be fixed.
 * branching is easy and fast, use it (encourage topic branches)
 * rebase if you've been the only person working on the branch to prevent unnecessary merges (making the history complicated)
+* do not rewind history on public repositories or repositories used by someone else than you, it will cause confusion
 
 == Development Page ==
 * common pitfalls
