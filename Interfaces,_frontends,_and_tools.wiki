@@ -33,7 +33,7 @@
 <b>Patchy Git (pg)</b><<Anchor(pg)>>::
     [[pg]] ([http://www.spearce.org/category/projects/scm/pg/ homepage]) by Shawn Pearce aims to help the user manage a set of patches on top of the current branch. pg is somewhat like Quilt or StGIT, but it does have a slightly different feature set.
 
-<b>Isi</b><b>Setup</b><<Anchor(isisetup)>>::
+<b>IsiSetup</b><<Anchor(isisetup)>>::
     [http://www.isisetup.ch/ IsiSetup] (APT for your config) is a utility to help managing your configuration files with Git as backend.  You can rollback changes, explore the history of changes, replicate your configuration, backup your configuration and blame changes to admins.
 
 == Graphical Interfaces and History Viewers ==
