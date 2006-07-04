@@ -93,7 +93,7 @@
     `git-cvsserver` is a CVS emulation layer for git. It is highly functional; the mapping is bidirectional, so people who like cvs, can do both checkout and commit using cvs, and it shows up in git. However, not all methods are implemented, and for those methods that are implemented, not all switches are implemented. Testing has been done using both the CLI CVS client, and the Eclipse CVS plugin. Most functionality works fine with both of these clients.
 
 <b>parsecvs</b><<Anchor(parsecvs)>>::
-    [http://gitweb.freedesktop.org/?p=users-keithp-parsecvs;a=summary parsecvs] by Keith Packard is a C-based CVS file parser and Git import tool. It directly reads RCS ,v files (you can get them using CVSsuck if you don't have access to $CVSROOT) and generates a git-style rev-list structure from them.
+    [http://gitweb.freedesktop.org/?p=users-keithp-parsecvs;a=summary parsecvs] by Keith Packard is a C-based CVS file parser and Git import tool. It directly reads RCS ,v files (you can get them using CVSsuck if you don't have access to $CVSROOT) and generates a git-style rev-list structure from them. Repository available at git://anongit.freedesktop.org/git/users/keithp/parsecvs
 
 <b>git-svn</b> (in `contrib/`)<<Anchor(git-svn)>>::
     [http://git-svn.yhbt.net/ git-svn] ([http://git.bogomips.org/git-svn.git git repository]), written by Eric Wong, is a simple conduit for bidirectional operation between a <i>single</i> Subversion branch and git. It is designed for developers who wish to contribute to projects that use Subversion, but would rather be using git.
