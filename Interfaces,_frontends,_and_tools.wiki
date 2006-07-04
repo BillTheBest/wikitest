@@ -110,7 +110,7 @@
 == Other tools ==
 
 <b>colordiff</b> (in `contrib/`)<<Anchor(colordif)>>::
-    [http://colordiff.sourceforge.net/ colordiff] by Dave Ewart (version modified specifically for Git is available in `contrib/`) is a wrapper/replacement for 'diff' producing colourful output. You can use it by assigning a filter to the environment variable, like so:
+    [http://colordiff.sourceforge.net/ colordiff] by Dave Ewart (version modified specifically for Git is available in `contrib/`, to be removed) is a wrapper/replacement for 'diff' producing colourful output. Less usefull since <code><nowiki>--color</nowiki></code> option was added to [http://www.kernel.org/pub/software/scm/git/docs/git-diff.html git-diff(1)]. You can use it by assigning a filter to the environment variable, like so:
     <pre><nowiki>
 export GIT_DIFF_PAGER="colordiff | less -RS"</nowiki></pre>
 
