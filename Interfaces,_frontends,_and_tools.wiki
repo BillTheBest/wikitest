@@ -10,7 +10,7 @@
 <<<!-- ! TOC here -->(2)>>
 ----
 <b>List of tools:</b>
- <span style="font-size: smaller">[[#Cogito Cogito]], [[#StGIT StGIT]], [[#pg pg]], [[#isisetup IsiSetup]], [[#hgct (h)gct]], [[#tig tig]], [[#qgit QGit]], [[#gitk gitk]], [[#gitview GitView]], [[#gitweb gitweb]], [[#wit wit]], [[#gitarella gitarella]], [[#gittracker gittracker]], [[#git.el git.el]], [[#git-xxximport other SCM import]], [[#git-cvsexportcommit git-cvsexportcommit]], [[#git-cvsserver git-cvsserver]], [[#git-svn git-svn]], [[#parsecvs parsecvs]], [[#git-svnconvert git-svnconvert]], [[#Tailor Tailor]], [[#darcs-git Darcs-Git]], [[#colordiff colordiff]], [[#completion completion]], [[#ciabot CIAbot]], [[#remapper remapper]], [[#gitfs gitfs]], [[#schottelius unix.schottelius]]</span>
+ <span style="font-size: smaller">[[#Cogito Cogito]], [[#StGIT StGIT]], [[#pg pg]], [[#isisetup IsiSetup]], [[#hgct (h)gct]], [[#tig tig]], [[#qgit QGit]], [[#gitk gitk]], [[#gitview GitView]], [[#gitweb gitweb]], [[#wit wit]], [[#gitarella gitarella]], [[#gittracker gittracker]], [[#git.el git.el]], [[#git-xxximport other SCM import]], [[#git-cvsexportcommit git-cvsexportcommit]], [[#git-cvsserver git-cvsserver]], [[#git-svn git-svn]], [[#parsecvs parsecvs]], [[#git-svnconvert git-svnconvert]], [[#Tailor Tailor]], [[#darcs-git Darcs-Git]], [[#colordiff colordiff]], [[#completion completion]], [[#ciabot CIAbot]], [[#git2rss git2rss]], [[#remapper remapper]], [[#gitfs gitfs]], [[#schottelius unix.schottelius]]</span>
 -----
 <b>See also:</b>
 * [[InterfacesFrontendsAndToolsWishlist]]
@@ -120,6 +120,9 @@ export GIT_DIFF_PAGER="colordiff | less -RS"</nowiki></pre>
 <b>CIAbot</b><<Anchor(ciabot)>>::
     [http://www.kernel.org/git/?p=cogito/cogito.git;a=blob;hb=HEAD;f=contrib/ciabot.pl ciabot.pl] by Petr Baudis in `contrib/` directory in [[Cogito]] and [http://dev.gentoo.org/~ferdy/stuff/ciabot.bash ciabot.bash] by Fernando J. Pereda are scripts meant to run either on a post-commit hook or in an update hook. They send a git log message to [http://cia.navi.cx/ CIA] (system for tracking open-source projects in real-time). <<BR>>
     <b>See:</b> [http://cia.navi.cx/stats/project/cogito cogito at CIA].
+
+<b>git2rss</b><<Anchor(git2rss)>>::
+    [http://bent.latency.net/git2rss git2rss] by Bennett Todd is a Perl script to generate an RSS summary of a git repo. It is quick and simple conversion of [http://darcs.simplicidade.org/repos/darcs2rss/darcs2rss darcs2rss].
 
 <b>log remapper</b><<Anchor(remapper)>>::
     [http://www.linux.org.uk/pub/people/viro/remapper/ remapper] by Al Viro, announced in [http://marc.theaimsgroup.com/?l=git&m=114756555630327 Re: |RFC| Add "rcs format diff" support], is a tool to (re)map position (file name and line number) in one revision to corresponding position (file name and line number) in other revision.  E.g. user sends report "linux-2.6.16 with configuration XYZZY fails to compile with: `arch/wii/kernel/l33t.c:42:parse error`" and with the remap tool you can map the error report to the current commit's state, when that bit of code got moved around to `drivers/input/wii/l33tcontrol.c:31337`.  It also already very useful for log comparison, with the noise due to line number changes excluded.   Note that it's not just for build logs; the thing is useful for sparse logs, grep -n output, etc., etc.
