@@ -45,7 +45,7 @@ Git was designed to be extremly fast (seconds per patch), distributed SCM with g
 * <b>Toolkit design.</b> Following the Unix tradition, Git is a collection of many small tools written in C, and a number of scripts that provide convenient wrappers. It is easy to chain the components together to do other clever things.
 * <b>Pluggable merge strategies.</b> As part of its toolkit design, git has a well-defined model of an incomplete merge, and it has multiple algorithms for completing it, culminating in telling the user that it is unable to complete the merge automatically and manual editing is required. It is thus easy to experiment with new merge algorithms.
 
-Besides providing a version control system, the Git project provides a generic low-level toolkit for tree history storage and directory content management.  Traditionally, the toolkit is called the [[plumbing]].  Several other projects (so-called <i>[[porcelain|porcelains]]</i>) offer compatible version control interfaces -- see the [http://git.or.cz/tools.html related tools page on Git Homepage] and [[InterfacesFrontendsAndTools]] page on this wiki.
+Besides providing a version control system, the Git project provides a generic low-level toolkit for tree history storage and directory content management.  Traditionally, the toolkit is called the [[plumbing]].  Several other projects (so-called <i>[[porcelain|porcelains]]</i>) offer compatible version control interfaces -- see the [http://git.or.cz/#tools related tools page on Git Homepage] and [[InterfacesFrontendsAndTools]] page on this wiki.
 
 == Design Consequences ==
 Some might say that these are disadvantages
@@ -70,10 +70,10 @@ Each object is identified by a SHA1 hash of its contents. Git computes the hash,
 Git stores each revision of a file as a unique blob object. The relationships between the blobs can be found through examining the tree and commit objects. Newly added objects are stored in their entirety using zlib compression. This can consume a large amount of hard disk space quickly, so objects can be combined into <b>packs</b>, which use delta compression to save space, storing blobs as their changes relative to other blobs.
 
 = References =
-* [http://git.or.cz/about.html About Git] at [http://git.or.cz/ Git homepage]
+* [http://git.or.cz/#about About Git] at [http://git.or.cz/ Git homepage]
 * [[WikiPedia:Git_(software)|Git (software)]] article at English [http://en.wikipedia.org Wikipedia]
 
 ----
-[[CategoryGitHomepage]] ([http://git.or.cz/about.html About])
+[[CategoryGitHomepage]] ([http://git.or.cz/#about About])
 
 __NOTOC__
