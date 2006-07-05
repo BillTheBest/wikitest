@@ -116,6 +116,6 @@ to easily extract the documentation.
 
 ----
 [[CategoryGitDocumentation]]
-[[CategoryGitHomepage]] ([http://git.or.cz/documentation.html Documentation])
+[[CategoryGitHomepage]] ([http://git.or.cz/#documentation Documentation])
 
 __NOTOC__
