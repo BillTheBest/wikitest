@@ -14,7 +14,7 @@
 -----
 <b>See also:</b>
 * [[InterfacesFrontendsAndToolsWishlist]]
-* [http://git.or.cz/tools.html Git - Related Tools] (at Git homepage)
+* [http://git.or.cz/#tools Git - Related Tools] (at Git homepage)
 
 = Frontends and Interfaces =
 
@@ -135,6 +135,6 @@ export GIT_DIFF_PAGER="colordiff | less -RS"</nowiki></pre>
 
 ----
 [[CategoryTools]]
-[[CategoryGitHomepage]] ([http://git.or.cz/tools.html Related Tools])
+[[CategoryGitHomepage]] ([http://git.or.cz/#tools Related Tools])
 
 __NOTOC__
