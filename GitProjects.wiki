@@ -70,5 +70,8 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 ** http://freshmeat.net/projects/barvinok/
 ** http://www.liacs.nl/~sverdool/barvinok.git (repository)
 ** http://www.liacs.nl/~sverdool/gitweb.cgi?p=barvinok.git;a=summary (gitweb)
+* paraslash (network audio streaming tools)
+** http://www.paraslash.org/ (description)
+** http://www.paraslash.org/cgi-bin/gitweb.cgi?p=.git;a=shortlog (gitweb)
 
 __NOTOC__
