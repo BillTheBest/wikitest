@@ -73,5 +73,8 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * paraslash (network audio streaming tools)
 ** http://www.paraslash.org/ (description)
 ** http://www.paraslash.org/cgi-bin/gitweb.cgi?p=.git;a=shortlog (gitweb)
+* itools (A Python library for web development)
+** http://www.ikaaro.org/ (description)
+** http://source.ikaaro.org/ (gitweb)
 
 __NOTOC__
