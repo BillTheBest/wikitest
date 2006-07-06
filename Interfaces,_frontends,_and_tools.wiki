@@ -101,6 +101,9 @@
 <b>git-svnconvert</b><<Anchor(git-svnconvert)>>::
     git-svnconvert, written by Rutger Nijlunsing in Ruby, appeared only on git mailing list in post [http://marc.theaimsgroup.com/?l=git&m=114460050718696 |ANNOUNCE| git-svnconvert: YASI (Yet Another SVN importer)].
 
+<b>git-ucmimport</b><<Anchor(git-ucmimport)>>::
+    git-ucmimport, also written by Rutger, is a converter from IBM Rational [[ClearCase]] UCM to git. The latest version can be found currently on [http://www.wingding.demon.nl].
+
 <b>Tailor</b><<Anchor(Tailor)>>::
     [http://www.darcs.net/DarcsWiki/Tailor Tailor] is an any-to-any version control system converter, with support for most free SCM. It was written by Lele and it is implemented in Python. Note that you need [http://www.darcs.net/DarcsWiki/Tailor/[[VersionOne]] /[[VersionOne]]], and it supports Git as target system only. Note also that as of 2006-02-21, it only supports linear histories and no branches.
 
