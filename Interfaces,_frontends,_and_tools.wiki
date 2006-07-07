@@ -125,7 +125,7 @@ export GIT_DIFF_PAGER="colordiff | less -RS"</nowiki></pre>
     <b>See:</b> [http://cia.navi.cx/stats/project/cogito cogito at CIA].
 
 <b>git2rss</b><<Anchor(git2rss)>>::
-    [http://bent.latency.net/git2rss git2rss] by Bennett Todd is a Perl script to generate an RSS summary of a git repo. It is quick and simple conversion of [http://darcs.simplicidade.org/repos/darcs2rss/darcs2rss darcs2rss].
+    [http://bent.latency.net/git2rss git2rss] by Bennett Todd is a Perl script to generate an RSS summary of a git repo. Currently to be used rather as example. Similar to [http://darcs.simplicidade.org/repos/darcs2rss/darcs2rss darcs2rss].
 
 <b>log remapper</b><<Anchor(remapper)>>::
     [http://www.linux.org.uk/pub/people/viro/remapper/ remapper] by Al Viro, announced in [http://marc.theaimsgroup.com/?l=git&m=114756555630327 Re: |RFC| Add "rcs format diff" support], is a tool to (re)map position (file name and line number) in one revision to corresponding position (file name and line number) in other revision.  E.g. user sends report "linux-2.6.16 with configuration XYZZY fails to compile with: `arch/wii/kernel/l33t.c:42:parse error`" and with the remap tool you can map the error report to the current commit's state, when that bit of code got moved around to `drivers/input/wii/l33tcontrol.c:31337`.  It also already very useful for log comparison, with the noise due to line number changes excluded.   Note that it's not just for build logs; the thing is useful for sparse logs, grep -n output, etc., etc.
