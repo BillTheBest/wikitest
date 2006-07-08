@@ -10,6 +10,6 @@ http://marc.theaimsgroup.com/?l=git&m=115196739921363&w=2
 
 == Plans for subproject support ==
 
-There are several possible directions for implementing subproject support in git, some of which have been discussed on the list. A good start might be to add scripts to git, cogito or a new porcelain that formalize the semantics of gitweb. It has been suggested that git branches embody the pattern of modules, and it might make sense to use this functionality for modular repositories. Others have attempted to take on the challenge of partial checkouts, an ambitious task considering that the semantics of such a feature are as yet undefined for distributed source management.
+There are several possible directions for implementing subproject support in git, some of which have been discussed on the list. A good start might be to add scripts to git, cogito or a new porcelain that formalize the semantics of gitweb. It has been suggested that git branches embody the pattern of modules, and it might make sense to use this functionality for modular repositories. Others have attempted to take on the challenge of partially cloned repositories, an ambitious task considering that the semantics of such a feature are as yet undefined for distributed source management.
 
 __NOTOC__
