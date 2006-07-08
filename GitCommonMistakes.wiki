@@ -64,6 +64,8 @@ http://gitweb.cairographics.org/?p=cairo;a=commit;h=b913a81c3482f4dc8bc452d91bfa
 
 This commit highlights a near worst-case scenario where the git log and author have absolutely no relevance to the actual commit. To see for yourself, compare the ChangeLog contents to the information on the gitweb page.
 
+It has been speculated (TODO: link to list here) that the tools provided for CVS-to-SVN migration might have a more complete understanding of CVS semantics, particularly branching, and that it could be a good idea to first convert complex CVS repositories to SVN, and then go from SVN to git using git-svnimport.
+
 == Mistakes made in day-to-day operation ==
 
 Git is a joy to use, but there are cases when developers misunderstand the day-to-day operation of a git repository. It's possible to think you are using git properly for months without realising that you are getting it wrong and have a project history that is less useful than it could have been.
