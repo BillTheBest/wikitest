@@ -1,0 +1,15 @@
+git was originally developed to manage the sources of the Linux kernel, a monolithic code base. It has since developed many features that make it attractive as a general purpose SCM, and is now used by all sorts of projects, some of which are developed in a 'modular' style.
+
+The rule of thumb for determining whether a source tree is monolithic or modular is the correlation of subdirectories to release 'tarballs'. The monolithic Linux kernel is released as a single tarball, whereas the modular Xorg project releases dozens of such packages, with each one potentially having its own release schedule.
+
+Non-distributed revision control systems such as CVS or SVN do not enforce this distinction; large projects like KDE and GNOME host hundreds of subprojects in a single repository and developers only ever have to check out the module they are working on. Sometimes, release managers, documenters or translators will make single commits that modify files across several modules. Similarly, if a change is made to the public API of a shared library in one module, the developer may update applications in other modules to use the new API as part of the same commit.
+
+Such flexibility is an implicit feature of centralized SCMs, but is much more difficult to implement in a distributed system like git. As a result, git currently lacks built-in subproject support, although gitweb does have a notion of subprojects.
+
+http://marc.theaimsgroup.com/?l=git&m=115196739921363&w=2
+
+== Plans for subproject support ==
+
+There are several possible directions for implementing subproject support in git, some of which have been discussed on the list. A good start might be to add scripts to git, cogito or a new porcelain that formalize the semantics of gitweb. It has been suggested that git branches embody the pattern of modules, and it might make sense to use this functionality for modular repositories. Others have attempted to take on the challenge of partial checkouts, an ambitious task considering that the semantics of such a feature are as yet undefined for distributed source management.
+
+__NOTOC__
