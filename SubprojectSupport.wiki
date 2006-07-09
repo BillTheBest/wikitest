@@ -12,6 +12,8 @@ http://marc.theaimsgroup.com/?l=git&m=115196739921363&w=2
 
 There are several possible directions for implementing subproject support in git, some of which have been discussed on the list. A good start might be to add scripts to git, cogito or a new porcelain that formalize the semantics of gitweb. It has been suggested that git branches embody the pattern of modules, and it might make sense to use this functionality for modular repositories. Others have attempted to take on the challenge of partially cloned repositories, an ambitious task considering that the semantics of such a feature are as yet undefined for distributed source management.
 
-* See [http://www.kernel.org/git/?p=git/git.git;a=blob;hb=todo;f=Subpro.txt Notes on Subproject Support] by Junio C Hamano in [http://www.kernel.org/git/?p=git/git.git;a=tree;h=todo;hb=todo todo] branch in git repository.
+== References ==
+
+* [http://www.kernel.org/git/?p=git/git.git;a=blob;hb=todo;f=Subpro.txt Notes on Subproject Support] by Junio C Hamano in [http://www.kernel.org/git/?p=git/git.git;a=tree;h=todo;hb=todo todo] branch in git repository.
 
 __NOTOC__
