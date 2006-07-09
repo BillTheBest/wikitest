@@ -100,11 +100,11 @@ For each commit, git keeps track of both the committer and the author or the pat
     git commit --author "Name Surname <email@address.com>"
 </nowiki></pre>
 
-==== Xorg: Pushing the 'origin' branch ====
+==== Xorg: Accidental 'origin' branches ====
 
 http://lists.freedesktop.org/archives/xorg/2006-July/016735.html
 
-Public repositories should usually not have an 'origin' branch.
+Public git repositories should usually not have an 'origin' branch.
 
 TODO: explain how this breaks things, and how to avoid it
 
