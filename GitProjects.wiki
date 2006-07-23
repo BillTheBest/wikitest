@@ -33,7 +33,7 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * Wine
 ** http://wiki.winehq.org/[[GitWine]] (description)
 ** http://source.winehq.org/git/?p=wine.git;a=summary (gitweb)
-* X.org (some)
+* X.org
 ** http://freedesktop.org/wiki/[[UsingGit]] (description)
 ** http://gitweb.freedesktop.org/ (repository, gitweb)
 * Cairo
