@@ -49,7 +49,8 @@ Projects that use [[Git]] for their source code management are listed in [[GitPr
 
 == Other pages ==
 
-Check out [[GitRelatedLogos]].
+* Check out [[GitRelatedLogos]].
+* Participate in [http://www.survey.net.nz/survey.php?b5659bb2a599d0649871f56b59819c50 GIT Users Survey] and [http://www.survey.net.nz/results.php?b5659bb2a599d0649871f56b59819c50 view results] (at [http://www.survey.net.nz/ survey.net.nz]).
 
 == Getting Involved ==
 
