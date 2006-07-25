@@ -110,6 +110,7 @@ drawing:mytest
 (23:40) <     jroes> well, what i meant to say was that i dont have access to the box running the wiki
 (23:40) < ThomasWal> then this is no option
 (23:40) <     jroes> yeah :/
+(23:42) <HonestDave> How queer.
 </nowiki></pre>
 
 __NOTOC__
