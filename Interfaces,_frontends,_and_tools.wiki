@@ -95,7 +95,7 @@
 <b>parsecvs</b><<Anchor(parsecvs)>>::
     [http://gitweb.freedesktop.org/?p=users-keithp-parsecvs;a=summary parsecvs] by Keith Packard is a C-based CVS file parser and Git import tool. It directly reads RCS ,v files (you can get them using CVSsuck if you don't have access to $CVSROOT) and generates a git-style rev-list structure from them. Repository available at git://anongit.freedesktop.org/git/users/keithp/parsecvs
 
-<b>git-svn</b> (in `contrib/`)<<Anchor(git-svn)>>::
+<b>git-svn</b> (built in)<<Anchor(git-svn)>>::
     [http://git-svn.yhbt.net/ git-svn] ([http://git.bogomips.org/git-svn.git git repository]), written by Eric Wong, is a simple conduit for bidirectional operation between a <i>single</i> Subversion branch and git. It is designed for developers who wish to contribute to projects that use Subversion, but would rather be using git.
 
 <b>git-svnconvert</b><<Anchor(git-svnconvert)>>::
