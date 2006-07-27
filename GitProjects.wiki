@@ -42,6 +42,9 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * The X protocol C-language Binding (XCB)
 ** http://xcb.freedesktop.org/wiki/ (description)   
 ** http://gitweb.freedesktop.org/ (repository, gitweb)
+* HAL
+** http://hal.freedesktop.org/wiki/Software_2fhal (description)   
+** http://gitweb.freedesktop.org/ (repository, gitweb)
 * xmms2
 ** http://wiki.xmms2.xmms.se/index.php/Download_XMMS2 (description)
 ** http://git.xmms.se/ (repository, gitweb)
