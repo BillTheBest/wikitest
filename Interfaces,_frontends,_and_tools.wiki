@@ -1,5 +1,4 @@
-<!-- #format wiki
- -->
+ #format wiki
 <!-- #language en
  -->
 -----
@@ -36,7 +35,7 @@
 <b>IsiSetup</b><<Anchor(isisetup)>>::
     [http://www.isisetup.ch/ IsiSetup] (APT for your config) is a utility to help managing your configuration files with Git as backend.  You can rollback changes, explore the history of changes, replicate your configuration, backup your configuration and blame changes to admins.
 
-== Graphical Interfaces and History Viewers ==
+== Graphical Interfaces ==
 
 <b>(h)gct</b><<Anchor(hgct)>>::
     [[(h)gct]] ([http://www.cyd.liu.se/~freku045/gct/ homepage]) by Fredrik Kuivinen is a GUI enabled commit tool. It has support for both Git and Mercurial. Writtent in PyQt.
@@ -45,9 +44,9 @@
     [[tig]] ([http://jonas.nitro.dk/tig/ homepage]) by Jonas Fonseca is a simple git repository browser written using ncurses. Basically, it just acts as a front-end for `git-log` and `git-show`/`git-diff`. Additionally, you can also use it as a pager for git commands.
 
 <b>QGit</b><<Anchor(qgit)>>::
-     [[QGit]] ([http://digilander.libero.it/mcostalba/ homepage]) is a Qt GUI for browsing the history of Git repositories, similar to gitk. It also acts as a commit tool, like (h)gct.
+     [[QGit]] ([http://digilander.libero.it/mcostalba/ homepage]) is a Qt GUI for browsing the history of Git repositories. It also acts as a commit tool, like [[#hgct (h)gct]] and a graphical interface to [[#StGIT StGIT]].
 
-<b><u>gitk</u></b> (distributed with Git)<<Anchor(gitk)>>::
+<b><u>gitk</u></b> (distributed with Git)<<Anchor(gitk)>>IT
     [[gitk]] is a simple Tcl/Tk GUI for browsing history of Git repositories easily, distributed with Git.
 
 <b>gitview</b> (in `contrib/`)<<Anchor(gitview)>>::
