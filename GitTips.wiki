@@ -33,6 +33,16 @@ the changed commit and forward.
 
 You can use [[Cogito]]'s [http://www.kernel.org/git/?p=cogito/cogito-doc.git;a=blob;hb=HEAD;f=txt/cg-admin-rewritehist.1.txt cg-admin-rewritehist(1)] for that.
 
+<<Anchor(only-merges)>>
+== How to get only merges in gitk? ==
+
+With recent version of git you can use
+<pre><nowiki>gitk --full-history -- a//b
+</nowiki></pre>
+which will give you each commit that changes that nonexistant file (because there can't be file with double slash in name in git repository), and the full commit history for those (i.e. all the merges).
+
+If you use "git log", you also need to add "--parents" while gitk will do it for you.
+
 = Web =
 
 <<Anchor(RSS)>>
