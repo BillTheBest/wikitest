@@ -46,7 +46,7 @@ where of course instead of <code><nowiki>git/git.git</nowiki></code> you put pro
 <<Anchor(SSH-tunnel)>>
 == How to push/pull via ssh to host behind gateway? ==
 
-There are two possible solutions. With first, using `[[ProxyCommand]]' option of ssh, you can connect to the entire network behind firewall. In your ssh configuration file, for example <code><nowiki>~/.ssh/config</nowiki></code> put the following:
+There are two possible solutions. With first, using `ProxyCommand` option of ssh, you can connect to the entire network behind firewall. In your ssh configuration file, for example <code><nowiki>~/.ssh/config</nowiki></code> put the following:
 <pre><nowiki>Host *.foo.internal
      [[ProxyCommand]] ssh gateway.foo.com exec nc %h %p</nowiki></pre>
 (where `'%h'` expands to the host you connect to, and `'%p'` to the port you are using). You have to have `nc` ([http://www.vulnwatch.org/netcat/ netcat] or [http://netcat.sourceforge.net/ GNU Netcat]) installed on gateway, but this should be no problem as it is 22K binary. Note that path is expanded on local side, while it should be to file on gateway side.
@@ -59,6 +59,6 @@ Second is slightly faster, doesn't need any tool besides ssh, but you have to ru
 where `hostname' is the name you would be using for connecting.  Before trying to connect to host begind gateway, you must run
 <pre><nowiki>ssh -f -N -L 2222:host.foo.internal:22 username@gateway.foo.com
 </nowiki></pre>
-Of course port numbers must match (and port number should be above 1024 if you won't be running ssh tunnel as root).  If you have sufficiently new ssh, you can add `'-M'` option, for using with `[[ControlMaste]]r` option.  You can also use [http://www.harding.motd.ca/autossh/ autossh] for running port forwarding/ssh tunnel.
+Of course port numbers must match (and port number should be above 1024 if you won't be running ssh tunnel as root).  If you have sufficiently new ssh, you can add `'-M'` option, for use with `ControlMaster` option.  You can also use [http://www.harding.motd.ca/autossh/ autossh] for running port forwarding/ssh tunnel.
 
 __NOTOC__
