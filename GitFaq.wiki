@@ -91,7 +91,7 @@ both uses the automatic rename detection code to track renames.
 Currently rename detection doesn't work well with path limiting (path limiting prevent
 showing renames outside limit), but on git mailing list there was patch to add
 `'--follow-renames'` (or `'--renames'`, or `'--follow'`) option:
-[http://marc.theaimsgroup.com/?l=git&m=114772921317920 |RFC, PATCH| Teach revision.c about renames] by Fredrik Kuivinen.
+[http://marc.theaimsgroup.com/?l=git&m=114772921317920 |RFC, PATCH| Teach revision.c about renames] by Fredrik Kuivinen.  Superseded by `'--full-history'` option.
 
 * [http://permalink.gmane.org/gmane.comp.version-control.git/217 Mail] by
  Linus on this topic.
