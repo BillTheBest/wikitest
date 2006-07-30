@@ -138,6 +138,20 @@ Use `cg-admin-setuprepo -g` (if you use [[Cogito]]) or do `git-init-db --shared`
  [http://www.kernel.org/pub/software/scm/git/docs/cvs-migration.html cvs-migration] doc,
  "Emulating the CVS Development Model" section for details.
 
+<<Anchor(share-objects)>>
+== How to share objects between existing repositories? ==
+
+Do
+<pre><nowiki>echo "/source/git/project/.git/objects/" > .git/objects/info/alternates
+</nowiki></pre>
+and then follow it up with
+<pre><nowiki>git repack -a -d -l
+</nowiki></pre>
+where the '-l' means that it will only put <i>local</i> objects in the 
+pack-file (strictly speaking, it will put any loose objects from the 
+alternate tree too, so you'll have a fully packed archive, but it won't 
+duplicate objects that are already packed in the alternate tree).
+
 <<Anchor(gitignore)>>
 == How do I tell git to ignore files? ==
 
