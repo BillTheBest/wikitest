@@ -10,7 +10,7 @@
 <<<!-- ! TOC here -->(2)>>
 ----
 <b>List of tools:</b>
- <span style="font-size: smaller">[[#Cogito Cogito]], [[#StGIT StGIT]], [[#pg pg]], [[#isisetup IsiSetup]], [[#hgct (h)gct]], [[#tig tig]], [[#qgit QGit]], [[#gitk gitk]], [[#gitview GitView]], [[#gitweb gitweb]], [[#wit wit]], [[#gitarella gitarella]], [[#gittracker gittracker]], [[#git.el git.el]], [[#Eclipse egit]], [[#git-xxximport other SCM import]], [[#git-cvsexportcommit git-cvsexportcommit]], [[#git-cvsserver git-cvsserver]], [[#git-svn git-svn]], [[#parsecvs parsecvs]], [[#git-svnconvert git-svnconvert]], [[#Tailor Tailor]], [[#darcs-git Darcs-Git]], [[#colordiff colordiff]], [[#completion completion]], [[#ciabot CIAbot]], [[#git2rss git2rss]], [[#remapper remapper]], [[#gitfs gitfs]], [[#schottelius unix.schottelius]]</span>
+ <span style="font-size: smaller">[[#Cogito Cogito]], [[#StGIT StGIT]], [[#pg pg]], [[#isisetup IsiSetup]], [[#hgct (h)gct]], [[#tig tig]], [[#qgit QGit]], [[#gitk gitk]], [[#gitview GitView]], [[#gitweb gitweb]], [[#wit wit]], [[#gitarella gitarella]], [[#gittracker gittracker]], [[#git.el git.el]], [[#Eclipse Eclipse]], [[#git-xxximport other SCM import]], [[#git-cvsexportcommit git-cvsexportcommit]], [[#git-cvsserver git-cvsserver]], [[#git-svn git-svn]], [[#parsecvs parsecvs]], [[#git-svnconvert git-svnconvert]], [[#Tailor Tailor]], [[#darcs-git Darcs-Git]], [[#colordiff colordiff]], [[#completion completion]], [[#ciabot CIAbot]], [[#git2rss git2rss]], [[#remapper remapper]], [[#gitfs gitfs]], [[#schottelius unix.schottelius]]</span>
 -----
 <b>See also:</b>
 * [[InterfacesFrontendsAndToolsWishlist]]
