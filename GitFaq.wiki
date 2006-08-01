@@ -97,6 +97,7 @@ showing renames outside limit), but on git mailing list there was patch to add
  Linus on this topic.
 
 == How to set up a git server? ==
+== How to create the first project? ==
 
 = Unexpected behavior =
 
