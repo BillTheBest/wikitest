@@ -62,6 +62,7 @@ Here a few suggestions for new pages.
    documentation seems to use a bit less than 80 for the textwidth most of the time, is there any recommendation for that?
 * mua settings
    Is it possible in some user agents to reply automatically to all people in a thread and the mailing list? If so please post configuration options :)
+* mutt: press g (group-reply)
 
 = Random stuff =
 * Why is there always a Git-prefix to the wiki pages?
