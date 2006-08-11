@@ -81,5 +81,7 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 ** http://source.ikaaro.org/ (gitweb)
 * git mirror of many cvs projects important for the development of Fedora Core
 ** http://www.jur-linux.org/git/
+* Wexus, a C++ library for web application development
+** http://labs.wexussoftware.com/
 
 __NOTOC__
