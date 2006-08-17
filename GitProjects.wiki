@@ -83,5 +83,7 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 ** http://www.jur-linux.org/git/
 * Wexus, a C++ library for web application development
 ** http://labs.wexussoftware.com/
+* KDbg, a KDE frontend to GDB
+** http://www.kdbg.org/
 
 __NOTOC__
