@@ -98,6 +98,9 @@ showing renames outside limit), but on git mailing list there was patch to add
 
 == How to set up a git server? ==
 == How to create the first project? ==
+== How come gitweb suddenly dissapeared from the project list at kernel.org/git? ==
+Because it got merged into git.  See
+[http://kernel.org/git/?p=git/git.git;a=commit;h=0a8f4f0020cb35095005852c0797f0b90e9ebb74 the relevant commit].
 
 = Unexpected behavior =
 
