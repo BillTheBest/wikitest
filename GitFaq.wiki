@@ -62,6 +62,8 @@ on their own.
 
 Though you can say "`git add <dir>`" and it will add files in there.
 
+If you really need a directory to exist in checkouts, you should create a file in it.  .gitignore works well for this purpose; you can leave it empty, or fill in the names of files you expect to show up in the directory.
+
 <<Anchor(rename-tracking)>>
 == Why does git not track renames? ==
 
