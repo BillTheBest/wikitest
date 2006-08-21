@@ -3,6 +3,8 @@
 
 <<<!-- ! TOC here -->(2)>>
 ----
+<b>See also:</b>
+* [[GitFaq]] (Frequently Asked Questions) page
 
 = General =
 
