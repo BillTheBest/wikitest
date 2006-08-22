@@ -46,7 +46,9 @@ which will give you each commit that changes that nonexistent file (because ther
 If you use "git log", you also need to add "--parents" while gitk will do it for you.
 
 <<Anchor(wrong-branch)>>
-== What to do if you have realized that you commited to wrong branch? ==
+== What to do if you have realized that you are on wrong branch? ==
+If you have not commited your changes yet, it is enough to '<code><nowiki>cg switch <correct-branch></nowiki></code>' (if you use [[Cogito]]), or '<code><nowiki>git checkout -m <correct-branch></nowiki></code>' (if you use [[Git|core Git]] at least v1.4.1-rc2).
+
 Let's assume that you wanted your changes to go on top of <i><current></i>, but by accident you committed your changes on top of <i><master></i> for example, and that the commit before your commits (the tip of <i><master></i> branch should be) is <i><before></i>. Let as assume that all changes are committed, and the working dir is clean.
 
 First, create temporary branch (just in case), e.g.
