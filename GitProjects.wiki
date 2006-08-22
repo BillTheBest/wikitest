@@ -28,8 +28,8 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 
 * One Laptop Per Child (OLPC)
 ** http://laptop.org
-** http://crank.laptop.org/code/wiki/[[CentralTree]] (basic description)
-** http://crank.laptop.org/code/browser (gitweb)
+** http://dev.laptop.org/wiki/[[CentralTree]] (basic description)
+** http://dev.laptop.org/browser (gitweb)
 * Wine
 ** http://wiki.winehq.org/[[GitWine]] (description)
 ** http://source.winehq.org/git/?p=wine.git;a=summary (gitweb)
