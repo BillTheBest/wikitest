@@ -1,7 +1,6 @@
 The development of GIT evolves quite organically, following the interests of the community, and the guidance of Junio. A couple of resources are useful to understand where things are going:
 
- - The 'todo' branch in the GIT repository contains a TODO and some other notes and scripts. You can find them at at http://www.kernel.org/git/?p=git/git.git;a=tree;h=todo;hb=todo
-
- - The periodic "Unresolved Issues" posted to the mailing list, which can be found with this search http://marc.theaimsgroup.com/?l=git&w=2&r=1&s=%22unresolved+issues%22&q=b
+* The 'todo' branch in the GIT repository contains a TODO and some other notes and scripts. You can find them at at http://www.kernel.org/git/?p=git/git.git;a=tree;h=todo;hb=todo
+* The periodic "Unresolved Issues" posted to the mailing list, which can be found with this search http://marc.theaimsgroup.com/?l=git&w=2&r=1&s=%22unresolved+issues%22&q=b
 
 __NOTOC__
