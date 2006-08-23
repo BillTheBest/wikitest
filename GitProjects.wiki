@@ -85,5 +85,8 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 ** http://labs.wexussoftware.com/
 * KDbg, a KDE frontend to GDB
 ** http://www.kdbg.org/
+* [http://alioth.debian.org/ Alioth] (project hosting, modified [http://gforge.org GForge] engine, managed by [http://www.debian.org/ Debian] project)
+** [http://www.debian.org/News/weekly/2006/34/ Debian Weekly News #34 - August 22nd, 2006] (announcement)
+** [http://roland.entierement.nu/blog/2006/08/17/bits-about-alioth.html Roland weblog - Bits about Alioth] (description)
 
 __NOTOC__
