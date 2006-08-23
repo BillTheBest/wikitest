@@ -33,6 +33,8 @@
 <b>Savane and GForge</b> (software hosting system)<<Anchor(Savane)>><<Anchor(GForge)>>::
     [https://gna.org/projects/savane Savane] and [http://gforge.org/ GForge] are web-based software hosting system. Both Savannah ([https://savannah.gnu.org GNU] and [https://savannah.nongnu.org/ non-GNU]) and [https://gna.org Gna!] use Savane as their software hosting engine. They currently include issue tracking, project member management by roles and individual account maintenance. The issue tracking handles bugs, tasks, support, news and documentation management. Both currently support CVS and Subversion; moving to Subversion is encouraged. Savane additionally supports GNU Arch. No Git support yet. <i>(Perl or PHP)</i>
 
+    [http://alioth.debian.org/ Alioth] host <code><nowiki>costa</nowiki></code>, [http://www.debian.org/social_contract#guidelines free software] hosting system managed by the [http://www.debian.org/ Debian] project, which runs a slightly modified version of the [http://gforge.org/ Gforge] software, supports both git and bzr for hosting source archives. Here is [http://roland.entierement.nu/blog/2006/08/17/bits-about-alioth.html explanation] how to use both systems to access the repositories; it was announced in [http://www.debian.org/News/weekly/2006/34/ Debian Weekly News - August 22nd, 2006].
+
 <b>DVC (Distributed Version Control)</b> (Emacs interface)<<Anchor(DVC)>>::
     [http://download.gna.org/dvc/ DVC] is a project to create a generic library for fancy Emacs interfaces to modern version control systems. Has support for several systems, but not Git -- yet. <i>(Emacs, elisp)</i>
 
