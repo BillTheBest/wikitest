@@ -1,0 +1,115 @@
+= Git Survey summary =
+(I'm going to summarize git survey incrementally here)
+Note that count is not exactly number of people.
+
+== 1. What country are you in? ==
+<pre><nowiki>#!CSV
+      Count;Country
+      3;Australia
+      2;Austria 
+      1;Belarus 
+      2;Brazil 
+      1;British Isles 
+      3;Canada 
+      1;Chile 
+      2;China 
+      2;Czech Republic 
+      4;Denmark 
+      2;England 
+      1;Estonia
+      1;Europe 
+      5;Finland 
+      6;France 
+     14;Germany 
+      1;Indian 
+      3;Italy 
+      1;Lithuania 
+      1;Netherlands 
+      1;Norway 
+      1;Philippines 
+      3;Poland 
+      2;Russia 
+      1;South Africa 
+      2;Spain 
+      6;Sweden 
+      1;Switzerland 
+      2;The Netherlands 
+      1;UAE 
+      5;United Kingdom 
+     33;United States 
+      1;Vietnam 
+</nowiki></pre>
+== 2. What is your preferred non-programming language? ==
+<pre><nowiki>#!CSV
+      Count;Language
+      1;Belarusian 
+      1;Chinese 
+      2;Czech 
+      5;Danish 
+      4;Dutch 
+     69;English 
+      1;Estonian 
+      4;Finnish 
+      5;French 
+     12;German 
+      3;Italian 
+      1;Japanese 
+      3;Polish 
+      4;Russian 
+      4;Spanish 
+      5;Swedish 
+      1;Vietnamese 
+</nowiki></pre>
+
+== 3. How did you hear about GIT? ==
+<pre><nowiki>#!CSV
+      4; Friends 
+      1; GCC 
+      5; Either  Carl Worth, Keith Packard, David Greaves, Pasky, Jonas
+      1; I wrote it
+      5; KernelTrap 
+      2; linuxppc-embedded 
+     72; LKML 
+     11; LWN 
+      1; Monotone 
+      6; Other 
+      5; Slashdot 
+      1; The Register 
+      2; U-Boot 
+      3; Xorg 
+</nowiki></pre>
+
+== 4. Did you find GIT easy to learn? ==
+<pre><nowiki>#!CSV
+  5 ; Very easy 
+  21 ; Easy 
+  64 ; Reasonably 
+  22 ; Hard 
+  3 ; Very hard 
+</nowiki></pre>
+
+== 5. What helped you most in learning to use it? ==
+<pre><nowiki>#!CSV
+      4; GIT code 
+      8; Cogito 
+      5; Carl Worth, Keith Packard, Pasky, Jeff Garzik
+     37; documentation (including online tutorials..)
+      4; Everyday GIT 
+      7; examples 
+      4; experience 
+      3; friends 
+      3; #git 
+      1; gitk 
+      5; google
+     27; man pages 
+     17; mailing list (both git and lkml) 
+      1; Ottawa (OLS) tutorials 
+      11; practice 
+      1; time 
+      2; Git wiki 
+      1; Wine wiki 
+      1; Writing pg, a StGit-like patch stack frontend to GIT. 
+      1; Writing StGIT 
+</nowiki></pre>
+
+__NOTOC__
