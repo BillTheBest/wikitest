@@ -63,6 +63,7 @@ Note that count is not exactly number of people.
 
 == 3. How did you hear about GIT? ==
 <pre><nowiki>#!CSV
+      Count;Answer
       4; Friends 
       1; GCC 
       5; Either  Carl Worth, Keith Packard, David Greaves, Pasky, Jonas
@@ -81,6 +82,7 @@ Note that count is not exactly number of people.
 
 == 4. Did you find GIT easy to learn? ==
 <pre><nowiki>#!CSV
+  Count;Answer
   5 ; Very easy 
   21 ; Easy 
   64 ; Reasonably 
@@ -90,6 +92,7 @@ Note that count is not exactly number of people.
 
 == 5. What helped you most in learning to use it? ==
 <pre><nowiki>#!CSV
+      Count;Answer
       4; GIT code 
       8; Cogito 
       5; Carl Worth, Keith Packard, Pasky, Jeff Garzik
