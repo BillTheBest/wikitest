@@ -23,8 +23,7 @@ Note that count is not exactly number of people.
      14;Germany 
       1;Indian 
       3;Italy 
-      1;Lithuania       1;GIT repository via a strict firewall
-
+      1;Lithuania
       1;Netherlands 
       1;Norway 
       1;Philippines 
@@ -116,7 +115,7 @@ Note that count is not exactly number of people.
       1; Writing StGIT 
 </nowiki></pre>
 
-== Q6. What did you find hardest? ==
+== 6. What did you find hardest? ==
 
 Note: "poor documetation" is not mentioned here. Please grep -i "doc" for it.
 
@@ -151,6 +150,45 @@ Note: "poor documetation" is not mentioned here. Please grep -i "doc" for it.
       1;;git diff not showing diff for files updated to index
       1;;Generating mail with all the patches created
       1;;Accidentally commiting master branch Difference between pull/commit
+</nowiki></pre>
+
+== 7. When did you start using git? ==
+
+In summary, there are 17 started using GIT from the beginning. 47 others started in 2005. 42 started in 2006. One started using from GIT v0.9, one from 0.98, one from 1.0. Two started from elinks git conversion. See the below table for details.
+
+<pre><nowiki>#!CSV
+      Count;Time
+      1;GIT 0.9
+      1;GIT 0.98
+      1;GIT 1.0
+      9;Sometime in 2005
+      1;200502
+      3;200504
+      4;200505
+      6;200506
+      1;200507
+      6;200508
+      6;200509
+      5;200510
+      1;200511
+      2;200512
+      1;2005 Q2
+      2;2005 Q3
+      3;Sometime in 2006
+      8;200601
+      4;200602
+      2;200603
+      5;200604
+      7;200605
+      4;200606
+      6;200607
+      1;2006 Q1
+      2;elinks conversion
+      1;git-pasky-0.3
+     16;From the beginning
+      1;Cogito annoucement
+      1;xcb conversion 200602
+      1;Xorg conversion
 </nowiki></pre>
 
 __NOTOC__
