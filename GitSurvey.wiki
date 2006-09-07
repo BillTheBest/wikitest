@@ -23,7 +23,8 @@ Note that count is not exactly number of people.
      14;Germany 
       1;Indian 
       3;Italy 
-      1;Lithuania 
+      1;Lithuania       1;GIT repository via a strict firewall
+
       1;Netherlands 
       1;Norway 
       1;Philippines 
@@ -113,6 +114,43 @@ Note that count is not exactly number of people.
       1; Wine wiki 
       1; Writing pg, a StGit-like patch stack frontend to GIT. 
       1; Writing StGIT 
+</nowiki></pre>
+
+== Q6. What did you find hardest? ==
+
+Note: "poor documetation" is not mentioned here. Please grep -i "doc" for it.
+
+<pre><nowiki>#!CSV
+     Count;Summary;Detail
+     28;too many commands;The "too many commands" usually because mixing of porcelain commands and low-level commands. Also there are complaints about too many command options, some doesn't have enough documentation such as git-diff-*
+     19;index;there is a suggestion to refer it as "cache" for easier understanding. Another mentioned about the index manipulation after a "git reset --soft".
+      8;merge; and merge conflict, why merge fails
+      7;distributed nature;
+      4;comparison with other vcs; about (esspecially) concepts, workflow, commands...
+      3;push/pull;
+      3;git concepts; blobs, trees, commits..
+      3;error messages;not descriptive enough to identify the source of errors, "empty commit" message
+      3;cherry picking; one recommended StGIT
+      2;setting up the remote repository;
+      2;git work flow;
+      1;refspec;
+      1;rebase;
+      1;Network protocol changes;
+      1;topic branches; examples?
+      1;git vs cogito;
+      1;branches vs tags;
+      1;branches;
+      1;bisect;
+      1;;GIT repository via a strict firewall
+      1;;Working out which commands operated on the working tree, which on the index, and which on commits (e.g. git diff).
+      1;;Understand the check-in and check-out stuff.
+      1;;Understanding where the patch repositories are located, and how to determine patch order. 
+      1;;The fact git will let you destroy your work trivially, the poor design of the merge system.
+      1;;Still not confidant in doing anything other than cloning
+      1;;how to reorder fixes and cherrypick fixes from my other temporary git trees
+      1;;git diff not showing diff for files updated to index
+      1;;Generating mail with all the patches created
+      1;;Accidentally commiting master branch Difference between pull/commit
 </nowiki></pre>
 
 __NOTOC__
