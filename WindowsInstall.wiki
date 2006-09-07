@@ -9,4 +9,27 @@ Ask on the [[MailingLists]] for the latest news on this ;-)
 
 = Cygwin =
 
+You will need to install cygwin and the following packages to be able to build git:
+
+* rcs (for merge)
+* python (for merge-recursive, though merge-recur is a *huge* win)
+* wish (for gitk)
+* perl
+* ssh
+* openssl (and -dev)
+* zip (and -dev)
+* curl (and -dev)
+* expat (and -dev)
+* make
+* gcc
+* binutils (sorta necessary to compile!)
+
+With these packages installed you build git and it in your ~/bin directory by doing:
+
+<pre><nowiki>
+make install
+</nowiki></pre>
+
+Check that your path includes ~/bin !
+
 __NOTOC__
