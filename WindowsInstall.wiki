@@ -1,0 +1,10 @@
+Currently GIT is only supported on Windows within a Cygwin environment. While this works well, there are several efforts that aim to provide a more <i>native</i> GIT on Windows.
+
+These efforts are
+
+* EclipseIDE-based GIT client, based on a pure Java implmentation of GIT's internals.
+* A libgit + cygwin.dll Windows Explorer extension (perhaps based on TortoiseSVN)
+
+= Cygwin =
+
+__NOTOC__
