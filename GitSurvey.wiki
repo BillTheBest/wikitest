@@ -233,4 +233,35 @@ Some hardwares I'm not sure, so left them as is. If you know them, please edit t
      23;x86_64
 </nowiki></pre>
 
+== 11. What OS (please include the version) do you use GIT on? ==
+Most if Linux. One for Cygwin. Two for FreeBSD. Four for Mac OS X. One for Windows XP (detail later)
+
+== 12. How many people do you collaborate with using GIT? ==
+<pre><nowiki>#!CSV
+     32;0
+      6;1
+     10;2
+      9;3
+      4;4
+      9;5
+      1;6
+      2;7
+      7;10
+      1;12
+      2;15
+      3;20
+      2;25
+      1;30
+      1;40
+      1;80
+      2;cairo ~25
+      4;Linux
+      2;U-Boot
+      1;v4l-dvb
+      1;Wine
+      1;XCB
+      1;XCB ~10
+      2;xorg ~50
+</nowiki></pre>
+
 __NOTOC__
