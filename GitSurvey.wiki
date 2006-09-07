@@ -234,7 +234,84 @@ Some hardwares I'm not sure, so left them as is. If you know them, please edit t
 </nowiki></pre>
 
 == 11. What OS (please include the version) do you use GIT on? ==
-Most if Linux. One for Cygwin. Two for FreeBSD. Four for Mac OS X. One for Windows XP (detail later)
+Most is Linux. 14 for Cygwin. 4 for FreeBSD. One for IRIX, NetBSD and HP-UX. 10 for Mac OS X. 3 for Solaris.
+
+<pre><nowiki>#!CSV
+Count;OS
+      7; Cygwin
+      2; Cygwin Windows 2000
+      3; Cygwin Windows XP
+      1; Cygwin Windows XP Professional
+      1; Cygwin Windows XP SP2
+      1; Darwin 8.6.0
+      1; FreeBSD
+      1; FreeBSD 6.0
+      1; FreeBSD 6-stable
+      1; FreeBSD 7-current
+      1; HP-UX 11i
+      1; IRIX
+      3; Mac OS X
+      1; Mac OS X 10.3
+      1; Mac OS X 10.3.9
+      1; Mac OS X 10.4
+      2; Mac OS X 10.4
+      1; Mac OS X 10.4.6
+      1; Mac OS X 10.4.7
+      1; NetBSD 3.0
+      1; Solaris
+      1; Solaris 10
+      1; Solaris 9
+</nowiki></pre>
+
+Linux table
+
+<pre><nowiki>#!CSV
+Count;Distro
+     15; Linux
+      3; Linux 2.4
+     16; Linux 2.6
+      2; Linux Arch
+      4; Linux Debian
+     12; Linux Debian Etch
+      4; Linux Debian Sarge
+     17; Linux Debian Sid
+      6; Linux Debian Stable
+      1; Linux FC
+      2; Linux FC2
+      4; Linux FC3
+      4; Linux FC4
+     11; Linux FC5
+      1; Linux FC6
+      3; Linux FC Rawhide
+      9; Linux Gentoo
+      1; Linux Gentoo 2005.1
+      1; Linux Gentoo 2006.1
+      1; Linux Mandrake 2005LE
+      1; Linux Mandriva 2006
+      1; Linux OpenSuSE
+      1; Linux Red Hat 6.2
+      1; Linux Red Hat 8.0
+      1; Linux RHEL
+      1; Linux RHEL3
+      1; Linux RHEL4
+      1; Linux Slackware
+      4; Linux Slackware 10.2
+      1; Linux Slackware-current
+      1; Linux Slackware-current
+      1; Linux slamd64 10.1
+      2; Linux SLED 10
+      2; Linux SLES 10
+      1; Linux SLES 9
+      1; Linux SLES 9 SP3
+      4; Linux SuSE
+      1; Linux Ubuntu
+      1; Linux Ubuntu 5.10
+     14; Linux Ubuntu 6.06
+      1; Linux Ubuntu 6.10
+      1; Linux Ubuntu breezy
+      1; Linux Ubuntu hoary
+      1; Linux Ubuntu warty
+</nowiki></pre>
 
 == 12. How many people do you collaborate with using GIT? ==
 <pre><nowiki>#!CSV
