@@ -5,6 +5,8 @@ These efforts are
 * EclipseIDE-based GIT client, based on a pure Java implmentation of GIT's internals.
 * A libgit + cygwin.dll Windows Explorer extension (perhaps based on TortoiseSVN)
 
+Ask on the [[MailingLists]] for the latest news on this ;-)
+
 = Cygwin =
 
 __NOTOC__
