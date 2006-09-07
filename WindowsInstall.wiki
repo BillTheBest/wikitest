@@ -7,8 +7,9 @@ These efforts are
 
 Ask on the [[MailingLists]] for the latest news on this ;-)
 
-= Cygwin =
+If you have the main development team on linux/unix, and peripheral developers or translators on Windows, consider using `git-cvsserver` to give those users read or read/write access to the GIT tree via the CVS protocol. Committers using `git-cvsserver` have some limits: they cannot branch, tag or merge. On the other hand, git-cvsserver works well with Eclipse, TortoiseCVS and other easy-to-use CVS clients.
 
+= Cygwin =
 == Installation ==
 
 You will need to install cygwin and the following packages to be able to build git:
