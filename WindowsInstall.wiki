@@ -32,12 +32,12 @@ With these packages installed you build git and it in your ~/bin directory by do
 make install
 </nowiki></pre>
 
-Check that your path includes ~/bin !
-
 If want to be extra careful, you can always run the regression tests:
 <pre><nowiki>
 make test
 </nowiki></pre>
+
+You are now ready to use GIT. Check that your path includes ~/bin and you are off!
 
 == Extra notes ==
 
