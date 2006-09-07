@@ -191,4 +191,46 @@ In summary, there are 17 started using GIT from the beginning. 47 others started
       1;Xorg conversion
 </nowiki></pre>
 
+== 8. How you use GIT? Do you use GIT for ... ==
+<pre><nowiki>#!CSV
+   Count;Purpose
+   14;Work
+   50;Unpaid projects
+   51;Both
+</nowiki></pre>
+
+== 9. How do you obtain GIT ==
+<pre><nowiki>#!CSV
+   Count; Method
+   32;Source tarball
+   31;Binary package
+   52;Pull from main repository
+</nowiki></pre>
+
+== 10. What hardware platforms do you use GIT on? ==
+Some hardwares I'm not sure, so left them as is. If you know them, please edit the table.
+
+<pre><nowiki>#!CSV
+      Count;Architecture
+      1;alpha
+     14;amd64
+      1;Apple iBook
+      1;Apple PowerBook G4 1.5GHz Quantex Laptop P3 400MHz
+      1;arm
+     99;ia32
+      2;ia64
+      1;IBM ThinkPad laptop, 64 MB
+      1;mac ibook g4
+      1;parisc
+      1;PC Laptop IBM T30
+     12;ppc
+      2;ppc64
+      1;SGI Onyx 2
+      5;sparc
+      2;sparc64
+      1;x64_32
+      1;x64_64
+     23;x86_64
+</nowiki></pre>
+
 __NOTOC__
