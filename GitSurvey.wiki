@@ -341,4 +341,18 @@ Count;Distro
       2;xorg ~50
 </nowiki></pre>
 
+== 15. Which porcelains do you use? ==
+<pre><nowiki>#!CSV
+Count;Porcelain
+     21;cogito (maybe plus git-format-patch, gitk, tig, qgit)
+     60;git
+      4;gitk or gitweb
+      2;pg
+      5;qgit
+     10;stgit
+</nowiki></pre>
+
+== 16. Is the git.git repository including codes produced by you? ==
+72 say no. 33 say yes.
+
 __NOTOC__
