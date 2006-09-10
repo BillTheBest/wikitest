@@ -148,6 +148,11 @@ Use `cg-admin-setuprepo -g` (if you use [[Cogito]]) or do `git-init-db --shared`
  [http://www.kernel.org/pub/software/scm/git/docs/cvs-migration.html cvs-migration] doc,
  "Emulating the CVS Development Model" section for details.
 
+<<Anchor(tag-checkout)>>
+== How do I check out the tree at a particular tag? ==
+
+So you cloned that shiny repository and now would like to get the working tree to the state as of some tag (use `cg tag-ls` or `ls .git/refs/tags` to list all the available tags). Cogito supports such "seeking" natively - you can use `cg seek TAGNAME` to go there, and `cg seek` without arguments to go back to the latest revision (`cg status` will note that you are seeked). With Git, you have to create a temporary branch based on the tag. If you will never want to come back, `git checkout -b temporarybranch TAGNAME`. If you want to return to your latest revision later, before going away check what is your current branch (usually it's `master`), and when going back do `git checkout ORIGINALBRANCH`. Get rid of `temporarybranch` by doing `git checkout -D temporarybranch`.
+
 <<Anchor(share-objects)>>
 == How to share objects between existing repositories? ==
 
