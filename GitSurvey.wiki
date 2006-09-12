@@ -24,7 +24,7 @@ Note that count is not exactly number of people.
       1;Indian 
       3;Italy 
       1;Lithuania
-      1;Netherlands 
+      3;Netherlands 
       1;Norway 
       1;Philippines 
       3;Poland 
@@ -33,7 +33,6 @@ Note that count is not exactly number of people.
       2;Spain 
       6;Sweden 
       1;Switzerland 
-      2;The Netherlands 
       1;UAE 
       5;United Kingdom 
      33;United States 
