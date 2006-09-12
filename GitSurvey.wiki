@@ -426,4 +426,12 @@ Count;Answer;Note
       2; workflow;
 </nowiki></pre>
 
+== 22.Documentation: Do you use the GIT wiki? If yes, do you find it useful? ==
+<pre><nowiki>#!CSV
+Count;Answer;Note
+29;Don't use it;
+57;No, it's not useful;Some answers were just "no" so they're probably either "no I don't use it" or "no it's not useful"
+27;Yes, it's useful;
+</nowiki></pre>
+
 __NOTOC__
