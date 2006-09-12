@@ -376,4 +376,54 @@ Count;Answer
 78;Better
 </nowiki></pre>
 
+== 19. What do you like about using GIT? ==
+The most loved features are speed, distributed nature, visualization, merging, git design, branching
+
+<pre><nowiki>#!CSV
+Count;Answer;Note
+      3; amend;git commit --amend
+     18; branch; ease of branching, topic branch...
+      3; cherry-picking;
+      1; cli;
+      2; collaboration; encourage collaboration
+      1; color; git diff --color
+      3; community;
+     11; design;
+     29; distributed;
+      1; dump transport; can work with http only
+      4; easy to use;
+      3; everything;
+      1; fast development;
+      3; flexibility;
+      5; free;GPL
+      3; git bisect;
+      2; git daemon;
+      3; git diff;
+      1; git grep;
+      2; git log;
+      2; git log -p;
+      2; git log -S;
+      1; git rev-parse syntax; HEAD, HEAD^2...
+      1; git show;
+      4; gitweb;
+      1; history rewriting;
+      1; http/webdav;
+      1; implicit rename;
+      1; index;
+      1; integrity check;
+     16; merge;
+      3; patch;patch support, including git format-patch and friends, probably including stgit too
+      1; rebase;
+      1; sign off;
+      2; simplicity;
+      1; small;GIT binaries
+      3; space;packs
+     40; speed;
+      1; stable;
+      3; StGIT;
+      9; unix philosophy;
+     11; visualization;gitk, qgit and friends
+      2; workflow;
+</nowiki></pre>
+
 __NOTOC__
