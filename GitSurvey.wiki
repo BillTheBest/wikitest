@@ -356,12 +356,24 @@ Count;Porcelain
 72 say no. 33 say yes.
 
 == 17. What you think of GIT? Overall, how happy are you with GIT? ==
+(There're lots of reasons behind these numbers. Need an analysis)
+
 <pre><nowiki>#!CSV
 Count;Answer
 1;Unhappy (maybe more because I might have classified some into "Not so happy" instead of this category)
 18;Not so happy
 53;Happy
 41;Very happy
+</nowiki></pre>
+
+== 18. How does GIT compare to other SCM tools you have used? ==
+(There're lots of reasons behind these numbers. Need an analysis)
+
+<pre><nowiki>#!CSV
+Count;Answer
+8;Worse
+20;Equal (or uncomparable)
+78;Better
 </nowiki></pre>
 
 __NOTOC__
