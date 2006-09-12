@@ -355,4 +355,13 @@ Count;Porcelain
 == 16. Is the git.git repository including codes produced by you? ==
 72 say no. 33 say yes.
 
+== 17. What you think of GIT? Overall, how happy are you with GIT? ==
+<pre><nowiki>#!CSV
+Count;Answer
+1;Unhappy (maybe more because I might have classified some into "Not so happy" instead of this category)
+18;Not so happy
+53;Happy
+41;Very happy
+</nowiki></pre>
+
 __NOTOC__
