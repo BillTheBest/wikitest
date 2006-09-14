@@ -113,6 +113,9 @@
 <b>Darcs-Git</b><<Anchor(darcs-git)>>::
     [http://darcs.net/DarcsWiki/[[DarcsGit]] Darcs-Git] is an ongoing effort to make Darcs work with Git repositories, in particular the Linux kernel repository. It is now part Darcs-Unstable branch, available from http://abridgegame.org/repos/darcs-unstable
 
+<b>cvs2git and git-fast-import</b><<Anchor(cvs2git)>>::
+    cvs2git is the unofficial name of Jon Smirl's modifications to [http://cvs2svn.tigris.org/ cvs2svn].  These modifications allow cvs2svn to generate a data stream which is consumed by Shawn Pearce's git-fast-import.  git-fast-import converts its input stream directly into a Git .pack file, minimizing the amount of IO required on large imports.  As of 2006-09-14 both tools are available but have not been official released as they are still under development.  Currently Shawn is planning on cleaning up and contributing git-fast-import to the Git project while Jon is working on contributing his changes back to the main cvs2svn project.  Ask on the Git mailing list for details.
+
 == Other tools ==
 
 <b>colordiff</b> (in `contrib/`)<<Anchor(colordif)>>::
