@@ -10,7 +10,7 @@
 <<<!-- ! TOC here -->(2)>>
 ----
 <b>List of tools:</b>
- <span style="font-size: smaller">[[#Cogito Cogito]], [[#StGIT StGIT]], [[#pg pg]], [[#isisetup IsiSetup]], [[#hgct (h)gct]], [[#tig tig]], [[#qgit QGit]], [[#gitk gitk]], [[#gitview GitView]], [[#gitweb gitweb]], [[#wit wit]], [[#gitarella gitarella]], [[#gittracker gittracker]], [[#git.el git.el]], [[#Eclipse Eclipse]], [[#git-xxximport other SCM import]], [[#git-cvsexportcommit git-cvsexportcommit]], [[#git-cvsserver git-cvsserver]], [[#git-svn git-svn]], [[#parsecvs parsecvs]], [[#cvs2git cvs2git]], [[#git-svnconvert git-svnconvert]], [[#Tailor Tailor]], [[#darcs-git Darcs-Git]], [[#colordiff colordiff]], [[#completion completion]], [[#ciabot CIAbot]], [[#git2rss git2rss]], [[#remapper remapper]], [[#gitfs gitfs]], [[#schottelius unix.schottelius]]</span>
+ <span style="font-size: smaller">[[#Cogito Cogito]], [[#StGIT StGIT]], [[#pg pg]], [[#isisetup IsiSetup]], [[#hgct (h)gct]], [[#tig tig]], [[#qgit QGit]], [[#gitk gitk]], [[#gitview GitView]], [[#gitweb gitweb]], [[#wit wit]], [[#gitarella gitarella]], [[#git-php git-php]], [[#gittracker gittracker]], [[#git.el git.el]], [[#Eclipse Eclipse]], [[#git-xxximport other SCM import]], [[#git-cvsexportcommit git-cvsexportcommit]], [[#git-cvsserver git-cvsserver]], [[#git-svn git-svn]], [[#parsecvs parsecvs]], [[#cvs2git cvs2git]], [[#git-svnconvert git-svnconvert]], [[#Tailor Tailor]], [[#darcs-git Darcs-Git]], [[#colordiff colordiff]], [[#completion completion]], [[#ciabot CIAbot]], [[#git2rss git2rss]], [[#remapper remapper]], [[#gitfs gitfs]], [[#schottelius unix.schottelius]]</span>
 -----
 <b>See also:</b>
 * [[InterfacesFrontendsAndToolsWishlist]]
@@ -65,6 +65,9 @@
 
 <b>gitarella</b><<Anchor(gitarella)>>::
     [http://flameeyes.is-a-geek.org/projects#gitarella gitarella] ([http://freshmeat.net/projects/gitarella/ freshmeat project page]) is a Ruby-based Git web frontend, created and maintained by Flameeyes. It is inspired by and following the style of gitweb. It supports CGI and FastCGI interfaces. See it in work on [http://git.flameeyes.is-a-geek.org/gitarella/ gitarella repository].
+
+<b>git-php</b><<Anchor(git-php)>>::
+    [http://code.google.com/p/git-php/ git-php] is a PHP git web frontend created by Zack Bartel. The goal of git-php is a robust PHP web interface to git repositories. It is meant to be easily customizable through styles and the ability to be embedded into any PHP page. For example, creating a git repository viewer plug-in for your favorite PHP based CMS should be easy with git-php. It seems to be inspired by gitweb. See it at work at [http://zackb.org/git-php/git.php zackb.org].
 
 <b>gittracker</b><<Anchor(gittracker)>>::
     [http://www.tglx.de/cgi-bin/gittracker/about git tracker] by Thomas Gleixner is a GPL licenced project to track the history of Git repositories.
