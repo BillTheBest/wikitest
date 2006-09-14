@@ -10,7 +10,7 @@
 <<<!-- ! TOC here -->(2)>>
 ----
 <b>List of tools:</b>
- <span style="font-size: smaller">[[#Cogito Cogito]], [[#StGIT StGIT]], [[#pg pg]], [[#isisetup IsiSetup]], [[#hgct (h)gct]], [[#tig tig]], [[#qgit QGit]], [[#gitk gitk]], [[#gitview GitView]], [[#gitweb gitweb]], [[#wit wit]], [[#gitarella gitarella]], [[#gittracker gittracker]], [[#git.el git.el]], [[#Eclipse Eclipse]], [[#git-xxximport other SCM import]], [[#git-cvsexportcommit git-cvsexportcommit]], [[#git-cvsserver git-cvsserver]], [[#git-svn git-svn]], [[#parsecvs parsecvs]], [[#git-svnconvert git-svnconvert]], [[#Tailor Tailor]], [[#darcs-git Darcs-Git]], [[#colordiff colordiff]], [[#completion completion]], [[#ciabot CIAbot]], [[#git2rss git2rss]], [[#remapper remapper]], [[#gitfs gitfs]], [[#schottelius unix.schottelius]]</span>
+ <span style="font-size: smaller">[[#Cogito Cogito]], [[#StGIT StGIT]], [[#pg pg]], [[#isisetup IsiSetup]], [[#hgct (h)gct]], [[#tig tig]], [[#qgit QGit]], [[#gitk gitk]], [[#gitview GitView]], [[#gitweb gitweb]], [[#wit wit]], [[#gitarella gitarella]], [[#gittracker gittracker]], [[#git.el git.el]], [[#Eclipse Eclipse]], [[#git-xxximport other SCM import]], [[#git-cvsexportcommit git-cvsexportcommit]], [[#git-cvsserver git-cvsserver]], [[#git-svn git-svn]], [[#parsecvs parsecvs]], [[#cvs2git cvs2git]], [[#git-svnconvert git-svnconvert]], [[#Tailor Tailor]], [[#darcs-git Darcs-Git]], [[#colordiff colordiff]], [[#completion completion]], [[#ciabot CIAbot]], [[#git2rss git2rss]], [[#remapper remapper]], [[#gitfs gitfs]], [[#schottelius unix.schottelius]]</span>
 -----
 <b>See also:</b>
 * [[InterfacesFrontendsAndToolsWishlist]]
@@ -98,6 +98,9 @@
 <b>parsecvs</b><<Anchor(parsecvs)>>::
     [http://gitweb.freedesktop.org/?p=users-keithp-parsecvs;a=summary parsecvs] by Keith Packard is a C-based CVS file parser and Git import tool. It directly reads RCS ,v files (you can get them using CVSsuck if you don't have access to $CVSROOT) and generates a git-style rev-list structure from them. Repository available at git://anongit.freedesktop.org/git/users/keithp/parsecvs
 
+<b>cvs2git and git-fast-import</b><<Anchor(cvs2git)>>::
+    cvs2git is the unofficial name of Jon Smirl's modifications to [http://cvs2svn.tigris.org/ cvs2svn].  These modifications allow cvs2svn to generate a data stream which is consumed by Shawn Pearce's git-fast-import.  git-fast-import converts its input stream directly into a Git .pack file, minimizing the amount of IO required on large imports.  As of 2006-09-14 both tools are available but have not been official released as they are still under development.  Currently Shawn is planning on cleaning up and contributing git-fast-import to the Git project while Jon is working on contributing his changes back to the main cvs2svn project.  Ask on the Git mailing list for details.
+
 <b><u>git-svn</u></b> (built in)<<Anchor(git-svn)>>::
     [http://git-svn.yhbt.net/ git-svn] ([http://git.bogomips.org/git-svn.git git repository]), written by Eric Wong, is a simple conduit for bidirectional operation between a <i>single</i> Subversion branch and git. It is designed for developers who wish to contribute to projects that use Subversion, but would rather be using git.
 
@@ -112,9 +115,6 @@
 
 <b>Darcs-Git</b><<Anchor(darcs-git)>>::
     [http://darcs.net/DarcsWiki/[[DarcsGit]] Darcs-Git] is an ongoing effort to make Darcs work with Git repositories, in particular the Linux kernel repository. It is now part Darcs-Unstable branch, available from http://abridgegame.org/repos/darcs-unstable
-
-<b>cvs2git and git-fast-import</b><<Anchor(cvs2git)>>::
-    cvs2git is the unofficial name of Jon Smirl's modifications to [http://cvs2svn.tigris.org/ cvs2svn].  These modifications allow cvs2svn to generate a data stream which is consumed by Shawn Pearce's git-fast-import.  git-fast-import converts its input stream directly into a Git .pack file, minimizing the amount of IO required on large imports.  As of 2006-09-14 both tools are available but have not been official released as they are still under development.  Currently Shawn is planning on cleaning up and contributing git-fast-import to the Git project while Jon is working on contributing his changes back to the main cvs2svn project.  Ask on the Git mailing list for details.
 
 == Other tools ==
 
