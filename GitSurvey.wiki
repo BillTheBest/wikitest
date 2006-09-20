@@ -429,6 +429,100 @@ Count;Answer;Note
       3; workflow;
 </nowiki></pre>
 
+== 20. What would you most like to see improved about GIT? (features, bugs, plugins, documentation, ...) ==
+
+Note: I got dizzy digging into this answer set. I dropped some answers because I thought those were either not important nor vast. If someone is brave enough to review the raw data again and update this question, you are really welcome.
+
+There are various ideas in the answers. Documentation related answers account the most (43 counts) followed by UI's (13) shallow/lazy/partial cloning (10), win32 native binaries, subproject support and some kind of plugins (all 9 counts).
+
+<pre><nowiki>#!CSV
+Count;Answer class;Note
+     43;documentation; See below
+     13;UI; See below
+     10;shallow/lazy/partial cloning;
+      9;win32 native binaries;
+      9;subproject support;
+      9;other kinds of plugins;See below
+      7;remote repositories;See below
+      6;merge-related;See below
+      6;libification
+      5;error-related;See below
+      5;Eclipse plugin and others;
+      4;GUI;Among others: gitk having the ability to graphically cherry pick fixes and initiate cleanup operations on the tree (rebasing to eliminate empty commits)
+      4;git-undo;See below
+      4;bugs;Just simply that, don't know what exact bug
+      4;auto repack;
+      3;rename;(It seems to be implemented already. We may need more documentation)
+      3;gitweb;git-blame, something about header/footer templates so that people can change it without touching gitweb code
+      3;design;incremental storage of changes for very big files. Redesign the git "backend storage", so that things like git-repack can go away. better objects store. Its better to have one BerkDB or GDBM file than 1000000 files named b5659bb2a599d0649871f56b59819c50 or whatever.
+      2;portability;less dependency on script languages.  Non-ascii file name handing across machines and platforms (UTF-8 vs ISO-8859-1)
+      2;performance;fast recursive merge strategy (almost done) and a packing strategy on memory-starved machines (<=256M)
+      8;others;See below
+</nowiki></pre>
+
+Regarding to documentation. Here is some ideas:
+
+* Make "The GIT Book"
+* Comparison with other SCMs
+* Common work flow cases simplified, especially WRT extracting patches for new development in the face of criss-crossed merges.
+* consistency in command options (--blah=bluh and --blah bluh for example)
+* Document <b>every</b> command options. git-diff options especially
+* How to deal with failed merges
+* Command classification: plumbing/porcelain/ancillary, C/Python/Bash, works on working tree/index/respository, manipulation/integration/syncing
+* GIT server setup, GIT remote repository setup
+* I'd like to see a tutorial that doesn't just teach you the commands, but walks you through the repository format and what it looks like; talk about the content-addressable filesystem, the various types of objects, how they work together, and what the commands change. I don't mean that this tutorial should show all the low-level plumbing commands; rather, it should what the porcelain commands do to the repo. I found that I understood GIT far better by understanding how it works.
+* More recipe'like examples, with step by step instruction for various tasks.
+* The documentation doesn't explain *why* I would ever use a command
+* More workflow
+
+As for UI:
+* better/consistent look'n'feel (something SVN and darcs get very right)
+* Cleaning up the user interface and separating the "porcelain" from the "plumbing". Hide plumbing parts from users and $PATH (keep them in /usr/lib/git for example)
+* cogito-like frontend in main distribution
+* don't provide several commands that does almost the same thing (git-am vs git-applymbox, git-blame vs git-annotate and so on) Merge them or keep the best version and get rid of the other one.
+* I'd like to see "git-diff" mean something saner, namely a diff between the working copy and the last commit, like cg-diff
+* increased verbosity about progresses. e.g. transfer rate or percentage. i have a slow connection and never know when it got stuck. another problem with slow connections is, that you cant resume a clone i.e. you transfer the complete repository with 14kb/s. on failure you have to restart; this sucks hugely
+* PLEASE GOD FIX THE UI
+* shortcuts for common commands (I think he meant default shortcuts)
+
+The "other kinds of plugins" includes StGIT integration (3 counts), SCM integration (Subversion, Bazaar and Mercurial) and another comment for git-svn*:
+* The SVN import tools can be difficult to use on some repostories like most of the ones on sourceforge that have been converted with cvs2git, and have a structure like trunk/projectA, trunk/projectB, branches/branchA/projectA, branches/branchA/projectB, which is a silly layout but seemingly common. This is difficult if I only want one of the projects, but want the branches and tags
+
+Regarding to "remote repositories"
+* better compression on the downloads
+* better packing for dumb (HTTP-only) servers
+* git-daemon with push support (+ seperate authentification database)
+* git server over cgi
+* Repository creation over HTTP/WebDAV
+* I'd like to see an easier way to push changes to a remote repository on a machine without GIT installed. Pushing via SSH requires GIT installed on the remote machine. Currently, I get around this by using sshfs.
+* Related to that, I'd like to see it made far easier to create a remote repository given a local one. Right now you have to create the remote repository first, possibly enable a hook (if HTTP access desired), set up a new remote to that repo, and then push. How about a new command that does all of that automatically; just run it with a repository URL, and optionally a name for the new remote branch, and it creates the remote repo, sets up the remote, optionally but by default enables the HTTP access hook, and pushes. Ideally, this functionality could become part of git-push, so that git-push creates the remote repo if it doesn't exist.
+
+Here is merge-related comments:
+* check for merge conflicts without actual merge (git-diff --show-conflicts <1> <2>)
+* git-pull's behavior of merging in the first refspec to the current branch is very bad and has caused us serious repository issues in xorg.
+* graphical merger (meld)
+* Hierarhichal merges ala Accurev with a nice speedy GUI (Accurev's java gui is shit)
+
+About error messages:
+* error handling. I have couple times messed my repo so that I can't do Pull or push.
+* make the error messages more helpful
+* more error conditions and produce better diagnostics
+* More helpful error messages.
+* proper error messages that give some idea of what is going wrong.
+
+There are some ideas about "git-undo":
+* I'd also very much like to be able to use it in a sand-box mode where I can perform small commits for the sake of development and then roll some or all of them into a single changeset for pushing upstream.
+* make it easy to undo things. Eg there is no generic "git-undo"
+* '--undo' option for each command: 'git commit --undo' undoes the last commit, 'git update-index --undo' undoes the last update-index etc., so I don't have to remember how to undo that particular operation (was it --soft, --mixed, ^HEAD , or...)
+* Would like the ability to more easily remove a bad commit from the middle of a tree (in many cases the tree is not the parent of any other tree so it should be harmless to reorder the later fixes).
+
+Others include:
+* patch handling (cherry picking). Migrating individual patches from one repository to another
+* git-commit --review (as in cogito)
+* I'd like to see *all* git commands work in subdirectories of the repository, and automatically go up until they find a .git directory
+* Read settings from ~/.gitrc, then read the settings in a given repo. Many settings make more sense on a per-user basis rather than a per-repo basis, such as  the settings for git-imap-send
+* Topic branch management
+
 == 22.Documentation: Do you use the GIT wiki? If yes, do you find it useful? ==
 
 <pre><nowiki>#!CSV
