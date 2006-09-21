@@ -1,13 +1,34 @@
 <i>Note: This page is currently a work in progress.  It started out as a private email to someone who currently uses Subversion.  I decided to make it available and try to extend it further. I'll remove this comment when the page is better.  :)  -- Shawn Pearce</i>
 ----
 
-= Git's Major Features over Subversion =
+Although this page is hosted on a Git-specific Wiki it tries to provide a fair and unbiased comparsion of Git and [http://subversion.tigris.org/ Subversion] to help perspective users of both tools better evaluate their choices.
+
+= Git's Major Features Over Subversion =
+
+There are a number of key features in Git that really make it stand out when compared to Subversion.  Among them are the following:
 
 == Distributed ==
 
+Git was designed from the ground up as a distributed version control system.  Being a distributed version control system means that multiple redundant repositories and branching are first class concepts of the tool.
+
+In a distributed VCS every user has a complete copy of the repository data stored locally, thereby making access to file history extremely fast.  It also means every user has a complete backup of the repository.  Have 20 users?  You probably have more than 20 complete backups of the repository (as some users tend to keep more than one repository for the same project).
+
+== Branch Handling ==
+
+== Small Space Requirements ==
+
+== Performance (Speed of Operation) ==
+
+----
 = Subversion's Major Features Over Git =
 
 == User Interfaces ==
+
+== Shorter Revision Numbers ==
+
+== Single Repository ==
+
+== Access Controls ==
 
 ----
 = The Original Email =
