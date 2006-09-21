@@ -29,10 +29,10 @@ Consequently Git:
     Merge records always include the following details:
 * Who performed the merge.
 * What branch(es) and revision(s) were merged.
-        All changes made on the branch(es) remain attributed to the original authors and the original timestamps of those changes.
+      All changes made on the branch(es) remain attributed to the original authors and the original timestamps of those changes.
 * What additional changes were made to complete the merge successfully.
-        Any changes made during the merge that is beyond those made on the branch(es) being merged is attributed to the user performing the merge.
-* When the merge was done.
+      Any changes made during the merge that is beyond those made on the branch(es) being merged is attributed to the user performing the merge.
+* When the merge was done
 * Why the merge was done (<i>optional; can be supplied by the user</i>).
 * Automatically starts the next merge at the last merge.
     Knowing what revision was last merged is necessary in order to successfully merge the same branches together again in the future.
@@ -44,7 +44,7 @@ This is quite contrary to Subversion's handling of branches.  As of Subversion 1
 * Incomplete merge event record:
     Although Subversion records a merge as a commit and thus associates a username and a timestamp to it (like Git) there are some serious flaws in this record.
 * All changes made on the branch appear to be made by the merging user.
-      This means that from a historical perspective every line of code modified on the branch will appear in the trunk as though it was written by the user who merged the branch.  This is <b>wrong</b> if there were other users working on that branch.
+      This means that from a historical perspective every line of code modified on the branch will appear in the trunk as though it was written by the user who merged the branch.  <i>This is wrong if there were other users working on that branch.</i>
 * Its impossible to see only merge related changes.
       If the merging user had to modify 12 lines of code to complete the merge successfully you can't tell what those 12 lines were, or how those 12 lines differ from the versions on the branches being merged.
 * The user must manually record what branches were merged and what versions they were.
@@ -52,11 +52,28 @@ This is quite contrary to Subversion's handling of branches.  As of Subversion 1
 * Does not track merge bases.
     Because Subversion does not record important details about a branch merge it cannot provide the new merge base on subsequent branch merges.  What this means in practice is that users must manually track branch merge points so subsequent merges can be completed.
 
-In short Subversion 1.3's branching implementation is significantly flawed and does not generally work as it should.
+In short Subversion's branching implementation is significantly flawed while Git's implementation accurately records the activity and is fully automatic.
 
 == Performance (Speed of Operation) ==
 
+Git is extremely fast.  Since all operations (except for push and fetch) are local there is no network latency involved to:
+
+* Perform a diff.
+* View file history.
+* Commit changes.
+* Merge branches.
+* Obtain any other revision of a file (not just the prior committed revision).
+* Switch branches.
+
+FIXME: Include actual comparsions, e.g. load Git code into both Git and SVN.
+
 == Small Space Requirements ==
+
+Git's repository and working directory sizes are extremely small when compared to SVN.
+
+For example the Mozilla repository is reported to be almost 12 GiB when stored in SVN using the fsfs backend.  The fsfs backend also requires over 240,000 files in one directory to record all 240,000 commits made over the 10 year history.  The exact same history is stored in Git by only two files totaling just over 420 MiB.  SVN requires 30x the disk space to store the same history.
+
+An SVN working directory always contains two copies of each file: one for the user to actually work with and another hidden in the .svn/ to aid operations such as status, diff and commit.  In contrast a Git working uses only one small index file that stores around 100 bytes per tracked file.  On projects with a large number of files this can be a substantial difference in disk space required.
 
 ----
 = Subversion's Major Features Over Git =
