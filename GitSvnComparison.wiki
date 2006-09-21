@@ -24,20 +24,35 @@ The reason branches are so core in Git is every developer's working directory is
 Consequently Git:
 
 * Automatically tracks the project revision the branch started from.
-    Knowing the starting point of a branch is necessary in order to
-    successfully merge the branch back to the main trunk that it came from.
+    Knowing the starting point of a branch is necessary in order to successfully merge the branch back to the main trunk that it came from.
 * Automatically records branch merge events.
     Merge records always include the following details:
 * Who performed the merge.
 * What branch(es) and revision(s) were merged.
+        All changes made on the branch(es) remain attributed to the original authors and the original timestamps of those changes.
 * What additional changes were made to complete the merge successfully.
+        Any changes made during the merge that is beyond those made on the branch(es) being merged is attributed to the user performing the merge.
 * When the merge was done.
 * Why the merge was done (<i>optional; can be supplied by the user</i>).
-* Automatically starts next merge at the last merge.
-    Knowing what revision was last merged is necessary in order to
-    successfully the same branches together again in the future.
+* Automatically starts the next merge at the last merge.
+    Knowing what revision was last merged is necessary in order to successfully merge the same branches together again in the future.
 
-This is quite contrary to Subversion's handling of branches.  As of Subversion 1.3 (current around late 2006) Subversion only tracked the starting point of each branch.
+This is quite contrary to Subversion's handling of branches.  As of Subversion 1.3:
+
+* Automatically tracks the project revision the branch started from.
+    Like Git Subversion remembers where a branch originated.
+* Incomplete merge event record:
+    Although Subversion records a merge as a commit and thus associates a username and a timestamp to it (like Git) there are some serious flaws in this record.
+* All changes made on the branch appear to be made by the merging user.
+      This means that from a historical perspective every line of code modified on the branch will appear in the trunk as though it was written by the user who merged the branch.  This is <b>wrong</b> if there were other users working on that branch.
+* Its impossible to see only merge related changes.
+      If the merging user had to modify 12 lines of code to complete the merge successfully you can't tell what those 12 lines were, or how those 12 lines differ from the versions on the branches being merged.
+* The user must manually record what branches were merged and what versions they were.
+      Unlike Git Subversion does not automatically include these details.  Consequently unless the user performing the merge explicitly includes these details in the commit message its impossible to know what exactly was merged.
+* Does not track merge bases.
+    Because Subversion does not record important details about a branch merge it cannot provide the new merge base on subsequent branch merges.  What this means in practice is that users must manually track branch merge points so subsequent merges can be completed.
+
+In short Subversion 1.3's branching implementation is significantly flawed and does not generally work as it should.
 
 == Performance (Speed of Operation) ==
 
