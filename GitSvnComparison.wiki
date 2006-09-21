@@ -1,8 +1,18 @@
 <i>Note: This page is currently a work in progress.  It started out as a private email to someone who currently uses Subversion.  I decided to make it available and try to extend it further. I'll remove this comment when the page is better.  :)  -- Shawn Pearce</i>
 ----
 
+= Git's Major Features over Subversion =
+
+== Distributed ==
+
+= Subversion's Major Features Over Git =
+
+== User Interfaces ==
+
 ----
-= Original Email =
+= The Original Email =
+<i>Provided as reference, until this page is cleaned up.</i>
+
 The key things that I like about Git are:
 
  - Its incredibly fast.
@@ -21,7 +31,7 @@ The key things that I like about Git are:
    without having to perform a strange copy and walk through
    the copy.  When using Subversion I always found it awkward to
    look at the history of a file on branch that occurred before
-   the branch was created.
+   the branch was created.  <i>from #git: <robinr> spearce: I don't understand one thing about SVN in the page. I made a branch i SVN and browsing the history showed the whole history a file in the branch</i>
 
  - Branch merging is simpler and more automatic in Git.
    In Subversion you need to remember what was the last revision
