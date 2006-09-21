@@ -523,6 +523,15 @@ Others include:
 * Read settings from ~/.gitrc, then read the settings in a given repo. Many settings make more sense on a per-user basis rather than a per-repo basis, such as  the settings for git-imap-send
 * Topic branch management
 
+== 22.Documentation: Do you use the GIT wiki? If yes, do you find it useful? ==
+
+<pre><nowiki>#!CSV
+Count;Answer;Note
+29;Don't use it;
+57;No, it's not useful;Some answers were just "no" so they're probably either "no I don't use it" or "no it's not useful"
+28;Yes, it's useful;
+</nowiki></pre>
+
 == 24.  What is your favourite user documentation for any software projects or products you have used? ==
 
 <pre><nowiki>#!CSV
@@ -580,14 +589,41 @@ Others:
 * ZBrush - http://www.pixologic.com/zbrush/home/home.html
 * Zsh has a pretty good manual.
 
-== 22.Documentation: Do you use the GIT wiki? If yes, do you find it useful? ==
+== 25. What could be improved on the GIT homepage? ==
 
-<pre><nowiki>#!CSV
-Count;Answer;Note
-29;Don't use it;
-57;No, it's not useful;Some answers were just "no" so they're probably either "no I don't use it" or "no it's not useful"
-28;Yes, it's useful;
-</nowiki></pre>
+* Fix the CSS - http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fgit.or.cz%2Fstylesheets%2Fscreen.css&usermedium=all
+* There are lots of spelling and grammar errors - wouldn't hurt to fix those.
+* A "don't panic" section for users who've never seen git before. New users should walk away with the impression that they can be productive with git after spending 20 minutes with a nice tutorial, not that git is too complicated for mere mortals.
+* A good technical explanation of the GIT concepts (blobs, trees, tags, commits.)
+* A stronger emphasis on the Wiki?
+* Change the link in the top navigation bar that reads "Git's Gitweb" to "Browse repository (gitweb)", for people who don't yet know about gitweb. Add a mailing list link in the top navigation bar.
+* documentation -- come on, you first refer to Documentation/ -directory and then link to a rendered man-page
+* Eye candy. An animal (Panda?). Propaganda (like M$, start off by quoting so many success stories -- people tend to listen to that).
+* Fix spelling errors! Add quickstart tutorial. List Git requirements.
+* For selling the idea to potential users, screenshots and some statistics about Git and some current Git repositories would be nice (project size, repository size, command time/memory usage, etc.).
+* Get a better international domain name (e.g. git.org or git.info). Project news should be on the homepage. git for CVS/Subversion users should use git commands, not Cogito (it would be more appropriate on the Cogito page). http://git.or.cz/course/stgit.html advocates mixing cogito and StGIT. Come on! It's the git homepage.
+* Git home page? Where? :)
+* Have a more detailed tutorial and plugins for common IDEs.
+* Hosting on kernel.org would probably make it look more official. I don't really use it, so I wouldn't know.
+* Keep it simple. No need to over-engineer.
+* Lack of quick-start-guide or your distribution fast entry to make GIT use more widely.
+* Links to packages of git binaries + porcelains + docs ready to use.
+* Looks good. I'm no web expert anyway. I still use lynx a lot.
+* make the inset with git latest version more visible. It looks so similar to inline advertisment that I've used to ignore it for a long time, and was very surprised to find out that it has the direct link that I have always could not find.
+* Maybe a domain other than git.or.cz, something like git-scm.org
+* more languages, simple examples
+* More marketing at the top of the page! ("Tired from the limitations of CVS, SVN and $favorite_scm?" :-)
+* More obvious tutorial/usage links
+* One linear, alphabetical list of commands as the primary reference point. A _different_ list broken out functionally.
+* screenshots gitk, qgit
+* shorter lines, let a webdesigner take a look at it?
+* Split the home page in several pages. The top links should not bring you out of the website. Add a news section. Make it sexy.
+* The content is fine but I can't remember its URL.
+* The documentation link in the menu should point to the git documentation paragraph on the same page (where are links to tutorial, every day git etc.) and not to the man page. Althougt the man page is really nice it can scare people away from git.
+* The layout, the current one sucks.
+* Things are looking a lot better these days; not sure if I have any issues.
+* Tips on resolving dirty working directories and failed merges.
+* You could register the "git.org" domain.
 
 == 26. Getting help, staying in touch: Have you tried to get GIT help from other people? ==
 
