@@ -523,6 +523,44 @@ Others include:
 * Read settings from ~/.gitrc, then read the settings in a given repo. Many settings make more sense on a per-user basis rather than a per-repo basis, such as  the settings for git-imap-send
 * Topic branch management
 
+== 21. If you want to see GIT more widely used, what do you think we could do to make this happen? ==
+
+Those "See Q20" answers were removed.
+
+* Localization and internationalization support.
+* Get more high-profile projects using GIT, and others will follow.
+* Adverisement. I still see people who doesn't know about git and use cvs/svn
+* Beat Mercurial.
+* No scripts for the basic commands (such as git-fetch)
+* Encrypted and authenticated git protocol (using ssl or tls)
+* better gitweb interface, (subdirs, multilevel, more like webcvs)
+* Convince big sites like sf.net to provide GIT repository hosting.
+* Evangelism
+* Evangelism. Publicity and soliciting feedback.
+* force sourceforge, freshmeat, ... to use git
+* Force to use in open source project
+* For open source projects - get it made available at some source hosting sites. Those of us with dumb HTTP only webspace can't use the git: protocol for projects and this is a bit limiting. For corporate take up : it needs to look more polished and mature to 'corporate' types. Not sure what's needed to achieve this.
+* get it adopted by main distros, renaming extensions to help people make the link (eg: git-ui instead of cogito), and write a small book on it to group all docs in a more structured manner.
+* Get the distributions to pick it up. Good interface for Windows users (even just for checking out/remote use)
+* GIT has to be used by big projects
+* Help people understand that losing the history from their old revision control system is not the end of the world. Just cut away with a clean import and use the old VCS for historical research.
+* If git were to interact transparently with an SVN repository, that would be cool.
+* improve the documentation/wiki visability.
+* Include the GIT package in various kind of Linux or other possible unix like distrubutions by default rather than a extra or make-by-yourself action needed.
+* It is time [[SourceForge]].net dumped CVS. Or at least had support for both (CVS, GIT) at the same time.
+* Make sourceforge use it.
+* Make the novice experience flawless and account for as many newbie mistakes as possible.
+* Political changes in projects. Many people simply aren't ready for distributed version control.
+* Publish a book. ;-)
+* push it for fedora use of repo. have _good_ conversions programms, they are essential as most sucessfull software out there uses a repo.
+* Remove old cruft (f.e. git-resolve). Stop talking about the "stupid content tracker", it confuses people. Move most of the executables to libexec!
+* [[SourceForge]] support Bundle automatically with Mac OS X and other distros.
+* Stronger promotion of its ability to a) Replicate a CVS server b) Allow hackers to have a personal git repository when hacking on projects with a SVN centralised repository
+* surveys, ask people for new cool features
+* Web marketing and make another big project use it.
+* Well, get more high-profile projects to use it. The fact that cairo and Wine use it is awesome, but it'd be great if sourceforge would make it easy to use Git (although that's not "our" responsibility really).
+* You could team up with Firefox and make an announcement in the New York Times.
+
 == 22.Documentation: Do you use the GIT wiki? If yes, do you find it useful? ==
 
 <pre><nowiki>#!CSV
