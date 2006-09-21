@@ -49,6 +49,7 @@ Projects that use [[Git]] for their source code management are listed in [[GitPr
 * [[WindowsInstall]] tells how to install Git on MS Windows.
 * Check out [[GitRelatedLogos]].
 * Read [[GitSurvey|Git Users Survey]] results; check [[GitSurveyData]] for survey raw data.
+* See a [[GitSvnComparsion]].
 
 == Getting Involved ==
 * Subscribe to the git mailing list (see [[GitCommunity]] page).
