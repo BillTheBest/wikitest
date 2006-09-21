@@ -23,15 +23,21 @@ The reason branches are so core in Git is every developer's working directory is
 
 Consequently Git:
 
-  - Automatically tracks the project revision the branch started from.
-  - Automatically tracks branch merges.
-    Merges always include:
-      - Who performed the merge.
-      - What changes were made to complete the merge successfully.
-      - What branch(es) were merged.
-      - When the merge was done.
-      - Why the merge was done (supplied in commit message).
-  - Automatically starts next merge at the last merge.
+* Automatically tracks the project revision the branch started from.
+    Knowing the starting point of a branch is necessary in order to
+    successfully merge the branch back to the main trunk that it came from.
+* Automatically records branch merge events.
+    Merge records always include the following details:
+* Who performed the merge.
+* What branch(es) and revision(s) were merged.
+* What additional changes were made to complete the merge successfully.
+* When the merge was done.
+* Why the merge was done (<i>optional; can be supplied by the user</i>).
+* Automatically starts next merge at the last merge.
+    Knowing what revision was last merged is necessary in order to
+    successfully the same branches together again in the future.
+
+This is quite contrary to Subversion's handling of branches.  As of Subversion 1.3 (current around late 2006) Subversion only tracked the starting point of each branch.
 
 == Performance (Speed of Operation) ==
 
