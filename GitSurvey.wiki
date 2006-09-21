@@ -532,6 +532,14 @@ Count;Answer;Note
 28;Yes, it's useful;
 </nowiki></pre>
 
+== 23. Do you find GIT's online help useful? ==
+
+<pre><nowiki>#!CSV
+Count;Answer
+88; Yes
+19;No
+</nowiki></pre>
+
 == 24.  What is your favourite user documentation for any software projects or products you have used? ==
 
 <pre><nowiki>#!CSV
@@ -665,5 +673,40 @@ Count;Answer
    22;Yes
    93;No
 </nowiki></pre>
+
+== 31. Open question: What other comments or suggestions do you have that are not covered by the questions above? ==
+
+* Simplify and reorganize all the output from the command so that they are consistent and easy to read (read fetch, merge,...).
+* Some info command that shows you information about a branch, a commit, a remote,... For a commit more or less what currently shows gitk (the Follows, Branches,...) For a branch what is the relation to other branches (which fast-forward the other,...) and where it pull from.
+* Fix the handling of the remote files, if a branch does not fast-forward mark it so (the maintainer of the repo should mark it so, not the one cloning). Remove branches that disapears upstream... 5-Options to show other type of diffstat (as the program diffstat provides). 
+* Be able to ask the relation of two commits (e.g. git name-rev --reference sha1 sha2)
+* git show-branch --origin, to show the normal output with the current branch and the one that get pulled.
+* Be able to say something like "git-rev-parse --refs refs/heads/*"
+* 20% of the questions in this "survey" are very, very badly formulated. For example, two questions in one (Q29), bad formulation (Q24), bad grammar (Q16), and a few others...
+* Also need to support virtual git-daemons.
+* Centralize and harmonize git command line options for the various commands. Require any patch to include full documentation (in source code, online help, Documentation/* files) before graduating to mainline.
+* Comparisons to other SCMs and potential improvements to git could use more depth.
+* error messages
+* From my perspective, I think cogito should go away. In comparing cogito to the git command line tools, it seems to be just different without adding any value. It's odd to have two command sets that seem to effectively provide the same functionality. I'm sure there is good value to Cogito, and what I'm really saying is that it's never been clear to me what it is. But I can't imagine that having two text mode interfaces makes git more attractive to the potential new user. Thanks for making this survey. I hope you find my comments useful.
+* Get a mascot! *g*
+* Git porcelain should have an option to display all commit SHA1 as name-rev format everywhere.
+* I use the manpages, which are mostly good. The exception is that push/pull behavior is nonintuitive, and the manpages explain the behavior in far too much dense text.
+* The lack of a bugzilla means that I can only really report a bug if I have a fix in hand that I think will get merged.
+* I would like to see it be more useful for projects that *aren't* exactly like the kernel. If I could replace SVN then I'd be a really happy camper. To do this, git will need to address some of the features that SVN does well, but I don't think this is simply a porcelain issue. Instead, it looks like git needs to a) perform comparable functions and b) reach a little lower in terms of comprehensibility.
+* I would like to use git more, but I worry about the administration time and effort.
+* Just improve the docs so that a novice could understand it quicker.
+* libgit ;)
+* The essential function of a VCS is to protect data from loss. As such Mercurial appears to have a superior design in terms of always appending. Graphics and features will help adoption but only robustness and safety will keep users. Right now its neither robust nor safe to use for a serious project
+* Name the mailing list.
+* requested git.debian.org for repo usage for debian developers. as lowprio suggestion improve gitweb to allow mod_perl interface itself. gitweb has a very cool interface, but code sucks. git clone should continue at the point were it aborted, complaints from wlan laptop users with flacky connections and big repos. all in all all the best and thanks!!
+* simple instructions (possibly on the home page) for people who are testers, not developers. they want to use git to have the most recent source available, but need to be able to generate sane bug reports, and to be able to test specific, tagged versions when asked. then go from this to the 'you found a bug and want to generate a patch' mode, and from there to a normal developer mode (which I see is documented on the wiki)
+* Someone should hack on the "Git (software" page on wikipedia.
+* Sounds there are a lot of GIT related stuff to use git core more effectively. So a overall comment/summary on these stuff could be helpful for users to choose.
+* The git emacs mode is really nice. Hopefully someone ads the pull, and push commands to it :)
+* The survey could ask about how successfull was introduction of Git in corporate environments. My answer to this question: not at all.
+* Topics not covered by this survey: workflows used. tools used (rebase, bisect, rerere,...). modularity of project. "GUI" used. How you use GIT doesn't take for account tracking private files (neither project nor work).
+* "What is your workflow?" would be a good question to find out how people use GIT and the Porcelains.
+* Years of experience with programming, and/or SCMs. Use cases other than programming projects.
+* You may want to ask if somebody asked me for help with git or expressed any opinion about it. You may want to ask how stable and reliable git has been for me.
 
 __NOTOC__
