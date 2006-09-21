@@ -2,6 +2,10 @@
 (I'm going to summarize git survey incrementally here)
 Note that count is not exactly number of people.
 
+<b>Table of contents:</b>
+
+<<<!-- ! TOC here -->(2)>>
+
 == 1. What country are you in? ==
 <pre><nowiki>#!CSV
       Count;Country
