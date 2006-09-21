@@ -347,6 +347,12 @@ Count;Distro
       2;xorg ~50
 </nowiki></pre>
 
+== 13.  How big are the repositories that you work on? (e.g. how many files, how much disk space, how deep is the history) ==
+
+TODO
+
+== 14. Empty ==
+
 == 15. Which porcelains do you use? ==
 <pre><nowiki>#!CSV
 Count;Porcelain
