@@ -523,6 +523,63 @@ Others include:
 * Read settings from ~/.gitrc, then read the settings in a given repo. Many settings make more sense on a per-user basis rather than a per-repo basis, such as  the settings for git-imap-send
 * Topic branch management
 
+== 24.  What is your favourite user documentation for any software projects or products you have used? ==
+
+<pre><nowiki>#!CSV
+Count;Answer;Note
+21;man pages;FreeBSD, glibc, rsync, Solaris. Man pages with integrated usages/examples
+12;Subversion;http://svnbook.red-bean.com/ (most mentioned). design notes in the SVN repository. TSVN manual
+3;PostgreSQL;
+3;Python;Online documentation. The book "Learning Python". The book "Dive into Python"
+3;Doxygen;
+2;Emacs;info, on paper manual, on-line tutorial
+2;FreeBSD handbook;
+2;info pages;libc and cvs
+2;Java;http://docs.sun.com and JDK JavaDocs. Sun's "Java Trails"
+2;Perl;man pages, perldoc
+2;PHP;http://php.net/docs/
+2;Wiki;Debian wiki and Gentoo wiki
+2;TeXbook;
+</nowiki></pre>
+
+Others:
+* Apple's Mac API docs are very nice.
+* Ascii documentation, like man pages, info or plain text
+* A single, hyperlinked searchable PDF document.
+* At
+* Bash advanced scripting guide
+* darcs --help
+* DULG for ELDK/U-Boot.
+* GCC documentation
+* Gnus pwnz0rs the documentation contest, in size, depth, and legibility.
+* http://alleg.sourceforge.net/api.html
+* http://tapestry.apache.org/tapestry4/
+* Jeff Garzik's documentation
+* [[LaTeX]] companion
+* Linux Device Drivers by O'Reilly
+* Linux kernel FAQ
+* Microsoft Word 2.0 online help
+* monotone
+* MySQL
+* Online GNU make manual
+* Programming Ruby
+* QT documentation
+* step by step approach diving deeper into the subject while *not* sitting at my computer ;-)
+* Sun's [[OpenBoot]] references are very very good
+* texinfo
+* The avr-libc docs, and source. Very well commented.
+* The built-in help for GNU Arch
+* The gtk+ documentation: gtk.org/api
+* The IBM's manuals.
+* The one you can print.
+* The quilt docs are great
+* The usage examples on every page are wonderful
+* Turbo Pascal 5.x/6.0 help system
+* Unfortunately I'd have to say the Apache foundation's documentation on the Apache httpd server's configuration file. But maybe that was simply because I learned Apache back when it was NCSA and knew enough of the guts to just need to look up infrequently used configuration parameters every once in a while. But I can't really say its the best model for documentation.
+* vim, perl, zsh I find pretty usable. man pages are fine. I despise documentation that's only provided in umpteen small HTML files over the Internet. I need a downloadable version that I can browse locally.
+* ZBrush - http://www.pixologic.com/zbrush/home/home.html
+* Zsh has a pretty good manual.
+
 == 22.Documentation: Do you use the GIT wiki? If yes, do you find it useful? ==
 
 <pre><nowiki>#!CSV
