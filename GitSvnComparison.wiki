@@ -1,37 +1,23 @@
-Git is actually a layer of tools; there's the lower-level often
-called "core Git", "the plumbing", or just "Git" and then there's
-higher level porcelains such as "Cogito", "StGIT" and "qgit".
-The "Git for SVN users" document was written by the author of Cogito
-and thus assumes the user is using Cogito as a frontend to Git.
-Not everyone uses Cogito.  I for one don't, I just use core Git.
+<i>Note: This page is currently a work in progress.  It started out as a private email to someone who currently uses Subversion.  I decided to make it available and try to extend it further. I'll remove this comment when the page is better.  :)  -- Shawn Pearce</i>
+----
 
-Somehow I've found myself to be one of the Git developers.  I'm glad
-I'm not its maintainer but I have contributed a fair amount of code
-to the project and have been continuing that as a hobby.  So I'm
-also probably rather biased towards it as I know its internals very
-well and work with it on a daily basis.
-
+----
+= Original Email =
 The key things that I like about Git are:
 
- - Its incredibly fast.  No other SCM that I have used has been able
-   to keep up with it, and I've used a lot, including Subversion,
-   Perforce, darcs, [[BitKeeper]], [[ClearCase]] and CVS.
+ - Its incredibly fast.
+   No other SCM that I have used has been able to keep up with it, and I've used a lot, including Subversion, Perforce, darcs, [[BitKeeper]], [[ClearCase]] and CVS.
 
- - Its fully distributed.  The repository owner can't dictate
-   how I work.  I can create branches and commit changes while
-   disconnected on my laptop, then later synchronize that with any
-   number of other repositories.
+ - Its fully distributed.
+   The repository owner can't dictate how I work.  I can create branches and commit changes while disconnected on my laptop, then later synchronize that with any number of other repositories.
 
- - Synchronization can occur over an SSH channel, over HTTP via
-   WebDAV or by sending emails holding patches to be applied by the
-   recipient of the message.  A central repository isn't necessary,
-   but can be used.
+ - Synchronization can occur over many media.
+   An SSH channel, over HTTP via WebDAV, by FTP, or by sending emails holding patches to be applied by the recipient of the message.  A central repository isn't necessary, but can be used.
 
- - Branches are even cheaper than they are in Subversion.  Creating a
-   branch is as simple as writing a 41 byte file to disk.  Deleting a
-   branch is as simple as deleting that file.
+ - Branches are even cheaper than they are in Subversion.
+   Creating a branch is as simple as writing a 41 byte file to disk.  Deleting a branch is as simple as deleting that file.
 
- - Unlike Subversion branches carry along their complete history
+ - Unlike Subversion branches carry along their complete history.
    without having to perform a strange copy and walk through
    the copy.  When using Subversion I always found it awkward to
    look at the history of a file on branch that occurred before
