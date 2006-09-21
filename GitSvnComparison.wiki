@@ -1,7 +1,7 @@
 <i>Note: This page is currently a work in progress.  It started out as a private email to someone who currently uses Subversion.  I decided to make it available and try to extend it further. I'll remove this comment when the page is better.  :)  -- Shawn Pearce</i>
 ----
 
-Although this page is hosted on a Git-specific Wiki it tries to provide a fair and unbiased comparsion of Git and [http://subversion.tigris.org/ Subversion] to help perspective users of both tools better evaluate their choices.
+Although this page is hosted on a Git-specific Wiki it tries to provide a fair and unbiased comparsion of Git and [http://subversion.tigris.org/ Subversion] to help perspective users of both tools better evaluate their choices.  This page only describes base Subversion and does not discuss the benefits and drawbacks to using [http://svk.elixus.org/ SVK], a distributed wrapper around Subversion.
 
 = Git's Major Features Over Subversion =
 
@@ -11,13 +11,31 @@ There are a number of key features in Git that really make it stand out when com
 
 Git was designed from the ground up as a distributed version control system.  Being a distributed version control system means that multiple redundant repositories and branching are first class concepts of the tool.
 
-In a distributed VCS every user has a complete copy of the repository data stored locally, thereby making access to file history extremely fast.  It also means every user has a complete backup of the repository.  Have 20 users?  You probably have more than 20 complete backups of the repository (as some users tend to keep more than one repository for the same project).
+In a distributed VCS like Git every user has a complete copy of the repository data stored locally, thereby making access to file history extremely fast.  It also means every user has a complete backup of the repository.  Have 20 users?  You probably have more than 20 complete backups of the repository as some users tend to keep more than one repository for the same project.  If any repository is lost due to system failure only the changes which were unique to that repository are lost.  If users frequently push and fetch changes with each other this tends to be an incredibly small amount of loss, if any.
+
+In a centralized VCS like Subversion only the central repository has the complete history.  This means that users must communicate over the network with the central repository to obtain history about a file.  It also means that having 20 users does not automatically imply 20 active backups.  Backups must be maintained independently of the VCS.  If the central repository is lost due to system failure it must restored from backup and all changes since that last backup are likely to be lost.  Depending on the backup policies in place this could be several man-weeks worth of work.
 
 == Branch Handling ==
 
-== Small Space Requirements ==
+Branches in Git are a core concept used everyday by every user.  In Subversion they are almost an afterthought and tend to be avoided unless absolutely necessary.
+
+The reason branches are so core in Git is every developer's working directory is itself a branch.  Even if two developers are modifying two different unrelated files at the same time its easy to view these two different working directories as different branches stemming from the same common base revision of the project.
+
+Consequently Git:
+
+  - Automatically tracks the project revision the branch started from.
+  - Automatically tracks branch merges.
+    Merges always include:
+      - Who performed the merge.
+      - What changes were made to complete the merge successfully.
+      - What branch(es) were merged.
+      - When the merge was done.
+      - Why the merge was done (supplied in commit message).
+  - Automatically starts next merge at the last merge.
 
 == Performance (Speed of Operation) ==
+
+== Small Space Requirements ==
 
 ----
 = Subversion's Major Features Over Git =
@@ -29,6 +47,10 @@ In a distributed VCS every user has a complete copy of the repository data store
 == Single Repository ==
 
 == Access Controls ==
+
+== Line Ending Conversion ==
+
+== Character Set Conversion ==
 
 ----
 = The Original Email =
