@@ -106,5 +106,6 @@ There is place for generic, non SCM specific, links
 
 = Other links =
 * [http://ydirson.free.fr/en/software/scm/cvsps.html CvsPs patches] - collection of patches to CVSps, tool needed for `git-cvsimport` (see [[Self:InterfacesFrontendsAndTools#git-xxximport|[[InterfacesFrontendsAndTools]]]]).
+* [http://git.rsbx.net] Git related information by Gitzilla.
 
 __NOTOC__
