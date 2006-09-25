@@ -1,4 +1,4 @@
-<i>Note: This page is currently a work in progress.  It started out as a private email to someone who currently uses Subversion.  I decided to make it available and try to extend it further. I'll remove this comment when the page is better.  :)  -- Shawn Pearce</i>
+<i>Note: This page is currently a work in progress.  It started out as a private email to someone who currently uses Subversion.  I decided to make it available and try to extend it further. I'll remove this comment when the page is improved.  :)  -- Shawn Pearce</i>
 ----
 
 Although this page is hosted on a Git-specific Wiki it tries to provide a fair and unbiased comparsion of Git and [http://subversion.tigris.org/ Subversion] to help perspective users of both tools better evaluate their choices.  This page only describes base Subversion and does not discuss the benefits and drawbacks to using [http://svk.elixus.org/ SVK], a distributed wrapper around Subversion.
@@ -11,7 +11,7 @@ There are a number of key features in Git that really make it stand out when com
 
 Git was designed from the ground up as a distributed version control system.  Being a distributed version control system means that multiple redundant repositories and branching are first class concepts of the tool.
 
-In a distributed VCS like Git every user has a complete copy of the repository data stored locally, thereby making access to file history extremely fast.  It also means every user has a complete backup of the repository.  Have 20 users?  You probably have more than 20 complete backups of the repository as some users tend to keep more than one repository for the same project.  If any repository is lost due to system failure only the changes which were unique to that repository are lost.  If users frequently push and fetch changes with each other this tends to be an incredibly small amount of loss, if any.
+In a distributed VCS like Git every user has a complete copy of the repository data stored locally, thereby making access to file history extremely fast, as well as allowing full functionality when disconnected from the network.  It also means every user has a complete backup of the repository.  Have 20 users?  You probably have more than 20 complete backups of the repository as some users tend to keep more than one repository for the same project.  If any repository is lost due to system failure only the changes which were unique to that repository are lost.  If users frequently push and fetch changes with each other this tends to be an incredibly small amount of loss, if any.
 
 In a centralized VCS like Subversion only the central repository has the complete history.  This means that users must communicate over the network with the central repository to obtain history about a file.  It also means that having 20 users does not automatically imply 20 active backups.  Backups must be maintained independently of the VCS.  If the central repository is lost due to system failure it must restored from backup and all changes since that last backup are likely to be lost.  Depending on the backup policies in place this could be several man-weeks worth of work.
 
@@ -71,9 +71,9 @@ FIXME: Include actual comparsions, e.g. load Git code into both Git and SVN.
 
 Git's repository and working directory sizes are extremely small when compared to SVN.
 
-For example the Mozilla repository is reported to be almost 12 GiB when stored in SVN using the fsfs backend.  The fsfs backend also requires over 240,000 files in one directory to record all 240,000 commits made over the 10 year history.  The exact same history is stored in Git by only two files totaling just over 420 MiB.  SVN requires 30x the disk space to store the same history.
+For example the Mozilla repository is reported to be almost 12 GiB when stored in SVN using the fsfs backend.  The fsfs backend also requires over 240,000 files in one directory to record all 240,000 commits made over the 10 year project history.  The exact same history is stored in Git by only two files totaling just over 420 MiB.  SVN requires 30x the disk space to store the same history.
 
-An SVN working directory always contains two copies of each file: one for the user to actually work with and another hidden in the .svn/ to aid operations such as status, diff and commit.  In contrast a Git working uses only one small index file that stores around 100 bytes per tracked file.  On projects with a large number of files this can be a substantial difference in disk space required.
+An SVN working directory always contains two copies of each file: one for the user to actually work with and another hidden in .svn/ to aid operations such as status, diff and commit.  In contrast a Git working directory requires only one small index file that stores about 100 bytes of data per tracked file.  On projects with a large number of files this can be a substantial difference in the disk space required per working copy.
 
 ----
 = Subversion's Major Features Over Git =
@@ -94,17 +94,21 @@ Since Git is distributed by nature not everything related to a project may be st
 
 == Access Controls ==
 
-Since Subversion has a single central repository it is possible to specify read and write access controls in a single location and have them be enforced across the project.
+Since Subversion has a single central repository it is possible to specify read and write access controls in a single location and have them be enforced across the entire project.
+
+FIXME
 
 == Line Ending Conversion ==
 
-== Character Set Conversion ==
+Subversion can be easily configured to automatically convert line endings to CRLF or LF, depending on the native line ending used by the client's operating system.  This conversion feature is useful when Windows and UNIX users are collaborating on the same set of source code.  But it doesn't always work well.   Sometimes files such as a Makefile need to only use LFs, even when they are on accessed from Windows.  Sometimes binary files such as images are converted when they shouldn't be, corrupting the content.  Although Subversion allows the user to specify line ending conversion on a file-by-file basis and has some binar file auto-detection rules, people do make mistakes and don't always get every file configured properly when first adding them to the repository.
+
+In contrast Git never converts files.  Git assumes that every file is an opaque sequence of bytes and does not try to alter its content to conform to local conventions.  This does prevent accidental corruption of binary files (as no line ending conversion gets performed) but it also means that every file has one true line ending style and that all users must employ text editors that will handle that style.  In practice this tends to not be that much of a problem as nearly all popular source code editors that run on Windows will handle LF line endings just as well as they handle CRLF line endings.
 
 == Shorter Revision Numbers ==
 
 As SVN assigns revision numbers sequentially (starting from 1) even very old projects such as Mozilla have short unique revision numbers (Mozilla is only up to 6 digits in length).  Many users find this convenient when entering revisions for historical research purposes.  They also find this number easy to embed into their product, supposedly making it easy to determine which sources were used to create a particular executable.  However since the revision number is global to the entire repository, including all branches, there is still a question of which branch the revision number corresponds to.
 
-As Git uses a SHA1 to uniquely identify a commit a specific revision can only be described by a 40 character hexadecimal string.  In practice the first 8 characters tends to be unique for most projects but most users try to not rely on this over the long term.  Rather than embedding commit SHA1s into executables Git users generate a uniquely named tag.  This is an additional step (but a simple one).
+As Git uses a SHA1 to uniquely identify a commit each specific revision can only be described by a 40 character hexadecimal string, however this string not only identifies the revision but also the branch it came from.  In practice the first 8 characters tends to be unique for a project, however most users try to not rely on this over the long term.  Rather than embedding long commit SHA1s into executables Git users generate a uniquely named tag.  This is an additional step, but a simple one.
 
 ----
 = The Original Email =
