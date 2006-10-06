@@ -67,4 +67,7 @@ Here a few suggestions for new pages.
 = Random stuff =
 * Why is there always a Git-prefix to the wiki pages?
 
+= Configuration =
+I am stumped as to how to get git up and running, using ssh (not Apache), on Mac OS X Tiger, as a centralized repository.  I desperately need a tutorial in how to do this.
+
 __NOTOC__
