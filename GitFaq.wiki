@@ -106,6 +106,22 @@ showing renames outside limit), but on git mailing list there was patch to add
 Because it got merged into git.  See
 [http://kernel.org/git/?p=git/git.git;a=commit;h=0a8f4f0020cb35095005852c0797f0b90e9ebb74 the relevant commit].
 
+= Features =
+
+<<Anchor(git-crlf)>>
+== Does git convert between CRLF and LF for different platforms? ==
+
+No, at least not as of today. All files are considered byte sequences and no transformations are performed.
+
+<<Anchor(git-keywords)>>
+== Does git have keyword expansion? ==
+
+No. Keyword expansion causes all sorts of strange problems and aren't really useful anyway, especially within the context of an SCM. Outside of git you may perform keyword expansion using a script. The Linux kernel export script does this to set the EXTRA_VERSION variable in the Makefile.
+
+<<Anchor(git-encoding)>>
+== Does git convert encodings of file names and  committer names etc? ==
+No, not today. A git repository can store a flag to register the encoding supposedly used for comments (including author names). File names are considered byte sequences and are not converted to and from different encodings. File content is not converted and probably never will.
+
 = Unexpected behavior =
 
 <<Anchor(git-version)>>
