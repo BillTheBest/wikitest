@@ -25,4 +25,12 @@ Now that you've found the revision, you need to revert back to it:
 <pre><nowiki>git reset --hard 7e4720201ad44ace85a443f41d668a62a737e7d0
 </nowiki></pre>
 
+== How to turn a git branch into a set of patches between revisions ==
+
+...
+
+== How make sure your git tree doesn't have old, redundant cruft in it ==
+
+...
+
 __NOTOC__
