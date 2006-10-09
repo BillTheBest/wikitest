@@ -1,0 +1,28 @@
+This page attempts to decribe actual, useful, real-world things that people do with git, step by step.
+
+== How to revert your version of the kernel source back to the running version ==
+
+If you actually run versions of the kernel on your machine that you've checked
+out of a git repository, you will see a uname that starts with a 'g' followed by
+a hex number:
+
+<pre><nowiki># uname -r
+2.6.18-g7e472020
+</nowiki></pre>
+
+That number is the beginning of the commit which marks the revision that you
+built your kernel.  The next step is to find the full commit name:
+
+<pre><nowiki>dave@machine:~/linux-2.6.git$ git rev-list  --all | grep ^7e472020 | head -1
+7e4720201ad44ace85a443f41d668a62a737e7d0
+</nowiki></pre>
+
+It is possible, since the kernel version doesn't contain a full commit that
+this isn't your revision, but it is highly unlikely.
+
+Now that you've found the revision, you need to revert back to it:
+
+<pre><nowiki>git reset --hard 7e4720201ad44ace85a443f41d668a62a737e7d0
+</nowiki></pre>
+
+__NOTOC__
