@@ -54,6 +54,11 @@ This is quite contrary to Subversion's handling of branches.  As of Subversion 1
 
 In short Subversion's branching implementation is significantly flawed while Git's implementation accurately records the activity and is fully automatic.
 
+Supplement: In Subversion, branches and tags all are copies, it's a smart idea, but sometimes it's not
+convenient, many newbies checkout the whole repository by mistake or are confused when update or merge
+a moved branch. Branch path and file path lie in same namespace but they have different semantics indeed
+and should be taken care in different way.
+
 == Performance (Speed of Operation) ==
 
 Git is extremely fast.  Since all operations (except for push and fetch) are local there is no network latency involved to:
