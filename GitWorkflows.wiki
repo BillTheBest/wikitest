@@ -27,7 +27,39 @@ Now that you've found the revision, you need to revert back to it:
 
 == How to turn a git branch into a set of patches between revisions ==
 
+First, get a git tree which was derived from another:
+
+<pre><nowiki>git-clone http://git.openvz.org/pub/linux-2.6.16-openvz linux-2.6.16-openvz
+</nowiki></pre>
+
+This could take a bit of time to download the whole thing.  But, if you are
+wondering how to this, you probably already have one of those.
+
+Them you need to find a revision against which you would like to generate your
+patches.  The easiest way to do this is to use an existing tag.  Look at your tags
+directory:
+
+<pre><nowiki>linux-2.6.git$ ls .git/refs/tags/
+2.6.16-git1   2.6.16-git2         v2.6.11       v2.6.13-rc3  v2.6.15      v2.6.16-rc3  v2.6.18
+2.6.16-git10  2.6.16-git20        v2.6.11-tree  v2.6.13-rc4  v2.6.15-rc1  v2.6.16-rc4  v2.6.18-rc1
+2.6.16-git11  2.6.16-git3         v2.6.12       v2.6.13-rc5  v2.6.15-rc2  v2.6.16-rc5  v2.6.18-rc2
 ...
+</nowiki></pre>
+
+The other way is to go find a revision manually.  Run gitk, and then find the commit that
+you are interested in.  In my case, this would be the one titled "Linux v2.6.18. Arrr!".
+I see "eead19bffcf064856ab8513afc395eaf80896e0f" in gitk's "SHA1 ID" field.  This is the
+value you will need.
+
+So, using either the tag name, or the SHA1 ID, run git-format-patch:
+
+<pre><nowiki>$ git-format-patch -o ../openvz-patches/ v2.6.18..
+$ git-format-patch -o ../openvz-patches/ eead19bffcf064856ab8513afc395eaf80896e0f..
+../openvz-patches/0001-Namespaces-support-from-mm-tree.txt
+../openvz-patches/0002-Namespaces-support-from-mm-tree.txt
+../openvz-patches/0003-Namespaces-support-from-mm-tree.txt
+../openvz-patches/0004-Namespaces-support-from-mm-tree.txt
+</nowiki></pre>
 
 == How make sure your git tree doesn't have old, redundant cruft in it ==
 
