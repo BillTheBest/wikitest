@@ -61,6 +61,8 @@ $ git-format-patch -o ../openvz-patches/ eead19bffcf064856ab8513afc395eaf80896e0
 ../openvz-patches/0004-Namespaces-support-from-mm-tree.txt
 </nowiki></pre>
 
+Voila!  You should have a nice, linear set of patches.
+
 == How make sure your git tree doesn't have old, redundant cruft in it ==
 
 ...
