@@ -61,6 +61,12 @@ $ git-format-patch -o ../openvz-patches/ eead19bffcf064856ab8513afc395eaf80896e0
 ../openvz-patches/0004-Namespaces-support-from-mm-tree.txt
 </nowiki></pre>
 
+Note the ".." syntax after the revision you've specified.  That is there to say
+"use that revision as a base, and go until the most recent revision".  You could
+also put a revision after that, such as "v2.6.17..v2.6.18".  That would give you
+all of the patches between 2.6.17 and 2.6.18.  The same method also works with
+the raw SHA1 ID.
+
 Voila!  You should have a nice, linear set of patches.
 
 == How make sure your git tree doesn't have old, redundant cruft in it ==
