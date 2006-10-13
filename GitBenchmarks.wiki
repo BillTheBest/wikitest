@@ -42,6 +42,35 @@ My benchmark is to apply all 819 patches from -mm3 to 2.6.12-rc:
 
 <b>Reference:</b> [http://marc.theaimsgroup.com/?l=git&m=111475459526688 Mercurial 0.4b vs git patchbomb benchmark] by Matt Mackall, via [[WikiPedia:Git_(software)|Git (software)]] article at Wikipedia.
 
+== Quilt import comparison of Git and Mercurial ==
+
+* commit 773 patches (20MB) for 2.6.18-rc1 to-mm2
+* 1.8GHz AMD64 laptop, 1.2GB of RAM, freshly formatted ext3 filesystem, data=writeback,noatime
+
+ Mercurial (version unknown)::
+<pre><nowiki>
+ $ hg qpush -a 2.6.18-rc1-mm2
+</nowiki></pre>
+
+ ||real    || 1m18.398s  ||
+ ||user    || 0m42.511s  ||
+ ||sys     || 0m10.105s  ||
+
+ 773/(42.511+10.105) = 14.691 patches/second  user+sys
+
+ Git 1.4.1::
+<pre><nowiki>
+ $ git-quilt-import 2.6.18-rc1-mm2
+</nowiki></pre>
+
+ ||real    || 2m7.701s   ||
+ ||user    || 1m15.953s  ||
+ ||sys     || 0m30.186s  ||
+
+ 773/(60+15.953+30.186) = 7.282 patches/second  user+sys
+
+<b>Reference:</b> Talk by mpm (Matt Mackall), the primary Mercurial author: [http://www.linuxsymposium.org/2006/view_abstract.php?content_key=194 Towards A Better SCM: Revlogs and Mercurial] at [http://www.linuxsymposium.org/2006/ 2006 Ottawa Linux Symposium]. Slides: [http://www.selenic.com/mercurial/wiki/index.cgi/Presentations?action=AttachFile&do=get&target=ols-mercurial.pdf PDF] [http://www.selenic.com/mercurial/wiki/index.cgi/Presentations?action=AttachFile&do=get&target=ols-mercurial.odp ODP] (page 51 of 52).
+
 == Clone/status/pull comparison of Git and Mercurial ==
 
 On Tue, May 23, 2006 in [http://lists.ibiblio.org/pipermail/sm-discuss/2006-May/014586.html |SM-Discuss| scm next steps] post Jeremy Blosser did speed benchmarks with hg vs. git.  The post contains fairly large table of results. Here's the summary, where all times are given in seconds, and are user+sys time averaged over all results and all cases:
