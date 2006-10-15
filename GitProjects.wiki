@@ -82,7 +82,7 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * adesklets
 ** http://adesklets.sourceforge.net/ (home page)
 ** http://adesklets.sourceforge.net/cgi-bin/gitweb.cgi (gitweb)
-** ttp://adesklets.sourceforge.net/adesklets.git (repository)
+** http://adesklets.sourceforge.net/adesklets.git (repository)
 * git mirror of many cvs projects important for the development of Fedora Core
 ** http://www.jur-linux.org/git/
 * Wexus, a C++ library for web application development
