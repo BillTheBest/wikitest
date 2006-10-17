@@ -3,7 +3,7 @@
 * [http://www.venge.net/monotone/wiki/InterfacesFrontendsAndTools [[InterfacesFrontendsAndTools]]] page on Monotone wiki
 * [http://www.selenic.com/mercurial/wiki/index.cgi/OtherTools Other Tools that work with Mercurial] page on Mercurial wiki
 * [http://darcs.net/DarcsWiki/[[RelatedSoftware]] Software that works with darcs] page on Darcs wiki
-* [http://bazaar-vcs.org/3rdPartyTools Third party tools] page on Bazaar-NG wiki
+* [http://bazaar-vcs.org/3rdPartyTools Third party tools] and [http://bazaar-vcs.org/PluginRegistry Plugin registry] pages on Bazaar-NG wiki
 
 = Other programs that *should* be taught to work with Git, but haven't been =
 
