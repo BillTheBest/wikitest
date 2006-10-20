@@ -68,6 +68,15 @@ git branch -d <tmpBranch>
 </nowiki></pre>
 I'm not sure if <code><nowiki>--hard</nowiki></code> option is really needed.
 
+<<Anchor(diff-repositories)>>
+== How to compare two local repositories ==
+In [[Cogito]] you can use, being in one of repositories
+<pre><nowiki>GIT_ALTERNATE_OBJECT_DIRECTORIES=../cogito/.git/objects cg-diff -r `GIT_DIR=../cogito/.git cg-object-id -c HEAD`..HEAD
+</nowiki></pre>
+if you want to compare current repository with (in this example) cogito repository. In [[Git]] you would nearly exactly the same
+<pre><nowiki>GIT_ALTERNATE_OBJECT_DIRECTORIES=../cogito/.git/objects git-diff-tree $(GIT_DIR=../cogito/.git git rev-parse --verify HEAD) HEAD
+</nowiki></pre>
+
 = Web =
 
 <<Anchor(RSS)>>
