@@ -28,6 +28,8 @@ You will need to install cygwin and the following packages to be able to build g
 * binutils (sorta necessary to compile!)
 * patchutils (at least for the t4109-apply-multifrag.sh tests)
 * cpio (at least for the t5400-send-pack.sh tests)
+* xmlto to build the man pages
+* util-linux: just to have getopt (required by xmlto)
 
 With these packages installed you build git and install it in your ~/bin directory by doing:
 
