@@ -5,7 +5,7 @@ git will know that the file should be added. This method of recording
 intermediate status information also comes into play during a merge,
 where the index file is used for keeping track of resolved and unresolved conflicts.
 
-Besides, serving as a "staging area" for changes made between commits, it also
+Besides serving as a "staging area" for changes made between commits, it also
 serves as a cache for the working tree. This helps performance in trees with a
 lot of files, since stat information, such as modification time, for each checked out file is placed in
 the index file so that later operations can compare it against the stat information
