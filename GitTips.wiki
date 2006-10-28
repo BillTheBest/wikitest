@@ -5,6 +5,7 @@
 ----
 <b>See also:</b>
 * [[GitFaq]] (Frequently Asked Questions) page
+* [[GitWorkflows]] which attempts to decribe actual, useful, real-world things that people do with git, step by step.
 
 = General =
 
