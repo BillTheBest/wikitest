@@ -250,6 +250,20 @@ $ merge src/util/endian.h endian.h-1 endian.h-3
 
 Once you come up with the desired state in your file (`src/util/endian.h` in our example), then you have to inform Git that file was renamed, i.e. say "<code><nowiki>git update-index --remove util/endian.h</nowiki></code>" in our example (removing the file from working directory as well, if it exist there) and then "<code><nowiki>git update-index src/util/endian.h</nowiki></code>" (you should have it already in the index, so you do not have to say `--add`).
 
+== How to view an old revision of a file without checking out the file? ==
+
+Something like the following:
+
+<pre><nowiki>
+git cat-file -p <commit-ish>:<file>
+</nowiki></pre>
+
+For example:
+<pre><nowiki>
+git cat-file -p tags/v1.4.3:git.c
+git cat-file -p f5f75c652b9c2347522159a87297820103e593e4:git.c
+</nowiki></pre>
+
 = Error diagnostic =
 
 <<Anchor(empty-ident)>>
