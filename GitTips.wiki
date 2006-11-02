@@ -118,4 +118,17 @@ exec ssh --your-options-- $*
 
 and make GIT_SSH point to it.
 
+But if you have just a couple of "standard" setups, then it's really better to use a ".ssh/config" file instead.  If you want to use different options "dynamically" (the same host, different options), you can just use different "fake hostnames". For example, you can do
+<pre><nowiki>
+Host private.host.com
+        User myname
+        Hostname host.com
+        IdentityFile /home/myname/.ssh/private-identity
+Host public.host.com
+        User groupname
+        Hostname host.com
+        IdentityFile /home/myname/.ssh/public-identity
+</nowiki></pre>
+and now you can ssh to "host.com" using different identities by just using "private.host.com" and "public.host.com" respectively.
+
 __NOTOC__
