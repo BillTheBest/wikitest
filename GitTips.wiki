@@ -106,4 +106,16 @@ where `hostname' is the name you would be using for connecting.  Before trying t
 </nowiki></pre>
 Of course port numbers must match (and port number should be above 1024 if you won't be running ssh tunnel as root).  If you have sufficiently new ssh, you can add `'-M'` option, for use with `ControlMaster` option.  You can also use [http://www.harding.motd.ca/autossh/ autossh] for running port forwarding/ssh tunnel.
 
+<<Anchor(SSH-options)>>
+== How to pass ssh options in git? ==
+You can set the path of the ssh executable to use with the GIT_SSH
+environment variable.  Create a shell script like
+
+<pre><nowiki>
+#!/bin/sh
+exec ssh --your-options-- $*
+</nowiki></pre>
+
+and make GIT_SSH point to it.
+
 __NOTOC__
