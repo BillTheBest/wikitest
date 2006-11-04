@@ -35,9 +35,9 @@ It's clear by this point that getting things right to start with is highly desir
 
 Some projects have a decade or more of incredibly valuable version history locked up in their existing legacy source code repositories.
 
-In the rush to benifit from the new generation of distributed versioning tools, repository administrators have failed to accurately convert their existing project history accurately to the git format.
+In the rush to benefit from the new generation of distributed versioning tools, repository administrators have failed to accurately convert their existing project history accurately to the git format.
 
-Getting off to a good start is important to avoid backlash from comitters during the transition, and doing it right will save headache in the long run.
+Getting off to a good start is important to avoid backlash from committers during the transition, and doing it right will save headache in the long run.
 
 === Examples ===
 ==== Monolithic repository ====
@@ -49,7 +49,7 @@ TODO: explain
 
 http://lists.freedesktop.org/archives/cairo/2006-May/006992.html
 
-TODO: explain mixup between commiters with similar initials leading to author misattribution
+TODO: explain mixup between committers with similar initials leading to author misattribution
 
 ==== Xorg: Missing branches ====
 
@@ -65,9 +65,9 @@ It has been speculated (TODO: link to list here) that the tools provided for CVS
 
 == Mistakes made in day-to-day operation ==
 
-Git is a joy to use, but there are cases when developers misunderstand the day-to-day operation of a git repository. It's possible to think you are using git properly for months without realising that you are getting it wrong and have a project history that is less useful than it could have been.
+Git is a joy to use, but there are cases when developers misunderstand the day-to-day operation of a git repository. It's possible to think you are using git properly for months without realizing that you are getting it wrong and have a project history that is less useful than it could have been.
 
-These mistakes are generally less severe than mistakes made when a repository is first initialised or converted from a legacy format, but they are also less obvious and harder to catch.
+These mistakes are generally less severe than mistakes made when a repository is first initialized or converted from a legacy format, but they are also less obvious and harder to catch.
 
 === Examples ===
 ==== Linux: The botched DVB merges ====
@@ -80,7 +80,7 @@ TODO: explain
 
 http://lists.freedesktop.org/archives/xorg/2006-June/016127.html
 
- "Appearantly, several git tools assume a special formated log message.
+ "Apparently, several git tools assume a special formated log message.
  We don't follow these conventions yet, and at least git-rebase behaves
  strangely if they are not followed." - mhopf
 
