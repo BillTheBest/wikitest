@@ -10,6 +10,11 @@ Make sure your suggestion doesn’t exist already or that your question has alre
 
 = Editing =
 
+== SVN comparison page name needs typo fix ==
+The [[GitSvnComparsion]] page has very good content, but should really be named [[GitSvnComparison]]; I already fixed the spelling ("comparsion" -> "comparison") in the page itself. It will also be easier to find via search engines ...
+
+I thought it safer and more polite to leave the page rename fix to someone other than a first-time visitor. Thanks.
+
 == Parsers ==
 It would be nice to have installed parsers from [[MoinMoin:[[ParserMarket]]|[[ParserMarket]]]] (see [[MoinMoin:[[ParserMarket]]#head-17c33967bbb4345a453627b944bad1f1bc4b2791|Installation Instructions]] there) for languages used in [[Git]], [[Cogito]] and examples, i.e for <b>Perl</b>, <b>shell</b> and e.g. <b>diff</b>.
 * Perl parsers from [[MoinMoin:[[ParserMarket]]|[[ParserMarket]]]]: [[MoinMoin:parser/Perl|parser/Perl]] by Johannes Hoerburger <i>(`.py` extension needs to be aded)</i>.
