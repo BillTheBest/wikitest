@@ -1,7 +1,7 @@
 <i>Note: This page is currently a work in progress.  It started out as a private email to someone who currently uses Subversion.  I decided to make it available and try to extend it further. I'll remove this comment when the page is improved.  :)  -- Shawn Pearce</i>
 ----
 
-Although this page is hosted on a Git-specific Wiki it tries to provide a fair and unbiased comparsion of Git and [http://subversion.tigris.org/ Subversion] to help perspective users of both tools better evaluate their choices.  This page only describes base Subversion and does not discuss the benefits and drawbacks to using [http://svk.elixus.org/ SVK], a distributed wrapper around Subversion.
+Although this page is hosted on a Git-specific Wiki it tries to provide a fair and unbiased comparison of Git and [http://subversion.tigris.org/ Subversion] to help perspective users of both tools better evaluate their choices.  This page only describes base Subversion and does not discuss the benefits and drawbacks to using [http://svk.elixus.org/ SVK], a distributed wrapper around Subversion.
 
 = Git's Major Features Over Subversion =
 
@@ -70,7 +70,7 @@ Git is extremely fast.  Since all operations (except for push and fetch) are loc
 * Obtain any other revision of a file (not just the prior committed revision).
 * Switch branches.
 
-FIXME: Include actual comparsions, e.g. load Git code into both Git and SVN.
+FIXME: Include actual comparisons, e.g. load Git code into both Git and SVN.
 
 == Small Space Requirements ==
 
