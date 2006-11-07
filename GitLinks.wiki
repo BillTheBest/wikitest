@@ -51,7 +51,7 @@ Miscelaneous git-related links, not including [http://git.or.cz/ Git homepage], 
   *[http://www.linux-mag.com/content/view/2130 Git With It!], written by Sam Williams 
   *[http://www.linux-mag.com/content/view/2533 How To Git It], written by Jon Loeliger.  Also available in [http://www.jdl.com/papers/How_To_Git_It.html HTML] and [http://www.jdl.com/papers/How_To_Git_It.pdf PDF] format on Jon Loeliger (jdl) [http://www.jdl.com/papers/ papers] page.
   *[http://www.linux-mag.com/content/view/2591/ Embracing the Git Index], written by Jon Loeliger (second in series).  Also available in [http://www.jdl.com/papers/Embrace_The_Git_Index.pdf PDF] format on Jon Loeliger (jdl) [http://www.jdl.com/papers/ papers] page.
-  *"Collaborating Using Git", written by Jon Loeliger.  Available in [http://www.jdl.com/papers/Collaborating_Using_Git.pdf PDF] format on Jon Loeliger (jdl) [http://www.jdl.com/papers/ papers] page.
+  *"Collaborating Using Git", written by Jon Loeliger (third in series).  Available in [http://www.jdl.com/papers/Collaborating_Using_Git.pdf PDF] format on Jon Loeliger (jdl) [http://www.jdl.com/papers/ papers] page.
 
 == Seminars and presentations ==
 * [http://www.osdl.jp/docs/Seminar0613/JunioCHamano_Introduction_to_git.pdf Junio C Hamano "Introduction to git"] (PDF) - slides for OSDL Japan Linux Symposium.
