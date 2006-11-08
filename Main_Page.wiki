@@ -57,6 +57,7 @@ Projects that use [[Git]] for their source code management are listed in [[GitPr
 * Check the current [http://kernel.org/git/?p=git/git.git;a=blob;hb=todo;f=TODO TODO list], it is in the todo branch in the git repository.
 * Read [http://kernel.org/git/?p=git/git.git;a=blob;f=Documentation/SubmittingPatches Documentation/[[SubmittingPatches]]] before submitting patches.
 * Additionally, have a look at [[InterfacesFrontendsAndToolsWishlist]].
+* Some [[notes]] from the maintainer
 
 === Git Wiki ===
 * [[GitWikiSuggestions]] – Your suggestions for improvement of the wiki.
