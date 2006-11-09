@@ -42,7 +42,7 @@ The short definition is:
  or the tutorials for more details.
 
 <<Anchor(public-repo)>>
-== What can I use to setup a public repository? ==
+== What can I use to set up a public repository? ==
 
 A SSH server, an HTTP server, or the git-daemon.
 
