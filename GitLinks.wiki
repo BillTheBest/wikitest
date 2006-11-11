@@ -60,6 +60,8 @@ Miscelaneous git-related links, not including [http://git.or.cz/ Git homepage], 
 
 == Seminars and presentations ==
 * [http://www.osdl.jp/docs/Seminar0613/JunioCHamano_Introduction_to_git.pdf Junio C Hamano "Introduction to git"] (PDF) - slides for OSDL Japan Linux Symposium.
+* [http://members.cox.net/junkio/200607-ols.pdf Junio C Hamano "git – a stupid content tracker"] (PDF) - slides from Ottava Linux Symposium OLS2006, with full transcripts.
+* [http://pasky.or.cz/ols-cogito/ols-cogito.pdf Petr Baudis "Using Cogito and Git"] (PDF) - slides from Ottava Linux Symbosium OLS2006. Also in [http://pasky.or.cz/ols-cogito/ols-cogito.odp ODP] format.
 
 == Blogs ==
 * [http://willowbend.cx/2005/08/24/git-epiphany/ Git Epiphany] by Darrin 'Willowbend' Thompson, at [http://willowbend.cx/ Willowbend: Confessions of a Wannabe Capitalist] blog, (Wednesday, August 24th, 2005).
