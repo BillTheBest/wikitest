@@ -71,6 +71,7 @@ Miscelaneous git-related links, not including [http://git.or.cz/ Git homepage], 
 == Blogs ==
 * [http://willowbend.cx/2005/08/24/git-epiphany/ Git Epiphany] by Darrin 'Willowbend' Thompson, at [http://willowbend.cx/ Willowbend: Confessions of a Wannabe Capitalist] blog, (Wednesday, August 24th, 2005).
 * [http://keithp.com/blog/Tyrannical_SCM_selection.html Tyrannical SCM selection] and [http://keithp.com/blog/Repository_Formats_Matter.html Repository Formats Matter] by Keith Packard, about moving X.Org from CVS to Git.
+* [http://thedailywtf.com/forums/thread/98959.aspx Happy Merge Day!] by Alex Papadimoulis at [http://thedailywtf.com/ The Daily WTF: Curious Pervisions in Information Technology] blog is an example on how to <b><u>not</u></b> deploy SCM. Perhaps more important than the article itself are comments to it.
 
 = Other version control software =
 
