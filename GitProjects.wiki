@@ -100,6 +100,9 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 ** http://tangram.utsl.gen.nz/development/index.html (development web page)
 ** http://utsl.gen.nz/gitweb/?p=Tangram (gitweb)
 ** git://utsl.gen.nz/Tangram (repository)
+* VLE - Virtual Laboratory Environment: a scientific project on multimodeling and simulation based on the DEVS (discrete event system specification) paradigm.
+** http://vle.univ-littoral.fr
+** http://vle.univ-littoral.fr/gitweb
 * Many other projects on repo.or.cz, a public Git hosting site...
 ** http://repo.or.cz/
 
