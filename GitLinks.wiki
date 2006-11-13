@@ -71,7 +71,6 @@ Miscelaneous git-related links, not including [http://git.or.cz/ Git homepage], 
 == Blogs ==
 * [http://willowbend.cx/2005/08/24/git-epiphany/ Git Epiphany] by Darrin 'Willowbend' Thompson, at [http://willowbend.cx/ Willowbend: Confessions of a Wannabe Capitalist] blog, (Wednesday, August 24th, 2005).
 * [http://keithp.com/blog/Tyrannical_SCM_selection.html Tyrannical SCM selection] and [http://keithp.com/blog/Repository_Formats_Matter.html Repository Formats Matter] by Keith Packard, about moving X.Org from CVS to Git.
-* [http://thedailywtf.com/forums/thread/98959.aspx Happy Merge Day!] by Alex Papadimoulis at [http://thedailywtf.com/ The Daily WTF: Curious Pervisions in Information Technology] blog is an example on how to <b><u>not</u></b> deploy SCM. Perhaps more important than the article itself are comments to it.
 
 = Other version control software =
 
@@ -119,6 +118,7 @@ There is place for generic, non SCM specific, links
 * [http://software.ericsink.com/scm/source_control.html Source Control HOWTO] (work in progress) and [http://software.ericsink.com/Beyond_CheckOut_and_CheckIn.html Beyond CheckOut and [[CheckIn]]] by Eric Sink, heavily inspired by Vault and Subversion.
 * [http://ydirson.free.fr/en/software/scm/ SCM - Software Configuration Management] page by Yann Dirson, dedicated to the research of the ultimate free-software SCM system. Includes [http://ydirson.free.fr/en/software/scm/vc.txt Version control according to Yann Dirson] (aka. "Thoughts about the ideal version-control tool") and [http://ydirson.free.fr/en/software/scm/scm-domains.txt SCMs near-distinct sub-domains list].
 * [http://www.isisetup.ch/wiki/IsiSetupRevisionControl Isi Setup Revision Control] page talks about evolution of IsiSetup, and thoughts about using SCMs to manage configuration files.
+* [http://thedailywtf.com/forums/thread/98959.aspx Happy Merge Day!] by Alex Papadimoulis at [http://thedailywtf.com/ The Daily WTF: Curious Pervisions in Information Technology] blog is an example on how to <b><u>not</u></b> deploy SCM. Perhaps more important than the article itself are comments to it.
 * [http://blog.ianbicking.org/distributed-vs-centralized-scm.html Distributed vs. Centralized Version Control] in Ian Bicking blog, pro-Centralized SCM. /!\
 * [http://community.livejournal.com/relisoft/9641.html Distributed Systems] by Bartosz Milewski, in Reliable Software (relisoft) Developers' Journal, about truly distributed SCM vs. distributed database/filesystem centralized SCM. Pro Code Co-Op. /!\
 
