@@ -30,7 +30,7 @@ give you an introduction to the basic workflows.
  by Jeff Garzik may be useful.
 
 * [http://marc.theaimsgroup.com/?l=git&m=113402372012587&w=4 git for the confused]
- a great explanation and summary of all git commands, some are out of date but still valuabe.
+ a great explanation and summary of all git commands, some are out of date but still valuable.
 
 * Check [[GitLinks]] for further info (including git-related info on pages of projects using git). 
 
