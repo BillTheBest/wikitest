@@ -33,6 +33,12 @@ give you an introduction to the basic workflows.
  a great explanation and summary of all git commands, some are out of date but still valuable.
 
 * Check [[GitLinks]] for further info (including git-related info on pages of projects using git). 
+* Some Chinese git tutorials: 
+** [http://www.linuxsir.org/main/doc/git/gittutorcn.htm] or [http://www.bitsun.com/documents/gittutorcn.htm]
+      translation for official tutorials
+* [http://www.linuxsir.org/bbs/showthread.php?t=281294] or [http://www.newsmth.net/bbscon.php?bid=392&id=422519]
+* [http://my.opera.com/dahema/blog/show.dml/171011] 
+* [http://www-128.ibm.com/developerworks/cn/linux/l-git/index.html]
 
 = Git Wiki =
 
@@ -121,6 +127,6 @@ to easily extract the documentation.
 [[CategoryGitDocumentation]]
 [[CategoryGitHomepage]] ([http://git.or.cz/#documentation Documentation])
 ----
-[[CategoryGitDocumentation]]
+[[CategoryGitDocumentation]] [[CategoryGitDocumentation]]
 
 __NOTOC__
