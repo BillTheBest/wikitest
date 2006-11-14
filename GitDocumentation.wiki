@@ -30,7 +30,7 @@ give you an introduction to the basic workflows.
  by Jeff Garzik may be useful.
 
 * [http://marc.theaimsgroup.com/?l=git&m=113402372012587&w=4 git for the confused]
- a great explanation and summary of all git commands.
+ a great explanation and summary of all git commands, some are out of date but still valuabe.
 
 * Check [[GitLinks]] for further info (including git-related info on pages of projects using git). 
 
@@ -120,5 +120,7 @@ to easily extract the documentation.
 ----
 [[CategoryGitDocumentation]]
 [[CategoryGitHomepage]] ([http://git.or.cz/#documentation Documentation])
+----
+[[CategoryGitDocumentation]]
 
 __NOTOC__
