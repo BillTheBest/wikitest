@@ -106,4 +106,16 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * Many other projects on repo.or.cz, a public Git hosting site...
 ** http://repo.or.cz/
 
+== Git hosting ==
+
+* Public Git hosting site, maintained by Petr Baudis
+** http://repo.or.cz/
+* Savannah git hosting
+** http://git.sv.gnu.org/gitweb/
+* Linux related projects
+** http://www.kernel.org/git
+* Freedesktop (X Window System desktops) projects
+** http://www.freedesktop.org/wiki/ (homepage)
+** http://gitweb.freedesktop.org (gitweb)
+
 __NOTOC__
