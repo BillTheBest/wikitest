@@ -119,6 +119,9 @@ There is place for generic, non SCM specific, links
 * [http://ydirson.free.fr/en/software/scm/ SCM - Software Configuration Management] page by Yann Dirson, dedicated to the research of the ultimate free-software SCM system. Includes [http://ydirson.free.fr/en/software/scm/vc.txt Version control according to Yann Dirson] (aka. "Thoughts about the ideal version-control tool") and [http://ydirson.free.fr/en/software/scm/scm-domains.txt SCMs near-distinct sub-domains list].
 * [http://www.isisetup.ch/wiki/IsiSetupRevisionControl Isi Setup Revision Control] page talks about evolution of IsiSetup, and thoughts about using SCMs to manage configuration files.
 * [http://thedailywtf.com/forums/thread/98959.aspx Happy Merge Day!] by Alex Papadimoulis at [http://thedailywtf.com/ The Daily WTF: Curious Pervisions in Information Technology] blog is an example on how to <b><u>not</u></b> deploy SCM. Perhaps more important than the article itself are comments to it.
+* [http://www.cmcrossroads.com/bradapp/acme/branching/ <i>Streamed Lines:</i> Branching Patterns for Parallel Software Development] (c) 1998 by Brad Appleton, Stephen Berczuk, Ralph Cabrera, and Robert Orenstein.
+* [http://www.martinfowler.com/articles/continuousIntegration.html Continuous Integration] by  Martin Fowler about Continuous Integration software development practice.
+* [http://www.perforce.com/perforce/bestpractices.html High-level Best Practices in Software Configuration Management] by Laura Wingerd & Christopher Seiwald, Perforce Software /!\
 * [http://blog.ianbicking.org/distributed-vs-centralized-scm.html Distributed vs. Centralized Version Control] in Ian Bicking blog, pro-Centralized SCM. /!\
 * [http://community.livejournal.com/relisoft/9641.html Distributed Systems] by Bartosz Milewski, in Reliable Software (relisoft) Developers' Journal, about truly distributed SCM vs. distributed database/filesystem centralized SCM. Pro Code Co-Op. /!\
 
