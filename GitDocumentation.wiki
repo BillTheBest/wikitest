@@ -32,6 +32,9 @@ give you an introduction to the basic workflows.
 * [http://www.jdl.com The Git Papers] by Jon Loeliger are excellent sources for git 
  information.
 
+* [http://git.rsbx.net/ Documents and Notes] by Raymond S Brand has some technical info
+ and some proposals about how to get things done.
+
 * [http://marc.theaimsgroup.com/?l=git&m=113402372012587&w=4 git for the confused]
  a great explanation and summary of all git commands, some are out of date but still valuable.
 
