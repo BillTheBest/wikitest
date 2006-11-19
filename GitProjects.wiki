@@ -103,6 +103,10 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * VLE - Virtual Laboratory Environment: a scientific project on multimodeling and simulation based on the DEVS (discrete event system specification) paradigm.
 ** http://vle.univ-littoral.fr
 ** http://vle.univ-littoral.fr/gitweb
+* GNU LilyPond
+** http://www.lilypond.org/web/devel/participating/ (contributing web page)
+** http://git.sv.gnu.org/gitweb/?p=lilypond.git (gitweb)
+** git://git.sv.gnu.org/lilypond.git (repository)
 * Many other projects on repo.or.cz, a public Git hosting site...
 ** http://repo.or.cz/
 
