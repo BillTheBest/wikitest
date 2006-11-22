@@ -92,9 +92,13 @@ mostly useful for developers. You can find them in the
 [http://www.kernel.org/git/?p=git/git.git;a=tree;f=Documentation/technical Documentation/technical]
 directory in the git source tree.
 
-<<BR>>
-----
-----
+= Git's Documentation To-Do list =
+
+If you wish that something were documented better (or at all), or would
+like to contribute to Git's documentation, you should check the
+[[Documentation To-Do List]] to see whether your wish has already been
+mentioned, or to find something to write about.
+
 = Getting and installing documentation =
 
 You can find all the plain text documentation in the git source tree's
