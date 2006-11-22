@@ -31,7 +31,7 @@
     <b>See also</b>: [http://savannah.nongnu.org/projects/quilt/ Quilt project page].
 
 <b>Patchy Git (pg)</b><<Anchor(pg)>>::
-    [[pg]] ([http://www.spearce.org/category/projects/scm/pg/ homepage]) by Shawn Pearce aims to help the user manage a set of patches on top of the current branch. pg is somewhat like Quilt or StGIT, but it does have a slightly different feature set.
+    [[pg]] ([http://www.spearce.org/category/projects/scm/pg/ homepage]) by Shawn Pearce aims to help the user manage a set of patches on top of the current branch. pg is somewhat like Quilt or StGIT, but it does have a slightly different feature set.  <i>Note that pg is no longer being actively developed.</i>
 
 <b>Git Queues (gq)</b><<Anchor(gq)>>::
     [[gq]] ([http://www.kernel.org/pub/linux/kernel/people/jsipek/gq/ download], [http://www.kernel.org/git/?p=linux/kernel/git/jsipek/gq.git;a=summary gitweb]) by Josef "Jeff" Sipek is a series of bash scripts which add a [http://www.selenic.com/mercurial/wiki/index.cgi/MqExtension Mercurial queues]-like functionality and interface to git. The one distinguishing feature from other Quilt-like porcelains, is the format of the patches directory. All the information is stored as plain text - a series file and the patches (one per file). This easily lends itself to versioning the patches using any number of of SCMs.
@@ -42,7 +42,7 @@
 == Graphical Interfaces ==
 
 <b>(h)gct</b><<Anchor(hgct)>>::
-    [[(h)gct]] ([http://www.cyd.liu.se/~freku045/gct/ homepage]) by Fredrik Kuivinen is a GUI enabled commit tool. It has support for both Git and Mercurial. Writtent in PyQt.
+    [[(h)gct]] ([http://www.cyd.liu.se/~freku045/gct/ homepage]) by Fredrik Kuivinen is a GUI enabled commit tool. It has support for both Git and Mercurial. Writtent in PyQt.  <i>Link appears to be broken.</i>
 
 <b>gitool</b><<Anchor(gitool)>>::
     [[gitool]] ([http://thread.gmane.org/gmane.comp.version-control.git/26415 announcement], [http://ozlabs.org/~paulus/gitool download], [http://www.kernel.org/git/?p=gitk/gitk.git;a=shortlog;h=new gitweb]) by Paul Mackerras is a tool for creating commits. Written in Tcl/Tk.
