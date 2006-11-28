@@ -96,7 +96,7 @@
     <b>See also:</b> [[EmacsWiki/[[CategoryVersionControl]]|[[CategoryVersionControl]]] on [[EmacsWiki]]].
 
 <b>Java GIT/Eclipse GIT</b><<Anchor(Eclipse)>>:: 
-    [http://www.spearce.org/projects/scm/egit.git Java GIT/Eclipse GIT] (repository) by Shawn Pearce is a Java GIT library and plugin for [http://www.eclipse.org/ Eclipse] IDE, in very early stages of development.
+    [http://www.spearce.org/projects/scm/egit.git Java GIT/Eclipse GIT] (repository) by Shawn Pearce is a Java GIT library and plugin for [http://www.eclipse.org/ Eclipse] IDE, in very early stages of development.  Robin Rosenburg has recently been working on history and compare views for the plugin, so progress is slow but steady.
 
 <<Anchor(rcs-interaction)>>
 == Interaction with other Revision Control Systems ==
@@ -142,7 +142,10 @@
     <pre><nowiki>
 export GIT_DIFF_PAGER="colordiff | less -RS"</nowiki></pre>
 
-<b>gitcompletion</b> and <b>generate-completions</b><<Anchor(completion)>>::
+<i>'git-completion.bash</i> (in `contrib/completion`)<<Anchor(completion)>>::
+    Bash tab-completion shipped with core Git.  Inspired by and superceeds the tab-completion provided by gitcompletion (see below).  Completion support is provided for almost all commands, including completion of local and remote reference names and long command line options.
+
+<b>gitcompletion</b> and <b>generate-completions</b>::
     [http://www.hawaga.org.uk/ben/tech/gitcompletion/ gitcompletion] ([http://www.hawaga.org.uk/gitcompletion.git/ git repository]) by Ben Clifford is bash tab-completion for Git, gitk, Cogito (<i>cg</i>) and StGIT (<i>stg</i>). Cogito has the cogito bits of the above already included. There is also `generate-completions.sh` by Johannes Schindelin, available on git mailing list archive [http://marc.theaimsgroup.com/?l=git&m=114515313911717 |FYI| generated completions]. <span style="font-size: smaller">Yet another StGIT completions by Paolo Giarrusso, aka Blaisorblade are available at  [http://marc.theaimsgroup.com/?l=git&m=113025114026388 Re: latest stg/git commandline completions code]</span>.
 
 <b>CIAbot</b><<Anchor(ciabot)>>::
