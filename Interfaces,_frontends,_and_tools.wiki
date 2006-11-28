@@ -142,7 +142,7 @@
     <pre><nowiki>
 export GIT_DIFF_PAGER="colordiff | less -RS"</nowiki></pre>
 
-<i>'git-completion.bash</i> (in `contrib/completion`)<<Anchor(completion)>>::
+<b>git-completion.bash</b> (in `contrib/completion`)<<Anchor(completion)>>::
     Bash tab-completion shipped with core Git.  Inspired by and superceeds the tab-completion provided by gitcompletion (see below).  Completion support is provided for almost all commands, including completion of local and remote reference names and long command line options.
 
 <b>gitcompletion</b> and <b>generate-completions</b>::
