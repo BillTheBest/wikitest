@@ -69,6 +69,12 @@ Here a few suggestions for new pages.
    Is it possible in some user agents to reply automatically to all people in a thread and the mailing list? If so please post configuration options :)
 * mutt: press g (group-reply) but this may set the wrong followup-to header
 
+= Merging pages =
+
+== [[IndexFile]] and [[WhatIsIndex]] ==
+
+* [[IndexFile]] and [[WhatIsTheIndex]] pages are about nearly the same topic; perhaps they should be merged into one page.
+
 = Random stuff =
 * Why is there always a Git-prefix to the wiki pages?
 
