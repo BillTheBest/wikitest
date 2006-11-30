@@ -55,7 +55,7 @@ Check the pages [[CategoryGitDocumentation|[[GitDocumentation]] category]] on th
 * An overview of the [[RevisionSpecification]] used by the `git log` command and
  several repository visualizers.
 * A bit about [[GraftPoint|[[GraftPoints]]]]; when and how to use them.
-* Introduction to git's [[IndexFile]].
+* Introduction to git's [[IndexFile]] and [[WhatIsTheIndex]] page.
 * [[BranchesInGit]] is an explanation about how Git understand branches.
 * Use common [[CommitMessageConventions]], which are used by some of Git tools. 
 
