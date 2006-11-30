@@ -107,6 +107,9 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 ** http://www.lilypond.org/web/devel/participating/ (contributing web page)
 ** http://git.sv.gnu.org/gitweb/?p=lilypond.git (gitweb)
 ** git://git.sv.gnu.org/lilypond.git (repository)
+* CRUX Linux distribution
+** http://crux.nu/Main/[[ContribHowTo]] (development web page)
+** http://crux.nu/gitweb/ (gitweb)
 * Many other projects on repo.or.cz, a public Git hosting site...
 ** http://repo.or.cz/
 
