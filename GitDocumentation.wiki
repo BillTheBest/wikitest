@@ -58,7 +58,7 @@ Check the pages [[CategoryGitDocumentation|[[GitDocumentation]] category]] on th
 * Introduction to git's [[IndexFile]] and [[WhatIsTheIndex]] page.
 * [[BranchesInGit]] is an explanation about how Git understand branches.
 * Use common [[CommitMessageConventions]], which are used by some of Git tools. 
-* Poposed [[SubprojectSupport]] in Git.
+* Proposed [[SubprojectSupport]] in Git.
 
 = Man pages =
 
