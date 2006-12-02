@@ -110,6 +110,12 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * CRUX Linux distribution
 ** http://crux.nu/Main/[[ContribHowTo]] (development web page)
 ** http://crux.nu/gitweb/ (gitweb)
+* Agave
+** http://home.gna.org/colorscheme/devel.shtml (development web page)
+** http://download.gna.org/colorscheme/agave.git (repository)
+* collectd
+** http://collectd.org/dev-info.shtml (development web page)
+** git://git.verplant.org/collectd.git (repository)
 * Many other projects on repo.or.cz, a public Git hosting site...
 ** http://repo.or.cz/
 
