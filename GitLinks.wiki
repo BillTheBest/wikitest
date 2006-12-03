@@ -114,6 +114,7 @@ Only those including [[Git]] as one of the systems.
 == Generic version control info ==
 There is place for generic, non SCM specific, links
 * [http://www.dwheeler.com/essays/scm-security.html Software Configuration Management (SCM) Security] by David A. Wheeler (March 13, 2004; Revised May 6, 2005).
+* [http://damonpoole.blogspot.com/ Software Configuration Management (SCM) - Damon's Thoughts] blog (by Damon Poole of [[AccuRev]])  - A discussion of the state of Software Configuration Management (SCM) today.
 * [http://www.usenix.org/events/hotos03/tech/full_papers/henson/henson.pdf An Analysis of Compare-by-hash] (PDF) by Val Henson, in <i>Proceedings of HotOS IX: The 9th Workshop on Hot Topics in Operating Systems</i>.
 * [http://revctrl.org/ Revctrl Wiki], including [http://revctrl.org/CategoryMergeAlgorithm Examples of different merge algorithms] article there.
 * [http://software.ericsink.com/scm/source_control.html Source Control HOWTO] (work in progress) and [http://software.ericsink.com/Beyond_CheckOut_and_CheckIn.html Beyond CheckOut and [[CheckIn]]] by Eric Sink, heavily inspired by Vault and Subversion.
