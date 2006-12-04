@@ -78,6 +78,11 @@ right now.  So this means we would send packs containing only whole objects (no 
 be an issue for the receiving end, except that we will have a slightly higher network transfer cost coming from
 egit than if core Git was used to push the same set of objects.
 
+== Graphical History Viewer ==
+
+A graphical history viewer similar to gitk or qgit, but in SWT/JFace so it can run within the Eclipse
+workbench.
+
 == SVN Integration ==
 
 It would be swell -- but put it at the bottom of your
