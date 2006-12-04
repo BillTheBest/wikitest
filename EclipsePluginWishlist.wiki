@@ -31,6 +31,14 @@ Switch to an existing branch, updating the working directory to match.
 Note that updating the working directory may require a 3 way merge if the working directory is dirty
 (git checkout -m).
 
+My usual git working style is to not switch branches with a dirty               
+working directory; I always commit to the current branch before                 
+switching to a new one. I mention that because I assume it'll be easier         
+to implement that workflow first; once you have commit capability, you          
+can do that style of branch switching (either preventing the switch or          
+doing an implicit commit when the working directory is dirty) without           
+having to worry about merging. <i>-- Steven Grimm</i>
+
 == Fetch ==
 
 Fetching changes from a remote repository into a tracking branch.  Aka "git fetch".
