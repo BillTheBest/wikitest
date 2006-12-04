@@ -96,6 +96,7 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * [http://cvs.cinelerra.org/ Cinelerra-CV] (Mergers and Project enhancements developed in git by a few of the developers. Final patches then into the subversion repo for more public access)
 ** (ask on mailing list for access to git repo as it is hosted on a bandwidth limited server.)
 ** [http://e.kevb.net/lurker/message/20060711.200520.7a9b1e25.en.html Mail List message] announcing our first use of git.
+** http://www.pipapo.org/gitweb (gitweb)
 * Tangram - OO to RDMS in Perl
 ** http://tangram.utsl.gen.nz/development/index.html (development web page)
 ** http://utsl.gen.nz/gitweb/?p=Tangram (gitweb)
