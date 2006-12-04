@@ -6,7 +6,6 @@ I've put an attribution of the wish to the person who wrote the email I found it
 
 * It would be really nice if none of the "common" commands had a hyphen in them (Carl Worth)
 * Introduce a -i option for git-commit making it commit the state in the index. Then git-commit with no options could work like "git-commit -a" does now. (Carl Worth)
-* Allow a usage of "git merge <branch>" instead of the awkward "git pull . <branch>". (Carl Worth)
 * Have --merge arguments to git-pull, and --fetch argument to git-merge. (Jakub Narebski)
 * The reflog stuff was often trumpeted in the recent git vs. bzr debate. Why is that very useful functionality buried in a config file option and not just stored by default?  (Carl Worth)
 * I would kind of like to see "git poll" -- visit all remote branches, fetching objects and tags into the local repository, so that I can inspect changes off-line and merge, cherry-pick, etc. to my heart's content. (Michael K Edwards)
@@ -26,7 +25,13 @@ I've put an attribution of the wish to the person who wrote the email I found it
 * With ref logs, you've just re-invented the CVS problem of associating history with a name. (linux at horizon.com)
 * It would be nice to have command to rename branches (with its reflog) and to rename tags (even in their packed format). (Jakub Narebski)
 * Everybody hates the fact that inverse of push is fetch not pull. Use download/upload/join instead of fetch/push/merge.  (Junio C Hamono)
-* Less visible "remoteness" of remote branches.  Separate remotes as the only layout.  (Junio C Hamono)
 * Unified "fetch" and "push" across backends.  (Junio C Hamono)
+
+= Granted Wishes =
+
+The following items used to be classified as wishes above, but a brave soul or two took it upon themselves to submit working patches, which were subsequently accepted.  Thanks to all!
+
+* Allow a usage of "git merge <branch>" instead of the awkward "git pull . <branch>". (Carl Worth)
+* Less visible "remoteness" of remote branches.  Separate remotes as the only layout.  (Junio C Hamono)
 
 __NOTOC__
