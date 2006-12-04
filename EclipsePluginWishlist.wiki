@@ -83,6 +83,14 @@ egit than if core Git was used to push the same set of objects.
 A graphical history viewer similar to gitk or qgit, but in SWT/JFace so it can run within the Eclipse
 workbench.
 
+== Checkout ==
+
+Checkout not only HEAD, but also particular revisions.  Also re-checkout a file when its been screwed up by the edits.
+
+== Tag ==
+
+Make a tag and delete tags
+
 == SVN Integration ==
 
 It would be swell -- but put it at the bottom of your
