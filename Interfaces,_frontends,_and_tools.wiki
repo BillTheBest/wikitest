@@ -10,7 +10,7 @@
 <<<!-- ! TOC here -->(2)>>
 ----
 <b>List of tools:</b>
- <span style="font-size: smaller">[[#Cogito Cogito]], [[#StGIT StGIT]], [[#pg pg]], [[#gq gq]], [[#isisetup IsiSetup]], [[#hgct (h)gct]], [[#gitool gitool]], [[#git-gui git-gui]], [[#tig tig]], [[#qgit QGit]], [[#gitk gitk]], [[#gitview GitView]], [[#gitweb gitweb]], [[#wit wit]], [[#gitarella gitarella]], [[#git-php git-php]], [[#gittracker gittracker]], [[#git-browser git-browser]], [[#git.el git.el]], [[#Eclipse Eclipse]], [[#git-xxximport other SCM import]], [[#git-cvsexportcommit git-cvsexportcommit]], [[#git-cvsserver git-cvsserver]], [[#git-svn git-svn]], [[#parsecvs parsecvs]], [[#cvs2git cvs2git]], [[#git-svnconvert git-svnconvert]], [[#Tailor Tailor]], [[#darcs-git Darcs-Git]], [[#colordiff colordiff]], [[#completion completion]], [[#ciabot CIAbot]], [[#git2rss git2rss]], [[#remapper remapper]], [[#gitfs gitfs]], [[#schottelius unix.schottelius]]</span>
+ <span style="font-size: smaller">[[#Cogito Cogito]], [[#StGIT StGIT]], [[#pg pg]], [[#gq gq]], [[#isisetup IsiSetup]], [[#hgct (h)gct]], [[#gitool gitool]], [[#git-gui git-gui]], [[#tig tig]], [[#qgit QGit]], [[#gitk gitk]], [[#gitview GitView]], [[#gitweb gitweb]], [[#wit wit]], [[#gitarella gitarella]], [[#git-php git-php]], [[#gittracker gittracker]], [[#git-browser git-browser]], [[#git.el git.el]], [[#Eclipse Eclipse]], [[#dirdiff dirdiff]], [[#git-xxximport other SCM import]], [[#git-cvsexportcommit git-cvsexportcommit]], [[#git-cvsserver git-cvsserver]], [[#git-svn git-svn]], [[#parsecvs parsecvs]], [[#cvs2git cvs2git]], [[#git-svnconvert git-svnconvert]], [[#Tailor Tailor]], [[#darcs-git Darcs-Git]], [[#colordiff colordiff]], [[#completion completion]], [[#ciabot CIAbot]], [[#git2rss git2rss]], [[#remapper remapper]], [[#gitfs gitfs]], [[#schottelius unix.schottelius]]</span>
 -----
 <b>See also:</b>
 * [[InterfacesFrontendsAndToolsWishlist]]
@@ -86,6 +86,7 @@
 
 = Tools =
 
+<<Anchor(IDE)>>
 == Editors and IDE integration ==
 
 <b>Emacs integration</b> (in `contrib/`)<<Anchor(git.el)>>::
@@ -97,6 +98,13 @@
 
 <b>Java GIT/Eclipse GIT</b><<Anchor(Eclipse)>>:: 
     [http://www.spearce.org/projects/scm/egit.git Java GIT/Eclipse GIT] (repository) by Shawn Pearce is a Java GIT library and plugin for [http://www.eclipse.org/ Eclipse] IDE, in very early stages of development.  Robin Rosenberg has recently been working on history and compare views for the plugin, so progress is slow but steady.  It is mirrored at http://repo.or.cz/w/egit.git (gitweb).  A [[EclipsePluginWishlist]] has been started as a roadmap of features.
+
+<<Anchor(merge)>>
+== Merge tools ==
+
+<b>dirdiff</b><<Achor(dirdiff)>>::
+    [http://www.liacs.nl/~sverdool/gitweb.cgi?p=dirdiff.git dirdiff] (gitweb) is a graphical tool to display the differences (a la diff) between files in directories. Given two or more directory trees, dirdiff will display the differences between them in various glorious colors. It provides merging and the creation of patches.
+    Link is to version modified by Sven Verdoolaege, which adds some more git support, and which is based on [http://samba.org/ftp/paulus/dirdiff-2.1.tar.gz dirdiff-2.1.tar.gz] by Paul Mackerras. Not actively developed. In Tcl/Tk. (To be not conffused with [http://sourceforge.net/projects/dirdiff/ dirdiff] in Perl). 
 
 <<Anchor(rcs-interaction)>>
 == Interaction with other Revision Control Systems ==
