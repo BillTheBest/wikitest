@@ -10,7 +10,7 @@
 <<<!-- ! TOC here -->(2)>>
 ----
 <b>List of tools:</b>
- <span style="font-size: smaller">[[#Cogito Cogito]], [[#StGIT StGIT]], [[#pg pg]], [[#gq gq]], [[#isisetup IsiSetup]], [[#hgct (h)gct]], [[#gitool gitool]], [[#git-gui git-gui]], [[#tig tig]], [[#qgit QGit]], [[#gitk gitk]], [[#gitview GitView]], [[#gitweb gitweb]], [[#wit wit]], [[#gitarella gitarella]], [[#git-php git-php]], [[#gittracker gittracker]], [[#git-browser git-browser]], [[#git.el git.el]], [[#Eclipse Eclipse]], [[#dirdiff dirdiff]], [[#git-xxximport other SCM import]], [[#git-cvsexportcommit git-cvsexportcommit]], [[#git-cvsserver git-cvsserver]], [[#git-svn git-svn]], [[#parsecvs parsecvs]], [[#cvs2git cvs2git]], [[#git-svnconvert git-svnconvert]], [[#Tailor Tailor]], [[#darcs-git Darcs-Git]], [[#colordiff colordiff]], [[#completion completion]], [[#ciabot CIAbot]], [[#git2rss git2rss]], [[#remapper remapper]], [[#gitfs gitfs]], [[#schottelius unix.schottelius]]</span>
+ <span style="font-size: smaller">[[#Cogito Cogito]], [[#StGIT StGIT]], [[#pg pg]], [[#gq gq]], [[#isisetup IsiSetup]], [[#hgct (h)gct]], [[#gitool gitool]], [[#git-gui git-gui]], [[#tig tig]], [[#qgit QGit]], [[#gitk gitk]], [[#gitview GitView]], [[#gitweb gitweb]], [[#wit wit]], [[#gitarella gitarella]], [[#git-php git-php]], [[#gittracker gittracker]], [[#git-browser git-browser]], [[#git.el git.el]], [[#Eclipse Eclipse]], [[#dirdiff dirdiff]], [[#git-xxximport other SCM import]], [[#git-cvsexportcommit git-cvsexportcommit]], [[#git-cvsserver git-cvsserver]], [[#git-svn git-svn]], [[#parsecvs parsecvs]], [[#cvs2git cvs2git]], [[#git-svnconvert git-svnconvert]], [[#git-ucmimport git-ucmimport]], [[#quilt2git quilt2git]], [[#Tailor Tailor]], [[#darcs-git Darcs-Git]], [[#colordiff colordiff]], [[#completion completion]], [[#ciabot CIAbot]], [[#git2rss git2rss]], [[#remapper remapper]], [[#gitfs gitfs]], [[#schottelius unix.schottelius]]</span>
 -----
 <b>See also:</b>
 * [[InterfacesFrontendsAndToolsWishlist]]
@@ -138,6 +138,9 @@
 
 <b>git-ucmimport</b><<Anchor(git-ucmimport)>>::
     git-ucmimport, also written by Rutger Nijlunsing, is a converter from IBM Rational [[ClearCase]] UCM to git. The latest version can be found currently on [http://www.wingding.demon.nl]. In Ruby.
+
+<b>quilt2git / git2quilt</b><<Anchor(quilt2git)>>::
+    These utilities convert patch series in a quilt repository and commit series in git back and forth. You can download files [http://home-tj.org/files/misc here]; they can be found on [http://home-tj.org/wiki/index.php/Misc HomeTJ webpage].
 
 <b>Tailor</b><<Anchor(Tailor)>>::
     [http://www.darcs.net/DarcsWiki/Tailor Tailor] is an any-to-any version control system converter, with support for most free SCM. It was written by Lele and it is implemented in Python. Note that you need [http://www.darcs.net/DarcsWiki/Tailor/[[VersionOne]] /[[VersionOne]]], and it supports Git as target system only. Note also that as of 2006-12-01, it only has rudimentary support for branches, and mostly supports linear histories.
