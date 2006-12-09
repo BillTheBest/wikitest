@@ -30,9 +30,7 @@ This page is meant to collect those ideas found in all existing patch-management
 
 * maintainance of a series of local patches against an upstream branch
 * preparing a series of patches for acceptance into an upstream branch
-* development of several software branches, making sure in each branch that all relevant changes in other branches were integrated, and uptodate
-
-TBW
+* development/maintainance of several such related branches (eg. linux BSPs forked off different arch-specific trees), making sure in each branch that all relevant changes in other branches were integrated, and uptodate
 
 = Ideas and needs for future developments =
 
