@@ -29,7 +29,7 @@
 <b>IsiSetup</b><<Anchor(isisetup)>>::
     [http://www.isisetup.ch/ IsiSetup] (APT for your config) is a utility to help managing your configuration files with Git as backend.  You can rollback changes, explore the history of changes, replicate your configuration, backup your configuration and blame changes to admins.
 
-=== Patch-management Interface layers ===
+== Patch-management Interface layers ==
 
 <b>StGIT (Stacked Git)</b><<Anchor(StGIT)>>::
     [[StGIT]] ([http://www.procode.org/stgit/ homepage]) provides a Quilt-like patch management functionality (i.e. pushing/popping patches to/from a stack) in the Git environment. You can easily manage your patches in the scope of Git until they get merged upstream. <<BR>>
@@ -104,7 +104,7 @@
 <<Anchor(merge)>>
 == Merge tools ==
 
-<b>dirdiff</b><<Achor(dirdiff)>>::
+<b>dirdiff</b><<Anchor(dirdiff)>>::
     [http://www.liacs.nl/~sverdool/gitweb.cgi?p=dirdiff.git dirdiff] (gitweb) is a graphical tool to display the differences (a la diff) between files in directories. Given two or more directory trees, dirdiff will display the differences between them in various glorious colors. It provides merging and the creation of patches.
     Link is to version modified by Sven Verdoolaege, which adds some more git support, and which is based on [http://samba.org/ftp/paulus/dirdiff-2.1.tar.gz dirdiff-2.1.tar.gz] by Paul Mackerras. Not actively developed. In Tcl/Tk. (To be not conffused with [http://sourceforge.net/projects/dirdiff/ dirdiff] in Perl). 
 
