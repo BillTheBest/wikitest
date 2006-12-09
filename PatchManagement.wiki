@@ -28,6 +28,10 @@ This page is meant to collect those ideas found in all existing patch-management
 
 = Typical workflows needing patch management =
 
+* maintainance of a series of local patches against an upstream branch
+* preparing a series of patches for acceptance into an upstream branch
+* development of several software branches, making sure in each branch that all relevant changes in other branches were integrated, and uptodate
+
 TBW
 
 = Ideas and needs for future developments =
