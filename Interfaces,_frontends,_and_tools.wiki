@@ -10,7 +10,7 @@
 <<<!-- ! TOC here -->(2)>>
 ----
 <b>List of tools:</b>
- <span style="font-size: smaller">[[#Cogito Cogito]], [[#StGIT StGIT]], [[#pg pg]], [[#gq gq]], [[#isisetup IsiSetup]], [[#hgct (h)gct]], [[#gitool gitool]], [[#git-gui git-gui]], [[#tig tig]], [[#qgit QGit]], [[#gitk gitk]], [[#gitview GitView]], [[#gitweb gitweb]], [[#wit wit]], [[#gitarella gitarella]], [[#git-php git-php]], [[#cgit cgit]], [[#gittracker gittracker]], [[#git-browser git-browser]], [[#git.el git.el]], [[#Eclipse Eclipse]], [[#dirdiff dirdiff]], [[#git-xxximport other SCM import]], [[#git-cvsexportcommit git-cvsexportcommit]], [[#git-cvsserver git-cvsserver]], [[#git-svn git-svn]], [[#parsecvs parsecvs]], [[#cvs2git cvs2git]], [[#git-svnconvert git-svnconvert]], [[#git-ucmimport git-ucmimport]], [[#quilt2git quilt2git]], [[#Tailor Tailor]], [[#darcs-git Darcs-Git]], [[#colordiff colordiff]], [[#completion completion]], [[#ciabot CIAbot]], [[#git2rss git2rss]], [[#remapper remapper]], [[#gitfs gitfs]], [[#schottelius unix.schottelius]]</span>
+ <span style="font-size: smaller">[[#Cogito Cogito]], [[#StGIT StGIT]], [[#pg pg]], [[#gq gq]], [[#isisetup IsiSetup]], [[#hgct (h)gct]], [[#gitool gitool]], [[#git-gui git-gui]], [[#tig tig]], [[#qgit QGit]], [[#gitk gitk]], [[#gitview GitView]], [[#gitweb gitweb]], [[#wit wit]], [[#gitarella gitarella]], [[#git-php git-php]], [[#CGit cgit]], [[#gittracker gittracker]], [[#git-browser git-browser]], [[#git.el git.el]], [[#Eclipse Eclipse]], [[#dirdiff dirdiff]], [[#git-xxximport other SCM import]], [[#git-cvsexportcommit git-cvsexportcommit]], [[#git-cvsserver git-cvsserver]], [[#git-svn git-svn]], [[#parsecvs parsecvs]], [[#cvs2git cvs2git]], [[#git-svnconvert git-svnconvert]], [[#git-ucmimport git-ucmimport]], [[#quilt2git quilt2git]], [[#Tailor Tailor]], [[#darcs-git Darcs-Git]], [[#colordiff colordiff]], [[#completion completion]], [[#ciabot CIAbot]], [[#git2rss git2rss]], [[#remapper remapper]], [[#gitfs gitfs]], [[#schottelius unix.schottelius]]</span>
 -----
 <b>See also:</b>
 * [[InterfacesFrontendsAndToolsWishlist]]
@@ -67,7 +67,7 @@
 == Web Interface ==
 
 <b><u>gitweb</u></b> (distributed with Git)<<Anchor(gitweb)>>::
-    [[gitweb]] provides full-fledged web interface for Git repositories. It is written in Perl and was maintained by Kay Sievers; from git version 1.4.0 it is distributed with Git.  Used at [http://www.kernel.org/git/ kernel.org].
+    [[gitweb]] provides full-fledged web interface for Git repositories. It is written in Perl and was maintained by Kay Sievers; from git version 1.4.0 it is distributed with Git.  Used at [http://www.kernel.org/git/ kernel.org] and [http://repo.or.cz repo.or.cz].
 
     The [http://wiki.xmms2.xmms.se/index.php/Main_Page XMMS2 project] maintains their own version of gitweb which has some additional features. The latest snapshot of this effort can be downloaded from [http://git.xmms.se/?p=gitweb-xmms2.git;a=summary].
 
@@ -80,7 +80,7 @@
 <b>git-php</b><<Anchor(git-php)>>::
     [http://code.google.com/p/git-php/ git-php] is a PHP git web frontend created by Zack Bartel. The goal of git-php is a robust PHP web interface to git repositories. It is meant to be easily customizable through styles and the ability to be embedded into any PHP page. For example, creating a git repository viewer plug-in for your favorite PHP based CMS should be easy with git-php. It seems to be inspired by gitweb. See it at work at [http://zackb.org/git-php/git.php zackb.org].
 
-<b>cgit</b><<Anchor(cgit)>>::
+<b>CGit</b><<Anchor(cgit)>>::
     CGit ([http://hjemli.net/git/ demo]) by Lars Hjemli is native CGI web frontend for git (currently in very early stage of development). It is written in C (using `libgit.a`), and implements an internal page cache (see [http://hjemli.net/git/cgit/view/?id=5917c37ce30b3f0a374c9fa376955f51f1d7bfbf README]).  You can clone it from `git://hjemli.net/pub/git/cgit`. See it at work at [http://hjemli.net/git/ hjemli.net].
 
 <b>gittracker</b><<Anchor(gittracker)>>::
