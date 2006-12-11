@@ -72,7 +72,7 @@
     The [http://wiki.xmms2.xmms.se/index.php/Main_Page XMMS2 project] maintains their own version of gitweb which has some additional features. The latest snapshot of this effort can be downloaded from [http://git.xmms.se/?p=gitweb-xmms2.git;a=summary].
 
 <b>wit</b><<Anchor(wit)>>::
-    [[wit]] ([http://www.grmso.net:8090/ homepage]) is a Python implementation maintained by Christian Meder.
+    [[wit]] ([http://www.absolutegiganten.org/wit/ download]) is a Python implementation maintained by Christian Meder. Uses PATH_INFO URLs extensively. See it in work [http://www.grmso.net:8090/ here].
 
 <b>gitarella</b><<Anchor(gitarella)>>::
     [http://flameeyes.is-a-geek.org/projects#gitarella gitarella] ([http://freshmeat.net/projects/gitarella/ freshmeat project page]) is a Ruby-based Git web frontend, created and maintained by Flameeyes. It is inspired by and following the style of gitweb. It supports CGI and FastCGI interfaces. See it in work on [http://git.flameeyes.is-a-geek.org/gitarella/ gitarella repository].
