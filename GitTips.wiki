@@ -130,5 +130,7 @@ Host public.host.com
         IdentityFile /home/myname/.ssh/public-identity
 </nowiki></pre>
 and now you can ssh to "host.com" using different identities by just using "private.host.com" and "public.host.com" respectively.
+----
+[[CategoryGitDocumentation]]
 
 __NOTOC__
