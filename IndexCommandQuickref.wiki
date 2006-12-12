@@ -91,4 +91,7 @@ To diff with an abitrary tree:
 Low-level command:
 <code><nowiki>git diff-index --cached <tree-ish></nowiki></code>
 
+----
+[[CategoryGitDocumentation]]
+
 __NOTOC__
