@@ -364,6 +364,8 @@ Take a look at
 * [http://koalabs.org/~ange/git_faq/faq.html GIT FAQ by Thomas Riboulet].
 * [[GitCommunity]], mainly Git mailing list.
 * [[WikiPedia:Git_(software)|Git (software)]] article at WikiPedia.
+
+----
 [[CategoryGitDocumentation]]
 
 __NOTOC__
