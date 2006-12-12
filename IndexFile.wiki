@@ -1,3 +1,5 @@
+See also [[WhatIsTheIndex]]
+
 The <b>index file</b>, sometimes just referred to as the <b>index</b>, stores
 information about the current working tree. If for example you add a file, it
 will first be recorded in the index file so that later, when you do a commit,
