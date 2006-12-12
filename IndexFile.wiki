@@ -1,4 +1,4 @@
-See also [[WhatIsTheIndex]]
+See also [[WhatIsTheIndex]] and [[IndexCommandQuickref]]
 
 The <b>index file</b>, sometimes just referred to as the <b>index</b>, stores
 information about the current working tree. If for example you add a file, it
