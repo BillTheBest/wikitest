@@ -36,6 +36,10 @@ the changed commit and forward.
 
 You can use [[Cogito]]'s [http://www.kernel.org/git/?p=cogito/cogito-doc.git;a=blob;hb=HEAD;f=txt/cg-admin-rewritehist.1.txt cg-admin-rewritehist(1)] for that.
 
+You can use [[StGIT]] for that, initialize branch if necessary, uncommitting up to the commit you want to change, pop to it if necessary, make a change then refresh patch (with `-e` option if you want to correct commit message), then push everything and stg commit.
+
+Or you can use rebase to do that. Create new temporary branch, rewind it to the commit you want to change using `git reset --hard`, change that commit (it would be top of current head), then rebase branch on top of changed commit, using <code><nowiki>git rebase --onto <tmp branch> <commit after changed> <branch></nowiki></code>.
+
 <<Anchor(only-merges)>>
 == How to get only merges in gitk? ==
 
