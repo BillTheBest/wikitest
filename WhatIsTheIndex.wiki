@@ -13,9 +13,9 @@ cvs add some.file
 cvs commit some.file
 </nowiki></pre>
 
-The first command, <code><nowiki>git add some.file</nowiki></code> does not commit the file, right? Where has it gone? Answer: into the staging area.
+The first command, <code><nowiki>cvs add some.file</nowiki></code> does not commit the file, right? Where has it gone? Answer: into the staging area.
 
-With the second command, <code><nowiki>git commit some.file</nowiki></code>, you can finally commit. But what happens to the other modified files? Are they committed? Answer: no, the last revision is updated with the new version of <code><nowiki>some.file</nowiki></code>, "in the staging area", and <i>then</i> committed.
+With the second command, <code><nowiki>cvs commit some.file</nowiki></code>, you can finally commit. But what happens to the other modified files? Are they committed? Answer: no, the last revision is updated with the new version of <code><nowiki>some.file</nowiki></code>, "in the staging area", and <i>then</i> committed.
 
 So really, it is neither a new concept, nor an intimidating one. The index comes naturally to you when you say
 
