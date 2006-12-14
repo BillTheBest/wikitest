@@ -49,6 +49,7 @@ A SSH server, an HTTP server, or the git-daemon.
 * See the
  [http://www.kernel.org/pub/software/scm/git/docs/tutorial.html Git tutorial]
  for more details.
+* A how-to-publish document was started [http://wiki.u32.net/index.php?title=Git/publishing here], describing http and gitweb.
 
 <<Anchor(empty-dirs)>>
 == Can I add empty directories? ==
