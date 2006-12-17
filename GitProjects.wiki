@@ -45,6 +45,9 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * HAL
 ** http://hal.freedesktop.org/wiki/Software_2fhal (description)   
 ** http://gitweb.freedesktop.org/ (repository, gitweb)
+* Mesa3D
+** http://www.mesa3d.org/repository.html (description)
+** http://gitweb.freedesktop.org/ (repository, gitweb)
 * xmms2
 ** http://wiki.xmms2.xmms.se/index.php/Download_XMMS2 (description)
 ** http://git.xmms.se/ (repository, gitweb)
