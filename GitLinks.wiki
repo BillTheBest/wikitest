@@ -20,7 +20,7 @@ Miscelaneous git-related links, not including [http://git.or.cz/ Git homepage], 
 * [http://wiki.winehq.org/GitWine [[GitWine]] tutorial] at WINE wiki.
 * [http://freedesktop.org/wiki/UsingGit Using Git] at freedesktop.org
 * [http://www.denx.de/en/Documents/GitDocs Software Configuration Management using `git`] from DENX, home of the U-Boot boot loader.
-* [http://wiki.xmms2.xmms.se/index.php/Download_XMMS2 Download XMMS2] at XMMS2 wiki.
+* [http://wiki.xmms2.xmms.se/index.php/Download_XMMS2 Download XMMS2] and [http://wiki.xmms2.xmms.se/index.php/Using_Git Using Git] at XMMS2 wiki.
 * [http://wiki.sourcemage.org/Git_Guide Git Guide] at Sourcemage wiki.
 * [http://www.fieldses.org/~bfields/kernel/git.html git tutorial] and [http://www.fieldses.org/~bfields/kernel/stgit.html kernel patch management with stgit] among Bruce Fields [http://www.fieldses.org/~bfields/kernel/ notes on the linux kernel] <i>(work in progress)..</i>
 * [http://nico.schotteli.us/papers/linux/git-firmen/ German documentation for git, cogito, gitweb] by Nico Schottelius.
