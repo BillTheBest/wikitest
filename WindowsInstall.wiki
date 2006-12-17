@@ -32,7 +32,13 @@ You will need to install cygwin and the following packages to be able to build g
 * util-linux: just to have getopt (required by xmlto)
 * asciidoc to build documents (http://www.methods.co.nz/asciidoc/INSTALL.html)
 
-With these packages installed you build git and install it in your ~/bin directory by doing:
+With these packages installed download the git source package from the git homepage and then unpack it with:
+
+<pre><nowiki>
+tar xvzf git-x.y.z.tar.gz   (or tar xvjf git-x.y.z.tar.bz2)
+</nowiki></pre>
+
+Then, build git and install it in your ~/bin directory by doing:
 
 <pre><nowiki>
 make install
@@ -47,7 +53,8 @@ You are now ready to use GIT. Check that your path includes ~/bin and you are of
 
 == Extra notes ==
 
-* Use git on local NTFS disks -- Network drives and VFAT disks don't support the filesystem semantics GIT needs.
+* Use git on local NTFS disks -- Network drives disks don't support the filesystem semantics GIT needs.
+* To use git on a local FAT32 disk, export NO_MMAP=1 -- see the email thread "Can git be tweaked to work cross-platform, on FAT32?" http://marc.theaimsgroup.com/?t=116602585500004&r=1&w=2
 * Be careful with the case in filenames. Similarly, avoid special chars in filenames. 
 * Run git repack -a -d early and often. There are slowdowns with many unpacked objects.
 * As of version 1.4.x, export GIT_USE_RECUR_FOR_RECURSIVE=1 to replace Python-based git-merge-recursive with a much faster C implementation. Later versions will probably have the C version as default. 
