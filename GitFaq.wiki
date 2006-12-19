@@ -152,6 +152,19 @@ ignored in reseted version, and shows e.g. in the `git status` output.
 
 * See [http://marc.theaimsgroup.com/?l=git&m=114917892328066 Linus Torvalds] answer or [http://marc.theaimsgroup.com/?l=git&m=114917892613019 Sean Estabrooks] answer at [[GitCommunity|git mailing list]].
 
+== Why won't "git push" work after I rebased a branch? ==
+
+After you have rebased one of your local branches, you are trying to push your changes to a remote repository. But `git push` fails with this error message:
+
+<pre><nowiki>error: remote 'refs/heads/master' is not a strict subset of local ref 'refs/heads/master'. maybe you are not up-to-date and need to pull first?
+</nowiki></pre>
+
+This is not a bug, but a safety check: "git push" will not update a remote branch if the remote branch is not a parent of the commit you're trying to push. This check prevents you from overwriting a remote branch to which other people have already commited new changes after you fetched it the last time. Their changes would be lost without the check. And it prevents you from overwriting a remote branch with an unrelated local branch.
+
+When you rebase, you are not continuing the history of the branch from where you currently are.  Instead, you are rewriting the history starting from the base you chose for rebasing.  So, after rebasing, the remote branch and your new local HEAD are both child commits of that base, but the remote branch is no longer a parent of your new local HEAD. And pushing this new history to the remote branch means replacing a history that other people might already have downloaded.
+
+If you are really sure that you want to push the new reference to the remote repository you can say `git push -f`. But use this with care and only if you know, what you are doing.
+
 = How do I ... =
 
 <<Anchor(repo-sharing)>>
