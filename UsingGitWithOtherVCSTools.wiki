@@ -11,7 +11,17 @@ See [http://kernel.org/git/?p=git/git.git;a=blob;f=Documentation/howto/using-top
 
 == CVS ==
 
-(More to come, just trying out the steps).
+<pre><nowiki>
+export GIT_DIR=`pwd`/<module>.git
+echo "CVS" >>$GIT_DIR/info/exclude
+cvs co <module>
+cd <module>
+git init-db
+git add .
+git commit -m "Initial import"
+</nowiki></pre>
+
+(more on using StGIT when I return to keyboard..., if I remember ;-)
 
 = Setting up imported mirror repositories =
 
