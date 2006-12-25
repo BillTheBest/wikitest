@@ -102,7 +102,7 @@
     <b>See also:</b> [[EmacsWiki/[[CategoryVersionControl]]|[[CategoryVersionControl]]] on [[EmacsWiki]]].
 
 <b>Java GIT/Eclipse GIT</b><<Anchor(Eclipse)>>:: 
-    [http://www.spearce.org/projects/scm/egit.git Java GIT/Eclipse GIT] (repository) by Shawn Pearce is a Java GIT library and plugin for [http://www.eclipse.org/ Eclipse] IDE, in very early stages of development.  Robin Rosenberg has recently been working on history and compare views for the plugin, so progress is slow but steady.  It is mirrored at http://repo.or.cz/w/egit.git (gitweb).  A [[EclipsePluginWishlist]] has been started as a roadmap of features.
+    [http://www.spearce.org/projects/scm/egit.git Java GIT/Eclipse GIT] (repository) by Shawn Pearce is a Java GIT library and plugin for [http://www.eclipse.org/ Eclipse] IDE, in very early stages of development.  The site no longer seems to have the plugin. Robin Rosenberg has recently been working on history and compare views for the plugin, so progress is slow but steady.  It is mirrored at http://repo.or.cz/w/egit.git (gitweb).  A [[EclipsePluginWishlist]] has been started as a roadmap of features.
 
 <<Anchor(merge)>>
 == Merge tools ==
