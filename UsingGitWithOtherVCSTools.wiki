@@ -13,10 +13,10 @@ See [http://kernel.org/git/?p=git/git.git;a=blob;f=Documentation/howto/using-top
 
 <pre><nowiki>
 export GIT_DIR=`pwd`/<module>.git
-echo "CVS" >>$GIT_DIR/info/exclude
 cvs co <module>
 cd <module>
 git init-db
+echo "CVS" >>$GIT_DIR/info/exclude
 git add .
 git commit -m "Initial import"
 </nowiki></pre>
