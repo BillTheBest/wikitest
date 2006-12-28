@@ -9,13 +9,13 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * Linux Kernel
 ** http://kernel.org
 ** http://www.kernel.org/git/?p=linux/kernel/git/torvalds/linux-2.6.git (gitweb)
-* Linux/MIPS
+* Linux/MIPS (port of Linux to the MIPS architecture)
 ** http://www.linux-mips.org/wiki/Git (description, includes repository URLs)
 ** http://www.linux-mips.org/git (gitweb)
 * NFS client patches for Linux
 ** http://linux-nfs.org/ (homepage)
 ** http://linux-nfs.org/cgi-bin/gitweb.cgi (gitweb)
-* OpenVZ
+* OpenVZ (Operating System-level server virtualization solution)
 ** http://openvz.org/ (homepage)
 ** http://git.openvz.org/ (repository, gitweb)
 * Nico Schottelius (Linux|Unix) projects
@@ -30,42 +30,42 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 ** http://laptop.org
 ** http://dev.laptop.org/wiki/[[CentralTree]] (basic description)
 ** http://dev.laptop.org/browser (gitweb)
-* Wine
+* Wine (implementation of the Windows API on top of X and Unix)
 ** http://wiki.winehq.org/[[GitWine]] (description)
 ** http://source.winehq.org/git/?p=wine.git;a=summary (gitweb)
-* X.org
+* X.Org
 ** http://freedesktop.org/wiki/[[UsingGit]] (description)
 ** http://gitweb.freedesktop.org/ (repository, gitweb)
-* Cairo
+* Cairo (2D graphics library with support for multiple output devices)
 ** http://cairographics.org (description)
 ** http://gitweb.freedesktop.org/ (repository, gitweb)
 * The X protocol C-language Binding (XCB)
 ** http://xcb.freedesktop.org/wiki/ (description)   
 ** http://gitweb.freedesktop.org/ (repository, gitweb)
-* HAL
+* HAL (Hardware Abstraction Layer)
 ** http://hal.freedesktop.org/wiki/Software_2fhal (description)   
 ** http://gitweb.freedesktop.org/ (repository, gitweb)
-* Mesa3D
+* Mesa3D (graphics library, software OpenGL implementation)
 ** http://www.mesa3d.org/repository.html (description)
 ** http://gitweb.freedesktop.org/ (repository, gitweb)
-* xmms2
+* xmms2 (audio player)
 ** http://wiki.xmms2.xmms.se/index.php/Download_XMMS2 (description)
 ** http://git.xmms.se/ (repository, gitweb)
-* ELinks
+* ELinks (text mode web browser)
 ** http://elinks.cz/ (description)
 ** http://elinks.cz/elinks.git (repository, Cogito managed)
 ** http://pasky.or.cz/gitweb.cgi?p=elinks.git;a=summary (gitweb)
 * dash (POSIX-compliant shell)
 ** http://gondor.apana.org.au/~herbert/dash/ (description)
 ** http://gondor.apana.org.au/~herbert/dash/dash.git/ (repository)
-* U-Boot
+* U-Boot (Universal Bootloader)
 ** http://u-boot.sourceforge.net/ (index page)
 ** http://www.denx.de/en/Documents/[[GitDocs]] (git documentation)
 ** http://www.denx.de/cgi-bin/gitweb.cgi?p=u-boot.git;a=summary (gitweb)
-* SWISDK (A web application framework written in PHP) and a Wiki built on git and markdown
+* SWISDK (A web application framework written in PHP and a Wiki built on git and markdown)
 ** http://spinlock.ch/projects/swisdk/ (description)
 ** http://spinlock.ch/cgi-bin/gitweb.pl (gitweb)
-* Source Mage GNU/Linux
+* Source Mage GNU/Linux (source-based GNU/Linux distribution)
 ** http://www.sourcemage.org/ (description)
 ** http://wiki.sourcemage.org/Git_Guide (guide)
 ** http://scmweb.sourcemage.org/ (gitweb)
@@ -82,15 +82,13 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * itools (A Python library for web development)
 ** http://www.ikaaro.org/ (description)
 ** http://source.ikaaro.org/ (gitweb)
-* adesklets
+* adesklets (interactive Imlib2 console for the X11, for writing desklets)
 ** http://adesklets.sourceforge.net/ (home page)
 ** http://adesklets.sourceforge.net/cgi-bin/gitweb.cgi (gitweb)
 ** http://adesklets.sourceforge.net/adesklets.git (repository)
-* git mirror of many cvs projects important for the development of Fedora Core
-** http://www.jur-linux.org/git/
-* Wexus, a C++ library for web application development
+* Wexus (C++ library for web application development)
 ** http://labs.wexussoftware.com/
-* KDbg, a KDE frontend to GDB
+* KDbg (KDE frontend to GDB)
 ** http://www.kdbg.org/
 * [http://alioth.debian.org/ Alioth] (project hosting, modified [http://gforge.org GForge] engine, managed by [http://www.debian.org/ Debian] project)
 ** [http://www.debian.org/News/weekly/2006/34/ Debian Weekly News #34 - August 22nd, 2006] (announcement)
@@ -100,27 +98,27 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 ** (ask on mailing list for access to git repo as it is hosted on a bandwidth limited server.)
 ** [http://e.kevb.net/lurker/message/20060711.200520.7a9b1e25.en.html Mail List message] announcing our first use of git.
 ** http://www.pipapo.org/gitweb (gitweb)
-* Tangram - OO to RDMS in Perl
+* Tangram (OO to RDMS in Perl)
 ** http://tangram.utsl.gen.nz/development/index.html (development web page)
 ** http://utsl.gen.nz/gitweb/?p=Tangram (gitweb)
 ** git://utsl.gen.nz/Tangram (repository)
 * VLE - Virtual Laboratory Environment: a scientific project on multimodeling and simulation based on the DEVS (discrete event system specification) paradigm.
 ** http://vle.univ-littoral.fr
 ** http://vle.univ-littoral.fr/gitweb
-* GNU LilyPond
+* GNU LilyPond (program to format music notation)
 ** http://www.lilypond.org/web/devel/participating/ (contributing web page)
 ** http://git.sv.gnu.org/gitweb/?p=lilypond.git (gitweb)
 ** git://git.sv.gnu.org/lilypond.git (repository)
 * CRUX Linux distribution
 ** http://crux.nu/Main/[[ContribHowTo]] (development web page)
 ** http://crux.nu/gitweb/ (gitweb)
-* Agave
+* Agave (A colorscheme designer for the GNOME desktop)
 ** http://home.gna.org/colorscheme/devel.shtml (development web page)
 ** http://download.gna.org/colorscheme/agave.git (repository)
-* collectd
+* collectd (a small daemon  which collects system information every 10 seconds and writes the results in an RRD-file)
 ** http://collectd.org/dev-info.shtml (development web page)
 ** git://git.verplant.org/collectd.git (repository)
-* Herrie
+* Herrie (minimalistic command line music player)
 ** http://g-rave.nl/projects/herrie/ (development web page)
 ** http://g-rave.nl/git/herrie (repository)
 * Many other projects on repo.or.cz, a public Git hosting site...
