@@ -122,6 +122,9 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 ** git://git.verplant.org/collectd.git (repository)
 * Many other projects on repo.or.cz, a public Git hosting site...
 ** http://repo.or.cz/
+* Herrie
+** http://g-rave.nl/projects/herrie/ (development web page)
+** http://g-rave.nl/git/herrie (repository)
 
 == Git hosting ==
 
