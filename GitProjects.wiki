@@ -121,6 +121,8 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * Herrie (minimalistic command line music player)
 ** http://g-rave.nl/projects/herrie/ (development web page)
 ** http://g-rave.nl/git/herrie (repository)
+* Garzik's various Linux projects
+** http://linux.yyz.us/projects.html (home page)
 * git mirror of many cvs projects important for the development of Fedora Core
 ** http://www.jur-linux.org/git/
 * Many other projects on repo.or.cz, a public Git hosting site...
