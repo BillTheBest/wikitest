@@ -22,7 +22,7 @@ Miscelaneous git-related links, not including [http://git.or.cz/ Git homepage], 
 * [http://www.denx.de/en/Documents/GitDocs Software Configuration Management using `git`] from DENX, home of the U-Boot boot loader.
 * [http://wiki.xmms2.xmms.se/index.php/Download_XMMS2 Download XMMS2] and [http://wiki.xmms2.xmms.se/index.php/Using_Git Using Git] at XMMS2 wiki.
 * [http://wiki.sourcemage.org/Git_Guide Git Guide] at Sourcemage wiki.
-* [http://www.fieldses.org/~bfields/kernel/git.html git tutorial] and [http://www.fieldses.org/~bfields/kernel/stgit.html kernel patch management with stgit] among Bruce Fields [http://www.fieldses.org/~bfields/kernel/ notes on the linux kernel] <i>(work in progress)..</i>
+* [http://www.fieldses.org/~bfields/kernel/git.html Git Tutorial], [http://www.fieldses.org/~bfields/git-user-manual.html Git User's Manual] and [http://www.fieldses.org/~bfields/kernel/stgit.html Kernel patch management with StGIT] among Bruce Fields [http://www.fieldses.org/~bfields/kernel/ notes on the linux kernel] <i>(work in progress)..</i>
 * [http://nico.schotteli.us/papers/linux/git-firmen/ German documentation for git, cogito, gitweb] by Nico Schottelius.
 * [http://wiki.u32.net/index.php?title=Git Git] — some notes taken while was learning git by Subversion user, [http://wiki.u32.net/index.php?title=Git/publishing Git/publishing] describes how to publish your archive via http and how to setup gitweb. On [http://wiki.u32.net wiki.u32.net] (MediaWiki powered wiki).
 
