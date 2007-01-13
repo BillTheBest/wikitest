@@ -94,6 +94,9 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 ** [http://www.debian.org/News/weekly/2006/34/ Debian Weekly News #34 - August 22nd, 2006] (announcement)
 ** [http://roland.entierement.nu/blog/2006/08/17/bits-about-alioth.html Roland weblog - Bits about Alioth] (description)
 ** [http://wiki.debian.org/AliothGit [[AliothGit]]] page on [http://wiki.debian.org/ Debian Wiki]
+* XStrikeForce (XSF) / Debian
+** http://wiki.debian.org/XStrikeForce/git-usage (wiki)
+** http://git.debian.org/ (gitweb)
 * [http://cvs.cinelerra.org/ Cinelerra-CV] (Mergers and Project enhancements developed in git by a few of the developers. Final patches then into the subversion repo for more public access)
 ** (ask on mailing list for access to git repo as it is hosted on a bandwidth limited server.)
 ** [http://e.kevb.net/lurker/message/20060711.200520.7a9b1e25.en.html Mail List message] announcing our first use of git.
