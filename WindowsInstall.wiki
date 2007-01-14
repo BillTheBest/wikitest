@@ -18,7 +18,7 @@ You will need to install cygwin and the following packages to be able to build g
 * python (for merge-recursive, though merge-recur is a *huge* win)
 * wish (for gitk)
 * perl
-* ssh
+* openssh
 * openssl (and -dev)
 * zip (and -dev)
 * curl (and -dev)
