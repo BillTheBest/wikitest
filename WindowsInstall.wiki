@@ -20,6 +20,7 @@ You will need to install cygwin and the following packages to be able to build g
 * perl
 * openssh
 * openssl (and -dev)
+* libiconv
 * zip (and -dev)
 * curl (and -dev)
 * expat (and -dev)
