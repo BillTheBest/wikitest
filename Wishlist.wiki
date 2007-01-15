@@ -7,11 +7,9 @@ I've put an attribution of the wish to the person who wrote the email I found it
 * It would be really nice if none of the "common" commands had a hyphen in them (Carl Worth)
 * Introduce a -i option for git-commit making it commit the state in the index. Then git-commit with no options could work like "git-commit -a" does now. (Carl Worth)
 * Have --merge arguments to git-pull, and --fetch argument to git-merge. (Jakub Narebski)
-* The reflog stuff was often trumpeted in the recent git vs. bzr debate. Why is that very useful functionality buried in a config file option and not just stored by default?  (Carl Worth)
 * I would kind of like to see "git poll" -- visit all remote branches, fetching objects and tags into the local repository, so that I can inspect changes off-line and merge, cherry-pick, etc. to my heart's content. (Michael K Edwards)
 * "pull/push/fetch" have undesired confusion depending on where people learned the term.  I'd perhaps vote for replacing fetch with download and push with upload. (Junio C Hamono)
 * <code><nowiki>git diff upstream</nowiki></code> and <code><nowiki>git merge upstream#next</nowiki></code> would refer to the <code><nowiki>.git/remotes/upstream</nowiki></code> shortcut file to better hide remote tracking branches.  (Junio C Hamono)
-* Make "git init" an alias for "git init-db". (Nicholas Pitre)
 * "pull" and "push" should be symmetrical operations.  (Junio C Hamono) (Nicholas Pitre) (Andy Parkins)
 * Remote branch handling should become more straight forward.  (Nicholas Pitre)
 * Separate namespace for "new" interface.  "gh" instead of "git" primarily to deal with stale documentation people would find googling.  (Junio C Hamano)
@@ -33,5 +31,7 @@ The following items used to be classified as wishes above, but a brave soul or t
 * Less visible "remoteness" of remote branches.  Separate remotes as the default layout.  (Junio C Hamano)
 * Support <code><nowiki>Pull: refs/heads/*:refs/remotes/default/*</nowiki></code> in remotes shortcut files
 * <code><nowiki>git checkout -f -m</nowiki></code> is meaningless (-f overrides -m), but doesn't complain. (linux at horizon.com)
+* The reflog stuff was often trumpeted in the recent git vs. bzr debate. Why is that very useful functionality buried in a config file option and not just stored by default?  (Carl Worth)
+* Make "git init" an alias for "git init-db". (Nicholas Pitre)
 
 __NOTOC__
