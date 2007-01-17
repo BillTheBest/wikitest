@@ -82,6 +82,16 @@ if you want to compare current repository with (in this example) cogito reposito
 <pre><nowiki>GIT_ALTERNATE_OBJECT_DIRECTORIES=../cogito/.git/objects git-diff-tree $(GIT_DIR=../cogito/.git git rev-parse --verify HEAD) HEAD
 </nowiki></pre>
 
+= StGIT =
+
+<<Anchor(stg-rebase)>>
+== How to rebase StGIT stack? ==
+If you have <n> patches on stack, and you want to rebase it (for example because git branch got rebased, or you want to base stack on different branch)
+<pre><nowiki>stg pop -a
+git reset --hard <new_base>
+stg push -n <n>
+</nowiki></pre>
+
 = Web =
 
 <<Anchor(RSS)>>
