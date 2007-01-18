@@ -83,6 +83,8 @@ egit than if core Git was used to push the same set of objects.
 A graphical history viewer similar to gitk or qgit, but in SWT/JFace so it can run within the Eclipse
 workbench.
 
+First version can propose a simple branch history viewer, based on the [http://versiontree.sourceforge.net/ Eclipse Version Tree Plugin for CVS].
+
 == Stacked GIT ==
 
 Stacked Git operations. 
