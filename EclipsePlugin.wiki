@@ -3,6 +3,6 @@ Roadmap of features: [[EclipsePluginWishlist]]
 = FAQ =
 == Documentation ==
 === What doc. for starting help? ===
-* [http://www.eclipse.org/eclipse/platform-team/ Eclipse platfor team]
+* [http://www.eclipse.org/eclipse/platform-team/ Eclipse platform team]
 
 __NOTOC__
