@@ -125,6 +125,19 @@ As it can be easily seen Git is faster than Mercurial in all tested areas except
 
 <b>Reference:</b> [http://lists.ibiblio.org/pipermail/sm-discuss/2006-May/014586.html |SM-Discuss| scm next steps] by Jeremy Blosser.
 
+== Diff comparison of Git, Mercurial and Bazaar-NG ==
+
+Tests were made on the whole Mozilla tree, with one-line change to one file. All numbers are best of 3 runs, back to back on the same mostly idle computer.
+
+ || <b>Operation</b>         ||`bzr (0.12.0c1)`||`hg (0.9)` ||`git (1.4.2.4)` ||
+ || diff (top level)        ||<)> 16.957      ||<)> 5.600  ||<)> 1.572       ||
+ || diff dom/               ||<)> 10.596      ||<)> 2.240  ||<)> 0.140       ||
+ || diff in dom             ||<)> 16.833      ||<)> 5.548  ||<)> 0.136       ||
+ || diff <i>changed file</i>   ||<)> 10.472      ||<)> 2.084  ||<)> 0.116       ||
+ || diff <i>unchanged file</i> ||<)> 10.012      ||<)> 2.024  ||<)> 0.088       ||
+
+<b>Reference:</b> [http://weblogs.mozillazine.org/jst/archives/2006/11/vcs_performance.html Jst's Blog: bzr/hg/git performance].
+
 = Repository size benchmarks =
 
 == Estimate size of Linux kernel repository ==
