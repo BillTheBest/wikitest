@@ -20,7 +20,7 @@ This page is meant to collect those ideas found in all existing patch-management
 
 [http://www.spearce.org/category/projects/scm/pg/ Pg] is a prototype tool whose latest version (0.1.7) experiments with the tracking of patch history.
 
-[http://www.kernel.org/git/?p=linux/kernel/git/jsipek/gq.git;a=summary gq] also emphasizes on the tracking of patch history, but in another way.
+[http://www.kernel.org/git/?p=linux/kernel/git/jsipek/guilt.git;a=summary guilt] (formerly [http://www.kernel.org/git/?p=linux/kernel/git/jsipek/gq.git;a=summary gq]) also emphasizes on the tracking of patch history, but in another way.
 
 == Layers above other VCS ==
 
