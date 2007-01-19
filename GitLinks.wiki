@@ -75,6 +75,7 @@ Miscelaneous git-related links, not including [http://git.or.cz/ Git homepage], 
 * [http://keithp.com/blog/Tyrannical_SCM_selection.html Tyrannical SCM selection] and [http://keithp.com/blog/Repository_Formats_Matter.html Repository Formats Matter] by Keith Packard, about moving X.Org from CVS to Git. (see also [http://www.selenic.com/mercurial/wiki/index.cgi/RepositoryFormatsMatter [[RepositoryFormatsMatter]] in the Mercurial wiki])
 * [http://blogs.gnome.org/view/mortenw/2007/01/07/0 10x+ Better Compression Than Gzip] by Morten Welinder shows size of git repository from archive of all released Gnumeric versions.
 * [http://tw.apinc.org/weblog/2007/01/03#subverting-git Tainted Words - Subverting git] by Steve Frécinaux talks about Git, SVN (Subversion) and git-svn.
+* [http://weblogs.mozillazine.org/jst/archives/2006/11/vcs_performance.html bzr/hg/git performance] on Jst's Blog compares diff (tree diff and file diff) performance of Bazaar-NG (`bzr`), Mercurial (`hg`) and Git (`git`).
 
 = Other version control software =
 
