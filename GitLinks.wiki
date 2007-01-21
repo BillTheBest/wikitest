@@ -33,6 +33,7 @@ Miscelaneous git-related links, not including [http://git.or.cz/ Git homepage], 
 * [http://lwn.net/ LWN.net] (Linux Weekly News)
   *[http://lwn.net/Articles/131657/ The guts of git]
   *[http://lwn.net/Articles/132796/ A very quick guide to starting with git]
+  *[http://lwn.net/Articles/210045/ Branching and merging with git (draft)]
 * [http://kerneltrap.org KernelTrap] (all pre 1.0 release):
   *[http://kerneltrap.org/node/4982 Managing the Kernel Source With 'git']
   *[http://kerneltrap.org/node/4998 Continued git Development]
