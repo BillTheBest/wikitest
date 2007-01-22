@@ -2,7 +2,9 @@ Java GIT/Eclipse GIT (by Shawn Pearce) is a Java GIT library and plugin for [htt
 
 Roadmap of features: [[EclipsePluginWishlist]]
 
-[http://www.spearce.org/projects/scm/egit.git Repository]
+= Links =
+* [http://www.spearce.org/projects/scm/egit.git Repository]
+* [http://repo.or.cz/w/egit.git gitweb] (clone)
 
 = Features =
 * Resource history view
