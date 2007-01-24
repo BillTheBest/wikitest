@@ -82,6 +82,11 @@ if you want to compare current repository with (in this example) cogito reposito
 <pre><nowiki>GIT_ALTERNATE_OBJECT_DIRECTORIES=../cogito/.git/objects git-diff-tree $(GIT_DIR=../cogito/.git git rev-parse --verify HEAD) HEAD
 </nowiki></pre>
 
+<<Anchor(git rm .)>>
+== How to remove all files which are missing from working directory? ==
+<pre><nowiki>git ls-files -z --deleted | git update-index -z --remove --stdin
+</nowiki></pre>
+
 = StGIT =
 
 <<Anchor(stg-rebase)>>
