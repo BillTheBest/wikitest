@@ -44,7 +44,7 @@
 == Graphical Interfaces ==
 
 <b>(h)gct</b><<Anchor(hgct)>>::
-    [[(h)gct]] ([http://www.cyd.liu.se/~freku045/gct/ homepage]) by Fredrik Kuivinen is a GUI enabled commit tool. It has support for both Git and Mercurial. Writtent in PyQt.  <i>Link appears to be broken.</i>
+    [[(h)gct]] ([http://repo.or.cz/w/hgct.git gitweb]) by Fredrik Kuivinen is a GUI enabled commit tool. It has support for both Git and Mercurial. Written in PyQt.
 
 <b>gitool</b><<Anchor(gitool)>>::
     [[gitool]] ([http://thread.gmane.org/gmane.comp.version-control.git/26415 announcement], [http://ozlabs.org/~paulus/gitool download], [http://www.kernel.org/git/?p=gitk/gitk.git;a=shortlog;h=new gitweb]) by Paul Mackerras is a tool for creating commits. Written in Tcl/Tk.
