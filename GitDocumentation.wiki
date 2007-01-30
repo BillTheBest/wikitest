@@ -13,7 +13,7 @@ give you an introduction to the basic workflows.
 * [[QuickStart]] covers most common used commands.
 * For a quick start,
  [http://www.kernel.org/pub/software/scm/git/docs/tutorial.html the tutorial]
- covers the basics. (NOTE: this is out of date, the first command it says to try 'git config ...' doesnt work)
+ covers the basics.
 
 * See [http://www.kernel.org/pub/software/scm/git/docs/everyday.html the Everyday Git handbook]
  for a useful minimum set of commands depending on your style of git usage.
