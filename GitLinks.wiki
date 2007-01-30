@@ -77,6 +77,7 @@ Miscelaneous git-related links, not including [http://git.or.cz/ Git homepage], 
 * [http://blogs.gnome.org/view/mortenw/2007/01/07/0 10x+ Better Compression Than Gzip] by Morten Welinder shows size of git repository from archive of all released Gnumeric versions.
 * [http://tw.apinc.org/weblog/2007/01/03#subverting-git Tainted Words - Subverting git] by Steve Frécinaux talks about Git, SVN (Subversion) and git-svn.
 * [http://weblogs.mozillazine.org/jst/archives/2006/11/vcs_performance.html bzr/hg/git performance] on Jst's Blog compares diff (tree diff and file diff) performance of Bazaar-NG (`bzr`), Mercurial (`hg`) and Git (`git`).
+* [http://qtdeveloper.net/archives/2007/01/30/fun-with-git/ Fun with Git] by Simon on [http://qtdeveloper.net/ QDevBlog - the ramblings of engineers] talks about import of the entire Qt mainline from Perforce (using unpublished fast-import script in Python) into git.
 
 = Other version control software =
 
