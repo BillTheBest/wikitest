@@ -10,7 +10,7 @@
 <<<!-- ! TOC here -->(2)>>
 ----
 <b>List of tools:</b>
- <span style="font-size: smaller">[[#Cogito Cogito]], [[#StGIT StGIT]], [[#pg pg]], [[#gq gq]], [[#isisetup IsiSetup]], [[#hgct (h)gct]], [[#gitool gitool]], [[#git-gui git-gui]], [[#tig tig]], [[#qgit QGit]], [[#gitk gitk]], [[#gitview GitView]], [[#gitweb gitweb]], [[#wit wit]], [[#gitarella gitarella]], [[#git-php git-php]], [[#cgit cgit]], [[#gittracker gittracker]], [[#git-browser git-browser]], [[#git.el git.el]], [[#Eclipse Eclipse]], [[#dirdiff dirdiff]], [[#git-xxximport other SCM import]], [[#git-cvsexportcommit git-cvsexportcommit]], [[#git-cvsserver git-cvsserver]], [[#git-svn git-svn]], [[#parsecvs parsecvs]], [[#cvs2git cvs2git]], [[#fromcvs fromcvs]], [[#git-svnconvert git-svnconvert]], [[#git-ucmimport git-ucmimport]], [[#quilt2git quilt2git]], [[#hg-to-git hg-to-git]], [[#Tailor Tailor]], [[#darcs-git Darcs-Git]], [[#colordiff colordiff]], [[#completion completion]], [[#ciabot CIAbot]], [[#git2rss git2rss]], [[#remapper remapper]], [[#gitfs gitfs]], [[#chronoversion chronoversion]], [[#schottelius unix.schottelius]]</span>
+ <span style="font-size: smaller">[[#Cogito Cogito]], [[#StGIT StGIT]], [[#pg pg]], [[#gq gq]], [[#isisetup IsiSetup]], [[#hgct (h)gct]], [[#qct Qct]], [[#gitool gitool]], [[#git-gui git-gui]], [[#tig tig]], [[#qgit QGit]], [[#gitk gitk]], [[#gitview GitView]], [[#gitweb gitweb]], [[#wit wit]], [[#gitarella gitarella]], [[#git-php git-php]], [[#cgit cgit]], [[#gittracker gittracker]], [[#git-browser git-browser]], [[#git.el git.el]], [[#Eclipse Eclipse]], [[#dirdiff dirdiff]], [[#git-xxximport other SCM import]], [[#git-cvsexportcommit git-cvsexportcommit]], [[#git-cvsserver git-cvsserver]], [[#git-svn git-svn]], [[#parsecvs parsecvs]], [[#cvs2git cvs2git]], [[#fromcvs fromcvs]], [[#git-svnconvert git-svnconvert]], [[#git-ucmimport git-ucmimport]], [[#quilt2git quilt2git]], [[#hg-to-git hg-to-git]], [[#Tailor Tailor]], [[#darcs-git Darcs-Git]], [[#colordiff colordiff]], [[#completion completion]], [[#ciabot CIAbot]], [[#git2rss git2rss]], [[#remapper remapper]], [[#gitfs gitfs]], [[#chronoversion chronoversion]], [[#schottelius unix.schottelius]]</span>
 -----
 <b>See also:</b>
 * [[InterfacesFrontendsAndToolsWishlist]]
@@ -45,6 +45,9 @@
 
 <b>(h)gct</b><<Anchor(hgct)>>::
     [[(h)gct]] ([http://repo.or.cz/w/hgct.git gitweb]) by Fredrik Kuivinen is a GUI enabled commit tool. It has support for both Git and Mercurial. Written in PyQt.
+
+<b>Qct</b><<Anchor(qct)>>::
+   [http://www.borho.org/~steve/qct.html Qct] ([http://hg.borho.org/qct hg repo]) by Steve Borho is Qt/PyQt based GUI commit tool, meant to be SCM and platform agnostic. Supports Mercurial (`hg`), Bazaar (`bzr`), Cogito / Git, Subversion (`svn`), Monotone and CVS.
 
 <b>gitool</b><<Anchor(gitool)>>::
     [[gitool]] ([http://thread.gmane.org/gmane.comp.version-control.git/26415 announcement], [http://ozlabs.org/~paulus/gitool download], [http://www.kernel.org/git/?p=gitk/gitk.git;a=shortlog;h=new gitweb]) by Paul Mackerras is a tool for creating commits. Written in Tcl/Tk.
