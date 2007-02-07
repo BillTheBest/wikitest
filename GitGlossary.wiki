@@ -95,6 +95,10 @@ This list is sorted alphabetically:
 	[[WikiPedia:Ent_(Middle-earth)|Ent at Wikipedia]] for an in-depth
 	explanation.
 
+; evil merge : <<Anchor(evil_merge)>>
+        An evil merge is a merge that introduces changes that do not appear
+        in any parent.
+
 ; fast forward : <<Anchor(fast_forward)>>
 	A <i>fast-forward</i> is a special type of [[#merge merge]] where you have
 	a [[#revision revision]] and you are "merging" another [[#branch branch]]'s changes
