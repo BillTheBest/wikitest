@@ -96,8 +96,8 @@ This list is sorted alphabetically:
 	explanation.
 
 ; evil merge : <<Anchor(evil_merge)>>
-        An evil merge is a merge that introduces changes that do not appear
-        in any parent.
+        An evil merge is a [[#merge merge]] that introduces changes that do not appear
+        in any [[#parent parent]].
 
 ; fast forward : <<Anchor(fast_forward)>>
 	A <i>fast-forward</i> is a special type of [[#merge merge]] where you have
