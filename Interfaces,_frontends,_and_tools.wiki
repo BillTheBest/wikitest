@@ -88,7 +88,7 @@
     [http://code.google.com/p/git-php/ git-php] is a PHP git web frontend created by Zack Bartel. The goal of git-php is a robust PHP web interface to git repositories. It is meant to be easily customizable through styles and the ability to be embedded into any PHP page. For example, creating a git repository viewer plug-in for your favorite PHP based CMS should be easy with git-php. It seems to be inspired by gitweb. See it at work at [http://zackb.org/git-php/git.php zackb.org].
 
 <b>cgit</b><<Anchor(cgit)>>::
-    [http://hjemli.net/git/cgit/ cgit] by Lars Hjemli is another web frontend for git. It is written in C and uses libgit.a and caching to reduce server load and io-pressure (see [http://hjemli.net/git/cgit/view/?id=a14418e8db8af0e239b524a0f37505e94f9993ba&path=README README]). You can clone it from `git://hjemli.net/pub/git/cgit` and browse the repo at [http://hjemli.net/git/ hjemli.net].
+    [http://hjemli.net/git/cgit cgit] by Lars Hjemli is a web frontend for git written in C. It uses libgit.a combined with caching to reduce server load and io-pressure (see [http://hjemli.net/git/cgit/view/?id=a14418e8db8af0e239b524a0f37505e94f9993ba&path=README README]). You can clone it from `git://hjemli.net/pub/git/cgit` or download the latest sources [http://hjemli.net/git/cgit/snapshot/?id=master&name=cgit-latest.zip here]. A few other git repositories are also available on [http://hjemli.net/git/ hjemli.net] 
 
 <b>gittracker</b><<Anchor(gittracker)>>::
     [http://www.tglx.de/cgi-bin/gittracker/about git tracker] by Thomas Gleixner is a GPL licenced project to track the history of Git repositories.
