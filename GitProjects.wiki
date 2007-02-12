@@ -108,6 +108,8 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * VLE - Virtual Laboratory Environment: a scientific project on multimodeling and simulation based on the DEVS (discrete event system specification) paradigm.
 ** http://vle.univ-littoral.fr
 ** http://vle.univ-littoral.fr/gitweb
+* [http://www.banu.com/ Banu] (free software projects such as Gum)
+** https://projects.banu.com/ (repository, gitweb)
 * GNU LilyPond (program to format music notation)
 ** http://www.lilypond.org/web/devel/participating/ (contributing web page)
 ** http://git.sv.gnu.org/gitweb/?p=lilypond.git (gitweb)
