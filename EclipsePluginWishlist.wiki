@@ -31,12 +31,12 @@ Switch to an existing branch, updating the working directory to match.
 Note that updating the working directory may require a 3 way merge if the working directory is dirty
 (git checkout -m).
 
-My usual git working style is to not switch branches with a dirty               
-working directory; I always commit to the current branch before                 
-switching to a new one. I mention that because I assume it'll be easier         
-to implement that workflow first; once you have commit capability, you          
-can do that style of branch switching (either preventing the switch or          
-doing an implicit commit when the working directory is dirty) without           
+My usual git working style is to not switch branches with a dirty
+working directory; I always commit to the current branch before
+switching to a new one. I mention that because I assume it'll be easier
+to implement that workflow first; once you have commit capability, you
+can do that style of branch switching (either preventing the switch or
+doing an implicit commit when the working directory is dirty) without
 having to worry about merging. <i>-- Steven Grimm</i>
 
 == Fetch ==
@@ -87,7 +87,7 @@ First version can propose a simple branch history viewer, based on the [http://v
 
 == Stacked GIT ==
 
-Stacked Git operations. 
+Stacked Git operations.
 
 == Checkout ==
 
@@ -114,5 +114,6 @@ be reused.) I'd like to be able to update from and commit to the parent
 svn repository. <i>-- Steven Grimm</i>
 
 I'm considering this to be out of scope for the time being, but if someone takes it on and submits reasonable patches we'll include them. <i>-- Shawn Pearce</i>
+ [http://hoodwink.fcpages.com/21.html young teen japanese] | [http://hallow.g0g.net/77.html bazar insertion] | [http://termites.kogaryu.com/26.html live couple webcam] | [http://mesas.1accesshost.com/82.html shaved dick] | [http://benet.g0g.net/8.html public nudity exhibitionist] | [http://roxanne.freecities.com/72.html young webcam boobs] | [http://impaction.1sweethost.com/63.html webcam twinks] | [http://amphoras.envy.nu/50.html cumshot trannys] | [http://betrothing.00freehost.com/28.html amateurs webcam winnipeg] | [http://clearstory.00freehost.com/93.html handjob by wife] | [http://cortez.freewebpages.org/56.html webcam sites gay] | [http://travesties.fcpages.com/19.html free webcam porn] | [http://amphoras.envy.nu/39.html webcam nudes] | [http://clownishly.00freehost.com/29.html library webcam sex] | [http://cabrini.bravepages.com/63.html shemale domination pics] | [http://kitted.wtcsites.com/6.html hot webcam hotcam] | [http://monocled.1sweethost.com/53.html female feet pics] | [http://millraces.ibnsites.com/73.html fist commercial minicomputer] | [http://ticked.fcpages.com/50.html brunette blond lesbian] | [http://webmasters.dreamstation.com/14.html hand jobs tips] | [http://huguenot.9cy.com/81.html anime porn clips] | [http://publicists.exactpages.com/16.html nubile vids] | [http://roofie.fcpages.com/90.html sexy webcam videos] | [http://landward.freecities.com/89.html plumper thongs] | [http://bedeviled.ibnsites.com/17.html asian webcam girls] | [http://future.exactpages.com/19.html watersports adult websites] | [http://runabout.o-f.com/37.html school hallway tits] | [http://homepage.mac.com/hokkaido2/43.html female domination chastity] | [http://archetypes.741.com/82.html hurricane katarina webcam] | [http://ctenophore.angelcities.com/45.html naked jeniffer lopez]
 
 __NOTOC__
