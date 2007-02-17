@@ -192,9 +192,9 @@ Do
 and then follow it up with
 <pre><nowiki>git repack -a -d -l
 </nowiki></pre>
-where the '-l' means that it will only put <i>local</i> objects in the
-pack-file (strictly speaking, it will put any loose objects from the
-alternate tree too, so you'll have a fully packed archive, but it won't
+where the '-l' means that it will only put <i>local</i> objects in the 
+pack-file (strictly speaking, it will put any loose objects from the 
+alternate tree too, so you'll have a fully packed archive, but it won't 
 duplicate objects that are already packed in the alternate tree).
 
 <<Anchor(gitignore)>>
@@ -381,6 +381,5 @@ Take a look at
 
 ----
 [[CategoryGitDocumentation]]
- [http://epaulet.1accesshost.com/15.html hot black fuck] | [http://bawd.bravepages.com/1.html taz cartoon clip] | [http://runabout.o-f.com/15.html pantyhose bbs] | [http://amphoras.envy.nu/90.html hot nude webcam] | [http://bellman.wtcsites.com/6.html teen girl webcams] | [http://grumbles.kogaryu.com/75.html orgasm male girl] | [http://inspirer.envy.nu/30.html nude webcam free] | [http://expletives.100freemb.com/97.html gaza strip webcam] | [http://militated.g0g.net/2.html average dick size] | [http://homepage.mac.com/islam2/95.html steamy latin sex] | [http://hemostatic.freewebpages.org/85.html robbs celebrity photos] | [http://handed.dreamstation.com/86.html training oral] | [http://undreamt.greatnow.com/85.html asian bukkake pictures] | [http://ejaculates.wtcsites.com/61.html butt grab] | [http://abdomen.freewebpages.org/86.html teen pussy webcam] | [http://tippler.1sweethost.com/69.html strip on webcam] | [http://homepage.mac.com/docilities/91.html transsexual female impersonator] | [http://ipecacs.150m.com/ busty redhead webcam] | [http://festally.1accesshost.com/36.html wet spring break] | [http://rehabbing.1sweethost.com/28.html girls on webcams] | [http://catechise.freecities.com/65.html webcam sex website] | [http://centimes.100freemb.com/14.html horny girls webcam] | [http://maneating.1sweethost.com/74.html extended your ejaculation] | [http://fluctuant.wtcsites.com/62.html fuck teen webcam] | [http://maneating.1sweethost.com/68.html avi mpg joiner] | [http://mackintosh.greatnow.com/86.html girl strips webcam] | [http://hammocks.angelcities.com/84.html webcam girlfriends] | [http://cortez.freewebpages.org/13.html hot thong webcam] | [http://fluctuant.wtcsites.com/60.html fatty bum] | [http://mightily.dreamstation.com/38.html gloryhole sex movie] | [http://homepage.mac.com/wrestler1/66.html lesbians porno] | [http://jewelries.exactpages.com/19.html oromaxillary facial surgery] | [http://electrode.100freemb.com/43.html college skinny dipping] | [http://raiments.envy.nu/78.html webcam nipples] | [http://reconnect.00freehost.com/86.html girl webcam pics] | [http://roxanne.freecities.com/17.html grand lido-negril-webcam] | [http://lubricous.freewebsitehosting.com/67.html nude latin teen] | [http://bespeaks.100freemb.com/72.html grandma sex grandson] | [http://homepage.mac.com/docilities/64.html new trannie] | [http://homepage.mac.com/fiercer1/59.html shaved pussy movie] | [http://unbuckle.150m.com/62.html naked webcam pic] | [http://homepage.mac.com/islam2/92.html nude butt guy] | [http://millraces.ibnsites.com/91.html boobs kissing] | [http://showboat.150m.com/85.html mature ebony bbw] | [http://diademed.bravepages.com/35.html brunette hand job]
 
 __NOTOC__
