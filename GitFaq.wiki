@@ -111,7 +111,7 @@ Because it got merged into git. See
 <<Anchor(git-crlf)>>
 == Does git convert between CRLF and LF for different platforms? ==
 
-No, at least not as of today. All files are considered byte sequences and no transformations are performed.
+No, at least not as of today. All files are considered byte sequences and no transformations are performed. However, it is being worked on. Watch out for this in one of the next versions.
 
 <<Anchor(git-keywords)>>
 == Does git have keyword expansion? ==
