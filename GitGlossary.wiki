@@ -1,4 +1,4 @@
-This list is sorted alphabetically:
+<u style="display: none;">... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... no changes ... <a href='http://www.ringtones-dir.net'>free ringtones</a> : [http://www.ringtones-dir.net download ringtones] - [HTTP://www.ringtones-dir.net download ringtones] : [nokia ringtones|http://www.ringtones-dir.net] - [nokia ringtones|HTTP://www.ringtones-dir.net] : http://www.ringtones-dir.net/download/ : [[http://www.ringtones-dir.net ring tones]] : [[http://www.ringtones-dir.net | ringtones download]] : "samsung ringtones" http://www.ringtones-dir.net : [http://www.ringtones-dir.net|ringtones free] </u>This list is sorted alphabetically:
 
 ; alternate object database : <<Anchor(alternate_object_database)>>
 	Via the <i>alternates mechanism</i>, a [[#repository repository]] can inherit part of its
@@ -364,6 +364,6 @@ $ git push $URL refs/heads/master:refs/heads/to-upstream</nowiki></pre>
 * Glossary [http://www.kernel.org/git/?p=git/git.git;a=blob;hb=HEAD;f=Documentation/glossary.txt source], HEAD version (in [[AsciiDoc]]).
 
 ----
-[[CategoryGitDocumentation]]
+[[CategoryGitDocumentation]] [[CategoryGitHomepage]]
 
 __NOTOC__
