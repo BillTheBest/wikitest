@@ -1,7 +1,7 @@
 Currently GIT is only supported on Windows within a Cygwin environment. While this works well, there are several efforts that aim to provide a more <i>native</i> GIT on Windows.
 
 These efforts are
-* MinGW-based recompilation
+* [http://repo.or.cz/w/git/mingw.git MinGW-based recompilation]
 * EclipseIDE-based GIT client, based on a pure Java implmentation of GIT's internals.
 * A libgit + cygwin.dll Windows Explorer extension (perhaps based on TortoiseSVN)
 
@@ -14,16 +14,14 @@ If you have the main development team on linux/unix, and peripheral developers o
 
 You will need to install cygwin and the following packages to be able to build git:
 
-* rcs (for merge)
-* python (for merge-recursive, though merge-recur is a *huge* win)
-* wish (for gitk)
+* wish (for gitk and git-gui)
 * perl
 * openssh
 * openssl (and -dev)
 * libiconv
 * zip (and -dev)
-* curl (and -dev)
-* expat (and -dev)
+* curl (and -dev), optional if compiled with NO_CURL=1
+* expat (and -dev), optional if compiled with NO_CURL=1
 * make
 * gcc
 * binutils (sorta necessary to compile!)
@@ -32,6 +30,7 @@ You will need to install cygwin and the following packages to be able to build g
 * xmlto to build the man pages
 * util-linux: just to have getopt (required by xmlto)
 * asciidoc to build documents (http://www.methods.co.nz/asciidoc/INSTALL.html)
+* python to build documents
 
 With these packages installed download the git source package from the git homepage and then unpack it with:
 
@@ -55,11 +54,8 @@ You are now ready to use GIT. Check that your path includes ~/bin and you are of
 == Extra notes ==
 
 * Use git on local NTFS disks -- Network drives disks don't support the filesystem semantics GIT needs.
-* To use git on a local FAT32 disk, export NO_MMAP=1 -- see the email thread "Can git be tweaked to work cross-platform, on FAT32?" http://marc.theaimsgroup.com/?t=116602585500004&r=1&w=2
 * Be careful with the case in filenames. Similarly, avoid special chars in filenames. 
-* Run git repack -a -d early and often. There are slowdowns with many unpacked objects.
-* As of version 1.4.x, export GIT_USE_RECUR_FOR_RECURSIVE=1 to replace Python-based git-merge-recursive with a much faster C implementation. Later versions will probably have the C version as default. 
-* gitk has some pane layout problems. Try resizing the window. Try deleting your .gitk file.
+* Run git gc early and often. There are slowdowns with many unpacked objects.
 * Avoid using ActivePerl if possible. Ask in the [[MailingLists]] if you must.
 * Try to avoid interrupting (Ctrl-C) processes - it breaks cygwin.
 * Consider setting core.fileMode to false (git repo-config core.fileMode false) if file modes are frequently the only differences detected by Git.  Many Windows applications make the execute bit be set in Cygwin when they save a file.
