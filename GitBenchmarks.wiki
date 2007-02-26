@@ -161,4 +161,14 @@ in size on average.
 
 <b>Reference:</b> Nicolas Pitre's [http://permalink.gmane.org/gmane.comp.version-control.git/21531 email] on [[GitCommunity|[[GitMailingList]]]]
 
+== Pack size vs number of commits of git repository ==
+
+Fitting linear function to the size of pack (created <code><nowiki>git pack-objects</nowiki></code>) versus number of commit (number of lines returned by <code><nowiki>git rev-list $commit</nowiki></code>) for git repository (which is repository which starts from scratch, from two files, and not is imported project) gives around 1.2 kB per revision (per commit); 1.35 KB per revision if we add index size into account. The size of (gzipped) checkout is not substracted. Only mainline is taken into account.
+
+ slope = 1.25 kB / revision (for git.git repository)
+
+<b>Reference:</b> 
+ [http://img522.imageshack.us/my.php?image=gitgitpacksizefullgq3.png http://img522.imageshack.us/img522/6973/gitgitpacksizefullgq3.th.png] <<BR>>
+<i>(click on thumbnail to go to the plot)</i>
+
 __NOTOC__
