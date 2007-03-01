@@ -1,0 +1,17 @@
+Project ideas suggested on the Git mailing list for Google's Summer of Code 2007:
+
+* Checkout hooks (David Lang, privately suggested).
+* More complete tests (Johannes Schindelin [http://article.gmane.org/gmane.comp.version-control.git/40801 on gmane]).
+* Apply sparse to fix errors; even better teach sparse how to fix common errors, and use sparse to fix them (Johannes Schindelin [http://article.gmane.org/gmane.comp.version-control.git/40801 on gmane]).
+* Make more tools builtin (convert existing shell scripts to C) (Johannes Schindelin [http://article.gmane.org/gmane.comp.version-control.git/40801 on gmane]).
+* Make it so that one .exe click-and-install would make the full power of git available on Windows (Andy Parkins [http://article.gmane.org/gmane.comp.version-control.git/40904 on gmane]).
+* Subproject/submodule support (Raimund Bauer [http://article.gmane.org/gmane.comp.version-control.git/40911 on gmane]).
+* much talked on (and even with two different independent implementations) _subproject (submodule) support_, which would certainly help using git for large modular projects like KDE, Mozilla or distributions (Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031]).
+* lightweight checkout aka. .gitlink idea, to have file which would point to object directory, refs directory, index file and current branch file. It could help submodule support. (Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031]).
+* partial/sparse checkouts, where you can checkout for example only Documentation directory, work on it, but commit full tree. Sometimes it better suits than using submodules (Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031]).
+* gitweb caching and other gitweb improvements: bringing together all gitweb implementations. Perhaps gitweb maintainer could come of it. Or at least gitweb admin for kernel.org (Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031]).
+* ibification (Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031]).
+* lazy clone aka remote alternates (Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031]).
+* Complete the Eclipse plugin (Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031]).
+
+__NOTOC__
