@@ -21,7 +21,7 @@
 == Version Control Interface layers ==
 
 <b><u>Core Git</u></b> (in distribution)::
-    Core Git contains a set of script on the top of [[Git]] plumbing, providing version control system interface, distributed along the Git itself. It is quite powerful, but rather unfriendly.
+    Core Git contains a set of script on the top of [[Git]] plumbing, providing version control system interface, distributed along the Git itself. It also bundles stable versions of [[#git-gui git-gui]] and [[#gitk gitk]].
 
 <b>Cogito</b><<Anchor(Cogito)>>::
     [[Cogito]] is the most popular version control system on top of Git. It aims at seamless user interface and ease of use, providing generally smoother user experience than the "raw" Git interface and indeed also many other version control systems.
@@ -35,25 +35,16 @@
     [[StGIT]] ([http://www.procode.org/stgit/ homepage]) provides a Quilt-like patch management functionality (i.e. pushing/popping patches to/from a stack) in the Git environment. You can easily manage your patches in the scope of Git until they get merged upstream. <<BR>>
     <b>See also</b>: [http://savannah.nongnu.org/projects/quilt/ Quilt project page].
 
-<b>Patchy Git (pg)</b><<Anchor(pg)>>::
-    [[pg]] ([http://www.spearce.org/category/projects/scm/pg/ homepage]) by Shawn Pearce aims to help the user manage a set of patches on top of the current branch. pg is somewhat like Quilt or StGIT, but it does have a slightly different feature set.  <i>Note that pg is no longer being actively developed.</i>
-
 <b>Guilt (formerly Git Queues (gq))</b><<Anchor(guilt)>>::
     [[guilt]] ([http://www.kernel.org/pub/linux/kernel/people/jsipek/guilt/ download], [http://www.kernel.org/git/?p=linux/kernel/git/jsipek/guilt.git;a=summary gitweb]) by Josef "Jeff" Sipek is a series of bash scripts which add a [http://www.selenic.com/mercurial/wiki/index.cgi/MqExtension Mercurial queues]-like functionality and interface to git. The one distinguishing feature from other Quilt-like porcelains, is the format of the patches directory. All the information is stored as plain text - a series file and the patches (one per file). This easily lends itself to versioning the patches using any number of of SCMs.
 
+<b>Patchy Git (pg)</b><<Anchor(pg)>>::
+    [[pg]] ([http://www.spearce.org/category/projects/scm/pg/ homepage]) by Shawn Pearce aims to help the user manage a set of patches on top of the current branch. pg is somewhat like Quilt or StGIT, but it does have a slightly different feature set.  <i>Note that pg is no longer being actively developed.</i>
+
 == Graphical Interfaces ==
 
-<b>(h)gct</b><<Anchor(hgct)>>::
-    [[(h)gct]] ([http://repo.or.cz/w/hgct.git gitweb]) by Fredrik Kuivinen is a GUI enabled commit tool. It has support for both Git and Mercurial. Written in PyQt.
-
-<b>Qct</b><<Anchor(qct)>>::
-   [http://www.borho.org/~steve/qct.html Qct] ([http://hg.borho.org/qct hg repo]) by Steve Borho is Qt/PyQt based GUI commit tool, meant to be SCM and platform agnostic. Supports Mercurial (`hg`), Bazaar (`bzr`), Cogito / Git, Subversion (`svn`), Monotone and CVS.
-
-<b>gitool</b><<Anchor(gitool)>>::
-    [[gitool]] ([http://thread.gmane.org/gmane.comp.version-control.git/26415 announcement], [http://ozlabs.org/~paulus/gitool download], [http://www.kernel.org/git/?p=gitk/gitk.git;a=shortlog;h=new gitweb]) by Paul Mackerras is a tool for creating commits. Written in Tcl/Tk.
-
 <b>git-gui</b><<Anchor(git-gui)>>::
-    [[git-gui]] ([http://permalink.gmane.org/gmane.comp.version-control.git/31054 announcement], [http://repo.or.cz/w/git-gui.git gitweb]) by Shawn Pearce is a tool for creating commits, inspired and based on gitool. Written in Tcl/Tk.
+    [[git-gui]] ([http://permalink.gmane.org/gmane.comp.version-control.git/31054 announcement], [http://repo.or.cz/w/git-gui.git gitweb]) by Shawn Pearce is a tool for creating commits and managing branches.  It was inspired by and initially based on [[#gitool gitool]]. Written in Tcl/Tk.  Stable versions are shipped with Core Git since version 1.5.
 
 <b>tig (Text-mode Interface for Git)</b><<Anchor(tig)>>::
     [[tig]] ([http://jonas.nitro.dk/tig/ homepage]) by Jonas Fonseca is a simple git repository browser written using ncurses. Basically, it just acts as a front-end for `git-log` and `git-show`/`git-diff`. Additionally, you can also use it as a pager for git commands.
@@ -68,6 +59,15 @@
 
 <b>gitview</b> (in `contrib/`)<<Anchor(gitview)>>::
      [[GitView]] is a GTK based repository browser for git written in Python by Aneesh Kumar K.V. It  can be found in `contrib/` directory of Git source tree.
+
+<b>(h)gct</b><<Anchor(hgct)>>::
+    [[(h)gct]] ([http://repo.or.cz/w/hgct.git gitweb]) by Fredrik Kuivinen is a GUI enabled commit tool. It has support for both Git and Mercurial. Written in PyQt.
+
+<b>Qct</b><<Anchor(qct)>>::
+   [http://www.borho.org/~steve/qct.html Qct] ([http://hg.borho.org/qct hg repo]) by Steve Borho is Qt/PyQt based GUI commit tool, meant to be SCM and platform agnostic. Supports Mercurial (`hg`), Bazaar (`bzr`), Cogito / Git, Subversion (`svn`), Monotone and CVS.
+
+<b>gitool</b><<Anchor(gitool)>>::
+    [[gitool]] ([http://thread.gmane.org/gmane.comp.version-control.git/26415 announcement], [http://ozlabs.org/~paulus/gitool download], [http://www.kernel.org/git/?p=gitk/gitk.git;a=shortlog;h=new gitweb]) by Paul Mackerras is a tool for creating commits. Written in Tcl/Tk.
 
 == Web Interface ==
 
@@ -140,7 +140,7 @@
 
     Jon Smirl [http://news.gmane.org/find-root.php?message_id=%3c9e4733910611190940y147992b8mbdfac5a51f42e0fe%40mail.gmail.com%3e stopped working on cvs2git] because first, Mozilla (which was main target of his work) decided that to not to move to git, and second because of troubles with cvs2svn architecture (which it is based on).  Jon Smirl has posted his impressions on working on CVS importer in [http://marc.theaimsgroup.com/?t=116405956000001&r=1&w=2 Some tips for doing a CVS importer] thread.     
 
-    Shawn Pearce [http://repo.or.cz/w/git/fastimport.git git-fastimport] is available as one of [http://repo.or.cz/w/git.git?a=forks git.git forks] at [http://repo.or.cz/ repo.or.cz] public Git repository.
+    Shawn Pearce [http://repo.or.cz/w/git/fastimport.git git-fastimport] is available as one of [http://repo.or.cz/w/git.git?a=forks git.git forks] at [http://repo.or.cz/ repo.or.cz] public Git repository.  Stable versions of git-fast-import are bundled with Core Git, since version 1.5.
 
 <b>fromcvs/togit</b> <<Anchor(fromcvs)>>::
     [http://ww2.fs.ei.tum.de/~corecode/hg/fromcvs fromcvs] by Simon 'corecode' Schubert is a conversion tool ment convert from CVS to multiple SCMs.  At the moment there is a git and a hg output and a sqlite output for quick CVS changeset navigation.  For the cvs->git conversion, git-fast-import by Shawn Pearce is needed (see above).  fromcvs handles branches (though no tags yet), including native support for vendor branches.  Incremental operation should work, but was not yet tested extensively.  Conversion speed should be well above 10 changesets per second on common hardware.  fromcvs/togit can take advantage of two CPUs.
