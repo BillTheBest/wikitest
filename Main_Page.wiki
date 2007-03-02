@@ -31,6 +31,7 @@ webmaster takes patches) and obviously the stock documentation:
 * See the [[GitFaq]] page for frequently asked questions.
 * See the [[GitTips]] page for tips on how to get the most out of git.
 * See the [[GitCommonMistakes]] page to avoid common pitfalls encountered when switching to git.
+* See some [[ExampleScripts]] how you can script around core Git to achieve just about anything.
 
 == Additional Information ==
 * See the [[GitHistory]] for a bit of history, inspirations and design decisions.
