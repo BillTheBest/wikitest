@@ -1,0 +1,102 @@
+<!-- #format wiki
+ -->
+<!-- #language en
+ -->
+<!-- #pragma section-numbers off
+ -->
+= Example scripts =
+
+Often, new users request a new feature of Git, which is very easy to do in a script. In fact, most of Git's user interface originated as a bash or Perl script. As a consequence, the interfaces of core Git programs (e.g. `rev-list` or `diff-tree`) are quite easy to use from scripts.
+
+== git log ==
+
+For example, the command `git log` originally looked like this:
+
+<pre><nowiki>
+#!/bin/sh
+. git-sh-setup-script || die "Not a git archive"
+git-rev-list --pretty $(git-rev-parse --default HEAD "$@") | LESS=-S ${PAGER:-less}
+</nowiki></pre>
+
+(To see that this is true, just say `git show v0.99:git-log-script`.)
+
+The basic concept of these scripts was to parse the options with `git-rev-parse`, possibly filtering just the revision parameters, or just the flags, and then call `git-rev-list` on the revisions.
+
+== Sorting commits by commit message line count / changed lines ratio ==
+
+With Git, it is easy to write long, meaningful commit messages. Sometimes, the messages contain even more lines than are touched by the patch! You can illustrate that by listing all commits with the ratio between the commit message line count and the amount of lines added/deleted by the commit.
+
+In the following script, three core Git programs are used: `rev-list`, `cat-file` and (not so core) `diff`.
+
+* `rev-list` shows the object names of a range of commits. In this example, the range is defined by "next", i.e. the tip of the branch called "next" and all its ancestors. To prevent merge commits from being shown, `rev-list` is called with the option "--no-merges".
+* `cat-file` shows the raw content of an object. In this example, it shows the raw commit message. Such a message contains a header, defining which ancestors a commit has, and its tree, among other metadata. An empty line separates the header from the actual commit message.
+* `diff` shows the changes between two objects. In this example, it shows the changes between a commit and its parent.
+
+There are two functions to get the line counts, `count_lines_in_message` and `count_changed_lines`, and the main loop. This loop reads one object name from `rev-list` after another, storing the information in a hash, which is put into the array "@array". After sorting "@array", the elements are shown, one per line.
+
+<pre><nowiki>
+#!/usr/bin/perl
+
+sub count_lines_in_message ($) {
+        my $sha1 = $_[0];
+        open COMMIT, "git cat-file -p $sha1 |";
+        my $header = 1;
+        my $count = 0;
+        while (<COMMIT>) {
+                if (!$header) {
+                        $count++;
+                } elsif (/^$/) {
+                        $header = 0;
+                }
+        }
+        close(COMMIT);
+        return $count;
+}
+
+sub count_changed_lines ($) {
+        my $sha1 = $_[0];
+        open DIFF, "git diff $sha1^..$sha1 |";
+        $count = 0;
+        while (<DIFF>) {
+                if (/^[\+\-]/) {
+                        $count++;
+                }
+        }
+        close(DIFF);
+        return $count;
+}
+
+@commits = ();
+
+open IN, "git rev-list --no-merges next |";
+while (<IN>) {
+        if (/^([0-9a-f]{40})/) {
+                $commit = $1;
+                $count_message = count_lines_in_message($commit);
+                $count_diff = count_changed_lines($commit);
+                if ($count_diff == 0) {
+                        $ratio = 1e9;
+                } else {
+                        $ratio = $count_message / $count_diff;
+                }
+                push(@commits, {
+                        'ratio' => $ratio,
+                        'sha1' => $commit,
+                        'message' => $count_message,
+                        'diff' => $count_diff
+                });
+        }
+}
+
+@commits = sort {$b->{ratio} cmp $a->{ratio>> @commits;
+
+for ($i = 0; $i <= $#commits; $i++) {
+        my $c = $commits[$i];
+        print substr($c->{sha1}, 0, 8) . "... " . $c->{message} . " / "
+                . $c->{diff} . " = " . $c->{ratio} . "\n";
+}
+</nowiki></pre>
+----
+[[CategoryGitDocumentation]]
+
+__NOTOC__
