@@ -58,7 +58,7 @@ sub count_changed_lines ($) {
         open DIFF, "git diff $sha1^..$sha1 |";
         $count = 0;
         while (<DIFF>) {
-                if (/^[\+\-]/) {
+                if (/^[\+\-]/ && !/^(\+\+\+|---)/) {
                         $count++;
                 }
         }
