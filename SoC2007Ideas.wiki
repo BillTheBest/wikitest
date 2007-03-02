@@ -10,7 +10,7 @@ Project ideas suggested on the Git mailing list for Google's Summer of Code 2007
 * lightweight checkout aka. .gitlink idea, to have file which would point to object directory, refs directory, index file and current branch file. It could help submodule support. (Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031 on gmane]).
 * partial/sparse checkouts, where you can checkout for example only Documentation directory, work on it, but commit full tree. Sometimes it better suits than using submodules (Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031 on gmane]).
 * gitweb caching and other gitweb improvements: bringing together all gitweb implementations. Perhaps gitweb maintainer could come of it. Or at least gitweb admin for kernel.org (Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031 on gmane]).
-* ibification (Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031 on gmane]).
+* libification (make more parts of libgit.a reentrant by removing static variables, avoid dying e.g. when malloc() fails, etc.) (Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031 on gmane]).
 * lazy clone aka remote alternates (Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031 on gmane]).
 * Complete the Eclipse plugin (Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031 on gmane]).
 
