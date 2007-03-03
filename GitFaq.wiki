@@ -98,8 +98,6 @@ showing renames outside limit), but on git mailing list there was patch to add
 * [http://permalink.gmane.org/gmane.comp.version-control.git/217 Mail] by
  Linus on this topic.
 
-== How to set up a git server? ==
-== How to create the first project? ==
 == How come gitweb suddenly dissapeared from the project list at kernel.org/git? ==
 Because it got merged into git. See
 [http://kernel.org/git/?p=git/git.git;a=commit;h=0a8f4f0020cb35095005852c0797f0b90e9ebb74 the relevant commit].
@@ -269,6 +267,7 @@ $ merge src/util/endian.h endian.h-1 endian.h-3
 
 Once you come up with the desired state in your file (`src/util/endian.h` in our example), then you have to inform Git that file was renamed, i.e. say "<code><nowiki>git update-index --remove util/endian.h</nowiki></code>" in our example (removing the file from working directory as well, if it exist there) and then "<code><nowiki>git update-index src/util/endian.h</nowiki></code>" (you should have it already in the index, so you do not have to say `--add`).
 
+<<Anchor(view-old-rev)>>
 == How to view an old revision of a file without checking out the file? ==
 
 Something like the following:
@@ -283,6 +282,7 @@ git cat-file -p tags/v1.4.3:git.c
 git cat-file -p f5f75c652b9c2347522159a87297820103e593e4:git.c
 </nowiki></pre>
 
+<<Anchor(fix-broken-repo)>>
 == How to fix a broken repository? ==
 
 As Linus said (see [http://thread.gmane.org/gmane.comp.version-control.git/40893/focus=40896]):
@@ -317,6 +317,21 @@ somewhat more length before, but I'm too lazy to find it):
 And remember: git does _not_ make backups pointless. It hopefully makes 
 backups *easy* (since cloning and pulling is easy), but the basic need for 
 backups does not go away!"
+
+<<Anchor(set-up-repo)>>
+== How to set up a git server? ==
+
+Look for "Repository Administration" in the
+[http://git.kernel.org/?p=git/git.git;a=blob;f=Documentation/everyday.txt;hb=HEAD everyday git document].
+
+To setup a git server over http, see
+[http://git.kernel.org/?p=git/git.git;a=blob;f=Documentation/howto/setup-git-server-over-http.txt;hb=HEAD the relevant document].
+
+<<Anchor(create-project)>>
+== How to create the first project? ==
+
+See the 
+[http://git.kernel.org/?p=git/git.git;a=blob;f=Documentation/tutorial.txt;hb=HEAD tutorial].
 
 = Error diagnostic =
 
