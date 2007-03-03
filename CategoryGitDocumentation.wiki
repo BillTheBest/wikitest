@@ -1,7 +1,17 @@
-HaCKeD By ErD@L 
+<!-- #format wiki
+ -->
+<!-- #language en
+ -->
 
-Ph JackaL AlganX [[PanZehir]] MezaRKabuL dænte Manasiyok GoDOfHaCk [[DanYaLL]] ZBiDy [[MctaLebe]] [[LoneLy]].antaLya SÆRH@T
+This is category for pages which are [[GitDocumentation]], i.e. pages which are equivalent, or could end in the `Documentation/` directory in [[Git]] repository (as separate file, or as part of manpage, or as part of some tutorial).
 
-Kruis [[PeaCeR]] weBmasTer Yagmurcu  YaduriS  Ogantitan
+To add a page to this category, add a link to this page on the last line of the page. You can add multiple categories to a page.
+
+<b>List of pages in this category:</b>
+
+<<[[FullSearch]]()>>
+
+----
+[[CategoryCategory]]
 
 __NOTOC__
