@@ -1,4 +1,4 @@
-Project ideas suggested on the Git mailing list for Google's Summer of Code 2007:
+Project ideas suggested on the Git mailing list for Google's Summer of Code 2007 (please add the name of the person who suggested it, as SoC projects need a mentor):
 
 * Checkout hooks (David Lang, privately suggested).
 * More complete tests (Johannes Schindelin [http://article.gmane.org/gmane.comp.version-control.git/40801 on gmane]).
@@ -13,6 +13,6 @@ Project ideas suggested on the Git mailing list for Google's Summer of Code 2007
 * libification (make more parts of libgit.a reentrant by removing static variables, avoid dying e.g. when malloc() fails, etc.) (Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031 on gmane]).
 * lazy clone aka remote alternates (Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031 on gmane]).
 * Complete the Eclipse plugin (Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031 on gmane]).
-* A new merge strategy "merge-blame".  By running "git-blame -C $ancestor..$other -- $path", you can find $path contains pieces from other paths (it could be a single other path, in which case you found a wholesale rename).  Then you can run "git-diff $ancestor..$mine -- $other_path" for each of these paths to find out if our branch changes the parts of them and how.  By incorporating these changes you can come up a merged $path that reflects changes made to other paths, in other words, tracking code movements.
+* A new merge strategy "merge-blame".  By running "git-blame -C $ancestor..$other -- $path", you can find $path contains pieces from other paths (it could be a single other path, in which case you found a wholesale rename).  Then you can run "git-diff $ancestor..$mine -- $other_path" for each of these paths to find out if our branch changes the parts of them and how.  By incorporating these changes you can come up a merged $path that reflects changes made to other paths, in other words, tracking code movements (??? Anynomously added to the Wiki; was not suggested on the mailing list or on IRC).
 
 __NOTOC__
