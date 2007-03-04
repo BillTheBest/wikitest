@@ -322,7 +322,7 @@ backups does not go away!"
 == How to set up a git server? ==
 
 Look for "Repository Administration" in the
-[http://www.kernel.org/pub/software/scm/git/docs/everyday.html#Repository+Administration everyday git document].
+[http://www.kernel.org/pub/software/scm/git/docs/everyday.html#Repository%20Administration everyday git document].
 
 To setup a git server over http, see
 [http://www.kernel.org/pub/software/scm/git/docs/howto/setup-git-server-over-http.txt the relevant document].
