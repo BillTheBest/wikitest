@@ -285,7 +285,7 @@ git cat-file -p f5f75c652b9c2347522159a87297820103e593e4:git.c
 <<Anchor(fix-broken-repo)>>
 == How to fix a broken repository? ==
 
-As Linus said (see [http://thread.gmane.org/gmane.comp.version-control.git/40893/focus=40896]):
+As Linus said ([http://thread.gmane.org/gmane.comp.version-control.git/40893/focus=40896 on gmane]):
 
 "Generally, the best way to fix things is (I've written this up at 
 somewhat more length before, but I'm too lazy to find it):
@@ -322,16 +322,16 @@ backups does not go away!"
 == How to set up a git server? ==
 
 Look for "Repository Administration" in the
-[http://git.kernel.org/?p=git/git.git;a=blob;f=Documentation/everyday.txt;hb=HEAD everyday git document].
+[http://www.kernel.org/pub/software/scm/git/docs/everyday.html#Repository+Administration everyday git document].
 
 To setup a git server over http, see
-[http://git.kernel.org/?p=git/git.git;a=blob;f=Documentation/howto/setup-git-server-over-http.txt;hb=HEAD the relevant document].
+[http://www.kernel.org/pub/software/scm/git/docs/howto/setup-git-server-over-http.txt the relevant document].
 
 <<Anchor(create-project)>>
 == How to create the first project? ==
 
 See the 
-[http://git.kernel.org/?p=git/git.git;a=blob;f=Documentation/tutorial.txt;hb=HEAD tutorial].
+[http://www.kernel.org/pub/software/scm/git/docs/tutorial.html Git tutorial].
 
 = Error diagnostic =
 
