@@ -14,5 +14,7 @@ Project ideas suggested on the Git mailing list for Google's Summer of Code 2007
 * lazy clone aka remote alternates (Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031 on gmane]).
 * Complete the Eclipse plugin (Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031 on gmane]).
 * A new merge strategy "merge-blame".  By running "git-blame -C $ancestor..$other -- $path", you can find $path contains pieces from other paths (it could be a single other path, in which case you found a wholesale rename).  Then you can run "git-diff $ancestor..$mine -- $other_path" for each of these paths to find out if our branch changes the parts of them and how.  By incorporating these changes you can come up a merged $path that reflects changes made to other paths, in other words, tracking code movements (??? Anynomously added to the Wiki; was not suggested on the mailing list or on IRC).
+* Better branch support to cvsserver. This will make it easier for projects to migrate from CVS to GIT. This project involves GIT+Perl+SQLite. (mentor: Martin Langhoff)
+* Continue work in large-scale repositories migration -- the goal is to demonstrate a successful Mozilla CVS import, based on the work started by Jon Smirl. (mentor: Martin Langhoff)
 
 __NOTOC__
