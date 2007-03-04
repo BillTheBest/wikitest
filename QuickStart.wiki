@@ -18,7 +18,8 @@ $ git checkout -b linux-work        # create a new branch named "linux-work"
 $ <make changes>
 $ git commit -a
 $ git checkout master               # go back to master branch
-$ git pull . linux-work             # merge changesets from linux-work
+$ git merge linux-work              # merge changesets from linux-work (Git >= 1.5)
+$ git pull . linux-work             # merge changesets from linux-work (all Git versions)
 </nowiki></pre>
 
 == Importing patches ==
