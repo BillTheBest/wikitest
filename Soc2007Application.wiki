@@ -23,10 +23,10 @@ As an offshoot of the Linux kernel team, we take great pride in
 our open development methdology and emphasis on quality.
 
 Git is currently used by at least 5 of the GSoC 2006 projects
-(One Laptop Per Child, Tangram, The Wine Project, XMMS2, Xorg),
+(One Laptop Per Child, Tangram, The Wine Project, XMMS2, X.Org),
 not to mention the Linux kernel, and in the past year has been (or
 is still being) considered for conversion by at least another 6
-(FreeBSD Project, Gentoo, KDE, [[OpenOffice]].org, [[OpenSolaris]], The
+(FreeBSD Project, Gentoo, KDE, OpenOffice.org, OpenSolaris, The
 Mozilla Foundation).
 
 ''' Why is your organization applying to participate in GSoC 2007? What
