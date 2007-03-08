@@ -28,7 +28,7 @@ The Git test suite does not cover enough of the code base, there are still plent
 
 The test suite is currently written in Bourne-shell.  Any additions or improvements should also be done in Bourne-shell.
 <<BR>><b>Goal:</b> Significantly extend the Git test suite.
-<<BR>><b>Mentor:</b> Shawn O. Pearce (gsoc@spearce.org), ANYONE?
+<<BR>><b>Mentor:</b> Shawn O. Pearce (gsoc@spearce.org), Brian Gernhardt (benji@silverinsanity.com), ANYONE?
 <<BR>><b>Suggested by:</b> Johannes Schindelin [http://article.gmane.org/gmane.comp.version-control.git/40801 on gmane]
 
 == More tools Builtin ==
@@ -59,7 +59,7 @@ Have a file that would point to the object directory, refs directory, working di
 == Apply sparse To Fix Errors ==
 Even better, teach [http://kernel.org/pub/linux/kernel/people/josh/sparse/ sparse] how to fix common errors, and then use sparse to actually fix them.  Perhaps more of a sparse project than a Git project.  The community just wants to see Git improved, if sparse is improved at the same time, double bonus points!  :-)
 <<BR>><b>Goal:</b> Fix existing errors in Git.
-<<BR>><b>Mentor:</b>  Shawn O. Pearce (gsoc@spearce.org), ANYONE?
+<<BR>><b>Mentor:</b>  Shawn O. Pearce (gsoc@spearce.org), Brian Gernhardt (benji@silverinsanity.com), ANYONE?
 <<BR>><b>Suggested by:</b> Johannes Schindelin [http://article.gmane.org/gmane.comp.version-control.git/40801 on gmane]
 
 == Partial/Sparse Checkouts ==
