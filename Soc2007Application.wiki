@@ -1,8 +1,11 @@
 Git's application to Google's Summer of Code 2007.
 
-The application questions can be found on [http://code.google.com/support/bin/answer.py?answer=60303&topic=10727 code.google.com].
+The application questions can be found on
+[http://code.google.com/support/bin/answer.py?answer=60303&topic=10727
+code.google.com].
 
-Shawn Pearce has volunteered to submit the application and serve as our group's primary contact.
+Shawn Pearce has volunteered to submit the application and serve
+as our group's primary contact.
 
 <b> What is your Organization's Name? </b>
 
@@ -18,17 +21,28 @@ The Git development community is a loosly knitted team of developers,
 documentation writers and end-users with the common goal of
 building and maintaining a high quality revision control system.
 As an offshoot of the Linux kernel team, we take great pride in
-our open development methodology and emphasis on quality.
+our open development methdology and emphasis on quality.
+
+Git is currently used by at least 5 of the GSoC 2006 projects
+(One Laptop Per Child, Tangram, The Wine Project, XMMS2, Xorg),
+not to mention the Linux kernel, and in the past year has been (or
+is still being) considered for conversion by at least another 6
+(FreeBSD Project, Gentoo, KDE, [[OpenOffice]].org, [[OpenSolaris]], The
+Mozilla Foundation).
 
 ''' Why is your organization applying to participate in GSoC 2007? What
 do you hope to gain by participating? '''
 
-Although Git has developed from absolutely nothing to one of the
-most useful version control systems in less than 2 years, there are
-still a wide number of new and exciting features that users continue
-to ask about.  We hope to engage several students in projects that
-will bring some of these features to life, or to create features
-that have not even been considered.
+Although Git has developed from absolutely nothing to one of
+the most useful version control systems in less than 2 years,
+there are still a wide number of new and exciting features that
+users continue to ask about.  We hope to engage several students
+in projects that will bring some of these features to life, or to
+create useful features that have not even been considered yet.
+
+Of particular interest are the features that the other prior GSoC
+projects have asked for, such as submodule support (Gentoo) or a
+native Windows port (KDE, The Mozilla Foundation).
 
 ''' Did your organization participate in GSoC 2005 or 2006? If so,
 please summarize your involvement and the successes and failures
@@ -116,25 +130,26 @@ and dicussions on the mailing list.
 ''' What steps will you take to encourage students to interact with
 your project's community before, during and after the program? '''
 
-Students will be required to join the main development mailing
-list, post bi-weekly project updates to same, and post patches for
-discussion to same.  Likewise all current contributors already do
-this, so students will see the experienced hands doing the same
-thing, thereby helping the students to stay a part of the community.
+Students will be required to join the main development mailing list,
+post weekly project updates to same, and post patches for discussion
+to same.  Likewise all current contributors already do this, so
+students will see the experienced hands doing the same thing. We feel
+that this will help the students to stay a part of the community.
 
-Mailing list traffic is currently around 100 messages per day,
-maximum, and is focused completely on Git feature development.
+Mailing list traffic is currently around 80-100 messages per day
+(maximum), and is focused completely on Git feature development.
 Keeping current by at least skimming list messages is an important
 part of the Git development process.
 
-Students will be encouraged to post their work as a Git repository
-on repo.or.cz (an open community hosting server) so that their work
+Students will be required to post their work as a Git repository on
+repo.or.cz (an open community hosting server) so that their work
 is immediately available for everyone to review, experiment with,
 and hopefully make use of.
 
-Mentors will exchange email with students on at least a weekly basis,
-if not more frequently.  Frequent email and IRC interaction with
-mentors will be strongly encouraged.
+Mentors will also exchange email with students on at least a weekly
+basis, if not more frequently.  Frequent email and IRC interaction
+with mentors and other Git interested developers will be strongly
+encouraged.
 
 ''' What will you do to ensure that your accepted students stick with
 the project after GSoC concludes? '''
