@@ -16,11 +16,11 @@ Git Development Community
 
 <b> Describe your organization. </b>
 
-The Git development community is a loosly knitted team of developers,
+The Git development community is a loosely knitted team of developers,
 documentation writers and end-users with the common goal of
 building and maintaining a high quality revision control system.
 As an offshoot of the Linux kernel team, we take great pride in
-our open development methdology and emphasis on quality.
+our open development methodology and emphasis on quality.
 
 Git is currently used by at least 5 of the GSoC 2006 projects
 (One Laptop Per Child, Tangram, The Wine Project, XMMS2, X.Org),
@@ -34,8 +34,8 @@ do you hope to gain by participating? '''
 
 Although Git has developed from absolutely nothing to one of
 the most useful version control systems in less than 2 years,
-there are still a wide number of new and exciting features that
-users continue to ask about.  We hope to engage several students
+there are still many new and exciting features that
+users ask about.  We hope to engage several students
 in projects that will bring some of these features to life, or to
 create useful features that have not even been considered yet.
 
@@ -87,8 +87,8 @@ NEEDED!  BADLY!
 ''' Who will your mentors be? Please include Google Account
 Information. '''
 
-* Shawn O. Pearce (have Google Account)
-* Martin Langhoff (need Google Account)
+* Shawn O. Pearce (has Google Account)
+* Martin Langhoff (needs Google Account)
 
 ''' What criteria did you use to select these individuals as
 mentors? Please be as specific as possible. '''
@@ -98,13 +98,13 @@ contribute the most to.  All mentors are active contributers within
 the Git development community.
 
 Active contributers are defined to be those who have submitted and
-have had accepted into a shipped release a substational amount of
+have had accepted into a shipped release a substantial amount of
 new code or fixes within the last 4 months (Nov 2006 - Mar 2007).
-Substational amount of code is defined to be equal in size (or
+Substantial amount of code is defined to be equal in size (or
 larger) to what might be reasonably expected of a student working
 on a Google Summer of Code project.
 
-In short, all mentors are well known within the Git development
+All mentors are well known within the Git development
 community for their accomplishments and contributions.
 
 <b> What is your plan for dealing with disappearing students? </b>
@@ -132,7 +132,7 @@ your project's community before, during and after the program? '''
 
 Students will be required to join the main development mailing list,
 post weekly project updates to same, and post patches for discussion
-to same.  Likewise all current contributors already do this, so
+to same.  All current contributors already do this, so
 students will see the experienced hands doing the same thing. We feel
 that this will help the students to stay a part of the community.
 
