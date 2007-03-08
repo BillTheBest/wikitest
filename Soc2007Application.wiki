@@ -46,8 +46,6 @@ Account information. '''
 
 Shawn O. Pearce (have Google Account)
 
-Unless Junio wants it?
-
 <b> What license does your project use? </b>
 
 GPL (GNU Public License)
@@ -138,12 +136,22 @@ mentors will be strongly encouraged.
 ''' What will you do to ensure that your accepted students stick with
 the project after GSoC concludes? '''
 
-Mentors (and hopefully by then other members of the Git development
-community) will try to keep in touch with students by email.  We hope
-that by monitoring the mailing list during the GSoC students will
-find other projects that may be of interest (at least one interesting
-idea pops up every week, with not enough people to work on them),
-and that they can be encouraged into working on them even after
-they have returned to their studies.
+GSoC will be a good introduction to git (both the technology and the
+community) for the students.  Once they know git and are "hooked",
+we are confident they won't easily leave the arena, for a number
+of reasons.
+
+The interaction between community members has always been very
+friendly, and new people are warmly welcomed, especially those with
+interesting new ideas and viewpoints.  Jovial working friendships
+have been easily formed between the community members, and students
+will certainly be warmly welcomed into that environment.
+
+The technology behind git is so simple and yet so powerful that it
+is difficult to not marvel at the wonder every time you use it.
+Git is so enabling to the software developer that even complex
+changes can be made with ease, and some of the difficulties of
+collaboration just melt away into the background.  Users find Git
+so useful that they are unable to leave it behind.
 
 __NOTOC__
