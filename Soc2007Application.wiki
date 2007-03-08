@@ -18,7 +18,7 @@ The Git development community is a loosly knitted team of developers,
 documentation writers and end-users with the common goal of
 building and maintaining a high quality revision control system.
 As an offshoot of the Linux kernel team, we take great pride in
-our open development methdology and emphasis on quality.
+our open development methodology and emphasis on quality.
 
 ''' Why is your organization applying to participate in GSoC 2007? What
 do you hope to gain by participating? '''
