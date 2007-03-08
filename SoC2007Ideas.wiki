@@ -140,7 +140,7 @@ Bringing together all gitweb implementations.  Implementing very smart caching i
 Merging interesting and useful features like the client-side commit graph (gitk like clone) such as on [http://repo.or.cz/], or the incremental blame support proposed on the Git mailing list would be nice.
 
 This project might also work nicely in parallel with the Libification project above, as gitweb could really benefit from a libified git.
-<<BR>><b>Language:</b> Perl; some HTML, CSS, and [[JavaScript]] depending on the actual tasks taken on by the student.
+<<BR>><b>Language:</b> Perl; some HTML, CSS, and JavaScript depending on the actual tasks taken on by the student.
 <<BR>><b>Goal:</b> Improve gitweb performance on large installations like kernel.org; merge some interesting features from other gitweb forks/clones.
 <<BR>><b>Mentor:</b> Shawn O. Pearce (gsoc@spearce.org), ANYONE?
 <<BR>><b>Suggested by:</b> Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031 on gmane]
@@ -148,7 +148,7 @@ This project might also work nicely in parallel with the Libification project ab
 == Checkout Hooks ==
 Finish the already started file attribute support.  Currently Git only tracks the executable bit of a file, and does not track other interesting data such as owner, group, full permission bits, POSIX ACL, extended attributes, etc.  One possible use for a checkout hook would be to restore these values after checking a file out from the repository, and to save these values into an auxiliary metadata upon checking it into the repository.
 
-Another possibility is to use a checkout/checkin hook system to automatically transform [[OpenOffice]] document files.  Since these are binary ZIP files they do not delta very well within Git packfiles, by uncompressing the ZIP file and storing the raw XML Git can get good delta compression.  By recreating the ZIP file during checkout, [[OpenOffice]] never knows the difference.
+Another possibility is to use a checkout/checkin hook system to automatically transform OpenOffice document files.  Since these are binary ZIP files they do not delta very well within Git packfiles, by uncompressing the ZIP file and storing the raw XML Git can get good delta compression.  By recreating the ZIP file during checkout, OpenOffice never knows the difference.
 <<BR>><b>Goal:</b> Improved file attribute support capable of saving/restoring auxiliary attributes associated with files and transforming files to a canonical "in repository" format, and back again.
 <<BR>><b>Mentor:</b> Shawn O. Pearce (gsoc@spearce.org), ANYONE?
 <<BR>><b>Suggested by:</b> David Lang, privately suggested by email.
