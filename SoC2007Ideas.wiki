@@ -1,4 +1,4 @@
-Suggested project ideas for Google's Summer of Code 2007 (see [[Soc2007Application]]).  Unless otherwise stated, Shawn O. Pearce (gsoc@spearce.org) is able and willing to serve as a mentor for any project.
+Suggested project ideas for Google's Summer of Code 2007 (see [[Soc2007Application]]). 
 
 = General Requirements =
 All projects have the following basic requirements:
@@ -9,6 +9,8 @@ All projects have the following basic requirements:
 * Projects must be tracked and managed in Git, and published on [http://repo.or.cz].
 * Weekly project status reports should be sent to the Git mailing list.
 
+You may also want to read the [http://code.google.com/p/google-summer-of-code/wiki/AdviceforStudents GSoC Advice for GSoC Students Page], as it has good suggestions for helping you to pick a project.
+
 = New To Git? New To Open Source Development? =
 
 A collection of smaller projects.  Pick one or two and get introduced to the open source community!
@@ -18,7 +20,7 @@ The Git test suite does not cover enough of the code base, there are still plent
 
 The test suite is currently written in Bourne-shell.  Any additions or improvements should also be done in Bourne-shell.
 <<BR>><b>Goal:</b> Significantly extend the Git test suite.
-<<BR>><b>Mentor:</b>
+<<BR>><b>Mentor:</b> Shawn O. Pearce (gsoc@spearce.org), ANYONE?
 <<BR>><b>Suggested by:</b> Johannes Schindelin [http://article.gmane.org/gmane.comp.version-control.git/40801 on gmane]
 
 == More tools Builtin ==
@@ -26,7 +28,7 @@ Convert existing shell and Perl scripts to more portable C.  We have generally f
 
 Small cases like git-gc and git-merge are fairly easy, larger cases like git-fetch will require some work.  Figure three days for the smaller cases, and a couple of weeks for the larger ones.  We currently have 33 scripts up for grabs, making a complete conversion a full project.  Or pick a few to convert and another small project on the side.
 <<BR>><b>Goal:</b> Replace most core scripts with C versions.
-<<BR>><b>Mentor:</b>
+<<BR>><b>Mentor:</b> 
 <<BR>><b>Suggested by:</b> Johannes Schindelin [http://article.gmane.org/gmane.comp.version-control.git/40801 on gmane]
 
 == One Click Windows Install ==
@@ -57,7 +59,7 @@ Where you can checkout for example only Documentation subdirectory, work on it, 
 
 Merging is somewhat complicated here as a subdirectory checkout user probably cannot resolve conflicts in parts of the tree that they do not have checked out.  These types of merges would probably need to be detected and stopped.
 <<BR>><b>Goal:</b> Make it possible to checkout a subdirectory on a branch, commit to it, and merge with another branch.
-<<BR>><b>Mentor:</b> 
+<<BR>><b>Mentor:</b> Shawn O. Pearce (gsoc@spearce.org), ANYONE?
 <<BR>><b>Suggested by:</b> Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031 on gmane]
 
 = Larger Projects =
@@ -91,7 +93,7 @@ A new merge strategy "merge-blame".  By running "git-blame -C $ancestor..$other 
 
 This strategy should probably be a function within merge-recursive that is activated only when merge-recursive is invoked as merge-blame (or some perhaps some better name).  Further it probably should only be used when a file fails to be merged cleanly, as a "last resort before asking the developer to do it for me" sort of trick.  Rationale here is the blame computation is non-trivial and will take some CPU time, so we want to avoid that in the common cases of non-moved code.
 <<BR>><b>Goal:</b> Demonstrate a working merge-blame that can fairly accurately merge changes made to moved code segments.
-<<BR>><b>Mentor:</b>
+<<BR>><b>Mentor:</b> Shawn O. Pearce (gsoc@spearce.org), ANYONE?
 <<BR>><b>Suggested by:</b> Anonymously added to the Wiki; was not suggested on the mailing list or on IRC.
 
 == True Branch Support In cvsserver ==
@@ -109,7 +111,6 @@ Continue work in large-scale repository migration.  The goal is to demonstrate a
 The conversion tools should take advantage of [http://kernel.org/pub/software/scm/git/docs/git-fast-import.html git-fast-import] to actually create and update the Git repository files, as it was designed and built specifically to support these large scale migration efforts.
 
 Conversion tools might be coded in C, Perl, Python, Ruby, etc., as they are not typically considered to be a core part of the Git system that must be available on all platforms "out of the box".
-
 <<BR>><b>Language:</b> Open for proposal.
 <<BR>><b>Goal:</b> Successfully import the Mozilla CVS repository, including all branches and tags.  Bonus points for also being able to (reasonably) compute branch merge points and record these in Git as proper merge commits.
 <<BR>><b>Mentor:</b> Martin Langhoff
@@ -122,7 +123,7 @@ This is an extension of the existing "shallow clone" support as we want to cut n
 
 This is tricky to do right, as git-fsck needs to know what is going on, and many tools assume that if we have a commit, we have all trees/blobs mentioned by that commit.
 <<BR>><b>Goal:</b> A working lazy clone prototype implementation that could be considered for inclusion.
-<<BR>><b>Mentor:</b>
+<<BR>><b>Mentor:</b> Shawn O. Pearce (gsoc@spearce.org), ANYONE?
 <<BR>><b>Suggested by:</b> Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031 on gmane]
 
 == gitweb Caching, gitweb Improvements ==
@@ -133,7 +134,7 @@ Merging interesting and useful features like the client-side commit graph (gitk 
 This project might also work nicely in parallel with the Libification project above, as gitweb could really benefit from a libified git.
 <<BR>><b>Language:</b> Perl; some HTML, CSS, and [[JavaScript]] depending on the actual tasks taken on by the student.
 <<BR>><b>Goal:</b> Improve gitweb performance on large installations like kernel.org; merge some interesting features from other gitweb forks/clones.
-<<BR>><b>Mentor:</b>
+<<BR>><b>Mentor:</b> Shawn O. Pearce (gsoc@spearce.org), ANYONE?
 <<BR>><b>Suggested by:</b> Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031 on gmane]
 
 == Checkout Hooks ==
@@ -141,7 +142,7 @@ Finish the already started file attribute support.  Currently Git only tracks th
 
 Another possibility is to use a checkout/checkin hook system to automatically transform [[OpenOffice]] document files.  Since these are binary ZIP files they do not delta very well within Git packfiles, by uncompressing the ZIP file and storing the raw XML Git can get good delta compression.  By recreating the ZIP file during checkout, [[OpenOffice]] never knows the difference.
 <<BR>><b>Goal:</b> Improved file attribute support capable of saving/restoring auxiliary attributes associated with files and transforming files to a canonical "in repository" format, and back again.
-<<BR>><b>Mentor:</b>
+<<BR>><b>Mentor:</b> Shawn O. Pearce (gsoc@spearce.org), ANYONE?
 <<BR>><b>Suggested by:</b> David Lang, privately suggested by email.
 
 __NOTOC__
