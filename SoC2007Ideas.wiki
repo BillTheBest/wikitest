@@ -78,7 +78,7 @@ Much talked about (and even has three different independent implementations, non
 
 Subproject (submodule) support would certainly help using Git for large modular projects like KDE, Mozilla or Linux distributions. A submodule (or subproject) is a part of project (usually one subdirectory) that is a separately SCM managed project (it is SVN externals done right).  For example external/separately managed library that other projects uses and probably modifies to meet their own needs.
 <<BR>><b>Goal:</b> A working subproject implementation that is seriously considered for acceptance into a future release.  Note that the three existing implementations did not make the cut!
-<<BR>><b>Mentor:</b>  Shawn O. Pearce (gsoc@spearce.org), ANYONE?
+<<BR>><b>Mentor:</b>  Shawn O. Pearce (gsoc@spearce.org), Martin Waitz (tali@admingilde.org), ANYONE?
 <<BR>><b>Suggested by:</b> Raimund Bauer [http://article.gmane.org/gmane.comp.version-control.git/40911 on gmane], Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031 on gmane]
 <<BR>><b>See:</b> [[SubprojectSupport]]
 
