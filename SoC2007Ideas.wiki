@@ -28,7 +28,7 @@ The Git test suite does not cover enough of the code base, there are still plent
 
 The test suite is currently written in Bourne-shell.  Any additions or improvements should also be done in Bourne-shell.
 <<BR>><b>Goal:</b> Significantly extend the Git test suite.
-<<BR>><b>Mentor:</b> Shawn O. Pearce (gsoc@spearce.org), Brian Gernhardt (benji@silverinsanity.com), ANYONE?
+<<BR>><b>Mentor:</b> Shawn O. Pearce (gsoc@spearce.org), Brian Gernhardt (benji@silverinsanity.com), Johannes Schindelin (johannes.schindelin@gmx.de), ANYONE?
 <<BR>><b>Suggested by:</b> Johannes Schindelin [http://article.gmane.org/gmane.comp.version-control.git/40801 on gmane]
 
 == More tools Builtin ==
@@ -36,7 +36,7 @@ Convert existing shell and Perl scripts to more portable C.  We have generally f
 
 Small cases like git-gc and git-merge are fairly easy, larger cases like git-fetch will require some work.  Figure three days for the smaller cases, and a couple of weeks for the larger ones.  We currently have 33 scripts up for grabs, making a complete conversion more than a full project.  Pick a few to convert, and maybe another small project on the side.
 <<BR>><b>Goal:</b> Replace most core scripts with C versions.
-<<BR>><b>Mentor:</b> Shawn O. Pearce (gsoc@spearce.org), Petr Baudis (pasky@suse.cz), ANYONE?
+<<BR>><b>Mentor:</b> Shawn O. Pearce (gsoc@spearce.org), Petr Baudis (pasky@suse.cz), Johannes Schindelin (johannes.schindelin@gmx.de), ANYONE?
 <<BR>><b>Suggested by:</b> Johannes Schindelin [http://article.gmane.org/gmane.comp.version-control.git/40801 on gmane]
 
 == One Click Windows Install ==
@@ -44,7 +44,7 @@ Make it so that one .exe click-and-install would make the full power of Git avai
 
 Improvements to [http://repo.or.cz/w/git-gui.git git-gui] (written in Tcl/Tk) might also be implemented as part of this project, as git-gui is rapidly becoming the user-friendly interface to Git. 
 <<BR>><b>Goal:</b> Stable release-candidate-quality one-click-installable Git for Windows.
-<<BR>><b>Mentor:</b>  Shawn O. Pearce (gsoc@spearce.org), ANYONE?
+<<BR>><b>Mentor:</b>  Shawn O. Pearce (gsoc@spearce.org), Johannes Schindelin (johannes.schindelin@gmx.de), ANYONE?
 <<BR>><b>Suggested by:</b> Andy Parkins [http://article.gmane.org/gmane.comp.version-control.git/40904 on gmane]
 
 == Lightweight Checkout ==
@@ -59,7 +59,7 @@ Have a file that would point to the object directory, refs directory, working di
 == Apply sparse To Fix Errors ==
 Even better, teach [http://kernel.org/pub/linux/kernel/people/josh/sparse/ sparse] how to fix common errors, and then use sparse to actually fix them.  Perhaps more of a sparse project than a Git project.  The community just wants to see Git improved, if sparse is improved at the same time, double bonus points!  :-)
 <<BR>><b>Goal:</b> Fix existing errors in Git.
-<<BR>><b>Mentor:</b>  Shawn O. Pearce (gsoc@spearce.org), Brian Gernhardt (benji@silverinsanity.com), ANYONE?
+<<BR>><b>Mentor:</b>  Shawn O. Pearce (gsoc@spearce.org), Brian Gernhardt (benji@silverinsanity.com), Johannes Schindelin (johannes.schindelin@gmx.de), ANYONE?
 <<BR>><b>Suggested by:</b> Johannes Schindelin [http://article.gmane.org/gmane.comp.version-control.git/40801 on gmane]
 
 == Partial/Sparse Checkouts ==
