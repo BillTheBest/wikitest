@@ -1,10 +1,16 @@
 Suggested project ideas for Google's Summer of Code 2007 (see [[Soc2007Application]]).  Unless otherwise stated, Shawn O. Pearce (gsoc@spearce.org) is able and willing to serve as a mentor for any project.
 
-Unless otherwise stated, all projects will require programming in C and release of materials under the [http://www.gnu.org/copyleft/gpl.html GNU Public License (GPL)], version 2.  Individual students will retain copyright on their works.
+= General Requirements =
+All projects have the following basic requirements:
 
-Projects should be tracked and managed in Git (yes, we do eat our own dog food!), and published on [http://repo.or.cz] for distribution to the community at large.
+* Unless otherwise stated, projects will require programming in C, as nearly all of Git is written in C for maximum portability.
+* All materials must be released under the [http://www.gnu.org/copyleft/gpl.html GNU Public License (GPL)], version 2.
+* Individual students shall retain copyright on their works.
+* Projects must be tracked and managed in Git, and published on [http://repo.or.cz].
+* Weekly project status reports should be sent to the Git mailing list.
 
-= New To Git? =
+= New To Git? New To Open Source Development? =
+
 A collection of smaller projects.  Pick one or two and get introduced to the open source community!
 
 == More Complete Tests ==
@@ -46,6 +52,14 @@ Even better, teach [http://kernel.org/pub/linux/kernel/people/josh/sparse/ spars
 <<BR>><b>Mentor:</b>
 <<BR>><b>Suggested by:</b> Johannes Schindelin [http://article.gmane.org/gmane.comp.version-control.git/40801 on gmane]
 
+== Partial/Sparse Checkouts ==
+Where you can checkout for example only Documentation subdirectory, work on it, but commit full tree. Some workflows may be better suited to this type of usage than using submodules.  Some core support already exists, but some tricks need to be used to get everything working right.  The real work in this project is figuring out how to use those tricks, and using them in the right places.  ;)
+
+Merging is somewhat complicated here as a subdirectory checkout user probably cannot resolve conflicts in parts of the tree that they do not have checked out.  These types of merges would probably need to be detected and stopped.
+<<BR>><b>Goal:</b> Make it possible to checkout a subdirectory on a branch, commit to it, and merge with another branch.
+<<BR>><b>Mentor:</b> 
+<<BR>><b>Suggested by:</b> Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031 on gmane]
+
 = Larger Projects =
 The following projects are probably more suited to the junio/senior/graduate students.  Pick one and really make it shine.
 
@@ -80,9 +94,11 @@ This strategy should probably be a function within merge-recursive that is activ
 <<BR>><b>Mentor:</b>
 <<BR>><b>Suggested by:</b> Anonymously added to the Wiki; was not suggested on the mailing list or on IRC.
 
-== Better branch support in cvsserver ==
-This will make it easier for projects to migrate from CVS to Git. This project involves Git+Perl+SQLite.
-<<BR>><b>Language:</b> Perl
+== True Branch Support In cvsserver ==
+This will make it easier for projects to migrate from CVS to Git.  The idea would be to expose the Git branch space as CVS branches (and likewise the Git tag space as CVS tags), permitting existing CVS clients such as [http://www.tortoisecvs.org/ TortoiseCVS] to more easily access these objects.
+
+git-cvsserver is currently written in Perl and makes heavy use of SQLLite.
+<<BR>><b>Language:</b> Perl, SQL
 <<BR>><b>Goal:</b> Allow CVS clients to work with Git branches more naturally from within the client itself.
 <<BR>><b>Mentor:</b> Martin Langhoff
 <<BR>><b>Suggested by:</b> Martin Langhoff
@@ -109,22 +125,23 @@ This is tricky to do right, as git-fsck needs to know what is going on, and many
 <<BR>><b>Mentor:</b>
 <<BR>><b>Suggested by:</b> Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031 on gmane]
 
-= Still Unclassified =
+== gitweb Caching, gitweb Improvements ==
+Bringing together all gitweb implementations.  Implementing very smart caching in gitweb, to avoid the thundering hurd problem on kernel.org whenever a repository gets updated.  Perhaps becoming the gitweb maintainer could come of it, or at least the gitweb admin for kernel.org (sorely needed).
 
-== Checkout hooks ==
-<<BR>><b>Goal:</b>
+Merging interesting and useful features like the client-side commit graph (gitk like clone) such as on [http://repo.or.cz/], or the incremental blame support proposed on the Git mailing list would be nice.
+
+This project might also work nicely in parallel with the Libification project above, as gitweb could really benefit from a libified git.
+<<BR>><b>Language:</b> Perl; some HTML, CSS, and [[JavaScript]] depending on the actual tasks taken on by the student.
+<<BR>><b>Goal:</b> Improve gitweb performance on large installations like kernel.org; merge some interesting features from other gitweb forks/clones.
+<<BR>><b>Mentor:</b>
+<<BR>><b>Suggested by:</b> Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031 on gmane]
+
+== Checkout Hooks ==
+Finish the already started file attribute support.  Currently Git only tracks the executable bit of a file, and does not track other interesting data such as owner, group, full permission bits, POSIX ACL, extended attributes, etc.  One possible use for a checkout hook would be to restore these values after checking a file out from the repository, and to save these values into an auxiliary metadata upon checking it into the repository.
+
+Another possibility is to use a checkout/checkin hook system to automatically transform [[OpenOffice]] document files.  Since these are binary ZIP files they do not delta very well within Git packfiles, by uncompressing the ZIP file and storing the raw XML Git can get good delta compression.  By recreating the ZIP file during checkout, [[OpenOffice]] never knows the difference.
+<<BR>><b>Goal:</b> Improved file attribute support capable of saving/restoring auxiliary attributes associated with files and transforming files to a canonical "in repository" format, and back again.
 <<BR>><b>Mentor:</b>
 <<BR>><b>Suggested by:</b> David Lang, privately suggested by email.
-
-== Partial/sparse checkouts ==
-Where you can checkout for example only Documentation directory, work on it, but commit full tree. Sometimes it better suits than using submodules.<<BR>><b>Mentor:</b>
-<<BR>><b>Goal:</b>
-<<BR>><b>Suggested by:</b> Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031 on gmane]
-
-== gitweb caching, gitweb improvements ==
-Bringing together all gitweb implementations. Perhaps gitweb maintainer could come of it. Or at least gitweb admin for kernel.org.
-<<BR>><b>Goal:</b>
-<<BR>><b>Mentor:</b>
-<<BR>><b>Suggested by:</b> Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031 on gmane]
 
 __NOTOC__
