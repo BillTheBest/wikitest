@@ -1,6 +1,6 @@
 Project ideas suggested on the Git mailing list for Google's Summer of Code 2007 (please add the name of the person who suggested it, as SoC projects need a mentor):
 
-Shawn O. Pearce [http://permalink.gmane.org/gmane.comp.version-control.git/40544 offered] put the application together and to probably also serve as a mentor, provided that others are genuinely interested and will also help out.  Martin Langhoff offered to mentor CVS import projects.  Other people mentioned here are ones which proposed the projects, but not necessarily offer mentoring.
+Shawn O. Pearce [http://permalink.gmane.org/gmane.comp.version-control.git/40544 offered] put the [[Soc2007Application]] together and to probably also serve as a mentor, provided that others are genuinely interested and will also help out.  Martin Langhoff offered to mentor CVS import projects.  Other people mentioned here are ones which proposed the projects, but not necessarily offer mentoring.
 
 * Checkout hooks (David Lang, privately suggested).
 * More complete tests (Johannes Schindelin [http://article.gmane.org/gmane.comp.version-control.git/40801 on gmane]).
