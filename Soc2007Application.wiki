@@ -1,0 +1,7 @@
+Git's application to Google's Summer of Code 2007.
+
+The application questions can be found on [http://code.google.com/support/bin/answer.py?answer=60303&topic=10727 code.google.com].
+
+Shawn Pearce has volunteered to submit the application and serve as our group's primary contact.  A backup contact is still needed.
+
+__NOTOC__
