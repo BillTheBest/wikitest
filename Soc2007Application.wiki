@@ -4,15 +4,15 @@ The application questions can be found on [http://code.google.com/support/bin/an
 
 Shawn Pearce has volunteered to submit the application and serve as our group's primary contact.
 
-= What is your Organization's Name? =
+<b> What is your Organization's Name? </b>
 
 Git Development Community
 
-= What is your Organization's Homepage? =
+<b> What is your Organization's Homepage? </b>
 
 [http://git.or.cz/]
 
-= Describe your organization. =
+<b> Describe your organization. </b>
 
 The Git development community is a loosly knitted team of developers,
 documentation writers and end-users with the common goal of
@@ -20,8 +20,8 @@ building and maintaining a high quality revision control system.
 As an offshoot of the Linux kernel team, we take great pride in
 our open development methdology and emphasis on quality.
 
-= Why is your organization applying to participate in GSoC 2007? What
-do you hope to gain by participating? =
+''' Why is your organization applying to participate in GSoC 2007? What
+do you hope to gain by participating? '''
 
 Although Git has developed from absolutely nothing to one of the
 most useful version control systems in less than 2 years, there are
@@ -30,59 +30,59 @@ to ask about.  We hope to engage several students in projects that
 will bring some of these features to life, or to create features
 that have not even been considered.
 
-= Did your organization participate in GSoC 2005 or 2006? If so,
+''' Did your organization participate in GSoC 2005 or 2006? If so,
 please summarize your involvement and the successes and failures
-of your student projects. =
+of your student projects. '''
 
 No.
 
-= If your organization has not previously participated in GSoC,
-have you applied in the past? If so, for what year(s)? =
+''' If your organization has not previously participated in GSoC,
+have you applied in the past? If so, for what year(s)? '''
 
 We did not apply in the past.  This is our first application.
 
-= Who will your organization administrator be? Please include Google
-Account information. =
+''' Who will your organization administrator be? Please include Google
+Account information. '''
 
 Shawn O. Pearce (have Google Account)
 
 Unless Junio wants it?
 
-= What license does your project use? =
+<b> What license does your project use? </b>
 
 GPL (GNU Public License)
 
-= What is the URL for your ideas page? =
+<b> What is the URL for your ideas page? </b>
 
 [http://git.or.cz/gitwiki/SoC2007Ideas]
 
-= What is the main development mailing list for your organization? =
+<b> What is the main development mailing list for your organization? </b>
 
 git@vger.kernel.org
 
-= What is the main IRC channel for your organization? =
+<b> What is the main IRC channel for your organization? </b>
 
 <!-- #git on irc.freenode.org.
  -->
 
-= Does your organization have an application template you would like
-to see students use? If so, please provide it now. =
+''' Does your organization have an application template you would like
+to see students use? If so, please provide it now. '''
 
 NEEDED?
 
-= Who will be your backup organization administrator? Please include
-Google Account information. =
+''' Who will be your backup organization administrator? Please include
+Google Account information. '''
 
 NEEDED!  BADLY!
 
-= Who will your mentors be? Please include Google Account
-Information. =
+''' Who will your mentors be? Please include Google Account
+Information. '''
 
 * Shawn O. Pearce (have Google Account)
 * Martin Langhoff (need Google Account)
 
-= What criteria did you use to select these individuals as
-mentors? Please be as specific as possible. =
+''' What criteria did you use to select these individuals as
+mentors? Please be as specific as possible. '''
 
 All mentors volunteered for the specific project(s) that they could
 contribute the most to.  All mentors are active contributers within
@@ -98,22 +98,22 @@ on a Google Summer of Code project.
 In short, all mentors are well known within the Git development
 community for their accomplishments and contributions.
 
-= What is your plan for dealing with disappearing students? =
+<b> What is your plan for dealing with disappearing students? </b>
 
 Every reasonable effort will be made to maintain contact with
 students and ensure they are making progress throughout the summer.
 
 NEEDED! BADLY!
 
-= What is your plan for dealing with disappearing mentors? =
+<b> What is your plan for dealing with disappearing mentors? </b>
 
 In the unlikely event that a mentor disappears during the summer
 another mentor will be arranged to step in.  The Git community has
 plenty of good people within that would be more than happy to help
 a student finish their project.
 
-= What steps will you take to encourage students to interact with
-your project's community before, during and after the program? =
+''' What steps will you take to encourage students to interact with
+your project's community before, during and after the program? '''
 
 Students will be required to join the main development mailing
 list, post bi-weekly project updates to same, and post patches for
@@ -135,8 +135,8 @@ Mentors will exchange email with students on at least a weekly basis,
 if not more frequently.  Frequent email and IRC interaction with
 mentors will be strongly encouraged.
 
-= What will you do to ensure that your accepted students stick with
-the project after GSoC concludes? =
+''' What will you do to ensure that your accepted students stick with
+the project after GSoC concludes? '''
 
 Mentors (and hopefully by then other members of the Git development
 community) will try to keep in touch with students by email.  We hope
