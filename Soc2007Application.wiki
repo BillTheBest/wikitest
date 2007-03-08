@@ -89,6 +89,7 @@ Information. '''
 
 * Shawn O. Pearce (has Google Account)
 * Martin Langhoff (needs Google Account)
+* Johannes Schindelin (has Google Account)
 
 ''' What criteria did you use to select these individuals as
 mentors? Please be as specific as possible. '''
