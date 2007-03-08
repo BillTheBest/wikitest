@@ -106,9 +106,12 @@ NEEDED! BADLY!
 <b> What is your plan for dealing with disappearing mentors? </b>
 
 In the unlikely event that a mentor disappears during the summer
-another mentor will be arranged to step in.  The Git community has
-plenty of good people within that would be more than happy to help
-a student finish their project.
+another mentor will be arranged to step in.  The Git community
+has plenty of good people within that would be more than happy
+to help a student finish their project.  It is very probable that
+the replacement mentor would already be familiar with the student
+and the project, as many community members routinely review code
+and dicussions on the mailing list.
 
 ''' What steps will you take to encourage students to interact with
 your project's community before, during and after the program? '''
@@ -147,11 +150,11 @@ interesting new ideas and viewpoints.  Jovial working friendships
 have been easily formed between the community members, and students
 will certainly be warmly welcomed into that environment.
 
-The technology behind git is so simple and yet so powerful that it
-is difficult to not marvel at the wonder every time you use it.
-Git is so enabling to the software developer that even complex
-changes can be made with ease, and some of the difficulties of
-collaboration just melt away into the background.  Users find Git
-so useful that they are unable to leave it behind.
+Hacking on Git is an excellent way to hone one's development skills,
+as the community is filled with a wide range of very experienced
+programmers who are ready and willing to help a contributor improve
+the quality of their work.  We hope that students will realize this
+unique opportunity during GSoC and continue staying active within
+the community.
 
 __NOTOC__
