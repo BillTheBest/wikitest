@@ -1,6 +1,6 @@
 Suggested project ideas for Google's Summer of Code 2007 (see [[Soc2007Application]]).  Unless otherwise stated, Shawn O. Pearce (gsoc@spearce.org) is able and willing to serve as a mentor for any project.
 
-Unless otherwise stated, all projects will require programming in C and release of materials under the [http://www.gnu.org/copyleft/gpl.html GNU Public License (GPL)].  Individual students will retain copyright on their works.
+Unless otherwise stated, all projects will require programming in C and release of materials under the [http://www.gnu.org/copyleft/gpl.html GNU Public License (GPL)], version 2.  Individual students will retain copyright on their works.
 
 Projects should be tracked and managed in Git (yes, we do eat our own dog food!), and published on [http://repo.or.cz] for distribution to the community at large.
 
