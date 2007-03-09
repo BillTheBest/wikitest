@@ -92,6 +92,7 @@ Information. '''
 * Martin Langhoff (have Google Account)
 * Shawn O. Pearce (have Google Account)
 * Johannes Schindelin (have Google Account)
+* Sam Vilain (have Google Account)
 * Martin Waitz (need Google Account)
 
 ''' What criteria did you use to select these individuals as
