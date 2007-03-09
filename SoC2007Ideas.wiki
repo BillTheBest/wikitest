@@ -156,10 +156,9 @@ Another possibility is to use a checkout/checkin hook system to automatically tr
 
 from SamV: This idea can be extended to other compression and archive formats, too.  I made a "git-hash-archive" that transparently stored gzip files, keeping the same contents md5 even (though that part was admittedly clinically insane)
 
-== Gittorrent server and peer ==
+== Gittorrent Server and Peer ==
 
-Implement a server and P2P client/server for the distributed gittorrent specification (see http://gittorrent.utsl.gen.nz/)
-
+Implement a server and P2P client/server for the distributed gittorrent specification (see http://gittorrent.utsl.gen.nz/).  This project has some interesting benefits for larger projects such as kernel.org, where the mirror servers are currently overloaded trying to serve up all of the Git repositories and other files.
 <<BR>><b>Goal:</b> Hosting of massive projects, massively parallel mirroring.
 <<BR>><b>Mentor:</b> Sam Vilain (samv@catalyst.net.nz)
 <<BR>><b>Suggested by:</b> Sam Vilain
