@@ -28,7 +28,7 @@ The Git test suite does not cover enough of the code base, there are still plent
 
 The test suite is currently written in Bourne-shell.  Any additions or improvements should also be done in Bourne-shell.
 <<BR>><b>Goal:</b> Significantly extend the Git test suite.
-<<BR>><b>Mentor:</b> Shawn O. Pearce (gsoc@spearce.org), Brian Gernhardt (benji@silverinsanity.com), Johannes Schindelin (johannes.schindelin@gmx.de), ANYONE?
+<<BR>><b>Mentor:</b> Shawn O. Pearce (gsoc@spearce.org), Brian Gernhardt (benji@silverinsanity.com), Johannes Schindelin (johannes.schindelin@gmx.de)
 <<BR>><b>Suggested by:</b> Johannes Schindelin [http://article.gmane.org/gmane.comp.version-control.git/40801 on gmane]
 
 == More tools Builtin ==
@@ -36,7 +36,7 @@ Convert existing shell and Perl scripts to more portable C.  We have generally f
 
 Small cases like git-gc and git-merge are fairly easy, larger cases like git-fetch will require some work.  Figure three days for the smaller cases, and a couple of weeks for the larger ones.  We currently have 33 scripts up for grabs, making a complete conversion more than a full project.  Pick a few to convert, and maybe another small project on the side.
 <<BR>><b>Goal:</b> Replace most core scripts with C versions.
-<<BR>><b>Mentor:</b> Shawn O. Pearce (gsoc@spearce.org), Petr Baudis (pasky@suse.cz), Johannes Schindelin (johannes.schindelin@gmx.de), ANYONE?
+<<BR>><b>Mentor:</b> Shawn O. Pearce (gsoc@spearce.org), Petr Baudis (pasky@suse.cz), Johannes Schindelin (johannes.schindelin@gmx.de)
 <<BR>><b>Suggested by:</b> Johannes Schindelin [http://article.gmane.org/gmane.comp.version-control.git/40801 on gmane]
 
 == One Click Windows Install ==
@@ -44,7 +44,7 @@ Make it so that one .exe click-and-install would make the full power of Git avai
 
 Improvements to [http://repo.or.cz/w/git-gui.git git-gui] (written in Tcl/Tk) might also be implemented as part of this project, as git-gui is rapidly becoming the user-friendly interface to Git. 
 <<BR>><b>Goal:</b> Stable release-candidate-quality one-click-installable Git for Windows.
-<<BR>><b>Mentor:</b>  Shawn O. Pearce (gsoc@spearce.org), Johannes Schindelin (johannes.schindelin@gmx.de), ANYONE?
+<<BR>><b>Mentor:</b>  Shawn O. Pearce (gsoc@spearce.org), Johannes Schindelin (johannes.schindelin@gmx.de)
 <<BR>><b>Suggested by:</b> Andy Parkins [http://article.gmane.org/gmane.comp.version-control.git/40904 on gmane]
 
 == Lightweight Checkout ==
@@ -52,14 +52,14 @@ Improvements to [http://repo.or.cz/w/git-gui.git git-gui] (written in Tcl/Tk) mi
 
 Have a file that would point to the object directory, refs directory, working directory private index file and `HEAD` file.  This might also help submodule support (providing where to <i>search</i> for object database, index and refs).  This feature is a bit similar to `CVS/Root` in CVS.  Users might activate this feature by a new option to git-clone.
 <<BR>><b>Goal:</b> Make it possible to easily use one .git directory with multiple working directories.
-<<BR>><b>Mentor:</b>  Shawn O. Pearce (gsoc@spearce.org), Petr Baudis (pasky@suse.cz), ANYONE?
+<<BR>><b>Mentor:</b>  Shawn O. Pearce (gsoc@spearce.org), Petr Baudis (pasky@suse.cz)
 <<BR>><b>Suggested by:</b> Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031 on gmane]
 <<BR>><b>See:</b> [http://thread.gmane.org/gmane.comp.version-control.git/33755 |RFC| Light-weight checkouts via ".gitlink"] thread (started by Josef Weidendorfer)
 
 == Apply sparse To Fix Errors ==
 Even better, teach [http://kernel.org/pub/linux/kernel/people/josh/sparse/ sparse] how to fix common errors, and then use sparse to actually fix them.  Perhaps more of a sparse project than a Git project.  The community just wants to see Git improved, if sparse is improved at the same time, double bonus points!  :-)
 <<BR>><b>Goal:</b> Fix existing errors in Git.
-<<BR>><b>Mentor:</b>  Shawn O. Pearce (gsoc@spearce.org), Brian Gernhardt (benji@silverinsanity.com), Johannes Schindelin (johannes.schindelin@gmx.de), ANYONE?
+<<BR>><b>Mentor:</b>  Shawn O. Pearce (gsoc@spearce.org), Brian Gernhardt (benji@silverinsanity.com), Johannes Schindelin (johannes.schindelin@gmx.de)
 <<BR>><b>Suggested by:</b> Johannes Schindelin [http://article.gmane.org/gmane.comp.version-control.git/40801 on gmane]
 
 == Partial/Sparse Checkouts ==
@@ -67,7 +67,7 @@ Where you can checkout for example only Documentation subdirectory, work on it, 
 
 Merging is somewhat complicated here as a subdirectory checkout user probably cannot resolve conflicts in parts of the tree that they do not have checked out.  These types of merges would probably need to be detected and stopped.
 <<BR>><b>Goal:</b> Make it possible to checkout a subdirectory on a branch, commit to it, and merge with another branch.
-<<BR>><b>Mentor:</b> Shawn O. Pearce (gsoc@spearce.org), Petr Baudis (pasky@suse.cz), ANYONE?
+<<BR>><b>Mentor:</b> Shawn O. Pearce (gsoc@spearce.org), Petr Baudis (pasky@suse.cz)
 <<BR>><b>Suggested by:</b> Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031 on gmane]
 
 = Larger Projects =
@@ -78,14 +78,14 @@ Much talked about (and even has three different independent implementations, non
 
 Subproject (submodule) support would certainly help using Git for large modular projects like KDE, Mozilla or Linux distributions. A submodule (or subproject) is a part of project (usually one subdirectory) that is a separately SCM managed project (it is SVN externals done right).  For example external/separately managed library that other projects uses and probably modifies to meet their own needs.
 <<BR>><b>Goal:</b> A working subproject implementation that is seriously considered for acceptance into a future release.  Note that the three existing implementations did not make the cut!
-<<BR>><b>Mentor:</b>  Shawn O. Pearce (gsoc@spearce.org), Martin Waitz (tali@admingilde.org), Petr Baudis (pasky@suse.cz), ANYONE?
+<<BR>><b>Mentor:</b>  Shawn O. Pearce (gsoc@spearce.org), Martin Waitz (tali@admingilde.org), Petr Baudis (pasky@suse.cz)
 <<BR>><b>Suggested by:</b> Raimund Bauer [http://article.gmane.org/gmane.comp.version-control.git/40911 on gmane], Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031 on gmane]
 <<BR>><b>See:</b> [[SubprojectSupport]]
 
 == Libification ==
 Make more parts of libgit.a reentrant by removing static variables, avoid dying e.g. when malloc() fails, etc.  Most of Git was written with the run-once-and-exit design pattern.  This makes it difficult/impossible to embed core Git data access routines within a scripting language such as Perl or Python, or to embed it in a longer-running server such as an Apache module.  Existing code must be modified to return errors rather than terminating the process, and memory leaks need to be plugged.
 <<BR>><b>Goal:</b> Usable Perl binding that a future gitweb.cgi could take advantage of, rather than repeatedly forking Git processes.
-<<BR>><b>Mentor:</b>  Shawn O. Pearce (gsoc@spearce.org), Petr Baudis (pasky@suse.cz), ANYONE?
+<<BR>><b>Mentor:</b>  Shawn O. Pearce (gsoc@spearce.org), Petr Baudis (pasky@suse.cz)
 <<BR>><b>Suggested by:</b> Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031 on gmane]
 
 == Git Eclipse Plugin ==
@@ -101,7 +101,7 @@ A new merge strategy "merge-blame".  By running "git-blame -C $ancestor..$other 
 
 This strategy should probably be a function within merge-recursive that is activated only when merge-recursive is invoked as merge-blame (or some perhaps some better name).  Further it probably should only be used when a file fails to be merged cleanly, as a "last resort before asking the developer to do it for me" sort of trick.  Rationale here is the blame computation is non-trivial and will take some CPU time, so we want to avoid that in the common cases of non-moved code.
 <<BR>><b>Goal:</b> Demonstrate a working merge-blame that can fairly accurately merge changes made to moved code segments.
-<<BR>><b>Mentor:</b> Shawn O. Pearce (gsoc@spearce.org), ANYONE?
+<<BR>><b>Mentor:</b> Shawn O. Pearce (gsoc@spearce.org)
 <<BR>><b>Suggested by:</b> Anonymously added to the Wiki; was not suggested on the mailing list or on IRC.
 
 == True Branch Support In cvsserver ==
@@ -131,7 +131,7 @@ This is an extension of the existing "shallow clone" support as we want to cut n
 
 This is tricky to do right, as git-fsck needs to know what is going on, and many tools assume that if we have a commit, we have all trees/blobs mentioned by that commit.
 <<BR>><b>Goal:</b> A working lazy clone prototype implementation that could be considered for inclusion.
-<<BR>><b>Mentor:</b> Shawn O. Pearce (gsoc@spearce.org),  Petr Baudis (pasky@suse.cz), ANYONE?
+<<BR>><b>Mentor:</b> Shawn O. Pearce (gsoc@spearce.org),  Petr Baudis (pasky@suse.cz)
 <<BR>><b>Suggested by:</b> Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031 on gmane]
 
 == gitweb Caching, gitweb Improvements ==
@@ -142,7 +142,7 @@ Merging interesting and useful features like the client-side commit graph (gitk 
 This project might also work nicely in parallel with the Libification project above, as gitweb could really benefit from a libified git.
 <<BR>><b>Language:</b> Perl; some HTML, CSS, and JavaScript depending on the actual tasks taken on by the student.
 <<BR>><b>Goal:</b> Improve gitweb performance on large installations like kernel.org; merge some interesting features from other gitweb forks/clones.
-<<BR>><b>Mentor:</b> Shawn O. Pearce (gsoc@spearce.org),  Petr Baudis (pasky@suse.cz), ANYONE?
+<<BR>><b>Mentor:</b> Shawn O. Pearce (gsoc@spearce.org),  Petr Baudis (pasky@suse.cz)
 <<BR>><b>Suggested by:</b> Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031 on gmane]
 
 == Checkout Hooks ==
@@ -150,7 +150,7 @@ Finish the already started file attribute support.  Currently Git only tracks th
 
 Another possibility is to use a checkout/checkin hook system to automatically transform OpenOffice document files.  Since these are binary ZIP files they do not delta very well within Git packfiles, by uncompressing the ZIP file and storing the raw XML Git can get good delta compression.  By recreating the ZIP file during checkout, OpenOffice never knows the difference.
 <<BR>><b>Goal:</b> Improved file attribute support capable of saving/restoring auxiliary attributes associated with files and transforming files to a canonical "in repository" format, and back again.
-<<BR>><b>Mentor:</b> Shawn O. Pearce (gsoc@spearce.org), ANYONE?
+<<BR>><b>Mentor:</b> Shawn O. Pearce (gsoc@spearce.org)
 <<BR>><b>Suggested by:</b> David Lang, privately suggested by email.
 
 __NOTOC__
