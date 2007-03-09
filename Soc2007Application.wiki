@@ -16,32 +16,32 @@ Git Development Community
 
 <b> Describe your organization. </b>
 
-The Git development community is a loosely knitted team of developers,
-documentation writers and end-users with the common goal of
-building and maintaining a high quality revision control system.
-As an offshoot of the Linux kernel team, we take great pride in
-our open development methodology and emphasis on quality.
+As Git approaches its second anniversary, it is now the revision
+control system of choice for many of the largest and most succesful
+open source projects, including the Linux kernel and at least 5
+Google Summer of Code 2006 projects: One Laptop Per Child, Tangram,
+The Wine Project, XMMS2, and X.org.  Many more are considering
+Git adoption.
 
-Git is currently used by at least 5 of the GSoC 2006 projects
-(One Laptop Per Child, Tangram, The Wine Project, XMMS2, X.org),
-not to mention the Linux kernel, and in the past year has been (or
-is still being) considered for conversion by at least another 6
-(FreeBSD Project, Gentoo, KDE, OpenOffice.org, OpenSolaris, The
-Mozilla Foundation).
+This achievement is the product of the Git development community,
+a loose-knit team of developers, technical writers, and end users
+with a passion for high quality open-source development.
 
 ''' Why is your organization applying to participate in GSoC 2007? What
 do you hope to gain by participating? '''
 
-Although Git has developed from absolutely nothing to one of the most
-useful version control systems in less than 2 years, there are still
-many new and exciting features that users continue to ask about.
-We hope to engage several students in projects that will bring some
-of these features to life, or to create useful features that have
-not even been considered yet.
+Prior Google Summer of Code projects have asked for several new
+features in Git, including submodule support (needed by Gentoo)
+and a native Windows port (needed by KDE and The Mozilla Foundation).
 
-Of particular interest are the features that the other prior GSoC
-projects have asked for, such as submodule support (Gentoo) or a
-native Windows port (KDE, The Mozilla Foundation).
+The future development and maintenance of these and other
+features depends on the community's continued ability to attract
+new developers.  Thus far, the Git community has been quite
+good at attracting, mentoring and retaining new contributors.
+Our maintainers have been very conscientious in explaining the
+project architecture and giving feedback on all contributions.
+We see GSoC 2007 as an excellent marketing opportunity to attract
+even more long-term contributors.
 
 ''' Did your organization participate in GSoC 2005 or 2006? If so,
 please summarize your involvement and the successes and failures
@@ -93,7 +93,7 @@ Information. '''
 * Shawn O. Pearce (have Google Account)
 * Johannes Schindelin (have Google Account)
 * Sam Vilain (have Google Account)
-* Martin Waitz (need Google Account)
+* Martin Waitz (have Google Account)
 
 ''' What criteria did you use to select these individuals as
 mentors? Please be as specific as possible. '''
