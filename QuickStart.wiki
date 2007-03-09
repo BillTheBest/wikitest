@@ -2,7 +2,7 @@
 
 <pre><nowiki>
 $ cd project/
-$ git init          # creates .git
+$ git init-db          # creates .git (in version 1.4.4.4)
 $ git add           # add those 'unknown' files
 $ git commit        # commit all changes, edit changelog entry
 </nowiki></pre>
