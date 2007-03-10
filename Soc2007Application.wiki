@@ -18,7 +18,7 @@ Git Development Community
 
 As Git approaches its second anniversary, it is now the revision
 control system of choice for many of the largest and most succesful
-open source projects, including the Linux kernel and at least 5
+open source projects, including the Linux kernel and at least five
 Google Summer of Code 2006 projects: One Laptop Per Child, Tangram,
 The Wine Project, XMMS2, and X.org.  Many more are considering
 Git adoption.
@@ -44,8 +44,7 @@ and developers and leadership with excellent communication
 skills and a dedication to explaining architecture and
 providing feedback on contributions.  We are therefore
 optimistic about our ability to take advantage
-of the opportunity given by GSoC 2007 to attract more long-term
-contributors.
+of GSoC 2007 to attract more long-term contributors.
 
 ''' Did your organization participate in GSoC 2005 or 2006? If so,
 please summarize your involvement and the successes and failures
