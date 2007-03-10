@@ -171,4 +171,21 @@ There is already an implementation of parts of the protocol as a C library (curr
 <<BR>><b>Mentor:</b> Sam Vilain (samv@catalyst.net.nz)
 <<BR>><b>Suggested by:</b> Sam Vilain
 
+== Git / Subversion interop. ==
+
+The idea here is implement something that speaks the Subversion protocol on the wire but uses git as the backend storage.
+
+There are two potential approaches:
+
+1. git-svnserver
+
+2. write a backend for Subversion
+
+In order to do this, you will probably make use of the reflog support that git has.  That enables a you to assign a monotonically increasing number to each commit in a repository. 
+
+<<BR>><b>Language:</b> Open for proposal.
+<<BR>><b>Goal:</b> For projects already using Subversion, they could migrate to using Git.
+<<BR>><b>Mentor:</b> Open for proposal.
+<<BR>><b>Suggested by:</b> Anand Kumria
+
 __NOTOC__
