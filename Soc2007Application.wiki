@@ -37,11 +37,13 @@ The future development and maintenance of these and other
 features depends on the community's continued ability to attract
 new developers.
 
-Thus far, the Git community has a proven track record of
-attracting, mentoring and retaining new contributors.
-Our maintainers have been conscientious in explaining the
-project architecture and giving feedback on contributions.
-We are therefore optimistic about our ability to take advantage
+The Git community has a proven track record of
+attracting, mentoring and retaining new contributors,
+thanks to a welcoming community, active irc and mailing list,
+and developers and leadership with excellent communication
+skills and a dedication to explaining architecture and
+providing feedback on contributions.  We are therefore
+optimistic about our ability to take advantage
 of the opportunity given by GSoC 2007 to attract more long-term
 contributors.
 
