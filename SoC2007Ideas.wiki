@@ -139,15 +139,16 @@ This is tricky to do right, as git-fsck needs to know what is going on, and many
 <<BR>><b>Suggested by:</b> Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031 on gmane]
 
 == gitweb Caching, gitweb Improvements ==
-Bringing together all gitweb implementations.  Implementing very smart caching in gitweb, to avoid the thundering herd problem on kernel.org whenever a repository gets updated.  Perhaps becoming the gitweb maintainer could come of it, or at least the gitweb admin for kernel.org (sorely needed).
+Bringing together all gitweb implementations.  Implementing very smart caching in gitweb, to avoid the thundering herd problem on kernel.org whenever a repository gets updated, or at least support for caching engines in the form of generating proper <code><nowiki>Last-Modified:</nowiki></code> and <code><nowiki>ETag:</nowiki></code> headers, and responding to <code><nowiki>If-Modified-Since:</nowiki></code> and <code><nowiki>If-None-Match:</nowiki></code> requests.  Perhaps becoming the gitweb maintainer could come of it, or at least the gitweb admin for kernel.org (sorely needed).
 
-Merging interesting and useful features like the client-side commit graph (gitk like clone) such as on [http://repo.or.cz/], or the incremental blame support proposed on the Git mailing list would be nice. Another idea is to generate some data (such as what is displayed on the front page) on update time, and saved in a format which can be read quickly by Perl.
+Merging interesting and useful features like the client-side commit graph (gitk like clone) such as on [http://repo.or.cz/], or the incremental blame support proposed on the Git mailing list would be nice.  Another idea is to generate some data (such as what is displayed on the front page) on update time, and saved in a format which can be read quickly by Perl.
 
 This project might also work nicely in parallel with the Libification project above, as gitweb could really benefit from a libified git.
 <<BR>><b>Language:</b> Perl; some HTML, CSS, and JavaScript depending on the actual tasks taken on by the student.
 <<BR>><b>Goal:</b> Improve gitweb performance on large installations like kernel.org; merge some interesting features from other gitweb forks/clones.
 <<BR>><b>Mentor:</b> Shawn O. Pearce (gsoc@spearce.org),  Petr Baudis (pasky@suse.cz)
 <<BR>><b>Suggested by:</b> Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031 on gmane]
+<<BR>><b>See:</b> [[InterfacesFrontendsAndTools#gitweb:gitweb]] entry on [[InterfacesFrontendsAndTools]] page.
 
 == Checkout Hooks ==
 
