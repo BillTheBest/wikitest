@@ -188,4 +188,15 @@ In order to do this, you will probably make use of the reflog support that git h
 <<BR>><b>Mentor:</b> Open for proposal.
 <<BR>><b>Suggested by:</b> Anand Kumria
 
+== HareGIT, a TortoiseCVS lookalike ==
+
+Many Windows users are already used to TortoiseCVS. Something like this is clearly lacking for Git.
+
+There is a small proof-of-concept code to make a "Shell Extension", i.e. a DLL which adds a menu entry to the context menu in the "Windows Explorer". This proof-of-concept code is meant to be compiled in the MSYS/MinGW combo, so you only need free tools.
+
+<<BR>><b>Language:</b> C/COM.
+<<BR>><b>Goal:</b> Have a TortoiseCVS lookalike for Git.
+<<BR>><b>Mentor:</b> Johannes Schindelin, ANYONE?.
+<<BR>><b>Suggested by:</b> Johannes Schindelin
+
 __NOTOC__
