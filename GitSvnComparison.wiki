@@ -80,6 +80,12 @@ For example the Mozilla repository is reported to be almost 12 GiB when stored i
 
 An SVN working directory always contains two copies of each file: one for the user to actually work with and another hidden in .svn/ to aid operations such as status, diff and commit.  In contrast a Git working directory requires only one small index file that stores about 100 bytes of data per tracked file.  On projects with a large number of files this can be a substantial difference in the disk space required per working copy.
 
+== Line Ending Conversion ==
+
+Subversion can be easily configured to automatically convert line endings to CRLF or LF, depending on the native line ending used by the client's operating system.  This conversion feature is useful when Windows and UNIX users are collaborating on the same set of source code.  But it doesn't always work well.   Sometimes files such as a Makefile need to only use LFs, even when they are on accessed from Windows.  Sometimes binary files such as images are converted when they shouldn't be, corrupting the content.  Although Subversion allows the user to specify line ending conversion on a file-by-file basis and has some binary file auto-detection rules, people do make mistakes and don't always get every file configured properly when first adding them to the repository.
+
+Whilst Git versions prior 1.5.1 never convert files and always assume that every file is opaque and should not be modified. Git 1.5.1 and onwards make this configurable.  For users on Windows they should set core.autocrlf = true so that text files are automatically checked out with CRLF and checked in as LF.  Git's advantage over Subversion is that you do not have to manually specify which files this conversion should be applied to, it happens automatically (hence autocrlf).  
+
 ----
 = Subversion's Major Features Over Git =
 
@@ -102,12 +108,6 @@ Since Git is distributed by nature not everything related to a project may be st
 Since Subversion has a single central repository it is possible to specify read and write access controls in a single location and have them be enforced across the entire project.
 
 FIXME
-
-== Line Ending Conversion ==
-
-Subversion can be easily configured to automatically convert line endings to CRLF or LF, depending on the native line ending used by the client's operating system.  This conversion feature is useful when Windows and UNIX users are collaborating on the same set of source code.  But it doesn't always work well.   Sometimes files such as a Makefile need to only use LFs, even when they are on accessed from Windows.  Sometimes binary files such as images are converted when they shouldn't be, corrupting the content.  Although Subversion allows the user to specify line ending conversion on a file-by-file basis and has some binary file auto-detection rules, people do make mistakes and don't always get every file configured properly when first adding them to the repository.
-
-In contrast Git never converts files.  Git assumes that every file is an opaque sequence of bytes and does not try to alter its content to conform to local conventions.  This does prevent accidental corruption of binary files (as no line ending conversion gets performed) but it also means that every file has one true line ending style and that all users must employ text editors that will handle that style.  In practice this tends to not be that much of a problem as nearly all popular source code editors that run on Windows will handle LF line endings just as well as they handle CRLF line endings.
 
 == Shorter Revision Numbers ==
 
