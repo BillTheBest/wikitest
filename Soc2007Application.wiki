@@ -33,15 +33,17 @@ do you hope to gain by participating? '''
 Prior Google Summer of Code projects have asked for several new
 features in Git, including submodule support (needed by Gentoo)
 and a native Windows port (needed by KDE and The Mozilla Foundation).
-
 The future development and maintenance of these and other
 features depends on the community's continued ability to attract
-new developers.  Thus far, the Git community has been quite
-good at attracting, mentoring and retaining new contributors.
-Our maintainers have been very conscientious in explaining the
-project architecture and giving feedback on all contributions.
-We see GSoC 2007 as an excellent marketing opportunity to attract
-even more long-term contributors.
+new developers.
+
+Thus far, the Git community has a proven track record of
+attracting, mentoring and retaining new contributors.
+Our maintainers have been conscientious in explaining the
+project architecture and giving feedback on contributions.
+We are therefore optimistic about our ability to take advantage
+of the opportunity given by GSoC 2007 to attract more long-term
+contributors.
 
 ''' Did your organization participate in GSoC 2005 or 2006? If so,
 please summarize your involvement and the successes and failures
@@ -52,7 +54,7 @@ No.
 ''' If your organization has not previously participated in GSoC,
 have you applied in the past? If so, for what year(s)? '''
 
-We did not apply in the past.  This is our first application.
+No; this is our first application.
 
 ''' Who will your organization administrator be? Please include Google
 Account information. '''
