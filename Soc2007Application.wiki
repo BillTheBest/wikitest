@@ -109,7 +109,7 @@ Students will be required to join the main development mailing list, and post th
 
 Mailing list traffic is currently around 80-100 messages per day, and is focused on Git feature development.  Keeping current by at least skimming list messages is an important part of the Git development process.
 
-Students will be required to post their work as a Git repository on repo.or.cz (an open community hosting server), or on another publicly available server, so that their work is immediately available for everyone to review, experiment with, and make use of.  Nearly all members of the Git community post their active work to repo.or.cz or similiar servers.
+Students will be required to post their work as a Git repository on repo.or.cz (an open community hosting server), or on another publicly available server, so that their work is immediately available for everyone to review, experiment with, and make use of.  Nearly all members of the Git community post their active work to repo.or.cz or similar servers.
 
 Mentors will also exchange email with students on at least a weekly basis, if not more frequently.  Students will be required to provide weekly progress reports back to their mentors, so that the mentors are aware of the tasks that a student might be stuck on or are having difficulty with.  The intent of the progress reports is to give the mentors a chance to provide suggestions for problem resolution back to the student.
 
