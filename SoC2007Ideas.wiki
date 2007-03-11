@@ -177,8 +177,8 @@ The idea here is implement something in Git that speaks the Subversion protocol 
 
 There are two potential approaches:
 
-1. git-svnserver
-2. write a backend for Subversion
+# git-svnserver
+# write a backend for Subversion
 
 In order to do this, you could make use of the reflog support already built into Git.  That enables a you to assign a monotonically increasing number to each commit in a repository, along a single branch, or by combining reflogs, along multiple branches.
 <<BR>><b>Language:</b> Open for proposal.
@@ -193,7 +193,7 @@ Many Windows users are already used to TortoiseCVS. Something like this is clear
 There is a small proof-of-concept code to make a "Shell Extension", i.e. a DLL which adds a menu entry to the context menu in the "Windows Explorer". This proof-of-concept code is meant to be compiled with the MSYS/MinGW combo, so you only need free tools.
 <<BR>><b>Language:</b> C/COM.
 <<BR>><b>Goal:</b> Have a TortoiseCVS lookalike for Git.
-<<BR>><b>Mentor:</b> Johannes Schindelin, ANYONE?.
+<<BR>><b>Mentor:</b> Johannes Schindelin (johannes.schindelin@gmx.de), ANYONE ELSE?.
 <<BR>><b>Suggested by:</b> Johannes Schindelin
 
 __NOTOC__
