@@ -15,13 +15,13 @@ All projects have the following basic requirements:
 * All materials must be released under the [http://www.gnu.org/copyleft/gpl.html GNU Public License (GPL)], version 2.
 * Individual students shall retain copyright on their works.
 * Projects must be tracked and managed in Git, and published on [http://repo.or.cz].
-* Weekly project status reports should be sent to the Git mailing list (git@vger.kernel.org).  Each status report should outline what was accomplished that week, any issues that prevented that week's goals from being completed, and your goals for the next week.  This will help you to break your project down into manageable chunks.
+* Weekly project status reports should be sent to the project's mentors.  Each status report should outline what was accomplished that week, any issues that prevented that week's goals from being completed, and your goals for the next week.  This will help you to break your project down into manageable chunks.
 
 You should also read the [http://code.google.com/p/google-summer-of-code/wiki/AdviceforStudents Advice for GSoC Students Page], as it has excellent suggestions that can help you pick a project and shape your proposal.
 
 If your proposal is accepted by the Git Development Community you will be expected to work on it full time during the summer.  Its cool if you want to take a week off for vacation, but remember that Google is hiring you for the summer to help us improve Git.  That should be your focus.  Don't expect that you will be able to work on your project for just 10 hours a week and then collect at the end.
 
-If your original proposal doesn't pan out or becomes too much of a challenge, you should work with your mentor to help redefine it.  We really want to see every project succeed.
+If your original proposal doesn't pan out or becomes too much of a challenge, you should work with your mentor to help redefine it.  We really want to see every project succeed this summer, as there is a lot of interest in these features from the user community.
 
 = New To Git? New To Open Source Development? =
 
@@ -165,35 +165,32 @@ This idea can be extended to other compression and archive formats, too.  Sam Vi
 
 Implement a server and P2P client/server for the distributed gittorrent specification (see http://gittorrent.utsl.gen.nz/).  This project has some interesting benefits for larger projects such as kernel.org, where the mirror servers are currently overloaded trying to serve up all of the Git repositories and other files.
 
-There is already an implementation of parts of the protocol as a C library (currently at http://jonas.nitro.dk/gittorrent/gittorrent.git/)  You can use this library, linked with the language of your choice, or re-implement completely in another language.  I'd prefer implementations in C, Perl (any version), Java, Ruby, or Python, but please feel free to ask whether I feel up to assisting you in your favourite language. :-)
+There is already an implementation of parts of the protocol as a C library (currently at http://jonas.nitro.dk/gittorrent/gittorrent.git/)  You can use this library, linked with the language of your choice, or re-implement completely in another language.  I'd prefer implementations in C, Perl (any version), Java, Ruby, or Python, but please feel free to ask whether I feel up to assisting you in your favorite language. :-)
 <<BR>><b>Language:</b> Open for proposal.
 <<BR>><b>Goal:</b> Hosting of massive projects, massively parallel mirroring.
 <<BR>><b>Mentor:</b> Sam Vilain (samv@catalyst.net.nz)
 <<BR>><b>Suggested by:</b> Sam Vilain
 
-== Git / Subversion interop. ==
+== Git / Subversion Interoperability ==
 
-The idea here is implement something that speaks the Subversion protocol on the wire but uses git as the backend storage.
+The idea here is implement something in Git that speaks the Subversion protocol on the wire, but uses Git as the backend storage.  (This would be like the existing git-cvsserver.)
 
 There are two potential approaches:
 
 1. git-svnserver
-
 2. write a backend for Subversion
 
-In order to do this, you will probably make use of the reflog support that git has.  That enables a you to assign a monotonically increasing number to each commit in a repository. 
-
+In order to do this, you could make use of the reflog support already built into Git.  That enables a you to assign a monotonically increasing number to each commit in a repository, along a single branch, or by combining reflogs, along multiple branches.
 <<BR>><b>Language:</b> Open for proposal.
-<<BR>><b>Goal:</b> For projects already using Subversion, they could migrate to using Git.
+<<BR>><b>Goal:</b> For projects already using Subversion, they could transparently migrate to using Git (SVN clients, Git server).
 <<BR>><b>Mentor:</b> Open for proposal.
 <<BR>><b>Suggested by:</b> Anand Kumria
 
-== HareGIT, a TortoiseCVS lookalike ==
+== HareGIT, a TortoiseCVS Lookalike ==
 
 Many Windows users are already used to TortoiseCVS. Something like this is clearly lacking for Git.
 
-There is a small proof-of-concept code to make a "Shell Extension", i.e. a DLL which adds a menu entry to the context menu in the "Windows Explorer". This proof-of-concept code is meant to be compiled in the MSYS/MinGW combo, so you only need free tools.
-
+There is a small proof-of-concept code to make a "Shell Extension", i.e. a DLL which adds a menu entry to the context menu in the "Windows Explorer". This proof-of-concept code is meant to be compiled with the MSYS/MinGW combo, so you only need free tools.
 <<BR>><b>Language:</b> C/COM.
 <<BR>><b>Goal:</b> Have a TortoiseCVS lookalike for Git.
 <<BR>><b>Mentor:</b> Johannes Schindelin, ANYONE?.
