@@ -8,7 +8,7 @@
 = Other programs that *should* be taught to work with Git, but haven't been =
 
 ----
- <span style="font-size: smaller">[[#Bugzilla Bugzilla]], [[#Bonsai Bonsai]], [[#Trac Trac]], [[#TWiki TWiki]], [[#scmbug SCMBug]], [[#be BugsEverywhere]], [[#Savane Savane]], [[#GForge GForge]], [[#DVC DVC (Emacs)]], [[#Eclipse Eclipse]], [[#PIDA PIDA]], [[#Eric3 Eric3]], [[#Meld Meld]], [[#xxdiff xxdiff]]</span>
+ <span style="font-size: smaller">[[#Bugzilla Bugzilla]], [[#Bonsai Bonsai]], [[#Trac Trac]], [[#TWiki TWiki]], [[#scmbug SCMBug]], [[#be BugsEverywhere]], [[#Savane Savane]], [[#GForge GForge]], [[#DVC DVC (Emacs)]], [[#PIDA PIDA]], [[#Eric3 Eric3]], [[#Meld Meld]], [[#xxdiff xxdiff]]</span>
 ----
 
 <b>Bugzilla</b> (bugtracker)<<Anchor(Bugzilla)>><<Anchor(Bonsai)>>:: <span style="font-size: x-large; color: red">!</span>
@@ -39,9 +39,6 @@
 
 <b>DVC (Distributed Version Control)</b> (Emacs interface)<<Anchor(DVC)>>::
     [http://download.gna.org/dvc/ DVC] is a project to create a generic library for fancy Emacs interfaces to modern version control systems. Has support for several systems, but not Git -- yet. <i>(Emacs, elisp)</i>
-
-<b>Eclipse</b> (IDE)<<Anchor(Eclipse)>>:: 
-    [http://www.eclipse.org/ Eclipse] -- a well known, extremely pluggable IDE. Might be useful to look at the [http://eclipsedarcs.org/doku.php Darcs plugin] or [http://www.eclipse.org/community/team.php other existing VCS] plugins. Currently one can work with Eclipse using CVS plugin and `git-cvsserver`. One wonders if one can use `git-svn` and [http://subclipse.tigris.org/ Subclipse] (Subversion plugin) instead... <b>in development, unreleased</b>. <i>(Java)</i>
 
    [http://www.spearce.org/projects/scm/egit.git Java GIT/Eclipse GIT] is a starting plugin for Eclipse to handle Git natively.
 
