@@ -13,6 +13,9 @@ Some ways to keep informed about Egit development.
 
 = Features =
 * Resource history view
+* Compare revisions (file level only yet)
+* Quick diff
+* Branch and [[StGit]] patch decoration
 
 = FAQ =
 == Documentation ==
