@@ -108,6 +108,7 @@ Because it got merged into git. See
 == Does git convert between CRLF and LF for different platforms? ==
 
 Released version: No
+
 Support for this has begun for the version after 1.5. Please join the development community if you are interested. Although the main target is the Windows target, it is possible to test and develop on any platform.
 
 <<Anchor(git-keywords)>>
@@ -291,10 +292,8 @@ As Linus said ([http://thread.gmane.org/gmane.comp.version-control.git/40893/foc
 "Generally, the best way to fix things is (I've written this up at 
 somewhat more length before, but I'm too lazy to find it):
 
- - back up all your state so that anything you do is re-doable if you 
-   corrupt things more!
-
- - explode any corrupt pack-files
+* back up all your state so that anything you do is re-doable if you corrupt things more!
+* explode any corrupt pack-files
 
    See "man git-unpack-objects", and in particular the "-r" flag. Also, 
    please realize that it only unpacks objects that aren't already 
@@ -303,7 +302,7 @@ somewhat more length before, but I'm too lazy to find it):
    that are in the pack-file in the pack-file itself, and not unpack 
    anything at all)
 
- - replace any broken and/or missing objects
+* replace any broken and/or missing objects
 
    This is the challenging part. Sometimes (hopefully often!) you can find 
    the missing objects in other copies of the repositories. At other 
@@ -311,9 +310,8 @@ somewhat more length before, but I'm too lazy to find it):
    example, maybe your checked-out copy contains the file content that 
    when hashed will be the missing object?).
 
- - make sure everything is happy with "git-fsck --full"
-
- - repack everything to get back to an efficient state again.
+* make sure everything is happy with "git-fsck --full"
+* repack everything to get back to an efficient state again.
 
 And remember: git does _not_ make backups pointless. It hopefully makes 
 backups *easy* (since cloning and pulling is easy), but the basic need for 
