@@ -42,6 +42,8 @@
     [[pg]] ([http://www.spearce.org/category/projects/scm/pg/ homepage]) by Shawn Pearce aims to help the user manage a set of patches on top of the current branch. pg is somewhat like Quilt or StGIT, but it does have a slightly different feature set.  <i>Note that pg is no longer being actively developed.</i>
 
 == Graphical Interfaces ==
+<b><u>gitk</u></b> (distributed with Git)<<Anchor(gitk)>>::
+    [[gitk]] is a simple Tcl/Tk GUI for browsing history of Git repositories easily, distributed with Git.
 
 <b><u>git-gui</u></b> (distributed with Git)<<Anchor(git-gui)>>::
     [[git-gui]] ([http://permalink.gmane.org/gmane.comp.version-control.git/31054 announcement], [http://repo.or.cz/w/git-gui.git gitweb]) by Shawn Pearce is a tool for creating commits and managing branches.  It was inspired by and initially based on [[#gitool gitool]]. Written in Tcl/Tk.  Stable versions are shipped with Core Git since version 1.5.
@@ -55,10 +57,7 @@
      There is an experimental version of QGit ported under Qt4.2 libraries, available at http://repo.or.cz as qgit4. This means that it could be compiled and run as a Windows native application.
 
 <b>Giggle</b><<Anchor(giggle)>>::
-     [[Giggle]] ([http://developer.imendio.com/projects/giggle/ homepage]) is a graphical frontend for the git directory tracker (think of gitk on GTK+).
-
-<b><u>gitk</u></b> (distributed with Git)<<Anchor(gitk)>>::
-    [[gitk]] is a simple Tcl/Tk GUI for browsing history of Git repositories easily, distributed with Git.
+     [[Giggle]] ([http://developer.imendio.com/projects/giggle/ homepage]) is a graphical frontend for browsing history of Git repositories (think of gitk on GTK+). Result of a Hackathon 2007, currently developed by Imendio's Carlos Garnacho and Sven Herzberg.
 
 <b>gitview</b> (in `contrib/`)<<Anchor(gitview)>>::
      [[GitView]] is a GTK based repository browser for git written in Python by Aneesh Kumar K.V. It  can be found in `contrib/` directory of Git source tree.
