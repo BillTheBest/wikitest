@@ -43,8 +43,6 @@
 <b>DVC (Distributed Version Control)</b> (Emacs interface)<<Anchor(DVC)>>::
     [http://download.gna.org/dvc/ DVC] is a project to create a generic library for fancy Emacs interfaces to modern version control systems. Has support for several systems, but not Git -- yet. <i>(Emacs, elisp)</i>
 
-   [http://www.spearce.org/projects/scm/egit.git Java GIT/Eclipse GIT] is a starting plugin for Eclipse to handle Git natively.
-
 <b>PIDA</b> (IDE)<<Anchor(PIDA)>>::
     [http://pida.co.uk/ PIDA] Integrated development environment supporting CVS, Subversion, Darcs, Mercurial, Monotone, Bazaar-NG (<i>bzr</i>), GNU Arch. It allows embedding Vim or any editor. <i>(Python, GTK)</i>
 
