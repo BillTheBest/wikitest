@@ -8,7 +8,7 @@
 = Other programs that *should* be taught to work with Git, but haven't been =
 
 ----
- <span style="font-size: smaller">[[#Bugzilla Bugzilla]], [[#Bonsai Bonsai]], [[#Trac Trac]], [[#TWiki TWiki]], [[#scmbug SCMBug]], [[#be BugsEverywhere]], [[#Savane Savane]], [[#GForge GForge]], [[#DVC DVC (Emacs)]], [[#PIDA PIDA]], [[#Eric3 Eric3]], [[#Meld Meld]], [[#xxdiff xxdiff]]</span>
+ <span style="font-size: smaller">[[#Bugzilla Bugzilla]], [[#Bonsai Bonsai]], [[#Trac Trac]], [[#TWiki TWiki]], [[#scmbug SCMBug]], [[#be BugsEverywhere]], [[#Savane Savane]], [[#GForge GForge]], [[#libresource LibreSource]] [[#DVC DVC (Emacs)]], [[#PIDA PIDA]], [[#Eric3 Eric3]], [[#Meld Meld]], [[#xxdiff xxdiff]]</span>
 ----
 
 <b>Bugzilla</b> (bugtracker)<<Anchor(Bugzilla)>><<Anchor(Bonsai)>>:: <span style="font-size: x-large; color: red">!</span>
@@ -36,6 +36,9 @@
     [https://gna.org/projects/savane Savane] and [http://gforge.org/ GForge] are web-based software hosting system. Both Savannah ([https://savannah.gnu.org GNU] and [https://savannah.nongnu.org/ non-GNU]) and [https://gna.org Gna!] use Savane as their software hosting engine. They currently include issue tracking, project member management by roles and individual account maintenance. The issue tracking handles bugs, tasks, support, news and documentation management. Both currently support CVS and Subversion; moving to Subversion is encouraged. Savane additionally supports GNU Arch. No Git support yet. <i>(Perl or PHP)</i>
 
     [http://alioth.debian.org/ Alioth] host <code><nowiki>costa</nowiki></code>, [http://www.debian.org/social_contract#guidelines free software] hosting system managed by the [http://www.debian.org/ Debian] project, which runs a slightly modified version of the [http://gforge.org/ Gforge] software, supports both git and bzr for hosting source archives. Here is [http://roland.entierement.nu/blog/2006/08/17/bits-about-alioth.html explanation] how to use both systems to access the repositories; it was announced in [http://www.debian.org/News/weekly/2006/34/ Debian Weekly News - August 22nd, 2006].
+
+<b>LibreSource</b> (Open Source Versatile Collaborative Distributed Envirionment)<<Anchor(libresource)>>::
+    [http://www.libresource.org/ LibreSource] aims to be distributed version of collaborative environment platforms such as Drupal (CMS) or SourceForge (software development).  LibreSource includes its own SCM tool called LibreSource Synchronizer (described as: innovative, simple, united).  Since version 2.0 LibreSource integrates the Subversion SCM... which is a bit strange as Subversion is centralized SCM.  It would be nice to have integration with Git, which is disctributed SCM.
 
 <b>DVC (Distributed Version Control)</b> (Emacs interface)<<Anchor(DVC)>>::
     [http://download.gna.org/dvc/ DVC] is a project to create a generic library for fancy Emacs interfaces to modern version control systems. Has support for several systems, but not Git -- yet. <i>(Emacs, elisp)</i>
