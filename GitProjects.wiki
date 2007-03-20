@@ -21,6 +21,9 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * Nico Schottelius (Linux|Unix) projects
 ** http://linux.schottelius.org/ (homepage)
 ** http://linux.schottelius.org/cgi-bin/gitweb.cgi (gitweb)
+* [[OpenFabrics]] Alliance ([[InfiniBand]] & other RDMA Network Fabric) drivers
+** http://www.openfabrics.org/ (homepage)
+** http://http://www.openfabrics.org/git/ (gitweb)
 * Many other Linux related projects...
 ** http://www.kernel.org/git (gitweb)
 
