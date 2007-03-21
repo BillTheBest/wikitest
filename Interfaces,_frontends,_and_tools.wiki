@@ -206,6 +206,9 @@ export GIT_DIFF_PAGER="colordiff | less -RS"</nowiki></pre>
 <b>Nico Schottelius scripts</b><<Anchor(schottelius)>>::
     Some of [http://unix.schottelius.org/scripts/ Nico Schottelius (unix|linux) scripts] deal with Git: `db-dump+git.sh`, `update-gitweb.sh`, `update-git+cogito.sh`.
 
+<b>gitco</b><<Anchor(gitco)>>::
+    [http://blog.josefsson.org/?p=8 gitco] by Simon Josefsson is a Perl script to cleanup git directories similar to [http://www.red-bean.com/cvsutils/ cvsutils] 'cvsco'.
+
 ----
 [[CategoryTools]]
 [[CategoryGitHomepage]] ([http://git.or.cz/#tools Related Tools])
