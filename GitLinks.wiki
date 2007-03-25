@@ -124,7 +124,7 @@ Only those including [[Git]] as one of the systems.
 == Generic version control info ==
 There is place for generic, non SCM specific, links
 * [http://www.dwheeler.com/essays/scm-security.html Software Configuration Management (SCM) Security] by David A. Wheeler (March 13, 2004; Revised May 6, 2005).
-* [http://damonpoole.blogspot.com/ Software Configuration Management (SCM) - Damon's Thoughts] blog (by Damon Poole of [[AccuRev]])  - A discussion of the state of Software Configuration Management (SCM) today.
+* [http://damonpoole.blogspot.com/ Software Configuration Management (SCM) - Damon's Thoughts] blog (by Damon Poole of AccuRev)  - A discussion of the state of Software Configuration Management (SCM) today.
 * [http://www.usenix.org/events/hotos03/tech/full_papers/henson/henson.pdf An Analysis of Compare-by-hash] (PDF) by Val Henson, in <i>Proceedings of HotOS IX: The 9th Workshop on Hot Topics in Operating Systems</i>.
 * [http://revctrl.org/ Revctrl Wiki], including [http://revctrl.org/CategoryMergeAlgorithm Examples of different merge algorithms] article there.
 * [http://software.ericsink.com/scm/source_control.html Source Control HOWTO] (work in progress) and [http://software.ericsink.com/Beyond_CheckOut_and_CheckIn.html Beyond CheckOut and [[CheckIn]]] by Eric Sink, heavily inspired by Vault and Subversion.
@@ -134,6 +134,7 @@ There is place for generic, non SCM specific, links
 * [http://www.cmcrossroads.com/bradapp/acme/branching/ <i>Streamed Lines:</i> Branching Patterns for Parallel Software Development] (c) 1998 by Brad Appleton, Stephen Berczuk, Ralph Cabrera, and Robert Orenstein.
 * [http://www.martinfowler.com/articles/continuousIntegration.html Continuous Integration] by  Martin Fowler about Continuous Integration software development practice.
 * [http://www.joelonsoftware.com/items/2006/11/29.html Using source control tools on huge projects] by Joel Spolsky, about the use of source control on the Windows team in Microsoft.
+* [http://versioncontrolblog.com/2007/01/08/configurein-and-version-control/ configure.in and version control] in [http://versioncontrolblog.com Version Control Blog] talks about issue of including (some) of generated files in version control for the ease of deployment.
 * [http://www.perforce.com/perforce/bestpractices.html High-level Best Practices in Software Configuration Management] by Laura Wingerd & Christopher Seiwald, Perforce Software /!\
 * [http://blog.ianbicking.org/distributed-vs-centralized-scm.html Distributed vs. Centralized Version Control] in Ian Bicking blog, pro-Centralized SCM. /!\
 * [http://community.livejournal.com/relisoft/9641.html Distributed Systems] by Bartosz Milewski, in Reliable Software (relisoft) Developers' Journal, about truly distributed SCM vs. distributed database/filesystem centralized SCM. Pro Code Co-Op. /!\
