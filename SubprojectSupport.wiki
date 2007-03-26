@@ -16,7 +16,7 @@ A prototype implementation of submodules was [http://marc.theaimsgroup.com/?t=11
 
 == References ==
 
-* [http://www.kernel.org/git/?p=git/git.git;a=blob;hb=todo;f=Subpro.txt Notes on Subproject Support] by Junio C Hamano in [http://www.kernel.org/git/?p=git/git.git;a=tree;h=todo;hb=todo todo] branch in git repository.
+* <i>Obsolete</i>: [http://git.kernel.org/?p=git/git.git;a=blob;f=Subpro.txt;h=713b72eea20e567622e2d29d8d6ad258970ec103;hb=874a2aa6053e778a22c985323c69311cfffb65a7 Notes on Subproject Support] by Junio C Hamano in [http://www.kernel.org/git/?p=git/git.git;a=tree;h=todo;hb=todo todo] branch in git repository. This idea was abandoned.
 * [http://git.admingilde.org/tali/git.git/module2 prototype implementation] by Martin Waitz
 
 __NOTOC__
