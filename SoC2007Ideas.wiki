@@ -106,7 +106,7 @@ A new merge strategy "merge-blame".  By running "git-blame -C $ancestor..$other 
 This strategy should probably be a function within merge-recursive that is activated only when merge-recursive is invoked as merge-blame (or some perhaps some better name).  Further it probably should only be used when a file fails to be merged cleanly, as a "last resort before asking the developer to do it for me" sort of trick.  Rationale here is the blame computation is non-trivial and will take some CPU time, so we want to avoid that in the common cases of non-moved code.
 <<BR>><b>Goal:</b> Demonstrate a working merge-blame that can fairly accurately merge changes made to moved code segments.
 <<BR>><b>Mentor:</b> Shawn O. Pearce (gsoc@spearce.org)
-<<BR>><b>Suggested by:</b> Anonymously added to the Wiki; was not suggested on the mailing list or on IRC.
+<<BR>><b>Suggested by:</b> Anonymously added to the Wiki; [http://article.gmane.org/gmane.comp.version-control.git/42728 on gmane]
 
 == True Branch Support In cvsserver ==
 This will make it easier for projects to migrate from CVS to Git.  The idea would be to expose the Git branch space as CVS branches (and likewise the Git tag space as CVS tags), permitting existing CVS clients such as [http://www.tortoisecvs.org/ TortoiseCVS] to more easily access these objects.
