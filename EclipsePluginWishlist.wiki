@@ -31,12 +31,12 @@ Switch to an existing branch, updating the working directory to match.
 Note that updating the working directory may require a 3 way merge if the working directory is dirty
 (git checkout -m).
 
-My usual git working style is to not switch branches with a dirty
-working directory; I always commit to the current branch before
-switching to a new one. I mention that because I assume it'll be easier
-to implement that workflow first; once you have commit capability, you
-can do that style of branch switching (either preventing the switch or
-doing an implicit commit when the working directory is dirty) without
+My usual git working style is to not switch branches with a dirty               
+working directory; I always commit to the current branch before                 
+switching to a new one. I mention that because I assume it'll be easier         
+to implement that workflow first; once you have commit capability, you          
+can do that style of branch switching (either preventing the switch or          
+doing an implicit commit when the working directory is dirty) without           
 having to worry about merging. <i>-- Steven Grimm</i>
 
 == Fetch ==
@@ -87,7 +87,7 @@ First version can propose a simple branch history viewer, based on the [http://v
 
 == Stacked GIT ==
 
-Stacked Git operations.
+Stacked Git operations. 
 
 == Checkout ==
 
@@ -114,6 +114,5 @@ be reused.) I'd like to be able to update from and commit to the parent
 svn repository. <i>-- Steven Grimm</i>
 
 I'm considering this to be out of scope for the time being, but if someone takes it on and submits reasonable patches we'll include them. <i>-- Shawn Pearce</i>
- [http://homepage.mac.com/sezession/89.html asian teen webcam] | [http://homepage.mac.com/lifeblood/54.html webcam sex show] | [http://evaders.freewebsitehosting.com/58.html lesbians with vibrators] | [http://lapwing.exactpages.com/73.html european piss dvd] | [http://tapelines.kogaryu.com/15.html asian handjob movie] | [http://homepage.mac.com/pkwy1/80.html nude webcam girl] | [http://homepage.mac.com/counselor4/61.html webcam big tits] | [http://naughts.1accesshost.com/95.html glass dildos] | [http://homepage.mac.com/liffey1/31.html female masturbation porn] | [http://homepage.mac.com/clinically/40.html amateur boobs webcam] | [http://publicised.wtcsites.com/53.html pretty tgirls] | [http://homepage.mac.com/anal1/10.html maui webcam] | [http://lp.9cy.com/16.html large anal probing] | [http://diktats.00freehost.com/83.html big tits dildo] | [http://homepage.mac.com/roughhewn/73.html women sexy webcam] | [http://diktats.00freehost.com/46.html seabiscuit old photos] | [http://rueful.freewebpages.org/65.html kate webcam strip] | [http://eats.angelcities.com/45.html amature webcam stripping] | [http://gutsy.fcpages.com/22.html free femdom stories] | [http://bedchamber.freewebpages.org/51.html stories bi mmf] | [http://homepage.mac.com/apposite1/94.html webcam wanker pics] | [http://reliably.ibnsites.com/47.html teenage fuck buddies] | [http://homepage.mac.com/permafrost2/36.html girl on webcams] | [http://mean.wtcsites.com/68.html webcam virgin] | [http://homepage.mac.com/passe1/8.html shower hidden webcam] | [http://careering.exactpages.com/4.html adult reality films] | [http://caroms.freecities.com/34.html webcam auction xxx] | [http://homepage.mac.com/sassiest/5.html webcam teen virgin] | [http://vertices.1sweethost.com/2.html vid sex]
 
 __NOTOC__
