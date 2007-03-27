@@ -14,6 +14,16 @@ There are several possible directions for implementing subproject support in git
 
 A prototype implementation of submodules was [http://marc.theaimsgroup.com/?t=116405956000002&r=1&w=2 proposed] by Martin Waitz. This prototype uses one parent repository to track other GIT repositories which act as submodules. This way the submodules retain all the advantages of normal repositories. For example they can be independently changed, merged and pulled/pushed to remote sites. But they are also part of the parent repository so that each version of the parent can specify a consistent tree even when it contains several submodules.
 
+== Status ==
+
+(as of March 26, 2007)
+
+Martin Waitz implementation's object-level extensions have been well-reviewed, and are generally accepted as being the way to go at this point. Effectively, they allow tree objects to contain entries which have a special file mode (directory + symlink) which holds a commit from a subproject; the interpretation of this for the filesystem structure is that the commit's tree should be placed rooted at the path of the entry.
+
+The initial implementation ran into scalability constraints when applied to  vast superprojects (the use case where a couple hundred full-sized projects are all made subprojects of a superproject which is an entire operating system distribution, for example). This implementation has not been completed due to these problems.
+
+A newer implementation is in the works which should be able to handle this case efficiently; this implementation does not require changes to the object-level extension proposed previously, so the initial implemention may be used for projects where scalability on this order is not important. The main difference is in where the objects in a subproject are stored.
+
 == References ==
 
 * <i>Obsolete</i>: [http://git.kernel.org/?p=git/git.git;a=blob;f=Subpro.txt;h=713b72eea20e567622e2d29d8d6ad258970ec103;hb=874a2aa6053e778a22c985323c69311cfffb65a7 Notes on Subproject Support] by Junio C Hamano in [http://www.kernel.org/git/?p=git/git.git;a=tree;h=todo;hb=todo todo] branch in git repository. This idea was abandoned.
