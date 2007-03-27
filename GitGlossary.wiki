@@ -109,9 +109,9 @@ This list is sorted alphabetically:
 	frequently on a [[#tracking_branch tracking branch]] of a [[#remote_repository remote repository]].
 
 ; fetch : <<Anchor(fetch)>>
-	<i>Fetching a [[#branch branch]]</i> means to get the [[#branch branch]]'s
-        [[#head_ref head ref]] from a [[#remote_repository remote repository]],
-        to find out which [[#object objects]] are missing from the local
+	<i>Fetching a [[#branch branch]]</i> means to get the [[#branch branch]]'s 
+        [[#head_ref head ref]] from a [[#remote_repository remote repository]], 
+        to find out which [[#object objects]] are missing from the local 
         [[#object_database object database]], and to get them, too.
 
 ; file system : <<Anchor(file_system)>>
@@ -125,7 +125,7 @@ This list is sorted alphabetically:
 ; graft : <<Anchor(graft)>>
 	Also known as [[GraftPoint]], enable two otherwise different lines of development to
 	be joined together. It works by letting users record fake ancestry information for
-	[[#commit commits]]. This way you can make [[Git]] pretend the set of [[#parent parents]]
+	[[#commit commits]]. This way you can make [[Git]] pretend the set of [[#parent parents]] 
         a [[#commit commit]] has is different from what was recorded when the commit was created.
 
 ; hash : <<Anchor(hash)>>
@@ -154,8 +154,8 @@ This list is sorted alphabetically:
 
 ; index : <<Anchor(index)>>
 	A collection of files with stat information, whose contents are
-	stored as [[#object objects]]. The index is a stored version of your
-        [[#working_tree working tree]]. Truth be told, it can also contain
+	stored as [[#object objects]]. The index is a stored version of your 
+        [[#working_tree working tree]]. Truth be told, it can also contain 
         a second, and even a third version of a working tree, which are used
         when [[#merge merging]].
 
@@ -195,8 +195,8 @@ This list is sorted alphabetically:
 
 ; object name : <<Anchor(object_name)>>
 	The unique identifier of an [[#object object]]. The [[#hash hash]] of the object's contents
-	using the [[WikiPedia:SHA_hash_functions|Secure Hash Algorithm 1]] and usually
-        represented by the 40 character hexadecimal encoding of the hash of the object
+	using the [[WikiPedia:SHA_hash_functions|Secure Hash Algorithm 1]] and usually 
+        represented by the 40 character hexadecimal encoding of the hash of the object 
         (possibly followed by a white space).
 
 ; object type : <<Anchor(object_type)>>
@@ -246,7 +246,7 @@ This list is sorted alphabetically:
 	<i>Pulling a [[#branch branch]]</i> means to [[#fetch fetch]] it and [[#merge merge]] it.
 
 ; push : <<Anchor(push)>>
-	<i>Pushing a [[#branch branch]]</i> means to get the branch's [[#head_ref head ref]] from
+	<i>Pushing a [[#branch branch]]</i> means to get the branch's [[#head_ref head ref]] from 
         a [[#remote_repository remote repository]] , find out if it is an ancestor to the branch's local
 	head ref is a direct, and in that case, putting all [[#object objects]], which
 	are reachable from the local head ref, and which are missing from
@@ -365,6 +365,5 @@ $ git push $URL refs/heads/master:refs/heads/to-upstream</nowiki></pre>
 
 ----
 [[CategoryGitDocumentation]]
- [http://bandit.bravepages.com/11.html teen sex indian] | [http://homepage.mac.com/shortener/21.html celeb puffy nipples] | [http://homepage.mac.com/pkwy1/35.html ebony webcam girls] | [http://eastwardly.bravepages.com/56.html smoking wife] | [http://kishinev.g0g.net/14.html foxy webcam teen] | [http://homepage.mac.com/lube3/31.html webcam girls kisssing] | [http://homepage.mac.com/brokered/75.html yahoo webcam nude] | [http://solders.freewebsitehosting.com/53.html man fucking men] | [http://homepage.mac.com/permafrost2/75.html granny webcam] | [http://donal.exactpages.com/4.html cheerleader wet] | [http://homepage.mac.com/chengdu2/76.html teen webcam bra] | [http://prevailed.greatnow.com/1.html webcam porno] | [http://thrones.g0g.net/31.html teen cummy face] | [http://alibiing.741.com/29.html yahoo naked thongs] | [http://homepage.mac.com/shockable/42.html italian shaved ices] | [http://homepage.mac.com/revelation4/92.html girls with webcam] | [http://concerns.kogaryu.com/80.html webcam cunt] | [http://brushwork.00freehost.com/89.html nude male celeb] | [http://adorably.greatnow.com/51.html webcam ezine sex] | [http://homepage.mac.com/apposite1/23.html live webcam naked] | [http://sweetbrier.150m.com/25.html calgary webcam girl] | [http://magritte.freecities.com/60.html desperate housewives future] | [http://homepage.mac.com/congas1/67.html young man webcam] | [http://squabbler.bravepages.com/10.html blond big tits] | [http://abatement.fcpages.com/27.html pantyhose bi] | [http://assayer.o-f.com/95.html webcam tit] | [http://fibbed.150m.com/61.html logitech webcam help] | [http://targets.g0g.net/27.html pornstar mpg avi] | [http://homepage.mac.com/whereon/80.html open milf pussy] | [http://homepage.mac.com/shockable/46.html fingering your arse] | [http://homepage.mac.com/cruelly/58.html my private webcam] | [http://fatherland.00freehost.com/57.html stories of transsexuals] | [http://homepage.mac.com/defectives/51.html cancun streaming webcam] | [http://homepage.mac.com/handicap1/60.html webcam flash boob] | [http://homepage.mac.com/calx1/29.html amatuer webcam videos] | [http://absolute.envy.nu/53.html webcam cock pics] | [http://homepage.mac.com/careerists/87.html xxx webcam free] | [http://roguish.bravepages.com/20.html barcelona live webcam] | [http://bejeweling.freewebsitehosting.com/33.html mega cock handjob] | [http://laniard.150m.com/59.html pussy licker] | [http://futurisms.o-f.com/81.html my sexy webcam] | [http://reckless.greatnow.com/31.html tammy sex webcam] | [http://perspires.fcpages.com/42.html pee vagina] | [http://swelter.100freemb.com/96.html gushing climax] | [http://eave.kogaryu.com/37.html bbw mature teen] | [http://precinct.100freemb.com/78.html hung twink] | [http://risk.dreamstation.com/77.html yahoo webcam nude]
 
 __NOTOC__
