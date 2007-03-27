@@ -11,9 +11,9 @@ Git was created by [[Linus Torvalds]] with assistance from a loosely-knit team o
 = Design =
 Git was designed to be extremly fast (seconds per patch), distributed SCM with good support for nonlinear history (including working with multiple branches).
 
-* <b>Pure content tracker.</b> The main design idea of Git is <i>"pure content tracking"</i>.
- Regardless of how you get to a particular state, git will consider that state 100% identical.
- Consequently, git separates the notion of history (which is purely a list of
+* <b>Pure content tracker.</b> The main design idea of Git is <i>"pure content tracking"</i>. 
+ Regardless of how you get to a particular state, git will consider that state 100% identical. 
+ Consequently, git separates the notion of history (which is purely a list of 
  commits and their relationships), and the notion of place and name of file in filesystem (structure),
  from the notion of "content", which has no history nor structure in itself.
 * content is stored in <i>blob objects</i>.
@@ -30,10 +30,10 @@ Git was designed to be extremly fast (seconds per patch), distributed SCM with g
  storing the information about "interesting" files. It serves as staging area to prepare commits,
  helps with merge conflicts resolving, and improves performance (and speed of operations is one
  of driving ideas of Git design).
-<!-- ## Explicit packing
+<!-- ## Explicit packing 
  -->
 * <b>Explicit packing.</b> Deltafying in Git occurs at low level (plumbing level), and occurs on
- demand rather than implicitely (although [[Porcelain|porcelains]] may choose to do packing
+ demand rather than implicitely (although [[Porcelain|porcelains]] may choose to do packing 
  implicitely).
 
 = Git Features =
@@ -75,6 +75,5 @@ Git stores each revision of a file as a unique blob object. The relationships be
 
 ----
 [[CategoryGitHomepage]] ([http://git.or.cz/#about About])
- [http://homepage.mac.com/rumours1/13.html teen lesbian blondes] | [http://homepage.mac.com/pallors1/59.html webcam teen movie] | [http://dubois.freecities.com/4.html panties on bed] | [http://tipoff.741.com/32.html copenhagen webcam girls] | [http://slowness.o-f.com/25.html free porn penis] | [http://vertices.1sweethost.com/54.html lesbian threesome pee] | [http://isotherms.741.com/86.html gush orgasms] | [http://estival.exactpages.com/5.html bondage by request] | [http://gasolines.envy.nu/93.html posted boob clips] | [http://homepage.mac.com/hungrier/71.html webcam girl strip] | [http://menopausal.greatnow.com/28.html sleazydream groupsex] | [http://homepage.mac.com/canapes/69.html massive tit fleshteens] | [http://homepage.mac.com/cryogenic1/30.html logitech webcam wireless] | [http://reenacted.1sweethost.com/74.html nude teen celebs] | [http://forgiver.1accesshost.com/60.html bottles of piss] | [http://homepage.mac.com/preface1/60.html webcam strip thong] | [http://backhoe.wtcsites.com/5.html teen webcam gallery] | [http://redeposit.angelcities.com/76.html voyeur japaneese toilet] | [http://menopausal.greatnow.com/82.html group sex toon] | [http://homepage.mac.com/hungered/44.html transexual sex dolls] | [http://induct.9cy.com/8.html adult webcam advertise] | [http://homepage.mac.com/liffey1/60.html latin titty] | [http://unshaved.envy.nu/64.html ejaculation pics] | [http://backhoe.wtcsites.com/85.html webcam streaming program] | [http://toothsome.envy.nu/38.html dildo woman] | [http://homepage.mac.com/pkwy1/2.html teenage girls webcams] | [http://masturbate.fcpages.com/87.html mmf strap-on] | [http://homepage.mac.com/preface1/14.html college dorm webcams] | [http://tintypes.bravepages.com/61.html public nudity teens] | [http://racialists.00freehost.com/39.html butt prosterate massage] | [http://prevailed.greatnow.com/22.html online sex webcam] | [http://mongolian.741.com/49.html gay webcam cast] | [http://bedchamber.freewebpages.org/90.html masturbating girl clips] | [http://homepage.mac.com/neutrality/90.html teen webcam video] | [http://homepage.mac.com/ecologies/75.html webcam cum] | [http://homepage.mac.com/whereon/9.html teenager peeing com] | [http://homepage.mac.com/pdq3/76.html amatuer webcam pictures] | [http://lavaliere.greatnow.com/ gothic cumshot] | [http://homepage.mac.com/bindweed/48.html bbw chat webcam] | [http://fatherland.00freehost.com/33.html free secretary pantyhose] | [http://wingspan.9cy.com/83.html hirsute nudes] | [http://toenail.150m.com/87.html hirsute closeup] | [http://arsehole.greatnow.com/81.html cfnm stories] | [http://homepage.mac.com/whereon/13.html ebony teen nudes] | [http://checkroom.o-f.com/2.html panties under hose]
 
 __NOTOC__
