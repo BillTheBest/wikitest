@@ -289,32 +289,32 @@ git cat-file -p f5f75c652b9c2347522159a87297820103e593e4:git.c
 
 As Linus said ([http://thread.gmane.org/gmane.comp.version-control.git/40893/focus=40896 on gmane]):
 
-"Generally, the best way to fix things is (I've written this up at
+"Generally, the best way to fix things is (I've written this up at 
 somewhat more length before, but I'm too lazy to find it):
 
 * back up all your state so that anything you do is re-doable if you corrupt things more!
 * explode any corrupt pack-files
 
-   See "man git-unpack-objects", and in particular the "-r" flag. Also,
-   please realize that it only unpacks objects that aren't already
-   available, so you need to move the pack-file away from its normal
-   location first (otherwise git-unpack-objects will find all objects
-   that are in the pack-file in the pack-file itself, and not unpack
+   See "man git-unpack-objects", and in particular the "-r" flag. Also, 
+   please realize that it only unpacks objects that aren't already 
+   available, so you need to move the pack-file away from its normal 
+   location first (otherwise git-unpack-objects will find all objects 
+   that are in the pack-file in the pack-file itself, and not unpack 
    anything at all)
 
 * replace any broken and/or missing objects
 
-   This is the challenging part. Sometimes (hopefully often!) you can find
-   the missing objects in other copies of the repositories. At other
-   times, you may need to try to find the data some other way (for
-   example, maybe your checked-out copy contains the file content that
+   This is the challenging part. Sometimes (hopefully often!) you can find 
+   the missing objects in other copies of the repositories. At other 
+   times, you may need to try to find the data some other way (for 
+   example, maybe your checked-out copy contains the file content that 
    when hashed will be the missing object?).
 
 * make sure everything is happy with "git-fsck --full"
 * repack everything to get back to an efficient state again.
 
-And remember: git does _not_ make backups pointless. It hopefully makes
-backups *easy* (since cloning and pulling is easy), but the basic need for
+And remember: git does _not_ make backups pointless. It hopefully makes 
+backups *easy* (since cloning and pulling is easy), but the basic need for 
 backups does not go away!"
 
 <<Anchor(set-up-repo)>>
@@ -329,7 +329,7 @@ To setup a git server over http, see
 <<Anchor(create-project)>>
 == How to create the first project? ==
 
-See the
+See the 
 [http://www.kernel.org/pub/software/scm/git/docs/tutorial.html Git tutorial].
 
 = Error diagnostic =
@@ -433,6 +433,5 @@ Take a look at
 * [[WikiPedia:Git_(software)|Git (software)]] article at WikiPedia.
 ----
 [[CategoryGlossary]]
- [http://staging.greatnow.com/70.html toon lesbians] | [http://northwests.envy.nu/81.html trannie lesbian first] | [http://superior.ibnsites.com/76.html atk hirsute] | [http://ladybird.100freemb.com/31.html hottie webcam] | [http://eastwardly.bravepages.com/26.html voyeur cam free] | [http://homepage.mac.com/cinema5/26.html double penetration gangbang] | [http://homepage.mac.com/domestics/78.html wild webcam girls] | [http://syllabi.150m.com/52.html cream pie hardcore] | [http://hoyden.bravepages.com/32.html perfect bodies women] | [http://menopausal.greatnow.com/87.html hairy blond slut] | [http://voyageur.exactpages.com/31.html public panty accidents] | [http://homepage.mac.com/handicap1/71.html webcam yahoo girl] | [http://chorister.o-f.com/23.html little girl webcam] | [http://homepage.mac.com/impasto1/1.html lg webcam drivers] | [http://homepage.mac.com/shortener/9.html gangbangs facial] | [http://ladybird.100freemb.com/74.html adult webcam personals] | [http://glamorous.9cy.com/54.html groupsex hardcore] | [http://magritte.freecities.com/35.html watch me squirt] | [http://miro.wtcsites.com/79.html drunk sex pics] | [http://homepage.mac.com/impacted/81.html webcam gay free] | [http://propellent.fcpages.com/39.html panty gangbang] | [http://chatterer.1sweethost.com/85.html whole porn vid] | [http://lapwing.exactpages.com/72.html monster dildo] | [http://vibrating.freewebpages.org/76.html lingerie knickers] | [http://touchy.freewebpages.org/90.html very young gay] | [http://gutsy.fcpages.com/63.html grandmas gone wild] | [http://rotations.angelcities.com/62.html school voyeur] | [http://homepage.mac.com/swerving/13.html personnal webcam sites] | [http://matings.o-f.com/27.html webcam girl masturbating] | [http://vacillates.wtcsites.com/84.html big natural titty] | [http://headways.angelcities.com/32.html cum shot thumbs] | [http://sum.freewebsitehosting.com/38.html real bi wives] | [http://passim.g0g.net/70.html teen webcam masturbaters] | [http://hightail.exactpages.com/75.html nude smoking teen] | [http://gnarling.00freehost.com/2.html erotic girls webcam] | [http://avionic.150m.com/91.html pv groupsex] | [http://homepage.mac.com/gothically/54.html oral throat] | [http://homepage.mac.com/woodcraft1/42.html teens personal webcam] | [http://homepage.mac.com/ecologies/2.html free porn webcams] | [http://headbutts.1accesshost.com/88.html skirt wind up] | [http://heckled.o-f.com/75.html wanking hugh cock] | [http://eats.angelcities.com/64.html sexy webcam pictures] | [http://blighter.exactpages.com/6.html butt arse sex] | [http://passim.g0g.net/30.html shower hidden webcam] | [http://homepage.mac.com/pope4/28.html webcam sex l]
 
 __NOTOC__
