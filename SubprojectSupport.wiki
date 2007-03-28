@@ -8,6 +8,40 @@ Such flexibility is an implicit feature of centralized SCMs, but is much more di
 
 http://marc.theaimsgroup.com/?l=git&m=115196739921363&w=2
 
+== Use cases ==
+
+There are a number of goals which come under the general heading of subprojects, and have been requested by different people at different times. These are listed in rough order of the size of the subproject.
+
+=== Separable parts of normal projects ===
+
+Often a project will contain some parts which are either available elsewhere as separate projects or could be used elsewhere. For example, the Linux kernel contains a version of zlib (imported from the external project), and Kbuild (developed in the kernel tree, but adopted by other projects). The git tree itself contains xdiff, an externally-developed comparison engine.
+
+Obviously, centralized version control isn't going to handle these at all, because they are shared between different development groups with different central servers, so existing users for this case are using informal methods (generally, copying particular revisions by hand at arbitrary times).
+
+Users in this case want to fetch all of the reachable files, since they are integral to the superproject, and may want to fetch all of the subproject history, since the subprojects are generally relatively small.
+
+=== Weakly dependant portions of a large project ===
+
+Large projects like KDE or GNOME are often segmented into different modules which share some higher-level structure. Users want to be able to check out some of the modules without checking out all of them. It is often the case that the top level contains some general infrastructure (such as the build system) that any checkout would need.
+
+This case could be supported by path-split partial fetches and checkouts. That is, there could be a single large repository, and the user could ask for only certain paths. When requesting support for this use case, some people have asked for it in this form, but this design is generally seen as having problems.
+
+Users in this case want to fetch and check out the superproject, and some submodules with their entire history. Development mostly happens in the submodules, with every submodule commit appearing in a superproject commit, where the subtree of the superproject history which changes the submodule exactly matches the submodule's history.
+
+=== Vast superprojects ===
+
+Some projects (often embedded Linux distributions, but also many *BSDs) consist of a superproject that contains every piece of software in the distribution as a component. This has obvious scalability concerns, since the total reachable content in such a project could be hundreds of times bigger than the largest normal project, since it could include thousands of projects of various sizes.
+
+This case is also not handled by traditional version control, since all of the subprojects are treated by almost all of their developers as completely independant projects. Version control is used to track distribution URLs of the original sources and local patch sets.
+
+Some users in such projects will be doing development of the subprojects, but in the context of the superproject (e.g., people making distro-specific kernel patches). Others will be working at the superproject level, deciding which subprojects to update, and to what versions (without necessarily making any changes to those versions).
+
+Most likely, no users will ever want to check out the entire superproject (since it is likely to include mutually-exclusive packages to provide the same functionality). Even for users who want to check out a particular subproject, many of them will only want to check out versions which are included in superproject commits, not intermediate versions that were never adopted by the superproject. Fetching and storing the complete reachable history of the superproject is impossible for practically all developers.
+
+=== Unhandled desires ===
+
+There is an implicit assumption in previous use cases that a subproject is contained in a directory in the superproject and not mixed with other files from the superproject or other subprojects. Furthermore, the superproject subdirectory contains the subproject's root directory. People have discussed allowing more flexibility, but not in particular detail. In general, using symlinks into subprojects takes care of all of the cases that don't also require other features that git doesn't presently have.
+
 == Plans for subproject support ==
 
 There are several possible directions for implementing subproject support in git, some of which have been discussed on the list. A good start might be to add scripts to git, cogito or a new porcelain that formalize the semantics of gitweb. It has been suggested that git branches embody the pattern of modules, and it might make sense to use this functionality for modular repositories. Others have attempted to take on the challenge of partially cloned repositories, an ambitious task considering that the semantics of such a feature are as yet undefined for distributed source management.
@@ -20,7 +54,7 @@ A prototype implementation of submodules was [http://marc.theaimsgroup.com/?t=11
 
 Martin Waitz implementation's object-level extensions have been well-reviewed, and are generally accepted as being the way to go at this point. Effectively, they allow tree objects to contain entries which have a special file mode (directory + symlink) which holds a commit from a subproject; the interpretation of this for the filesystem structure is that the commit's tree should be placed rooted at the path of the entry.
 
-The initial implementation ran into scalability constraints when applied to  vast superprojects (the use case where a couple hundred full-sized projects are all made subprojects of a superproject which is an entire operating system distribution, for example). This implementation has not been completed due to these problems.
+The initial implementation ran into scalability constraints when applied to  "vast superprojects". This implementation has not been completed due to these problems.
 
 A newer implementation is in the works which should be able to handle this case efficiently; this implementation does not require changes to the object-level extension proposed previously, so the initial implemention may be used for projects where scalability on this order is not important. The main difference is in where the objects in a subproject are stored.
 
