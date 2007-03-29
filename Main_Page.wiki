@@ -100,4 +100,6 @@ To learn more about what a [[WikiWikiWeb]] is, read about [[MoinMoin]]:[[WhyWiki
 
 This wiki is powered by MediaWiki.
 
+test
+
 __NOTOC__
