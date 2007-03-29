@@ -93,7 +93,7 @@ Make more parts of libgit.a reentrant by removing static variables, avoid dying 
 <<BR>><b>Suggested by:</b> Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031 on gmane]
 
 == Git Eclipse Plugin ==
-Extend the currently-under-development [http://repo.or.cz/w/egit.git/ Eclipse plugin] so that it is actually useful for daily development work.  The plugin can currently read a Git repository (but not fast enough) and can write new history to the repository, but a lot of Eclipse user interfaces still need to be built to allow an end-user to actually commit changes, or transfer them over the network.
+Extend the currently-under-development [http://repo.or.cz/w/egit.git/ Eclipse plugin] so that it is actually useful for daily development work.  The plugin can currently read a Git repository (but not fast enough) and can write new history to the repository, but a lot of Eclipse user interfaces still need to be built to allow an end-user to actually commit changes, or transfer them over the network. This is also one of [http://wiki.eclipse.org/index.php/Google_Summer_of_Code_2007_Ideas Eclipse SoC2007 Ideas] (<i>More work on git support</i>).
 <<BR>><b>Language:</b> Java (Eclipse API, SWT API)
 <<BR>><b>Goal:</b> Commit, create branches, delete branches, switch between branches.  Maybe also fetch changes to tracking branches and push changes to remote branches, depending on the student's comfort level with the Eclipse API.
 <<BR>><b>Mentor:</b>  Shawn O. Pearce (gsoc@spearce.org)
