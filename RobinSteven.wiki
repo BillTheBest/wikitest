@@ -4,6 +4,8 @@
  -->
 == Robin Steven ==
 
+* /[[GitChineseTutor]] : Git中文教程
+
 Email: <<[[MailTo]](vortune@gmail.com)>>
 
 ...
