@@ -10,6 +10,7 @@ Many git commands are currently implemented as scripts, since they are easy to p
 
 Many projects has been converted to builtin code already, and the structure of the code simplifies that task. At present, there are about 10 perl scripts and 32 shell scripts in the Git code implementing essential Git commands, like "git commit", "git merge", "git clone", etc. It has been estimated three days for converting the smaller cases, and a couple of weeks for the larger ones, so most of the scripts would be replaced with this project, allowing easier port of the program to other platforms.
 
+<b>SoC page:</b> [http://code.google.com/soc/git/appinfo.html?csaid=BB370B5D857FA7A Replace most core scripts with C versions.] <<BR>>
 <b>Webpage:</b> [[SoC2007Projects/MoreToolsBuiltin]] <<BR>>
 <b>Student:</b> Carlos Rica Espinosa <<BR>>
 <b>Mentor:</b> Johannes Schindelin <<BR>>
@@ -24,6 +25,7 @@ Such implementation problems make it hard to write bindings for GIT (e.g. Perl a
 
 This project's goal is to fix the main issues, write an API to retrieve data from GIT and a simple Python binding to demonstrate the API usefulness.
 
+<b>SoC page:</b> [http://code.google.com/soc/git/appinfo.html?csaid=5DB940E4533E058B GIT library project] <<BR>>
 <b>Webpage:</b> [[SoC2007Projects/Libification]] <<BR>>
 <b>Student:</b> Carlos Rica Espinosa <<BR>>
 <b>Mentor:</b> Johannes Schindelin <<BR>>
@@ -38,6 +40,7 @@ The first goal of the project is to provide working experimental version of this
 
 The code will be written in Python.
 
+<b>SoC page:</b> [http://code.google.com/soc/git/appinfo.html?csaid=130BE24CCA0EFEAC Gittorrent Server and Peer] <<BR>>
 <b>Webpage:</b> [[SoC2007Projects/GitTorrent]] <<BR>>
 <b>Student:</b> Srijak Rijal <<BR>>
 <b>Mentor:</b> Sam Vilain <<BR>>
