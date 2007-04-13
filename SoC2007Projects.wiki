@@ -1,0 +1,47 @@
+<b>Projects:</b>
+<<<!-- ! TOC here -->(2)>>
+----
+
+== Replace most core scripts with C versions ==
+
+The project goal is to replace most git scripts written in shell or perl languages, with a more portable and faster builtin C versions.
+
+Many git commands are currently implemented as scripts, since they are easy to program. In order to run the program in other systems, a Bourne shell and a Perl interpreter need to be properly installed, resulting in a harder development and use on other platforms or systems.
+
+Many projects has been converted to builtin code already, and the structure of the code simplifies that task. At present, there are about 10 perl scripts and 32 shell scripts in the Git code implementing essential Git commands, like "git commit", "git merge", "git clone", etc. It has been estimated three days for converting the smaller cases, and a couple of weeks for the larger ones, so most of the scripts would be replaced with this project, allowing easier port of the program to other platforms.
+
+<b>Webpage:</b> [[SoC2007Projects/MoreToolsBuiltin]] <<BR>>
+<b>Student:</b> Carlos Rica Espinosa <<BR>>
+<b>Mentor:</b> Johannes Schindelin <<BR>>
+<b>Repository:</b> <<BR>>
+<b>Gitweb:</b> <<BR>>
+
+== GIT library project ==
+
+Although GIT is well designed and does its job quite well, its current implementation makes use f static variables and may quit program execution when an error condition occurs.
+
+Such implementation problems make it hard to write bindings for GIT (e.g. Perl and Python), embbed it or even write graphical front-ends.
+
+This project's goal is to fix the main issues, write an API to retrieve data from GIT and a simple Python binding to demonstrate the API usefulness.
+
+<b>Webpage:</b> [[SoC2007Projects/Libification]] <<BR>>
+<b>Student:</b> Carlos Rica Espinosa <<BR>>
+<b>Mentor:</b> Johannes Schindelin <<BR>>
+<b>Repository:</b> <<BR>>
+<b>Gitweb:</b> <<BR>>
+
+== [[GitTorrent]] Server and Peer ==
+
+The goal of the project is to provide a GitTorrent client, according to the specs at http://gittorrent.utsl.gen.nz/rfc.html . Having a decentralized version control system that can share load among users is a very novel idea. There are numerous ways in which this can be beneficial to organizations or large, widely separated development groups.
+
+The first goal of the project is to provide working experimental version of this client (client is client and server, like BitTorrent) and tracker. It should implement all the elements in the spec.
+
+The code will be written in Python.
+
+<b>Webpage:</b> [[SoC2007Projects/GitTorrent]] <<BR>>
+<b>Student:</b> Srijak Rijal <<BR>>
+<b>Mentor:</b> Sam Vilain <<BR>>
+<b>Repository:</b> <<BR>>
+<b>Gitweb:</b> <<BR>>
+
+__NOTOC__
