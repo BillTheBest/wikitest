@@ -53,7 +53,7 @@ You are now ready to use GIT. Check that your path includes ~/bin and you are of
 
 == Extra notes ==
 
-* Use git on local NTFS disks -- Network drives disks don't support the filesystem semantics GIT needs.
+* Use git on local NTFS disks -- Network drives disks don't support the filesystem semantics GIT needs; for interoperability purposes you can store bare repositories on FAT32 disks.
 * Be careful with the case in filenames. Similarly, avoid special chars in filenames. 
 * Run git gc early and often. There are slowdowns with many unpacked objects.
 * Avoid using ActivePerl if possible. Ask in the [[MailingLists]] if you must.
