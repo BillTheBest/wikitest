@@ -1,3 +1,5 @@
+<<<!-- ! TOC here -->(2)>>
+----
 <b>See also:</b>
 * [[TipsAndTricks]] page
 
@@ -287,32 +289,32 @@ git cat-file -p f5f75c652b9c2347522159a87297820103e593e4:git.c
 
 As Linus said ([http://thread.gmane.org/gmane.comp.version-control.git/40893/focus=40896 on gmane]):
 
-"Generally, the best way to fix things is (I've written this up at
+"Generally, the best way to fix things is (I've written this up at 
 somewhat more length before, but I'm too lazy to find it):
 
 * back up all your state so that anything you do is re-doable if you corrupt things more!
 * explode any corrupt pack-files
 
-   See "man git-unpack-objects", and in particular the "-r" flag. Also,
-   please realize that it only unpacks objects that aren't already
-   available, so you need to move the pack-file away from its normal
-   location first (otherwise git-unpack-objects will find all objects
-   that are in the pack-file in the pack-file itself, and not unpack
+   See "man git-unpack-objects", and in particular the "-r" flag. Also, 
+   please realize that it only unpacks objects that aren't already 
+   available, so you need to move the pack-file away from its normal 
+   location first (otherwise git-unpack-objects will find all objects 
+   that are in the pack-file in the pack-file itself, and not unpack 
    anything at all)
 
 * replace any broken and/or missing objects
 
-   This is the challenging part. Sometimes (hopefully often!) you can find
-   the missing objects in other copies of the repositories. At other
-   times, you may need to try to find the data some other way (for
-   example, maybe your checked-out copy contains the file content that
+   This is the challenging part. Sometimes (hopefully often!) you can find 
+   the missing objects in other copies of the repositories. At other 
+   times, you may need to try to find the data some other way (for 
+   example, maybe your checked-out copy contains the file content that 
    when hashed will be the missing object?).
 
 * make sure everything is happy with "git-fsck --full"
 * repack everything to get back to an efficient state again.
 
-And remember: git does _not_ make backups pointless. It hopefully makes
-backups *easy* (since cloning and pulling is easy), but the basic need for
+And remember: git does _not_ make backups pointless. It hopefully makes 
+backups *easy* (since cloning and pulling is easy), but the basic need for 
 backups does not go away!"
 
 <<Anchor(set-up-repo)>>
@@ -327,7 +329,7 @@ To setup a git server over http, see
 <<Anchor(create-project)>>
 == How to create the first project? ==
 
-See the
+See the 
 [http://www.kernel.org/pub/software/scm/git/docs/tutorial.html Git tutorial].
 
 = Error diagnostic =
@@ -430,6 +432,6 @@ Take a look at
 * [[GitCommunity]], mainly Git mailing list.
 * [[WikiPedia:Git_(software)|Git (software)]] article at WikiPedia.
 ----
-[[CategoryGlossary]] 	[[CategoryTemplate]]
+[[CategoryGlossary]]
 
 __NOTOC__
