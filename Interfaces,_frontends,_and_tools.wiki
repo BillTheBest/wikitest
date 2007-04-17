@@ -135,7 +135,7 @@
     `git-cvsserver` is a CVS emulation layer for git. It is highly functional; the mapping is bidirectional, so people who like cvs, can do both checkout and commit using cvs, and it shows up in git. However, not all methods are implemented, and for those methods that are implemented, not all switches are implemented. Testing has been done using both the CLI CVS client, and the Eclipse CVS plugin. Most functionality works fine with both of these clients.
 
 <b>parsecvs</b><<Anchor(parsecvs)>>::
-    [http://gitweb.freedesktop.org/?p=users-keithp-parsecvs;a=summary parsecvs] by Keith Packard is a C-based CVS file parser and Git import tool. It directly reads RCS ,v files (you can get them using CVSsuck if you don't have access to $CVSROOT) and generates a git-style rev-list structure from them. Repository available at git://anongit.freedesktop.org/git/users/keithp/parsecvs
+    [http://gitweb.freedesktop.org/?p=users/keithp/parsecvs.git;a=summary parsecvs] by Keith Packard is a C-based CVS file parser and Git import tool. It directly reads RCS ,v files (you can get them using CVSsuck if you don't have access to $CVSROOT) and generates a git-style rev-list structure from them. Repository available at git://anongit.freedesktop.org/git/users/keithp/repos/parsecvs.git and git://people.freedesktop.org/~keithp/parsecvs
 
 <b>cvs2git and git-fast-import</b><<Anchor(cvs2git)>>::
     cvs2git is the unofficial name of Jon Smirl's modifications to [http://cvs2svn.tigris.org/ cvs2svn].  These modifications allow cvs2svn to generate a data stream which is consumed by Shawn Pearce's git-fast-import.  git-fast-import converts its input stream directly into a Git .pack file, minimizing the amount of IO required on large imports.<<BR>>
