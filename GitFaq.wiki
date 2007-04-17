@@ -98,7 +98,7 @@ showing renames outside limit), but on git mailing list there was patch to add
 * [http://permalink.gmane.org/gmane.comp.version-control.git/217 Mail] by
  Linus on this topic.
 
-== How come gitweb suddenly dissapeared from the project list at kernel.org/git? ==
+== How come gitweb suddenly disappeared from the project list at kernel.org/git? ==
 Because it got merged into git. See
 [http://kernel.org/git/?p=git/git.git;a=commit;h=0a8f4f0020cb35095005852c0797f0b90e9ebb74 the relevant commit].
 
