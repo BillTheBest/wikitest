@@ -98,6 +98,22 @@ showing renames outside limit), but on git mailing list there was patch to add
 * [http://permalink.gmane.org/gmane.comp.version-control.git/217 Mail] by
  Linus on this topic.
 
+<<Anchor(no-per-file-history)>>
+== Why "git log <filename>" is slow? ==
+
+The answer to the question why <code><nowiki>git log <filename></nowiki></code> takes so long to find small number of commits which changed given file lies in the fact that Git looks at <b>all</b> the commits to find that.
+
+Git simply <b>does not have</b> per-file history.  Not having per-file history is what allows Git to do
+<pre><nowiki>git log <directory-or-file>
+</nowiki></pre>
+rather than being able to track just one file.  You can't do it sanely with per-file history (because to tie the per-file histories back together in a logical sequence, you need the global history to sort it again!).
+
+Note that <code><nowiki>git log <file1> <file2></nowiki></code> (or <code><nowiki>gitk <file1> <file2></nowiki></code>) is not simply union of <code><nowiki>git log <file1></nowiki></code> and <code><nowiki>git log <file2></nowiki></code>; it can contain merges which are in neither of separate histories.  Doing the history for two files together is <b>not at all equivalent</b> to doing the history for those files individually and stitching it together.
+
+To speed up "git log" give it range of interesting revisions; you can also try <code><nowiki>--remove-empty</nowiki></code> option (with some caveats).
+
+* [http://permalink.gmane.org/gmane.comp.version-control.git/39358 Re: how to speed up "git log"?] by Linus Torvalds on Git mailing list.
+
 == How come gitweb suddenly disappeared from the project list at kernel.org/git? ==
 Because it got merged into git. See
 [http://kernel.org/git/?p=git/git.git;a=commit;h=0a8f4f0020cb35095005852c0797f0b90e9ebb74 the relevant commit].
