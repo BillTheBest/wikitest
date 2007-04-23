@@ -79,7 +79,8 @@ Miscelaneous git-related links, not including [http://git.or.cz/ Git homepage], 
 * [http://weblogs.mozillazine.org/jst/archives/2006/11/vcs_performance.html bzr/hg/git performance] on Jst's Blog compares diff (tree diff and file diff) performance of Bazaar-NG (`bzr`), Mercurial (`hg`) and Git (`git`).
 * [http://qtdeveloper.net/archives/2007/01/30/fun-with-git/ Fun with Git] by Simon on [http://qtdeveloper.net/ QDevBlog - the ramblings of engineers] talks about import of the entire Qt mainline from Perforce (using a [http://repo.or.cz/w/fast-export.git?a=summary fast-export script] to feed git-fast-import) into git.
 * [http://rosenberg.homelinux.net/wordpress/?p=74 The Eclipse Git plugin project] on Robins blogg.
-* [http://gravityboy.livejournal.com/33022.html We've Moved!] -- Debian X packaging team  ([http://wiki.debian.org/XStrikeForce/ XSF]) switches over from Subversion to git. 
+* [http://gravityboy.livejournal.com/33022.html We've Moved!] -- Debian X packaging team  ([http://wiki.debian.org/XStrikeForce/ XSF]) switches over from Subversion to git.
+* [http://tytso.livejournal.com/29467.html Git and hg] by Ted Tso on his LiveJournal blog, describes UNIX-like mentality of Git, but also talks about it's shortcomings in documentation and ease of use.
 
 = Other version control software =
 
