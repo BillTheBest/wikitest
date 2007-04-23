@@ -86,6 +86,54 @@ if you want to compare current repository with (in this example) cogito reposito
 <pre><nowiki>git ls-files -z --deleted | git update-index -z --remove --stdin
 </nowiki></pre>
 
+= Configuration =
+
+<<Anchor(upgrade-to-post-1.5.0)>>
+== How to upgrade repository config to use post-1.5.0 features? ==
+
+Updating a pre-1.5.0 [[Git]] repository to be like a 1.5.0 (and later) style repository basically means rewriting the remotes (.git/info/remotes/) into .git/config, setting up wildcard tracking branches under refs/remotes and deleting the old tracking branches from the refs/heads namespace.
+
+The following shell script can be used to upgrade <b>non-bare</b> (!) repository (with a working directory) to post-1.5.0 style, to be able to use new features:
+
+<pre><nowiki>
+#!/bin/sh
+
+##
+## Upgrades a pre-1.5.0 repository to a 1.5.0-style layout.
+## Use at your own risk.
+##
+
+sh remotes2config.sh # from git.git/contrib
+
+git config core.bare false
+git config core.logallrefupdates true
+
+for r in `git remote`
+do
+  old="`git config --get-all remote.$r.fetch | sed s,^.*:refs/heads/,,`"
+  if [ -z "$old" ]
+  then
+    echo "No fetch lines for $r."
+    continue
+  fi
+
+  echo "Converting $r..."
+  git config --replace-all remote.$r.fetch +refs/heads/*:refs/remotes/$r/*
+  git fetch $r
+  for r in $old
+  do
+    case "$r" in
+    *:*) echo "Not deleting $r" ;;
+    *) git branch -D $r ;;
+    esac
+  done
+done
+</nowiki></pre>
+
+This script requires [http://git.kernel.org/?p=git/git.git;a=blob_plain;h=master;f=contrib/remotes2config.sh remotes2config.sh] conversion tool by Johannes Schindelin, which can be found in the <i>contrib</i> area of git.git repository.
+
+* [http://permalink.gmane.org/gmane.comp.version-control.git/42176 Upgrade to 1.5.0 utility] post by Shawn O. Pearce on Git mailing list
+
 = StGIT =
 
 <<Anchor(stg-rebase)>>
