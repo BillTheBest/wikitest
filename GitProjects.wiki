@@ -136,6 +136,10 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * http://g-rave.nl/git/herrie (repository)
 * Garzik's various Linux projects
 * http://linux.yyz.us/projects.html (home page)
+* Thousand Parsec, A framework for building space strategy games.
+* http://www.thousandparsec.net/ (home page)
+* http://git.thousandparsec.net/gitweb/gitweb.cgi (git web)
+* http://git.thousandparsec.net/git (repositories)
 * git mirror of many cvs projects important for the development of Fedora Core
 * http://www.jur-linux.org/git/
 * Many other projects on repo.or.cz, a public Git hosting site...
