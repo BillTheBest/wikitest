@@ -5,7 +5,7 @@ In November 2006 there were a lot of emails to the git mailing list with suggest
 I've put an attribution of the wish to the person who wrote the email I found it in - if it wasn't originally their idea, and it was yours, I apologise, it's my fault, not theirs.  I've not been comprehensive by any means, ideas that were liked are more likely to be here.
 
 * It would be really nice if none of the "common" commands had a hyphen in them (Carl Worth)
-* Introduce a -i option for git-commit making it commit the state in the index. Then git-commit with no options could work like "git-commit -a" does now. (Carl Worth)
+* Introduce a -i option for git-commit making it commit the state in the index (Carl Worth, Alex Riesen). Then git-commit with no options could work like "git-commit -a" does now. (Carl Worth)
 * Have --merge arguments to git-pull, and --fetch argument to git-merge. (Jakub Narebski)
 * I would kind of like to see "git poll" -- visit all remote branches, fetching objects and tags into the local repository, so that I can inspect changes off-line and merge, cherry-pick, etc. to my heart's content. (Michael K Edwards)
 * "pull" and "push" should be symmetrical operations.  (Nicholas Pitre) (Andy Parkins)
