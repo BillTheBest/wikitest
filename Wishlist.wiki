@@ -15,7 +15,6 @@ I've put an attribution of the wish to the person who wrote the email I found it
 * "bisect" is reserved as a branch name but not clearly documented as such. (linux at horizon.com)
 * With ref logs, you've just re-invented the CVS problem of associating history with a name. (linux at horizon.com)
 * It would be nice to have command to rename tags (even in their packed format). <i>Some patches sent to git mailing list</i> (Jakub Narebski)
-* Unified "fetch" and "push" across backends.  (Junio C Hamano)
 * Support foreign VCS URLs in remote tracking branches with, eg, <code><nowiki>svn://</nowiki></code>, <code><nowiki>cvs://</nowiki></code>, <code><nowiki>bzr+http://</nowiki></code>, <code><nowiki>hg://</nowiki></code>, <code><nowiki>svn+webdav+crack://</nowiki></code>, etc.  (Sam Vilain)
 
 = Granted Wishes =
