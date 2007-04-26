@@ -16,7 +16,7 @@ Git is now a cygwin binary package, directly installable without needing to comp
 
 Otherwise, to be able to build git directly from source, you will need to install cygwin and the following packages:
 
-* wish (for gitk and git-gui)
+* tcltk (for gitk and git-gui)
 * perl
 * openssh
 * openssl (and -dev)
