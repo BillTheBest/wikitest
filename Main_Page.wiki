@@ -64,7 +64,7 @@ Projects that use [[Git]] for their source code management are listed in [[GitPr
 * Read [http://kernel.org/git/?p=git/git.git;a=blob;f=Documentation/SubmittingPatches Documentation/[[SubmittingPatches]]] before submitting patches.
 * Additionally, have a look at [[InterfacesFrontendsAndToolsWishlist]].
 * Some [[notes]] from the maintainer
-
+* [http://flowers-shop.sitesfree.com/flowers/ flowers shop]
 === Git Wiki ===
 * [[GitWikiSuggestions]] – Your suggestions for improvement of the wiki.
 
