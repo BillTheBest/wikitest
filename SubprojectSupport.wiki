@@ -4,7 +4,7 @@ The rule of thumb for determining whether a source tree is monolithic or modular
 
 Non-distributed revision control systems such as CVS or SVN do not enforce this distinction; large projects like KDE and GNOME host hundreds of subprojects in a single repository and developers only ever have to check out the module they are working on. Sometimes, release managers, documenters or translators will make single commits that modify files across several modules. Similarly, if a change is made to the public API of a shared library in one module, the developer may update applications in other modules to use the new API as part of the same commit.
 
-Such flexibility is an implicit feature of centralized SCMs, but is much more difficult to implement in a distributed system like git. As a result, git currently lacks built-in subproject support, although gitweb does have a notion of subprojects.
+Such flexibility is an implicit feature of centralized SCMs, but is much more difficult to implement in a distributed system like git.
 
 http://marc.theaimsgroup.com/?l=git&m=115196739921363&w=2
 
