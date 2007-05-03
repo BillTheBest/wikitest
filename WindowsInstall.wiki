@@ -63,5 +63,6 @@ You are now ready to use GIT. Check that your path includes ~/bin and you are of
 * Consider setting core.fileMode to false (git repo-config core.fileMode false) if file modes are frequently the only differences detected by Git.  Many Windows applications make the execute bit be set in Cygwin when they save a file.
 * Insert "set CYGWIN=tty binmode" after the first line of C:\cygwin\cygwin.bat, so you can use Ctrl-z in cygwin's bash to suspend a program.
 * Windows usually writes end-of-line as CRLF, while Unix/POSIX writes LF.  This can cause a variety of problems.  There are current efforts to address this.
+* Setup binary mode for cygwin (there is an option in cygwin's setup program)
 
 __NOTOC__
