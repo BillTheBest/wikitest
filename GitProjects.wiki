@@ -137,7 +137,7 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * Garzik's various Linux projects
 * http://linux.yyz.us/projects.html (home page)
 * Thousand Parsec, A framework for building space strategy games.
-* http://www.thousandparsec.net/ (home page)
+* http://www.thousandparsec.net/tp/ (home page)
 * http://git.thousandparsec.net/gitweb/gitweb.cgi (git web)
 * http://git.thousandparsec.net/git (repositories)
 * git mirror of many cvs projects important for the development of Fedora Core
