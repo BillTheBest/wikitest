@@ -1,5 +1,5 @@
- || http://git.or.cz/git-logo.png             || [http://git.or.cz/ Git homepage] ||
- || http://www.kernel.org/git/?a=git-logo.png || [http://www.kernel.org/git/ gitweb at kernel.org] ||
+ || http://git.or.cz/git-logo.png       || [http://git.or.cz/ Git homepage] ||
+ || http://git.kernel.org/git-logo.png  || [http://www.kernel.org/git/ gitweb at kernel.org] ||
 
 Logo of [[Git]] [[DistributedSCM|distributed revision control system]]. 
 Used by [[Gitweb]] installations to link to [http://www.kernel.org/pub/software/scm/git/docs/ git(7)], 
