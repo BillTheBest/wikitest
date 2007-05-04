@@ -35,38 +35,38 @@ $ git commit -a
 <pre><nowiki>
 $ <make changes>
 $ git commit -a -m "commit message"
-$ git format-patch HEAD^  # creates 0001-commit-message.txt
-                          # (HEAD^ means every patch since one revision before the
-                          # tip of the branch, also known as HEAD)
+$ git format-patch HEAD^  # 生成一个 0001-commit-message.patch 的文件
+                          # ( 这里的意思是生成当前分支的最新版本到他的父版本 HEAD^ 
+                          # 的所有文件的补丁，当然你应该知道 HEAD 的概念是什么 )
 </nowiki></pre>
 
-== Network support ==
+== 网络功能 ==
 
 <pre><nowiki>
-# clone from the primary Git repo
+# 从主版本库中克隆
 foo$ git clone git://git.kernel.org/pub/scm/git/git.git
 foo$ cd git
 
-# pushing changes to a remote repo with SSH
+# 将本地变更推入远程版本库
 foo$ git push user@example.com:my-repository.git/
 
-# fetch changes to a remote branch into a local branch
+# 抓取远程版本库中的其中一个分支到本地版本库
 foo$ git fetch user@example.com:my-repository.git/ remote-branch:local-branch
 
-# merge changes from a remote machine
+# 将远程版本库中的变化合并到本地
 bar$ git pull git://foo/repo.git/ branch
 
-# Serve repository via git protocol
+# 用 git 协议建立版本库服务
 foo$ cd /my/repository/
 foo$ touch .git/git-daemon-export-ok
-foo$ git daemon  # now others can fetch from git://your.machine/my/repository/.git/
+foo$ git daemon  # 这样其他人就可以通过 git://your.machine/my/repository/.git/ 来抓取版本库
 
-# Set up a bare (= without working directory) repository (e.g. on a webserver)
+# 建立一个裸版本库( 没有工作目录的 )
 foo$ mkdir my-repo.git
 foo$ cd my-repo.git
 foo$ git --bare init
-foo$ chmod a+x .git/hooks/post-update # this is needed for HTTP transport
-                                      # you need to populate this repository via push
+foo$ chmod a+x .git/hooks/post-update # 用 HTTP 协议来传输版本时要这样
+                                      # 并且你需要用 push 命令来植入你的版本库的内容
 </nowiki></pre>
 
 == Inspecting revisions ==
