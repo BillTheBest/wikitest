@@ -197,6 +197,39 @@ Host public.host.com
 </nowiki></pre>
 and now you can ssh to "host.com" using different identities by just using "private.host.com" and "public.host.com" respectively.
 
+= Mail =
+<<Anchor(msmtp)>>
+== Using msmtp to send your patches ==
+Mailing off a set of patches to a mailing list can be quite neatly done by git-send-email. One of the problems you may encounter there is figuring out which machine is going to send your mail. I tried smtp.gmail.com, but that one requires tls and a password, and git-send-email could not handle that. 
+
+A neat little program, msmtp (msmtp.sourceforge.net) can help you there. Install and configure a .msmtprc file in your home directory, the likes of:
+
+<pre><nowiki>
+# Example for a user configuration file
+
+# Set default values for all following accounts.
+defaults
+tls on
+tls_trust_file /etc/pki/tls/certs/ca-bundle.crt
+logfile ~/.msmtp.log
+
+# My email service
+account gmail
+host smtp.gmail.com
+from some.user.name@gmail.com
+auth on
+user some.user.name
+password my-secret
+
+# Set a default account
+account default : gmail
+</nowiki></pre>
+
+This takes gmail as an example. The ca-bundle.crt is the file with CA certificates for Fedora Core 6, for other distros you might have to dig it up from somewhere else. Now, by giving the full path name to the msmtp program as smtp server to git-send-email, you can send the patches through gmail or some other smtp account with TLS and/or user authentication.
+
+<pre><nowiki>
+git-send-email --smtp-server /usr/local/bin/msmtp <file|directory>
+</nowiki></pre>
 ----
 [[CategoryGitDocumentation]]
 
