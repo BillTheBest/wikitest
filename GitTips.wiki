@@ -230,6 +230,8 @@ This takes gmail as an example. The ca-bundle.crt is the file with CA certificat
 <pre><nowiki>
 git-send-email --smtp-server /usr/local/bin/msmtp <file|directory>
 </nowiki></pre>
+
+Another option is to configure a local smtp server on your machine, using a well-known SMTP server as smarthost. Then, all applications using localhost as a mail server (e.g. /usr/bin/mail) will work.
 ----
 [[CategoryGitDocumentation]]
 
