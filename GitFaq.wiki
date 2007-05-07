@@ -123,9 +123,7 @@ Because it got merged into git. See
 <<Anchor(git-crlf)>>
 == Does git convert between CRLF and LF for different platforms? ==
 
-Released version: No
-
-Support for this has begun for the version after 1.5. Please join the development community if you are interested. Although the main target is the Windows target, it is possible to test and develop on any platform.
+Support for this exists in Git versions after 1.5 or later.
 
 <<Anchor(git-keywords)>>
 == Does git have keyword expansion? ==
