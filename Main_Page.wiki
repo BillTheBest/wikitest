@@ -24,7 +24,7 @@ webmaster takes patches) and obviously the stock documentation:
 * http://www.kernel.org/pub/software/scm/cogito/docs
 
 == Getting Help ==
-* Read [[QuickStart]]
+* Read [[QuickStart]], or even better [http://www.fieldses.org/~bfields/git-user-manual.html Git's User Manual]
 * See the [[GitCommunity]] page for mailing list and IRC information.
 * See the [[GitDocumentation]] page for an overview of git related documentation.
 * See the [[GitGlossary]] ([http://www.kernel.org/pub/software/scm/git/docs/glossary.html original]) for explanation of terminology.
