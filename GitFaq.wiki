@@ -187,20 +187,23 @@ So, in order to get at the history of just one file, git searches the complete h
 
 Most other version control systems will do a full-tree commit, using the content of files at commit time, by default.
 
-Git does it differently. By default, git commits the content of the index, and only this. "git commit -a" gives roughly the equivalent of what other systems do. Indeed, there are many concrete reasons why git's way to manage the index is good (and leads to unique features of git):
+Git does it differently. By default, git commits the content of the index, and only this. `git commit -a` gives roughly the equivalent of what other systems do. Indeed, there are many concrete reasons why git's way to manage the index is good (and leads to unique features of git):
 
-* You can do selected files commit with a fine granularity, telling git what you want to do little by little (git add <i>file</i> to add the full content of the file to the index, git add -i or git-gui to add the content hunk-by-hunk, or even use the hunk splitting feature of git add -i).
+* You can do selected files commit with a fine granularity, telling git what you want to do little by little (`git add `<i>file</i> to add the full content of the file to the index, `git add -i` or `git-gui` to add the content hunk-by-hunk, or even use the hunk splitting feature of `git add -i`).
 * This selected files commit can help you to keep an uncommited modification in your tree for a reasonably long time. For example, you can increment the version number in the Makefile some time before a release, and use this as a reminder.
-* You can perform several small steps for one commit, checking what you did with git diff, and validating each small step with git add or git add -u. Typically, you can apply a broken patch, updating the index, with git apply --index, and then fix the patch. git diff --cached will show you your fixes, while git diff HEAD will show you the combined diff.
-* This allows excellent merge conflicts management: git diff --base, git diff --ours, git diff --theirs.
+* You can perform several small steps for one commit, checking what you did with git diff, and validating each small step with git add or git add -u. Typically, you can apply a broken patch, updating the index, with `git apply --index`, and then fix the patch. `git diff --cached` will show you your fixes, while `git diff HEAD` will show you the combined diff.
+* This allows excellent merge conflicts management: `git diff --base`, `git diff --ours`, `git diff --theirs`.
+* This allows `git commit --amend` to amend only the log message if the index hasn't been modified in the meantime.
+
+So, while using `git commit -a` is perfectly fine with the simple cycle "edit/review/commit", making it the default would make other workflow less natural.
+
+Indeed, the real reason according to Linus is more philosophical: git is a content tracker, and a file name has no meaning unless associated to its content. Therefore, the only sane behavior for `git add `<i>filename</i> is to add the content of the file as well as its name to the index.
 
 See also (mailing list posts):
 
-* [http://thread.gmane.org/gmane.comp.version-control.git/46341
-   [FAQ?] Rationale for git's way to manage the index]
+* [http://thread.gmane.org/gmane.comp.version-control.git/46341 mailing list post]: [FAQ?] Rationale for git's way to manage the index
+* [http://thread.gmane.org/gmane.comp.version-control.git/32452/focus=32610 mailing list post]: [PATCH 0/2] Making "git commit" to mean "git commit -a"
 
-* [http://thread.gmane.org/gmane.comp.version-control.git/32452/focus=32610
-   [PATCH 0/2] Making "git commit" to mean "git commit -a"]
 = How do I ... =
 
 <<Anchor(repo-sharing)>>
