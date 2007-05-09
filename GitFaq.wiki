@@ -209,7 +209,7 @@ See also (mailing list posts):
 <<Anchor(repo-sharing)>>
 == How do I share a git public repository and use it in a CVS way? ==
 
-Use `cg-admin-setuprepo -g` (if you use [[Cogito]]) or do `git-init-db --shared` (if you use core [[Git]]) and some additional stuff. It's O.K. that refs aren't group writable, it's enough the directory is.
+Use `cg-admin-setuprepo -g` (if you use [[Cogito]]) or do `git-init --shared` (if you use core [[Git]]) and some additional stuff. It's O.K. that refs aren't group writable, it's enough the directory is.
 
 * See the
  [http://www.kernel.org/pub/software/scm/cogito/docs/introduction.html introduction to Cogito]
