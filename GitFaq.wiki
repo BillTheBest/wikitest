@@ -452,6 +452,11 @@ Yes, use [http://www.kernel.org/pub/software/scm/git/docs/git-svnimport.html git
 
 Yes, use [http://www.kernel.org/pub/software/scm/git/docs/git-archimport.html git-archimport(1)].
 
+<<Anchor(import-perforce)>>
+== Can I import from Perfoce? ==
+
+Yes, there is a number of importers, including one in contrib/ directory of Git source distribution. Search Git mailing list archives for others.
+
 <<Anchor(import-others)>>
 == Can I import from other SCMs? ==
 
