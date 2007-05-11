@@ -207,7 +207,7 @@ export GIT_DIFF_PAGER="colordiff | less -RS"</nowiki></pre>
     Some of [http://unix.schottelius.org/scripts/ Nico Schottelius (unix|linux) scripts] deal with Git: `db-dump+git.sh`, `update-gitweb.sh`, `update-git+cogito.sh`.
 
 <b>gitco</b><<Anchor(gitco)>>::
-    [http://blog.josefsson.org/?p=8 gitco] by Simon Josefsson is a tiny shell script to cleanup git directories similar to [http://www.red-bean.com/cvsutils/ cvsutils] 'cvsco'.
+    [http://blog.josefsson.org/?p=8 gitco] by Simon Josefsson is a tiny shell script to remove unversioned files from git directories, similar to [http://www.red-bean.com/cvsutils/ cvsutils] 'cvsco' or subversion's svn-clean.
 
 ----
 [[CategoryTools]]
