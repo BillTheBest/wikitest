@@ -10,7 +10,7 @@
 <<<!-- ! TOC here -->(2)>>
 ----
 <b>List of tools:</b>
- <span style="font-size: smaller">[[#Cogito Cogito]], [[#StGIT StGIT]], [[#pg pg]], [[#gq gq]], [[#isisetup IsiSetup]], [[#hgct (h)gct]], [[#qct Qct]], [[#gitool gitool]], [[#git-gui git-gui]], [[#tig tig]], [[#qgit QGit]], [[#giggle Giggle]], [[#gitk gitk]], [[#gitview GitView]], [[#gitweb gitweb]], [[#wit wit]], [[#gitarella gitarella]], [[#git-php git-php]], [[#cgit cgit]], [[#gittracker gittracker]], [[#git-browser git-browser]], [[#git.el git.el]], [[#Eclipse Eclipse]], [[#dirdiff dirdiff]], [[#git-xxximport other SCM import]], [[#git-cvsexportcommit git-cvsexportcommit]], [[#git-cvsserver git-cvsserver]], [[#git-svn git-svn]], [[#parsecvs parsecvs]], [[#cvs2git cvs2git]], [[#fromcvs fromcvs]], [[#git-svnconvert git-svnconvert]], [[#git-ucmimport git-ucmimport]], [[#quilt2git quilt2git]], [[#hg-to-git hg-to-git]], [[#Tailor Tailor]], [[#darcs-git Darcs-Git]], [[#colordiff colordiff]], [[#completion completion]], [[#ciabot CIAbot]], [[#git2rss git2rss]], [[#remapper remapper]], [[#gitfs gitfs]], [[#chronoversion chronoversion]], [[#git2cl git2cl]], [[#schottelius unix.schottelius]], [[#gitco gitco]]</span>
+ <span style="font-size: smaller">[[#Cogito Cogito]], [[#StGIT StGIT]], [[#pg pg]], [[#gq gq]], [[#isisetup IsiSetup]], [[#hgct (h)gct]], [[#qct Qct]], [[#gitool gitool]], [[#git-gui git-gui]], [[#tig tig]], [[#qgit QGit]], [[#giggle Giggle]], [[#gitk gitk]], [[#gitview GitView]], [[#gitweb gitweb]], [[#wit wit]], [[#gitarella gitarella]], [[#git-php git-php]], [[#cgit cgit]], [[#gittracker gittracker]], [[#git-browser git-browser]], [[#git.el git.el]], [[#Eclipse Eclipse]], [[#dirdiff dirdiff]], [[#git-xxximport other SCM import]], [[#git-cvsexportcommit git-cvsexportcommit]], [[#git-cvsserver git-cvsserver]], [[#git-svn git-svn]], [[#parsecvs parsecvs]], [[#cvs2git cvs2git]], [[#fromcvs fromcvs]], [[#git-svnconvert git-svnconvert]], [[#git-ucmimport git-ucmimport]], [[#quilt2git quilt2git]], [[#hg-to-git hg-to-git]], [[#Tailor Tailor]], [[#darcs-git Darcs-Git]], [[#colordiff colordiff]], [[#completion completion]], [[#ciabot CIAbot]], [[#git2rss git2rss]], [[#remapper remapper]], [[#gitfs gitfs]], [[#chronoversion chronoversion]], [[#git2cl git2cl]], [[#schottelius unix.schottelius]], [[#gitco gitco]], [[#KGit KGit]]</span>
 -----
 <b>See also:</b>
 * [[InterfacesFrontendsAndToolsWishlist]]
@@ -70,6 +70,9 @@
 
 <b>gitool</b><<Anchor(gitool)>>::
     [[gitool]] ([http://thread.gmane.org/gmane.comp.version-control.git/26415 announcement], [http://ozlabs.org/~paulus/gitool download], [http://www.kernel.org/git/?p=gitk/gitk.git;a=shortlog;h=new gitweb]) by Paul Mackerras is a tool for creating commits. Written in Tcl/Tk.
+
+<b>KGit</b><<Anchor(KGit)>>::
+    [[KGit]] (http://kgit.sourceforge.net/) by Abhijit Bhopatkar is intended to be a small but functional frontend to the popular source control program, git. It is similar to gitk with two significant differences. First of all, it is written in Qt using KDevelop and the KDE libraires. Secondly, it is not only a repository viewer, unlike gitk.
 
 == Web Interface ==
 
