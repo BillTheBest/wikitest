@@ -13,5 +13,7 @@ Wit provides:
 ** commit and diff views are combined
 
 Check out a working example [http://dan.chokola.com/wit/ here].
+----
+[[CategoryTools]]
 
 __NOTOC__
