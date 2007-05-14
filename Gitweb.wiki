@@ -13,7 +13,7 @@ There even exists `git-instaweb` script to setup gitweb and a web server for bro
 == Notable forks ==
 
 * [http://git.xmms.se/?p=gitweb-xmms2.git;a=summary gitweb-xmms2] (gitweb with XMMS2 project modifications) by Sham Chukoury. Forked off before gitweb was included in git repository. Extra features (added usually in project specific way) include: committags support (i.e. <u>BUG(nn)</u> is hyperlink to appropriate issue in Mantis bug tracker), syntax highlighting in 'blob' view, generating anchors to function definition with the help of generated on the fly tags file. It implemented snapshot support and had separate CSS file before mainline gitweb.
-* [http://repo.or.cz/w/git/repo.git repo.or.cz] (custom gitweb patches) by Petr Baudis. Uses current version of gitweb as base, has all features enabled. Includes extra scripts for creating and managing repositories, and integration with [http://straytree.com/ git-browser], graphical history viewer in JavaScript.
+* [http://repo.or.cz/w/git/repo.git repo.or.cz] (custom gitweb patches) by Petr Baudis. Uses current version of gitweb as base, has all features enabled. Includes extra scripts for creating and managing repositories, and integration with [http://repo.or.cz/w/git-browser.git/ git-browser], graphical history viewer in JavaScript.
 * [http://www.kernel.org/git/?p=git/warthog9/gitweb.git;a=summary kernel.org] (gitweb w/ caching) by John 'Warthog9' Hawley. Adds gitweb-specific caching support on top of generic gitweb. Split into many smaller modules.
 
 == Other web interfaces ==
