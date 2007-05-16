@@ -1,20 +1,19 @@
 ----
-<b>Table of contents:</b>
+ <b>Table of contents:</b>
 
-<<<!-- ! TOC here -->(2)>>
+<!-- ! TOC here -->
+
 ----
-
-Miscelaneous git-related links, not including [http://git.or.cz/ Git homepage], [[GitDocumentation]] links, 
-[[GitCommunity]] links including mailing list archives and IRC logs, and links to miscelaneus tools on the [[InterfacesFrontendsAndTools]] page.
+Miscelaneous git-related links, not including [http://git.or.cz/ Git homepage], [[GitDocumentation]] links,  [[GitCommunity]] links including mailing list archives and IRC logs, and links to miscelaneus tools on the [[InterfacesFrontendsAndTools]] page.
 
 = Wikipedia =
 [http://en.wikipedia.org Wikipedia] (English version)
+
 * [[WikiPedia:Git_(software)|Git (software)]] article.
 * [[WikiPedia:Cogito_(software)|Cogito (software)]] stub article.
 * [[WikiPedia:List_of_revision_control_software|List of revision control software]].
 * [[WikiPedia:Comparison_of_revision_control_software|Comparison of revision control software]] tables.
 * [[WikiPedia:Revision_control|Revision control]] (Version control) article.
-
 = "Using Git" pages =
 * [http://www.linux-mips.org/wiki/Git Git] and [http://www.linux-mips.org/wiki/WhatIsGit What Is Git] on Linux/MIPS wiki.
 * [http://wiki.winehq.org/GitWine [[GitWine]] tutorial] at WINE wiki.
@@ -24,44 +23,39 @@ Miscelaneous git-related links, not including [http://git.or.cz/ Git homepage], 
 * [http://wiki.sourcemage.org/Git_Guide Git Guide] at Sourcemage wiki.
 * [http://www.fieldses.org/~bfields/kernel/git.html Git Tutorial], [http://www.fieldses.org/~bfields/git-user-manual.html Git User's Manual] and [http://www.fieldses.org/~bfields/kernel/stgit.html Kernel patch management with StGIT] among Bruce Fields [http://www.fieldses.org/~bfields/kernel/ notes on the linux kernel] <i>(work in progress)..</i>
 * [http://nico.schotteli.us/papers/linux/git-firmen/ German documentation for git, cogito, gitweb] by Nico Schottelius.
-* [http://wiki.u32.net/index.php?title=Git Git] — some notes taken while was learning git by Subversion user, [http://wiki.u32.net/index.php?title=Git/publishing Git/publishing] describes how to publish your archive via http and how to setup gitweb. On [http://wiki.u32.net wiki.u32.net] (MediaWiki powered wiki).
-
+* [http://wiki.u32.net/index.php?title=Git Git] — some notes taken while was learning git by Subversion user, [http://wiki.u32.net/index.php?title=Git/publishing Git/publishing] describes how to publish your archive via http and how to setup gitweb. On [http://wiki.u32.net wiki.u32.net] (Media<code><nowiki></nowiki></code>Wiki powered wiki).
 = Articles about Git =
-
 == Mailing list digests ==
-* [http://www.kerneltraffic.org/git/index.html Git Traffic] - Newsletter that summarises events on the git mailing list<<BR>> (only one issue, for 2 May 2005, seems abandoned)
+* [http://www.kerneltraffic.org/git/index.html Git Traffic] - Newsletter that summarises events on the git mailing list<br> (only one issue, for 2 May 2005, seems abandoned)
 * [http://lwn.net/ LWN.net] (Linux Weekly News)
-  *[http://lwn.net/Articles/131657/ The guts of git]
-  *[http://lwn.net/Articles/132796/ A very quick guide to starting with git]
-  *[http://lwn.net/Articles/210045/ Branching and merging with git (draft)]
+** [http://lwn.net/Articles/131657/ The guts of git]
+** [http://lwn.net/Articles/132796/ A very quick guide to starting with git]
+** [http://lwn.net/Articles/210045/ Branching and merging with git (draft)]
 * [http://kerneltrap.org KernelTrap] (all pre 1.0 release):
-  *[http://kerneltrap.org/node/4982 Managing the Kernel Source With 'git']
-  *[http://kerneltrap.org/node/4998 Continued git Development]
-  *[http://kerneltrap.org/node/5003 Beginner's Guide To Git]
-  *[http://kerneltrap.org/node/5014 Importing The Kernel Into git, Merging]
-  *[http://kerneltrap.org/node/5026 Git Web Interfaces]
-  *[http://kerneltrap.org/node/5059 Official Git Web Interface]
-  *[http://kerneltrap.org/node/5011 git for beginners]
-  *[http://kerneltrap.org/node/5496 Junio Hamano New Git Maintainer]
-  *[http://kerneltrap.org/node/5557 Using Git For More Than The Kernel]
-  *[http://kerneltrap.org/node/5993 Git Milestone, 1.0 Release]
-
+** [http://kerneltrap.org/node/4982 Managing the Kernel Source With 'git']
+** [http://kerneltrap.org/node/4998 Continued git Development]
+** [http://kerneltrap.org/node/5003 Beginner's Guide To Git]
+** [http://kerneltrap.org/node/5014 Importing The Kernel Into git, Merging]
+** [http://kerneltrap.org/node/5026 Git Web Interfaces]
+** [http://kerneltrap.org/node/5059 Official Git Web Interface]
+** [http://kerneltrap.org/node/5011 git for beginners]
+** [http://kerneltrap.org/node/5496 Junio Hamano New Git Maintainer]
+** [http://kerneltrap.org/node/5557 Using Git For More Than The Kernel]
+** [http://kerneltrap.org/node/5993 Git Milestone, 1.0 Release]
 == Magazines ==
 * [http://www.pcworld.idg.com.au PC World]
-  *[http://www.pcworld.idg.com.au/index.php/id;1852076002;fp;16;fpid;0 After controversy, Torvalds begins work on "git"] by Robert McMillan, 20/04/2005.
+** [http://www.pcworld.idg.com.au/index.php/id;1852076002;fp;16;fpid;0 After controversy, Torvalds begins work on "git"] by Robert Mc<code><nowiki></nowiki></code>Millan, 20/04/2005.
 * [http://www.eweek.com/ eWeek.com]
-  *[http://www.eweek.com/article2/0,1895,1788876,00.asp Torvalds Gives Inside Skinny on Git] by Steven J. Vaughan-Nichols,  April 22, 2005.
+** [http://www.eweek.com/article2/0,1895,1788876,00.asp Torvalds Gives Inside Skinny on Git] by Steven J. Vaughan-Nichols,  April 22, 2005.
 * [http://www.linux-mag.com Linux Magazine] (requires free subscription)
-  *[http://www.linux-mag.com/content/view/2130 Git With It!], written by Sam Williams 
-  *[http://www.linux-mag.com/content/view/2533 How To Git It], written by Jon Loeliger.  Also available in [http://www.jdl.com/papers/How_To_Git_It.html HTML] and [http://www.jdl.com/papers/How_To_Git_It.pdf PDF] format on Jon Loeliger (jdl) [http://www.jdl.com/papers/ papers] page.
-  *[http://www.linux-mag.com/content/view/2591/ Embracing the Git Index], written by Jon Loeliger (second in series).  Also available in [http://www.jdl.com/papers/Embrace_The_Git_Index.pdf PDF] format on Jon Loeliger (jdl) [http://www.jdl.com/papers/ papers] page.
-  *"Collaborating Using Git", written by Jon Loeliger (third in series).  Available in [http://www.jdl.com/papers/Collaborating_Using_Git.pdf PDF] format on Jon Loeliger (jdl) [http://www.jdl.com/papers/ papers] page.
-
+** [http://www.linux-mag.com/content/view/2130 Git With It!], written by Sam Williams
+** [http://www.linux-mag.com/content/view/2533 How To Git It], written by Jon Loeliger.  Also available in [http://www.jdl.com/papers/How_To_Git_It.html HTML] and [http://www.jdl.com/papers/How_To_Git_It.pdf PDF] format on Jon Loeliger (jdl) [http://www.jdl.com/papers/ papers] page.
+** [http://www.linux-mag.com/content/view/2591/ Embracing the Git Index], written by Jon Loeliger (second in series).  Also available in [http://www.jdl.com/papers/Embrace_The_Git_Index.pdf PDF] format on Jon Loeliger (jdl) [http://www.jdl.com/papers/ papers] page.
+** "Collaborating Using Git", written by Jon Loeliger (third in series).  Available in [http://www.jdl.com/papers/Collaborating_Using_Git.pdf PDF] format on Jon Loeliger (jdl) [http://www.jdl.com/papers/ papers] page.
 == Articles and Papers ==
 * [http://www-128.ibm.com/developerworks/ developerWorks: IBM's resource for developers]
-  *[http://www-128.ibm.com/developerworks/linux/library/l-git/?ca=dgr-lnxw961UsingGit Manage source code using Git] by Eli M. Dow. From 29 Jun 2006, updated 06 Jul 2006. Level: Intermediate.
-  *[http://www-128.ibm.com/developerworks/linux/library/l-vercon/index.html?ca=drs- Version control for Linux] by M. Tim Jones. From 10 Oct 2006, updated 16 Oct 2006. Level: Introductory.
-
+** [http://www-128.ibm.com/developerworks/linux/library/l-git/?ca=dgr-lnxw961UsingGit Manage source code using Git] by Eli M. Dow. From 29 Jun 2006, updated 06 Jul 2006. Level: Intermediate.
+** [http://www-128.ibm.com/developerworks/linux/library/l-vercon/index.html?ca=drs- Version control for Linux] by M. Tim Jones. From 10 Oct 2006, updated 16 Oct 2006. Level: Introductory.
 == Seminars and presentations ==
 * [http://members.cox.net/junkio/200606-tut.pdf Junio C Hamano "Introduction to git"] (PDF) - slides for OSDL Japan Linux Symposium.
 * [http://members.cox.net/junkio/200607-ols.pdf Junio C Hamano "git – a stupid content tracker"] (PDF) - slides from Ottava Linux Symposium OLS2006, with full transcripts.
@@ -70,78 +64,71 @@ Miscelaneous git-related links, not including [http://git.or.cz/ Git homepage], 
 * [http://h4x0r5.com/~ryan/presentations/git-why.pdf Ryan Anderson "Why a distributed SCM?"] (PDF) - slides from Ubucon
 * [http://h4x0r5.com/~ryan/presentations/git-tutorial.pdf Ryan Anderson "Git - The Distributed SCM"] (PDF) - slides from Penguicon
 * [http://www.ourmedia.org/node/276036 Randal L. Schwartz - "Introduction to Git"] (PDF) - slides from Dec 2006 presentation at [http://www.pdxlinux.org/ Portland Oregon Linux Users Group Advanced Topics meeting].
-
 == Blogs ==
 * [http://willowbend.cx/2005/08/24/git-epiphany/ Git Epiphany] by Darrin 'Willowbend' Thompson, at [http://willowbend.cx/ Willowbend: Confessions of a Wannabe Capitalist] blog, (Wednesday, August 24th, 2005).
 * [http://keithp.com/blog/Tyrannical_SCM_selection.html Tyrannical SCM selection] and [http://keithp.com/blog/Repository_Formats_Matter.html Repository Formats Matter] by Keith Packard, about moving X.Org from CVS to Git. (see also [http://www.selenic.com/mercurial/wiki/index.cgi/RepositoryFormatsMatter [[RepositoryFormatsMatter]] in the Mercurial wiki])
 * [http://blogs.gnome.org/view/mortenw/2007/01/07/0 10x+ Better Compression Than Gzip] by Morten Welinder shows size of git repository from archive of all released Gnumeric versions.
 * [http://tw.apinc.org/weblog/2007/01/03#subverting-git Tainted Words - Subverting git] by Steve Frécinaux talks about Git, SVN (Subversion) and git-svn.
-* [http://weblogs.mozillazine.org/jst/archives/2006/11/vcs_performance.html bzr/hg/git performance] on Jst's Blog compares diff (tree diff and file diff) performance of Bazaar-NG (`bzr`), Mercurial (`hg`) and Git (`git`).
+* [http://weblogs.mozillazine.org/jst/archives/2006/11/vcs_performance.html bzr/hg/git performance] on Jst's Blog compares diff (tree diff and file diff) performance of Bazaar-NG (<code><nowiki>bzr</nowiki></code>), Mercurial (<code><nowiki>hg</nowiki></code>) and Git (<code><nowiki>git</nowiki></code>).
 * [http://weblogs.mozillazine.org/preed/2007/04/version_control_system_shootou_1.html Version Control System Shootout Redux Redux] on [http://weblogs.mozillazine.org/preed/ preed's blah-blah-blahg] describes process of choosing Next Generation Version Control System by Mozilla Project (Mercurial was chosen for its Windows support and performance).
 * [http://qtdeveloper.net/archives/2007/01/30/fun-with-git/ Fun with Git] by Simon on [http://qtdeveloper.net/ QDevBlog - the ramblings of engineers] talks about import of the entire Qt mainline from Perforce (using a [http://repo.or.cz/w/fast-export.git?a=summary fast-export script] to feed git-fast-import) into git.
 * [http://rosenberg.homelinux.net/wordpress/?p=74 The Eclipse Git plugin project] on Robins blogg.
 * [http://gravityboy.livejournal.com/33022.html We've Moved!] -- Debian X packaging team  ([http://wiki.debian.org/XStrikeForce/ XSF]) switches over from Subversion to git.
-* [http://tytso.livejournal.com/29467.html Git and hg] by Ted Tso on his LiveJournal blog, describes UNIX-like mentality of Git, but also talks about it's shortcomings in documentation and ease of use.
-
+* [http://tytso.livejournal.com/29467.html Git and hg] by Ted Tso on his Live<code><nowiki></nowiki></code>Journal blog, describes UNIX-like mentality of Git, but also talks about it's shortcomings in documentation and ease of use.
 == Videos ==
-* [http://www.youtube.com/watch?v=4XpnKHJAok8 Tech Talk: Linus Torvalds on Git]  at Google on YourTube
-
+* [http://www.youtube.com/watch?v=4XpnKHJAok8 Tech Talk: Linus Torvalds on Git]  at Google on Your<code><nowiki></nowiki></code>Tube
 = Other version control software =
-
 == List of revision control software ==
 === Software using a non-distributed approach ===
 * [http://www.nongnu.org/cvs/ CVS] — very stable and built on RCS — the most used but has many limitations.
-* [http://subversion.tigris.org/ Subversion] (`svn`) — like CVS but without some of its limitations.
-* [http://www.perforce.com/ Perforce] (`p4`) — comprehensive SCM capabilities built around a scalable client/server architecture. Free for use in open source projects.
-
+* [http://subversion.tigris.org/ Subversion] (<code><nowiki>svn</nowiki></code>) — like CVS but without some of its limitations.
+* [http://www.perforce.com/ Perforce] (<code><nowiki>p4</nowiki></code>) — comprehensive SCM capabilities built around a scalable client/server architecture. Free for use in open source projects.
 === Software using a distributed approach ===
-* [http://www.bitkeeper.com/ BitKeeper] (`bk`) (was used in Linux kernel development December 1999 - April 2005)
-* [http://www.gnu.org/software/gnu-arch/ GNU Arch] (`tla`) — the original Arch (see also [http://migo.sixbit.org/software/axp/ AXP - Arch eXtension Platform]).
-* [http://www.nongnu.org/arx/ ArX] (`arx`) — started as fork of Arch, written in C++.
-* [http://bazaar-vcs.org/ Bazaar-NG] (`bzr`) — written in Python. Fast, supports symlinks and merge-through-renames. Decentralised and easy to use. Can losslessly import Arch, Hg, SVN archives.
+* [http://www.bitkeeper.com/ BitKeeper] (<code><nowiki>bk</nowiki></code>) (was used in Linux kernel development December 1999 - April 2005)
+* [http://www.gnu.org/software/gnu-arch/ GNU Arch] (<code><nowiki>tla</nowiki></code>) — the original Arch (see also [http://migo.sixbit.org/software/axp/ AXP - Arch eXtension Platform]).
+* [http://www.nongnu.org/arx/ ArX] (<code><nowiki>arx</nowiki></code>) — started as fork of Arch, written in C++.
+* [http://bazaar-vcs.org/ Bazaar-NG] (<code><nowiki>bzr</nowiki></code>) — written in Python. Fast, supports symlinks and merge-through-renames. Decentralised and easy to use. Can losslessly import Arch, Hg, SVN archives.
 * [http://www.venge.net/monotone/ Monotone] — full-decentralized in a P2P way.
-* [http://www.selenic.com/mercurial/ Mercurial] (`hg`) — written in Python. Extremely fast, lightweight, portable, and easy to use.
+* [http://www.selenic.com/mercurial/ Mercurial] (<code><nowiki>hg</nowiki></code>) — written in Python. Extremely fast, lightweight, portable, and easy to use.
 * [http://codeville.org/ Codeville] written in Python — Uses an innovative merging algorithm.
 * [http://abridgegame.org/darcs/ Darcs] is a decentralized and free revision control system written in the Haskell language can keep track of inter-patch dependencies using a "theory of patches" with roots in quantum mechanics.
 * [http://svk.elixus.org/ SVK] is written in Perl — built on top of Subversion to allow distributed commits.
-
 === Other approaches ===
-* [http://savannah.nongnu.org/projects/quilt Quilt] is a set of scripts to manage a series of patches by keeping track of the changes each patch makes. [[StGIT]] and [[pg]] are Git version control interface layers provides a Quilt-like patch management functionality in the Git environment.
+* [http://savannah.nongnu.org/projects/quilt Quilt] is a set of scripts to manage a series of patches by keeping track of the changes each patch makes. [[StGIT]] and [[Pg:pg]] are Git version control interface layers provides a Quilt-like patch management functionality in the Git environment.
+[[Anchor(comparison)]]
 
-<<Anchor(comparison)>>
 == Git comparison with other SCMs ==
 Only those including [[Git]] as one of the systems.
+
 * [[WikiPedia:Comparison_of_revision_control_software|Comparison of revision control software]] table at Wikipedia.
-* [http://bazaar-vcs.org/RcsComparisons [[RcsComparisons]]] (user-oriented table), [http://bazaar-vcs.org/RCSChoices RCSChoices] (table of the decisions), [http://bazaar-vcs.org/SCMComparisons SCMComparisons] (lists of features) at Bazaar-NG wiki.
+* [http://bazaar-vcs.org/RCSChoices RCSChoices] (table of the decisions), [http://bazaar-vcs.org/SCMComparisons SCMComparisons] (lists of features) at Bazaar-NG wiki.
 * [http://zooko.com/revision_control_quick_ref.html Quick Reference Guide to Free Software Decentralized Revision Control Systems] by Zooko
 * [http://www.dwheeler.com/essays/scm.html Comments on Open Source Software / Free Software (OSS/FS) Software Configuration Management (SCM) Systems] by David A. Wheeler, (April 10, 2004; lightly revised May 18, 2005). Git added at the very end of article.
-* [http://linuxmafia.com/faq/Apps/scm.html Source-code management on Linux] - large list of SCMs with descriptions at LinuxMafia.
-* [http://www.selenic.com/pipermail/mercurial/2005-May/000334.html Mercurial 0.5b vs git] is an old (before pack files in git) post by Matt Mackall benchmarking Mercurial (`hg`) and comparing Mercurial, Git and BitKeeper.
-* [http://bramcohen.livejournal.com/17319.html Version Control Shenanigans] and [http://bramcohen.livejournal.com/17925.html More version control stuff] LiveJournal articles by Bram Cohen, founder of Codeville and a current contributor.
-* [http://opensolaris.org/os/community/tools/scm/ Source Code Management for OpenSolaris] describes choosing SCM for OpenSolaris (Subversion for centralized SCM, Mercurial for distributed SCM was chosen).
+* [http://linuxmafia.com/faq/Apps/scm.html Source-code management on Linux] - large list of SCMs with descriptions at Linux<code><nowiki></nowiki></code>Mafia.
+* [http://www.selenic.com/pipermail/mercurial/2005-May/000334.html Mercurial 0.5b vs git] is an old (before pack files in git) post by Matt Mackall benchmarking Mercurial (<code><nowiki>hg</nowiki></code>) and comparing Mercurial, Git and Bit<code><nowiki></nowiki></code>Keeper.
+* [http://bramcohen.livejournal.com/17319.html Version Control Shenanigans] and [http://bramcohen.livejournal.com/17925.html More version control stuff] Live<code><nowiki></nowiki></code>Journal articles by Bram Cohen, founder of Codeville and a current contributor.
+* [http://opensolaris.org/os/community/tools/scm/ Source Code Management for OpenSolaris] describes choosing SCM for Open<code><nowiki></nowiki></code>Solaris (Subversion for centralized SCM, Mercurial for distributed SCM was chosen).
 * [http://keithp.com/blog/Repository_Formats_Matter.html Repository Formats Matter] by Keith Packard, about moving X.Org from CVS to Git (and choosing Git over Mercurial), and the [http://www.selenic.com/mercurial/wiki/index.cgi/RepositoryFormatsMatter answer in the Mercurial wiki].
 * [http://www-128.ibm.com/developerworks/linux/library/l-vercon/index.html?ca=drs- Version control for Linux] article by M. Tim Jones, at [http://www-128.ibm.com/developerworks/ IBM's developerWorks] is an overview of SCM architectures, models, and examples (CVS, Subversion, GNU Arch, Git).
 * [http://changelog.complete.org/posts/528-Whose-Distributed-VCS-Is-The-Most-Distributed.html Whose Distributed VCS Is The Most Distributed?] entry by John Goerzen compares chosen 8 "ideal VCS" features (author uses Darcs) against different common SCM: Arch (tla, baz, etc), Bazaar-NG (bzr), Darcs, Git, Mercurial (hg), and Subversion (svn). [http://changelog.complete.org/posts/594-More-on-Git,-Mercurial,-and-Bzr.html More on Git, Mercurial, and Bzr], [http://changelog.complete.org/posts/595-bzr,-again.html bzr, again] and [http://changelog.complete.org/posts/596-Some-more-git,-mercurial,-and-darcs.html Some more git, mercurial, and darcs] compares those SCMs. Read also comments for those articles.
 * [http://tytso.livejournal.com/29467.html Git and hg] by Ted Tso is a reply to [http://changelog.complete.org/posts/594-More-on-Git,-Mercurial,-and-Bzr.html More on Git, Mercurial, and Bzr] by John Goerzen, reaching different conclusion but agreeing with description of git shortcomings (ease-of-use and documentation shortcomings).
 * [[GitSvnComparison:Comparison of Git with Subversion]] on this wiki
-
 == SCMs comparison not including Git ==
 * [http://better-scm.berlios.de/comparison/ Better SCM Initiative: Comparison] by Shlomi Fish (includes Darcs, Mercurial, Monotone but not Git/Cogito).
 * [http://wiki.gnuarch.org/SubVersionAndCvsComparison Subversion and CVS Comparison], includes Aegis, Arch, CVS, Subversion, SVK briefly compared table.
-* [http://www.onlamp.com/pub/a/onlamp/2004/01/29/scm_overview.html The New Breed of Version Control Systems] by Shlomi Fish, at O'Reilly ONLamp (CVS, Subversion, Arch, OpenCM, Aegis, Monotone, BitKeeper).
-
+* [http://www.onlamp.com/pub/a/onlamp/2004/01/29/scm_overview.html The New Breed of Version Control Systems] by Shlomi Fish, at O'Reilly ONLamp (CVS, Subversion, Arch, Open<code><nowiki></nowiki></code>CM, Aegis, Monotone, Bit<code><nowiki></nowiki></code>Keeper).
 == Generic version control info ==
 There is place for generic, non SCM specific, links
+
 * [http://www.dwheeler.com/essays/scm-security.html Software Configuration Management (SCM) Security] by David A. Wheeler (March 13, 2004; Revised May 6, 2005).
-* [http://damonpoole.blogspot.com/ Software Configuration Management (SCM) - Damon's Thoughts] blog (by Damon Poole of AccuRev)  - A discussion of the state of Software Configuration Management (SCM) today.
-* [http://www.usenix.org/events/hotos03/tech/full_papers/henson/henson.pdf An Analysis of Compare-by-hash] (PDF) by Val Henson, in <i>Proceedings of HotOS IX: The 9th Workshop on Hot Topics in Operating Systems</i>, also on [http://infohost.nmt.edu/~val/review/hash.html An Analysis of Compare-by-hash] page with links to [http://infohost.nmt.edu/~val/review/hash.ps PS], [http://infohost.nmt.edu/~val/review/hash.pdf PDF] and [http://infohost.nmt.edu/~val/review/hash/index.html HTML] version.<<BR>> <b>Follow-ups:</b> [http://monotone.ca/docs/Hash-Integrity.html Hash Integrity] chapter in [http://monotone.ca/docs/index.html Monotone documentation] by Graydon Hoare, [http://www.cs.colorado.edu/~jrblack/papers/cbh.html Compare-by-Hash: A Reasoned Analysis] by John Black, and Henson and Henderson [http://infohost.nmt.edu/~val/review/hash2.html Guidelines for Using Compare-by-hash] ([http://infohost.nmt.edu/~val/review/hash2.ps.gz PS.gz], [http://infohost.nmt.edu/~val/review/hash2.pdf PDF]) self-followup.
+* [http://damonpoole.blogspot.com/ Software Configuration Management (SCM) - Damon's Thoughts] blog (by Damon Poole of Accu<code><nowiki></nowiki></code>Rev)  - A discussion of the state of Software Configuration Management (SCM) today.
+* [http://www.usenix.org/events/hotos03/tech/full_papers/henson/henson.pdf An Analysis of Compare-by-hash] (PDF) by Val Henson, in <i>Proceedings of HotOS IX: The 9th Workshop on Hot Topics in Operating Systems</i>, also on [http://infohost.nmt.edu/~val/review/hash.html An Analysis of Compare-by-hash] page with links to [http://infohost.nmt.edu/~val/review/hash.ps PS], [http://infohost.nmt.edu/~val/review/hash.pdf PDF] and [http://infohost.nmt.edu/~val/review/hash/index.html HTML] version.<br> <b>Follow-ups:</b> [http://monotone.ca/docs/Hash-Integrity.html Hash Integrity] chapter in [http://monotone.ca/docs/index.html Monotone documentation] by Graydon Hoare, [http://www.cs.colorado.edu/~jrblack/papers/cbh.html Compare-by-Hash: A Reasoned Analysis] by John Black, and Henson and Henderson [http://infohost.nmt.edu/~val/review/hash2.html Guidelines for Using Compare-by-hash] ([http://infohost.nmt.edu/~val/review/hash2.ps.gz PS.gz], [http://infohost.nmt.edu/~val/review/hash2.pdf PDF]) self-followup.
 * [http://revctrl.org/ Revctrl Wiki], including [http://revctrl.org/CategoryMergeAlgorithm Examples of different merge algorithms] article there.
 * [http://software.ericsink.com/scm/source_control.html Source Control HOWTO] (work in progress) and [http://software.ericsink.com/Beyond_CheckOut_and_CheckIn.html Beyond CheckOut and [[CheckIn]]] by Eric Sink, heavily inspired by Vault and Subversion.
 * [http://ydirson.free.fr/en/software/scm/ SCM - Software Configuration Management] page by Yann Dirson, dedicated to the research of the ultimate free-software SCM system. Includes [http://ydirson.free.fr/en/software/scm/vc.txt Version control according to Yann Dirson] (aka. "Thoughts about the ideal version-control tool") and [http://ydirson.free.fr/en/software/scm/scm-domains.txt SCMs near-distinct sub-domains list].
-* [http://www.isisetup.ch/wiki/IsiSetupRevisionControl Isi Setup Revision Control] page talks about evolution of IsiSetup, and thoughts about using SCMs to manage configuration files.
+* [http://www.isisetup.ch/wiki/IsiSetupRevisionControl Isi Setup Revision Control] page talks about evolution of Isi<code><nowiki></nowiki></code>Setup, and thoughts about using SCMs to manage configuration files.
 * [http://www.linux.com/article.pl?sid=06/03/30/210216 Package management meets version control in rPath] article at Linux.com talks about rPath idea of a source control system married to a package system, in the form of Conary package manager.  Further information can be found at [http://wiki.rpath.com/wiki/Conary:Concepts Conary:Concepts] page at rPath wiki and in [http://www.rpath.com/technology/techoverview/index.html Repository-Based System Management Using Conary] (especially in [http://www.rpath.com/technology/techoverview/conaryintro.html Introduction to Conary] and [http://www.rpath.com/technology/techoverview/distributedversions.html Distributed Version Tree] chapters).
-* [https://wiki.ubuntu.com/NoMoreSourcePackages [[NoMoreSourcePackages]]] page at Ubuntu wiki talks about idea of abandoning source packages, and using revision control system (SCM) instead.  It describes both the Bazaar (in the form of proposed <i>loom</i> extension / plugin) and Launchpad features that would be needed to do this, and the kinds of work flow that the distro team would like to follow with them.<<BR>>
- See also [https://lists.ubuntu.com/archives/ubuntu-devel/2007-March/023399.html bzr for packaging] thread at ubuntu mailing list.
+* [https://wiki.ubuntu.com/NoMoreSourcePackages [[NoMoreSourcePackages]]] page at Ubuntu wiki talks about idea of abandoning source packages, and using revision control system (SCM) instead.  It describes both the Bazaar (in the form of proposed <i>loom</i> extension / plugin) and Launchpad features that would be needed to do this, and the kinds of work flow that the distro team would like to follow with them.<br> See also [https://lists.ubuntu.com/archives/ubuntu-devel/2007-March/023399.html bzr for packaging] thread at ubuntu mailing list.
 * [http://thedailywtf.com/forums/thread/98959.aspx Happy Merge Day!] by Alex Papadimoulis at [http://thedailywtf.com/ The Daily WTF: Curious Pervisions in Information Technology] blog is an example on how to <b><u>not</u></b> deploy SCM. Perhaps more important than the article itself are comments to it.
 * [http://www.cmcrossroads.com/bradapp/acme/branching/ <i>Streamed Lines:</i> Branching Patterns for Parallel Software Development] (c) 1998 by Brad Appleton, Stephen Berczuk, Ralph Cabrera, and Robert Orenstein.
 * [http://www.martinfowler.com/articles/continuousIntegration.html Continuous Integration] by  Martin Fowler about Continuous Integration software development practice.
@@ -150,10 +137,9 @@ There is place for generic, non SCM specific, links
 * [http://www.perforce.com/perforce/bestpractices.html High-level Best Practices in Software Configuration Management] by Laura Wingerd & Christopher Seiwald, Perforce Software /!\
 * [http://blog.ianbicking.org/distributed-vs-centralized-scm.html Distributed vs. Centralized Version Control] in Ian Bicking blog, pro-Centralized SCM. /!\
 * [http://community.livejournal.com/relisoft/9641.html Distributed Systems] by Bartosz Milewski, in Reliable Software (relisoft) Developers' Journal, about truly distributed SCM vs. distributed database/filesystem centralized SCM. Pro Code Co-Op. /!\
-
 = Other links =
-* [http://ydirson.free.fr/en/software/scm/cvsps.html CvsPs patches] - collection of patches to CVSps, tool needed for `git-cvsimport` (see [[Self:InterfacesFrontendsAndTools#git-xxximport|[[InterfacesFrontendsAndTools]]]]).
-* [http://git.rsbx.net] Git related information by Gitzilla.
+* [http://ydirson.free.fr/en/software/scm/cvsps.html CvsPs patches] - collection of patches to CVSps, tool needed for <code><nowiki>git-cvsimport</nowiki></code> (see [[InterfacesFrontendsAndTools#git-xxximport:[[InterfacesFrontendsAndTools]]]]).
+* http://git.rsbx.net Git related information by Gitzilla.
 * [http://gittorrent.utsl.gen.nz/ GitTorrent] idea.
 
 __NOTOC__
