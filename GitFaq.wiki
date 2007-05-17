@@ -175,14 +175,6 @@ When you rebase, you are not continuing the history of the branch from where you
 
 If you are really sure that you want to push the new reference to the remote repository you can say `git push -f`. But use this with care and only if you know, what you are doing.
 
-== Why does "git log" (optionally with a filename) take awfully long to complete? ==
-
-First of all, try the same command (without a filename) in any other SCM. Git wins hands down. But the most important part: git log output goes into a pager. The most interesting information is usually the most recent one. And the output of "git log" starts almost instantaneously.
-
-So, why is "git log <filename>" so slow? Actually, it is a common misconception that you can sanely have file versions in a revision control system. If the files in one revision are truly independent, what do they do in the same project to begin with? It is one of the great insights of Git that tracking file versions does not make sense. Only having revisions of complete working tree states does.
-
-So, in order to get at the history of just one file, git searches the complete history. This sounds bad at first, until you realize that the benefits are overwhelming. For example, you can sanely say "git log <file1> <file2> <directory1>...", and it is actually as fast as the single file version of it! Another benefit is that arbitrary revisions can be checked out very fast, no matter how old they are.
-
 == Why is "git commit -a" not the default? ==
 
 Most other version control systems will do a full-tree commit, using the content of files at commit time, by default.
