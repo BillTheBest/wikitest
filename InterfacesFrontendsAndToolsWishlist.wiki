@@ -44,7 +44,7 @@
     [http://download.gna.org/dvc/ DVC] is a project to create a generic library for fancy Emacs interfaces to modern version control systems. Has support for several systems, but not Git -- yet. <i>(Emacs, elisp)</i>
 
 <b>PIDA</b> (IDE)<<Anchor(PIDA)>>::
-    [http://pida.co.uk/ PIDA] Integrated development environment supporting CVS, Subversion, Darcs, Mercurial, Monotone, Bazaar-NG (<i>bzr</i>), GNU Arch. It allows embedding Vim or any editor. <i>(Python, GTK)</i>
+    [http://pida.co.uk/ PIDA] Integrated development environment supporting CVS, Subversion, Darcs, Mercurial, Monotone, Bazaar-NG (<i>bzr</i>), GNU Arch. It allows embedding Vim or any editor. It actually borrows the version control integration from [http://meld.sourceforge.net/ Meld]. See <b>Meld</b> entry below. <i>(Python, GTK)</i>
 
 <b>Eric3</b> (IDE)<<Anchor(Eric3)>>::
     [http://www.die-offenbachs.de/detlev/eric3.html Eric3] is a full featured Python (and Ruby) IDE that is written in PyQt using the QScintilla editor widget. It supports CVS, Subversion and Mercurial. <i>(Python, Qt)</i>
