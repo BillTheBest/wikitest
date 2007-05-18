@@ -149,7 +149,7 @@ $git clone git://hjemli.net/pub/git/cgit</nowiki></pre>
 === fromcvs/togit   ===
     [http://ww2.fs.ei.tum.de/~corecode/hg/fromcvs fromcvs] by Simon 'corecode' Schubert is a conversion tool ment convert from CVS to multiple SCMs.  At the moment there is a git and a hg output and a sqlite output for quick CVS changeset navigation.  For the cvs->git conversion, git-fast-import by Shawn Pearce is needed (see above).  fromcvs handles branches (though no tags yet), including native support for vendor branches.  Incremental operation should work, but was not yet tested extensively.  Conversion speed should be well above 10 changesets per second on common hardware.  fromcvs/togit can take advantage of two CPUs.
 
-=== git-svn  (built in) ===
+=== git-svn (built in) ===
     [http://git-svn.yhbt.net/ git-svn] ([http://git.bogomips.org/git-svn.git git repository]), written by Eric Wong, is a simple conduit for bidirectional operation between a <i>single</i> Subversion branch and git. It is designed for developers who wish to contribute to projects that use Subversion, but would rather be using git.
 
 === git-svnconvert  ===
@@ -164,6 +164,11 @@ $git clone git://hjemli.net/pub/git/cgit</nowiki></pre>
 === hg-to-git  ===
     hg-to-git is Mercurial to git converter, written by Stelian Pop, appeared only on git mailing list in post [http://permalink.gmane.org/gmane.comp.version-control.git/36601 Mercurial to git converter.] It supports incremental conversion, supports (multiple) hg branches and converts hg tags. Written in combination of shell script and Python.<<BR>>
     hg-fast-export is another converter using `git-fast-import` as backend and is written in Python using the mecurial python classes directly. It uses a single pass, supports tags, mercurial named branches, incremental imports and merges. It is quite fast since no subshells and/or pipe communication is used except for the feed to `git-fast-import`. The source is available as part of the fast-export repository at [http://repo.or.cz/w/fast-export.git repo.or.cz].
+
+=== git-p4 and git-p4-import (Perforce) ===
+    In the addition to built-in Perforce (`p4`) importer, `git-p4import` by Sean Estabrooks in Python there is a script using alternative import method, which works without changing local state: 
+`git-p4-import` by Alex Riesen in Perl: see [http://marc.info/?l=git&m=117840529828575&w=2 Yet another Perforce importer] email/thread on git mailing list.<<BR>>
+    There is also `git-p4` script by Simon Hausmann in Python that allows (incremental) imports from Perforce as well as submitting changes back from git into a Perforce depot.  It is part of the [http://repo.or.cz/w/fast-export.git fast-export] repository at repo.or.cz.  See also [http://marc.info/?l=git&m=117861263323170&w=2 Yet another git perforce integration] thread on git mailing list.
 
 === Tailor  ===
     [http://www.darcs.net/DarcsWiki/Tailor Tailor] is an any-to-any version control system converter, with support for most free SCM. It was written by Lele and it is implemented in Python. Note that you need [http://www.darcs.net/DarcsWiki/Tailor/[[VersionOne]] /[[VersionOne]]], and it supports Git as target system only. Note also that as of 2006-12-01, it only has rudimentary support for branches, and mostly supports linear histories.
