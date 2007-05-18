@@ -6,18 +6,16 @@ Roadmap of features: [[EclipsePluginWishlist]]
 Some ways to keep informed about Egit development.
 
 * [http://repo.or.cz/w/egit.git?a=log Revision log]
-
 = Links =
 * [http://www.spearce.org/projects/scm/egit.git Repository]
 * [http://repo.or.cz/w/egit.git gitweb] (clone)
-
 = Features =
 * Resource history view
 * Compare revisions
 * Quick diff
 * Branch and [[StGit]] patch decoration
-
 = FAQ =
+* How do you tie the plugin to a project or create a project by cloning a repository?
 == Documentation ==
 === What doc. for starting help? ===
 * [http://www.eclipse.org/eclipse/platform-team/ Eclipse platform team]
