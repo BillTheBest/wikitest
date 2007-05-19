@@ -10,7 +10,7 @@ $ git commit        # 将工作目录的变化提交到版本库中
 Git 将根据在版本库根目录中的 [[.gitignore]] 文件中列出的文件名，
 忽略对那些文件的跟踪， 文件和目录名，可以用 shell 正则表达式来表示。
 
-== 分支于合并 ==
+== 分支与合并 ==
 
 <pre><nowiki>
 $ git checkout -b linux-work  # 创建一个名叫 "linux-work" 的分支
