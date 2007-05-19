@@ -69,19 +69,18 @@ foo$ chmod a+x .git/hooks/post-update # 用 HTTP 协议来传输版本时要这�
                                       # 并且你需要用 push 命令来植入你的版本库的内容
 </nowiki></pre>
 
-== Inspecting revisions ==
-
+== 查看各个版本 ==
 <pre><nowiki>
-# inspect history visually
-foo$ gitk       # this opens a Tk window, and shows you how the revisions are connected
+# 用图形界面工具查看历史
+foo$ gitview       # 这个命令打开图形界面窗口，你可以从中看到版本的历史沿革关系 
 
-# inspect history
-foo$ git log    # this pipes a log of the current branch into your PAGER
-foo$ git log -p # ditto, but append a patch after each commit message
+# 查看日志
+foo$ git log    # 输出当前分支的日志
+foo$ git log -p # 输出日志，并同时在每个提交信息之后显示补丁
 
-# inspect a specific commit
-foo$ git show HEAD    # show commit info, diffstat and patch
-                      # of the tip of the current branch
+# 查看指定的变更
+foo$ git show HEAD    # 显示变更信息，差异比较位置，
+                      # 以及到当前分支最新状态的补丁。
 </nowiki></pre>
 
 == Referring to revisions ==
