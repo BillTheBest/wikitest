@@ -272,6 +272,7 @@ See the [http://www.kernel.org/pub/software/scm/git/docs/tutorial.html Git tutor
 You can try the following:
 
 <pre><nowiki>
+git log --raw -r --abbrev=40 --pretty=oneline -- <repository-path> | grep -B 1 `git hash-object <content-path>`
 </nowiki></pre>
 where "<repository-path>" is the path of the file inside the repository and "<content-path>" is the blob you want to match against.
 
