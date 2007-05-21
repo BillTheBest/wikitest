@@ -25,7 +25,7 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 ** http://www.openfabrics.org/ (homepage)
 ** http://http://www.openfabrics.org/git/ (gitweb)
 * Many other Linux related projects...
-** http://www.kernel.org/git (gitweb)
+** http://git.kernel.org/ (gitweb)
 
 == Non-kernel projects that use Git for their source code management. ==
 
