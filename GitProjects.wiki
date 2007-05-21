@@ -8,7 +8,7 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 
 * Linux Kernel
 ** http://kernel.org
-** http://www.kernel.org/git/?p=linux/kernel/git/torvalds/linux-2.6.git (gitweb)
+** http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git (gitweb)
 * Linux/MIPS (port of Linux to the MIPS architecture)
 ** http://www.linux-mips.org/wiki/Git (description, includes repository URLs)
 ** http://www.linux-mips.org/git (gitweb)
