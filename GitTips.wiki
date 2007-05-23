@@ -1,5 +1,7 @@
-<b>Table of contents:</b> 	
+<b>Table of contents:</b>
+
 <<<!-- ! TOC here -->(2)>>
+----
 <b>See also:</b>
 * [[GitFaq]] (Frequently Asked Questions) page
 * [[GitWorkflows]] which attempts to decribe actual, useful, real-world things that people do with git, step by step.
@@ -198,7 +200,7 @@ and now you can ssh to "host.com" using different identities by just using "priv
 = Mail =
 <<Anchor(msmtp)>>
 == Using msmtp to send your patches ==
-Mailing off a set of patches to a mailing list can be quite neatly done by git-send-email. One of the problems you may encounter there is figuring out which machine is going to send your mail. I tried smtp.gmail.com, but that one requires tls and a password, and git-send-email could not handle that.
+Mailing off a set of patches to a mailing list can be quite neatly done by git-send-email. One of the problems you may encounter there is figuring out which machine is going to send your mail. I tried smtp.gmail.com, but that one requires tls and a password, and git-send-email could not handle that. 
 
 A neat little program, msmtp [http://msmtp.sourceforge.net/] can help you there. Install and configure a .msmtprc file in your home directory, the likes of:
 
