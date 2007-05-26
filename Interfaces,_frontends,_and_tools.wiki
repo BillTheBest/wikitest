@@ -208,6 +208,11 @@ export GIT_DIFF_PAGER="colordiff | less -RS"</nowiki></pre>
 === chronoversion  ===
     Chronoversion is a simple Python script which attempts to use the git content tracker to provide chronological snapshots similar to Plan 9's <b>venti</b> filesystem. The two differences are that, being based on git, it isn't a filesystem in the sense of needing kernel support to gain access to the data (so it can be used on systems where you can only install userspace programs) and it allows programatic decisions about what to snapshot, rather than recording everything into the snapshot. By David Tweed. It can be downloaded (at least currently) from [http://www.personal.rdg.ac.uk/~sis05dst/chronoversion.tgz chronoversion.tgz].
 
+==== Metastore ====
+
+    Metastore by David Härdeman is a tool which allows the metadata to be stored in a separate file which can be stored along with the rest of the data in the repo (or separately).  This is also useful for tripwire type checks and for other types of storage which drops some of the metadata (tar comes to mind).<<BR>>
+    <b>Repository:</b> git://git.hardeman.nu/metastore.git
+
 === git2cl  ===
     [http://josefsson.org/git2cl/ git2cl] ([http://repo.or.cz/w/git2cl.git gitweb]) by Simon Josefsson is a Perl script to convert git logs to [http://www.gnu.org/prep/standards/html_node/Change-Logs.html GNU ChangeLog] format.  The tool expects output from <code><nowiki>git --pretty --numstat --summary</nowiki></code> on standard input.  Inspired by [http://www.red-bean.com/cvs2cl/ cvs2cl] tool.
     <b>References:</b> [http://permalink.gmane.org/gmane.comp.version-control.git/41170 ANNOUNCE: git2cl] message on git mailing list.
