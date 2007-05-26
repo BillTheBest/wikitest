@@ -197,7 +197,7 @@ export GIT_DIFF_PAGER="colordiff | less -RS"</nowiki></pre>
     [http://www.linux.org.uk/pub/people/viro/remapper/ remapper] ([http://www.kernel.org/git/?p=linux/kernel/git/viro/remapper.git gitweb], [http://www.codemonkey.org.uk/projects/git-snapshots/remapper/ snapshots]) by Al Viro, announced in [http://marc.theaimsgroup.com/?l=git&m=114756555630327 Re: |RFC| Add "rcs format diff" support], is a tool to (re)map position (file name and line number) in one revision to corresponding position (file name and line number) in other revision.  E.g. user sends report "linux-2.6.16 with configuration XYZZY fails to compile with: `arch/wii/kernel/l33t.c:42:parse error`" and with the remap tool you can map the error report to the current commit's state, when that bit of code got moved around to `drivers/input/wii/l33tcontrol.c:31337`.  It also already very useful for log comparison, with the noise due to line number changes excluded.   Note that it's not just for build logs; the thing is useful for sparse logs, grep -n output, etc., etc.  <<BR>>
     <b>See also:</b> [http://www.linuxworld.com/news/2006/110706-kernel-warnings.html Kernel space: Buried in warnings] article at [http://www.linuxworld.com/ LinuxWorld.com].
 
-==== ArcheoloGIT ====
+=== ArcheoloGIT ===
 
     In planning stage: an ArcheoloGIT tool to help reconstructing history from individual pieces, by Yann Dirson.  See [http://ydirson.free.fr/en/software/ Yann's Software page].  <i>(stalled)</i><<BR>>
     <b>Repository:</b> http://ydirson.free.fr/soft/git/argit.git/
@@ -208,7 +208,7 @@ export GIT_DIFF_PAGER="colordiff | less -RS"</nowiki></pre>
 === chronoversion  ===
     Chronoversion is a simple Python script which attempts to use the git content tracker to provide chronological snapshots similar to Plan 9's <b>venti</b> filesystem. The two differences are that, being based on git, it isn't a filesystem in the sense of needing kernel support to gain access to the data (so it can be used on systems where you can only install userspace programs) and it allows programatic decisions about what to snapshot, rather than recording everything into the snapshot. By David Tweed. It can be downloaded (at least currently) from [http://www.personal.rdg.ac.uk/~sis05dst/chronoversion.tgz chronoversion.tgz].
 
-==== Metastore ====
+=== Metastore ===
 
     Metastore by David Härdeman is a tool which allows the metadata to be stored in a separate file which can be stored along with the rest of the data in the repo (or separately).  This is also useful for tripwire type checks and for other types of storage which drops some of the metadata (tar comes to mind).<<BR>>
     <b>Repository:</b> git://git.hardeman.nu/metastore.git
