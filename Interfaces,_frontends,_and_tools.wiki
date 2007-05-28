@@ -199,7 +199,7 @@ export GIT_DIFF_PAGER="colordiff | less -RS"</nowiki></pre>
 
 === ArcheoloGIT ===
 
-    In planning stage: an ArcheoloGIT tool to help reconstructing history from individual pieces, by Yann Dirson.  See [http://ydirson.free.fr/en/software/ Yann's Software page].  <i>(stalled)</i><<BR>>
+    In planning stage: an ArcheoloGIT tool to help reconstructing history from individual pieces, by Yann Dirson. Written in Perl. See [http://ydirson.free.fr/en/software/ Yann's Software page].  <i>(stalled)</i><<BR>>
     <b>Repository:</b> http://ydirson.free.fr/soft/git/argit.git/
 
 === gitfs  ===
