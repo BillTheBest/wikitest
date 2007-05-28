@@ -5,54 +5,71 @@
 * [http://darcs.net/DarcsWiki/[[RelatedSoftware]] Software that works with darcs] page on Darcs wiki
 * [http://bazaar-vcs.org/3rdPartyTools Third party tools] and [http://bazaar-vcs.org/PluginRegistry Plugin registry] pages on Bazaar-NG wiki
 
+----
+<<<!-- ! TOC here -->(3)>>
+----
+
 = Other programs that *should* be taught to work with Git, but haven't been =
 
-----
- <span style="font-size: smaller">[[#Bugzilla Bugzilla]], [[#Bonsai Bonsai]], [[#Trac Trac]], [[#TWiki TWiki]], [[#scmbug SCMBug]], [[#be BugsEverywhere]], [[#Savane Savane]], [[#GForge GForge]], [[#libresource LibreSource]], [[#DVC DVC (Emacs)]], [[#PIDA PIDA]], [[#Eric3 Eric3]], [[#Meld Meld]], [[#xxdiff xxdiff]]</span>
-----
+== Bugtrackers ==
 
-<b>Bugzilla</b> (bugtracker)<<Anchor(Bugzilla)>><<Anchor(Bonsai)>>:: <span style="font-size: x-large; color: red">!</span>
+=== Bugzilla (bugtracker) ===
     [http://www.bugzilla.org/ Bugzilla] is a "Defect Tracking System" or "Bug-Tracking System".  [http://bugzilla.kernel.org/ Kernel Bug Tracker] for posting bugs against the mainline Linux kernels is based on Bugzilla.
 
     Patch Viewer is (built in?) an enhancement to Bugzilla designed to provide adequate context for submitted patches through integration with [http://www.mozilla.org/projects/bonsai/ Bonsai], [http://lxr.sourceforge.net/ LXR] and CVS. [http://www.cvszilla.org/ CVSZilla] is a small piece of Perl-glue to integrate either CVS or Subversion with Bugzilla and CVSWeb or ViewCVS. <b>See also:</b> [[#scmbug SCMBug]] entry below.
 
     It would be nice to have also Git integration, for example referencing commits and tags, perhaps via making (additionally) Bonsai report against Git. <i>(Perl)</i>
 
-<b>Trac</b> (bugtracker/wiki/history browser)<<Anchor(Trac)>><<Anchor([[GitTrac]])>>::
+=== Bugs Everywhere (bugtracker) ===
+    [http://www.panoramicfeedback.com/opensource/ Bugs Everywhere] is a bug-tracker for distributed development. It stores bugreports inside the repository, so the status of bugs are propagated with push/pull/merges, and no glue is needed between the SCM and the Bug Tracker. No Git support yet. <i>(Python)</i>
+
+=== SCMBug (SCM with bugtracking integration) ===
+    [http://www.mkgnu.net/?q=scmbug Scmbug] is a system that integrates software configuration management (SCM) with bug-tracking. It aims to be a universal tool that will glue any source code version control system (supports CVS and Subversion, no Git support yet) with any bug-tracking system (supports Bugzilla, Mantis and Request Tracker). It is in early version. <i>(Perl)</i>
+
+=== Trac (bugtracker/wiki/history browser) ===
     [http://www.edgewall.com/trac/ Trac] is a popular integrated history browser/wiki/bug tracker, which has very recently grown a plugin interface that lets it work with VCS-es besides Subversion. The right place to start is probably the [http://projects.edgewall.com/trac/wiki/TracMercurial [[TracMercurial]] plugin], since Mercurial uses the same history model as Git. Another rigth place could be the [http://trac-hacks.org/wiki/GitPlugin [[GitPlugin]]], a plugin for Trac to use Git instead of Subversion. There is also [http://cvstrac.org/cvstrac/wiki?p=GitTrac GIT Trac] project to add Git suport for [http://cvstrac.org/ CVSTrac], similar to Trac but simpler project (inspiration for Trac). 
 
     Another similar project for which would be nice to have Git support is [http://collaboa.org/about Collaboa] and [http://www.atlassian.com/software/jira/ JIRA]. <i>(Python for Trac, C for CVSTrac, Ruby on Rails for Collaboa, Java for JIRA)</i>.
 
-<b>TWiki</b> (wiki)<<Anchor(TWiki)>>::
+== Wiki engine ==
+
+=== TWiki (wiki) ===
     [http://twiki.org/ TWiki] is a flexible, powerful, and easy to use enterprise collaboration platform and knowledge management system. It includes plugins for integration with bug-tracking software: Bugzilla and GNATS. Plugins are developed under CVS and Subversion; moving to Subversion is encouraged. No support for plugin development under Git. <i>(Perl CGI)</i>
 
-<b>SCMBug</b> (SCM with bugtracking integration)<<Anchor(scmbug)>>::
-    [http://www.mkgnu.net/?q=scmbug Scmbug] is a system that integrates software configuration management (SCM) with bug-tracking. It aims to be a universal tool that will glue any source code version control system (supports CVS and Subversion, no Git support yet) with any bug-tracking system (supports Bugzilla, Mantis and Request Tracker). It is in early version. <i>(Perl)</i>
+== Software hosting ==
 
-<b>Bugs Everywhere</b> (bugtracker)<<Anchor(be)>>::
-    [http://www.panoramicfeedback.com/opensource/ Bugs Everywhere] is a bug-tracker for distributed development. It stores bugreports inside the repository, so the status of bugs are propagated with push/pull/merges, and no glue is needed between the SCM and the Bug Tracker. No Git support yet. <i>(Python)</i>
-
-<b>Savane and GForge</b> (software hosting system)<<Anchor(Savane)>><<Anchor(GForge)>>::
+=== Savane and GForge (software hosting system) ===
     [https://gna.org/projects/savane Savane] and [http://gforge.org/ GForge] are web-based software hosting system. Both Savannah ([https://savannah.gnu.org GNU] and [https://savannah.nongnu.org/ non-GNU]) and [https://gna.org Gna!] use Savane as their software hosting engine. They currently include issue tracking, project member management by roles and individual account maintenance. The issue tracking handles bugs, tasks, support, news and documentation management. Both currently support CVS and Subversion; moving to Subversion is encouraged. Savane additionally supports GNU Arch. No Git support yet. <i>(Perl or PHP)</i>
 
     [http://alioth.debian.org/ Alioth] host <code><nowiki>costa</nowiki></code>, [http://www.debian.org/social_contract#guidelines free software] hosting system managed by the [http://www.debian.org/ Debian] project, which runs a slightly modified version of the [http://gforge.org/ Gforge] software, supports both git and bzr for hosting source archives. Here is [http://roland.entierement.nu/blog/2006/08/17/bits-about-alioth.html explanation] how to use both systems to access the repositories; it was announced in [http://www.debian.org/News/weekly/2006/34/ Debian Weekly News - August 22nd, 2006].
 
-<b>LibreSource</b> (Open Source Versatile Collaborative Distributed Envirionment)<<Anchor(libresource)>>::
+=== [[LibreSource]] (Open Source Versatile Collaborative Distributed Envirionment) ===
     [http://www.libresource.org/ LibreSource] aims to be distributed version of collaborative environment platforms such as Drupal (CMS) or SourceForge (software development).  LibreSource includes its own SCM tool called LibreSource Synchronizer (described as: innovative, simple, united).  Since version 2.0 LibreSource integrates the Subversion SCM... which is a bit strange as Subversion is centralized SCM.  It would be nice to have integration with Git, which is distributed SCM. <i>(Java J2EE: ObjectWeb Jonas application server)</i>
 
-<b>DVC (Distributed Version Control)</b> (Emacs interface)<<Anchor(DVC)>>::
+== Integrated Development Environment ==
+
+=== DVC (Distributed Version Control) (Emacs interface) ===
     [http://download.gna.org/dvc/ DVC] is a project to create a generic library for fancy Emacs interfaces to modern version control systems. Has support for several systems, but not Git -- yet. <i>(Emacs, elisp)</i>
 
-<b>PIDA</b> (IDE)<<Anchor(PIDA)>>::
+=== PIDA (IDE) ===
     [http://pida.co.uk/ PIDA] Integrated development environment supporting CVS, Subversion, Darcs, Mercurial, Monotone, Bazaar-NG (<i>bzr</i>), GNU Arch. It allows embedding Vim or any editor. It actually borrows the version control integration from [http://meld.sourceforge.net/ Meld]. See <b>Meld</b> entry below. <i>(Python, GTK)</i>
 
-<b>Eric3</b> (IDE)<<Anchor(Eric3)>>::
+=== Eric3 (IDE) ===
     [http://www.die-offenbachs.de/detlev/eric3.html Eric3] is a full featured Python (and Ruby) IDE that is written in PyQt using the QScintilla editor widget. It supports CVS, Subversion and Mercurial. <i>(Python, Qt)</i>
 
-<b>Meld</b> (merge tool)<<Anchor(Meld)>><<Anchor(xxdiff)>><<Anchor(KDiff3)>><<Anchor(Kompare)>>::
+== Merge tool (helper) ==
+
+=== Meld, xxdiff, KDiff3  ===
     [http://meld.sourceforge.net/ Meld] is a general diff, merge, and history browsing tool written in Python for GNOME. Has CVS, Subversion, Bazaar-NG and Monotone support. Perhaps [http://furius.ca/xxdiff/ xxdiff] (Qt; has CVS and Subversion integration with scripts), [http://kdiff3.sourceforge.net/ KDiff3] and/or [http://www.caffeinated.me.uk/kompare/ Kompare] (Kompare is diff only) should also have some VCS support...  <i>(Python, GNOME)</i>
 
     Note: Git support for external graphical merge resolution programs has been added into the git development mainline via a new git command, "git mergetool", but it is not yet available in an official released version of git yet.  It will likely be released as part of git 1.5.1.  git-mergetool currently supports kdiff3, meld, xxdiff, tkdiff, and GNU Emacs's emerge.
+
+= See also: =
+* [[InterfacesFrontendsAndTools]]
+* [http://www.venge.net/monotone/wiki/InterfacesFrontendsAndTools [[InterfacesFrontendsAndTools]]] page on Monotone wiki
+* [http://www.selenic.com/mercurial/wiki/index.cgi/OtherTools Other Tools that work with Mercurial] page on Mercurial wiki
+* [http://darcs.net/DarcsWiki/[[RelatedSoftware]] Software that works with darcs] page on Darcs wiki
+* [http://bazaar-vcs.org/3rdPartyTools Third party tools] and [http://bazaar-vcs.org/PluginRegistry Plugin registry] pages on Bazaar-NG wiki
 
 ----
 [[CategoryTools]]
