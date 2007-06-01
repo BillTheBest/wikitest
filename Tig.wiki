@@ -20,7 +20,7 @@ colorize it.
 
 * <b>Author</b>: Jonas Fonseca <fonseca@diku.dk>
 * <b>Homepage</b>: http://jonas.nitro.dk/tig/
-* <b>Repository</b>: http://jonas.nitro.dk/tig/tig.git/
+* <b>Repository</b>: git://repo.or.cz/tig.git
 * <b>Gitweb</b>: http://repo.or.cz/w/tig.git
 * <b>License</b>: GPLv2 or later
 
