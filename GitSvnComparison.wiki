@@ -15,6 +15,8 @@ In a distributed VCS like Git every user has a complete copy of the repository d
 
 In a centralized VCS like Subversion only the central repository has the complete history.  This means that users must communicate over the network with the central repository to obtain history about a file.  It also means that having 20 users does not automatically imply 20 active backups.  Backups must be maintained independently of the VCS.  If the central repository is lost due to system failure it must restored from backup and all changes since that last backup are likely to be lost.  Depending on the backup policies in place this could be several man-weeks worth of work.
 
+(Note that even SVK doesn't do quite the same thing as git.  SVK downloads a complete history and allows disconnected commits, but there is still a unique "upstream" repository.  Two SVK users can't merge with each other and then push the changes to the upstream.)
+
 == Branch Handling ==
 
 Branches in Git are a core concept used everyday by every user.  In Subversion they are almost an afterthought and tend to be avoided unless absolutely necessary.
