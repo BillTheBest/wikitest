@@ -17,4 +17,7 @@ Cogito is implemented a set of [[WikiPedia:Bash|Bash]] scripts (unlike Git, whic
 == External links ==
 * http://www.kernel.org/pub/software/scm/cogito/
 
+----
+[[CategoryTools]]
+
 __NOTOC__
