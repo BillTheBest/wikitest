@@ -32,6 +32,6 @@ There even exists `git-instaweb` script to setup gitweb and a web server for bro
 * <b>License</b>: GPLv2
 
 ----
-[[CategoryTools]]
+[[CategoryTools]] [[CategoryWebInterfaces]]
 
 __NOTOC__
