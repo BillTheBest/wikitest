@@ -14,6 +14,6 @@ Wit provides:
 
 Check out a working example [http://dan.chokola.com/wit/ here].
 ----
-[[CategoryTools]]
+[[CategoryTools]] [[CategoryWebInterfaces]]
 
 __NOTOC__
