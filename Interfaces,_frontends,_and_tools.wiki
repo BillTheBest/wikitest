@@ -226,6 +226,10 @@ export GIT_DIFF_PAGER="colordiff | less -RS"</nowiki></pre>
 === gitco  ===
     [http://blog.josefsson.org/?p=8 gitco] by Simon Josefsson is a tiny shell script to remove unversioned files from git directories, similar to [http://www.red-bean.com/cvsutils/ cvsutils] 'cvsco' or subversion's svn-clean.
 
+=== grit (bug tracker) ===
+    [grit]: really stupid BTS tool ([http://git.madism.org/?p=grit.git;a=summary gitweb]) is git integrated bugtracker, by Pierre Habouzit <i>(work in progress)</i>. You can clone it from <code><nowiki>git://git.madism.org/grit.git</nowiki></code> <<BR>>
+    See [http://thread.gmane.org/gmane.comp.version-control.git/48981 |RFC| git integrated bugtracking] thread on git mailing list.
+
 = See also =
 * [[InterfacesFrontendsAndToolsWishlist]]
 * [http://git.or.cz/#tools Git - Related Tools] (at Git homepage)
