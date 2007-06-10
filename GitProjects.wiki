@@ -23,7 +23,7 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 ** http://linux.schottelius.org/cgi-bin/gitweb.cgi (gitweb)
 * OpenFabrics Alliance (InfiniBand & other RDMA Network Fabric) drivers
 ** http://www.openfabrics.org/ (homepage)
-** http://http://www.openfabrics.org/git/ (gitweb)
+** http://www.openfabrics.org/git/ (gitweb)
 * Many other Linux related projects...
 ** http://git.kernel.org/ (gitweb)
 
