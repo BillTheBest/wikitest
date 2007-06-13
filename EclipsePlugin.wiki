@@ -14,6 +14,7 @@ Some ways to keep informed about Egit development.
 * Compare revisions
 * Quick diff
 * Branch and [[StGit]] patch decoration
+* File Status decoration (aggregate status decoration at folder and project level)
 = FAQ =
 * How do you tie the plugin to a project or create a project by cloning a repository?
 == Documentation ==
