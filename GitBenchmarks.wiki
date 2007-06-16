@@ -42,6 +42,25 @@ My benchmark is to apply all 819 patches from -mm3 to 2.6.12-rc:
 
 <b>Reference:</b> [http://marc.theaimsgroup.com/?l=git&m=111475459526688 Mercurial 0.4b vs git patchbomb benchmark] by Matt Mackall, via [[WikiPedia:Git_(software)|Git (software)]] article at Wikipedia.
 
+== Old Bazaar-NG versus Git comparison ==
+
+Comparison using linux-2.6.0 and linux-2.6.15.4 as a large source tree to use. All times in the table below are user+sys.
+
+ || <b>Operation</b>    ||`bzr (0.7pre)`||`git (0.99.9c)`||
+ || init               ||<)>    0.187s ||<)>    0.006s  ||
+ || add 2.6.0          ||<)>   31.592s ||<)>   35.636s  ||
+ || diff 2.6.15.4      ||<)>   29.028s ||<)> 2m28.000s  ||
+ || initial commit     ||<)> 1m22.773s ||<)>   53.016s  ||
+ || diff no changes    ||<)>    9.186s ||<)>    0.056s  ||
+ || status             ||<)>   16.358s ||<)>    0.458s  ||
+ || commit one file    ||<)>   35.192s ||<)>    7.366s  ||
+
+Note that `git-add` adds contents of a file to repository, and not only marks file for later commit.
+
+Note also discrepancy between real and user+sys for "bzr diff" comparing imported linux-2.6.0 with linux-2.6.15.4 in working tree (1m13.869s vs 29.028s), "bzr commit" for initial commit (2m4.757s vs 1m22.773s), "bzr diff" for no changes (3m51.918s vs 9.186s) and "bzr commit" with singe file change (2m6.685s vs 35.192s) in original reference (link below).
+
+<b>Reference:</b> [http://blog.jozilla.net/2006/3/3/bzr-versus-git Bzr versus git] from March 3rd, 2006 on Jo Vermeulen blog (mentioned [http://en.wikipedia.org/wiki/Talk:Git_%28software%29 Talk:Git (software)] page on Wikipedia).
+
 == Quilt import comparison of Git and Mercurial ==
 
 * commit 773 patches (20MB) for 2.6.18-rc1 to-mm2
