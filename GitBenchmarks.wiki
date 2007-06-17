@@ -44,15 +44,26 @@ My benchmark is to apply all 819 patches from -mm3 to 2.6.12-rc:
 
 == Old Bazaar-NG versus Git comparison ==
 
-Comparison using linux-2.6.0 and linux-2.6.15.4 as a large source tree to use. All times in the table below are user+sys.
+Comparison using linux-2.6.0 and linux-2.6.15.4 as a large source tree to use.
 
+ real::
+ || <b>Operation</b>    ||`bzr (0.7pre)`||`git (0.99.9c)`||
+ || init               ||<)>    1.593s ||<)>    0.161s  ||
+ || add 2.6.0          ||<)>   31.870s ||<)>   42.121s  ||
+ || diff 2.6.15.4      ||<)> 1m13.869s ||<)> 2m26.982s  ||
+ || initial commit     ||<)> 2m 4.757s ||<)>   54.964s  ||
+ || diff no changes    ||<)> 3m51.918s ||<)>    0.057s  ||
+ || status no changes  ||<)>   19.711s ||<)>    0.442s  ||
+ || commit one file    ||<)> 2m 6.685s ||<)>    7.364s  ||
+
+ user+sys::
  || <b>Operation</b>    ||`bzr (0.7pre)`||`git (0.99.9c)`||
  || init               ||<)>    0.187s ||<)>    0.006s  ||
  || add 2.6.0          ||<)>   31.592s ||<)>   35.636s  ||
  || diff 2.6.15.4      ||<)>   29.028s ||<)> 2m28.000s  ||
  || initial commit     ||<)> 1m22.773s ||<)>   53.016s  ||
  || diff no changes    ||<)>    9.186s ||<)>    0.056s  ||
- || status             ||<)>   16.358s ||<)>    0.458s  ||
+ || status no changes  ||<)>   16.358s ||<)>    0.458s  ||
  || commit one file    ||<)>   35.192s ||<)>    7.366s  ||
 
 Note that `git-add` adds contents of a file to repository, and not only marks file for later commit.
