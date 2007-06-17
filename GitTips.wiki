@@ -179,7 +179,7 @@ environment variable. Create a shell script like
 
 <pre><nowiki>
 #!/bin/sh
-exec ssh --your-options-- $*
+exec ssh --your-options-- "$@"
 </nowiki></pre>
 
 and make GIT_SSH point to it.
