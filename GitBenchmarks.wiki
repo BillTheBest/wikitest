@@ -201,4 +201,14 @@ Fitting linear function to the size of pack (created <code><nowiki>git pack-obje
  [http://img522.imageshack.us/my.php?image=gitgitpacksizefullgq3.png http://img522.imageshack.us/img522/6973/gitgitpacksizefullgq3.th.png] <<BR>>
 <i>(click on thumbnail to go to the plot)</i>
 
+== Gains from deltaification: pack size vs size of tarballs ==
+
+Comparison of an archive of all released Gnumeric versions versus git repository containing all released Gnumeric versions.
+
+* Total size of 172 tar files: 1508026377 bytes.
+* Total size of git archive: 139733921 bytes
+* Ratio: 10.8
+
+<b>Reference:</b> [http://blogs.gnome.org/mortenw/2007/01/07/10x-better-compression-than-gzip/ 10x+ Better Compression Than Gzip] blog entry <i>(from January 7th, 2007)</i>.
+
 __NOTOC__
