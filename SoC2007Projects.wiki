@@ -20,7 +20,7 @@ Many projects has been converted to builtin code already, and the structure of t
 
 == GIT library project ==
 
-Although GIT is well designed and does its job quite well, its current implementation makes use f static variables and may quit program execution when an error condition occurs.
+Although GIT is well designed and does its job quite well, its current implementation makes use of static variables and may quit program execution when an error condition occurs.
 
 Such implementation problems make it hard to write bindings for GIT (e.g. Perl and Python), embbed it or even write graphical front-ends.
 
