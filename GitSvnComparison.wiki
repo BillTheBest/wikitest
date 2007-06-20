@@ -109,6 +109,9 @@ Since Git is distributed by nature not everything related to a project may be st
 
 Since Subversion has a single central repository it is possible to specify read and write access controls in a single location and have them be enforced across the entire project.
 
+== Binary Files ==
+Subversion can be used with binary files.  
+
 FIXME
 
 == Shorter Revision Numbers ==
