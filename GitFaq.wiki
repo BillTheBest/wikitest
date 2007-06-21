@@ -1,8 +1,7 @@
 <!-- ! TOC here -->
 
 ----
- <b>See also:</b>
-
+* <b>See also:</b>
 * [[TipsAndTricks]] page
 = General Questions =
 [[Anchor(git-name)]]
@@ -23,7 +22,7 @@ Alternatively, in Linus' own words as the inventor of git: "git" can mean anythi
 == What's the difference between fetch and pull? ==
 The short definition is:
 
-<b>Fetch</b>: Download (new) objects and a head from another repository.<br> <b>Pull</b>: Fetch (as defined above), and then merge what was downloaded with the current development.
+<b>Fetch</b>: Download (new) objects and a head from another repository.[[BR]] <b>Pull</b>: Fetch (as defined above), and then merge what was downloaded with the current development.
 
 * See the
  [http://www.kernel.org/pub/software/scm/git/docs/git-fetch.html git-fetch(1)] and [http://www.kernel.org/pub/software/scm/git/docs/git-pull.html git-pull(1)] man pages or the tutorials for more details.
@@ -350,6 +349,6 @@ Maybe, check if [[InterfacesFrontendsAndTools#Tailor]] ([http://www.darcs.net/Da
 * [[GitCommunity]], mainly Git mailing list.
 * [[WikiPedia:Git_(software)|Git (software)]] article at Wiki<code><nowiki></nowiki></code>Pedia.
 ----
- [[CategoryGlossary]]
+* [[CategoryGlossary]]
 
 __NOTOC__
