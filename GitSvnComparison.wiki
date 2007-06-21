@@ -110,9 +110,9 @@ Since Git is distributed by nature not everything related to a project may be st
 Since Subversion has a single central repository it is possible to specify read and write access controls in a single location and have them be enforced across the entire project.
 
 == Binary Files ==
-Subversion can be used with binary files.  
+Subversion can be used with binary files (it is automatically detected; if that detection fails, you have to mark the file binary yourself).  Just like Git.
 
-FIXME
+Only that with Git, the default is to interpret the files as binary to begin with.  If you _have_ to have CR+LF line endings (even though most modern programs grok the saner LF-only line endings just fine), you have to tell Git so.  Git will then autodetect if a file is text (just like Subversion), and act accordingly.  Analogous to Subversion, you can correct an erroneous autodetection by setting a git attribute.
 
 == Shorter Revision Numbers ==
 
