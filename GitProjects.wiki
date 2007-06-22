@@ -19,7 +19,7 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * Nico Schottelius (Linux|Unix) projects
 ** http://linux.schottelius.org/ (homepage)
 ** http://linux.schottelius.org/cgi-bin/gitweb.cgi (gitweb)
-* Open<code><nowiki></nowiki></code>Fabrics Alliance (Infini<code><nowiki></nowiki></code>Band & other RDMA Network Fabric) drivers
+* OpenFabrics Alliance (InfiniBand & other RDMA Network Fabric) drivers
 ** http://www.openfabrics.org/ (homepage)
 ** http://www.openfabrics.org/git/ (gitweb)
 * Many other Linux related projects...
@@ -110,7 +110,7 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 ** http://www.denx.de/en/Documents/[[GitDocs]] (git documentation)
 ** http://www.denx.de/cgi-bin/gitweb.cgi?p=u-boot.git;a=summary (gitweb)
 * Various projects hosted at fd.o:
-** http://www.freedesktop.org/wiki/Infrastructure/git (description)[[BR]] http://www.freedesktop.org/wiki/Infrastructure/git/UIFlaws (git UI wishlist)[[BR]] http://gitweb.freedesktop.org/ (repository, gitweb)
+** http://www.freedesktop.org/wiki/Infrastructure/git (description)<<BR>> http://www.freedesktop.org/wiki/Infrastructure/git/UIFlaws (git UI wishlist)<<BR>> http://gitweb.freedesktop.org/ (repository, gitweb)
 ** X.Org
 *** http://xorg.freedesktop.org/wiki/Development/git (description)
 * Cairo (2D graphics library with support for multiple output devices)
