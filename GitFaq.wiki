@@ -58,7 +58,7 @@ Currently rename detection doesn't work well with path limiting (path limiting p
 * [http://permalink.gmane.org/gmane.comp.version-control.git/217 Mail] by Linus on this topic.
 
 <<Anchor(no-per-file-history)>>
-== Why "git log <filename>" is slow? ==
+== Why is "git log <filename>" slow? ==
 The answer to the question why <code><nowiki>git log <filename></nowiki></code> takes so long to find small number of commits which changed given file lies in the fact that Git looks at <b>all</b> the commits to find that.
 
 Git simply <b>does not have</b> per-file history. Not having per-file history is what allows Git to do
@@ -105,6 +105,9 @@ There is a bit of chicken and egg problem involved. The build procedure wants to
 Now if the version you switched to has an earlier (different) version of <code><nowiki>.gitignore</nowiki></code> file, then the files which were not deleted might be not ignored in reseted version, and shows e.g. in the <code><nowiki>git status</nowiki></code> output.
 
 * See [http://marc.theaimsgroup.com/?l=git&m=114917892328066 Linus Torvalds] answer or [http://marc.theaimsgroup.com/?l=git&m=114917892613019 Sean Estabrooks] answer at [[GitCommunity:git mailing list]].
+* If you are using cygwin or OSX, you might have be having issues with case sensitivity. See [http://marc.info/?l=git&w=2&r=1&s=xt_CONNMARK.h&q=b some discussion here].
+
+<<Anchor(git-push_after-rebase)>>
 == Why won't "git push" work after I rebased a branch? ==
 After you have rebased one of your local branches, you are trying to push your changes to a remote repository. But <code><nowiki>git push</nowiki></code> fails with this error message:
 
