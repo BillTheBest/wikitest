@@ -134,6 +134,7 @@ Only those including [[Git]] as one of the systems.
 * [http://better-scm.berlios.de/comparison/ Better SCM Initiative: Comparison] by Shlomi Fish (includes Darcs, Mercurial, Monotone but not Git/Cogito).
 * [http://wiki.gnuarch.org/SubVersionAndCvsComparison Subversion and CVS Comparison], includes Aegis, Arch, CVS, Subversion, SVK briefly compared table.
 * [http://www.onlamp.com/pub/a/onlamp/2004/01/29/scm_overview.html The New Breed of Version Control Systems] by Shlomi Fish, at O'Reilly ONLamp (CVS, Subversion, Arch, OpenCM, Aegis, Monotone, BitKeeper).
+* [http://blog.mwolson.org/tech/why_i_dislike_subversion.html Why I dislike Subversion] on [http://blog.mwolson.org/ Michael Olson blog] <i>(more of a rant than comparison)</i>. 
 
 == Generic version control info ==
 There is place for generic, non SCM specific, links
