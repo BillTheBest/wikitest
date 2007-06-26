@@ -156,6 +156,7 @@ There is place for generic, non SCM specific, links
 * [http://www.perforce.com/perforce/bestpractices.html High-level Best Practices in Software Configuration Management] by Laura Wingerd & Christopher Seiwald, Perforce Software /!\
 * [http://blog.ianbicking.org/distributed-vs-centralized-scm.html Distributed vs. Centralized Version Control] in Ian Bicking blog, pro-Centralized SCM. /!\
 * [http://community.livejournal.com/relisoft/9641.html Distributed Systems] by Bartosz Milewski, in Reliable Software (relisoft) Developers' Journal, about truly distributed SCM vs. distributed database/filesystem centralized SCM. Pro Code Co-Op. /!\
+* [http://ianclatworthy.wordpress.com/2007/06/21/version-control-the-future-is-adaptive/ Version Control: The Future is Adaptive] on [http://ianclatworthy.wordpress.com/ Ian Clatworthy blog]
 * Mark Shuttleworth, from Ubuntu, wrote in his [http://www.markshuttleworth.com/ blog] a few articles about version control systems (VCS). Pro Bazaar-NG. /!\
   *[http://www.markshuttleworth.com/archives/123 Renaming is the killer app of distributed version control]
   *[http://www.markshuttleworth.com/archives/124 Further thoughts on version control] (inspired by previous article, start of series)
