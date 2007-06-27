@@ -1,3 +1,74 @@
-[[CategoryTemplate]]
+Currently GIT is only supported on Windows within a Cygwin environment. While this works well, there are several efforts that aim to provide a more <i>native</i> GIT on Windows.
+
+These efforts are
+* [http://repo.or.cz/w/git/mingw.git MinGW-based recompilation] (http://repo.or.cz/w/git/mingw.git) <<BR>>Packaged version (using NSIS) is available at http://lilypond.org/git/binaries/mingw/
+* EclipseIDE-based GIT client, based on a pure Java implmentation of GIT's internals.
+* A libgit + cygwin.dll Windows Explorer extension (perhaps based on TortoiseSVN)
+
+Ask on the [[MailingLists]] for the latest news on this ;-)
+
+If you have the main development team on linux/unix, and peripheral developers or translators on Windows, consider using `git-cvsserver` to give those users read or read/write access to the GIT tree via the CVS protocol. Committers using `git-cvsserver` have some limits: they cannot branch, tag or merge. On the other hand, git-cvsserver works well with Eclipse, TortoiseCVS and other easy-to-use CVS clients.
+
+= Cygwin =
+== Installation ==
+
+Git is now a cygwin binary package, directly installable without needing to compile it.
+
+Otherwise, to be able to build git directly from source, you will need to install cygwin and the following packages:
+
+* tcltk (for gitk and git-gui)
+* perl
+* openssh
+* openssl (and -dev)
+* libiconv
+* zip (and -dev)
+* curl (and -dev), optional if compiled with NO_CURL=1
+* expat (and -dev), optional if compiled with NO_CURL=1
+* make
+* gcc
+* binutils (sorta necessary to compile!)
+* patchutils (at least for the t4109-apply-multifrag.sh tests)
+* cpio (at least for the t5400-send-pack.sh tests)
+* xmlto to build the man pages
+* util-linux: just to have getopt (required by xmlto)
+* asciidoc to build documents (http://www.methods.co.nz/asciidoc/INSTALL.html)
+* python to build documents
+
+With these packages installed download the git source package from the git homepage and then unpack it with:
+
+<pre><nowiki>
+tar xvzf git-x.y.z.tar.gz   (or tar xvjf git-x.y.z.tar.bz2)
+</nowiki></pre>
+
+Then, build git and install it in your ~/bin directory by doing:
+
+<pre><nowiki>
+make install
+</nowiki></pre>
+
+If want to be extra careful, you can always run the regression tests:
+<pre><nowiki>
+make test
+</nowiki></pre>
+
+You are now ready to use GIT. Check that your path includes ~/bin and you are off!
+
+== Extra notes ==
+
+* Use git on local NTFS disks -- Network drives disks don't support the filesystem semantics GIT needs; for interoperability purposes you can store bare repositories on FAT32 disks.
+* Be careful with the case in filenames. Similarly, avoid special chars in filenames. 
+* Run git gc early and often. There are slowdowns with many unpacked objects. Be careful to not create very big packfiles (bigger than 2 Gb).
+* Avoid using ActiveState Perl if possible. Ask in the [[MailingLists]] if you must.
+* Try to avoid interrupting (Ctrl-C) processes - it breaks cygwin.
+* Consider setting core.fileMode to false (git repo-config core.fileMode false) if file modes are frequently the only differences detected by Git.  Many Windows applications make the execute bit be set in Cygwin when they save a file. Besides Cygwin detects file mode by stupid combination of content analysis, file name extension and moon phase.
+* Insert "set CYGWIN=tty binmode" after the first line of C:\cygwin\cygwin.bat, so you can use Ctrl-z in cygwin's bash to suspend a program.
+* Windows usually writes end-of-line as CRLF, while Unix/POSIX writes LF.  This can cause a variety of problems.  There are current efforts to address this.
+* Setup binary mode for cygwin (there is an option in cygwin's setup program), otherwise Cygwin mangles everything read and written (Git repos have binary files in control structures).
+* Avoid big repos.
+* Avoid Big Blobs (very big files. Basically anything larger than 10Mb is too big).
+* Avoid Big Trees (directories with many files in them).
+* Avoid Deep Hierarchies.
+* Reboot regularly (memory fragmentation)
+* Defragment often (filesystems fragmentation)
 
 __NOTOC__
