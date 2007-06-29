@@ -13,10 +13,20 @@ and by [http://git.or.cz/ Git homepage] to link to [http://git.or.cz/index.html 
  ||http://git.flameeyes.is-a-geek.org/static/favicon.png||used by [http://flameeyes.is-a-geek.org/projects#gitarella gitarella]||
  ||<#A0A0A0> http://git.flameeyes.is-a-geek.org/static/favicon.png||as above, gray background ||
 
+ ||http://git.henrik.nyh.se/favicon.png||[http://henrik.nyh.se/2007/06/alternative-git-logo-and-favicon proposed] by Henrik Nyh ||
+ ||<#A0A0A0> http://git.henrik.nyh.se/favicon.png||as above, gray background ||
+
 Proposed [[WikiPedia:Favicon|favicons]] for Git-related web pages.<<BR>>
 PNG, 16x16, 3 colors including white background.
 
 This favicon is resized fragment of above Git logo.
+
+----
+
+http://henrik.nyh.se/uploads/git-logo.png
+
+Henrik Nyh came up with an alternative logo/favicon to use with gitweb:
+* [http://henrik.nyh.se/2007/06/alternative-git-logo-and-favicon Alternative Git logo and favicon] at his blog: [http://henrik.nyh.se/ The Pug Automatic]
 
 ----
 
