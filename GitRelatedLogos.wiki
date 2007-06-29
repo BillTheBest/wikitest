@@ -5,7 +5,6 @@ Logo of [[Git]] [[DistributedSCM|distributed revision control system]].
 Used by [[Gitweb]] installations to link to [http://www.kernel.org/pub/software/scm/git/docs/ git(7)], 
 and by [http://git.or.cz/ Git homepage] to link to [http://git.or.cz/index.html Home].
 
-Embedded in `gitweb.cgi` script.
 ----
 
  ||http://git.kernel.org/git-favicon.png|| without background ||
