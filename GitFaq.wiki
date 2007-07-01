@@ -1,4 +1,4 @@
-<!-- ! TOC here -->
+<<<!-- ! TOC here -->(2)>>
 
 ----
 * <b>See also:</b>
@@ -128,31 +128,6 @@ When you rebase, you are not continuing the history of the branch from where you
 
 If you are really sure that you want to push the new reference to the remote repository you can say <code><nowiki>git push -f</nowiki></code>. But use this with care and only if you know, what you are doing.
 
-[[Anchor(push-is-reverse-of-fetch)]]
-
-== How would I use "git push" to sync out of a firewalled host? ==
-When you work on two machines, sometimes your firewall would let you make a TCP connection only in one direction but not in the other direction.  Suppose you start a project on machine A, and clone from there to a machine B.  You work on B and would want to propagate the change back to your repository on machine A.  Even if you wanted to, you cannot run git-fetch on machine A to fetch from B, as B is firewalled and does not allow incoming connections.  What should you do in such a case?
-
-Pushing 'master' branch on B to 'master' branch on A, however, is not what you would want to do.  Push is a reverse of fetch in the sense that it propagates the objects and update the branch tips, but does not touch the working tree in the target repository, and you will be utterly confused when you go back to machine A after you update 'master' that way. You can realize that a push is a mirror operation of a fetch and take advantage of it.  If B were <i>not</i> firewalled, you would instead run fetch on A from B.  And such a fetch is arranged to fetch 'master' from B and store that in 'refs/remotes/B/master' in A.
-
-So the simple solution to work around such a firewalled setup is to push 'master' from B into 'refs/remotes/B/master' of A, like this: 
-
-machineB$ git push machineA:repo.git master:refs/remotes/B/master
-
-When you go back to machineA to work further, it is as if you did a git-fetch from machineB, like this: 
-
-machineA$ git fetch machineB:repo.git master:refs/remotes/B/master
-
-When you are ready to integrate the changes you did on machineB into the master branch on machineB, you can:
-
-machineA$ git merge B/master ;# shorthand for refs/remotes/B/master
-
-This is no different from the case where you actually pulled from B on A. You can set up your .git/config file to largely automate the above git-push, so that you can just say:
-
-machineB$ git push
-
-See also [http://thread.gmane.org/gmane.comp.version-control.git/42506/focus=42685]
-
 == Why is "git commit -a" not the default? ==
 Most other version control systems will do a full-tree commit, using the content of files at commit time, by default.
 
@@ -182,6 +157,41 @@ Use <code><nowiki>cg-admin-setuprepo -g</nowiki></code> (if you use [[Cogito]]) 
 
 * See the
  [http://www.kernel.org/pub/software/scm/cogito/docs/introduction.html introduction to Cogito] or GIT's [http://www.kernel.org/pub/software/scm/git/docs/cvs-migration.html cvs-migration] doc, "Emulating the CVS Development Model" section for details.
+
+[[Anchor(push-is-reverse-of-fetch)]]
+
+== How would I use "git push" to sync out of a firewalled host? ==
+
+When you work on two machines, sometimes your firewall would let you make a TCP connection only in one direction but not in the other direction.  Suppose you start a project on machine A, and clone from there to a machine B.  You work on B and would want to propagate the change back to your repository on machine A.  Even if you wanted to, you cannot run git-fetch on machine A to fetch from B, as B is firewalled and does not allow incoming connections.  What should you do in such a case?
+
+Pushing 'master' branch on B to 'master' branch on A, however, is not what you would want to do.  Push is a reverse of fetch in the sense that it propagates the objects and update the branch tips, but does not touch the working tree in the target repository, and you will be utterly confused when you go back to machine A after you update 'master' that way. You can realize that a push is a mirror operation of a fetch and take advantage of it.  If B were <i>not</i> firewalled, you would instead run fetch on A from B.  And such a fetch is arranged to fetch 'master' from B and store that in 'refs/remotes/B/master' in A.
+
+So the simple solution to work around such a firewalled setup is to push 'master' from B into 'refs/remotes/B/master' of A, like this: 
+
+<pre><nowiki>
+machineB$ git push machineA:repo.git master:refs/remotes/B/master
+</nowiki></pre>
+
+When you go back to machineA to work further, it is as if you did a git-fetch from machineB, like this: 
+
+<pre><nowiki>
+machineA$ git fetch machineB:repo.git master:refs/remotes/B/master
+</nowiki></pre>
+
+When you are ready to integrate the changes you did on machineB into the master branch on machineB, you can:
+
+<pre><nowiki>
+machineA$ git merge B/master ;# shorthand for refs/remotes/B/master
+</nowiki></pre>
+
+This is no different from the case where you actually pulled from B on A. You can set up your .git/config file to largely automate the above git-push, so that you can just say:
+
+<pre><nowiki>
+machineB$ git push
+</nowiki></pre>
+
+See also [http://thread.gmane.org/gmane.comp.version-control.git/42506/focus=42685]
+
 [[Anchor(tag-checkout)]]
 
 == How do I check out the tree at a particular tag? ==
