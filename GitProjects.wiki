@@ -24,6 +24,7 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 ** http://www.openfabrics.org/git/ (gitweb)
 * Many other Linux related projects...
 ** http://git.kernel.org/ (gitweb)
+
 == Non-kernel projects that use Git for their source code management. ==
 * adesklets (interactive Imlib2 console for the X11, for writing desklets)
 ** http://adesklets.sourceforge.net/ (home page)
@@ -66,6 +67,9 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 ** http://elinks.cz/ (description)
 ** http://elinks.cz/elinks.git (repository, Cogito managed)
 ** http://pasky.or.cz/gitweb.cgi?p=elinks.git;a=summary (gitweb)
+* GNU core utils
+** http://git.sv.gnu.org/gitweb/?p=coreutils.git (gitweb)
+** git://git.sv.gnu.org/coreutils.git
 * GNU Lily<code><nowiki></nowiki></code>Pond (program to format music notation)
 ** http://www.lilypond.org/web/devel/participating/ (contributing web page)
 ** http://git.sv.gnu.org/gitweb/?p=lilypond.git (gitweb)
