@@ -76,6 +76,30 @@ To speed up "git log" give it range of interesting revisions; you can also try <
 == How come gitweb suddenly disappeared from the project list at kernel.org/git? ==
 Because it got merged into git. See [http://kernel.org/git/?p=git/git.git;a=commit;h=0a8f4f0020cb35095005852c0797f0b90e9ebb74 the relevant commit].
 
+== What is the difference between a merge and a fetch? ==
+Imagine this history:
+<pre><nowiki>
+- A - B - C - D - remote HEAD
+    \
+      E - F - G - local HEAD
+</nowiki></pre>
+
+after merge:
+
+<pre><nowiki>
+- A - B - C - D - remote HEAD
+    \                         \
+      E - F - G - local HEAD - new local HEAD
+</nowiki></pre>
+
+after rebase:
+
+<pre><nowiki>
+- A - B - C - D - remote HEAD - E' - F' - G' - local HEAD'
+</nowiki></pre>
+
+So, the merge does not rewrite your commits. They will stay the same. A rebase _will_ rewrite them. The advantage is that the history looks nicer. The disadvantage is that you usually tested more while developing, so some obscure feature in, say "B", could work less nicely together with, say "G'", than you hope for. As always, it is a trade-off.
+
 = Features =
 [[Anchor(git-crlf)]]
 
