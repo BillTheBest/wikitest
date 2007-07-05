@@ -22,6 +22,48 @@ git-rev-list --pretty $(git-rev-parse --default HEAD "$@") | LESS=-S ${PAGER:-le
 
 The basic concept of these scripts was to parse the options with `git-rev-parse`, possibly filtering just the revision parameters, or just the flags, and then call `git-rev-list` on the revisions.
 
+== Finding which commits last touched the files ==
+
+If you _need_ to know which commit gave what file its current form, this script will help you:
+
+<pre><nowiki>
+#!/usr/bin/perl
+
+%attributions = ();
+@files = ();
+
+open IN, "git ls-tree -r HEAD |";
+while (<IN>) {
+	if (/^\S+\s+blob \S+\s+(\S+)$/) {
+		$files[$#files + 1] = $1;
+		$attributions{$1} = -1;
+	}
+}
+close IN;
+
+$remaining = $#files + 1;
+
+open IN, "git log -r --root --raw --no-abbrev --pretty=format:%h~%an~%ad~ |";
+while (<IN>) {
+	if (/^([^:~]+)~(.*)~([^~]+)~$/) {
+		($commit, $author, $date) = ($1, $2, $3);
+	} elsif (/^:\S+\s+1\S+\s+\S+\s+\S+\s+\S\s+(.*)$/) {
+		if ($attributions{$1} == -1) {
+			$attributions{$1} = "$author, $date ($commit)";
+			$remaining--;
+			if ($remaining <= 0) {
+				break;
+			}
+		}
+	}
+}
+close IN;
+
+foreach $f (@files) {
+	print "$f	$attributions{$f}\n";
+}
+</nowiki></pre>
+
 == Sorting commits by commit message line count / changed lines ratio ==
 
 With Git, it is easy to write long, meaningful commit messages. Sometimes, the messages contain even more lines than are touched by the patch! You can illustrate that by listing all commits with the ratio between the commit message line count and the amount of lines added/deleted by the commit.
