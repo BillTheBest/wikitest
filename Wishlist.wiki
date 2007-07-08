@@ -8,16 +8,16 @@ I've put an attribution of the wish to the person who wrote the email I found it
 * I would kind of like to see "git poll" -- visit all remote branches, fetching objects and tags into the local repository, so that I can inspect changes off-line and merge, cherry-pick, etc. to my heart's content. (Michael K Edwards)
 * "pull" and "push" should be symmetrical operations.  (Nicholas Pitre) (Andy Parkins)
 * Remote branch handling should become more straight forward.  (Nicholas Pitre)
-* Don't use the name "origin" twice.  In fact, don't use it at all.  In a distributed system there is no such thing as a true origin.  (Andy Parkins)
 * There's no easy way to do a <code><nowiki>git reset --hard</nowiki></code> while doing a <code><nowiki>git checkout</nowiki></code> style merge. (linux at horizon.com)
 * "bisect" is reserved as a branch name but not clearly documented as such. (linux at horizon.com)
-* With ref logs, you've just re-invented the CVS problem of associating history with a name. (linux at horizon.com)
 * It would be nice to have command to rename tags (even in their packed format). <i>Some patches sent to git mailing list</i> (Jakub Narebski)
 * Support foreign VCS URLs in remote tracking branches with, eg, <code><nowiki>svn://</nowiki></code>, <code><nowiki>cvs://</nowiki></code>, <code><nowiki>bzr+http://</nowiki></code>, <code><nowiki>hg://</nowiki></code>, <code><nowiki>svn+webdav+crack://</nowiki></code>, etc.  (Sam Vilain)
 * Fetch/push should show progress even when transferring large objects. Kbs/sec would be particularly nice. (Tim Ansell)
 = Granted Wishes =
 The following items used to be classified as wishes above, but a brave soul or two took it upon themselves to submit working patches, which were subsequently accepted.  Thanks to all!
 
+* With ref logs, you've just re-invented the CVS problem of associating history with a name. (linux at horizon.com) (Does not apply)
+* Don't use the name "origin" twice.  In fact, don't use it at all.  In a distributed system there is no such thing as a true origin.  (Andy Parkins) (Since 1.5)
 * Allow a usage of "git merge <branch>" instead of the awkward "git pull . <branch>". (Carl Worth)
 * Less visible "remoteness" of remote branches.  Separate remotes as the default layout.  (Junio C Hamano)
 * Support <code><nowiki>Pull: refs/heads/*:refs/remotes/default/*</nowiki></code> in remotes shortcut files
