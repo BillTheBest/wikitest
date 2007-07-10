@@ -10,9 +10,7 @@ With aliases, you can avoid typing the same commands over and over again. Aliase
 
 = Simple =
 == 'ci' ==
-By adding the followin----
-[[CategoryGitDocumentation]]
-g section to <b>.git/config</b>, you can write <i>git ci</i> instead of <i>git commit</i>:
+By adding the following section to <b>.git/config</b>, you can write <i>git ci</i> instead of <i>git commit</i>:
 
 <pre><nowiki>
 [alias]
