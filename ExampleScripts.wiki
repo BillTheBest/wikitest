@@ -8,6 +8,10 @@
 
 Often, new users request a new feature of Git, which is very easy to do in a script. In fact, most of Git's user interface originated as a bash or Perl script. As a consequence, the interfaces of core Git programs (e.g. `rev-list` or `diff-tree`) are quite easy to use from scripts.
 
+<b>Table of contents:</b>
+
+<<<!-- ! TOC here -->(2)>>
+
 == git log ==
 
 For example, the command `git log` originally looked like this:
@@ -137,6 +141,61 @@ for ($i = 0; $i <= $#commits; $i++) {
         print substr($c->{sha1}, 0, 8) . "... " . $c->{message} . " / "
                 . $c->{diff} . " = " . $c->{ratio} . "\n";
 }
+</nowiki></pre>
+
+== Setting the timestamps of the files to the commit timestamp of the commit which last touched them ==
+Git lets you do things that might be considered less than useful.  In some corner cases, they might make sense, nevertheless.  For example, setting the timestamps of the files to the time when they were last updated by a commit, is usually idiotic.  It breaks "make", and it completely breaks down when multiple machines are involved, since they do not necessarily share a common time source.
+
+However, normalperson on IRC found a corner case where it might make sense (although you can think of scenarios where it breaks), and was nice enough to provide the script "git-set-file-times":
+<pre><nowiki>
+#!/usr/bin/perl -w
+use strict;
+
+# sets mtime and atime of files to the latest commit time in git
+#
+# This is useful for serving static content (managed by git)
+# from a cluster of identically configured HTTP servers.  HTTP
+# clients and content delivery networks can get consistent
+# Last-Modified headers no matter which HTTP server in the
+# cluster they hit.  This should improve caching behavior.
+#
+# This does not take into account merges, but if you're updating
+# every machine in the cluster from the same commit (A) to the
+# same commit (B), the mtimes will be _consistent_ across all
+# machines if not necesarily accurate.
+#
+# THIS IS NOT INTENDED TO OPTIMIZE BUILD SYSTEMS SUCH AS 'make'
+# YOU HAVE BEEN WARNED!
+
+my %ls = ();
+my $commit_time;
+
+$/ = "\0";
+open FH, 'git ls-files -z|' or die $!;
+while (<FH>) {
+	chomp;
+	$ls{$_} = $_;
+}
+close FH;
+
+
+$/ = "\n";
+open FH, "git log -r --name-only --no-color --pretty=raw -z @ARGV |" or die $!;
+while (<FH>) {
+	chomp;
+	if (/^committer .*? (\d+) (?:[\-\+]\d+)$/) {
+		$commit_time = $1;
+	} elsif (s/\0\0commit [a-f0-9]{40}$//) {
+		my @files = delete @ls{split(/\0/, $_)};
+		@files = grep { defined $_ } @files;
+		next unless @files;
+		utime $commit_time, $commit_time, @files;
+	}
+	last unless %ls;
+
+}
+close FH;
+
 </nowiki></pre>
 ----
 [[CategoryGitDocumentation]]
