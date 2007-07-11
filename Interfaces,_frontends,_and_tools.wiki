@@ -167,8 +167,9 @@
     hg-fast-export is another converter using `git-fast-import` as backend and is written in Python using the mecurial python classes directly. It uses a single pass, supports tags, mercurial named branches, incremental imports and merges. It is quite fast since no subshells and/or pipe communication is used except for the feed to `git-fast-import`. The source is available as part of the fast-export repository at [http://repo.or.cz/w/fast-export.git repo.or.cz].
 
 === git-p4 and git-p4-import (Perforce) ===
-    In the addition to built-in Perforce (`p4`) importer, `git-p4import` by Sean Estabrooks in Python there is a script using alternative import method, which works without changing local state: `git-p4-import` by Alex Riesen in Perl: see [http://marc.info/?l=git&m=117840529828575&w=2 Yet another Perforce importer] email/thread on git mailing list.<<BR>>
-    There is also `git-p4` script by Simon Hausmann in Python that allows (incremental) imports from Perforce as well as submitting changes back from git into a Perforce depot.  It is part of the [http://repo.or.cz/w/fast-export.git fast-export] repository at repo.or.cz.  See also [http://marc.info/?l=git&m=117861263323170&w=2 Yet another git perforce integration] thread on git mailing list.
+    The built-in Perforce importer `git-p4import.py` does not work and is not being actively developed. A replacement, `git-p4` by Simon Hausmann, is now in contrib/fast-import and is highly recommended. See also [http://marc.info/?l=git&m=117861263323170&w=2 Yet another git perforce integration] thread on git mailing list.
+
+    There is also an older Perl version, `git-p4-import` by Alex Riesen: see [http://marc.info/?l=git&m=117840529828575&w=2 Yet another Perforce importer] email/thread on git mailing list.<<BR>>
 
 === darcs2git ===
 <<Anchor(darcs2git)>>
