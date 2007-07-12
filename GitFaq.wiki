@@ -68,15 +68,29 @@ git log <directory-or-file>
 </nowiki></pre>
 rather than being able to track just one file. You can't do it sanely with per-file history (because to tie the per-file histories back together in a logical sequence, you need the global history to sort it again!).
 
+That said, you might well need to just run
+
+<pre><nowiki>
+git gc
+</nowiki></pre>
+
+to make it hugely faster.
+
 Note that <code><nowiki>git log <file1> <file2></nowiki></code> (or <code><nowiki>gitk <file1> <file2></nowiki></code>) is not simply union of <code><nowiki>git log <file1></nowiki></code> and <code><nowiki>git log <file2></nowiki></code>; it can contain merges which are in neither of separate histories. Doing the history for two files together is <b>not at all equivalent</b> to doing the history for those files individually and stitching it together.
 
 To speed up "git log" give it range of interesting revisions; you can also try <code><nowiki>--remove-empty</nowiki></code> option (with some caveats).
 
 * [http://permalink.gmane.org/gmane.comp.version-control.git/39358 Re: how to speed up "git log"?] by Linus Torvalds on Git mailing list.
+== Why is it wrong to export the environment variable CDPATH? ==
+The CDPATH variable is purely for interactive consumption.  A lot of scripts break if a simple "cd" suddenly outputs a text that was directed at <b>you</b>, the user, and not meant for processing by the script.  Setting, but ot exporting, CDPATH will still work as expected, but unbreak many scripts, including the make procedure of Git.  Having said that, we tried hard to avoid to unset CDPATH everywhere in the Git scripts, and in the Makefiles, but it is well possible that we missed out some places.
+
+In contrast, if you just remove the "export" from your .bashrc, you are guaranteed to never get bitten by that breakage again!
+
+* [http://article.gmane.org/gmane.comp.version-control.git/13736/match=cdpath Re: make install bug?]
 == How come gitweb suddenly disappeared from the project list at kernel.org/git? ==
 Because it got merged into git. See [http://kernel.org/git/?p=git/git.git;a=commit;h=0a8f4f0020cb35095005852c0797f0b90e9ebb74 the relevant commit].
 
-== What is the difference between a merge and a fetch? ==
+== What is the difference between a merge and a rebase? ==
 Imagine this history:
 <pre><nowiki>
 - A - B - C - D - remote HEAD
