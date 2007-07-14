@@ -79,6 +79,7 @@ Note that <code><nowiki>git log <file1> <file2></nowiki></code> (or <code><nowik
 To speed up "git log" give it range of interesting revisions; you can also try <code><nowiki>--remove-empty</nowiki></code> option (with some caveats).
 
 * [http://permalink.gmane.org/gmane.comp.version-control.git/39358 Re: how to speed up "git log"?] by Linus Torvalds on Git mailing list.
+
 == Why is it wrong to export the environment variable CDPATH? ==
 The CDPATH variable is purely for interactive consumption.  A lot of scripts break if a simple "cd" suddenly outputs a text that was directed at <b>you</b>, the user, and not meant for processing by the script.  Setting, but ot exporting, CDPATH will still work as expected, but unbreak many scripts, including the make procedure of Git.  Having said that, we tried hard to avoid to unset CDPATH everywhere in the Git scripts, and in the Makefiles, but it is well possible that we missed out some places.
 
@@ -112,6 +113,56 @@ after rebase:
 </nowiki></pre>
 
 So, the merge does not rewrite your commits. They will stay the same. A rebase _will_ rewrite them. The advantage is that the history looks nicer. The disadvantage is that you usually tested more while developing, so some obscure feature in, say "B", could work less nicely together with, say "G'", than you hope for. As always, it is a trade-off.
+
+== Why "git rm" is not inverse of "git add"? ==
+
+Don't think of 'rm' as inverse of 'add'.  That would only
+confuse you.
+
+A natural inverse of 'add' is 'un-add', and that operation is
+called 'rm --cached', because we use that to name the option to
+invoke an "index-only" variant of a command when the command can
+operate on index and working tree file (e.g. "diff --cached",
+"apply --cached").
+
+A life of a file that does _not_ make into a commit goes like
+this:
+
+        [1]$ edit a-new-file
+
+This is 'create', not 'add'.  git is not involved in this step.
+
+        [2]$ git add a-new-file
+
+This is 'add'; place an existing file in the index.  When you do
+not want it in the index, you 'un-add' it.
+
+        [3]$ git rm --cached a-new-file
+
+This removes the entry from the index, without touching the
+working tree file.  If you do not want that file at all (as
+opposed to, "I am making a series of partial commits, and the
+addition of this path does not belong to the first commit of the
+series, so I am unstaging"), this is followed by
+
+        [4]$ rm -f a-new-file
+
+Again, git is not involved in this step.
+
+The thing is, people sometimes want to have steps 3 and 4
+combined, and it meshes well with the users' expectation when
+they see the word "rm".  Think of "git rm" without "--cached" as
+a shorthand to do 3 and 4 in one go to meet that expectation.
+
+Obviously, we cannot usefully combine steps 1 and 2.  We could
+have "git add --create a-new-file" launch an editor to create a
+new file, but that would not be very useful in practice.
+
+The fact that steps 3 and 4 can be naturally combined, but steps
+1 and 2 cannot be, makes "add" and "rm" not inverse of each
+other.
+
+* [http://mid.gmane.org/7vps2y3a4n.fsf@assigned-by-dhcp.cox.net Re: git-rm isn't the inverse action of git-add] message by Junio C Hamano.
 
 = Features =
 
