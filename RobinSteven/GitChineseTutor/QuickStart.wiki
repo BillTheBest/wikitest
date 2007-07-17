@@ -44,24 +44,30 @@ $ git format-patch HEAD^  # 生成一个 0001-commit-message.patch 的文件
 
 <pre><nowiki>
 # 从主版本库中克隆
+
 foo$ git clone git://git.kernel.org/pub/scm/git/git.git
 foo$ cd git
 
 # 将本地变更推入远程版本库
+
 foo$ git push user@example.com:my-repository.git/
 
 # 抓取远程版本库中的其中一个分支到本地版本库
+
 foo$ git fetch user@example.com:my-repository.git/ remote-branch:local-branch
 
 # 将远程版本库中的变化合并到本地
+
 bar$ git pull git://foo/repo.git/ branch
 
 # 用 git 协议建立版本库服务
+
 foo$ cd /my/repository/
 foo$ touch .git/git-daemon-export-ok
-foo$ git daemon  # 这样其他人就可以通过 git://your.machine/my/repository/.git/ 来抓取版本库
+foo$ git daemon                      # 这样其他人就可以通过 git://your.machine/my/repository/.git/ 来抓取版本库
 
 # 建立一个裸版本库( 没有工作目录的 )
+
 foo$ mkdir my-repo.git
 foo$ cd my-repo.git
 foo$ git --bare init
@@ -72,39 +78,47 @@ foo$ chmod a+x .git/hooks/post-update # 用 HTTP 协议来传输版本时要这�
 == 查看各个版本 ==
 <pre><nowiki>
 # 用图形界面工具查看历史
-foo$ gitview       # 这个命令打开图形界面窗口，你可以从中看到版本的历史沿革关系 
+
+foo$ gitview            # 这个命令打开图形界面窗口，你可以从中看到版本的历史沿革关系 
 
 # 查看日志
-foo$ git log    # 输出当前分支的日志
-foo$ git log -p # 输出日志，并同时在每个提交信息之后显示补丁
+
+foo$ git log             # 输出当前分支的日志
+foo$ git log -p          # 输出日志，并同时在每个提交信息之后显示补丁
 
 # 查看指定的变更
-foo$ git show HEAD    # 显示变更信息，差异比较位置，
-                      # 以及到当前分支最新状态的补丁。
+
+foo$ git show HEAD       # 显示变更信息，差异比较位置，
+                         # 以及到当前分支最新状态的补丁。
 </nowiki></pre>
 
-== Referring to revisions ==
+== 查看历史记录 ==
 
 <pre><nowiki>
-# by name
-foo$ git log v1.0.0   # show history leading up to tag "v1.0.0"
-foo$ git log master   # show history of branch "master"
+# 根据名称查看
 
-# relative to a name
-foo$ git show master^   # show parent to last revision of master
-foo$ git show master~2  # show grand parent to tip of master
-foo$ git show master~3  # show great grand parent to tip of master (you get the idea)
+foo$ git log v1.0.0                         # 列举历史记录至标签 "v1.0.0" 
+foo$ git log master                         # 列举 "master" 分支的历史记录
 
-# by output of "git describe"
-foo$ git show v1.4.4-g730996f  # you get this string by calling "git describe"
+# 根据名称关联查看
 
-# by hash (internally, all objects are identified by a hash)
+foo$ git show master^                       # 检查 master 分支的最后一个父版本的内容
+foo$ git show master~2                      # 检查 master 祖父版本的最后内容
+foo$ git show master~3                      # 检查 master 曾祖父的最后内容
+
+# 根据 "git describe" 的输出
+
+foo$ git show v1.4.4-g730996f               # 你可以用 "git describe" 命令得到这个输出
+
+# 根据哈希序列号（在 git 内部，所有的对象都是由哈希序列号来标记的）
+
 foo$ git show f665776185ad074b236c00751d666da7d1977dbe
-foo$ git show f665776   # a unique prefix is sufficient
+foo$ git show f665776                        # 通常你只要输入前几个数字已经足够
 
-# tag a revision
-foo$ git tag v1.0.0                      # make current HEAD known as "v1.0.0"
-foo$ git tag interesting v1.4.4-g730996f # tag a specific revision (not HEAD)
+# 制作标签
+
+foo$ git tag v1.0.0                          # 将当前 HEAD 制作为 "v1.0.0" 的标签
+foo$ git tag interesting v1.4.4-g730996f     # 标记你感兴趣的东西（不是 HEAD）
 </nowiki></pre>
 
 == Comparing revisions ==
