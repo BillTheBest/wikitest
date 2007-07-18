@@ -45,6 +45,7 @@ Miscelaneous git-related links, not including [http://git.or.cz/ Git homepage], 
   *[http://kerneltrap.org/node/5496 Junio Hamano New Git Maintainer]
   *[http://kerneltrap.org/node/5557 Using Git For More Than The Kernel]
   *[http://kerneltrap.org/node/5993 Git Milestone, 1.0 Release]
+  *[http://kerneltrap.org/node/11753 Debugging With "git bisect"]
 
 == Magazines ==
 * [http://www.pcworld.idg.com.au PC World]
@@ -169,5 +170,6 @@ There is place for generic, non SCM specific, links
 * [http://git.rsbx.net] Git related information by Gitzilla.
 * [http://gittorrent.utsl.gen.nz/ GitTorrent] idea.
 * [http://www.ext3cow.com/ Ext3cow Versioning Filesystem] is snapshot based, similarly somewhat to git, with sharing the same blocks, but without support for nonlinear history.
+* There is a whole chapter (GIT, QUILT AND BINARY SEARCHING) devoted to binary searching in [http://www.stardust.webpages.pl/files/handbook/handbook-en-0.3-rc1.pdf Linux Kernel Tester's Guide] (PDF)
 
 __NOTOC__
