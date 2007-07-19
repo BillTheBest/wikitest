@@ -240,6 +240,16 @@ Now consider what happens when you checkout another branch modification times ar
 
 Git sets the current time as the timestamp on every file it modifies, but only those. The other files are left untouched which means build tools will be able to depend on modification time and rebuild properly. If build rules change that can cause a failure anyway, but that is a far less common problem than accidentally not rebuilding.
 
+<<Anchor(pager-default)>>
+== Why does git use a pager for commands like diff/log and --help? ==
+
+[http://marc.info/?l=git&m=118484360824884&w=2 Johannes Schindelin explains]:
+
+  It was evidently liked unilaterally amongst the big whigs in the git
+  community.  Me too, I like it (which says nothing about my hair style).
+
+If you do not like the pager default, you can set <code><nowiki>core.pager = cat</nowiki></code> with <code><nowiki>git-config</nowiki></code> or tell your shell about <code><nowiki>$GIT_PAGER=cat</nowiki></code>.
+
 = How do I ... =
 
 <<Anchor(untrack-file)>>
