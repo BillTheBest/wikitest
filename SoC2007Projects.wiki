@@ -18,6 +18,10 @@ Many projects has been converted to builtin code already, and the structure of t
 <b>Repository:</b> git://repo.or.cz/git/builtin-gsoc.git <<BR>>
 <b>Gitweb:</b> http://repo.or.cz/w/git/builtin-gsoc.git <<BR>>
 
+<b>Progress reports:</b>
+* [http://permalink.gmane.org/gmane.comp.version-control.git/53070 Re: GSoC status report] by Shawn O. Pearce on git mailing list
+* [http://permalink.gmane.org/gmane.comp.version-control.git/53081 Re: GSoC status report] by Johannes Schindelin (project mentor) on git mailing list
+
 == GIT library project ==
 
 Although GIT is well designed and does its job quite well, its current implementation makes use of static variables and may quit program execution when an error condition occurs.
@@ -28,10 +32,14 @@ This project's goal is to fix the main issues, write an API to retrieve data fro
 
 <b>SoC page:</b> [http://code.google.com/soc/git/appinfo.html?csaid=5DB940E4533E058B GIT library project] <<BR>>
 <b>Webpage:</b> [[SoC2007Projects/Libification]] <<BR>>
-<b>Student:</b> Carlos Rica Espinosa <<BR>>
-<b>Mentor:</b> Johannes Schindelin <<BR>>
+<b>Student:</b> Luiz Fernando N. Capitulino <<BR>>
+<b>Mentor:</b> Shawn O. Pearce <<BR>>
 <b>Repository:</b> git://repo.or.cz/git/libgit-gsoc.git <<BR>>
 <b>Gitweb:</b> http://repo.or.cz/w/git/libgit-gsoc.git <<BR>>
+
+<b>Progress reports:</b>
+* [http://permalink.gmane.org/gmane.comp.version-control.git/53070 Re: GSoC status report] by Shawn O. Pearce on git mailing list
+* [http://permalink.gmane.org/gmane.comp.version-control.git/53433 ANNOUNCE: PyGit and libgit-thin] by Luiz Fernando N. Capitulino (student) on git mailing list
 
 == [[GitTorrent]] Server and Peer ==
 
