@@ -64,7 +64,7 @@ foo$ git daemon  # now others can fetch from git://your.machine/my/repository/.g
 foo$ mkdir my-repo.git
 foo$ cd my-repo.git
 foo$ git --bare init
-foo$ chmod a+x .git/hooks/post-update # this is needed for HTTP transport
+foo$ chmod a+x hooks/post-update # this is needed for HTTP transport
                                       # you need to populate this repository via push
 </nowiki></pre>
 
