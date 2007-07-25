@@ -81,7 +81,7 @@ To speed up "git log" give it range of interesting revisions; you can also try <
 * [http://permalink.gmane.org/gmane.comp.version-control.git/39358 Re: how to speed up "git log"?] by Linus Torvalds on Git mailing list.
 
 == Why is it wrong to export the environment variable CDPATH? ==
-The CDPATH variable is purely for interactive consumption.  A lot of scripts break if a simple "cd" suddenly outputs a text that was directed at <b>you</b>, the user, and not meant for processing by the script.  Setting, but ot exporting, CDPATH will still work as expected, but unbreak many scripts, including the make procedure of Git.  Having said that, we tried hard to avoid to unset CDPATH everywhere in the Git scripts, and in the Makefiles, but it is well possible that we missed out some places.
+The CDPATH variable is purely for interactive consumption.  A lot of scripts break if a simple "cd" suddenly outputs a text that was directed at <b>you</b>, the user, and not meant for processing by the script.  Setting, but not exporting, CDPATH will still work as expected, but unbreak many scripts, including the make procedure of Git.  Having said that, we tried hard to avoid to unset CDPATH everywhere in the Git scripts, and in the Makefiles, but it is well possible that we missed out some places.
 
 In contrast, if you just remove the "export" from your .bashrc, you are guaranteed to never get bitten by that breakage again!
 
