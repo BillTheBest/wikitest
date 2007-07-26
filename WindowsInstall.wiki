@@ -2,7 +2,7 @@ Currently GIT is only supported on Windows within a Cygwin environment. While th
 
 These efforts are
 
-* [http://repo.or.cz/w/git/mingw.git MinGW-based recompilation] (http://repo.or.cz/w/git/mingw.git) <<BR>>Packaged version (using NSIS) is available at http://lilypond.org/git/binaries/mingw/
+* [http://repo.or.cz/w/git/mingw.git MinGW-based recompilation] (http://repo.or.cz/w/git/mingw.git) <<BR>>Packaged version (using NSIS) is available at http://lilypond.org/git/binaries/mingw/, make sure you install [http://www.mingw.org/msys.shtml MSys] first.
 * EclipseIDE-based GIT client, based on a pure Java implmentation of GIT's internals.
 * A libgit + cygwin.dll Windows Explorer extension (perhaps based on TortoiseSVN)
 Ask on the [[MailingLists]] for the latest news on this ;-)
