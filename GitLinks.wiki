@@ -87,6 +87,7 @@ Miscelaneous git-related links, not including [http://git.or.cz/ Git homepage], 
 * [http://tytso.livejournal.com/29467.html Git and hg] by Ted Tso on his LiveJournal blog, describes UNIX-like mentality of Git, but also talks about it's shortcomings in documentation and ease of use.
 * [http://jaredrobinson.com/blog/?p=62 What’s happening with Version Control Systems?] from January 28, 2007 on [http://jaredrobinson.com/blog Jared’s Blog] talks about different SCM systems and gives  highly subjective comparison table for Subversion, SVK,	Git/Cogito, Mercurial, Bazaar-NG, Darcs and 	Perforce.
 * [http://blog.madduck.net/vcs/2007.07.11_publishing-git-repositories Publishing git repositories] and [http://blog.madduck.net/vcs/2007.07.11_creating-a-git-branch-without-ancestry Creating a git branch without ancestry] on [http://blog.madduck.net madduck's droppings] blog by Martin F Krafft (a bit of git beginner)
+* [http://www.spearce.org/category/projects/scm/ Insufficiently Random] (articles tagged <b>scm</b>), blog by Shawn O. Pearce.
 
 == Videos ==
 * [http://www.youtube.com/watch?v=4XpnKHJAok8 Tech Talk: Linus Torvalds on Git]  at Google on YouTube ([[LinusTalk200705Transcript|transcript]])
