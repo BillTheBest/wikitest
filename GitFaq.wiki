@@ -466,6 +466,16 @@ ssh user@git.example.com echo testing commands
 </nowiki></pre>
 You should only see <code><nowiki>testing commands</nowiki></code> returned.  If there are any other characters, you should eamine your dot shell rc file to find any echo or other commands that may produce output.
 
+== "unable to chdir or not a git archive" while pushing ==
+If you see the following errors:<pre><nowiki>
+fatal: 'git.exaple.com/wrong-path': unable to chdir or not a git archive
+fatal: The remote end hung up unexpectedly
+error: failed to push to 'git.exaple.com/wrong-path'
+</nowiki></pre>
+The most likely cause of this error is that you have incorrectly specified the path in the git url.
+
+See the [http://www.kernel.org/pub/software/scm/git/docs/git-push.html git-push(1)] man page for more info on valid git urls.
+
 = Importing from other revision control systems =
 See the [[InterfacesFrontendsAndTools#rcs-interaction:[[InterfacesFrontendsAndTools]]]] page ("Interaction with other Revision Control Systems" section), for a good reference on how to interact with other revision control systems.
 
