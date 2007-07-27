@@ -67,7 +67,7 @@ You are now ready to use GIT. Check that your path includes ~/bin and you are of
 * Avoid deep hierarchies.
 * Reboot regularly (memory fragmentation)
 * Defragment often (filesystems fragmentation)
-* See related discussion thread:   http://thread.gmane.org/gmane.comp.version-control.git/53680.
+* See related discussion thread: [http://thread.gmane.org/gmane.comp.version-control.git/53680 Windows support].
 ----
 [[CategoryGitDocumentation]]
 
