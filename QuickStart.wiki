@@ -1,5 +1,13 @@
 == Setting up a Git project ==
 
+If you want to work with an existing project, clone it:
+
+<pre><nowiki>
+$ git clone <url>
+</nowiki></pre>
+
+If you do not have an existing git project, create one:
+
 <pre><nowiki>
 $ cd project/
 $ git init          # initializes the repository
