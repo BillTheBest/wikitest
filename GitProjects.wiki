@@ -88,6 +88,9 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * netconf
 ** http://netconf.alioth.debian.org
 ** http://git.debian.org/?p=netconf/netconf/master.git;a=summary (gitweb)
+* Openbox (A standards compliant light-weight extensible window manager)
+** http://icculus.org/openbox/index.php/Main_Page (home page)
+** http://openbox.org/git/dana/openbox.git
 * One Laptop Per Child (OLPC)
 ** http://laptop.org
 ** http://dev.laptop.org/wiki/[[CentralTree]] (basic description)
