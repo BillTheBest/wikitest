@@ -181,7 +181,9 @@ Tests were made using a directory with 266 MB of files, 258 KB of which were tex
 
 As you can see, Mercurial (`hg`) was the fastest.  The fact that Mercurial outerforms Git is probably caused by the fact that Git just doesn't handle the binary files as well, although there were some patches lately dealing with overly-big blobs.
 
-<b>References:</b> [http://bryan-murdock.blogspot.com/2007/03/cutting-edge-revision-control.html Cyclopedia Square: Cutting Edge Revision Control], blog by Bryan Murdock, at Saturday, March 3, 2007.
+<b>References:</b> 
+* [http://bryan-murdock.blogspot.com/2007/03/cutting-edge-revision-control.html Cyclopedia Square: Cutting Edge Revision Control], blog by Bryan Murdock, at Saturday, March 3, 2007.
+* [http://thread.gmane.org/gmane.comp.version-control.git/54382 Git benchmark - comparison with Bazaar, Darcs, Git and Mercurial] thread at git mailing list.
 
 = Repository size benchmarks =
 
