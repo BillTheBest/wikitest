@@ -168,6 +168,21 @@ Tests were made on the whole Mozilla tree, with one-line change to one file. All
 
 <b>Reference:</b> [http://weblogs.mozillazine.org/jst/archives/2006/11/vcs_performance.html Jst's Blog: bzr/hg/git performance].
 
+== Comparison of Bazaar-NG, Darcs, Git and Mercurial ==
+
+Tests were made using a directory with 266 MB of files, 258 KB of which were text files, with the rest being image files (not very typical but reflects nature of author's repository).  Here's a table summarizing the real times reported by time(1):
+
+ ||<|2><b>Tool</b> ||<:><b>initialize</b>||<:><b>initial</b>||<:><b>initial</b>||<:><b>branch/clone</b>||<:><b>non-conflicting</b>||<|2><b>total</b>||
+ ||<:><b>repository</b>||<:><b>file import</b>||<:><b>commit</b>||<:><b>repository</b>||<:><b>merge</b>  ||||
+ ||bzr  ||<)>0m1.144s||<)> 0m0.839s ||<)>1m7.836s ||<)>0m31.145s||<)>0m1.154s||<)> 1m42.118s||
+ ||darcs||<)>0m0.429s||<)>12m50.321s||<)>0m0.164s ||<)>0m5.691s ||<)>0m6.717s||<)>13m3.322s||
+ ||git  ||<)>0m0.081s||<)> 1m1.918s ||<)>0m6.679s ||<)>1m37.630s||<)>0m1.910s||<)> 2m48.218s||
+ ||hg   ||<)>0m0.781s||<)> 0m0.377s ||<)>0m49.015s||<)>0m8.831s ||<)>0m0.342s||<)>   59.356s||
+
+As you can see, Mercurial (`hg`) was the fastest.  The fact that Mercurial outerforms Git is probably caused by the fact that Git just doesn't handle the binary files as well, although there were some patches lately dealing with overly-big blobs.
+
+<b>References:</b> [http://bryan-murdock.blogspot.com/2007/03/cutting-edge-revision-control.html Cyclopedia Square: Cutting Edge Revision Control], blog by Bryan Murdock, at Saturday, March 3, 2007.
+
 = Repository size benchmarks =
 
 == Estimate size of Linux kernel repository ==
