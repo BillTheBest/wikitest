@@ -10,7 +10,9 @@ Git is a <i>content</i> tracker, where <i>content</i> is de facto defined as "wh
 * Directories containing a subdirectory called ".git" (these may be tracked as submodules, but with very different semantics)
 * Arbitrary files called ".gitignore" (these have special semantics)
 * Arbitrary files called ".gitattributes" (these have special semantics)
-Consequentially, Git cannot be directly used as a general versioning solution for arbitrary files, such as home directories or "/etc". In principle, it is possible to add a layer above git to convert the above information into "content" that Git can track.
 
+(Some of the above can be represented by tree objects in a git repository, but such tree objects are difficult or impossible to create using the standard git tools.)
+
+Consequentially, Git cannot be directly used as a general versioning solution for arbitrary files, such as home directories or "/etc". In principle, it is possible to add a layer above git to convert the above information into "content" that Git can track.
 
 __NOTOC__
