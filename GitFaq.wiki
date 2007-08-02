@@ -182,6 +182,10 @@ Yes. Not just "keyword expansion" and/or "CRLF conversion", the current version 
 == Does git convert encodings of file names and committer names etc? ==
 No, not today, not ever. A git repository can store a flag to register the encoding supposedly used for comments (including author names). File names are considered byte sequences and are not converted to and from different encodings. File content is not converted and never will, but if you are inclined to shoot yourself in the foot, you could use the filtering mechanism, described above.
 
+<<Anchor(git-content-limitations)>>
+== Does git track all file data and metadata? ==
+No. Git has a specific notion of tracked "content", which is basically just the file data. It is thus not directly suitable for tracking directories where additional filesystem information is significant, such as "/etc" or home directories. See [[ContentLimitations]] for more details.
+
 = Unexpected behavior =
 
 <<Anchor(git-version)>>
