@@ -1,5 +1,103 @@
-[URL=http://uncommonbusiness.blogspot.com/2007/07/how-to-make-money-with-incremental.html]How To Make Money With Incremental Payments[/URL] Not a good idea to use <a href=" http://uncommonbusiness.blogspot.com/2007/07/how-to-make-money-with-incremental.html ">How To Make Money With Incremental Payments</a>!
+<!-- ## Please edit system and help pages ONLY in the moinmaster wiki! For more
+ -->
+<!-- ## information, please see [[MoinMaster]]:[[MoinPagesEditorGroup]].
+ -->
+<!-- ##master-page:[[FrontPage]]
+ -->
+<!-- #format wiki
+ -->
+<!-- #language en
+ -->
+<!-- #pragma section-numbers off
+ -->
+= Git Wiki =
+
+This is the Git Wiki site. It is a little experimental right now; it is not
+currently meant as the primary source of information about [[Git]] but it might
+be useful for easy information exchange between users of Git and the Git
+[[Porcelain|porcelains]] like [[Cogito]], [http://wiki.procode.org/cgi-bin/wiki.cgi/StGIT StGIT], [http://www.isisetup.ch/ IsiSetup]
+and such.  Well, have fun! And as the wiki users say, edit with courage.
+
+The other information sources are the [http://git.or.cz/ Git Homepage] (the
+webmaster takes patches) and obviously the stock documentation:
+* http://www.kernel.org/pub/software/scm/git/docs
+* http://www.kernel.org/pub/software/scm/cogito/docs
+
+== Getting Help ==
+* Read [[QuickStart]], or even better [http://www.kernel.org/pub/software/scm/git/docs/user-manual.html Git's User Manual]
+* See the [[GitCommunity]] page for mailing list and IRC information.
+* See the [[GitDocumentation]] page for an overview of git related documentation.
+* See the [[GitGlossary]] ([http://www.kernel.org/pub/software/scm/git/docs/glossary.html original]) for explanation of terminology.
+* See the [[GitFaq|FAQ]] page for Frequently Asked Questions.
+* See the [[GitTips]] page for tips on how to get the most out of git.
+* See the [[GitCommonMistakes]] page to avoid common pitfalls encountered when switching to git.
+* See some [[ExampleScripts]] how you can script around core Git to achieve just about anything.
+
+== Additional Information ==
+* See the [[GitHistory]] for a bit of history, inspirations and design decisions.
+* See the [[GitLinks]] for further reading.
+* Read [[Git]] and [[Cogito]] pages.
+* Read [[WikiPedia:Git_(software)|Git (software)]] article at [http://en.wikipedia.org Wikipedia].
+
+== Interfaces and other Git Tools ==
+* [[InterfacesFrontendsAndTools]] lists other programs that work with [[Git]].
+* [[InterfacesFrontendsAndToolsWishlist]] list other programs that we would want to work with Git.
+* [[GitBenchmarks]] shows how Git performs and how compares to other version control systems.
+
+== Projects using Git ==
+Projects that use [[Git]] for their source code management are listed in [[GitProjects]].
+
+== Other pages ==
+* [[WindowsInstall]] tells how to install Git on MS Windows.
+* Check out [[GitRelatedLogos]].
+* Read [[GitSurvey|Git Users Survey]] results; check [[GitSurveyData]] for survey raw data.
+* See a comparsion between Git and Subversion in [[GitSvnComparsion]].
+* Ideas and thoughts on [[PatchManagement]].
+* [[UsingGitWithOtherVCSTools]].
+
+== Getting Involved ==
+* Subscribe to the git mailing list (see [[GitCommunity]] page).
+* Check out [[ToDo]] page.
+* Google [[SoC2007Ideas|Summer of Code 2007]] project ideas.
+* Check the current [http://kernel.org/git/?p=git/git.git;a=blob;hb=todo;f=TODO TODO list], it is in the todo branch in the git repository.
+* Check out [[Wishlist]] page.
+* Read [http://kernel.org/git/?p=git/git.git;a=blob;f=Documentation/SubmittingPatches Documentation/[[SubmittingPatches]]] before submitting patches.
+* Additionally, have a look at [[InterfacesFrontendsAndToolsWishlist]].
+* Some [[notes]] from the maintainer
+
+=== Git Wiki ===
+* [[GitWikiSuggestions]] – Your suggestions for improvement of the wiki.
+
 ----
-[[CategoryHomepage]]
+----
+
+== Wiki Metainformation ==
+
+FYI, a Wikipedia-like link syntax is also supported aside of the [[MoinMoinWiki]]-like one
+(since everyone is used to Wikipedia and it's much easier to write):
+
+* You can make links using <code><nowiki>[[linkname]]</nowiki></code> (or even <code><nowiki>[[target|label]]</nowiki></code>; all the other moinmoin ways to make links work as well). The link target's initial letter will be automagically capitalized; if you want to avoid that, use <code><nowiki>[[link]]</nowiki></code>
+* If you ever need to use macros here, use a <code><nowiki> <<macroname>> </nowiki></code> syntax.
+
+=== What is this wiki about? ===
+
+Interesting starting points:
+* [[RecentChanges]]: see where people are currently working
+* [[WikiSandBox]]: feel free to change this page and experiment with editing
+* [[Special:Search|FindPage]]: search or browse the database in various ways
+* [http://meta.wikimedia.org/wiki/Help:Editing SyntaxReference]: quick access to wiki syntax
+* [[Special:Specialpages|SiteNavigation]]: get an overview over this site and what it contains
+
+=== How to use this site ===
+
+A Wiki is a collaborative site, anyone can contribute and share:
+* Edit any page by pressing <b><<[[GetText]](Edit)>></b> at the top or the bottom of the page
+* Create a link to another page with joined capitalized words (like [[WikiSandBox]]) or with <code><nowiki>[[quoted words in brackets]]</nowiki></code>
+* Search for page titles or text within pages using the search box at the top of any page
+* See [[HelpForBeginners]] to get you going, [[HelpContents]] for all help pages.
+
+To learn more about what a [[WikiWikiWeb]] is, read about [[MoinMoin]]:[[WhyWikiWorks]] and the [[MoinMoin]]:[[WikiNature]]. Also, consult the [[MoinMoin]]:[[WikiWikiWebFaq]].
+
+This wiki is powered by MediaWiki.
 
 __NOTOC__
