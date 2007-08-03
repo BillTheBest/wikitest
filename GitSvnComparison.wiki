@@ -120,8 +120,8 @@ As SVN assigns revision numbers sequentially (starting from 1) even very old pro
 
 As Git uses a SHA1 to uniquely identify a commit each specific revision can only be described by a 40 character hexadecimal string, however this string not only identifies the revision but also the branch it came from.  In practice the first 8 characters tends to be unique for a project, however most users try to not rely on this over the long term.  Rather than embedding long commit SHA1s into executables Git users generate a uniquely named tag.  This is an additional step, but a simple one.
 
-== Repository Size ==
-Subversion can handle very large repositories and/or files, while Git does not handle that well, or not at all.
+== Large Repositories, Huge Files ==
+Subversion can handle very large repositories and/or files, while Git does not handle that well, or not at all, <b>because</b> it deals with single files buched together..
 
 ----
 = The Original Email =
