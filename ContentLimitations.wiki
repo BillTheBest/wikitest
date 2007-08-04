@@ -12,7 +12,6 @@ By design, git cannot track other aspects of the filesystem, including:
 There are some names which are considered <i>special</i> by git:
 * Arbitrary directories called ".git" (these contain the base of a repository),
 * Arbitrary directories containing a ".git" subdirectory with certain content (if "dir/.git" exists and seems to contain a valid head ref, then "git add dir" assumes that "dir" is a submodule)
-these are assumed to be submodules when you try to "git add" them)
 * Arbitrary files called ".gitignore" (these have special semantics)
 * Arbitrary files called ".gitattributes" (these have special semantics)
 
