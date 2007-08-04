@@ -10,7 +10,7 @@ By design, git cannot track other aspects of the filesystem, including:
 * Empty directories (although it is not a fundamental limitation, git just automatically removes empty directories and does not add empty directories)
 
 There are some names which are considered <i>special</i> by git:
-* Arbitrary directories called ".git" (these contain repository)
+* Arbitrary directories called ".git" (these contain a repository), and their parent directories (these are submodules)
 * Arbitrary files called ".gitignore" (these have special semantics)
 * Arbitrary files called ".gitattributes" (these have special semantics)
 
