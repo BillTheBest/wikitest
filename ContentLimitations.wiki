@@ -10,9 +10,13 @@ By design, git cannot track other aspects of the filesystem, including:
 * Empty directories (although it is not a fundamental limitation, git just automatically removes empty directories and does not add empty directories)
 
 There are some names which are considered <i>special</i> by git:
-* Arbitrary directories called ".git" (these contain a repository),
+* Arbitrary directories called ".git" (these contain the base of a repository),
+* Arbitrary directories containing a ".git" subdirectory with certain content (if "dir/.git" exists and seems to contain a valid head ref, then "git add dir" assumes that "dir" is a submodule)
+these are assumed to be submodules when you try to "git add" them)
 * Arbitrary files called ".gitignore" (these have special semantics)
 * Arbitrary files called ".gitattributes" (these have special semantics)
+
+In general, it's best to consider any file or directory name beginning with ".git" as potentially special.
 
 Consequentially, Git cannot be directly used as a general versioning solution for arbitrary files, such as home directories or "/etc". In principle, it is possible to add a layer above git to convert the above information into "content" that Git can track. A crude and inefficient example would be to "tar" the whole directory and track the tar file as a single blob.
 
