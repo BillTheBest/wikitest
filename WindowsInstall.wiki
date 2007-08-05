@@ -5,9 +5,9 @@ These efforts are:
 == MinGW port ==
 As it stands right now MinGW port is already very usable (even gitk works) but some functionality is still missing
 
-[http://repo.or.cz/w/git/mingw.git MinGW-based recompilation] (http://repo.or.cz/w/git/mingw.git) <<BR>>
-Packaged version (using NSIS) is available at http://lilypond.org/git/binaries/mingw/, make sure you install [http://www.mingw.org/msys.shtml MSys] first.<<BR>>
-If you want to fix bugs/contribute [http://code.google.com/p/msysgit/ install Git Development Environment for Windows]
+<b>Source code:</b> [http://repo.or.cz/w/git/mingw.git MinGW-based recompilation] (http://repo.or.cz/w/git/mingw.git) <<BR>>
+<b>Installer:</b> Packaged version (using NSIS) is available at http://lilypond.org/git/binaries/mingw/, make sure you install [http://www.mingw.org/msys.shtml MSys] first.<<BR>>
+<b>For Developers:</b> If you want to make changes/contribute [http://code.google.com/p/msysgit/ install Git Development Environment for Windows]
 
 == Others ==
 * EclipseIDE-based GIT client, based on a pure Java implmentation of GIT's internals.
