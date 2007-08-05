@@ -34,7 +34,7 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 ** http://home.gna.org/colorscheme/devel.shtml (development web page)
 ** http://download.gna.org/colorscheme/agave.git (repository)
 * [http://www.banu.com/ Banu] (free software projects such as Gum)
-** https://projects.banu.com/ (repository, gitweb)
+** https://git.banu.com/ (repository, gitweb)
 * barvinok (A library for counting integer points in polytopes)
 ** http://freshmeat.net/projects/barvinok/
 ** http://www.liacs.nl/~sverdool/barvinok.git (repository)
