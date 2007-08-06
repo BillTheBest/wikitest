@@ -94,6 +94,10 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 ** http://dev.laptop.org/browser (gitweb)
 * Openbox (A standards compliant light-weight extensible window manager)
 ** http://icculus.org/openbox
+* palava (a java-php-bridge)
+** http://palava.cosmocode.de/
+** http://palava.cosmocode.de/view/gitweb.cgi?p=palava;a=summary (gitweb)
+** http://git.palava.cosmocode.de/ (repository)
 * paraslash (network audio streaming tools)
 ** http://www.paraslash.org/ (description)
 ** http://www.paraslash.org/cgi-bin/gitweb.cgi?p=.git;a=shortlog (gitweb)
