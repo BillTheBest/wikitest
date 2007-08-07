@@ -153,7 +153,7 @@ stg push -n <n>
 
 You can either adapt [http://bent.latency.net/git2rss git2rss] tool by Bennett Todd to your needs (which is mentioned on [[Self:InterfacesFrontendsAndTools#git2rss|Interfaces Frontends And Tools]] page), or use <i>gitweb</i> to do that, running it as a script. Assuming that <code><nowiki>gitweb.cgi</nowiki></code> is setup correctly, you can use:
 <pre><nowiki>env REQUEST_METHOD=GET QUERY_STRING='p=git/git.git;a=rss' \
-./gitweb.cgi | (read; read; cat)</nowiki></pre>
+./gitweb.cgi | tail -n +2</nowiki></pre>
 where of course instead of <code><nowiki>git/git.git</nowiki></code> you put project (git repository) you are interested in.
 
 <<Anchor(SSH-tunnel)>>
