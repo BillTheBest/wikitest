@@ -67,6 +67,9 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 ** http://elinks.cz/ (description)
 ** http://elinks.cz/elinks.git (repository, Cogito managed)
 ** http://pasky.or.cz/gitweb.cgi?p=elinks.git;a=summary (gitweb)
+* Fedora
+** http://hosted.fedoraproject.org/ (some Fedora hosted projects)
+** http://git.fedoraproject.org/ (gitweb)
 * GNU core utils
 ** http://git.sv.gnu.org/gitweb/?p=coreutils.git (gitweb)
 ** git://git.sv.gnu.org/coreutils.git
