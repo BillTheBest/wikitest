@@ -177,7 +177,7 @@
     <b>See:</b> [http://marc.info/?l=git&m=117123822725808&w=2 darcs2git.py - convert darcs repository using gfi] at git mailing list<<BR>>
 
 === Tailor  ===
-    [http://www.darcs.net/DarcsWiki/Tailor Tailor] is an any-to-any version control system converter, with support for most free SCMs. It was written by Lele and it is implemented in Python. Note that you need [http://www.darcs.net/DarcsWiki/Tailor/[[VersionOne]] /[[VersionOne]]]. Note also that as of 2006-12-01, it only has rudimentary support for branches, and mostly supports linear histories.
+    [http://wiki.darcs.net/DarcsWiki/Tailor Tailor] is an any-to-any version control system converter, with support for most free SCMs. It was written by Lele and it is implemented in Python. Note that you need [http://wiki.darcs.net/DarcsWiki/Tailor/[[VersionOne]] [[VersionOne]]]. Note also that as of 2006-12-01, it only has rudimentary support for branches, and mostly supports linear histories.
 
 === Darcs-Git  ===
     [http://darcs.net/DarcsWiki/[[DarcsGit]] Darcs-Git] is an ongoing effort to make Darcs work with Git repositories, in particular the Linux kernel repository. It is now part Darcs-Unstable branch, available from http://abridgegame.org/repos/darcs-unstable
