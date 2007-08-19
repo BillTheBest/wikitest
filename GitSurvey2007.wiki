@@ -84,7 +84,7 @@ Note that count is not exactly number of people.
 === 55. Would commerical (paid) support from a support vendor be of interest to you/your organization? ===
 === 56. Do you read the mailing list? ===
 === 57. If yes, do you find it useful? ===
-=== 58. Do you find traffic levels on GIT mailing list OK. ==
+=== 58. Do you find traffic levels on GIT mailing list OK. ===
 === 59. Do you use the IRC channel (#git on irc.freenode.net)? ===
 === 60. If yes, do you find IRC channel useful? ===
 === 61. Did you have problems getting GIT help on mailing list or on IRC channel? What were it? What could be improved? ===
