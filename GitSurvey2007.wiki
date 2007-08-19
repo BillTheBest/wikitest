@@ -1,6 +1,6 @@
 = Git User's Survey 2007 summary =
 
-There will be summary of git surevy from<<BR>>
+There will be summary of git survey from<<BR>>
   http://www.survey.net.nz/survey.php?94e135ff41e871a1ea5bcda3ee1856d9
 
 Note that count is not exactly number of people. 
