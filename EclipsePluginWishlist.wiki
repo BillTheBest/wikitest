@@ -2,6 +2,10 @@
 
 Now that we have some basic features in the Eclipse plugin, we need to focus on making it usable by average users doing daily tasks.
 
+== Graphical file info ==
+
+Other SCM providers show icons to indicate the status of a file. Like a White star on black ground for a changed file, a blue questionmark on white ground for an new (unadded) file, etc. This is the most helpfull feature that other SCM have and this plugin lacks
+
 == Commit ==
 
 Commit all (or selected) files to current branch.
