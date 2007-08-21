@@ -48,6 +48,7 @@ Miscelaneous git-related links, not including [http://git.or.cz/ Git homepage], 
 * [http://kerneltrap.org KernelTrap] (post 1.0 release):
   *[http://kerneltrap.org/node/11753 Debugging With "git bisect"]
   *[http://kerneltrap.org/node/13996 Historical Kernel Tree with Git]
+  *[http://kerneltrap.org/node/14205 Graphical Git Statistics]
 
 == Magazines ==
 * [http://www.pcworld.idg.com.au PC World]
