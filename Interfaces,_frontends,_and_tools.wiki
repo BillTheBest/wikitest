@@ -97,9 +97,7 @@
 
 <<Anchor(gitstat)>>
 === gitstat ===
-    <b>gitstat</b> ([http://sourceforge.net/projects/gitstat SourceForge project]) is a GPL'd, web-based git statistics/monitoring system.  It retrieves a specified git tree, analyzes changesets, and shows graphical information like the number of changesets per day, the number of people who submitted changesets for a specific version (tag) etc.  Users may subscribe to gitstat so that they automatically receive an email notification if any change is applied to a specified directory.
-
-   <i>See also:</i> [http://permalink.gmane.org/gmane.comp.version-control.git/56161 gitstat 0.1: kernel development statistics / monitoring system] announcement on git mailing list.
+    <b>gitstat</b> ([http://sourceforge.net/projects/gitstat SourceForge project]) is a GPL'd, web-based git statistics/monitoring system.  It retrieves a specified git tree, analyzes changesets, and shows graphical information like the number of changesets per day, the number of people who submitted changesets for a specific version (tag) etc.  Users may subscribe to gitstat so that they automatically receive an email notification if any change is applied to a specified directory.  See also [http://permalink.gmane.org/gmane.comp.version-control.git/56161 gitstat 0.1: kernel development statistics / monitoring system] announcement on git mailing list.
 
     You are welcome to try gitstat at http://tree.celinuxforum.org/gitstat
 
