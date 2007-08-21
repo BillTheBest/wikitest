@@ -95,6 +95,14 @@
 === gittracker  ===
     [http://www.tglx.de/cgi-bin/gittracker/about git tracker] by Thomas Gleixner is a GPL licenced project to track the history of Git repositories.
 
+<<Anchor(gitstat)>>
+=== gitstat ===
+    <b>gitstat</b> ([http://sourceforge.net/projects/gitstat SourceForge project]) is a GPL'd, web-based git statistics/monitoring system.  It retrieves a specified git tree, analyzes changesets, and shows graphical information like the number of changesets per day, the number of people who submitted changesets for a specific version (tag) etc.  Users may subscribe to gitstat so that they automatically receive an email notification if any change is applied to a specified directory.
+
+   <i>See also:</i> [http://permalink.gmane.org/gmane.comp.version-control.git/56161 gitstat 0.1: kernel development statistics / monitoring system] announcement on git mailing list.
+
+    You are welcome to try gitstat at http://tree.celinuxforum.org/gitstat
+
 === git-browser  ===
    [http://straytree.com/ git-browser] by Arteem Khodush is an experimental gitk-like web interface. It visualizes commit history graph and shows commit diffs. User interface is done in JavaScript, and is rather heavy on the <i>client</i> side.  [http://straytree.com/git-browser/by-commit.html?r=git view online] [http://straytree.com/git-browser.tar.bz2 download] [http://repo.or.cz/gitweb.cgi/git-browser.git gitweb mirror].
 
