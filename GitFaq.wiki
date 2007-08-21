@@ -22,7 +22,7 @@ Alternatively, in Linus' own words as the inventor of git: "git" can mean anythi
 == What's the difference between fetch and pull? ==
 The short definition is:
 
-<b>Fetch</b>: Download (new) objects and a head from another repository.<<BR>> <b>Pull</b>: Fetch (as defined above), and then merge what was downloaded with the current development.
+<b>Fetch</b>: Download  (new) objects and a head from another repository.<<BR>> <b>Pull</b>: Fetch (as defined above), and then merge what was downloaded with the current development.
 
 * See the [http://www.kernel.org/pub/software/scm/git/docs/git-fetch.html git-fetch(1)] and [http://www.kernel.org/pub/software/scm/git/docs/git-pull.html git-pull(1)] man pages or the tutorials for more details.
 
@@ -179,8 +179,11 @@ No. Keyword expansion causes all sorts of strange problems and aren't really use
 Yes. Not just "keyword expansion" and/or "CRLF conversion", the current version of git allows you to specify filters to munge contents immediately before checking things in. See [http://www.kernel.org/pub/software/scm/git/docs/gitattributes.html gitattributes(5)] man pages for details.
 
 <<Anchor(git-encoding)>>
-== Does git convert encodings of file names and committer names etc? ==
-No, not today, not ever. A git repository can store a flag to register the encoding supposedly used for comments (including author names). File names are considered byte sequences and are not converted to and from different encodings. File content is not converted and never will, but if you are inclined to shoot yourself in the foot, you could use the filtering mechanism, described above.
+== Does git convert encodings of file names ==
+No. Filenames are treated as a byte sequences today.
+
+== Does git convert encodings of comments and committer names or file content ==
+A git repository can store a flag to register the encoding supposedly used for comments (including author names). File content is not converted unless you are inclined to shoot yourself in the foot and use the filtering mechanism, described above.
 
 <<Anchor(git-content-limitations)>>
 == Does git track all file data and metadata? ==
