@@ -508,7 +508,7 @@ Yes, there is a number of importers, including one in contrib/ directory of Git 
 [[Anchor(import-others)]]
 
 == Can I import from other SCMs? ==
-Maybe, check if Tailor ([http://www.darcs.net/DarcsWiki/Tailor homepage]) can do it. Take a look at [[InterfacesFrontendsAndTools#rcs-interaction:[[InterfacesFrontendsAndTools]]]] page ("Interaction with other Revision Control Systems" section)
+Maybe, check if Tailor ([http://wiki.darcs.net/DarcsWiki/Tailor homepage]) can do it. Take a look at [[InterfacesFrontendsAndTools#rcs-interaction:[[InterfacesFrontendsAndTools]]]] page ("Interaction with other Revision Control Systems" section)
 
 ----
 = References =
