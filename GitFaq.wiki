@@ -168,11 +168,11 @@ other.
 
 <<Anchor(git-crlf)>>
 == Does git convert between CRLF and LF for different platforms? ==
-Support for this exists in Git versions after 1.5 or later.
+Support for this exists in Git versions 1.5 or later.
 
 <<Anchor(git-keywords)>>
 == Does git have keyword expansion? ==
-No. Keyword expansion causes all sorts of strange problems and aren't really useful anyway, especially within the context of an SCM. Outside of git you may perform keyword expansion using a script. The Linux kernel export script does this to set the EXTRA_VERSION variable in the Makefile.
+No. Keyword expansion causes all sorts of strange problems and isn't really useful anyway, especially within the context of an SCM. Outside of git you may perform keyword expansion using a script. The Linux kernel export script does this to set the EXTRA_VERSION variable in the Makefile.
 
 <<Anchor(git-filter)>>
 == Does git allow arbitrary conversion of contents? ==
