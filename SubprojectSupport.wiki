@@ -20,7 +20,7 @@ Obviously, centralized version control isn't going to handle these at all, becau
 
 Users in this case want to fetch all of the reachable files, since they are integral to the superproject, and may want to fetch all of the subproject history, since the subprojects are generally relatively small.
 
-=== Weakly dependant portions of a large project ===
+=== Weakly dependent portions of a large project ===
 
 Large projects like KDE or GNOME are often segmented into different modules which share some higher-level structure. Users want to be able to check out some of the modules without checking out all of them. It is often the case that the top level contains some general infrastructure (such as the build system) that any checkout would need.
 
@@ -32,7 +32,7 @@ Users in this case want to fetch and check out the superproject, and some submod
 
 Some projects (often embedded Linux distributions, but also many *BSDs) consist of a superproject that contains every piece of software in the distribution as a component. This has obvious scalability concerns, since the total reachable content in such a project could be hundreds of times bigger than the largest normal project, since it could include thousands of projects of various sizes.
 
-This case is also not handled by traditional version control, since all of the subprojects are treated by almost all of their developers as completely independant projects. Version control is used to track distribution URLs of the original sources and local patch sets.
+This case is also not handled by traditional version control, since all of the subprojects are treated by almost all of their developers as completely independent projects. Version control is used to track distribution URLs of the original sources and local patch sets.
 
 Some users in such projects will be doing development of the subprojects, but in the context of the superproject (e.g., people making distro-specific kernel patches). Others will be working at the superproject level, deciding which subprojects to update, and to what versions (without necessarily making any changes to those versions).
 
