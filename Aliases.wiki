@@ -31,6 +31,16 @@ If you want to be able to say <i>git lc</i> to list all new commits after you fe
 [alias]
         lc = log ORIG_HEAD.. --stat --no-merges
 </nowiki></pre>
+
+== Have git log display dates in your local timezone ==
+If you want <i>git log</i> to display dates in your local timezone, add
+this alias:
+
+<pre><nowiki>
+[alias]
+        log = log --date=local
+</nowiki></pre>
+
 = Advanced =
 Since version 1.5.0, Git supports aliases executing non-git commands, by prefixing the value with "!":
 
