@@ -121,6 +121,9 @@
 
     A page has been started to follow development: [[EclipsePlugin]].
 
+=== PIDA ===
+    [http://pida.co.uk/ PIDA] Integrated development environment supporting GIT, Subversion, Darcs, Mercurial, Monotone, Bazaar-NG (<i>bzr</i>). It allows embedding Vim or emacs. <i>(Python, GTK)</i>
+
 <<Anchor(merge)>>
 == Merge tools ==
 
