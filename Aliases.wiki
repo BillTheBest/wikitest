@@ -32,9 +32,8 @@ If you want to be able to say <i>git lc</i> to list all new commits after you fe
         lc = log ORIG_HEAD.. --stat --no-merges
 </nowiki></pre>
 
-== Display dates in your local timezone ==
-If you want a log to display dates in your local timezone, add
-this alias:
+== Shortcut for displaying dates in your local timezone ==
+Here's how to create an alias <i>git llog</i> that will behave just like <i>git log</i>, but will display dates in your local timezone.
 
 <pre><nowiki>
 [alias]
