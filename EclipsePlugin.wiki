@@ -15,7 +15,8 @@ Some ways to keep informed about Egit development.
 * Quick diff
 * Branch and StGGIT patch decoration
 * File Status decoration (aggregate status decoration at folder and project level)
-* Commit changes in index
+* Commit, including amending commits
+* Graphical history visualization with filtering on selected resources
 = FAQ =
 * How do you tie the plugin to a project or create a project by cloning a repository?
 == Documentation ==
