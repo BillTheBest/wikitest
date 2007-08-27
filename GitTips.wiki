@@ -83,6 +83,47 @@ if you want to compare current repository with (in this example) cogito reposito
 <pre><nowiki>GIT_ALTERNATE_OBJECT_DIRECTORIES=../cogito/.git/objects git-diff-tree $(GIT_DIR=../cogito/.git git rev-parse --verify HEAD) HEAD
 </nowiki></pre>
 
+<<Anchor(opendocument)>>
+== How to use git to track [[OpenDocument]] ([[OpenOffice]], Koffice) files? ==
+
+To view plaintext diff of [[OpenDocument]] files in Git, you can use the GIT_EXTERNAL_DIFF environment variable. First, install :
+
+* [http://stosberg.net/odt2txt/ odt2txt]: A simple (and stupid) converter from [[OpenDocument]] to plain text
+* [http://www-verimag.imag.fr/~moy/opendocument/git-oodiff git-oodiff]: Wrapper script for odt2txt and diff.
+
+You can now, for example, do
+<pre><nowiki>
+$ GIT_EXTERNAL_DIFF=git-oodiff git diff   
+git-oodiff presentation-expl.odp presentation-expl.odp
+--- a/presentation-expl.odp
++++ b/presentation-expl.odp
+@@ -3,7 +3,7 @@
+ 
+   First item
+ 
+-  First version of second item
++  Second version of second item
+ 
+   Last item
+ 
+</nowiki></pre>
+Now, let's automate this a bit more. Add this to your [http://www-verimag.imag.fr/~moy/opendocument/git-oodiff ~/.gitconfig] (or .git/config):
+<pre><nowiki>
+[diff "oodiff"]
+        command=git-oodiff
+</nowiki></pre>
+This defines a "oodiff" diff driver, that you can now use in [http://www.kernel.org/pub/software/scm/git/docs/gitattributes.html .gitattributes]
+(at the root of your working tree, or in $GIT_DIR/info/attributes)
+<pre><nowiki>
+*.odp  diff=oodiff
+*.odt  diff=oodiff
+*.ods  diff=oodiff
+</nowiki></pre>
+
+Now, git will use this oodiff driver for any file whose name ends with .odp, .odt, or .ods.
+
+(this is also documented [http://www-verimag.imag.fr/~moy/opendocument/ here]).
+
 <<Anchor(git rm .)>>
 == How to remove all files which are missing from working directory? ==
 <pre><nowiki>git ls-files -z --deleted | git update-index -z --remove --stdin
