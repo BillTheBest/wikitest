@@ -39,7 +39,7 @@ Note that count is not exactly number of people.
       1;Switzerland 
       1;UAE 
       5;United Kingdom 
-     34;United States 
+     35;United States 
       1;Vietnam 
 </nowiki></pre>
 == 2. What is your preferred non-programming language? ==
@@ -50,7 +50,7 @@ Note that count is not exactly number of people.
       2;Czech 
       5;Danish 
       4;Dutch 
-     70;English 
+     71;English 
       1;Estonian 
       4;Finnish 
       5;French 
@@ -73,7 +73,7 @@ Note that count is not exactly number of people.
       1; I wrote it
       5; KernelTrap 
       2; linuxppc-embedded 
-     73; LKML 
+     74; LKML 
      11; LWN 
       1; Monotone 
       6; Other 
@@ -89,7 +89,7 @@ Note that count is not exactly number of people.
   6 ; Very easy 
   21 ; Easy 
   64 ; Reasonably 
-  22 ; Hard 
+  23 ; Hard 
   3 ; Very hard 
 </nowiki></pre>
 
@@ -99,7 +99,7 @@ Note that count is not exactly number of people.
       5; GIT code 
       8; Cogito 
       5; Carl Worth, Keith Packard, Pasky, Jeff Garzik
-     37; documentation (including online tutorials..)
+     38; documentation (including online tutorials..)
       4; Everyday GIT 
       7; examples 
       4; experience 
@@ -124,7 +124,7 @@ Note: "poor documetation" is not mentioned here. Please grep -i "doc" for it.
 
 <pre><nowiki>#!CSV
      Count;Summary;Detail
-     28;too many commands;The "too many commands" usually because mixing of porcelain commands and low-level commands. Also there are complaints about too many command options, some doesn't have enough documentation such as git-diff-*
+     29;too many commands;The "too many commands" usually because mixing of porcelain commands and low-level commands. Also there are complaints about too many command options, some doesn't have enough documentation such as git-diff-*
      19;index;there is a suggestion to refer it as "cache" for easier understanding. Another mentioned about the index manipulation after a "git reset --soft".
       8;merge; and merge conflict, why merge fails
       7;distributed nature;
@@ -189,7 +189,7 @@ In summary, there are 18 started using GIT from the beginning. 47 others started
       2;elinks conversion
       1;git-pasky-0.3
      17;From the beginning
-      1;Cogito annoucement
+      2;Cogito annoucement
       1;xcb conversion 200602
       1;Xorg conversion
 </nowiki></pre>
@@ -199,13 +199,13 @@ In summary, there are 18 started using GIT from the beginning. 47 others started
    Count;Purpose
    14;Work
    50;Unpaid projects
-   52;Both
+   53;Both
 </nowiki></pre>
 
 == 9. How do you obtain GIT ==
 <pre><nowiki>#!CSV
    Count; Method
-   32;Source tarball
+   33;Source tarball
    31;Binary package
    53;Pull from main repository
 </nowiki></pre>
@@ -220,7 +220,7 @@ Some hardwares I'm not sure, so left them as is. If you know them, please edit t
       1;Apple iBook
       1;Apple PowerBook G4 1.5GHz Quantex Laptop P3 400MHz
       1;arm
-    100;ia32
+    101;ia32
       3;ia64
       1;IBM ThinkPad laptop, 64 MB
       1;mac ibook g4
@@ -262,7 +262,7 @@ Count;OS
       1; Mac OS X 10.4
       2; Mac OS X 10.4
       1; Mac OS X 10.4.6
-      1; Mac OS X 10.4.7
+      2; Mac OS X 10.4.7
       1; NetBSD 3.0
       2; Solaris
       1; Solaris 10
@@ -276,7 +276,7 @@ Count;Distro
      15; Linux
       4; Linux 2.4
      17; Linux 2.6
-      2; Linux Arch
+      3; Linux Arch
       4; Linux Debian
      12; Linux Debian Etch
       4; Linux Debian Sarge
@@ -329,7 +329,7 @@ Count;Distro
       9;5
       1;6
       2;7
-      7;10
+      8;10
       1;12
       2;15
       3;20
@@ -356,16 +356,16 @@ TODO
 == 15. Which porcelains do you use? ==
 <pre><nowiki>#!CSV
 Count;Porcelain
-     21;cogito (maybe plus git-format-patch, gitk, tig, qgit)
-     61;git
-      4;gitk or gitweb
+     22;cogito (maybe plus git-format-patch, gitk, tig, qgit)
+     62;git
+      5;gitk or gitweb
       2;pg
       5;qgit
-     10;stgit
+     11;stgit
 </nowiki></pre>
 
 == 16. Is the git.git repository including codes produced by you? ==
-72 say no. 34 say yes.
+73 say no. 34 say yes.
 
 == 17. What you think of GIT? Overall, how happy are you with GIT? ==
 (There're lots of reasons behind these numbers. Need an analysis)
@@ -373,7 +373,7 @@ Count;Porcelain
 <pre><nowiki>#!CSV
 Count;Answer
 1;Unhappy (maybe more because I might have classified some into "Not so happy" instead of this category)
-18;Not so happy
+19;Not so happy
 53;Happy
 41;Very happy
  1;Completely ecstatic
@@ -386,7 +386,7 @@ Count;Answer
 Count;Answer
 8;Worse
 20;Equal (or uncomparable)
-79;Better
+80;Better
 </nowiki></pre>
 
 == 19. What do you like about using GIT? ==
@@ -402,7 +402,7 @@ Count;Answer;Note
       1; color; git diff --color
       3; community;
      11; design;
-     29; distributed;
+     30; distributed;
       1; dump transport; can work with http only
       4; easy to use;
       3; everything;
@@ -447,7 +447,7 @@ There are various ideas in the answers. Documentation related answers account th
 
 <pre><nowiki>#!CSV
 Count;Answer class;Note
-     43;documentation; See below
+     44;documentation; See below
      13;UI; See below
      10;shallow/lazy/partial cloning;
       9;win32 native binaries;
@@ -576,7 +576,7 @@ Those "See Q20" answers were removed.
 <pre><nowiki>#!CSV
 Count;Answer;Note
 29;Don't use it;
-57;No, it's not useful;Some answers were just "no" so they're probably either "no I don't use it" or "no it's not useful"
+58;No, it's not useful;Some answers were just "no" so they're probably either "no I don't use it" or "no it's not useful"
 28;Yes, it's useful;
 </nowiki></pre>
 
@@ -585,7 +585,7 @@ Count;Answer;Note
 <pre><nowiki>#!CSV
 Count;Answer
 88; Yes
-19;No
+20;No
 </nowiki></pre>
 
 == 24. What is your favourite user documentation for any software projects or products you have used? ==
@@ -595,7 +595,7 @@ Count;Answer;Note
 21;man pages;FreeBSD, glibc, rsync, Solaris. Man pages with integrated usages/examples
 12;Subversion;http://svnbook.red-bean.com/ (most mentioned). design notes in the SVN repository. TSVN manual
 3;PostgreSQL;
-3;Python;Online documentation. The book "Learning Python". The book "Dive into Python"
+4;Python;Online documentation. The book "Learning Python". The book "Dive into Python"
 3;Doxygen;
 2;Emacs;info, on paper manual, on-line tutorial
 2;FreeBSD handbook;
@@ -685,7 +685,7 @@ Others:
 
 <pre><nowiki>#!CSV
 Count;Answer
-67;Yes
+68;Yes
 45;No
 </nowiki></pre>
 
@@ -693,7 +693,7 @@ Count;Answer
 
 <pre><nowiki>#!CSV
 Count;Answer
-     49;Yes
+     50;Yes
      19;No
 </nowiki></pre>
 
@@ -702,7 +702,7 @@ Count;Answer
 <pre><nowiki>#!CSV
 Count;Answer
     67;Yes
-    49;No
+    50;No
 </nowiki></pre>
 
 == 29. If yes, do you find it useful, and traffic levels OK? ==
@@ -718,7 +718,7 @@ Count;Answer
 
 <pre><nowiki>#!CSV
 Count;Answer
-   22;Yes
+   23;Yes
    93;No
 </nowiki></pre>
 
