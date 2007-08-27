@@ -1,6 +1,6 @@
 = Git Survey summary =
 (I'm going to summarize git survey incrementally here)
-Note that count is not exactly number of people. 
+Note that count is not exactly number of people.
 
 <b>Table of contents:</b>
 
@@ -10,112 +10,112 @@ Note that count is not exactly number of people.
 <pre><nowiki>#!CSV
       Count;Country
       3;Australia
-      2;Austria 
-      1;Belarus 
-      2;Brazil 
-      1;British Isles 
-      3;Canada 
-      1;Chile 
-      2;China 
-      2;Czech Republic 
-      4;Denmark 
-      2;England 
+      2;Austria
+      1;Belarus
+      2;Brazil
+      1;British Isles
+      3;Canada
+      1;Chile
+      2;China
+      2;Czech Republic
+      4;Denmark
+      2;England
       1;Estonia
-      1;Europe 
-      5;Finland 
-      6;France 
-     14;Germany 
-      1;Indian 
-      3;Italy 
+      1;Europe
+      5;Finland
+      6;France
+     14;Germany
+      1;Indian
+      3;Italy
       1;Lithuania
-      3;Netherlands 
-      1;Norway 
-      1;Philippines 
-      3;Poland 
-      2;Russia 
-      1;South Africa 
-      2;Spain 
-      6;Sweden 
-      1;Switzerland 
-      1;UAE 
-      5;United Kingdom 
-     35;United States 
-      1;Vietnam 
+      3;Netherlands
+      1;Norway
+      1;Philippines
+      3;Poland
+      2;Russia
+      1;South Africa
+      2;Spain
+      6;Sweden
+      1;Switzerland
+      1;UAE
+      5;United Kingdom
+     35;United States
+      1;Vietnam
 </nowiki></pre>
 == 2. What is your preferred non-programming language? ==
 <pre><nowiki>#!CSV
       Count;Language
-      1;Belarusian 
-      1;Chinese 
-      2;Czech 
-      5;Danish 
-      4;Dutch 
-     71;English 
-      1;Estonian 
-      4;Finnish 
-      5;French 
-     12;German 
-      3;Italian 
-      1;Japanese 
-      3;Polish 
-      4;Russian 
-      4;Spanish 
-      5;Swedish 
-      1;Vietnamese 
+      1;Belarusian
+      1;Chinese
+      2;Czech
+      5;Danish
+      4;Dutch
+     71;English
+      1;Estonian
+      4;Finnish
+      5;French
+     12;German
+      3;Italian
+      1;Japanese
+      3;Polish
+      4;Russian
+      4;Spanish
+      5;Swedish
+      1;Vietnamese
 </nowiki></pre>
 
 == 3. How did you hear about GIT? ==
 <pre><nowiki>#!CSV
       Count;Answer
-      4; Friends 
-      1; GCC 
+      4; Friends
+      1; GCC
       5; Either Carl Worth, Keith Packard, David Greaves, Pasky, Jonas
       1; I wrote it
-      5; KernelTrap 
-      2; linuxppc-embedded 
-     74; LKML 
-     11; LWN 
-      1; Monotone 
-      6; Other 
-      5; Slashdot 
-      1; The Register 
-      2; U-Boot 
-      3; Xorg 
+      5; KernelTrap
+      2; linuxppc-embedded
+     74; LKML
+     11; LWN
+      1; Monotone
+      6; Other
+      5; Slashdot
+      1; The Register
+      2; U-Boot
+      3; Xorg
 </nowiki></pre>
 
 == 4. Did you find GIT easy to learn? ==
 <pre><nowiki>#!CSV
   Count;Answer
-  6 ; Very easy 
-  21 ; Easy 
-  64 ; Reasonably 
-  23 ; Hard 
-  3 ; Very hard 
+  6 ; Very easy
+  21 ; Easy
+  64 ; Reasonably
+  23 ; Hard
+  3 ; Very hard
 </nowiki></pre>
 
 == 5. What helped you most in learning to use it? ==
 <pre><nowiki>#!CSV
       Count;Answer
-      5; GIT code 
-      8; Cogito 
-      5; Carl Worth, Keith Packard, Pasky, Jeff Garzik
      38; documentation (including online tutorials..)
-      4; Everyday GIT 
-      7; examples 
-      4; experience 
-      3; friends 
-      3; #git 
-      1; gitk 
+     27; man pages
+     17; mailing list (both git and lkml)
+      11; practice
+      8; Cogito
+      7; examples
       5; google
-     27; man pages 
-     17; mailing list (both git and lkml) 
-      1; Ottawa (OLS) tutorials 
-      11; practice 
-      1; time 
-      2; Git wiki 
-      1; Wine wiki 
-      1; Writing pg, a StGit-like patch stack frontend to GIT. 
-      1; Writing StGIT 
+      5; GIT code
+      5; Carl Worth, Keith Packard, Pasky, Jeff Garzik
+      4; experience
+      4; Everyday GIT
+      3; #git
+      3; friends
+      2; Git wiki
+      1; Writing StGIT
+      1; Writing pg, a StGit-like patch stack frontend to GIT.
+      1; Wine wiki
+      1; time
+      1; Ottawa (OLS) tutorials
+      1; gitk
 </nowiki></pre>
 
 == 6. What did you find hardest? ==
@@ -146,7 +146,7 @@ Note: "poor documetation" is not mentioned here. Please grep -i "doc" for it.
       1;;GIT repository via a strict firewall
       1;;Working out which commands operated on the working tree, which on the index, and which on commits (e.g. git diff).
       1;;Understand the check-in and check-out stuff.
-      1;;Understanding where the patch repositories are located, and how to determine patch order. 
+      1;;Understanding where the patch repositories are located, and how to determine patch order.
       1;;The fact git will let you destroy your work trivially, the poor design of the merge system.
       1;;Still not confidant in doing anything other than cloning
       1;;how to reorder fixes and cherrypick fixes from my other temporary git trees
@@ -215,27 +215,25 @@ Some hardwares I'm not sure, so left them as is. If you know them, please edit t
 
 <pre><nowiki>#!CSV
       Count;Architecture
-      1;alpha
-     15;amd64
-      1;Apple iBook
-      1;Apple PowerBook G4 1.5GHz Quantex Laptop P3 400MHz
-      1;arm
     101;ia32
-      3;ia64
-      1;IBM ThinkPad laptop, 64 MB
-      1;mac ibook g4
-      1;parisc
-      1;PC Laptop IBM T30
+     39;amd64 / x86-64
      12;ppc
-      2;ppc64
-      1;power3
-      1;power4
-      1;SGI Onyx 2
       6;sparc
       3;sparc64
+      3;ia64
+      2;ppc64
       1;x64_32
-      1;x64_64
-     23;x86_64
+      1;SGI Onyx 2
+      1;power4
+      1;power3
+      1;PC Laptop IBM T30
+      1;parisc
+      1;mac ibook g4
+      1;IBM ThinkPad laptop, 64 MB
+      1;arm
+      1;Apple PowerBook G4 1.5GHz Quantex Laptop P3 400MHz
+      1;Apple iBook
+      1;alpha
 </nowiki></pre>
 
 == 11. What OS (please include the version) do you use GIT on? ==
@@ -356,12 +354,12 @@ TODO
 == 15. Which porcelains do you use? ==
 <pre><nowiki>#!CSV
 Count;Porcelain
-     22;cogito (maybe plus git-format-patch, gitk, tig, qgit)
      62;git
+     22;cogito (maybe plus git-format-patch, gitk, tig, qgit)
+     11;stgit
+      5;qgit
       5;gitk or gitweb
       2;pg
-      5;qgit
-     11;stgit
 </nowiki></pre>
 
 == 16. Is the git.git repository including codes produced by you? ==
@@ -726,7 +724,7 @@ Count;Answer
 
 * Simplify and reorganize all the output from the command so that they are consistent and easy to read (read fetch, merge,...).
 * Some info command that shows you information about a branch, a commit, a remote,... For a commit more or less what currently shows gitk (the Follows, Branches,...) For a branch what is the relation to other branches (which fast-forward the other,...) and where it pull from.
-* Fix the handling of the remote files, if a branch does not fast-forward mark it so (the maintainer of the repo should mark it so, not the one cloning). Remove branches that disapears upstream... 5-Options to show other type of diffstat (as the program diffstat provides). 
+* Fix the handling of the remote files, if a branch does not fast-forward mark it so (the maintainer of the repo should mark it so, not the one cloning). Remove branches that disapears upstream... 5-Options to show other type of diffstat (as the program diffstat provides).
 * Be able to ask the relation of two commits (e.g. git name-rev --reference sha1 sha2)
 * git show-branch --origin, to show the normal output with the current branch and the one that get pulled.
 * Be able to say something like "git-rev-parse --refs refs/heads/*"
@@ -755,7 +753,7 @@ Count;Answer
 * Topics not covered by this survey: workflows used. tools used (rebase, bisect, rerere,...). modularity of project. "GUI" used. How you use GIT doesn't take for account tracking private files (neither project nor work).
 * "What is your workflow?" would be a good question to find out how people use GIT and the Porcelains.
 * Years of experience with programming, and/or SCMs. Use cases other than programming projects.
-* You may want to ask if somebody asked me for help with git or expressed any opinion about it. You may want to ask how stable and reliable git has been for me. 
+* You may want to ask if somebody asked me for help with git or expressed any opinion about it. You may want to ask how stable and reliable git has been for me.
 ----
 [[CategoryGitHomepage]]
 
