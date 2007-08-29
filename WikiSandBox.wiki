@@ -18,6 +18,10 @@ Please feel free to experiment here, after the four dashes below... and please d
 hmm... how would one go about creating a user account?  the [[UserPreferences]] page
 behind the login link seems to be b0rken.
 
+[[GitSurvey]], [[Git]] - wikipedia-like syntax
+<<<!-- ! TOC here -->(2)>> - macro
+[[GitSurvey|surve]] - wikipedia-like pipe link
+
 == Formatting ==
 
 <i>italic</i> <b>bold</b> <code><nowiki>typewriter</nowiki></code> 
