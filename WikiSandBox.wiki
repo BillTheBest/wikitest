@@ -11,72 +11,85 @@
 Please feel free to experiment here, after the four dashes below... and please do <b>NOT</b> create new pages without any meaningful content just to try it out!
 
 <b>Tip:</b> Shift-click "[[HelpOnEditing]]" to open a second window with the help pages.
-
 ----
 
 == Test Section ==
-hmm... how would one go about creating a user account?  the [[UserPreferences]] page behind the login link seems to be b0rken.
 
-[[GitSurvey]], [[Git]] - wikipedia-like syntax <!-- ! TOC here --> - macro [[GitSurvey:surve]] - wikipedia-like pipe link
+hmm... how would one go about creating a user account?  the [[UserPreferences]] page
+behind the login link seems to be b0rken.
+
+[[GitSurvey]], [[Git]] - wikipedia-like syntax
+<<<!-- ! TOC here -->(2)>> - macro
+[[GitSurvey|surve]] - wikipedia-like pipe link
 
 == Formatting ==
-<i>italic</i> <b>bold</b> <code><nowiki>typewriter</nowiki></code>
 
-<code><nowiki>backtick typewriter</nowiki></code> (configurable)
+<i>italic</i> <b>bold</b> <code><nowiki>typewriter</nowiki></code> 
 
-<span style="font-size: larger">bigger </span> <span style="font-size: smaller">smaller </span>
+`backtick typewriter` (configurable)
+
+<span style="font-size: larger"> bigger </span> <span style="font-size: smaller"> smaller </span>
 
 <pre><nowiki>
 preformatted some more
 and some more lines too
+
 </nowiki></pre>
-<pre><nowiki>
-#!python
+
+<pre><nowiki>#!python
 def syntax(highlight):
     print "on"
     return None
 </nowiki></pre>
-<pre><nowiki>
-#!java
+
+<pre><nowiki>#!java
   public void main(String[] args]){
      System.out.println("Hello world!");
-  }
+  } 
+
 </nowiki></pre>
+
 == Linking ==
+
 [[a|b]]
 
-[[Tilly dally:tilly dally]]
+[[tilly dally]]
 
-[[Git:the best thing]]
+[[git|the best thing]]
 
-[[HelpOnEditing]]
+[[HelpOnEditing]] 
 
-<b>Inter<code><nowiki></nowiki></code>Wiki</b> links:
-
+<b>InterWiki</b> links:
 * <code><nowiki>[[MoinMoin]]:[[InterWiki]]</nowiki></code> -> [[MoinMoin]]:[[InterWiki]]
 * <code><nowiki>[[MoinMoin:[[InterWiki]]|[[InterWiki]]] on [[MoinMoin]]]</nowiki></code> -> [[MoinMoin:[[InterWiki]]|[[InterWiki]]] on [[MoinMoin]]]
+
 http://moinmoin.wikiwikiweb.de/ [http://www.python.org/ Python]
 
 someone@the.inter.net
 
-[[PythonFaq]]:[[RecentChanges]] = [[PythonFaq:[[RecentChanges]]|wiki:[[PythonFaq]]]:[[RecentChanges]]] with <code><nowiki>.htp</nowiki></code> extension.
+wiki:[[PythonFaq]]:[[RecentChanges]] = [[PythonFaq:[[RecentChanges]]|wiki:[[PythonFaq]]]:[[RecentChanges]]] with `.htp` extension.
 
 === Image Link ===
 http://c2.com/sig/wiki.gif
 
 == Smileys ==
+
 /!\ Alert
 
 == Lists ==
+
 === Bullet ===
 * first
 *# nested and numbered
 *# numbered lists are renumbered
 * second
-* third blockquote
-** deeper
+* third
+ blockquote
+   deeper
+
 === Glossary ===
 ; Term : Definition
+
 === Drawing ===
 drawing:mytest
 
@@ -84,9 +97,10 @@ drawing:mytest
 == Heading 2 ==
 === Heading 3 ===
 ==== Heading 4 ====
+
 = IRC Log test =
-<pre><nowiki>
-#!irc
+
+<pre><nowiki>#!irc
 (23:18) <     jroes> ah
 (23:19) <     jroes> hm, i like the way {{{ works, but i was hoping the lines would wrap
 (23:21) -!- gpciceri [~gpciceri@host181-130.pool8248.interbusiness.it] has quit [Read error: 110 (Connection timed out)]
