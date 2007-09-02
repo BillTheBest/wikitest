@@ -77,7 +77,6 @@ You are now ready to use GIT. Check that your path includes ~/bin and you are of
 * Defragment often (filesystems fragmentation)
 * See related discussion thread: [http://thread.gmane.org/gmane.comp.version-control.git/53680 Windows support].
 
-  (given the above list of "extra notes", how can anyone in his sane mind claim that <i>"GIT is <b>fully-functional</b> on Windows within a Cygwin environment"</i>?!? the way things are at the moment, <i>visual sourcesafe</i> would be more functional, more reliable and work faster than git on cygwin!)
 ----
 [[CategoryGitDocumentation]]
 
