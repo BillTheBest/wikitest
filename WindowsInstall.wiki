@@ -6,7 +6,7 @@ These efforts are:
 As it stands right now MinGW port is already very usable (even gitk works) but some functionality is still missing
 
 <b>Source code:</b> [http://repo.or.cz/w/git/mingw.git MinGW-based recompilation] (http://repo.or.cz/w/git/mingw.git) <<BR>>
-<b>Installer:</b> Packaged version (using NSIS) is available at http://lilypond.org/git/binaries/mingw/, make sure you install [http://www.mingw.org/msys.shtml MSys] first.<<BR>>
+<b>Installer:</b> Packaged version will be available at [http://code.google.com/p/msysgit/downloads/list msysGit's download page].  Watch out for "[[WinGit]]".<<BR>>
 <b>For Developers:</b> If you want to make changes/contribute [http://code.google.com/p/msysgit/ install Git Development Environment for Windows]<<BR>>
 <b>Report Issues:</b> send email to [http://groups.google.com/group/msysgit MSysGit Discussions Group] or [http://code.google.com/p/msysgit/issues/list report it here]
 
