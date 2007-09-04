@@ -19,12 +19,11 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * Nico Schottelius (Linux|Unix) projects
 ** http://linux.schottelius.org/ (homepage)
 ** http://linux.schottelius.org/cgi-bin/gitweb.cgi (gitweb)
-* OpenFabrics Alliance (InfiniBand & other RDMA Network Fabric) drivers
+* Open<code><nowiki></nowiki></code>Fabrics Alliance (Infini<code><nowiki></nowiki></code>Band & other RDMA Network Fabric) drivers
 ** http://www.openfabrics.org/ (homepage)
 ** http://www.openfabrics.org/git/ (gitweb)
 * Many other Linux related projects...
 ** http://git.kernel.org/ (gitweb)
-
 == Non-kernel projects that use Git for their source code management. ==
 * adesklets (interactive Imlib2 console for the X11, for writing desklets)
 ** http://adesklets.sourceforge.net/ (home page)
@@ -88,6 +87,10 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 ** http://linux.yyz.us/projects.html (home page)
 * KDbg (KDE frontend to GDB)
 ** http://www.kdbg.org/
+* luaevent (Lua interface into libevent)
+** http://luaforge.net/projects/luaevent/ (project page)
+** http://repo.or.cz/w/luaevent.git (repo-page)
+** git://repo.or.cz/luaevent.git (repository)
 * netconf
 ** http://netconf.alioth.debian.org
 ** http://git.debian.org/?p=netconf/netconf/master.git;a=summary (gitweb)
@@ -126,7 +129,7 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 ** http://www.denx.de/en/Documents/[[GitDocs]] (git documentation)
 ** http://www.denx.de/cgi-bin/gitweb.cgi?p=u-boot.git;a=summary (gitweb)
 * Various projects hosted at fd.o:
-** http://www.freedesktop.org/wiki/Infrastructure/git (description)<<BR>> http://www.freedesktop.org/wiki/Infrastructure/git/UIFlaws (git UI wishlist)<<BR>> http://gitweb.freedesktop.org/ (repository, gitweb)
+** http://www.freedesktop.org/wiki/Infrastructure/git (description)[[BR]] http://www.freedesktop.org/wiki/Infrastructure/git/UIFlaws (git UI wishlist)[[BR]] http://gitweb.freedesktop.org/ (repository, gitweb)
 ** X.Org
 *** http://xorg.freedesktop.org/wiki/Development/git (description)
 * Cairo (2D graphics library with support for multiple output devices)
