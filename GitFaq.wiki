@@ -184,6 +184,17 @@ Now if the version you switched to has an earlier (different) version of <code><
 
 * See [http://marc.theaimsgroup.com/?l=git&m=114917892328066 Linus Torvalds] answer or [http://marc.theaimsgroup.com/?l=git&m=114917892613019 Sean Estabrooks] answer at [[GitCommunity:git mailing list]].
 * If you are using cygwin or OSX, you might have be having issues with case sensitivity. See [http://marc.info/?l=git&w=2&r=1&s=xt_CONNMARK.h&q=b some discussion here].
+[[Anchor(git-push non-bare)]]
+
+== Why won't I see changes in the remote repo after "git push" ==
+The <code><nowiki>push</nowiki></code> operation is always about propagating the repository history and updating the refs, and never touches working tree files.  Especially, if you push to update the branch that is checked out in a remote repository, you will not see the files in the work tree updated.
+
+This is a conscious design decision.  The remote repository's work tree may have local changes, and there is no way for you, who is pushing into the remote repository, to resolve conflicts between the changes you are pushing and the work tree has.
+
+A quick rule of thumb is to <i>never</i> push into a repository that has a work tree attached to it, until you know what you are doing.
+
+See also the entry (How would I use "git push" to sync out of a firewalled host?) in this FAQ for proper way to work with push with a repository with a work tree. 
+
 [[Anchor(git-push after-rebase)]]
 
 == Why won't "git push" work after I rebased a branch? ==
