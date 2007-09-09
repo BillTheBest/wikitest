@@ -333,7 +333,12 @@ You can put shell-style globs (e.g. <code><nowiki>*.o</nowiki></code>) in either
 [[Anchor(saving-draft)]]
 
 == How do I save some local modifications? ==
+
 Sometimes it is necessary to have some local modifications in the tree in order to test it and work with it.
+
+With recent version of git, you can use [http://www.kernel.org/pub/software/scm/git/docs/git-stash.html "git stash"] to save temporary modifications and come back to a "clean" tree, and then "git stash apply" to re-apply it.
+
+Alternatively:
 
 One can use temporary branch, to merge later
 
@@ -351,7 +356,6 @@ $ git reset --hard
 </nowiki></pre>
 (<b>warning:</b> <code><nowiki>git reset --hard</nowiki></code> removes changes to the working tree!)
 
-* You can also search git mailing list archives (links at [[GitCommunity]]) for <code><nowiki>git-undo/git-redo</nowiki></code> or <code><nowiki>stash/unstash</nowiki></code>.
 [[Anchor(merge-by-hand)]]
 
 == How to manually resolve conflicts when Git failed to detect rename? ==
