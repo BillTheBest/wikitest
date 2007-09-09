@@ -168,7 +168,7 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 ** [http://wiki.debian.org/AliothGit [[AliothGit]]] page on [http://wiki.debian.org/ Debian Wiki]
 ** http://git.debian.org/
 * Savannah git hosting
-** http://git.sv.gnu.org/gitweb/
+** http://git.sv.gnu.org/gitweb/ [http://savannah.gnu.org/maintenance/UsingGit Document]
 * Linux related projects
 ** http://www.kernel.org/git
 * Freedesktop (X Window System desktops) projects
