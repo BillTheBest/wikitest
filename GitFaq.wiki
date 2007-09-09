@@ -1,12 +1,11 @@
-<<<!-- ! TOC here -->(2)>>
+<!-- ! TOC here -->
 
 ----
- <b>See also:</b>
-
+* <b>See also:</b>
 * [[TipsAndTricks]] page
 = General Questions =
+[[Anchor(git-name)]]
 
-<<Anchor(git-name)>>
 == Why the 'git' name? ==
 Quoting Linus: "I'm an egotistical ***, and I name all my projects after myself. First 'Linux', now 'git'".
 
@@ -18,23 +17,25 @@ Alternatively, in Linus' own words as the inventor of git: "git" can mean anythi
 * Stupid. Contemptible and despicable. Simple. Take your pick from the dictionary of slang.
 * "Global information tracker": you're in a good mood, and it actually works for you. Angels sing, and a light suddenly fills the room.
 * "Goddamn idiotic truckload of sh*t": when it breaks
+[[Anchor(fetch-vs-pull)]]
 
-<<Anchor(fetch-vs-pull)>>
 == What's the difference between fetch and pull? ==
 The short definition is:
 
-<b>Fetch</b>: Download  (new) objects and a head from another repository.<br> <b>Pull</b>: Fetch (as defined above), and then merge what was downloaded with the current development.
+<b>Fetch</b>: Download  (new) objects and a head from another repository.
+
+<b>Pull</b>: Fetch (as defined above), and then merge what was downloaded with the current development.
 
 * See the [http://www.kernel.org/pub/software/scm/git/docs/git-fetch.html git-fetch(1)] and [http://www.kernel.org/pub/software/scm/git/docs/git-pull.html git-pull(1)] man pages or the tutorials for more details.
+[[Anchor(public-repo)]]
 
-<<Anchor(public-repo)>>
 == What can I use to set up a public repository? ==
 A SSH server, an HTTP server, or the git-daemon. Local networks can also use network filesystems, like NFS or SMBFS/CIFS (the Windows networks).
 
 * See the [http://www.kernel.org/pub/software/scm/git/docs/tutorial.html Git tutorial] for more details.
 * A how-to-publish document was started [http://wiki.u32.net/index.php?title=Git/publishing here], describing http and gitweb.
+[[Anchor(empty-dirs)]]
 
-<<Anchor(empty-dirs)>>
 == Can I add empty directories? ==
 No, git only cares about <i>files</i>, or rather git tracks content and empty directories have no content.
 
@@ -44,7 +45,8 @@ Though you can say "<code><nowiki>git add <dir></nowiki></code>" and it will add
 
 If you really need a directory to exist in checkouts, you should create a file in it. .gitignore works well for this purpose; you can leave it empty, or fill in the names of files you expect to show up in the directory.
 
-<<Anchor(rename-tracking)>>
+[[Anchor(rename-tracking)]]
+
 == Why does git not track renames? ==
 [[Git]] has to interoperate with a lot of different workflows, for example some changes can come from patches, where rename information may not be available. Relying on explicit rename tracking makes it impossible to merge two trees that have done exactly the same thing, except one did it as a patch (create/delete) and one did it using some other heuristic.
 
@@ -55,8 +57,8 @@ However, this does not mean that Git has no support for renames. The diff machin
 As a very special case, the current <code><nowiki>'git log'</nowiki></code> has <code><nowiki>'---follow'</nowiki></code> option that allows you to follow renames when given a single path. This will hopefully appear in git 1.5.3.
 
 * [http://permalink.gmane.org/gmane.comp.version-control.git/217 Mail] by Linus on this topic.
+[[Anchor(no-per-file-history)]]
 
-<<Anchor(no-per-file-history)>>
 == Why is "git log <filename>" slow? ==
 The answer to the question why <code><nowiki>git log <filename></nowiki></code> takes so long to find small number of commits which changed given file lies in the fact that Git looks at <b>all</b> the commits to find that.
 
@@ -79,14 +81,12 @@ Note that <code><nowiki>git log <file1> <file2></nowiki></code> (or <code><nowik
 To speed up "git log" give it range of interesting revisions; you can also try <code><nowiki>--remove-empty</nowiki></code> option (with some caveats).
 
 * [http://permalink.gmane.org/gmane.comp.version-control.git/39358 Re: how to speed up "git log"?] by Linus Torvalds on Git mailing list.
-
 == Why is it wrong to export the environment variable CDPATH? ==
 The CDPATH variable is purely for interactive consumption.  A lot of scripts break if a simple "cd" suddenly outputs a text that was directed at <b>you</b>, the user, and not meant for processing by the script.  Setting, but not exporting, CDPATH will still work as expected, but unbreak many scripts, including the make procedure of Git.  Having said that, we tried hard to avoid to unset CDPATH everywhere in the Git scripts, and in the Makefiles, but it is well possible that we missed out some places.
 
 In contrast, if you just remove the "export" from your .bashrc, you are guaranteed to never get bitten by that breakage again!
 
 * [http://article.gmane.org/gmane.comp.version-control.git/13736/match=cdpath Re: make install bug?]
-
 == How come gitweb suddenly disappeared from the project list at kernel.org/git? ==
 Because it got merged into git. See [http://kernel.org/git/?p=git/git.git;a=commit;h=0a8f4f0020cb35095005852c0797f0b90e9ebb74 the relevant commit].
 
@@ -193,7 +193,7 @@ This is a conscious design decision.  The remote repository's work tree may have
 
 A quick rule of thumb is to <i>never</i> push into a repository that has a work tree attached to it, until you know what you are doing.
 
-See also the entry (How would I use "git push" to sync out of a firewalled host?) in this FAQ for proper way to work with push with a repository with a work tree. 
+See also the entry (How would I use "git push" to sync out of a firewalled host?) in this FAQ for proper way to work with push with a repository with a work tree.
 
 [[Anchor(git-push after-rebase)]]
 
@@ -333,7 +333,6 @@ You can put shell-style globs (e.g. <code><nowiki>*.o</nowiki></code>) in either
 [[Anchor(saving-draft)]]
 
 == How do I save some local modifications? ==
-
 Sometimes it is necessary to put some local changes appart, and come back to it later (typically, when one hits an easily fixable bug in the middle of a non-trivial work, and want to fix the bug before anything else).
 
 With recent version of git, you can use [http://www.kernel.org/pub/software/scm/git/docs/git-stash.html "git stash"] to save temporary modifications and come back to a "clean" tree, and then "git stash apply" to re-apply it.
@@ -537,6 +536,6 @@ Maybe, check if Tailor ([http://wiki.darcs.net/DarcsWiki/Tailor homepage]) can d
 * [[GitCommunity]], mainly Git mailing list.
 * [[WikiPedia:Git_(software)|Git (software)]] article at Wikipedia.
 ----
- [[CategoryGlossary]]
+* [[CategoryGlossary]]
 
 __NOTOC__
