@@ -10,13 +10,13 @@ Some ways to keep informed about Egit development.
 * [http://www.spearce.org/projects/scm/egit.git Repository]
 * [http://repo.or.cz/w/egit.git gitweb] (clone)
 = Features =
-* Resource history view
 * Compare revisions
 * Quick diff
-* Branch and StGGIT patch decoration
+* Branch and StGIT patch decoration
 * File Status decoration (aggregate status decoration at folder and project level)
 * Commit, including amending commits
 * Graphical history visualization with filtering on selected resources
+* Checkout and reset
 = FAQ =
 * How do you tie the plugin to a project or create a project by cloning a repository?
 == Documentation ==
