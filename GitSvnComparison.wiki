@@ -97,7 +97,7 @@ Subversion has some notable features that Git currently doesn't have or will nev
 
 Currently Subversion has a wider range of user interface tools than Git.  For example there are SVN plugins available for most popular IDEs.  There is a Windows Explorer shell extension.  There are a number of native Windows and Mac OS X GUI tools available in ready-to-install packages.
 
-Git's primary user interface is through the command line.  However [http://digilander.libero.it/mcostalba/ qgit] is making great strides towards providing a graphical interface.  Unfortunately there are not ready-to-install packages available for all common operating systems.
+Git's primary user interface is through the command line. There are two graphical interfaces: git-gui (distributed with Git) and [http://digilander.libero.it/mcostalba/ qgit], which is making great strides towards providing another feature-complete graphical interface. Also gitk, the graphical history browser, can be more than just a fancy log reader. git-gui and gitk usually work out-of-box for common operating systems, and qgit is being ported to Qt4, which improves its portability.
 
 == Single Repository ==
 
