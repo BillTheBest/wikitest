@@ -173,33 +173,6 @@ $ git branch
   master
 </nowiki></pre>
 
-By the way, it's not safe to run "git submodule update" if you've made
-changes within a submodule. They will be silently overwritten:
-
-<pre><nowiki>
-$ cat a.txt
-module a
-
-$ echo line added from private2 >> a.txt
-$ git commit -a -m "line added inside private2"
-
-$ cd ..
-$ git submodule update
-Submodule path 'a': checked out 'd266b9873ad50488163457f025db7cdd9683d88b'
-$ cd a
-$ cat a.txt
-module a
-</nowiki></pre>
-
-The changes are still visible in the submodule's reflog:
-
-<pre><nowiki>
-$ git log -g --pretty=oneline
-d266b9873ad50488163457f025db7cdd9683d88b HEAD@{0}: checkout: moving to d266b9873ad50488163457f025db7cdd9683d88b
-4389b0d8e22e616c88a99ebd072cfebba40797ef HEAD@{1}: commit: line added inside private2
-d266b9873ad50488163457f025db7cdd9683d88b HEAD@{2}: checkout: moving to d266b9873ad50488163457f025db7cdd9683d88b
-</nowiki></pre>
-
 If you want to make a change within a submodule, you should first check
 out a branch, make your changes, publish the change within the submodule,
 and then update the superproject to reference the new commit:
@@ -239,6 +212,8 @@ module a
 adding a line again
 </nowiki></pre>
 
+== Gotchas ==
+
 Always publish the submodule change before publishing the change to the
 superproject that references it. If you forget to publish the submodule
 change, others won't be able to clone the repository:
@@ -257,6 +232,33 @@ $ git submodule update
 error: pathspec '261dfac35cb99d380eb966e102c1197139f7fa24' did not match any file(s) known to git.
 Did you forget to 'git add'?
 Unable to checkout '261dfac35cb99d380eb966e102c1197139f7fa24' in submodule path 'a'
+</nowiki></pre>
+
+It's not safe to run "git submodule update" if you've made
+changes within a submodule. They will be silently overwritten:
+
+<pre><nowiki>
+$ cat a.txt
+module a
+
+$ echo line added from private2 >> a.txt
+$ git commit -a -m "line added inside private2"
+
+$ cd ..
+$ git submodule update
+Submodule path 'a': checked out 'd266b9873ad50488163457f025db7cdd9683d88b'
+$ cd a
+$ cat a.txt
+module a
+</nowiki></pre>
+
+The changes are still visible in the submodule's reflog:
+
+<pre><nowiki>
+$ git log -g --pretty=oneline
+d266b9873ad50488163457f025db7cdd9683d88b HEAD@{0}: checkout: moving to d266b9873ad50488163457f025db7cdd9683d88b
+4389b0d8e22e616c88a99ebd072cfebba40797ef HEAD@{1}: commit: line added inside private2
+d266b9873ad50488163457f025db7cdd9683d88b HEAD@{2}: checkout: moving to d266b9873ad50488163457f025db7cdd9683d88b
 </nowiki></pre>
 
 __NOTOC__
