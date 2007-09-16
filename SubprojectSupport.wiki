@@ -11,7 +11,7 @@ http://marc.theaimsgroup.com/?l=git&m=115196739921363&w=2
 == Status ==
 (as of Sep 2, 2007)
 
-"[http://www.kernel.org/pub/software/scm/git/docs/git-submodule.html git submodule]" support added in 1.5.3
+"[http://www.kernel.org/pub/software/scm/git/docs/git-submodule.html git submodule]" support added in 1.5.3 (see also [[GitSubmoduleTutorial]])
 
 (as of Mai 3, 2007)
 
