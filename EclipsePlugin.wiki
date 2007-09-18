@@ -18,7 +18,11 @@ Some ways to keep informed about Egit development.
 * Graphical history visualization with filtering on selected resources
 * Checkout and reset
 = FAQ =
-* How do you tie the plugin to a project or create a project by cloning a repository?
+* Q: How do you tie the plugin to a project or create a project by cloning a repository?
+   A: Use Git (THE Git) to create or clone your repo. Select the project in the navigator
+      and go to the context menu's Team item and below it you will find "Share Project".
+      Select it and the rest is easy.
+
 == Documentation ==
 === What doc. for starting help? ===
 * [http://www.eclipse.org/eclipse/platform-team/ Eclipse platform team]
