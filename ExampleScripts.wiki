@@ -197,6 +197,36 @@ while (<FH>) {
 close FH;
 
 </nowiki></pre>
+
+== Output a commit graph with [[GraphViz]]' "dot" tool ==
+
+The [[GraphViz]] suite contains programs to render graphs nicely.  Since the revision graph is a <i>DAG</i> (directed acyclic graph), you might want to look at the revision graph in this manner.
+
+Call this script with rev-list parameters to get input for "dot".
+
+<pre><nowiki>
+#!/bin/sh
+
+set -e
+
+echo "digraph lattice {"
+
+shape="shape=Mrecord, style=filled,"
+git rev-list --pretty=format:"%H %h|%an:%s" "$@" |
+        sed "s/[\"\{\}]/\\\1/g" |
+        sed -n "s/^\([0-9a-f]\{40\}\) \(.*\)$/n\1 [$shape label=\"{\2}\"]/p"
+
+git rev-list --parents "$@" |
+        while read commit parents
+        do
+                for p in $parents
+                do
+                        echo "n$commit -> n$p"
+                done
+        done
+
+echo "}"
+</nowiki></pre>
 ----
 [[CategoryGitDocumentation]]
 
