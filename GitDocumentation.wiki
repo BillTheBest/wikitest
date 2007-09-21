@@ -20,7 +20,6 @@ give you an introduction to the basic workflows.
 
 * CVS users may also want to read [http://www.kernel.org/pub/software/scm/git/docs/cvs-migration.html git for CVS users].
 * Computer scientists might want to read [http://eagain.net/articles/git-for-computer-scientists/ Git for Computer Scientists].
-* [http://students.ceid.upatras.gr/~sxanth/ungit.html Complete Introduction to git] attempts to explain the git system to people who have no, or minimal experience on SCMs and version control tools.
 
 == Other relevant tutorials ==
 
