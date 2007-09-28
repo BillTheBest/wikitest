@@ -26,6 +26,7 @@ Miscelaneous git-related links, not including [http://git.or.cz/ Git homepage], 
 * [http://nico.schotteli.us/papers/linux/git-firmen/ German documentation for git, cogito, gitweb] by Nico Schottelius.
 * [http://wiki.u32.net/index.php?title=Git Git] — some notes taken while was learning git by Subversion user, [http://wiki.u32.net/index.php?title=Git/publishing Git/publishing] describes how to publish your archive via http and how to setup gitweb. On [http://wiki.u32.net wiki.u32.net] (MediaWiki powered wiki).
 * [http://ktown.kde.org/~zrusin/git/ Git cheat sheet] prepared by Zack Rusin
+* [http://students.ceid.upatras.gr/~sxanth/ungit.html Complete Introduction to git] (aka "Getting into SCM with git") attempts to explain the git system to people who have no, or minimal experience on SCMs and version control tools.
 
 = Articles about Git =
 
