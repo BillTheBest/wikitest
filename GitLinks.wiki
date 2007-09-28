@@ -70,9 +70,9 @@ Miscelaneous git-related links, not including [http://git.or.cz/ Git homepage], 
 
 == Seminars and presentations ==
 * [http://members.cox.net/junkio/200606-tut.pdf Junio C Hamano "Introduction to git"] (PDF) - slides for OSDL Japan Linux Symposium.
-* [http://members.cox.net/junkio/200607-ols.pdf Junio C Hamano "git – a stupid content tracker"] (PDF) - slides from Ottava Linux Symposium OLS2006, with full transcripts.
-* [http://pasky.or.cz/ols-cogito/ols-cogito.pdf Petr Baudis "Using Cogito and Git"] (PDF) - slides from Ottava Linux Symposium OLS2006. Also in [http://pasky.or.cz/ols-cogito/ols-cogito.odp ODP] format.
-* [http://www.jdl.com/OLS/Git_Tutorial.pdf Jon Loeliger "Git Tutorial Tour"] (PDF) - slides from Ottava Linux Symposium OLS2006.
+* [http://members.cox.net/junkio/200607-ols.pdf Junio C Hamano "git – a stupid content tracker"] (PDF) - slides from Ottawa Linux Symposium OLS2006, with full transcripts.
+* [http://pasky.or.cz/ols-cogito/ols-cogito.pdf Petr Baudis "Using Cogito and Git"] (PDF) - slides from Ottawa Linux Symposium OLS2006. Also in [http://pasky.or.cz/ols-cogito/ols-cogito.odp ODP] format.
+* [http://www.jdl.com/OLS/Git_Tutorial.pdf Jon Loeliger "Git Tutorial Tour"] (PDF) - slides from Ottawa Linux Symposium OLS2006.
 * [http://h4x0r5.com/~ryan/presentations/git-why.pdf Ryan Anderson "Why a distributed SCM?"] (PDF) - slides from Ubucon
 * [http://h4x0r5.com/~ryan/presentations/git-tutorial.pdf Ryan Anderson "Git - The Distributed SCM"] (PDF) - slides from Penguicon
 * [http://www.ourmedia.org/node/276036 Randal L. Schwartz - "Introduction to Git"] (PDF) - slides from Dec 2006 presentation at [http://www.pdxlinux.org/ Portland Oregon Linux Users Group Advanced Topics meeting].
