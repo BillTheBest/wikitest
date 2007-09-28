@@ -33,10 +33,12 @@ If you _need_ to know which commit gave what file its current form, this script 
 <pre><nowiki>
 #!/usr/bin/perl
 
-%attributions = ();
-@files = ();
+use strict;
 
-open IN, "git ls-tree -r HEAD |";
+my %attributions = ();
+my @files = ();
+
+open IN, "git ls-tree -r HEAD |" or die;
 while (<IN>) {
 	if (/^\S+\s+blob \S+\s+(\S+)$/) {
 		$files[$#files + 1] = $1;
@@ -45,9 +47,9 @@ while (<IN>) {
 }
 close IN;
 
-$remaining = $#files + 1;
+my $remaining = $#files + 1;
 
-open IN, "git log -r --root --raw --no-abbrev --pretty=format:%h~%an~%ad~ |";
+open IN, "git log -r --root --raw --no-abbrev --pretty=format:%h~%an~%ad~ |" or die;
 while (<IN>) {
 	if (/^([^:~]+)~(.*)~([^~]+)~$/) {
 		($commit, $author, $date) = ($1, $2, $3);
@@ -63,7 +65,7 @@ while (<IN>) {
 }
 close IN;
 
-foreach $f (@files) {
+for $f (@files) {
 	print "$f	$attributions{$f}\n";
 }
 </nowiki></pre>
@@ -83,9 +85,11 @@ There are two functions to get the line counts, `count_lines_in_message` and `co
 <pre><nowiki>
 #!/usr/bin/perl
 
+use strict;
+
 sub count_lines_in_message ($) {
         my $sha1 = $_[0];
-        open COMMIT, "git cat-file -p $sha1 |";
+        open COMMIT, "git cat-file -p $sha1 |" or die;
         my $header = 1;
         my $count = 0;
         while (<COMMIT>) {
@@ -101,7 +105,7 @@ sub count_lines_in_message ($) {
 
 sub count_changed_lines ($) {
         my $sha1 = $_[0];
-        open DIFF, "git diff $sha1^..$sha1 |";
+        open DIFF, "git diff $sha1^..$sha1 |" or die;
         $count = 0;
         while (<DIFF>) {
                 if (/^[\+\-]/ && !/^(\+\+\+|---)/) {
@@ -112,14 +116,14 @@ sub count_changed_lines ($) {
         return $count;
 }
 
-@commits = ();
+my @commits = ();
 
-open IN, "git rev-list --no-merges next |";
+open IN, "git rev-list --no-merges next |" or die;
 while (<IN>) {
         if (/^([0-9a-f]{40})/) {
-                $commit = $1;
-                $count_message = count_lines_in_message($commit);
-                $count_diff = count_changed_lines($commit);
+                my $commit = $1;
+                my $count_message = count_lines_in_message($commit);
+                my $count_diff = count_changed_lines($commit);
                 if ($count_diff == 0) {
                         $ratio = 1e9;
                 } else {
