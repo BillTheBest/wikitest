@@ -30,6 +30,9 @@ The basic concept of these scripts was to parse the options with `git-rev-parse`
 
 If you _need_ to know which commit gave what file its current form, this script will help you:
 
+(someone edited these examples with the comment "Yikes. At least use strict and check if open() failed in perl scripts...". Please revisit add the error check to close, i.e close or die, as close is the place to check for errors from pipes). open(),
+isn't likely to err out. I won't do it as I don't have time to test).
+
 <pre><nowiki>
 #!/usr/bin/perl
 
