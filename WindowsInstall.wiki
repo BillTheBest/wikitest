@@ -42,6 +42,7 @@ Otherwise, to be able to build git directly from source, you will need to instal
 * util-linux: just to have getopt (required by xmlto)
 * asciidoc to build documents (http://www.methods.co.nz/asciidoc/INSTALL.html)
 * python to build documents
+* subversion-perl (if you want to use git-svn)
 With these packages installed download the git source package from the git homepage and then unpack it with:
 
 <pre><nowiki>
