@@ -132,6 +132,9 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 ** http://u-boot.sourceforge.net/ (index page)
 ** http://www.denx.de/en/Documents/[[GitDocs]] (git documentation)
 ** http://www.denx.de/cgi-bin/gitweb.cgi?p=u-boot.git;a=summary (gitweb)
+* Rubinius (alternative Ruby implementation)
+** http://rubini.us/pages/using-git (git documentation)
+** http://git.rubini.us/ (gitweb)
 * Various projects hosted at fd.o:
 ** http://www.freedesktop.org/wiki/Infrastructure/git (description)[[BR]] http://www.freedesktop.org/wiki/Infrastructure/git/UIFlaws (git UI wishlist)[[BR]] http://gitweb.freedesktop.org/ (repository, gitweb)
 ** X.Org
