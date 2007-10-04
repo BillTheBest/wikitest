@@ -5,6 +5,8 @@ There will be summary of git survey from<<BR>>
 
 Note that count is not exactly number of people. 
 
+You can get raw data till 28.09.2007 here: [http://git.or.cz/gitwiki/GitSurvey2007?action=[[AttachFile]]&do=get&target=surveydata.csv surveydata.csv]
+
 <b>Table of contents:</b>
 ----
 <<<!-- ! TOC here -->(3)>>
