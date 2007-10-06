@@ -57,6 +57,4 @@ Git stores each revision of a file as a unique blob object. The relationships be
 ----
 [[CategoryGitHomepage]] ([http://git.or.cz/#about About])
 
-[of History]
-
 __NOTOC__
