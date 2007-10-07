@@ -159,6 +159,7 @@ export GIT_DIFF_PAGER="colordiff | less -RS"</nowiki></pre>
 * libgit-thin by Luiz Fernando N. Capitulino and Shawn O. Pearce is an ongoing effort to develop a library for git, which started as a [http://code.google.com/p/google-summer-of-code-2007-git/ Google Summer of Code 2007 project]. Read [http://article.gmane.org/gmane.comp.version-control.git/53433 this announcement] for more details. It also comes with Python bindings called [[PyGit]], wich demonstrate the current capabilities. The git repository of this project can be found under [http://repo.or.cz/w/git/libgit-gsoc.git].
 = See also =
 * [[InterfacesFrontendsAndToolsWishlist]]
+* [[Plumbings]]
 * [http://git.or.cz/#tools Git - Related Tools] (at Git homepage)
 ----
 * [[CategoryTools]] [[CategoryGitHomepage]] ([http://git.or.cz/#tools Related Tools])
