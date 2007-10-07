@@ -37,7 +37,7 @@ A SSH server, an HTTP server, or the git-daemon. Local networks can also use net
 <<Anchor(empty-dirs)>>
 
 == Can I add empty directories? ==
-No, git only cares about <i>files</i>, or rather git tracks content and empty directories have no content.
+Currently the design of the git index (staging area) only permits <i>files</i> to be listed, and nobody competent enough to make the change to allow empty directories has cared enough about this situation to remedy it.
 
 Directories are added automatically when adding files inside them. That is, directories never have to be added to the repository, and are not tracked on their own.
 
