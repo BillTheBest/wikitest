@@ -1,7 +1,7 @@
 Git's application to Google's Summer of Code 2007.
 
 The application questions can be found on
-[http://code.google.com/support/bin/answer.py?answer=60303&topic=10727 code.google.com].
+[http://code.google.com/support/bin/answer.py?answer=60303&amp;topic=10727 code.google.com].
 
 Shawn Pearce has volunteered to submit the application and serve
 as our group's primary contact.
@@ -125,5 +125,7 @@ GSoC will be a good introduction to Git (both the technology and the community) 
 The interaction between community members has always been very friendly, and new people are have always been warmly welcomed; especially those with interesting new ideas and viewpoints.  Jovial working friendships have been easily formed between the community members, and students will most certainly also be warmly welcomed into that environment.
 
 Hacking on Git is an excellent way to hone one's development skills, as the community is filled with a wide range of very experienced programmers who are ready and willing to help a contributor improve the quality of their work.  We hope that students will realize this unique opportunity during GSoC and continue staying active within the community even after GSoC '07 completes.
+
+[Chinese Weekly]
 
 __NOTOC__
