@@ -32,6 +32,7 @@ The other information sources are the [http://git.or.cz/ Git Homepage] (the webm
 * See the [[GitLinks]] for further reading.
 * Read [[Git]] and [[Cogito]] pages.
 * Read [[WikiPedia:Git_(software)|Git (software)]] article at [http://en.wikipedia.org Wikipedia].
+* [[BlogPosts]] related to Git usage.
 == Interfaces and other Git Tools ==
 * [[InterfacesFrontendsAndTools]] lists other programs that work with [[Git]].
 * [[InterfacesFrontendsAndToolsWishlist]] list other programs that we would want to work with Git.
