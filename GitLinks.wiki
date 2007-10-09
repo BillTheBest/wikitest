@@ -4,8 +4,8 @@
 <<<!-- ! TOC here -->(2)>>
 ----
 
-Miscelaneous git-related links, not including [http://git.or.cz/ Git homepage], [[GitDocumentation]] links, 
-[[GitCommunity]] links including mailing list archives and IRC logs, and links to miscelaneus tools on the [[InterfacesFrontendsAndTools]] page.
+Miscellaneous git-related links, not including [http://git.or.cz/ Git homepage], [[GitDocumentation]] links, 
+[[GitCommunity]] links including mailing list archives and IRC logs, and links to miscellaneous tools on the [[InterfacesFrontendsAndTools]] page.
 
 = Wikipedia =
 [http://en.wikipedia.org Wikipedia] (English version)
@@ -94,7 +94,8 @@ Also see [[BlogPosts]] for a collection of blog posts on specific Git usage.
 * [http://gravityboy.livejournal.com/33022.html We've Moved!] -- Debian X packaging team  ([http://wiki.debian.org/XStrikeForce/ XSF]) switches over from Subversion to git.
 * [http://tytso.livejournal.com/29467.html Git and hg] by Ted Tso on his LiveJournal blog, describes UNIX-like mentality of Git, but also talks about it's shortcomings in documentation and ease of use.
 * [http://jaredrobinson.com/blog/?p=62 What’s happening with Version Control Systems?] from January 28, 2007 on [http://jaredrobinson.com/blog Jared’s Blog] talks about different SCM systems and gives  highly subjective comparison table for Subversion, SVK,	Git/Cogito, Mercurial, Bazaar-NG, Darcs and 	Perforce.
-* [http://blog.madduck.net/vcs/2007.07.11_publishing-git-repositories Publishing git repositories] and [http://blog.madduck.net/vcs/2007.07.11_creating-a-git-branch-without-ancestry Creating a git branch without ancestry] on [http://blog.madduck.net madduck's droppings] blog by Martin F Krafft (a bit of git beginner)
+* [http://blog.madduck.net/vcs/ Martin Krafft's blog (category vcs)] and
+   [http://madduck.net/tag/git website pages tagged git]
 * [http://www.spearce.org/category/projects/scm/ Insufficiently Random] (articles tagged <b>scm</b>), blog by Shawn O. Pearce.
 * [http://www.jukie.net/~bart/blog/tag/git Bart's Blog] (articles tagged <b>git</b>), blog by Bart Trojanowski.
 
