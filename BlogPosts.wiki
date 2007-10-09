@@ -1,0 +1,21 @@
+= Blog posts on Git (usage) =
+
+A lot of blog posts related to Git usage have been published since the project's birth. This page attempts to maintain a collection to the more useful ones:
+
+== Setup ==
+
+* [http://www.itp.tuwien.ac.at/~mattems/blog/tech git-daemon setup]
+
+== Switching to Git ==
+
+* [http://ze-dinosaur.livejournal.com/18564.html Converting branches imported by git-svn to tags]
+
+== Usage ==
+
+* [http://blog.madduck.net/vcs/2007.07.11_publishing-git-repositories Publishing Git repositories]
+
+== Advanced stuff ==
+
+* [http://blog.madduck.net/vcs/2007.07.11_creating-a-git-branch-without-ancestry Creating a branch without ancestry]
+
+__NOTOC__
