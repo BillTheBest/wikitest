@@ -1,6 +1,6 @@
 = Blog posts on Git (usage) =
 
-A lot of blog posts related to Git usage have been published since the project's birth. This page attempts to maintain a collection to the more useful ones:
+A lot of blog posts related to Git usage have been published since the project's birth. This page attempts to maintain a collection of <b>single posts</b> which solve <b>specific problems</b>. Please try to make the link description as accurate and descriptive as possible.
 
 == Setup ==
 
