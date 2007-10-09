@@ -27,6 +27,8 @@ Miscellaneous git-related links, not including [http://git.or.cz/ Git homepage],
 * [http://wiki.u32.net/index.php?title=Git Git] — some notes taken while was learning git by Subversion user, [http://wiki.u32.net/index.php?title=Git/publishing Git/publishing] describes how to publish your archive via http and how to setup gitweb. On [http://wiki.u32.net wiki.u32.net] (MediaWiki powered wiki).
 * [http://ktown.kde.org/~zrusin/git/ Git cheat sheet] prepared by Zack Rusin
 * [http://students.ceid.upatras.gr/~sxanth/ungit.html Complete Introduction to git] (aka "Getting into SCM with git") attempts to explain the git system to people who have no, or minimal experience on SCMs and version control tools.
+* [http://cworth.org/hgbook-git/ Carl Worth's effort] "translating"
+ [http://hgbook.red-bean.com/ Brian O'Sullivan's book on Mercurial] to Git
 
 = Articles about Git =
 
@@ -94,8 +96,7 @@ Also see [[BlogPosts]] for a collection of blog posts on specific Git usage.
 * [http://gravityboy.livejournal.com/33022.html We've Moved!] -- Debian X packaging team  ([http://wiki.debian.org/XStrikeForce/ XSF]) switches over from Subversion to git.
 * [http://tytso.livejournal.com/29467.html Git and hg] by Ted Tso on his LiveJournal blog, describes UNIX-like mentality of Git, but also talks about it's shortcomings in documentation and ease of use.
 * [http://jaredrobinson.com/blog/?p=62 What’s happening with Version Control Systems?] from January 28, 2007 on [http://jaredrobinson.com/blog Jared’s Blog] talks about different SCM systems and gives  highly subjective comparison table for Subversion, SVK,	Git/Cogito, Mercurial, Bazaar-NG, Darcs and 	Perforce.
-* [http://blog.madduck.net/vcs/ Martin Krafft's blog (category vcs)] and
-   [http://madduck.net/tag/git website pages tagged git]
+* [http://blog.madduck.net/vcs/ Martin "madduck" Krafft's blog (category vcs)]
 * [http://www.spearce.org/category/projects/scm/ Insufficiently Random] (articles tagged <b>scm</b>), blog by Shawn O. Pearce.
 * [http://www.jukie.net/~bart/blog/tag/git Bart's Blog] (articles tagged <b>git</b>), blog by Bart Trojanowski.
 
@@ -185,5 +186,6 @@ There is place for generic, non SCM specific, links
 * [http://gittorrent.utsl.gen.nz/ GitTorrent] idea.
 * [http://www.ext3cow.com/ Ext3cow Versioning Filesystem] is snapshot based, similarly somewhat to git, with sharing the same blocks, but without support for nonlinear history.
 * There is a whole chapter (GIT, QUILT AND BINARY SEARCHING) devoted to binary searching in [http://www.stardust.webpages.pl/files/handbook/handbook-en-0.3-rc1.pdf Linux Kernel Tester's Guide] (PDF)
+* [http://madduck.net/tag/git Pages tagged git] on Martin "madduck" Krafft's website
 
 __NOTOC__
