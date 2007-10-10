@@ -18,6 +18,7 @@ A lot of blog posts related to Git usage have been published since the project's
 == Advanced stuff ==
 
 * [http://blog.madduck.net/vcs/2007.07.11_creating-a-git-branch-without-ancestry Creating a branch without ancestry]
+* [http://blog.madduck.net/debian/2007.10.03_packaging-with-git A Git workflow for Debian package maintenance]
 ----
 [[CategoryGitDocumentation]]
 
