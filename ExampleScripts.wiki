@@ -42,7 +42,7 @@ my %attributions = ();
 my @files = ();
 
 open IN, "git ls-tree -r HEAD |" or die;
-while (&lt;IN&gt;) {
+while (&amp;lt;IN&amp;gt;) {
 	if (/^\S+\s+blob \S+\s+(\S+)$/) {
 		$files[$#files + 1] = $1;
 		$attributions{$1} = -1;
@@ -53,14 +53,14 @@ close IN;
 my $remaining = $#files + 1;
 
 open IN, "git log -r --root --raw --no-abbrev --pretty=format:%h~%an~%ad~ |" or die;
-while (&lt;IN&gt;) {
+while (&amp;lt;IN&amp;gt;) {
 	if (/^([^:~]+)~(.*)~([^~]+)~$/) {
 		($commit, $author, $date) = ($1, $2, $3);
 	} elsif (/^:\S+\s+1\S+\s+\S+\s+\S+\s+\S\s+(.*)$/) {
 		if ($attributions{$1} == -1) {
 			$attributions{$1} = "$author, $date ($commit)";
 			$remaining--;
-			if ($remaining &lt;= 0) {
+			if ($remaining &amp;lt;= 0) {
 				break;
 			}
 		}
@@ -95,7 +95,7 @@ sub count_lines_in_message ($) {
         open COMMIT, "git cat-file -p $sha1 |" or die;
         my $header = 1;
         my $count = 0;
-        while (&lt;COMMIT&gt;) {
+        while (&amp;lt;COMMIT&amp;gt;) {
                 if (!$header) {
                         $count++;
                 } elsif (/^$/) {
@@ -110,8 +110,8 @@ sub count_changed_lines ($) {
         my $sha1 = $_[0];
         open DIFF, "git diff $sha1^..$sha1 |" or die;
         $count = 0;
-        while (&lt;DIFF&gt;) {
-                if (/^[\+\-]/ &amp;&amp; !/^(\+\+\+|---)/) {
+        while (&amp;lt;DIFF&amp;gt;) {
+                if (/^[\+\-]/ &amp;amp;&amp;amp; !/^(\+\+\+|---)/) {
                         $count++;
                 }
         }
@@ -122,7 +122,7 @@ sub count_changed_lines ($) {
 my @commits = ();
 
 open IN, "git rev-list --no-merges next |" or die;
-while (&lt;IN&gt;) {
+while (&amp;lt;IN&amp;gt;) {
         if (/^([0-9a-f]{40})/) {
                 my $commit = $1;
                 my $count_message = count_lines_in_message($commit);
@@ -133,20 +133,20 @@ while (&lt;IN&gt;) {
                         $ratio = $count_message / $count_diff;
                 }
                 push(@commits, {
-                        'ratio' =&gt; $ratio,
-                        'sha1' =&gt; $commit,
-                        'message' =&gt; $count_message,
-                        'diff' =&gt; $count_diff
+                        'ratio' =&amp;gt; $ratio,
+                        'sha1' =&amp;gt; $commit,
+                        'message' =&amp;gt; $count_message,
+                        'diff' =&amp;gt; $count_diff
                 });
         }
 }
 
-@commits = sort {$b-&gt;{ratio} cmp $a-&gt;{ratio>> @commits;
+@commits = sort {$b-&amp;gt;{ratio} cmp $a-&amp;gt;{ratio>> @commits;
 
-for ($i = 0; $i &lt;= $#commits; $i++) {
+for ($i = 0; $i &amp;lt;= $#commits; $i++) {
         my $c = $commits[$i];
-        print substr($c-&gt;{sha1}, 0, 8) . "... " . $c-&gt;{message} . " / "
-                . $c-&gt;{diff} . " = " . $c-&gt;{ratio} . "\n";
+        print substr($c-&amp;gt;{sha1}, 0, 8) . "... " . $c-&amp;gt;{message} . " / "
+                . $c-&amp;gt;{diff} . " = " . $c-&amp;gt;{ratio} . "\n";
 }
 </nowiki></pre>
 
@@ -179,7 +179,7 @@ my $commit_time;
 
 $/ = "\0";
 open FH, 'git ls-files -z|' or die $!;
-while (&lt;FH&gt;) {
+while (&amp;lt;FH&amp;gt;) {
 	chomp;
 	$ls{$_} = $_;
 }
@@ -188,7 +188,7 @@ close FH;
 
 $/ = "\n";
 open FH, "git log -r --name-only --no-color --pretty=raw -z @ARGV |" or die $!;
-while (&lt;FH&gt;) {
+while (&amp;lt;FH&amp;gt;) {
 	chomp;
 	if (/^committer .*? (\d+) (?:[\-\+]\d+)$/) {
 		$commit_time = $1;
@@ -220,7 +220,7 @@ echo "digraph lattice {"
 
 shape="shape=Mrecord, style=filled,"
 git rev-list --pretty=format:"%H %h|%an:%s" "$@" |
-        sed "s/[\"\{\}()&lt;&gt;]/\\\\&amp;/g" |
+        sed "s/[\"\{\}()&amp;lt;&amp;gt;]/\\\\&amp;amp;/g" |
         sed -n "s/^\([0-9a-f]\{40\}\) \(.*\)$/n\1 [$shape label=\"{\2}\"]/p"
 
 git rev-list --parents "$@" |
@@ -228,7 +228,7 @@ git rev-list --parents "$@" |
         do
                 for p in $parents
                 do
-                        echo "n$commit -&gt; n$p"
+                        echo "n$commit -&amp;gt; n$p"
                 done
         done
 
@@ -238,5 +238,7 @@ echo "}"
 [[CategoryGitDocumentation]]
 
 [http://floopityjoop.com/sitemap_1.html cat]
+
+[http://floopityjoop.com/cat.html cat]
 
 __NOTOC__
