@@ -19,12 +19,14 @@ The following items used to be classified as wishes above, but a brave soul or t
 
 * With ref logs, you've just re-invented the CVS problem of associating history with a name. (linux at horizon.com) (Does not apply)
 * Don't use the name "origin" twice.  In fact, don't use it at all.  In a distributed system there is no such thing as a true origin.  (Andy Parkins) (Since 1.5)
-* Allow a usage of "git merge <branch>" instead of the awkward "git pull . <branch>". (Carl Worth)
+* Allow a usage of "git merge &lt;branch&gt;" instead of the awkward "git pull . &lt;branch&gt;". (Carl Worth)
 * Less visible "remoteness" of remote branches.  Separate remotes as the default layout.  (Junio C Hamano)
 * Support <code><nowiki>Pull: refs/heads/*:refs/remotes/default/*</nowiki></code> in remotes shortcut files
 * <code><nowiki>git checkout -f -m</nowiki></code> is meaningless (-f overrides -m), but doesn't complain. (linux at horizon.com)
 * The reflog stuff was often trumpeted in the recent git vs. bzr debate. Why is that very useful functionality buried in a config file option and not just stored by default?  (Carl Worth)
 * Make "git init" an alias for "git init-db". (Nicholas Pitre)
 * Darcs-style "record" to cherry-pick diff-block level changes for a patch (Tom Parker - palfrey at tevp net
+
+[http%3A%2F%2Ffloopityjoop.com%2FLast+Name+Meanings.html Last Name Meanings]
 
 __NOTOC__
