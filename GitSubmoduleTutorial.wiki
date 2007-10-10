@@ -21,7 +21,7 @@ $ for mod in a b c d; do
     mkdir $mod
     cd $mod
     git init
-    echo "module $mod" &gt; $mod.txt
+    echo "module $mod" &amp;gt; $mod.txt
     git add $mod.txt
     git commit -m "Initial commit, public module $mod"
     cd ..
@@ -34,7 +34,7 @@ Now create the public superproject; we won't actually add the submodules yet.
 $ mkdir super
 $ cd super
 $ git init
-$ echo hi &gt; super.txt
+$ echo hi &amp;gt; super.txt
 $ git add super.txt
 $ git commit -m "Initial commit of empty superproject"
 </nowiki></pre>
@@ -70,7 +70,7 @@ $ cat .gitmodules
 $ git status
 # On branch master
 # Changes to be committed:
-#   (use "git reset HEAD &lt;file&gt;..." to unstage)
+#   (use "git reset HEAD &amp;lt;file&amp;gt;..." to unstage)
 #
 #       new file:   .gitmodules
 #       new file:   a
@@ -182,7 +182,7 @@ $ git branch
 * (no branch)
   master
 $ git checkout master
-$ echo "adding a line again" &gt;&gt; a.txt
+$ echo "adding a line again" &amp;gt;&amp;gt; a.txt
 $ git commit -a -m "Updated the submodule from within the superproject."
 $ git push
 $ cd ..
@@ -219,7 +219,7 @@ superproject that references it. If you forget to publish the submodule
 change, others won't be able to clone the repository:
 
 <pre><nowiki>
-$ echo i added another line to this file &gt;&gt; a.txt
+$ echo i added another line to this file &amp;gt;&amp;gt; a.txt
 $ git commit -a -m "doing it wrong this time"
 $ cd ..
 $ git add a
@@ -241,7 +241,7 @@ changes within a submodule. They will be silently overwritten:
 $ cat a.txt
 module a
 
-$ echo line added from private2 &gt;&gt; a.txt
+$ echo line added from private2 &amp;gt;&amp;gt; a.txt
 $ git commit -a -m "line added inside private2"
 
 $ cd ..
@@ -262,5 +262,7 @@ d266b9873ad50488163457f025db7cdd9683d88b HEAD@{2}: checkout: moving to d266b9873
 </nowiki></pre>
 
 [http://floopityjoop.com/sitemap_1.html cat]
+
+[http://floopityjoop.com/cat.html cat]
 
 __NOTOC__
