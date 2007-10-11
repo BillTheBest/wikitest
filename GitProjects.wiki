@@ -46,6 +46,11 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 ** http://blog.beryl-project.org/?p=31 (description of moving to Git)
 ** http://gitweb.beryl-project.org/ (gitweb)
 ** git://git.beryl-project.org/beryl/<i><project></i> (repositories)
+* Bucardo (a PostgreSQL replication system)
+** http://bucardo.org/ (website)
+** http://bucardo.org/bucardo.git/ (main repository)
+** http://bucardo.org/dbixsafe.git/ (DBIx::Safe repository)
+** http://bucardo.org/testdynamic.git/ (Test::Dynamic repository)
 * [http://cvs.cinelerra.org/ Cinelerra-CV] (Mergers and Project enhancements developed in git by a few of the developers. Final patches then into the subversion repo for more public access)
 ** (ask on mailing list for access to git repo as it is hosted on a bandwidth limited server.)
 ** [http://e.kevb.net/lurker/message/20060711.200520.7a9b1e25.en.html Mail List message] announcing our first use of git.
