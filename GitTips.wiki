@@ -277,6 +277,8 @@ git-send-email --smtp-server /usr/local/bin/msmtp <file|directory>
 </nowiki></pre>
 
 Another option is to configure a local smtp server on your machine, using a well-known SMTP server as smarthost. Then, all applications using localhost as a mail server (e.g. /usr/bin/mail) will work.
+
+On OS X with macports, msmtp can be installed with 'sudo port install msmtp', and '/usr/share/curl/curl-ca-bundle.crt' should work for tls_trust_file. 
 ----
 [[CategoryGitDocumentation]]
 
