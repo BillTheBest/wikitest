@@ -94,7 +94,7 @@ http://lists.freedesktop.org/archives/xorg/2006-June/015946.html
 
 For each commit, git keeps track of both the committer and the author or the patch.  This is useful in cases like the one in the mail above where you commit a patch on behalf of the author who doesn't have commit access.   There are several ways to do this, but for a one-off commit the easiest is to use the --author option to git-commit:
 <pre><nowiki>
-    git commit --author "Name Surname &lt;email@address.com&gt;"
+    git commit --author "Name Surname <email@address.com>"
 </nowiki></pre>
 
 ==== Xorg: Accidental 'origin' branches ====
@@ -106,7 +106,5 @@ Public git repositories should usually not have an 'origin' branch.
 TODO: explain how this breaks things, and how to avoid it
 
 Note that newer git is better at this, at least for newly cloned repositories. See "Repository layout and objects transfer" in [http://www.kernel.org/pub/software/scm/git/docs/v1.5.0/RelNotes-1.5.0.txt].
-
-[http%3A%2F%2Ffloopityjoop.com%2FLast+Name+Meanings.html Last Name Meanings]
 
 __NOTOC__
