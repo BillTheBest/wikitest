@@ -177,4 +177,8 @@ The key things that I like about Git are:
    is about 3 GB; its about 12 GB in Subversion's fsfs format.
    In Git its around 300 MB.
 
+= Links =
+
+* http://utsl.gen.nz/talks/git-svn/intro.html
+
 __NOTOC__
