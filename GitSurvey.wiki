@@ -55,8 +55,6 @@ Note that count is not exactly number of people.
       4;Finnish
       5;French
      12;German
-
-
       3;Italian
       1;Japanese
       3;Polish
@@ -266,7 +264,6 @@ Count;OS
       1; NetBSD 3.0
       2; Solaris
       1; Solaris 10
-
       1; Solaris 9
 </nowiki></pre>
 
@@ -338,7 +335,6 @@ Count;Distro
       1;30
       1;40
       1;80
-
       2;cairo ~25
       4;Linux
       2;U-Boot
@@ -596,7 +592,6 @@ Count;Answer
 Count;Answer;Note
 21;man pages;FreeBSD, glibc, rsync, Solaris. Man pages with integrated usages/examples
 12;Subversion;http://svnbook.red-bean.com/ (most mentioned). design notes in the SVN repository. TSVN manual
-
 3;PostgreSQL;
 4;Python;Online documentation. The book "Learning Python". The book "Dive into Python"
 3;Doxygen;
@@ -759,20 +754,6 @@ Count;Answer
 * "What is your workflow?" would be a good question to find out how people use GIT and the Porcelains.
 * Years of experience with programming, and/or SCMs. Use cases other than programming projects.
 * You may want to ask if somebody asked me for help with git or expressed any opinion about it. You may want to ask how stable and reliable git has been for me.
-----
-[[CategoryGitHomepage]]
-http://www.tqnyc.org/NYC030217/index.php?page_name=forum&thread_id=119 buy tramadol
-http://technorati.com/wtf/internet-marketing/2007/10/05/buy-tramadol-1 buy tramadol
-http://www.tqnyc.org/NYC030217/index.php?page_name=forum&thread_id=121 buy cheap tramadol
-http://technorati.com/wtf/internet-marketing/2007/10/05/buy-cheap-tramadol-no-prescription-1 buy cheap tramadol
-http://www.tqnyc.org/NYC030217/index.php?page_name=forum&thread_id=122 purchase generic tramadol
-http://technorati.com/wtf/internet-marketing/2007/10/05/purchase-generic-tramadol-1 purchase generic tramadol
-http://www.tqnyc.org/NYC030217/index.php?page_name=forum&thread_id=123 viagra no prescription
-http://technorati.com/wtf/internet-marketing/2007/10/05/viagra-no-prescription-1 viagra no prescription
-http://www.tqnyc.org/NYC030217/index.php?page_name=forum&thread_id=124 buy viagra
-http://technorati.com/wtf/internet-marketing/2007/10/05/buy-viagra-1 buy viagra
-http://www.tqnyc.org/NYC030217/index.php?page_name=forum&thread_id=125 buy cheap viagra
-http://technorati.com/wtf/internet-marketing/2007/10/05/buy-cheap-viagra-1 buy cheap viagra
 ----
 [[CategoryGitHomepage]]
 
