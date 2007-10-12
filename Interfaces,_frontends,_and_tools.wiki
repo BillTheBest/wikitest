@@ -119,6 +119,8 @@
 * <i>darcs2git</i> ([http://repo.or.cz/w/darcs2git.git gitweb]) by Han-Wen Nienhuys ([http://www.xs4all.nl/~hanwen/ his homepage]) is a Darcs to Git converter utilizing <code><nowiki>git-fast-import</nowiki></code>.  It tries to map Darcs conflict resolutions onto Git branch merges.  Written in Python.[[BR]] <b>See:</b> [http://marc.info/?l=git&m=117123822725808&w=2 darcs2git.py - convert darcs repository using gfi] at git mailing list[[BR]]
 === Tailor ===
 * [http://wiki.darcs.net/DarcsWiki/Tailor Tailor] is an any-to-any version control system converter, with support for most free SCMs. It was written by Lele and it is implemented in Python. Note that you need [http://wiki.darcs.net/DarcsWiki/Tailor/[[VersionOne]] [[VersionOne]]]. Note also that as of 2006-12-01, it only has rudimentary support for branches, and mostly supports linear histories.
+=== darcs-to-git ===
+Having had problems with darcs2git and tailor, [http://www.sanityinc.com/ Steve Purcell] wrote another simple darcs import tool called darcs-to-git, which can incrementally import a single darcs source repo: [http://www.sanityinc.com/articles/converting-darcs-repositories-to-git article] / [http://git.sanityinc.com/?p=darcs-to-git.git darcs-to-git gitweb]
 === Darcs-Git ===
 * [http://darcs.net/DarcsWiki/[[DarcsGit]] Darcs-Git] is an ongoing effort to make Darcs work with Git repositories, in particular the Linux kernel repository. It is now part Darcs-Unstable branch, available from http://abridgegame.org/repos/darcs-unstable
 == Other tools ==
