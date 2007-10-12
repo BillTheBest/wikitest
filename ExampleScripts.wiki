@@ -192,7 +192,7 @@ while (<FH>) {
 	chomp;
 	if (/^committer .*? (\d+) (?:[\-\+]\d+)$/) {
 		$commit_time = $1;
-	} elsif (s/\0\0commit [a-f0-9]{40}$//) {
+	} elsif (s/\0\0commit [a-f0-9]{40}$// or s/\0$//) {
 		my @files = delete @ls{split(/\0/, $_)};
 		@files = grep { defined $_ } @files;
 		next unless @files;
