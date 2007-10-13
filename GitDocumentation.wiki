@@ -20,6 +20,8 @@ give you an introduction to the basic workflows.
 
 * CVS users may also want to read [http://www.kernel.org/pub/software/scm/git/docs/cvs-migration.html git for CVS users].
 * Computer scientists might want to read [http://eagain.net/articles/git-for-computer-scientists/ Git for Computer Scientists].
+* Carl Worth is making [http://cworth.org/hgbook-git/ an effort to translate the book]
+ _[http://hgbook.red-bean.com/ Distributed revision control with Mercurial]_ by Bryan O'Sullivan to Git.
 
 == Other relevant tutorials ==
 
