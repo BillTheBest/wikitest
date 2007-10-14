@@ -82,6 +82,4 @@ You are now ready to use GIT. Check that your path includes ~/bin and you are of
 ----
 [[CategoryGitDocumentation]]
 
-[http://floopityjoop.com/Name Analysis.html Name Analysis]
-
 __NOTOC__
