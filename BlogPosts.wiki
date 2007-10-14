@@ -10,6 +10,7 @@ A lot of blog posts related to Git usage have been published since the project's
 
 * [http://ze-dinosaur.livejournal.com/18564.html Converting branches imported by git-svn to tags]
 * [http://www.softwolves.pp.se/blog/2007-09-13 Using ParseCVS to convert a CVS repository to Git]
+* [http://blog.madduck.net/debian/2007.10.07_converting-a-package-to-git Importing SVN-maintained Debian packages into Git]
 
 == Usage ==
 
@@ -19,7 +20,6 @@ A lot of blog posts related to Git usage have been published since the project's
 
 * [http://blog.madduck.net/vcs/2007.07.11_creating-a-git-branch-without-ancestry Creating a branch without ancestry]
 * [http://blog.madduck.net/debian/2007.10.03_packaging-with-git A Git workflow for Debian package maintenance]
-* [http://blog.madduck.net/debian/2007.10.07_converting-a-package-to-git Importing SVN-maintained Debian packages into Git]
 * [http://web.glandium.org/blog/?p=146 Finding where a tarball came from with git]
 ----
 [[CategoryGitDocumentation]]
