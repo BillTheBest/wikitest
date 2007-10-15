@@ -73,9 +73,24 @@ These mistakes are generally less severe than mistakes made when a repository is
 ==== Linux: The botched DVB merges ====
 
 http://www.ussg.iu.edu/hypermail/linux/kernel/0603.2/1961.html
+You sync the source trees, but the histories doesn't match up. 
 
-TODO: explain
+TODO: explain better
 
+What Linus does to check stuff; ''I tend to have a two-level safety check. The first is that I just check
+the diffstat of the result of the pull
+
+This first-level safety check generally catches any serious mistakes, and
+it's helped me catch cases where the other end did something really stupid
+by mistake.
+
+---
+So this one was caught by the fact that I'm just fairly anal about the
+history being sensible (as the ACPI people may remember ;), so I usually
+also do
+
+gitk ORIG_HEAD..
+'' -- [http://www.ussg.iu.edu/hypermail/linux/kernel/0603.2/2856.html Linus on mailinglist]
 ==== Xorg: Log message conventions not followed ====
 
 http://lists.freedesktop.org/archives/xorg/2006-June/016127.html
