@@ -95,7 +95,7 @@ on the git mailing list and only available in plain text.
 There also exists a handful of technical documents that describes
 lowlevel details on how different parts of git operates. These are
 mostly useful for developers. You can find them in the
-[http://www.kernel.org/git/?p=git/git.git;a=tree;f=Documentation/technical Documentation/technical]
+[http://repo.or.cz/w/git.git?a=tree;f=Documentation/technical;hb=HEAD Documentation/technical]
 directory in the git source tree.
 
 = Git's Documentation To-Do list =
