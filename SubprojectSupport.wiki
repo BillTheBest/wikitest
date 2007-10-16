@@ -17,7 +17,7 @@ Plumbing code is in place since 1.5.2-rc0 [http://thread.gmane.org/gmane.comp.ve
 
 (as of March 26, 2007)
 
-Martin Waitz implementation's object-level extensions have been well-reviewed, and are generally accepted as being the way to go at this point. Effectively, they allow tree objects to contain entries which have a special file mode (directory + symlink) which holds a commit from a subproject; the interpretation of this for the filesystem structure is that the commit's tree should be placed rooted at the path of the entry.
+Martin Waitz' implementation's object-level extensions have been well-reviewed, and are generally accepted as being the way to go at this point. Effectively, they allow tree objects to contain entries which have a special file mode (directory + symlink) which holds a commit from a subproject; the interpretation of this for the filesystem structure is that the commit's tree should be placed rooted at the path of the entry.
 
 The initial implementation ran into scalability constraints when applied to  "vast superprojects". This implementation has not been completed due to these problems.
 
