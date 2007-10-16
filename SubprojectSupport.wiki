@@ -1,4 +1,4 @@
-git was originally developed to manage the sources of the Linux kernel, a monolithic code base. It has since developed many features that make it attractive as a general purpose SCM, and is now used by all sorts of projects, some of which are developed in a 'modular' style.
+Git was originally developed to manage the sources of the Linux kernel, a monolithic code base. It has since developed many features that make it attractive as a general purpose SCM, and is now used by all sorts of projects, some of which are developed in a 'modular' style.
 
 The rule of thumb for determining whether a source tree is monolithic or modular is the correlation of subdirectories to release 'tarballs'. The monolithic Linux kernel is released as a single tarball, whereas the modular Xorg project releases dozens of such packages, with each one potentially having its own release schedule.
 
