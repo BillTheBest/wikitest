@@ -29,7 +29,7 @@ There are a number of goals which come under the general heading of subprojects,
 === Separable parts of normal projects ===
 Often a project will contain some parts which are either available elsewhere as separate projects or could be used elsewhere. For example, the Linux kernel contains a version of zlib (imported from the external project), and Kbuild (developed in the kernel tree, but adopted by other projects). The git tree itself contains xdiff, an externally-developed comparison engine.
 
-Obviously, centralized version control isn't going to handle these at all, because they are shared between different development groups with different central servers, so existing users for this case are using informal methods (generally, copying particular revisions by hand at arbitrary times).
+Centralized version control isn't going to handle these at all because they are shared between different development groups with different central servers. So existing users for this case are using informal methods (generally, copying particular revisions by hand at arbitrary times).
 
 Users in this case want to fetch all of the reachable files, since they are integral to the superproject, and may want to fetch all of the subproject history, since the subprojects are generally relatively small.
 
