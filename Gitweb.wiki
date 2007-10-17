@@ -14,7 +14,7 @@ There even exists a <code><nowiki>git-instaweb</nowiki></code> script to setup g
 * [http://repo.or.cz/w/git/repo.git repo.or.cz] (custom gitweb patches) by Petr Baudis. Uses the current version of gitweb as base, has all features enabled. Includes extra scripts for creating and managing repositories, and integration with [http://repo.or.cz/w/git-browser.git/ git-browser], a graphical history viewer in [[JavaScript]].
 * [http://www.kernel.org/git/?p=git/warthog9/gitweb.git;a=summary kernel.org] (gitweb w/ caching) by John 'Warthog9' Hawley. Adds gitweb-specific caching support on top of generic gitweb. Split into many smaller modules.
 == Other web interfaces ==
-* [http://cgit.hjemli.net/ cgit] by Lars Hjemli in C (compiled CGI), uses libgit.a, has builtin caching, fast
+* [http://hjemli.net/git/cgit/ cgit] by Lars Hjemli in C (compiled CGI), uses libgit.a, has builtin caching, fast
 * [http://www.grmso.net:8090/ wit] ([http://www.absolutegiganten.org/wit/ download]) by Christian Meder in Python, uses PATH_INFO extensively. <i>(defunct, no longer maintained)</i>
 * [http://git.flameeyes.is-a-geek.org/gitarella/ gitarella] ([http://flameeyes.is-a-geek.org/projects#gitarella homepage]) by Flameeyes in Ruby, supports CGI and Fast<code><nowiki></nowiki></code>CGI interfaces. Inspired by gitweb.
 * [http://dan.chokola.com/wit/ Wit] ([http://dan.chokola.com/software/wit.rhtml homepage]) by Daniel Chokola in Ruby/eRuby. Easy setup, configuration (YAML), and customization (customizable CSS, templates), clean code.
