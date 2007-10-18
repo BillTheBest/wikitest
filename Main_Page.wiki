@@ -17,7 +17,7 @@ The other information sources are the [http://git.or.cz/ Git Homepage] (the webm
 
 * http://www.kernel.org/pub/software/scm/git/docs
 * http://www.kernel.org/pub/software/scm/cogito/docs
-[http://www.survey.net.nz/survey.php?94e135ff41e871a1ea5bcda3ee1856d9 The Git User Survey]<b> is up now! Please devote a few minutes of your time to fill this simple questionnaire, it will help a lot the git community to understand your needs, what you like of GIT, and of course what you don't like  of it.</b>
+
 == Getting Help ==
 * Read [[QuickStart]], or even better [http://www.kernel.org/pub/software/scm/git/docs/user-manual.html Git's User Manual]
 * See the [[GitCommunity]] page for mailing list and IRC information.
