@@ -454,10 +454,11 @@ $ git checkout -m -b my-branch
 == refs/heads/pu: does not fast forward to branch 'pu' ==
 The "pu" branch often won't fast forward because some commits have been completely deleted in it since the last time you pulled.
 
-If you want to track it, add a plus (+) sign to the proper line in your <code><nowiki>.git/remotes/origin</nowiki></code> file, like this:
+If you want to track it, add a plus (+) sign to the proper line in your <code><nowiki>.git/config</nowiki></code> file, like this:
 
 <pre><nowiki>
-Pull: +refs/heads/pu:refs/heads/pu
+[remote "origin"]
+        fetch = +refs/heads/pu:refs/remotes/origin/pu
 </nowiki></pre>
 Which tells git to deal with the problem for you by simply skip the fast forward check (doing "true" merge instead of fast-forward). Or you can just delete that line completely if you don't want to track the pu branch at all.
 
