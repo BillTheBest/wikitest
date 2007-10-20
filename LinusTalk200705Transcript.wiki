@@ -72,7 +72,7 @@ So that's the negative kind of credit.
 
 Positive credit is [[BitKeeper]].  and I realize that a lot of
 people thought there were a lot of strife over with [[BitKeeper]],
-the parting was very painful in many ways.  As far as I am
+and that the parting was very painful in many ways.  As far as I am
 concerned, the parting was amicable, even though it looked very
 non-amicable to outsiders.  And [[BitKeeper]] was not only the first
 source control system that I ever felt was worth using at all,
@@ -89,7 +89,7 @@ think you use [[BitKeeper]] here inside Google?  As far as I know,
 system that actually does distribution, and if you need a
 commercial one, that's the one you should use for that reason.
 
-And also I would like to point out that I've been doing git now
+I'd also like to point out that I've been doing git now
 for slightly over two years, but while I started it, and I made
 all the initial coding and design, it's actually been maintained
 by a much more pleasant person, Junio Hamano, for the last year
@@ -106,16 +106,16 @@ That's the credits.  With those out of the way...
 [shows the "Content" slide]
 
 So this slide is now one day old.  I didn't actually do the
-slides last night because last night I was out ??sing and eating
+slides last night because last night I was out carousing and eating
 Sushi, but the slides will talk about implementation of a
 reliable, high performance, distributed content management
 thing, and the key word here is actually the "distributed" part.
-I'll start off trying to explain why distribution is so
+I will start off trying to explain why distribution is so
 important.  If we never get past that point, I will actually be
 happy.  If we never get to actually what git's implementation
 internally is, it's fine.
 
-I'm not also trying teach you how to use git.  There is this
+I am not also trying teach you how to use git.  There is this
 thing called "google.com", what you do is, it has, you may have
 seen it, it has this thing you can type things in, and you type
 "git" and you press the "I'm feeling lucky" button, and you'll
@@ -124,7 +124,7 @@ the user manual, they are all in HTML, if you actually want to
 learn to use git, that's where you should start, not at this
 talk.
 
-But as I mentioned, if we actually start veering off topic
+But as mentioned, if we actually start veering off topic
 into other tangents because of questions, it's all good.
 
 [shows "Content Advisory" slide]
@@ -156,7 +156,7 @@ heard about is the background for doing git in the first place.
 
 One piece of background information is I really am not a SCM
 person.  I have never been very interested in revision control,
-I thought it was evil, along with [[BitKeeper]], I actually credit
+I thought it was evil, until I met [[BitKeeper]], I actually credit
 that to some degree for why git is so much better than
 everything else, it is because my brain did not rot from years
 and years of thinking CVS did something sane.
@@ -193,7 +193,7 @@ you get out of it again is the same thing you put in.  If you
 have a memory corruption, if you have a disc corruption, you may
 never know.  The only way you know is you notice that there is
 corruption in the files when you check them out.  And the source
-code management system does not protect you at all.  And this is
+control management system does not protect you at all.  And this is
 not even uncommon.  It is very very common.
 
 The performance issue -- one of the things I kind-of liked was a
@@ -274,7 +274,7 @@ than I expected.  How many of you enjoyed the experience?
 
 Oooh, OK, so there were a couple.  It is considered hard.  In
 CVS when you merge a branch, I've done it, as little as possible
-but I had to do it.  What you do is you plan ahead for a week,
+but I've had to do it.  What you do is you plan ahead for a week,
 and you basically set aside one day for doing it.  Am I wrong?
 I am not seeing a lot of people saying "No, it was easy, and I
 liked it".  It's horrible.
@@ -390,18 +390,18 @@ at every single company. I bet it happens even here at Google.
 You probably have a strict testsuite and you are not supposed to
 commit unless it passes, and then in practice, people make
 one-liner changes and ignore the test suite because they know
-the one-liner changes cannot possible break.  This happens.
+the one-liner changes can't possibly break.  This happens.
 This is a horrible horrible model.  It just means that you make
 huge commits, because you commit something after you worked on
 it for two weeks, and you have three people working in the same
-sandbox because before they commit they cannot see the changes
+sandbox because before they commit they can't see the changes
 that the other people made, this is common, it happens
 everywhere, it's scary.
 
 The other alternative is to use branches even in a centralized
 environment, but branches always end up being pretty expensive
 to do so you cannot do them for experimental features. You do not
-know beforehand if something is gonna take one day or two weeks,
+know beforehand if it's something that's gonna take one day or two weeks,
 but most of the time most programmers say "hey, I can do this in
 48 hours".  And it turns out, nah, no you couldn't.  But because
 you feel you can do it in 48 hours, creating a branch, even in
@@ -435,10 +435,10 @@ their manager, "hey we have done this, can you ask the main
 group to pull and they will get this new feature, and by the way
 we tested it over two weeks, and it works, and it performs this
 much better because we have actually been able to time it before
-even we ask anybody else to look at it".  And that is a hugely
+we even ask anybody else to look at it".  And that is a hugely
 better model for doing development.  And this is the model that
 the kernel uses. It turns out that in many places we do not
-need all that power. even in the kernel.  So people usually
+need all that power, even in the kernel.  So people usually
 don't pull within one group, but it does happen for example
 the networking people sometimes affect the NFS people and 
 the fact that they can synchronize actually helps.  So this is a
@@ -459,23 +459,23 @@ Linus:
 Absolutely.  So in practice you will never see, oh, there will
 be a thousand or maybe twenty thousand different branches, but
 in practice you won't ever see them because you won't care.  You
-will see like a few main branches, maybe you'll see only one. in
-the case of the kernel, a lot of people, they only ever look at
+will see like a few main branches, maybe you'll see only one. In
+the case of the kernel, a lot of people, they only really look at
 my branch. so even though there are lot of branches you can
 ignore them.  What happens is that the way merging is done is
 the way real security is done. By a network of trust.  If you
 have ever done any security work, and it did not involve the
-concept of network of trust, then it wasn't a security work.  I
-don't know what you were doing but trust me, it's the only way
+concept of network of trust, then it wasn't a security work, it
+was masturbation. I don't know what you were doing but trust me, it's the only way
 you can do security, and it's the only way you can do
 development.  The way I work, I don't trust everybody.  in fact
 I am a very cynical and untrusting person.  I think most of you
 are completely incompetent.  The whole point of being
-distributed is I do not have to trust you, I do not have to give
+distributed is I don't have to trust you, I do not have to give
 you commit access.  But I know that among the multitude of
-average people, there are some people that just stand out and I
+average people, there are some people that just stand out that I
 trust, because I've been working with them.  I only need to
-trust 5, 10, 15 people, if I have a network of trust that covers
+trust 5, 10, 15 people. If I have a network of trust that covers
 those 5, 10, 15 people that are outstanding, and I know they are
 outstanding, I can pull from them.  I do not have to spend a lot
 of brainpower on the question.  When Andrew send me patches, he
@@ -500,8 +500,8 @@ of my lieutenants work.  I pull the networking changes from one
 person, he gets them from many other people that he's worked
 with over time, so this is how it all comes together, it does
 not have to come together to one point.  In the kernel it comes
-together to one point largely i think for historical reasons,
-and actually I've always tried to kind of encouraged people to
+together to one point largely I think for historical reasons,
+and actually I've always tried to kind of encourage people to
 have more trees, so we do have vendor trees, we do have -mm
 tree, we have multiple one points, and it happens to be that my
 one point is getting maybe more attention than it always should.
@@ -519,8 +519,8 @@ how we think.  We do not know 100 people.  We have 5, 7, 10 close
 personal friends, well, we are geeks so we have two, but that's
 basically how humans work is that we have these people that we
 really trust, it's family, it's close friends, and it really
-fits, you do not even have to have a mental model, it fits how
-we are wired up.  So there is a huge advantage of this whole
+fits, you don't even have to have a mental model, it fits how
+we are wired up.  So there's huge advantages to it with this whole
 model of network of trust.
 
 Audience:
@@ -568,7 +568,7 @@ actually export it back to Subversion, and nobody else even knew
 you used git. It's kind of sad, but we have cases of people
 talking about doing exactly that inside companies. Git has not
 been around in a form where a lot of people would be comfortable
-using it for more than a half year or so, we have had so huge
+using it for more than a half year or so. We have had so huge
 improvements to the user interfaces that realistically a year
 ago at commercial companies a lot of people would just have said
 it's too hard to use. I think we are way past that hump. Git is
@@ -577,7 +577,7 @@ it's easier to use than anything else. It's just, ... get over
 it.  You do not have to use all the powerful tools, some of them
 might be things you would want to explain and introduce to
 people only after they got over the initial hump of
-understanding what the distribution really means, but the basic
+understanding what distribution really means, but the basic
 stuff is really easy to do.
 
 Audience:
@@ -608,13 +608,13 @@ person had made changes that, it does not have happen that often
 but it does happen, made changes that clashed so much that, I
 said "I could fix this up, but I really don't want to". I did
 not write the code, it's not my area of expertise, it's
-networking or something like that, I cannot really judge it, I
-cannot test it, so asking me to resolve the merge is just crazy,
+networking or something like that, I can't really judge it, I
+can't test it, so asking me to resolve the merge is just crazy,
 it's not how you should do things. 
 
-	Ok, the Windows machine freaked out again.
+	Ok, the Windows machine flaked out again.
 
-So what happens is, remember distribution means nobody is
+So what happens is, remember, distribution means nobody is
 special.  So instead of me merging, I just push out my first
 tree, that did not have any merge issues, and I tell the second
 person, "hey, I tried to pull from you, but I had merge
@@ -679,10 +679,10 @@ have a good network. The other thing is, branches, even if you
 make them technically very cheap to create, just the fact that
 you created them and everybody sees them means, because
 everybody will see them since they are centralized, basically
-means that you do not want to make branches willy-nilly. You
+means that you don't want to make branches willy-nilly. You
 will have namespace issues. What do you call your branch? Will
 you call it "test", Oh, by the way there are 5000 other branches
-called test1 thru test5000, so now you have to make up all the
+called test1 through 5000, so now you have to make up all the
 naming rules for your branches because you have a centralized
 system that has a centralized branch namespace, which is kind of
 inevitable when you have a centralized system. How does that
@@ -693,18 +693,18 @@ your functions, you should call them something short and sweet
 and to the point -- What is that branch doing.  Git gives you by
 default one branch that is called "master", it's short and sweet
 and to the point: it's the master branch. But you can make a
-branch called "experimental-feature-x", and it will be obvious.
+branch that is called "experimental-feature-x", and it will be obvious.
 But this is something you simply cannot do in a centralized
 environment. You cannot call branches
 experimental-feature-x. You have to make up stupid idiotic
 names.
-I worked for a company that had a nice, as nice as you
+I worked for a company that had nice, as nice as you
 probably can make them, scripts around CVS, that helped
 you make branches, you could actually make branches
 with a simple command, 
 it did not take that long,
 it picked a name for you,
-exactly because it would picked a number,
+exactly because it would pick the number,
 so you give it a basename, and you would say
 "this is my branch doing so-and-so", and it
 would call your branch "so-and-so-56". And
@@ -715,8 +715,8 @@ but you do not need to.  If your system is decentralized,
 it just works.
 And that is how it should work.
 So, I'm not saying, I am not going to force you to
-switch over to decentralized
-I'm just going to call you ugly and stupid.  That's the deal.
+switch over to decentralized, I'm just going to call you ugly and stupid.
+That's the deal.
 
 Anyway, now we are on the Performance slide.
 
@@ -736,7 +736,7 @@ git, would it be possible to check out a part of the tree.
 
 Linus:
 
-Great questions.  These questions actually kind of dovetail into
+Great questions.  Those questions actually kind of dovetail into
 a different issue, even though they are performance related.
 One of the things that git is really special about, and this is
 special even with regards to things like Mercurial which
@@ -745,12 +745,12 @@ ever tracks a single file.  You cannot track a file in git.
 What you can do is you can track a project that has a single
 file, but if your project has a single file, sure do that and
 you can do it, but if you track 10,000 files, git never ever
-sees them as individual files. Git thinks everything as the full
-content.  All history in git is based on history of the whole
+sees those as individual files. Git thinks everything as the full
+content.  All history in git is based on the history of the whole
 project.  This has implications for performance.  When you use
 CVS, it's perfectly fine, although it's stupid, to have one huge
 repository that has a million files in it.  Because at the end
-of day, CVS actually thinks of each of these million files a
+of day, CVS actually thinks of all those million files as a
 single file and you can actually ask CVS to update only that one
 file, because CVS really thinks in those terms.  And that is
 actually true for pretty much everything else, too.  It is
@@ -768,18 +768,18 @@ file, git will literally start from the global history and
 it simplifies it.  It is a very efficient system, you would
 normally not even realize that it does that, but it does mean
 that if you try to track a million files in one repository,
-and if you ask for a single-file history, it's going to be
+when you then ask for a single-file history, it's going to be
 slower.
 So it has a different scaling properties than a lot of
 other systems for this very fundamental design reason.
 We have used big repositories.
 We've imported things like the whole SVN history of, maybe not
 the whole -- something like 3/4 of the SVN history of the whole
-KDE project.  And KDE people are, eh ... I shouldn't call them,
+KDE project.  And the KDE people are, eh ... I shouldn't call them,
 ... I won't,  I like KDE, but trust me.  But they put every
 single component in one repository.  Not very smart.
 
-So what you would end up with is that you had a repository that
+So what you ended up with is that you had a repository that
 took I think 8GB under the CVS tree, and SVN blew it up to like 3x that
 size, maybe it wasn't quite 8GB in CVS
 but it was big.  It was more than 4GB.  Git would actually 
@@ -788,17 +788,17 @@ very efficient at taking this project
 and just smashing it together and 
 most things actually perform very well, but
 certain things did not.
-The things that does not perform very well
+The things that do not perform very well
 if you put a million files in one repository is
 initial clone.  When you get it, you get it all.
 You put it in one repository, git thinks it is one thing.
 Don't do that. If you have multiple components, do them
 as separate repositories, you can actually have what we call
 superproject that contains pointers to other projects,
-the user interface for that is somewhat lacking,
+the user interfaces there are somewhat lacking,
 but you keep separate projects separate.
 Then you avoid the problem of "you have to get it all".
-Because with git you have to get it all.
+Because with git you do have to get it all.
 
 Audience:
 
@@ -832,12 +832,12 @@ individual but that's because
 in CVS
 a directory is kind of a thing on its own anyway,
 so CVS module is a combination of this and
-just checking them all, but you can basically
+just tracking them all, but you can basically
 think of it as CVS modules.
 And we do support it but I do have to admit that
 that code is fairly recent and that's one area
 where our
-user interfaces are definitely lacking.
+user interfaces right now are definitely lacking.
 
 There was probably some part of your question that I completely
 forgot.
@@ -859,7 +859,7 @@ it later on to be multiple smaller ones, you can do it, what I
 am trying to say is that you should generally try to avoid it.
 It's not that git can not handle huge projects, git would
 not perform as well as it would otherwise.  And
-you will have issues that you wish you would not have.
+you will have issues that you wish you didn't not have.
 
 So I am skipping this issue and going back to the performance
 issue.
@@ -878,11 +878,11 @@ early, because as it turns out it becomes easier to merge.  If
 you merge every day, suddenly you never get to the point where
 you have huge conflicts that are hard to resolve.  So if you
 actually make branching and merging easy, you actually avoid a
-whole class of problems that you otherwise would have really
+whole class of problems that you otherwise have a really
 really hard time avoiding.  So for example, let's go back to one
 of the things where I think the designers of subversion were
 complete morons.  Strong opinions, that's me, right?
-There are a few of them in the room, I suspect.  You are stupid.
+There are a few of them in the room today, I suspect.  You are stupid.
 
 [laughter]
 
@@ -890,7 +890,7 @@ Subversion for example, talks very loudly about how they do CVS
 right by making branching really cheap.  It's probably on their
 main webpage where they probably say branching in subversion is
 O(1) operation, you can do as many cheap branches as you want.
-Nevermind that O(1) is actually with pretty large O, I think but
+Nevermind that O(1) is actually with pretty large O I think, but
 even if it takes millionths of a second to do branching, who
 cares?  It's a wrong thing you are measuring.  Nobody is
 interested in branching, branches are completely useless unless
@@ -899,16 +899,16 @@ merge things once, but CVS then forgets what you did, you can
 never ever merge anything again without getting horrible
 horrible conflicts.  Merging in subversion is a complete
 disaster. The subversion people kind of acknowledge this and they
-have a plan, and the plan sucks too.  It is incredible how
+have a plan, and their plan sucks too.  It is incredible how
 stupid these people are. They've been looking at the wrong
-problem all the time. Branching is not an issue, merging is.
+problem all the time. Branching is not the issue, merging is.
 And merging they did not do squat for, five years after the
 fact.  That is sad.
 
 So performance is important, but you need to look at what
 matters.
 
-Performance for making a branch under git, it's literary you
+Performance for making a branch under git, it's literally you
 create a new file that is 41-byte in size.  How fast do you
 think that is?  I don't think you could measure it.  You could,
 well, if you use Windows, probably you could measure it, because
@@ -929,8 +929,8 @@ using their medication, so I trust them but, let's just be
 honest here, they might have been Ok yesterday, but today might
 not be a good day, so I do diffstat and git does that by
 default, you can turn it off if you really want to but you
-probably shouldn't, it's fast enough anyway, the diffstat takes,
-if it is a big merge, the diffstat usually takes a second or
+probably shouldn't, it's fast enough anyway, the diffstat usually takes,
+if it's a big merge, the diffstat usually takes a second or
 two.  Because creating a diff and actually doing all the stats
 on, how many lines changed, that actually is much more expensive
 than doing the merge itself.  That's the kind of performance
@@ -941,7 +941,7 @@ really should not look at anything but git.  Hg (Mercurial) is
 pretty good, but git is better.
 
 I think I am running out of time, we'll see if we have any,
-... oh, Ok, this one is really interesting.
+... oh, Ok, this one is still interesting.
 
 We never got to the
 implementation part, you really don't care, I'll say so much
@@ -949,7 +949,7 @@ about implementation is,
 the implementation is really simple.
 The code, the data structures are really really really simple.
 If you then look at the source code and realize it's
-80,000 lines mostly in C, and it's a kind of C I write, most
+maybe 80,000 lines mostly in C, and it's a kind of C I write, most
 people don't understand, but I comment it.
 The source code may sometimes look complicated because we are
 very performance centric, I am.  I really care, and sometimes
@@ -987,11 +987,11 @@ SHA-1 as far as git is concerned, isn't even a security feature.
 It's purely a consistency check.  The security parts are
 elsewhere.  A lot of people assume since git uses SHA-1 and
 SHA-1 is used for cryptographically secure stuff, they think
-that it's a huge security feature.  It has nothing at all with
+that it's a huge security feature.  It has nothing at all to do with
 security, it's just the best hash you can get.
 
-Having a good hash is good for being able to trust your data it
-happens to have some other good features, like when we hash
+Having a good hash is good for being able to trust your data, it
+happens to have some other good features, too, it means when we hash
 objects, we know the hash is well distributed and we do not have
 to worry about certain distribution issues.  Internally it means
 from the implementation standpoint, we can trust that the hash
