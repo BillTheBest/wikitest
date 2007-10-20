@@ -23,6 +23,8 @@ give you an introduction to the basic workflows.
 * Carl Worth is making [http://cworth.org/hgbook-git/ an effort to translate the book]
  _[http://hgbook.red-bean.com/ Distributed revision control with Mercurial]_ by Bryan O'Sullivan to Git.
 
+* Evan Carroll started Git wikibook: [http://en.wikibooks.org/wiki/Source_Control_Management_With_Git Source Control Management With Git]
+
 == Other relevant tutorials ==
 
 * [[Cogito]] also has an
