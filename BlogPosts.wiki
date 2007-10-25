@@ -4,7 +4,7 @@ A lot of blog posts related to Git usage have been published since the project's
 
 == Setup ==
 
-* [http://www.itp.tuwien.ac.at/~mattems/blog/tech git-daemon setup]
+* [http://www.itp.tuwien.ac.at/~mattems/blog/2006/07/17#git_server_setup git-daemon setup]
 
 == Switching to Git ==
 
