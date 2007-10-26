@@ -103,6 +103,7 @@ Also see [[BlogPosts]] for a collection of blog posts on specific Git usage.
 == Talks ==
 * [http://www.youtube.com/watch?v=4XpnKHJAok8 Tech Talk: Linus Torvalds on Git]  at Google on YouTube ([[LinusTalk200705Transcript|transcript]])
 * [http://www.twit.tv/floss19 FLOSS Weekly #19 git] Gitster on FLOSS Weekly
+* [http://video.google.ca/videoplay?docid=1251251453592758541 Tech Talk: Git]  at Google by Randal Schwartz
 
 = Other version control software =
 
