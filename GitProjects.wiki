@@ -24,6 +24,7 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 ** http://www.openfabrics.org/git/ (gitweb)
 * Many other Linux related projects...
 ** http://git.kernel.org/ (gitweb)
+
 == Non-kernel projects that use Git for their source code management. ==
 * adesklets (interactive Imlib2 console for the X11, for writing desklets)
 ** http://adesklets.sourceforge.net/ (home page)
@@ -168,9 +169,11 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * X<code><nowiki></nowiki></code>Strike<code><nowiki></nowiki></code>Force ([http://wiki.debian.org/XStrikeForce/ XSF]) / Debian
 ** http://wiki.debian.org/XStrikeForce/git-usage (wiki)
 ** http://git.debian.org/ (gitweb)
+
 == Git collections ==
 * git mirror of many cvs projects important for the development of Fedora Core
 ** http://www.jur-linux.org/git/
+
 == Git hosting ==
 * Public Git hosting site, maintained by Petr Baudis
 ** http://repo.or.cz/
