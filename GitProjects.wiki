@@ -169,6 +169,10 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * X<code><nowiki></nowiki></code>Strike<code><nowiki></nowiki></code>Force ([http://wiki.debian.org/XStrikeForce/ XSF]) / Debian
 ** http://wiki.debian.org/XStrikeForce/git-usage (wiki)
 ** http://git.debian.org/ (gitweb)
+* Angerwhale
+** http://www.angerwhale.org/ (homepage)
+** http://search.cpan.org/dist/Angerwhale/ (CPAN)
+** http://git.angerwhale.org/ (gitweb)
 
 == Git collections ==
 * git mirror of many cvs projects important for the development of Fedora Core
