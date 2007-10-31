@@ -163,6 +163,10 @@ export GIT_DIFF_PAGER="colordiff | less -RS"</nowiki></pre>
 * [http://blog.josefsson.org/?p=8 gitco] by Simon Josefsson is a tiny shell script to remove unversioned files from git directories, similar to [http://www.red-bean.com/cvsutils/ cvsutils] 'cvsco' or subversion's svn-clean.
 === grit (bug tracker) ===
 * [grit]: really stupid BTS tool ([http://git.madism.org/?p=grit.git;a=summary gitweb]) is git integrated bugtracker, by Pierre Habouzit, written in Python <i>(work in progress)</i>. You can clone it from <code><nowiki>git://git.madism.org/grit.git</nowiki></code> [[BR]] See [http://thread.gmane.org/gmane.comp.version-control.git/48981 |RFC| git integrated bugtracking] thread on git mailing list.
+
+=== gitlsfiles ===
+   [http://ygingras.net/b/tag/gitlsfiles gitlsfiles] is Git plugin for [http://peak.telecommunity.com/DevCenter/setuptools Setuptools], by Yannick Gingras (Python). Setuptools is a collection of enhancements to the Python distutils that allow you to more easily build and distribute Python packages, especially ones that have dependencies on other packages.
+
 === libgit-thin ===
 * libgit-thin by Luiz Fernando N. Capitulino and Shawn O. Pearce is an ongoing effort to develop a library for git, which started as a [http://code.google.com/p/google-summer-of-code-2007-git/ Google Summer of Code 2007 project]. Read [http://article.gmane.org/gmane.comp.version-control.git/53433 this announcement] for more details. It also comes with Python bindings called [[PyGit]], wich demonstrate the current capabilities. The git repository of this project can be found under http://repo.or.cz/w/git/libgit-gsoc.git.
 = See also =
