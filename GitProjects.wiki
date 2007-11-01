@@ -194,6 +194,7 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * http://www.cyberroadie.org/gitweb/ (gitweb)
 * DTC - Domain Technologie Control
 * http://www.gplhost.com/software-dtc.html (homepage)
+* http://dtcsupport.gplhost.com/Git/Git (development)
 * http://git.gplhost.com/dtc.git (repository)
 
 == Git collections ==
