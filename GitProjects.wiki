@@ -181,6 +181,9 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * CenterIM
 * http://www.centerim.org/index.php/Contribute_Code (development web page)
 * http://repo.or.cz/w/centerim.git (gitweb)
+* cmus - C* Music Player
+* http://cmus.sourceforge.net/ (homepage)
+* http://repo.or.cz/w/cmus.git/ (gitweb)
 
 == Git collections ==
 * git mirror of many cvs projects important for the development of Fedora Core
