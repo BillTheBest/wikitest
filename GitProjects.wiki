@@ -199,6 +199,10 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * Dvalue
 * http://live.gnome.org/DValue/Installation (install, with repo address)
 * http://git.desrt.ca/gitweb/?p=dvalue.git (gitweb)
+* Else projects
+* https://gna.org/projects/else (project page)
+* http://www.else-projects.org/ (homepage)
+* http://git.else-projects.org/ (gitweb)
 
 == Git collections ==
 * git mirror of many cvs projects important for the development of Fedora Core
