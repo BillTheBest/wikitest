@@ -205,6 +205,7 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * http://git.else-projects.org/ (gitweb)
 * Featherstitch
 * http://featherstitch.cs.ucla.edu/howto/ (development)
+* http://featherstitch.cs.ucla.edu/gitweb?p=fstitch (gitweb)
 * git://featherstitch.cs.ucla.edu/fstitch/fstitch (repository)
 
 == Git collections ==
