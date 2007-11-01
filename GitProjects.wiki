@@ -188,6 +188,10 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * http://cobbler.et.redhat.com/index.php (homepage)
 * https://hosted.fedoraproject.org/projects/cobbler/ (wiki)
 * http://git.fedoraproject.org/?p=hosted/cobbler (gitweb)
+* Dragon3D
+* http://dragon3d.berlios.de/ (homepage)
+* http://dragon3d.berlios.de/mediawiki/index.php/Version_Control_with_GIT (development)
+* http://www.cyberroadie.org/gitweb/ (gitweb)
 
 == Git collections ==
 * git mirror of many cvs projects important for the development of Fedora Core
