@@ -192,6 +192,9 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * http://dragon3d.berlios.de/ (homepage)
 * http://dragon3d.berlios.de/mediawiki/index.php/Version_Control_with_GIT (development)
 * http://www.cyberroadie.org/gitweb/ (gitweb)
+* DTC - Domain Technologie Control
+* http://www.gplhost.com/software-dtc.html (homepage)
+* http://git.gplhost.com/dtc.git (repository)
 
 == Git collections ==
 * git mirror of many cvs projects important for the development of Fedora Core
