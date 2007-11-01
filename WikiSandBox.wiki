@@ -19,8 +19,6 @@ hmm... how would one go about creating a user account?  the [[UserPreferences]] 
 
 * [[GitSurvey]], [[Git]] - wikipedia-like syntax
 * [[GitSurvey:surve]] - wikipedia-like pipe link
-* <<<!-- ! TOC here -->(2)>>
-  <<BR>> - macro
 * <code><nowiki>backticks typewriter</nowiki></code>
 * Camel<code><nowiki></nowiki></code>Case
 == Formatting ==
