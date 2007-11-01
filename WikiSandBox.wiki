@@ -19,8 +19,8 @@ hmm... how would one go about creating a user account?  the [[UserPreferences]] 
 
 * [[GitSurvey]], [[Git]] - wikipedia-like syntax
 * [[GitSurvey:surve]] - wikipedia-like pipe link
-* <!-- ! TOC here -->
-  <br> - macro
+* <<<!-- ! TOC here -->(2)>>
+  <<BR>> - macro
 * <code><nowiki>backticks typewriter</nowiki></code>
 * Camel<code><nowiki></nowiki></code>Case
 == Formatting ==
@@ -79,6 +79,12 @@ http://c2.com/sig/wiki.gif
 * second
 * third blockquote
 ** deeper
+
+"Long item" list
+* I've been so busy with other projects. I didn't realize so many interfaces exist.  Thanks to this survey I'll spend some time checking out the wiki for the other interfaces.<<BR>>At the 'Solutions Linux 2007' exhibition in Paris I have been.
+
+ I didn't even know about any of the new git features listed in question 43.<<BR>>I need to get an up to date version as there are things mentioned in this survey that I don't know about.
+
 === Glossary ===
 ; Term : Definition
 === Drawing ===
