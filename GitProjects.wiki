@@ -196,6 +196,9 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * http://www.gplhost.com/software-dtc.html (homepage)
 * http://dtcsupport.gplhost.com/Git/Git (development)
 * http://git.gplhost.com/dtc.git (repository)
+* Dvalue
+* http://live.gnome.org/DValue/Installation (install, with repo address)
+* http://git.desrt.ca/gitweb/?p=dvalue.git (gitweb)
 
 == Git collections ==
 * git mirror of many cvs projects important for the development of Fedora Core
