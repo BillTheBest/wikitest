@@ -203,6 +203,9 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * https://gna.org/projects/else (project page)
 * http://www.else-projects.org/ (homepage)
 * http://git.else-projects.org/ (gitweb)
+* Featherstitch
+* http://featherstitch.cs.ucla.edu/howto/ (development)
+* git://featherstitch.cs.ucla.edu/fstitch/fstitch (repository)
 
 == Git collections ==
 * git mirror of many cvs projects important for the development of Fedora Core
