@@ -184,6 +184,10 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * cmus - C* Music Player
 * http://cmus.sourceforge.net/ (homepage)
 * http://repo.or.cz/w/cmus.git/ (gitweb)
+* Cobbler
+* http://cobbler.et.redhat.com/index.php (homepage)
+* https://hosted.fedoraproject.org/projects/cobbler/ (wiki)
+* http://git.fedoraproject.org/?p=hosted/cobbler (gitweb)
 
 == Git collections ==
 * git mirror of many cvs projects important for the development of Fedora Core
