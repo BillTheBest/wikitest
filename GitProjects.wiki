@@ -207,6 +207,10 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * http://featherstitch.cs.ucla.edu/howto/ (development)
 * http://featherstitch.cs.ucla.edu/gitweb?p=fstitch (gitweb)
 * git://featherstitch.cs.ucla.edu/fstitch/fstitch (repository)
+* Feng
+* http://live.polito.it/feng (homepage)
+* http://live.polito.it/building (development)
+* http://live.polito.it/gitweb/?p=feng.git (gitweb)
 
 == Git collections ==
 * git mirror of many cvs projects important for the development of Fedora Core
