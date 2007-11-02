@@ -225,6 +225,9 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * http://git.savannah.nongnu.org/gitweb/?p=gtkmm-utils.git (gitweb)
 * GVfs
 * http://www.gnome.org/~alexl/git/gvfs.git (repository)
+* ikiwiki
+* http://ikiwiki.info/download/
+* http://git.ikiwiki.info/?p=ikiwiki (gitweb)
 
 == Git collections ==
 * git mirror of many cvs projects important for the development of Fedora Core
