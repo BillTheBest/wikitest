@@ -228,6 +228,8 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * ikiwiki
 * http://ikiwiki.info/download/
 * http://git.ikiwiki.info/?p=ikiwiki (gitweb)
+* initramfs-tools
+* http://git.debian.org/?p=kernel/initramfs-tools.git (gitweb)
 
 == Git collections ==
 * git mirror of many cvs projects important for the development of Fedora Core
