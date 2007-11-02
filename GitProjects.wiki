@@ -223,6 +223,8 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * gtkmm-utils
 * http://live.gnome.org/gtkmm_utils (homepage)
 * http://git.savannah.nongnu.org/gitweb/?p=gtkmm-utils.git (gitweb)
+* GVfs
+* http://www.gnome.org/~alexl/git/gvfs.git (repository)
 
 == Git collections ==
 * git mirror of many cvs projects important for the development of Fedora Core
