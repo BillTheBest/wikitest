@@ -217,6 +217,9 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * god - Ruby process monitor
 * http://god.rubyforge.org/ (homepage)
 * http://repo.or.cz/w/god.git (gitweb)
+* graph-tool
+* http://projects.forked.de/graph-tool/wiki/[[GraphToolDownload]]
+* http://git.forked.de/?p=graph-tool (gitweb)
 
 == Git collections ==
 * git mirror of many cvs projects important for the development of Fedora Core
