@@ -154,9 +154,12 @@ export GIT_DIFF_PAGER="colordiff | less -RS"</nowiki></pre>
 === chronoversion ===
 * Chronoversion is a simple Python script which attempts to use the git content tracker to provide chronological snapshots similar to Plan 9's <b>venti</b> filesystem. The two differences are that, being based on git, it isn't a filesystem in the sense of needing kernel support to gain access to the data (so it can be used on systems where you can only install userspace programs) and it allows programatic decisions about what to snapshot, rather than recording everything into the snapshot. By David Tweed. It can be downloaded (at least currently) from [http://www.personal.rdg.ac.uk/~sis05dst/chronoversion.tgz chronoversion.tgz].
 === Metastore ===
-* Metastore by David Hrdeman is a tool which allows the metadata to be stored in a separate file which can be stored along with the rest of the data in the repo (or separately).  This is also useful for tripwire type checks and for other types of storage which drops some of the metadata (tar comes to mind).[[BR]] <b>Repository:</b> git://git.hardeman.nu/metastore.git
+* Metastore by David Hrdeman is a tool which allows the metadata to be stored in a separate file which can be stored along with the rest of the data in the repo (or separately).  This is also useful for tripwire type checks and for other types of storage which drops some of the metadata (tar comes to mind).<<BR>> <b>Repository:</b> git://git.hardeman.nu/metastore.git
+
 === git2cl ===
 * [http://josefsson.org/git2cl/ git2cl] ([http://repo.or.cz/w/git2cl.git gitweb]) by Simon Josefsson is a Perl script to convert git logs to [http://www.gnu.org/prep/standards/html_node/Change-Logs.html GNU ChangeLog] format.  The tool expects output from <code><nowiki>git --pretty --numstat --summary</nowiki></code> on standard input.  Inspired by [http://www.red-bean.com/cvs2cl/ cvs2cl] tool. <b>References:</b> [http://permalink.gmane.org/gmane.comp.version-control.git/41170 ANNOUNCE: git2cl] message on git mailing list.
+* See also alternate solution: [http://marc.info/?l=git&m=119403382117250&w=2 |PATCH| New script: git-changelog.perl - revised] by Ronald Landheer-Cieslak, with slightly different output, less dependencies, and being standalone command and not a filter.
+
 === Nico Schottelius scripts ===
 * Some of [http://unix.schottelius.org/scripts/ Nico Schottelius (unix|linux) scripts] deal with Git: <code><nowiki>db-dump+git.sh</nowiki></code>, <code><nowiki>update-gitweb.sh</nowiki></code>, <code><nowiki>update-git+cogito.sh</nowiki></code>.
 === gitco ===
@@ -165,7 +168,7 @@ export GIT_DIFF_PAGER="colordiff | less -RS"</nowiki></pre>
 * [grit]: really stupid BTS tool ([http://git.madism.org/?p=grit.git;a=summary gitweb]) is git integrated bugtracker, by Pierre Habouzit, written in Python <i>(work in progress)</i>. You can clone it from <code><nowiki>git://git.madism.org/grit.git</nowiki></code> [[BR]] See [http://thread.gmane.org/gmane.comp.version-control.git/48981 |RFC| git integrated bugtracking] thread on git mailing list.
 
 === gitlsfiles ===
-   [http://ygingras.net/b/tag/gitlsfiles gitlsfiles] is Git plugin for [http://peak.telecommunity.com/DevCenter/setuptools Setuptools], by Yannick Gingras (Python). Setuptools is a collection of enhancements to the Python distutils that allow you to more easily build and distribute Python packages, especially ones that have dependencies on other packages.
+* [http://ygingras.net/b/tag/gitlsfiles gitlsfiles] is Git plugin for [http://peak.telecommunity.com/DevCenter/setuptools Setuptools], by Yannick Gingras (Python). Setuptools is a collection of enhancements to the Python distutils that allow you to more easily build and distribute Python packages, especially ones that have dependencies on other packages.
 
 === libgit-thin ===
 * libgit-thin by Luiz Fernando N. Capitulino and Shawn O. Pearce is an ongoing effort to develop a library for git, which started as a [http://code.google.com/p/google-summer-of-code-2007-git/ Google Summer of Code 2007 project]. Read [http://article.gmane.org/gmane.comp.version-control.git/53433 this announcement] for more details. It also comes with Python bindings called [[PyGit]], wich demonstrate the current capabilities. The git repository of this project can be found under http://repo.or.cz/w/git/libgit-gsoc.git.
