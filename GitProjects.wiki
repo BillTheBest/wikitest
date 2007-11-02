@@ -33,6 +33,9 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * mtd-utils
 ** http://www.linux-mtd.infradead.org/source.html (mtd homepage)
 ** http://git.infradead.org/?p=mtd-utils.git (gitweb)
+* Open-iSCSI
+** http://www.open-iscsi.org/index.html#develop
+** http://git.kernel.org/?p=linux/kernel/git/mnc/open-iscsi.git (gitweb)
 * Many other Linux related projects...
 ** http://git.kernel.org/ (gitweb)
 
@@ -254,6 +257,12 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * https://hosted.fedoraproject.org/projects/mirrormanager/ (homepage)
 * http://git.fedoraproject.org/?p=hosted/mirrormanager (gitweb)
 * http://git.domsch.com/mirrormanager.git (alt. repo)
+* muse.el (Emacs Muse)
+* http://www.emacswiki.org/cgi-bin/wiki/[[MuseDevelopment]] (development)
+* http://repo.or.cz/w/muse-el.git (gitweb)
+* Openswan
+* http://www.openswan.org/development/ (development)
+* http://git.openswan.org (gitweb)
 
 == Git collections ==
 * git mirror of many cvs projects important for the development of Fedora Core
