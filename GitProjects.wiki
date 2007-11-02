@@ -245,6 +245,10 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * http://gitweb.freedesktop.org/?p=users/david/livecd-tools.git (gitweb)
 * [[MadMutt]]
 * http://git.madism.org/?p=madmutt.git (gitweb)
+* [[MirrorManager]]
+* https://hosted.fedoraproject.org/projects/mirrormanager/ (homepage)
+* http://git.fedoraproject.org/?p=hosted/mirrormanager (gitweb)
+* http://git.domsch.com/mirrormanager.git (alt. repo)
 
 == Git collections ==
 * git mirror of many cvs projects important for the development of Fedora Core
