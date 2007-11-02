@@ -220,6 +220,9 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * graph-tool
 * http://projects.forked.de/graph-tool/wiki/[[GraphToolDownload]]
 * http://git.forked.de/?p=graph-tool (gitweb)
+* gtkmm-utils
+* http://live.gnome.org/gtkmm_utils (homepage)
+* http://git.savannah.nongnu.org/gitweb/?p=gtkmm-utils.git (gitweb)
 
 == Git collections ==
 * git mirror of many cvs projects important for the development of Fedora Core
