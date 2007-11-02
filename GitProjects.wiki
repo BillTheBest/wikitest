@@ -211,6 +211,9 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * http://live.polito.it/feng (homepage)
 * http://live.polito.it/building (development)
 * http://live.polito.it/gitweb/?p=feng.git (gitweb)
+* [http://www.geda.seul.org/ gEDA]
+* http://geda.seul.org/wiki/geda:scm (development)
+* http://git.gpleda.org/ (gitweb)
 
 == Git collections ==
 * git mirror of many cvs projects important for the development of Fedora Core
