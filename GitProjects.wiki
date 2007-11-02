@@ -22,6 +22,10 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * Open<code><nowiki></nowiki></code>Fabrics Alliance (Infini<code><nowiki></nowiki></code>Band & other RDMA Network Fabric) drivers
 ** http://www.openfabrics.org/ (homepage)
 ** http://www.openfabrics.org/git/ (gitweb)
+* KVM - Kernel-based Virtual Machine
+** http://kvm.qumranet.com/kvmwiki (homepage)
+** http://kvm.qumranet.com/kvmwiki/Code (development)
+** http://git.kernel.org/?p=linux/kernel/git/avi/kvm.git (gitweb)
 * initramfs-tools
 ** http://git.debian.org/?p=kernel/initramfs-tools.git (gitweb)
 * Many other Linux related projects...
@@ -230,6 +234,15 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * ikiwiki
 * http://ikiwiki.info/download/
 * http://git.ikiwiki.info/?p=ikiwiki (gitweb)
+* iogrind
+* http://live.gnome.org/iogrind (homepage)
+* http://www.gnome.org/~michael/git/iogrind.git (repository)
+* iproute2
+* http://www.linux-foundation.org/en/Net:Iproute2 (homepage)
+* http://git.kernel.org/?p=linux/kernel/git/shemminger/iproute2.git (gitweb)
+* LiveCD-tools
+* http://fedoraproject.org/wiki/[[FedoraLiveCD]] (homepage)
+* http://gitweb.freedesktop.org/?p=users/david/livecd-tools.git (gitweb)
 
 == Git collections ==
 * git mirror of many cvs projects important for the development of Fedora Core
