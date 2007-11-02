@@ -263,6 +263,15 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * Openswan
 * http://www.openswan.org/development/ (development)
 * http://git.openswan.org (gitweb)
+* OpenXPKI (git + svn)
+* http://www.openca.info/docs/git-howto.html (development)
+* http://repo.or.cz/w/openxpki.git (gitweb)
+* [[PackageKit]]
+* http://www.packagekit.org/pk-download.html (download)
+* http://gitweb.freedesktop.org/?p=packagekit.git (gitweb)
+* pacman (package manager)
+* http://www.archlinux.org/pacman/ (homepage)
+* http://projects.archlinux.org/git/gitweb.cgi?p=pacman.git (gitweb)
 
 == Git collections ==
 * git mirror of many cvs projects important for the development of Fedora Core
