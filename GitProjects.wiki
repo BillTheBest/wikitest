@@ -243,6 +243,8 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * LiveCD-tools
 * http://fedoraproject.org/wiki/[[FedoraLiveCD]] (homepage)
 * http://gitweb.freedesktop.org/?p=users/david/livecd-tools.git (gitweb)
+* [[MadMutt]]
+* http://git.madism.org/?p=madmutt.git (gitweb)
 
 == Git collections ==
 * git mirror of many cvs projects important for the development of Fedora Core
