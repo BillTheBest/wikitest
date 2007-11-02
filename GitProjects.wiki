@@ -28,6 +28,11 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 ** http://git.kernel.org/?p=linux/kernel/git/avi/kvm.git (gitweb)
 * initramfs-tools
 ** http://git.debian.org/?p=kernel/initramfs-tools.git (gitweb)
+* module-init-tools
+** http://www.kerneltools.org/[[KernelTools]].org (wiki)
+* mtd-utils
+** http://www.linux-mtd.infradead.org/source.html (mtd homepage)
+** http://git.infradead.org/?p=mtd-utils.git (gitweb)
 * Many other Linux related projects...
 ** http://git.kernel.org/ (gitweb)
 
