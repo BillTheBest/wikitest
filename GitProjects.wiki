@@ -36,6 +36,9 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * Open-iSCSI
 ** http://www.open-iscsi.org/index.html#develop
 ** http://git.kernel.org/?p=linux/kernel/git/mnc/open-iscsi.git (gitweb)
+* pciutils
+** http://mj.ucw.cz/pciutils.shtml (homepage)
+** http://git.kernel.org/?p=utils/pciutils/pciutils.git (gitweb)
 * Many other Linux related projects...
 ** http://git.kernel.org/ (gitweb)
 
@@ -272,6 +275,13 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * pacman (package manager)
 * http://www.archlinux.org/pacman/ (homepage)
 * http://projects.archlinux.org/git/gitweb.cgi?p=pacman.git (gitweb)
+* Puppet
+* http://reductivelabs.com/trac/puppet/wiki/[[DownloadingPuppet]] (download)
+* git://reductivelabs.com/puppet (repository)
+* ROX-Filer
+* http://roscidus.com/desktop/using-git (development)
+* http://roscidus.com/desktop/node/825 (GIT for translators)
+* http://repo.or.cz/w/rox-filer.git (gitweb)
 
 == Git collections ==
 * git mirror of many cvs projects important for the development of Fedora Core
