@@ -18,8 +18,6 @@ I thought it safer and more polite to leave the page rename fix to someone other
 == SVN comparison page might want to compare the storing of binary files in each system ==
 The [[GitSvnComparsion]] page has very good content, but it would be nice to know the differences between the two in how binary files are stored and whether either uses a differential backup vs a file level backup.
 
-I thought it safer and more polite to leave the page rename fix to someone other than a first-time visitor. Thanks.
-
 == Parsers ==
 It would be nice to have installed parsers from [[MoinMoin:[[ParserMarket]]|[[ParserMarket]]]] (see [[MoinMoin:[[ParserMarket]]#head-17c33967bbb4345a453627b944bad1f1bc4b2791|Installation Instructions]] there) for languages used in [[Git]], [[Cogito]] and examples, i.e for <b>Perl</b>, <b>shell</b> and e.g. <b>diff</b>.
 * Perl parsers from [[MoinMoin:[[ParserMarket]]|[[ParserMarket]]]]: [[MoinMoin:parser/Perl|parser/Perl]] by Johannes Hoerburger <i>(`.py` extension needs to be aded)</i>.
