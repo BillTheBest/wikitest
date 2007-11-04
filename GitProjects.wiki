@@ -282,6 +282,9 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * http://roscidus.com/desktop/using-git (development)
 * http://roscidus.com/desktop/node/825 (GIT for translators)
 * http://repo.or.cz/w/rox-filer.git (gitweb)
+* Scratchbox2 / sbox2
+* http://www.freedesktop.org/wiki/Software/sbox2 (homepage)
+* http://gitweb.freedesktop.org/?p=sbox2.git (gitweb)
 
 == Git collections ==
 * git mirror of many cvs projects important for the development of Fedora Core
