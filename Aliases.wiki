@@ -78,7 +78,7 @@ Starting with version 1.5.3, git supports appending the arguments to commands pr
 
 <pre><nowiki>
 [alias]
-        example = !sh -c "ls $1 $0"
+        example = !sh -c 'ls $1 $0'
 </nowiki></pre>
 NOTE: the arguments start with $0, not with $1 as you are used from shell scripts.
 
