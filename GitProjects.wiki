@@ -297,6 +297,15 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * [[SpeakGoodChinese]]
 * http://speakgoodchinese.org/download.html (download)
 * git://fondialog1.hum.uva.nl/sgc.git (repository)
+* swfdec
+* http://swfdec.freedesktop.org/wiki/Developers (development)
+* http://gitweb.freedesktop.org/?p=swfdec/swfdec.git (gitweb)
+* Syslinux - A suite of bootloaders for Linux
+* http://syslinux.zytor.com/devel.php (development)
+* http://git.kernel.org/?p=boot/syslinux/syslinux.git (gitweb)
+* Tagua
+* http://tagua-project.org/wiki/Download (download)
+* http://repo.or.cz/w/tagua.git (gitweb)
 
 == Git collections ==
 * git mirror of many cvs projects important for the development of Fedora Core
