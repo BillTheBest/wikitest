@@ -287,6 +287,16 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * Scratchbox2 / sbox2
 * http://www.freedesktop.org/wiki/Software/sbox2 (homepage)
 * http://gitweb.freedesktop.org/?p=sbox2.git (gitweb)
+* Sidestep
+* http://www.sidestep-project.org/ (homepage)
+* https://gna.org/projects/sidestep/ (project page)
+* http://gitweb.sidestep-project.org/?p=sidestep.git (gitweb)
+* Slind - embedded Linux distribution
+* https://www.slind.org/Downloads:Downloads (download)
+* http://git.slind.org/git (gitweb)
+* [[SpeakGoodChinese]]
+* http://speakgoodchinese.org/download.html (download)
+* git://fondialog1.hum.uva.nl/sgc.git (repository)
 
 == Git collections ==
 * git mirror of many cvs projects important for the development of Fedora Core
