@@ -195,6 +195,8 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * asa
 * http://asa.diac24.net/ (wiki)
 * http://git.spaceboyz.net/asa.git/ (gitweb)
+* Debian buildd-tools (buildd, sbuild, schroot)
+* http://git.debian.org (gitweb)
 * CenterIM
 * http://www.centerim.org/index.php/Contribute_Code (development web page)
 * http://repo.or.cz/w/centerim.git (gitweb)
