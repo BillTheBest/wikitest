@@ -314,6 +314,19 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * util-linux-ng
 * http://userweb.kernel.org/~kzak/util-linux-ng/ (homepage)
 * http://git.kernel.org/?p=utils/util-linux-ng/util-linux-ng.git (gitweb)
+* vimblog
+* http://www.vim.org/scripts/script.php?script_id=2030 (vim scripts page)
+* http://blog.tquadrado.com/?page_id=146 (homepage)
+* http://www.dmo.ca/git/vimblog.git (repository)
+* VLC (mirror of svn tree)
+* http://wiki.videolan.org/Git (development)
+* http://git.videolan.org/cgi-bin/gitweb.cgi?p=vlc.git (gitweb)
+* x86info
+* http://www.codemonkey.org.uk/projects/x86info/ (homepage)
+* http://git.choralone.org/?p=x86info.git (gitweb)
+* xl2tpd
+* http://www.xelerance.com/software/xl2tpd/ (homepage)
+* http://git.openswan.org/cgi-bin/gitweb.cgi?p=xl2tpd (gitweb)
 
 == Git collections ==
 * git mirror of many cvs projects important for the development of Fedora Core
