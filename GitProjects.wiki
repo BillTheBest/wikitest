@@ -327,6 +327,12 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * xl2tpd
 * http://www.xelerance.com/software/xl2tpd/ (homepage)
 * http://git.openswan.org/cgi-bin/gitweb.cgi?p=xl2tpd (gitweb)
+* xwax
+* http://www.xwax.co.uk/devel/source.html (development)
+* http://www.xwax.co.uk/devel/xwax.git (repository)
+* Yum
+* http://linux.duke.edu/projects/yum/scm.ptml (development)
+* http://devel.linux.duke.edu/gitweb/ (gitweb)
 
 == Git collections ==
 * git mirror of many cvs projects important for the development of Fedora Core
