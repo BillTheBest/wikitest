@@ -39,6 +39,9 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * pciutils
 ** http://mj.ucw.cz/pciutils.shtml (homepage)
 ** http://git.kernel.org/?p=utils/pciutils/pciutils.git (gitweb)
+* udev
+** http://www.kernel.org/pub/linux/utils/kernel/hotplug/udev.html (homepage)
+** http://git.kernel.org/?p=linux/hotplug/udev.git (gitweb)
 * Many other Linux related projects...
 ** http://git.kernel.org/ (gitweb)
 
