@@ -11,8 +11,7 @@ If you are new to [[Git]], here are some essential documents that will
 give you an introduction to the basic workflows.
 
 * [[QuickStart]] covers most common used commands.
-* For a quick start,
- [http://www.kernel.org/pub/software/scm/git/docs/tutorial.html the tutorial]
+* For a quick start, [http://www.kernel.org/pub/software/scm/git/docs/tutorial.html the tutorial]
  covers the basics.
 
 * See [http://www.kernel.org/pub/software/scm/git/docs/everyday.html the Everyday Git handbook]
@@ -36,6 +35,7 @@ give you an introduction to the basic workflows.
  by Jeff Garzik may be useful.
 
 * [http://www.fieldses.org/~bfields/git-user-manual.html Git User's Manual] by Bruce Fields
+* [http://www-cs-students.stanford.edu/~blynn/gitmagic/ Git Magic] by Ben Lynn
 * [http://www.jdl.com The Git Papers] by Jon Loeliger are excellent sources for git 
  information.
 
