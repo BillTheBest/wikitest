@@ -191,6 +191,9 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * X<code><nowiki></nowiki></code>Strike<code><nowiki></nowiki></code>Force ([http://wiki.debian.org/XStrikeForce/ XSF]) / Debian
 * http://wiki.debian.org/XStrikeForce/git-usage (wiki)
 * http://git.debian.org/ (gitweb)
+* ALT Linux
+* http://altlinux.org/ (homepage)
+* http://git.altlinux.org/ (repositories)
 * Angerwhale
 * http://www.angerwhale.org/ (homepage)
 * http://search.cpan.org/dist/Angerwhale/ (CPAN)
@@ -233,6 +236,9 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * http://live.polito.it/feng (homepage)
 * http://live.polito.it/building (development)
 * http://live.polito.it/gitweb/?p=feng.git (gitweb)
+* Frugalware Linux
+* http://frugalware.org/about (homepage)
+* http://git.frugalware.org/gitweb/gitweb.cgi (gitweb)
 * [http://www.geda.seul.org/ gEDA]
 * http://geda.seul.org/wiki/geda:scm (development)
 * http://git.gpleda.org/ (gitweb)
