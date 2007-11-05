@@ -111,4 +111,28 @@ drawing:mytest
 (23:42) <HonestDave> How queer.
 </nowiki></pre>
 
+= Tables =
+== CSV table ==
+<pre><nowiki>#!CSV
+Answer;                         Count
+very easy;                      38
+easy;                           136
+reasonably;                     318
+hard;                           131
+very hard;                      33
+Base;                           656 / 683
+Total (sum);                    656
+</nowiki></pre>
+
+== Styled table ==
+
+ ||<tablewidth="60%" rowstyle="font-weight: bold; text-align: center;"> Answer                         || Count      ||
+ ||<width="60%"> very easy                      || 38         ||
+ || easy                           || 136        ||
+ || reasonably                     || 318        ||
+ || hard                           || 131        ||
+ || very hard                      || 33         ||
+ ||<rowstyle="font-weight: bold;"> Base                           || 656 / 683  ||
+ ||<rowstyle="font-weight: bold;"> Total (sum)                    || 656        ||
+
 __NOTOC__
