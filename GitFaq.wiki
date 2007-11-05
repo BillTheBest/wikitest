@@ -31,7 +31,7 @@ The short definition is:
 
 == What can I use to set up a public repository? ==
 A SSH server, an HTTP server, or the git-daemon. Local networks can also use network filesystems, like NFS or SMBFS/CIFS (the Windows networks).
-* It seems not everyone things SMBFS is a good idea and several people on #git have the opinion that SMBFS should not be used with git
+* It seems not everyone thinks SMBFS is a good idea and several people on #git have the opinion that SMBFS should not be used with git.
 * See the [http://www.kernel.org/pub/software/scm/git/docs/tutorial.html Git tutorial] for more details.
 * A how-to-publish document was started [http://wiki.u32.net/index.php?title=Git/publishing here], describing http and gitweb.
 <<Anchor(empty-dirs)>>
