@@ -102,6 +102,7 @@ Also see [[BlogPosts]] for a collection of blog posts on specific Git usage.
 * [http://www.spearce.org/category/projects/scm/ Insufficiently Random] (articles tagged <b>scm</b>), blog by Shawn O. Pearce.
 * [http://www.jukie.net/~bart/blog/tag/git Bart's Blog] (articles tagged <b>git</b>), blog by Bart Trojanowski.
 * [http://wincent.com/a/about/wincent/weblog/archives/development/ Wincent Colaiuta's weblog] (category <b>development</b>, not only about git).
+* [http://versioncontrolblog.com/category/git/ Version Control Blog]: Version control, software configuration management (SCM) (articles tagged <b>GIT</b>).<<BR>> See also [http://versioncontrolblog.com/git-cogito/ Git/Cogito] on the same page.
 
 == Talks ==
 * [http://www.youtube.com/watch?v=4XpnKHJAok8 Tech Talk: Linus Torvalds on Git]  at Google on YouTube ([[LinusTalk200705Transcript|transcript]])
