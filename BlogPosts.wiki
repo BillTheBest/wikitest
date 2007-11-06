@@ -17,6 +17,7 @@ A lot of blog posts related to Git usage have been published since the project's
 == Usage ==
 
 * [http://blog.madduck.net/vcs/2007.07.11_publishing-git-repositories Publishing Git repositories]
+* [http://blog.madism.org/index.php/2007/09/09/138-git-awsome-ness-git-rebase-interactive git awsome-ness: git rebase --interactive]
 
 == Advanced stuff ==
 
