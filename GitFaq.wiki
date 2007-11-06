@@ -382,8 +382,18 @@ $ merge src/util/endian.h endian.h-1 endian.h-3
 
 Once you come up with the desired state in your file (<code><nowiki>src/util/endian.h</nowiki></code> in our example), then you have to inform Git that file was renamed, i.e. say "<code><nowiki>git update-index --remove util/endian.h</nowiki></code>" in our example (removing the file from working directory as well, if it exist there) and then "<code><nowiki>git update-index src/util/endian.h</nowiki></code>" (you should have it already in the index, so you do not have to say <code><nowiki>--add</nowiki></code>).
 
-<<Anchor(view-old-rev)>>
+<<Anchor(revert-file-change)>>
+== How to revert file to version from current commit? ==
+If you messed up a file, or removed it accidentally, and want to revert file change to version at current commit, you can use:
+<pre><nowiki>
+git checkout HEAD -- <file>
+</nowiki></pre>
+If you want to revert to version in index, use
+<pre><nowiki>
+git checkout -- <file>
+</nowiki></pre>
 
+<<Anchor(view-old-rev)>>
 == How to view an old revision of a file without checking out the file? ==
 Something like the following:
 
@@ -396,8 +406,8 @@ For example:
 git cat-file -p tags/v1.4.3:git.c
 git cat-file -p f5f75c652b9c2347522159a87297820103e593e4:git.c
 </nowiki></pre>
-<<Anchor(fix-broken-repo)>>
 
+<<Anchor(fix-broken-repo)>>
 == How to fix a broken repository? ==
 As Linus said ([http://thread.gmane.org/gmane.comp.version-control.git/40893/focus=40896 on gmane]):
 
