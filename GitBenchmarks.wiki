@@ -77,7 +77,7 @@ Note also discrepancy between real and user+sys for "bzr diff" comparing importe
 * commit 773 patches (20MB) for 2.6.18-rc1 to-mm2
 * 1.8GHz AMD64 laptop, 1.2GB of RAM, freshly formatted ext3 filesystem, data=writeback,noatime
 
- Mercurial (version unknown)::
+<b>Mercurial (version unknown)</b> (probably latest at that time)
 <pre><nowiki>
  $ hg qpush -a 2.6.18-rc1-mm2
 </nowiki></pre>
@@ -88,7 +88,7 @@ Note also discrepancy between real and user+sys for "bzr diff" comparing importe
 
  773/(42.511+10.105) = 14.691 patches/second  user+sys
 
- Git 1.4.1::
+<b>Git 1.4.1</b>
 <pre><nowiki>
  $ git-quilt-import 2.6.18-rc1-mm2
 </nowiki></pre>
