@@ -14,6 +14,10 @@ A lot of blog posts related to Git usage have been published since the project's
 * [http://www.dmo.ca/blog/20070608113513 Multiple branches using git-svn]
 * [http://info.wsisiz.edu.pl/~blizinsk/git-bzr.html Git and Bazaar: Subversion interoperability] (in [http://info.wsisiz.edu.pl/~blizinsk/git-bzr.pl.html Polish])
 
+== Portability ==
+
+* [http://speirs.org/2007/07/22/getting-git-svn-working-on-the-mac/ Getting git-svn working on the Mac]
+
 == Usage ==
 
 * [http://blog.madduck.net/vcs/2007.07.11_publishing-git-repositories Publishing Git repositories]
