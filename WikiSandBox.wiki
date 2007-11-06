@@ -126,13 +126,16 @@ Total (sum);                    656
 
 == Styled table ==
 
+<!-- ## comment?
+ -->
+
  ||<tablewidth="60%" rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer                         || Count      ||
  ||<width="60%"> very easy                      || 38         ||
  || easy                           || 136        ||
  || reasonably                     || 318        ||
  || hard                           || 131        ||
  || very hard                      || 33         ||
- ||<rowstyle="font-weight: bold; background-color: #ccffff;"> Base                           || 656 / 683  ||
- ||<rowstyle="font-weight: bold; background-color: #ccffff;"> Total (sum)                    || 656        ||
+ ||<rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           || 656 / 683  ||
+ ||<rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    || 656        ||
 
 __NOTOC__
