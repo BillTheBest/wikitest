@@ -44,6 +44,7 @@ give you an introduction to the basic workflows.
 * [http://marc.theaimsgroup.com/?l=git&m=113402372012587&w=4 git for the confused]
  a great explanation and summary of all git commands, some are out of date but still valuable.
 
+* [http://wincent.com/knowledge-base/Category:Git CategoryGit] at [http://wincent.com/knowledge-base/Main_Page Knowledge Base] wiki by Wincent Colaiuta.
 * Check [[GitLinks]] for further info (including git-related info on pages of projects using git). 
 * Some Chinese git tutorials: 
 ** [http://www.linuxsir.org/main/doc/git/gittutorcn.htm] or [http://www.bitsun.com/documents/gittutorcn.htm]
