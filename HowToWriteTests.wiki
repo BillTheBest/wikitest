@@ -51,12 +51,4 @@ test_expect_success 'narf' '
 </nowiki></pre>
 The backslash before "EOF" means that strings in the text beginning with a dollar sign are not interpreted as variables.
 
-Basically, you can use all your usual shell script skills.  But there are a few caveats:
-* 'echo -n' is not portable; use 'printf' instead.
-* 'sed -i' is not portable; use 'sed < $f >$f- && mv $f- $f' instead.
-* 'sed' "fixes" a missing newline at the end on some platforms.  If you need to keep the last line without a newline, add the last line with 'echo "..." | tr -d '\n' >> file'.
-
-----
-[[CategoryGitDocumentation]]
-
 __NOTOC__
