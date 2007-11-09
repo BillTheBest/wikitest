@@ -100,6 +100,7 @@ Also see [[BlogPosts]] for a collection of blog posts on specific Git usage.
 * [http://gravityboy.livejournal.com/33022.html We've Moved!] -- Debian X packaging team  ([http://wiki.debian.org/XStrikeForce/ XSF]) switches over from Subversion to git.
 * [http://tytso.livejournal.com/29467.html Git and hg] by Ted Tso on his LiveJournal blog, describes UNIX-like mentality of Git, but also talks about it's shortcomings in documentation and ease of use.
 * [http://jaredrobinson.com/blog/?p=62 What’s happening with Version Control Systems?] from January 28, 2007 on [http://jaredrobinson.com/blog Jared’s Blog] talks about different SCM systems and gives  highly subjective comparison table for Subversion, SVK,	Git/Cogito, Mercurial, Bazaar-NG, Darcs and 	Perforce.
+* [http://www.betaversion.org/~stefano/linotype/news/106/ On Version Control Architectures and the Fear of Displacing Innovation] on [http://www.betaversion.org/~stefano/linotype/ Stefano's Linotype] - Stefano Mazzocchi blog, presents some thoughts based on watching [http://www.youtube.com/watch?v=4XpnKHJAok8 Linus Torvalds' talk on git] (see below).
 * [http://blog.madduck.net/vcs/ Martin "madduck" Krafft's blog] (articles tagged <b>vcs</b>)
 * [http://www.spearce.org/category/projects/scm/ Insufficiently Random] (articles tagged <b>scm</b>), blog by Shawn O. Pearce.
 * [http://www.jukie.net/~bart/blog/tag/git Bart's Blog] (articles tagged <b>git</b>), blog by Bart Trojanowski.
