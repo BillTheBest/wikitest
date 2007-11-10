@@ -265,6 +265,9 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * LiveCD-tools
 * http://fedoraproject.org/wiki/[[FedoraLiveCD]] (homepage)
 * http://gitweb.freedesktop.org/?p=users/david/livecd-tools.git (gitweb)
+* LScube
+* http://live.polito.it (homepage)
+* http://live.polito.it/gitweb (gitweb)
 * [[MadMutt]]
 * http://git.madism.org/?p=madmutt.git (gitweb)
 * [[MirrorManager]]
