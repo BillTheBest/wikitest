@@ -470,38 +470,65 @@ which will show something like
 
 and you should now have a line that looks like
 
-* 10064 blob 4b9458b3786228369c63936db65827de3cc06200     my-magic-file
-in the output. This already tells you a *lot* it tells you what file the  corrupt blob came from!
+<pre><nowiki>
+   10064 blob 4b9458b3786228369c63936db65827de3cc06200     my-magic-file
+</nowiki></pre>
 
-Now, it doesn't tell you quite enough, though: it doesn't tell what  *version* of the file didn't get correctly written! You might be really  lucky, and it may be the version that you already have checked out in your  working tree, in which case fixing this problem is really simple, just do
-* git hash-object -w my-magic-file
+in the output. This already tells you a *lot* it tells you what file the corrupt blob came from!
+
+Now, it doesn't tell you quite enough, though: it doesn't tell what *version* of the file didn't get correctly written! You might be really lucky, and it may be the version that you already have checked out in your  working tree, in which case fixing this problem is really simple, just do
+
+<pre><nowiki>
+   git hash-object -w my-magic-file
+</nowiki></pre>
+
 again, and if it outputs the missing SHA1 (4b945..) you're now all done!
 
 But that's the really lucky case, so let's assume that it was some older  version that was broken. How do you tell which version it was?
 
 The easiest way to do it is to do
 
-* git log --raw --all --full-history -- subdirectory/my-magic-file
-and that will show you the whole log for that file (please realize that  the tree you had may not be the top-level tree, so you need to figure out  which subdirectory it was in on your own), and because you're asking for  raw output, you'll now get something like
+<pre><nowiki>
+   git log --raw --all --full-history -- subdirectory/my-magic-file
+</nowiki></pre>
 
-* commit abc Author: Date:
-** .
- :100644 100644 4b9458b... newsha... M  somedirectory/my-magic-file commit xyz Author: Date:
-* .
- :100644 100644 oldsha... 4b9458b... M   somedirectory/my-magic-file
-and this actually tells you what the *previous* and *subsequent* versions  of that file were! So now you can look at those ("oldsha" and "newsha"  respectively), and hopefully you have done commits often, and can  re-create the missing my-magic-file version by looking at those older and  newer versions!
+and that will show you the whole log for that file (please realize that the tree you had may not be the top-level tree, so you need to figure out which subdirectory it was in on your own), and because you're asking for  raw output, you'll now get something like
+
+<pre><nowiki>
+   commit abc
+   Author:
+   Date:
+
+   ...
+   :100644 100644 4b9458b... newsha... M  somedirectory/my-magic-file
+
+   commit xyz
+   Author:
+   Date:
+
+   ...
+   :100644 100644 oldsha... 4b9458b... M   somedirectory/my-magic-file
+</nowiki></pre>
+
+and this actually tells you what the *previous* and *subsequent* versions of that file were! So now you can look at those ("oldsha" and "newsha" respectively), and hopefully you have done commits often, and can re-create the missing my-magic-file version by looking at those older and newer versions!
 
 If you can do that, you can now recreate the missing object with
 
-* git hash-object -w <recreated-file>
+<pre><nowiki>
+   git hash-object -w <recreated-file>
+</nowiki></pre>
+
 and your repository is good again!
 
 (Btw, you could have ignored the fsck, and started with doing a
 
-* git log --raw --all
-and just looked for the sha of the missing object (4b9458b..) in that  whole thing. It's up to you - git does *have* a lot of information, it is  just missing one particular blob version.
+<pre><nowiki>
+   git log --raw --all
+</nowiki></pre>
 
-Trying to recreate trees and especially commits is *much* harder. So you  were lucky that it's a blob. It's quite possible that you can recreate the  thing."
+and just looked for the sha of the missing object (4b9458b..) in that whole thing. It's up to you - git does *have* a lot of information, it is just missing one particular blob version.
+
+Trying to recreate trees and especially commits is *much* harder. So you were lucky that it's a blob. It's quite possible that you can recreate the thing."
 
 [[Anchor(set-up-repo)]]
 
