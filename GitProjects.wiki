@@ -232,10 +232,6 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * http://featherstitch.cs.ucla.edu/howto/ (development)
 * http://featherstitch.cs.ucla.edu/gitweb?p=fstitch (gitweb)
 * git://featherstitch.cs.ucla.edu/fstitch/fstitch (repository)
-* Feng
-* http://live.polito.it/feng (homepage)
-* http://live.polito.it/building (development)
-* http://live.polito.it/gitweb/?p=feng.git (gitweb)
 * Frugalware Linux
 * http://frugalware.org/about (homepage)
 * http://git.frugalware.org/gitweb/gitweb.cgi (gitweb)
@@ -265,9 +261,16 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * LiveCD-tools
 * http://fedoraproject.org/wiki/[[FedoraLiveCD]] (homepage)
 * http://gitweb.freedesktop.org/?p=users/david/livecd-tools.git (gitweb)
-* LScube
+* LScube projects
 * http://live.polito.it (homepage)
 * http://live.polito.it/gitweb (gitweb)
+* http://live.polito.it/building (development)
+** Feng
+*** http://live.polito.it/feng (homepage)
+*** http://live.polito.it/gitweb/?p=feng.git (gitweb)
+* Libnemesi
+** http://live.polito.it/libnemesi (homepage)
+** http://live.polito.it/gitweb/?p=libnemesi.git (gitweb)
 * [[MadMutt]]
 * http://git.madism.org/?p=madmutt.git (gitweb)
 * [[MirrorManager]]
