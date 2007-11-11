@@ -17,10 +17,11 @@ Please feel free to experiment here, after the four dashes below... and please d
 == Test Section ==
 hmm... how would one go about creating a user account?  the [[UserPreferences]] page behind the login link seems to be b0rken.
 
-* [[GitSurvey]], [[Git]] - wikipedia-like syntax
+* [[GitSurvey]], [[Git]], [[Git]] - wikipedia-like syntax
 * [[GitSurvey:surve]] - wikipedia-like pipe link
 * <code><nowiki>backticks typewriter</nowiki></code>
 * Camel<code><nowiki></nowiki></code>Case
+
 == Formatting ==
 <i>italic</i> <b>bold</b> <code><nowiki>typewriter</nowiki></code>
 
@@ -57,6 +58,8 @@ def syntax(highlight):
 
 * <code><nowiki>[[MoinMoin]]:[[InterWiki]]</nowiki></code> -> [[MoinMoin]]:[[InterWiki]]
 * <code><nowiki>[[MoinMoin:[[InterWiki]]|[[InterWiki]]] on [[MoinMoin]]]</nowiki></code> -> [[MoinMoin:[[InterWiki]]|[[InterWiki]]] on [[MoinMoin]]]
+* <code><nowiki>[[WikiPedia:Subversion]</nowiki></code>|-> [wiki:WikiPedia:Subversion]]
+* <code><nowiki>[[WikiPedia:Subversion|Subversion]]</nowiki></code> -> [[WikiPedia:Subversion|Subversion]]
 http://moinmoin.wikiwikiweb.de/ [http://www.python.org/ Python]
 
 someone@the.inter.net
