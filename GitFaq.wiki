@@ -116,7 +116,7 @@ So, the merge does not rewrite your commits. They will stay the same. A rebase _
 == Why "git rm" is not inverse of "git add"? ==
 Don't think of 'rm' as inverse of 'add'.  That would only confuse you.
 
-A natural inverse of 'add' is 'un-add', and that operation is called 'rm --cached', because we use that to name the option to invoke an "index-only" variant of a command when the command can operate on index and working tree file (e.g. "diff --cached", "apply --cached").
+In the case of adding a new file, a natural inverse of 'add' is 'un-add', and that operation is called 'rm --cached', because we use that to name the option to invoke an "index-only" variant of a command when the command can operate on index and working tree file (e.g. "diff --cached", "apply --cached").
 
 A life of a file that does _not_ make into a commit goes like this:
 
@@ -139,6 +139,8 @@ Obviously, we cannot usefully combine steps 1 and 2.  We could have "git add --c
 The fact that steps 3 and 4 can be naturally combined, but steps 1 and 2 cannot be, makes "add" and "rm" not inverse of each other.
 
 * [http://mid.gmane.org/7vps2y3a4n.fsf@assigned-by-dhcp.cox.net Re: git-rm isn't the inverse action of git-add] message by Junio C Hamano.
+
+When git-add is used to add changes made to a file already tracked by git, the inverse of that operation is 'git reset HEAD -- <file>'.
 = Features =
 [[Anchor(git-crlf)]]
 
