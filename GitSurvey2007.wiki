@@ -983,14 +983,836 @@ Conclusions:
 It looks like the Git users community is divided into part of users who started using it from beginning, or almost from beginning, and users which started using git post v1.3.0 (post e.g. making separate remotes the default layout of branches).
 
 == Other SCMs ==
-=== 10. What other SCM did/do you use? ===
-=== 11. Why did you chose GIT? ===
+
+=== 10. What other SCMs did/do you use? ===
+
+This question is not well thought out, as it gathers together (in the free-form which is not easy to tabularize with large number of responses we got) SCMs which one used and no longer uses, SCMs which are used in parallel with git, and SCMs which are used instead of git (which are chosen as main SCM for a project). Nevertheless it shows with which VCS, and its conceps, are users familiar with.
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <tablestyle="font-size: smaller;" rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer 
+|  Count 
+| 
+|}
+<!-- ##-----------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  AccuRev                      
+|  3   
+| 
+|-
+|  Aegis                          
+|  1   
+| 
+|-
+|  Bazaar                         
+|  19  
+| 
+|-
+|  Bazaar-NG                      
+|  50  
+| 
+|-
+|  BitKeeper                    
+|  27  
+| 
+|-
+|  CCC                            
+|  1   
+| 
+|-
+|  CMS (Digital)                  
+|  1   
+| 
+|-
+|  CMS (VAX)                      
+|  1   
+| 
+|-
+|  CMS (VMS)                      
+|  1   
+| 
+|-
+|  CVCS                           
+|  1   
+| 
+|-
+|  CVS                            
+|  454 
+| 
+|-
+|  ClearCase                    
+|  43  
+| 
+|-
+|  CodeMgr                      
+|  1   
+| 
+|-
+|  Continuus                      
+|  1   
+| 
+|-
+|  Darcs                          
+|  78  
+| 
+|-
+|  DesignSync                   
+|  1   
+| 
+|-
+|  GNU Arch                       
+|  57  
+| 
+|-
+|  Mercurial                      
+|  92  
+| 
+|-
+|  Monotone                       
+|  31  
+| 
+|-
+|  Omniworks                      
+|  1   
+| 
+|-
+|  OpenCM                       
+|  1   
+| 
+|-
+|  PRCS                           
+|  1   
+| 
+|-
+|  PVCS                           
+|  12  
+| 
+|-
+|  Perforce                       
+|  50  
+| 
+|-
+|  Quilt                          
+|  2   
+| 
+|-
+|  RCS                            
+|  61  
+| 
+|-
+|  SCCS                           
+|  18  
+| 
+|-
+|  SCM                            
+|  1   
+| 
+|-
+|  SCSS                           
+|  1   
+| 
+|-
+|  SVK                            
+|  19  
+| 
+|-
+|  Serena Version Manager         
+|  1   
+| 
+|-
+|  SourceForge                  
+|  1   
+| 
+|-
+|  Sourcerer's Apprentice         
+|  1   
+| 
+|-
+|  StarTeam                     
+|  4   
+| 
+|-
+|  Subversion                     
+|  524 
+| 
+|-
+|  Sun NSE                        
+|  2   
+| 
+|-
+|  Sun TeamWare                 
+|  4   
+| 
+|-
+|  VCS                            
+|  1   
+| 
+|-
+|  VMS                            
+|  1   
+| 
+|-
+|  VSS                            
+|  26  
+| 
+|-
+| <-2>
+| 
+|-
+|  'cp -a'                        
+|  1   
+| 
+|-
+|  akpm patch scripts             
+|  1   
+| 
+|-
+|  custom in-house tools          
+|  1   
+| 
+|-
+|  diff patch                     
+|  2   
+| 
+|-
+|  notes-on-paper-made-by-hand    
+|  1   
+| 
+|-
+|  really horrible stuff          
+|  1   
+| 
+|-
+|  scripts for 'shadow trees'     
+|  1   
+| 
+|-
+|  tarballs                       
+|  1   
+| 
+|-
+|  tlib                           
+|  1   
+| 
+|-
+| <-2>
+| 
+|-
+|  none                           
+|  9   
+| 
+|-
+|  undisclosed                    
+|  1   
+| 
+|}
+<!-- ##-----------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                     
+|  654 / 683 
+| 
+|-
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)              
+|  1615      
+| 
+|}
+<!-- ## table end
+ -->
+
+The above table is in alphabetical order. It was generated from free-form answers, tabularized as multiple choice answer.
+
+Note that this question does not distinguish between SCMs/VCSs which were used prior to Git and used no longer, SCMs which are used beside (in parallel) to Git perhaps interacting with Git, and SCMs which are used instead of Git. Also note that this is <u>Git User's</u> survey, so it those number for example do not represent number of e.g. users of Mercurial as compared to e.g. users of Subversion.
+
+Below there is table of SCM used, sorted by the number of responses.  Note that annotations (like "a little CVS") were not weighted here. Only SCMs which has count more that 10 are shown.  One person can (and usually did) chose more than one SCM.
+
+In the table below links are to [http://en.wikipedia.org Wikipedia] article about specified SCM.
+
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer 
+|  Count 
+| 
+|}
+<!-- ##--------------------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  [[WikiPedia:Subversion_(software)|Subversion]]  
+|  524  
+| 
+|-
+|  [[WikiPedia:Concurrent_Versions_System|CVS]]    
+|  454  
+| 
+|-
+|  [[WikiPedia:Mercurial_(software)|Mercurial]]    
+|  92   
+| 
+|-
+|  [[WikiPedia:Darcs|Darcs]]                       
+|  78   
+| 
+|-
+|  [[WikiPedia:Revision_Control_System|RCS]]       
+|  61   
+| 
+|-
+|  [[WikiPedia:GNU_arch|GNU Arch]]                 
+|  57   
+| 
+|-
+|  [[WikiPedia:Bazaar_(software)|Bazaar-NG]]       
+|  50   
+| 
+|-
+|  [[WikiPedia:Perforce|Perforce]]                 
+|  50   
+| 
+|-
+|  [[WikiPedia:IBM_Rational_ClearCase|[[ClearCase]]]]  
+|  43   
+| 
+|-
+|  [[WikiPedia:Monotone_(software)|Monotone]]      
+|  31   
+| 
+|-
+|  [[WikiPedia:[[BitKeeper]]|[[BitKeeper]]]]               
+|  27   
+| 
+|-
+|  [[WikiPedia:Microsoft_Visual_SourceSafe|VSS (MS Visual [[SourceSafe]]])] 
+|  26   
+| 
+|-
+|  [[WikiPedia:Baz_(software)|Bazaar]]<<[[FootNote]](Bazaar-NG (bzr) might been mistaken for old Bazaar (baz); the tabularization is biased towards Bazaar-NG, e.g. answer of "Bazaar" was taken for Bazaar-NG, only "baz" for Bazaar)>> 
+|  19   
+| 
+|-
+|  [[WikiPedia:SVK|SVK]]                           
+|  19   
+| 
+|-
+|  [[WikiPedia:Source_Code_Control_System|SCCS]]   
+|  18   
+| 
+|-
+|  [[WikiPedia:PVCS|PVCS]]                         
+|  12   
+| 
+|}
+<!-- ##--------------------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="border-top: dotted;"> tla+baz+bzr<<[[FootNote]](tla+baz+bzr = GNU Arch (tla), old Bazaar (baz), Bazaar-NG (bzr))>> 
+|  129  
+| 
+|}
+<!-- ##--------------------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base 
+|  654 / 683 
+| 
+|}
+
+<b>Footnotes:</b>
+<<[[FootNote]]>>
+
+As you can see two most popular SCMs are Subversion ('svn') and CVS, with Subversion being a bit more popular.  Among distributed SCMs with most count are Mercurial ('hg') and Arch and its descendants ('tla', 'baz', 'bzr'). From proprietary (non-OSS) revision control systems Perforce ('p4'), ClearCase (and ClearCase UCM), BitKeeper ('bk') and Visual SourceSafe (aka. that awful M$ one ;-) got most count.
+
+Note that the count for given version control system does not reflect <i>preferences</i> of git users. One can be forced to use specified SCM.
+
+Compare this to the following table of SCMs popularity, based on the number of people who have given SCM in [http://www.ohloh.net/about/faq#stack "stack"] on [[WikiPedia:Ohloh|Ohloh]].  Note that this data might be biased because Ohloh for now supports only CVS, SVN (Subversion) and Git repositories.  Data taken on 11-11-2007:
+
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Project 
+|  Stacks 
+| 
+|}
+<!-- ##--------------------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Subversion                     
+|  1568 
+| 
+|-
+|  CVS                            
+|  223  
+| 
+|-
+|  Git                            
+|  212  
+| 
+|-
+|  Mercurial                      
+|  76   
+| 
+|-
+|  Bazaar-NG                      
+|  43   
+| 
+|-
+|  Darcs                          
+|  40   
+| 
+|-
+|  SVK                            
+|  36   
+| 
+|-
+|  Monotone                       
+|  16   
+| 
+|}
+
+See also question 35: "How does GIT compare to other SCM?".
+
+=== 11. Why did you choose GIT? ===
+
+(Very similar to question 36. "What do you like about using GIT?")
+
+<b>TO DO</b><<BR>>
+643 / 683 non-empty responses
+
 === 12. Why did you choose other SCMs? ===
-=== 13. What would you require from GIT to enable you to change, if you use other SCM for your project? ===
-=== 14. Did you import your repository from foreign SCM? Which SCM? ===
+
+<b>TO DO</b><<BR>>
+606 / 683 non-empty responses
+
+=== 13. What would you require from GIT to enable you to change... ? ===
+
+What would you require from GIT to enable you to change, if you use other SCM for your project?
+
+474 / 683 non-empty responses
+
+List of answers, without count (which for this question is, I think, less important), divided into broad categories, is shown below
+
+Generic:
+* being more user-friendly, easier to use<<BR>> more friendly output from commands<<BR>> better and clearer error messages<<BR>> stable command semantics
+* reduced number of (visible) commands<<BR>> clear separation of plumbing and porcelain
+* consistent set of commands<<BR>> consistency if command flags
+* easier to learn (easier learning curve)
+* more stability
+* support UTF-16
+* A clearer UI. Read the monotone list archive. 70% of the mails are UI related. The result is an clear and easy to use intuitive UI that does what you expect in most cases.
+
+Performance:
+* better performance on massive trees (FreeBSD)
+* good speed on NTFS (MS WIndows)
+
+Documentation:
+* a good documentation<<BR>> user/installation documentation<<BR>> troubleshooting guide<<BR>> 'Git For Dummies', 'The Git Book' 
+* documented workflows (including centralized repo workflow, or at least documenting how and why replace it with better workflow)
+* development model tutorials<<BR>> more example usage<<BR>> best practices<<BR>> case studies
+* guide for designing a branch policy for a shared repository
+* screencasts
+* documentation in one's native language
+* good in-depth administative documentation
+* maybe git-tutor program
+
+Specific features:
+* partial-tree checkouts (partial checkout), checking out arbitrary subdirectories
+* granular permissions (ACL) within the tree, e.g. restricting translators to the po/ subdirectory
+* shallow clone from a given commit: git clone --depth <commit>
+* automatic (re)packing
+* lightweight working copies
+* better and well documented submodule support
+* multi-project support / multiple sandboxes support
+* git-bind/unbind (like in bzr)
+* git-sync
+* cvs-compatible syntax as an option
+* tracking empty directories
+* more friendliness with corporate firewalls
+* ability to preserve permissions/modes/EA of files and directories<<BR>> access control features /  visibility access control<<BR>> disabling some users from accessing certain parts of the repository
+* being able to merge directories (instead of branches)
+* FastCGI gitweb
+* some embedded keyword capabilities similar to those provided by CVS and Subversion
+* ignore files during merge
+* R/W git server (allow push), with NIS, LDAP support
+* pull/rebase into dirty tree
+* clearcase dynamic view-like support (externally?)
+* better http(s) push via WebDAV: hooks<<BR>> working and easy to setup push over https
+* plain simple FTP upload (push) and download (clone, fetch)
+* better working through corporate firewalls
+
+Portability:
+* native MS Windows support, easy installer package, even better support for all platforms; easier setup on Solaris and AIX
+* pre-prepared <u>static</u> binaries for FreeBSD, MacOS X, MS Windows
+* less dependencies
+* support for more platforms
+* a portable version of git, one binary + library (gitbox)
+* Windows version(s) mentioned on homepage
+
+GUI:
+* better (G)UI<<BR>> TortoiseGit for MS Windows, or other Windows front-end<<BR>> good, advanced GTK+ 2.x tool to visualize git
+* history graph conected to file tree in GUIs
+* easier management of remotes using GUI
+* better diff viewing tools (side-by-side, like KDiff3)
+
+Other SCMs:
+* seamless import<<BR>> BitKeeper / ClearCase import/sync<<BR>> tool to import TeamWare history into Git
+* better SCM interop
+* SCM rosetta / "Git for <SCM> users" documentation
+* import/export tools supporting incremental import and export
+* 100% Subversion interoperability
+* git update (stash, fetch, rebase, unstash) a la CVS
+* git-svnserve
+* svn:externals support
+
+Tools:
+* improved administrative tools
+* reasonable plugins for IDE (e.g. Visual Studio, KDevelop, NetBeans)<<BR>> full Eclipse / NetBeans / IntelliJ support
+* good integration with apps like Trac and Bugzilla<<BR>> work with continuous integration tools (Cruise Control etc...)
+* Git + Launchpad
+* libification (for tools support)
+
+Other:
+* SourceForge / Gna! / Google Projects support<<BR>> (free) hosting with git facilities<<BR>> FOSS hosting sites supporting git
+* commercial support / corporate backing, contractual service
+* number of users, to convince my co-workers that they're not a silly minority; popularity
+* projects switching to git
+* user education
+* marketing, advocacy videos
+* convincing coworkers / other members / boss<<BR>> willingness of the other developers to learn to use it
+* training/certification
+* a stop to the constant bashing of other SCMs - this doesn't get you any friends drop the arrogant attitude, work with the rest of the community and try to make something people can understand in an hour
+* http://wiki.FreeBSD.org/[[VersionControl]]
+* At work it'd require some kind of miracle.  Huge Perforce repository of highly interrelated stuff in which people can make sweeping changes in a single changelist. Lots of tools that access Perforce.  Slow as hell.
+
+=== 14. Did you import your repository from foreign SCM? What SCM? ===
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer 
+|  Count 
+| 
+|}
+<!-- ##-------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  N/A                            
+|  15    
+| 
+|-
+|  No                             
+|  169   
+| 
+|-
+|  Yes                            
+|  372   
+| 
+|}
+<!-- ##-------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base        
+|  556 / 683 
+| 
+|-
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum) 
+|  556       
+| 
+|}
+<!-- ## table end
+ -->
+
+This is anly partial analysis, as it deals only with first part of question. Second part, which SCM, has free-form structure and needed further processing.
+
+One can see that around half of git users have imported (at least one project) from foreign SCM.
+
 === 15. What tool did you use for import? ===
+
+Note that one can use more than one tool, for example for different repositories.
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer 
+|  Count 
+| 
+|}
+<!-- ##-----------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  by hand                        
+|  7   
+| 
+|-
+|  custom script                  
+|  21  
+| 
+|-
+|  fast-import script             
+|  3   
+| 
+|-
+| <-2>
+| 
+|-
+|  Tailor                         
+|  28  
+| 
+|}
+<!-- ##-----------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <colspan="2" rowstyle="font-style: italic; background-color: #ffffed; border-top: double;"> CVS import 
+| 
+|-
+|  git-cvsimport                  
+|  81  
+| 
+|-
+|  parsecvs                       
+|  12  
+| 
+|-
+|  fromcvs                        
+|  2   
+| 
+|-
+|  cvs2git                        
+|  1   
+| 
+|-
+|  cvstogit                       
+|  1   
+| 
+|}
+<!-- ##.........................................
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <colspan="2" rowstyle="font-style: italic; background-color: #ffffed; border-top: double;"> Subversion import 
+| 
+|-
+|  git-svn                        
+|  150 
+| 
+|-
+|  git-svnimport                  
+|  66  
+| 
+|}
+<!-- ##.........................................
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <colspan="2" rowstyle="font-style: italic; background-color: #ffffed; border-top: double;"> Other SCMs 
+| 
+|-
+|  git-archimport                 
+|  15  
+| 
+|-
+|  bk2git (customized)            
+|  1   
+| 
+|-
+|  darcs2git                      
+|  4   
+| 
+|-
+|  git-p4                         
+|  4   
+| 
+|-
+|  git-p4import                   
+|  1   
+| 
+|-
+|  git-ucmimport                  
+|  1   
+| 
+|-
+|  hg-to-git                      
+|  2   
+| 
+|-
+|  hg2git                         
+|  2   
+| 
+|-
+|  hgpullsvn                      
+|  1   
+| 
+|-
+|  hgsvn                          
+|  1   
+| 
+|-
+|  moin2git                       
+|  1   
+| 
+|}
+<!-- ##-----------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="border-top: dotted;"> unspecified                    
+|  18   
+| 
+|-
+|  N/A                            
+|  114 
+| 
+|}
+<!-- ##------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base         
+|  467 / 683 
+| 
+|-
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)  
+|  538       
+| 
+|}
+<!-- ## table end
+ -->
+
 === 16. Do your GIT repository interact with other SCM? Which SCM? ===
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer                         
+|  Count 
+| 
+|}
+<!-- ##-------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  N/A                            
+|  35    
+| 
+|-
+|  No                             
+|  228   
+| 
+|-
+|  Yes                            
+|  228   
+| 
+|}
+<!-- ##-------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           
+|  491 / 683 
+| 
+|-
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    
+|  491   
+| 
+|}
+<!-- ## table end
+ -->
+
+This is anly partial analysis, as it deals only with first part of question. Second part has free-form structure and needs further processing.
+
+One can see that around third of git users interacts (for at least one project) with foreign SCM, as compared to half of git users which have imported other SCM.
+
 === 17. What tool did/do you use to interact? ===
+
+This question is free-form question, but it is treated as multiple-choice question for the porposes of creating table of responses.
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer 
+|  Count 
+| 
+|}
+<!-- ##-----------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  by hand                        
+|  10  
+| 
+|-
+|  custom script                  
+|  16  
+| 
+|-
+| <-2>
+| 
+|-
+|  Tailor                         
+|  4   
+| 
+|-
+|  convert-repo                   
+|  1   
+| 
+|-
+| <-2>
+| 
+|-
+|  fromcvs                        
+|  1   
+| 
+|-
+|  git-cvsexportcommit            
+|  8   
+| 
+|-
+|  git-cvsimport                  
+|  19  
+| 
+|-
+|  git-cvsserver                  
+|  2   
+| 
+|-
+| <-2>
+| 
+|-
+|  git-svn                        
+|  164 
+| 
+|-
+|  git-svnimport                  
+|  2   
+| 
+|-
+| <-2>
+| 
+|-
+|  git-p4                         
+|  4   
+| 
+|-
+|  git-p4import                   
+|  1   
+| 
+|}
+<!-- ##-----------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="border-top: dotted;"> unspecified                    
+|  2   
+| 
+|-
+|  N/A                            
+|  153 
+| 
+|}
+<!-- ##-----------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base        
+|  385 / 683 
+| 
+|-
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum) 
+|  388       
+| 
+|}
+<!-- ## table end
+ -->
+
+The only tool which really allows to interact (two-way) with other SCM is git-svn (164 / 232). 
 
 == How you use GIT ==
 === 18. Do you use GIT for work, unpaid projects, or both? ===
