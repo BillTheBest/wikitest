@@ -131,11 +131,11 @@ Total (sum);                    656
 
  ||<tablewidth="60%" rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer                         || Count      ||
  ||<width="60%"> very easy                      || 38         ||
- || easy                           || 136        ||
+ || easy<<[[FootNote]](auto: easy)>>         || 136        ||
  ||<colspan="2" rowstyle="font-style: italic; background-color: #ffffdd;"> inner header ||
  || reasonably                     || 318        ||
  ||<-2>&nbsp;||
- || hard                           || 131        ||
+ || hard<<[[FootNote]](auto: hard)>>         || 131        ||
  ||<rowstyle="border-top: dotted;"> hard                           || 131        ||
  || hard                           || 131        ||
  ||<-2>||
@@ -143,5 +143,10 @@ Total (sum);                    656
  || very hard                      || 33         ||
  ||<rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           || 656 / 683  ||
  ||<rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    || 656        ||
+
+<b>Footnotes:</b>
+<<[[FootNote]]>>
+
+Some trailing text
 
 __NOTOC__
