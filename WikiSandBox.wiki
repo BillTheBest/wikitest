@@ -129,7 +129,7 @@ Total (sum);                    656
 <!-- ## comment?
  -->
 
- ||<tablewidth="60%" rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer                         || Count      ||
+ ||<tablewidth="60%" tablestyle="font-size: smaller;" rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer                         || Count      ||
  ||<width="60%"> very easy                      || 38         ||
  || easy<<[[FootNote]](auto: easy)>>         || 136        ||
  ||<colspan="2" rowstyle="font-style: italic; background-color: #ffffdd;"> inner header ||
