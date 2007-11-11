@@ -1,22 +1,632 @@
 = Git User's Survey 2007 summary =
 
-There will be summary of git survey from<<BR>>
-  http://www.survey.net.nz/survey.php?94e135ff41e871a1ea5bcda3ee1856d9
+This is (partial) summary of Git User's Survey 2007,<<BR>>
+ending at state from 28 September 2007
+(response ident `46f95167c967b`).
 
-Note that count is not exactly number of people. 
+The survey could be found there
+* [http://www.survey.net.nz/survey.php?94e135ff41e871a1ea5bcda3ee1856d9 Git User's Survey 2007] at [http://www.survey.net.nz survey.net.nz] (closed)
 
-You can get raw data till 28.09.2007 here: [http://git.or.cz/gitwiki/GitSurvey2007?action=[[AttachFile]]&do=get&target=surveydata.csv surveydata.csv]
+You can get raw data on which this summary is based here:
+* [http://git.or.cz/gitwiki/GitSurvey2007?action=[[AttachFile]]&do=get&target=surveydata.csv surveydata.csv]
 
-<b>Table of contents:</b>
+There were 683 individual responses.<<BR>>
+Note that count is not exactly number of people.
+
 ----
+<b>Table of contents:</b>
 <<<!-- ! TOC here -->(3)>>
 ----
 
 == About you ==
-===  01. What country are you in? ===
-===  02. What is your preferred non-programming language? ===
-===  03. How old are you? ===
-===  04. Which programming languages are you proficient with? ===
+
+=== 00. Date of response ===
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Date (extended range)          
+|  Count 
+|  Perc. 
+| 
+|-
+|  Before                         
+|      7 
+|   1.0% 
+| 
+|-
+|  During                         
+|    584 
+|  85.5% 
+| 
+|-
+|  After                          
+|     92 
+|  13.5% 
+| 
+|}
+<!-- ## table end
+ -->
+
+The ranges 'before', 'during' and 'after' refers to official duration of Git User's Survey 2007, from 20 August 2007 to 10 September 2007. Actually they are corrected to take into account the fact that local date on survey's server (or UTC date) might be different from local date on user computer, so duration of survey is taken as from 2007-08-19 to 2007-09-11.
+
+Most responses are from the start of survey, 20 and 21 August (133 and 103 responses respectively).  If anyone is interested I can provide full date by date histogram. 
+
+=== 01. What country are you in? ===
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer 
+|  Count 
+| 
+|}
+<!-- ##-----------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Algeria                        
+|  1   
+| 
+|-
+|  Argentina                      
+|  3   
+| 
+|-
+|  Australia                      
+|  25  
+| 
+|-
+|  Austria                        
+|  9   
+| 
+|-
+|  Belgium                        
+|  5   
+| 
+|-
+|  Brazil                         
+|  20  
+| 
+|-
+|  Bulgaria                       
+|  1   
+| 
+|-
+|  Canada                         
+|  44  
+| 
+|-
+|  Chile                          
+|  2   
+| 
+|-
+|  China                          
+|  4   
+| 
+|-
+|  Colombia                       
+|  2   
+| 
+|-
+|  Czech Republic                 
+|  10  
+| 
+|-
+|  Denmark                        
+|  7   
+| 
+|-
+|  Ecuador                        
+|  1   
+| 
+|-
+|  Estonia                        
+|  1   
+| 
+|-
+|  European Union                 
+|  1   
+| 
+|-
+|  Finland                        
+|  23  
+| 
+|-
+|  France                         
+|  36  
+| 
+|-
+|  Germany                        
+|  64  
+| 
+|-
+|  Greece                         
+|  3   
+| 
+|-
+|  Hungary                        
+|  2   
+| 
+|-
+|  India                          
+|  13  
+| 
+|-
+|  Ireland                        
+|  2   
+| 
+|-
+|  Israel                         
+|  6   
+| 
+|-
+|  Italy                          
+|  14  
+| 
+|-
+|  Japan                          
+|  4   
+| 
+|-
+|  Jersey                         
+|  1   
+| 
+|-
+|  Latvia                         
+|  1   
+| 
+|-
+|  Malaysia                       
+|  1   
+| 
+|-
+|  Mexico                         
+|  1   
+| 
+|-
+|  Netherlands                    
+|  15  
+| 
+|-
+|  New Zealand                    
+|  5   
+| 
+|-
+|  Norway                         
+|  14  
+| 
+|-
+|  Philippines                    
+|  3   
+| 
+|-
+|  Poland                         
+|  6   
+| 
+|-
+|  Portugal                       
+|  2   
+| 
+|-
+|  Puerto Rico                    
+|  1   
+| 
+|-
+|  Romania                        
+|  1   
+| 
+|-
+|  Russian Federation             
+|  6   
+| 
+|-
+|  Samoa                          
+|  1   
+| 
+|-
+|  Serbia                         
+|  1   
+| 
+|-
+|  Singapore                      
+|  2   
+| 
+|-
+|  Slovak Republic                
+|  1   
+| 
+|-
+|  Slovenia                       
+|  2   
+| 
+|-
+|  South Africa                   
+|  4   
+| 
+|-
+|  Spain                          
+|  11  
+| 
+|-
+|  Sri Lanka                      
+|  1   
+| 
+|-
+|  Sweden                         
+|  14  
+| 
+|-
+|  Switzerland                    
+|  15  
+| 
+|-
+|  UK / US                        
+|  1   
+| 
+|-
+|  United Kingdom                 
+|  40  
+| 
+|-
+|  United States of America       
+|  218 
+| 
+|-
+|  Venezuela                      
+|  1   
+| 
+|-
+|  Vietnam                        
+|  1   
+| 
+|}
+<!-- ##-----------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           
+|  673 / 683 
+| 
+|-
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    
+|  673       
+| 
+|}
+
+England and Scotland counts as United Kingdom here.  UK / US probablu means United Kingdom (Great Britain) or United States of America.  Table is sorted in alphabetical order.
+
+As one can easily see, slightly less than third of GIT users are in the USA (those who answered this survey).
+
+=== 02. What is your preferred non-programming language? ===
+
+This is multiple answers question, although most people gave only one preferred language.
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer 
+|  Count 
+| 
+|}
+<!-- ##-----------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Afrikaans                      
+|  1   
+| 
+|-
+|  Bulgarian                      
+|  1   
+| 
+|-
+|  Castellano                     
+|  2   
+| 
+|-
+|  Catalan                        
+|  1   
+| 
+|-
+|  Chinese                        
+|  2   
+| 
+|-
+|  Czech                          
+|  10  
+| 
+|-
+|  Danish                         
+|  6   
+| 
+|-
+|  Dutch                          
+|  12  
+| 
+|-
+|  English                        
+|  416 
+| 
+|-
+|  Finnish                        
+|  16  
+| 
+|-
+|  French                         
+|  33  
+| 
+|-
+|  Galician                       
+|  1   
+| 
+|-
+|  German                         
+|  58  
+| 
+|-
+|  Greek                          
+|  2   
+| 
+|-
+|  Hebrew                         
+|  1   
+| 
+|-
+|  Hungarian                      
+|  3   
+| 
+|-
+|  Italian                        
+|  9   
+| 
+|-
+|  Japanese                       
+|  1   
+| 
+|-
+|  LSF (French sign language)     
+|  1   
+| 
+|-
+|  Norwegian                      
+|  4   
+| 
+|-
+|  Polish                         
+|  5   
+| 
+|-
+|  Portuguese                     
+|  11  
+| 
+|-
+|  Romanian                       
+|  1   
+| 
+|-
+|  Russian                        
+|  13  
+| 
+|-
+|  Serbian                        
+|  1   
+| 
+|-
+|  Slovenian                      
+|  2   
+| 
+|-
+|  Spanish                        
+|  13  
+| 
+|-
+|  Swedish                        
+|  13  
+| 
+|-
+|  Swiss                          
+|  1   
+| 
+|-
+|  Ukrainian                      
+|  1   
+| 
+|-
+|  Vietnamese                     
+|  1   
+| 
+|}
+<!-- ## ----------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="border-top: dotted;"> invalid (computer language)    
+|  37  
+| 
+|-
+|  not understood                 
+|  4   
+| 
+|}
+<!-- ##-----------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           
+|  662 / 683   
+| 
+|-
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    
+|  684         
+| 
+|}
+<!-- ## table end
+ -->
+
+The question itself is not well formulated, as one can see from the number of answers with computer language, and "not understood" answers.  I am not native English speaker, but there were suggestions to use "natural language" instead of "non-programming language".
+
+Around two third of git users prefer English language, at least for dealing with computers.
+
+=== 03. How old are you? ===
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer 
+|  Count 
+| 
+|}
+<!-- ##------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  < 18                           
+|  11   
+| 
+|-
+|  18-21                          
+|  75   
+| 
+|-
+|  22-25                          
+|  174  
+| 
+|-
+|  26-30                          
+|  203  
+| 
+|-
+|  31-40                          
+|  146  
+| 
+|-
+|  41-50                          
+|  45   
+| 
+|-
+|  51-75                          
+|  13   
+| 
+|-
+|  76+                            
+|  0    
+| 
+|}
+<!-- ##------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           
+|  667 / 683 
+| 
+|-
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    
+|  667       
+| 
+|}
+
+Youngest git user who answered this survey is 14 years old, oldest is 74 years old. This is quite a span, I'd say,  The age of 25 got most count (51 answers).
+
+=== 04. Which programming languages you are proficient with? ===
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer                         
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##---------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  C                       
+|    582 
+|  85.2% 
+| 
+|-
+|  shell                   
+|    449 
+|  65.7% 
+| 
+|-
+|  Perl                    
+|    244 
+|  35.7% 
+| 
+|-
+|  Python                  
+|    316 
+|  46.3% 
+| 
+|-
+|  Tcl/Tk                  
+|    26  
+|   3.8% 
+| 
+|}
+<!-- ##---------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           
+|colspan="2" |   642 / 683   
+| 
+|-
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    
+|colspan="2" |  1617         
+| 
+|}
+<!-- ## table end
+ -->
+
+The choices include programming languages used by git.  This is multiple choice question (you can be proficient in more than one programming language).
+
+It look like there is only around 3/4 people proficient in Perl as compared to Python; it looks like Python is more popular. C is most popular; shell is more popular than Perl or Python.  The fewest people are proficient in Tcl/Tk. I'm sorry, git-gui and gitk guys; it looks like not many developers... around 4% of git users.
+
+You can check what are the contributions of each programming language to Git code at [http://www.ohloh.net/projects/278/analyses/latest Git Code Analysis at Ohloh].  In the table below there is shown state on November 2007 (there are also some lines / files I guess wrongly attributed to Assembly and DOS batch script):
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Language 
+|  LoC [%] 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  C/C++          
+|  51% 
+|  85.2% 
+| 
+|-
+|  shell script   
+|  28% 
+|  65.7% 
+| 
+|-
+|  Perl           
+|  13% 
+|  35.7% 
+| 
+|-
+|  Tcl            
+|   4% 
+|   3.8% 
+| 
+|-
+|  Python         
+|   2% 
+|  46.3% 
+| 
+|-
+|  Emacs Lisp     
+|   1% 
+|        
+| 
+|-
+|  CSS            
+|  <1% 
+|        
+| 
+|}
+<!-- ##----------------------------------
+ -->
 
 == Getting started with GIT ==
 ===  05. How did you hear about GIT? ===
