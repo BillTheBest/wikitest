@@ -139,13 +139,16 @@ Total (sum);                    656
  ||<rowstyle="border-top: dotted;"> hard                           || 131        ||
  || hard                           || 131        ||
  ||<-2>||
- || hard                           || 131        ||
- || very hard                      || 33         ||
+ || hard [[#fn_a (a)]]                           || 131        ||
+ || very hard[[#fn_b <sup>b</sup>]]                      || 33         ||
  ||<rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           || 656 / 683  ||
  ||<rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    || 656        ||
 
-<b>Footnotes:</b>
+<b>Footnotes (macro):</b>
 <<[[FootNote]]>>
+<b>Footnotes (by hand):</b>
+* <b>a)</b> <<Anchor(fn_a)>> hard
+* <b>b)</b> <<Anchor(fn_b)>> very hard
 
 Some trailing text
 
