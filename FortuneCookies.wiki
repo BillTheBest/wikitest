@@ -26,5 +26,26 @@ Here are few tips for new users, or users that don't like to read the manual:
 * Tip: you can add your favorite pages to your navibar. See your Quicklinks list in [[UserPreferences]].
 * Tip: you can search for multiple words, just like Google. See also [[HelpOnSearching]].
 * Tip: get email notification when this page change, by clicking <b><<[[GetText]](subscribe)>></b>.
+* Given enough eyeballs, all bugs are shallow.
+* Software is like sex; it's better when it's free.
+* We all know Linux is great: it does infinite loops in 5 seconds.
+* "I name all my projects after myself: first 'Linux', now 'git'".
+* ... where "core git" originally was about "what I use" and the whole "porcelain" side ends up being "what people who need hand-holding use"
+* Real Programmers think better when playing Adventure or Rogue.
+* If the code and the comments disagree, then both are probably wrong.
+* Syntactic sugar causes cancer of the semicolon.
+* "Never make any mistaeks."
+* The first time, it's a KLUDGE! The second, a trick. Later, it's a well-established technique!
+* The program isn't debugged until the last user is dead.
+* Step #1 in programming: understand people.
+* Do one thing and do it well.
+* To err is human, to forgive, beyond the scope of the Operating System.
+* Testing can show the presense of bugs, but not their absence.
+* Case *does* matter. Anybody who claims otherwise is a total idiot. And no, e e cummings is not an example to the contrary.
+* The people will complain. On this list. And I have to check the mails before deleting, because the Subject: does not say "I just took the rope, ignored your caveat emptor, and now I am dead. What should I do now?".
+* In related news: there is really no question that bike sheds should be painted red. Really.
+* Forged-signature-by: J. Random Hacker <jrandom@example.com>
+* By "mutual agreement" I mean that I tell you what it looks like and you agree :)
+* To be fair, there are uses for XML.  On Halloween, for example.
 
 __NOTOC__
