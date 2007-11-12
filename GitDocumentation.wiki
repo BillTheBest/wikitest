@@ -58,6 +58,7 @@ give you an introduction to the basic workflows.
 Check the pages [[CategoryGitDocumentation|[[GitDocumentation]] category]] on this wiki.
 
 * Git glossary ([[GitGlossary|[[GitWiki]] version]], [http://www.kernel.org/pub/software/scm/git/docs/glossary.html HTML version], [http://www.kernel.org/git/?p=git/git.git;a=blob;hb=HEAD;f=Documentation/glossary.txt source via gitweb]) offers an explanation of terminology used.
+* [[GitCheatSheet]] (see also [[GitLinks#head-6af01ffee87e2fae45f78f5302e1d05b9f773a65:[[GitLinks]]]])
 * An overview of the [[RevisionSpecification]] used by the `git log` command and
  several repository visualizers.
 * A bit about [[GraftPoint|[[GraftPoints]]]]; when and how to use them.
