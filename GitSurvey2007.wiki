@@ -3088,9 +3088,359 @@ Sending patches via email is two to three times as popular as sending pull reque
 As it can be seen, only (or perhaps it is that many?) around a 6th to 7th of git users participate in its development by providing code. 
 
 == Internationalization ==
+
 === 31. Is translating GIT required for wider adoption? ===
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer 
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Yes                            
+|     49 
+|   7.2% 
+| 
+|-
+|  No                             
+|    383 
+|  56.1% 
+| 
+|-
+|  Somewhat                       
+|    158 
+|  23.1% 
+| 
+|}
+<!-- ##----------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base         
+|colspan="2" |   590 / 683   
+| 
+|-
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)  
+|colspan="2" |   590         
+| 
+|}
+<!-- ## table end
+ -->
+
+More than half of responders doesn't think that translating GIT is required for wider adoption.
+
 === 32. What do you need translated? ===
+
+Summary of responses:
+* user interface: command messages and error messages
+* GUI: git-gui, gitk
+* man pages and commands usage ('git <cmd> --help' , git <cmd> --usage')
+* user's manual, tutorials, intro, howtos
+* website / homepage
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer 
+|  Count 
+| 
+|}
+<!-- ##------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <-2>
+| 
+|-
+| <rowstyle="background-color: #ffffed;"> Documentation  
+|  60 
+| 
+|-
+| - man pages                    
+|  22 
+| 
+|-
+| - tutorials                    
+|  14 
+| 
+|-
+| - user's manual                
+|  7  
+| 
+|-
+| - howto                        
+|  2  
+| 
+|-
+| - introductory docs            
+|  2  
+| 
+|-
+| - online help                  
+|  1  
+| 
+|-
+| <-2>
+| 
+|-
+| <rowstyle="background-color: #ffffed;"> User interface 
+|  26 
+| 
+|-
+| - help<<[[FootNote]](By 'help' I mean here output of "git <cmd> --help" and/or "git <cmd> --usage", but it is not necessarily what user who wrote the answer meant.  This means that this reply might be miscalculated.)>> 
+|  9  
+| 
+|-
+| - command output               
+|  7  
+| 
+|-
+| - error messages               
+|  5  
+| 
+|-
+| <-2>
+| 
+|-
+| <rowstyle="background-color: #ffffed;">  GUI           
+|  13 
+| 
+|-
+| - git-gui                      
+|  6  
+| 
+|-
+| - gitk                         
+|  2  
+| 
+|-
+| - KGit                         
+|  1  
+| 
+|-
+| <-2>
+| 
+|-
+| <rowstyle="border-top: dotted;">  Homepage             
+|  1  
+| 
+|-
+|  Nothing                       
+|  75 
+| 
+|}
+<!-- ##---------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base         
+|  172 / 683 
+| 
+|-
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)  
+|  253       
+| 
+|}
+<!-- ## table end
+ -->
+
+<b>Footnotes:</b>
+<<[[FootNote]]>>
+
+Answer in subcategory is also counted as anser in category; answers for each of categories or subcategories are counted once.  It means that if one answered that he/she wants to have both man pages and user's manual translated it count as "Documentation" category only once.  Note that there were answers of for example 'documentation' without specifying details (answer in subcategory).
+
+This free-form question is tabularized (divided into categories) as multiple-choice answer; one can want to have both documentation and user interface translated.
+
 === 33. For what language do you need translation for? ===
+
+In alphabetic order, free-form question, treated as multiple choice.
+
+Languages for which [http://repo.or.cz/w/git-gui/git-gui-i18n.git git-gui translation] exists are marged in <i>italic</i> (state for 12.11.2007).
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer 
+|  Count 
+| 
+|}
+<!-- ##----------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Afrikaans                      
+|  1  
+| 
+|-
+|  Belorussian                    
+|  1  
+| 
+|-
+|  <i>Chinese</i>                    
+|  5  
+| 
+|-
+|  Dutch                          
+|  2  
+| 
+|-
+|  <i>English</i><<[[FootNote]](Git messages and documentation _is_ in English)>> 
+|  3  
+| 
+|-
+|  Filipino                       
+|  1  
+| 
+|-
+|  Finnish                        
+|  3  
+| 
+|-
+|  French                         
+|  21 
+| 
+|-
+|  <i>German</i>                     
+|  17 
+| 
+|-
+|  Greek                          
+|  1  
+| 
+|-
+|  Hebrew                         
+|  1  
+| 
+|-
+|  Hindi                          
+|  1  
+| 
+|-
+|  <i>Hungarian</i>                  
+|  1  
+| 
+|-
+|  <i>Italian</i>                    
+|  4  
+| 
+|-
+|  <i>Japanese</i>                   
+|  5  
+| 
+|-
+|  Mandarin                       
+|  1  
+| 
+|-
+|  Norwegian                      
+|  2  
+| 
+|-
+|  Polish                         
+|  2  
+| 
+|-
+|  Portuguese                     
+|  6  
+| 
+|-
+|  <i>Russian</i>                    
+|  6  
+| 
+|-
+|  Serbian                        
+|  2  
+| 
+|-
+|  Slovenian                      
+|  1  
+| 
+|-
+|  Spanish                        
+|  9  
+| 
+|-
+|  <i>Swedish</i>                    
+|  2  
+| 
+|-
+|  Tagalog                        
+|  1  
+| 
+|-
+|  Ukrainian                      
+|  1  
+| 
+|}
+<!-- ##----------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base 
+|  143 / 683 
+| 
+|-
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)<<[[FootNote]](Some answers were: "do not translate".)>> 
+|  100      
+| 
+|}
+<!-- ## table end
+ -->
+
+<b>Footnotes:</b>
+<<[[FootNote]]>>
+
+German and French are most popular. Spanish, Portuguese, Russian, Chinese + Mandarin and Japanese have count 5 or more.
+
+The table below show status of git-gui i18n project, as of 12-11-2007. <u>t</u> is for <b>t</b>ranslated, <u>f</u> is for <b>f</b>uzzy, <u>u</u> is for <b>u</b>ntranslated, and <u>o</u> for <b>o</b>bsolete.  Currently there are glossaries only for German (de) and Simplified Chinese (zh_cn) - 34 entries.
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Language 
+|  Status 
+| 
+|}
+<!-- ##-------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  German (de)     
+|  268t           
+| 
+|-
+|  Hungarian (hu)  
+|  268t+6o        
+| 
+|-
+|  Italian (it)    
+|  268t           
+| 
+|-
+|  Japanese (ja)   
+|  267t+1f        
+| 
+|-
+|  Russian (ru)    
+|  245t+20f+3u+5o 
+| 
+|-
+|  Swedish (sv)    
+|  268t           
+| 
+|-
+|  Chinese (zh_cn) 
+|  59t+38f+168u   
+| 
+|}
+<!-- ##-------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> git-gui.pot     
+|  268            
+| 
+|}
+<!-- ## table end
+ -->
 
 == What you think of GIT? ==
 === 34. Overall, how happy are you with GIT? ===
