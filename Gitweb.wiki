@@ -9,6 +9,11 @@ There even exists a <code><nowiki>git-instaweb</nowiki></code> script to setup g
 
 * [[InterfacesFrontendsAndTools#gitweb:gitweb entry in [[InterfacesFrontendsAndTools]] page]]
 * [[GitwebWishlist]]
+
+== Documentation ==
+
+* please add.
+
 == Notable forks ==
 * [http://git.xmms.se/?p=gitweb-xmms2.git;a=summary gitweb-xmms2] (gitweb with XMMS2 project modifications) by Sham Chukoury. Forked off before gitweb was included in the git repository. Extra features (added usually in project specific way) include: committags support (i.e. <u>BUG(nn)</u> is hyperlink to appropriate issue in Mantis bug tracker), syntax highlighting in 'blob' view, generating anchors to function definitions with the help of on-the-fly generated tags file. It implemented snapshot support and had separate CSS file before mainline gitweb.
 * [http://repo.or.cz/w/git/repo.git repo.or.cz] (custom gitweb patches) by Petr Baudis. Uses the current version of gitweb as base, has all features enabled. Includes extra scripts for creating and managing repositories, and integration with [http://repo.or.cz/w/git-browser.git/ git-browser], a graphical history viewer in [[JavaScript]].
