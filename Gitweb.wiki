@@ -19,7 +19,8 @@ There even exists a <code><nowiki>git-instaweb</nowiki></code> script to setup g
 
 == Documentation ==
 
-* please add.
+* [http://repo.or.cz/w/alt-git.git?a=blob_plain;f=gitweb/README  gitweb/README] (txt), describes build configuration variables, runtime configuration, and example webserver (Apache) configuration.
+* [http://repo.or.cz/w/alt-git.git?a=blob_plain;f=gitweb/INSTALL gitweb/INSTALL] (txt), describes how to build gitweb, build time configuration, gitweb config file, how to set-up gitweb repositories and repo specific config, and two example webserver (Apache2) configurations.
 
 == Notable forks ==
 * [http://git.xmms.se/?p=gitweb-xmms2.git;a=summary gitweb-xmms2] (gitweb with XMMS2 project modifications) by Sham Chukoury. Forked off before gitweb was included in the git repository. Extra features (added usually in project specific way) include: committags support (i.e. <u>BUG(nn)</u> is hyperlink to appropriate issue in Mantis bug tracker), syntax highlighting in 'blob' view, generating anchors to function definitions with the help of on-the-fly generated tags file. It implemented snapshot support and had separate CSS file before mainline gitweb.
