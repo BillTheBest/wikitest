@@ -47,5 +47,26 @@ Here are few tips for new users, or users that don't like to read the manual:
 * Forged-signature-by: J. Random Hacker <jrandom@example.com>
 * By "mutual agreement" I mean that I tell you what it looks like and you agree :)
 * To be fair, there are uses for XML.  On Halloween, for example.
+* A mouse is a device used to point at the xterm you want to type in.
+* The First Law of Thermodynamics: A system with a constant energy, volume and pressure behaves in any way it wants.
+* Everything you know is wrong.  But some of it is a useful first approximation.
+* Logic is a systematic method of coming to the wrong conclusion with confidence.
+* Technology is dominated by those who manage what they do not understand.
+* Nothing ever gets built on schedule or within budget.
+* To err is human, but to really foul things up requires a computer.
+* Vini, vidi, Linux!
+* Free Software: the Software by the People, of the People and for the People.<<BR>>Develop! Share! Enhance! and Enjoy!
+* Rule of Open-Source Programming #1: Don't whine unless you are going to implement it yourself.
+* Rule of Open-Source Programming #6: The user is always right unless proven otherwise by the developer.
+* Rule of Open-Source Programming #7: Release early, release often. Clean compilation is optional.
+* Rule of Open-Source Programming #11: When a developer says he will work on something, he or she means "maybe".
+* Rule of Open-Source Programming #15: If you like it, let the author know. If you hate it, let the author know why.
+* Rule of Open-Source Programming #34: Every successful project will eventually spawn a sub-project
+* Writing a BitKeeper replacement is probably easier at this point than getting its license changed. <i>(Matt Mackall)</i>
+* Beware of bugs in the above code; I have only proved it correct, not tried it.
+* The question of whether a computer can think is no more interesting than the question of whether a submarine can swim.
+* I'd love to change the world, but they won't give me the source code.
+* Whenever anyone says, "theoretically", they really mean, "not really".
+* It's harder to read code than to write it.
 
 __NOTOC__
