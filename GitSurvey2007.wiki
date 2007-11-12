@@ -1815,19 +1815,1277 @@ This question is free-form question, but it is treated as multiple-choice questi
 The only tool which really allows to interact (two-way) with other SCM is git-svn (164 / 232). 
 
 == How you use GIT ==
+
 === 18. Do you use GIT for work, unpaid projects, or both? ===
-=== 19. How do you obtain GIT?  Source tarball, binary package, or pull the main repository? ===
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer 
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  work                           
+|     56 
+|   8.2% 
+| 
+|-
+|  unpaid projects                
+|    212 
+|  31.0% 
+| 
+|-
+|  both                           
+|    377 
+|  55.2% 
+| 
+|}
+<!-- ##----------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <colspan="3" rowstyle="border-top: dotted;">
+| 
+|-
+|   work + both                   
+|    433 
+|  63.4% 
+| 
+|}
+<!-- ##----------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           
+|colspan="2" |   645 / 683   
+| 
+|-
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    
+|colspan="2" |   645         
+| 
+|}
+<!-- ## table end
+ -->
+
+Around two third of people use git at work, or for work.  
+
+See also question 55: "Would commerical (paid) support from a support vendor be of interest to you/your organization?"
+
+=== 19. How do you obtain GIT? ===
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer                         
+|  Count 
+|  Perc. 
+| 
+|-
+|  binary package                 
+|    283 
+|  41.4% 
+| 
+|-
+|  source tarball                 
+|    210 
+|  30.7% 
+| 
+|-
+|  pull from main repository      
+|    153 
+|  22.4% 
+| 
+|-
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           
+|colspan="2" |   646 / 683   
+| 
+|-
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    
+|colspan="2" |   646         
+| 
+|}
+<!-- ## table end
+ -->
+
+Around half more people use binary packages than source tarball (or source package, I think). More than half of people compile its own git (pull is also followed by compilation).
+
 === 20. What hardware platforms do you use GIT on? ===
-=== 21. What OS (please include the version) do you use GIT on? ===
-=== 22. What projects do you track (or download) using GIT, or git web interface? ===
+
+On Linux it was meant to be result of <code><nowiki>uname -i</nowiki></code>.  Note however that <code><nowiki>uname -i</nowiki></code> does not work on all Unices, as was indicated in help to this question.  I'm sorry for this mistake.
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer 
+|  Count 
+| 
+|}
+<!-- ##------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Intel                          
+|  73  
+| 
+|-
+|  Athlon                         
+|  2   
+| 
+|-
+|  i386                           
+|  171 
+| 
+|-
+|  i586                           
+|  9   
+| 
+|-
+|  i686                           
+|  60  
+| 
+|-
+|  IA-32                          
+|  6   
+| 
+|-
+|  IA-64                          
+|  8   
+| 
+|-
+|  AMD                            
+|  35  
+| 
+|-
+|  amd64                          
+|  48  
+| 
+|-
+|  x86                            
+|  156 
+| 
+|-
+|  x86-64                         
+|  112 
+| 
+|-
+| <-2>
+| 
+|-
+|  Apple                          
+|  8   
+| 
+|-
+|  iMac                         
+|  1   
+| 
+|-
+|  MacBook                      
+|  7   
+| 
+|-
+|  PowerBook                    
+|  10  
+| 
+|-
+|  PPC                            
+|  52  
+| 
+|-
+|  ppc64                          
+|  7   
+| 
+|-
+| <-2>
+| 
+|-
+|  ARM                            
+|  6   
+| 
+|-
+|  Alpha                          
+|  2   
+| 
+|-
+|  PA-RISC                        
+|  1   
+| 
+|-
+|  parisc64                       
+|  1   
+| 
+|-
+|  MIPS                           
+|  1   
+| 
+|-
+|  mips64                         
+|  1   
+| 
+|-
+|  mipsel                         
+|  2   
+| 
+|-
+|  SPARC                          
+|  8   
+| 
+|-
+|  sparc64                        
+|  6   
+| 
+|-
+|  SUNW                           
+|  6   
+| 
+|-
+|  Sun-Fire                       
+|  4   
+| 
+|-
+|  sun4u                          
+|  3   
+| 
+|-
+|  sun4v                          
+|  1   
+| 
+|-
+|  k8                             
+|  1   
+| 
+|}
+<!-- ##-----------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="border-top: dotted;"> unknown 
+|  67  
+| 
+|}
+<!-- ##-----------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base          
+|  637 / 683 
+| 
+|-
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)   
+|  875       
+| 
+|}
+<!-- ## table end
+ -->
+
+The above table is in some arbitrary order. It was generated from free-form answers, tabularized as multiple choice answer, as one person can use git on more than one architecture.
+
+Those results probably needs further processing to reduce number of choices, by gathering architectures.
+
+"Unknown" usually means that something else instead of architecture was given (like operating system), or architecture was too generic, like "PC".
+
+=== 21. What OS do you use GIT on? ===
+
+<b>What OS (please include the version) do you use GIT on?</b>
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer 
+|  Count 
+| 
+|}
+<!-- ##-----------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  AIX                            
+|  1   
+| 
+|-
+|  FreeBSD                      
+|  16  
+| 
+|-
+|  OpenBSD                      
+|  3   
+| 
+|-
+|  HP-UX                          
+|  1   
+| 
+|-
+|  Linux                          
+|  582 
+| 
+|-
+|  MS Windows (Cygwin)            
+|  22  
+| 
+|-
+|  MS Windows (msys)              
+|  1   
+| 
+|-
+|  MS Windows (unsp.)             
+|  35  
+| 
+|-
+|  MacOS X / Darwin             
+|  94  
+| 
+|-
+|  Solaris                        
+|  11  
+| 
+|-
+|  SunOS                        
+|  5   
+| 
+|-
+|  UNIX (unsp.)                   
+|  1   
+| 
+|-
+|  too many to list               
+|  1   
+| 
+|}
+<!-- ##-----------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <colspan="2" rowstyle="border-top: dotted;">
+| 
+|-
+|  MS Windows (together)          
+|  58  
+| 
+|-
+|  FreeBSD / OpenBSD          
+|  19  
+| 
+|-
+|  Unices (together)              
+|  19  
+| 
+|}
+<!-- ##-----------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base         
+|  645 / 683 
+| 
+|-
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)  
+|  775       
+| 
+|}
+
+The above was generated from free-form answers, tabularized as multiple choice answer, as one person can use git on more than one operating system.
+
+This is not a full analysis of answers, as it does not include operating system version, or (for Linux) distribution(s) used.
+
+=== 22. What projects do you track using GIT? ===
+
+<b>What projects do you track (or download) using GIT (or git web interface)?</b>
+
+A note: this question was meant to list projects which one <b>tracks</b>, not the ones he/she maintains, meaning the projects in the remotes (section); usually project which is "origin".  It was not meant to list all projects which one has under version control using git.
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <tablestyle="font-size: smaller;" rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer 
+|  Count 
+| 
+|}
+<!-- ##-----------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <-2>
+| 
+|-
+| <colspan="2" rowstyle="font-style: italic; background-color: #ffffed;"> undisclosed and own projects 
+| 
+|}
+<!-- ##.........................................
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  own                            
+|  83  
+| 
+|-
+|  private                        
+|  19  
+| 
+|-
+|  proprietary                    
+|  2   
+| 
+|-
+|  configuration files            
+|  4   
+| 
+|-
+|  work                           
+|  38  
+| 
+|-
+|  unspecified                    
+|  31  
+| 
+|-
+| <-2>
+| 
+|-
+| <colspan="2" rowstyle="font-style: italic; background-color: #ffffed;"> Git related projects 
+| 
+|}
+<!-- ##.........................................
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  git                            
+|  133 
+| 
+|-
+|  git-gui                        
+|  1   
+| 
+|-
+|  git-gui-i18n                   
+|  2   
+| 
+|-
+|  4msysgit                       
+|  2   
+| 
+|-
+|  msysgit                        
+|  5   
+| 
+|-
+|  mingw                          
+|  4   
+| 
+|-
+|  egit                           
+|  2   
+| 
+|-
+|  grit                           
+|  1   
+| 
+|-
+|  stgit                          
+|  5   
+| 
+|-
+|  guilt                          
+|  2   
+| 
+|-
+|  GSoC projects                
+|  1   
+| 
+|-
+|  Giggle                         
+|  6   
+| 
+|-
+|  qgit                           
+|  3   
+| 
+|-
+|  qgit4                          
+|  1   
+| 
+|-
+|  tig                            
+|  11  
+| 
+|-
+| <-2>
+| 
+|-
+| <colspan="2" rowstyle="font-style: italic; background-color: #ffffed;"> Linux kernel and related projects<<[[FootNote]](I have not included there some projects which I have only later checked that are also kernel-related, like blktrace, dkms, ethtool, hostap, open-iscsi, etc.)>> 
+| 
+|}
+<!-- ##.........................................
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  linux kernel                   
+|  178 
+| 
+|-
+|  linux-2.4                      
+|  1   
+| 
+|-
+|  linux-2.6                      
+|  15  
+| 
+|-
+|  linux-mips                     
+|  3   
+| 
+|-
+|  linux-mtd                      
+|  1   
+| 
+|-
+|  linux-omap                     
+|  3   
+| 
+|-
+|  iwlwifi                        
+|  5   
+| 
+|-
+|  klibc                          
+|  1   
+| 
+|-
+|  kvm                            
+|  4   
+| 
+|-
+|  module-init-tools              
+|  1   
+| 
+|-
+|  mtd-utils                      
+|  1   
+| 
+|-
+|  rt2x00                         
+|  2   
+| 
+|-
+|  pahole                         
+|  3   
+| 
+|-
+|  sparse                         
+|  12  
+| 
+|-
+|  udev                           
+|  6   
+| 
+|-
+|  wireless-dev                   
+|  3   
+| 
+|}
+<!-- ##.........................................
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <-2>
+| 
+|-
+|  kernel related                 
+|  7   
+| 
+|-
+| <-2>
+| 
+|-
+| <colspan="2" rowstyle="font-style: italic; background-color: #ffffed;"> Freedesktop projects<<[[FootNote]](Some of mentioned projects which are also hosted on freedesktop.org are not included here, neither in the list, not in the count for "freedesktop")>> 
+| 
+|}
+<!-- ##.........................................
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Cairo                          
+|  21  
+| 
+|-
+|  Compiz                         
+|  5   
+| 
+|-
+|  Compiz Fusion                  
+|  6   
+| 
+|-
+|  D-BUS                          
+|  3   
+| 
+|-
+|  DRM                            
+|  5   
+| 
+|-
+|  HAL                            
+|  7   
+| 
+|-
+|  Mesa3D                         
+|  16  
+| 
+|-
+|  x86info                        
+|  1   
+| 
+|-
+|  xcb                            
+|  2   
+| 
+|-
+|  xorg                           
+|  59  
+| 
+|-
+|  x drivers                      
+|  3   
+| 
+|-
+|  xf86-video-*                   
+|  6   
+| 
+|-
+|  xorg * drivers                 
+|  5   
+| 
+|-
+|  xserver                        
+|  7   
+| 
+|}
+<!-- ##.........................................
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <-2>
+| 
+|-
+|  freedesktop                    
+|  16  
+| 
+|-
+| <-2>
+| 
+|-
+| <colspan="2" rowstyle="font-style: italic; background-color: #ffffed;"> Other projects (only those with count >= 5) 
+| 
+|}
+<!-- ##.........................................  
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  ELinks                         
+|  5   
+| 
+|-
+|  GNOME (git-svn)                
+|  8   
+| 
+|-
+|  LilyPond                     
+|  10  
+| 
+|-
+|  OLPC                           
+|  12  
+| 
+|-
+|  Rubinius                       
+|  7   
+| 
+|-
+|  Thousand Parsec                
+|  6   
+| 
+|-
+|  U-Boot                         
+|  8   
+| 
+|-
+|  WINE                           
+|  29  
+| 
+|-
+|  XMMS2                          
+|  14  
+| 
+|}
+<!-- ##-----------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Projects shown (around) 
+|  55  / 76  
+| 
+|-
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                    
+|  560 / 683 
+| 
+|-
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)             
+|  1123      
+| 
+|}
+<!-- ## table end
+ -->
+
+<b>Footnotes:</b>
+<<[[FootNote]]>>
+
+Some people wrote URL of hosting site instead of (list of) project names; some wrote 'too many too list' (or equivalent).
+
+All projects were checked and, if not already present, added to [[GitProjects]] page on git wiki (except git related projects).
+
+Tracked projects can be divided into the following categories:
+* undisclosed: proprietary code / work projects, own projects, etc.
+* Linux kernel and kernel related projects (like udev or kvm)
+* git related: git, gitk, git-gui, git-gui-i18n, stgit, tig,...
+* freedesktop (and related) projects: XCB, Compiz, Mesa3D, Cairo,...
+* Linux distributions: Source Mage, Slind, Arch Linux,... (a few)
+* tracked via git-svn, e.g. nsd, KDE, GIMP, GNOME, FreeCiv, shell-fm
+* others with official git repositories (like XMMS2 or ELinks)
+* others with unofficial git repositories (like OpenOffice.org)
+
+I'm not sure if I catched all Linux kernel related projects, and all freedesktop (and related) projects.
+
+There are around 100 (?) different projects tracked mentioned in survey (not all of them <i>choose</i> git as their SCM; some have unoffical git repositories, some are accessed for example via git-svn).
+
 === 23. How many people do you collaborate with using GIT? ===
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer 
+|  Count 
+| 
+|}
+<!-- ##-----------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  0                              
+|  116 
+| 
+|-
+|  1                              
+|  50  
+| 
+|-
+|  2                              
+|  45  
+| 
+|-
+|  3                              
+|  48  
+| 
+|-
+|  4                              
+|  23  
+| 
+|-
+|  5                              
+|  41  
+| 
+|-
+|  6                              
+|  12  
+| 
+|-
+|  7                              
+|  5   
+| 
+|-
+|  8                              
+|  11  
+| 
+|-
+|  9-10                           
+|  47  
+| 
+|-
+|  11-15                          
+|  30  
+| 
+|-
+|  16-25                          
+|  26  
+| 
+|-
+|  26-50                          
+|  17  
+| 
+|-
+|  51-100                         
+|  17  
+| 
+|-
+|  100+                           
+|  8   
+| 
+|-
+| <-2>
+| 
+|-
+|  unknown number<<[[FootNote]](By unknown number I mean here answers like "git people", or "kernel community", or some text which did not contain a number (or a range).)>> 
+|  79  
+| 
+|}
+<!-- ##-----------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base         
+|  575 / 683 
+| 
+|-
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)  
+|  575       
+| 
+|}
+<!-- ## end table
+ -->
+
+<b>Footnotes:</b>
+<<[[FootNote]]>>
+
+<i>Question:</i> What ranges should be used here: 1, 2-9, 10-99, 100-999, 1000+ or perhaps 1, 2-5, 6-15, 16-25, 26-50, 50-100, 100-1000, 1000+, or yet another set of ranges?
+
 === 24. How big are the repositories that you work on? ===
+
+<b>TO DO</b><<BR>>
+<i>525 / 683 non-empty responses</i>
+
+Some git repositories have more than 50k files, more than 150k commits, more than 100mb largest file (although not single repository has all those).
+
 === 25. How many different projects do you manage using GIT? ===
+
+This question was meant to survey number of repositories one fetches from time to time.
+
+This was a free-form question. For the table belw only first number, or first range was taken.  For range ('$n-$m' or '$n to $m') the middle of range (($n+m)/2) was used.
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer (free form) 
+|  Count 
+| 
+|}
+<!-- ##-----------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  0                              
+|  10  
+| 
+|-
+|  1                              
+|  108 
+| 
+|-
+|  2                              
+|  84  
+| 
+|-
+|  3                              
+|  90  
+| 
+|-
+|  4                              
+|  53  
+| 
+|-
+|  5                              
+|  51  
+| 
+|-
+|  6                              
+|  19  
+| 
+|-
+|  7                              
+|  11  
+| 
+|-
+|  8                              
+|  12  
+| 
+|-
+|  9-10                           
+|  39  
+| 
+|-
+|  11-15                          
+|  26  
+| 
+|-
+|  16-25                          
+|  22  
+| 
+|-
+|  26-50                          
+|  19  
+| 
+|-
+|  51-100                         
+|  5   
+| 
+|-
+|  101+                           
+|  4   
+| 
+|}
+<!-- ##-----------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base         
+|  577 / 683 
+| 
+|-
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)  
+|  553       
+| 
+|}
+<!-- ## table end
+ -->
+
+The largest number of projects was 200k (if it is not a mistake), next largest is 410.
+
+As one can see we have here nice Poisson-like distribution: concentrated around low values, with long tail.  Well, bit quantized tail, as people write usually "around 20" (or equivalent), usually not remembering exact number of tracked repositories.
+
+Note that answer of '0' might have been given as no answer, or equivalent of 'N/A'.
+
 === 26. Which porcelains do you use? ===
+
+Multiple answers (one can use more than one porcelain).
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer (multiple choice) 
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##--------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  core-git                       
+|  558 
+|  81.7% 
+| 
+|-
+|  Cogito (deprecated)            
+|  56  
+|   8.2% 
+| 
+|-
+| <-3>
+| 
+|-
+| <rowstyle="background-color: #ffffed;"> Patch management interfaces: 
+|  57  
+|   8.3% 
+| 
+|}
+<!-- ##..................................................
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  StGIT                        
+|  41  
+|   6.0% 
+| 
+|-
+|  Guilt (formerly gq)            
+|  13  
+|   1.9% 
+| 
+|-
+|  pg (deprecated)                
+|  3   
+|   0.4% 
+| 
+|-
+| <-3>
+| 
+|-
+|  own scripts                    
+|  95  
+|  13.9% 
+| 
+|-
+|  other                          
+|  14  
+|   2.0% 
+| 
+|}
+<!-- ##--------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base         
+|colspan="2" | 593 / 683 
+| 
+|-
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)  
+|colspan="2" | 780       
+| 
+|}
+<!-- ## table end
+ -->
+
+Those 14 "other" answers make me wish to have provided "if other, what it was?" (sub)question; actually not only for this question.
+
+It is understandable that [[Cogito]] still has some users, even though it is deprecated, and (I think) all of its functionality can be found in git-core porcelain. It was meant as SCM / porcelain layer when git-core didn't have it and consisted almost only of plumbing commands.
+
+Quite a bit of people use patch management interface: StGIT, Guilt, even deprecated and abandoned pg (Patchy Git). StGIT has more users than Guilt (formerly gq), although that might be caused by the fact that StGIT was here longer... Some say that it is because of Guilt having non-standalone documentation; it needs reading hgbook, as Guilt concepts are based on mq (Mercurial [patch] queues) extension.
+
+Large number of users use their own scripts, more than any non-standard porcelain.  One wonders if this is a result of good git scriptability.
+
+14 users choose other... and there is no "what other" question, unfortunately... From the comments on git mailing list some people answered "other" because they consider git-gui (which is not present in above table) as porcelain rather than just git GUI.
+
 === 27. Which git GUI do you use? ===
+
+Multiple answers (one can use more than one GUI).  Note that for the first week and a bit of survey "CLI" answer had no explanation that it means command line interface, so results might be bit skewed.
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer (multiple choice) 
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##--------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  CLI (command line)             
+|  398 
+|  58.3% 
+| 
+|-
+|  gitk                           
+|  347 
+|  50.8% 
+| 
+|-
+|  git-gui                        
+|  123 
+|  18.0% 
+| 
+|-
+|  qgit                           
+|  82  
+|  12.0% 
+| 
+|-
+|  gitview                        
+|  15  
+|   2.2% 
+| 
+|-
+|  giggle                         
+|  48  
+|   7.0% 
+| 
+|-
+|  tig                            
+|  41  
+|   6.0% 
+| 
+|-
+|  instaweb                       
+|  16  
+|   2.3% 
+| 
+|-
+|  (h)gct                         
+|  3   
+|   0.4% 
+| 
+|-
+|  qct                            
+|  3   
+|   0.4% 
+| 
+|-
+|  KGit                           
+|  6   
+|   0.9% 
+| 
+|-
+|  git.el                         
+|  31  
+|   4.5% 
+| 
+|-
+|  <i>other</i>                      
+|  15  
+|   2.2% 
+| 
+|-
+| <-3>
+| 
+|-
+|  giggle + gitview               
+|  63  
+|   9.2% 
+| 
+|}
+<!-- ##--------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base         
+|colspan="2" | 572 / 683 
+| 
+|-
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)  
+|colspan="2" | 1128      
+| 
+|}
+<!-- ## table end
+ -->
+
+As one can see almost as many people use gitk as CLI.  Most used GUI are [http://www.kernel.org/pub/software/scm/git/docs/gitk.html gitk] and [http://www.kernel.org/pub/software/scm/git/docs/git-gui.html git-gui], most probably because they are distributed with Git, and because they are portable.  [http://digilander.libero.it/mcostalba/ QGit] is also quite popular, although GTK+ viewers, namely [http://developer.imendio.com/projects/giggle/ Giggle] and [[GitView]], taken together are also very popular (note that there might be instances of users using both Giggle and GitView).  I am a bit suprised about popularity of Giggle, I'd say.
+
+[http://jonas.nitro.dk/tig/ Tig] (text-mode interface for git) and git.el (GIT mode for Emacs) are also quite popular.
+
+I wonder what are those 15 other GUI. Why oh why there were no "What is this 'other GUI'?" question...
+
 === 28. Which (main) git web interface do you use for your projects? ===
+
+Note that this question was single answer.  It is possible to serve the same set of repositories using two git web interfaces, for example freedesktop uses both [http://gitweb.freedesktop.org/ gitweb] and [http://cgit.freedesktop.org/ cgit] interfaces.
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer 
+|  Count 
+|  Perc. 
+| 
+|-
+|  gitweb                         
+|    382 
+|  55.9% 
+| 
+|-
+|  cgit                           
+|      7 
+|   1.0% 
+| 
+|-
+|  wit (Ruby)                     
+|      5 
+|   0.7% 
+| 
+|-
+|  git-php                        
+|      1 
+|   0.1% 
+| 
+|-
+|  <i>other</i>                      
+|     27 
+|   4.0% 
+| 
+|-
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base         
+|colspan="2" |   422 / 683   
+| 
+|-
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)  
+|colspan="2" |   422         
+| 
+|}
+<!-- ## table end
+ -->
+
+Around two third (closer to 4/7) of git users use some kind of web interface for their projects.
+
+Most use gitweb (which is distributed with git), 7 use cgit, 5 wit (Ruby), most probably projects sharing site with XMMS2, 1 git-php (I wonder who...), and there are 27 "other" answers, which I am most curious about. What are they?
+
+Some answered "other" as "N/A" (meaning they do not use web interface) instead, what it is not obvious, not answering this question.  The explanation that this is possible was added later during duration of survey.
+
 === 29. How do you publish/propagate your changes? ===
+
+Multiple choices, as one can use different methods for different projects, for example pushing to public repo for a project maintained, and sending patches via email to participate in third person project development.
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer                         
+|  Count 
+|  Perc. 
+| 
+|-
+|  push                           
+|    456 
+|  66.8% 
+| 
+|-
+|  pull                           
+|    220 
+|  32.2% 
+| 
+|-
+|  format-patch + email           
+|    172 
+|  25.2% 
+| 
+|-
+|  pull request                   
+|     65 
+|   9.5% 
+| 
+|-
+|  bundle                         
+|     13 
+|   1.9% 
+| 
+|-
+|  <i>other</i>                      
+|     70 
+|  10.2% 
+| 
+|-
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           
+|colspan="2" |   584 / 683   
+| 
+|-
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    
+|colspan="2" |   996         
+| 
+|}
+<!-- ## table end
+ -->
+
+Here "other" means just not listed workflow, although it would be also interesting to know details.
+
+Most popular is push, I guess to public "publishing" repository (and/or probably to mirror repositories).  It is twice as popular as next method, gathering more than 3/4 of users.
+
+Pull was supposed to mean logging to public server and pulling changes from private repo, not pulling someone other changes.  It is second most popular method.
+
+Sending patches via email is two to three times as popular as sending pull request.
+
 === 30. Does git.git repository include code produced by you? ===
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer 
+|  Count 
+|  Perc. 
+| 
+|-
+|  Yes                            
+|     99 
+|  14.5% 
+| 
+|-
+|  No                             
+|    512 
+|  75.0% 
+| 
+|-
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base         
+|colspan="2" |   611 / 683   
+| 
+|-
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)  
+|colspan="2" |   611         
+| 
+|}
+<!-- ## table end
+ -->
+
+As it can be seen, only (or perhaps it is that many?) around a 6th to 7th of git users participate in its development by providing code. 
 
 == Internationalization ==
 === 31. Is translating GIT required for wider adoption? ===
