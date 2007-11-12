@@ -1,6 +1,6 @@
 = Git User's Survey 2007 summary =
 
-This is (partial) summary of Git User's Survey 2007,<<BR>>
+This is (partial) summary of Git User's Survey 2007,
 ending at state from 28 September 2007
 (response ident `46f95167c967b`).
 
@@ -3442,12 +3442,285 @@ The table below show status of git-gui i18n project, as of 12-11-2007. <u>t</u> 
 <!-- ## table end
  -->
 
-== What you think of GIT? ==
+== What you think of GIT ==
+
 === 34. Overall, how happy are you with GIT? ===
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer                         
+|  Count 
+|  Perc. 
+| 
+|-
+|  unhappy                        
+|     13 
+|   1.9% 
+| 
+|-
+|  not so happy                   
+|     36 
+|   5.3% 
+| 
+|-
+|  happy                          
+|    179 
+|  26.2% 
+| 
+|-
+|  very happy                     
+|    302 
+|  44.2% 
+| 
+|-
+|  completely ecstatic            
+|    112 
+|  16.4% 
+| 
+|-
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           
+|colspan="2" |   642 / 683   
+| 
+|-
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    
+|colspan="2" |   642         
+| 
+|}
+<!-- ## table end
+ -->
+
+Nice, git users are mostly very happy with git :-).  13 grumpy users, hmmm...
+
 === 35. How does GIT compare to other SCM tools you have used? ===
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer                         
+|  Count 
+|  Perc. 
+| 
+|-
+|  Better                         
+|    505 
+|  73.9% 
+| 
+|-
+|  Equal (comparable)             
+|     96 
+|  14.1% 
+| 
+|-
+|  Worse                          
+|     30 
+|   4.4% 
+| 
+|-
+|colspan="2" |
+|-
+|  N/A                            
+|     52 
+|   7.6% 
+| 
+|-
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base         
+|colspan="2" |   631 / 683   
+| 
+|-
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)  
+|colspan="2" |   631         
+| 
+|}
+<!-- ## table end
+ -->
+
+Clearly Git is superior SCM! (In the minds of Git users at least) ;-)  Seriously, one should take into consideration that those results are biased, because it is <b>Git User's</b> Survey, and people usually choose SCM because they think it is best choice.
+
+No answer (null answer) might mean that responder does not use and did not use other SCMs to compare, or at least think that he/she does not have sufficient basis for a comparison.
+
 === 36. What do you like about using GIT? ===
+
+<b>TO DO (partial)</b><<BR>>
+<i>578 / 683 non-empty responses</i>
+
+No full analysis yet, and no count of answers, but it seems that the following are encountered most often (or at least those I remember best):
+* clean design
+* performance (speed)
+* size of repository
+* reliability, robustness, data integrity
+* flexibility, scriptable
+* command set, features (git-bisect)
+* history rewriting (amend, rebase, interactive rebase, reset)
+* history viewers, searching and browsing history
+* distributed nature, offline work, full history locally, "local commits"
+* easy and in-place branching
+* easy merging, includes renames detection
+* push/pull via ssh, pull via plain http -- no server needed
+* easy to install: few dependencies, portable, lightweight
+
 === 37. What would you most like to see improved about GIT? ===
-=== 38. If you want to see GIT more widely used, what do you think we could do to make this happen? ===
+
+<b>What would you most like to see improved about GIT? (features, bugs, plug-ins, documentation, ...)</b>
+
+<i>512 / 683 non-empty responses</i>
+
+So many suggestions...
+
+First, some of suggestions are actually implemented already, for example git development Changelog (present in the form of RelNotes), shallow clone support, submodules support.  This means that new features are not very well announced (which was one of comments here, too).
+
+List of features and improvements mentioned:
+* generic behavior:
+** less chatter, clean distinction between success or fail (it it was about git-pull, it is addressed already)
+** better, more verbose error messages, with link to documentation
+** diagnostic output in case of problems; something like git-explain / git-state (this probably would need refactoring, general state info)
+** more universal undo / continue
+** command line consistency, option consistency: getopt / gitopt / optparse
+* documentation:
+** unified, organized, searchable documentation
+** The Git Book (c.f. cvs/svn/hgbook); tutorial leading to advanced concepts like rebase, filter-branch, grafts, submodules, gitattributes 
+** Git Cookbook / Git Recipies; best practices document, usage scenarios, workflows used, HOWTO
+** Git for Dummies (for people who haven't used SCM at all) 
+** more hooks and hook examples
+** mid-level (script / plugin writer leve) docs
+** git1line docs a la [http://sed.sourceforge.net/sed1line.txt sed1line.txt]
+** "git <cmd> --help" returning one page of short command summary, not manpage; "git help --all --summary" for all command with oneline description 
+* other SCMs:
+** Cogito migration guide / tutorial (!)
+** other SCM to git (concept, commands) cheat sheet
+** git-bzr (and other SCMs) two-way integration
+** git-svnserve: git functioning as Subversion server
+* git-svn:
+** automatic handling svn:externals using submodules and vice versa
+** svnmerge and svk merge markers tracking/marking of merges
+* more --interactive:
+** git add --interactive in git-gui: allow to divide hunks
+** git rebase --interactive: graphical interactive rebase in git-gui
+** ncurses-based remote editing (in tig?)
+* tools:
+** better Emacs support; Vim plugin; IDE plugins (Eclipse, KDevelop, IntelliJ IDEA,...)
+** MS Windows explorer shell integration; filemanagers integration (Nautilus, Konqueror)
+** side by side diffs in gitweb, a la KDiff3/Meld/ediff etc.
+* code:
+** port scripts to C (builtinification)
+** git library (libification)
+** gitbox: single static, pre-packaged binary
+* other:
+** bisect dunno / skip / next
+** partial checkout
+** light working copies; multiple working copies per repo
+** git-notes, to annotate commit messages
+** push over sftp
+** option to track empty directories
+** option to track permissions and metainfo: ACL (Access Control List), EA (Extended Attributes), forks / streams
+** rebase and blame merge strategies
+** merge / rebase into dirty tree
+** resumable git-clone; faster and less CPU hungry git-clone
+** checkout/merge/diff/hunk header handlers in distribution for ChangeLog, XML, odf, jar and xul, po files
+
+This is only (large) excerpt, not full list of all requested features.  As one can see tabularizing (dividing into categories) this data will be not an easy task.
+
+=== 38. What is needed for wider GIT adoption? ===
+
+<b>If you want to see GIT more widely used, what do you think we could do to make this happen?</b>
+
+<i>459 / 683 non-empty responses</i>
+
+So many suggestions...
+
+Below there is incomplete list of answers, divided into categories.  I tried to generalize answers, to reduce size of this summary.  Comments in parantheses, <i>emphasized</i>.
+
+Generic:
+* Libification
+* Maturity, stability
+* Ease of use
+
+Portability:
+* Better Windows support, including TortoiseSVN like GUI and explorer extension.
+
+ <i>(This is I think one of the most requested).</i>
+
+* Portability, better cross-platform support
+
+User interface:
+* easy-git: simpler, reduced number of user commands
+
+ <i>(Something like now deprecated Cogito? This probably includes better separation of plumbing and porcelain; plumbing should perhaps be not visible to ordinary user. There was also an idea to fold some commands into one, like git-am and git-apply)</i>
+
+* Do usability studies
+* Fix inconsistences and some UI bugs, e.g. too verbose commands. Fix corner cases. 
+* Improve git commands output and error messages.
+
+Documentation:
+* The Git Book (like hgbook and svnbook)
+* "Beneath the hood" (technical / programmers manual)
+* "When the shit hits the fan" ;-) - advanced usage
+* Improve documentation
+* Usage scenarios, use cases, recipies / cookbook
+* single-file searchable doc, with index (Info version of Git User's Manual, with all manpages in appendix, is perhaps a good start)
+* Better documentation for shared repository workflow
+* Translated manual, translated documentation
+
+Features:
+* Pull and rebase into dirty tree
+
+ <i>(There was some work on this using git-stash infrastructure)</i>
+
+* Lightweight working copy a la Bazaar-NG, also known as remote alternates (client-server model)
+* Better submodule support
+* Integrated GUI merge tool
+
+ <i>(Halfway done - git-mergetool calls user defined GUI merge tool; I think it would be nice if git-gui had GUI merge tool included, perhaps "borrowed" from TkDiff / xxdiff)</i>
+
+* Better support for shared repository
+
+Performance:
+* Performance on large repositories, on FreeBSD - git is slower than CVS  (What filesystem? Is repository packed?)
+
+Tools, interfaces:
+* Integration with popular IDE: Eclipse, KDevelop, MSVC, xcode, Rails,... (There is work on Eclipse support)
+* More powerfull / integrated GUI
+
+ <i>(Integrated GUI means lost portability; nevertheless it would be nice to have plugins for Konqueror / KDevelop and Explorer / Visual Studio)</i>
+
+* Better GUI
+* Better webgui (web interface)
+* Integrate with Launchpad
+* Bug tracker (Trac, BugsAnywhere, SCMbug) integration<<BR>> <i>(See also [http://git.madism.org/?p=grit.git grit]: stupid in git bug tracker)</i>
+* Continuous build tools integrateion: Continuum, Cruise Control
+* Make it have those client/branch history tools like Perforce and [http://en.wikipedia.org/wiki/Plastic_SCM Plastic SCM]
+
+Other SCMs:
+* Rename commands to be more similar to other SCM
+
+ <i>(Backward compatibility makes it out ot the question).</i>
+
+* Better import tools (best if they would be bundled with git), like parsecvs, cvs2git, fromcvs,...
+* Transparent two-way interaction with other SCMs; incremental import; git as fake SCM server, like git-cvsserver or proposed to GSoC git-svnserve
+* SCM cheatsheet (comparing commands and concepts).
+* SCM migration guides (perhaps also in built-in, distributed docs, not only on-line on git homepage).
+
+Support and marketing:
+* Marketing, e.g. articles / blogs about advanced Git usage and features, speeches, presentations and seminars.
+* Git blog; feature of the day
+* Try to crush 'git is hard' myth
+* Friendlier community
+* Improved website
+* Better advocacy for multirepo workflow, including "please pull" requests
+* Distributed SCM advocacy
+* Encourage SourceForge / Savannah / Gna! / BerliOS / Google Code to offer git support: git server and sering via http, gitweb or other git web interface, git projects administration (branches, alternates, grafts, tags,...)
+
+ <i>(Savannah has some [http://savannah.gnu.org/maintenance/UsingGit git support], Google Code is rather out of the question)</i>
+
+* Perhaps git repository for CPAN modules
+* Move KDE to git
+* Bundle in (enterprise) distributions: SuSE, RHEL, Mandriva,...
+* Pressure / convince som software vendor to use it internally
+* Git Company - paid support service
+
+One of the more striking (and funny):
+* Big fat posters world-wide with Catherine Zeta-Jones stating how happy she is since she switched to git ;-)<<BR>> She can actually write C-code.
+* Offer Git stickers to put on laptops and such
 
 == Changes in GIT (since year ago, or since you started using it) ==
 === 39. Did you participate in previous Git User's Survey? ===
