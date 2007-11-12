@@ -200,6 +200,6 @@ There is a small proof-of-concept code to make a "Shell Extension", i.e. a DLL w
 
 = Other Resources =
 
-See also our [[Soc2007Application]].
+See also our [[SoC2007Application]].
 
 __NOTOC__
