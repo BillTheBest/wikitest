@@ -3922,18 +3922,625 @@ Multiple choice; the list does not include all new features.  Some new features 
 
 This table is sorted by count.
 
-Detached HEAD support and stash command were long requested; no wonder they are popular.
+[http://www.kernel.org/pub/software/scm/git/docs/glossary.html#def_detached_HEAD Detached HEAD] support and [http://www.kernel.org/pub/software/scm/git/docs/git-stash.html stash] command were long requested; no wonder they are popular.
 
 == Documentation ==
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Usefulness of 
+|  Yes 
+|  Some 
+|  No  
+|  <i>Base</i> 
+| 
+|}
+<!-- ##-----------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  GIT wiki]         
+|  191 
+|   69  
+|  198 
+|  <i>458</i> 
+| 
+|-
+|  on line help]     
+|  377 
+|  172  
+|   28 
+|  <i>577</i> 
+| 
+|-
+|  distributed help  
+|  425 
+|  154  
+|   22 
+|  <i>601</i> 
+| 
+|}
+<!-- ##-----------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;" style="text-align: center;" colspan="4"> individual responses 
+|  <i>683</i> 
+| 
+|}
+<!-- ## table end
+ -->
+
 === 44. Do you use the GIT wiki? ===
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer                         
+|  Count 
+|  Perc. 
+| 
+|-
+|  Yes                            
+|    316 
+|  46.3% 
+| 
+|-
+|  No                             
+|    300 
+|  43.9% 
+| 
+|-
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           
+|colspan="2" |   616 / 683   
+| 
+|-
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    
+|colspan="2" |   616         
+| 
+|}
+<!-- ## table end
+ -->
+
 === 45. Do you find GIT wiki useful? ===
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer                         
+|  Count 
+|  Perc. 
+| 
+|-
+|  Yes                            
+|    191 
+|  28.0% 
+| 
+|-
+|  No                             
+|     69 
+|  10.1% 
+| 
+|-
+|  Somewhat                       
+|    198 
+|  29.0% 
+| 
+|-
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           
+|colspan="2" |   458 / 683   
+| 
+|-
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    
+|colspan="2" |   458         
+| 
+|}
+<!-- ## table end
+ -->
+
 === 46. Do you contribute to GIT wiki? ===
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer                         
+|  Count 
+|  Perc. 
+| 
+|-
+|  Yes                            
+|     17 
+|   2.5% 
+| 
+|-
+|  No                             
+|    460 
+|  67.3% 
+| 
+|-
+|  Corrections and removing spam  
+|     45 
+|   6.6% 
+| 
+|-
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           
+|colspan="2" |   522 / 683   
+| 
+|-
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    
+|colspan="2" |   522         
+| 
+|}
+<!-- ## table end
+ -->
+
 === 47. Do you find GIT's on-line help (homepage, documentation) useful? ===
-=== 48. Do you find help distributed with GIT useful (manpages, manual, tutorial, HOWTO, release notes)? ===
-=== 49. Do you contribute to GIT documentation? ===
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer                         
+|  Count 
+|  Perc. 
+| 
+|-
+|  Yes                            
+|    377 
+|  55.2% 
+| 
+|-
+|  No                             
+|     28 
+|   4.1% 
+| 
+|-
+|  Somewhat                       
+|    172 
+|  25.2% 
+| 
+|-
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           
+|colspan="2" |   577 / 683   
+| 
+|-
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    
+|colspan="2" |   577         
+| 
+|}
+<!-- ## table end
+ -->
+
+=== 48. Do you find help distributed with GIT useful? ===
+
+<b>Do you find help distributed with GIT useful (manpages, manual, tutorial, HOWTO, release notes)?</b>
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer                         
+|  Count 
+|  Perc. 
+| 
+|-
+|  Yes                            
+|    425 
+|  62.2% 
+| 
+|-
+|  No                             
+|     22 
+|   3.2% 
+| 
+|-
+|  Somewhat                       
+|    154 
+|  22.5% 
+| 
+|-
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           
+|colspan="2" |   601 / 683   
+| 
+|-
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    
+|colspan="2" |   601         
+| 
+|}
+<!-- ## table end
+ -->
+
+=== 49. Did/Do you contribute to GIT documentation? ===
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer                         
+|  Count 
+|  Perc. 
+| 
+|-
+|  Yes                            
+|     43 
+|   6.3% 
+| 
+|-
+|  No                             
+|    551 
+|  80.7% 
+| 
+|-
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           
+|colspan="2" |   594 / 683   
+| 
+|-
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    
+|colspan="2" |   594         
+| 
+|}
+<!-- ## table end
+ -->
+
 === 50. What could be improved on the GIT homepage? ===
+
+GIT homepage is on http://git.or.cz
+
+<i>171 / 683 non-empty responses</i>
+
+List of answers, without count, divided into broad categories.<<BR>>  
+Some answers were hard to classify into one section, so please read carefully.
+
+Generic
+* Keep it always up-to-date!
+* Catch up with the latest version in kernel.org/.../RPMS.
+* Publicity. Until the survey I didn't know it had all that! <i>(There is a homepage?)</i>
+* More active movement between IRC/list and FAQs
+* Less Linux programmer focused.
+* Translations to other languages for better adaption elsewhere.
+* A dedicated domain name, easy to remember and find. Nicer URL? (git.org?)
+* Change the site name to have 'git' in it! Like 'TheGitSite.com' rather than git.qk.wkx.or (ir is git.or.cz) or whatever. 
+* It could use a better url than 'git.or.cz'; the URL looks like a mirror and I'm not sure I'm on the official home page.
+* Git could use a real logo.
+
+Code and design
+* Could be more sexy.
+* Graphical design.
+* Give it some nice & fresh design.
+* Make it more attractive.
+* Color scheme (?)
+* Better design and appreciation for aesthetics. For the typical 'programmer' whose position is 'who cares what it looks like' they won't care. For the managers and other folks that need to be convinced it will look more polished and professional. Appearances matter.
+* Move the details on fetching the development code to the 'getting git' page.
+* More prominent links to documentation on how to get started with GIT. 
+* More bling :-) but I'm not really sure about that. Non-technical users get scared away anyway.
+* Smarten it up with some colour and graphics.
+* Maybe get a graphics monkey and make it less dull but otherwise the content is OK.
+* Make it prettier. Sounds silly but it counts. Bazaar's main feature is a pretty website ;).
+* The layout. It's ok for me but it looks like a minor hobby project's page
+* Make it easier to find information. Reorganization to find the most important information easily.
+* The page has too much info and is hard to navigate. Look at http://www.mozilla.com/ for contrast.
+* Better layout to make things easier to find. It seems busy and hard to find things. Simplify.
+* Move the documentation up to the top. It's what people want to access the most!
+* Perhaps divide it again into separate pages if it grows
+* The layout and the organization of the sections. It's pretty hard to know why should I use git just looking at the webpage.
+* A proper side bar for things that are currently in boxes.
+* Hide the rarer commands and special tricks deeper and emphasize the best usage practices.
+* Less text on the front page, less text per page
+* Web 2.0 type interface as Ruby and Ubuntu have.
+* Pictures. Fancy layout. 
+* Less clutter. I find it somewhat unstructured.
+* Modern styles look and feel.
+* Download link needs to stand out more. The homepage appears rather 'flat' that is nothing stands out as more important than the rest. In order of importance, I think there should be: 
+*# Download
+*# Git Quickstart Guide
+*# Documentation
+* The lines are too long. Try to find a better proportion.
+* It doesn't look like a project home page. Mercurial does a better job with the look of their page IMHO.
+* Make it less monolithic. Stick documentation on its own page, methods of acquiring GIT on its own page and so forth. That allows more room for each without making one huge homepage.
+* Divide content up into sets of info related to tasks a person would be interested in
+** getting a first setup
+** maintaining/updates
+** introductory documentation
+** reference/refresh-memory info
+** project/git-developer info
+* Make it look more modern but don't use too many web features (i.e. make sure it works on elinks).
+
+Documentation
+* Link to Git User's Manual and not only to crash course/tutorial. Feature the User Manual more prominently
+* More documentation. More tutorials and examples. More workflow examples, more crash courses.
+* More links to documentation/tutorials/howto
+* Recipes for how to do things with git. Examples and workflows. Common pitfalls.
+* More visible link to the tutorial.
+* Old documentation removed / updated (index, staging, cache).
+* Less emphasis on cogito / Remove Cogito references.
+* Remove more aggressively outdated documentation for historic tools (like cogito).
+* Fluxograms describing some use cases. Perhaps some diagrams.
+* More comprehensive tutorial with optional boxouts.
+* Up to date information about best practises and recommended tools.
+* Add a new users section with some walkthroughs that show how to use git practically on a real repository. Maybe add comparable commands from other SCMs. (git clone -> cvs checkout)
+* 'git for svn/cvs people' could use an overhaul (at least they did a few months ago) The [http://git.or.cz/course/svn.html Git for SVN users] tutorial is incomplete and does not explain for example how the index works and why it's there. Thus people end up thinking that 'svn add' is like 'git add' whereas it's not.
+* A 'git features tour' showing the great features git has.
+* Add some material for presenting git to others (slides)
+* Add a tutorial helping deal with a conflict merge.
+* Feature-driven help: a list of features with short tutorial on how to use each one.
+* Example of interacting with CVS repository (import, export, cvsserver)
+* Highlight those pieces of documentation that aren't easily available through --help and man 'git-something'.
+* Getting started for new users.
+* Simple online demo and beginner Tutorial on one page. The demo could be an applet giving access to a terminal of a running virtual machine with git and some demo repositories. The virtual machine is reset every full hour.
+* Some way to indicate which version of Git a specific piece of documentation refers to.
+* Missing information: examples of ways diffent (real) projects use Git.
+* More details on how to make a centralized workflow work
+* A prominent 'Why git?' or 'Why distributed?' section might be good.
+* Better SVN -> Git
+
+Downloads
+* It could be more up-to-date about new git versions (sometimes it lags behind a bit).
+* Catch up with the latest version in kernel.org/.../RPMS.
+* Current official version should include the one on master.<<BR>> Snapshots. Results of nightly builds and tests. There should be links to download pu/next/master/maint branches [http://repo.or.cz/w/git.git?a=snapshot;sf=tgz tar.gz] trees (snapshots) from gitweb).
+* Information about Windows version(s). Easier for windows users to find msysGit (maybe with a development warning) under 'Getting git'. Links to windows ports: http://code.google.com/p/msysgit/ and a plea for help.
+* Download link needs to stand out more.
+* Download repository for the most common distros (Ubuntu, RedHat / Fedora Core, SuSE).
+* Provide processed man pages to install. Provide PDF documentation
+
+Information, new links, new features
+* What's New section
+* News and info about where things are going (roadmap).
+* Link to the latest release announcement. Now you can only find a link to the tarball but most of the time I only want to take a quick look at the announcement ([[RelNotes]]).
+* Add a news section and maybe some pointers to interesting user-contributed HOWTOs or something.
+* Add more external porcelains like Guilt to the frontpage.
+* Recommended 'out-of-the-box' package of GUI or CLI interface.
+* Cogito state should be better clarified.
+* Bring the porcelains list up-to-date -- in particular mark Cogito (cg) as outright deprecated. 
+* More information on project around GIT (like GUIs etc).
+* Perhaps making some pages like FAQ or Tips and Tricks, or discussion about nature of branches in git taken from GitWiki when they are mature enough
+* I wish for Git Traffic: digest of git mailing list discussions (there was one at http://kerneltraffic.org/git/index.html but it stopped after one issue; KernelTraffic is also no longer updated).<<BR>> Some type of recent news collected from the mailing list 'what's new in the latest release' or coming-soon previews would be nice.
+* The layout and the organization of the sections. It's pretty hard to know why should I use git just looking at the webpage.
+* More marketing on what projects use git and perhaps more blurb on why git is better than other SCMs.
+* Easier access to release notes and changleogs (i.e. the history) without having to browse the git repo or read separate pages from the documentation.
+* A blog or news page (not everyone enjoys mailing lists), perhaps link to mailing list archive
+* Provide 'A note from the maintainer' as a prominent link probably named as 'How the git project is managed and how to participate'
+* Place links to direct git's plugins core and tools source tree.
+* Link to some good GUIs. Giggle is a good GUI that serves my needs.
+
+One person seems to mistake git documentation page ("reprint of the man pages") at http://www.kernel.org/pub/software/scm/git/docs/ for the homepage, another mistook (kernel.org?) gitweb for it.
+
+Here is short summary of most common answers, with a short comment if appropriate:
+
+<<BR>>
+Generic:
+* Dedicated domain name / site name, e.g. git.org or git.com to have it look less like mirror or unofficial page
+
+ <i>([http://git.or.cz git.or.cz] still comes first when [http://www.google.com/search?q=git searching Google for "git"]; current domain name was available to homepage admin - historical reason)</i>
+
+ <b>DONE:</b> git.com and git.org are taken (squatters), [http://git-scm.org git-scm.org] points now to git homepage.
+
+* Better design: make it prettier, easier to find information, move more important things first, use sidebar instead of boxes, perhaps divide it into separate pages (again). But make sure it works on Elinks for example.
+
+ <i>(IIRC pasky is not web designer, so help is appreciated)</i>
+
+<<BR>>
+Documentation:
+* More documentation: tutorials, workflow examples, walkthroughs, SCM commands comparison, interacting with other SCMs, HOWTOs, best practices, recommended tools, fluxograms describing use cases (graphics).  Make link to [http://www.kernel.org/pub/software/scm/git/docs/user-manual.html Git User's Manual] stand out better.
+* Less emphasizis on Cogito, mark it more explicitely as deprecated and slowly try to get rid of Cogito references in documentation (e.g. crash courses).
+
+ <i>(Cogito is officially deprecated from not a long time; the process of removing references to cg in crash courses is AFAIK ongoing)</i>
+
+ <b>Partially DONE</b>
+
+* More emphasizis on "Why git?" and "Why distributed SCM?". A 'git features tour' showing the great features git has. In short: why and when to choose git.
+
+ <i>(Someone would have to write it)</i>
+
+* Simple online demo. The demo could be an applet giving access to a terminal of a running virtual machine with git and some demo repositories.  The virtual machine is reset every full hour.
+
+ <i>(This might be a good idea, but I think it is a bit hard to do from technical point of view; at least securely, securing against intrusion and, perhaps accidental, denial of service)</i>
+
+<<BR>>
+Downloads:
+* More up-to-date about new git versions.
+
+ <i>(With one person updating homepage, who is not git maintainer...)</i>
+
+ <b>DONE.</b> The info about latest version is updated using script. If homepage is not updated, then there is bug in this script, and you should [mailto:pasky@suse.cz send bugreport].
+
+* There should be links to download pu/next/master/maint branches tar.gz trees (snapshots) from gitweb.
+
+ <i>(The source snapshot part is quite easy to do, but it might increase load on kernel.org / repo.or.cz, unless snapshots are somehow cached)</i>
+
+ <b>Denied</b>
+
+* Results of nightly builds and tests. Static binaries for other OS (FreeBSD, MacOS X).
+
+ <i>(There is a matter of machine park. Somewhere those nightly builds, perhaps together with nightly running of test suite, have to run.)</i>
+
+* Information about MS Windows version(s). Link to MSys Git, marking it as under development; perhaps plea for help?
+* Provide processed man pages to install. Provide PDF documentation, at least PDF version of Git User's Manual.
+
+ <i>(Having PDF version is quite new; there is no manual.pdf target in official Makefile.)</i>
+
+<<BR>>
+Information, new links, new features:
+* Link to the latest release announcement (RelNotes) on download page.
+
+ <i>(Links to relnotes are in HTML version of git(7) manpage, but I think it is not enough. Fortunately we _have_ release notes.)</i>
+
+ <b>DONE</b>
+
+* News section, info about where things are going (roadmap)
+
+ <i>(Junio has a hard time maintaining TODO, and git doesn't have roadmap AFAICT)</i>
+
+* Provide [http://repo.or.cz/w/git.git?a=blob_plain;f=MaintNotes;hb=todo 'A note from the maintainer'] as a prominent link probably named as 'How the git project is managed and how to participate'
+
+ <i>(That is a good idea I think, better than having it on [[Notes:GitWiki]].  We can put direct link to [http://repo.or.cz/w/git.git?a=blob_plain;f=Documentation/SubmittingPatches [[SubmittingPatches]]] nearby.)</i>
+
+* I wish for Git Traffic: digest of git mailing list discussions. Some type of recent news collected from the mailing list 'what's new in the latest release' or coming-soon previews would be nice.
+
+ <i>(There was one at http://kerneltraffic.org/git/index.html but it stopped after one issue; [http://www.kerneltraffic.org KernelTraffic] is also no longer updated. Any volunteers?)</i>
+
+* Links to more tools, GUIs, version control interface layers. A somewhat related request: copy pages like FAQ or Tips and Tricks, or discussion about branches from GitWiki when they are mature enough.
+
+ <i>(For example there was requests to put links to / info about Guilt and Giggle on git homepage. Giggle has quite a bit of users among GUIs).</i>
+
+ <b>ONGOING.</b> Lately tig (text interface for git) was added to tools section of git homepage
+
 === 51. What topics would you like to have on GIT wiki? ===
+
+GIT wiki is on http://git.or.cz/gitwiki
+
+<i>134 / 683 non-empty responses</i>
+
+Note that anybody can edit pages on GIT wiki, so if you want to have some information, some topic to be present on wiki, best solution would be to simply create resp. page, or add info to existing page. This question was meant to be the place to gather requests for topics for which one doesn't know enough to write or doesn't have time to write.
+
+List of answers, without count, divided into categories. Each category starts with pages for which there is proposed PageName, and ends with pages which are better for other media.
+
+Generic:
+* more tips and tricks
+
+Documentation:
+* [[GitRecipes]] / [[GitCookbook]], i.e. examples on how to solve some problem, e.g. two-way interaction between git and svn repos, setting up automatic commit emails, setting up gitweb, setting up git server, pushing through firewall, setting up HTTP server for write / push access, discussion of different workflows
+* [[QuickRef]] / [[GitCheatSheet]]; quick hints, quickref
+* eclectic / untypical use cases, for example: [[GitForBackup]], [[SyncWithGit]], [[GitForDocuments]] ([[LaTeX]], ODF,...), [[MergingProjects]] (for example gitweb, gitk, git-gui with git)
+* [[CentralizedRepository]] / [[CentralRepository]] / [[SharedRepository]] (description of CVS/SVN-like workflow)
+* advanced usage, for example [[FindingErrorsWithBisect]]
+* workflows, usage scenarion, use cases, collaboration paradigms including [[KernelWorkflows]] (kernel maintainer tasks / workflows), [[BestPractices]], etc.
+* HOWTOs (perhaps wikifying some files from Documentation/howto)
+* Git for newbies: quick start document (rather for homepage)
+* The Git Book (for homepage and/or bundled documentation)
+* 'A typical day with Git' tutorial (for homepage and/or bundled documentation)
+* Guided tour (certainly for homepage, wiki doesn't have infrastructure)
+* git code / API documentation (most certainly *not* wiki)
+* git internals intro (?)
+
+Features and planned features:
+* [[MergingStrategies]] / [[MergeStrategies]] i.e. wikified [http://repo.or.cz/w/git.git?a=blob_plain;f=Documentation/merge-strategies.txt Documentation/merge-strategies.txt], perhaps with proposed merge strategies and [http://revctrl.org/CategoryMergeAlgorithm revctrl] / other SCM merge strategies described
+* [[BranchingAndMerging]] (there is [[BranchesInGit]] wiki page)
+* docs for new features, including: [[KeywordExpansion]], [[EolConversion]], [[GitAttributes]], [[ShallowClone]], [[SubmodulesSupport]] / [[SubprojectSupport]], DetachedHEAD, [[BundleTransport]] / [[GitBundle]], [[AutoRepacking]] / [[AutoPacking]]
+* concept documentation, including [[BranchesInGit]] (existing), [[WhatIsTheIndex]] (existing), [[GraftPoint]] (existing)
+* [[FileRename]], including discussion on tracking vs detecting renames
+
+Maintained:
+* outstanding issues
+* status page for requested features
+* roadmap
+
+Other SCMs:
+* SCMInteraction <some> SCM (svk/svn/cvs/p4) interaction
+* Git for <some> SCM users, e.g. [[GitSvnComparison]] (rather for homepage)
+* SCM commands equiv and concepts comparison aka. SCMRosetta
+* SCM migration guides
+
+Examples:
+* [[HooksExamples]] / [[GitHooks]] (example hooks) 
+
+Other:
+* [[GitConventions]] / [[CommitConventions]] for example commite message conventions, sign-off, etc.
+* [[GitForSingleDeveloper]] (perhaps as a part of [[WhyVersionControl]])
+* [[SyncWithGit]] for example synchronization between laptop and desktop
+* [[PublishingRepository]], i.e. description of most typical workflow with private repository and public bare publishing repository (or repositories)
+* [[GitServerSetup]] (tutorial)
+* pitfalls
+* Tips and tricks of the day (short)
+
 === 52. What could be improved in GIT documentation? ===
+
+<i>190 / 683 non-empty responses</i>
+
+List of answers, without count, divided into categories.  I tried to generalize answers, not to list all 190 answers.
+
+Generic:
+* More examples of not-so-common setups
+* Translation, also known as i18n
+* Proof-reading by an expert technical writer
+* Single document, searchable documention, so one can search all of the git documentation at once (includes unified tutorial)
+* Documentation is way too detailed. Needs overview of tasks. Existing overviews seems to miss some important things.
+* Make documentation more feature-oriented / task-oriented / goal-oriented, so one doesn't have to know the exact name of command to use. It's hard to find informations on 'how' to do a thing you think git is able to do but that you don't know yet.
+* More verbosity. 'Reasons-why' something is done this and that way in git
+* Remove references to Cogito (which is deprecated) in documentation
+* Just make it more complete. When I was reading the GIT mailing list I would see tricks that I couldn't find in the man pages.
+* Document concepts: What is the index? What does packfile contain? What is an object? <i>([http://www.kernel.org/pub/software/scm/git/docs/user-manual.html user's manual], [http://www.kernel.org/pub/software/scm/git/docs/core-tutorial.html core tutorial] and [http://www.kernel.org/pub/software/scm/git/docs/git.html git(7)] try to explain this; and there is [http://www.kernel.org/pub/software/scm/git/docs/glossary.html git glossary])</i>.
+* Understanding the git paradigm... need a good metaphor to make clear what the index is and why it exists.
+* The current documentation is either too shallow (the quick start things) or a bit difficult for beginners.
+* Separate the detailed in-depth documentation from the higher level usage documentation. Again go look at Mercurial's stuff. When I'm using the VCS I don't need detail I need simple to understand what's going to happen next information and feedback.
+* Better organization
+* Too complex
+* Make git documention more consistent (style, contents, writing)
+* Giving more information how the tools work together.
+* Less jargon
+* More elementary examples
+
+<<BR>>
+New documentation:
+* 'Git for Dummies' / 'Git for newbies'. A document for really dumb users showing that git is very easy. How to start using git from the perspective of someone not used to revision control systems at all.<<BR>> Show one way to solve typical problems. Newbies are not interested in solving problems in several ways.
+* 'The Git Book' (with panda-bear on cover, or other animal: pony perhaps?). Something like [http://svnbook.red-bean.com/ SVNBook] and [http://hgbook.red-bean.com/hgbook.html hgbook] (for Mercurial)
+* 'Git Recipes' / 'Git Cookbook'<<BR>> The user manual is a big step forward in my opinion. I think more cookbook style things would be helpful for when you need to solve a specific problem. The wiki would be a great place for these.
+* Introduction and in-depth examples of application in different types of projects
+* Introductory documentation needed for users working on patch series; on fringes of kernel project, e.g. cooperation on projects that rebase frequently are common.
+* Use cases (including fluxograms). More documentation for common use cases.
+* Workflows, push and pull examples for different team situations. Structures and processes for multi-developer collaboration. More examples of common tasks. More complex examples for different work flows, preferably with a good rationale.
+* Intermediate / mid-level documentation (<i>explanation:</i> Documentation seems to be either at porcelain or coder / plumbing level. As I wanted to use read-tree etc. differently, more mid-level documentation would have helped.)
+* Improved migration guides from other SCMs and from other SCM workflows; step by step migration / conversion tutorial.
+* Installation documetation for using a 'central' git server and gitweb. How to do centralized [repo] development with git.
+* HOWTOs (there are some)
+* Technical documentation: API if possible (doxygen?), RFC for index and pack formats, RFC for pack (git) protocol, explanation for dumb protocol exchange, explanation of SSH protocol exchange
+* A single alphabetical list of all commands in one index somewhere.<<BR>> I hate the splash-page 'categorized' list. (separate doc, or in git(7) manpage).
+* Better overview documentation of git concepts / git jargon, perhaps with diagrams (better than glossary). Try to avoid jargon.
+* Windows specific documentation
+
+<<BR>>
+Manpages improvements:
+* When a git command implements (allows) options from another command (for example git-show and git-log), document this EXTREMELY clear and never do it halfway (document some forget others). Document all options. Have more examples of all those examples within the documentation or have more cross-references to them.
+* Repeat certain bits of knowledge here and there: it's important to make sure that users reading only one section still understand what's going on.
+* Document all environmental variables (even plumbing)
+* Organization. There should probably be more cross-linking of topics and referencing. The diff options are not well described in git-log because it is not primarily a diff command. Yet they are frequently used options. Similarly the syntax for referencing an object (including extended sha1 syntax: $commit^, $commit~$n, $commit:$path, etc.) is used all over the place but there are often no references. I know where to find it but a user reading the [http://www.kernel.org/pub/software/scm/git/docs/git-show.html git-show] manpage for the first time doesn't know that it's the right command for finding an old revision of a file.
+* Better cross-references in man-pages, improved linking with related commands ('to revert the effect of this command see git-foo')
+* Put helpful info in sections related to widely-used high-level tools (porcelain), NOT pieces of plumbing that had their documentation written first.
+* Document push/pull/clone interaction
+* Better documentation on submodules.
+* Make the git commands better documented for newbies and the more experienced users
+* Better description of the arguments (especially for those not used with the new terminology).
+* Document merging, stages in the index during merge (in git-merge / git-pull manpage, as this is in user manual already)
+* Add a task-oriented index besides the command-oriented one in git(7). Better overview of the main commands.
+* More examples of usage / example uses for commands. Have example in every man page.
+* Document how higher-level commands use the lower-level commands in the individual manpages; maybe a documentation page on how to create your own git commands using the plumbing (the latter perhaps in user's manual).
+* More examples for exotic use cases... e.g. git over ssh where the git binaries are not in the path... something like: <code><nowiki>$ git-clone --upload-pack=/home/foo/git-upload-pack ssh://...</nowiki></code> which by the way is a killer feature.
+* Consistency. The 'SPECIFYING REVISIONS' part is one of the most important ones in the documentation and keeping it on [http://www.kernel.org/pub/software/scm/git/docs/git-rev-parse.html git-rev-parse] page is bad (hard to find and the different formats are not easy to eyeball from the page). Move to [http://www.kernel.org/pub/software/scm/git/docs/git.html git(7)] maybe?
+* Higher level and more thorough documentation. What does a command do (not just its options)? What does each option do (bad: manpages that state they only document some options)?
+* Explanations for /why/ the examples are done the way they are done.
+* In addition to explaining what the tools do, also take a paragraph to explain how each feature should fit into an ideal workflow, i.e. it's place in the big picture not just it's purpose. More explanations of how to use features and how they interact instead of just isolated documentation of what that feature does.
+* Better separation of plumbing and porcelain. Perhaps classification of tools also in individual manpages?
+
+<<BR>>
+Other documentation improvements:
+* Enhance Git User's Manual
+* Manual is incomplete, tutorial(s) much too short
+* Remove controversies from Git User's Manual
+* Document meanings of error message (unless improved)
+* The tutorial needs a complete rewrite. It's simultaneous too detailed and not informative enough.
+* More of it -- tutorials on everything. The nice thing about Python for example is a massive easy tutorial that covers everything.
+* Add explanation of frequent/typical errors of users not accustomed to git, and how to correct them (presumably to Git User's Manual).
+* Explain every funny file in .git (either in [http://www.kernel.org/pub/software/scm/git/docs/git.html git(7)], in [http://www.kernel.org/pub/software/scm/git/docs/glossary.html glossary] or in [http://www.kernel.org/pub/software/scm/git/docs/user-manual.html Git User's Manual]).
+* More Tips&Tricks: features like <code><nowiki>rebase -i</nowiki></code> comes to mind (most probably in tutorial or user's manual)
+* Tutorial / user's manual should consist of the following parts: simple usage (single developer), networking and syncying DBs, trust system (workflow).
+
+<<BR>>
+Building and installation:
+* Ship man pages and don't make user's generate them (for example git.spec can have two sources: git and git-manpages)
+* Install manpages to proper place by default, not `~/bin` (?)
+* Documentation in dead tree format (Git User's Manual or The Git Book).
+* info docs
+* Produce as PDF (I guess tutorials, or manual, or future gitbook)
+* stop using [[AsciiDoc]] (single answer)
+
+<<BR>>
+Bugs in documentation:
+* As far as I can tell many man pages don't show all of the options available for their command. I've had to find out about some options by looking at shell script sources.
+* Keeping up-to-date with the actual functionality of Git. (Adding features should <b>always</b> be accompanied with documentation fixes).
+* More consistency between options on command line at the top (usage, syntax) and the actual options described.
+* Correct spelling and punctuation.
+* On OS X in the man pages there's the text '.sp' after every '.'.
+* On Linux with asciidoc 7.1.2, xmlto 0.0.18, docbook-style-xsl 1.68.1, compiled manpages have '.ft C ... .ft' around some literal blocks (examples of command output etc.)
+* Doesn't seem to display properly in Safari--looks like a text encoding problem.
+
+<<BR>>
+Other issues:
+* All online documentation should mention which version they refer too<<BR>> <i>(already done, I think)</i>
 
 == Getting help, staying in touch ==
 === 53. Have you tried to get GIT help from other people? ===
