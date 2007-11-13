@@ -3722,12 +3722,207 @@ One of the more striking (and funny):
 * Big fat posters world-wide with Catherine Zeta-Jones stating how happy she is since she switched to git ;-)<<BR>> She can actually write C-code.
 * Offer Git stickers to put on laptops and such
 
-== Changes in GIT (since year ago, or since you started using it) ==
+== Changes in GIT ==
+
+(Since year ago, or since you started using it).
+
 === 39. Did you participate in previous Git User's Survey? ===
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer                         
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Yes                            
+|     51 
+|   7.5% 
+| 
+|-
+|  No                             
+|    583 
+|  85.4% 
+| 
+|}
+<!-- ##----------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           
+|colspan="2" |   634 / 683   
+| 
+|-
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    
+|colspan="2" |   634         
+| 
+|}
+<!-- ## table end
+ -->
+
+51 people did out of 634 who answered this question, out of 115 (?) who did participate in the previous survey. Around half. Bit curious.
+
 === 40. What improvements you wanted got implemented? ===
+
+<b>TO TABULARIZE</b><<BR>>
+<i>129 / 683 non-empty responses</i>
+
 === 41. What improvements you wanted didn't get implemented? ===
+
+<b>TO TABULARIZE</b><<BR>>
+<i>104 / 683 non-empty responses</i>
+
 === 42. How do you compare current version with version from year ago? ===
+
+Should be: from year ago, or since you started using Git.  No responses (303 / 683) migh be caused by the fact that one do not use git for a year, so he/she doesn't know what git looked like year ago.
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer                         
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Better                         
+|    319 
+|  46.7% 
+| 
+|-
+|  No changes                     
+|     60 
+|   8.8% 
+| 
+|-
+|  Worse                          
+|      1 
+|   0.1% 
+| 
+|}
+<!-- ##----------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           
+|colspan="2" |   380 / 683   
+| 
+|-
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    
+|colspan="2" |   380         
+| 
+|}
+<!-- ## table end
+ -->
+
+Most think that git has improved. Single malcontent: only one user thinks that Git is worse than year ago; I wonder why...
+
 === 43. Which of the new features do you use? ===
+
+Multiple choice; the list does not include all new features.  Some new features are not visible at first glance, and one uses them without conscious choice.
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer                         
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  git-gui                        
+|    103 
+|  15.1% 
+| 
+|-
+|  blame improvements             
+|     74 
+|  10.8% 
+| 
+|-
+|  detached HEAD                  
+|     71 
+|  10.4% 
+| 
+|-
+|  stash                          
+|     68 
+|  10.0% 
+| 
+|-
+|  mergetool                      
+|     67 
+|   9.8% 
+| 
+|-
+|  interactive rebase             
+|     66 
+|   9.7% 
+| 
+|-
+|  reflog                         
+|     54 
+|   7.9% 
+| 
+|-
+|  submodules                     
+|     52 
+|   7.6% 
+| 
+|-
+|  shallow clone                  
+|     31 
+|   4.5% 
+| 
+|-
+|  commit template                
+|     24 
+|   3.5% 
+| 
+|-
+|  eol conversion                 
+|     22 
+|   3.2% 
+| 
+|-
+|  gitattributes                  
+|     21 
+|   3.1% 
+| 
+|-
+|  bundle                         
+|     17 
+|   2.5% 
+| 
+|-
+|  worktree                       
+|     17 
+|   2.5% 
+| 
+|}
+<!-- ##----------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           
+|colspan="2" |   255 / 683   
+| 
+|-
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    
+|colspan="2" |   687         
+| 
+|}
+<!-- ## table end
+ -->
+
+This table is sorted by count.
+
+Detached HEAD support and stash command were long requested; no wonder they are popular.
 
 == Documentation ==
 === 44. Do you use the GIT wiki? ===
