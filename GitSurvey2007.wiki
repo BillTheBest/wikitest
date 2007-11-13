@@ -292,7 +292,7 @@ Most responses are from the start of survey, 20 and 21 August (133 and 103 respo
 | 
 |}
 
-England and Scotland counts as United Kingdom here.  UK / US probablu means United Kingdom (Great Britain) or United States of America.  Table is sorted in alphabetical order.
+England and Scotland counts as United Kingdom here.  UK / US probably means United Kingdom (Great Britain) or United States of America.  Table is sorted in alphabetical order.
 
 As one can easily see, slightly less than third of GIT users are in the USA (those who answered this survey).
 
@@ -774,7 +774,7 @@ You can check what are the contributions of each programming language to Git cod
 <b>Footnotes:</b>
 <<[[FootNote]]>>
 
-This was free-form question, and tabularizing answers was quite a work.  It is taken as multiple choice question (for example link to Linus presentation at Google found at Slashdot counts as both "Slashdot" and "Linus presentation at Google" answer).
+This was free-form question, and tabulating answers was quite a work.  It is taken as multiple choice question (for example link to Linus presentation at Google found at Slashdot counts as both "Slashdot" and "Linus presentation at Google" answer).
 
 Other / uncategorized includes for example GoogleTalk IM, 3 answers IIRC.  There was one answer of 'through the CPAN module' (?).
 
@@ -826,7 +826,7 @@ Note that [[GitLinks#head-057cdf07b6c4202733d061096c8ac1aef2f4a232:Linus Torvald
 <!-- ## table end
  -->
 
-Nice gaussian curve. Most users find it reasonably easy to use. On the other hand git is not considered easy...
+Nice Gaussian curve. Most users find it reasonably easy to use. On the other hand git is not considered easy...
 
 === 07. What helped you most in learning to use it? ===
 
@@ -912,7 +912,7 @@ Conclusions:
 * some of the things got corrected, like separate remote layout being default for non-bare repositories, using [http://www.kernel.org/pub/software/scm/git/docs/git-add.html git-add] (porcelain) instead of [http://www.kernel.org/pub/software/scm/git/docs/git-update-index.html git-update-index] (plumbing) in documentation and command messages, promoting [http://www.kernel.org/pub/software/scm/git/docs/git-merge.html git-merge] to porcelain, creating [http://www.kernel.org/pub/software/scm/git/docs/git-remote.html git-remote] for managing multiple repositories and remote branches, better documentation including creating [http://www.kernel.org/pub/software/scm/git/docs/user-manual.html Git User's Manual].
 * some things are hard because of historical reasons, such like naming of commands, or consistency of options, and would be difficult to change.
 * doing things "git way", such as making index visible (and requiring 'git commit -a' to commit changes in all files), or rename detection instead of rename tracking, or storing filenames and file contents 'as-is' (without translation) are I think here to stay
-* some of things are intrinsically hard, and would stay that way, for example the distributed SCM concept, or nonlinear history.
+* some of things are intrinsically hard, and would stay that way, for example the distributed SCM concept, or non-linear history.
 
 === 09. When did you start using git? From which version? ===
 
@@ -986,7 +986,7 @@ It looks like the Git users community is divided into part of users who started 
 
 === 10. What other SCMs did/do you use? ===
 
-This question is not well thought out, as it gathers together (in the free-form which is not easy to tabularize with large number of responses we got) SCMs which one used and no longer uses, SCMs which are used in parallel with git, and SCMs which are used instead of git (which are chosen as main SCM for a project). Nevertheless it shows with which VCS, and its conceps, are users familiar with.
+This question is not well thought out, as it gathers together (in the free-form which is not easy to tabulate with large number of responses we got) SCMs which one used and no longer uses, SCMs which are used in parallel with git, and SCMs which are used instead of git (which are chosen as main SCM for a project). Nevertheless it shows with which VCS, and its concepts, are users familiar with.
 
 <!-- ## table begin
  -->
@@ -1222,7 +1222,7 @@ This question is not well thought out, as it gathers together (in the free-form 
 <!-- ## table end
  -->
 
-The above table is in alphabetical order. It was generated from free-form answers, tabularized as multiple choice answer.
+The above table is in alphabetical order. It was generated from free-form answers, tabulated as multiple choice answer.
 
 Note that this question does not distinguish between SCMs/VCSs which were used prior to Git and used no longer, SCMs which are used beside (in parallel) to Git perhaps interacting with Git, and SCMs which are used instead of Git. Also note that this is <u>Git User's</u> survey, so it those number for example do not represent number of e.g. users of Mercurial as compared to e.g. users of Subversion.
 
@@ -1519,7 +1519,7 @@ Other:
 <!-- ## table end
  -->
 
-This is anly partial analysis, as it deals only with first part of question. Second part, which SCM, has free-form structure and needed further processing.
+This is only a partial analysis, as it deals only with first part of question. Second part, which SCM, has free-form structure and needed further processing.
 
 One can see that around half of git users have imported (at least one project) from foreign SCM.
 
@@ -2076,7 +2076,7 @@ On Linux it was meant to be result of <code><nowiki>uname -i</nowiki></code>.  N
 <!-- ## table end
  -->
 
-The above table is in some arbitrary order. It was generated from free-form answers, tabularized as multiple choice answer, as one person can use git on more than one architecture.
+The above table is in some arbitrary order. It was generated from free-form answers, tabulated as multiple choice answer, as one person can use git on more than one architecture.
 
 Those results probably needs further processing to reduce number of choices, by gathering architectures.
 
@@ -2178,7 +2178,7 @@ Those results probably needs further processing to reduce number of choices, by 
 | 
 |}
 
-The above was generated from free-form answers, tabularized as multiple choice answer, as one person can use git on more than one operating system.
+The above was generated from free-form answers, tabulated as multiple choice answer, as one person can use git on more than one operating system.
 
 This is not a full analysis of answers, as it does not include operating system version, or (for Linux) distribution(s) used.
 
@@ -3251,7 +3251,7 @@ Summary of responses:
 
 Answer in subcategory is also counted as anser in category; answers for each of categories or subcategories are counted once.  It means that if one answered that he/she wants to have both man pages and user's manual translated it count as "Documentation" category only once.  Note that there were answers of for example 'documentation' without specifying details (answer in subcategory).
 
-This free-form question is tabularized (divided into categories) as multiple-choice answer; one can want to have both documentation and user interface translated.
+This free-form question is tabulated (divided into categories) as multiple-choice answer; one can want to have both documentation and user interface translated.
 
 === 33. For what language do you need translation for? ===
 
