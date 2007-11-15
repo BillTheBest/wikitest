@@ -131,6 +131,15 @@ Now, git will use this oodiff driver for any file whose name ends with .odp, .od
 <pre><nowiki>git ls-files -z --deleted | git update-index -z --remove --stdin
 </nowiki></pre>
 
+== How to ignore files which are "Untracked" now? ==
+
+<pre><nowiki>
+$ git ls-files -o --exclude-standard >> .gitignore
+$ $EDITOR .gitignore
+</nowiki></pre>
+
+(note : `--exclude-standard` is not yet in a released version of git as of november 2007, you'll have to use `--exclude-from=.gitignore --exclude-from=.git/info/exclude ...` if you don't have it).
+
 = Configuration =
 
 <<Anchor(upgrade-to-post-1.5.0)>>
