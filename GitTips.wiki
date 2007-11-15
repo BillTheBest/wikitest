@@ -35,13 +35,17 @@ Since history in Git is immutable, fixing anything but the most recent commit
 (commit which is not branch head) requires that the history is rewritten from
 the changed commit and forward.
 
-You can use [[Cogito]]'s [http://www.kernel.org/git/?p=cogito/cogito-doc.git;a=blob;hb=HEAD;f=txt/cg-admin-rewritehist.1.txt cg-admin-rewritehist(1)] for that.
-
 You can use [[StGIT]] for that, initialize branch if necessary, uncommitting up to the commit you want to change, pop to it if necessary, make a change then refresh patch (with `-e` option if you want to correct commit message), then push everything and stg commit.
 
 Or you can use rebase to do that. Create new temporary branch, rewind it to the commit you want to change using `git reset --hard`, change that commit (it would be top of current head), then rebase branch on top of changed commit, using <code><nowiki>git rebase --onto <tmp branch> <commit after changed> <branch></nowiki></code>.
 
-Or you can use rebase --interactive.
+Or you can use `git rebase --interactive`, which allows various
+modifications like patch re-ordering, collapsing, ...
+
+`git filter-branch` can also be usefull. It has been ported from the
+obsoleted [[Cogito]]'s
+[http://www.kernel.org/git/?p=cogito/cogito-doc.git;a=blob;hb=HEAD;f=txt/cg-admin-rewritehist.1.txt
+cg-admin-rewritehist(1)].
 
 <<Anchor(only-merges)>>
 == How to get only merges in gitk? ==
@@ -55,7 +59,11 @@ If you use "git log", you also need to add "--parents" while gitk will do it for
 
 <<Anchor(wrong-branch)>>
 == What to do if you have realized that you are on wrong branch? ==
-If you have not commited your changes yet, it is enough to '<code><nowiki>cg switch <correct-branch></nowiki></code>' (if you use [[Cogito]]), or '<code><nowiki>git checkout -m <correct-branch></nowiki></code>' (if you use [[Git|core Git]] at least v1.4.1-rc2).
+If you have not commited your changes yet, it is enough to '<pre><nowiki>git
+checkout -m <correct-branch></nowiki></pre>' (if you use [[Git|core Git]] at least
+v1.4.1-rc2).
+
+([[Cogito]] users will do '<code><nowiki>cg switch <correct-branch></nowiki></code>')
 
 Let's assume that you wanted your changes to go on top of <i><current></i>, but by accident you committed your changes on top of <i><master></i> for example, and that the commit before your commits (the tip of <i><master></i> branch should be) is <i><before></i>. Let as assume that all changes are committed, and the working dir is clean.
 
@@ -78,11 +86,13 @@ I'm not sure if <code><nowiki>--hard</nowiki></code> option is really needed.
 
 <<Anchor(diff-repositories)>>
 == How to compare two local repositories ==
-In [[Cogito]] you can use, being in one of repositories
-<pre><nowiki>GIT_ALTERNATE_OBJECT_DIRECTORIES=../cogito/.git/objects cg-diff -r `GIT_DIR=../cogito/.git cg-object-id -c HEAD`..HEAD
+In [[Git]] you can use, being in one of repositories
+<pre><nowiki>GIT_ALTERNATE_OBJECT_DIRECTORIES=../repo/.git/objects git-diff-tree $(GIT_DIR=../repo/.git git rev-parse --verify HEAD) HEAD
 </nowiki></pre>
-if you want to compare current repository with (in this example) cogito repository. In [[Git]] you would nearly exactly the same
-<pre><nowiki>GIT_ALTERNATE_OBJECT_DIRECTORIES=../cogito/.git/objects git-diff-tree $(GIT_DIR=../cogito/.git git rev-parse --verify HEAD) HEAD
+if you want to compare current repository with `../repo/` repository. 
+
+In the obsoleted [[Cogito]] you would nearly exactly the same
+<pre><nowiki>GIT_ALTERNATE_OBJECT_DIRECTORIES=../repo/.git/objects cg-diff -r `GIT_DIR=../repo/.git cg-object-id -c HEAD`..HEAD
 </nowiki></pre>
 
 <<Anchor(opendocument)>>
