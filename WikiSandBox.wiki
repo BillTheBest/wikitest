@@ -155,4 +155,76 @@ Total (sum);                    656
 
 Some trailing text
 
+== More tables ==
+
+<!-- ##----------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;" rowspan="2"> Answer 
+|<-2:>| 2006 
+|<-2:>| 2007 
+| 
+|-
+| <rowstyle="font-weight: bold; background-color: #ffffcc;">      Count 
+|  % sum 
+|  Count 
+|  %sum 
+| 
+|}
+<!-- ##----------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  very easy        
+|  6   
+|   5.1% 
+|  38  
+|   5.7% 
+| 
+|-
+|  easy             
+|  21  
+|  17.9% 
+|  136 
+|  20.4% 
+| 
+|-
+|  reasonably       
+|  64  
+|  54.4% 
+|  318 
+|  47.7% 
+| 
+|-
+|  hard             
+|  23  
+|  19.6% 
+|  131 
+|  19.8% 
+| 
+|-
+|  very hard        
+|  3   
+|   2.6% 
+|  33  
+|   5.0% 
+| 
+|}
+<!-- ##----------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base             
+|<-2:>|   117    
+|<-2:>|   683    
+| 
+|-
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)      
+|  117 
+|   100% 
+|  656 
+|   100% 
+| 
+|}
+<!-- ##----------------------------------------------------
+ -->
+
 __NOTOC__
