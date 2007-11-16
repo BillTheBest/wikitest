@@ -5222,6 +5222,7 @@ Some other comments:
 * [http://www.survey.net.nz/survey.php?94e135ff41e871a1ea5bcda3ee1856d9 Git User's Survey 2007] at [http://www.survey.net.nz Survey.Net].
 * [http://thread.gmane.org/gmane.comp.version-control.git/53665 Git User's Survey 2007] thread on git mailing list: discussion about questions etc.
 * [[GitSurvey2006]] - previous survey summary
+* [[GitSurvey2006vs2007]] - comparison of 2006 and 2007 (this one) survey results.
 * [http://www.selenic.com/mercurial/wiki/index.cgi/UserSurvey Mercurial [[UserSurvey]]], which inspired first [[GitSurvey2006:Git User's Survey]].<<BR>> See also [http://www.selenic.com/mercurial/wiki/index.cgi/UserSurvey2007 comments about Mercurial User's Survey 2007]
 
 __NOTOC__
