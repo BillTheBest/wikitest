@@ -14,7 +14,7 @@ You can get raw data on which this summary is based here:
 There were 683 individual responses.<<BR>>
 Note that count is not exactly number of people.
 
-<i>Please fo not add survey <b>data</b> on this page</i> 
+<i>Please do not add survey <b>data</b> on this page</i> 
 ----
 <b>Table of contents:</b>
 <<<!-- ! TOC here -->(3)>>
