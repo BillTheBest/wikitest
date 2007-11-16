@@ -1,6 +1,6 @@
-This is partial comparison of [[GitSurvey2007|Git User's Survey 2007]], (ending at state from 28 September 2007) with previous survey, [[GitSurvey2006|Git User's Survey 2006]].
+This is partial comparison of [[GitSurvey2007:Git User's Survey 2007]], (ending at state from 28 September 2007) with previous survey, [[GitSurvey2006:Git User's Survey 2006]].
 
-The data for 2007 survey can be found here: [[attachment:GitSurvey2007/surveydata.csv]]
+The data for 2007 survey can be found here: attachment:[[GitSurvey]]2007/surveydata.csv
 
 The data for 2006 survey was taken from the [[GitSurvey]]2006 and [[GitSurveyData]] wiki pages
 ----
@@ -1297,7 +1297,7 @@ Features, bugs, plug-ins, documentation,...
 
 <b>TO DO.</b> As above: tabulated somewhat for previous (2006) survey, with the list of ideas (divided broadly into categories) below the table; with some ideas dropped.  For current survey there is only list of most commonly encountered, and most interesting ideas.
 
-Some of the 2006 ideas got implemented, or are being implemented, like better documentation ([[http://www.kernel.org/pub/software/scm/git/docs/user-manual.html|Git User's Manual]], documenting options), shallow clones, win32 native binaries (via MinGW -- [[http://code.google.com/p/msysgit/|msysGit project]], in development), subproject support (plumbing and [[http://www.kernel.org/pub/software/scm/git/docs/git-submodule.html|beginnings of porcelain]]), libification and builtinification ([[SoC2007Projects|GSoC projects]]), increased verbosity when needed and making error messages more helpful, graphical merges ([[http://www.kernel.org/pub/software/scm/git/docs/git-mergetool.html|git-mergetool]]: interface to file-level graphical mergers like Meld, KDiff3 etc.), per user configuration (~/.gitconfig rather that ~/.gitrc, and there is even system wide configuration).  Some of ideas are repeated (like "The Git Book" idea, although "Git User's Manual" fills it somewhat), some ideas provided too hard (e.g. lazy clone aka remote alternates) or without someone to implement them.  Some got abandoned, some will probably never get implemented.
+Some of the 2006 ideas got implemented, or are being implemented, like better documentation ([http://www.kernel.org/pub/software/scm/git/docs/user-manual.html Git User's Manual], documenting options), shallow clones, win32 native binaries (via MinGW -- [http://code.google.com/p/msysgit/ msysGit project], in development), subproject support (plumbing and [http://www.kernel.org/pub/software/scm/git/docs/git-submodule.html beginnings of porcelain]), libification and builtinification ([[SoC2007Projects:GSoC projects]]), increased verbosity when needed and making error messages more helpful, graphical merges ([http://www.kernel.org/pub/software/scm/git/docs/git-mergetool.html git-mergetool]: interface to file-level graphical mergers like Meld, KDiff3 etc.), per user configuration (~/.gitconfig rather that ~/.gitrc, and there is even system wide configuration).  Some of ideas are repeated (like "The Git Book" idea, although "Git User's Manual" fills it somewhat), some ideas provided too hard (e.g. lazy clone aka remote alternates) or without someone to implement them.  Some got abandoned, some will probably never get implemented.
 
 Even some suggestions in 2007 survey are actually implemented already, for example git development Changelog (present in the form of RelNotes), shallow clone support, submodules support. This means that new features are not very well announced (which was also one of comments in current survey).
 
