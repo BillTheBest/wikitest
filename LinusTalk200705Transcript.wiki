@@ -1,3 +1,6 @@
+<i>This is transcript of [http://www.youtube.com/watch?v=4XpnKHJAok8 Tech Talk: Linus Torvalds on Git] at Google on YouTube.</i>
+
+----
 Andrew:
 
 Thank you, for coming everybody, some of you probably already
