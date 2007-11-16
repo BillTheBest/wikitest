@@ -1,6 +1,6 @@
 = Git User's Survey 2007 summary =
 
-This is (partial) summary of Git User's Survey 2007,
+This is (not finished) summary of Git User's Survey 2007,<<BR>>
 ending at state from 28 September 2007
 (response ident `46f95167c967b`).
 
@@ -48,7 +48,7 @@ Note that count is not exactly number of people.
 <!-- ## table end
  -->
 
-The ranges 'before', 'during' and 'after' refers to official duration of Git User's Survey 2007, from 20 August 2007 to 10 September 2007. Actually they are corrected to take into account the fact that local date on survey's server (or UTC date) might be different from local date on user computer, so duration of survey is taken as from 2007-08-19 to 2007-09-11.
+The ranges 'before', 'during' and 'after' refers to official duration of Git User's Survey 2007, from 20 August 2007 to 10 September 2007. Actually they are corrected to take into account the fact that local date on surveys server (or UTC date) might be different from local date on user computer, so duration of survey is taken as from 2007-08-19 to 2007-09-11.
 
 Most responses are from the start of survey, 20 and 21 August (133 and 103 responses respectively).  If anyone is interested I can provide full date by date histogram. 
 
@@ -57,7 +57,7 @@ Most responses are from the start of survey, 20 and 21 August (133 and 103 respo
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer 
+| <tablestyle="font-size: smaller;" rowstyle="font-weight: bold; background-color: #ffffcc;"> Country 
 |  Count 
 | 
 |}
@@ -296,6 +296,8 @@ England and Scotland counts as United Kingdom here.  UK / US probably means Unit
 
 As one can easily see, slightly less than third of GIT users are in the USA (those who answered this survey).
 
+You can also take a look at [http://www.ohloh.net/projects/278/map Git Activity Map], where you can see on (large) Google Map locations of selected people who have Git in a [http://www.ohloh.net/about/faq#stack stack], or locations of Git contributors.
+
 === 02. What is your preferred non-programming language? ===
 
 This is multiple answers question, although most people gave only one preferred language.
@@ -303,7 +305,7 @@ This is multiple answers question, although most people gave only one preferred 
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer 
+| <tablestyle="font-size: smaller;" rowstyle="font-weight: bold; background-color: #ffffcc;"> Language 
 |  Count 
 | 
 |}
@@ -472,42 +474,42 @@ Around two third of git users prefer English language, at least for dealing with
 |  Count 
 | 
 |}
-<!-- ##------------------------------------------
+<!-- ##-----------------------------------------
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-|  < 18                           
-|  11   
+|   < 18                          
+|  11  
 | 
 |-
 |  18-21                          
-|  75   
+|  75  
 | 
 |-
 |  22-25                          
-|  174  
+|  174 
 | 
 |-
 |  26-30                          
-|  203  
+|  203 
 | 
 |-
 |  31-40                          
-|  146  
+|  146 
 | 
 |-
 |  41-50                          
-|  45   
+|  45  
 | 
 |-
 |  51-75                          
-|  13   
+|  13  
 | 
 |-
 |  76+                            
-|  0    
+|  0   
 | 
 |}
-<!-- ##------------------------------------------
+<!-- ##-----------------------------------------
  -->
 {| border="1" cellpadding="2" cellspacing="0"
 | <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           
@@ -627,6 +629,10 @@ You can check what are the contributions of each programming language to Git cod
 |}
 <!-- ##----------------------------------
  -->
+<!-- ## table end
+ -->
+
+Note that LoC sums to 100% (barring rounding errors), while percent of people proficient in given language doesn't sum to 100% because one can (and usually is) proficient in more than one programming language.
 
 == Getting started with GIT ==
 
@@ -745,6 +751,9 @@ You can check what are the contributions of each programming language to Git cod
 |  BitKeeper news               
 |  24  
 | 
+|-
+| <-2>
+| 
 |}
 <!-- ##-----------------------------------------
  -->
@@ -785,7 +794,7 @@ Note that [[GitLinks#head-057cdf07b6c4202733d061096c8ac1aef2f4a232:Linus Torvald
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer                         
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer 
 |  Count 
 |  Perc. 
 | 
@@ -843,15 +852,14 @@ Some of the responses:
 * people on IRC (not only #git)
 * advice from other users / friends / colleagues
 * (unofficial) documentation on the web: guides, articles, blogs etc. (Here probably should be a sublist of them, with count)
-* a development community and/or its documentation, mailing list
-   e.g. WINE wiki, Source Mage GNU/Linux development community
+* a development community and/or its documentation, mailing list e.g. WINE wiki, Source Mage GNU/Linux development community
 * Google (Google searches)
 * helpful error messages
 * source code, reading the parts of git in shell script
 * cogito
-* using git in a live project / experimenting / trial and error<<BR>><i>Example answer:</i>That I was able to just delete the entire repository and start over.  That all my mistakes stayed local and didn't affect upstream repos.
+* using git in a live project / experimenting / trial and error;<<BR>><i>Example answer:</i>That I was able to just delete the entire repository and start over.  That all my mistakes stayed local and didn't affect upstream repos.
 * working on an established project that had documented processes for using git
-* writing code for both plumbing and Porcelain<<BR>> writing documentation / tutorial for project / article
+* writing code for both plumbing and Porcelain;<<BR>> writing documentation / tutorial for project / article
 * understanding the internal representation of the repository;<<BR} good / simple design, basic principles; understanding concepts
 * experience of working in software industry;<<BR>> prior experience with version control systems (GNU Arch, SVN, BK, hg)
 * version 1.5 
@@ -886,7 +894,7 @@ Some of the responses:
 * importing history from other SCM (bzr, svn)
 * reverting changes, amending commit, undoing a commit
 * keeping track of where am I, of which version I'm working with finding which branch the change was made on
-* lerning to use it as maintainer; maintaining "perfect patch series", keeping history clean; rewritig history before 'git rebase -i'
+* learning to use it as maintainer; maintaining "perfect patch series", keeping history clean; rewriting history before 'git rebase -i'
 * dealing with merge conflicts; figuring how to undo failed merge and restart it
 * learning conventions git expects but didn't document clearly like commit message formatting
 * setting up shared repo / shared server; setting up remote repository
@@ -894,7 +902,7 @@ Some of the responses:
 * checking out past revisions (or tagged revisions) with the intention to return to newer revision
 * creating independent branch, i.e. branch without ancestry
 * exploring the history and previous versions of particular files, which are renamed and/or moved around, especially before '--follow' was added
-* some hot-shot peple in the community (on the mailing list)
+* some hot-shot people in the community (on the mailing list)
 * setting up gitweb
 * having to use CLI interface
 * no <i>some language</i> documentation
@@ -978,7 +986,7 @@ Conclusions:
 <!-- ## table end
  -->
 
-<b>NOTE!</b> This table shows <b>only</b> answers in which there was given Git version explicitely. Some people gave date, some people wrote how long they have used git. Those answers needs also processing; they are <i>not presented</i> here.
+<b>NOTE!</b> This table shows <b>only</b> answers in which there was given Git version explicitly. Some people gave date, some people wrote how long they have used git. Those answers needs also processing; they are <i>not presented</i> here.
 
 It looks like the Git users community is divided into part of users who started using it from beginning, or almost from beginning, and users which started using git post v1.3.0 (post e.g. making separate remotes the default layout of branches).
 
@@ -1286,7 +1294,7 @@ In the table below links are to [http://en.wikipedia.org Wikipedia] article abou
 |  26   
 | 
 |-
-|  [[WikiPedia:Baz_(software)|Bazaar]]<<[[FootNote]](Bazaar-NG (bzr) might been mistaken for old Bazaar (baz); the tabularization is biased towards Bazaar-NG, e.g. answer of "Bazaar" was taken for Bazaar-NG, only "baz" for Bazaar)>> 
+|  [[WikiPedia:Baz_(software)|Bazaar]]<<[[FootNote]](Bazaar-NG (bzr) might been mistaken for old Bazaar (baz); the tabulation is biased towards Bazaar-NG, e.g. answer of "Bazaar" was taken for Bazaar-NG, only "baz" for Bazaar)>> 
 |  19   
 | 
 |-
@@ -1383,7 +1391,7 @@ See also question 35: "How does GIT compare to other SCM?".
 
 === 13. What would you require from GIT to enable you to change... ? ===
 
-What would you require from GIT to enable you to change, if you use other SCM for your project?
+<b>What would you require from GIT to enable you to change, if you use other SCM for your project?</b>
 
 474 / 683 non-empty responses
 
@@ -1400,7 +1408,7 @@ Generic:
 
 Performance:
 * better performance on massive trees (FreeBSD)
-* good speed on NTFS (MS WIndows)
+* good speed on NTFS (MS Windows)
 
 Documentation:
 * a good documentation<<BR>> user/installation documentation<<BR>> troubleshooting guide<<BR>> 'Git For Dummies', 'The Git Book' 
@@ -1409,7 +1417,7 @@ Documentation:
 * guide for designing a branch policy for a shared repository
 * screencasts
 * documentation in one's native language
-* good in-depth administative documentation
+* good in-depth administrative documentation
 * maybe git-tutor program
 
 Specific features:
@@ -1422,7 +1430,7 @@ Specific features:
 * multi-project support / multiple sandboxes support
 * git-bind/unbind (like in bzr)
 * git-sync
-* cvs-compatible syntax as an option
+* CVS-compatible syntax as an option
 * tracking empty directories
 * more friendliness with corporate firewalls
 * ability to preserve permissions/modes/EA of files and directories<<BR>> access control features /  visibility access control<<BR>> disabling some users from accessing certain parts of the repository
@@ -1432,7 +1440,7 @@ Specific features:
 * ignore files during merge
 * R/W git server (allow push), with NIS, LDAP support
 * pull/rebase into dirty tree
-* clearcase dynamic view-like support (externally?)
+* ClearCase dynamic view-like support (externally?)
 * better http(s) push via WebDAV: hooks<<BR>> working and easy to setup push over https
 * plain simple FTP upload (push) and download (clone, fetch)
 * better working through corporate firewalls
@@ -1447,14 +1455,14 @@ Portability:
 
 GUI:
 * better (G)UI<<BR>> TortoiseGit for MS Windows, or other Windows front-end<<BR>> good, advanced GTK+ 2.x tool to visualize git
-* history graph conected to file tree in GUIs
+* history graph connected to file tree in GUIs
 * easier management of remotes using GUI
 * better diff viewing tools (side-by-side, like KDiff3)
 
 Other SCMs:
 * seamless import<<BR>> BitKeeper / ClearCase import/sync<<BR>> tool to import TeamWare history into Git
 * better SCM interop
-* SCM rosetta / "Git for <SCM> users" documentation
+* SCM Rosetta / "Git for <SCM> users" documentation
 * import/export tools supporting incremental import and export
 * 100% Subversion interoperability
 * git update (stash, fetch, rebase, unstash) a la CVS
@@ -1709,13 +1717,13 @@ Note that one can use more than one tool, for example for different repositories
 <!-- ## table end
  -->
 
-This is anly partial analysis, as it deals only with first part of question. Second part has free-form structure and needs further processing.
+This is only partial analysis, as it deals only with first part of question. Second part has free-form structure and needs further processing.
 
 One can see that around third of git users interacts (for at least one project) with foreign SCM, as compared to half of git users which have imported other SCM.
 
 === 17. What tool did/do you use to interact? ===
 
-This question is free-form question, but it is treated as multiple-choice question for the porposes of creating table of responses.
+This question is free-form question, but it is treated as multiple-choice question for the purposes of creating table of responses.
 
 <!-- ## table begin
  -->
@@ -1871,7 +1879,7 @@ The only tool which really allows to interact (two-way) with other SCM is git-sv
 
 Around two third of people use git at work, or for work.  
 
-See also question 55: "Would commerical (paid) support from a support vendor be of interest to you/your organization?"
+See also question 55: "Would commercial (paid) support from a support vendor be of interest to you/your organization?"
 
 === 19. How do you obtain GIT? ===
 
@@ -1918,7 +1926,7 @@ On Linux it was meant to be result of <code><nowiki>uname -i</nowiki></code>.  N
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer 
+| <tablestyle="font-size: smaller;" rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer 
 |  Count 
 | 
 |}
@@ -2538,9 +2546,9 @@ Tracked projects can be divided into the following categories:
 * others with official git repositories (like XMMS2 or ELinks)
 * others with unofficial git repositories (like OpenOffice.org)
 
-I'm not sure if I catched all Linux kernel related projects, and all freedesktop (and related) projects.
+I'm not sure if I caught all Linux kernel related projects, and all freedesktop (and related) projects.
 
-There are around 100 (?) different projects tracked mentioned in survey (not all of them <i>choose</i> git as their SCM; some have unoffical git repositories, some are accessed for example via git-svn).
+There are around 100 (?) different projects tracked mentioned in survey (not all of them <i>choose</i> git as their SCM; some have unofficial git repositories, some are accessed for example via git-svn).
 
 === 23. How many people do you collaborate with using GIT? ===
 
@@ -2651,7 +2659,7 @@ Some git repositories have more than 50k files, more than 150k commits, more tha
 
 This question was meant to survey number of repositories one fetches from time to time.
 
-This was a free-form question. For the table belw only first number, or first range was taken.  For range ('$n-$m' or '$n to $m') the middle of range (($n+m)/2) was used.
+This was a free-form question. For the table below only first number, or first range was taken.  For range ('$n-$m' or '$n to $m') the middle of range (($n+m)/2) was used.
 
 <!-- ## table begin
  -->
@@ -2933,7 +2941,7 @@ Multiple answers (one can use more than one GUI).  Note that for the first week 
 <!-- ## table end
  -->
 
-As one can see almost as many people use gitk as CLI.  Most used GUI are [http://www.kernel.org/pub/software/scm/git/docs/gitk.html gitk] and [http://www.kernel.org/pub/software/scm/git/docs/git-gui.html git-gui], most probably because they are distributed with Git, and because they are portable.  [http://digilander.libero.it/mcostalba/ QGit] is also quite popular, although GTK+ viewers, namely [http://developer.imendio.com/projects/giggle/ Giggle] and [[GitView]], taken together are also very popular (note that there might be instances of users using both Giggle and GitView).  I am a bit suprised about popularity of Giggle, I'd say.
+As one can see almost as many people use gitk as CLI.  Most used GUI are [http://www.kernel.org/pub/software/scm/git/docs/gitk.html gitk] and [http://www.kernel.org/pub/software/scm/git/docs/git-gui.html git-gui], most probably because they are distributed with Git, and because they are portable.  [http://digilander.libero.it/mcostalba/ QGit] is also quite popular, although GTK+ viewers, namely [http://developer.imendio.com/projects/giggle/ Giggle] and [[GitView]], taken together are also very popular (note that there might be instances of users using both Giggle and GitView).  I am a bit surprised about popularity of Giggle, I'd say.
 
 [http://jonas.nitro.dk/tig/ Tig] (text-mode interface for git) and git.el (GIT mode for Emacs) are also quite popular.
 
@@ -3249,7 +3257,7 @@ Summary of responses:
 <b>Footnotes:</b>
 <<[[FootNote]]>>
 
-Answer in subcategory is also counted as anser in category; answers for each of categories or subcategories are counted once.  It means that if one answered that he/she wants to have both man pages and user's manual translated it count as "Documentation" category only once.  Note that there were answers of for example 'documentation' without specifying details (answer in subcategory).
+Answer in subcategory is also counted as answer in category; answers for each of categories or subcategories are counted once.  It means that if one answered that he/she wants to have both man pages and user's manual translated it count as "Documentation" category only once.  Note that there were answers of for example 'documentation' without specifying details (answer in subcategory).
 
 This free-form question is tabulated (divided into categories) as multiple-choice answer; one can want to have both documentation and user interface translated.
 
@@ -3257,7 +3265,7 @@ This free-form question is tabulated (divided into categories) as multiple-choic
 
 In alphabetic order, free-form question, treated as multiple choice.
 
-Languages for which [http://repo.or.cz/w/git-gui/git-gui-i18n.git git-gui translation] exists are marged in <i>italic</i> (state for 12.11.2007).
+Languages for which [http://repo.or.cz/w/git-gui/git-gui-i18n.git git-gui translation] exists are marked in <i>italic</i> (state for 12.11.2007).
 
 <!-- ## table begin
  -->
@@ -3579,10 +3587,10 @@ List of features and improvements mentioned:
 * documentation:
 ** unified, organized, searchable documentation
 ** The Git Book (c.f. cvs/svn/hgbook); tutorial leading to advanced concepts like rebase, filter-branch, grafts, submodules, gitattributes 
-** Git Cookbook / Git Recipies; best practices document, usage scenarios, workflows used, HOWTO
+** Git Cookbook / Git Recipes; best practices document, usage scenarios, workflows used, HOWTO
 ** Git for Dummies (for people who haven't used SCM at all) 
 ** more hooks and hook examples
-** mid-level (script / plugin writer leve) docs
+** mid-level (script / plugin writer level) docs
 ** git1line docs a la [http://sed.sourceforge.net/sed1line.txt sed1line.txt]
 ** "git <cmd> --help" returning one page of short command summary, not manpage; "git help --all --summary" for all command with oneline description 
 * other SCMs:
@@ -3618,7 +3626,7 @@ List of features and improvements mentioned:
 ** resumable git-clone; faster and less CPU hungry git-clone
 ** checkout/merge/diff/hunk header handlers in distribution for ChangeLog, XML, odf, jar and xul, po files
 
-This is only (large) excerpt, not full list of all requested features.  As one can see tabularizing (dividing into categories) this data will be not an easy task.
+This is only (large) excerpt, not full list of all requested features.  As one can see tabulating (dividing into categories) this data will be not an easy task.
 
 === 38. What is needed for wider GIT adoption? ===
 
@@ -3628,7 +3636,7 @@ This is only (large) excerpt, not full list of all requested features.  As one c
 
 So many suggestions...
 
-Below there is incomplete list of answers, divided into categories.  I tried to generalize answers, to reduce size of this summary.  Comments in parantheses, <i>emphasized</i>.
+Below there is incomplete list of answers, divided into categories.  I tried to generalize answers, to reduce size of this summary.  Comments in parentheses, <i>emphasized</i>.
 
 Generic:
 * Libification
@@ -3648,7 +3656,7 @@ User interface:
  <i>(Something like now deprecated Cogito? This probably includes better separation of plumbing and porcelain; plumbing should perhaps be not visible to ordinary user. There was also an idea to fold some commands into one, like git-am and git-apply)</i>
 
 * Do usability studies
-* Fix inconsistences and some UI bugs, e.g. too verbose commands. Fix corner cases. 
+* Fix inconsistencies and some UI bugs, e.g. too verbose commands. Fix corner cases. 
 * Improve git commands output and error messages.
 
 Documentation:
@@ -3656,7 +3664,7 @@ Documentation:
 * "Beneath the hood" (technical / programmers manual)
 * "When the shit hits the fan" ;-) - advanced usage
 * Improve documentation
-* Usage scenarios, use cases, recipies / cookbook
+* Usage scenarios, use cases, recipes / cookbook
 * single-file searchable doc, with index (Info version of Git User's Manual, with all manpages in appendix, is perhaps a good start)
 * Better documentation for shared repository workflow
 * Translated manual, translated documentation
@@ -3679,7 +3687,7 @@ Performance:
 
 Tools, interfaces:
 * Integration with popular IDE: Eclipse, KDevelop, MSVC, xcode, Rails,... (There is work on Eclipse support)
-* More powerfull / integrated GUI
+* More powerful / integrated GUI
 
  <i>(Integrated GUI means lost portability; nevertheless it would be nice to have plugins for Konqueror / KDevelop and Explorer / Visual Studio)</i>
 
@@ -3687,13 +3695,13 @@ Tools, interfaces:
 * Better webgui (web interface)
 * Integrate with Launchpad
 * Bug tracker (Trac, BugsAnywhere, SCMbug) integration<<BR>> <i>(See also [http://git.madism.org/?p=grit.git grit]: stupid in git bug tracker)</i>
-* Continuous build tools integrateion: Continuum, Cruise Control
+* Continuous build tools integration: Continuum, Cruise Control
 * Make it have those client/branch history tools like Perforce and [http://en.wikipedia.org/wiki/Plastic_SCM Plastic SCM]
 
 Other SCMs:
 * Rename commands to be more similar to other SCM
 
- <i>(Backward compatibility makes it out ot the question).</i>
+ <i>(Backward compatibility makes it out of the question).</i>
 
 * Better import tools (best if they would be bundled with git), like parsecvs, cvs2git, fromcvs,...
 * Transparent two-way interaction with other SCMs; incremental import; git as fake SCM server, like git-cvsserver or proposed to GSoC git-svnserve
@@ -3715,7 +3723,7 @@ Support and marketing:
 * Perhaps git repository for CPAN modules
 * Move KDE to git
 * Bundle in (enterprise) distributions: SuSE, RHEL, Mandriva,...
-* Pressure / convince som software vendor to use it internally
+* Pressure / convince some software vendor to use it internally
 * Git Company - paid support service
 
 One of the more striking (and funny):
@@ -3767,17 +3775,17 @@ One of the more striking (and funny):
 
 === 40. What improvements you wanted got implemented? ===
 
-<b>TO TABULARIZE</b><<BR>>
+<b>TO TABULATE</b><<BR>>
 <i>129 / 683 non-empty responses</i>
 
 === 41. What improvements you wanted didn't get implemented? ===
 
-<b>TO TABULARIZE</b><<BR>>
+<b>TO TABULATE</b><<BR>>
 <i>104 / 683 non-empty responses</i>
 
 === 42. How do you compare current version with version from year ago? ===
 
-Should be: from year ago, or since you started using Git.  No responses (303 / 683) migh be caused by the fact that one do not use git for a year, so he/she doesn't know what git looked like year ago.
+Should be: from year ago, or since you started using Git.  No responses (303 / 683) might be caused by the fact that one do not use git for a year, so he/she doesn't know what git looked like year ago.
 
 <!-- ## table begin
  -->
@@ -4073,7 +4081,7 @@ This table is sorted by count.
 <!-- ## table end
  -->
 
-=== 47. Do you find GIT's on-line help (homepage, documentation) useful? ===
+=== 47. Do you find GIT on-line help (homepage, documentation) useful? ===
 
 <!-- ## table begin
  -->
@@ -4195,8 +4203,8 @@ Generic
 * Less Linux programmer focused.
 * Translations to other languages for better adaption elsewhere.
 * A dedicated domain name, easy to remember and find. Nicer URL? (git.org?)
-* Change the site name to have 'git' in it! Like 'TheGitSite.com' rather than git.qk.wkx.or (ir is git.or.cz) or whatever. 
-* It could use a better url than 'git.or.cz'; the URL looks like a mirror and I'm not sure I'm on the official home page.
+* Change the site name to have 'git' in it! Like 'TheGitSite.com' rather than git.qk.wkx.or (it is git.or.cz) or whatever. 
+* It could use a better URL than 'git.or.cz'; the URL looks like a mirror and I'm not sure I'm on the official home page.
 * Git could use a real logo.
 
 Code and design
@@ -4209,10 +4217,10 @@ Code and design
 * Move the details on fetching the development code to the 'getting git' page.
 * More prominent links to documentation on how to get started with GIT. 
 * More bling :-) but I'm not really sure about that. Non-technical users get scared away anyway.
-* Smarten it up with some colour and graphics.
+* Smarten it up with some color and graphics.
 * Maybe get a graphics monkey and make it less dull but otherwise the content is OK.
 * Make it prettier. Sounds silly but it counts. Bazaar's main feature is a pretty website ;).
-* The layout. It's ok for me but it looks like a minor hobby project's page
+* The layout. It's OK for me but it looks like a minor hobby project's page
 * Make it easier to find information. Reorganization to find the most important information easily.
 * The page has too much info and is hard to navigate. Look at http://www.mozilla.com/ for contrast.
 * Better layout to make things easier to find. It seems busy and hard to find things. Simplify.
@@ -4228,7 +4236,7 @@ Code and design
 * Modern styles look and feel.
 * Download link needs to stand out more. The homepage appears rather 'flat' that is nothing stands out as more important than the rest. In order of importance, I think there should be: 
 *# Download
-*# Git Quickstart Guide
+*# Git Quick-start Guide
 *# Documentation
 * The lines are too long. Try to find a better proportion.
 * It doesn't look like a project home page. Mercurial does a better job with the look of their page IMHO.
@@ -4252,7 +4260,7 @@ Documentation
 * Remove more aggressively outdated documentation for historic tools (like cogito).
 * Fluxograms describing some use cases. Perhaps some diagrams.
 * More comprehensive tutorial with optional boxouts.
-* Up to date information about best practises and recommended tools.
+* Up to date information about best practices and recommended tools.
 * Add a new users section with some walkthroughs that show how to use git practically on a real repository. Maybe add comparable commands from other SCMs. (git clone -> cvs checkout)
 * 'git for svn/cvs people' could use an overhaul (at least they did a few months ago) The [http://git.or.cz/course/svn.html Git for SVN users] tutorial is incomplete and does not explain for example how the index works and why it's there. Thus people end up thinking that 'svn add' is like 'git add' whereas it's not.
 * A 'git features tour' showing the great features git has.
@@ -4264,7 +4272,7 @@ Documentation
 * Getting started for new users.
 * Simple online demo and beginner Tutorial on one page. The demo could be an applet giving access to a terminal of a running virtual machine with git and some demo repositories. The virtual machine is reset every full hour.
 * Some way to indicate which version of Git a specific piece of documentation refers to.
-* Missing information: examples of ways diffent (real) projects use Git.
+* Missing information: examples of ways different (real) projects use Git.
 * More details on how to make a centralized workflow work
 * A prominent 'Why git?' or 'Why distributed?' section might be good.
 * Better SVN -> Git
@@ -4281,7 +4289,7 @@ Downloads
 Information, new links, new features
 * What's New section
 * News and info about where things are going (roadmap).
-* Link to the latest release announcement. Now you can only find a link to the tarball but most of the time I only want to take a quick look at the announcement ([[RelNotes]]).
+* Link to the latest release announcement. Now you can only find a link to the tarball but most of the time I only want to take a quick look at the announcement (RelNotes).
 * Add a news section and maybe some pointers to interesting user-contributed HOWTOs or something.
 * Add more external porcelains like Guilt to the frontpage.
 * Recommended 'out-of-the-box' package of GUI or CLI interface.
@@ -4292,7 +4300,7 @@ Information, new links, new features
 * I wish for Git Traffic: digest of git mailing list discussions (there was one at http://kerneltraffic.org/git/index.html but it stopped after one issue; KernelTraffic is also no longer updated).<<BR>> Some type of recent news collected from the mailing list 'what's new in the latest release' or coming-soon previews would be nice.
 * The layout and the organization of the sections. It's pretty hard to know why should I use git just looking at the webpage.
 * More marketing on what projects use git and perhaps more blurb on why git is better than other SCMs.
-* Easier access to release notes and changleogs (i.e. the history) without having to browse the git repo or read separate pages from the documentation.
+* Easier access to release notes and changelogs (i.e. the history) without having to browse the git repo or read separate pages from the documentation.
 * A blog or news page (not everyone enjoys mailing lists), perhaps link to mailing list archive
 * Provide 'A note from the maintainer' as a prominent link probably named as 'How the git project is managed and how to participate'
 * Place links to direct git's plugins core and tools source tree.
@@ -4317,13 +4325,13 @@ Generic:
 <<BR>>
 Documentation:
 * More documentation: tutorials, workflow examples, walkthroughs, SCM commands comparison, interacting with other SCMs, HOWTOs, best practices, recommended tools, fluxograms describing use cases (graphics).  Make link to [http://www.kernel.org/pub/software/scm/git/docs/user-manual.html Git User's Manual] stand out better.
-* Less emphasizis on Cogito, mark it more explicitely as deprecated and slowly try to get rid of Cogito references in documentation (e.g. crash courses).
+* Less emphasis on Cogito, mark it more explicitly as deprecated and slowly try to get rid of Cogito references in documentation (e.g. crash courses).
 
  <i>(Cogito is officially deprecated from not a long time; the process of removing references to cg in crash courses is AFAIK ongoing)</i>
 
  <b>Partially DONE</b>
 
-* More emphasizis on "Why git?" and "Why distributed SCM?". A 'git features tour' showing the great features git has. In short: why and when to choose git.
+* More emphasis on "Why git?" and "Why distributed SCM?". A 'git features tour' showing the great features git has. In short: why and when to choose git.
 
  <i>(Someone would have to write it)</i>
 
@@ -4358,7 +4366,7 @@ Downloads:
 Information, new links, new features:
 * Link to the latest release announcement (RelNotes) on download page.
 
- <i>(Links to relnotes are in HTML version of git(7) manpage, but I think it is not enough. Fortunately we _have_ release notes.)</i>
+ <i>(Links to RelNotes are in HTML version of git(7) manpage, but I think it is not enough. Fortunately we _have_ release notes.)</i>
 
  <b>DONE</b>
 
@@ -4399,7 +4407,7 @@ Documentation:
 * eclectic / untypical use cases, for example: [[GitForBackup]], [[SyncWithGit]], [[GitForDocuments]] ([[LaTeX]], ODF,...), [[MergingProjects]] (for example gitweb, gitk, git-gui with git)
 * [[CentralizedRepository]] / [[CentralRepository]] / [[SharedRepository]] (description of CVS/SVN-like workflow)
 * advanced usage, for example [[FindingErrorsWithBisect]]
-* workflows, usage scenarion, use cases, collaboration paradigms including [[KernelWorkflows]] (kernel maintainer tasks / workflows), [[BestPractices]], etc.
+* workflows, usage scenarios, use cases, collaboration paradigms including [[KernelWorkflows]] (kernel maintainer tasks / workflows), [[BestPractices]], etc.
 * HOWTOs (perhaps wikifying some files from Documentation/howto)
 * Git for newbies: quick start document (rather for homepage)
 * The Git Book (for homepage and/or bundled documentation)
@@ -4411,7 +4419,7 @@ Documentation:
 Features and planned features:
 * [[MergingStrategies]] / [[MergeStrategies]] i.e. wikified [http://repo.or.cz/w/git.git?a=blob_plain;f=Documentation/merge-strategies.txt Documentation/merge-strategies.txt], perhaps with proposed merge strategies and [http://revctrl.org/CategoryMergeAlgorithm revctrl] / other SCM merge strategies described
 * [[BranchingAndMerging]] (there is [[BranchesInGit]] wiki page)
-* docs for new features, including: [[KeywordExpansion]], [[EolConversion]], [[GitAttributes]], [[ShallowClone]], [[SubmodulesSupport]] / [[SubprojectSupport]], DetachedHEAD, [[BundleTransport]] / [[GitBundle]], [[AutoRepacking]] / [[AutoPacking]]
+* docs for new features, including: [[KeywordExpansion]], [[EolConversion]], [[GitAttributes]], [[ShallowClone]], [[SubmodulesSupport]] / [[SubprojectSupport]], [[DetachedHEAD]], [[BundleTransport]] / [[GitBundle]], [[AutoRepacking]] / [[AutoPacking]]
 * concept documentation, including [[BranchesInGit]] (existing), [[WhatIsTheIndex]] (existing), [[GraftPoint]] (existing)
 * [[FileRename]], including discussion on tracking vs detecting renames
 
@@ -4430,7 +4438,7 @@ Examples:
 * [[HooksExamples]] / [[GitHooks]] (example hooks) 
 
 Other:
-* [[GitConventions]] / [[CommitConventions]] for example commite message conventions, sign-off, etc.
+* [[GitConventions]] / [[CommitConventions]] for example commit message conventions, sign-off, etc.
 * [[GitForSingleDeveloper]] (perhaps as a part of [[WhyVersionControl]])
 * [[SyncWithGit]] for example synchronization between laptop and desktop
 * [[PublishingRepository]], i.e. description of most typical workflow with private repository and public bare publishing repository (or repositories)
@@ -4448,7 +4456,7 @@ Generic:
 * More examples of not-so-common setups
 * Translation, also known as i18n
 * Proof-reading by an expert technical writer
-* Single document, searchable documention, so one can search all of the git documentation at once (includes unified tutorial)
+* Single document, searchable documentation, so one can search all of the git documentation at once (includes unified tutorial)
 * Documentation is way too detailed. Needs overview of tasks. Existing overviews seems to miss some important things.
 * Make documentation more feature-oriented / task-oriented / goal-oriented, so one doesn't have to know the exact name of command to use. It's hard to find informations on 'how' to do a thing you think git is able to do but that you don't know yet.
 * More verbosity. 'Reasons-why' something is done this and that way in git
@@ -4460,7 +4468,7 @@ Generic:
 * Separate the detailed in-depth documentation from the higher level usage documentation. Again go look at Mercurial's stuff. When I'm using the VCS I don't need detail I need simple to understand what's going to happen next information and feedback.
 * Better organization
 * Too complex
-* Make git documention more consistent (style, contents, writing)
+* Make git documentation more consistent (style, contents, writing)
 * Giving more information how the tools work together.
 * Less jargon
 * More elementary examples
@@ -4476,7 +4484,7 @@ New documentation:
 * Workflows, push and pull examples for different team situations. Structures and processes for multi-developer collaboration. More examples of common tasks. More complex examples for different work flows, preferably with a good rationale.
 * Intermediate / mid-level documentation (<i>explanation:</i> Documentation seems to be either at porcelain or coder / plumbing level. As I wanted to use read-tree etc. differently, more mid-level documentation would have helped.)
 * Improved migration guides from other SCMs and from other SCM workflows; step by step migration / conversion tutorial.
-* Installation documetation for using a 'central' git server and gitweb. How to do centralized [repo] development with git.
+* Installation documentation for using a 'central' git server and gitweb. How to do centralized [repo] development with git.
 * HOWTOs (there are some)
 * Technical documentation: API if possible (doxygen?), RFC for index and pack formats, RFC for pack (git) protocol, explanation for dumb protocol exchange, explanation of SSH protocol exchange
 * A single alphabetical list of all commands in one index somewhere.<<BR>> I hate the splash-page 'categorized' list. (separate doc, or in git(7) manpage).
@@ -4517,7 +4525,7 @@ Other documentation improvements:
 * Add explanation of frequent/typical errors of users not accustomed to git, and how to correct them (presumably to Git User's Manual).
 * Explain every funny file in .git (either in [http://www.kernel.org/pub/software/scm/git/docs/git.html git(7)], in [http://www.kernel.org/pub/software/scm/git/docs/glossary.html glossary] or in [http://www.kernel.org/pub/software/scm/git/docs/user-manual.html Git User's Manual]).
 * More Tips&Tricks: features like <code><nowiki>rebase -i</nowiki></code> comes to mind (most probably in tutorial or user's manual)
-* Tutorial / user's manual should consist of the following parts: simple usage (single developer), networking and syncying DBs, trust system (workflow).
+* Tutorial / user's manual should consist of the following parts: simple usage (single developer), networking and syncing DBs, trust system (workflow).
 
 <<BR>>
 Building and installation:
@@ -4705,7 +4713,7 @@ That is I think very good (around 86%) percentage.
 
 === 55. Would commercial support be of interest? ===
 
-<b>Would commerical (paid) support from a support vendor be of interest to you/your organization?</b>
+<b>Would commercial (paid) support from a support vendor be of interest to you/your organization?</b>
 
 <!-- ## table begin
  -->
@@ -4847,7 +4855,7 @@ Note that the number of people who answered question decreases, which probably m
 <!-- ## table end
  -->
 
-Only a small percentage of people reading [[MailingList:git mailing list]] doesn't find it useful. Good.
+Only a small percentage of people reading [[MailingLists:git mailing list]] doesn't find it useful. Good.
 
 === 58. Do you find traffic levels on GIT mailing list OK? ===
 
@@ -4927,7 +4935,7 @@ Only a small percentage of people reading [[MailingList:git mailing list]] doesn
 <!-- ## table end
  -->
 
-Lack of answers most probably means either: I did not known about #git channel (and therefore do not use it), or that this survey is too long and I didn't answer laste questions...
+Lack of answers most probably means either: I did not known about #git channel (and therefore do not use it), or that this survey is too long and I didn't answer last questions...
 
 === 60. If yes, do you find IRC channel useful? ===
 
@@ -5014,7 +5022,7 @@ Problems and suggestion for mailing list:
 
 * I no longer subscribe to the GIT mailing list as ML subscription is forbidden at my new job, and I have no time at home to read it all.
 
- <i>(You can read git mailing list through many archives / web interfaces, including MARC and GMane ones, and throught NNTP (aka. Usenet, aka news) interface on GMane: see [[MailingLists]]. You don't need to be subscribed to git mailing list to post.)</i>
+ <i>(You can read git mailing list through many archives / web interfaces, including MARC and GMane ones, and through NNTP (aka. Usenet, aka news) interface on GMane: see [[MailingLists]]. You don't need to be subscribed to git mailing list to post.)</i>
 
 * People responded quickly to mailing list queries usually helpfully. However there was occasionally a touch of annoying 'groupthink' to the responses; sometimes new users are just confused and really would be better served by just changing their working habits, but other times there appeared to be a bit of tunnel-vision on the part of the longtime git users.
 * Trolls could be thrown out ;-) Seriously we had only a few there, but they are mighty annoying.
@@ -5044,7 +5052,7 @@ Generic problems and suggestions:
 * Sometimes you get no answer (on git mailing list or #git channel) but that happens
 * People seem to think the problem isn't with git, and yet I find git extremely buggy and non-intuitive. Your "Git in 5 minutes" doesn't even include +x a hook or mention of hooks; neither does [http://git.or.cz/gitwiki/LinusTalk200705Transcript Linus speech]. If you don't +x a hook, try to figure out what is going on. I dare you. Git fails silently a bunch, maybe half of the time by design. Which shouldn't be acceptable. 
 
- Try addressing an ssh address in url format: it isn't consistent and it will fail in half the apps. Same thing with git-ls-remote: it might have an --upload-pack that works, but this isn't across the board! From my own debugging none of the shell scripts have an --upload-pack option that work.
+ Try addressing an ssh address in URL format: it isn't consistent and it will fail in half the apps. Same thing with git-ls-remote: it might have an --upload-pack that works, but this isn't across the board! From my own debugging none of the shell scripts have an --upload-pack option that work.
 
  <i>(Not here. This is question about getting help from people, not about documentation or what you find hardest in GIT.)</i>
 
@@ -5098,7 +5106,7 @@ Suggestions for git:
 
  Git is just too complicated for a typical project. I understand it's probably great for the Linux kernel but for a smaller project like mine ([http://www.mesa3d.org/ Mesa]) it's overkill and a frustration. (...)  With git everything seems hard. (...)  I've <i>wasted hours</i> trying to figure out git. That alone is a huge issue. I guess I could go into specific details about my problems with git but I've already spent enough time on this survey.
 
- <i>(If you want git to be improved, you should specify details of your ptoblems with git, either should have in this survey (now closed), or now send email to git mailing list (which does not need subscription to post))</i>
+ <i>(If you want git to be improved, you should specify details of your problems with git, either should have in this survey (now closed), or now send email to git mailing list (which does not need subscription to post))</i>
 
 * Figure out why people find git hard to learn and eliminate those barriers to entry.  Make git more task-oriented rather than data-model-oriented the way it is now.
 
@@ -5212,6 +5220,6 @@ Some other comments:
 * [http://www.survey.net.nz/survey.php?94e135ff41e871a1ea5bcda3ee1856d9 Git User's Survey 2007] at [http://www.survey.net.nz Survey.Net].
 * [http://thread.gmane.org/gmane.comp.version-control.git/53665 Git User's Survey 2007] thread on git mailing list: discussion about questions etc.
 * [[GitSurvey2006]] - previous survey summary
-* [http://www.selenic.com/mercurial/wiki/index.cgi/UserSurvey Mercurial [[UserSurvey]]], which inspired first [[GitSurvey2006:Git User's Survey]]. See also [http://www.selenic.com/mercurial/wiki/index.cgi/UserSurveyConclusions Mercurial [[UserSurveyConclusions]]] and [http://www.selenic.com/mercurial/wiki/index.cgi/UserSurvey2007 comments about Mercurial User's Survey 2007]
+* [http://www.selenic.com/mercurial/wiki/index.cgi/UserSurvey Mercurial [[UserSurvey]]], which inspired first [[GitSurvey2006:Git User's Survey]].<<BR>> See also [http://www.selenic.com/mercurial/wiki/index.cgi/UserSurvey2007 comments about Mercurial User's Survey 2007]
 
 __NOTOC__
