@@ -168,7 +168,7 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * Various projects hosted at fd.o:
   http://www.freedesktop.org/wiki/Infrastructure/git (description)<<BR>>
   http://www.freedesktop.org/wiki/Infrastructure/git/UIFlaws (git UI wishlist)<<BR>>
-  http://gitweb.freedesktop.org/ (repository, gitweb)
+  http://gitweb.freedesktop.org/ (repository, gitweb)<<BR>>
   http://cgit.freedesktop.org/ (cgit, alternative web front end)
 * X.Org (X server, X libraries, classic X applictions, drivers)
 ** http://xorg.freedesktop.org/wiki/Development/git (description)
