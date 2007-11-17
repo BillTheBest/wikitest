@@ -169,7 +169,8 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
   http://www.freedesktop.org/wiki/Infrastructure/git (description)<<BR>>
   http://www.freedesktop.org/wiki/Infrastructure/git/UIFlaws (git UI wishlist)<<BR>>
   http://gitweb.freedesktop.org/ (repository, gitweb)
-* X.Org
+  http://cgit.freedesktop.org/ (cgit, alternative web front end)
+* X.Org (X server, X libraries, classic X applictions, drivers)
 ** http://xorg.freedesktop.org/wiki/Development/git (description)
 * Cairo (2D graphics library with support for multiple output devices)
 ** http://cairographics.org (description)
@@ -177,10 +178,18 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 ** http://xcb.freedesktop.org/wiki/ (description)
 * HAL (Hardware Abstraction Layer)
 ** http://www.freedesktop.org/wiki/Software_2fhal (description)
+* [[PolicyKit]] (Toolkit for controlling privileges for system-wide services)
+** http://hal.freedesktop.org/docs/[[PolicyKit]]/
 * D-Bus (IPC system)
 ** http://dbus.freedesktop.org/wiki/ (description)
 * Mesa3D (graphics library, software OpenGL implementation)
 ** http://www.mesa3d.org/repository.html (description)
+* fontconfig (font management system)
+** http://fontconfig.org/wiki/
+* poppler (PDF rendering library)
+** http://poppler.freedesktop.org/
+* compiz (OpenGL based compositing manager)
+** http://go-compiz.org
 * VLE - Virtual Laboratory Environment: a scientific project on multimodeling and simulation based on the DEVS (discrete event system specification) paradigm.
 * http://vle.univ-littoral.fr
 * http://vle.univ-littoral.fr/gitweb
