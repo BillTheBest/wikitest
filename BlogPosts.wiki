@@ -5,7 +5,7 @@ A lot of blog posts related to Git usage have been published since the project's
 == Setup ==
 
 * [http://www.itp.tuwien.ac.at/~mattems/blog/2006/07/17#git_server_setup git-daemon setup]
-* [http://scie.nti.st/2007/11/14/hosting-git-repositories-the-easy-and-secure-way Hosting Git repositories, The Easy (and Secure) Way] (via ssh), with the help of [http://eagain.net/gitweb/?p=gitosis.git gitosis] tool <i>(Python, requires setuptools)</i>
+* [http://scie.nti.st/2007/11/14/hosting-git-repositories-the-easy-and-secure-way Hosting Git repositories, The Easy (and Secure) Way] (via ssh),<<BR>> with the help of [http://eagain.net/gitweb/?p=gitosis.git gitosis] tool <i>(Python, requires setuptools)</i>
 
 == Switching to Git and SCMs interaction ==
 
