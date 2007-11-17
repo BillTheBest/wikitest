@@ -180,6 +180,7 @@ There is place for generic, non SCM specific, links
  See also [https://lists.ubuntu.com/archives/ubuntu-devel/2007-March/023399.html bzr for packaging] thread at ubuntu mailing list.
 * [http://thedailywtf.com/forums/thread/98959.aspx Happy Merge Day!] by Alex Papadimoulis at [http://thedailywtf.com/ The Daily WTF: Curious Pervisions in Information Technology] blog is an example on how to <b><u>not</u></b> deploy SCM. Perhaps more important than the article itself are comments to it.
 * [http://www.cmcrossroads.com/bradapp/acme/branching/ <i>Streamed Lines:</i> Branching Patterns for Parallel Software Development] (c) 1998 by Brad Appleton, Stephen Berczuk, Ralph Cabrera, and Robert Orenstein.
+* [http://www.codinghorror.com/blog/archives/000968.html Software Branching and Parallel Universes] at [http://www.codinghorror.com/blog/ Coding Horror blog] by Jeff Atwood.
 * [http://www.martinfowler.com/articles/continuousIntegration.html Continuous Integration] by  Martin Fowler about Continuous Integration software development practice.
 * [http://www.joelonsoftware.com/items/2006/11/29.html Using source control tools on huge projects] by Joel Spolsky, about the use of source control on the Windows team in Microsoft.
 * [http://versioncontrolblog.com/2007/01/08/configurein-and-version-control/ configure.in and version control] in [http://versioncontrolblog.com Version Control Blog] talks about issue of including (some) of generated files in version control for the ease of deployment.
