@@ -175,13 +175,18 @@ export GIT_DIFF_PAGER="colordiff | less -RS"</nowiki></pre>
 === gitlsfiles ===
 * [http://ygingras.net/b/tag/gitlsfiles gitlsfiles] is Git plugin for [http://peak.telecommunity.com/DevCenter/setuptools Setuptools], by Yannick Gingras (Python). Setuptools is a collection of enhancements to the Python distutils that allow you to more easily build and distribute Python packages, especially ones that have dependencies on other packages.
 
+<<Anchor(gitosis)>>
+=== gitosis ===
+    <b>gitosis</b> ([http://eagain.net/gitweb/?p=gitosis.git gitweb], [http://eagain.net/gitweb/?p=gitosis.git;a=blob;f=README.rst;hb=HEAD README] by Tommi 'Tv' Virtanen is a tool to manage git repositories, provide access to them over SSH, with tight access control and not needing shell accounts. Described in [http://eagain.net/blog/2007/10/12/snakepit-and-gitosis.html Tv's cobweb: Snakepit and gitosis, things I've been working on] on author's blog and [http://scie.nti.st/2007/11/14/hosting-git-repositories-the-easy-and-secure-way Hosting Git repositories, The Easy (and Secure) Way] post on [http://scie.nti.st scie.nti.st], Garry Dolley blog. <i>(Python, requires setuptools)</i>
+
 === libgit-thin ===
 * libgit-thin by Luiz Fernando N. Capitulino and Shawn O. Pearce is an ongoing effort to develop a library for git, which started as a [http://code.google.com/p/google-summer-of-code-2007-git/ Google Summer of Code 2007 project]. Read [http://article.gmane.org/gmane.comp.version-control.git/53433 this announcement] for more details. It also comes with Python bindings called [[PyGit]], wich demonstrate the current capabilities. The git repository of this project can be found under http://repo.or.cz/w/git/libgit-gsoc.git.
 = See also =
 * [[InterfacesFrontendsAndToolsWishlist]]
 * [[Plumbings]]
 * [http://git.or.cz/#tools Git - Related Tools] (at Git homepage)
+
 ----
-* [[CategoryTools]] [[CategoryGitHomepage]] ([http://git.or.cz/#tools Related Tools])
+[[CategoryTools]] [[CategoryGitHomepage]] ([http://git.or.cz/#tools Related Tools])
 
 __NOTOC__
