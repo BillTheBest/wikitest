@@ -351,6 +351,8 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 ** http://www.jur-linux.org/git/
 
 == Git hosting ==
+
+* http://hosted.fedoraproject.org/ (Primarily Fedora related but open to other Free software projects too)
 * Public Git hosting site, maintained by Petr Baudis
 ** http://repo.or.cz/
 * [http://alioth.debian.org/ Alioth] (project hosting, modified [http://gforge.org GForge] engine, managed by [http://www.debian.org/ Debian] project)
