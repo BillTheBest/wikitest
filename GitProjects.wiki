@@ -99,6 +99,10 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * Fedora
 ** http://hosted.fedoraproject.org/ (some Fedora hosted projects)
 ** http://git.fedoraproject.org/ (gitweb)
+* fprint (biometric fingerprint scanning on Linux)
+** http://www.reactivated.net/fprint/
+** http://www.reactivated.net/fprint/wiki/Libfprint_development (repo info)
+** http://www.reactivated.net/fprint/wiki/Pam_fprint#Development (repo info)
 * GNU core utils
 ** http://git.sv.gnu.org/gitweb/?p=coreutils.git (gitweb)
 ** git://git.sv.gnu.org/coreutils.git
