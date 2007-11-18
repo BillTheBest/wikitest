@@ -194,8 +194,7 @@ A quick rule of thumb is to <i>never</i> push into a repository that has a work 
 
 See also the entry (How would I use "git push" to sync out of a firewalled host?) in this FAQ for proper way to work with push with a repository with a work tree.
 
-[[Anchor(git-push after-rebase)]]
-
+<<Anchor(git-push after-rebase)>>
 == Why won't "git push" work after I rebased a branch? ==
 After you have rebased one of your local branches, you are trying to push your changes to a remote repository. But <code><nowiki>git push</nowiki></code> fails with this error message:
 
@@ -236,8 +235,7 @@ Now consider what happens when you checkout another branch modification times ar
 
 Git sets the current time as the timestamp on every file it modifies, but only those. The other files are left untouched which means build tools will be able to depend on modification time and rebuild properly. If build rules change that can cause a failure anyway, but that is a far less common problem than accidentally not rebuilding.
 
-[[Anchor(pager-default)]]
-
+<<Anchor(pager-default)>>
 == Why does git use a pager for commands like diff/log and --help? ==
 Usually you are not interested in the whole log, but only some bits at the beginning.  To let the output whiz by, leaving you with the uninteresting parts at the end would be an error.  If "git log" would do it the other way round, showing you the interesting bits last, it would waste much, much time on showing information that you are not interested in at all.  So the only thing that makes sense is to look at the log in a pager.  It also helps searching for keywords.
 
@@ -257,23 +255,23 @@ It is recommended (as of 1.5.3) that <code><nowiki>color.diff</nowiki></code> be
 This appears to be an issue with your Cygwin configuration.  Make sure your CYGWIN environment variable doesn't contain 'tty'.
 
 = How do I ... =
-[[Anchor(untrack-file)]]
 
+<<Anchor(untrack-file)>>
 == How do I untrack a file? ==
 If you want to keep a file, but not have it in the next revision, do this:
 
 <pre><nowiki>
 git rm --cached <filename>
 </nowiki></pre>
-[[Anchor(repo-sharing)]]
 
+<<Anchor(repo-sharing)>>
 == How do I share a git public repository and use it in a CVS way? ==
 Use <code><nowiki>cg-admin-setuprepo -g</nowiki></code> (if you use [[Cogito]]) or do <code><nowiki>git-init --shared</nowiki></code> (if you use core [[Git]]) and some additional stuff. It's O.K. that refs aren't group writable, it's enough the directory is.
 
 * See the
  [http://www.kernel.org/pub/software/scm/cogito/docs/introduction.html introduction to Cogito] or GIT's [http://www.kernel.org/pub/software/scm/git/docs/cvs-migration.html cvs-migration] doc, "Emulating the CVS Development Model" section for details.
-[[Anchor(push-is-reverse-of-fetch)]]
 
+<<Anchor(push-is-reverse-of-fetch)>>
 == How would I use "git push" to sync out of a firewalled host? ==
 When you work on two machines, sometimes your firewall would let you make a TCP connection only in one direction but not in the other direction. Suppose you start a project on machine A, and clone from there to a machine B. You work on B and would want to propagate the change back to your repository on machine A. Even if you wanted to, you cannot run git-fetch on machine A to fetch from B, as B is firewalled and does not allow incoming connections. What should you do in such a case?
 
@@ -301,13 +299,11 @@ machineB$ git push
 </nowiki></pre>
 See also http://thread.gmane.org/gmane.comp.version-control.git/42506/focus=42685
 
-[[Anchor(tag-checkout)]]
-
+<<Anchor(tag-checkout)>>
 == How do I check out the tree at a particular tag? ==
 So you cloned that shiny repository and now would like to get the working tree to the state as of some tag (use <code><nowiki>cg tag-ls</nowiki></code> or <code><nowiki>git tag -l</nowiki></code> to list all available tags). Cogito supports such "seeking" natively - you can use <code><nowiki>cg seek TAGNAME</nowiki></code> to go there, and <code><nowiki>cg seek</nowiki></code> without arguments to go back to the latest revision (<code><nowiki>cg status</nowiki></code> will note that you are seeked). With Git, if you have a version prior to 1.5, you will have to create a temporary branch based on the tag. If you will never want to come back, <code><nowiki>git checkout -b temporarybranch TAGNAME</nowiki></code>. If you want to return to your latest revision later, before going away check what is your current branch (usually it's <code><nowiki>master</nowiki></code>), and when going back do <code><nowiki>git checkout ORIGINALBRANCH</nowiki></code>. Get rid of <code><nowiki>temporarybranch</nowiki></code> by doing <code><nowiki>git branch -D temporarybranch</nowiki></code>. If your Git is 1.5+, just do a <code><nowiki>git checkout TAGNAME</nowiki></code>.
 
-[[Anchor(share-objects)]]
-
+<<Anchor(share-objects)>>
 == How to share objects between existing repositories? ==
 Do
 
@@ -321,8 +317,7 @@ git repack -a -d -l
 </nowiki></pre>
 where the '-l' means that it will only put <i>local</i> objects in the pack-file (strictly speaking, it will put any loose objects from the alternate tree too, so you'll have a fully packed archive, but it won't duplicate objects that are already packed in the alternate tree).
 
-[[Anchor(gitignore)]]
-
+<<Anchor(gitignore)>>
 == How do I tell git to ignore files? ==
 You can put shell-style globs (e.g. <code><nowiki>*.o</nowiki></code>) in either <code><nowiki>.git/info/exclude</nowiki></code> or <code><nowiki>.gitignore</nowiki></code>.
 
@@ -332,8 +327,8 @@ You can put shell-style globs (e.g. <code><nowiki>*.o</nowiki></code>) in either
 
 * See the
  [http://www.kernel.org/pub/software/scm/git/docs/git-ls-files.html git-ls-files(1)] man page, section "Exclude Patterns" for details.
-[[Anchor(saving-draft)]]
 
+<<Anchor(saving-draft)>>
 == How do I save some local modifications? ==
 Sometimes it is necessary to put some local changes appart, and come back to it later (typically, when one hits an easily fixable bug in the middle of a non-trivial work, and want to fix the bug before anything else).
 
@@ -357,8 +352,7 @@ $ git reset --hard
 </nowiki></pre>
 (<b>warning:</b> <code><nowiki>git reset --hard</nowiki></code> removes changes to the working tree!)
 
-[[Anchor(merge-by-hand)]]
-
+<<Anchor(merge-by-hand)>>
 == How to manually resolve conflicts when Git failed to detect rename? ==
 What to do when you renamed a bunch of files, the merge is having a hard time autoresolving, and you have a couple of conflicts? Suppose the project originally had <code><nowiki>util/endian.h</nowiki></code>, and during the course of your development you moved it to <code><nowiki>src/util/endian.h</nowiki></code>. Your friend kept working on <code><nowiki>util/endian.h</nowiki></code> and it is time to merge the two branches. Sometimes recursive merge strategy (the default) detects this situation, and merge the changes your friend made to <code><nowiki>util/endian.h</nowiki></code> to <code><nowiki>src/util/endian.h</nowiki></code> without problems (you may still have to resolve the conflict in the contents of the file). But when git thinks you removed <code><nowiki>util/endian.h</nowiki></code> and created an unrelated <code><nowiki>src/util/endian.h</nowiki></code> file, you will see merge conflicts "your side removed, other side modified" on <code><nowiki>util/endian.h</nowiki></code>.
 
@@ -381,8 +375,7 @@ $ merge src/util/endian.h endian.h-1 endian.h-3
 
 Once you come up with the desired state in your file (<code><nowiki>src/util/endian.h</nowiki></code> in our example), then you have to inform Git that file was renamed, i.e. say "<code><nowiki>git update-index --remove util/endian.h</nowiki></code>" in our example (removing the file from working directory as well, if it exist there) and then "<code><nowiki>git update-index src/util/endian.h</nowiki></code>" (you should have it already in the index, so you do not have to say <code><nowiki>--add</nowiki></code>).
 
-[[Anchor(revert-file-change)]]
-
+<<Anchor(revert-file-change)>>
 == How to revert file to version from current commit? ==
 If you messed up a file, or removed it accidentally, and want to revert file change to version at current commit, you can use:
 
@@ -394,8 +387,8 @@ If you want to revert to version in index, use
 <pre><nowiki>
 git checkout -- <file>
 </nowiki></pre>
-[[Anchor(view-old-rev)]]
 
+<<Anchor(view-old-rev)>>
 == How to view an old revision of a file without checking out the file? ==
 Something like the following:
 
@@ -408,8 +401,8 @@ For example:
 git cat-file -p tags/v1.4.3:git.c
 git cat-file -p f5f75c652b9c2347522159a87297820103e593e4:git.c
 </nowiki></pre>
-[[Anchor(fix-broken-repo)]]
 
+<<Anchor(fix-broken-repo)>>
 == How to fix a broken repository? ==
 As Linus said ([http://thread.gmane.org/gmane.comp.version-control.git/40893/focus=40896 on gmane]):
 
@@ -528,15 +521,13 @@ and just looked for the sha of the missing object (4b9458b..) in that whole thin
 
 Trying to recreate trees and especially commits is *much* harder. So you were lucky that it's a blob. It's quite possible that you can recreate the thing."
 
-[[Anchor(set-up-repo)]]
-
+<<Anchor(set-up-repo)>>
 == How to set up a git server? ==
 Look for "Repository Administration" in the [http://www.kernel.org/pub/software/scm/git/docs/everyday.html#Repository%20Administration everyday git document].
 
 To setup a git server over http, see [http://www.kernel.org/pub/software/scm/git/docs/howto/setup-git-server-over-http.txt the relevant document].
 
-[[Anchor(create-project)]]
-
+<<Anchor(create-project)>>
 == How to create the first project? ==
 See the [http://www.kernel.org/pub/software/scm/git/docs/tutorial.html Git tutorial].
 
@@ -546,14 +537,14 @@ At the moment, git is not able to use a (dumb) sftp protocol for pushing. There 
 Alternatively, you can use whatever means to mirror your .git/ directory to the server (rsync, scp -r, ...). But make sure that 'git update-server-info' was run in that repository _before_ mirroring!
 
 = Error diagnostic =
-[[Anchor(empty-ident)]]
 
+<<Anchor(empty-ident)>>
 == Git commit is dying telling me "fatal: empty ident <user@myhost> not allowed", what's wrong? ==
 Make sure your Full Name is not empty in chsh or the 5th field of your user line in <code><nowiki>/etc/passwd</nowiki></code> isn't empty. You can also set the <code><nowiki>GIT_AUTHOR_NAME</nowiki></code> environment variable. If your @myhost is empty make sure your hostname is correctly set. Use <code><nowiki>git-var -l</nowiki></code> to make git display user identity variables.
 
 * See [http://www.kernel.org/pub/software/scm/git/docs/git-var.html git-var(1)]
-[[Anchor(change-branch)]]
 
+<<Anchor(change-branch)>>
 == Why won't git let me change to a different branch? ==
 Using <code><nowiki>git checkout <branch></nowiki></code> or <code><nowiki>git checkout -b <branch></nowiki></code> it just says:
 
@@ -565,8 +556,8 @@ You have changes to files in your working directory that will be overwritten, re
 <pre><nowiki>
 $ git checkout -m -b my-branch
 </nowiki></pre>
-[[Anchor(pu)]]
 
+<<Anchor(pu)>>
 == refs/heads/pu: does not fast forward to branch 'pu' ==
 The "pu" branch often won't fast forward because some commits have been completely deleted in it since the last time you pulled.
 
@@ -614,8 +605,7 @@ See the [[InterfacesFrontendsAndTools#rcs-interaction:[[InterfacesFrontendsAndTo
 
 Note that you can add/import old history from other revision control system later, and join the histories using [[GraftPoint:Graft Points]].
 
-[[Anchor(import-tar)]]
-
+<<Anchor(import-tar)>>
 == Can I import from tar files (archives)? ==
 To import from archives (one archive file per version), to make Git know which files changed between versions despite the fact that time stamps on everything changed (i.e. <code><nowiki>--atime-preserve</nowiki></code> option of <code><nowiki>tar</nowiki></code> didn't work), use
 
@@ -624,29 +614,26 @@ $ git-update-index --refresh
 </nowiki></pre>
 between versions, so the index <i>thinks</i> things are newer. It won't touch the "really changed" files.
 
-[[Anchor(import-cvs)]]
-
+<<Anchor(import-cvs)>>
 == Can I import from CVS? ==
 Yes, use [http://www.kernel.org/pub/software/scm/git/docs/git-cvsimport.html git-cvsimport(1)], which needs [http://www.cobite.com/cvsps/ CVSps] ([http://ydirson.free.fr/en/software/scm/cvsps.html CVSps patches]), or use [http://gitweb.freedesktop.org/?p=users-keithp-parsecvs;a=summary parsecvs], which parses directly <code><nowiki>,v</nowiki></code> files. Yet another solution would be to use [http://cvs2svn.tigris.org/ cvs2svn] to import CVS repository to Subversion, then import from Subversion to Git (at least until cvs2svn is ported to git as e.g. cvs2git) and finally [http://git.or.cz/gitwiki/InterfacesFrontendsAndTools#fromcvs FromCVS toGit] which is a speedy solution with incremental import and branch support, but currently not support normal tags.
 * See [http://www.kernel.org/pub/software/scm/git/docs/cvs-migration.html the CVS migration doc] for more examples.
 * See [http://git.or.cz/course/cvs.html Git - CVS Crash Course] on [http://git.or.cz/ Git homepage]
-[[Anchor(import-svn)]]
 
+<<Anchor(import-svn)>>
 == Can I import from svn? ==
 Yes, use [http://www.kernel.org/pub/software/scm/git/docs/git-svnimport.html git-svnimport(1)] or [http://git-svn.yhbt.net/git-svn.html git-svn(1)]. Check also <<[[InterfacesFrontendsAndTools]]#git-svnconvert>> (in Ruby) in [[InterfacesFrontendsAndTools]]. There is also an idea to use <code><nowiki>svnadmin dump</nowiki></code> [http://svn.collab.net/repos/svn/trunk/notes/fs_dumprestore.txt "dumpfile" format] as an input for Subversion to Git repository conversion, (similary to what <code><nowiki>parsecvs</nowiki></code> does for CVS repositories).
 * See [http://git.or.cz/course/svn.html Git - SVN Crash Course] on [http://git.or.cz/ Git homepage]
-[[Anchor(import-arch)]]
 
+<<Anchor(import-arch)>>
 == Can I import from arch/baz/tla? ==
 Yes, use [http://www.kernel.org/pub/software/scm/git/docs/git-archimport.html git-archimport(1)].
 
-[[Anchor(import-perforce)]]
-
+<<Anchor(import-perforce)>>
 == Can I import from Perforce? ==
 Yes, there is a number of importers, including one in contrib/ directory of Git source distribution. Search Git mailing list archives for others.
 
-[[Anchor(import-others)]]
-
+<<Anchor(import-others)>>
 == Can I import from other SCMs? ==
 Maybe, check if Tailor ([http://wiki.darcs.net/DarcsWiki/Tailor homepage]) can do it. Take a look at [[InterfacesFrontendsAndTools#rcs-interaction:[[InterfacesFrontendsAndTools]]]] page ("Interaction with other Revision Control Systems" section)
 
@@ -656,6 +643,6 @@ Maybe, check if Tailor ([http://wiki.darcs.net/DarcsWiki/Tailor homepage]) can d
 * [[GitCommunity]], mainly Git mailing list.
 * [[WikiPedia:Git_(software)|Git (software)]] article at Wikipedia.
 ----
-* [[CategoryGlossary]]
+[[CategoryGlossary]]
 
 __NOTOC__
