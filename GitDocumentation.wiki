@@ -66,6 +66,7 @@ Check the pages [[CategoryGitDocumentation|[[GitDocumentation]] category]] on th
 * [[BranchesInGit]] is an explanation about how Git understand branches.
 * Use common [[CommitMessageConventions]], which are used by some of Git tools. 
 * [[SubprojectSupport]] in Git.
+* [[HowToWriteTests]] describes how to write test cases for git.
 
 = Man pages =
 
