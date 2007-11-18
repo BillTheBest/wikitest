@@ -4396,6 +4396,8 @@ GIT wiki is on http://git.or.cz/gitwiki
 
 <i>134 / 683 non-empty responses</i>
 
+<b>See also:</b> [[WantedPages]]
+
 Note that anybody can edit pages on GIT wiki, so if you want to have some information, some topic to be present on wiki, best solution would be to simply create resp. page, or add info to existing page. This question was meant to be the place to gather requests for topics for which one doesn't know enough to write or doesn't have time to write.
 
 List of answers, without count, divided into categories. Each category starts with pages for which there is proposed PageName, and ends with pages which are better for other media.
