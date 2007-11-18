@@ -178,7 +178,7 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 ** http://xcb.freedesktop.org/wiki/ (description)
 * HAL (Hardware Abstraction Layer)
 ** http://www.freedesktop.org/wiki/Software_2fhal (description)
-* [[PolicyKit]] (Toolkit for controlling privileges for system-wide services)
+* PolicyKit (Toolkit for controlling privileges for system-wide services)
 ** http://hal.freedesktop.org/docs/[[PolicyKit]]/
 * D-Bus (IPC system)
 ** http://dbus.freedesktop.org/wiki/ (description)
@@ -299,7 +299,7 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * OpenXPKI (git + svn)
 * http://www.openca.info/docs/git-howto.html (development)
 * http://repo.or.cz/w/openxpki.git (gitweb)
-* [[PackageKit]]
+* PackageKit
 * http://www.packagekit.org/pk-download.html (download)
 * http://gitweb.freedesktop.org/?p=packagekit.git (gitweb)
 * pacman (package manager)
@@ -322,7 +322,7 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * Slind - embedded Linux distribution
 * https://www.slind.org/Downloads:Downloads (download)
 * http://git.slind.org/git (gitweb)
-* [[SpeakGoodChinese]]
+* SpeakGoodChinese
 * http://speakgoodchinese.org/download.html (download)
 * git://fondialog1.hum.uva.nl/sgc.git (repository)
 * swfdec
