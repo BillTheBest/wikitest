@@ -23,6 +23,8 @@ give you an introduction to the basic workflows.
  _[http://hgbook.red-bean.com/ Distributed revision control with Mercurial]_ by Bryan O'Sullivan to Git.
 
 * Evan Carroll started Git wikibook: [http://en.wikibooks.org/wiki/Source_Control_Management_With_Git Source Control Management With Git]
+* Basic git in plain English: [http://jonas.iki.fi/git_guides Git in a Nutshell]
+* Migrating from CVS to git: [http://jonas.iki.fi/git_guides CVS to git migration guide]
 
 == Other relevant tutorials ==
 
