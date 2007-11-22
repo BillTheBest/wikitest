@@ -56,7 +56,7 @@ Projects that use [[Git]] for their source code management are listed in [[GitPr
 * Check out [[Wishlist]] page.
 * Read [http://kernel.org/git/?p=git/git.git;a=blob;f=Documentation/SubmittingPatches Documentation/[[SubmittingPatches]]] before submitting patches.
 * Additionally, have a look at [[InterfacesFrontendsAndToolsWishlist]].
-* Some [[Notes:notes]] from the maintainer
+* Some [[MaintNotes:notes]] from the maintainer
 === Git Wiki ===
 * [[GitWikiSuggestions]] – Your suggestions for improvement of the wiki.
 ----
