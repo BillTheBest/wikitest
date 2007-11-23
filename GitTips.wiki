@@ -1,17 +1,18 @@
 <b>Table of contents:</b>
 
-<!-- ! TOC here -->
+<<<!-- ! TOC here -->(2)>>
 
 ----
  <b>See also:</b>
 
 * [[GitFaq]] (Frequently Asked Questions) page.
 * [[GitWorkflows]] which attempts to decribe actual, useful, real-world things that people do with git, step by step.
-* [[ExampleScripts]] You can do a lot by writing a simple script.
-* [[Aliases]] Aliases are very powerful ways to avoid writing a script.
-= General =
-[[Anchor(--amend)]]
+* [[ExampleScripts]] - You can do a lot by writing a simple script.
+* [[Aliases]] are very powerful ways to avoid writing a script.
 
+= General =
+
+<<Anchor(--amend)>>
 == How to fix the most recent commit ==
 Git allows you to easily fix up the most recent commit you've made on a branch with the --amend option:
 
@@ -27,8 +28,7 @@ $ git commit -s --amend
 </nowiki></pre>
 will let you alter the commit message and will also automatically add a sign-off message for you.
 
-[[Anchor(rewrite-hist)]]
-
+<<Anchor(rewrite-hist)>>
 == How to change commits deeper in history ==
 Since history in Git is immutable, fixing anything but the most recent commit (commit which is not branch head) requires that the history is rewritten from the changed commit and forward.
 
@@ -40,8 +40,7 @@ Or you can use <code><nowiki>git rebase --interactive</nowiki></code>, which all
 
 <code><nowiki>git filter-branch</nowiki></code> can also be usefull. It has been ported from the obsoleted [[Cogito]]'s [http://www.kernel.org/git/?p=cogito/cogito-doc.git;a=blob;hb=HEAD;f=txt/cg-admin-rewritehist.1.txt cg-admin-rewritehist(1)].
 
-[[Anchor(only-merges)]]
-
+<<Anchor(only-merges)>>
 == How to get only merges in gitk? ==
 With recent version of git you can use
 
@@ -52,8 +51,7 @@ which will give you each commit that changes that nonexistent file (because ther
 
 If you use "git log", you also need to add "--parents" while gitk will do it for you.
 
-[[Anchor(wrong-branch)]]
-
+<<Anchor(wrong-branch)>>
 == What to do if you have realized that you are on wrong branch? ==
 If you have not commited your changes yet, it is enough to '
 
@@ -90,8 +88,7 @@ git branch -d <tmpBranch>
 </nowiki></pre>
 I'm not sure if <code><nowiki>--hard</nowiki></code> option is really needed.
 
-[[Anchor(diff-repositories)]]
-
+<<Anchor(diff-repositories)>>
 == How to compare two local repositories ==
 In [[Git]] you can use, being in one of repositories
 
@@ -105,8 +102,8 @@ In the obsoleted [[Cogito]] you would nearly exactly the same
 <pre><nowiki>
 GIT_ALTERNATE_OBJECT_DIRECTORIES=../repo/.git/objects cg-diff -r `GIT_DIR=../repo/.git cg-object-id -c HEAD`..HEAD
 </nowiki></pre>
-[[Anchor(opendocument)]]
 
+<<Anchor(opendocument)>>
 == How to use git to track [[OpenDocument]] ([[OpenOffice]], Koffice) files? ==
 To view plaintext diff of [[OpenDocument]] files in Git, you can use the GIT_EXTERNAL_DIFF environment variable. First, install :
 
@@ -146,12 +143,12 @@ Now, git will use this oodiff driver for any file whose name ends with .odp, .od
 
 (this is also documented [http://www-verimag.imag.fr/~moy/opendocument/ here]).
 
-[[Anchor(git rm .)]]
-
+<<Anchor(git rm .)>>
 == How to remove all files which are missing from working directory? ==
 <pre><nowiki>
 git ls-files -z --deleted | git update-index -z --remove --stdin
 </nowiki></pre>
+
 == How to ignore files which are "Untracked" now? ==
 <pre><nowiki>
 $ git ls-files -o --exclude-standard >> .gitignore
@@ -160,8 +157,8 @@ $ $EDITOR .gitignore
 (note : <code><nowiki>--exclude-standard</nowiki></code> is not yet in a released version of git as of november 2007, you'll have to use <code><nowiki>--exclude-from=.gitignore --exclude-from=.git/info/exclude ...</nowiki></code> if you don't have it).
 
 = Configuration =
-[[Anchor(upgrade-to-post-1.5.0)]]
 
+<<Anchor(upgrade-to-post-1.5.0)>>
 == How to upgrade repository config to use post-1.5.0 features? ==
 Updating a pre-1.5.0 [[Git]] repository to be like a 1.5.0 (and later) style repository basically means rewriting the remotes (.git/info/remotes/) into .git/config, setting up wildcard tracking branches under refs/remotes and deleting the old tracking branches from the refs/heads namespace.
 
@@ -199,9 +196,10 @@ done
 This script requires [http://git.kernel.org/?p=git/git.git;a=blob_plain;h=master;f=contrib/remotes2config.sh remotes2config.sh] conversion tool by Johannes Schindelin, which can be found in the <i>contrib</i> area of git.git repository.
 
 * [http://permalink.gmane.org/gmane.comp.version-control.git/42176 Upgrade to 1.5.0 utility] post by Shawn O. Pearce on Git mailing list
-= StGIT =
-[[Anchor(stg-rebase)]]
 
+= StGIT =
+
+<<Anchor(stg-rebase)>>
 == How to rebase StGIT stack? ==
 If you have <n> patches on stack, and you want to rebase it (for example because git branch got rebased, or you want to base stack on different branch)
 
@@ -210,9 +208,10 @@ stg pop -a
 git reset --hard <new_base>
 stg push -n <n>
 </nowiki></pre>
-= Web =
-[[Anchor(RSS)]]
 
+= Web =
+
+<<Anchor(RSS)>>
 == How to generate RSS feed off-line? ==
 You can either adapt [http://bent.latency.net/git2rss git2rss] tool by Bennett Todd to your needs (which is mentioned on [[InterfacesFrontendsAndTools#git2rss:Interfaces Frontends And Tools]] page), or use <i>gitweb</i> to do that, running it as a script. Assuming that <code><nowiki>gitweb.cgi</nowiki></code> is setup correctly, you can use:
 
@@ -221,8 +220,7 @@ env REQUEST_METHOD=GET QUERY_STRING='p=git/git.git;a=rss' \
 ./gitweb.cgi | tail -n +2</nowiki></pre>
 where of course instead of <code><nowiki>git/git.git</nowiki></code> you put project (git repository) you are interested in.
 
-[[Anchor(SSH-tunnel)]]
-
+<<Anchor(SSH-tunnel)>>
 == How to push/pull via ssh to host behind gateway? ==
 There are two possible solutions. With first, using <code><nowiki>Proxy</nowiki></code><code><nowiki>Command</nowiki></code> option of ssh, you can connect to the entire network behind firewall. In your ssh configuration file, for example <code><nowiki>~/.ssh/config</nowiki></code> put the following:
 
@@ -245,8 +243,7 @@ ssh -f -N -L 2222:host.foo.internal:22 username@gateway.foo.com
 </nowiki></pre>
 Of course port numbers must match (and port number should be above 1024 if you won't be running ssh tunnel as root). If you have sufficiently new ssh, you can add <code><nowiki>'-M'</nowiki></code> option, for use with <code><nowiki>Control</nowiki></code><code><nowiki>Master</nowiki></code> option. You can also use [http://www.harding.motd.ca/autossh/ autossh] for running port forwarding/ssh tunnel.
 
-[[Anchor(SSH-options)]]
-
+<<Anchor(SSH-options)>>
 == How to pass ssh options in git? ==
 You can set the path of the ssh executable to use with the GIT_SSH environment variable. Create a shell script like
 
@@ -271,8 +268,8 @@ Host public.host.com
 and now you can ssh to "host.com" using different identities by just using "private.host.com" and "public.host.com" respectively.
 
 = Mail =
-[[Anchor(msmtp)]]
 
+<<Anchor(msmtp)>>
 == Using msmtp to send your patches ==
 Mailing off a set of patches to a mailing list can be quite neatly done by git-send-email. One of the problems you may encounter there is figuring out which machine is going to send your mail. I tried smtp.gmail.com, but that one requires tls and a password, and git-send-email could not handle that.
 
@@ -310,6 +307,6 @@ Another option is to configure a local smtp server on your machine, using a well
 On OS X with macports, msmtp can be installed with 'sudo port install msmtp', and '/usr/share/curl/curl-ca-bundle.crt' should work for tls_trust_file.
 
 ----
- [[CategoryGitDocumentation]]
+[[CategoryGitDocumentation]]
 
 __NOTOC__
