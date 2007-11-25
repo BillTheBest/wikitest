@@ -54,4 +54,8 @@ Here are few tips for new users, or users that don't like to read the manual:
 * Repeat after me: in git, *everything* is a SHA1 object! <i>(Linus Torvalds)</i>
 * ... where "core git" originally was about "what I use" and the whole "porcelain" side ends up being "what people who need hand-holding use" ;) <i>(Linus Torvalds)</i>
 
+<!-- ## other fortune cookies
+ -->
+* Writing a BitKeeper replacement is probably easier at this point than getting its license changed. <i>(Matt Mackall)</i>
+
 __NOTOC__
