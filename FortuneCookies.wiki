@@ -26,47 +26,32 @@ Here are few tips for new users, or users that don't like to read the manual:
 * Tip: you can add your favorite pages to your navibar. See your Quicklinks list in [[UserPreferences]].
 * Tip: you can search for multiple words, just like Google. See also [[HelpOnSearching]].
 * Tip: get email notification when this page change, by clicking <b><<[[GetText]](subscribe)>></b>.
-* Given enough eyeballs, all bugs are shallow.
-* Software is like sex; it's better when it's free.
-* We all know Linux is great: it does infinite loops in 5 seconds.
-* "I name all my projects after myself: first 'Linux', now 'git'".
-* ... where "core git" originally was about "what I use" and the whole "porcelain" side ends up being "what people who need hand-holding use"
-* Real Programmers think better when playing Adventure or Rogue.
-* If the code and the comments disagree, then both are probably wrong.
-* Syntactic sugar causes cancer of the semicolon.
-* "Never make any mistaeks."
-* The first time, it's a KLUDGE! The second, a trick. Later, it's a well-established technique!
-* The program isn't debugged until the last user is dead.
-* Step #1 in programming: understand people.
-* Do one thing and do it well.
-* To err is human, to forgive, beyond the scope of the Operating System.
-* Testing can show the presense of bugs, but not their absence.
-* Case *does* matter. Anybody who claims otherwise is a total idiot. And no, e e cummings is not an example to the contrary.
-* The people will complain. On this list. And I have to check the mails before deleting, because the Subject: does not say "I just took the rope, ignored your caveat emptor, and now I am dead. What should I do now?".
-* In related news: there is really no question that bike sheds should be painted red. Really.
-* Forged-signature-by: J. Random Hacker <jrandom@example.com>
-* By "mutual agreement" I mean that I tell you what it looks like and you agree :)
-* To be fair, there are uses for XML.  On Halloween, for example.
-* A mouse is a device used to point at the xterm you want to type in.
-* The First Law of Thermodynamics: A system with a constant energy, volume and pressure behaves in any way it wants.
-* Everything you know is wrong.  But some of it is a useful first approximation.
-* Logic is a systematic method of coming to the wrong conclusion with confidence.
-* Technology is dominated by those who manage what they do not understand.
-* Nothing ever gets built on schedule or within budget.
-* To err is human, but to really foul things up requires a computer.
-* Vini, vidi, Linux!
-* Free Software: the Software by the People, of the People and for the People.<<BR>>Develop! Share! Enhance! and Enjoy!
-* Rule of Open-Source Programming #1: Don't whine unless you are going to implement it yourself.
-* Rule of Open-Source Programming #6: The user is always right unless proven otherwise by the developer.
-* Rule of Open-Source Programming #7: Release early, release often. Clean compilation is optional.
-* Rule of Open-Source Programming #11: When a developer says he will work on something, he or she means "maybe".
-* Rule of Open-Source Programming #15: If you like it, let the author know. If you hate it, let the author know why.
-* Rule of Open-Source Programming #34: Every successful project will eventually spawn a sub-project
-* Writing a BitKeeper replacement is probably easier at this point than getting its license changed. <i>(Matt Mackall)</i>
-* Beware of bugs in the above code; I have only proved it correct, not tried it.
-* The question of whether a computer can think is no more interesting than the question of whether a submarine can swim.
-* I'd love to change the world, but they won't give me the source code.
-* Whenever anyone says, "theoretically", they really mean, "not really".
-* It's harder to read code than to write it.
+
+<!-- ## http://en.wikiquote.org/wiki/Linus_Torvalds
+ -->
+* Given enough eyeballs, all bugs are shallow. <i>(Eric S. Raymond, aka Linus' Law)</i>
+* I'm basically a very lazy person who likes to get credit for things other people actually do. <i>(Eric S. Raymond)</i>
+* We all know Linux is great: it does infinite loops in 5 seconds. <i>(Linus Torvalds)</i>
+* "I name all my projects after myself: first 'Linux', now 'git'". <i>(Linus Torvalds)</i>
+* If you need more than 3 levels of indentation, you're screwed anyway, and should fix your program. <i>(Linux 1.3.53 CodingStyle documentation)</i>
+* You know you're brilliant, but maybe you'd like to understand what you did 2 weeks from now. <i>(Linux 1.3.53 CodingStyle documentation)</i>
+* ... the Linux philosophy is 'laugh in the face of danger'. Oops. Wrong one. 'Do it yourself'. That's it. <i>(Linus Torvalds)</i>
+* Talk is cheap. Show me the code. <i>(Linus Torvalds)</i>
+* Those that can, do. Those that can't, complain.
+* "Regression testing"? What's that? If it compiles, it is good, if it boots up it is perfect. <i>(Linus Torvalds)</i>
+
+<!-- ## git mailing list
+ -->
+* I like colorized diffs, but let's face it, those particular color choices will make most people decide to pick out their eyes with a fondue fork. (...) So in order to avoid a lot of blind git users, please apply this patch. <i>(Linus Torvalds)</i>
+* Case <b>does</b> matter. Anybody who claims otherwise is a total idiot. And no, e e cummings is not an example to the contrary. Quite the reverse. <i>(Linus Torvalds)</i>
+* ... and if it wasn't clear, "helping" CVS users is not in my opinion to try to make git act like CVS, and lettign them do stupid things, but to try to help them become <b>more</b> than CVS users. <i>(Linus Torvalds)</i>
+* The people will complain. On this list. And I have to check the mails before deleting, because the Subject: does not say "I just took the rope, ignored your caveat emptor, and now I am dead. What should I do now?". <i>(Johannes Schindelin)</i>
+* In related news: there is really no question that bike sheds should be painted red. Really. <i>(Johannes Schindelin)</i>
+* P.S.: Linus paid for his Caps Lock key, so he might as well use it. <i>(Johannes Schindelin)</i>
+* By "mutual agreement" I mean that I tell you what it looks like and you agree :) <i>(Robin Rosenberg)</i>
+* To be fair, there are uses for XML.  On Halloween, for example.  <i>(Johannes Schindelin)</i>
+* We could put up some commercials [on git homepage] as well and use them for funding pizza distributed in a round-robin fashion between the developers. <i>(Petr "Pasky" Baudis)</i>
+* Repeat after me: in git, *everything* is a SHA1 object! <i>(Linus Torvalds)</i>
+* ... where "core git" originally was about "what I use" and the whole "porcelain" side ends up being "what people who need hand-holding use" ;) <i>(Linus Torvalds)</i>
 
 __NOTOC__
