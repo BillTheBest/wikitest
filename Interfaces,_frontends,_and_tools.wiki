@@ -20,7 +20,7 @@
 * [[Cogito]] for some time was the most popular version control system on top of Git. It aims at seamless user interface and ease of use, providing generally smoother user experience than the "raw" Git interface and indeed also many other version control systems.  Note that Cogito is no longer maintained or recommended.  Git 1.5.0 and beyond has incorporated many features that make it suitable for direct use without needing additional software.
 
 === [[IsiSetup]] ===
-* [http://www.isisetup.ch/ IsiSetup] (APT for your config) is a utility to help managing your configuration files with Git as backend.  You can rollback changes, explore the history of changes, replicate your configuration, backup your configuration and blame changes to admins.
+* [http://www.isisetup.ch/ IsiSetup] (APT for your config) is a utility to help managing your configuration files with Git as backend.  You can rollback changes, explore the history of changes, replicate your configuration, backup your configuration and blame changes to admins.<<BR>> <b>See also:</b> [http://kitenet.net/~joey/code/etckeeper/ etckeeper].
 
 == Patch-management Interface layers ==
 === StGIT (Stacked Git) ===
@@ -205,7 +205,10 @@ export GIT_DIFF_PAGER="colordiff | less -RS"</nowiki></pre>
 * Chronoversion is a simple Python script which attempts to use the git content tracker to provide chronological snapshots similar to Plan 9's <b>venti</b> filesystem. The two differences are that, being based on git, it isn't a filesystem in the sense of needing kernel support to gain access to the data (so it can be used on systems where you can only install userspace programs) and it allows programatic decisions about what to snapshot, rather than recording everything into the snapshot. By David Tweed. It can be downloaded (at least currently) from [http://www.personal.rdg.ac.uk/~sis05dst/chronoversion.tgz chronoversion.tgz].
 
 === Metastore ===
-* Metastore by David Hrdeman is a tool which allows the metadata to be stored in a separate file which can be stored along with the rest of the data in the repo (or separately).  This is also useful for tripwire type checks and for other types of storage which drops some of the metadata (tar comes to mind).<<BR>> <b>Repository:</b> git://git.hardeman.nu/metastore.git
+* [http://david.hardeman.nu/software.php#metastore Metastore] ([http://git.hardeman.nu/?p=metastore.git gitweb]) by David Hardeman is a tool which allows the metadata to be stored in a separate file which can be stored along with the rest of the data in the repo (or separately).  This is also useful for tripwire type checks and for other types of storage which drops some of the metadata (tar comes to mind).<<BR>> <b>Repository:</b> git://git.hardeman.nu/metastore.git
+
+=== etckeeper ===
+* [http://kitenet.net/~joey/code/etckeeper/ etckeeper] ([http://git.kitenet.net/?p=etckeeper gitweb], [http://kitenet.net/~joey/blog/entry/announcing_etckeeper/ announcement]) by Joey Hess is a collection of tools to let /etc be stored in a git repository. It hooks into apt to automatically commit changes made to /etc during package upgrades. It uses [http://david.hardeman.nu/software.php metastore] to track file metadata that git does not normally support, but that is important for /etc, such as the permissions of /etc/shadow. It's quite modular and configurable, while also being simple to use if you understand the basics of working with git.<<BR>> <b>See also:</b> [http://www.isisetup.ch/ IsiSetup]
 
 === git2cl ===
 * [http://josefsson.org/git2cl/ git2cl] ([http://repo.or.cz/w/git2cl.git gitweb]) by Simon Josefsson is a Perl script to convert git logs to [http://www.gnu.org/prep/standards/html_node/Change-Logs.html GNU ChangeLog] format.  The tool expects output from <code><nowiki>git --pretty --numstat --summary</nowiki></code> on standard input.  Inspired by [http://www.red-bean.com/cvs2cl/ cvs2cl] tool. <b>References:</b> [http://permalink.gmane.org/gmane.comp.version-control.git/41170 ANNOUNCE: git2cl] message on git mailing list.
