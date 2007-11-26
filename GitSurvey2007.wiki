@@ -1377,6 +1377,90 @@ Compare this to the following table of SCMs popularity, based on the number of p
 | 
 |}
 
+Below there is table of [http://popcon.debian.org/ Debian Popularity Contest] (popcon) results for SCMs.  Table is sorted by the number of installations.  Note that popcon only reflects 1/10th to 1/100th or less of total users.
+
+You can also check out [http://people.debian.org/~igloo/popcon-graphs/index.php?packages=git-core+bzr+mercurial+tla&show_installed=on&want_legend=on&want_ticks=on&from_date=&to_date=&hlght_date=&date_fmt=%25Y-%25m&beenhere=1 popcon graph].  Generated graph is for number of installs of git-core, bzr (Bazaar-NG), mercurial and tla (GNU Arch), but you can generate graph for any chosen packages.
+
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> SCM 
+|  package 
+|  installed<<[[FootNote]](installed is the number of people who installed this package)>> 
+|  vote<<[[FootNote]](vote is the number of people who use this package regularly)>> 
+| 
+|}
+<!-- ##---------------------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  CVS         
+|  cvs                         
+|  21778 
+|  4813 
+| 
+|-
+|  Subversion  
+|  subversion                  
+|  17391 
+|  7275 
+| 
+|-
+|  RCS         
+|  rcs<<[[FootNote]](Some tools require this package, for example for rcsmerge 3-way merge utility)>> 
+|   7921 
+|  1625 
+| 
+|-
+|  Git         
+|  git-core                    
+|   3243 
+|  1533 
+| 
+|-
+|  Mercurial   
+|  mercurial                   
+|   1453 
+|   342 
+| 
+|-
+|  Darcs       
+|  darcs                       
+|   1305 
+|   322 
+| 
+|-
+|  GNU Arch    
+|  tla                         
+|   1059 
+|   167 
+| 
+|-
+|  Bazaar-NG   
+|  bzr                         
+|   1033 
+|   258 
+| 
+|-
+|  SVK         
+|  svk                         
+|    655 
+|   224 
+| 
+|-
+|  Monotone    
+|  monotone                    
+|    408 
+|    91 
+| 
+|-
+|  Aegis       
+|  aegis                       
+|     78 
+|    19 
+| 
+|}
+
+<b>Footnotes:</b>
+<<[[FootNote]]>>
+
 See also question 35: "How does GIT compare to other SCM?".
 
 === 11. Why did you choose GIT? ===
