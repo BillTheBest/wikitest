@@ -1461,7 +1461,7 @@ You can also check out [http://people.debian.org/~igloo/popcon-graphs/index.php?
 <b>Footnotes:</b>
 <<[[FootNote]]>>
 
-See also question 35: "How does GIT compare to other SCM?".
+See also question 35:  "How does GIT compare to other SCM?".
 
 === 11. Why did you choose GIT? ===
 
