@@ -52,7 +52,7 @@
 * [[GitView]] is a GTK based repository browser for git written in Python by Aneesh Kumar K.V. It  can be found in <code><nowiki>contrib/</nowiki></code> directory of Git source tree.
 
 === (h)gct ===
-* [[(h)gct]] ([http://repo.or.cz/w/hgct.git gitweb]) by Fredrik Kuivinen is a GUI enabled commit tool. It has support for both Git and Mercurial. Written in Py<code><nowiki></nowiki></code>Qt.
+* [[(h)gct]] ([http://repo.or.cz/w/hgct.git gitweb]) by Fredrik Kuivinen is a GUI enabled commit tool. It has support for both Git and Mercurial. In Debian in [http://packages.debian.org/search?searchon=names&keywords=commit-tool commit-tool] package. Written in Py<code><nowiki></nowiki></code>Qt.
 
 === Qct ===
 * [http://www.borho.org/~steve/qct.html Qct] ([http://hg.borho.org/qct hg repo]) by Steve Borho is Qt/Py<code><nowiki></nowiki></code>Qt based GUI commit tool, meant to be SCM and platform agnostic. Supports Mercurial (<code><nowiki>hg</nowiki></code>), Bazaar (<code><nowiki>bzr</nowiki></code>), Cogito / Git, Subversion (<code><nowiki>svn</nowiki></code>), Monotone and CVS.
