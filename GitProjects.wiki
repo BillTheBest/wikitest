@@ -141,6 +141,9 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * paraslash (network audio streaming tools)
 ** http://www.paraslash.org/ (description)
 ** http://www.paraslash.org/cgi-bin/gitweb.cgi?p=.git;a=shortlog (gitweb)
+* Samba (provides file and print services to all manner of SMB/CIFS clients)
+** http://wiki.samba.org/index.php/Using_Git_for_Samba_Development (insn)
+** http://git.samba.org (gitweb)
 * Sidestep ( Retooled fork of GNUStep)
 ** http://gitweb.sidestep-project.org/?p=sidestep.git;a=summary
 * Source Mage GNU/Linux (source-based GNU/Linux distribution)
