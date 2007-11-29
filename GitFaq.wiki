@@ -32,9 +32,9 @@ The short definition is:
 == What can I use to set up a public repository? ==
 A SSH server, an HTTP server, or the git-daemon. Local networks can also use network filesystems, like NFS or SMBFS/CIFS (the Windows networks).
 
-* It seems not everyone thinks SMBFS is a good idea and several people on #git have the opinion that SMBFS should not be used with git.
+* It seems not everyone thinks that SMBFS is a good idea; several people on #git hold the opinion that SMBFS should not be used with git.
 * See the [http://www.kernel.org/pub/software/scm/git/docs/tutorial.html Git tutorial] for more details.
-* A how-to-publish document was started [http://wiki.u32.net/index.php?title=Git/publishing here], describing http and gitweb.
+* A [http://wiki.u32.net/index.php?title=Git/publishing how-to-publish] document describing http and gitweb.
 
 <<Anchor(empty-dirs)>>
 == Can I add empty directories? ==
@@ -42,9 +42,9 @@ Currently the design of the git index (staging area) only permits <i>files</i> t
 
 Directories are added automatically when adding files inside them. That is, directories never have to be added to the repository, and are not tracked on their own.
 
-Though you can say "<code><nowiki>git add <dir></nowiki></code>" and it will add files in there.
+You can say "<code><nowiki>git add <dir></nowiki></code>" and it will add files in there.
 
-If you really need a directory to exist in checkouts, you should create a file in it. .gitignore works well for this purpose; you can leave it empty, or fill in the names of files you expect to show up in the directory.
+If you really need a directory to exist in checkouts you should create a file in it. .gitignore works well for this purpose; you can leave it empty, or fill in the names of files you expect to show up in the directory.
 
 <<Anchor(rename-tracking)>>
 == Why does git not track renames? ==
@@ -60,7 +60,7 @@ As a very special case, the current <code><nowiki>'git log'</nowiki></code> has 
 
 <<Anchor(no-per-file-history)>>
 == Why is "git log <filename>" slow? ==
-The answer to the question why <code><nowiki>git log <filename></nowiki></code> takes so long to find small number of commits which changed given file lies in the fact that Git looks at <b>all</b> the commits to find that.
+The answer to the question why <code><nowiki>git log <filename></nowiki></code> takes so long to find a small number of commits which changed a given file lies in the fact that Git looks at <b>all</b> the commits to find that.
 
 Git simply <b>does not have</b> per-file history. Not having per-file history is what allows Git to do
 
@@ -76,13 +76,14 @@ git gc
 </nowiki></pre>
 to make it hugely faster.
 
-Note that <code><nowiki>git log <file1> <file2></nowiki></code> (or <code><nowiki>gitk <file1> <file2></nowiki></code>) is not simply union of <code><nowiki>git log <file1></nowiki></code> and <code><nowiki>git log <file2></nowiki></code>; it can contain merges which are in neither of separate histories. Doing the history for two files together is <b>not at all equivalent</b> to doing the history for those files individually and stitching it together.
+Note that <code><nowiki>git log <file1> <file2></nowiki></code> (or <code><nowiki>gitk <file1> <file2></nowiki></code>) is not simply the union of <code><nowiki>git log <file1></nowiki></code> and <code><nowiki>git log <file2></nowiki></code>; it can contain merges which are in neither of the separate histories. Doing the history for two files together is <b>not at all equivalent</b> to doing the history for those files individually and stitching it together.
 
-To speed up "git log" give it range of interesting revisions; you can also try <code><nowiki>--remove-empty</nowiki></code> option (with some caveats).
+To speed up "git log" give it a range of interesting revisions; you can also try <code><nowiki>--remove-empty</nowiki></code> option (with some caveats).
 
 * [http://permalink.gmane.org/gmane.comp.version-control.git/39358 Re: how to speed up "git log"?] by Linus Torvalds on Git mailing list.
+
 == Why is it wrong to export the environment variable CDPATH? ==
-The CDPATH variable is purely for interactive consumption.  A lot of scripts break if a simple "cd" suddenly outputs a text that was directed at <b>you</b>, the user, and not meant for processing by the script.  Setting, but not exporting, CDPATH will still work as expected, but unbreak many scripts, including the make procedure of Git.  Having said that, we tried hard to avoid to unset CDPATH everywhere in the Git scripts, and in the Makefiles, but it is well possible that we missed out some places.
+The CDPATH variable is purely for interactive use.  A lot of scripts break if a simple "cd" suddenly outputs a text that was directed at <b>you</b>, the user, and not meant for processing by the script.  Setting, but not exporting, CDPATH will still work as expected, but may break many scripts, including the make procedure of Git.  Having said that, we tried hard to avoid to unset CDPATH everywhere in the Git scripts, and in the Makefiles, but it is well possible that we missed out some places.
 
 In contrast, if you just remove the "export" from your .bashrc, you are guaranteed to never get bitten by that breakage again!
 
@@ -111,10 +112,10 @@ after rebase:
 <pre><nowiki>
 - A - B - C - D - remote HEAD - E' - F' - G' - local HEAD'
 </nowiki></pre>
-So, the merge does not rewrite your commits. They will stay the same. A rebase _will_ rewrite them. The advantage is that the history looks nicer. The disadvantage is that you usually tested more while developing, so some obscure feature in, say "G", could work less nicely together with the changes of, say "B", than you hope for. In other words, G was tested thoroughly, G' was not. As always, it is a trade-off.
+So, the merge does not rewrite your commits. They will stay the same. A rebase _will_ rewrite them. The advantage is that the history looks nicer. The disadvantage is that you usually tested more while developing, so that some obscure feature in, say, "G", could work less nicely together with the changes of, say, "B", than you hope for. In other words, G was tested thoroughly, G' was not. As always, it is a trade-off.
 
-== Why "git rm" is not inverse of "git add"? ==
-Don't think of 'rm' as inverse of 'add'.  That would only confuse you.
+== Why is "git rm" not the inverse of "git add"? ==
+Don't think of 'rm' as the inverse of 'add'.  That would only confuse you.
 
 When git-add is used to add changes made to a file already tracked by git, the inverse of 'git add <file>' is 'git reset HEAD -- <file>'.
 
@@ -134,7 +135,7 @@ This removes the entry from the index, without touching the working tree file.  
 * [4]$ rm -f a-new-file
 Again, git is not involved in this step.
 
-The thing is, people sometimes want to have steps 3 and 4 combined, and it meshes well with the users' expectation when they see the word "rm".  Think of "git rm" without "--cached" as a shorthand to do 3 and 4 in one go to meet that expectation.
+People sometimes want to have steps 3 and 4 combined, and it meshes well with the users' expectation when they see the word "rm".  Think of "git rm" without "--cached" as a shorthand to do 3 and 4 in one go to meet that expectation.
 
 Obviously, we cannot usefully combine steps 1 and 2.  We could have "git add --create a-new-file" launch an editor to create a new file, but that would not be very useful in practice.
 
@@ -150,18 +151,18 @@ Support for this exists in Git versions 1.5 or later.
 
 <<Anchor(git-keywords)>>
 == Does git have keyword expansion? ==
-No. Keyword expansion causes all sorts of strange problems and isn't really useful anyway, especially within the context of an SCM. Outside of git you may perform keyword expansion using a script. The Linux kernel export script does this to set the EXTRA_VERSION variable in the Makefile.
+No. Keyword expansion causes all sorts of strange problems and isn't really useful anyway, especially within the context of an SCM. Outside git you may perform keyword expansion using a script. The Linux kernel export script does this to set the EXTRA_VERSION variable in the Makefile.
 
 <<Anchor(git-filter)>>
 == Does git allow arbitrary conversion of contents? ==
 Yes. Not just "keyword expansion" and/or "CRLF conversion", the current version of git allows you to specify filters to munge contents immediately before checking things in. See [http://www.kernel.org/pub/software/scm/git/docs/gitattributes.html gitattributes(5)] man pages for details.
 
 <<Anchor(git-encoding)>>
-== Does git convert encodings of file names ==
-No. Filenames are treated as a byte sequences today.
+== Does git convert encodings of file names? ==
+No. Filenames are treated as byte sequences.
 
-== Does git convert encodings of comments and committer names or file content ==
-A git repository can store a flag to register the encoding supposedly used for comments (including author names). File content is not converted unless you are inclined to shoot yourself in the foot and use the filtering mechanism, described above.
+== Does git convert encodings of comments and committer names or file content? ==
+A git repository can store a flag to register the encoding supposedly used for comments (including author names). File content is not converted unless you are inclined to shoot yourself in the foot and use the filtering mechanism described above.
 
 <<Anchor(git-content-limitations)>>
 == Does git track all file data and metadata? ==
@@ -171,28 +172,28 @@ No. Git has a specific notion of tracked "content", which is basically just the 
 
 <<Anchor(git-version)>>
 == Why git --version is not reporting the "full" version number? ==
-There is a bit of chicken and egg problem involved. The build procedure wants to have an already installed git to figure out the "full" version number. If you are bootstrapping, make clean and rebuild after you install git once would give you a git binary that knows what version it is.
+There is a bit of a chicken and egg problem involved. The build procedure wants to have an already installed git to figure out the "full" version number. If you are bootstrapping, make clean and rebuild after you install git once would give you a git binary that knows what version it is.
 
 <code><nowiki>GIT-VERSION-GEN</nowiki></code> script show current (used) git version, <code><nowiki>git --version</nowiki></code> shows git version used at the time git was build.
 
 <<Anchor(reset-hard-leaving-files)>>
 == "git reset --hard" is not removing some files ==
-<code><nowiki>git reset --hard</nowiki></code> doesn't remove the files which are in <b>current</b> version of <code><nowiki>.gitignore</nowiki></code> file. "git reset" won't be deleting files it doesn't track (it had <i>better</i> not touch them), even more so when it has been told to ignore them, so it makes total sense to <i>not</i> delete them when doing that reset.
+<code><nowiki>git reset --hard</nowiki></code> doesn't remove the files which are in the <b>current</b> version of <code><nowiki>.gitignore</nowiki></code> file. "git reset" won't be deleting files it doesn't track (it had <i>better</i> not touch them), even more so when it has been told to ignore them, so it makes total sense to <i>not</i> delete them when doing that reset.
 
-Now if the version you switched to has an earlier (different) version of <code><nowiki>.gitignore</nowiki></code> file, then the files which were not deleted might be not ignored in reseted version, and shows e.g. in the <code><nowiki>git status</nowiki></code> output.
+If the version you switched to has an earlier (different) version of the <code><nowiki>.gitignore</nowiki></code> file then the files which were not deleted might be not ignored in the reset version, and will for example show in the <code><nowiki>git status</nowiki></code> output.
 
 * See [http://marc.theaimsgroup.com/?l=git&m=114917892328066 Linus Torvalds] answer or [http://marc.theaimsgroup.com/?l=git&m=114917892613019 Sean Estabrooks] answer at [[GitCommunity:git mailing list]].
 * If you are using cygwin or OSX, you might have be having issues with case sensitivity. See [http://marc.info/?l=git&w=2&r=1&s=xt_CONNMARK.h&q=b some discussion here].
 
 <<Anchor(git-push non-bare)>>
-== Why won't I see changes in the remote repo after "git push" ==
-The <code><nowiki>push</nowiki></code> operation is always about propagating the repository history and updating the refs, and never touches working tree files.  Especially, if you push to update the branch that is checked out in a remote repository, you will not see the files in the work tree updated.
+== Why won't I see changes in the remote repo after "git push"? ==
+The <code><nowiki>push</nowiki></code> operation is always about propagating the repository history and updating the refs, and never touches the working tree files.  In particular, if you push to update the branch that is checked out in a remote repository the files in the work tree will not be updated.
 
-This is a conscious design decision.  The remote repository's work tree may have local changes, and there is no way for you, who is pushing into the remote repository, to resolve conflicts between the changes you are pushing and the work tree has.  However, you can easily make a post-update hook to updating the working copy of the checked out branch.  The main problem with consensus of making this a default example hook is that they only notify the person doing the pushing if there was a problem.  (see http://lists-archives.org/git/611684-contrib-hooks-add-post-update-hook-for-updating-working-copy.html or the earlier, more easily cuttable and pastable version http://lists.zerezo.com/git/msg595210.html)
+This is a conscious design decision.  The remote repository's work tree may have local changes, and there is no way for you, who are pushing into the remote repository, to resolve conflicts between the changes you are pushing and the ones in the work tree.  However, you can easily make a post-update hook to update the working copy of the checked out branch.  The reason for not making this a default example hook is that they only notify the person doing the pushing if there was a problem.  (see http://lists-archives.org/git/611684-contrib-hooks-add-post-update-hook-for-updating-working-copy.html or the earlier, more easily cuttable and pastable version http://lists.zerezo.com/git/msg595210.html)
 
 A quick rule of thumb is to <i>never</i> push into a repository that has a work tree attached to it, until you know what you are doing.
 
-See also the entry (How would I use "git push" to sync out of a firewalled host?) in this FAQ for proper way to work with push with a repository with a work tree.
+See also the entry (How would I use "git push" to sync out of a firewalled host?) in this FAQ for the proper way to work with push with a repository with a work tree.
 
 <<Anchor(git-push after-rebase)>>
 == Why won't "git push" work after I rebased a branch? ==
