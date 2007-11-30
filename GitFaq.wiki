@@ -601,6 +601,15 @@ The most likely cause of this error is that you have incorrectly specified the p
 
 See the [http://www.kernel.org/pub/software/scm/git/docs/git-push.html git-push(1)] man page for more info on valid git urls.
 
+== "needs update" and "not uptodate" ==
+<pre><nowiki>
+foo: needs update
+fatal: Entry 'frotz' not uptodate. Cannot merge.
+</nowiki></pre>
+<b>TO DO:</b> <i>Explain first of those messages</i>
+
+Second of those error messages is described in [http://www.kernel.org/pub/software/scm/git/docs/git-checkout.html git-checkout(1)] man page, in the "EXAMPLES" section. It means that you have local modifications to 'frotz', which would be lost on checkout. You can give '-m' option to `git-checkout`, which would try three-way merge.
+
 = Importing from other revision control systems =
 See the [[InterfacesFrontendsAndTools#rcs-interaction:[[InterfacesFrontendsAndTools]]]] page ("Interaction with other Revision Control Systems" section), for a good reference on how to interact with other revision control systems.
 
