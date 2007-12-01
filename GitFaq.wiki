@@ -272,6 +272,15 @@ Use <code><nowiki>cg-admin-setuprepo -g</nowiki></code> (if you use [[Cogito]]) 
 * See the
  [http://www.kernel.org/pub/software/scm/cogito/docs/introduction.html introduction to Cogito] or GIT's [http://www.kernel.org/pub/software/scm/git/docs/cvs-migration.html cvs-migration] doc, "Emulating the CVS Development Model" section for details.
 
+<<Anchor(commit-diff)>>
+== How can I add a diff of the commit into the commit message window? ==
+
+Just call git commit with -v flag:
+
+<pre><nowiki>
+git commit -v
+</nowiki></pre>
+
 <<Anchor(push-is-reverse-of-fetch)>>
 == How would I use "git push" to sync out of a firewalled host? ==
 When you work on two machines, sometimes your firewall would let you make a TCP connection only in one direction but not in the other direction. Suppose you start a project on machine A, and clone from there to a machine B. You work on B and would want to propagate the change back to your repository on machine A. Even if you wanted to, you cannot run git-fetch on machine A to fetch from B, as B is firewalled and does not allow incoming connections. What should you do in such a case?
