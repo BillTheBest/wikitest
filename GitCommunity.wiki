@@ -34,6 +34,10 @@ You can read ongoing threads without subscribing via GMane news (Usenet) gateway
 
 * nntp://news.gmane.org/gmane.comp.version-control.git
 
+You can read (selected) threads using RSS feeds
+* From [http://dir.gmane.org/gmane.comp.version-control.git GMane archive] you can read all messages or all topics, with full or with excepted texts.
+* From [http://gitrss.q42.co.uk/ GIT Mailing List RSS Feeds] you can read <b>selected</b> threads (ANNOUNCE, msysGit Herald, Notes from maintainer, What's in...).
+
 = IRC =
 
 <!-- ## [[MoinMoin]] doesn't understand irc:// pseudoprotocol (IRC URL).
