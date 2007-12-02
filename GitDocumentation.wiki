@@ -11,6 +11,7 @@ If you are new to [[Git]], here are some essential documents that will
 give you an introduction to the basic workflows.
 
 * [[QuickStart]] covers most common used commands.
+* [http://www.kernel.org/pub/software/scm/git/docs/user-manual.html Git User's Manual]
 * For a quick start, [http://www.kernel.org/pub/software/scm/git/docs/tutorial.html the tutorial]
  covers the basics.
 
@@ -36,7 +37,6 @@ give you an introduction to the basic workflows.
 * [http://linux.yyz.us/git-howto.html The Kernel Hacker's Git Tutorial]
  by Jeff Garzik may be useful.
 
-* [http://www.kernel.org/pub/software/scm/git/docs/user-manual.html Git User's Manual] by Bruce Fields
 * [http://www.loria.fr/~molli/pmwiki/pmwiki.php/Main/See] pdf version of Git User's Manual (search for it)
 * [http://www.jdl.com The Git Papers] by Jon Loeliger are excellent sources for git 
  information.
