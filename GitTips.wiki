@@ -156,6 +156,16 @@ $ $EDITOR .gitignore
 </nowiki></pre>
 (note : <code><nowiki>--exclude-standard</nowiki></code> is not yet in a released version of git as of november 2007, you'll have to use <code><nowiki>--exclude-from=.gitignore --exclude-from=.git/info/exclude ...</nowiki></code> if you don't have it).
 
+== How to unpack all branches? ==
+For example if you have realized that you repository must be accessible by older dumb clients, or some script you use doesn't understand packed refs.
+<pre><nowiki>
+git for-each-ref refs/heads |    \
+  ( x=`git rev-parse --git-dir`; \
+    while read id junk ref; do   \
+      echo $id > "$x/$ref";      \
+    done )
+</nowiki></pre>
+
 = Configuration =
 
 <<Anchor(upgrade-to-post-1.5.0)>>
