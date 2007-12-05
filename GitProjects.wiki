@@ -269,8 +269,8 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * http://palava.cosmocode.de/view/gitweb.cgi?p=palava;a=summary (gitweb)
 * http://git.palava.cosmocode.de/ (repository)
 * paraslash (network audio streaming tools)
-* http://www.paraslash.org/ (description)
-* http://www.paraslash.org/cgi-bin/gitweb.cgi?p=.git;a=shortlog (gitweb)
+* http://paraslash.systemlinux.org/ (description)
+* http://paraslash.systemlinux.org/gitweb/gitweb.cgi?p=.git;a=shortlog (gitweb)
 * Puppet
 * http://reductivelabs.com/trac/puppet/wiki/[[DownloadingPuppet]] (download)
 * git://reductivelabs.com/puppet (repository)
