@@ -151,7 +151,9 @@ Support for this exists in Git versions 1.5 or later.
 
 <<Anchor(git-keywords)>>
 == Does git have keyword expansion? ==
-No. Keyword expansion causes all sorts of strange problems and isn't really useful anyway, especially within the context of an SCM. Outside git you may perform keyword expansion using a script. The Linux kernel export script does this to set the EXTRA_VERSION variable in the Makefile.
+Not recommended. Keyword expansion causes all sorts of strange problems and isn't really useful anyway, especially within the context of an SCM. Outside git you may perform keyword expansion using a script. The Linux kernel export script does this to set the EXTRA_VERSION variable in the Makefile.
+
+See Documentation/gitattributes.txt if you really want to do this.  If your translation is not reversible (eg SCCS keyword expansion) this may be problematic.
 
 <<Anchor(git-filter)>>
 == Does git allow arbitrary conversion of contents? ==
