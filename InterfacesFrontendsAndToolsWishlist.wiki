@@ -39,6 +39,8 @@
 
     [http://alioth.debian.org/ Alioth] host <code><nowiki>costa</nowiki></code>, [http://www.debian.org/social_contract#guidelines free software] hosting system managed by the [http://www.debian.org/ Debian] project, which runs a slightly modified version of the [http://gforge.org/ Gforge] software, supports both git and bzr for hosting source archives. Here is [http://roland.entierement.nu/blog/2006/08/17/bits-about-alioth.html explanation] how to use both systems to access the repositories; it was announced in [http://www.debian.org/News/weekly/2006/34/ Debian Weekly News - August 22nd, 2006].
 
+    [http://sharesource.org/about/ ShareSource], another software hosting system, has also plans for Git support (see [http://sharesource.org/project/sharesource/bugtracker/view/67/ Git revision control support] ticket); currently it supports Subversion and Mercurial ('hg'),
+
 <b>LibreSource</b> (Open Source Versatile Collaborative Distributed Envirionment)<<Anchor(libresource)>>::
     [http://www.libresource.org/ LibreSource] aims to be distributed version of collaborative environment platforms such as Drupal (CMS) or SourceForge (software development).  LibreSource includes its own SCM tool called LibreSource Synchronizer (described as: innovative, simple, united).  Since version 2.0 LibreSource integrates the Subversion SCM... which is a bit strange as Subversion is centralized SCM.  It would be nice to have integration with Git, which is distributed SCM. <i>(Java J2EE: ObjectWeb Jonas application server)</i>
 
