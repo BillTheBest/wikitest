@@ -33,7 +33,8 @@ A lot of blog posts related to Git usage have been published since the project's
 * [http://web.glandium.org/blog/?p=146 Finding where a tarball came from with git]
 * [http://www.dmo.ca/blog/git-saves-me-pain-again Now, when did I send that patch again?] or finding version of a file
 * [http://www.bluishcoder.co.nz/2007/09/git-binary-files-and-cherry-picking.html Git, Binary Files and Cherry Picking Patches] (using <code><nowiki>.gitattributes</nowiki></code> to mark file as binary, cherry-picking in git)
-
+* [http://loupgaroublond.blogspot.com/2007/12/how-to-split-repository-in-git.html Split a git repository into two different repos]
+* [http://duncan.mac-vicar.com/blog/archives/282 Change the svn url that a git-svn repository points to]
 ----
 [[CategoryGitDocumentation]]
 
