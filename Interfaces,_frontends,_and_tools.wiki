@@ -58,7 +58,7 @@
 * [http://www.borho.org/~steve/qct.html Qct] ([http://hg.borho.org/qct hg repo]) by Steve Borho is Qt/Py<code><nowiki></nowiki></code>Qt based GUI commit tool, meant to be SCM and platform agnostic. Supports Mercurial (<code><nowiki>hg</nowiki></code>), Bazaar (<code><nowiki>bzr</nowiki></code>), Cogito / Git, Subversion (<code><nowiki>svn</nowiki></code>), Monotone and CVS.
 
 === gitool ===
-* [[Gitool:gitool]] ([http://thread.gmane.org/gmane.comp.version-control.git/26415 announcement], [http://ozlabs.org/~paulus/gitool download], [http://www.kernel.org/git/?p=gitk/gitk.git;a=shortlog;h=new gitweb]) by Paul Mackerras is a tool for creating commits. Written in Tcl/Tk.
+* [[Gitool:gitool]] ([http://thread.gmane.org/gmane.comp.version-control.git/26415 announcement], [http://ozlabs.org/~paulus/gitool download], [http://www.kernel.org/git/?p=gitk/gitk.git;a=shortlog;h=new gitweb]) by Paul Mackerras is a tool for creating commits. Superseded by git-gui (see above). Written in Tcl/Tk.
 
 === KGit ===
 * [[KGit]] (http://kgit.sourceforge.net/) by Abhijit Bhopatkar is intended to be a small but functional frontend to the popular source control program, git. It is similar to gitk with two significant differences. First of all, it is written in Qt using KDevelop and the KDE libraires. Secondly, it is not only a repository viewer, unlike gitk.
