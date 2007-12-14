@@ -45,7 +45,7 @@
     [http://www.libresource.org/ LibreSource] aims to be distributed version of collaborative environment platforms such as Drupal (CMS) or SourceForge (software development).  LibreSource includes its own SCM tool called LibreSource Synchronizer (described as: innovative, simple, united).  Since version 2.0 LibreSource integrates the Subversion SCM... which is a bit strange as Subversion is centralized SCM.  It would be nice to have integration with Git, which is distributed SCM. <i>(Java J2EE: ObjectWeb Jonas application server)</i>
 
 <b>DVC (Distributed Version Control)</b> (Emacs interface)<<Anchor(DVC)>>::
-    [http://download.gna.org/dvc/ DVC] is a project to create a generic library for fancy Emacs interfaces to modern version control systems. Has support for several systems, but not Git -- yet. <i>(Emacs, elisp)</i>
+    [http://download.gna.org/dvc/ DVC] is a project to create a generic library for fancy Emacs interfaces to modern version control systems. Has support for several systems, including (incomplete) support for Git. <i>(Emacs, elisp)</i>
 
 <b>Eric3</b> (IDE)<<Anchor(Eric3)>>::
     [http://www.die-offenbachs.de/detlev/eric3.html Eric3] is a full featured Python (and Ruby) IDE that is written in PyQt using the QScintilla editor widget. It supports CVS, Subversion and Mercurial. <i>(Python, Qt)</i>
