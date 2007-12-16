@@ -35,7 +35,7 @@ A lot of blog posts related to Git usage have been published since the project's
 * [http://www.dmo.ca/blog/git-saves-me-pain-again Now, when did I send that patch again?] or finding version of a file
 * [http://www.bluishcoder.co.nz/2007/09/git-binary-files-and-cherry-picking.html Git, Binary Files and Cherry Picking Patches] (using <code><nowiki>.gitattributes</nowiki></code> to mark file as binary, cherry-picking in git)
 * [http://loupgaroublond.blogspot.com/2007/12/how-to-split-repository-in-git.html Split a git repository into two different repos]
-
+* [http://www.ishlif.org/blog/linux/git-submodules/ Git submodules] describes simple submodules usage (for a test project)<<BR>> [http://www.ishlif.org/blog/linux/splitting-a-git-repository/ Splitting a git repository] describes how to split existing repository to submodules.
 ----
 [[CategoryGitDocumentation]]
 
