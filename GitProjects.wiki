@@ -387,5 +387,7 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * Freedesktop (X Window System desktops) projects
 ** http://www.freedesktop.org/wiki/ (homepage)
 ** http://gitweb.freedesktop.org (gitweb)
+* [http://tuxfamily.org Tuxfamily] git hosting
+** http://git.tuxfamily.org/ (gitweb)
 
 __NOTOC__
