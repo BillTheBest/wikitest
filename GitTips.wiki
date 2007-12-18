@@ -53,12 +53,12 @@ If you use "git log", you also need to add "--parents" while gitk will do it for
 
 <<Anchor(wrong-branch)>>
 == What to do if you have realized that you are on wrong branch? ==
-If you have not commited your changes yet, it is enough to '
+If you have not commited your changes yet, it is enough to
 
 <pre><nowiki>
 git checkout -m <correct-branch>
 </nowiki></pre>
-' (if you use [[Git:core Git]] at leastv1.4.1-rc2).
+(if you use [[Git:core Git]] at leastv1.4.1-rc2).
 
 ([[Cogito]] users will do '<code><nowiki>cg switch <correct-branch></nowiki></code>')
 
