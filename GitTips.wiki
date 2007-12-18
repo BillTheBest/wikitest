@@ -56,8 +56,8 @@ If you use "git log", you also need to add "--parents" while gitk will do it for
 If you have not commited your changes yet, it is enough to '
 
 <pre><nowiki>
-git
-checkout -m <correct-branch></nowiki></pre>
+git checkout -m <correct-branch>
+</nowiki></pre>
 ' (if you use [[Git:core Git]] at leastv1.4.1-rc2).
 
 ([[Cogito]] users will do '<code><nowiki>cg switch <correct-branch></nowiki></code>')
