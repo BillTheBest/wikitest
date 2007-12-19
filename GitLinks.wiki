@@ -77,7 +77,6 @@ Miscellaneous git-related links, not including [http://git.or.cz/ Git homepage],
 * [http://www-cs-students.stanford.edu/~blynn/gitmagic/ Git Magic] by Ben Lynn (a guide to git)
 
 == Seminars and presentations ==
-
 * [http://www.kernel.org/~junio/200606-tut.pdf Junio C Hamano "Introduction to git"] (PDF) - slides for OSDL Japan Linux Symposium.
 * [http://www.kernel.org/~junio/200607-ols.pdf Junio C Hamano "git – a stupid content tracker"] (PDF) - slides from Ottawa Linux Symposium OLS2006, with full transcripts.
 * [http://pasky.or.cz/ols-cogito/ols-cogito.pdf Petr Baudis "Using Cogito and Git"] (PDF) - slides from Ottawa Linux Symposium OLS2006. Also in [http://pasky.or.cz/ols-cogito/ols-cogito.odp ODP] format.
@@ -106,7 +105,7 @@ Also see [[BlogPosts]] for a collection of blog posts on specific Git usage.
 * [http://michael-prokop.at/blog/2007/12/03/git-svn-in-30-minutes/ git(-svn) in 30 minutes] on [http://michael-prokop.at/blog mikas blog], not only about git-svn.
 * [http://blog.ssokolow.com/archives/2007/11/26/git-and-comfortable-version-control/ 
 Git and Comfortable Version Control] in [http://blog.ssokolow.com/archives/category/geek-stuff/ Geek Stuff] section of [http://blog.ssokolow.com/ Stephan Sokolow’s Blog]
-
+* [http://robrohan.com/2007/12/17/git-the-frugal-projects-repository/ Git, the Frugal Project’s Repository] in [http://robrohan.com/ Random Technology] blog by Rob Rohan.
 * [http://blog.madduck.net/vcs/ Martin "madduck" Krafft's blog] (articles tagged <b>vcs</b>)
 * [http://www.spearce.org/category/projects/scm/ Insufficiently Random] (articles tagged <b>scm</b>), blog by Shawn O. Pearce.
 * [http://www.jukie.net/~bart/blog/tag/git Bart's Blog] (articles tagged <b>git</b>), blog by Bart Trojanowski.
