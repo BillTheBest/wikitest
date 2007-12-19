@@ -872,7 +872,7 @@ One of more interesting:
 
 === 08. What did you find hardest? ===
 
-<b>TO DO (partial)</b>
+<b>TO DO (partial)</b><<BR>>
 596 / 683 non-empty responses
 
 Some of the responses:
@@ -1467,8 +1467,100 @@ See also question 35:  "How does GIT compare to other SCM?".
 
 (Very similar to question 36. "What do you like about using GIT?")
 
-<b>TO DO</b><<BR>>
+<b>TO DO (partial)</b><<BR>>
 643 / 683 non-empty responses
+
+What would be most interesting is to have a count for most common answers.
+
+Below there are lists of unique answers, in some arbitrary order.
+
+Features which made responder choose Git:
+* performance (speed), fast; efficiency (also: because <i>other SCM</i> was slow)
+* small size of repository / very compact repository storage; disk-space efficient; compression (on disk and wire)
+* distributed
+* flexibility, power; powerful features; most feature complete
+* large number of commands
+* easy (cheap) branching and merging, lightweight and local (private) branches<<BR>> easy to understand branching, and easy to work with multiple persistent branches<<BR>> when you make a branch it keeps them all in the one folder
+* history rewriting, ability to create a clean/ideal set of patches (amend, rebase)
+* offline work (including full history offline)
+* reliable, stable, robust
+* data integrity; self-checking repository
+* modularity, ability to script it / easy to script; hacker-friendly
+* filestore / uses filesystem for storage<<BR>> easy to create a new repository<<BR>> can use it without setting up a server
+* does not clutter the checked out directory (single `.git` directory)
+* easy/simple to setup
+* easy publishing
+* easy to use
+* easy to convert from and interact with Subversion (git-svn)
+* good support for import/interaction with other SCMs
+* <i>single</i> directory containing <i>whole</i> repository; repository (can be) embedded in working directory
+* patch-management interface layers (StGIT, Guilt)
+* handling of renames and moving files (including import from foreign SCM)<<BR>> detecting contents copying and movement
+* content based tracking
+* elegant, clean design (well designed); beautiful underlying model; best design principles; good though out concepts<<BR>> easy to understand storage model; the basics (blob, tree, commit, tag) are easy to understand
+* GPL / Open Source / free software
+* history browsing; makes code reviewing easy
+* small / lightweight / compact
+* can handle large number of small files with good performance (Source Mage GNU/Linux distribution); Subversion is clumsy on large projects
+* scalable (scale well for big repos)
+* few dependencies, easy to install
+* portable codebase, portability
+* cross platform
+* tools (gitweb, gitk, qgit; gui, visualization tools)
+* git-bisect
+* easy to create batch of patches (git-format-patch)
+* blame
+* well documented
+* Unixy design / UNIX philosophy, 'toolkit' orientation/approach/design 
+* helps you work better, doesn't get in the way
+* handling multiple repositories
+* good support for many mature collaboration paradigms
+* atomic commits, tracking whole repository state
+* detailed output; nice git-log output / more detailed log entries
+* tag support
+* repositories can be set up on almost every server
+* cost: BitKeeper is way too expensive
+* cryptographic signing, secure version history
+* nice, clean interface
+* technically interesting / 'you have control'-factor
+* allows choice of integrating tools
+* no arbitrary limitations 
+* doesn't impose any paradigm on the developer
+* index/staging area
+* local hooks
+
+Other issues which made responder use Git:
+* not satisfied with <i>some other SCM</i> / (small) issues with previous SCM / easier to work with than other SCMs
+* needed for kernel development
+* <i>some project</i> uses it/switched to it<<BR>> my peers use it/peer pressure<<BR>> other developers convinced me/recommended it
+* best reputation (word of mouth)
+* because it is used at Freedesktop.org / some hosting site
+* it's from Linus
+* Linus Torvalds' backing and the fact that is used by Linux kernel and X.Org means that is not going to go away (not die suddenly like baz and tla did); seems that is here to stay
+* GNU Arch is unmaintained/not actively developed<<BR>> Because of its similarity to GNU Arch in most ways except for an idiotic maintainer and a death wish.
+* natural after BitKeeper
+* trying new ideas
+* active, large and capable development community / live mailing list
+* well maintained, actively maintained; constant evolving development
+* used by a number of large, important projects; widely used / widespread (popular); large user base
+* hype
+* Saw the Linus talk at Google on YouTube and was convinced<<BR>> Linus's Google Tech Talk made it sound significantly better than anything else out there
+* <i>cool</i> / coolness factor
+* of all the distributed systems I played with it first and as a result prefer it.
+* help was reasonably easy in coming
+
+Interesting responses:
+* It's the most history-oriented VCS I know. There are things you can ask a git history that I hadn't even thought about until I needed them... and Git supports them  too
+* Trying to keep things in order between a private (corporate) and public (open source) svn via merging was mind-boggling nasty. Svn externals alone didn't suffice because some private commits needed to be made. My only other option would be a stack of patches.
+* I immediately liked the design.  It's in fact a functional (applicative) data structure.  Working on functional data structures every day, so git just felt right.
+* It doesn't require symlinks in order to put my home directory configuration files under version control (and SVK didn't work entirely for that).
+* I was disappointed with the SCMs available and was getting ready to begin writing my own when Git was announced, being almost exactly what I was looking for.
+* Written portably enough that I could port it to Mastodon Linux and ancient versions of BSD without reworking the internals in the process of doing so.
+* It felt like distributed SCM made right / Because it is a SCM done right.
+* Due to its alleged speed (proved to be mediocre for large workspaces).
+* Because Linus called me ugly and stupid ;-)
+
+Note that the answers to this questions are a mix of "why I tried Git" and "why I use Git", with the latter more common.  The question was meant to be about why one uses Git (why remains with Git).
 
 === 12. Why did you choose other SCMs? ===
 
