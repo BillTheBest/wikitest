@@ -15,7 +15,8 @@ A lot of blog posts related to Git usage have been published since the project's
 * [http://www.dmo.ca/blog/20070608113513 Multiple branches using git-svn]
 * [http://info.wsisiz.edu.pl/~blizinsk/git-bzr.html Git and Bazaar: Subversion interoperability] (in [http://info.wsisiz.edu.pl/~blizinsk/git-bzr.pl.html Polish])
 * [http://blog.paulbetts.org/index.php/2007/12/02/moving-git-repositories-to-svntfs/ Moving git repositories to SVN/TFS] explains how to interact with [[WikiPedia:Team_Foundation_Server|Team Foundation Server]] via git-svn and SVNBridge.
-* [http://duncan.mac-vicar.com/blog/archives/282 Change the svn url that a git-svn repository points to]
+* [http://duncan.mac-vicar.com/blog/archives/282 Change the svn url that a git-svn repository points to].
+* [http://blogs.frugalware.org/vmiklos/2007/12/09/p320 svn->git conversion using git-svn] by VMiklos describes how to use `git-svn` in place of `git-svnimport`
 
 == Portability ==
 
