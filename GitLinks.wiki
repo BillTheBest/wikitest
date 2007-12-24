@@ -136,7 +136,7 @@ Git and Comfortable Version Control] in [http://blog.ssokolow.com/archives/categ
 * [http://www.venge.net/monotone/ Monotone] — full-decentralized in a P2P way.
 * [http://www.selenic.com/mercurial/ Mercurial] (`hg`) — written in Python. Extremely fast, lightweight, portable, and easy to use.
 * [http://codeville.org/ Codeville] written in Python — Uses an innovative merging algorithm.
-* [http://abridgegame.org/darcs/ Darcs] is a decentralized and free revision control system written in the Haskell language can keep track of inter-patch dependencies using a "theory of patches" with roots in quantum mechanics.
+* [http://darcs.net/ Darcs] is a decentralized and free revision control system written in the Haskell language can keep track of inter-patch dependencies using a "theory of patches" with roots in quantum mechanics.
 * [http://svk.elixus.org/ SVK] is written in Perl — built on top of Subversion to allow distributed commits.
 
 === Other approaches ===
