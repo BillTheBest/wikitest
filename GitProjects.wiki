@@ -107,7 +107,7 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * http://git.naquadah.org/?p=awesome.git;a=summary (gitweb)
 * git://git.naquadah.org/awesome.git (repository)
 * [http://www.banu.com/ Banu] (free software projects such as Gum)
-* https://git.banu.com/ (repository, gitweb)
+* http://git.banu.com/ (repository, gitweb)
 * barvinok (A library for counting integer points in polytopes)
 * http://freshmeat.net/projects/barvinok/
 * http://www.liacs.nl/~sverdool/barvinok.git (repository)
