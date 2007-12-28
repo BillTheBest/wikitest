@@ -58,7 +58,7 @@
 * [http://www.borho.org/~steve/qct.html Qct] ([http://hg.borho.org/qct hg repo]) by Steve Borho is Qt/PyQt based GUI commit tool, meant to be SCM and platform agnostic. Supports Mercurial (`hg`), Bazaar (`bzr`), Cogito / Git, Subversion (`svn`), Monotone (`mnt`) and CVS.
 
 === ugit ===
-* <b>ugit</b> ([http://repo.or.cz/w/ugit.git gitweb], [http://permalink.gmane.org/gmane.comp.version-control.git/67854 announcement]) by David A. (preliminary name) is git commit tool, similar to git-gui, written in PyQt4.  Currently at "first draft" version.
+* <b>ugit</b> ([http://repo.or.cz/w/ugit.git gitweb], [http://ugit.justroots.com/README README], [http://permalink.gmane.org/gmane.comp.version-control.git/67854 announcement]) by David A. (preliminary name) is git commit tool, similar to git-gui, written in PyQt4.  Currently at "first draft" version. You can get tarballs at http://ugit.justroots.com/
 
 === gitool ===
 * [[Gitool:gitool]] ([http://thread.gmane.org/gmane.comp.version-control.git/26415 announcement], [http://ozlabs.org/~paulus/gitool download], [http://www.kernel.org/git/?p=gitk/gitk.git;a=shortlog;h=new gitweb]) by Paul Mackerras is a tool for creating commits. Superseded by git-gui (see above). Written in Tcl/Tk.
