@@ -244,6 +244,10 @@ export GIT_DIFF_PAGER="colordiff | less -RS"</nowiki></pre>
 
 === git-buildpackage ===
 * [http://packages.debian.org/git-buildpackage git-buildpackage] is a tool for managing the debian packaging of an application in git. [http://honk.sigxcpu.org/projects/git-buildpackage/manual-html/gbp.html Documentation]. There are other solutions and suggestions for debian packaging and git, for example see [http://wiki.debian.org/GitSrc [[GitSrc]]].
+
+=== wikiri ===
+* [http://auriga.wearlab.de/~alb/misc.html wikiri] is a simple, single-file wiki written in Python. It uses reStructuredText for markup, and has optional git support for history tracking. You can [http://repo.or.cz/w/wikiri.git browse the repository] or just clone it from http://auriga.wearlab.de/~alb/repos/git/devel/wikiri.
+
 ----
 = See also =
 * [[InterfacesFrontendsAndToolsWishlist]]
