@@ -295,9 +295,10 @@ logfile ~/.msmtp.log
 # My email service
 account gmail
 host smtp.gmail.com
+port 587
 from some.user.name@gmail.com
 auth on
-user some.user.name
+user some.user.name@gmail.com
 password my-secret
 # Set a default account
 account default : gmail
