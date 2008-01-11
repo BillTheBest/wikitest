@@ -86,6 +86,7 @@ Miscellaneous git-related links, not including [http://git.or.cz/ Git homepage],
 * [http://www.ourmedia.org/node/276036 Randal L. Schwartz - "Introduction to Git"] (PDF) - slides from Dec 2006 presentation at [http://www.pdxlinux.org/ Portland Oregon Linux Users Group Advanced Topics meeting].
 * [http://www.jukie.net/~bart/slides/intro-to-git/intro-to-git.pdf Bart Trojanowski - "Introduction to Git"] (PDF) - slides used to teach an  [http://www.jukie.net/~bart/blog/into-to-git-talk-2 intro course].
 * [http://www.jdl.com/papers/BestCollabGit.pdf Jon Loeliger - "Best Collaboration Practices Using Git"] (PDF) - looks like a presentation given at Freescale.
+* [http://apt.utsl.gen.nz/talks/ng-vcs.pdf Sam Vilain - "Next Generation Version Control Systems"] (PDF) - slides from 9th OSCON 2007.
 
 == Blogs ==
 Also see [[BlogPosts]] for a collection of blog posts on specific Git usage.
