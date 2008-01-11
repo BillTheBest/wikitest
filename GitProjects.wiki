@@ -374,9 +374,9 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 
 == Git hosting ==
 
-* http://hosted.fedoraproject.org/ (Primarily Fedora related but open to other Free software projects too)
 * Public Git hosting site, maintained by Petr Baudis
 ** http://repo.or.cz/
+* http://hosted.fedoraproject.org/ (Primarily Fedora related but open to other Free software projects too)
 * [http://alioth.debian.org/ Alioth] (project hosting, modified [http://gforge.org GForge] engine, managed by [http://www.debian.org/ Debian] project)
 ** [http://www.debian.org/News/weekly/2006/34/ Debian Weekly News #34 - August 22nd, 2006] (announcement)
 ** [http://roland.entierement.nu/blog/2006/08/17/bits-about-alioth.html Roland weblog - Bits about Alioth] (description)
@@ -392,5 +392,7 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 ** http://gitweb.freedesktop.org (gitweb)
 * [http://tuxfamily.org Tuxfamily] git hosting
 ** http://git.tuxfamily.org/ (gitweb)
+* [http://gitorious.org/ Gitorious] (by Johan Sørensen, in Ruby)
+** [http://rashkovskii.com/articles/2008/1/9/gitorious Gitorious] post on [http://rashkovskii.com/ Yurii Rashkowskii's blog]
 
 __NOTOC__
