@@ -348,6 +348,10 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * http://vle.univ-littoral.fr/gitweb
 * Wexus (C++ library for web application development)
 * http://labs.wexussoftware.com/
+* wmiirc-lua (fast and light window manager based on wmii)
+* http://www.jukie.net/~bart/blog/tag/wmiirc-lua (homepage)
+* http://repo.or.cz/w/wmiirc-lua.git (gitweb)
+* git://repo.or.cz/wmiirc-lua.git (repository)
 * xmms2 (audio player)
 * http://wiki.xmms2.xmms.se/index.php/Download_XMMS2 (description)
 * http://git.xmms.se/ (repository, gitweb)
