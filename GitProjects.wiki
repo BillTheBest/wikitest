@@ -394,7 +394,7 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * Freedesktop (X Window System desktops) projects
 ** http://www.freedesktop.org/wiki/ (homepage)
 ** http://gitweb.freedesktop.org (gitweb)
-* [http://tuxfamily.org Tuxfamily] git hosting
+* [http://tuxfamily.org Tuxfamily] git hosting (free software only, moderators speak english, french and spanish)
 ** http://git.tuxfamily.org/ (gitweb)
 * [http://gitorious.org/ Gitorious] (by Johan Sørensen, in Ruby)
 ** [http://rashkovskii.com/articles/2008/1/9/gitorious Gitorious] post on [http://rashkovskii.com/ Yurii Rashkowskii's blog]
