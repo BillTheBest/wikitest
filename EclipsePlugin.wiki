@@ -7,7 +7,6 @@ Some ways to keep informed about Egit development.
 
 * [http://repo.or.cz/w/egit.git?a=log Revision log]
 = Links =
-* [http://www.spearce.org/projects/scm/egit.git Repository] (dead?)
 * [http://repo.or.cz/w/egit.git gitweb] (clone)
 = Features =
 * Compare revisions
