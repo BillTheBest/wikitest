@@ -1474,58 +1474,59 @@ What would be most interesting is to have a count for most common answers.
 
 Below there are lists of unique answers, in some arbitrary order.
 
-Features which made responder choose Git:
-* performance (speed), fast; efficiency (also: because <i>other SCM</i> was slow)
-* small size of repository / very compact repository storage; disk-space efficient; compression (on disk and wire)
+Generic features which are common to all good distributed open-source SCMs:
 * distributed
-* flexibility, power; powerful features; most feature complete
-* large number of commands
-* easy (cheap) branching and merging, lightweight and local (private) branches<<BR>> easy to understand branching, and easy to work with multiple persistent branches<<BR>> when you make a branch it keeps them all in the one folder
-* history rewriting, ability to create a clean/ideal set of patches (amend, rebase)
 * offline work (including full history offline)
+* atomic commits, tracking whole repository state
+* tag support
+* GPL / Open Source / free software
+* cost: BitKeeper is way too expensive
+
+Features which made responder choose Git:
 * reliable, stable, robust
 * data integrity; self-checking repository
+* small / lightweight / compact
+* performance (speed), fast; efficiency (also: because <i>other SCM</i> was slow)
+* small size of repository / very compact repository storage; disk-space efficient; compression (on disk and wire)
+* flexibility, power; powerful features; most feature complete
+* large number of commands
 * modularity, ability to script it / easy to script; hacker-friendly
+* Unixy design / UNIX philosophy, 'toolkit' orientation/approach/design
+* easy (cheap) branching and merging, lightweight and local (private) branches<<BR>> easy to understand branching, and easy to work with multiple persistent branches<<BR>> when you make a branch it keeps them all in the one folder
+* history rewriting, ability to create a clean/ideal set of patches (amend, rebase)
 * filestore / uses filesystem for storage<<BR>> easy to create a new repository<<BR>> can use it without setting up a server
-* does not clutter the checked out directory (single `.git` directory)
+* <i>single</i> directory containing <i>whole</i> repository; repository (can be) embedded in working directory<<BR>> does not clutter the checked out directory (single `.git` directory)
+* few dependencies, easy to install
+* portable codebase, portability
+* cross platform
 * easy/simple to setup
 * easy publishing
 * easy to use
+* repositories can be set up on almost every server
 * easy to convert from and interact with Subversion (git-svn)
 * good support for import/interaction with other SCMs
-* <i>single</i> directory containing <i>whole</i> repository; repository (can be) embedded in working directory
 * patch-management interface layers (StGIT, Guilt)
 * handling of renames and moving files (including import from foreign SCM)<<BR>> detecting contents copying and movement
 * content based tracking
 * elegant, clean design (well designed); beautiful underlying model; best design principles; good though out concepts<<BR>> easy to understand storage model; the basics (blob, tree, commit, tag) are easy to understand
-* GPL / Open Source / free software
 * history browsing; makes code reviewing easy
-* small / lightweight / compact
 * can handle large number of small files with good performance (Source Mage GNU/Linux distribution); Subversion is clumsy on large projects
 * scalable (scale well for big repos)
-* few dependencies, easy to install
-* portable codebase, portability
-* cross platform
 * tools (gitweb, gitk, qgit; gui, visualization tools)
+* allows choice of integrating tools
 * git-bisect
-* easy to create batch of patches (git-format-patch)
 * blame
+* easy to create batch of patches (git-format-patch)
 * well documented
-* Unixy design / UNIX philosophy, 'toolkit' orientation/approach/design 
 * helps you work better, doesn't get in the way
 * handling multiple repositories
-* good support for many mature collaboration paradigms
-* atomic commits, tracking whole repository state
 * detailed output; nice git-log output / more detailed log entries
-* tag support
-* repositories can be set up on almost every server
-* cost: BitKeeper is way too expensive
 * cryptographic signing, secure version history
 * nice, clean interface
 * technically interesting / 'you have control'-factor
-* allows choice of integrating tools
-* no arbitrary limitations 
+* good support for many mature collaboration paradigms
 * doesn't impose any paradigm on the developer
+* no arbitrary limitations
 * index/staging area
 * local hooks
 
@@ -1564,8 +1565,49 @@ Note that the answers to this questions are a mix of "why I tried Git" and "why 
 
 === 12. Why did you choose other SCMs? ===
 
-<b>TO DO</b><<BR>>
+<b>TO DO (partial)</b><<BR>>
 606 / 683 non-empty responses
+
+List of features which made user chose SCMs other than Git.  Note that one can chose SCMs involuntary... and that it looks like some people answered why they choose other SCMs <i>beside</i> and not insted of Git.
+* works on Windows / more Windows compatibility
+* CR-LF munging on Windows <i>(note: git now support this)</i>
+* works on Mac
+* cross-platform support
+* easy to use / they just work
+* stable
+* relatively easy to setup and administer
+* centralized control sometimes makes sense; it's clearer with non-git tools
+* proper offline work
+* patch tracking (git lacks this!) for really intelligent merging
+* better CVS, but still the same simple usage model
+* conceptual simplicity of the centralized model
+* outstanding documentation
+* many books on the subject
+
+List of third-party tools, and support for SCM in given application or web application, which made people chose other SCMs
+* many plugins for IDEs
+* wide variety of plugins and tools
+* (better) integration with Trac
+* software hosting provides other SCM support<<BR>> <i>(e.g. SourceForge provides CVS support)</i>
+* no (generic) software hosting site a la SourceForge with Git support<<BR>> <i>(there is repo.or.cz, Savannah and Tuxfamily)</i>
+* widely used on many community sites such as Gna! <i>(Subversion)</i>
+
+Other issues which made people use other SCMs:
+* client requirements
+* required in work / company policy
+* co-worker familiarity
+* used by some project (I was working on)
+* needed to track some projects
+* existing practice of developers on team
+* lot of people have learned it / well known and understood
+* because it was standard for so long (CVS), and there were nothing else
+
+Personal issues that made people chose other SCMs
+* it was the first one I've learned, so I'm used to it
+* lack of knowledge of Git
+* I don't care enough to switch
+
+One of issues why one used other SCM is that the project predates Git existence (answers like "it was the only one back then).
 
 === 13. What would you require from GIT to enable you to change... ? ===
 
@@ -2823,8 +2865,6 @@ There are around 100 (?) different projects tracked mentioned in survey (not all
 
 <b>Footnotes:</b>
 <<[[FootNote]]>>
-
-<i>Question:</i> What ranges should be used here: 1, 2-9, 10-99, 100-999, 1000+ or perhaps 1, 2-5, 6-15, 16-25, 26-50, 50-100, 100-1000, 1000+, or yet another set of ranges?
 
 === 24. How big are the repositories that you work on? ===
 
