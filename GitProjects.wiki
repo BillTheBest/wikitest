@@ -43,6 +43,9 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * udev
 ** http://www.kernel.org/pub/linux/utils/kernel/hotplug/udev.html (homepage)
 ** http://git.kernel.org/?p=linux/hotplug/udev.git (gitweb)
+* Rubinius
+** http://rubini.us/ (homepage)
+** http://git.rubini.us/?p=code;a=summary (gitwed)
 * Garzik's various Linux projects
 ** http://linux.yyz.us/projects.html (home page)
 * Many other Linux related projects...
