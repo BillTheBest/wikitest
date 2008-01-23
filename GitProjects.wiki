@@ -188,6 +188,12 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * [http://www.geda.seul.org/ gEDA]
 * http://geda.seul.org/wiki/geda:scm (development)
 * http://git.gpleda.org/ (gitweb)
+* GNU Autoconf
+* http://git.sv.gnu.org/gitweb/?p=autoconf.git (gitweb)
+* git://git.sv.gnu.org/autoconf.git
+* GNU Automake
+* http://git.sv.gnu.org/gitweb/?p=automake.git (gitweb)
+* git://git.sv.gnu.org/automake.git
 * GNU core utils
 * http://git.sv.gnu.org/gitweb/?p=coreutils.git (gitweb)
 * git://git.sv.gnu.org/coreutils.git
