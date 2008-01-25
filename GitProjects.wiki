@@ -404,5 +404,7 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 ** http://git.tuxfamily.org/ (gitweb)
 * [http://gitorious.org/ Gitorious] (by Johan Sørensen, in Ruby)
 ** [http://rashkovskii.com/articles/2008/1/9/gitorious Gitorious] post on [http://rashkovskii.com/ Yurii Rashkowskii's blog]
+* [http://github.com/ GitHub]
+** http://github.com/
 
 __NOTOC__
