@@ -99,6 +99,8 @@
 === git-browser ===
 * [http://straytree.com/ git-browser] by Arteem Khodush is an experimental gitk-like web interface. It visualizes commit history graph and shows commit diffs. User interface is done in Java<code><nowiki></nowiki></code>Script, and is rather heavy on the <i>client</i> side.  [http://straytree.com/git-browser/by-commit.html?r=git view online] [http://straytree.com/git-browser.tar.bz2 download] [http://repo.or.cz/gitweb.cgi/git-browser.git gitweb mirror].
 
+= Tools =
+
 == Editors and IDE integration ==
 === Emacs integration (in `contrib/`) ===
 * Preliminary Emacs mode for Git from Alexandre Julliard (in <code><nowiki>contrib/emacs</nowiki></code> directory) consist of <code><nowiki>git.el</nowiki></code> which is project tree browser similar to pcl-cvs, and <code><nowiki>vc-git.el</nowiki></code> which is VC backend (see also vc-git-hacking at [http://www.gnuvola.org/wip/ gnuvola]).<<BR>> There is also a project,  [http://download.gna.org/dvc/ DVC] (Distributed Version Control), on Gna!, by the authors of Xtla, to create a generic library for fancy Emacs interfaces to modern version control systems. Currently it supports [http://www.gnu.org/software/gnu-arch/ GNU Arch] (<i>tla</i>) and [http://freshmeat.net/projects/baz/ Bazaar] (<i>baz</i>), and has initial support for [http://bazaar-vcs.org/ Bazaar-NG] (<i>bzr</i>) and [http://www.selenic.com/mercurial/ Mercurial] (<i>xhg</i>).
