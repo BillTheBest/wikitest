@@ -57,5 +57,6 @@ Here are few tips for new users, or users that don't like to read the manual:
 <!-- ## other fortune cookies
  -->
 * Writing a BitKeeper replacement is probably easier at this point than getting its license changed. <i>(Matt Mackall)</i>
+* Welcome to FOSS revolution: we fix and modify until it shines
 
 __NOTOC__
