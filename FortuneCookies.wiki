@@ -54,6 +54,11 @@ Here are few tips for new users, or users that don't like to read the manual:
 * Repeat after me: in git, *everything* is a SHA1 object! <i>(Linus Torvalds)</i>
 * ... where "core git" originally was about "what I use" and the whole "porcelain" side ends up being "what people who need hand-holding use" ;) <i>(Linus Torvalds)</i>
 
+<!-- ## Masukomi's blog
+ -->
+* Git is a lot like C. It's incredibly flexible and powerful but it is also incredible flexible and powerful. <i>(Masukomi)</i>
+* If you want to shoot yourself in the foot Git will point you to the gun rack and show you how to load the bullets. <i>(Masukomi)</i>
+
 <!-- ## other fortune cookies
  -->
 * Writing a BitKeeper replacement is probably easier at this point than getting its license changed. <i>(Matt Mackall)</i>
