@@ -38,6 +38,12 @@ A lot of blog posts related to Git usage have been published since the project's
 * [http://www.bluishcoder.co.nz/2007/09/git-binary-files-and-cherry-picking.html Git, Binary Files and Cherry Picking Patches] (using <code><nowiki>.gitattributes</nowiki></code> to mark file as binary, cherry-picking in git)
 * [http://loupgaroublond.blogspot.com/2007/12/how-to-split-repository-in-git.html Split a git repository into two different repos]
 * [http://www.ishlif.org/blog/linux/git-submodules/ Git submodules] describes simple submodules usage (for a test project)<<BR>> [http://www.ishlif.org/blog/linux/splitting-a-git-repository/ Splitting a git repository] describes how to split existing repository to submodules.
+
+== Praise ==
+
+Like everybody else, the git developers like to be praised from time to time, too.
+
+* Masukomi has [http://weblog.masukomi.org/2008/2/4/some-thoughts-about-git Some thoughts on Git]
 ----
 [[CategoryGitDocumentation]]
 
