@@ -126,6 +126,10 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * (ask on mailing list for access to git repo as it is hosted on a bandwidth limited server.)
 * [http://e.kevb.net/lurker/message/20060711.200520.7a9b1e25.en.html Mail List message] announcing our first use of git.
 * http://www.pipapo.org/gitweb (gitweb)
+* Ceph - A next generation high performance Distributed filesystem for Linux.
+* http://ceph.newdream.net/ (homepage)
+* http://ceph.newdream.net/git/ (gitweb) 
+* http://wiki.soe.ucsc.edu/bin/view/Main/[[PetascaleObject]]-basedStorage (wiki)
 * cmus - C* Music Player
 * http://cmus.sourceforge.net/ (homepage)
 * http://repo.or.cz/w/cmus.git/ (gitweb)
