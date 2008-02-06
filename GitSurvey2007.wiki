@@ -3743,7 +3743,8 @@ Nice, git users are mostly very happy with git :-).  13 grumpy users, hmmm...
 |   4.4% 
 | 
 |-
-|colspan="2" |
+| <-3>
+| 
 |-
 |  N/A                            
 |     52 
