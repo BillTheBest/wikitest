@@ -62,6 +62,8 @@ Here are few tips for new users, or users that don't like to read the manual:
 <!-- ## other fortune cookies
  -->
 * Writing a BitKeeper replacement is probably easier at this point than getting its license changed. <i>(Matt Mackall)</i>
-* Welcome to FOSS revolution: we fix and modify until it shines
+* Welcome to FOSS revolution: we fix and modify until it shines.
+* We  reject  kings, presidents,  and  voting.  We  believe in rough consensus and running code. <i>(Dave Clark, 1992 IETF meeting)</i>
+* I've never met a human being who would want to read 17,000 pages of documentation, and if there was, I'd kill him to get him out of the gene pool. <i>(Joseph Costello)</i>
 
 __NOTOC__
