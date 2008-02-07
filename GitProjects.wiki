@@ -182,6 +182,10 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * http://featherstitch.cs.ucla.edu/howto/ (development)
 * http://featherstitch.cs.ucla.edu/gitweb?p=fstitch (gitweb)
 * git://featherstitch.cs.ucla.edu/fstitch/fstitch (repository)
+* fluxbox
+* http://www.fluxbox.org
+* http://git.fluxbox.org (gitweb)
+* git://git.fluxbox.org/fluxbox.git (repository)
 * fprint (biometric fingerprint scanning on Linux)
 ** http://www.reactivated.net/fprint/
 ** http://www.reactivated.net/fprint/wiki/Libfprint_development (repo info)
