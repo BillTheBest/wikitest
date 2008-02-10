@@ -101,12 +101,11 @@ Also see [[BlogPosts]] for a collection of blog posts on specific Git usage.
 * [http://rosenberg.homelinux.net/wordpress/?p=74 The Eclipse Git plugin project] on Robins blogg.
 * [http://gravityboy.livejournal.com/33022.html We've Moved!] -- Debian X packaging team  ([http://wiki.debian.org/XStrikeForce/ XSF]) switches over from Subversion to git.
 * [http://tytso.livejournal.com/29467.html Git and hg] by Ted Tso on his LiveJournal blog, describes UNIX-like mentality of Git, but also talks about it's shortcomings in documentation and ease of use.
-* [http://jaredrobinson.com/blog/?p=62 What’s happening with Version Control Systems?] from January 28, 2007 on [http://jaredrobinson.com/blog Jared’s Blog] talks about different SCM systems and gives  highly subjective comparison table for Subversion, SVK,	Git/Cogito, Mercurial, Bazaar-NG, Darcs and 	Perforce.
+* [http://jaredrobinson.com/blog/?p=62 What’s happening with Version Control Systems?] from January 28, 2007 on [http://jaredrobinson.com/blog Jared’s Blog] talks about different SCM systems and gives  highly subjective comparison table for Subversion, SVK, Git/Cogito, Mercurial, Bazaar-NG, Darcs and Perforce.
 * [http://www.betaversion.org/~stefano/linotype/news/106/ On Version Control Architectures and the Fear of Displacing Innovation] on [http://www.betaversion.org/~stefano/linotype/ Stefano's Linotype] - Stefano Mazzocchi blog, presents some thoughts based on watching [http://www.youtube.com/watch?v=4XpnKHJAok8 Linus Torvalds' talk on git] (see below).
 * [http://codicesoftware.blogspot.com/2007/05/linus-torvalds-on-git-and-scm.html Linus Torvalds on GIT and SCM] on [http://codicesoftware.blogspot.com/ Codice Software: Plastic SCM blog], with some interesting comments about the presentation. See also links in comments / forum area.
 * [http://michael-prokop.at/blog/2007/12/03/git-svn-in-30-minutes/ git(-svn) in 30 minutes] on [http://michael-prokop.at/blog mikas blog], not only about git-svn.
-* [http://blog.ssokolow.com/archives/2007/11/26/git-and-comfortable-version-control/ 
-Git and Comfortable Version Control] in [http://blog.ssokolow.com/archives/category/geek-stuff/ Geek Stuff] section of [http://blog.ssokolow.com/ Stephan Sokolow’s Blog]
+* [http://blog.ssokolow.com/archives/2007/11/26/git-and-comfortable-version-control/ Git and Comfortable Version Control] in [http://blog.ssokolow.com/archives/category/geek-stuff/ Geek Stuff] section of [http://blog.ssokolow.com/ Stephan Sokolow’s Blog]
 * [http://robrohan.com/2007/12/17/git-the-frugal-projects-repository/ Git, the Frugal Project’s Repository] in [http://robrohan.com/ Random Technology] blog by Rob Rohan.
 * [http://blog.madduck.net/vcs/ Martin "madduck" Krafft's blog] (articles tagged <b>vcs</b>)
 * [http://www.spearce.org/category/projects/scm/ Insufficiently Random] (articles tagged <b>scm</b>), blog by Shawn O. Pearce.
@@ -114,6 +113,8 @@ Git and Comfortable Version Control] in [http://blog.ssokolow.com/archives/categ
 * [http://wincent.com/a/about/wincent/weblog/archives/development/ Wincent Colaiuta's weblog] (category <b>development</b>, not only about git).
 * [http://versioncontrolblog.com/category/git/ Version Control Blog]: Version control, software configuration management (SCM) (articles tagged <b>GIT</b>). See also [http://versioncontrolblog.com/git-cogito/ Git/Cogito] on the same page.
 * [http://blogs.gnome.org/newren/tag/version-control/ Elijah’s Blog]: Just another GNOME Blogs weblog (posts tagged <b>version control</b>).
+
+Below there are blogs by gitters:
 * [http://gitster.livejournal.com/tag/git gitster's journal], Junio C Hamano (git maintainer) blog (articles tagged <b>git</b>).
 * [http://vilain.net/ (SV*)null - interpretating the void as Sam] blog by Sam Vilain.
 
