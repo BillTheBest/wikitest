@@ -19,7 +19,7 @@ This list is sorted alphabetically:
 	repositories make bare repositories available.
 
 ; blob object : <<Anchor(blob_object)>><<Anchor(blob)>>
-	Untyped [[#object object]], e.g. the contents of a file.
+	Untyped [[#object object]], i.e. the contents of a file.
 
 ; branch : <<Anchor(branch)>>
 	A "branch" is an active line of development.  The most recent
@@ -452,7 +452,7 @@ $ git push $URL refs/heads/master:refs/heads/to-upstream</nowiki></pre>
 	that you have made but not yet committed.
 
 	The set of files and directories currently being worked on,
-	i.e. you can work in your working tree without using git at all.
+	e.g. you can work in your working tree without using git at all.
 
 ----
 = References =
