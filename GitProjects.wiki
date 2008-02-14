@@ -295,6 +295,9 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * http://roscidus.com/desktop/using-git (development)
 * http://roscidus.com/desktop/node/825 (GIT for translators)
 * http://repo.or.cz/w/rox-filer.git (gitweb)
+* Rubinius (alternative Ruby implementation)
+* http://rubini.us/pages/using-git (git documentation)
+* http://git.rubini.us/ (gitweb)
 * Samba (provides file and print services to all manner of SMB/CIFS clients)
 * http://wiki.samba.org/index.php/Using_Git_for_Samba_Development (insn)
 * http://git.samba.org (gitweb)
@@ -347,9 +350,6 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * util-linux-ng
 * http://userweb.kernel.org/~kzak/util-linux-ng/ (homepage)
 * http://git.kernel.org/?p=utils/util-linux-ng/util-linux-ng.git (gitweb)
-* Rubinius (alternative Ruby implementation)
-* http://rubini.us/pages/using-git (git documentation)
-* http://git.rubini.us/ (gitweb)
 * vimblog
 * http://www.vim.org/scripts/script.php?script_id=2030 (vim scripts page)
 * http://blog.tquadrado.com/?page_id=146 (homepage)
