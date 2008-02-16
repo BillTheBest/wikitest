@@ -36,6 +36,7 @@ Some ways to keep informed about Egit development.
 * [http://www.eclipse.org/eclipse/platform-team/ Eclipse platform team]
 * [http://git.or.cz/gitwiki General Git information]
 * [http://repo.or.cz/w/egit.git?a=blob_plain;f=SUBMITTING_PATCHES;hb=HEAD Submitting patches]
+* [http://repo.or.cz/w/egit.git?a=blob_plain;f=INSTALL;hb=HEAD Installing the plugin]
 ----
 [[CategoryTools]]
 
