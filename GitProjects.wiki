@@ -175,6 +175,9 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * https://gna.org/projects/else (project page)
 * http://www.else-projects.org/ (homepage)
 * http://git.else-projects.org/ (gitweb)
+* Erlware (Erlang/OTP development tools)
+* http://www.erlware.org (project)
+* http://git.erlware.org/ http://www.erlware.org/development/public_repositories.html (repos)
 * Fedora
 * http://hosted.fedoraproject.org/ (some Fedora hosted projects)
 * http://git.fedoraproject.org/ (gitweb)
