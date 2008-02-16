@@ -6,6 +6,8 @@ Roadmap of features: [[EclipsePluginWishlist]]
 Some ways to keep informed about Egit development.
 
 * [http://repo.or.cz/w/egit.git?a=log Revision log]
+* [http://git.or.cz/gitwiki/GitCommunity Maling lists, IRC, newgroups (Same as Git)]
+
 = Links =
 * [http://repo.or.cz/w/egit.git gitweb] (clone)
 = Features =
@@ -26,10 +28,13 @@ Some ways to keep informed about Egit development.
    A: See the README and INSTALL documents in the egit repository.
 * Q: Is there an update site?
    A: Not at the moment. Code is included to build an update site, but it has some issues to solve.
+* Q: Is the project active?
+   A: Depends on what is meant by active. Admitted the progress is slow, mostly because there are very few people involved so far, but the project is certainly not dead (as of February 2008).
 
 == Documentation ==
 === What doc. for starting help? ===
 * [http://www.eclipse.org/eclipse/platform-team/ Eclipse platform team]
+* [http://git.or.cz/gitwiki General Git information]
 
 ----
 [[CategoryTools]]
