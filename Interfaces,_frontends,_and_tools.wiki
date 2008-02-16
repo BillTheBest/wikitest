@@ -107,7 +107,7 @@
 * <b>See also:</b> [[EmacsWiki:Git|Git]] and [[EmacsWiki:[[CategoryVersionControl]]|[[CategoryVersionControl]]]] pages on [http://www.emacswiki.org EmacsWiki]
 
 === Java GIT/Eclipse GIT ===
-* [http://www.spearce.org/projects/scm/egit.git Java GIT/Eclipse GIT] (repository) by Shawn Pearce is a Java GIT library and plugin for [http://www.eclipse.org/ Eclipse] IDE, in very early stages of development.  The site no longer seems to have the plugin. Robin Rosenberg has recently been working on history and compare views for the plugin, so progress is slow but steady.  It is mirrored at http://repo.or.cz/w/egit.git (gitweb).  A [[EclipsePluginWishlist]] has been started as a roadmap of features. A page has been started to follow development: [[EclipsePlugin]].
+* [http://repo.or.cz/w/egit.git Java GIT/Eclipse GIT] (repository) originated by Shawn Pearce is a Java GIT library and plugin for [http://www.eclipse.org/ Eclipse] IDE, in very early stages of development.  The site no longer seems to have the plugin. Robin Rosenberg has recently been working on history and compare views for the plugin. David Watson contributed GUI for branch handling and commit. Progress is slow but steady. A [[EclipsePluginWishlist]] has been started as a roadmap of features. A page has been started to follow development: [[EclipsePlugin]].
 
 === PIDA ===
 * [http://pida.co.uk/ PIDA] Integrated development environment supporting GIT, Subversion, Darcs, Mercurial, Monotone, Bazaar-NG (<i>bzr</i>). It allows embedding Vim or emacs. <i>(Python, GTK)</i>
