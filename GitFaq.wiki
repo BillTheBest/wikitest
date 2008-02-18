@@ -417,8 +417,16 @@ git cat-file -p f5f75c652b9c2347522159a87297820103e593e4:git.c
 </nowiki></pre>
 
 == How do I make a diff between two arbitrary files in different revisions? ==
+With "git diff" command you can refer to a commit and file pair:
 
-FIXME: Explanation missing
+<pre><nowiki>
+git diff <commit1>:path/file..<commit2>:otherpath/otherfile
+</nowiki></pre>
+As usual, commits can be SHA1 codes, branch names, tags or relative refenrences like HEAD~3. For example:
+
+<pre><nowiki>
+git diff 06de3718c389fd5038697151c49519f6e9f2dbe0:ChangeLog..HEAD~2:ChangeLog.old
+</nowiki></pre>
 
 <<Anchor(fix-broken-repo)>>
 == How to fix a broken repository? ==
