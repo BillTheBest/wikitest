@@ -416,6 +416,10 @@ git cat-file -p tags/v1.4.3:git.c
 git cat-file -p f5f75c652b9c2347522159a87297820103e593e4:git.c
 </nowiki></pre>
 
+== How do I make a diff between two arbitrary files in different revisions? ==
+
+FIXME: Explanation missing
+
 <<Anchor(fix-broken-repo)>>
 == How to fix a broken repository? ==
 As Linus said ([http://thread.gmane.org/gmane.comp.version-control.git/40893/focus=40896 on gmane]):
