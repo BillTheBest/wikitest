@@ -32,4 +32,6 @@ It's because the "pager_program" variable from the latter was defined as <b>char
 
 This is because the first argument to "git_config_string" should be a "const char **", not a "char **". There will be a compile time warning if a "char **" is passed instead of a "const char **" and the patch will be rejected. (And no, casting the "char **" into a "const char **" is not a good solution either.) 
 
+Also note that some care is needed when adding a "const" qualifier. A "const char *" variable is a pointer to some constant characters. It means that the characters the variable points to should not be modified. You have to check that before you can safely add a "const" qualifier to a "char *".
+
 __NOTOC__
