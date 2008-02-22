@@ -50,6 +50,7 @@ Projects that use [[Git]] for their source code management are listed in [[GitPr
 * [[UsingGitWithOtherVCSTools]].
 == Getting Involved ==
 * Subscribe to the git mailing list (see [[GitCommunity]] page).
+* Check out [[Janitor]] page.
 * Check out [[ToDo]] page.
 * Google [[SoC2007Ideas:Summer of Code 2007]] project ideas.
 * Check the current [http://kernel.org/git/?p=git/git.git;a=blob;hb=todo;f=TODO TODO list], it is in the todo branch in the git repository.
