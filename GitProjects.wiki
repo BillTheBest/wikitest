@@ -227,6 +227,9 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * http://herrie.info/ (development web page)
 * http://g-rave.nl/gitweb?p=herrie;a=tree;f=herrie (gitweb)
 * git://g-rave.nl/herrie (repository)
+* Hypertable (massively parallel database)
+* http://www.hypertable.org/ (homepage)
+* git://scm.hypertable.org/pub/repos/hypertable.git (repository)
 * ikiwiki
 * http://ikiwiki.info/download/
 * http://git.ikiwiki.info/?p=ikiwiki (gitweb)
