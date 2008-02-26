@@ -107,7 +107,7 @@ Also see [[BlogPosts]] for a collection of blog posts on specific Git usage.
 * [http://michael-prokop.at/blog/2007/12/03/git-svn-in-30-minutes/ git(-svn) in 30 minutes] on [http://michael-prokop.at/blog mikas blog], not only about git-svn.
 * [http://blog.ssokolow.com/archives/2007/11/26/git-and-comfortable-version-control/ Git and Comfortable Version Control] in [http://blog.ssokolow.com/archives/category/geek-stuff/ Geek Stuff] section of [http://blog.ssokolow.com/ Stephan Sokolow’s Blog]
 * [http://robrohan.com/2007/12/17/git-the-frugal-projects-repository/ Git, the Frugal Project’s Repository] in [http://robrohan.com/ Random Technology] blog by Rob Rohan.
-* [http://blog.madduck.net/vcs/ Martin "madduck" Krafft's blog] (articles tagged <b>vcs</b>)
+* [http://madduck.net/blog/feeds/planet-rcs/ Martin "madduck" Krafft's blog] (articles slated for [http://planet.revisioncontrol.net Planet RCS])
 * [http://www.spearce.org/category/projects/scm/ Insufficiently Random] (articles tagged <b>scm</b>), blog by Shawn O. Pearce.
 * [http://www.jukie.net/~bart/blog/tag/git Bart's Blog] (articles tagged <b>git</b>), blog by Bart Trojanowski.
 * [http://wincent.com/a/about/wincent/weblog/archives/development/ Wincent Colaiuta's weblog] (category <b>development</b>, not only about git).
