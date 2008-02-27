@@ -404,16 +404,17 @@ git checkout -- <file>
 
 <<Anchor(view-old-rev)>>
 == How to view an old revision of a file without checking out the file? ==
-Something like the following:
+The normal way is to use "git show" command:
 
 <pre><nowiki>
-git cat-file -p <commit-ish>:<file>
+git show <commit>:<file>
 </nowiki></pre>
-For example:
+The <commit> can be commit id, tag or relative pointer like HEAD~2. If <file> is empty or if it's a directory, git will display files in that directory. For example:
 
 <pre><nowiki>
-git cat-file -p tags/v1.4.3:git.c
-git cat-file -p f5f75c652b9c2347522159a87297820103e593e4:git.c
+git show v1.4.3:git.c
+git show f5f75c652b9c2347522159a87297820103e593e4:git.c
+git show HEAD~2:git.c
 </nowiki></pre>
 
 == How do I make a diff between two arbitrary files in different revisions? ==
