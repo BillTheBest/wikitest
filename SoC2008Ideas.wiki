@@ -45,6 +45,11 @@ Teach [http://kernel.org/pub/linux/kernel/people/josh/sparse/ sparse] how to fix
 <<BR>><b>Mentor:</b>  Johannes Schindelin (johannes.schindelin@gmx.de)
 <<BR>><b>Suggested by:</b> Johannes Schindelin [http://article.gmane.org/gmane.comp.version-control.git/40801 on gmane]
 
+== Continue "libification" work ==
+Description copied from [[SoC2007Ideas]]: Make more parts of libgit.a reentrant by removing static variables, avoid dying e.g. when malloc() fails, etc. Most of Git was written with the run-once-and-exit design pattern. This makes it difficult/impossible to embed core Git data access routines within a scripting language such as Perl or Python, or to embed it in a longer-running server such as an Apache module. Existing code must be modified to return errors rather than terminating the process, and memory leaks need to be plugged.
+<<BR>><b>Goal:</b> In addition to the general goal of being able to link libgit.a into external programs that are not exclusively git utilities and have the git code be usable as a well-behaved library, one specific goal given on the [[Soc2007Ideas]] page was: Usable Perl binding that a future gitweb.cgi could take advantage of, rather than repeatedly forking Git processes. 
+<<BR>><b>See:</b> The existing work on [http://repo.or.cz/w/git/libgit-gsoc.git libgit-thin] may be relevant.
+
 = Larger Projects =
 The following projects are probably more suited to the junio/senior/graduate students.  Pick one and really make it shine.
 
