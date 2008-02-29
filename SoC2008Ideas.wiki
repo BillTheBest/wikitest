@@ -55,7 +55,8 @@ The idea here is to be able to remotely access objects from a network  based obj
 
 <<BR>><b>Goal:</b> A working lazy clone prototype implementation that could be considered for inclusion, in a nice series of commits (separate  branch/fork)
 <<BR>><b>Language:</b> C
-<<BR>><b>Suggested mentor:</b> Jan Holesovsky, who submitted proof-of-concept patch for lazy clone
+<<BR>><b>Suggested mentor:</b>
+* Jan Holesovsky, who submitted proof-of-concept patch for lazy clone
 
 == Partial (subtree) checkout, or its generalization: sparse checkout ==
 
@@ -63,7 +64,9 @@ The idea is to checkout for example only Documentation subdirectory, work on it,
 
 <<BR>><b>Goal:</b> A working partial checkout prototype implementation, with technical documentation.
 <<BR>><b>Language:</b> C
-<<BR>><b>Suggested mentors:</b> gitzilla (sent proposal), Nguyen Thai Ngoc Duy (pclouds), proposed to implements it
+<<BR>><b>Suggested mentors:</b>
+* gitzilla (sent proposal),
+* Nguyen Thai Ngoc Duy (pclouds), proposed to implements it
 
 == Gitweb caching ==
 
@@ -74,10 +77,10 @@ Perhaps becoming the gitweb maintainer could come of it, or at least the gitweb 
 <<BR>><b>Goal:</b> At minimum, port kernel.org's caching to mainline (git's) gitweb
 <<BR>><b>Language:</b> Perl, HTML, perhaps [[JavaScript]]
 <<BR>><b>Suggested mentors:</b>
-    John 'Warthog9' Hawley (wrote caching for kernel.org's gitweb)
-    Petr Baudis (repo.or.cz admin)
-    Lars Hjemli (cgit author, git web interface in C, with caching)
-    Jakub Narebski (gitweb contributor)
+* John 'Warthog9' Hawley (wrote caching for kernel.org's gitweb)
+* Petr Baudis (repo.or.cz admin)
+* Lars Hjemli (cgit author, git web interface in C, with caching)
+* Jakub Narebski (gitweb contributor)
 
 == Git / Subversion Interoperability ==
 
@@ -91,9 +94,10 @@ There are two potential approaches:
 <<BR>><b>Goal:</b> To be able to access git repository, at minimum read-only, from a Subversion client, at least svn CLI.
 <<BR>><b>Language:</b> Open for proposal.
 <<BR>><b>Suggested mentors:</b>
-    Eric Wong (git-svn author)
-    Matthias Urlichs (git-svnimport author)
-    Sam Vilain (wrote this proposal: http://utsl.gen.nz/git/git-svnserver.txt)
+* Eric Wong (git-svn author)
+* Matthias Urlichs (git-svnimport author)
+* Sam Vilain (wrote this proposal: http://utsl.gen.nz/git/git-svnserver.txt)
+* Julian Phillips (has a partial python implementation!)
 * Subversion project member t.b.c. as a co-mentor
 
 = Larger Projects =
