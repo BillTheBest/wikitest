@@ -50,6 +50,52 @@ Description copied from [[SoC2007Ideas]]: Make more parts of libgit.a reentrant 
 <<BR>><b>Goal:</b> In addition to the general goal of being able to link libgit.a into external programs that are not exclusively git utilities and have the git code be usable as a well-behaved library, one specific goal given on the [[Soc2007Ideas]] page was: Usable Perl binding that a future gitweb.cgi could take advantage of, rather than repeatedly forking Git processes. 
 <<BR>><b>See:</b> The existing work on [http://repo.or.cz/w/git/libgit-gsoc.git libgit-thin] may be relevant.
 
+== Lazy clone / remote alternates ==
+The idea here is to be able to remotely access objects from a network  based object server, as needed rather than having them all local.
+
+<<BR>><b>Goal:</b> A working lazy clone prototype implementation that could be considered for inclusion, in a nice series of commits (separate  branch/fork)
+<<BR>><b>Language:</b> C
+<<BR>><b>Suggested mentor:</b> Jan Holesovsky, who submitted proof-of-concept patch for lazy clone
+
+== Partial (subtree) checkout, or its generalization: sparse checkout ==
+
+The idea is to checkout for example only Documentation subdirectory, work on it, but commit full tree. Some workflows may be better suited to this type of usage than using submodules. Optionally should include partial clone (not needed objects not in repository).
+
+<<BR>><b>Goal:</b> A working partial checkout prototype implementation, with technical documentation.
+<<BR>><b>Language:</b> C
+<<BR>><b>Suggested mentors:</b> gitzilla (sent proposal), Nguyen Thai Ngoc Duy (pclouds), proposed to implements it
+
+== Gitweb caching ==
+
+Implementing very smart caching in gitweb, to avoid the thundering herd problem on kernel.org whenever a repository gets updated, or at least support for caching engines in the form of generating proper Last-Modified: and ETag: headers, and responding to If-Modified-Since: and If-None-Match: requests, cheaply. 
+
+Perhaps becoming the gitweb maintainer could come of it, or at least the gitweb admin for kernel.org (sorely needed).
+
+<<BR>><b>Goal:</b> At minimum, port kernel.org's caching to mainline (git's) gitweb
+<<BR>><b>Language:</b> Perl, HTML, perhaps [[JavaScript]]
+<<BR>><b>Suggested mentors:</b>
+    John 'Warthog9' Hawley (wrote caching for kernel.org's gitweb)
+    Petr Baudis (repo.or.cz admin)
+    Lars Hjemli (cgit author, git web interface in C, with caching)
+    Jakub Narebski (gitweb contributor)
+
+== Git / Subversion Interoperability ==
+
+The idea here is implement something in Git that speaks the Subversion protocol on the wire, but uses Git as the backend storage. (This would be like the existing git-cvsserver.)
+
+There are two potential approaches:
+
+# git-svnserver
+# write a backend for Subversion
+
+<<BR>><b>Goal:</b> To be able to access git repository, at minimum read-only, from a Subversion client, at least svn CLI.
+<<BR>><b>Language:</b> Open for proposal.
+<<BR>><b>Suggested mentors:</b>
+    Eric Wong (git-svn author)
+    Matthias Urlichs (git-svnimport author)
+    Sam Vilain (wrote this proposal: http://utsl.gen.nz/git/git-svnserver.txt)
+* Subversion project member t.b.c. as a co-mentor
+
 = Larger Projects =
 The following projects are probably more suited to the junio/senior/graduate students.  Pick one and really make it shine.
 
