@@ -97,7 +97,7 @@ There are two potential approaches:
 * Eric Wong (git-svn author)
 * Matthias Urlichs (git-svnimport author)
 * Sam Vilain (wrote this proposal: http://utsl.gen.nz/git/git-svnserver.txt)
-* Julian Phillips (has a partial python implementation!)
+* Julian Phillips (has a partial python implementation!  at http://git.q42.co.uk/w/git_svn_server.git)
 * Subversion project member t.b.c. as a co-mentor
 
 == [[GitTorrent]] ==
