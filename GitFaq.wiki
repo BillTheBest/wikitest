@@ -409,7 +409,7 @@ Use command "git show" with a colon:
 <pre><nowiki>
 git show <commit>:<file>
 </nowiki></pre>
-The <commit> can be commit id, branch name, tag, relative pointer like HEAD~2 and so on. If <file> is empty or if it's a directory, git will display files in that directory (or repository's root). For example:
+The <commit> can be commit id, branch name, tag, relative pointer like HEAD~2 etc. If <file> is a directory name, git will display the file listing of that directory. If you don't give any <file>, git will display the file listing of repository's root directory. Examples:
 
 <pre><nowiki>
 git show v1.4.3:git.c
