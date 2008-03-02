@@ -3,34 +3,34 @@ Java GIT/Eclipse GIT (by Shawn Pearce) is a Java GIT library and plugin for [htt
 Roadmap of features: [[EclipsePluginWishlist]]
 
 = News =
+Current revision is 0.3.1. A copy of the announcement can be found at http://marc.info/?l=git&m=120441907913477&w=2
+
 Some ways to keep informed about Egit development.
 
 * [http://repo.or.cz/w/egit.git?a=log Revision log]
 * [http://git.or.cz/gitwiki/GitCommunity Maling lists, IRC, newgroups (Same as Git)]
-
 = Links =
 * [http://repo.or.cz/w/egit.git gitweb] (clone)
 = Features =
 * Compare revisions
 * Quick diff
-* Branch and StGIT patch decoration
+* Branch, state and StGIT patch decoration
 * File Status decoration (aggregate status decoration at folder and project level)
 * Commit, including amending commits
-* Graphical history visualization with filtering on selected resources
+* Graphical history visualization with filtering on selected resources and search capability
 * Checkout and reset
+* Cross platform
 = Screenshots =
- See [[EclipsePluginScreenshots]].
-
+* See [[EclipsePluginScreenshots]].
 = FAQ =
 * Q: How do you tie the plugin to a project or create a project by cloning a repository?
-   A: Use Git (THE Git) to create or clone your repo. Select the project in the navigator and go to the context menu's Team item and below it you will find "Share Project". Select it and the rest is self explanatory.
+** A: Use Git (THE Git) to create or clone your repo. Select the project in the navigator and go to the context menu's Team item and below it you will find "Share Project". Select it and the rest is self explanatory.
 * Q: How do I install the plugin?
-   A: See the README and INSTALL documents in the egit repository.
+** A: See the README and INSTALL documents in the egit repository.
 * Q: Is there an update site?
-   A: Not at the moment. Code is included to build an update site, but it has some issues to solve.
+** A: Not at the moment. Code is included to build an update site, but it has some issues to solve.
 * Q: Is the project active?
-   A: Depends on what is meant by active. Admitted the progress is slow, mostly because there are very few people involved so far, but the project is certainly not dead (as of February 2008).
-
+** A: Depends on what is meant by active. Admitted the progress is slow, mostly because there are very few people involved so far, but the project is certainly not dead (as of February 2008).
 == Documentation ==
 === What doc. for starting help? ===
 * [http://www.eclipse.org/eclipse/platform-team/ Eclipse platform team]
@@ -38,6 +38,6 @@ Some ways to keep informed about Egit development.
 * [http://repo.or.cz/w/egit.git?a=blob_plain;f=SUBMITTING_PATCHES;hb=HEAD Submitting patches]
 * [http://repo.or.cz/w/egit.git?a=blob_plain;f=INSTALL;hb=HEAD Installing the plugin]
 ----
-[[CategoryTools]]
+ [[CategoryTools]]
 
 __NOTOC__
