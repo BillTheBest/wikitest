@@ -1,5 +1,7 @@
 We have not yet been accepted as GSoC project, but here go the ideas in case we are...
 
+<<<!-- ! TOC here -->(2)>>
+
 = General Requirements =
 All projects have the following basic requirements:
 
