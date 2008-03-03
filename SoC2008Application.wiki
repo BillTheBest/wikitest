@@ -73,7 +73,7 @@ Shawn O. Pearce (have Google Account)
 
 <b> What license does your project use? </b>
 
-GPL (GNU Public License)
+GNU GPL v2 (GNU General Public License)
 
 <b> What is the URL for your ideas page? </b>
 
