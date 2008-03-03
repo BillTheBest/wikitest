@@ -73,7 +73,7 @@ Shawn O. Pearce (have Google Account)
 
 <b> What license does your project use? </b>
 
-GNU GPL v2 (GNU General Public License)
+GPL (GNU Public License), version 2
 
 <b> What is the URL for your ideas page? </b>
 
@@ -200,6 +200,16 @@ of reasons.
 
 The interaction between community members has always been very
 friendly, and new people are have always been warmly welcomed;
-especi
+especially those with interesting new ideas and viewpoints.
+Jovial working friendships have been easily formed between the
+community members, and students will most certainly also be warmly
+welcomed into that environment.
+
+Hacking on Git is an excellent way to hone one's development skills,
+as the community is filled with a wide range of very experienced
+programmers who are ready and willing to help a contributor improve
+the quality of their work.  We hope that students will realize this
+unique opportunity during GSoC and continue staying active within
+the community even after GSoC '08 completes.
 
 __NOTOC__
