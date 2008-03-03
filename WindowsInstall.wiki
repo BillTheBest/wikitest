@@ -3,6 +3,9 @@ Currently GIT is fully-functional on Windows within a Cygwin environment. While 
 These efforts are:
 
 == MinGW port ==
+
+[http://code.google.com/p/msysgit/ MinGW port website]
+
 As it stands right now MinGW port is already very usable (even gitk works) but some functionality is still missing
 
 <b>Source code:</b> [http://repo.or.cz/w/git/mingw.git MinGW-based recompilation] (http://repo.or.cz/w/git/mingw.git) <<BR>>
