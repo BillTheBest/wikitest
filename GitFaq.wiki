@@ -404,18 +404,20 @@ git checkout -- <file>
 
 <<Anchor(view-old-rev)>>
 == How to view an old revision of a file or directory? ==
-Use command "git show" with a colon:
+Use command "git show" with a colon and filename:
 
 <pre><nowiki>
-git show <commit>:<file>
+git show <commit>:path/file
 </nowiki></pre>
-The <commit> can be commit id, branch name, tag, relative pointer like HEAD~2 etc. If <file> is a directory name, git will display the file listing of that directory. If you don't give any <file>, git will display the file listing of repository's root directory. Examples:
+The <commit> can be commit id, branch name, tag, relative pointer like HEAD~2 etc. If you don't give any path or file (i.e. just <commit>:), git will display the file listing of repository's root directory. Examples:
 
 <pre><nowiki>
 git show v1.4.3:git.c
 git show f5f75c652b9c2347522159a87297820103e593e4:git.c
 git show HEAD~2:git.c
 git show master~4:
+git show master~4:doc/
+git show master~4:doc/ChangeLog
 </nowiki></pre>
 
 == How do I make a diff between two arbitrary files in different revisions? ==
