@@ -16,45 +16,55 @@ Git Development Community
 
 <b> Describe your organization. </b>
 
-As Git approaches its second anniversary, it is now the revision
+As Git approaches its third anniversary, it is now the revision
 control system of choice for many of the largest and most successful
-open source projects, including the Linux kernel and at least five
-Google Summer of Code 2006 projects: One Laptop Per Child, Tangram,
-The Wine Project, XMMS2, and X.org.  Many more are considering
-Git adoption.
+open source projects, including the Linux kernel and at least eight
+Google Summer of Code 2007 projects: ikiwiki, One Laptop Per Child,
+Samba, Thousand Parsec, The Wine Project, VideoLAN, XMMS2, and X.org.
 
 This achievement is the product of the Git development community,
 a loose-knit team of developers, technical writers, and end users
 with a passion for high quality open-source development.
 
+<i>sp></i> Is this really a good description of us?
+
 ''' Why is your organization applying to participate in GSoC 2008? What
 do you hope to gain by participating? '''
 
-Prior Google Summer of Code projects have asked for several new
-features in Git, including submodule support (needed by Gentoo) and
-a native Windows port (needed by KDE and The Mozilla Foundation).
-The future development and maintenance of these and other features
-depends on the community's continued ability to attract new
-developers.
+During GSoC 2007 Git had two successful student projects.  Although
+both students contributed useful code to the community, the biggest
+benefit we received was the increased visibility and the addition of
+new long-term contributors.
 
-The Git community has a proven track record of attracting, mentoring
-and retaining new contributors, thanks to a welcoming community,
-active IRC and mailing list, and developers and leadership with
-excellent communication skills and a dedication to explaining
-architecture and providing feedback on contributions.  We are
-therefore optimistic about our ability to take advantage of GSoC
-2007 to attract more long-term contributors.
+By participating in GSoC 2008 the Git community hopes to attract
+more new talent to our community, and convert that talent into
+long-term contributors.
 
 ''' Did your organization participate in past GSoCs? If so, please
 summarize your involvement and the successes and challenges of your
 participation. '''
 
-FIXME
+During GSoC 2007 we had two student projects ("GIT library project",
+"Replace most core scripts with C versions") mentored by two of our
+active developers.
+
+The first project produced a Python binding to the internal Git
+APIs, showing it is possible to embed our private library in a
+developer friendly interface.  This work has not yet been merged
+into a release tree as it still requires additional effort to
+resolve memory management issues in the underlying private library.
+
+The second project ported two core Git functions from Bourne shell
+to C, as well as cleaned up the implementation to follow our current
+best practices.  The student involved with this project is still
+an active contributor almost one year later.
+
+<i>sp></i> Talk about our challenges.
 
 ''' If your organization has not previously participated in GSoC,
 have you applied in the past? If so, for what year(s)? '''
 
-No; this is our first application.
+Yes, 2007 (applied and accepted).
 
 ''' Who will your organization administrator be? Please include Google
 Account information. '''
@@ -103,7 +113,7 @@ the Git development community.
 
 Active contributers are defined to be those who have submitted and
 have had accepted into a shipped release a substantial amount of
-new code or fixes within the last 4 months (Nov 2006 - Mar 2007).
+new code or fixes within the last 4 months (Nov 2007 - Mar 2008).
 Substantial amount of code is defined to be equal in size (or
 larger) to what might be reasonably expected of a student working
 on a Google Summer of Code project.
@@ -134,7 +144,7 @@ Most of our suggested projects have more than one mentor available.
 As a community we plan on making sure all of the active projects have
 at least two mentors willing and available to work with the student,
 reducing the likelihood that the project becomes mentor-less during
-GSoC '07.
+GSoC '08.
 
 In the unlikely event that a mentor disappears during the summer
 another mentor will be arranged to step in.  The Git community
@@ -178,7 +188,7 @@ Frequent email and IRC interaction with mentors and other developers
 will be strongly encouraged by suggesting students post their
 questions and ideas to the mailing list, and to discuss them on #git.
 Most developers either already hold "office-hours" on IRC, or have
-agreed to do so during GSoC '07.
+agreed to do so during GSoC '08.
 
 ''' What will you do to ensure that your accepted students stick with
 the project after GSoC concludes? '''
@@ -190,16 +200,6 @@ of reasons.
 
 The interaction between community members has always been very
 friendly, and new people are have always been warmly welcomed;
-especially those with interesting new ideas and viewpoints.
-Jovial working friendships have been easily formed between the
-community members, and students will most certainly also be warmly
-welcomed into that environment.
-
-Hacking on Git is an excellent way to hone one's development skills,
-as the community is filled with a wide range of very experienced
-programmers who are ready and willing to help a contributor improve
-the quality of their work.  We hope that students will realize this
-unique opportunity during GSoC and continue staying active within
-the community even after GSoC '07 completes.
+especi
 
 __NOTOC__
