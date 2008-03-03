@@ -17,7 +17,7 @@ If your proposal is accepted by the Git Development Community you will be expect
 
 If your original proposal doesn't pan out or becomes too much of a challenge, you should work with your mentor to help redefine it.  We really want to see every project succeed this summer, as there is a great deal of interest in these projects from within the user community.
 
-Students can apply for the program at the [http://code.google.com/soc/ Google Summer of Code website].  [Maybe we need something like the SoC2007Template again?]
+Students can apply for the program at the [http://code.google.com/soc/ Google Summer of Code website].  Please consider reviewing our [[SoC2008Template]] and answering its questions as part of your application.
 
 = New To Git? New To Open Source Development? =
 
