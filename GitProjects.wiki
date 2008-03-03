@@ -360,7 +360,7 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * http://www.vim.org/scripts/script.php?script_id=2030 (vim scripts page)
 * http://blog.tquadrado.com/?page_id=146 (homepage)
 * http://www.dmo.ca/git/vimblog.git (repository)
-* VLC (mirror of svn tree)
+* VLC
 * http://wiki.videolan.org/Git (development)
 * http://git.videolan.org/cgi-bin/gitweb.cgi?p=vlc.git (gitweb)
 * VLE - Virtual Laboratory Environment: a scientific project on multimodeling and simulation based on the DEVS (discrete event system specification) paradigm.
