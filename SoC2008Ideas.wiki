@@ -202,6 +202,6 @@ the same extension to Dolphin, konqueror, Finder, etc
 
 = Other Resources =
 
-[[SoC2008Application]
+[[SoC2008Application]]
 
 __NOTOC__
