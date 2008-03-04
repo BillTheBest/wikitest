@@ -49,7 +49,7 @@ and easier to maintain across systems, not to mention faster.
 A lot of scripts have been converted already, but "merge" is the
 big remaining chunk.
 
-<<BR>><b>Goal:</b> Replace git-merge and its helpers with C versions.
+<b>Goal:</b> Replace git-merge and its helpers with C versions.
 <<BR>><b>Language:</b> C
 <<BR>><b>Mentor:</b> Johannes Schindelin (johannes.schindelin@gmx.de)
 <<BR>><b>Suggested by:</b> Johannes Schindelin [http://article.gmane.org/gmane.comp.version-control.git/40801 on gmane]
@@ -68,7 +68,7 @@ main reason scripts are slow (e.g. git-svn).
 NOTE: A good knowledge of Windows performance tuning, and probably
 of the Windows API in general, is required.
 
-<<BR>><b>Goal:</b> Make Git on Windows perform faster.
+<b>Goal:</b> Make Git on Windows perform faster.
 <<BR>><b>Language:</b> C
 <<BR>><b>Mentor:</b>  Johannes Schindelin (johannes.schindelin@gmx.de)
 <<BR>><b>Suggested by:</b> Johannes on this Wiki page
@@ -81,7 +81,7 @@ Perhaps more of a sparse project than a Git project.  The community
 just wants to see Git improved, if sparse is improved at the same
 time, double bonus points!  :-)
 
-<<BR>><b>Goal:</b> Fix existing errors in Git.
+<b>Goal:</b> Fix existing errors in Git.
 <<BR>><b>Language:</b> C
 <<BR>><b>Mentor:</b>  Johannes Schindelin (johannes.schindelin@gmx.de)
 <<BR>><b>Suggested by:</b> Johannes Schindelin [http://article.gmane.org/gmane.comp.version-control.git/40801 on gmane]
@@ -93,7 +93,7 @@ based object server as needed, rather than having them all local.
 This would make Git more approachable for very large projects,
 especially in a more corporate LAN-user setting.
 
-<<BR>><b>Goal:</b> A working lazy clone prototype implementation that could be considered for inclusion, in a nice series of commits (separate  branch/fork)
+<b>Goal:</b> A working lazy clone prototype implementation that could be considered for inclusion, in a nice series of commits (separate  branch/fork)
 <<BR>><b>Language:</b> C
 <<BR>><b>Suggested mentor:</b> Jan Holesovsky, who submitted proof-of-concept patch for lazy clone
 
@@ -105,7 +105,7 @@ workflows may be better suited to this type of usage than using
 submodules. Optionally should include partial clone (not needed
 objects not in repository).
 
-<<BR>><b>Goal:</b> A working partial checkout prototype implementation, with technical documentation.
+<b>Goal:</b> A working partial checkout prototype implementation, with technical documentation.
 <<BR>><b>Language:</b> C
 <<BR>><b>Suggested mentors:</b>
 * gitzilla (sent proposal),
@@ -122,7 +122,7 @@ If-Modified-Since: and If-None-Match: requests, cheaply.
 Perhaps becoming the gitweb maintainer could come of it, or at
 least the gitweb admin for kernel.org (sorely needed).
 
-<<BR>><b>Goal:</b> At minimum, port kernel.org's caching to mainline (git's) gitweb
+<b>Goal:</b> At minimum, port kernel.org's caching to mainline (git's) gitweb
 <<BR>><b>Language:</b> Perl, HTML, perhaps [[JavaScript]]
 <<BR>><b>Suggested mentors:</b>
 * John 'Warthog9' Hawley (wrote caching for kernel.org's gitweb)
@@ -141,7 +141,7 @@ There are two potential approaches:
 # git-svnserver
 # write a backend for Subversion
 
-<<BR>><b>Goal:</b> To be able to access git repository, at minimum read-only, from a Subversion client, at least svn CLI.
+<b>Goal:</b> To be able to access git repository, at minimum read-only, from a Subversion client, at least svn CLI.
 <<BR>><b>Language:</b> Open for proposal.
 <<BR>><b>Suggested mentors:</b>
 * Eric Wong (git-svn author)
@@ -161,7 +161,7 @@ This is a P2P method for distributing git repositories, which
 will allow for faster downloads, lower startup overheads, etc.
 For use for sites such as git.kernel.org, repo.or.cz, etc.
 
-<<BR>><b>Goal:</b> to implement the GTP/0.1 standard
+<b>Goal:</b> to implement the GTP/0.1 standard
 <<BR>><b>Language:</b> Open for proposal.
 <<BR>><b>Suggested mentors:</b>
 * Jonas Fonseca (designed the original protocol)
@@ -182,12 +182,12 @@ Frontends like git-am, git-rebase, etc. can then setup the "todo"
 script and pass it to git-sequencer, which does the actual patch
 application, editing, etc.
 
-<<BR>><b>Goal:</b> implement a common rebase/am backend.
+<b>Goal:</b> implement a common rebase/am backend.
 <<BR>><b>Language:</b> C
 <<BR>><b>Suggested menors:</b>
 * Shawn Pearce (gsoc@spearce.org)
 * Johannes Schindelin (johannes.schindelin@gmx.de)
-<<BR>><b>Suggested by:</b> Junio C Hamano [http://kerneltrap.org/mailarchive/git/2008/2/17/886714 on kerneltrap]
+<b>Suggested by:</b> Junio C Hamano [http://kerneltrap.org/mailarchive/git/2008/2/17/886714 on kerneltrap]
 
 == Git Eclipse Plugin ==
 
@@ -206,7 +206,7 @@ This was also one of
 [http://wiki.eclipse.org/index.php/Google_Summer_of_Code_2007_Ideas Eclipse SoC2007 Ideas]
 (<i>More work on git support</i>).
 
-<<BR>><b>Language:</b> Java (Eclipse API, SWT API)
+<b>Language:</b> Java (Eclipse API, SWT API)
 <<BR>><b>Goal:</b> Push changes over native Git protocol, or merge changes locally, or both!.
 <<BR>><b>Mentor:</b>  Shawn O. Pearce (gsoc@spearce.org)
 <<BR>><b>Suggested by:</b> Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031 on gmane]
@@ -225,9 +225,29 @@ longer-running server such as an Apache module. Existing code must
 be modified to return errors rather than terminating the process,
 and memory leaks need to be plugged.
 
-<<BR>><b>Goal:</b> In addition to the general goal of being able to link libgit.a into external programs that are not exclusively git utilities and have the git code be usable as a well-behaved library, one specific goal given on the [[Soc2007Ideas]] page was: Usable Perl binding that a future gitweb.cgi could take advantage of, rather than repeatedly forking Git processes.
+<b>Goal:</b> In addition to the general goal of being able to link libgit.a into external programs that are not exclusively git utilities and have the git code be usable as a well-behaved library, one specific goal given on the [[Soc2007Ideas]] page was: Usable Perl binding that a future gitweb.cgi could take advantage of, rather than repeatedly forking Git processes.
 <<BR>><b>Language:</b> C
 <<BR>><b>See:</b> The existing work on [http://repo.or.cz/w/git/libgit-gsoc.git libgit-thin] may be relevant.
+<<BR>><b>Suggested mentors:</b>
+* Shawn Pearce (gsoc@spearce.org)
+
+== Implement pack v4/v5 for higher compression ==
+
+Although Git's packfile format offers incredible disk space savings
+over other VCS systems, we already know we can still do better.
+A prototype design dubbed 'packv4' has been floating around the
+Git world for almost two years, but has not been fully implemented
+for inclusion in a shipping release.
+
+At this point the implementation for 'packv4' would need to be
+rewritten from scratch, as much of the affected parts of the core Git
+code have been modified to support other enhancements.  A student
+with a strong interest in data compression could really get into
+this project and take it to places we have never thought possible.
+
+<b>Goal:</b> Save at least 10% on current packv2 for benchmark
+repositories (linux-2.6, git, mozilla, gcc) and boost runtime ~10%.
+<<BR>><b>Language:</b> C
 <<BR>><b>Suggested mentors:</b>
 * Shawn Pearce (gsoc@spearce.org)
 
@@ -240,7 +260,7 @@ needs a lot of work, to be as helpful as TortoiseCVS.
 And when this work is done, let's enhance the code base to provide
 the same extension to Dolphin, konqueror, Finder, etc
 
-<<BR>><b>Language:</b> C/COM.
+<b>Language:</b> C/COM.
 <<BR>><b>Goal:</b> Have a fully functional TortoiseCVS lookalike for Git.
 <<BR>><b>Mentor:</b> Johannes Schindelin (johannes.schindelin@gmx.de).
 <<BR>><b>Suggested by:</b> Johannes Schindelin
