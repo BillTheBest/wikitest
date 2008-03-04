@@ -96,6 +96,9 @@ There are two potential approaches:
 * Julian Phillips (has a partial python implementation!  at http://git.q42.co.uk/w/git_svn_server.git)
 * Subversion project member t.b.c. as a co-mentor
 
+= Larger Projects =
+The following projects are probably more suited to the junio/senior/graduate students.  Pick one and really make it shine.
+
 == [[GitTorrent]] ==
 
 This is a P2P method for distributing git repositories, which will allow for faster downloads, lower startup overheads, etc.  For use for sites such as git.kernel.org, repo.or.cz, etc.
@@ -105,9 +108,6 @@ This is a P2P method for distributing git repositories, which will allow for fas
 <<BR>><b>Suggested mentors:</b>
 * Jonas Fonseca (designed the original protocol)
 * Sam Vilain (designed the <i>commit reel</i> concept and has many parts prototyped in Perl at http://utsl.gen.nz/gitweb/?p=VCS-Git-Torrent)
-
-= Larger Projects =
-The following projects are probably more suited to the junio/senior/graduate students.  Pick one and really make it shine.
 
 == Continue "libification" work ==
 Description copied from [[SoC2007Ideas]]: Make more parts of libgit.a reentrant by removing static variables, avoid dying e.g. when malloc() fails, etc. Most of Git was written with the run-once-and-exit design pattern. This makes it difficult/impossible to embed core Git data access routines within a scripting language such as Perl or Python, or to embed it in a longer-running server such as an Apache module. Existing code must be modified to return errors rather than terminating the process, and memory leaks need to be plugged.
