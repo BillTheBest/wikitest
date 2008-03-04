@@ -38,7 +38,7 @@ new long-term contributors.
 
 By participating in GSoC 2008 the Git community hopes to attract
 more new talent to our community, and convert that talent into
-long-term contributors.
+long-term contributors and high-quality enhancements to Git.
 
 ''' Did your organization participate in past GSoCs? If so, please
 summarize your involvement and the successes and challenges of your
@@ -59,7 +59,11 @@ to C, as well as cleaned up the implementation to follow our current
 best practices.  The student involved with this project is still
 an active contributor almost one year later.
 
-<i>sp></i> Talk about our challenges.
+One challenge that we faced was a third student project was granted
+by Google but had to be forfeited due to political reasons out of
+our control.  The student was unable to file the proper paperwork and
+the project had to be stopped.  As a community we realized the issue
+too late and did not ask Google to replace the student with another.
 
 ''' If your organization has not previously participated in GSoC,
 have you applied in the past? If so, for what year(s)? '''
@@ -199,17 +203,18 @@ we are confident they won't easily leave the arena, for a number
 of reasons.
 
 The interaction between community members has always been very
-friendly, and new people are have always been warmly welcomed;
-especially those with interesting new ideas and viewpoints.
-Jovial working friendships have been easily formed between the
-community members, and students will most certainly also be warmly
-welcomed into that environment.
+friendly, and new people are always warmly welcomed; especially
+those with interesting new ideas and viewpoints.  Jovial working
+friendships have been easily formed between the community members,
+and students will most certainly also be warmly welcomed into
+that environment.
 
 Hacking on Git is an excellent way to hone one's development skills,
 as the community is filled with a wide range of very experienced
 programmers who are ready and willing to help a contributor improve
 the quality of their work.  We hope that students will realize this
 unique opportunity during GSoC and continue staying active within
-the community even after GSoC '08 completes.
+the community even after GSoC '08 completes, just like our GSoC
+'07 students did.
 
 __NOTOC__
