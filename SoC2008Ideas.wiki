@@ -1,4 +1,5 @@
-We have not yet been accepted as GSoC project, but here go the ideas in case we are...
+We have not yet been accepted as GSoC project, but here go the
+ideas in case we are...
 
 <<<!-- ! TOC here -->(2)>>
 
@@ -11,54 +12,98 @@ All projects have the following basic requirements:
 * Projects must be tracked and managed in Git, and published on [http://repo.or.cz].
 * Weekly project status reports should be sent to the project's mentors.  Each status report should outline what was accomplished that week, any issues that prevented that week's goals from being completed, and your goals for the next week.  This will help you to break your project down into manageable chunks, and will also help the project's mentors to better support your efforts.
 
-Interested students are encouraged to read the [http://code.google.com/p/google-summer-of-code/wiki/AdviceforStudents Advice for GSoC Students Page], as it has excellent suggestions that might help you to pick a project and shape your proposal.
+Interested students are encouraged to read the
+[http://code.google.com/p/google-summer-of-code/wiki/[[AdviceforStudents]]
+Advice for GSoC Students Page], as it has excellent suggestions
+that might help you to pick a project and shape your proposal.
 
-If your proposal is accepted by the Git Development Community you will be expected to work on it full time during the summer.  Its cool if you want to take a week off for vacation, but remember that Google is hiring you for the summer to help us improve Git.  That should be your focus.  Don't expect that you will be able to work on your project for just 10 hours a week and then collect at the end.
+If your proposal is accepted by the Git Development Community
+you will be expected to work on it full time during the summer.
+Its cool if you want to take a week off for vacation, but remember
+that Google is hiring you for the summer to help us improve Git.
+That should be your focus.  Don't expect that you will be able to
+work on your project for just 10 hours a week and then collect at
+the end.
 
-If your original proposal doesn't pan out or becomes too much of a challenge, you should work with your mentor to help redefine it.  We really want to see every project succeed this summer, as there is a great deal of interest in these projects from within the user community.
+If your original proposal doesn't pan out or becomes too much of
+a challenge, you should work with your mentor to help redefine it.
+We really want to see every project succeed this summer, as there
+is a great deal of interest in these projects from within the
+user community.
 
-Students can apply for the program at the [http://code.google.com/soc/ Google Summer of Code website].  Please consider reviewing our [[SoC2008Template]] and answering its questions as part of your application.
+Students can apply for the program at the
+[http://code.google.com/soc/ Google Summer of Code website].
+Please consider reviewing our [[SoC2008Template]] and answering
+its questions as part of your application.
 
 = New To Git? New To Open Source Development? =
 
-A collection of smaller projects.  Pick one or two and get introduced to the open source community!
+A collection of smaller projects.  Pick one or two and get introduced
+to the open source community!
 
 == Make git-merge and helpers Builtins ==
-We have generally found that the C version of a tool is more portable and easier to maintain across systems, not to mention faster.
 
-A lot of scripts have been converted already, but "merge" is the big remaining chunk.
+We have generally found that the C version of a tool is more portable
+and easier to maintain across systems, not to mention faster.
+
+A lot of scripts have been converted already, but "merge" is the
+big remaining chunk.
+
 <<BR>><b>Goal:</b> Replace git-merge and its helpers with C versions.
+<<BR>><b>Language:</b> C
 <<BR>><b>Mentor:</b> Johannes Schindelin (johannes.schindelin@gmx.de)
 <<BR>><b>Suggested by:</b> Johannes Schindelin [http://article.gmane.org/gmane.comp.version-control.git/40801 on gmane]
 
 == Better Windows support ==
-We have a pretty good Windows support through msysGit, although it has not been merged with "official" Git yet.  However, comparing between the Windows and the Linux version on the same machine, Windows' Git is still slower (even if it is way faster than, say, Subversion).
 
-There must be ways to avoid creating many processes, which is the main reason scripts are slow (e.g. git-svn).
+We have a pretty good Windows support through msysGit, although it
+has not been merged with "official" Git yet.  However, comparing
+between the Windows and the Linux version on the same machine,
+Windows' Git is still slower (even if it is way faster than, say,
+Subversion).
 
-NOTE: A good knowledge of Windows performance tuning, and probably of the Windows API in general, is required.
+There must be ways to avoid creating many processes, which is the
+main reason scripts are slow (e.g. git-svn).
+
+NOTE: A good knowledge of Windows performance tuning, and probably
+of the Windows API in general, is required.
+
 <<BR>><b>Goal:</b> Make Git on Windows perform faster.
+<<BR>><b>Language:</b> C
 <<BR>><b>Mentor:</b>  Johannes Schindelin (johannes.schindelin@gmx.de)
 <<BR>><b>Suggested by:</b> Johannes on this Wiki page
 
 == Apply sparse To Fix Errors ==
-Teach [http://kernel.org/pub/linux/kernel/people/josh/sparse/ sparse] how to fix common errors, and then use sparse to actually fix them.  Perhaps more of a sparse project than a Git project.  The community just wants to see Git improved, if sparse is improved at the same time, double bonus points!  :-)
+
+Teach [http://kernel.org/pub/linux/kernel/people/josh/sparse/ sparse]
+how to fix common errors, and then use sparse to actually fix them.
+Perhaps more of a sparse project than a Git project.  The community
+just wants to see Git improved, if sparse is improved at the same
+time, double bonus points!  :-)
+
 <<BR>><b>Goal:</b> Fix existing errors in Git.
+<<BR>><b>Language:</b> C
 <<BR>><b>Mentor:</b>  Johannes Schindelin (johannes.schindelin@gmx.de)
 <<BR>><b>Suggested by:</b> Johannes Schindelin [http://article.gmane.org/gmane.comp.version-control.git/40801 on gmane]
 
 == Lazy clone / remote alternates ==
 
-The idea here is to be able to remotely access objects from a network  based object server, as needed rather than having them all local.
+The idea here is to be able to remotely access objects from a network
+based object server as needed, rather than having them all local.
+This would make Git more approachable for very large projects,
+especially in a more corporate LAN-user setting.
 
 <<BR>><b>Goal:</b> A working lazy clone prototype implementation that could be considered for inclusion, in a nice series of commits (separate  branch/fork)
 <<BR>><b>Language:</b> C
-<<BR>><b>Suggested mentor:</b>
-* Jan Holesovsky, who submitted proof-of-concept patch for lazy clone
+<<BR>><b>Suggested mentor:</b> Jan Holesovsky, who submitted proof-of-concept patch for lazy clone
 
 == Partial (subtree) checkout, or its generalization: sparse checkout ==
 
-The idea is to checkout for example only Documentation subdirectory, work on it, but commit full tree. Some workflows may be better suited to this type of usage than using submodules. Optionally should include partial clone (not needed objects not in repository).
+The idea is to checkout for example only the Documentation
+subdirectory, work on it, but still commit the full tree. Some
+workflows may be better suited to this type of usage than using
+submodules. Optionally should include partial clone (not needed
+objects not in repository).
 
 <<BR>><b>Goal:</b> A working partial checkout prototype implementation, with technical documentation.
 <<BR>><b>Language:</b> C
@@ -68,9 +113,14 @@ The idea is to checkout for example only Documentation subdirectory, work on it,
 
 == Gitweb caching ==
 
-Implementing very smart caching in gitweb, to avoid the thundering herd problem on kernel.org whenever a repository gets updated, or at least support for caching engines in the form of generating proper Last-Modified: and ETag: headers, and responding to If-Modified-Since: and If-None-Match: requests, cheaply. 
+Implementing very smart caching in gitweb, to avoid the thundering
+herd problem on kernel.org whenever a repository gets updated, or
+at least support for caching engines in the form of generating
+proper Last-Modified: and ETag: headers, and responding to
+If-Modified-Since: and If-None-Match: requests, cheaply.
 
-Perhaps becoming the gitweb maintainer could come of it, or at least the gitweb admin for kernel.org (sorely needed).
+Perhaps becoming the gitweb maintainer could come of it, or at
+least the gitweb admin for kernel.org (sorely needed).
 
 <<BR>><b>Goal:</b> At minimum, port kernel.org's caching to mainline (git's) gitweb
 <<BR>><b>Language:</b> Perl, HTML, perhaps [[JavaScript]]
@@ -82,7 +132,9 @@ Perhaps becoming the gitweb maintainer could come of it, or at least the gitweb 
 
 == Git / Subversion Interoperability ==
 
-The idea here is implement something in Git that speaks the Subversion protocol on the wire, but uses Git as the backend storage. (This would be like the existing git-cvsserver.)
+The idea here is implement something in Git that speaks the
+Subversion protocol on the wire, but uses Git as the backend
+storage. (This would be like the existing git-cvsserver.)
 
 There are two potential approaches:
 
@@ -99,11 +151,15 @@ There are two potential approaches:
 * Subversion project member t.b.c. as a co-mentor
 
 = Larger Projects =
-The following projects are probably more suited to the junio/senior/graduate students.  Pick one and really make it shine.
+
+The following projects are probably more suited to the
+junio/senior/graduate students.  Pick one and really make it shine.
 
 == [[GitTorrent]] ==
 
-This is a P2P method for distributing git repositories, which will allow for faster downloads, lower startup overheads, etc.  For use for sites such as git.kernel.org, repo.or.cz, etc.
+This is a P2P method for distributing git repositories, which
+will allow for faster downloads, lower startup overheads, etc.
+For use for sites such as git.kernel.org, repo.or.cz, etc.
 
 <<BR>><b>Goal:</b> to implement the GTP/0.1 standard
 <<BR>><b>Language:</b> Open for proposal.
@@ -112,7 +168,18 @@ This is a P2P method for distributing git repositories, which will allow for fas
 * Sam Vilain (designed the <i>commit reel</i> concept and has many parts prototyped in Perl at http://utsl.gen.nz/gitweb/?p=VCS-Git-Torrent)
 
 == Continue "libification" work ==
-Description copied from [[SoC2007Ideas]]: Make more parts of libgit.a reentrant by removing static variables, avoid dying e.g. when malloc() fails, etc. Most of Git was written with the run-once-and-exit design pattern. This makes it difficult/impossible to embed core Git data access routines within a scripting language such as Perl or Python, or to embed it in a longer-running server such as an Apache module. Existing code must be modified to return errors rather than terminating the process, and memory leaks need to be plugged.
+
+<i>Description copied from [[SoC2007Ideas]]:</i>
+
+Make more parts of libgit.a reentrant by removing static variables,
+avoid dying e.g. when malloc() fails, etc. Most of Git was
+written with the run-once-and-exit design pattern. This makes it
+difficult/impossible to embed core Git data access routines within
+a scripting language such as Perl or Python, or to embed it in a
+longer-running server such as an Apache module. Existing code must
+be modified to return errors rather than terminating the process,
+and memory leaks need to be plugged.
+
 <<BR>><b>Goal:</b> In addition to the general goal of being able to link libgit.a into external programs that are not exclusively git utilities and have the git code be usable as a well-behaved library, one specific goal given on the [[Soc2007Ideas]] page was: Usable Perl binding that a future gitweb.cgi could take advantage of, rather than repeatedly forking Git processes.
 <<BR>><b>Language:</b> C
 <<BR>><b>See:</b> The existing work on [http://repo.or.cz/w/git/libgit-gsoc.git libgit-thin] may be relevant.
@@ -120,11 +187,14 @@ Description copied from [[SoC2007Ideas]]: Make more parts of libgit.a reentrant 
 * Shawn Pearce (gsoc@spearce.org)
 
 == git-cheetah, a TortoiseCVS Lookalike ==
-There is already a basic "shell extension" providing "Git Bash Here" and "Git Gui Here" functions in the context menu.
 
-But it still needs a lot of work, to be as helpful as TortoiseCVS.
+There is already a basic "shell extension" providing "Git Bash Here"
+and "Git Gui Here" functions in the context menu.  But it still
+needs a lot of work, to be as helpful as TortoiseCVS.
 
-And when this work is done, let's enhance the code base to provide the same extension to Dolphin, konqueror, Finder, etc
+And when this work is done, let's enhance the code base to provide
+the same extension to Dolphin, konqueror, Finder, etc
+
 <<BR>><b>Language:</b> C/COM.
 <<BR>><b>Goal:</b> Have a fully functional TortoiseCVS lookalike for Git.
 <<BR>><b>Mentor:</b> Johannes Schindelin (johannes.schindelin@gmx.de).
@@ -132,6 +202,6 @@ And when this work is done, let's enhance the code base to provide the same exte
 
 = Other Resources =
 
-[[SoC2008Application]]
+[[SoC2008Application]
 
 __NOTOC__
