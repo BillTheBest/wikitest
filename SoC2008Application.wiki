@@ -1,7 +1,7 @@
 Git's application to Google's Summer of Code 2008.
 
 The application questions can be found on
-[http://code.google.com/soc/2008/faqs.html#0.1_org_app code.google.com].
+[http://code.google.com/soc/2008/faqs.html#0.1_org_app code.google.com].  Also the published [http://groups.google.com/group/google-summer-of-code-announce/web/notes-on-organization-selection-criteria notes on organization selection] may be of interest.
 
 Shawn Pearce has volunteered to submit the application and serve
 as our group's primary contact.
