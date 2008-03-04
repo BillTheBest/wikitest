@@ -189,6 +189,26 @@ application, editing, etc.
 * Johannes Schindelin (johannes.schindelin@gmx.de)
 <<BR>><b>Suggested by:</b> Junio C Hamano [http://kerneltrap.org/mailarchive/git/2008/2/17/886714 on kerneltrap]
 
+== Git Eclipse Plugin ==
+
+Extend the currently-under-development [http://repo.or.cz/w/egit.git/
+Eclipse plugin] so that it is actually useful for daily
+development work.  The plugin can currently read a Git
+repository (but not quite fast enough) and can write new
+history to the repository, but a lot of Eclipse user interfaces
+still need to be built to allow an end-user to actually interact
+with peers on a project.
+
+This was also one of
+[http://wiki.eclipse.org/index.php/Google_Summer_of_Code_2007_Ideas
+Eclipse SoC2007 Ideas] (<i>More work on git support</i>).
+
+<<BR>><b>Language:</b> Java (Eclipse API, SWT API)
+<<BR>><b>Goal:</b> Push changes over native Git protocol, or merge changes locally, or both!.
+<<BR>><b>Mentor:</b>  Shawn O. Pearce (gsoc@spearce.org)
+<<BR>><b>Suggested by:</b> Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031 on gmane]
+<<BR>><b>See:</b> [[EclipsePluginWishlist]]
+
 == Continue "libification" work ==
 
 <i>Description copied from [[SoC2007Ideas]]:</i>
