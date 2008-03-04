@@ -167,6 +167,28 @@ For use for sites such as git.kernel.org, repo.or.cz, etc.
 * Jonas Fonseca (designed the original protocol)
 * Sam Vilain (designed the <i>commit reel</i> concept and has many parts prototyped in Perl at http://utsl.gen.nz/gitweb/?p=VCS-Git-Torrent)
 
+== Implement git-sequencer ==
+
+git-am, git-rebase, git-rebase -m, and git-rebase -i are all roughly
+performing the same task, yet do it through almost four different
+code paths.  They are also all written in Bourne shell script,
+which limits their performance and portability, especially to
+non-POSIX systems (such as Windows).
+
+The idea of git-sequencer is to take the "todo" file format used
+by git-rebase -i and extend it to also support applying patches
+split out of mbox files, and implement the "todo" processor in C.
+Frontends like git-am, git-rebase, etc. can then setup the "todo"
+script and pass it to git-sequencer, which does the actual patch
+application, editing, etc.
+
+<<BR>><b>Goal:</b> implement a common rebase/am backend.
+<<BR>><b>Language:</b> C
+<<BR>><b>Suggested menors:</b>
+* Shawn Pearce (gsoc@spearce.org)
+* Johannes Schindelin (johannes.schindelin@gmx.de)
+<<BR>><b>Suggested by:</b> Junio C Hamano [http://kerneltrap.org/mailarchive/git/2008/2/17/886714 on kerneltrap]
+
 == Continue "libification" work ==
 
 <i>Description copied from [[SoC2007Ideas]]:</i>
