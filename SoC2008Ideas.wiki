@@ -47,6 +47,8 @@ Teach [http://kernel.org/pub/linux/kernel/people/josh/sparse/ sparse] how to fix
 <<BR>><b>Mentor:</b>  Johannes Schindelin (johannes.schindelin@gmx.de)
 <<BR>><b>Suggested by:</b> Johannes Schindelin [http://article.gmane.org/gmane.comp.version-control.git/40801 on gmane]
 
+== Lazy clone / remote alternates ==
+
 The idea here is to be able to remotely access objects from a network  based object server, as needed rather than having them all local.
 
 <<BR>><b>Goal:</b> A working lazy clone prototype implementation that could be considered for inclusion, in a nice series of commits (separate  branch/fork)
@@ -116,8 +118,6 @@ Description copied from [[SoC2007Ideas]]: Make more parts of libgit.a reentrant 
 <<BR>><b>See:</b> The existing work on [http://repo.or.cz/w/git/libgit-gsoc.git libgit-thin] may be relevant.
 <<BR>><b>Suggested mentors:</b>
 * Shawn Pearce (gsoc@spearce.org)
-
-== Lazy clone / remote alternates ==
 
 == git-cheetah, a TortoiseCVS Lookalike ==
 There is already a basic "shell extension" providing "Git Bash Here" and "Git Gui Here" functions in the context menu.
