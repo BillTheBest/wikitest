@@ -13,9 +13,9 @@ All projects have the following basic requirements:
 * Weekly project status reports should be sent to the project's mentors.  Each status report should outline what was accomplished that week, any issues that prevented that week's goals from being completed, and your goals for the next week.  This will help you to break your project down into manageable chunks, and will also help the project's mentors to better support your efforts.
 
 Interested students are encouraged to read the
-[http://code.google.com/p/google-summer-of-code/wiki/[[AdviceforStudents]]
-Advice for GSoC Students Page], as it has excellent suggestions
-that might help you to pick a project and shape your proposal.
+[http://code.google.com/p/google-summer-of-code/wiki/AdviceforStudents Advice for GSoC Students Page],
+as it has excellent suggestions that might help you to pick a
+project and shape your proposal.
 
 If your proposal is accepted by the Git Development Community
 you will be expected to work on it full time during the summer.
@@ -191,17 +191,20 @@ application, editing, etc.
 
 == Git Eclipse Plugin ==
 
-Extend the currently-under-development [http://repo.or.cz/w/egit.git/
-Eclipse plugin] so that it is actually useful for daily
-development work.  The plugin can currently read a Git
-repository (but not quite fast enough) and can write new
-history to the repository, but a lot of Eclipse user interfaces
-still need to be built to allow an end-user to actually interact
-with peers on a project.
+Extend the currently-under-development
+[http://repo.or.cz/w/egit.git/ Eclipse plugin]
+so that it is actually useful for daily development work.  The plugin
+can currently read a Git repository (but not quite fast enough)
+and can write new history to the repository, but a lot of Eclipse
+user interfaces still need to be built to allow an end-user to
+actually interact with peers on a project.
+
+Particularly of note is the plugin's missing functionality to push
+changes to another repository, and to merge changes locally.
 
 This was also one of
-[http://wiki.eclipse.org/index.php/Google_Summer_of_Code_2007_Ideas
-Eclipse SoC2007 Ideas] (<i>More work on git support</i>).
+[http://wiki.eclipse.org/index.php/Google_Summer_of_Code_2007_Ideas Eclipse SoC2007 Ideas]
+(<i>More work on git support</i>).
 
 <<BR>><b>Language:</b> Java (Eclipse API, SWT API)
 <<BR>><b>Goal:</b> Push changes over native Git protocol, or merge changes locally, or both!.
