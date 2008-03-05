@@ -182,6 +182,24 @@ There are two potential approaches:
 * Julian Phillips (has a partial python implementation!  at http://git.q42.co.uk/w/git_svn_server.git)
 * Subversion project member t.b.c. as a co-mentor
 
+== Better Emacs integration ==
+
+Make git mode for Emacs full featured git GUI, and not only commit
+  tool, following ideas of PCL-CVS... and its limitation. Existing is today git.el, which is very limited in features, and DVC (http://download.gna.org/dvc), which still doesn't take full advantage of Git's capabilities. Merging git.el and DVC would probably be a good start.
+  Other git GUIs, like
+  git-gui, gitk, qgit, tig could also be inspiration for features.
+
+<b>Goal:</b> Allow creating and switching branches, examining history,
+  merging, fetching etc. from withing Emacs. Should include modes for
+  git config file forma and format-patch patches.
+
+<<BR>><b>Language:</b> Emacs Lisp
+<<BR>><b>Suggested mentors:</b>
+* Alexandre Julliard
+* David Kagedal
+<<BR>><b>Possible Co-mentor:</b>
+* Matthieu Moy
+
 = Larger Projects =
 
 The following projects are probably more suited to the
