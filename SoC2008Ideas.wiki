@@ -111,6 +111,38 @@ objects not in repository).
 * gitzilla (sent proposal),
 * Nguyen Thai Ngoc Duy (pclouds), proposed to implements it
 
+== Implement git-submodule using .git file  ==
+
+Rewrite git-submodule, placing the repository for each referenced
+submodules in the superproject's $GIT_DIR/modules, and use .git as a
+file (not a directory), which is currently in 'pu', to point at it.
+This resolves issues related to switching between versions of the
+superproject which contain/do-not-contain the submodule, as the
+submodule working directory can be safely created/deleted at will
+and its objects are safe somewhere within $GIT_DIR/modules.
+
+<b>Goal:</b> Rework git-submodule, keeping submodule repositories safe under $GIT_DIR.
+<<BR>><b>Language:</b> C, Bourne shell
+<<BR>><b>See:</b> gitster's recent remarks on #git [http://article.gmane.org/gmane.comp.version-control.git/76136 on gmane].
+
+== Teach git-apply the 3-way merge fallback git-am knows ==
+
+When git-apply patches file(s) the files may not patch cleanly.
+In such a case git-apply currently rejects the patch.  If it is
+called from git-am then a 3-way merge is attempted by taking the
+"index ..." data from the patch and constructing a temporary tree,
+applying the patch to that, then merging the temporary tree to the
+current branch.
+
+For various reasons it would be nice to do the entire temporary
+tree dance directly inside of git-apply, as it can benefit say
+the git-sequence's "apply" command, speed up git-am processing by
+forking less, etc.
+
+<b>Goal:</b> Apply a patch that git-apply rejects today, but that "git am -3" can apply cleanly.
+<<BR>><b>Language:</b> C
+<<BR>><b>See:</b> gitster's recent remarks on #git [http://article.gmane.org/gmane.comp.version-control.git/76136 on gmane].
+
 == Gitweb caching ==
 
 Implementing very smart caching in gitweb, to avoid the thundering
@@ -212,25 +244,6 @@ This was also one of
 <<BR>><b>Suggested by:</b> Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031 on gmane]
 <<BR>><b>See:</b> [[EclipsePluginWishlist]]
 
-== Continue "libification" work ==
-
-<i>Description copied from [[SoC2007Ideas]]:</i>
-
-Make more parts of libgit.a reentrant by removing static variables,
-avoid dying e.g. when malloc() fails, etc. Most of Git was
-written with the run-once-and-exit design pattern. This makes it
-difficult/impossible to embed core Git data access routines within
-a scripting language such as Perl or Python, or to embed it in a
-longer-running server such as an Apache module. Existing code must
-be modified to return errors rather than terminating the process,
-and memory leaks need to be plugged.
-
-<b>Goal:</b> In addition to the general goal of being able to link libgit.a into external programs that are not exclusively git utilities and have the git code be usable as a well-behaved library, one specific goal given on the [[Soc2007Ideas]] page was: Usable Perl binding that a future gitweb.cgi could take advantage of, rather than repeatedly forking Git processes.
-<<BR>><b>Language:</b> C
-<<BR>><b>See:</b> The existing work on [http://repo.or.cz/w/git/libgit-gsoc.git libgit-thin] may be relevant.
-<<BR>><b>Suggested mentors:</b>
-* Shawn Pearce (gsoc@spearce.org)
-
 == Implement pack v4/v5 for higher compression ==
 
 Although Git's packfile format offers incredible disk space savings
@@ -264,6 +277,31 @@ the same extension to Dolphin, konqueror, Finder, etc
 <<BR>><b>Goal:</b> Have a fully functional TortoiseCVS lookalike for Git.
 <<BR>><b>Mentor:</b> Johannes Schindelin (johannes.schindelin@gmx.de).
 <<BR>><b>Suggested by:</b> Johannes Schindelin
+
+= Projects So Large Your Head Will Spin =
+
+These are not doable as a GSoC project.  But a very focused subpart
+might, so they are listed here to get those hamster wheels in your
+brain spinning.
+
+== Continue "libification" work ==
+
+<i>Description copied from [[SoC2007Ideas]]:</i>
+
+Make more parts of libgit.a reentrant by removing static variables,
+avoid dying e.g. when malloc() fails, etc. Most of Git was
+written with the run-once-and-exit design pattern. This makes it
+difficult/impossible to embed core Git data access routines within
+a scripting language such as Perl or Python, or to embed it in a
+longer-running server such as an Apache module. Existing code must
+be modified to return errors rather than terminating the process,
+and memory leaks need to be plugged.
+
+<b>Goal:</b> In addition to the general goal of being able to link libgit.a into external programs that are not exclusively git utilities and have the git code be usable as a well-behaved library, one specific goal given on the [[Soc2007Ideas]] page was: Usable Perl binding that a future gitweb.cgi could take advantage of, rather than repeatedly forking Git processes.
+<<BR>><b>Language:</b> C
+<<BR>><b>See:</b> The existing work on [http://repo.or.cz/w/git/libgit-gsoc.git libgit-thin] may be relevant; gitster's recent remarks on #git [http://article.gmane.org/gmane.comp.version-control.git/76136 on gmane].
+<<BR>><b>Suggested mentors:</b>
+* Shawn Pearce (gsoc@spearce.org)
 
 = Other Resources =
 
