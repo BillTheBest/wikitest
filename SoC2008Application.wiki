@@ -113,10 +113,10 @@ Information. '''
 mentors? Please be as specific as possible. '''
 
 All mentors volunteered for the specific project(s) that they could
-contribute the most to.  All mentors are active contributers within
+contribute the most to.  All mentors are active contributors within
 the Git development community.
 
-Active contributers are defined to be those who have submitted and
+Active contributors are defined to be those who have submitted and
 have had accepted into a shipped release a substantial amount of
 new code or fixes within the last 4 months (Nov 2007 - Mar 2008).
 Substantial amount of code is defined to be equal in size (or
