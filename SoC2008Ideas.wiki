@@ -296,6 +296,17 @@ the same extension to Dolphin, konqueror, Finder, etc
 <<BR>><b>Mentor:</b> Johannes Schindelin (johannes.schindelin@gmx.de).
 <<BR>><b>Suggested by:</b> Johannes Schindelin
 
+== "Smart" HTTP based GIT Transport ==
+
+Hosting a publicly available Git repository currently requires a server where a TCP port based service may be operated. This not permitted by most of the web site hosting companies except as part of their "dedicated" server offerings. This project is to implement a CGI based "smart" Git transport for Git's fetch and push operations, and the necessary client code. The completed project should also include support both authenticated and anonymous clients.
+
+Most of what is required for the "smart" Git transport for this project is already implemented by the bundle facilities that Git already supports but changes to the existing bundle code may be necessary. The CGI component should be implemented in in a language that a majority of web site hosting companies permit to be used with their product offerings and should rely the Git suite of programs for most of the repository manipulation.
+
+<b>Language:</b> Perl, C, shell, other
+<<BR>><b>Goal:</b> Server (CGI) and client that supports fetch & push operation for both authenticated & anonymous clients.
+<<BR>><b>Mentor:</b> 
+<<BR>><b>Suggested by:</b> Gitzilla
+
 = Projects So Large Your Head Will Spin =
 
 These are not doable as a GSoC project.  But a very focused subpart
