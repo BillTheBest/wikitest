@@ -152,8 +152,8 @@
 === git-svnconvert ===
 * git-svnconvert, written by Rutger Nijlunsing in Ruby, appeared only on git mailing list in post [http://marc.theaimsgroup.com/?l=git&m=114460050718696 |ANNOUNCE| git-svnconvert: YASI (Yet Another SVN importer)].
 
-=== giston ===
-* [http://evil.che.lu/2007/11/27/ann-giston-piston-lookalike-for-git giston] is a [http://piston.rubyforge.org/index.html Piston] lookalike for git-svn: a simple tool to help track svn vendor branches in your git repository.  By Cristi Balan, in shell (Piston is in Ruby).
+=== braid ===
+* [http://evil.che.lu/projects/braid Braid] ([http://github.com/evilchelu/braid/tree/master github]), formerly [http://evil.che.lu/2007/11/27/ann-giston-piston-lookalike-for-git Giston], is a [http://piston.rubyforge.org/index.html Piston] lookalike for git-svn: a simple tool to help track svn vendor branches in your git repository.  By Cristi Balan, in Ruby (Piston is in Ruby).
 
 === git-ucmimport (IBM Rational [[ClearCase]]) ===
 * git-ucmimport, also written by Rutger Nijlunsing, is a converter from IBM Rational Clear<code><nowiki></nowiki></code>Case UCM to git. The latest version can be found currently on http://www.wingding.demon.nl. In Ruby.
