@@ -52,7 +52,7 @@
 * [[GitView]] is a GTK based repository browser for git written in Python by Aneesh Kumar K.V. It  can be found in <code><nowiki>contrib/</nowiki></code> directory of Git source tree.
 
 === git-forest ===
-* <b>git-forest</b> ([http://dev.computergmbh.de/gitweb.cgi?p=hxtools;a=blob_plain;f=bin/git-forest git-forest] file) is a text-based tree visualizer, using extended ASCII characters for frames. It can show also octopus merges.  Written in Perl by Jan Engelhardt.
+* <b>git-forest</b> ([http://dev.computergmbh.de/gitweb.cgi?p=hxtools;a=blob_plain;f=bin/git-forest git-forest] file) is a text-based tree visualizer, using extended ASCII characters for frames. It can show also octopus merges.  Written in Perl by Jan Engelhardt.<<BR>><b>See also:</b> [http://permalink.gmane.org/gmane.comp.version-control.git/76404 text-based tree visualizer] announcement on git mailing list.
 
 === (h)gct ===
 * [[(h)gct]] ([http://repo.or.cz/w/hgct.git gitweb]) by Fredrik Kuivinen is a GUI enabled commit tool. It has support for both Git and Mercurial. In Debian in [http://packages.debian.org/search?searchon=names&keywords=commit-tool commit-tool] package. Written in PyQt.
