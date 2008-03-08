@@ -58,7 +58,7 @@ If you search a place to host your git repository, take a look at [[GitHosting]]
 * Subscribe to the git mailing list (see [[GitCommunity]] page).
 * Check out [[Janitor]] page.
 * Check out [[ToDo]] page.
-* Google [[SoC2007Ideas:Summer of Code 2007]] and project ideas.
+* Google [[SoC2007Ideas:Summer of Code 2007]] and Google [[SoC2008Ideas:Summer of Code 2008]] and project ideas.
 * Check the current [http://kernel.org/git/?p=git/git.git;a=blob;hb=todo;f=TODO TODO list], it is in the todo branch in the git repository.
 * Check out [[Wishlist]] page.
 * Read [http://kernel.org/git/?p=git/git.git;a=blob;f=Documentation/SubmittingPatches Documentation/[[SubmittingPatches]]] before submitting patches.
