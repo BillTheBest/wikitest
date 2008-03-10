@@ -1,3 +1,5 @@
+= Public Git hosting sites =
+
 Here are some places that provide free Git hosting.
 
 List is limited to sites that provide explicit Git hosting, not including generic hosting sites that can be used to host Git repositories.
