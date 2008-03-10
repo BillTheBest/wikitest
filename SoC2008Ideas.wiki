@@ -326,8 +326,18 @@ and memory leaks need to be plugged.
 <<BR>><b>Suggested mentors:</b>
 * Shawn Pearce (gsoc@spearce.org)
 
-= Other Resources =
+= Projects from Why Not? =
+These are proposed experimental uses of Git
 
+== Dodo Data ==
+http://twext.cc/dodo data wants to extend Git distributed version control into a [http://www.advogato.org/person/apenwarr/diary/371.html distributed filesystem], intended for use in [http://twext.cc/overview twext] translation. Dodo data wants to be easy for both humans and machines to find, modify, revert, share, learn from.
+
+<b>Goal:</b> Make a simple interface for non-technical humans to manage Dodo data shared in back-end Git repository
+<<BR>><b>Language:</b> C
+<<BR>><b>Mentor: </b>Duke Crawford (duke@read.fm)
+<<BR>><b>Mentor:</b>  Johannes Schindelin (johannes.schindelin@gmx.de)
+
+= Other Resources =
 [[SoC2008Application]]
 
 __NOTOC__
