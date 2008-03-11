@@ -123,6 +123,9 @@
 === dirdiff ===
 * [http://www.liacs.nl/~sverdool/gitweb.cgi?p=dirdiff.git dirdiff] (gitweb) is a graphical tool to display the differences (a la diff) between files in directories. Given two or more directory trees, dirdiff will display the differences between them in various glorious colors. It provides merging and the creation of patches. Link is to version modified by Sven Verdoolaege, which adds some more git support, and which is based on [http://samba.org/ftp/paulus/dirdiff-2.1.tar.gz dirdiff-2.1.tar.gz] by Paul Mackerras. Not actively developed. In Tcl/Tk. (To be not conffused with [http://sourceforge.net/projects/dirdiff/ dirdiff] in Perl).
 
+=== Meld ===
+* [http://meld.sourceforge.net Meld] is a visual diff and merge tool. You can compare two or three files and edit them in place (diffs update dynamically). You can compare two or three folders and launch file comparisons. You can browse and view a working copy from popular version control systems such as Git, CVS, Subversion, Bazaar-ng and Mercurial, etc...
+
 <<Anchor(rcs-interaction)>>
 == Interaction with other Revision Control Systems ==
 === Built-in import  (built in) ===
