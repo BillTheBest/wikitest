@@ -217,6 +217,8 @@ There is place for generic, non SCM specific, links
 * [http://gittorrent.utsl.gen.nz/ GitTorrent] idea.
 * [http://www.ext3cow.com/ Ext3cow Versioning Filesystem] is snapshot based, similarly somewhat to git, with sharing the same blocks, but without support for nonlinear history.
 * There is a whole chapter (GIT, QUILT AND BINARY SEARCHING) devoted to binary searching in [http://www.stardust.webpages.pl/files/handbook/handbook-en-0.3-rc1.pdf Linux Kernel Tester's Guide] (PDF)
+* [http://vcs-pkg.org Using VCS for distro packaging]
+* [http://vcs-home.madduck.net Using VCS to manage $HOME]
 * [http://madduck.net/tag/git Pages tagged git] on Martin "madduck" Krafft's website
 
 __NOTOC__
