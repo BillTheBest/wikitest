@@ -672,6 +672,10 @@ Yes, use [http://www.kernel.org/pub/software/scm/git/docs/git-archimport.html gi
 == Can I import from Perforce? ==
 Yes, there is a number of importers, including one in contrib/ directory of Git source distribution. Search Git mailing list archives for others.
 
+<<Anchor(import-hg)>>
+== Can I import from Mercurial? ==
+Yes, use for example Rocco Rutte's ht2git (hg2git.git on [http://repo.or.cz/ repo.or.cz]).
+
 <<Anchor(import-others)>>
 == Can I import from other SCMs? ==
 Maybe, check if Tailor ([http://wiki.darcs.net/DarcsWiki/Tailor homepage]) can do it. Take a look at [[InterfacesFrontendsAndTools#rcs-interaction:[[InterfacesFrontendsAndTools]]]] page ("Interaction with other Revision Control Systems" section)
