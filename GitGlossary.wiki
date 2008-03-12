@@ -1,5 +1,14 @@
+
+---- /!\ <b>Edit conflict - other version:</b> ----
 Good crew it's cool :) http://groups.google.com/group/airlines-tickets-cheap/web/cheapest-airline-tickets-ever cheap airline tickets ever  =-(
 ----
 [[CategoryGitDocumentation]]
+
+---- /!\ <b>Edit conflict - your version:</b> ----
+Good crew it's cool :) http://groups.google.com/group/airlines-tickets-cheap/web/cheapest-airline-tickets-ever cheap airline tickets ever  =-(
+----
+[[CategoryGitDocumentation]]
+
+---- /!\ <b>End of edit conflict</b> ----
 
 __NOTOC__
