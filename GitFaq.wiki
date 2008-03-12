@@ -674,7 +674,7 @@ Yes, there is a number of importers, including one in contrib/ directory of Git 
 
 <<Anchor(import-hg)>>
 == Can I import from Mercurial? ==
-Yes, use for example Rocco Rutte's ht2git (hg2git.git on [http://repo.or.cz/ repo.or.cz]).
+Yes, use for example Rocco Rutte's hg-fast-export (from fast-export.git on [http://repo.or.cz/ repo.or.cz]).
 
 <<Anchor(import-others)>>
 == Can I import from other SCMs? ==
