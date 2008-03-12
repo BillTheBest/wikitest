@@ -666,7 +666,7 @@ Yes, use [http://www.kernel.org/pub/software/scm/git/docs/git-svnimport.html git
 
 <<Anchor(import-arch)>>
 == Can I import from arch/baz/tla? ==
-Yes, use [http://www.kernel.org/pub/software/scm/git/docs/git-archimport.html git-archimport(1)].
+Yes, use [http://www.kernel.org/pub/software/scm/git/docs/git-archimport.html git-archimport(1)], or bzr-fast-export from `exporters` subdirectory of the [https://launchpad.net/bzr-fastimport bzr-fastimport project].
 
 <<Anchor(import-perforce)>>
 == Can I import from Perforce? ==
