@@ -1,5 +1,14 @@
+
+---- /!\ <b>Edit conflict - other version:</b> ----
 Jonny was here http://groups.google.com/group/verizon-ringtones-free/web/verizon-ringtones verizon ringtones  8-))
 ----
 [[CategoryGitDocumentation]]
+
+---- /!\ <b>Edit conflict - your version:</b> ----
+Jonny was here http://groups.google.com/group/verizon-ringtones-free/web/verizon-ringtones verizon ringtones  8-))
+----
+[[CategoryGitDocumentation]]
+
+---- /!\ <b>End of edit conflict</b> ----
 
 __NOTOC__
