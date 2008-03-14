@@ -38,6 +38,7 @@ A lot of blog posts related to Git usage have been published since the project's
 * [http://www.bluishcoder.co.nz/2007/09/git-binary-files-and-cherry-picking.html Git, Binary Files and Cherry Picking Patches] (using <code><nowiki>.gitattributes</nowiki></code> to mark file as binary, cherry-picking in git)
 * [http://loupgaroublond.blogspot.com/2007/12/how-to-split-repository-in-git.html Split a git repository into two different repos]
 * [http://www.ishlif.org/blog/linux/git-submodules/ Git submodules] describes simple submodules usage (for a test project)<<BR>> [http://www.ishlif.org/blog/linux/splitting-a-git-repository/ Splitting a git repository] describes how to split existing repository to submodules.
+* [http://blog.mozilla.com/oremj/2008/03/14/efficiently-updating-web-sites-on-web-clusters/ Efficiently Updating Web Sites on Web Clusters] on [http://blog.mozilla.com/oremj/ Oremj’s Blog] describes how to use git instead of rsync to sync web contents to multiple web servers.
 
 == Praise ==
 
