@@ -18,6 +18,7 @@ A lot of blog posts related to Git usage have been published since the project's
 * [http://blog.paulbetts.org/index.php/2007/12/02/moving-git-repositories-to-svntfs/ Moving git repositories to SVN/TFS] explains how to interact with [[WikiPedia:Team_Foundation_Server|Team Foundation Server]] via git-svn and SVNBridge.
 * [http://duncan.mac-vicar.com/blog/archives/282 Change the svn url that a git-svn repository points to].
 * [http://blogs.frugalware.org/vmiklos/2007/12/09/p320 svn->git conversion using git-svn] by VMiklos describes how to use `git-svn` in place of `git-svnimport`
+* [http://quirkygba.blogspot.com/2007/10/using-git-with-google-code-hosting.html Using Git with Google Code Hosting] (Google Code offers Subversion hosting) via `git-svn`
 
 == Portability ==
 
