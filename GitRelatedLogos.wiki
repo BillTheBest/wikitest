@@ -33,7 +33,7 @@ Henrik Nyh came up with an alternative logo/favicon to use with gitweb:
 
 This alternative logo/favicon is used as icon for git-gui (git commit tool in Tcl/Tk).
 
- ||http://repo.or.cz/w/git-gui.git/:lib/git-gui.ico||[http://www.kernel.org/pub/software/scm/git/docs/git-gui.html git-gui] icon||
+ ||http://repo.or.cz/w/git-gui.git/:lib/git-gui.ico||attachment:git-gui-32x32.png||[http://www.kernel.org/pub/software/scm/git/docs/git-gui.html git-gui] icon||
 
 ICO, 32x32 + 16x16, four colors.<<BR>>
 This favicon is taken from [http://repo.or.cz/w/git-gui.git git-gui.git] repository at [http://repo.or.cz repo.or.cz]
