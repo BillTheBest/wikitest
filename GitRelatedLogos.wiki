@@ -21,7 +21,7 @@ This favicon is resized fragment of above Git logo.
  ||http://github.com/favicon.png||[http://github.com/ GitHub] favicon||
  ||<#A0A0A0> http://github.com/favicon.png||as above, gray background ||
 
-Favicon of [http://github.com/ GitHub], on of [[GitHosting:git hosting]] sites.<<BR>>
+Favicon of [http://github.com/ GitHub], one of [[GitHosting:git hosting]] sites.<<BR>>
 PNG, 16x16, grayscale.
 
 ----
