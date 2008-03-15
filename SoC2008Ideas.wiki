@@ -178,9 +178,13 @@ There are two potential approaches:
 <<BR>><b>Suggested mentors:</b>
 * Eric Wong (git-svn author)
 * Matthias Urlichs (git-svnimport author)
-* Sam Vilain (wrote this proposal: http://utsl.gen.nz/git/git-svnserver.txt)
+* 
 * Julian Phillips (has a partial python implementation!  at http://git.q42.co.uk/w/git_svn_server.git)
 * Subversion project member t.b.c. as a co-mentor
+<b>Resources:</b> 
+* Sam Vilains's 'ripper' / 'server' design: http://utsl.gen.nz/git/git-svnserver.txt,
+** writing the ripper may not be necessary; a tool such as git-svn or the [http://repo.or.cz/w/svn-all-fast-export.git svn-all-fast-export] script may 
+** the milestones and hints in the "Server" section are worth reading.
 
 == Better Emacs integration ==
 
@@ -203,13 +207,13 @@ junio/senior/graduate students.  Pick one and really make it shine.
 
 This is a P2P method for distributing git repositories, which
 will allow for faster downloads, lower startup overheads, etc.
-For use for sites such as git.kernel.org, repo.or.cz, etc.
+For use for sites such as git.kernel.org, repo.or.cz, etc.  Existing partial implementations exist at http://jonas.nitro.dk/gittorrent/libgtp.git/ and http://git.utsl.gen.nz/VCS-Git-Torrent
 
 <b>Goal:</b> to implement the GTP/0.1 standard
 <<BR>><b>Language:</b> Open for proposal.
 <<BR>><b>Suggested mentors:</b>
 * Jonas Fonseca (designed the original protocol)
-* Sam Vilain (designed the <i>commit reel</i> concept and has many parts prototyped in Perl at http://utsl.gen.nz/gitweb/?p=VCS-Git-Torrent)
+* Johannes Schindelin (interested party) 
 
 == Implement git-sequencer ==
 
