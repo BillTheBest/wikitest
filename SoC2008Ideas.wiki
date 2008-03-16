@@ -155,12 +155,14 @@ Perhaps becoming the gitweb maintainer could come of it, or at
 least the gitweb admin for kernel.org (sorely needed).
 
 <b>Goal:</b> At minimum, port kernel.org's caching to mainline (git's) gitweb
-<<BR>><b>Language:</b> Perl, HTML, perhaps [[JavaScript]]
-<<BR>><b>Suggested mentors:</b>
+<<BR>><b>Language:</b> Perl, HTML, perhaps JavaScript
+<<BR>><b>Mentors:</b>
 * John 'Warthog9' Hawley (wrote caching for kernel.org's gitweb)
+<b>Co-mentors:</b>
 * Petr Baudis (repo.or.cz admin)
-* Lars Hjemli (cgit author, git web interface in C, with caching)
 * Jakub Narebski (gitweb contributor)
+<b>Suggested mentors:</b>
+* Lars Hjemli (cgit author, git web interface in C, with caching)
 
 == Git / Subversion Interoperability ==
 
