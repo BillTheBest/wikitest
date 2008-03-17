@@ -40,6 +40,7 @@ This project's goal is to fix the main issues, write an API to retrieve data fro
 <b>Progress reports:</b>
 * [http://permalink.gmane.org/gmane.comp.version-control.git/53070 Re: GSoC status report] by Shawn O. Pearce on git mailing list
 * [http://permalink.gmane.org/gmane.comp.version-control.git/53433 ANNOUNCE: PyGit and libgit-thin] by Luiz Fernando N. Capitulino (student) on git mailing list
+* [http://blog.cpu.eti.br/?p=91 Summer of Code] blog post on [http://blog.cpu.eti.br/ Blog do Fernando Capitulino]
 
 == [[GitTorrent]] Server and Peer ==
 
