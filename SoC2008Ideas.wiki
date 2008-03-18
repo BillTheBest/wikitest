@@ -343,4 +343,9 @@ and memory leaks need to be plugged.
 
 [[SoC2008Application]]
 
+= Other links =
+* [http://www.selenic.com/mercurial/wiki/index.cgi/SummerOfCode Mercurial ideas for GSoC 2008]
+* [http://subversion.tigris.org/project_tasks.html Subversion ideas for Summer of Code]
+* [http://subclipse.tigris.org/soc/tasks.html Subclipse Ideas for Google Summer of Code]
+
 __NOTOC__
