@@ -68,8 +68,8 @@ If you search a place to host your git repository, take a look at [[GitHosting]]
 == Unrelated "Git" projects ==
 Unfortunately, the project name Git is overloaded. At least two unrelated projects exist which provide
 commands named git. These should be uninstalled (or renamed) to use this git.
-* [http://hulubei.net/tudor/git/ Git] is a set of browsing and viewing tools.
-* [http://sourceforge.net/projects/git Git] is a defunct portable guitar tuner.
+* [http://hulubei.net/tudor/git/ Git (GNU Interactive Tools)] is a set of browsing and viewing tools
+* [http://sourceforge.net/projects/git Git (Guitar/Instrument Tuner)] is a defunct portable guitar tuner.
 
 === Git Wiki ===
 * [[GitWikiSuggestions]] – Your suggestions for improvement of the wiki.
