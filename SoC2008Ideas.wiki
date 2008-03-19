@@ -98,7 +98,7 @@ time, double bonus points!  :-)
 When cloning a large repository (such as KDE, Open Office, Linux kernel) there is currently no way to restart an interrupted clone.  It may take considerable time for a user on the end of a small pipe to download the data, and if the clone is interrupted in the middle the user currently needs to start over from the beginning and try again.  For some users this may make it impossible to clone a large repository.
 
 <b>Goal:</b> Allow git-clone to automatically resume a previously failed download over the native git:// protocol.
-<<BR>><i>Language:</i>' C
+<<BR>><b>Language:</b> C
 <<BR>><b>Mentor:</b> Shawn Pearce (gsoc@spearce.org)
 <<BR>><b>Suggested by:</b> Shawn Pearce [http://article.gmane.org/gmane.comp.version-control.git/55298 on gmane]
 
