@@ -10,7 +10,7 @@ You can find more official information about the mailing list here:
 
 * http://vger.kernel.org/vger-lists.html#git
 
-The list volume is pretty low (from a half dozen to 20 posts a day),
+The list volume is around 100 posts per day,
 to subscribe send an email to:
 
 * majordomo@vger.kernel.org
