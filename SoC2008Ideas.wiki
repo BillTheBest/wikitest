@@ -297,6 +297,7 @@ repositories (linux-2.6, git, mozilla, gcc) and boost runtime ~10%.
 <<BR>><b>Language:</b> C
 <<BR>><b>Suggested mentors:</b>
 * Shawn Pearce (gsoc@spearce.org)
+<<BR>><b>See:</b> [http://kerneltrap.org/mailarchive/git/2007/2/27/239830 on kerneltrap]
 
 == git-cheetah, a TortoiseCVS Lookalike ==
 
