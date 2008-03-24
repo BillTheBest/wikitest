@@ -23,6 +23,7 @@ A lot of blog posts related to Git usage have been published since the project's
 == Portability ==
 
 * [http://www.dekorte.com/blog/blog.cgi?do=item&id=2539 Setting up Git on OSX]
+* [http://unixsadm.blogspot.com/2008/03/porting-git-to-hp-ux-pa-risc-and-aix.html Building Git on AIX, HP-UX and Solaris]
 * [http://speirs.org/2007/07/22/getting-git-svn-working-on-the-mac/ Getting git-svn working on the Mac]
 
 == Usage ==
