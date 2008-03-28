@@ -265,6 +265,9 @@
 === wikiri ===
 * [http://auriga.wearlab.de/~alb/misc.html wikiri] is a simple, single-file wiki written in Python. It uses reStructuredText for markup, and has optional git support for history tracking. You can [http://repo.or.cz/w/wikiri.git browse the repository] or just clone it from http://auriga.wearlab.de/~alb/repos/git/devel/wikiri.
 
+=== git-merge-changelog ===
+* The estimable Bruno Haible wrote a merge driver for [[ChangeLog]] files.  The driver currently lives in the [http://git.sv.gnu.org/gitweb/?p=gnulib.git;a=blob;f=lib/git-merge-changelog.c gnulib sources].
+
 ----
 = See also =
 * [[InterfacesFrontendsAndToolsWishlist]]
