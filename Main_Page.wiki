@@ -17,6 +17,7 @@ The other information sources are the [http://git.or.cz/ Git Homepage] (the webm
 
 * http://www.kernel.org/pub/software/scm/git/docs
 * http://www.kernel.org/pub/software/scm/cogito/docs
+* http://www.kitlen.com/
 
 == Getting Help ==
 * Read [[QuickStart]], or even better [http://www.kernel.org/pub/software/scm/git/docs/user-manual.html Git's User Manual]
