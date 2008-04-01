@@ -404,7 +404,7 @@ List does not currently include [[Git]], [[Cogito]] and other git-related tools.
 * [http://alioth.debian.org/ Alioth] (project hosting, modified [http://gforge.org GForge] engine, managed by [http://www.debian.org/ Debian] project)
 ** [http://www.debian.org/News/weekly/2006/34/ Debian Weekly News #34 - August 22nd, 2006] (announcement)
 ** [http://roland.entierement.nu/blog/2006/08/17/bits-about-alioth.html Roland weblog - Bits about Alioth] (description)
-** [http://wiki.debian.org/AliothGit [[AliothGit]]] page on [http://wiki.debian.org/ Debian Wiki]
+** [http://wiki.debian.org/Alioth/Git Alioth/Git] page on [http://wiki.debian.org/ Debian Wiki]
 ** http://git.debian.org/
 * Savannah git hosting
 ** [http://savannah.gnu.org/maintenance/UsingGit Document]
