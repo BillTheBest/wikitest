@@ -1,7 +1,7 @@
 = Projects that use Git for their source code management. =
 If your project is not listed, please add it here.
 
-List does not currently include [[Git]], [[Cogito]] and other git-related tools.
+List does not currently include [[Git]] or git-related tools.
 
 == Kernel-related projects that use Git for their source code management. ==
 
