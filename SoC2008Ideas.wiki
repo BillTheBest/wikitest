@@ -297,7 +297,7 @@ repositories (linux-2.6, git, mozilla, gcc) and boost runtime ~10%.
 <<BR>><b>Language:</b> C
 <<BR>><b>Suggested mentors:</b>
 * Shawn Pearce (gsoc@spearce.org)
-<<BR>><b>See:</b> [http://kerneltrap.org/mailarchive/git/2007/2/27/239830 on kerneltrap]
+<<BR>><b>See:</b> [http://kerneltrap.org/mailarchive/git/2007/2/27/239830 on kerneltrap] and [http://article.gmane.org/gmane.comp.version-control.git/43016 the entire "understanding version 4 packs" thread on gmane]
 
 == git-cheetah, a TortoiseCVS Lookalike ==
 
