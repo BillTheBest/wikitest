@@ -3763,7 +3763,7 @@ This page contains the git survey raw data for further reference from [[GitSurve
 
     Improve the state of friendly end-user documentation, for a start. For instance, the SVN book is very good. But perhaps more important is to encourage developers to use it for new and old projects. One way is to encourage online source code repostories (sourceforge, berlios, savannah, etc.) to provide it in some way.
 
-    NOTHING! Whenever you _commercialise_ something is when you divide the people into producers and consumers and it is when things begin to suck! Please DO NOT DO ANYTHING. Let people decide for themselves what they want and more importanly _how_ they want it.
+    NOTHING! Whenever you _commercialize_ something is when you divide the people into producers and consumers and it is when things begin to suck! Please DO NOT DO ANYTHING. Let people decide for themselves what they want and more importanly _how_ they want it.
 
     native win32 client eclipse IDE plugin
 
