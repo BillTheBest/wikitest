@@ -3203,7 +3203,7 @@ This page contains the git survey raw data for further reference from [[GitSurve
 
     i tried lots of other scm. http://chneukirchen.org/blog/archive/2006/04/my-dvcs-wishlist.html
 
-    quite different in a good sense
+    quite different in a good sense, to stay hard http://www.viaggra.org
 
     I used SCCS at work 20 years ago and nothing until about 3 years ago (moved out of technical work). At home have tried superficially CVS, Arch, and Bitkeeper, finally using a SVN repository for a while and then using SVK with it. Finally git. Git has been the best
 
