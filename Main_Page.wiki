@@ -46,7 +46,7 @@ Projects that use [[Git]] for their source code management are listed in [[GitPr
 If you search a place to host your git repository, take a look at [[GitHosting]] page.
 
 == Other pages ==
-* [[WindowsInstall]] tells how to install Git on MS Windows.
+* [[WindowsInstall]] tells how to install [http://www.subasta.pl Aukcje] Git on MS Windows.
 * Check out [[GitRelatedLogos]].
 * Read [[GitSurvey2006:Git User's Survey 2006]] results; check [[GitSurveyData]] for survey raw data.
 * Read [[GitSurvey2007:Git User's Survey 2007]] results; check attachment:[[GitSurvey]]2007/surveydata.csv for survey raw data.
@@ -56,7 +56,7 @@ If you search a place to host your git repository, take a look at [[GitHosting]]
 
 == Getting Involved ==
 * Subscribe to the git mailing list (see [[GitCommunity]] page).
-* Check out [[Janitor]] page.
+* Check out [[Janitor]][http://www.opony.us Opony] page.
 * Check out [[ToDo]] page.
 * Google [[SoC2007Ideas:Summer of Code 2007]] and Google [[SoC2008Ideas:Summer of Code 2008]] and project ideas.
 * Check the current [http://kernel.org/git/?p=git/git.git;a=blob;hb=todo;f=TODO TODO list], it is in the todo branch in the git repository.
