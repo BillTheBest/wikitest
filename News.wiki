@@ -1,4 +1,4 @@
-== Read Git User's Survey 2006 results; check [[GitSurveyData]] for survey raw data. ==
+== Read [[GitSurvey2006:Git User's Survey 2006]]results; check attachment:[[GitSurvey]]2006/surveydata.csv  for survey raw data. ==
 * Read [[GitSurvey2007:Git User's Survey 2007]] results; check attachment:[[GitSurvey]]2007/surveydata.csv for survey raw data.
 * Google [[SoC2007Ideas:Summer of Code 2007]] and Google [[SoC2008Ideas:Summer of Code 2008]] and project ideas.
 
