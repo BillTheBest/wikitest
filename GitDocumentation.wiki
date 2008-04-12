@@ -24,7 +24,6 @@ All documentation residing on this wiki is put in the [[CategoryGitDocumentation
 * [http://linux.yyz.us/git-howto.html The Kernel Hacker's Git Tutorial] by Jeff Garzik -Offline? (edit if works)
 * [http://www.jdl.com The Git Papers] by Jon Loeliger -Offline? (edit if works)
 * [http://git.rsbx.net/ Documents and Notes] by Raymond S Brand -Out of date? (edit if not)
-
 == Non-english Language Documentation ==
 == Chinese ==
 * http://www.linuxsir.org/main/doc/git/gittutorcn.htm or http://www.bitsun.com/documents/gittutorcn.htm
@@ -33,7 +32,7 @@ All documentation residing on this wiki is put in the [[CategoryGitDocumentation
 * http://my.opera.com/dahema/blog/show.dml/171011
 * http://www-128.ibm.com/developerworks/cn/linux/l-git/index.html
 * 
-* * * * * * [[BranchesInGit]] is an explanation about how Git understand branches.
+* [[BranchesInGit]] is an explanation about how Git understand branches.
 * Use common [[CommitMessageConventions]], which are used by some of Git tools.
 * [[SubprojectSupport]] in Git.
 * [[HowToWriteTests]] describes how to write test cases for git.
