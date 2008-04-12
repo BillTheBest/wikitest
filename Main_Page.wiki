@@ -18,7 +18,7 @@ Welcome to the [[Git]] wiki web site. This wiki is a community effort to provide
 | 
 |-
 | [[GitDocumentation:Git Documentation]] 
-| [http://git.or.cz/gitwiki/GitCommunity Git Community Support] 
+| [[GitCommunity:Git Community Support]] 
 | 
 |-
 | [[News:News]] 
