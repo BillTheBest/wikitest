@@ -23,7 +23,7 @@ Welcome to the Git wiki web site. This wiki is a community effort to provide an 
 == User contributed Documentation ==
 * [http://www-cs-students.stanford.edu/~blynn/gitmagic/ Git magic]
 * [http://eagain.net/articles/git-for-computer-scientists/ Git for computer scientists]
-* Carl Worth [http://git-users.googlegroups.com/web/gitbasic.pdf book on using Git] (PDF)
+* Carl Worth [http://git-users.googlegroups.com/web/gitbasic.pdf?gda=vTVP7z0AAACRcUWZoNoqHn0MmsB4ogNRG1-Ifi4K28KdwtNliqLAWGG1qiJ7UbTIup-M2XPURDT86Y2dpGqz5OGwRQhHT1rr book on using Git] (PDF)
 == Git Community Support ==
 * See the [[GitCommunity]] page for mailing list and IRC information.
 * See the [[GitDocumentation]] page for an overview of git related documentation.
