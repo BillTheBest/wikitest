@@ -19,6 +19,10 @@ In a centralized VCS like Subversion only the central repository has the complet
 
 (Note that even SVK doesn't do quite the same thing as git.  SVK downloads a complete history and allows disconnected commits, but there is still a unique "upstream" repository.  Two SVK users can't merge with each other and then push the changes to the upstream.)
 
+== Access Control ==
+
+Due to being distributed, you inherently do not have to give commit access to other people. Instead, you decide when to merge what from whom. (There exist different mechanisms of control in case you do want to have a  repository into which multiple people can push to. -not covered yet here-)
+
 == Branch Handling ==
 
 Branches in Git are a core concept used everyday by every user.  In Subversion they are almost an afterthought and tend to be avoided unless absolutely necessary.
