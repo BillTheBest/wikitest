@@ -18,10 +18,10 @@ The other information sources are the [http://git.or.cz/ Git Homepage] (the webm
 * http://www.kernel.org/pub/software/scm/git/docs
 
 == Git Documentation ==
-* Git [http://www.kernel.org/pub/software/scm/git/docs Manual Page]
-* Git [http://www.kernel.org/pub/software/scm/git/docs/tutorial.html Tutorial]
-* [http://www.kernel.org/pub/software/scm/git/docs/everyday.html Everyday Git] with 20 commands or so
-* Git [http://www.kernel.org/pub/software/scm/git/docs/user-manual.html User Manual]
+* Git [http://www.kernel.org/pub/software/scm/git/docs manual page]
+* [http://www.kernel.org/pub/software/scm/git/docs/user-manual.html Git User's Manual]
+* [http://www.kernel.org/pub/software/scm/git/docs/tutorial.html A tutorial introduction to git] and [http://www.kernel.org/pub/software/scm/git/docs/tutorial-2.html A tutorial introduction to git: part two]
+* [http://www.kernel.org/pub/software/scm/git/docs/everyday.html Everyday Git, with 20 commands or so]
 * Git [[QuickStart]]
 
 == Git Community Support ==
