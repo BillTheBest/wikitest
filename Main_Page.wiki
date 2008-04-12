@@ -10,20 +10,15 @@
  -->
 <!-- #pragma section-numbers off
  -->
-
 = Git Wiki Homepage =
-Welcome to the Git wiki web site. This wiki is a community effort to provide an accurate source of information for all things related to [http://git.or.cz/ Git]. If you come across anything that needs to be fixed; help yourself and fix it. The more people who help work on this wiki the better this site will serve Git users. Think of this site as a Wikipedia for Git. For information on editing and using this wiki visit [[UsingWiki]] page.
-
-The other information sources are the [http://git.or.cz/ Git Homepage] (the webmaster takes patches) and obviously the stock documentation:
-* http://www.kernel.org/pub/software/scm/git/docs
+Welcome to the Git wiki web site. This wiki is a community effort to provide an accurate source of information for all things related to [http://git.or.cz/ Git]. Make sure to visit the Git website for current updates and information. The Git [http://repo.or.cz/r/git-homepage.git web site source] is also managed using Git and can be [http://repo.or.cz/w/git-homepage.git viewed using gitweb]. Gitweb is included in the Git software. The maintainers of the Git website would love patches for improving the website. It's a great way to try out Git. If you come across anything in this wiki or the Git homepage that needs to be fixed; help yourself and fix it. The more people who help work on this wiki the better this site will serve Git users. Think of this site as a Wikipedia for Git. For information on editing and using this wiki visit [[UsingWiki]] page.
 
 == Git Documentation ==
-* Git [http://www.kernel.org/pub/software/scm/git/docs manual page]
-* [http://www.kernel.org/pub/software/scm/git/docs/user-manual.html Git User's Manual]
-* [http://www.kernel.org/pub/software/scm/git/docs/tutorial.html A tutorial introduction to git] and [http://www.kernel.org/pub/software/scm/git/docs/tutorial-2.html A tutorial introduction to git: part two]
-* [http://www.kernel.org/pub/software/scm/git/docs/everyday.html Everyday Git, with 20 commands or so]
+* Git [http://www.kernel.org/pub/software/scm/git/docs manual page] - Online version bundled with Git. (It's the informations that shows up using the command <i>man git</i>)
+* [http://www.kernel.org/pub/software/scm/git/docs/user-manual.html Git User's Manual] - Online version bundled with Git
+* [http://www.kernel.org/pub/software/scm/git/docs/tutorial.html A tutorial introduction to git] and [http://www.kernel.org/pub/software/scm/git/docs/tutorial-2.html A tutorial introduction to git: part two] - Online version bundled with Git
+* [http://www.kernel.org/pub/software/scm/git/docs/everyday.html Everyday Git, with 20 commands or so] - Online version bundled with Git
 * Git [[QuickStart]]
-
 == Git Community Support ==
 * See the [[GitCommunity]] page for mailing list and IRC information.
 * See the [[GitDocumentation]] page for an overview of git related documentation.
@@ -32,22 +27,18 @@ The other information sources are the [http://git.or.cz/ Git Homepage] (the webm
 * See the [[GitTips]] page for tips on how to get the most out of git.
 * See the [[GitCommonMistakes]] page to avoid common pitfalls encountered when switching to git.
 * See some [[ExampleScripts]] how you can script around core Git to achieve just about anything.
-
 == Additional Information ==
 * See the [[GitHistory]] for a bit of history, inspirations and design decisions.
 * See the [[GitLinks]] for further reading.
 * Read [[Git]] and [[Cogito]] pages.
 * Read [[WikiPedia:Git_(software)|Git (software)]] article at [http://en.wikipedia.org Wikipedia].
 * [[BlogPosts]] related to Git usage.
-
 == Interfaces and other Git Tools ==
 * [[InterfacesFrontendsAndTools]] lists other programs that work with [[Git]].
 * [[InterfacesFrontendsAndToolsWishlist]] list other programs that we would want to work with Git.
 * [[GitBenchmarks]] shows how Git performs and how compares to other version control systems.
-
 == Projects using Git ==
-Projects that use [[Git]] for their source code management are listed in [[GitProjects]].<<BR>>
-If you search a place to host your git repository, take a look at [[GitHosting]] page.
+Projects that use [[Git]] for their source code management are listed in [[GitProjects]].<br> If you search a place to host your git repository, take a look at [[GitHosting]] page.
 
 == Other pages ==
 * [[WindowsInstall]] tells how to install Git on MS Windows.
@@ -57,7 +48,6 @@ If you search a place to host your git repository, take a look at [[GitHosting]]
 * See a comparsion between Git and Subversion in [[GitSvnComparsion]].
 * Ideas and thoughts on [[PatchManagement]].
 * [[UsingGitWithOtherVCSTools]].
-
 == Getting Involved ==
 * Subscribe to the git mailing list (see [[GitCommunity]] page).
 * Check out [[Janitor]] page.
@@ -68,13 +58,11 @@ If you search a place to host your git repository, take a look at [[GitHosting]]
 * Read [http://kernel.org/git/?p=git/git.git;a=blob;f=Documentation/SubmittingPatches Documentation/[[SubmittingPatches]]] before submitting patches.
 * Additionally, have a look at [[InterfacesFrontendsAndToolsWishlist]].
 * Some [[MaintNotes:notes from the maintainer]]
-
 == Unrelated "Git" projects ==
 Unfortunately, the project name Git is overloaded. At least two unrelated projects exist which provide commands named git. These should be uninstalled (or renamed) to use this git.
 
 * [http://hulubei.net/tudor/git/ Git (GNU Interactive Tools)] is a set of browsing and viewing tools
 * [http://sourceforge.net/projects/git Git (Guitar/Instrument Tuner)] is a defunct portable guitar tuner.
-
 ----
 This wiki is powered by MediaWiki.
 
