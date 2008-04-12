@@ -22,7 +22,8 @@ Welcome to the Git wiki web site. This wiki is a community effort to provide an 
 * Git for [http://www.kernel.org/pub/software/scm/git/docs/cvs-migration.html CVS users] - Online version bundled with Git
 == User contributed Documentation ==
 * [http://www-cs-students.stanford.edu/~blynn/gitmagic/ Git magic]
-* 
+* [http://eagain.net/articles/git-for-computer-scientists/ Git for computer scientists]
+* Carl Worth [http://git-users.googlegroups.com/web/gitbasic.pdf book on using Git] (PDF)
 == Git Community Support ==
 * See the [[GitCommunity]] page for mailing list and IRC information.
 * See the [[GitDocumentation]] page for an overview of git related documentation.
