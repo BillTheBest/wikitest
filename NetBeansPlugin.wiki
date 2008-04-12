@@ -1,0 +1,27 @@
+= [[NetBeans]] Plugin =
+
+New project underway to provide support for Git repositories directly from the [[NetBeans]] IDE.
+Code based on [[NetBeans]] Mercurial support. Wraps around Git command-line tool, rather than relying on E-Git (such as [[EclipsePlugin]]) for the time-being.
+
+== Project Information ==
+
+* Project Page: http://github.com/myabc/nbgit/tree/master
+* Project Page: http://gitorious.org/projects/nbgit (gitorious)
+* Mailing List: http://groups.google.com/group/nbgit
+* [[NetBeans]] Tracking Bug for Git VCS Support: http://www.netbeans.org/issues/show_bug.cgi?id=131531
+
+== Source Code ==
+
+<pre><nowiki>
+git clone git://github.com/myabc/nbgit.git
+git clone git://gitorious.org/nbgit/mainline.git (on gitorious)
+git clone git://repo.or.cz/nbgit.git
+git clone http://repo.or.cz/r/nbgit.git
+</nowiki></pre>
+
+See also [[EclipsePlugin]]
+
+----
+[[CategoryTools]]
+
+__NOTOC__
