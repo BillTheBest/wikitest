@@ -5,6 +5,15 @@
 * [http://www.kernel.org/pub/software/scm/git/docs/tutorial.html A tutorial introduction to git] and [http://www.kernel.org/pub/software/scm/git/docs/tutorial-2.html A tutorial introduction to git: part two] - Online version bundled with Git
 * [http://www.kernel.org/pub/software/scm/git/docs/everyday.html Everyday Git, with 20 commands or so] - Online version bundled with Git
 * Git for [http://www.kernel.org/pub/software/scm/git/docs/cvs-migration.html CVS users] - Online version bundled with Git
+== Documentation on this Wiki ==
+All documentation residing on this wiki is put in the [[CategoryGitDocumentation:[[GitDocumentation]] category]]
+
+* Git glossary ([[GitGlossary:[[GitWiki]] version]], [http://www.kernel.org/pub/software/scm/git/docs/glossary.html HTML version], [http://www.kernel.org/git/?p=git/git.git;a=blob;hb=HEAD;f=Documentation/glossary.txt source via gitweb])
+* Git [[QuickStart]]
+* [[GitCheatSheet]] (see also [[GitLinks#head-6af01ffee87e2fae45f78f5302e1d05b9f773a65:[[GitLinks]]]])
+* An overview of the [[RevisionSpecification]] used by the <code><nowiki>git log</nowiki></code> command and several repository visualizers.
+* [[GraftPoint:[[GraftPoints]]]]; when and how to use them
+* Introduction to git's [[IndexFile]] and [[WhatIsTheIndex]]
 == User contributed Documentation ==
 * [http://www-cs-students.stanford.edu/~blynn/gitmagic/ Git magic]
 * [http://eagain.net/articles/git-for-computer-scientists/ Git for computer scientists]
@@ -15,15 +24,7 @@
 * [http://linux.yyz.us/git-howto.html The Kernel Hacker's Git Tutorial] by Jeff Garzik -Offline? (edit if works)
 * [http://www.jdl.com The Git Papers] by Jon Loeliger -Offline? (edit if works)
 * [http://git.rsbx.net/ Documents and Notes] by Raymond S Brand -Out of date? (edit if not)
-== Documentation on this Wiki ==
-All documentation residing on this wiki is put in the [[CategoryGitDocumentation:[[GitDocumentation]] category]]
 
-* Git glossary ([[GitGlossary:[[GitWiki]] version]], [http://www.kernel.org/pub/software/scm/git/docs/glossary.html HTML version], [http://www.kernel.org/git/?p=git/git.git;a=blob;hb=HEAD;f=Documentation/glossary.txt source via gitweb])
-* Git [[QuickStart]]
-* [[GitCheatSheet]] (see also [[GitLinks#head-6af01ffee87e2fae45f78f5302e1d05b9f773a65:[[GitLinks]]]])
-* An overview of the [[RevisionSpecification]] used by the <code><nowiki>git log</nowiki></code> command and several repository visualizers.
-* [[GraftPoint:[[GraftPoints]]]]; when and how to use them
-* Introduction to git's [[IndexFile]] and [[WhatIsTheIndex]]
 == Non-english Language Documentation ==
 == Chinese ==
 * http://www.linuxsir.org/main/doc/git/gittutorcn.htm or http://www.bitsun.com/documents/gittutorcn.htm
@@ -32,7 +33,7 @@ All documentation residing on this wiki is put in the [[CategoryGitDocumentation
 * http://my.opera.com/dahema/blog/show.dml/171011
 * http://www-128.ibm.com/developerworks/cn/linux/l-git/index.html
 * 
-* *  *  *  *  * [[BranchesInGit]] is an explanation about how Git understand branches.
+* * * * * * [[BranchesInGit]] is an explanation about how Git understand branches.
 * Use common [[CommitMessageConventions]], which are used by some of Git tools.
 * [[SubprojectSupport]] in Git.
 * [[HowToWriteTests]] describes how to write test cases for git.
