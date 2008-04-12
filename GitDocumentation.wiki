@@ -5,8 +5,9 @@
 * [http://www.kernel.org/pub/software/scm/git/docs/tutorial.html A tutorial introduction to git] and [http://www.kernel.org/pub/software/scm/git/docs/tutorial-2.html A tutorial introduction to git: part two] - Online version bundled with Git
 * [http://www.kernel.org/pub/software/scm/git/docs/everyday.html Everyday Git, with 20 commands or so] - Online version bundled with Git
 * Git for [http://www.kernel.org/pub/software/scm/git/docs/cvs-migration.html CVS users] - Online version bundled with Git
+* Git SVN [http://git.or.cz/course/svn.html crash course]
 * Many [http://kernel.org/pub/software/scm/git/docs/howto/%20 Howto] documents come with git as well
-* [http://repo.or.cz/w/git.git?a=tree;f=Documentation/technical;hb=HEAD Documentation/technical]  for all the technical information relating to
+* [http://repo.or.cz/w/git.git?a=tree;f=Documentation/technical;hb=HEAD Documentation/technical] for all the technical information relating to
 == Documentation on this Wiki ==
 All documentation residing on this wiki is put in the [[CategoryGitDocumentation:[[GitDocumentation]] category]]
 
@@ -28,6 +29,7 @@ All documentation residing on this wiki is put in the [[CategoryGitDocumentation
 * Git wikibook: [http://en.wikibooks.org/wiki/Source_Control_Management_With_Git Source Control Management With Git]
 * [http://jonas.iki.fi/git_guides/HTML/git_guide Git in a Nutshell]
 * [http://jonas.iki.fi/git_guides/HTML/CVS2git CVS to Git transition guide]
+* An [http://utsl.gen.nz/talks/git-svn/intro.html introduction to git-svn]
 * [http://linux.yyz.us/git-howto.html The Kernel Hacker's Git Tutorial] by Jeff Garzik -Offline? (edit if works)
 * [http://www.jdl.com The Git Papers] by Jon Loeliger -Offline? (edit if works)
 * [http://git.rsbx.net/ Documents and Notes] by Raymond S Brand -Out of date? (edit if not)
@@ -42,7 +44,6 @@ will give you the man page for the git log command. [http://www.kernel.org/pub/s
 Online versions of the [[Git]] man pages corresponding to the latest development version can be found at:
 
 * http://www.kernel.org/pub/software/scm/git/docs/
-
 There also exists a handful of technical documents that describes lowlevel details on how different parts of git operates. These are mostly useful for developers. You can find them in the [http://repo.or.cz/w/git.git?a=tree;f=Documentation/technical;hb=HEAD Documentation/technical] directory in the git source tree.
 
 == Git's Documentation To-Do list ==
