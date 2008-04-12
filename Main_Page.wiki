@@ -19,6 +19,10 @@ Welcome to the Git wiki web site. This wiki is a community effort to provide an 
 * [http://www.kernel.org/pub/software/scm/git/docs/tutorial.html A tutorial introduction to git] and [http://www.kernel.org/pub/software/scm/git/docs/tutorial-2.html A tutorial introduction to git: part two] - Online version bundled with Git
 * [http://www.kernel.org/pub/software/scm/git/docs/everyday.html Everyday Git, with 20 commands or so] - Online version bundled with Git
 * Git [[QuickStart]]
+* Git for [http://www.kernel.org/pub/software/scm/git/docs/cvs-migration.html CVS users] - Online version bundled with Git
+== User contributed Documentation ==
+* [http://www-cs-students.stanford.edu/~blynn/gitmagic/ Git magic]
+* 
 == Git Community Support ==
 * See the [[GitCommunity]] page for mailing list and IRC information.
 * See the [[GitDocumentation]] page for an overview of git related documentation.
@@ -38,7 +42,7 @@ Welcome to the Git wiki web site. This wiki is a community effort to provide an 
 * [[InterfacesFrontendsAndToolsWishlist]] list other programs that we would want to work with Git.
 * [[GitBenchmarks]] shows how Git performs and how compares to other version control systems.
 == Projects using Git ==
-Projects that use [[Git]] for their source code management are listed in [[GitProjects]].<br> If you search a place to host your git repository, take a look at [[GitHosting]] page.
+Projects that use [[Git]] for their source code management are listed in [[GitProjects]].[[BR]] If you search a place to host your git repository, take a look at [[GitHosting]] page.
 
 == Other pages ==
 * [[WindowsInstall]] tells how to install Git on MS Windows.
