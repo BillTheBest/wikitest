@@ -65,32 +65,6 @@ Unfortunately, the project name Git is overloaded. At least two unrelated projec
 
 * [http://hulubei.net/tudor/git/ Git (GNU Interactive Tools)] is a set of browsing and viewing tools
 * [http://sourceforge.net/projects/git Git (Guitar/Instrument Tuner)] is a defunct portable guitar tuner.
-=== Git Wiki ===
-* [[GitWikiSuggestions]] – Your suggestions for improvement of the wiki.
-----
-----
-
-== Wiki Metainformation ==
-FYI, a Wikipedia-like link syntax is also supported aside of the [[MoinMoinWiki]]-like one (since everyone is used to Wikipedia and it's much easier to write):
-
-* You can make links using <code><nowiki>[[linkname]]</nowiki></code> (or even <code><nowiki>[[target|label]]</nowiki></code>; all the other moinmoin ways to make links work as well). The link target's initial letter will be automagically capitalized; if you want to avoid that, use <code><nowiki>[[link]]</nowiki></code>
-* If you ever need to use macros here, use a <code><nowiki> <<macroname>> </nowiki></code> syntax.
-=== What is this wiki about? ===
-Interesting starting points:
-
-* [[RecentChanges]]: see where people are currently working
-* [[WikiSandBox]]: feel free to change this page and experiment with editing
-* [[Special:Search|FindPage]]: search or browse the database in various ways
-* [http://meta.wikimedia.org/wiki/Help:Editing SyntaxReference]: quick access to wiki syntax
-* [[Special:Specialpages|SiteNavigation]]: get an overview over this site and what it contains
-=== How to use this site ===
-A Wiki is a collaborative site, anyone can contribute and share:
-
-* Edit any page by pressing <b>Edit</b> at the top or the bottom of the page
-* Create a link to another page with joined capitalized words (like [[WikiSandBox]]) or with <code><nowiki>[[quoted words in brackets]]</nowiki></code>
-* Search for page titles or text within pages using the search box at the top of any page
-* See [[HelpForBeginners]] to get you going, [[HelpContents]] for all help pages.
-To learn more about what a [[WikiWikiWeb]] is, read about [[MoinMoin]]:[[WhyWikiWorks]] and the [[MoinMoin]]:[[WikiNature]]. Also, consult the [[MoinMoin]]:[[WikiWikiWebFaq]].
 
 This wiki is powered by MediaWiki.
 
