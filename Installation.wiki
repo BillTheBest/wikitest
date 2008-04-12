@@ -15,7 +15,7 @@ The <b>main</b> place to get Git is at: http://www.kernel.org/pub/software/scm/g
 Git can be obtained by using the [http://www.cygwin.com/ Cygwin] system and installing Git from within Cygwin. Another convenient choice is [http://code.google.com/p/msysgit/ msysGit]. The installer can be obtained [http://code.google.com/p/msysgit/downloads/list here]. Running Git on Windows is still in its infancy but it is improving rapidly every day.
 
 == OS X ==
-Git for the OS X is installed by using the [javascript:void(0);/*1208042342776*/ git-osx-installer]
+Git for the OS X is installed by using the [http://code.google.com/p/git-osx-installer/downloads/list git-osx-installer]
 
 == Getting and installing documentation ==
 You can find all the plain text documentation in the git source tree's [http://www.kernel.org/git/?p=git/git.git;a=tree;f=Documentation Documentation/] directory.
