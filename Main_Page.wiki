@@ -15,20 +15,6 @@ Welcome to the Git wiki web site. This wiki is a community effort to provide an 
 
 [[GitDocumentation:Git Documentation]]
 
-== Git Documentation ==
-* Git [http://www.kernel.org/pub/software/scm/git/docs manual page] - Online version bundled with Git. (It's the informations that shows up using the command <i>man git</i>)
-* [http://www.kernel.org/pub/software/scm/git/docs/user-manual.html Git User's Manual] - Online version bundled with Git
-* [http://www.kernel.org/pub/software/scm/git/docs/tutorial.html A tutorial introduction to git] and [http://www.kernel.org/pub/software/scm/git/docs/tutorial-2.html A tutorial introduction to git: part two] - Online version bundled with Git
-* [http://www.kernel.org/pub/software/scm/git/docs/everyday.html Everyday Git, with 20 commands or so] - Online version bundled with Git
-* Git [[QuickStart]]
-* Git for [http://www.kernel.org/pub/software/scm/git/docs/cvs-migration.html CVS users] - Online version bundled with Git
-== User contributed Documentation ==
-* [http://www-cs-students.stanford.edu/~blynn/gitmagic/ Git magic]
-* [http://eagain.net/articles/git-for-computer-scientists/ Git for computer scientists]
-* Carl Worth's [http://git-users.googlegroups.com/web/gitbasic.pdf?gda=vTVP7z0AAACRcUWZoNoqHn0MmsB4ogNRG1-Ifi4K28KdwtNliqLAWGG1qiJ7UbTIup-M2XPURDT86Y2dpGqz5OGwRQhHT1rr A tour of git: the basics] (PDF book)
-* Git wikibook: [http://en.wikibooks.org/wiki/Source_Control_Management_With_Git Source Control Management With Git]
-* [http://jonas.iki.fi/git_guides/HTML/git_guide Git in a Nutshell]
-* [http://jonas.iki.fi/git_guides/HTML/CVS2git CVS to Git transition guide]
 == Git Community Support ==
 * See the [[GitCommunity]] page for mailing list and IRC information.
 * See the [[GitDocumentation]] page for an overview of git related documentation.
