@@ -12,8 +12,9 @@
  -->
 = Git Wiki Homepage =
 Welcome to the [[Git]] wiki web site. This wiki is a community effort to provide an accurate source of information for all things related to [http://git.or.cz/ Git]. Make sure to visit the Git website for current updates and information. The Git [http://repo.or.cz/r/git-homepage.git web site source] is also managed using Git and can be [http://repo.or.cz/w/git-homepage.git viewed using gitweb]. Gitweb is included in the Git software. The maintainers of the Git website would love patches for improving the website. It's a great way to try out Git. If you come across anything in this wiki or the Git homepage that needs to be fixed; help yourself and fix it. The more people who help work on this wiki the better this site will serve Git users. Think of this site as a Wikipedia for Git. For information on editing and using this wiki visit [[UsingWiki]] page.
+
 {| border="1" cellpadding="2" cellspacing="0"
-| <tablewidth="80%" tablealign="center" tablestyle="TEXT-ALIGN: center">[[Installation]] 
+| <tablewidth="80%" tablestyle="TEXT-ALIGN: center">[[Installation]] 
 | [http://git.or.cz/gitwiki/InterfacesFrontendsAndTools Git Tools] 
 | 
 |-
@@ -21,32 +22,24 @@ Welcome to the [[Git]] wiki web site. This wiki is a community effort to provide
 | [http://git.or.cz/gitwiki/GitCommunity Git Community Support] 
 | 
 |-
-| [[GitFaq:FAQ]] 
+| [http://git.or.cz/gitwiki/News News] 
 | [http://git.or.cz/gitwiki/GitProjects Projects using Git] 
 | 
 |-
+| [[GitFaq:FAQ]] 
+| [[GitHosting:Git Hosting]] 
+| 
+|-
+|  
+|  
+| 
+|-
 | [[GitComparison:Git Compared]] 
-|  
-| 
-|-
-|  
-|  
-| 
-|-
-|  
 | [[GitLinks]] 
 | 
 |}
 
-* 
-* [[GitBenchmarks]] shows how Git performs and how compares to other version control systems.
-== Projects using Git ==
-Projects that use [[Git]] for their source code management are listed in [[GitProjects]].[[BR]] If you search a place to host your git repository, take a look at [[GitHosting]] page.
-
-== Other pages ==
-* [[WindowsInstall]] tells how to install Git on MS Windows.
-* Check out [[GitRelatedLogos]].
-* Read [[GitSurvey2006:Git User's Survey 2006]] results; check [[GitSurveyData]] for survey raw data.
+== Read Git User's Survey 2006 results; check [[GitSurveyData]] for survey raw data. ==
 * Read [[GitSurvey2007:Git User's Survey 2007]] results; check attachment:[[GitSurvey]]2007/surveydata.csv for survey raw data.
 * See a comparsion between Git and Subversion in [[GitSvnComparsion]].
 * Ideas and thoughts on [[PatchManagement]].
