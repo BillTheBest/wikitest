@@ -4,15 +4,14 @@ If you have already have Git installed (many new Linux distributions come with g
 
 <pre><nowiki>
 git clone git://git.kernel.org/pub/scm/git/git.git</nowiki></pre>
- If you have problems connecting (Git uses port 9418), you can try to access the repository over the HTTP protocol (this method is considerably slower but works even behind firewalls and such):
-
+* If you have problems connecting (Git uses port 9418), you can try to access the repository over the HTTP protocol (this method is considerably slower but works even behind firewalls and such):
 <pre><nowiki>
 git clone http://www.kernel.org/pub/scm/git/git.git
 </nowiki></pre>
-The <b>main</b> place to get Git is at: http://www.kernel.org/pub/software/scm/git/  You can also use one of many [http://www.kernel.org/mirrors/ kernel.org mirrors].
+The <b>main</b> place to get Git is at: http://www.kernel.org/pub/software/scm/git/ You can also use one of many [http://www.kernel.org/mirrors/ kernel.org mirrors].
 
 == Windows Systems ==
-Git can be obtained by using the [http://www.cygwin.com/ Cygwin] system and installing Git from within Cygwin. Another convenient choice is [http://code.google.com/p/msysgit/ msysGit]. The installer can be obtained [http://code.google.com/p/msysgit/downloads/list here]. Running Git on Windows is still in its infancy but it is improving rapidly every day.
+Git can be obtained by using the [http://www.cygwin.com/ Cygwin] system and installing Git from within Cygwin. Another convenient choice is [http://code.google.com/p/msysgit/ msysGit]. The installer can be obtained [http://code.google.com/p/msysgit/downloads/list here]. Running Git on Windows is still in its infancy but it is improving rapidly every day. See [[WindowsInstall]] for more information.
 
 == OS X ==
 Git for the OS X is installed by using the [http://code.google.com/p/git-osx-installer/downloads/list git-osx-installer]
@@ -43,6 +42,6 @@ $ git tar-tree man > git-man.tar
 $ git tar-tree html > git-html.tar</nowiki></pre>
 to easily extract the documentation.
 
-For people on OS X (and on distributions that do not manage XML catalog files automatically), write-up by Steven Grimm may be helpful: http://article.gmane.org/gmane.comp.version-control.git/35565 [[WindowsInstall]] tells how to install Git on MS Windows.
+For people on OS X (and on distributions that do not manage XML catalog files automatically), write-up by Steven Grimm may be helpful: http://article.gmane.org/gmane.comp.version-control.git/35565
 
 __NOTOC__
