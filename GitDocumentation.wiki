@@ -1,172 +1,93 @@
-
-== Git Documentation ==
+= Git Documentation =
 * Git [http://www.kernel.org/pub/software/scm/git/docs manual page] - Online version bundled with Git. (It's the informations that shows up using the command <i>man git</i>)
 * [http://www.kernel.org/pub/software/scm/git/docs/user-manual.html Git User's Manual] - Online version bundled with Git
 * [http://www.kernel.org/pub/software/scm/git/docs/tutorial.html A tutorial introduction to git] and [http://www.kernel.org/pub/software/scm/git/docs/tutorial-2.html A tutorial introduction to git: part two] - Online version bundled with Git
 * [http://www.kernel.org/pub/software/scm/git/docs/everyday.html Everyday Git, with 20 commands or so] - Online version bundled with Git
-* Git [[QuickStart]]
 * Git for [http://www.kernel.org/pub/software/scm/git/docs/cvs-migration.html CVS users] - Online version bundled with Git
-== User contributed Documentation ==
+= User contributed Documentation =
 * [http://www-cs-students.stanford.edu/~blynn/gitmagic/ Git magic]
 * [http://eagain.net/articles/git-for-computer-scientists/ Git for computer scientists]
 * Carl Worth's [http://git-users.googlegroups.com/web/gitbasic.pdf?gda=vTVP7z0AAACRcUWZoNoqHn0MmsB4ogNRG1-Ifi4K28KdwtNliqLAWGG1qiJ7UbTIup-M2XPURDT86Y2dpGqz5OGwRQhHT1rr A tour of git: the basics] (PDF book)
 * Git wikibook: [http://en.wikibooks.org/wiki/Source_Control_Management_With_Git Source Control Management With Git]
 * [http://jonas.iki.fi/git_guides/HTML/git_guide Git in a Nutshell]
 * [http://jonas.iki.fi/git_guides/HTML/CVS2git CVS to Git transition guide]
+* [http://linux.yyz.us/git-howto.html The Kernel Hacker's Git Tutorial] by Jeff Garzik -Offline? (edit if works)
+* [http://www.jdl.com The Git Papers] by Jon Loeliger -Offline? (edit if works)
+* [http://git.rsbx.net/ Documents and Notes] by Raymond S Brand -Out of date? (edit if not)
 
-----
-<b>Table of contents:</b>
+= Documentation on this Wiki =
+* Git [[QuickStart]]
+= Non-english Language Documentation =
+== Chinese ==
+* http://www.linuxsir.org/main/doc/git/gittutorcn.htm or http://www.bitsun.com/documents/gittutorcn.htm
+** translation for official tutorials
+* http://www.linuxsir.org/bbs/showthread.php?t=281294 or http://www.newsmth.net/bbscon.php?bid=392&id=422519
+* http://my.opera.com/dahema/blog/show.dml/171011
+* http://www-128.ibm.com/developerworks/cn/linux/l-git/index.html
+Check the pages [[CategoryGitDocumentation:[[GitDocumentation]] category]] on this wiki.
 
-<<<!-- ! TOC here -->(2)>>
-----
-
-= Tutorials =
-== Getting started ==
-
-If you are new to [[Git]], here are some essential documents that will
-give you an introduction to the basic workflows.
-
-* [[QuickStart]] covers most common used commands.
-* [http://www.kernel.org/pub/software/scm/git/docs/user-manual.html Git User's Manual]
-* For a quick start, [http://www.kernel.org/pub/software/scm/git/docs/tutorial.html the tutorial]
- covers the basics.
-
-* See [http://www.kernel.org/pub/software/scm/git/docs/everyday.html the Everyday Git handbook]
- for a useful minimum set of commands depending on your style of git usage.
-
-* CVS users may also want to read [http://www.kernel.org/pub/software/scm/git/docs/cvs-migration.html git for CVS users].
-* For newbies, [http://www-cs-students.stanford.edu/~blynn/gitmagic/ Git Magic] explains Git in a comprehensible way.
-* Computer scientists might want to read [http://eagain.net/articles/git-for-computer-scientists/ Git for Computer Scientists].
-* Carl Worth is making [http://cworth.org/hgbook-git/ an effort to translate the book]
- _[http://hgbook.red-bean.com/ Distributed revision control with Mercurial]_ by Bryan O'Sullivan to Git.
-
-* Evan Carroll started Git wikibook: [http://en.wikibooks.org/wiki/Source_Control_Management_With_Git Source Control Management With Git]
-* Basic git in plain English: [http://jonas.iki.fi/git_guides Git in a Nutshell] ([http://jonas.iki.fi/git_guides/HTML/git_guide HTML]) ([http://jonas.iki.fi/git_guides/git_guide.pdf PDF])
-* Migrating from CVS to git: [http://jonas.iki.fi/git_guides CVS to git migration guide]  ([http://jonas.iki.fi/git_guides/HTML/CVS2git HTML]) ([http://jonas.iki.fi/git_guides/CVS2git.pdf PDF])
-
-== Other relevant tutorials ==
-
-* [[Cogito]] also has an
- [http://www.kernel.org/pub/software/scm/cogito/docs/introduction.html introduction]
- and a [http://www.kernel.org/pub/software/scm/cogito/docs/cg-ref.html quick reference] of
- frequently used commands.
-
-* [http://linux.yyz.us/git-howto.html The Kernel Hacker's Git Tutorial]
- by Jeff Garzik may be useful.
-
-* [http://www.loria.fr/~molli/pmwiki/pmwiki.php/Main/See] pdf version of Git User's Manual (search for it)
-* [http://www.jdl.com The Git Papers] by Jon Loeliger are excellent sources for git 
- information.
-
-* [http://git.rsbx.net/ Documents and Notes] by Raymond S Brand has some technical info
- and some proposals about how to get things done.
-
-* [http://marc.theaimsgroup.com/?l=git&m=113402372012587&w=4 git for the confused]
- a great explanation and summary of all git commands, some are out of date but still valuable.
-
-* [http://wincent.com/knowledge-base/Category:Git CategoryGit] at [http://wincent.com/knowledge-base/Main_Page Knowledge Base] wiki by Wincent Colaiuta.
-* Check [[GitLinks]] for further info (including git-related info on pages of projects using git). 
-* Some Chinese git tutorials: 
-** [http://www.linuxsir.org/main/doc/git/gittutorcn.htm] or [http://www.bitsun.com/documents/gittutorcn.htm]
-      translation for official tutorials
-* [http://www.linuxsir.org/bbs/showthread.php?t=281294] or [http://www.newsmth.net/bbscon.php?bid=392&id=422519]
-* [http://my.opera.com/dahema/blog/show.dml/171011] 
-* [http://www-128.ibm.com/developerworks/cn/linux/l-git/index.html]
-
-= Git Wiki =
-
-Check the pages [[CategoryGitDocumentation|[[GitDocumentation]] category]] on this wiki.
-
-* Git glossary ([[GitGlossary|[[GitWiki]] version]], [http://www.kernel.org/pub/software/scm/git/docs/glossary.html HTML version], [http://www.kernel.org/git/?p=git/git.git;a=blob;hb=HEAD;f=Documentation/glossary.txt source via gitweb]) offers an explanation of terminology used.
+* Git glossary ([[GitGlossary:[[GitWiki]] version]], [http://www.kernel.org/pub/software/scm/git/docs/glossary.html HTML version], [http://www.kernel.org/git/?p=git/git.git;a=blob;hb=HEAD;f=Documentation/glossary.txt source via gitweb]) offers an explanation of terminology used.
 * [[GitCheatSheet]] (see also [[GitLinks#head-6af01ffee87e2fae45f78f5302e1d05b9f773a65:[[GitLinks]]]])
-* An overview of the [[RevisionSpecification]] used by the `git log` command and
- several repository visualizers.
-* A bit about [[GraftPoint|[[GraftPoints]]]]; when and how to use them.
+* An overview of the [[RevisionSpecification]] used by the <code><nowiki>git log</nowiki></code> command and several repository visualizers.
+* A bit about [[GraftPoint:[[GraftPoints]]]]; when and how to use them.
 * Introduction to git's [[IndexFile]] and [[WhatIsTheIndex]] page.
 * [[BranchesInGit]] is an explanation about how Git understand branches.
-* Use common [[CommitMessageConventions]], which are used by some of Git tools. 
+* Use common [[CommitMessageConventions]], which are used by some of Git tools.
 * [[SubprojectSupport]] in Git.
 * [[HowToWriteTests]] describes how to write test cases for git.
-
 = Man pages =
+Each git command is documented in it's own man page. If the man pages are installed on your local system running:
 
-Each git command is documented in it's own man page. If the man pages are installed
-on your local system running: <pre><nowiki>
+<pre><nowiki>
 $ man git-log
 </nowiki></pre>
-will give you the man page for the git log command.
-[http://www.kernel.org/pub/software/scm/git/docs/git.html git(7)]
-serves as an overview of git commands and man pages.
+will give you the man page for the git log command. [http://www.kernel.org/pub/software/scm/git/docs/git.html git(7)] serves as an overview of git commands and man pages.
 
-Online versions of the [[Git]] man pages corresponding to the
-latest development version can be found at:
+Online versions of the [[Git]] man pages corresponding to the latest development version can be found at:
 
 * http://www.kernel.org/pub/software/scm/git/docs/
-
 Similarly, [[Cogito]] man pages are available from:
 
 * http://www.kernel.org/pub/software/scm/cogito/docs/
-
 = Howtos and technical documents =
-
-Several howtos exist that describes the workflow for accomplishing
-various specific tasks, such as using the post-update hook to rebuild
-documentation. Note, these are typically derived from discussions
-on the git mailing list and only available in plain text.
+Several howtos exist that describes the workflow for accomplishing various specific tasks, such as using the post-update hook to rebuild documentation. Note, these are typically derived from discussions on the git mailing list and only available in plain text.
 
 * http://kernel.org/pub/software/scm/git/docs/howto/
-
-There also exists a handful of technical documents that describes
-lowlevel details on how different parts of git operates. These are
-mostly useful for developers. You can find them in the
-[http://repo.or.cz/w/git.git?a=tree;f=Documentation/technical;hb=HEAD Documentation/technical]
-directory in the git source tree.
+There also exists a handful of technical documents that describes lowlevel details on how different parts of git operates. These are mostly useful for developers. You can find them in the [http://repo.or.cz/w/git.git?a=tree;f=Documentation/technical;hb=HEAD Documentation/technical] directory in the git source tree.
 
 = Git's Documentation To-Do list =
-
-If you wish that something were documented better (or at all), or would
-like to contribute to Git's documentation, you should check the
-[[Documentation To-Do List]] to see whether your wish has already been
-mentioned, or to find something to write about.
+If you wish that something were documented better (or at all), or would like to contribute to Git's documentation, you should check the [[Documentation To-Do List]] to see whether your wish has already been mentioned, or to find something to write about.
 
 = Getting and installing documentation =
+You can find all the plain text documentation in the git source tree's [http://www.kernel.org/git/?p=git/git.git;a=tree;f=Documentation Documentation/] directory.
 
-You can find all the plain text documentation in the git source tree's
-[http://www.kernel.org/git/?p=git/git.git;a=tree;f=Documentation Documentation/]
-directory.
+In order to build the HTML version of the documentation you need to have [[AsciiDoc]] version 7.0 or greater installed. Man pages also require that xmlto is installed.
 
-In order to build the HTML version of the documentation you need to have [[AsciiDoc]]
-version 7.0 or greater installed. Man pages also require that xmlto is installed.
+To build and install documentation from the git source code simply run:
 
-To build and install documentation from the git source code simply
-run: <pre><nowiki>
+<pre><nowiki>
 $ make install-doc
 </nowiki></pre>
+If you want to avoid having to install the documentation tools, autogenerated documentation is available in separate tarballs from:
 
-If you want to avoid having to install the documentation tools,
-autogenerated documentation is available in separate tarballs from:
-* http://www.kernel.org/pub/software/scm/git/ 
+* http://www.kernel.org/pub/software/scm/git/
 beginning with the 1.4.0 version, as:
+
 * http://www.kernel.org/pub/software/scm/git/git-htmldocs-1.4.0.tar.gz
 * http://www.kernel.org/pub/software/scm/git/git-manpages-1.4.0.tar.gz
-Also, many distributions bundle pregenerated documentation with either
-the git-core package or in a separate git-doc package.
+Also, many distributions bundle pregenerated documentation with either the git-core package or in a separate git-doc package.
 
-If you already track development in the public git project repository, you may also choose
-to fetch the autogenerated HTML and man pages from the <code><nowiki>html</nowiki></code> and <code><nowiki>man</nowiki></code>
-branches. Read [http://www.kernel.org/git/?p=git/git.git;a=blob;hb=HEAD;f=INSTALL INSTALL] 
-for more detailed documentation (at the end of the file). Once you have fetched
-the branches, you can use:
+If you already track development in the public git project repository, you may also choose to fetch the autogenerated HTML and man pages from the <code><nowiki>html</nowiki></code> and <code><nowiki>man</nowiki></code> branches. Read [http://www.kernel.org/git/?p=git/git.git;a=blob;hb=HEAD;f=INSTALL INSTALL] for more detailed documentation (at the end of the file). Once you have fetched the branches, you can use:
+
 <pre><nowiki>
 $ git tar-tree man  > git-man.tar
 $ git tar-tree html > git-html.tar
 </nowiki></pre>
 to easily extract the documentation.
 
-For people on OS X (and on distributions that do not manage XML catalog files automatically), write-up by Steven Grimm may be helpful: [http://article.gmane.org/gmane.comp.version-control.git/35565]
+For people on OS X (and on distributions that do not manage XML catalog files automatically), write-up by Steven Grimm may be helpful: http://article.gmane.org/gmane.comp.version-control.git/35565
 
 ----
-[[CategoryGitDocumentation]]
-[[CategoryGitHomepage]] ([http://git.or.cz/#documentation Documentation])
+[[CategoryGitDocumentation]] [[CategoryGitHomepage]] ([http://git.or.cz/#documentation Documentation])
 
 __NOTOC__
