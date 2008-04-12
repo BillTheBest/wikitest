@@ -1,3 +1,5 @@
 Installations stuff will go here
 
+[[WindowsInstall]] tells how to install Git on MS Windows.
+
 __NOTOC__
