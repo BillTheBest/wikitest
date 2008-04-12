@@ -36,6 +36,8 @@ All documentation residing on this wiki is put in the [[CategoryGitDocumentation
 * Use common [[CommitMessageConventions]], which are used by some of Git tools.
 * [[SubprojectSupport]] in Git.
 * [[HowToWriteTests]] describes how to write test cases for git.
+* Ideas and thoughts on [[PatchManagement]].
+* [[UsingGitWithOtherVCSTools]].
 == Man pages ==
 Each git command is documented in it's own man page. If the man pages are installed on your local system running:
 
