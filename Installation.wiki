@@ -10,6 +10,8 @@ git clone http://www.kernel.org/pub/scm/git/git.git
 </nowiki></pre>
 The <b>main</b> place to get Git is at: http://www.kernel.org/pub/software/scm/git/ You can also use one of many [http://www.kernel.org/mirrors/ kernel.org mirrors].
 
+The latest install directions are included with git under INSTALL and the most current version online is [http://git.kernel.org/?p=git/git.git;a=blob_plain;f=INSTALL;hb=master here].
+
 == Windows Systems ==
 Git can be obtained by using the [http://www.cygwin.com/ Cygwin] system and installing Git from within Cygwin. More info at [[CygwinBinaryInstall]]. Another convenient choice is [http://code.google.com/p/msysgit/ msysGit]. If you would like to help develop Git on windows you need to [http://code.google.com/p/msysgit/ install the Git Development Environment for Windows]. Running Git on Windows is still in its infancy but it is improving rapidly every day.
 
