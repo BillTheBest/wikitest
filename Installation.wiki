@@ -11,16 +11,16 @@ git clone http://www.kernel.org/pub/scm/git/git.git
 The <b>main</b> place to get Git is at: http://www.kernel.org/pub/software/scm/git/ You can also use one of many [http://www.kernel.org/mirrors/ kernel.org mirrors].
 
 == Windows Systems ==
-Git can be obtained by using the [http://www.cygwin.com/ Cygwin] system and installing Git from within Cygwin. Another convenient choice is [http://code.google.com/p/msysgit/ msysGit]. If you would like to help develop Git on windows  you need to  [http://code.google.com/p/msysgit/ install the Git Development Environment for Windows]. The installer can be obtained [http://code.google.com/p/msysgit/downloads/list here]. Running Git on Windows is still in its infancy but it is improving rapidly every day. See [[WindowsInstall]] for more information.
+Git can be obtained by using the [http://www.cygwin.com/ Cygwin] system and installing Git from within Cygwin. More info at [[CygwinBinaryInstall]]. Another convenient choice is [http://code.google.com/p/msysgit/ msysGit]. If you would like to help develop Git on windows you need to [http://code.google.com/p/msysgit/ install the Git Development Environment for Windows]. The installer can be obtained [http://code.google.com/p/msysgit/downloads/list here]. Running Git on Windows is still in its infancy but it is improving rapidly every day. See [[WindowsInstall]] for more information.
 
 If you have the main development team on linux/unix, and peripheral developers or translators on Windows, consider using <code><nowiki>git-cvsserver</nowiki></code> to give those users read or read/write access to the GIT tree via the CVS protocol. Committers using <code><nowiki>git-cvsserver</nowiki></code> have some limits: they cannot branch, tag or merge. On the other hand, git-cvsserver works well with Eclipse, TortoiseCVS and other easy-to-use CVS clients. git-svn would also work for the same purpose.
-
-== OS X ==
-Git for the OS X is installed by using the [http://code.google.com/p/git-osx-installer/downloads/list git-osx-installer]
 
 == Others ==
 * EclipseIDE-based GIT client, based on a pure [http://repo.or.cz/w/egit.git Java implementation] of GIT's internals.
 * Windows Explorer extension ([http://code.google.com/p/msysgit/wiki/GitCheetah Git-Cheetah])
+== OS X ==
+Git for the OS X is installed by using the [http://code.google.com/p/git-osx-installer/downloads/list git-osx-installer]
+
 == Getting and installing documentation ==
 You can find all the plain text documentation in the git source tree's [http://www.kernel.org/git/?p=git/git.git;a=tree;f=Documentation Documentation/] directory.
 
