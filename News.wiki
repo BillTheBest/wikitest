@@ -1,5 +1,20 @@
-* Read [[GitSurvey2006:Git User's Survey 2006]]results; check attachment:[[GitSurvey]]2006/surveydata.csv  for survey raw data.
-* Read [[GitSurvey2007:Git User's Survey 2007]] results; check attachment:[[GitSurvey]]2007/surveydata.csv for survey raw data.
-* Google [[SoC2007Ideas:Summer of Code 2007]] and Google [[SoC2008Ideas:Summer of Code 2008]] and project ideas.
+== A collection of news ==
+Add anything that would be considered news relating to Git here. If the information would only be relevent for a breif period it's probably news. If the information is usefull for a long time it's probably not news and should go somewhere else in this wiki. Feel free to add stuff here but please sort this page by date with newest on top!
+
+Format: (Month day): (News title as a link)
+
+== 2008 ==
+April 10: [http://www.github.com GitHub] launches and ends beta opening doors for anyone looking for git hosting
+
+April 08: Git Version 1.5.5 now [http://kernel.org/pub/software/scm/git/ available]
+
+April: Git joins the popular Google [[SoC2008Ideas:Summer of Code 2008]]
+
+== History ==
+News so old it's historical. See also [[GitHistory]].
+
+* [[GitSurvey2007:Git User's Survey 2007]] attachment:[[GitSurvey]]2007/surveydata.csv
+* Read [[GitSurvey2006:Git User's Survey 2006]]results ( attachment:[[GitSurvey]]2006/surveydata.csv for survey raw data)
+* Google [[SoC2007Ideas:Summer of Code 2007]]
 
 __NOTOC__
