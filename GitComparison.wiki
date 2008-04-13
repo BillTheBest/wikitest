@@ -1,4 +1,4 @@
-= A collection of how Git rocks compared to other version control software: =
+= A collection of how Git compares to other version control software: =
 == Git Wiki comparisons: ==
 * [[GitBenchmarks]]
 * [[GitSvnComparsion:[[GitSvnComparison]]]]
