@@ -1,17 +1,12 @@
-<b>A collection of how Git rocks compared to other version control software:</b>
-
-Wiki comparisons:
-
+= A collection of how Git rocks compared to other version control software: =
+== Wiki comparisons: ==
 * [[GitBenchmarks]]
 * [[GitSvnComparsion]]
-<b>Comparisons done by others</b>
-
-<b>VS SVN</b>
-
-* [http://mjtsai.com/blog/2007/07/15/subversion-to-git/ Michael Tsai]
-* [http://utsl.gen.nz/talks/git-svn/intro.html Sam Vilain]
-VS Hg (Mercurial)
-
+= Comparisons done by others: =
+== VS SVN ==
+* By [http://mjtsai.com/blog/2007/07/15/subversion-to-git/ Michael Tsai]
+* By [http://utsl.gen.nz/talks/git-svn/intro.html Sam Vilain]
+== VS Hg (Mercurial) ==
 * By [http://tytso.livejournal.com/29467.html Ted Tso]
 * By [http://www.jukie.net/~bart/blog/git-vs-hg Bart Trojanowski]
 
