@@ -31,5 +31,10 @@
 * Git Vs SVN by [http://utsl.gen.nz/talks/git-svn/intro.html Sam Vilain]
 * Git Vs Hg by [http://tytso.livejournal.com/29467.html Ted Tso]
 * Git Vs Hg by [http://www.jukie.net/~bart/blog/git-vs-hg Bart Trojanowski]
+== SCMs comparisons not including Git ==
+* [http://better-scm.berlios.de/comparison/ Better SCM Initiative: Comparison] by Shlomi Fish (includes Darcs, Mercurial, Monotone but not Git/Cogito).
+* [http://wiki.gnuarch.org/SubVersionAndCvsComparison Subversion and CVS Comparison], includes Aegis, Arch, CVS, Subversion, SVK briefly compared table.
+* [http://www.onlamp.com/pub/a/onlamp/2004/01/29/scm_overview.html The New Breed of Version Control Systems] by Shlomi Fish, at O'Reilly ONLamp (CVS, Subversion, Arch, Open<code><nowiki></nowiki></code>CM, Aegis, Monotone, Bit<code><nowiki></nowiki></code>Keeper).
+* [http://blog.mwolson.org/tech/why_i_dislike_subversion.html Why I dislike Subversion] on [http://blog.mwolson.org/ Michael Olson blog] <i>(more of a rant than comparison)</i>.
 
 __NOTOC__
