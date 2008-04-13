@@ -22,7 +22,7 @@ All documentation residing on this wiki is put in the [[CategoryGitDocumentation
 * Using common [[CommitMessageConventions]]
 * [[SubprojectSupport]] in Git
 * Ideas and thoughts on [[PatchManagement]]
-* * [[HowToWriteTests]] describes how to write test cases for git
+* [[HowToWriteTests]] describes how to write test cases for git
 
 == User contributed Documentation ==
 * [http://www-cs-students.stanford.edu/~blynn/gitmagic/ Git magic]
