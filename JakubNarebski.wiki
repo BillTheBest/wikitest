@@ -1,3 +1,5 @@
 Hey what's your email? Noticed that your quite active here and maybe we could discuss ideas? 
 
+* My email is jnareb@gmail.com. We could discuss how we would want Git Wiki to look like... or we can use git mailing list git@vger.kernel.org.  By the way, I think it would be better to use Text Mode to edit pages, as it looks like GUI mode uses default [[MoinMoin]] syntax, and it clashes in some cases with installed Wikipedia-like (MediaWiki) syntax plugin; for example all macros like table of contents or line break, or anchor, gets broken.
+
 __NOTOC__
