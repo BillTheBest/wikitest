@@ -47,4 +47,7 @@ Again, git is intelligent about what to show you upon a <code><nowiki>git diff</
 
 Now you know what the index is good for.
 
+----
+[[CategoryGitDocumentation]]
+
 __NOTOC__
