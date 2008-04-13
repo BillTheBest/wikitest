@@ -58,5 +58,9 @@ The approach in pg 0.1.7 of using merge commits, while allowing to track the ful
 [[StGit]] (since 0.11) tracks the history of each patch in a special "log branch".  It is more lightweight than the pg approach, since they do not interfere with the stack itself, but are still of limited interest, since they too get poluted by changes in patches down the stack.
 
 === What's still missing ===
+Todo
+
+----
+[[CategoryGitDocumentation]]
 
 __NOTOC__
