@@ -38,6 +38,11 @@ Welcome to the [[Git]] wiki web site. This wiki is a community effort to provide
 | 
 |}
 
+== Good places to start developing Git would be: ==
+* [[Janitor]]
+* [[ToDo]]
+* [[Wishlist]]
+
 Git is not to be confused with at least these two unrelated projects which also provide commands named git. These should be uninstalled (or renamed) to use this git.
 
 * [http://hulubei.net/tudor/git/ Git (GNU Interactive Tools)] is a set of browsing and viewing tools
