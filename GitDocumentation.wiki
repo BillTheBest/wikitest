@@ -33,7 +33,7 @@ All documentation residing on this wiki is put in the [[CategoryGitDocumentation
 == User contributed Documentation ==
 * [http://www-cs-students.stanford.edu/~blynn/gitmagic/ Git magic]
 * [http://eagain.net/articles/git-for-computer-scientists/ Git for computer scientists]
-* Carl Worth's [http://git-users.googlegroups.com/web/gitbasic.pdf?gda=vTVP7z0AAACRcUWZoNoqHn0MmsB4ogNRG1-Ifi4K28KdwtNliqLAWGG1qiJ7UbTIup-M2XPURDT86Y2dpGqz5OGwRQhHT1rr A tour of git: the basics] (PDF book)
+* Carl Worth's [http://cworth.org/hgbook-git/tour/ A tour of git: the basics] <b>Recommended</b>
 * Git wikibook: [http://en.wikibooks.org/wiki/Source_Control_Management_With_Git Source Control Management With Git]
 * [http://jonas.iki.fi/git_guides/HTML/git_guide Git in a Nutshell]
 * [http://jonas.iki.fi/git_guides/HTML/CVS2git CVS to Git transition guide]
