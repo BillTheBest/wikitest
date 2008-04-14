@@ -14,7 +14,7 @@ All documentation residing on this wiki is put in the [[CategoryGitDocumentation
 
 * Git glossary ([[GitGlossary:[[GitWiki]] version]], [http://www.kernel.org/pub/software/scm/git/docs/glossary.html HTML version], [http://www.kernel.org/git/?p=git/git.git;a=blob;hb=HEAD;f=Documentation/glossary.txt source via gitweb])
 * Git [[QuickStart]]
-* [[GitCheatSheet]] (see also [[GitLinks#head-6af01ffee87e2fae45f78f5302e1d05b9f773a65:[[GitLinks]]]])
+* [[GitCheatSheet]] 
 * An overview of the [[RevisionSpecification]] used by the <code><nowiki>git log</nowiki></code> command and several repository visualizers.
 * [[GraftPoint:[[GraftPoints]]]]; when and how to use them
 * Introduction to git's [[IndexFile]] and [[WhatIsTheIndex]]
@@ -23,6 +23,12 @@ All documentation residing on this wiki is put in the [[CategoryGitDocumentation
 * [[SubprojectSupport]] in Git
 * Ideas and thoughts on [[PatchManagement]]
 * [[HowToWriteTests]] describes how to write test cases for git
+* Using Aliases
+* [[GitTips]]
+* [[GitWorkflows]]
+* Doing a graft at [[GraftPoint]]
+* [[IndexCommandQuickref]]
+* The [[RevisionSpecification]]
 
 == User contributed Documentation ==
 * [http://www-cs-students.stanford.edu/~blynn/gitmagic/ Git magic]
