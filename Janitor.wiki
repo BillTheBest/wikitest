@@ -1,6 +1,6 @@
-Here are some simple but usefull tasks that can be done on the Git source code.
+Here are some simple but useful tasks that can be done on the Git source code.
 
-It's a very good way to get started if you want to start working on Git or learning it's internals.
+It's a very good way to get started if you want to start working on Git or learning its internals.
 
 * Convert config code to use "git_config_string"
 
@@ -13,7 +13,7 @@ help_default_format = xstrdup(value);
 return 0;
 </nowiki></pre>
 
-into code like that:
+into code like this:
 
 <pre><nowiki>
 return git_config_string(&help_default_format, var, value);
