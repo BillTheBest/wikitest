@@ -37,5 +37,6 @@ Git is not to be confused with at least these two unrelated projects which also 
 * [http://sourceforge.net/projects/git Git (Guitar/Instrument Tuner)] is a defunct portable guitar tuner.
 ----
 This wiki is powered by MediaWiki.
+[[TestPage:Test page useless]]
 
 __NOTOC__
