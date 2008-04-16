@@ -80,12 +80,12 @@ Miscellaneous git-related links, not including [http://git.or.cz/ Git homepage],
 * [http://www.kernel.org/~junio/200606-tut.pdf Junio C Hamano "Introduction to git"] (PDF) - slides for OSDL Japan Linux Symposium.
 * [http://www.kernel.org/~junio/200607-ols.pdf Junio C Hamano "git – a stupid content tracker"] (PDF) - slides from Ottawa Linux Symposium OLS2006, with full transcripts.
 * [http://pasky.or.cz/ols-cogito/ols-cogito.pdf Petr Baudis "Using Cogito and Git"] (PDF) - slides from Ottawa Linux Symposium OLS2006. Also in [http://pasky.or.cz/ols-cogito/ols-cogito.odp ODP] format.
-* [http://www.jdl.com/OLS/Git_Tutorial.pdf Jon Loeliger "Git Tutorial Tour"] (PDF) - slides from Ottawa Linux Symposium OLS2006.
+* [http://www.jdl.com/papers/Git_Tutorial.pdf Jon Loeliger "Git Tutorial Tour"] (PDF) - slides from Ottawa Linux Symposium OLS2006.
 * [http://h4x0r5.com/~ryan/presentations/git-why.pdf Ryan Anderson "Why a distributed SCM?"] (PDF) - slides from Ubucon
 * [http://h4x0r5.com/~ryan/presentations/git-tutorial.pdf Ryan Anderson "Git - The Distributed SCM"] (PDF) - slides from Penguicon
 * [http://www.ourmedia.org/node/276036 Randal L. Schwartz - "Introduction to Git"] (PDF) - slides from Dec 2006 presentation at [http://www.pdxlinux.org/ Portland Oregon Linux Users Group Advanced Topics meeting].
 * [http://www.jukie.net/~bart/slides/intro-to-git/intro-to-git.pdf Bart Trojanowski - "Introduction to Git"] (PDF) - slides used to teach an  [http://www.jukie.net/~bart/blog/into-to-git-talk-2 intro course].
-* [http://www.jdl.com/papers/BestCollabGit.pdf Jon Loeliger - "Best Collaboration Practices Using Git"] (PDF) - looks like a presentation given at Freescale.
+* [http://www.jdl.com/papers/BestCollabGit.pdf Jon Loeliger - "Best Collaboration Practices Using Git"] (PDF) - A presentation given at the [[MontaVista]] Vision Conference.
 * [http://conferences.oreillynet.com/presentations/os2007/os_vilain.pdf Sam Vilain <sam@vilain net> - "Next Generation Version Control Systems"] (PDF) - slides from 9th OSCON 2007.
 
 == Blogs ==
