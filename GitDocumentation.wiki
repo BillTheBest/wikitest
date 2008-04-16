@@ -39,7 +39,7 @@ All documentation residing on this wiki is put in the [[CategoryGitDocumentation
 * [http://jonas.iki.fi/git_guides/HTML/CVS2git CVS to Git transition guide]
 * An [http://utsl.gen.nz/talks/git-svn/intro.html introduction to git-svn]
 * [http://linux.yyz.us/git-howto.html The Kernel Hacker's Git Tutorial] by Jeff Garzik -Offline? (edit if works)
-* [http://www.jdl.com The Git Papers] by Jon Loeliger -Offline? (edit if works)
+* [http://www.jdl.com/papers The Git Papers] by Jon Loeliger
 * [http://git.rsbx.net/ Documents and Notes] by Raymond S Brand -Out of date? (edit if not)
 * [ftp://ftp.newartisans.com/pub/Git%20from%20the%20bottom%20up.pdf Git from the bottom up] by John Wiegley
 
