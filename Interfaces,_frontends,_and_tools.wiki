@@ -89,7 +89,7 @@
 === PIDA ===
 * [http://pida.co.uk/ PIDA] Integrated development environment supporting GIT, Subversion, Darcs, Mercurial, Monotone, Bazaar-NG (<i>bzr</i>). It allows embedding Vim or emacs. <i>(Python, GTK)</i>
 === [[TextMate]] ===
-* [http://pida.co.uk/ Git-tmBundle] Provides a variety of tools for interacting with Git repositories, such as push, pull, tag, fetch, browse annotations, merge, switching branches, stashing, committing, etc.  <i>(Ruby)</i>
+* [http://github.com/timcharper/git-tmbundle/ Git-tmBundle] Provides a variety of tools for interacting with Git repositories, such as push, pull, tag, fetch, browse annotations, merge, switching branches, stashing, committing, etc.  <i>(Ruby)</i>
 [[Anchor(merge)]]
 
 == Merge tools ==
