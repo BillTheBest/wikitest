@@ -31,6 +31,6 @@ The following items used to be classified as wishes above, but a brave soul or t
 * <code><nowiki>git checkout -f -m</nowiki></code> is meaningless (-f overrides -m), but doesn't complain. (linux at horizon.com)
 * The reflog stuff was often trumpeted in the recent git vs. bzr debate. Why is that very useful functionality buried in a config file option and not just stored by default?  (Carl Worth)
 * Make "git init" an alias for "git init-db". (Nicholas Pitre)
-* Darcs-style "record" to cherry-pick diff-block level changes for a patch (Tom Parker - palfrey at tevp net
+* Darcs-style "record" to cherry-pick diff-block level changes for a patch (Tom Parker - palfrey at tevp net)
 
 __NOTOC__
