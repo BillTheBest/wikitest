@@ -34,7 +34,6 @@ A SSH server, an HTTP server, or the git-daemon. Local networks can also use net
 
 * It seems not everyone thinks that SMBFS is a good idea; several people on #git hold the opinion that SMBFS should not be used with git.
 * See the [http://www.kernel.org/pub/software/scm/git/docs/tutorial.html Git tutorial] for more details.
-* A [http://wiki.u32.net/index.php?title=Git/publishing how-to-publish] document describing http and gitweb.
 
 <<Anchor(empty-dirs)>>
 == Can I add empty directories? ==
