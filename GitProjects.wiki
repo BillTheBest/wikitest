@@ -316,6 +316,10 @@ List does not currently include [[Git]] or git-related tools.
 * Rubinius (alternative Ruby implementation)
 * http://rubini.us/pages/using-git (git documentation)
 * http://git.rubini.us/ (gitweb)
+* Ruby on Rails (The popular MVC framework for Ruby)
+* http://rubyonrails.org/
+* http://github.com/rails/rails/tree/master
+* git://github.com/rails/rails.git (clone URL)
 * Samba (provides file and print services to all manner of SMB/CIFS clients)
 * http://wiki.samba.org/index.php/Using_Git_for_Samba_Development (insn)
 * http://git.samba.org (gitweb)
