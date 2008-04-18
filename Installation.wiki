@@ -1,5 +1,8 @@
 = Installation Help =
 == Installing Git ==
+
+Very funny - the only method given to obtain git is to use git.
+
 If you have already have Git installed (many new Linux distributions come with git), you can get the latest development version via Git itself by using the command:
 
 <pre><nowiki>
