@@ -173,6 +173,16 @@ No. Git has a specific notion of tracked "content", which is basically just the 
 
 = Unexpected behavior =
 
+<<Anchor(git-push non-bare)>>
+== Why won't I see changes in the remote repo after "git push"? ==
+The <code><nowiki>push</nowiki></code> operation is always about propagating the repository history and updating the refs, and never touches the working tree files.  In particular, if you push to update the branch that is checked out in a remote repository the files in the work tree will not be updated.
+
+This is a precautionary design decision.  The remote repository's work tree may have local changes, and there is no way for you, who are pushing into the remote repository, to resolve conflicts between the changes you are pushing and the ones in the work tree.  However, you can easily make a post-update hook to update the working copy of the checked out branch.  The reason for not making this a default example hook is that they only notify the person doing the pushing if there was a problem.  The latest draft post-update hook for this is at [http://utsl.gen.nz/git/post-update], which deals with almost all cases, apart from where there is already a conflicted merge on the remote side (as git-stash cannot currently stash this).  It also fails to work in instances where it could, such as none of the files are actually conflicting.
+
+A quick rule of thumb is to <i>never</i> push into a repository that has a work tree attached to it, until you know what you are doing.
+
+See also the entry (How would I use "git push" to sync out of a firewalled host?) in this FAQ for the proper way to work with push with a repository with a work tree.
+
 <<Anchor(git-version)>>
 == Why git --version is not reporting the "full" version number? ==
 There is a bit of a chicken and egg problem involved. The build procedure wants to have an already installed git to figure out the "full" version number. If you are bootstrapping, make clean and rebuild after you install git once would give you a git binary that knows what version it is.
@@ -187,16 +197,6 @@ If the version you switched to has an earlier (different) version of the <code><
 
 * See [http://marc.theaimsgroup.com/?l=git&m=114917892328066 Linus Torvalds] answer or [http://marc.theaimsgroup.com/?l=git&m=114917892613019 Sean Estabrooks] answer at [[GitCommunity:git mailing list]].
 * If you are using cygwin or OSX, you might have be having issues with case sensitivity. See [http://marc.info/?l=git&w=2&r=1&s=xt_CONNMARK.h&q=b some discussion here].
-
-<<Anchor(git-push non-bare)>>
-== Why won't I see changes in the remote repo after "git push"? ==
-The <code><nowiki>push</nowiki></code> operation is always about propagating the repository history and updating the refs, and never touches the working tree files.  In particular, if you push to update the branch that is checked out in a remote repository the files in the work tree will not be updated.
-
-This is a precautionary design decision.  The remote repository's work tree may have local changes, and there is no way for you, who are pushing into the remote repository, to resolve conflicts between the changes you are pushing and the ones in the work tree.  However, you can easily make a post-update hook to update the working copy of the checked out branch.  The reason for not making this a default example hook is that they only notify the person doing the pushing if there was a problem.  The latest draft post-update hook for this is at [http://utsl.gen.nz/git/post-update], which deals with almost all cases, apart from where there is already a conflicted merge on the remote side (as git-stash cannot currently stash this).  It also fails to work in instances where it could, such as none of the files are actually conflicting.
-
-A quick rule of thumb is to <i>never</i> push into a repository that has a work tree attached to it, until you know what you are doing.
-
-See also the entry (How would I use "git push" to sync out of a firewalled host?) in this FAQ for the proper way to work with push with a repository with a work tree.
 
 <<Anchor(git-push after-rebase)>>
 == Why won't "git push" work after I rebased a branch? ==
@@ -259,6 +259,16 @@ It is recommended (as of 1.5.3) that <code><nowiki>color.diff</nowiki></code> be
 This appears to be an issue with your Cygwin configuration.  Make sure your CYGWIN environment variable doesn't contain 'tty'.
 
 = How do I ... =
+
+<<Anchor(ssh-config)>>
+== How do I specify what ssh key git should use? ==
+This is not really a git question. However, you can edit your ~/.ssh/config file in order to tell ssh what key to use. More information about this is in the [http://www.openbsd.org/cgi-bin/man.cgi?query=ssh_config ssh config manpage]. The short version is that you can specify a custom Host with it's own [[IdentityFile]], like this:
+<pre><nowiki>
+Host GitServer
+  Hostname=git.example.org
+  IdentityFile=~/.ssh/my_cool_key_rsa
+</nowiki></pre>
+Then, you can set up git to use "[[GitServer]]" as the hostname. It will look up the entry and use the specified key and host.
 
 <<Anchor(untrack-file)>>
 == How do I untrack a file? ==
