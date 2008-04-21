@@ -31,8 +31,8 @@ All documentation residing on this wiki is put in the [[CategoryGitDocumentation
 * The [[RevisionSpecification]]
 
 == User contributed Documentation ==
-* Carl Worth's [http://cworth.org/hgbook-git/tour/ A tour of git: the basics] <b>Recommended</b>
-* [ftp://ftp.newartisans.com/pub/Git%20from%20the%20bottom%20up.pdf Git from the bottom up] by John Wiegley <b>Recommended</b>
+* Carl Worth's [http://cworth.org/hgbook-git/tour/ A tour of git: the basics] [http://git-users.googlegroups.com/web/gitbasic.pdf?gda=TjULfjwAAACRcUWZoNoqHn0MmsB4ogNRkdJPXci4pHF-t7wRb-FXv_7_kSc1FlgquWbpkoDUr3jz_JaIg30gP77VRAtzw-G6 Mirror(PDF)] <b>Recommended</b>
+* [ftp://ftp.newartisans.com/pub/Git%20from%20the%20bottom%20up.pdf Git from the bottom up]by John Wiegley [http://groups.google.ca/group/git-users/web/Git+from+the+bottom+up.pdf Mirror(PDF)] <b>Recommended</b>
 * [http://www-cs-students.stanford.edu/~blynn/gitmagic/ Git magic]
 * [http://eagain.net/articles/git-for-computer-scientists/ Git for computer scientists]
 * [http://jonas.iki.fi/git_guides/HTML/git_guide Git in a Nutshell]
