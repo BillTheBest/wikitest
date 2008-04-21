@@ -31,7 +31,6 @@ Welcome to the [[Git]] wiki web site. This wiki is a community effort to provide
 * [[Janitor]]
 * [[ToDo]]
 * [[Wishlist]]
-* [http://www.theoutlets.co.uk/gocompare.com.html Gocompare.com]
 
 == Using this Wiki ==
 * [[UsingWiki]] 
