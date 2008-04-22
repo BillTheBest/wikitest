@@ -345,15 +345,15 @@ longer-running server such as an Apache module. Existing code must
 be modified to return errors rather than terminating the process,
 and memory leaks need to be plugged.
 
-<b>Goal:</b> In addition to the general goal of being able to link libgit.a into external programs that are not exclusively git utilities and have the git code be usable as a well-behaved library, one specific goal given on the [[Soc2007Ideas]] page was: Usable Perl binding that a future gitweb.cgi could take advantage of, rather than repeatedly forking Git processes.
+<b>Goal:</b> In addition to the general goal of being able to link libgit.a into external programs that are not exclusively git utilities and have the git code be usable as a well-behaved library, one specific goal given on the [[SoC2007Ideas]] page was: Usable Perl binding that a future gitweb.cgi could take advantage of, rather than repeatedly forking Git processes.
 <<BR>><b>Language:</b> C
 <<BR>><b>See:</b> The existing work on [http://repo.or.cz/w/git/libgit-gsoc.git libgit-thin] may be relevant; gitster's recent remarks on #git [http://article.gmane.org/gmane.comp.version-control.git/76136 on gmane].
 <<BR>><b>Suggested mentors:</b>
 * Shawn Pearce (gsoc@spearce.org)
 
 = Other Resources =
-
-[[SoC2008Application]]
+* [[SoC2008Application]]
+* [[SoC2008Projects]]
 
 = Other links =
 * [http://www.selenic.com/mercurial/wiki/index.cgi/SummerOfCode Mercurial ideas for GSoC 2008]
