@@ -20,12 +20,18 @@ Welcome to the [[Git]] wiki web site. This wiki is a community effort to provide
 * [[InterfacesFrontendsAndTools:Git Tools]]
 * [[GitDocumentation:Git Documentation]]
 * [[GitCommunity:Git Community Support]] 
-* [[News]] 
 * [[GitProjects:Projects using Git]]
 * [[GitFaq:FAQ]] 
 * [[GitHosting:Git Hosting]] 
 * [[GitLinks]] 
 * [[GitComparison:Git Compared]] 
+
+== News ==
+* April 22: Google summer of code Git projects announced. [[SoC2008Projects:SoC 2008 Git Projects]]
+* April 10: [http://www.github.com GitHub] launches and ends beta opening doors for anyone looking for git hosting
+* April 08: Git Version 1.5.5 now [http://kernel.org/pub/software/scm/git/ available][http://www.kernel.org/pub/software/scm/git/docs/RelNotes-1.5.5.1.txt Release Notes]
+
+[[News:Older news]]
 
 == Good starting places for developing Git would be ==
 * [[Janitor]]
