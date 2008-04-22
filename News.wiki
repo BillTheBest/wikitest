@@ -4,11 +4,6 @@ Add anything that would be considered news relating to Git here. If the informat
 Format: (Month day): (News title as a link)
 
 == 2008 ==
-April 22: Google summer of code Git projects announced. [[SoC2008Projects:SoC 2008 Git Projects]]
-
-April 10: [http://www.github.com GitHub] launches and ends beta opening doors for anyone looking for git hosting
-
-April 08: Git Version 1.5.5 now [http://kernel.org/pub/software/scm/git/ available]
 
 April: Git joins the popular Google [[SoC2008Ideas:Summer of Code 2008]]
 
