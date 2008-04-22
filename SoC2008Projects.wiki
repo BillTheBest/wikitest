@@ -75,13 +75,22 @@ git-gui and/or gitk.
 = Foreign projects =
 == Git plugin for Anjuta IDE ==
 
-Support for git projects in [http://anjuta.sourceforge.net/ Anjuta IDE]
+Support for <i>Git</i> projects in [http://anjuta.sourceforge.net/ Anjuta IDE]
 
 <b>SoC page:</b> [http://code.google.com/soc/2008/gnome/appinfo.html?csaid=674D114D9E574B36 Git Version Control Plugin for the Anjuta IDE] <<BR>>
 <b>Webpage:</b>  [http://live.gnome.org/SummerOfCode2008/Ideas/[[AnjutaGit]] Anjuta GIT plugin] at [http://live.gnome.org/Home live.gnome.org] wiki <<BR>>
 <b>Organization:</b> [http://www.gnome.org/ GNOME] ([http://code.google.com/soc/2008/gnome/about.html organization SoC info]) <<BR>>
 <b>Student:</b> James R. Liggett <<BR>>
 <b>Mentor:</b>  Naba Kumar       <<BR>>
+
+== KDevelop DVCS support ==
+
+The purpose of project is to supply [http://www.kdevelop.org/ KDevelop] with generic DVCS support, implement UI support for VCSs and test its functionality on the example of <i>Git</i>.
+
+<b>SoC page:</b> [http://code.google.com/soc/2008/kde/appinfo.html?csaid=9A4258C09B92FE9E KDevelop DVCS(VCS) support] <<BR>>
+<b>Organization:</b> [http://www.kde.org/ KDE] ([http://code.google.com/soc/2008/kde/about.html organization SoC info]) <<BR>>
+<b>Student:</b> Evgeniy Ivanov <<BR>>
+<b>Mentor:</b>  Oleksandr Dymo <<BR>>
 
 ----
 ----
