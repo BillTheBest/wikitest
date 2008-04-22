@@ -1,5 +1,7 @@
 = Welcome! =
 
+<b>Summer of code projects [[SoC2008Projects:announced for 2008]].</b>
+
 Git has been accepted as a mentoring organization for the 2008 edition of [http://code.google.com/soc/ Google Summer of Code].  This is the second year that the Git community has participated, and we're very excited about the possibilities that this year's GSoC students will bring.
 
 This page contains project ideas culled from the Git user and developer community.  You can get started by reading some project descriptions, and the mailing list thread(s) that spawned them.  Also consider joining the developer mailing list, or finding us on IRC.  Details can be found in [[GitCommunity]].
