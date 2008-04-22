@@ -24,7 +24,7 @@ All documentation residing on this wiki is put in the [[CategoryGitDocumentation
 * Ideas and thoughts on [[PatchManagement]]
 * [[HowToWriteTests]] describes how to write test cases for git
 * Using [[Aliases:Aliases]]
-* [[GitTips]]
+* [[GitTips]] and [[GitFaq]]
 * [[GitWorkflows]]
 * Doing a graft at [[GraftPoint]]
 * [[IndexCommandQuickref]]
