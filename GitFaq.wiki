@@ -664,13 +664,13 @@ between versions, so the index <i>thinks</i> things are newer. It won't touch th
 
 <<Anchor(import-cvs)>>
 == Can I import from CVS? ==
-Yes, use [http://www.kernel.org/pub/software/scm/git/docs/git-cvsimport.html git-cvsimport(1)], which needs [http://www.cobite.com/cvsps/ CVSps] ([http://ydirson.free.fr/en/software/scm/cvsps.html CVSps patches]), or use [http://gitweb.freedesktop.org/?p=users-keithp-parsecvs;a=summary parsecvs], which parses directly <code><nowiki>,v</nowiki></code> files. Yet another solution would be to use [http://cvs2svn.tigris.org/ cvs2svn] to import CVS repository to Subversion, then import from Subversion to Git (at least until cvs2svn is ported to git as e.g. cvs2git) and finally [http://git.or.cz/gitwiki/InterfacesFrontendsAndTools#fromcvs FromCVS toGit] which is a speedy solution with incremental import and branch support, but currently not support normal tags.
+Yes, use [http://www.kernel.org/pub/software/scm/git/docs/git-cvsimport.html git-cvsimport(1)], which needs [http://www.cobite.com/cvsps/ CVSps] ([http://ydirson.free.fr/en/software/scm/cvsps.html CVSps patches]), or use [http://gitweb.freedesktop.org/?p=users-keithp-parsecvs;a=summary parsecvs], which parses directly <code><nowiki>,v</nowiki></code> files. Yet another solution would be to use [http://cvs2svn.tigris.org/cvs2git.html cvs2svn], which can import directly to Git. Lastly, there is also [http://git.or.cz/gitwiki/InterfacesFrontendsAndTools#fromcvs FromCVS toGit], which is a speedy solution with incremental import and branch support, but it currently does not support normal tags.
 * See [http://www.kernel.org/pub/software/scm/git/docs/cvs-migration.html the CVS migration doc] for more examples.
 * See [http://git.or.cz/course/cvs.html Git - CVS Crash Course] on [http://git.or.cz/ Git homepage]
 
 <<Anchor(import-svn)>>
 == Can I import from svn? ==
-Yes, use [http://www.kernel.org/pub/software/scm/git/docs/git-svnimport.html git-svnimport(1)] or [http://git-svn.yhbt.net/git-svn.html git-svn(1)]. Check also <<[[InterfacesFrontendsAndTools]]#git-svnconvert>> (in Ruby) in [[InterfacesFrontendsAndTools]]. There is also an idea to use <code><nowiki>svnadmin dump</nowiki></code> [http://svn.collab.net/repos/svn/trunk/notes/fs_dumprestore.txt "dumpfile" format] as an input for Subversion to Git repository conversion, (similary to what <code><nowiki>parsecvs</nowiki></code> does for CVS repositories).
+Yes, use [http://www.kernel.org/pub/software/scm/git/docs/git-svnimport.html git-svnimport(1)] or [http://git-svn.yhbt.net/git-svn.html git-svn(1)]. Check also [[InterfacesFrontendsAndTools#git-svnconvert:git-svnconvert]] (in Ruby) in [[InterfacesFrontendsAndTools]]. There is also an idea to use <code><nowiki>svnadmin dump</nowiki></code> [http://svn.collab.net/repos/svn/trunk/notes/fs_dumprestore.txt "dumpfile" format] as an input for Subversion to Git repository conversion, (similary to what <code><nowiki>parsecvs</nowiki></code> does for CVS repositories).
 * See [http://git.or.cz/course/svn.html Git - SVN Crash Course] on [http://git.or.cz/ Git homepage]
 
 <<Anchor(import-arch)>>
