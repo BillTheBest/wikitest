@@ -92,6 +92,21 @@ The purpose of project is to supply [http://www.kdevelop.org/ KDevelop] with gen
 <b>Student:</b> Evgeniy Ivanov <<BR>>
 <b>Mentor:</b>  Oleksandr Dymo <<BR>>
 
+== Git# implementation ==
+
+There are <i>two</i> projects dealing with fully managed Git implementation (rewrite in C# / Git applications in .NET), both from [http://www.mono-project.com/ Mono] project.
+
+<b>Organization:</b> [http://www.mono-project.com/ Mono Project] ([http://code.google.com/soc/2008/mono/about.html organization SoC info]) <<BR>>
+<b>Idea:</b> [http://www.mono-project.com/StudentProjects#GIT.23_implementation Class Libraries and Bindings: GIT# implementation]
+
+<b>SoC page:</b> [http://code.google.com/soc/2008/mono/appinfo.html?csaid=E6D8A717A88A7632 Git# Full Managed Git Implementation] <<BR>>
+<b>Student:</b> Hector Enrique Gomez Morales <<BR>>
+<b>Mentor:</b>  Massimiliano Mantione        <<BR>>
+
+<b>SoC page:</b> [http://code.google.com/soc/2008/mono/appinfo.html?csaid=F2E71A4D93E7EF37 Git# implementation] <<BR>>
+<b>Student:</b> Igor Guerrero Fonseca <<BR>>
+<b>Mentor:</b>  Massimiliano Mantione <<BR>>
+
 ----
 ----
 = References =
