@@ -252,6 +252,9 @@ List does not currently include [[Git]] or git-related tools.
 * http://source.ikaaro.org/ (gitweb)
 * KDbg (KDE frontend to GDB)
 * http://www.kdbg.org/
+* Koha (A library catalog system)
+* http://www.koha.org/ (homepage)
+* http://git.koha.org/ (gitweb)
 * LiveCD-tools
 * http://fedoraproject.org/wiki/[[FedoraLiveCD]] (homepage)
 * http://gitweb.freedesktop.org/?p=users/david/livecd-tools.git (gitweb)
