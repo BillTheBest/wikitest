@@ -43,7 +43,7 @@ All documentation residing on this wiki is put in the [[CategoryGitDocumentation
 * [http://linux.yyz.us/git-howto.html The Kernel Hacker's Git Tutorial] by Jeff Garzik 
 * [http://git.rsbx.net/ Documents and Notes] by Raymond S Brand -Out of date? (edit if not)
 * [http://www.golden-gryphon.com/software/misc/packaging.html Packaging Software using Git] is an analysis of schemes people use for packaging.<<BR>>  See also [http://vcs-pkg.org/ vcs-pkg] project, aim of which is to investigate the use of version control for distro package maintenance.
-* John Wiegly's tutorial describing [http://www.newartisans.com/blog_files/git.from.bottom.up.php Git from Bottom Up] (link to PDF)
+* John Wiegley's tutorial describing [http://www.newartisans.com/blog_files/git.from.bottom.up.php Git from Bottom Up] (link to PDF)
 
 == Man pages ==
 Each git command is documented in it's own man page. If the man pages are installed on your local system running:
