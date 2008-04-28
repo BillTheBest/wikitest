@@ -38,6 +38,9 @@ implementing even more improved caching for really large sites
 like kernel.org, repo.or.cz, or anyone else using gitweb for
 a large number of repositories and users.
 
+<b>See also:</b>
+* [http://thread.gmane.org/gmane.comp.version-control.git/77529 |RFD| Gitweb caching] thread, parts 1-3
+
 == Eclipse plugin push support ==
 <b>Student:</b> Marek Zawirski  <<BR>>
 <b>Mentor:</b>  Shawn O. Pearce <<BR>>
