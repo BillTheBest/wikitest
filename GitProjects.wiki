@@ -169,6 +169,9 @@ List does not currently include [[Git]] or git-related tools.
 * Dvalue
 * http://live.gnome.org/DValue/Installation (install, with repo address)
 * http://git.desrt.ca/gitweb/?p=dvalue.git (gitweb)
+* Dyne.org - free software foundry
+* http://dyne.org (homepage)
+* http://git.dyne.org (cgit web interface)
 * Eddt (A directory browsing plugin written in Python for the Gnome text editor, gedit.)
 * http://eddt.mbrio.org/ (index page)
 * git://source.mbrio.org/eddt.git (repository)
