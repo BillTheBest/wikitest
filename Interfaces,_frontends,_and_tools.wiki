@@ -22,6 +22,9 @@
 === [[IsiSetup]] ===
 * [http://www.isisetup.ch/ IsiSetup] (APT for your config) is a utility to help managing your configuration files with Git as backend.  You can rollback changes, explore the history of changes, replicate your configuration, backup your configuration and blame changes to admins.<<BR>> <b>See also:</b> [http://kitenet.net/~joey/code/etckeeper/ etckeeper].
 
+=== Easy Git ===
+* [http://www.gnome.org/~newren/eg/ Easy Git (eg)] Easy Git is a wrapper for Git that is designed to make git easy to learn and use. Easy Git aims to be easily learnable, interchangeable with Git, fully capable, and compatible with Git. Users can move back and forth between using Easy Git and Git itself. 
+
 == Patch-management Interface layers ==
 
 === StGIT (Stacked Git) ===
