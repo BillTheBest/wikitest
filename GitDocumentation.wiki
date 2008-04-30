@@ -32,7 +32,7 @@ All documentation residing on this wiki is put in the [[CategoryGitDocumentation
 
 == User contributed Documentation ==
 * Carl Worth's [http://cworth.org/hgbook-git/tour/ A tour of git: the basics] [http://git-users.googlegroups.com/web/gitbasic.pdf?gda=TjULfjwAAACRcUWZoNoqHn0MmsB4ogNRkdJPXci4pHF-t7wRb-FXv_7_kSc1FlgquWbpkoDUr3jz_JaIg30gP77VRAtzw-G6 Mirror(PDF)] <b>Recommended</b>
-* John Wiegley's tutorial describing [http://www.newartisans.com/blog_files/git.from.bottom.up.php Git From Bottom Up] Link to PDF, [http://git-users.googlegroups.com/web/Gitfromthebottomup.pdf?gda=2MpSQUcAAACRcUWZoNoqHn0MmsB4ogNRavu4w_FVW0HpQoMCvgnraGG1qiJ7UbTIup-M2XPURDTZ2jXlUPg0_u-Gk4ogYVbybao1E7RjQOvxyPZexYyWIg&gsc=cra4-AsAAACL4OvAeDtG6YiJM0Y5-3CE Mirror(PDF)] <b>Recommended</b>
+* John Wiegley's tutorial describing [http://www.newartisans.com/blog_files/git.from.bottom.up.php Git From Bottom Up] Link to PDF, [http://git-users.googlegroups.com/web/gitfrombottomup.pdf?gda=52xMLEQAAACpB0I6kTeoe_gDZwr_Wu3rSzh-BYU3WCJcU16DCLQHrmG1qiJ7UbTIup-M2XPURDRYda-7QfdsxTTX4bqgEJoy1bwkoqS54nAZJJjHLLKkeg Mirror(PDF)] <b>Recommended</b>
 * [http://www-cs-students.stanford.edu/~blynn/gitmagic/ Git magic]
 * [http://eagain.net/articles/git-for-computer-scientists/ Git for computer scientists]
 * [http://jonas.iki.fi/git_guides/HTML/git_guide Git in a Nutshell]
