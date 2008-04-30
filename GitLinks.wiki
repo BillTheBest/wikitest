@@ -113,7 +113,8 @@ Also see [[BlogPosts]] for a collection of blog posts on specific Git usage.
 * [http://wincent.com/a/about/wincent/weblog/archives/development/ Wincent Colaiuta's weblog] (category <b>development</b>, not only about git).
 * [http://versioncontrolblog.com/category/git/ Version Control Blog]: Version control, software configuration management (SCM) (articles tagged <b>GIT</b>). See also [http://versioncontrolblog.com/git-cogito/ Git/Cogito] on the same page.
 * [http://blogs.gnome.org/newren/tag/version-control/ Elijah’s Blog]: Just another GNOME Blogs weblog (posts tagged <b>version control</b>).
-* [http://www.advogato.org/person/apenwarr/diary/371.html Git is the next Unix]: by apenwarr.
+* [http://www.advogato.org/person/apenwarr/diary/371.html Git is the next Unix]: blog by apenwarr.
+* [http://codemac.net/blog/18/ Git's Killer Feature]: blog by Jeff Mickey.
 * [http://gitfu.wordpress.com/ git-fu]: A blog created to make people aware of cool advanced features and dispel myths about git.
 
 Below there are blogs by gitters:
