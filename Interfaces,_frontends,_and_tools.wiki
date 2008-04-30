@@ -126,6 +126,9 @@
 === [[TextMate]] ===
 * [http://github.com/timcharper/git-tmbundle/ Git-tmBundle] Provides a variety of tools for interacting with Git repositories, such as push, pull, tag, fetch, browse annotations, merge, switching branches, stashing, committing, etc.  <i>(Ruby)</i>
 
+=== Vim ===
+* [http://code.google.com/p/vcscommand/  VCS Command plugin] is a Vim plugin for various source code control systems and includes a Git component. It can be used to view the differences side by side, commit, blame, etc.
+
 == Merge tools ==
 
 === dirdiff ===
