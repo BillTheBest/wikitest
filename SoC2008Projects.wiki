@@ -39,7 +39,7 @@ like kernel.org, repo.or.cz, or anyone else using gitweb for
 a large number of repositories and users.
 
 <b>See also:</b>
-* [http://thread.gmane.org/gmane.comp.version-control.git/77529 |RFD| Gitweb caching] thread, parts 1-3
+* [http://thread.gmane.org/gmane.comp.version-control.git/77529 |RFD| Gitweb caching] thread, parts 1-3, by Jakub Narebski
 
 == Eclipse plugin push support ==
 <b>Student:</b> Marek Zawirski  <<BR>>
@@ -73,6 +73,9 @@ a general "commit sequencer" that can be used as the backing
 implementation for "git-am", all three forms of "git-rebase",
 and possibly implement an "interactive rebase GUI" within
 git-gui and/or gitk.
+
+<b>See also:</b>
+* [http://thread.gmane.org/gmane.comp.version-control.git/80240 Speed up git-svn fetch] thread on git mailing list by Adam Roben, about git-cat-file sequencer.
 
 ----
 = Foreign projects =
