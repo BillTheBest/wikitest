@@ -209,7 +209,7 @@ This is not a bug, but a safety check: "git push" will not update a remote branc
 
 When you rebase, you are not continuing the history of the branch from where you currently are. Instead, you are rewriting the history starting from the base you chose for rebasing. So, after rebasing, the remote branch and your new local HEAD are both child commits of that base, but the remote branch is no longer a parent of your new local HEAD. And pushing this new history to the remote branch means replacing a history that other people might already have downloaded.
 
-If you are really sure that you want to push the new reference to the remote repository you can say <code><nowiki>git push -f</nowiki></code>. But use this with care and only if you know, what you are doing.
+If you are really sure that you want to push the new reference to the remote repository you can say <code><nowiki>git push -f</nowiki></code>. But use this with care and only if you know what you are doing.
 
 == Why is "git commit -a" not the default? ==
 Most other version control systems will do a full-tree commit, using the content of files at commit time, by default.
