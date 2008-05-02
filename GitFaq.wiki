@@ -191,7 +191,7 @@ There is a bit of a chicken and egg problem involved. The build procedure wants 
 
 <<Anchor(reset-hard-leaving-files)>>
 == "git reset --hard" is not removing some files ==
-<code><nowiki>git reset --hard</nowiki></code> doesn't remove the files which are in the <b>current</b> version of <code><nowiki>.gitignore</nowiki></code> file. "git reset" won't be deleting files it doesn't track (it had <i>better</i> not touch them), even more so when it has been told to ignore them, so it makes total sense to <i>not</i> delete them when doing that reset.
+<code><nowiki>git reset --hard</nowiki></code> doesn't remove the files which are in the <b>current</b> version of <code><nowiki>.gitignore</nowiki></code>. "git reset" won't delete files it doesn't track (particularly when it has been _told_ to ignore them).
 
 If the version you switched to has an earlier (different) version of the <code><nowiki>.gitignore</nowiki></code> file then the files which were not deleted might be not ignored in the reset version, and will for example show in the <code><nowiki>git status</nowiki></code> output.
 
