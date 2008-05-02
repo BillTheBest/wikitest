@@ -353,13 +353,13 @@ You can put shell-style globs (e.g. <code><nowiki>*.o</nowiki></code>) in either
 
 <<Anchor(saving-draft)>>
 == How do I save some local modifications? ==
-Sometimes it is necessary to put some local changes apart, and come back to it later (typically, when one hits an easily fixable bug in the middle of a non-trivial work, and want to fix the bug before anything else).
+Sometimes it is necessary to put some local changes aside, and come back to them later (typically, when one hits an easily-fixable bug in the middle of non-trivial work, and wants to fix the bug before anything else).
 
 With recent versions of git, you can use [http://www.kernel.org/pub/software/scm/git/docs/git-stash.html "git stash"] to save temporary modifications and come back to a "clean" tree, and then "git stash apply" to re-apply it.
 
 Alternatively:
 
-One can use temporary branch, to merge later
+One can use a temporary branch, to merge later:
 
 <pre><nowiki>
 $ git-checkout -b tempBranch
@@ -367,7 +367,7 @@ $ git-commit -a -m "to test"
 </nowiki></pre>
 where <code><nowiki>tempBranch</nowiki></code> is the unique (original) throwaway branch name.
 
-Another solution is to save changes in a patch, to apply later
+Another solution is to save changes in a patch, to apply later:
 
 <pre><nowiki>
 $ git diff --binary HEAD > tempPatch.diff
