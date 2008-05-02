@@ -216,14 +216,14 @@ Most other version control systems will do a full-tree commit, using the content
 
 Git does it differently. By default, git commits the content of the index, and only this. <code><nowiki>git commit -a</nowiki></code> gives roughly the equivalent of what other systems do. Indeed, there are many concrete reasons why git's way to manage the index is good (and leads to unique features of git):
 
-* You can do selected files commit with a fine granularity, telling git what you want to do little by little (<code><nowiki>git add </nowiki></code><i>file</i> to add the full content of the file to the index, <code><nowiki>git add -i</nowiki></code> or <code><nowiki>git-gui</nowiki></code> to add the content hunk-by-hunk, or even use the hunk splitting feature of <code><nowiki>git add -i</nowiki></code>).
-* This selected files commit can help you to keep an uncommited modification in your tree for a reasonably long time. For example, you can increment the version number in the Makefile some time before a release, and use this as a reminder.
+* You can select files to commit with a fine granularity, telling git what you want to do little by little (<code><nowiki>git add </nowiki></code><i>file</i> to add the full content of the file to the index, <code><nowiki>git add -i</nowiki></code> or <code><nowiki>git-gui</nowiki></code> to add the content hunk-by-hunk, or even use the hunk splitting feature of <code><nowiki>git add -i</nowiki></code>).
+* This fine-grained file selection can help you to keep an uncommited modification in your tree for a reasonably long time. For example, you can increment the version number in the Makefile some time before a release, and use this as a reminder.
 * You can perform several small steps for one commit, checking what you did with git diff, and validating each small step with git add or git add -u. Typically, you can apply a broken patch, updating the index, with <code><nowiki>git apply --index</nowiki></code>, and then fix the patch. <code><nowiki>git diff --cached</nowiki></code> will show you your fixes, while <code><nowiki>git diff HEAD</nowiki></code> will show you the combined diff.
-* This allows excellent merge conflicts management: <code><nowiki>git diff --base</nowiki></code>, <code><nowiki>git diff --ours</nowiki></code>, <code><nowiki>git diff --theirs</nowiki></code>.
+* This allows excellent management of merge conflicts: <code><nowiki>git diff --base</nowiki></code>, <code><nowiki>git diff --ours</nowiki></code>, <code><nowiki>git diff --theirs</nowiki></code>.
 * This allows <code><nowiki>git commit --amend</nowiki></code> to amend only the log message if the index hasn't been modified in the meantime.
-So, while using <code><nowiki>git commit -a</nowiki></code> is perfectly fine with the simple cycle "edit/review/commit", making it the default would make other workflow less natural.
+So, while using <code><nowiki>git commit -a</nowiki></code> is perfectly fine with the simple cycle "edit/review/commit", making it the default would make other workflows less natural.
 
-Indeed, the real reason according to Linus is more philosophical: git is a content tracker, and a file name has no meaning unless associated to its content. Therefore, the only sane behavior for <code><nowiki>git add </nowiki></code><i>filename</i> is to add the content of the file as well as its name to the index.
+Indeed, according to Linus, the real reason is more philosophical: git is a content tracker, and a file name has no meaning unless associated to its content. Therefore, the only sane behavior for <code><nowiki>git add </nowiki></code><i>filename</i> is to add the content of the file as well as its name to the index.
 
 See also (mailing list posts):
 
