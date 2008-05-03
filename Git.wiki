@@ -20,7 +20,7 @@ Git was designed to be extremely fast (seconds per patch), distributed SCM with 
 * <b>Index.</b> In addition to <i>object database</i> (<i>repository</i>) Git has a mutable <i>index</i> that caches information about the working directory and the next revision to be committed, storing the information about "interesting" files. It serves as staging area to prepare commits, helps with merge conflicts resolving, and improves performance (and speed of operations is one of driving ideas of Git design).
 <!-- ## Explicit packing
  -->
-* <b>Explicit packing.</b> Deltafying in Git occurs at low level (plumbing level), and occurs on demand rather than implicitely (although [[Porcelain:porcelains]] may choose to do packing implicitly).
+* <b>Explicit packing.</b> Deltafying in Git occurs at low level (plumbing level), and occurs on demand rather than implicitly (although [[Porcelain:porcelains]] may choose to do packing implicitly).
 
 = Git Features =
 == Advantages ==
