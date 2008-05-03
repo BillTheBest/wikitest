@@ -6,7 +6,7 @@ Please be sure to read the [http://git.kernel.org/?p=git/git.git;a=blob;f=Docume
 
 * Convert code to use "-q" option
 
-Many git commands have some "-q" or "--quiet" option to make them "quiet". Despite that a lot of code in git uses ">/dev/null" or "2>/dev/null" with these commands instead of the "-q" or "--quiet" option.
+Many git commands have some "-q" or "--quiet" option to make them "quiet". Despite that, a lot of code in git uses ">/dev/null" or "2>/dev/null" with these commands, instead of the "-q" or "--quiet" option.
 
 So it would be a good idea to find such code and change it to use -q option.
 
