@@ -82,6 +82,9 @@
 <!-- ## is it more like gitk or qgit, or more like git-gui?
  -->
 
+=== pyrite ===
+* [http://pyrite.sophiasuchtig.com/ pyrite] by Govind Salinas is a Git GUI and front end written in Python.
+
 == Web Interface ==
 
 === gitweb  (distributed with Git) ===
