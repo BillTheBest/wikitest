@@ -2,6 +2,14 @@ Here are some simple but useful tasks that can be done on the Git source code.
 
 It's a very good way to get started if you want to start working on Git or learning its internals.
 
+Please be sure to read the [[SubmittingPatches]] (http://git.kernel.org/?p=git/git.git;a=blob;f=Documentation/[[SubmittingPatches]]) document before posting your patches. Also please check that your patches apply by sending them to yourself first and then by using "git apply" on what you received.
+
+* Convert code to use "-q" option
+
+Many git commands have some "-q" or "--quiet" option to make them "quiet". Despite that a lot of code in git uses ">/dev/null" or "2>/dev/null" with these commands instead of the "-q" or "--quiet" option.
+
+So it would be a good idea to find such code and change it to use -q option.
+
 * Convert config code to use "git_config_string"
 
 The goal is to convert code like this:
