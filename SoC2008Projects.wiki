@@ -16,6 +16,8 @@ transport via a peer-to-peer system, potentially allowing
 popular projects such as the linux kernel to be available
 via more servers than just git.kernel.org.
 
+<b>Idea:</b> [[SoC2008Ideas#GitTorrent:[[GitTorrent]]]] at [[SoC2008Ideas]]
+
 == git-statistics ==
 <b>Student:</b> Sverre Rabbelier <<BR>>
 <b>Mentor:</b>  David Symonds    <<BR>>
@@ -38,6 +40,7 @@ implementing even more improved caching for really large sites
 like kernel.org, repo.or.cz, or anyone else using gitweb for
 a large number of repositories and users.
 
+<b>Idea:</b> [[SoC2008Ideas#gitweb-caching:Gitweb caching]] at [[SoC2008Ideas]] <<BR>>
 <b>See also:</b>
 * [http://thread.gmane.org/gmane.comp.version-control.git/77529 |RFD| Gitweb caching] thread, parts 1-3, by Jakub Narebski
 
@@ -52,6 +55,8 @@ a remote repository over the native Git transport.  Marek is
 also looking forward to improving some of the user interface
 aspects of the Eclipse Git team provider plugin.
 
+<b>Idea:</b> [[SoC2008Ideas#Eclipse:Git Eclipse Plugin]] at [[SoC2008Ideas]]
+
 == git-merge builtin ==
 <b>Student:</b> Miklos Vajna        <<BR>>
 <b>Mentor:</b>  Johannes Schindelin <<BR>>
@@ -62,6 +67,8 @@ merge base computation, and making the program overall more
 portable to non-POSIX systems.  Porting some of the popular
 merge strategies (e.g. git-merge-ours) will also be done as
 time permits.
+
+<b>Idea:</b> [[SoC2008Ideas#builtin-merge:Make git-merge and helpers Builtins]] at [[SoC2008Ideas]]
 
 == git-sequencer ==
 <b>Student:</b> Stephan Beyer                     <<BR>>
@@ -74,6 +81,7 @@ implementation for "git-am", all three forms of "git-rebase",
 and possibly implement an "interactive rebase GUI" within
 git-gui and/or gitk.
 
+<b>Idea:</b> [[SoC2008Ideas#git-sequencer:Implement git-sequencer]] at [[SoC2008Ideas]] <<BR>>
 <b>See also:</b>
 * [http://thread.gmane.org/gmane.comp.version-control.git/80240 Speed up git-svn fetch] thread on git mailing list by Adam Roben, about git-cat-file sequencer.
 
