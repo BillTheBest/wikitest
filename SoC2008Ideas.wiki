@@ -50,6 +50,7 @@ its questions as part of your application.
 A collection of smaller projects.  Pick one or two and get introduced
 to the open source community!
 
+<<Anchor(builtin-merge)>>
 == Make git-merge and helpers Builtins ==
 
 We have generally found that the C version of a tool is more portable
@@ -161,6 +162,7 @@ forking less, etc.
 <<BR>><b>Language:</b> C
 <<BR>><b>See:</b> gitster's recent remarks on #git [http://article.gmane.org/gmane.comp.version-control.git/76136 on gmane].
 
+<<Anchor(gitweb-caching)>>
 == Gitweb caching ==
 
 Implementing very smart caching in gitweb, to avoid the thundering
@@ -223,6 +225,7 @@ Make git mode for Emacs full featured git GUI, and not only commit tool, followi
 The following projects are probably more suited to the
 junio/senior/graduate students.  Pick one and really make it shine.
 
+<<Anchor([[GitTorrent]])>>
 == [[GitTorrent]] ==
 
 This is a P2P method for distributing git repositories, which
@@ -235,6 +238,7 @@ For use for sites such as git.kernel.org, repo.or.cz, etc.  Existing partial imp
 * Jonas Fonseca (designed the original protocol)
 * Johannes Schindelin (interested party) 
 
+<<Anchor(git-sequencer)>>
 == Implement git-sequencer ==
 
 git-am, git-rebase, git-rebase -m, and git-rebase -i are all roughly
@@ -257,6 +261,7 @@ application, editing, etc.
 * Johannes Schindelin (johannes.schindelin@gmx.de)
 <b>Suggested by:</b> Junio C Hamano [http://kerneltrap.org/mailarchive/git/2008/2/17/886714 on kerneltrap]
 
+<<Anchor(Eclipse)>>
 == Git Eclipse Plugin ==
 
 Extend the currently-under-development
