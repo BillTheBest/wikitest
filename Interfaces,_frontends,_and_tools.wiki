@@ -212,6 +212,9 @@
 === bzr-fast-export ===
 * Bazaar frontend for git-fast-import. Announcement [https://lists.ubuntu.com/archives/bazaar/2008q1/038391.html here], lives in the `exporters` subdirectory of the [https://launchpad.net/bzr-fastimport bzr-fastimport project].
 
+=== [[GitPython]] ===
+* A Python module that provides object model access to your Git repositories. Once you have created a repository object, you can traverse it to find parent commit(s), trees, blobs, etc.. Port of the he [http://grit.rubyforge.org/ grit] library in Ruby created by Tom Preston-Werner and Chris Wanstrath.  Git repository is [http://gitorious.org/projects/git-python/ available here].
+
 == Hooks ==
 
 === git-notify ===
