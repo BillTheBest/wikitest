@@ -32,7 +32,8 @@ a particular section of code (e.g. automatically identify
 module maintainers).
 
 <b>Homepage:</b> [http://alturin.googlepages.com/gsoc2008 Sverre Rabbelier GSoC2008 page] (PDFs) <<BR>>
-<b>SoC page:</b> [http://code.google.com/soc/2008/git/appinfo.html?csaid=C73DCF4CEBF4295D git statistics]
+<b>SoC page:</b> [http://code.google.com/soc/2008/git/appinfo.html?csaid=C73DCF4CEBF4295D git statistics] <<BR>>
+<b>See also:</b> [http://thread.gmane.org/gmane.comp.version-control.git/81534 |RFC| Use cases for 'git statistics'] thread on git mailing list.
 
 == Gitweb caching ==
 <b>Student:</b> Lea Wiemann           <<BR>>
