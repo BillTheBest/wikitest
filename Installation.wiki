@@ -21,7 +21,7 @@ If you have the main development team on linux/unix, and peripheral developers o
 * EclipseIDE-based GIT client, based on a pure [http://repo.or.cz/w/egit.git Java implementation] of GIT's internals.
 * Windows Explorer extension ([http://code.google.com/p/msysgit/wiki/GitCheetah Git-Cheetah])
 == OS X ==
-Git for the OS X is installed by using the [http://code.google.com/p/git-osx-installer/downloads/list git-osx-installer]
+Git for the OS X is installed by using the [http://code.google.com/p/git-osx-installer/downloads/list git-osx-installer] but if you haven't got leopard you're screwed because there aren't any install scripts and the source won't compile.
 
 == Getting and installing documentation ==
 You can find all the plain text documentation in the git source tree's [http://www.kernel.org/git/?p=git/git.git;a=tree;f=Documentation Documentation/] directory.
