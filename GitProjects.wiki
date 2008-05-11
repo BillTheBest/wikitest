@@ -258,6 +258,9 @@ List does not currently include [[Git]] or git-related tools.
 * Koha (A library catalog system)
 * http://www.koha.org/ (homepage)
 * http://git.koha.org/ (gitweb)
+* Ledger
+* http://www.newartisans.com/software/ledger.html (homepage)
+* http://git.newartisans.com/ledger (cgit)
 * LiveCD-tools
 * http://fedoraproject.org/wiki/[[FedoraLiveCD]] (homepage)
 * http://gitweb.freedesktop.org/?p=users/david/livecd-tools.git (gitweb)
