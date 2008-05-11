@@ -260,7 +260,7 @@ List does not currently include [[Git]] or git-related tools.
 * http://git.koha.org/ (gitweb)
 * Ledger
 * http://www.newartisans.com/software/ledger.html (homepage)
-* http://git.newartisans.com/ledger (cgit)
+* http://git.newartisans.com/?r=ledger (cgit)
 * LiveCD-tools
 * http://fedoraproject.org/wiki/[[FedoraLiveCD]] (homepage)
 * http://gitweb.freedesktop.org/?p=users/david/livecd-tools.git (gitweb)
@@ -320,7 +320,7 @@ List does not currently include [[Git]] or git-related tools.
 * git://reductivelabs.com/puppet (repository)
 * Ready Lisp
 * http://www.newartisans.com/software/readylisp.html (homepage)
-* http://git.newartisans.com/ready-lisp (cgit)
+* http://git.newartisans.com/?r=ready-lisp (cgit)
 * ROX-Filer
 * http://roscidus.com/desktop/using-git (development)
 * http://roscidus.com/desktop/node/825 (GIT for translators)
