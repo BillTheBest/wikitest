@@ -345,6 +345,8 @@ List does not currently include [[Git]] or git-related tools.
 * Slind - embedded Linux distribution
 * https://www.slind.org/Downloads:Downloads (download)
 * http://git.slind.org/git (gitweb)
+* [http://slashcode.com/ Slash] - the discussion system that powers [http://slashdot.org Slashdot]
+* http://github.com/scc/slash (public mirror)
 * Source Mage GNU/Linux (source-based GNU/Linux distribution)
 * http://www.sourcemage.org/ (description)
 * http://wiki.sourcemage.org/Git_Guide (guide)
