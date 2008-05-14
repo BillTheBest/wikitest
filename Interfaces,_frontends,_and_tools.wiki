@@ -30,6 +30,9 @@
 === [[GitPython]] ===
 * A Python module that provides object model access to your Git repositories. Once you have created a repository object, you can traverse it to find parent commit(s), trees, blobs, etc.. Port of the the [http://grit.rubyforge.org/ grit] library in Ruby created by Tom Preston-Werner and Chris Wanstrath.  Git repository is [http://gitorious.org/projects/git-python/ available here].
 
+=== Pygit ===
+* Pythonic [http://code.istique.net/?p=pygit.git git bindings] targeted towards porcelains. 
+
 === Grit ===
 * [http://grit.rubyforge.org/ Grit] is a Ruby library for extracting information from a git repository in and object oriented manner.
 
