@@ -1,5 +1,14 @@
+
+---- /!\ <b>Edit conflict - other version:</b> ----
 see this thanks
 ----
 [[CategoryCategory]]
+
+---- /!\ <b>Edit conflict - your version:</b> ----
+see this thanks
+----
+[[CategoryCategory]]
+
+---- /!\ <b>End of edit conflict</b> ----
 
 __NOTOC__
