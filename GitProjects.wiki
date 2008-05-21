@@ -450,5 +450,7 @@ List does not currently include [[Git]] or git-related tools.
 ** [http://rashkovskii.com/articles/2008/1/9/gitorious Gitorious] post on [http://rashkovskii.com/ Yurii Rashkowskii's blog]
 * [http://github.com/ GitHub]
 ** http://github.com/
+* [http://www.assembla.com/free_git_hosting Assembla]
+** http://www.assembla.com/ - Git+Trac or Git+Integrated tickets
 
 __NOTOC__
