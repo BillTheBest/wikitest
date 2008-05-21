@@ -196,6 +196,9 @@
 === braid ===
 * [http://evil.che.lu/projects/braid Braid] ([http://github.com/evilchelu/braid/tree/master github]), formerly [http://evil.che.lu/2007/11/27/ann-giston-piston-lookalike-for-git Giston], is a [http://piston.rubyforge.org/index.html Piston] lookalike for git-svn: a simple tool to help track svn vendor branches in your git repository.  By Cristi Balan, in Ruby (Piston is in Ruby).
 
+=== git-rails-plugins ===
+* GIT sub-project porcelain that provides an alternative to git-svn dcommit when managing rails vendor plugins which are held in a central SVN repository. Currently git-svn is not able to dcommit into a Subversion repository when a Git repository contains submodules. [http://github.com/nazar/git-rails-plugins/tree/master git-rails-plugins] is an [http://panthersoftware.com/articles/view/4/git-svn-dcommit-workaround-for-git-submodules alternative] implementation to sub-modules.
+
 === git-ucmimport (IBM Rational [[ClearCase]]) ===
 * git-ucmimport, also written by Rutger Nijlunsing, is a converter from IBM Rational ClearCase UCM to git. The latest version can be found currently on http://www.wingding.demon.nl. In Ruby.
 
