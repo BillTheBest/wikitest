@@ -36,6 +36,7 @@ All documentation residing on this wiki is put in the [[CategoryGitDocumentation
 * [http://osteele.com/archives/2008/05/my-git-workflow My Git workflow] and [http://osteele.com/archives/2008/05/commit-policies Commit Policies] by Oliver Steele
 * [http://www-cs-students.stanford.edu/~blynn/gitmagic/ Git magic]
 * [http://www.redhatmagazine.com/2008/05/02/shipping-quality-code-with-git/ Shipping quality code with git] at Redhat Magazine
+* [http://www.gitcasts.com/ GitCasts] 
 * [http://eagain.net/articles/git-for-computer-scientists/ Git for computer scientists]
 * [http://jonas.iki.fi/git_guides/HTML/git_guide Git in a Nutshell]
 * [http://jonas.iki.fi/git_guides/HTML/CVS2git CVS to Git transition guide]
