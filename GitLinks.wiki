@@ -57,6 +57,7 @@ Miscellaneous git-related links, not including [http://git.or.cz/ Git homepage],
   *[http://kerneltrap.org/node/11753 Debugging With "git bisect"]
   *[http://kerneltrap.org/node/13996 Historical Kernel Tree with Git]
   *[http://kerneltrap.org/node/14205 Graphical Git Statistics]
+  *[http://kerneltrap.org/Linux/Git_Management Git Management] (about git workflows)
 
 == Magazines ==
 * [http://www.pcworld.idg.com.au PC World]
