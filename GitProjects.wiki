@@ -408,6 +408,8 @@ List does not currently include [[Git]] or git-related tools.
 * xmms2 (audio player)
 * http://wiki.xmms2.xmms.se/index.php/Download_XMMS2 (description)
 * http://git.xmms.se/ (repository, gitweb)
+* x264 (x264 is a free library for encoding H264/AVC video streams)
+* http://git.videolan.org/?p=x264.git (gitweb)
 * x86info
 * http://www.codemonkey.org.uk/projects/x86info/ (homepage)
 * http://git.choralone.org/?p=x86info.git (gitweb)
