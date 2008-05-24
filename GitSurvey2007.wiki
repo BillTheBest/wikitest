@@ -1409,7 +1409,7 @@ You can also check out [http://people.debian.org/~igloo/popcon-graphs/index.php?
 |  1625 
 | 
 |-
-|  Git         
+|  <b>Git</b>   
 |  git-core                    
 |   3243 
 |  1533 
@@ -1460,6 +1460,58 @@ You can also check out [http://people.debian.org/~igloo/popcon-graphs/index.php?
 
 <b>Footnotes:</b>
 <<[[FootNote]]>>
+
+You can also check out [http://upsilon.cc/~zack/stuff/vcs-usage/ (declared) VCS usage for Debian source packages], overview of Version Control System usage to maintain Debian source packages.
+
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> SCM 
+|  Vcs-* 
+|  source packages 
+| 
+|}
+<!-- ##-------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Arch       
+|  arch  
+|  30   
+| 
+|-
+|  Bazaar-NG  
+|  bzr   
+|  89   
+| 
+|-
+|  CVS        
+|  cvs   
+|  44   
+| 
+|-
+|  Darcs      
+|  darcs 
+|  27   
+| 
+|-
+|  <b>Git</b>  
+|  git   
+|  733  
+| 
+|-
+|  Mercurial  
+|  hg    
+|  27   
+| 
+|-
+|  Monotone   
+|  mtn   
+|  0    
+| 
+|-
+|  Subversion 
+|  svn   
+|  2731 
+| 
+|}
 
 See also question 35:  "How does GIT compare to other SCM?".
 
