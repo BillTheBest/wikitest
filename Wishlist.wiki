@@ -7,6 +7,7 @@ I've put an attribution of the wish to the person who wrote the email I found it
 * It would be really nice if none of the "common" commands had a hyphen in them (Carl Worth)
 * Have --merge arguments to git-pull, and --fetch argument to git-merge. (Jakub Narebski)
 * I would kind of like to see "git poll" -- visit all remote branches, fetching objects and tags into the local repository, so that I can inspect changes off-line and merge, cherry-pick, etc. to my heart's content. (Michael K Edwards)
+** isn't `git remote update` that?
 * "pull" and "push" should be symmetrical operations.  (Nicholas Pitre) (Andy Parkins)
 * Remote branch handling should become more straight forward.  (Nicholas Pitre)
 * There's no easy way to do a <code><nowiki>git reset --hard</nowiki></code> while doing a <code><nowiki>git checkout</nowiki></code> style merge. (linux at horizon.com)
