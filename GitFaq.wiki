@@ -181,7 +181,7 @@ This is a precautionary design decision.  The remote repository's work tree may 
 
 A quick rule of thumb is to <i>never</i> push into a repository that has a work tree attached to it, until you know what you are doing.
 
-See also the entry (How would I use "git push" to sync out of a firewalled host?) in this FAQ for the proper way to work with push with a repository with a work tree.
+See also the entry ([[#push-is-reverse-of-fetch How would I use "git push" to sync out of a firewalled host?]]) in this FAQ for the proper way to work with push with a repository with a work tree.
 
 <<Anchor(git-version)>>
 == Why git --version is not reporting the "full" version number? ==
