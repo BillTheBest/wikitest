@@ -3,6 +3,7 @@
 * [[GitBenchmarks]]
 * [[GitSvnComparsion:[[GitSvnComparison]]]]
 == Git comparisons found on the web: ==
+* [http://vcscompare.blogspot.com/2008/06/git-mercurial-bazaar-repository-size.html Blogpost comparing Git, Mercurial and Bazaar size]
 * [[WikiPedia:Comparison_of_revision_control_software|Comparison of revision control software]] table at Wikipedia.
 * [http://www.infoq.com/articles/dvcs-guide InfoQ] comparison of Git, Hg, and Bzr. (May 2008)
 * [http://bazaar-vcs.org/RcsComparisons?action=recall&rev=98 [[RcsComparisons]] rev. 98] (user-oriented table, removed because it was of limited use), [http://bazaar-vcs.org/RCSChoices RCSChoices] (table of the decisions), [http://bazaar-vcs.org/SCMComparisons SCMComparisons] (lists of features) and [http://bazaar-vcs.org/BzrVsGit [[BzrVsGit]]] at Bazaar-NG wiki. /!\
