@@ -21,6 +21,6 @@ Consequentially, Git cannot be directly used as a general versioning solution fo
 
 Some of the above items can be represented by tree objects in a git repository, but such tree objects are difficult or impossible to create using the standard git tools.
 
-There exist tools which either help git track full set of file modes etc., for example Metastore by David Hardeman (git://git.hardeman.nu/metastore.git). There also exists configuration versioning tool (APT for your config), based on git, named [http://www.isisetup.ch/ IsiSetup]. See [[InterfacesFrontendsAndTools]] page.
+There exist tools which either help git track full set of file modes etc., for example Metastore by David Hardeman (git://git.hardeman.nu/metastore.git). There also exists configuration versioning tool (APT for your config), based on git, named [http://www.isisetup.ch/ IsiSetup]. There is also a tool to backup your home directory with git: [http://eigenclass.org/hiki/gibak-backup-system-introduction gibak]. See [[InterfacesFrontendsAndTools]] page.
 
 __NOTOC__
