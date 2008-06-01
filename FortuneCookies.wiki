@@ -47,6 +47,7 @@ Here are few tips for new users, or users that don't like to read the manual:
 * ... and if it wasn't clear, "helping" CVS users is not in my opinion to try to make git act like CVS, and lettign them do stupid things, but to try to help them become <b>more</b> than CVS users. <i>(Linus Torvalds)</i>
 * The people will complain. On this list. And I have to check the mails before deleting, because the Subject: does not say "I just took the rope, ignored your caveat emptor, and now I am dead. What should I do now?". <i>(Johannes Schindelin)</i>
 * In related news: there is really no question that bike sheds should be painted red. Really. <i>(Johannes Schindelin)</i>
+* Hmm, I don't think I've even <b>noticed</b> a real bike shed in decades.  Perhaps they should be painted purple with yellow polkadots and have the words "BIKE SHED" on a flashing neon sign. <i>(Eric Wong)</i>
 * P.S.: Linus paid for his Caps Lock key, so he might as well use it. <i>(Johannes Schindelin)</i>
 * By "mutual agreement" I mean that I tell you what it looks like and you agree :) <i>(Robin Rosenberg)</i>
 * To be fair, there are uses for XML.  On Halloween, for example.  <i>(Johannes Schindelin)</i>
