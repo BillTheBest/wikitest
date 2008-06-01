@@ -228,4 +228,35 @@ Comparison of an archive of all released Gnumeric versions versus git repository
 
 <b>Reference:</b> [http://blogs.gnome.org/mortenw/2007/01/07/10x-better-compression-than-gzip/ 10x+ Better Compression Than Gzip] blog entry <i>(from January 7th, 2007)</i>.
 
+== Git, Mercurial, Bazaar repository size benchmark ==
+
+As candidate repositories there were chosen three projects which use given version control system for each SCMs tested. The choice is explained in [http://vcscompare.blogspot.com/2008/05/meet-candidates.html DVCS Comparison: Meet the candidates] blog post.
+
+For all repositories, only a single branch was converted. For all repositories except Samba, this meant the development branch. As Samba has multiple development branches, v3-3-test branch was chosen. Wnere possible fast-export/import interface was chosen.
+
+After conversion, pack command was run for the repositories that support this feature. For Git, this meant a `git repack -adf —window=250`, for Bazaar it meant a `bzr pack`, and removing the obsolete packs. This means that the table below show size of <i>tightly packed repository</i>.
+
+Tests were done using Git v1.5.5.3, Bzr v1.5, Hg v1.0
+
+ ||<b><i>Repository</b></i>||<:> <b>Git</b> ||<:> <b>Mercurial</b> ||<:> <b>Bazaar</b> ||
+ ||<rowstyle="background-color: #FFFFE0;">||<colspan=3 style="text-align: center; font-size=70%;"> <i>Git</i> ||
+ || Cairo       ||<)>  15MB ||<)>	 24MB ||<)> 	 30MB ||
+ || Coreutils   ||<)>  29MB ||<)>	 44MB ||<)>	 76MB ||
+ || Samba	||<)>  82MB ||<)>	146MB ||<)>	310MB ||
+ ||<rowstyle="background-color: #FFFFE0;">||<colspan=3 style="text-align: center; font-size=70%;"> <i>Mercurial</i> ||
+ || Octave	||<)>  22MB ||<)>	 49MB ||<)>	 57MB ||
+ || Mozilla	||<)>  78MB ||<)>	205MB ||<)>	255MB ||
+ || Dovecot	||<)>   9MB ||<)>	 14MB ||<)>	 23MB ||
+ ||<rowstyle="background-color: #FFFFE0;">||<colspan=3 style="text-align: center; font-size=70%;"> <i>Bazaar</i> ||
+ || Emacs	||<)> 120MB ||<)>	163MB ||<)>	300MB ||
+ || Mailman	||<)>  42MB ||<)>	 75MB ||<)>	 73MB ||
+ || Pkgconfig	||<)> 1.1MB ||<)>	1.3MB ||<)>	1.8MB ||
+ ||<-4 #80FF80>||
+ || <i>Total</i>	||<)> 398MB ||<)>	721MB ||<)>       1125MB ||
+ || <i>Relative</i>||<)>   1   ||<)>	1.8   ||<)>	   2.8   ||
+
+As can be seen from the table, Git really is the most efficient in storing the data. Next up is Mercurial, which also does a nice job. Bazaar is the least efficient by far, taking on average 2.8 times the space of an equivalent Git repository.
+
+<b>Reference:</b> [http://vcscompare.blogspot.com/2008/06/git-mercurial-bazaar-repository-size.html DVCS Comparison: Git, Mercurial, Bazaar Repository Size Benchmark] blog entry <i>(from June 1, 2008)</i>, from [http://vcscompare.blogspot.com/ DVCS Comparison] blog.
+
 __NOTOC__
