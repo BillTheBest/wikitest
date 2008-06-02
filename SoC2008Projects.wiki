@@ -77,7 +77,8 @@ merge strategies (e.g. git-merge-ours) will also be done as
 time permits.
 
 <b>Idea:</b> [[SoC2008Ideas#builtin-merge:Make git-merge and helpers Builtins]] at [[SoC2008Ideas]] <<BR>>
-<b>SoC page:</b> [http://code.google.com/soc/2008/git/appinfo.html?csaid=C6691859F6E209E8 Make git-merge Builtin]
+<b>SoC page:</b> [http://code.google.com/soc/2008/git/appinfo.html?csaid=C6691859F6E209E8 Make git-merge Builtin] <<BR>>
+<b>Gitweb:</b> http://repo.or.cz/w/git/vmiklos.git
 
 == git-sequencer ==
 <b>Student:</b> Stephan Beyer                     <<BR>>
