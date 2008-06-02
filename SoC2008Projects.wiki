@@ -64,7 +64,8 @@ also looking forward to improving some of the user interface
 aspects of the Eclipse Git team provider plugin.
 
 <b>Idea:</b> [[SoC2008Ideas#Eclipse:Git Eclipse Plugin]] at [[SoC2008Ideas]] <<BR>>
-<b>SoC page:</b> [http://code.google.com/soc/2008/git/appinfo.html?csaid=DD669FC01FC5F07B Push operation implementation and GUI improvements for egit Eclipse plugin]
+<b>SoC page:</b> [http://code.google.com/soc/2008/git/appinfo.html?csaid=DD669FC01FC5F07B Push operation implementation and GUI improvements for egit Eclipse plugin] <<BR>>
+<b>Gitweb:</b> http://repo.or.cz/w/egit/zawir.git (see branches 'corechanges' and 'dirty')
 
 == git-merge builtin ==
 <b>Student:</b> Miklos Vajna        <<BR>>
