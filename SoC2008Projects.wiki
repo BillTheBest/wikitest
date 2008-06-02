@@ -94,6 +94,7 @@ git-gui and/or gitk.
 
 <b>Idea:</b> [[SoC2008Ideas#git-sequencer:Implement git-sequencer]] at [[SoC2008Ideas]] <<BR>>
 <b>SoC page:</b> [http://code.google.com/soc/2008/git/appinfo.html?csaid=92728710F52338C1 implement git-sequencer] <<BR>>
+<b>Gitweb:</b> http://repo.or.cz/w/git/sbeyer.git <<BR>>
 <b>See also:</b> [http://thread.gmane.org/gmane.comp.version-control.git/80240 Speed up git-svn fetch] thread on git mailing list by Adam Roben, about git-cat-file sequencer.
 
 ----
