@@ -55,10 +55,11 @@ Here are few tips for new users, or users that don't like to read the manual:
 * Repeat after me: in git, *everything* is a SHA1 object! <i>(Linus Torvalds)</i>
 * ... where "core git" originally was about "what I use" and the whole "porcelain" side ends up being "what people who need hand-holding use" ;) <i>(Linus Torvalds)</i>
 
-<!-- ## Masukomi's blog
+<!-- ## blogs
  -->
 * Git is a lot like C. It's incredibly flexible and powerful but it is also incredible flexible and powerful. <i>(Masukomi)</i>
 * If you want to shoot yourself in the foot Git will point you to the gun rack and show you how to load the bullets. <i>(Masukomi)</i>
+* And then there’s `git rebase --interactive`, which is a bit like `git commit --amend` hopped up on acid and holding a chainsaw -- completely insane and quite dangerous but capable of exposing entirely new states of mind. <i>(Ryan Tomayko)</i>
 
 <!-- ## other fortune cookies
  -->
@@ -67,5 +68,8 @@ Here are few tips for new users, or users that don't like to read the manual:
 * We  reject  kings, presidents,  and  voting.  We  believe in rough consensus and running code. <i>(Dave Clark, 1992 IETF meeting)</i>
 * I've never met a human being who would want to read 17,000 pages of documentation, and if there was, I'd kill him to get him out of the gene pool. <i>(Joseph Costello)</i>
 * The world of technical support is like a reflecting pool. To those who exist outside, it appears to be a deep, mystical place; bottomless, terrifying, foreign. The truth, however, is that the pool is only about three feet deep, and the bottom is grainy silt over sharp, hurty rocks.
+
+<!-- ## other sources
+ -->
 
 __NOTOC__
