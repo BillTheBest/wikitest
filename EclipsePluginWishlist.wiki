@@ -24,6 +24,10 @@ A lot like fetch, we should be able to support the native Git protocol for SSH b
 
 As far as packing data over the network goes I don't want to implement the binary delta algorithm in pure Java right now.  So this means we would send packs containing only whole objects (no deltas).  This shouldn't really be an issue for the receiving end, except that we will have a slightly higher network transfer cost coming from egit than if core Git was used to push the same set of objects.
 
+== Support linked URIs ==
+
+[[GitProvider]] does not currently support linked URIs
+
 == Stacked GIT ==
 Stacked Git operations. (Personally I have dropped this and will opt for the interactive rebase style instead / robin).
 
