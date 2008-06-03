@@ -18,6 +18,8 @@ via more servers than just git.kernel.org.
 
 <b>Idea:</b> [[SoC2008Ideas#GitTorrent:[[GitTorrent]]]] at [[SoC2008Ideas]] <<BR>>
 <b>SoC page:</b> [http://code.google.com/soc/2008/git/appinfo.html?csaid=F544F0DAA82AFDFC GitTorrent]
+<b>Gitweb:</b> http://utsl.gen.nz/gitweb/?p=VCS-Git-Torrent <<BR>>
+<b>Pull:</b> git://utsl.gen.nz/VCS-Git-Torrent <<BR>>
 
 == git-statistics ==
 <b>Student:</b> Sverre Rabbelier <<BR>>
