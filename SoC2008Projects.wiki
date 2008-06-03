@@ -16,10 +16,12 @@ transport via a peer-to-peer system, potentially allowing
 popular projects such as the linux kernel to be available
 via more servers than just git.kernel.org.
 
-<b>Idea:</b> [[SoC2008Ideas#GitTorrent:[[GitTorrent]]]] at [[SoC2008Ideas]] <<BR>>
+<b>Idea:</b> [[SoC2008Ideas#GitTorrent:[[GitTorrent]]]] at SoC2008Ideas <<BR>>
+<b>Homepage:</b> [http://gittorrent.utsl.gen.nz/rfc.html RFC -- GitTorrent Protocol -- GTP/0.1]
 <b>SoC page:</b> [http://code.google.com/soc/2008/git/appinfo.html?csaid=F544F0DAA82AFDFC GitTorrent] <<BR>>
 <b>Gitweb:</b> http://utsl.gen.nz/gitweb/?p=VCS-Git-Torrent <<BR>>
-<b>Pull:</b> git://utsl.gen.nz/VCS-Git-Torrent
+<b>Pull:</b> git://utsl.gen.nz/VCS-Git-Torrent <<BR>>
+<b>Mailing list:</b> <<[[MailTo]](gittorrent@lists.utsl.gen.nz)>> ([http://lists.utsl.gen.nz/mailman/listinfo.cgi/gittorrent mailman], [http://lists.utsl.gen.nz/pipermail/gittorrent/ archives])
 
 == git-statistics ==
 <b>Student:</b> Sverre Rabbelier <<BR>>
