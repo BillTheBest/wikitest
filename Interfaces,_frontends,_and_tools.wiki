@@ -36,7 +36,7 @@
 === Grit ===
 * [http://grit.rubyforge.org/ Grit] is a Ruby library for extracting information from a git repository in and object oriented manner.
 
-=== Java Git === 
+=== Java Git ===
 * See below in Editors and IDE integration 
 
 == Patch-management Interface layers ==
