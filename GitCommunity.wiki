@@ -1,14 +1,5 @@
-
----- /!\ <b>Edit conflict - other version:</b> ----
-tickets_4.txt;2;2
+tickets_5.txt;2;2
 ----
 [[CategoryTools]]
-
----- /!\ <b>Edit conflict - your version:</b> ----
-tickets_4.txt;2;2
-----
-[[CategoryTools]]
-
----- /!\ <b>End of edit conflict</b> ----
 
 __NOTOC__
