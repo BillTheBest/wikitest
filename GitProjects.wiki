@@ -122,6 +122,12 @@ List does not currently include [[Git]] or git-related tools.
 * http://bucardo.org/testdynamic.git/ (Test::Dynamic repository)
 * Debian buildd-tools (buildd, sbuild, schroot)
 * http://git.debian.org (gitweb)
+* Debian debpool
+* http://wiki.debian.org/debpool
+* http://git.debian.org/?p=debpool/debpool.git (gitweb)
+* Debian pbuilder
+* http://packages.qa.debian.org/pbuilder
+* http://git.debian.org/?p=pbuilder/pbuilder.git (gitweb)
 * CenterIM
 * http://www.centerim.org/index.php/Contribute_Code (development web page)
 * http://repo.or.cz/w/centerim.git (gitweb)
