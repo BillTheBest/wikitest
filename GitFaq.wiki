@@ -1,5 +1,14 @@
+
+---- /!\ <b>Edit conflict - other version:</b> ----
 tickets_3.txt;2;2
 ----
 [[CategoryTemplate]]
+
+---- /!\ <b>Edit conflict - your version:</b> ----
+tickets_3.txt;2;2
+----
+[[CategoryTemplate]]
+
+---- /!\ <b>End of edit conflict</b> ----
 
 __NOTOC__
