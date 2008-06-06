@@ -39,6 +39,8 @@ Here are few tips for new users, or users that don't like to read the manual:
 * Talk is cheap. Show me the code. <i>(Linus Torvalds)</i>
 * Those that can, do. Those that can't, complain.
 * "Regression testing"? What's that? If it compiles, it is good, if it boots up it is perfect. <i>(Linus Torvalds)</i>
+* Intelligence is the ability to avoid doing work, yet getting the work done. <i>(Linus Torvalds)</i>
+* See, you not only have to be a good coder to create a system like Linux, you have to be a sneaky bastard too. <i>(Linus Torvalds)</i>
 
 <!-- ## git mailing list
  -->
