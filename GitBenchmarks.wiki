@@ -187,6 +187,9 @@ As you can see, Mercurial (`hg`) was the fastest.  The fact that Mercurial outer
 
 = Repository size benchmarks =
 
+== --window and --depth parameters ==
+A Blogpost about [http://vcscompare.blogspot.com/2008/06/git-repack-parameters.html Git repack parameters] mentions that most repositories should be ok with a window value of 50 for a complete repack. Really large repositories might benefit from a higher value. The --depth parameter becomes insignificant when a large window value is used.
+
 == Estimate size of Linux kernel repository ==
 
 The historic Linux repo currently repacks itself into a ~175MB pack for 
