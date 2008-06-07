@@ -71,6 +71,18 @@ Here are few tips for new users, or users that don't like to read the manual:
 * I've never met a human being who would want to read 17,000 pages of documentation, and if there was, I'd kill him to get him out of the gene pool. <i>(Joseph Costello)</i>
 * The world of technical support is like a reflecting pool. To those who exist outside, it appears to be a deep, mystical place; bottomless, terrifying, foreign. The truth, however, is that the pool is only about three feet deep, and the bottom is grainy silt over sharp, hurty rocks.
 
+<!-- ## [[BrainyQuote]]
+ -->
+* Part of the inhumanity of the computer is that, once it is competently programmed and working smoothly, it is completely honest. <i>(Isaac Asimov)</i>
+* I am not the only person who uses his computer mainly for the purpose of diddling with his computer. <i>(Dave Barry)</i>
+* Computer science is no more about computers than astronomy is about telescopes. <i>(Edsger Dijkstra)</i>
+* Home computers are being called upon to perform many new functions, including the consumption of homework formerly eaten by the dog. <i>(Doug Larson)</i>
+* The good news about computers is that they do what you tell them to do. The bad news is that they do what you tell them to do. <i>(Ted Nelson)</i>
+* To err is human - and to blame it on a computer is even more so. <i>(Robert Orben)</i>
+* People think computers will keep them from making mistakes. They're wrong. With computers you make mistakes faster. <i>(Adam Osborne)</i>
+* Treat your password like your toothbrush. Don't let anybody else use it, and get a new one every six months. <i>(Clifford Stoll)</i>
+* Never trust a computer you can't throw out a window. <i>(Steve Wozniak)</i>
+
 <!-- ## other sources
  -->
 
