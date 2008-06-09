@@ -120,7 +120,7 @@ Also see [[BlogPosts]] for a collection of blog posts on specific Git usage.
 
 Below there are blogs by gitters:
 * [http://gitster.livejournal.com/tag/git gitster's journal], Junio C Hamano (git maintainer) blog (articles tagged <b>git</b>).
-* [http://vilain.net/ (SV*)null - interpretating the void as Sam] blog by Sam Vilain.
+* [http://vilain.net/ (SV*)null - interpretating the void as Sam] blog by Sam Vilain.<<BR>> [http://planet.catalyst.net.nz/blog/blog/samv SamV's blog | planet catalyst]
 
 == Talks ==
 * [http://www.youtube.com/watch?v=4XpnKHJAok8 Tech Talk: Linus Torvalds on Git]  at Google on YouTube ([[LinusTalk200705Transcript|transcript]])
