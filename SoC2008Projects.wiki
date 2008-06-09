@@ -19,6 +19,7 @@ via more servers than just git.kernel.org.
 <b>Idea:</b> [[SoC2008Ideas#GitTorrent:[[GitTorrent]]]] at SoC2008Ideas <<BR>>
 <b>Homepage:</b> [http://gittorrent.utsl.gen.nz/rfc.html RFC -- GitTorrent Protocol -- GTP/0.1] <<BR>>
 <b>SoC page:</b> [http://code.google.com/soc/2008/git/appinfo.html?csaid=F544F0DAA82AFDFC GitTorrent] <<BR>>
+<b>Google Code:</b> [http://code.google.com/p/gittorrent/ GitTorrent - Peer-to-peer Protocol for Synchronizing of Git Repositories] page at Google Code. <<BR>>
 <b>Gitweb:</b> http://utsl.gen.nz/gitweb/?p=VCS-Git-Torrent <<BR>>
 <b>Pull:</b> git://utsl.gen.nz/VCS-Git-Torrent <<BR>>
 <b>Mailing list:</b> <<[[MailTo]](gittorrent@lists.utsl.gen.nz)>> ([http://lists.utsl.gen.nz/mailman/listinfo.cgi/gittorrent mailman], [http://lists.utsl.gen.nz/pipermail/gittorrent/ archives])
