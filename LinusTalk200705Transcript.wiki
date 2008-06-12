@@ -27,7 +27,7 @@ tool which, eh, only he is smart enough to know how to use.
 So I have a few words of warning which is I do not actually do
 speaking very much, partly because I do not like speaking,
 partly because over the last few years everybody actually wants
-me to talk about nebulous visions where the next century about
+me to talk about nebulous visions for the next century about
 Linux, and I am a geek and I actually prefer talking about
 technology.
 
@@ -58,8 +58,8 @@ that it's "what would CVS never ever do"-kind of approach to
 source control management.  I've never actually used CVS for
 the kernel. For the first 10 years of kernel maintenance, we
 literally used tarballs and patches, which is a much superior
-source code management system than CVS is, but I did end up
-using CVS for 7 years at a commercial company, and I hated it
+source control management system than CVS is, but I did end up
+using CVS for 7 years at a commercial company, and I hate it
 with a passion.
 
 When I say I hate CVS with a passion, I have to also say that if
