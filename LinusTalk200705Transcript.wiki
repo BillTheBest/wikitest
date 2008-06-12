@@ -18,7 +18,7 @@ Linus, why hasn't he merged my tree -- he does not love me
 anymore".  And he walked in my office this afternoon, "what are
 you doing here?"  Thank you taking the time off.  So Linus is
 here today to explain to us why on earth he wrote a software
-tool which, eh, and he is smart enough to know how to use.
+tool which, eh, only he is smart enough to know how to use.
 
 <i>[applause]</i>
 
