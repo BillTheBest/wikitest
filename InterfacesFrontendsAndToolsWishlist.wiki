@@ -1,4 +1,4 @@
-<b>See also:</b> 
+<b>See also:</b>
 * [[InterfacesFrontendsAndTools]]
 * [http://www.venge.net/monotone/wiki/InterfacesFrontendsAndTools [[InterfacesFrontendsAndTools]]] page on Monotone wiki
 * [http://www.selenic.com/mercurial/wiki/index.cgi/OtherTools Other Tools that work with Mercurial] page on Mercurial wiki
@@ -21,7 +21,7 @@
 <b>Trac</b> (bugtracker/wiki/history browser)<<Anchor(Trac)>><<Anchor([[GitTrac]])>>::
     [http://www.edgewall.com/trac/ Trac] is a popular integrated history browser/wiki/bug tracker, which has very recently grown a plugin interface that lets it work with VCS-es besides Subversion. The right place to start is probably the [http://projects.edgewall.com/trac/wiki/TracMercurial [[TracMercurial]] plugin], since Mercurial uses the same history model as Git. Another right place could be the [http://trac-hacks.org/wiki/GitPlugin [[GitPlugin]]], a plugin for Trac to use Git instead of Subversion (and perhaps also [http://trac-hacks.org/wiki/GitwebPlugin [[GitwebPlugin]]]). Using [http://trac-hacks.org/wiki/TracGitPlugin [[TracGitPlugin]]] is not recommended, as it is a hack.
 
-    There is also [http://cvstrac.org/cvstrac/wiki?p=GitTrac GIT Trac] project to add Git suport for [http://cvstrac.org/ CVSTrac], similar to Trac but simpler project (inspiration for Trac). 
+    There is also [http://cvstrac.org/cvstrac/wiki?p=GitTrac GIT Trac] project to add Git suport for [http://cvstrac.org/ CVSTrac], similar to Trac but simpler project (inspiration for Trac).
 
     Another similar project for which would be nice to have Git support is [http://collaboa.org/about Collaboa] and [http://www.atlassian.com/software/jira/ JIRA]. <i>(Python for Trac, C for CVSTrac, Ruby on Rails for Collaboa, Java for JIRA)</i>.
 
@@ -57,6 +57,10 @@
     [http://meld.sourceforge.net/ Meld] is a general diff, merge, and history browsing tool written in Python for GNOME. Has CVS, Subversion, Bazaar-NG and Monotone support (see [http://bugzilla.gnome.org/show_bug.cgi?id=327980 here] for git support). Perhaps [http://furius.ca/xxdiff/ xxdiff] (Qt; has CVS and Subversion integration with scripts), [http://kdiff3.sourceforge.net/ KDiff3] and/or [http://www.caffeinated.me.uk/kompare/ Kompare] (Kompare is diff only) should also have some VCS support...  <i>(Python, GNOME)</i>
 
     Note: Git support for external graphical merge resolution programs has been added into the git development mainline via a new git command, "git mergetool", as of git 1.5.1.  git-mergetool currently supports kdiff3, meld, xxdiff, tkdiff, and GNU Emacs's emerge.
+
+<b>Dreamweaver</b>::
+    [http://labs.adobe.com/technologies/dreamweavercs4/ Dreamweaver 4 Beta] Download the prerelease of the next version of Dreamweaver now and send us your feedback. The Dreamweaver beta will expire soon after the next version of Dreamweaver is available for purchase.
+    I've [http://www.adobe.com/cfusion/webforums/forum/messageview.cfm?catid=674&threadid=1370996 put in a request] to the Dreamweaver CS4 Forum.
 
 ----
 [[CategoryTools]]
