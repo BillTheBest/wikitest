@@ -8,7 +8,7 @@
 = Other programs that *should* be taught to work with Git, but haven't been =
 
 ----
-<span style="font-size: smaller">[[#Bugzilla Bugzilla]], [[#Bonsai Bonsai]], [[#Trac Trac]], [[#TWiki TWiki]], [[#scmbug SCMBug]], [[#be BugsEverywhere]], [[#Savane Savane]], [[#GForge GForge]], [[#libresource LibreSource]], [[#DVC DVC (Emacs)]], [[#PIDA PIDA]], [[#Eric3 Eric3]], [[#Meld Meld]], [[#xxdiff xxdiff]]</span>
+<span style="font-size: smaller">[[#Bugzilla Bugzilla]], [[#Bonsai Bonsai]], [[#Trac Trac]], [[#TWiki TWiki]], [[#scmbug SCMBug]], [[#be BugsEverywhere]], [[#Savane Savane]], [[#GForge GForge]], [[#libresource LibreSource]], [[#DVC DVC (Emacs)]], [[#PIDA PIDA]], [[#Eric3 Eric3]], [[#Meld Meld]], [[#xxdiff xxdiff]], [[#Dreamweaver Dreamweaver]]</span>
 ----
 
 <b>Bugzilla</b> (bugtracker)<<Anchor(Bugzilla)>><<Anchor(Bonsai)>>:: <span style="font-size: x-large; color: red">!</span>
@@ -58,7 +58,7 @@
 
     Note: Git support for external graphical merge resolution programs has been added into the git development mainline via a new git command, "git mergetool", as of git 1.5.1.  git-mergetool currently supports kdiff3, meld, xxdiff, tkdiff, and GNU Emacs's emerge.
 
-<b>Dreamweaver</b>::
+<b>Dreamweaver</b>  (IDE)<<Anchor(Dreamweaver)>>::
     [http://labs.adobe.com/technologies/dreamweavercs4/ Dreamweaver 4 Beta] Download the prerelease of the next version of Dreamweaver now and send us your feedback. The Dreamweaver beta will expire soon after the next version of Dreamweaver is available for purchase.
     I've [http://www.adobe.com/cfusion/webforums/forum/messageview.cfm?catid=674&threadid=1370996 put in a request] to the Dreamweaver CS4 Forum.
 
