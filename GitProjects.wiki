@@ -198,6 +198,9 @@ List does not currently include [[Git]] or git-related tools.
 * Erlware (Erlang/OTP development tools)
 * http://www.erlware.org (project)
 * http://git.erlware.org/ http://www.erlware.org/development/public_repositories.html (repos)
+* Exherbo
+* http://www.exherbo.org (project)
+* http://git.exherbo.org (gitweb)
 * Fedora
 * http://hosted.fedoraproject.org/ (some Fedora hosted projects)
 * http://git.fedoraproject.org/ (gitweb)
@@ -321,6 +324,9 @@ List does not currently include [[Git]] or git-related tools.
 * http://palava.cosmocode.de/
 * http://palava.cosmocode.de/view/gitweb.cgi?p=palava;a=summary (gitweb)
 * http://git.palava.cosmocode.de/ (repository)
+* Paludis
+* http://paludis.pioto.org/ (description)
+* http://git.pioto.org/?p=paludis.git;a=summary (gitweb)
 * paraslash (network audio streaming tools)
 * http://paraslash.systemlinux.org/ (description)
 * http://paraslash.systemlinux.org/gitweb/gitweb.cgi?p=.git;a=shortlog (gitweb)
