@@ -30,7 +30,7 @@
 === [[GitPython]] ===
 * A Python module that provides object model access to your Git repositories. Once you have created a repository object, you can traverse it to find parent commit(s), trees, blobs, etc.. Port of the the [http://grit.rubyforge.org/ grit] library in Ruby created by Tom Preston-Werner and Chris Wanstrath.  Git repository is [http://gitorious.org/projects/git-python/ available here].
 
-=== Pygit ===
+=== [[PyGit]] ===
 * Pythonic [http://code.istique.net/?p=pygit.git git bindings] targeted towards porcelains. 
 
 === Grit ===
@@ -82,8 +82,8 @@
 === Qct ===
 * [http://www.borho.org/~steve/qct.html Qct] ([http://hg.borho.org/qct hg repo]) by Steve Borho is Qt/PyQt based GUI commit tool, meant to be SCM and platform agnostic. Supports Mercurial (`hg`), Bazaar (`bzr`), Cogito / Git, Subversion (`svn`), Monotone (`mnt`) and CVS.
 
-=== ugit ===
-* <b>ugit</b> ([http://repo.or.cz/w/ugit.git gitweb], [http://ugit.sourceforge.net/README README], [http://permalink.gmane.org/gmane.comp.version-control.git/67854 announcement]) by David Aguilar is a git commit tool, similar to git-gui, written in PyQt4. You can get tarballs at http://ugit.sourceforge.net/
+=== git-cola (formerly ugit) ===
+* [http://cola.tuxfamily.org/ git-cola] ([http://repo.or.cz/w/git-cola.git gitweb], [http://github.com/davvid/git-cola/tree/master github]), formerly ugit ([http://ugit.sourceforge.net/ SourceForge], [http://permalink.gmane.org/gmane.comp.version-control.git/67854 announcement]) by David Aguilar is a git commit tool, similar to git-gui, written in PyQt4. You can get tarballs at http://cola.tuxfamily.org/
 
 === gitool ===
 * [[Gitool:gitool]] ([http://thread.gmane.org/gmane.comp.version-control.git/26415 announcement], [http://ozlabs.org/~paulus/gitool download], [http://www.kernel.org/git/?p=gitk/gitk.git;a=shortlog;h=new gitweb]) by Paul Mackerras is a tool for creating commits. Superseded by git-gui (see above). Written in Tcl/Tk.
