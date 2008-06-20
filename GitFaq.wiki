@@ -5,6 +5,14 @@
 * [[TipsAndTricks]] page
 = General Questions =
 
+== What is git ? ==
+
+Git is a distributed version control system developed by Junio Hamano and Linus Torvalds.
+
+Git does not use a centralized server.
+
+Git runs on Linux, BSD, Solaris, Darwin, Windows, and other operating systems.
+
 <<Anchor(git-name)>>
 == Why the 'git' name? ==
 Quoting Linus: "I'm an egotistical ***, and I name all my projects after myself. First 'Linux', now 'git'".
@@ -578,7 +586,7 @@ At the moment, git is not able to use a (dumb) sftp protocol for pushing. There 
 Alternatively, you can use whatever means to mirror your .git/ directory to the server (rsync, scp -r, ...). But make sure that 'git update-server-info' was run in that repository _before_ mirroring!
 
 == How do I do a quick clone without history revisions? ==
-If you just want to checkout the latest source code of a project who may has very large repo,  you can use 
+If you just want to checkout the latest source code of a project who may has very large repo,  you can use
 <pre><nowiki>
     git clone --depth 1 your_repo_url
 </nowiki></pre>
