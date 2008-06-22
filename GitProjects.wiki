@@ -443,6 +443,11 @@ List does not currently include [[Git]] or git-related tools.
 * git mirror of many cvs projects important for the development of Fedora Core
 ** http://www.jur-linux.org/git/
 
+== Publications and web sites ==
+
+* [[LinuxWorld]].com
+** http://monkey.linuxworld.com/meta/monkey/
+
 == Git hosting ==
 
 * Public Git hosting site, maintained by Petr Baudis
