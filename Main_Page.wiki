@@ -26,11 +26,12 @@ Welcome to the [[Git]] wiki web site. This wiki is a community effort to provide
 * [[GitLinks]]
 * [[GitComparison:Git Compared]]
 == News ==
-* May 25: Git Version 1.5.5.2 now [http://kernel.org/pub/software/scm/git/ available][http://www.kernel.org/pub/software/scm/git/docs/RelNotes-1.5.5.2.txt Release Notes]
-* May 07: [http://www.infoq.com/articles/dvcs-guide InfoQ compares] Git with Hg and Bzr with Git leading in performance
-* April 22: Google summer of code Git projects announced. [[SoC2008Projects:SoC 2008 Git Projects]]
-* April 20: Git Version 1.5.5.1 now [http://kernel.org/pub/software/scm/git/ available][http://www.kernel.org/pub/software/scm/git/docs/RelNotes-1.5.5.1.txt Release Notes]
-* April 10: [http://www.github.com GitHub] launches and ends beta opening doors for anyone looking for git hosting
+* June 18, 2008: Git Version 1.5.6 now [http://kernel.org/pub/software/scm/git/ available][http://www.kernel.org/pub/software/scm/git/docs/RelNotes-1.5.6.txt Release Notes]
+* May 25, 2008: Git Version 1.5.5.2 now [http://kernel.org/pub/software/scm/git/ available][http://www.kernel.org/pub/software/scm/git/docs/RelNotes-1.5.5.2.txt Release Notes]
+* May 07, 2008: [http://www.infoq.com/articles/dvcs-guide InfoQ compares] Git with Hg and Bzr with Git leading in performance
+* April 22, 2008: Google summer of code Git projects announced. [[SoC2008Projects:SoC 2008 Git Projects]]
+* April 20, 2008: Git Version 1.5.5.1 now [http://kernel.org/pub/software/scm/git/ available][http://www.kernel.org/pub/software/scm/git/docs/RelNotes-1.5.5.1.txt Release Notes]
+* April 10, 2008: [http://www.github.com GitHub] launches and ends beta opening doors for anyone looking for git hosting
 [[News:Older news]]
 
 == Good starting places for developing Git would be ==
@@ -41,7 +42,7 @@ Welcome to the [[Git]] wiki web site. This wiki is a community effort to provide
 * [[UsingWiki]]
 Git is not to be confused with at least these two unrelated projects which also provide commands named git. These should be uninstalled (or renamed) to use this git.
 
-* [http://hulubei.net/tudor/git/ Git (GNU Interactive Tools)] is a set of browsing and viewing tools
+* [http://hulubei.net/tudor/git/ gnuit (GNU Interactive Tools)] is a set of file browsing and viewing tools (a text-based file manager).
 * [http://sourceforge.net/projects/git Git (Guitar/Instrument Tuner)] is a defunct portable guitar tuner.
 ----
 * This wiki is powered by [http://moinmo.in/ MoinMoin]
