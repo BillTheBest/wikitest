@@ -62,6 +62,7 @@ Here are few tips for new users, or users that don't like to read the manual:
 * Git is a lot like C. It's incredibly flexible and powerful but it is also incredible flexible and powerful. <i>(Masukomi)</i>
 * If you want to shoot yourself in the foot Git will point you to the gun rack and show you how to load the bullets. <i>(Masukomi)</i>
 * And then there’s `git rebase --interactive`, which is a bit like `git commit --amend` hopped up on acid and holding a chainsaw -- completely insane and quite dangerous but capable of exposing entirely new states of mind. <i>(Ryan Tomayko)</i>
+* Then somebody insisted that all future projects would use CVS. (...) It had quite clearly evolved via the <b>Sticky-Tape and String school of software development</b>, but it worked pretty well [compared to Visual Source Safe]. <i>(Dan Dyer)</i>.
 
 <!-- ## other fortune cookies
  -->
