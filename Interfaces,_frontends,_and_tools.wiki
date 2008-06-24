@@ -89,7 +89,7 @@
 * [[Gitool:gitool]] ([http://thread.gmane.org/gmane.comp.version-control.git/26415 announcement], [http://ozlabs.org/~paulus/gitool download], [http://www.kernel.org/git/?p=gitk/gitk.git;a=shortlog;h=new gitweb]) by Paul Mackerras is a tool for creating commits. Superseded by git-gui (see above). Written in Tcl/Tk.
 
 === KGit ===
-* [[KGit]] (http://kgit.sourceforge.net/) by Abhijit Bhopatkar is intended to be a small but functional frontend to the popular source control program, git. It is similar to gitk with two significant differences. First of all, it is written in Qt using KDevelop and the KDE libraires. Secondly, it is not only a repository viewer, unlike gitk.
+* [[KGit]] (http://kgit.sourceforge.net/) by Abhijit Bhopatkar is intended to be a small but functional frontend to the popular source control program, git. It is similar to gitk with two significant differences. First of all, it is written in Qt using lop and the KDE libraires. Secondly, it is not only a repository viewer, unlike gitk.
 
 === [[GitNub]] ===
 * [[GitNub]] ([http://github.com/Caged/gitnub/wikis homepage], [[http://github.com/Caged/gitnub/tree/master github]) by Justin Palmer is an Mac OSX Leopard client for git written in Ruby and Objective-C.
@@ -139,6 +139,9 @@
 
 === Java GIT/Eclipse GIT ===
 * [http://repo.or.cz/w/egit.git Java GIT/Eclipse GIT] (repository) originated by Shawn Pearce is a Java GIT library and plugin for [http://www.eclipse.org/ Eclipse] IDE, in very early stages of development.  The site no longer seems to have the plugin. Robin Rosenberg has recently been working on history and compare views for the plugin. David Watson contributed GUI for branch handling and commit. Progress is slow but steady. A [[EclipsePluginWishlist]] has been started as a roadmap of features. A page has been started to follow development: [[EclipsePlugin]].
+
+=== KDevelop ===
+* Development of a Git plugin for kdevelop has begun. [http://drwxr-xr-x.blogspot.com/2008/06/now-kdevelop-has-basic-git-support.html Basic support implemented]
 
 === PIDA ===
 * [http://pida.co.uk/ PIDA] Integrated development environment supporting GIT, Subversion, Darcs, Mercurial, Monotone, Bazaar-NG (<i>bzr</i>). It allows embedding Vim or emacs. <i>(Python, GTK)</i>
