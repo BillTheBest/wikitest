@@ -64,6 +64,24 @@ A concatenation of git programs can also be achieved by the prefix "!":
 [alias]
         stsh = !CURRENT=$(git symbolic-ref HEAD) && git symbolic-ref HEAD refs/heads/stash && git commit -a -m stashed && git checkout $CURRENT
 </nowiki></pre>
+
+== Serve repo on the spot ==
+This fires up a git daemon for the repo you are currently in:
+
+<pre><nowiki>
+[alias]
+        serve = !git daemon --reuseaddr --verbose  --base-path=. --export-all ./.git
+</nowiki></pre>
+
+It makes use of the fact that (currently, as of git 1.5.6.1) non-git alias are executed from the top-level dir of a repo. The simpler version
+
+<pre><nowiki>
+[alias]
+        serve = daemon --reuseaddr --verbose  --base-path=. --export-all ./.git
+</nowiki></pre>
+
+works only when called from the top-level dir. In any case, you can connect simply by <i>git ls-remote git://127.0.0.1/</i> etc.
+
 = Aliases with arguments =
 Right from the start, aliases were meant as an easy way to avoid really simple, really short scripts.  Therefore, they can take arguments, which are appended to the command.
 
