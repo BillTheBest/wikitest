@@ -27,6 +27,7 @@ Some ways to keep informed about Egit development.
 ** A: Use Git (THE Git) to create or clone your repo. Select the project in the navigator and go to the context menu's Team item and below it you will find "Share Project". Select it and the rest is self explanatory.
 * Q: How do I install the plugin?
 ** A: See the README and INSTALL documents in the egit repository.
+  - A: or [http://cho.hapgoods.com/wordpress/?p=159 This Excellent Blog Entry]
 * Q: Is there an update site?
 ** A: Not at the moment. Code is included to build an update site, but it has some issues to solve.
 * Q: Is the project active?
