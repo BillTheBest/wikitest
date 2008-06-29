@@ -67,10 +67,13 @@ Comparison using linux-2.6.0 and linux-2.6.15.4 as a large source tree to use.
  || commit one file    ||<)>   35.192s ||<)>    7.366s  ||
 
 Note that `git-add` adds contents of a file to repository, and not only marks file for later commit.
+Note also that diff is done before any commit; see "[http://blog.jozilla.net/2008/06/26/bzr-vs-git-the-sequel Bzr vs git, the sequel]".
 
-Note also discrepancy between real and user+sys for "bzr diff" comparing imported linux-2.6.0 with linux-2.6.15.4 in working tree (1m13.869s vs 29.028s), "bzr commit" for initial commit (2m4.757s vs 1m22.773s), "bzr diff" for no changes (3m51.918s vs 9.186s) and "bzr commit" with singe file change (2m6.685s vs 35.192s) in original reference (link below).
+Note also discrepancy between real and user+sys for "bzr diff" comparing imported linux-2.6.0 with linux-2.6.15.4 in working tree (1m13.869s vs 29.028s), "bzr commit" for initial commit (2m4.757s vs 1m22.773s), "bzr diff" for no changes (3m51.918s vs 9.186s) and "bzr commit" with singe file change (2m6.685s vs 35.192s) in [http://blog.jozilla.net/2006/3/3/bzr-versus-git original reference].
 
-<b>Reference:</b> [http://blog.jozilla.net/2006/3/3/bzr-versus-git Bzr versus git] from March 3rd, 2006 on Jo Vermeulen blog (mentioned [http://en.wikipedia.org/wiki/Talk:Git_%28software%29 Talk:Git (software)] page on Wikipedia).
+<b>References:</b> 
+* [http://blog.jozilla.net/2006/3/3/bzr-versus-git Bzr versus git] from March 3rd, 2006 on Jo Vermeulen blog (mentioned [http://en.wikipedia.org/wiki/Talk:Git_%28software%29 Talk:Git (software)] page on Wikipedia).
+* [http://blog.jozilla.net/2008/06/26/bzr-vs-git-the-sequel Bzr vs git, the sequel] from June 26th, 2008, mentions benchmark with newer versions of git and bzr, and explains some details of the tests.
 
 == Quilt import comparison of Git and Mercurial ==
 
