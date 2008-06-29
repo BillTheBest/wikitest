@@ -143,6 +143,16 @@ There are <i>two</i> projects dealing with fully managed Git implementation (rew
 <b>Student:</b> Igor Guerrero Fonseca <<BR>>
 <b>Mentor:</b>  Massimiliano Mantione <<BR>>
 
+== [[DocBox]] project ==
+
+DocBox sits on top of RDoc, uses wiki-like interface, and makes use of either <i>Git</i> or SVN version control systems.
+
+<b>SoC page:</b> [http://code.google.com/soc/2008/ruby/appinfo.html?csaid=E7E49508C605278D DocBox: A Wiki frontend to Documentation] <<BR>>
+<b>Idea:</b>     See "RDoc wiki" in [http://rubycentral.com/projects/gsoc-2008/ideas-for-gsoc-2008 Ruby Central Project Ideas for GSoC 2008] <<BR>>
+<b>Organization:</b> [http://rubycentral.org/ Ruby Central] ([http://code.google.com/soc/2008/ruby/about.html organization SoC info]) <<BR>>
+<b>Student:</b> Ian Ownbey       <<BR>>
+<b>Mentor:</b>  Jeremy McAnally  <<BR>>
+
 ----
 ----
 = References =
