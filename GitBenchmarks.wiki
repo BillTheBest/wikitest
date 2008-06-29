@@ -24,18 +24,18 @@ My benchmark is to apply all 819 patches from -mm3 to 2.6.12-rc:
 
  hg (Mercurial 0.4b)::
 
-  ||real   || 3m22.075s ||
-  ||user   || 1m57.195s ||
-  ||sys    || 0m14.068s ||
+ ||real   || 3m22.075s ||
+ ||user   || 1m57.195s ||
+ ||sys    || 0m14.068s ||
 
  819/(60+57.195 + 14.068) = 6.239 patches/second  user+sys<<BR>>
  repository: before 167M after 173M (3.5% growth)
 
  git (version unknown, as of April 29, 2005)::
 
-  ||real   || 2m58.568s ||
-  ||user   || 1m11.196s ||
-  ||sys    || 0m50.144s ||
+ ||real   || 2m58.568s ||
+ ||user   || 1m11.196s ||
+ ||sys    || 0m50.144s ||
 
  819/(60+11.196+50.144) = 6.750 patches/second  user+sys<<BR>>
  repository: before 102M after 154M (51% growth)
