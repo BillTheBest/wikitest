@@ -283,9 +283,6 @@
 * [http://josefsson.org/git2cl/ git2cl] ([http://repo.or.cz/w/git2cl.git gitweb]) by Simon Josefsson is a Perl script to convert git logs to [http://www.gnu.org/prep/standards/html_node/Change-Logs.html GNU ChangeLog] format.  The tool expects output from <code><nowiki>git --pretty --numstat --summary</nowiki></code> on standard input.  Inspired by [http://www.red-bean.com/cvs2cl/ cvs2cl] tool. <b>References:</b> [http://permalink.gmane.org/gmane.comp.version-control.git/41170 ANNOUNCE: git2cl] message on git mailing list.
 * See also alternate solution: [http://marc.info/?l=git&m=119403382117250&w=2 |PATCH| New script: git-changelog.perl - revised] by Ronald Landheer-Cieslak, with slightly different output, less dependencies, and being standalone command and not a filter.
 
-=== Nico Schottelius scripts ===
-* Some of [http://unix.schottelius.org/scripts/ Nico Schottelius (unix|linux) scripts] deal with Git: <code><nowiki>db-dump+git.sh</nowiki></code>, <code><nowiki>update-gitweb.sh</nowiki></code>, <code><nowiki>update-git+cogito.sh</nowiki></code>.
-
 === gitco ===
 * [http://blog.josefsson.org/?p=8 gitco] by Simon Josefsson is a tiny shell script to remove unversioned files from git directories, similar to [http://www.red-bean.com/cvsutils/ cvsutils] 'cvsco' or subversion's svn-clean.
 
@@ -312,6 +309,12 @@
 
 === git-merge-changelog ===
 * The estimable Bruno Haible wrote a merge driver for [[ChangeLog]] files.  The driver currently lives in the [http://git.sv.gnu.org/gitweb/?p=gnulib.git;a=blob;f=lib/git-merge-changelog.c gnulib sources].
+
+=== Nico Schottelius scripts ===
+* Some of [http://unix.schottelius.org/scripts/ Nico Schottelius (unix|linux) scripts] deal with Git: <code><nowiki>db-dump+git.sh</nowiki></code>, <code><nowiki>update-gitweb.sh</nowiki></code>, <code><nowiki>update-git+cogito.sh</nowiki></code>.
+
+=== William Morgan git tools ===
+* [http://git-wt-commit.rubyforge.org/ William's miscellaneous git tools] include `git-wtf`, a tool for working with feature branches (and its precursor `git-show-merges`), `git-publish-branch` to ease the task of "publishing" a branch, and `git-rank-contributors` which ranks all the contributors by the size of their diffs (as opposed to <code><nowiki>git shortlog --numbered --summary</nowiki></code> which counts number of commits.  By William Morgan and Jeff Balogh <i>(Ruby)</i>
 
 ----
 = See also =
