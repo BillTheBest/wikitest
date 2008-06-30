@@ -61,7 +61,7 @@ On a second note, tracking renames is really just a special case of tracking how
 
 However, this does not mean that Git has no support for renames. The diff machinery in Git has support for automatically detecting renames, this is turned on by the <code><nowiki>'-M'</nowiki></code> switch to the <code><nowiki>git-diff-*</nowiki></code> family of commands. The rename detection machinery is used by [http://www.kernel.org/pub/software/scm/git/docs/git-log.html git-log(1)] and [http://www.kernel.org/pub/software/scm/git/docs/git-whatchanged.html git-whatchanged(1)], so for example, <code><nowiki>'git-log -M'</nowiki></code> will give the commit history with rename information. Git also supports a limited form of merging across renames. The two tools for assigning blame, [http://www.kernel.org/pub/software/scm/git/docs/git-blame.html git-blame(1)] and [http://www.kernel.org/pub/software/scm/git/docs/git-annotate.html git-annotate(1)] both uses the automatic rename detection code to track renames.
 
-As a very special case, the current <code><nowiki>'git log'</nowiki></code> has <code><nowiki>'---follow'</nowiki></code> option that allows you to follow renames when given a single path. This will hopefully appear in git 1.5.3.
+As a very special case, <code><nowiki>'git log'</nowiki></code> version 1.5.3 and later has <code><nowiki>'--follow'</nowiki></code> option that allows you to follow renames when given a single path.
 
 * [http://permalink.gmane.org/gmane.comp.version-control.git/217 Mail] by Linus on this topic.
 
