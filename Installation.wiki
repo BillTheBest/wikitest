@@ -1,6 +1,6 @@
 = Installation Help =
 == Installing Git ==
-If you have already have Git installed (many new Linux distributions come with git), you can get the latest development version via Git itself by using the command:
+If you already have Git installed (many new Linux distributions come with git), you can get the latest development version via Git itself by using the command:
 
 <pre><nowiki>
 git clone git://git.kernel.org/pub/scm/git/git.git</nowiki></pre>
