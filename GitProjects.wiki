@@ -52,6 +52,7 @@ List does not currently include [[Git]] or git-related tools.
 ** http://git.kernel.org/ (gitweb)
 
 == Non-kernel projects that use Git for their source code management. ==
+
 * Beryl (OpenGL accelerated desktop, fork of Compiz)
 ** http://blog.beryl-project.org/?p=31 (description of moving to Git)
 ** http://gitweb.beryl-project.org/ (gitweb)
@@ -330,6 +331,9 @@ List does not currently include [[Git]] or git-related tools.
 * paraslash (network audio streaming tools)
 * http://paraslash.systemlinux.org/ (description)
 * http://paraslash.systemlinux.org/gitweb/gitweb.cgi?p=.git;a=shortlog (gitweb)
+* PulseAudio
+* http://pulseaudio.org/wiki/[[DownloadPulseAudio]]#[[DevelopmentSources]]
+* http://git.0pointer.de/?p=pulseaudio.git (gitweb)
 * Puppet
 * http://reductivelabs.com/trac/puppet/wiki/[[DownloadingPuppet]] (download)
 * git://reductivelabs.com/puppet (repository)
