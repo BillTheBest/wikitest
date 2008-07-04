@@ -150,6 +150,23 @@ for ($i = 0; $i <= $#commits; $i++) {
 }
 </nowiki></pre>
 
+== Copying all changed files from the last N commits ==
+Sometimes you need to send all changed files from the last commit or 3 somewhere - maybe email them to a fellow developer, maybe copy them to a network folder, maybe copy them to a folder controlled by some other source code manager that isn't Git, CVS or Svn. This script makes that simple:
+
+<pre><nowiki>
+#!/bin/bash
+
+# Usage:
+# ../copy_git_recent.sh "/destination/path" number_of_revisions
+#
+# Example:
+# ../copy_git_recent.sh "/cygdrive/c/Windows Documents/SourceSafe/Project1" 4
+
+for file in $(git diff-tree master~$2 master --name-only -r); do
+  cp --parents "$file" "$1"
+done
+</nowiki></pre>
+
 == Setting the timestamps of the files to the commit timestamp of the commit which last touched them ==
 Git lets you do things that might be considered less than useful.  In some corner cases, they might make sense, nevertheless.  For example, setting the timestamps of the files to the time when they were last updated by a commit, is usually idiotic.  It breaks "make", and it completely breaks down when multiple machines are involved, since they do not necessarily share a common time source.
 
