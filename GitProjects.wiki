@@ -43,7 +43,7 @@ List does not currently include [[Git]] or git-related tools.
 * udev
 ** http://www.kernel.org/pub/linux/utils/kernel/hotplug/udev.html (homepage)
 ** http://git.kernel.org/?p=linux/hotplug/udev.git (gitweb)
-* Alsa (formerly on Hg)
+* ALSA (formerly on Mercurial (`hg`))
 ** http://www.alsa-project.org/ (homepage)
 ** http://git.alsa-project.org/ (gitweb)
 * Garzik's various Linux projects
