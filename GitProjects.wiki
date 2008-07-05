@@ -46,6 +46,9 @@ List does not currently include [[Git]] or git-related tools.
 * ALSA (formerly on Mercurial (`hg`))
 ** http://www.alsa-project.org/ (homepage)
 ** http://git.alsa-project.org/ (gitweb)
+* Android - An Open Handset Alliance Project
+** http://code.google.com/android/kb/licensingandoss.html#mirror
+** http://git.android.com/ (gitweb)
 * Garzik's various Linux projects
 ** http://linux.yyz.us/projects.html (home page)
 * Many other Linux related projects...
