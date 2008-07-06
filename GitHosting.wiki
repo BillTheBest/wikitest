@@ -19,8 +19,10 @@ Those are public Git hosting sites where any project can be hosted, perhaps with
 * [http://www.assembla.com Assembla] provides free git hosting for public and private projects if you use under 500Mb of disk space. [http://trac-git.assembla.com/breakout/browser Assembla site] is open source, but not free.
 * [http://unfuddle.com/ Unfuddle] (Software Project Management: Git and Subversion Hosting), free (or different payment plans) but not open source.
 * [http://codebasehq.com Codebase] is a Git hosting service with full online source browser, changeset viewer, ticketing and deployment tracking. Designed for private/company projects. Currently, still in beta although invites can be requested through the website.
+* [http://www.a2hosting.com/ A2Hosting] provides paid Git hosting over SSH.
 
 === Project specific Git hosting sites ===
+
 * [http://www.kernel.org Kernel.org] ([http://git.kernel.org/ gitweb]) for Linux kernel related projects.  Uses [http://git.kernel.org/?p=git/warthog9/gitweb.git gitweb fork] with caching support.<<BR>> Kernel.org accounts are not given away very often, usually you need to be making some reasonable amount of contributions to the Linux kernel and have a good reason for wanting / needing an account.
 * [http://www.freedesktop.org/wiki/ Freedesktop.org] ([http://gitweb.freedesktop.org gitweb], [http://cgit.freedesktop.org/ cgit]), for X Window System desktop (Linux desktop infrastructure) related projects.  Registering is managed by adding project registering request in Bugzilla.<<BR>> <b>See also:</b> [http://www.freedesktop.org/wiki/Infrastructure/git Infrastructure/git] (formerly Using<code><nowiki></nowiki></code>Git) page on freedesktop.org wiki.
 * [http://alioth.debian.org/ Alioth] ([http://git.debian.org/ gitweb]) is a [http://www.debian.org/social_contract#guidelines free software] hosting system managed by the [http://www.debian.org/ Debian] project, which runs a slightly modified version of the [http://gforge.org/ GForge] software.  Most of the projects hosted by Alioth are packaging existing software in the Debian format.<<BR>> <b>See also:</b>
