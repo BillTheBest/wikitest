@@ -27,7 +27,7 @@ Due to being distributed, you inherently do not have to give commit access to ot
 
 Branches in Git are a core concept used everyday by every user.  In Subversion they are almost an afterthought and tend to be avoided unless absolutely necessary.
 
-The reason branches are so core in Git is every developer's working directory is itself a branch.  Even if two developers are modifying two different unrelated files at the same time its easy to view these two different working directories as different branches stemming from the same common base revision of the project.
+The reason branches are so core in Git is every developer's working directory is itself a branch.  Even if two developers are modifying two different unrelated files at the same time it's easy to view these two different working directories as different branches stemming from the same common base revision of the project.
 
 Consequently Git:
 
@@ -53,10 +53,10 @@ This is quite contrary to Subversion's handling of branches.  As of Subversion 1
     Although Subversion records a merge as a commit and thus associates a username and a timestamp to it (like Git) there are some serious flaws in this record.
 * All changes made on the branch appear to be made by the merging user.
       This means that from a historical perspective every line of code modified on the branch will appear in the trunk as though it was written by the user who merged the branch.  <i>This is wrong if there were other users working on that branch.</i>
-* Its impossible to see only merge related changes.
+* It's impossible to see only merge related changes.
       If the merging user had to modify 12 lines of code to complete the merge successfully you can't tell what those 12 lines were, or how those 12 lines differ from the versions on the branches being merged.
 * The user must manually record what branches were merged and what versions they were.
-      Unlike Git Subversion does not automatically include these details.  Consequently unless the user performing the merge explicitly includes these details in the commit message its impossible to know what exactly was merged.
+      Unlike Git Subversion does not automatically include these details.  Consequently unless the user performing the merge explicitly includes these details in the commit message it's impossible to know what exactly was merged.
 * Does not track merge bases.
     Because Subversion does not record important details about a branch merge it cannot provide the new merge base on subsequent branch merges.  What this means in practice is that users must manually track branch merge points so subsequent merges can be completed.
 
@@ -140,10 +140,10 @@ As Git uses a SHA1 to uniquely identify a commit each specific revision can only
 
 The key things that I like about Git are:
 
- - Its incredibly fast.
+ - It's incredibly fast.
    No other SCM that I have used has been able to keep up with it, and I've used a lot, including Subversion, Perforce, darcs, [[BitKeeper]], [[ClearCase]] and CVS.
 
- - Its fully distributed.
+ - It's fully distributed.
    The repository owner can't dictate how I work.  I can create branches and commit changes while disconnected on my laptop, then later synchronize that with any number of other repositories.
 
  - Synchronization can occur over many media.
@@ -169,8 +169,8 @@ The key things that I like about Git are:
    repository.  If I merge two branches together, or if I merge a
    branch back into the trunk it came from, that merge operation
    is recorded as part of the repostory history as having been
-   performed by me, and when.  Its hard to dispute who performed
-   the merge when its right there in the log.
+   performed by me, and when.  It's hard to dispute who performed
+   the merge when it's right there in the log.
 
  - Creating a repository is a trivial operation:
      mkdir foo; cd foo; git init-db
@@ -180,16 +180,16 @@ The key things that I like about Git are:
    lecture notes, homework assignments, and my [[LaTeX]] answers.
 
  - The repository's internal file formats are incredible simple.
-   This means repair is very easy to do, but even better because its
+   This means repair is very easy to do, but even better because it's
    so simple its very hard to get corrupted.  I don't think anyone
    has ever had a Git repository get corrupted.  I've seen Subversion
    with fsfs corrupt itself.  And I've seen Berkley DB corrupt itself
    too many times to trust my code to the bdb backend of Subversion.
 
  - Git's file format is very good at compressing data, despite
-   its very simple format.  The Mozilla project's CVS repository
-   is about 3 GB; its about 12 GB in Subversion's fsfs format.
-   In Git its around 300 MB.
+   it's a very simple format.  The Mozilla project's CVS repository
+   is about 3 GB; it's about 12 GB in Subversion's fsfs format.
+   In Git it's around 300 MB.
 
 = Links =
 
