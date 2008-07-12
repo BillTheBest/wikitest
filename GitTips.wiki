@@ -167,7 +167,7 @@ git for-each-ref refs/heads |    \
 </nowiki></pre>
 
 == How to find a commit for a shortened git-describe string ==
-For your local repository (!) you can get the commit for eg.: v2.6.26-rc9-56 by the following command :
+For your local (!) repository you can get the commit for a string like v2.6.26-rc9-56 by the following command :
 <pre><nowiki>
 git rev-list --all v2.6.26-rc9.. | xargs git describe | grep '\-56\-'
 </nowiki></pre>
