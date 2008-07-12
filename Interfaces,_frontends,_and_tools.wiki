@@ -100,7 +100,7 @@
 * [http://pyrite.sophiasuchtig.com/ pyrite] by Govind Salinas is a Git GUI and front end written in Python.
 
 === gitSafe ===
-* [http://www.kodespace.com/?p=38 gitSafe] is meant to be a SourceSafe-like GUI for git.  Currently in proof of concept mode. <i>(C++/CLI, .NET)</i>
+* [http://code.google.com/p/gitsafe/ gitSafe] by cmroanirgo of kodespace is a [[SourceSafe]]-like GUI for git using .NET 2.0 (C++/CLI)
 
 == Web Interface ==
 
