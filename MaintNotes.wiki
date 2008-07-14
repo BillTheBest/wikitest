@@ -1,7 +1,6 @@
 == A note from the maintainer ==
 
-* The newest version of this message can be found in the 'todo' branch in git.git,
- as file [http://repo.or.cz/w/git.git?a=blob_plain;f=MaintNotes;hb=todo [[MaintNotes]]].
+* The newest version of this message can be found at [http://members.cox.net/junkio/git/MaintNotes.html [[MaintNotes]]].
 
 Welcome to git community.
 
