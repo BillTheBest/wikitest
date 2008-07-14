@@ -1,6 +1,7 @@
 == A note from the maintainer ==
 
-* The newest version of this message can be found at [http://members.cox.net/junkio/git/MaintNotes.html [[MaintNotes]]].
+* The newest version of this message can be found in the 'todo' branch in git.git,
+ as file [http://repo.or.cz/w/git.git?a=blob_plain;f=MaintNotes;hb=todo [[MaintNotes]]].
 
 Welcome to git community.
 
@@ -121,7 +122,7 @@ from "master" at that point.  Obvious, safe and urgent fixes
 after a feature release are applied to this branch and
 maintenance releases are cut from it.  The maintenance releases
 are named with four dotted decimal, named after the feature
-release they are updates to; the last such release was 1.5.5.4.
+release they are updates to; the last such release was 1.5.6.3.
 New features never go to this branch.  This branch is also
 merged into "master" to propagate the fixes forward.
 
@@ -244,7 +245,7 @@ relying on heavily:
 * Simon Hausmann on git-p4.
 * Jakub Narebski, Petr Baudis, and Luben Tuikov on gitweb.
 * J. Bruce Fields on documentaton issues.
-* Johannes Schindelin, Johannes Sixt and others for their effort to move things forward on the Windows front.  Although my repository does not have much from the effort of MinGW team, I expect a merge into mainline will happen so that everybody can work from the same codebase.
+* Johannes Schindelin, Johannes Sixt and others for their effort to move things forward on the Windows front.  Most of the fruits from their porting efforts have been merged to the mainline git.git repository in 1.6.0 release.
 * People on non-Linux platforms for keeping their eyes on portability; especially, Randal Schwartz, Theodore Ts'o, Jason Riedy, Thomas Glanzmann, but countless others as well.
 
 == This document ==
