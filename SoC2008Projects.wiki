@@ -98,7 +98,7 @@ current "git rebase --interactive" to C, as well as create
 a general "commit sequencer" that can be used as the backing
 implementation for "git-am", all three forms of "git-rebase",
 and possibly implement an "interactive rebase GUI" within
-gitk.
+git-gui and/or gitk.
 
 <b>Idea:</b> [[SoC2008Ideas#git-sequencer:Implement git-sequencer]] at [[SoC2008Ideas]] <<BR>>
 <b>SoC page:</b> [http://code.google.com/soc/2008/git/appinfo.html?csaid=92728710F52338C1 implement git-sequencer] <<BR>>
