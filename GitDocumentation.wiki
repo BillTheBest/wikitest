@@ -28,6 +28,7 @@ All documentation residing on this wiki is put in the [[CategoryGitDocumentation
 * Doing a graft at [[GraftPoint]]
 * [[IndexCommandQuickref]]
 * The [[RevisionSpecification]]
+* Equivalent of <i>svn switch</i> for git-svn: [[GitSvnSwitch]] - when an SVN repos moves
 == User contributed Documentation ==
 * git clone is not resumable - a [http://xanjax.org/#gitnote.xml practical workaround] for unreliable connections / large clones
 * Carl Worth's [http://cworth.org/hgbook-git/tour/ A tour of git: the basics] [http://git-users.googlegroups.com/web/gitbasic.pdf?gda=TjULfjwAAACRcUWZoNoqHn0MmsB4ogNRkdJPXci4pHF-t7wRb-FXv_7_kSc1FlgquWbpkoDUr3jz_JaIg30gP77VRAtzw-G6 Mirror(PDF)] <b>Recommended</b>
