@@ -1,7 +1,7 @@
 When an SVN repository moves, the equivalent of <i>svn switch</i> for git-svn is required.
 
 = General Case =
-What immediately sprang to mind, and what was suggested in e.g. http://thread.gmane.org/gmane.comp.version-control.git/59271 was to simply edit your .git/config, and change the url= in the section [svn-remote "svn"]. That doesn't work, however. Instead, I found several suggestions to use variations of[http://www.ciaran-lee.com/articles/6 this theme]:
+What immediately sprang to mind, and what was suggested e.g. [http://thread.gmane.org/gmane.comp.version-control.git/59271 on the mailing list], was to simply edit your .git/config, and change the url= in the section [svn-remote "svn"]. That doesn't work, however. Instead, I found several suggestions to use variations of[http://www.ciaran-lee.com/articles/6 this theme]:
 
 * Edit the svn-remote url URL in .git/config to point to the new domain name
 * Run <code><nowiki>git svn fetch</nowiki></code> - <i>This needs to fetch at least one new revision from svn!</i>
@@ -41,7 +41,7 @@ But that will only work that once! You can use the "General Case" above several 
 <pre><nowiki>
 these settings should never be changed once they are set
 </nowiki></pre>
-Clearly, here I change the rewriteRoot option in contradition with <code><nowiki>man git-svn</nowiki></code>. So use at your own risk! :D<code><nowiki></nowiki></code>
+Clearly, here I change the rewriteRoot option in contradition with <code><nowiki>man git-svn</nowiki></code>. So use at your own risk! :)
 
 ----
 * [[CategoryGitDocumentation]]
