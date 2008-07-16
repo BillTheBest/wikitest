@@ -152,12 +152,6 @@ This list is sorted alphabetically:
 ; git archive : <<Anchor(git_archive)>>
 	Synonym for [[#repository repository]] (for arch people).
 
-; git speed : <<Anchor(git_speed)>>
-        Slightly faster than the speed of light in a vacuum. Usually used when refering to the pace of the development of git itself or when discussing how fast git commands complete. 
-
-; git-tard : <<Anchor(git-tard)>>
-        Someone that attempts of use git as if it was cvs or svn or bzr or ...
-
 ; grafts : <<Anchor(graft)>><<Anchor(grafts)>>
 	Grafts enables two otherwise different lines of development to
 	be joined together by recording fake ancestry information for
