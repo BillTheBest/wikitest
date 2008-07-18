@@ -126,8 +126,8 @@
 === gittracker ===
 * [http://www.tglx.de/cgi-bin/gittracker/about git tracker] by Thomas Gleixner is a GPL licenced project to track the history of Git repositories.
 
-=== gitstat ===
-* <b>gitstat</b> ([http://sourceforge.net/projects/gitstat SourceForge project]) is a GPL'd, web-based git statistics/monitoring system.  It retrieves a specified git tree, analyzes changesets, and shows graphical information like the number of changesets per day, the number of people who submitted changesets for a specific version (tag) etc.  Users may subscribe to gitstat so that they automatically receive an email notification if any change is applied to a specified directory.  See also [http://permalink.gmane.org/gmane.comp.version-control.git/56161 gitstat 0.1: kernel development statistics / monitoring system] announcement on git mailing list. You are welcome to try gitstat at http://tree.celinuxforum.org/gitstat
+=== [[GitStat]] ===
+* <b>[[GitStat]]</b> ([http://sourceforge.net/projects/gitstat SourceForge project]) is a GPL'd, web-based git statistics/monitoring system.  It retrieves a specified git tree, analyzes changesets, and shows graphical information like the number of changesets per day, the number of people who submitted changesets for a specific version (tag) etc.  Users may subscribe to gitstat so that they automatically receive an email notification if any change is applied to a specified directory.  See also [http://permalink.gmane.org/gmane.comp.version-control.git/56161 gitstat 0.1: kernel development statistics / monitoring system] announcement on git mailing list. You are welcome to try gitstat at http://tree.celinuxforum.org/gitstat
 
 === git-browser ===
 * [http://straytree.com/ git-browser] by Arteem Khodush is an experimental gitk-like web interface. It visualizes commit history graph and shows commit diffs. User interface is done in JavaScript, and is rather heavy on the <i>client</i> side.  [http://straytree.com/git-browser/by-commit.html?r=git view online] [http://straytree.com/git-browser.tar.bz2 download] [http://repo.or.cz/gitweb.cgi/git-browser.git gitweb mirror].
@@ -256,6 +256,9 @@
 
 === CIAbot ===
 * [http://www.kernel.org/git/?p=cogito/cogito.git;a=blob;hb=HEAD;f=contrib/ciabot.pl ciabot.pl] by Petr Baudis in <code><nowiki>contrib/</nowiki></code> directory in [[Cogito]] and [http://dev.gentoo.org/~ferdy/stuff/ciabot.bash ciabot.bash] by Fernando J. Pereda are scripts meant to run either on a post-commit hook or in an update hook. They send a git log message to [http://cia.navi.cx/ CIA] (system for tracking open-source projects in real-time). <<BR>> <b>See:</b> [http://cia.navi.cx/stats/project/cogito cogito at CIA].
+
+=== Gitdm ===
+* <b>Gitdm</b> (the "git data miner") is the tool that Greg KH and Jonathan Corbet have used to crank out statistics on where kernel patches come from at LWM ([http://lwn.net/images/gitdm/gitdm-config-2.6.26.tar.bz2 configuration files], tar.bz2).  Public repository for gitdm can be found at: git://git.lwn.net/gitdm.git
 
 === git2rss ===
 * [http://bent.latency.net/git2rss git2rss] by Bennett Todd is a Perl script to generate an RSS summary of a git repo. Currently to be used rather as example. Similar to [http://darcs.simplicidade.org/repos/darcs2rss/darcs2rss darcs2rss].
