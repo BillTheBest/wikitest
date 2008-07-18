@@ -118,6 +118,7 @@ Support for <i>Git</i> projects in [http://anjuta.sourceforge.net/ Anjuta IDE]
 <b>Organization:</b> [http://www.gnome.org/ GNOME] ([http://code.google.com/soc/2008/gnome/about.html organization SoC info]) <<BR>>
 <b>Student:</b> James R. Liggett <<BR>>
 <b>Mentor:</b>  Naba Kumar       <<BR>>
+<b>Gitweb:</b> http://repo.or.cz/w/anjuta-git-plugin.git (probably) <<BR>>
 
 == KDevelop DVCS support ==
 
