@@ -128,7 +128,7 @@ Below there are blogs by gitters:
 * [http://video.google.ca/videoplay?docid=1251251453592758541 Tech Talk: Git] at Google by Randal Schwartz ([http://www.youtube.com/watch?v=8dhZ9BXQgc4 YouTube])
 * [http://www.hanselminutes.com/default.aspx?showID=126 Hansel minutes #108] Scott Hanselman sits down with Robby, Gary and Andy from Planet Argon, a local Rails shop in Portland, OR, and talks about their experience as they move from Subversion to Git for their source control (podcast).
 * [http://excess.org/article/2008/07/ogre-git-tutorial/ Git the basics] given by Bart Trojanowski for the Ottawa Ruby group.
-* [http://google-developer-podcast.googlecode.com/files/gsocpodcast018.ogg GSoc podcast 18: Git] Shawn Pearce and Johannes Schindelin with Leslie Hawthorn.
+* [http://google-developer-podcast.googlecode.com/files/gsocpodcast018.ogg GSoS podcast 18: Git] Shawn Pearce and Johannes Schindelin with Leslie Hawthorn (see [http://google-opensource.blogspot.com/2008/07/getting-giddy-with-git.html Getting Giddy with Git] post on [http://google-opensource.blogspot.com Google Code: Open Source at Google] blog).
 
 = Other version control software =
 
