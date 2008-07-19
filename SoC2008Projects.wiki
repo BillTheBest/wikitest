@@ -78,12 +78,13 @@ aspects of the Eclipse Git team provider plugin.
 <b>Student:</b> Miklos Vajna        <<BR>>
 <b>Mentor:</b>  Johannes Schindelin <<BR>>
 
-Miklos and Dscho will be porting the git-merge shell script
+Miklos ported the git-merge shell script
 to C, permitting it to make use of builtin functions like
 merge base computation, and making the program overall more
 portable to non-POSIX systems.  Porting some of the popular
-merge strategies (e.g. git-merge-ours) will also be done as
-time permits.
+merge strategies (e.g. git-merge-ours) will be the work of the
+second half of the GSoC project, as Miklos was too fast with
+the principal goal.
 
 <b>Idea:</b> [[SoC2008Ideas#builtin-merge:Make git-merge and helpers Builtins]] at [[SoC2008Ideas]] <<BR>>
 <b>SoC page:</b> [http://code.google.com/soc/2008/git/appinfo.html?csaid=C6691859F6E209E8 Make git-merge Builtin] <<BR>>
