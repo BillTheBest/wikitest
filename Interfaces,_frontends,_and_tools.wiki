@@ -240,13 +240,23 @@
 === git-notify ===
 * [http://source.winehq.org/git/tools.git/?a=blob;f=git-notify;hb=HEAD git-notify] is the post-receive hook used by the wine project. It sends one email per commit. It also supports sending cia notifications.
 
-== Other tools ==
+== Wikis, blogs, etc. ==
+
+=== wikiri ===
+* [http://blitiri.com.ar/p/misc.html wikiri] is a simple, single-file wiki written in Python. It uses reStructuredText for markup, and has optional git support for history tracking. You can [http://blitiri.com.ar/git/?p=wikiri browse the repository] or just clone it from git://blitiri.com.ar/wikiri.
+
+=== git-blog ===
+* git-blog ([http://github.com/elliottcable/git-blog/tree/master github]) is a minimalist blogware that uses git, using Ruby to 'deploy' Markdown posts to XHTML when git-pushed to your server.
+
+== Bug/issue trackers ==
 
 === ditz ===
 * [http://ditz.rubyforge.org Ditz] is a simple, light-weight distributed issue tracker designed to work with distributed version control systems like darcs and git. Ditz maintains an issue database file on disk, written in a line-based and human-editable format. This file is kept under version control, alongside project code. Changes in issue state is handled by version control like code change: included as part of a commit, merged with changes from other developers, conflict-resolved in the standard manner, etc.
 
 === ticgit ===
 * [http://jointheconversation.org/2008/03/23/ticgit-and-a-new-git-gem/ TicGit] is a distributed bug tracker written in Ruby. It stores bug information in a separate branch, allowing multiple developers to control the bug tracking system by merging their ticgit branch. More information on the [http://github.com/schacon/ticgit/wikis wiki]
+
+== Other tools ==
 
 === git-completion.bash  (in `contrib/completion`) ===
 * Bash tab-completion shipped with core Git.  Inspired by and superceeds the tab-completion provided by gitcompletion (see below).  Completion support is provided for almost all commands, including completion of local and remote reference names and long command line options.
@@ -306,12 +316,6 @@
 
 === git-buildpackage ===
 * [http://packages.debian.org/git-buildpackage git-buildpackage] is a tool for managing the debian packaging of an application in git. [http://honk.sigxcpu.org/projects/git-buildpackage/manual-html/gbp.html Documentation]. There are other solutions and suggestions for debian packaging and git, for example see [http://wiki.debian.org/GitSrc [[GitSrc]]].
-
-=== wikiri ===
-* [http://blitiri.com.ar/p/misc.html wikiri] is a simple, single-file wiki written in Python. It uses reStructuredText for markup, and has optional git support for history tracking. You can [http://blitiri.com.ar/git/?p=wikiri browse the repository] or just clone it from git://blitiri.com.ar/wikiri.
-
-=== git-blog ===
-* git-blog ([http://github.com/elliottcable/git-blog/tree/master github]) is a minimalist blogware that uses git, using Ruby to 'deploy' Markdown posts to XHTML when git-pushed to your server.
 
 === git-merge-changelog ===
 * The estimable Bruno Haible wrote a merge driver for [[ChangeLog]] files.  The driver currently lives in the [http://git.sv.gnu.org/gitweb/?p=gnulib.git;a=blob;f=lib/git-merge-changelog.c gnulib sources].
