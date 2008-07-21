@@ -3,6 +3,19 @@ Java GIT/Eclipse GIT (by Shawn Pearce) is a Java GIT library and plugin for [htt
 Roadmap of features: [[EclipsePluginWishlist]]
 
 = News =
+
+Lots of stuff changed, but not yet in a complete enough stage to deserve a version
+number of its own. My guess is that this will happen in August. Meanwhile please
+try the master branch. It can clone from Eclipse, the commandline client can fetch
+and push. (see the inconsistency here?, hence no new version). Changes in the repository
+from the command line can be picked up quickly by Eclipse and you can change the baseline
+for [[QuickDiff]].
+
+LICENSE CHANGE:
+The most interesting change for some people may be the license change. The Eclipse specific
+parts are licensed under the EPL, while the generice JGit plumbing is under a three clause BSD
+license, which makes it possible to use and distribute with almost any other software.
+
 Current revision is 0.3.1. A copy of the announcement can be found at http://marc.info/?l=git&m=120441907913477&w=2
 
 Some ways to keep informed about Egit development.
