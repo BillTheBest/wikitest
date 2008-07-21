@@ -256,6 +256,9 @@
 === git-blog ===
 * git-blog ([http://github.com/elliottcable/git-blog/tree/master github]) is a minimalist blogware that uses git, using Ruby to 'deploy' Markdown posts to XHTML when git-pushed to your server.
 
+=== Tekuti ===
+* [http://wingolog.org/software/tekuti/ Tekuti] is weblog software written in Scheme, using Git as its persistent store.  It uses [[WikiPedia/SXML|SXML]] for markup, and requires [http://www.gnu.org/software/guile/ Guile] or other Scheme implementation, and [http://www.fractalconcept.com/asp/mod_lisp mod_lisp] (a bit of misnomer: it is similar to [[WikiPedia/FastCGI|FastCGI]] or [[WikiPedia/Simple_Common_Gateway_Interface|SCGI]] that it creates long-lived CGI process, but with simpler protocol).  Tekuti includes a script to import posts from Wordpress into a suitably-laid-out directory.<<BR>> <b>Announcement:</b> [http://wingolog.org/archives/2008/02/29/im-telling-you I'm telling you] on Andy Wingo wingolog.
+
 == Bug/issue trackers ==
 
 === ditz ===
