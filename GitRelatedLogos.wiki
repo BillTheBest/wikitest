@@ -51,7 +51,7 @@ Picons Search Results for Junio C Hamano picon.
 
 In case people do not know, this is gitster's ([[Junio C Hamano]]) [[WikiPedia:Picon_(Apple)|picon]] (personal icon: see [http://www.cs.indiana.edu/picons/ftp/faq.html Picons FAQ]) and also appears on his "Git Maintainer" business card.
 
----
+----
 
 http://epmills.com/wp-content/uploads/2008/05/merge-made-by-octopus_resized.thumbnail.png
 
