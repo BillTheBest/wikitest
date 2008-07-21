@@ -241,8 +241,11 @@
 
 == Wikis, blogs, etc. ==
 
+=== ikiwiki ===
+* [http://ikiwiki.info/ Ikiwiki] is a <b>wiki compiler</b>, written in Perl. It converts wiki pages into HTML pages suitable for publishing on a website. Ikiwiki stores pages and history in a [http://ikiwiki.info/rcs/ revision control system] such as [http://ikiwiki.info/rcs/svn/ Subversion] or [http://ikiwiki.info/rcs/git/ Git]. There are many other [http://ikiwiki.info/features/ features], including support for [http://ikiwiki.info/ikiwiki/blog/ blogging], as well as a large array of [http://ikiwiki.info/plugins/ plugins] (for example [http://ikiwiki.info/plugins/recentchanges/ recentchanges] plugin).
+
 === wikiri ===
-* [http://blitiri.com.ar/p/misc.html wikiri] is a simple, single-file wiki written in Python. It uses reStructuredText for markup, and has optional git support for history tracking. You can [http://blitiri.com.ar/git/?p=wikiri browse the repository] or just clone it from git://blitiri.com.ar/wikiri.
+* [http://blitiri.com.ar/p/misc.html wikiri] is a simple, single-file wiki written in Python. It uses reStructuredText for markup, and has optional git support for history tracking. You can [http://blitiri.com.ar/git/?p=wikiri browse the repository] or just clone it from <code><nowiki>git://blitiri.com.ar/wikiri</nowiki></code>.
 
 === git-wiki ===
 * [http://atonie.org/2008/02/git-wiki git-wiki] by [http://purl.org/net/sr/ Simon Rozet] a wiki that relies on Git to keep pages’ history and [http://sinatra.rubyforge.org/ Sinatra] (Ruby web framework) to serve them.  git-wiki is available on [http://github.com/sr/git-wiki GitHub] under [http://sam.zoy.org/wtfpl/ WTFPL license terms].  See also git-wiki [http://github.com/sr/git-wiki/network forks], especially [http://github.com/al3x/github al3x]'s one.
