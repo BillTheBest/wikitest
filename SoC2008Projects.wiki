@@ -54,7 +54,7 @@ implementing even more improved caching for really large sites
 like kernel.org, repo.or.cz, or anyone else using gitweb for
 a large number of repositories and users.
 
-<b>Idea:</b> [[SoC2008Ideas#gitweb-caching:Gitweb caching]] at [[SoC2008Ideas]] <<BR>>
+<b>Idea:</b> [[SoC2008Ideas#gitweb-caching:Gitweb caching]] at SoC2008Ideas <<BR>>
 <b>SoC page:</b> [http://code.google.com/soc/2008/git/appinfo.html?csaid=C5B7544DDE4909C3 Gitweb caching] <<BR>>
 <b>Gitweb:</b> http://repo.or.cz/w/git/gitweb-caching.git <<BR>>
 <b>See also:</b> [http://thread.gmane.org/gmane.comp.version-control.git/77529 |RFD| Gitweb caching] thread, parts 1-3, by Jakub Narebski
@@ -70,7 +70,7 @@ a remote repository over the native Git transport.  Marek is
 also looking forward to improving some of the user interface
 aspects of the Eclipse Git team provider plugin.
 
-<b>Idea:</b> [[SoC2008Ideas#Eclipse:Git Eclipse Plugin]] at [[SoC2008Ideas]] <<BR>>
+<b>Idea:</b> [[SoC2008Ideas#Eclipse:Git Eclipse Plugin]] at SoC2008Ideas <<BR>>
 <b>SoC page:</b> [http://code.google.com/soc/2008/git/appinfo.html?csaid=DD669FC01FC5F07B Push operation implementation and GUI improvements for egit Eclipse plugin] <<BR>>
 <b>Gitweb:</b> http://repo.or.cz/w/egit/zawir.git
 
@@ -86,7 +86,7 @@ merge strategies (e.g. git-merge-ours) will be the work of the
 second half of the GSoC project, as Miklos was too fast with
 the principal goal.
 
-<b>Idea:</b> [[SoC2008Ideas#builtin-merge:Make git-merge and helpers Builtins]] at [[SoC2008Ideas]] <<BR>>
+<b>Idea:</b> [[SoC2008Ideas#builtin-merge:Make git-merge and helpers Builtins]] at SoC2008Ideas <<BR>>
 <b>SoC page:</b> [http://code.google.com/soc/2008/git/appinfo.html?csaid=C6691859F6E209E8 Make git-merge Builtin] <<BR>>
 <b>Gitweb:</b> http://repo.or.cz/w/git/vmiklos.git
 
@@ -101,7 +101,7 @@ implementation for "git-am", all three forms of "git-rebase",
 and possibly implement an "interactive rebase GUI" within
 git-gui and/or gitk.
 
-<b>Idea:</b> [[SoC2008Ideas#git-sequencer:Implement git-sequencer]] at [[SoC2008Ideas]] <<BR>>
+<b>Idea:</b> [[SoC2008Ideas#git-sequencer:Implement git-sequencer]] at SoC2008Ideas <<BR>>
 <b>SoC page:</b> [http://code.google.com/soc/2008/git/appinfo.html?csaid=92728710F52338C1 implement git-sequencer] <<BR>>
 <b>Gitweb:</b> http://repo.or.cz/w/git/sbeyer.git <<BR>>
 <b>See also:</b> 
