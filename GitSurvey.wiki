@@ -1,4 +1,4 @@
-= Git Survey summary =
+= Git User's Survey 2006 summary =
 (I'm going to summarize git survey incrementally here)
 Note that count is not exactly number of people.
 
