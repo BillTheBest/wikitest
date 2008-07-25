@@ -189,6 +189,11 @@ This is a precautionary design decision.  The remote repository's work tree may 
 
 A quick rule of thumb is to <i>never</i> push into a repository that has a work tree attached to it, until you know what you are doing.
 
+Note: there is a way to commit changes on machineB after a git push on machineA. Copy the last tag found, say a71610... in git log on machineB, -the one you just commited on machineA- and do a 
+<pre><nowiki>
+machineB$ git reset --hard a71610...
+</nowiki></pre>
+
 See also the entry ([[#push-is-reverse-of-fetch How would I use "git push" to sync out of a firewalled host?]]) in this FAQ for the proper way to work with push with a repository with a work tree.
 
 <<Anchor(git-version)>>
@@ -329,11 +334,6 @@ This is no different from the case where you actually pulled from B on A. You ca
 machineB$ git push
 </nowiki></pre>
 See also http://thread.gmane.org/gmane.comp.version-control.git/42506/focus=42685
-
-note: there is a way to commit the changes on machineB after a git pull on machineA. Copy the last tag found, say a71610... in git log on machineB, -the one you just commited on machineA- and do a 
-<pre><nowiki>
-machineB$ git reset --hard a71610...
-</nowiki></pre>
 
 <<Anchor(tag-checkout)>>
 == How do I check out the tree at a particular tag? ==
