@@ -4,6 +4,7 @@ Here are some places that provide free Git hosting.
 List is limited to sites that provide explicit Git hosting, not including generic hosting sites that can be used to host Git repositories.
 
 == General software ==
+
 Those are public Git hosting sites where any project can be hosted, perhaps with exception to requirements for license used (some hosting sites require project to be open source or free software).
 
 * [http://repo.or.cz/ repo.or.cz], public Git hosting site, maintained by Petr Baudis.  Very basic custom web interface for creating or forking projects, uses gitweb with custom modifications as web interface.  The first public Git hosting site.
@@ -15,6 +16,7 @@ Those are public Git hosting sites where any project can be hosted, perhaps with
 ** [http://railsontherun.com/2008/3/3/how-to-use-github-and-submit-a-patch Rails on the Run - How to use github and submit a patch]
 ** [http://tomayko.com/writings/github-is-myspace-for-hackers GitHub: My Kind of Social Software] by Ryan Tomayko
 ** [http://railstips.org/2008/2/16/git-and-github Git and GitHub // [[RailsTips]].org by John Nunemaker]
+** [http://pauldowman.com/2008/07/26/got-git/ Paul Dowman » Blog Archive » Got Git] (why people chose GitHub).
 * [http://repoz.org/ repoz.org], a public and free Git repository hosting service.  Provides restricted shell to upload to server.  Contact by email.
 * [http://www.assembla.com Assembla] provides free git hosting for public and private projects if you use under 500Mb of disk space. [http://trac-git.assembla.com/breakout/browser Assembla site] is open source, but not free.
 * [http://unfuddle.com/ Unfuddle] (Software Project Management: Git and Subversion Hosting), free (or different payment plans) but not open source.
