@@ -39,7 +39,7 @@
 === Ruby/Git ===
 * [http://jointheconversation.org/rubygit/ Ruby/Git] is a Ruby library that can be used to create, read and manipulate Git repositories.
 
-=== Java Git ===
+=== Java Git (jgit) ===
 * See below in Editors and IDE integration 
 
 == Patch-management Interface layers ==
