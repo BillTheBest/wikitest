@@ -34,7 +34,10 @@
 * Pythonic [http://code.istique.net/?p=pygit.git git bindings] targeted towards porcelains. 
 
 === Grit ===
-* [http://grit.rubyforge.org/ Grit] is a Ruby library for extracting information from a git repository in an object oriented manner.
+* [http://grit.rubyforge.org/ Grit] is a Ruby library for extracting information from a git repository in an object oriented manner.  There are [http://github.com/blog/107-supercharged-ruby-git beginnings of native Ruby implementation] in [http://github.com/schacon/grit Scott Chacon Grit fork].
+
+=== Ruby/Git ===
+* [http://jointheconversation.org/rubygit/ Ruby/Git] is a Ruby library that can be used to create, read and manipulate Git repositories.
 
 === Java Git ===
 * See below in Editors and IDE integration 
