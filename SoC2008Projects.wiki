@@ -147,6 +147,8 @@ There are <i>two</i> projects dealing with fully managed Git implementation (rew
 <b>Student:</b> Igor Guerrero Fonseca <<BR>>
 <b>Mentor:</b>  Massimiliano Mantione <<BR>>
 
+<b>Repository:</b> http://code.google.com/p/mono-soc-2008/source/browse/ git-sharp project.
+
 == [[DocBox]] project ==
 
 DocBox sits on top of RDoc, uses wiki-like interface, and makes use of either <i>Git</i> or SVN version control systems.
