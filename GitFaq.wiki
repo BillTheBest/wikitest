@@ -243,7 +243,7 @@ See also (mailing list posts):
 * [http://thread.gmane.org/gmane.comp.version-control.git/46341 mailing list post]: [FAQ?] Rationale for git's way to manage the index
 * [http://thread.gmane.org/gmane.comp.version-control.git/32452/focus=32610 mailing list post]: [PATCH 0/2] Making "git commit" to mean "git commit -a"
 == My HTTP repository has updates, which git clone misses. What happened? ==
-If you push via SSH to the repository, you have to enable the post-update hook (chmod a+x hooks/post-update). If you "push" with rsync, you have to make sure to execute git-update-server-info _before_ pushing. HTTP is a "dumb" transport, which needs some help. This help is provided in the form of the file info/refs, which contains the current refs (names + commit names of the tips).
+If you push via SSH to the repository, you have to enable the post-update hook (chmod a+x hooks/post-update). If you "push" with rsync, you have to make sure to execute "git update-server-info" _before_ pushing. HTTP is a "dumb" transport, which needs some help. This help is provided in the form of the file info/refs, which contains the current refs (names + commit names of the tips).
 
 == Why isn't Git preserving modification time on files? ==
 Modification time on files is a feature that affects build tools. Most build tools compare the timestamp of the source(s) with the timestamp of the derived file(s). If the source is newer, then a rebuild takes place, otherwise nothing happens. This speeds up the build process a lot.
@@ -375,8 +375,8 @@ Alternatively:
 One can use a temporary branch, to merge later:
 
 <pre><nowiki>
-$ git-checkout -b tempBranch
-$ git-commit -a -m "to test"
+$ git checkout -b tempBranch
+$ git commit -a -m "to test"
 </nowiki></pre>
 where <code><nowiki>tempBranch</nowiki></code> is the unique (original) throwaway branch name.
 
@@ -465,7 +465,7 @@ As Linus said ([http://thread.gmane.org/gmane.comp.version-control.git/40893/foc
 ** See "man git-unpack-objects", and in particular the "-r" flag. Also, please realize that it only unpacks objects that aren't already available, so you need to move the pack-file away from its normal location first (otherwise git-unpack-objects will find all objects that are in the pack-file in the pack-file itself, and not unpack anything at all)
 * replace any broken and/or missing objects
 ** This is the challenging part. Sometimes (hopefully often!) you can find the missing objects in other copies of the repositories. At other times, you may need to try to find the data some other way (for example, maybe your checked-out copy contains the file content that when hashed will be the missing object?).
-* make sure everything is happy with "git-fsck --full"
+* make sure everything is happy with "git fsck --full"
 * repack everything to get back to an efficient state again.
 And remember: git does _not_ make backups pointless. It hopefully makes backups *easy* (since cloning and pulling is easy), but the basic need for backups does not go away!"
 
@@ -484,7 +484,7 @@ This is the right thing to do, although it's usually best to save it under  it's
 Let's see what that tells us:
 
 <pre><nowiki>
-$ git-fsck --full
+$ git fsck --full
 > broken link from    tree 2d9263c6d23595e7cb2a21e5ebbb53655278dff8
 >              to    blob 4b9458b3786228369c63936db65827de3cc06200
 > missing blob 4b9458b3786228369c63936db65827de3cc06200
@@ -600,7 +600,7 @@ If you just want to checkout the latest source code of a project who may has ver
 
 <<Anchor(empty-ident)>>
 == Git commit is dying telling me "fatal: empty ident <user@myhost> not allowed", what's wrong? ==
-Make sure your Full Name is not empty in chsh or the 5th field of your user line in <code><nowiki>/etc/passwd</nowiki></code> isn't empty. You can also set the <code><nowiki>GIT_AUTHOR_NAME</nowiki></code> environment variable. If your @myhost is empty make sure your hostname is correctly set. Use <code><nowiki>git-var -l</nowiki></code> to make git display user identity variables.
+Make sure your Full Name is not empty in chsh or the 5th field of your user line in <code><nowiki>/etc/passwd</nowiki></code> isn't empty. You can also set the <code><nowiki>GIT_AUTHOR_NAME</nowiki></code> environment variable. If your @myhost is empty make sure your hostname is correctly set. Use <code><nowiki>git var -l</nowiki></code> to make git display user identity variables.
 
 * See [http://www.kernel.org/pub/software/scm/git/docs/git-var.html git-var(1)]
 
@@ -679,7 +679,7 @@ Note that you can add/import old history from other revision control system late
 To import from archives (one archive file per version), to make Git know which files changed between versions despite the fact that time stamps on everything changed (i.e. <code><nowiki>--atime-preserve</nowiki></code> option of <code><nowiki>tar</nowiki></code> didn't work), use
 
 <pre><nowiki>
-$ git-update-index --refresh
+$ git update-index --refresh
 </nowiki></pre>
 between versions, so the index <i>thinks</i> things are newer. It won't touch the "really changed" files.
 
