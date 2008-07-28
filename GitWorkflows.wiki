@@ -76,6 +76,71 @@ Voila!  You should have a nice, linear set of patches.
   $ git-prune-packed 
 </nowiki></pre>
 
+== How to edit a [[ChangeLog]] entry ==
+
+My changelog for the top patch is wrong, what do I do?
+
+<pre><nowiki>        git commit --amend
+</nowiki></pre>
+If you just need to add your SOB line:
+
+<pre><nowiki>        git commit --amend -s
+</nowiki></pre>
+Note: don't ever do this on a publicly-available git tree.
+
+== How do I rearrange a set of commits ==
+
+<pre><nowiki>        git rebase -i <commit-ish>
+</nowiki></pre>
+You would usually use "master" there for the <commit-ish>.
+You probably want to go find this with gitk.
+
+You then get a nice file that looks like this: 
+
+<pre><nowiki>pick 9feaa34 reduce kvm stack usage in kvm_arch_vm_ioctl()
+pick a888f5b reduce stack usage in kvm_vcpu_ioctl()
+pick e4a0c10 reduce stack usage in kvm_arch_vcpu_ioctl()
+pick 8cd362a kvm: reduce stack usage in kvm_pv_mmu_op()</nowiki></pre>
+
+Rearrange this file as you like.  If you want to edit a commit message
+for one of these, change the 'pick' to 'edit', and use the above command,
+with an additional -a:
+
+<pre><nowiki>        git commit -a --amend
+</nowiki></pre>
+
+Note: don't ever do this on a publicly-available git tree.
+
+== How do I update a set of patches for a new tree from Linus (or anybody) ==
+
+OK, so I've got a nice stack of patches on top of 'remotes/origin/master'
+and now I need to pull another copy from Linus and update on what I'm
+basing these patches.
+
+        I get output like this:
+<pre><nowiki>     $ git fetch
+        <should churn here a bit...>
+        From /home/dave/lse/linux/2.5/linux-2.6.git/
+                   c9272c4..f934fb1  master     -> origin/master
+                   c9272c4..f934fb1  origin     -> origin/origin
+        From /home/dave/lse/linux/2.5/linux-2.6.git/
+         * [new tag]         v2.6.25    -> v2.6.25
+         * [new tag]         v2.6.25-rc1 -> v2.6.25-rc1
+         * [new tag]         v2.6.25-rc2 -> v2.6.25-rc2
+        ...
+        $ git rebase FETCH_HEAD master
+        First, rewinding head to replay your work on top of it...
+        Applying reduce kvm stack usage in kvm_arch_vm_ioctl()
+        Applying reduce stack usage in kvm_vcpu_ioctl()
+        Applying reduce stack usage in kvm_arch_vcpu_ioctl()
+        Applying kvm: reduce stack usage in kvm_pv_mmu_op()
+</nowiki></pre>
+
+Here FETCH_HEAD is the new commit on which we
+are going to rebase, and master is the name of
+the branch which we are going to merge on top
+of FETCH_HEAD.
+
 ----
 [[CategoryGitDocumentation]]
 
