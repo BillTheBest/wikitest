@@ -1,5 +1,14 @@
+
+---- /!\ <b>Edit conflict - other version:</b> ----
 XiJSiK hi!  hice site!
 ----
 [[CategoryHomepage]]
+
+---- /!\ <b>Edit conflict - your version:</b> ----
+XiJSiK hi!  hice site!
+----
+[[CategoryHomepage]]
+
+---- /!\ <b>End of edit conflict</b> ----
 
 __NOTOC__
