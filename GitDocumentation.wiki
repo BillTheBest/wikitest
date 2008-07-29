@@ -8,6 +8,7 @@
 * Git SVN [http://git.or.cz/course/svn.html crash course]
 * Many [http://kernel.org/pub/software/scm/git/docs/howto/ Howto] documents come with git as well
 * [http://repo.or.cz/w/git.git?a=tree;f=Documentation/technical;hb=HEAD Documentation/technical] for all the technical information relating to Git
+
 == Documentation on this Wiki ==
 All documentation residing on this wiki is put in the [[CategoryGitDocumentation:[[GitDocumentation]] category]]
 
@@ -29,7 +30,9 @@ All documentation residing on this wiki is put in the [[CategoryGitDocumentation
 * [[IndexCommandQuickref]]
 * The [[RevisionSpecification]]
 * Equivalent of <i>svn switch</i> for git-svn: [[GitSvnSwitch]] - when an SVN repos moves
+
 == User contributed Documentation ==
+* [http://book.git-scm.com/ The Git Community Book] at [http://git-scm.com git-scm.com].
 * git clone is not resumable - a [http://xanjax.org/#gitnote.xml practical workaround] for unreliable connections / large clones
 * Carl Worth's [http://cworth.org/hgbook-git/tour/ A tour of git: the basics] [http://git-users.googlegroups.com/web/gitbasic.pdf?gda=TjULfjwAAACRcUWZoNoqHn0MmsB4ogNRkdJPXci4pHF-t7wRb-FXv_7_kSc1FlgquWbpkoDUr3jz_JaIg30gP77VRAtzw-G6 Mirror(PDF)] <b>Recommended</b>
 * John Wiegley's tutorial describing [http://www.newartisans.com/blog_files/git.from.bottom.up.php Git From Bottom Up] Link to PDF, [http://git-users.googlegroups.com/web/gitfrombottomup.pdf?gda=52xMLEQAAACpB0I6kTeoe_gDZwr_Wu3rSzh-BYU3WCJcU16DCLQHrmG1qiJ7UbTIup-M2XPURDRYda-7QfdsxTTX4bqgEJoy1bwkoqS54nAZJJjHLLKkeg Mirror(PDF)] <b>Recommended</b>
