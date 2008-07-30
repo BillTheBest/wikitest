@@ -56,6 +56,7 @@ Here are few tips for new users, or users that don't like to read the manual:
 * We could put up some commercials [on git homepage] as well and use them for funding pizza distributed in a round-robin fashion between the developers. <i>(Petr "Pasky" Baudis)</i>
 * Repeat after me: in git, *everything* is a SHA1 object! <i>(Linus Torvalds)</i>
 * ... where "core git" originally was about "what I use" and the whole "porcelain" side ends up being "what people who need hand-holding use" ;) <i>(Linus Torvalds)</i>
+* For example, try doing the timings after flushing the disk caches [...] Or do it over NFS.  Yes, even the "fast" case will actually be painfully slow (well, it is for me, people who are used to CVS probably think it's just "normal"). <i>(Linus Torvalds)</i>
 
 <!-- ## blogs
  -->
