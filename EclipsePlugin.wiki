@@ -45,6 +45,8 @@ Some ways to keep informed about Egit development.
 ** A: Not at the moment. Code is included to build an update site, but it has some issues to solve.
 * Q: Is the project active?
 ** A: Depends on what is meant by active. Admitted the progress is slow, mostly because there are very few people involved so far, but the project is certainly not dead (as of February 2008).
+* Q: Will there be support for Eclipse 3.4 Ganymede anytime soon?
+
 == Documentation ==
 === What doc. for starting help? ===
 * [http://www.eclipse.org/eclipse/platform-team/ Eclipse platform team]
