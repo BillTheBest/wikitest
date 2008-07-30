@@ -1,6 +1,8 @@
 == Getting Giddy with Git: GSoC 2008 podcast 18 ==
 
-[http://google-opensource.blogspot.com/2008/07/getting-giddy-with-git.html Getting Giddy with Git] post on [http://google-opensource.blogspot.com Google Code: Open Source at Google] blog contains info and links to [http://google-developer-podcast.googlecode.com/files/gsocpodcast018.mp3 mp3] and [http://google-developer-podcast.googlecode.com/files/gsocpodcast018.ogg ogg] GSoC podcast 18: Git.  In it Shawn O. Pearce and Johannes Schindelin talks with Leslie Hawthorn about git and experience in being Google Summer of Code mentor (and maintainer).
+[http://google-opensource.blogspot.com/2008/07/getting-giddy-with-git.html Getting Giddy with Git] post on [http://google-opensource.blogspot.com Google Code: Open Source at Google] blog contains info and links to [http://google-developer-podcast.googlecode.com/files/gsocpodcast018.mp3 mp3] and [http://google-developer-podcast.googlecode.com/files/gsocpodcast018.ogg ogg] GSoC podcast 18: Git.  In it Leslie Hawthorn interviews Shawn O. Pearce (git GSoC administrator) and Johannes Schindelin (backup administrator).  They talk about Git's participation in GSoC, and how Shawn and Dscho (Johannes) experienced GSoC as a mentor as well.  Also the origin of Shawn's forced-upon nickname on #git is explained... :P.
+
+<b>See also:</b> [http://thread.gmane.org/gmane.comp.version-control.git/88784 GSoC podcast 18: Git] thread on git mailing list.
 
 == Summer of Code 2008 Midterm Summary ==
 
