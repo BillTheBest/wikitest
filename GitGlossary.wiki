@@ -1,5 +1,5 @@
 far.txt;3;3
 ----
-[[CategoryGitDocumentation]]
+[[CategoryGitHomepage]]
 
 __NOTOC__
