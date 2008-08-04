@@ -232,7 +232,7 @@
 * Having had problems with darcs2git and tailor, [http://www.sanityinc.com/ Steve Purcell] wrote another simple darcs import tool called darcs-to-git, which can incrementally import a single darcs source repo: [http://www.sanityinc.com/articles/converting-darcs-repositories-to-git article] / [http://git.sanityinc.com/?p=darcs-to-git.git darcs-to-git gitweb]
 
 === Darcs-Git ===
-* [http://darcs.net/DarcsWiki/[[DarcsGit]] Darcs-Git] is an ongoing effort to make Darcs work with Git repositories, in particular the Linux kernel repository. It is now part Darcs-Unstable branch, available from http://abridgegame.org/repos/darcs-unstable
+* [http://darcs.net/DarcsWiki/[[DarcsGit]] Darcs-Git] was an effort to make Darcs work with Git repositories, in particular the Linux kernel repository. It was part Darcs-Unstable branch, available from http://abridgegame.org/repos/darcs-unstable .  Unfortunately, both links are now defunct.
 
 === SCCS import ===
 * There exists proposed <code><nowiki>conftib/fast-import/git-sccsimport.py</nowiki></code> in [http://marc.info/?i=<c5df85930801200312o7cd5d307v1a39fb35179249a9@mail.gmail.com> fast importer for SCCS files] post by James Youngman on git mailing list, and [http://search.cpan.org/src/HMBRAND/VCS-SCCS-0.11/examples/sccs2git-gfi sccs2git-gfi] importer by Sam Vilain in VCS::SCCS CPAN module.
