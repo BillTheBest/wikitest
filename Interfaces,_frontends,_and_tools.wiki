@@ -148,6 +148,9 @@
 === Java GIT/Eclipse GIT ===
 * [http://repo.or.cz/w/egit.git Java GIT/Eclipse GIT] (repository) originated by Shawn Pearce is a Java GIT library and plugin for [http://www.eclipse.org/ Eclipse] IDE, in very early stages of development.  The site no longer seems to have the plugin. Robin Rosenberg has recently been working on history and compare views for the plugin. David Watson contributed GUI for branch handling and commit. Progress is slow but steady. A [[EclipsePluginWishlist]] has been started as a roadmap of features. A page has been started to follow development: [[EclipsePlugin]].
 
+=== Git4Idea ===
+* The Git4Idea plugin provides basic Git integration support for the IntelliJ/[[JetBrains]] IDEA (v6 & above) development environment. The Git4Idea plugin can be downloaded from within IDEA itself using the IDE Settings->Plugins config panel. The [http://plugins.intellij.net/plugin?id=3033 plugin home page] contains the latest release information and source code is also available [http://github.com/markscott/git4idea/tree/master here]. Git4Idea uses the git command line tool to work; Cygwin 'git' on Windows is recommended.
+
 === KDevelop ===
 * Development of a Git plugin for kdevelop has begun. [http://drwxr-xr-x.blogspot.com/2008/06/now-kdevelop-has-basic-git-support.html Basic support implemented]
 
