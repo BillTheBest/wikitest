@@ -262,6 +262,9 @@
 === [[WiGit]] ===
 * [http://el-tramo.be/software/wigit WiGit] by [http://el-tramo.be/ Remko Tronçon] is a simple themable PHP wiki with Git as a backend, [http://textile.thresholdstate.com/ Textile] PHP class for marking up text.  It has history support, basic user support (from HTTP authentication), and pretty URLs.  See [http://el-tramo.be/blog/wigit-intro WiGit: A Simple Git-based Wiki] blog post for introduction.
 
+=== Nuki ===
+* <b>Nuki</b> ([http://github.com/patrickt/nuki/tree/master github]) by Patrick Thomson is a Wiki engine written in [http://programming.nu/ Nu] and powered by Nunja ([http://github.com/timburks/nunja/tree/master github]), a cross-platform web server that's scripted with Nu, that uses Git for version control, and Markdown (via [http://programming.nu/posts/2007/10/10/markdown-in-nu NuMarkdown]) for markup.
+
 === git-blog ===
 * git-blog ([http://github.com/elliottcable/git-blog/tree/master github]) is a minimalist blogware that uses git, using Ruby to 'deploy' Markdown posts to XHTML when git-pushed to your server.
 
