@@ -341,7 +341,7 @@
 * <b>gitosis</b> ([http://eagain.net/gitweb/?p=gitosis.git gitweb], [http://eagain.net/gitweb/?p=gitosis.git;a=blob;f=README.rst;hb=HEAD README] by Tommi 'Tv' Virtanen is a tool to manage git repositories, provide access to them over SSH, with tight access control and not needing shell accounts. Described in [http://eagain.net/blog/2007/10/12/snakepit-and-gitosis.html Tv's cobweb: Snakepit and gitosis, things I've been working on] on author's blog and [http://scie.nti.st/2007/11/14/hosting-git-repositories-the-easy-and-secure-way Hosting Git repositories, The Easy (and Secure) Way] post on [http://scie.nti.st scie.nti.st], Garry Dolley blog. <i>(Python, requires setuptools)</i>
 
 === ssh_acl ===
-* [http://www.inf.ufpr.br/ribas/ssh_acl/ ssh_acl] by Bruno Ribas is a set of bash scripts which can be used to manage Git repositories access.
+* [http://www.inf.ufpr.br/ribas/ssh_acl.html ssh_acl] by Bruno Ribas is a set of bash scripts which can be used to manage Git repositories access.
 
 === libgit-thin ===
 * libgit-thin by Luiz Fernando N. Capitulino and Shawn O. Pearce is an ongoing effort to develop a library for git, which started as a [http://code.google.com/p/google-summer-of-code-2007-git/ Google Summer of Code 2007 project]. Read [http://article.gmane.org/gmane.comp.version-control.git/53433 this announcement] for more details. It also comes with Python bindings called PyGit, wich demonstrate the current capabilities. The git repository of this project can be found under http://repo.or.cz/w/git/libgit-gsoc.git.
