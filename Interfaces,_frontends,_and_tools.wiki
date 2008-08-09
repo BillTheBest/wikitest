@@ -50,7 +50,7 @@
 === Guilt (formerly Git Queues (gq)) ===
 * [[Guilt:guilt]] ([http://www.kernel.org/pub/linux/kernel/people/jsipek/guilt/ download], [http://www.kernel.org/git/?p=linux/kernel/git/jsipek/guilt.git;a=summary gitweb]) by Josef "Jeff" Sipek is a series of bash scripts which add a [http://www.selenic.com/mercurial/wiki/index.cgi/MqExtension Mercurial queues]-like functionality and interface to git. The one distinguishing feature from other Quilt-like porcelains, is the format of the patches directory. All the information is stored as plain text - a series file and the patches (one per file). This easily lends itself to versioning the patches using any number of of SCMs.
 
-=== Patchy Git (pg) ===
+=== Patchy Git (pg), deprecated ===
 * [[Pg:pg]] ([http://www.spearce.org/category/projects/scm/pg/ homepage]) by Shawn Pearce aims to help the user manage a set of patches on top of the current branch. pg is somewhat like Quilt or StGIT, but it does have a slightly different feature set.  <i>Note that pg is no longer being actively developed.</i>
 
 == Graphical Interfaces ==
