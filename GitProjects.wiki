@@ -230,6 +230,8 @@ List does not currently include [[Git]] or git-related tools.
 * [http://www.geda.seul.org/ gEDA]
 * http://geda.seul.org/wiki/geda:scm (development)
 * http://git.gpleda.org/ (gitweb)
+* [http://www.haskell.org/ghc/ GHC] (Glasgow Haskell Compiler)
+* http://darcs.haskell.org/ghc.git
 * GNU Autoconf
 * http://git.sv.gnu.org/gitweb/?p=autoconf.git (gitweb)
 * git://git.sv.gnu.org/autoconf.git
