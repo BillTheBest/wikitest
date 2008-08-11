@@ -155,6 +155,8 @@ List does not currently include [[Git]] or git-related tools.
 * collectd (a small daemon  which collects system information every 10 seconds and writes the results in an RRD-file)
 * http://collectd.org/dev-info.shtml (development web page)
 * git://git.verplant.org/collectd.git (repository)
+* Condor - Distributed High Throughput Computing
+* http://www.cs.wisc.edu/condor (homepage)
 * CRUX Linux distribution
 * http://crux.nu/Main/[[ContribHowTo]] (development web page)
 * http://crux.nu/gitweb/ (gitweb)
