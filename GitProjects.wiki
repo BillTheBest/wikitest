@@ -342,7 +342,7 @@ List does not currently include [[Git]] or git-related tools.
 * http://paraslash.systemlinux.org/gitweb/gitweb.cgi?p=.git;a=shortlog (gitweb)
 * pmr (Tool for measuring data rate on a command line pipe)
 * http://zakalwe.fi/~shd/foss/pmr/
-* Prototype (AJAX framework)
+* [http://prototypejs.org/ Prototype] (AJAX framework)
 * http://github.com/sstephenson/prototype/tree/master (repository browser)
 * git://github.com/sstephenson/prototype.git (repository)
 * PulseAudio
