@@ -24,6 +24,7 @@ Some ways to keep informed about Egit development.
 * [http://git.or.cz/gitwiki/GitCommunity Maling lists, IRC, newgroups (Same as Git)]
 = Links =
 * [http://repo.or.cz/w/egit.git gitweb] (clone)
+* Get the source: git clone git://repo.or.cz/egit.git
 = Features =
 * Compare revisions
 * Quick diff
