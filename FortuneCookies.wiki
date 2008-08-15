@@ -66,6 +66,7 @@ Here are few tips for new users, or users that don't like to read the manual:
 * Then somebody insisted that all future projects would use CVS. (...) It had quite clearly evolved via the <b>Sticky-Tape and String school of software development</b>, but it worked pretty well [compared to Visual Source Safe]. <i>(Dan Dyer)</i>.
 * “Visual SourceSafe? It would be safer to print out all your code, run it through a shredder, and set it on fire.” <i>(Attributed to an unidentified Microsoft employee)</i>.
 * Meanwhile, there are many happy Visual SourceSafe users (really, there are -- I've met some, they are nice people despite this) who find the idea of a non-exclusive locking source control system to be the very definition of chaos. <i>(Derek Slager)</i>
+* The palest ink is better than the best memory. <i>(Chinese proverb)</i>
 
 <!-- ## other fortune cookies
  -->
