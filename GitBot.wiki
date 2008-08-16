@@ -29,8 +29,15 @@ Where Repo and Ref are optional. This means that you can refer to the `master` b
 
 Similarly, <code><nowiki><HEAD:Documentation/githooks.txt></nowiki></code> will supply a link to the newest githooks.txt file.
 
-Using the Repo part, you can specify which repository to look in. For example, you can look up the `README` of Egit: <code><nowiki><egit HEAD:README></nowiki></code>. You can also use URL-like strings to specify repositories that are not in the supplied repository list, for example:
+Using the Repo part, you can specify which repository to look in. For example, you can look up the `README` of Egit:
 <pre><nowiki>
+00:04 < Pieter> <HEAD:README>
+00:04 < Gitbot> [git README]: http://tinyurl.com/3pcuxm [blob]
+00:04 < Pieter> <egit HEAD:README>
+00:04 < Gitbot> [egit README]: http://tinyurl.com/6jenea [
+
+You can also use URL-like strings to specify repositories that are not in the supplied repository list, for example:
+{{{
 23:41 < Pieter> <repo:glibc.git HEAD:README>
 23:41 < Gitbot> [glibc README]: http://tinyurl.com/6e536k [blob]
 </nowiki></pre>
