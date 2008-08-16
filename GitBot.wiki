@@ -12,11 +12,18 @@
 
 [[GitBot]] can be invoked implicitly by supplying a sha1 of an object, at least 7 characters long. If [[GitBot]] finds such a phrase, it tries to look up the object on all the supplied Git repositories. If it find one, it creates a tinyurl and returns this in the IRC channel.
 
-[[GitBot]] can also be invoked implicitly. The syntax is the following:
+[[GitBot]] can also be invoked explicitly. The syntax is the following:
 <pre><nowiki>
     <[Repo] Ref[:Path]>
 </nowiki></pre>
-Where Repo and Ref are optional. This means that you can refer to the master branch by using <code><nowiki><master></nowiki></code> in the IRC channel. Similarly, `<HEAD:Documentation/githooks.txt>` will supply a link to the newest githooks.txt file.
+Where Repo and Ref are optional. This means that you can refer to the master branch by using <code><nowiki><master></nowiki></code> in the IRC channel:
+<pre><nowiki>
+23:55 < Pieter> <master>
+23:55 < Gitbot> [git master]: http://tinyurl.com/68cfzf -- Git.pm: Make File::Spec and File::Temp 
+                requirement lazy
+</nowiki></pre>
+
+Similarly, <code><nowiki><HEAD:Documentation/githooks.txt></nowiki></code> will supply a link to the newest githooks.txt file.
 
 Using the Repo part, you can specify which repository to look in. For example, you can look up the `README` of Egit: <code><nowiki><egit HEAD:README></nowiki></code>. You can also use URL-like strings to specify repositories that are not in the supplied repository list, for example:
 <pre><nowiki>
