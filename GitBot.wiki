@@ -10,7 +10,11 @@
 
 [[GitBot]] works by through a list of provided Git repositories. It can scan this list every time an object is mentioned.
 
-[[GitBot]] can be invoked implicitly by supplying a sha1 of an object, at least 7 characters long. If [[GitBot]] finds such a phrase, it tries to look up the object on all the supplied Git repositories. If it find one, it creates a tinyurl and returns this in the IRC channel.
+[[GitBot]] can be invoked implicitly by supplying a sha1 of an object, at least 7 characters long. If [[GitBot]] finds such a phrase, it tries to look up the object on all the supplied Git repositories. If it find one, it creates a tinyurl and returns this in the IRC channel:
+<pre><nowiki>
+23:57 < Pieter> Hey, look how interesting 65c35b2256ecbfaebcf04559fe6070807646afff is!
+23:57 < Gitbot> [git 65c35b225]: http://tinyurl.com/6mxgqg -- t7001: fix "git mv" test
+</nowiki></pre>
 
 [[GitBot]] can also be invoked explicitly. The syntax is the following:
 <pre><nowiki>
