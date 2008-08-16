@@ -20,7 +20,7 @@
 <pre><nowiki>
     <[Repo] Ref[:Path]>
 </nowiki></pre>
-Where Repo and Ref are optional. This means that you can refer to the master branch by using <code><nowiki><master></nowiki></code> in the IRC channel:
+Where Repo and Ref are optional. This means that you can refer to the `master` branch by using <code><nowiki><master></nowiki></code> in the IRC channel:
 <pre><nowiki>
 23:55 < Pieter> <master>
 23:55 < Gitbot> [git master]: http://tinyurl.com/68cfzf -- Git.pm: Make File::Spec and File::Temp 
