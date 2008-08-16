@@ -2,28 +2,26 @@
 
 [[GitBot]] is maintained by Pieter de Bie. You can email Pieter at frimmirf@gmail.com. Questions can also be directed to 'Pieter' on freenode.
 
-<!-- # Goal
- -->
+== Goal ==
 
 [[GitBot]] allows you to scan Git repositories for objects mentioned in an IRC channel. This is useful for referring to a specific commit or file, which can then be viewed online using the link [[GitBot]] provides. Currently, only Gitweb and local repositories are supported. As soon as [[GitHub]] has a suitable API, support for [[GitHub]] will also be added.
 
-<!-- # Usage
- -->
+== Usage ==
 
 [[GitBot]] works by through a list of provided Git repositories. It can scan this list every time an object is mentioned.
 
 [[GitBot]] can be invoked implicitly by supplying a sha1 of an object, at least 7 characters long. If [[GitBot]] finds such a phrase, it tries to look up the object on all the supplied Git repositories. If it find one, it creates a tinyurl and returns this in the IRC channel.
 
 [[GitBot]] can also be invoked implicitly. The syntax is the following:
+<pre><nowiki>
+    <[Repo] Ref[:Path]>
+</nowiki></pre>
+Where Repo and Ref are optional. This means that you can refer to the master branch by using <code><nowiki><master></nowiki></code> in the IRC channel. Similarly, `<HEAD:Documentation/githooks.txt>` will supply a link to the newest githooks.txt file.
 
-    <[Repo] Ref[[Path]]>
-
-Where Repo and Ref are optional. This means that you can refer to the master branch by using '<master>' in the IRC channel. Similarly, <HEAD:Documentation/githooks.txt> will supply a link to the newest githooks.txt file.
-
-Using the Repo part, you can specify which repository to look in. For example, you can look up the README of egit: <egit HEAD:README>. You can also use URL-like strings to specify repositories that are not in the supplied repository list, for example:
-
+Using the Repo part, you can specify which repository to look in. For example, you can look up the `README` of Egit: <code><nowiki><egit HEAD:README></nowiki></code>. You can also use URL-like strings to specify repositories that are not in the supplied repository list, for example:
+<pre><nowiki>
     <repo:glibc.git HEAD:README>
-
-will look up the README on the main branch in the glibc.git repository on repo.or.cz
+</nowiki></pre>
+will look up the README on the main branch in the `glibc.git` repository on [repo.or.cz]
 
 __NOTOC__
