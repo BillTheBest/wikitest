@@ -34,10 +34,11 @@ Using the Repo part, you can specify which repository to look in. For example, y
 00:04 < Pieter> <HEAD:README>
 00:04 < Gitbot> [git README]: http://tinyurl.com/3pcuxm [blob]
 00:04 < Pieter> <egit HEAD:README>
-00:04 < Gitbot> [egit README]: http://tinyurl.com/6jenea [
+00:04 < Gitbot> [egit README]: http://tinyurl.com/6jenea [blob]
+</nowiki></pre>
 
 You can also use URL-like strings to specify repositories that are not in the supplied repository list, for example:
-{{{
+<pre><nowiki>
 23:41 < Pieter> <repo:glibc.git HEAD:README>
 23:41 < Gitbot> [glibc README]: http://tinyurl.com/6e536k [blob]
 </nowiki></pre>
