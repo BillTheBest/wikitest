@@ -1,3 +1,5 @@
+[[Image:EclipsePlugin$egit2_med.png]]
+
 Java GIT/Eclipse GIT (by Shawn Pearce) is a Java GIT library and plugin for [http://www.eclipse.org/ Eclipse IDE].
 
 Roadmap of features: [[EclipsePluginWishlist]]
