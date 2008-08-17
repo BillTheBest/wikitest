@@ -26,6 +26,7 @@ Welcome to the [[Git]] wiki web site. This wiki is a community effort to provide
 * [[GitLinks]]
 * [[GitComparison:Git Compared]]
 == News ==
+* August 17, 2008: Git Version 1.6.0 now [http://kernel.org/pub/software/scm/git/ available][http://www.kernel.org/pub/software/scm/git/docs/RelNotes-1.6.0.txt Release Notes]
 * June 18, 2008: Git Version 1.5.6 now [http://kernel.org/pub/software/scm/git/ available][http://www.kernel.org/pub/software/scm/git/docs/RelNotes-1.5.6.txt Release Notes]
 * May 25, 2008: Git Version 1.5.5.2 now [http://kernel.org/pub/software/scm/git/ available][http://www.kernel.org/pub/software/scm/git/docs/RelNotes-1.5.5.2.txt Release Notes]
 * May 07, 2008: [http://www.infoq.com/articles/dvcs-guide InfoQ compares] Git with Hg and Bzr with Git leading in performance
