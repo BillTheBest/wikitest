@@ -7,26 +7,30 @@ Create a new branch from any revision specification.
 == Delete Branch ==
 Delete a branch.
 
-== Fetch ==
-Fetch using the git (and git+ssh) is underway. That effort does not include HTTP fetch.
+== Fetch UI ==
+Fetching changes from a remote repository.
 
-Initially I'd like to stay away from the commit walkers (e.g. HTTP).  Actually supporting them is likely a really good argument for at least making it possible for the user to configure jgit to invoke "git fetch" in an external process.
+Fetch is fully supported within JGit through the [[FetchProcess]] class, including implementations of git://, git+ssh://, http:// and amazon-s3:// (a modified HTTP specialized for Amazon S3).
+
+The Eclipse UI however does not have access to this class, so you can't fetch within the plugin.
+
+== Push ==
+Pushing changes to a remote repository.
+
+Push is fully supported in JGit through the [[PushProcess]] class, for all protocols that fetch is supported on.
+
+<i>(as of mid-August)</i> The Eclipse UI has patches pending from Marek, as a result of his GSoC 2008 project.  We hope to get those merged real soon.
 
 == Merge ==
 Merging changes from one local branch to another.
 
 Again, like fetch I'd like to keep egit/jgit 100% pure Java and implement merge-recursive in Java.  We may need to invoke RCS merge if Eclipse doesn't have its own 3 way file merge algorithm available, or do what core Git just did and implement a 3 way in memory merge algorithm.  git-merge-recursive is only 1336 lines of C so it should not be too difficult to port the algorithm to pure Java.
 
-== Push ==
-Pushing changes to a remote repository.
-
-A lot like fetch, we should be able to support the native Git protocol for SSH based push, and for local directory access we just need to mount the other repository as a new Repository object and copy the object data from one to the other.  Probably easier than it is for core Git.
-
-As far as packing data over the network goes I don't want to implement the binary delta algorithm in pure Java right now.  So this means we would send packs containing only whole objects (no deltas).  This shouldn't really be an issue for the receiving end, except that we will have a slightly higher network transfer cost coming from egit than if core Git was used to push the same set of objects.
-
 == Support linked URIs ==
 
 [[GitProvider]] does not currently support linked URIs
+
+Linked directories are mostly supported, but only to your local filesystem.  Linking to another protocol (e.g. http://) will probably never be supported as we cannot (easily) control the contents of a remote HTTP server.
 
 == Stacked GIT ==
 Stacked Git operations. (Personally I have dropped this and will opt for the interactive rebase style instead / robin).
@@ -36,6 +40,8 @@ Make a tag and delete tags
 
 == Gitignore ==
 Add the "Add to .gitignore" entry menu.
+
+Ignored files should also be processed for status handling, initial refusal to add to the tree (require extra confirmation), etc.
 
 == SVN Integration ==
 It would be swell -- but put it at the bottom of your priority list -- to have git-svn interoperability; sadly most of my git usage at the moment is in cloned svn repositories and it would be great if egit could do the right thing when the current git repo is cloned from svn. What "the right thing" is, exactly, is debatable, but I suppose some kind of integration with the Subclipse plugin is one possibility (and if nothing else, that plugin probably has code that can be reused.) I'd like to be able to update from and commit to the parent svn repository. <i>-- Steven Grimm</i>
