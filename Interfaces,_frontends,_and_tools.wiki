@@ -204,8 +204,7 @@
 * [http://git-svn.yhbt.net/ git-svn] ([http://git.bogomips.org/git-svn.git git repository]), written by Eric Wong, is a conduit for bidirectional operation between a Subversion repository and git. It supports Subversion branches and tags, importing multiple Subversion repositories into a single git repository, and incrementally updating the git repository with changes from the Subversion parent. It is designed for developers who wish to contribute to projects that use Subversion, but would rather be using git. Written in Perl using the SVN::Core Perl library.
 
 === git-svnimport (contrib) ===
-* There is also git-svnimport, and because it came earlier it is mentioned often in
-old documentation.  At the moment (August, 2008), git-svn is better supported.
+* There is also git-svnimport, and because it came earlier it is mentioned often in old documentation.  At the moment (August, 2008), git-svn is better supported.
 
 === git2svn (perl/bash) ===
 * [http://voltar.org/git2svn/ git2svn], written by Paul Miller, is a git repo exporter designed to allow a user to import numerous git repos into a [http://trac.edgewall.org/ trac] wiki.  Trac only supports svn (natively) and only supports a one repo configuration.  Although there are git plugins for Trac, they are cumbersome and (because of trac's design) only support one repo at a time.  git2svn solves that by importing as many git repos as needed into directories of an svn repo.  It does this using native svn and git commands with perl as glue.
