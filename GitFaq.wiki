@@ -181,6 +181,7 @@ No. Git has a specific notion of tracked "content", which is basically just the 
 = Unexpected behavior =
 
 <<Anchor(git-push non-bare)>>
+<<[[GitLink]](non-bare,You shouldn't push to a non-bare repository)>> 
 == Why won't I see changes in the remote repo after "git push"? ==
 The <code><nowiki>push</nowiki></code> operation is always about propagating the repository history and updating the refs, and never touches the working tree files.  In particular, if you push to update the branch that is checked out in a remote repository the files in the work tree will not be updated.
 
@@ -208,7 +209,7 @@ If the version you switched to has an earlier (different) version of the <code><
 * If you are using cygwin or OSX, you might have be having issues with case sensitivity. See [http://marc.info/?l=git&w=2&r=1&s=xt_CONNMARK.h&q=b some discussion here].
 
 <<Anchor(git-push after-rebase)>>
-<<[[GitLink]](pushf, You shouldn't push a rebased repository)>>
+<<[[GitLink]](push-f, If you use push -f, others might get into problem when pulling)>>
 == Why won't "git push" work after I rebased a branch? ==
 After you have rebased one of your local branches, you are trying to push your changes to a remote repository. But <code><nowiki>git push</nowiki></code> fails with this error message:
 
@@ -270,7 +271,7 @@ This appears to be an issue with your Cygwin configuration.  Make sure your CYGW
 
 = How do I ... =
 
-<<Anchor(ssh-config)>>
+<<[[GitLink]](ssh-config,You can setup a new entry in ~/.ssh/config with the right key)>>
 == How do I specify what ssh key git should use? ==
 This is not really a git question. However, you can edit your ~/.ssh/config file in order to tell ssh what key to use. More information about this is in the [http://www.openbsd.org/cgi-bin/man.cgi?query=ssh_config ssh config manpage]. The short version is that you can specify a custom Host with it's own [[IdentityFile]], like this:
 <pre><nowiki>
