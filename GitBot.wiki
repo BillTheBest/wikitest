@@ -8,6 +8,8 @@
 
 == Usage ==
 
+=== Ref lookup ===
+
 [[GitBot]] works by through a list of provided Git repositories. It can scan this list every time an object is mentioned.
 
 [[GitBot]] can be invoked implicitly by supplying a sha1 of an object, at least 7 characters long. If [[GitBot]] finds such a phrase, it tries to look up the object on all the supplied Git repositories. If it find one, it creates a tinyurl and returns this in the IRC channel:
@@ -43,5 +45,29 @@ You can also use URL-like strings to specify repositories that are not in the su
 23:41 < Gitbot> [glibc README]: http://tinyurl.com/6e536k [blob]
 </nowiki></pre>
 will look up the README on the main branch in the `glibc.git` repository on [http://repo.or.cz/]
+
+=== Man pages ===
+
+[[GitBot]] also allows you to lookup manpages for git. It does this by responding to any text along the lines of 'man git-log':
+
+<pre><nowiki>
+14:20 < Pieter> read the man git-log!
+14:20 < Gitbot> Pieter: [git-log]: http://tinyurl.com/5pdrmq
+</nowiki></pre>
+
+=== [[GitFaq]] pages ===
+
+It is also possible to let [[GitBot]] give links to FAQ entries on the [[GitFaq]] page:
+
+<pre><nowiki>
+14:03 < Pieter> $faq pushf
+14:03 < Gitbot> Pieter: pushf: You shouldn't push a rebased repository. See http://git.or.cz/gitwiki/GitFaq#pushf
+</nowiki></pre>
+
+This works by adding a macro on the faq page. For example, the pushf macro above was created by adding :
+<pre><nowiki>
+<<GitLink(pushf, You shouldn't push a rebased repository)>>
+</nowiki></pre>
+To the FAQ page at the right place. This means that everybody is able (and invited) to add or change FAQ replies by the bot.
 
 __NOTOC__
