@@ -10,7 +10,7 @@ We are currently discussing the possibility of a [[GitTogether]] in 2008.
 
 Some possible dates are:
 
-* October 27(Mon)-28(Tue) in Montain View, California: that's just after the Google SoC Mentor Summit.
+* October 27(Mon)-28(Tue) in Mountain View, California: that's just after the Google SoC Mentor Summit.
 * September 20(Sat)-21(Sun) in Portland, Oregon: that would be just after the [http://linuxplumbersconf.org/ Kernel Plumbers Conference], but it's perhaps too late now.
 
 People who said they are interested to attend so far:
