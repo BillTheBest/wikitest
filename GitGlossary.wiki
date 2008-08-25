@@ -209,6 +209,9 @@ This list is sorted alphabetically:
 	yet finished (i.e. if the index contains multiple versions of
 	that file).
 
+; loose object : <<Anchor(loose_object)>>
+	An object stored by itself in a file (as opposed to being packed together with other objects to save space).
+
 ; master : <<Anchor(master)>>
 	The default development [[#branch branch]]. Whenever you create a git
 	[[#repository repository]], a branch named "master" is created, and becomes
