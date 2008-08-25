@@ -38,6 +38,7 @@ There is also a Git Users Group at http://groups.google.com/group/git-users. Whi
 
 = [[GitTogether]] =
 These are events when git developers and users physically meet in the same place.
+See the [[GitTogether]] page for more information.
 
 ----
 [[CategoryGitHomepage]] ([http://git.or.cz/#community Community])
