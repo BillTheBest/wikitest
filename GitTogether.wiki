@@ -19,6 +19,7 @@ People who said they are interested to attend so far:
 * Shawn O. Pierce
 * Petr Baudis
 * J.H.
+* Johannes Schindelin
 * Christian Couder
 
 = Previous [[GitTogether]] =
