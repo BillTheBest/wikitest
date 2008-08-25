@@ -13,8 +13,8 @@ Some possible dates are:
 
 People who said they are interested to attend so far:
 
-* Junio Hamano
-* Shawn O Pierce
+* Junio C. Hamano
+* Shawn O. Pierce
 * Petr Baudis
 * J.H.
 * Christian Couder
