@@ -6,7 +6,12 @@ Roadmap of features: [[EclipsePluginWishlist]]
 
 = News =
 
-Lots of stuff changed, but not yet in a complete enough stage to deserve a version
+2008-08 Marek Zawirski implemented push. An experimental update site can be found
+on [http://www.jgit.org] and an issue tracker on [http://code.google.com/p/egit]. Both
+sites are subject to change so if nothing happens on those sites or they disappear, go
+back here and look for clues. Meanwhile, feedback is welcome through the Git mailing list.
+
+2008-07 Lots of stuff changed, but not yet in a complete enough stage to deserve a version
 number of its own. My guess is that this will happen in August. Meanwhile please
 try the master branch. It can clone from Eclipse, the commandline client can fetch
 and push. (see the inconsistency here?, hence no new version). Changes in the repository
