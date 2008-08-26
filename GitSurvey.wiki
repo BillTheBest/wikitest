@@ -755,6 +755,6 @@ Count;Answer
 * Years of experience with programming, and/or SCMs. Use cases other than programming projects.
 * You may want to ask if somebody asked me for help with git or expressed any opinion about it. You may want to ask how stable and reliable git has been for me.
 ----
-[[CategoryGitHomepage]]
+[[CategoryGitHomepage]] [[CategoryStatistics]]
 
 __NOTOC__
