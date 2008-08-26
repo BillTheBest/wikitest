@@ -5495,5 +5495,7 @@ Some other comments:
 * [[GitSurvey2006]] - previous survey summary
 * [[GitSurvey2006vs2007]] - comparison of 2006 and 2007 (this one) survey results.
 * [http://www.selenic.com/mercurial/wiki/index.cgi/UserSurvey Mercurial [[UserSurvey]]], which inspired first [[GitSurvey2006:Git User's Survey]].<<BR>> See also [http://www.selenic.com/mercurial/wiki/index.cgi/UserSurvey2007 comments about Mercurial User's Survey 2007]
+----
+[[CategoryStatistics]]
 
 __NOTOC__
