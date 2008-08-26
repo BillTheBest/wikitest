@@ -20,6 +20,7 @@ People who said they are interested to attend so far:
 * Petr Baudis
 * J.H.
 * Johannes Schindelin
+* Sam Vilain
 * Christian Couder
 
 = Previous [[GitTogether]] =
