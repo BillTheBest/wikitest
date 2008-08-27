@@ -289,6 +289,30 @@ If you want to keep a file, but not have it in the next revision, do this:
 git rm --cached <filename>
 </nowiki></pre>
 
+<<[[GitLink]](branch, to checkout other branches, use git checkout -b new origin/master)>>
+== How do I access other branches in a repository? ==
+After you have cloned a repository, only the master branch by default is tracked. This means that <code><nowiki> git branch </nowiki></code> will only show one branch. To view all remote repositories, use <code><nowiki> git branch -r </nowiki></code>. To create access one of those branches, create a local branch that tracks the remote branch. For example, if <code><nowiki> git branch -r </nowiki></code> shows:
+
+<pre><nowiki>
+Vienna:git pieter$ git branch -r
+  origin/HEAD
+  origin/html
+  origin/maint
+  origin/man
+  origin/master
+</nowiki></pre>
+
+you can create a local branch and check it out with:
+
+<pre><nowiki>
+Vienna:git pieter$ git checkout -b maint origin/maint
+Branch maint set up to track remote branch refs/remotes/origin/maint.
+Switched to a new branch "maint"
+Vienna:git pieter$ 
+</nowiki></pre>
+
+This will create a local branch "maint" that tracks the remote branch "maint"
+
 <<Anchor(repo-sharing)>>
 == How do I share a git public repository and use it in a CVS way? ==
 You can use <code><nowiki>git --bare init --shared=group</nowiki></code> (or <code><nowiki>git --bare init --shared=all</nowiki></code> for unprivileged gitweb) to initialize a shared repository if you use core [[Git]] (recommended for Git 1.5+). For older versions of Git core you can also use [[Cogito]] command <code><nowiki>cg-admin-setuprepo -g</nowiki></code> (please note that Cogito is no longer actively maintained, if you use Git version 1.5+ it is recommended that you use core Git). All users belonging to your group have now permissions to push their changes to the repository. It's O.K. that refs aren't group writable, it's enough the directory is.
