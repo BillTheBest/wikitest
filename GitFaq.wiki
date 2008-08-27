@@ -25,7 +25,7 @@ Alternatively, in Linus' own words as the inventor of git: "git" can mean anythi
 * "Global information tracker": you're in a good mood, and it actually works for you. Angels sing, and a light suddenly fills the room.
 * "Goddamn idiotic truckload of sh*t": when it breaks
 
-<<Anchor(fetch-vs-pull)>>
+<<[[GitLink]](fetch-vs-pull, Fetch retrieves objects, Pull also merges them in)>>
 == What's the difference between fetch and pull? ==
 The short definition is:
 
