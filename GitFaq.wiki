@@ -684,7 +684,7 @@ To test this, do:
 <pre><nowiki>
 ssh user@git.example.com echo testing commands
 </nowiki></pre>
-You should only see <code><nowiki>testing commands</nowiki></code> returned.  If there are any other characters, you should eamine your dot shell rc file to find any echo or other commands that may produce output.
+You should only see <code><nowiki>testing commands</nowiki></code> returned.  If there are any other characters, you should examine your dot shell rc file to find any echo or other commands that may produce output.
 
 == "unable to chdir or not a git archive" while pushing ==
 If you see the following errors:
