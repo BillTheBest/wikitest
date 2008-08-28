@@ -21,6 +21,7 @@ People who said they are interested to attend so far:
 * J.H.
 * Johannes Schindelin
 * Sam Vilain
+* David Symonds
 * Christian Couder
 
 = Previous [[GitTogether]] =
