@@ -270,6 +270,10 @@ Note that "--help" just spawns "man", so it is not Git's fault there.
 
 If you do not like the pager default, you can set <code><nowiki>core.pager = cat</nowiki></code> with <code><nowiki>git-config</nowiki></code> or tell your shell about <code><nowiki>GIT_PAGER=cat</nowiki></code>.
 
+<<Anchor{pager-color)>>
+== Why does diff/log not show color, even though I enabled it? ==
+Set <code><nowiki>core.pager = less -FXRS</nowiki></code> with <code><nowiki>git config</nowiki></code> to fix this. The most likely culprit is the <code><nowiki>LESS</nowiki></code> environment variable. By default, git passes the options <code><nowiki>-FXRS</nowiki></code> to less. The <code><nowiki>-R</nowiki></code> option tells less to interpret color escape sequences. If <code><nowiki>LESS</nowiki></code> is set, however, only those options are used by less.
+
 == Why does git diff sometimes list a file that has no changes? ==
 <code><nowiki>git diff</nowiki></code> and other git operations is optimized so it does not even look at files whose status (size, modification time etc) on disk and in git's [[Index:index]] are different. This makes <code><nowiki>git diff</nowiki></code> extremely fast for small changes. If the file has been touched somehow, git diff has to look at the content of and compare it which is a much slower operation even when there is in fact no change. <code><nowiki>git diff</nowiki></code> lists the files as a reminder that it is not used optimally. Running <code><nowiki>git status</nowiki></code> will not only show status, but will also update the index with status for unchanged files disk making subsequent operations, not only diff, much faster. A typical case that causes many files to be listed by diff is running mass editing commands like <code><nowiki>perl -pi -e '...'</nowiki></code>.
 
