@@ -1,9 +1,16 @@
 = Git User's Survey 2008 summary =
 
-The Git User's Survey 2008 has begun.
+<b>The Git User's Survey 2008 has begun.</b>
 
-You will be able to [http://www.survs.com/survey?id=M3PIVU72&channel=2WXE4BVTW8 take part in the survey] from <i>Sep 1 to (probably) Oct 10, 2008</i>.
+[http://www.survs.com/survey?id=M3PIVU72&channel=2WXE4BVTW8 Git User's Survey] is up now!. Please devote a few minutes of your time to fill this simple questionnaire, it will help a lot the Git community to understand your needs, what you like of Git, and of course what you don't like of it.
+
+This survey would last from September 1 to October 10, 2008.
 
 Have fun!
+
+http://www.survs.com/survey?id=M3PIVU72&channel=2WXE4BVTW8
+
+----
+[[CategoryStatistics]]
 
 __NOTOC__
