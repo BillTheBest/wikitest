@@ -1,6 +1,6 @@
 == Git Documentation ==
 * Git glossary ([[GitGlossary:[[GitWiki]] version]], [http://www.kernel.org/pub/software/scm/git/docs/gitglossary.html HTML version], [http://www.kernel.org/git/?p=git/git.git;a=blob;hb=HEAD;f=Documentation/glossary.txt source via gitweb])
-* Git [http://www.kernel.org/pub/software/scm/git/docs manual page] - Online version bundled with Git. (It's the informations that shows up using the command <i>man git</i>)
+* Git [http://www.kernel.org/pub/software/scm/git/docs manual page] - Online version bundled with Git. (The information displayed when using the command <i>man git</i> or <i>git help</i>)
 * [http://www.kernel.org/pub/software/scm/git/docs/user-manual.html Git User's Manual] - Online version bundled with Git
 * [http://www.kernel.org/pub/software/scm/git/docs/gittutorial.html A tutorial introduction to git] and [http://www.kernel.org/pub/software/scm/git/docs/gittutorial-2.html A tutorial introduction to git: part two] - Online version bundled with Git
 * [http://www.kernel.org/pub/software/scm/git/docs/everyday.html Everyday Git, with 20 commands or so] - Online version bundled with Git
