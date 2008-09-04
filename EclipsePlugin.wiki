@@ -50,7 +50,7 @@ Some ways to keep informed about Egit development.
 ** A: See the README and INSTALL documents in the egit repository.
   - A: or [http://cho.hapgoods.com/wordpress/?p=159 This Excellent Blog Entry]
 * Q: Is there an update site?
-** A: Not at the moment. Code is included to build an update site, but it has some issues to solve.
+** A: Point the update manager to http://www.jgit.org/update-site  and install.
 * Q: Is the project active?
 ** A: Depends on what is meant by active. Admitted the progress is slow, mostly because there are very few people involved so far, but the project is certainly not dead (as of February 2008).
 * Q: Will there be support for Eclipse 3.4 Ganymede anytime soon?
