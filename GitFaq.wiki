@@ -2,7 +2,7 @@
 
 ----
 * <b>See also:</b>
-* [[TipsAndTricks]] page
+* [[GitTips]] page
 = General Questions =
 
 == What is git ? ==
