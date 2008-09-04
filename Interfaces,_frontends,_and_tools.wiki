@@ -161,7 +161,7 @@
 === KDevelop ===
 * Development of a Git plugin for kdevelop has begun. [http://drwxr-xr-x.blogspot.com/2008/06/now-kdevelop-has-basic-git-support.html Basic support implemented]
 
-=== Netbeans module (nbgit) ==
+=== Netbeans module (nbgit) ===
 * A [[NetBeansPlugin]] with a limited set of features are available for testing.
 
 === PIDA ===
