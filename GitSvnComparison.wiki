@@ -62,7 +62,7 @@ This is quite contrary to Subversion's handling of branches.  As of Subversion 1
 
 In short Subversion's branching implementation is significantly flawed while Git's implementation accurately records the activity and is fully automatic.
 
-In the next major Subversion release (1.5), merge tracking will be significantly improved, see http://subversion.tigris.org/merge-tracking/ for details. Would be nice if someone would update this comparison to take this into account.
+In the current Subversion release (1.5), merge tracking has been significantly improved, see http://subversion.tigris.org/merge-tracking/ for details. Would be nice if someone would update this comparison to take this into account.
 
 Supplement: In Subversion, branches and tags all are copies, it's a smart idea, but sometimes it's not
 convenient, many newbies checkout the whole repository by mistake or are confused when update or merge
