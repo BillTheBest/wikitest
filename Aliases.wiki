@@ -128,6 +128,31 @@ $ git config alias.funcdiff '!sh -c "git show \"\$0:\$2\" | sed -n \"/^[^ \t].*\
 
 The idea is to create two temporary files which contain only the function, and call <i>git diff</i> on them.  Use this alias this way: <i>git funcdiff <old-rev> <new-rev> <path> <function></i>.
 
+= Collection of aliases by Git users =
+
+Here is a collection of some Git users' aliases. If you know a simpler way to achieve the same, please add some notes.
+
+== Editing/adding conflicted files ==
+
+You get a lot of merge conflicts and want to quickly solve them using an editor and then add the conflicted files. Try this:
+
+<pre><nowiki>
+[alias]
+        edit-unmerged = "!f() { git ls-files --unmerged | cut -f2 | sort -u ; }; vim `f`"
+        add-unmerged = "!f() { git ls-files --unmerged | cut -f2 | sort -u ; }; git add `f`"
+</nowiki></pre>
+
+You should replace "vim" by your favorite editor.
+
+Then just use 
+<pre><nowiki>
+$ git edit-unmerged
+... edit ...
+$ ... test ...
+$ git add-unmerged
+$ git commit  # or git rebase --continue or whatever
+</nowiki></pre>
+
 ----
 [[CategoryGitDocumentation]]
 
