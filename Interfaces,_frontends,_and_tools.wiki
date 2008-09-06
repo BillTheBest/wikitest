@@ -25,6 +25,9 @@
 === Easy Git ===
 * [http://www.gnome.org/~newren/eg/ Easy Git (eg)] Easy Git is a wrapper for Git that is designed to make git easy to learn and use. Easy Git aims to be easily learnable, interchangeable with Git, fully capable, and compatible with Git. Users can move back and forth between using Easy Git and Git itself. 
 
+=== Yap ===
+* [http://repo.or.cz/w/yap.git yap (Yet Another Git Porcelain)]  Yap is an alternative porcelain for git that is designed to have a friendlier, more orthogonal interface.  It is also easily extensible with python plugins.
+
 == Interfaces to other programming languages ==
 
 === [[GitPython]] ===
