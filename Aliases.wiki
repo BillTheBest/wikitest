@@ -153,6 +153,19 @@ $ git add-unmerged
 $ git commit  # or git rebase --continue or whatever
 </nowiki></pre>
 
+== Use graphviz for display ==
+
+<pre><nowiki>
+[alias]
+        graphviz = "!f() { echo 'digraph git {' ; git log --pretty='format:  %h -> { %p }' \"$@\" | sed 's/[0-9a-f]\\+/\"&\"/g' ; echo '}'; }; f"
+</nowiki></pre>
+
+This produces output that can be displayed using dotty, for example:
+<pre><nowiki>
+$ git graphviz HEAD~100..HEAD~60 | dotty /dev/stdin
+$ git graphviz --first-parent master | dotty /dev/stdin
+</nowiki></pre>
+
 ----
 [[CategoryGitDocumentation]]
 
