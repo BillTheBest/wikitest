@@ -1,5 +1,14 @@
+
+---- /!\ <b>Edit conflict - other version:</b> ----
 sweet site thx
 ----
 [[CategoryHomepage]]
+
+---- /!\ <b>Edit conflict - your version:</b> ----
+sweet site thx
+----
+[[CategoryHomepage]]
+
+---- /!\ <b>End of edit conflict</b> ----
 
 __NOTOC__
