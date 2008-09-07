@@ -216,7 +216,14 @@ If you try to push a branch, you might get this error message:
 error: failed to push some refs to 'git@github.com:pieter/gitx.git'
 </nowiki></pre>
 
-This means that your branch is not a strict subset of the remote side. If you would push, the other side would lose changes. The most likely reason for this is that you need to pull from the remote first.
+This means that your branch is not a strict subset of the remote side. If you would push, the other side would lose changes. The most likely reason for this is that you need to pull from the remote first. You can see what changes the remote side has by fetching first and then checking the log. For example,
+
+<pre><nowiki>
+	git fetch origin
+	git log HEAD..origin/master
+</nowiki></pre>
+
+will list all the changes the remote side has that your side doesn't. If you want a graphical representation, use <code><nowiki> gitk --left-right HEAD...origin/master</nowiki></code>. The arrows to the left are changes you want to push, the arrows to the right are changes on the remote side.
 
 If you have rebased your branch and try to push that, see the next question.
 
