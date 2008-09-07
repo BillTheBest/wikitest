@@ -7,6 +7,9 @@ Create a new branch from any revision specification.
 == Delete Branch ==
 Delete a branch.
 
+== Share several Projects ==
+Having several projects in a branch as can be common in maven-based Java projects, make being able to share several projects at once a neat feature in the same way that Collabs SVN plugin allows.
+
 == Fetch UI ==
 Fetching changes from a remote repository.
 
@@ -27,7 +30,6 @@ Merging changes from one local branch to another.
 Again, like fetch I'd like to keep egit/jgit 100% pure Java and implement merge-recursive in Java.  We may need to invoke RCS merge if Eclipse doesn't have its own 3 way file merge algorithm available, or do what core Git just did and implement a 3 way in memory merge algorithm.  git-merge-recursive is only 1336 lines of C so it should not be too difficult to port the algorithm to pure Java.
 
 == Support linked URIs ==
-
 [[GitProvider]] does not currently support linked URIs
 
 Linked directories are mostly supported, but only to your local filesystem.  Linking to another protocol (e.g. http://) will probably never be supported as we cannot (easily) control the contents of a remote HTTP server.
