@@ -22,7 +22,17 @@ People who said they are interested to attend so far:
 * Adam Mosseri
 * Eugene Letuchy
 
-<i>Nearby Activities</i>
+== Suggested topics of talks/workshops/haxessions ==
+
+* [[GitTorrent]]: current state, security considerations, future direction
+* Submodules: how to make a UI for this important feature that is intuitive and complete
+* PackV4
+* JGit, quo vadis?
+* Using Git for everything but source (Git as a backup tool, how to handle large blobs, etc)
+* How to make Git more attractive to the Google Code folks?
+* Success/War stories (big wanking session for Gits)
+
+== Nearby Activities ==
 
 If you are traveling far and wish to stay some extra time there are many activities in the bay area.
 
@@ -32,6 +42,6 @@ If you are traveling far and wish to stay some extra time there are many activit
 
 = Previous [[GitTogether]] =
 
-One such event happened in 2007 with a few developers.
+One such event happened in 2007 with a few developers.  It was an informal, fun time, but not technical.
 
 __NOTOC__
