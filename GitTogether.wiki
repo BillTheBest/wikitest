@@ -17,6 +17,9 @@ People who said they are interested to attend so far:
 * David Symonds
 * Christian Couder
 * Scott Chacon
+* Steven Grimm
+* David Reiss
+* Adam Mosseri
 
 <i>Nearby Activities</i>
 
