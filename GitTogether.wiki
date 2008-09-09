@@ -19,6 +19,7 @@ People who said they are interested to attend so far:
 * David Symonds
 * Christian Couder
 * Scott Chacon
+* Nick Hengeveld
 * Steven Grimm
 * David Reiss
 * Adam Mosseri
