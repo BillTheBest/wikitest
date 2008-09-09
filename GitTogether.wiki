@@ -29,11 +29,11 @@ People who said they are interested to attend so far:
 * [[GitTorrent]]: current state, security considerations, future direction
 * Submodules: how to make a UI for this important feature that is intuitive and complete
 * PackV4
-* JGit, quo vadis?
+* JGit, quo vadis *[1]?
 * Using Git for everything but source (Git as a backup tool, how to handle large blobs, etc)
 * How to make Git more attractive to the Google Code folks?
 * Success/War stories (big wanking session for Gits)
-* Linkable library for basic object access
+* Linkable library for basic object access (libification or new library)
 
 == Nearby Activities ==
 
@@ -46,5 +46,9 @@ If you are traveling far and wish to stay some extra time there are many activit
 = Previous [[GitTogether]] =
 
 One such event happened in 2007 with a few developers.  It was an informal, fun time, but not technical.
+
+----
+
+*[1] quo vadis == 'where are you going?'
 
 __NOTOC__
