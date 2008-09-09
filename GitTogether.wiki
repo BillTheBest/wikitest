@@ -33,6 +33,7 @@ People who said they are interested to attend so far:
 * Using Git for everything but source (Git as a backup tool, how to handle large blobs, etc)
 * How to make Git more attractive to the Google Code folks?
 * Success/War stories (big wanking session for Gits)
+* Linkable library for basic object access
 
 == Nearby Activities ==
 
