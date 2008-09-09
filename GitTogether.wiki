@@ -6,7 +6,7 @@ These are events when git developers and users physically meet in the same place
 
 <b>October 27(Mon)-29(Wed) in [http://maps.google.com/maps?f=q&hl=en&q=Amphitheatre+Pkwy,+Mountain+View,+California+94043,+United+States&sll=37.40293,-121.952735&sspn=0.008565,0.012081&ie=UTF8&cd=2&geocode=FcEHOwIdfiW5-A&ll=37.421572,-122.083619&spn=0.017127,0.024161&t=h&z=16&iwloc=addr Mountain View, California]</b> (day after the Google SoC Mentor Summit).
 
-Signup deadline is Oct 14th.  Google needs a final guest list by then to prepare badges, sign in lists for reception, and a final head-count to plan for food.  Any questions contact [gsoc@spearce.org Shawn Pearce].
+Signup deadline is Oct 14th.  Google needs a final guest list by then to prepare badges, sign in lists for reception, and a final head-count to plan for food.  Any questions contact Shawn Pearce (gsoc@spearce.org).
 
 People who said they are interested to attend so far:
 
