@@ -35,6 +35,7 @@ People who said they are interested to attend so far:
 * How to make Git more attractive to the Google Code folks?
 * Success/War stories (big wanking session for Gits)
 * Linkable library for basic object access (libification or new library)
+* Git GUI that even a designer could use ([[TortoiseGit]]?)
 
 == Nearby Activities ==
 
