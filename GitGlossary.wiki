@@ -1,5 +1,14 @@
+
+---- /!\ <b>Edit conflict - other version:</b> ----
 Thanks funny site
 ----
 [[CategoryPeople]]
+
+---- /!\ <b>Edit conflict - your version:</b> ----
+Very funny pictures
+----
+[[CategoryPeople]]
+
+---- /!\ <b>End of edit conflict</b> ----
 
 __NOTOC__
