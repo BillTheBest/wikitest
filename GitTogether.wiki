@@ -42,9 +42,10 @@ Signup deadline is Oct 14th.  Google needs a final guest list by then to prepare
 * Git GUI that even a designer could use ([[TortoiseGit]]?)
 * Shawn's current bundle related secret project
 * [[TopGit]] introduction/design/integration(?)
-* Pasky's current pickaxe related secret project (if tangible by then)
+* Pasky's current pickaxe related "secret project" (if tangible by then)
 * New Git Homepage hammering-out
 * Extending Git with volatile metadata database (see 20080910164045.GL10360@machine.or.cz)
+* Git Survey 2008 results and discussion
 
 == Nearby Activities ==
 
