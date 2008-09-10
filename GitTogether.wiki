@@ -36,6 +36,7 @@ People who said they are interested to attend so far:
 * Success/War stories (big wanking session for Gits)
 * Linkable library for basic object access (libification or new library)
 * Git GUI that even a designer could use ([[TortoiseGit]]?)
+* Shawn's current bundle related secret project
 
 == Nearby Activities ==
 
