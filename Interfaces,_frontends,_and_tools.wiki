@@ -295,7 +295,7 @@ Git-bzr allows bidirectional synchronization between Bazaar and Git repositories
 === Chuyen ===
 * [http://code.istique.net/?p=chuyen.git;a=summary Chuyen] is a weblog software written in Python, using the django web framework and git as its data storage backend through pygit. It uses ReStructuredText as its markup language.
 
-== Bug/issue trackers ==
+== Bug/issue trackers, etc. ==
 
 === ditz ===
 * [http://ditz.rubyforge.org Ditz] is a simple, light-weight distributed issue tracker designed to work with distributed version control systems like darcs and git. Ditz maintains an issue database file on disk, written in a line-based and human-editable format. This file is kept under version control, alongside project code. Changes in issue state is handled by version control like code change: included as part of a commit, merged with changes from other developers, conflict-resolved in the standard manner, etc.
@@ -305,6 +305,9 @@ Git-bzr allows bidirectional synchronization between Bazaar and Git repositories
 
 === cil ===
 * [http://www.kapiti.geek.nz/software/cil.html CIL] - Command-line Issue List (written in Perl), allows fast creation of a distributed issue tracker which fits in well with any VCS.<<BR>> <b>See also:</b> [http://www.kapiti.geek.nz/random/label:cil.html Blog posts tagged 'cil'] on kapiti.geek.nz.
+
+=== git-cl ===
+* <b>git-cl</b> ([http://neugierig.org/software/git/?r=git-cl cgit], [http://github.com/martine/git-cl GitHub], [http://neugierig.org/software/git/index.cgi?url=git-cl/tree/README README]) by Evan Martin is a tool for integrating code reviews on Rietveld ([http://codereview.appspot.com http://codereview.appspot.com]).  <i>(Python)</i>
 
 == Other tools ==
 
