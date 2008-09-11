@@ -54,7 +54,7 @@ Please join the [http://lists.utsl.gen.nz/mailman/listinfo.cgi/gittogether GitTo
 
 == Travel Details ==
 
-Google provides [http://code.google.com/events/visitors/ information] about discounted lodging, visiting and parking. Essentially, once you arrive, tell the attendant that you are there for an event in [http://maps.google.com/maps?f=q&hl=en&geocode=&q=37.422235,-122.083248&ie=UTF8&ll=37.422328,-122.083248&spn=0.001118,0.001867&t=h&z=19&iwloc=addr University Theater in Building 40], and they will direct you to the correct parking lot.  The pin on the map link is positioned about where University Theater is located within the building.
+Google provides [http://code.google.com/events/visitors/ information] about discounted lodging, visiting and parking. Essentially, once you arrive, tell the attendant that you are there for an event in [http://maps.google.com/maps?f=q&hl=en&geocode=&q=37.422235,-122.083248&ie=UTF8&t=h&ll=37.422328,-122.083248&spn=0.004473,0.007467&z=17 University Theater in Building 40], and they will direct you to the correct parking lot.  The pin on the map is positioned approximately where University Theater is located within the building.
 
 A cab ride from the airport to a nearby hotel will cost approximately, depending on traffic:
 
