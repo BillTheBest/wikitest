@@ -52,6 +52,20 @@ Please join the [http://lists.utsl.gen.nz/mailman/listinfo.cgi/gittogether GitTo
 * Extending Git with volatile metadata database (see 20080910164045.GL10360@machine.or.cz)
 * Git Survey 2008 results and discussion
 
+== Travel Details ==
+
+Google provides [http://code.google.com/events/visitors/ information] about discounted lodging, visiting and parking. Essentially, once you arrive, tell the attendant that you are there for an event in [http://maps.google.com/maps?f=q&hl=en&geocode=&q=37.422235,-122.083248&ie=UTF8&ll=37.422328,-122.083248&spn=0.001118,0.001867&t=h&z=19&iwloc=addr University Theater in Building 40], and they will direct you to the correct parking lot.  The pin on the map link is positioned about where University Theater is located within the building.
+
+A cab ride from the airport to a nearby hotel will cost approximately, depending on traffic:
+
+* OAK - 120 USD
+* SFO - 80 USD
+* SJC - 35 USD
+
+Public transit is available in the area, look at [http://www.google.com/transit Google Transit] to help you plan a route.
+
+If you would prefer to spend less than you would on taxi service but would prefer to be picked up at the airport rather than navigate public transport, try [http://www.supershuttle.com/ Super Shuttle]. Shared rides (with a van full of other travelers) start at about 35 USD from any of the area airports.
+
 == Nearby Activities ==
 
 If you are traveling far and wish to stay some extra time there are many activities in the bay area.
