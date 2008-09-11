@@ -14,7 +14,7 @@ JGIT Package Layout and Notes
 | 
 |-
 | org.spearce.jgit.treewalk
-| steps through N treets in parallel, merge-sorting the tree entries by their path names. This is used for computing tree differences where (N > 1) or for enumeration where (N==1)
+| steps through N trees in parallel, merge-sorting the tree entries by their path names. This is used for computing tree differences where (N > 1) or for enumeration where (N==1)
 | 
 |-
 | org.spearce.jgit.dircache
