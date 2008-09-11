@@ -11,7 +11,7 @@ Signup deadline is Oct 14th.  Google needs a final guest list by then to prepare
 == Possible speakers ==
 
 * Shawn O. Pearce (secret project, JGit, PackV4)
-* Sam Vilain ([[GitTorrent]], Git as a DB backend)
+* Sam Vilain (GitTorrent, Git as a DB backend)
 * Junio C Hamano (TBD)
 
 == People who said they are interested to attend so far ==
@@ -36,7 +36,7 @@ Please join the [http://lists.utsl.gen.nz/mailman/listinfo.cgi/gittogether GitTo
 
 == Suggested topics of talks/workshops/haxessions ==
 
-* [[GitTorrent]]: current state, security considerations, future direction
+* GitTorrent: current state, security considerations, future direction
 * Submodules: how to make a UI for this important feature that is intuitive and complete
 * PackV4
 * JGit, quo vadis *[1]?
@@ -44,9 +44,9 @@ Please join the [http://lists.utsl.gen.nz/mailman/listinfo.cgi/gittogether GitTo
 * How to make Git more attractive to the Google Code folks?
 * Success/War stories (big wanking session for Gits)
 * Linkable library for basic object access (libification or new library)
-* Git GUI that even a designer could use ([[TortoiseGit]]?)
+* Git GUI that even a designer could use (TortoiseGit?)
 * Shawn's current bundle related secret project
-* [[TopGit]] introduction/design/integration(?)
+* TopGit introduction/design/integration(?)
 * Pasky's current pickaxe related "secret project" (if tangible by then)
 * New Git Homepage hammering-out
 * Extending Git with volatile metadata database (see 20080910164045.GL10360@machine.or.cz)
