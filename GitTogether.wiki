@@ -52,6 +52,12 @@ Please join the [http://lists.utsl.gen.nz/mailman/listinfo.cgi/gittogether GitTo
 * Extending Git with volatile metadata database (see 20080910164045.GL10360@machine.or.cz)
 * Git Survey 2008 results and discussion
 
+== Misc. ==
+
+Google will be serving continental breakfast each day, in addition to endless coffee and beverages during the event.  Lunch will be provided each day free of charge in the main cafeteria.  Monday night we will also eat in the main cafeteria, free of charge.  Tuesday we are going to try to arrange dinner off-campus, at a local eatery, at our own expense.  Wednesday we may arrange another dinner off-campus, or eat again at the main cafeteria.  It depends on people's individual schedules.
+
+Plenty of power outlets will be available in the meeting room.  Folks outside the US may need to bring an outlet adapter/voltage converter.  Google has free wireless Internet access available everywhere on the campus.  Wireless support is needed to connect to the Internet.  Don't expect hardwired LAN connections to be available.
+
 == Travel Details ==
 
 Google provides [http://code.google.com/events/visitors/ information] about discounted lodging, visiting and parking. Essentially, once you arrive, tell the attendant that you are there for an event in [http://maps.google.com/maps?f=q&hl=en&geocode=&q=37.422235,-122.083248&ie=UTF8&t=h&ll=37.422328,-122.083248&spn=0.004473,0.007467&z=17 University Theater in Building 40], and they will direct you to the correct parking lot.  The pin on the map is positioned approximately where University Theater is located within the building.
