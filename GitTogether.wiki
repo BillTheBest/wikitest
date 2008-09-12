@@ -49,7 +49,7 @@ Please join the [http://lists.utsl.gen.nz/mailman/listinfo.cgi/gittogether GitTo
 * TopGit introduction/design/integration(?)
 * Pasky's current pickaxe related "secret project" (if tangible by then)
 * New Git Homepage hammering-out
-* Extending Git with volatile metadata database (see 20080910164045.GL10360@machine.or.cz)
+* Extending Git with volatile metadata database (see [http://mid.gmane.org/20080910164045.GL10360@machine.or.cz 20080910164045.GL10360@machine.or.cz])
 * Git Survey 2008 results and discussion
 * Free form "We tried to use git in our project this way, didn't work very well" session, where participants are not allowed to say "Your workflow is broken".
 
