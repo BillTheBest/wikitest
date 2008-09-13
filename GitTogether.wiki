@@ -32,6 +32,7 @@ Signup deadline is Oct 14th.  Google needs a final guest list by then to prepare
 * Eugene Letuchy
 * Tim Ansell
 * Sverre Rabbelier
+* Jeff King
 
 Please join the [http://lists.utsl.gen.nz/mailman/listinfo.cgi/gittogether GitTogether mailing list].  We promise to keep the traffic low and to disband it after the event.  Useful information for attendees will be sent to this list as we get closer to the [[GitTogether]].
 
