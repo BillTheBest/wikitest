@@ -128,6 +128,10 @@ Marking a file with the correct mime-type is important when you do things like s
 
 All in all, yes, git has a slightly more convenient properties feature, but scoring for or against either product on these points is marginal ; both deal with binary and text properly, both have metadata features, both let you control EOL munging in an equivalent way. I would be shy about turning on autocrlf globally for git, simply because I don't think it's necessary for the majority of projects.''
 
+== Partial Checkout ==
+
+With Subversion, you can check out just a subdirectory of a repository. Such a thing is not possible with Git.
+
 == Shorter Revision Numbers ==
 
 As SVN assigns revision numbers sequentially (starting from 1) even very old projects such as Mozilla have short unique revision numbers (Mozilla is only up to 6 digits in length).  Many users find this convenient when entering revisions for historical research purposes.  They also find this number easy to embed into their product, supposedly making it easy to determine which sources were used to create a particular executable.  However since the revision number is global to the entire repository, including all branches, there is still a question of which branch the revision number corresponds to.
