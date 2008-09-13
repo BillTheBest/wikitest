@@ -267,6 +267,10 @@ Git-bzr allows bidirectional synchronization between Bazaar and Git repositories
 === bzr-fast-export ===
 * Bazaar frontend for git-fast-import. Announcement [https://lists.ubuntu.com/archives/bazaar/2008q1/038391.html here], lives in the `exporters` subdirectory of the [https://launchpad.net/bzr-fastimport bzr-fastimport project].
 
+=== mtn2git ===
+
+A Ruby script that imports Monotone repositories with different modes of operation; checkout and fast-import. Depending on the method is the completeness and reliability: checkout method is almost complete. It also allows further updates. Find it at [https://github.com/felipec/mtn2git github].
+
 == Hooks ==
 
 === git-notify ===
