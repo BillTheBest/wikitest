@@ -29,6 +29,7 @@ A lot of blog posts related to Git usage have been published since the project's
 * [http://unixsadm.blogspot.com/2008/03/porting-git-to-hp-ux-pa-risc-and-aix.html Building Git on AIX, HP-UX and Solaris]
 * [http://speirs.org/2007/07/22/getting-git-svn-working-on-the-mac/ Getting git-svn working on the Mac]
 * [http://rip747.wordpress.com/2008/09/04/getting-git-svn-to-work-under-cygwin/ Getting Git-SVN to work under Cygwin]
+* [http://blog.mattwynne.net/2008/09/13/bring-git-joy-to-windows/ Bring Git Joy to Windows] by Matt Wynne (step by step [http://code.google.com/p/msysgit msysGit] installation)
 
 == Usage ==
 
