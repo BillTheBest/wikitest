@@ -117,9 +117,16 @@ Since Git is distributed by nature not everything related to a project may be st
 
 Since Subversion has a single central repository it is possible to specify read and write access controls in a single location and have them be enforced across the entire project.
 
-== Partial Checkout ==
+== Binary Files ==
+Subversion can be used with binary files (it is automatically detected; if that detection fails, you have to mark the file binary yourself).  Just like Git.
 
-With Subversion, you can check out just a subdirectory of a repository. Such a thing is not possible with Git.
+Only that with Git, the default is to interpret the files as binary to begin with.  If you _have_ to have CR+LF line endings (even though most modern programs grok the saner LF-only line endings just fine), you have to tell Git so.  Git will then autodetect if a file is text (just like Subversion), and act accordingly.  Analogous to Subversion, you can correct an erroneous autodetection by setting a git attribute.
+
+''I'm not sure why this point is here ; both git and svn process content verbatim by default. Neither git or svn will munge line-endings unless you ask them to. svn appears to have one more option for munging (CR), which won't be used often. The chief difference is that git supports path-globbing for attributes, whereas on svn they must be applied on a per-file basis, necessarily so because svn supports checkout of subtrees so you could be decapitating your attribute metadata. Otherwise, on the matter of "not screwing up your files by making assumptions about the content", they seem equal. 
+
+Marking a file with the correct mime-type is important when you do things like surf your repository with a browser (esp. for web content, a browser that respects the mime-type (IE, not IE) will by default, display all HTML as plaintext from mod_dav_svn). svn mime-type autodetection (a subset of the auto-props feature) can be configured to specify a mime-type based on filename extension, as well as the default basic detection of application/octet-stream. You could happily do this with attribute globs on git, if I read the manual right, setting the crlf attribute. One big difference I do see is that if you turn on core.autocrlf, if a file is falsely determined to be text, it will get munged for line endings. On svn you must identify each file that you want line endings munged for manually (or via a manually configured feature).
+
+All in all, yes, git has a slightly more convenient properties feature, but scoring for or against either product on these points is marginal ; both deal with binary and text properly, both have metadata features, both let you control EOL munging in an equivalent way. I would be shy about turning on autocrlf globally for git, simply because I don't think it's necessary for the majority of projects.''
 
 == Shorter Revision Numbers ==
 
