@@ -46,7 +46,7 @@ Please join the [http://lists.utsl.gen.nz/mailman/listinfo.cgi/gittogether GitTo
 * How to make Git more attractive to the Google Code folks?
 * Success/War stories (big wanking session for Gits)
 * Linkable library for basic object access (libification or new library)
-* Git GUI that even a designer could use (TortoiseGit?)
+* Git GUI that even a designer could use (GitCheetah, AKA TortoiseGit?)
 * Shawn's current bundle related secret project
 * TopGit introduction/design/integration(?)
 * Pasky's current pickaxe related "secret project" (if tangible by then)
