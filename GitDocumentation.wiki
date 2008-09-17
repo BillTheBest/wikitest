@@ -73,6 +73,8 @@ If you wish that something were documented better (or at all), or would like to 
 * http://www-128.ibm.com/developerworks/cn/linux/l-git/index.html
 === German ===
 * [http://repo.or.cz/w/gitman-de.git German translation of the Git man pages] - currently work in progress.
+=== Spanish ===
+* [http://gitorious.org/projects/curso-git-osluca] - some notes that I wrote for a short 1-week course on Git
 ----
 * [[CategoryGitDocumentation]] [[CategoryGitHomepage]] ([http://git.or.cz/#documentation Documentation])
 ----
