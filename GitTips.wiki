@@ -323,6 +323,71 @@ Another option is to configure a local smtp server on your machine, using a well
 
 On OS X with macports, msmtp can be installed with 'sudo port install msmtp', and '/usr/share/curl/curl-ca-bundle.crt' should work for tls_trust_file.
 
+= git svn =
+
+<<Anchor(gitsvnbranches)>>
+== How to use git branches with git svn ==
+[http://www.kernel.org/pub/software/scm/git/docs/git-svn.html git-svn(1)] allows you to use git as an interface to a Subversion repository. However, there are a number of caveats when doing this because Subversion's branching model is less powerful. [http://www.kernel.org/pub/software/scm/git/docs/git-merge.html git-merge(1)] should not be used on the branch you intend to <i>git svn dcommit</i> from because the merge object cannot be expressed in a useful form to the  Subversion repository when committing. This essentially makes it impossible to usefully use git branches for local development - yet the branching/merging mechanism is one of the most powerful features that git provides.
+
+There are two ways to get around the <i>git merge</i> problem and so be able to use git branches for (local) development. For the following, assume you've branched and the commit geneology looks like:
+
+<pre><nowiki>
+     C--E--F branch
+    /
+A--B--D master
+</nowiki></pre>
+
+The first merge solution is to replicate the changes you made on your branch to <i>master</i> using [http://www.kernel.org/pub/software/scm/git/docs/git-cherry-pick.html git-cherry-pick(1)]. However, it can be rather laborious determining the list of required commits (C,E,F) and iteratively re-applying them to <i>master</i> (C', E', F'). 
+
+<pre><nowiki>
+     C--E--F branch
+    /
+A--B--D--C'--E'--F' master
+</nowiki></pre>
+
+Whilst this does allow you to develop multiple projects simultaneously and independently, this work-around isn't much friendlier than just working directly on <i>master</i> in the first place. 
+
+The second solution takes advantage of [http://www.kernel.org/pub/software/scm/git/docs/git-rebase.html git-rebase(1)] and [http://www.kernel.org/pub/software/scm/git/docs/git-branch.html git-branch(1)]. When you want to merge your changes back to <i>master</i> you  rebase your branch with respect to <i>master</i> HEAD (i.e. what the Subversion repository looks like):
+
+<pre><nowiki>
+git checkout <branch>
+git rebase master
+</nowiki></pre>
+
+Your branch now looks <i>master</i> plus the extra changes you made on the branch:
+
+<pre><nowiki>
+        C"--E"--F" branch
+       /
+A--B--D master
+</nowiki></pre>
+
+In fact, it's what you'd ideally like to <i>git svn dcommit</i> now (or later) but  it's stuck on the wrong branch. So now we tell git that we'd like to pretend that the branching never happened and that <i>branch</i> is what <i>master</i> should really look like:
+
+<pre><nowiki>
+git branch -M master
+</nowiki></pre>
+
+The -M specifies that we want to do a forced rename of the branch (forced because <i>master</i> already exists):
+
+<pre><nowiki>
+A--B--D--C"--E"--F" master
+</nowiki></pre>
+
+Note that this destroys the development branch in the process* so this should only be done when you've finished development on the branch. However, there's nothing stopping you from re-branching again:
+
+<pre><nowiki>
+git checkout -b <branch>
+</nowiki></pre>
+
+<pre><nowiki>
+                   o branch
+                  /
+A--B--D--C"--E"--F" master
+</nowiki></pre>
+
+* Technically we destroyed the old <i>master</i> branch but since <i>branch</i> can no longer be referred to by name it appears as though that is the object that was destroyed.
+
 ----
 [[CategoryGitDocumentation]]
 
