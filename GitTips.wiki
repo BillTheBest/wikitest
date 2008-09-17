@@ -354,7 +354,7 @@ git checkout <branch>
 git rebase master
 </nowiki></pre>
 
-Your branch now looks <i>master</i> plus the extra changes you made on the branch:
+Your branch now looks like <i>master</i> plus the extra changes you made on the branch:
 
 <pre><nowiki>
         C"--E"--F" branch
