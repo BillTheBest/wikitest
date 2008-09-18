@@ -232,9 +232,6 @@ If you have rebased your branch and try to push that, see the next question.
 == Why won't "git push" work after I rebased a branch? ==
 After you have rebased one of your local branches, you are trying to push your changes to a remote repository. But <code><nowiki>git push</nowiki></code> fails with this error message:
 
-<pre><nowiki>
-error: remote 'refs/heads/master' is not a strict subset of local ref 'refs/heads/master'. maybe you are not up-to-date and need to pull first?
-</nowiki></pre>
 This is not a bug, but a safety check: "git push" will not update a remote branch if the remote branch is not a parent of the commit you're trying to push. This check prevents you from overwriting a remote branch to which other people have already commited new changes after you fetched it the last time. Their changes would be lost without the check. And it prevents you from overwriting a remote branch with an unrelated local branch.
 
 When you rebase, you are not continuing the history of the branch from where you currently are. Instead, you are rewriting the history starting from the base you chose for rebasing. So, after rebasing, the remote branch and your new local HEAD are both child commits of that base, but the remote branch is no longer a parent of your new local HEAD. And pushing this new history to the remote branch means replacing a history that other people might already have downloaded.
@@ -291,6 +288,29 @@ It is recommended (as of 1.5.3) that <code><nowiki>color.diff</nowiki></code> be
 
 == Why does gitk on Cygwin display "git 1316 tty_list::allocate: No tty allocated"? ==
 This appears to be an issue with your Cygwin configuration.  Make sure your CYGWIN environment variable doesn't contain 'tty'.
+
+== Why does git clone, git pull, etc. fail when run on a partition mounted with sshfs (FUSE)? ==
+
+When running <code><nowiki>git clone</nowiki></code> and friends on partition mounted with sshfs the following error can be triggered:
+
+<pre><nowiki>
+$ git clone foo
+Cannot commit config file!
+Cannot commit config file!
+Cannot commit config file!
+Initialized empty Git repository in foo/.git/
+294698 blocks
+Cannot commit config file!
+fatal: Not a valid object name HEAD
+</nowiki></pre>
+
+To solve this you need 1) remount your sshfs mounted partition with the <code><nowiki>-o workaround=rename</nowiki></code> option, e.g.:
+
+<pre><nowiki>
+sshfs -o workaround=rename login@machine:foo bar
+</nowiki></pre>
+
+and 2) use at least the 1.6.0.2 version of <code><nowiki>git</nowiki></code>.
 
 = How do I ... =
 
