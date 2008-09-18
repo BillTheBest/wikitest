@@ -388,6 +388,10 @@ A--B--D--C"--E"--F" master
 
 * Technically we destroyed the old <i>master</i> branch but since <i>branch</i> can no longer be referred to by name it appears as though that is the object that was destroyed.
 
+== An Alternate Method Using `git-svn rebase` ==
+
+If you have a branch like above, you can often perform a `git-svn rebase` on the branch directly.  Instead of rebasing to master, this rebases the branch directly onto the latest remote revision in subversion.  Then you can `git-svn dcommit` <i>in the branch</i>.  Finally, check out `master` and do another `git-svn rebase` to bring it up to date.  This will merge in the changes from the branch as well as any new changes in subversion.  Note that with this method, the branch sticks around, but afterwards `gitk` will show that it marks the same history as `master` -- until you commit to it again or delete it, anyway.
+
 ----
 [[CategoryGitDocumentation]]
 
