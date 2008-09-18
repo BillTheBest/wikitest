@@ -12,7 +12,7 @@ Signup deadline is Oct 14th.  Google needs a final guest list by then to prepare
 
 * Shawn O. Pearce (secret project, JGit, PackV4)
 * Sam Vilain (GitTorrent, Git as a DB backend)
-* Junio C Hamano (TBD)
+* Junio C Hamano (Git Chronicle)
 
 == People who said they are interested to attend so far ==
 
