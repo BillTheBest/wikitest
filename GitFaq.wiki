@@ -296,7 +296,7 @@ This appears to be an issue with your Cygwin configuration.  Make sure your CYGW
 
 == Why does git clone, git pull, etc. fail when run on a partition mounted with sshfs (FUSE)? ==
 
-When running <code><nowiki>git clone</nowiki></code> and friends on partition mounted with sshfs the following error can be triggered:
+When running <code><nowiki>git clone</nowiki></code> and friends on a partition mounted with sshfs the following error can be triggered:
 
 <pre><nowiki>
 $ git clone foo
