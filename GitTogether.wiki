@@ -49,11 +49,13 @@ Please join the [http://lists.utsl.gen.nz/mailman/listinfo.cgi/gittogether GitTo
 * How to make Git more attractive to the Google Code folks?
 * Success/War stories (big wanking session for Gits)
 * Linkable library for basic object access (libification or new library)
-* Git GUI that even a designer could use (GitCheetah, AKA TortoiseGit?)
+* Scriptability, using git in other languages (using interfaces vs calling plumbing vs reimplementting) 
+* Git GUI that even a designer could use (GitCheetah, AKA TortoiseGit?) (UI session?)
+* Git integration with IDE, RAD, and editors (UI session?)
+* New Git Homepage hammering-out (UI session?)
 * Shawn's current bundle related secret project
 * TopGit introduction/design/integration(?)
 * Pasky's current pickaxe related "secret project" (if tangible by then)
-* New Git Homepage hammering-out
 * Extending Git with volatile metadata database (see [http://mid.gmane.org/20080910164045.GL10360@machine.or.cz 20080910164045.GL10360@machine.or.cz])
 * Git Survey 2008 results and discussion
 * Free form "We tried to use git in our project this way, didn't work very well" session, where participants are not allowed to say "Your workflow is broken".
