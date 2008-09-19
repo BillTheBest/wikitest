@@ -47,7 +47,7 @@ $ cd ~/subtut/private
 $ git clone ~/subtut/public/super
 $ cd super
 
-$ for mod in a b c d; do git submodule add ~/subtut/public/$mod; done
+$ for mod in a b c d; do git submodule add ~/subtut/public/$mod $mod; done
 $ ls -a
 .  ..  .git  .gitmodules  a  b  c  d  super.txt
 </nowiki></pre>
