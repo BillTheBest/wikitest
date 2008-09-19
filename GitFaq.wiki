@@ -230,7 +230,12 @@ If you have rebased your branch and try to push that, see the next question.
 <<Anchor(git-push after-rebase)>>
 <<[[GitLink]](push-f, If you use push -f, others might get into problem when pulling)>>
 == Why won't "git push" work after I rebased a branch? ==
+
 After you have rebased one of your local branches, you are trying to push your changes to a remote repository. But <code><nowiki>git push</nowiki></code> fails with this error message:
+
+<pre><nowiki>
+error: remote 'refs/heads/master' is not a strict subset of local ref 'refs/heads/master'. maybe you are not up-to-date and need to pull first?
+</nowiki></pre>
 
 This is not a bug, but a safety check: "git push" will not update a remote branch if the remote branch is not a parent of the commit you're trying to push. This check prevents you from overwriting a remote branch to which other people have already commited new changes after you fetched it the last time. Their changes would be lost without the check. And it prevents you from overwriting a remote branch with an unrelated local branch.
 
