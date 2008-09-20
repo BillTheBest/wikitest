@@ -13,7 +13,7 @@ Signup deadline is Oct 14th.  Google needs a final guest list by then to prepare
 * Johannes Schindelin (Google Tech Talk: Contributing with Git (or: all your rebase are belong to us))
 * Shawn O. Pearce (secret project, JGit, PackV4)
 * Sam Vilain (GitTorrent, Git as a DB backend)
-* Junio C Hamano (Git Chronicle)
+* Junio C Hamano (Git Chronicle, Recent additions to Git)
 * Scott Chacon (Linkable library, Scriptability)
 
 == People who said they are interested to attend so far ==
