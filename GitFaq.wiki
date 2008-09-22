@@ -242,7 +242,7 @@ This will force the update.  If you don't have permission, then sometimes this w
 
 ie, delete the branch remotely first (this is often permitted), then re-push the "new" (or perhaps rewound) branch.
 
-Be warned that if you rewing branches, others might get into problem when pulling.  Rewinding branches is considered mildly antisocial.
+Be warned that if you rewind branches, others might get into problem when pulling.  There is the chance that they will merge in the branch that they fetched with the new one that you've published, effectively keeping the changes that you are trying to get rid of.  However, it will only be their copies that have the bad revisions.  For this reason, rewinding branches is considered mildly antisocial.  Nonetheless, it is often appropriate.
 
 <<Anchor(git-push after-rebase)>>
 <<[[GitLink]](push-f, If you use push -f, others might get into problem when pulling)>>
