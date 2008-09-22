@@ -227,6 +227,23 @@ will list all the changes the remote side has that your side doesn't. If you wan
 
 If you have rebased your branch and try to push that, see the next question.
 
+If you think you know what you are doing, you can also try:
+
+<pre><nowiki>
+	git push origin +branchname
+</nowiki></pre>
+
+This will force the update.  If you don't have permission, then sometimes this will work:
+
+<pre><nowiki>
+	git push origin :branchname
+	git push origin +branchname
+</nowiki></pre>
+
+ie, delete the branch remotely first (this is often permitted), then re-push the "new" (or perhaps rewound) branch.
+
+Be warned that if you rewing branches, others might get into problem when pulling.  Rewinding branches is considered mildly antisocial.
+
 <<Anchor(git-push after-rebase)>>
 <<[[GitLink]](push-f, If you use push -f, others might get into problem when pulling)>>
 == Why won't "git push" work after I rebased a branch? ==
