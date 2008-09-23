@@ -42,12 +42,12 @@ The agenda hasn't been fully scheduled yet, and probably won't be until we're ha
 
 * Monday (27th)
 ** 8:00-8:30 am: arrive, mingle, continental breakfast
-** 12:00-1:00 pm: Lunch at Charlie's
-** 6:00 pm: Dinner at Charlie's
-* Tuesday (28th)
-** 8:00-8:30 am: arrive, mingle, continental breakfast
 ** 10:00-11:00 am: Johannes Schindelin's Google Tech Talk: Contributing with Git.
     This talk will be recorded and eventually posted on a Google video property (e.g. Google Video or [[YouTube]]) after the [[GitTogether]].  It may take up to a month for the video to get uploaded, depending on the backlog of the tech talk staff.
+* 12:00-1:00 pm: Lunch at Charlie's
+* 6:00 pm: Dinner at Charlie's
+* Tuesday (28th)
+* 8:00-8:30 am: arrive, mingle, continental breakfast
 * 12:00-1:00 pm: Lunch at Charlie's
 * 6:00 pm: Dinner out (location TBD)
 * Wednesday (29th)
