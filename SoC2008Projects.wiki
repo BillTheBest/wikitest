@@ -74,6 +74,8 @@ aspects of the Eclipse Git team provider plugin.
 <b>SoC page:</b> [http://code.google.com/soc/2008/git/appinfo.html?csaid=DD669FC01FC5F07B Push operation implementation and GUI improvements for egit Eclipse plugin] <<BR>>
 <b>Gitweb:</b> http://repo.or.cz/w/egit/zawir.git
 
+<b>Status:</b> [http://repo.or.cz/w/egit.git?a=commit;h=305060a576e2320c1fb82beb3b630f452001dae7 Merged in]
+
 == git-merge builtin ==
 <b>Student:</b> Miklos Vajna        <<BR>>
 <b>Mentor:</b>  Johannes Schindelin <<BR>>
@@ -89,6 +91,8 @@ the principal goal.
 <b>Idea:</b> [[SoC2008Ideas#builtin-merge:Make git-merge and helpers Builtins]] at SoC2008Ideas <<BR>>
 <b>SoC page:</b> [http://code.google.com/soc/2008/git/appinfo.html?csaid=C6691859F6E209E8 Make git-merge Builtin] <<BR>>
 <b>Gitweb:</b> http://repo.or.cz/w/git/vmiklos.git
+
+<b>Status:</b> [http://repo.or.cz/w/alt-git.git?a=commit;h=1c7b76be7d620bbaf2e6b8417f04012326bbb9df Merged in]
 
 == git-sequencer ==
 <b>Student:</b> Stephan Beyer                     <<BR>>
@@ -164,5 +168,8 @@ DocBox sits on top of RDoc, uses wiki-like interface, and makes use of either <i
 = References =
 * [http://permalink.gmane.org/gmane.comp.version-control.git/80050 Welcome to Git's GSoC 2008!] post by Shawn O. Pearce (administrator for GSoC 2008 for git) on git mailing list
 * [http://code.google.com/soc/2008/git/about.html Git Development Community GSoC 2008] page
+* Open Source at Google blog: posts labelled [http://google-opensource.blogspot.com/search/label/git git]
+** [http://google-opensource.blogspot.com/2008/08/git-and-google-summer-of-code.html Git and Google Summer of Code] by Shawn Pearce
+** [http://google-opensource.blogspot.com/2008/07/getting-giddy-with-git.html Getting Giddy with Git] by Leslie Hawthorn (Episode 18 of the Google Summer of Code podcast, with Shawn Pearce and Johannes Schindelin)
 
 __NOTOC__
