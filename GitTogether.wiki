@@ -6,17 +6,11 @@ These are events when git developers and users physically meet in the same place
 
 <b>October 27(Mon)-29(Wed) in [http://maps.google.com/maps?f=q&hl=en&q=Amphitheatre+Pkwy,+Mountain+View,+California+94043,+United+States&sll=37.40293,-121.952735&sspn=0.008565,0.012081&ie=UTF8&cd=2&geocode=FcEHOwIdfiW5-A&ll=37.421572,-122.083619&spn=0.017127,0.024161&t=h&z=16&iwloc=addr Mountain View, California]</b> (day after the Google SoC Mentor Summit).
 
-Signup deadline is Oct 14th.  Google needs a final guest list by then to prepare badges, sign in lists for reception, and a final head-count to plan for food.  Any questions contact Shawn Pearce (gsoc@spearce.org).
+Signup deadline is Oct 14th.  Google needs a final guest list by then to prepare badges, sign in lists for reception, and a final head-count to plan for food.
 
-== Possible speakers ==
+Any questions, please contact Shawn Pearce (gsoc@spearce.org).
 
-* Johannes Schindelin (Google Tech Talk: Contributing with Git (or: all your rebase are belong to us))
-* Shawn O. Pearce (secret project, JGit, PackV4)
-* Sam Vilain (GitTorrent, Git as a DB backend)
-* Junio C Hamano (Git Chronicle, Recent Additions to Git)
-* Scott Chacon (Linkable library, Scriptability)
-
-== People who said they are interested to attend so far ==
+== Attendees ==
 
 # Junio C. Hamano
 # Shawn O. Pearce
@@ -42,7 +36,42 @@ Signup deadline is Oct 14th.  Google needs a final guest list by then to prepare
 
 Please join the [http://lists.utsl.gen.nz/mailman/listinfo.cgi/gittogether GitTogether mailing list].  We promise to keep the traffic low and to disband it after the event.  Useful information for attendees will be sent to this list as we get closer to the [[GitTogether]].
 
-== Suggested topics of talks/workshops/haxessions ==
+== Agenda ==
+
+The agenda hasn't been fully scheduled yet, and probably won't be until we're half way through the [[GitTogether]] itself, as most of it will be based upon the attendee's interests.  That said, there are some events we do know about:
+
+* Monday (27th)
+** 8:00-8:30 am: arrive, mingle, continental breakfast
+** 12:00-1:00 pm: Lunch at Charlie's
+** 6:00 pm: Dinner at Charlie's
+* Tuesday (28th)
+** 8:00-8:30 am: arrive, mingle, continental breakfast
+** 10:00-11:00 am: Johannes Schindelin's Google Tech Talk: Contributing with Git.
+    This talk will be recorded and eventually posted on a Google video property (e.g. Google Video or [[YouTube]]) after the [[GitTogether]].  It may take up to a month for the video to get uploaded, depending on the backlog of the tech talk staff.
+* 12:00-1:00 pm: Lunch at Charlie's
+* 6:00 pm: Dinner out (location TBD)
+* Wednesday (29th)
+* 8:00-8:30 am: arrive, mingle, continental breakfast
+* 12:00-1:00 pm: Lunch at Charlie's
+* 6:00 pm: Dinner out (location TBD)
+
+Please try to time your arrival to the 8:00-8:30 am window each day.  Googlers will be on hand to help you sign in and find the meeting room.  After 8:30 singing in will get a little bit more interesting as you may need to work with main reception, wait for a Googler to be phoned, walk down to collect you, and escort you back to the meeting room.
+
+All meals with the exception of Tuesday and Wednesday night are free.  Tuesday and Wednesday dinner are at our own expense.   We'll try to locate two establishments in the Mountain View area with a rough price of $15-$20 USD/person (beverage, entree).  If anyone is a local and has suggestions, gsoc@spearce.org.
+
+=== Speakers ===
+
+* Johannes Schindelin (Google Tech Talk: Contributing with Git (or: all your rebase are belong to us))
+* Shawn O. Pearce (secret project, JGit, PackV4)
+* Sam Vilain (GitTorrent, Git as a DB backend)
+* Junio C Hamano (Git Chronicle, Recent Additions to Git)
+* Scott Chacon (Linkable library, Scriptability)
+
+If anyone else wants to introduce or lead a section, please add your name above to volunteer.
+
+=== Suggested Topics ===
+
+The following topics have been proposed for talks/workshops/hack-sessions:
 
 * GitTorrent: current state, security considerations, future direction
 * Submodules: how to make a UI for this important feature that is intuitive and complete
@@ -65,9 +94,11 @@ Please join the [http://lists.utsl.gen.nz/mailman/listinfo.cgi/gittogether GitTo
 
 == Misc. ==
 
-Google will be serving continental breakfast each day, in addition to endless coffee and beverages during the event.  Lunch will be provided each day free of charge in the main cafeteria.  Monday night we will also eat in the main cafeteria, free of charge.  Tuesday we are going to try to arrange dinner off-campus, at a local eatery, at our own expense.  Wednesday we may arrange another dinner off-campus, or eat again at the main cafeteria.  It depends on people's individual schedules.
+Google will be serving continental breakfast each day, in addition to endless coffee and beverages during the event.  Lunch will be provided each day free of charge in the main cafeteria.  Monday night we will also eat in the main cafeteria, free of charge.  Tuesday and Wednesday we will arrange dinner off-campus.
 
-Plenty of power outlets will be available in the meeting room.  Folks outside the US may need to bring an outlet adapter/voltage converter.  Google has free wireless Internet access available everywhere on the campus.  Wireless support is needed to connect to the Internet.  Don't expect hardwired LAN connections to be available.
+Plenty of table space and power outlets will be available in the meeting room.  Folks outside the US may need to bring an outlet adapter/voltage converter.  Please make sure to bring your laptop power supply.  Unlike most Google conference rooms our meeting space does not come with built-in laptop power connectors.  Even Googlers need to bring their own power supply.
+
+Google has free wireless Internet access available everywhere on the campus ("[[GoogleGuest]]").  802.11 wireless support is required to connect to the Internet.  Hardwired LAN connections are <b>not</b> available in our meeting space.  If you think you'll want to get online during the sessions please test your wireless to make sure it is working before you travel.
 
 == Travel Details ==
 
