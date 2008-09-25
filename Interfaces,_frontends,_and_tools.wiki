@@ -40,10 +40,10 @@
 * Pythonic [http://code.istique.net/?p=pygit.git git bindings] targeted towards porcelains.  There is also the [http://code.istique.net/?p=pygit.git;a=shortlog;h=refs/heads/stores "stores" branch] that implements pack and object reading natively in Python.
 
 === Grit ===
-* [http://grit.rubyforge.org/ Grit] is a Ruby library for extracting information from a git repository in an object oriented manner.  There are [http://github.com/blog/107-supercharged-ruby-git beginnings of native Ruby implementation] in [http://github.com/schacon/grit Scott Chacon Grit fork].
+* [http://grit.rubyforge.org/ Grit] is a Ruby library for extracting information from a git repository in an object oriented manner.  This includes a [http://github.com/blog/107-supercharged-ruby-git partial native Ruby implementation], which is used for a number of the operations.
 
-=== Ruby/Git ===
-* [http://jointheconversation.org/rubygit/ Ruby/Git] is a Ruby library that can be used to create, read and manipulate Git repositories.
+=== Objective Git ===
+* [http://github.com/schacon/objective-git ObjectiveGit] is an Objective-C partial implementation of Git and a corresponding object level library that can be used to create, read and manipulate Git repositories.  It also contains git server implementations (receive-pack and upload-pack).
 
 === JGit (Java) ===
 * See below in Editors and IDE integration 
