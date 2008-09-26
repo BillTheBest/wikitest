@@ -2,6 +2,7 @@
 == Git Wiki comparisons: ==
 * [[GitBenchmarks]]
 * [[GitSvnComparsion:[[GitSvnComparison]]]]
+
 == Git comparisons found on the web: ==
 * [http://vcscompare.blogspot.com/2008/06/git-mercurial-bazaar-repository-size.html Blogpost comparing Git, Mercurial and Bazaar size]
 * [[WikiPedia:Comparison_of_revision_control_software|Comparison of revision control software]] table at Wikipedia.
@@ -33,6 +34,8 @@
 * Git Vs SVN by [http://utsl.gen.nz/talks/git-svn/intro.html Sam Vilain]
 * Git Vs Hg by [http://tytso.livejournal.com/29467.html Ted Tso]
 * Git Vs Hg by [http://www.jukie.net/~bart/blog/git-vs-hg Bart Trojanowski]
+* [http://www.smashingmagazine.com/2008/09/18/the-top-7-open-source-version-control-systems/ 7 Version Control Systems Reviewed] in [http://www.smashingmagazine.com/ Smashing Magazine] describes some of the top open-source SCM: CVS, Subversion (SVN), Git, Mercurial, Bazaar, LibreSource and Monotone, providing besides description also a few important links for each tool.
+
 == SCMs comparisons not including Git ==
 * [http://better-scm.berlios.de/comparison/ Better SCM Initiative: Comparison] by Shlomi Fish (includes Darcs, Mercurial, Monotone but not Git/Cogito).
 * [http://wiki.gnuarch.org/SubVersionAndCvsComparison Subversion and CVS Comparison], includes Aegis, Arch, CVS, Subversion, SVK briefly compared table.
