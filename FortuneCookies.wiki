@@ -93,5 +93,6 @@ Here are few tips for new users, or users that don't like to read the manual:
 * The first ninety percent of the task takes ninety percent of the time, and the last ten percent takes the other ninety percent.
 * People disagree with me. I just ignore them. <i>(Linus Torvalds, regarding the use of C++ for the Linux kernel.)</i>
 * Anyone can build a fast processor. The trick is to build a fast system. <i>(Seymour Cray)</i>
+* The problem with common sense is that it is not all that common. <i>(Voltaire)</i>
 
 __NOTOC__
