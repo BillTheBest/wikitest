@@ -5,7 +5,7 @@
 * [[GitTips]] page
 = General Questions =
 
-== What is git ?? ==
+== What is git ? ==
 Git is a distributed version control system developed by Junio Hamano and Linus Torvalds.
 
 Git does not use a centralized server.
