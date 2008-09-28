@@ -34,6 +34,7 @@ Any questions, please contact Shawn Pearce (gsoc@spearce.org).
 # David Bryson
 # David Brown
 # Pierre Habouzit (not on the Wednesday though).
+# Tom Preston-Werner
 
 Please join the [http://lists.utsl.gen.nz/mailman/listinfo.cgi/gittogether GitTogether mailing list].  We promise to keep the traffic low and to disband it after the event.  Useful information for attendees will be sent to this list as we get closer to the [[GitTogether]].
 
@@ -67,6 +68,7 @@ All meals with the exception of Tuesday and Wednesday night are free.  Tuesday a
 * Sam Vilain (GitTorrent, Git as a DB backend, perl.git conversion - the joy of grokking Perforce metadata using Postgres, and writing a transactional git-fastimport exporter)
 * Junio C Hamano (Git Chronicle, Recent Additions to Git)
 * Scott Chacon (Linkable library, Scriptability)
+* Tom Preston-Werner (Git improvement ideas gleaned from creating and running GitHub as a social layer on top of Git)
 
 If anyone else wants to introduce or lead a section, please add your name above to volunteer.
 
