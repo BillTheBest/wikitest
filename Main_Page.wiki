@@ -29,6 +29,7 @@ community to understand your needs, what you like of Git, and of course what you
 * [[GitLinks]]
 * [[GitComparison:Git Compared]]
 == News ==
+* October 27-29, 2008: [[GitTogether]] '08
 * August 17, 2008: Git Version 1.6.0 now [http://kernel.org/pub/software/scm/git/ available][http://www.kernel.org/pub/software/scm/git/docs/RelNotes-1.6.0.txt Release Notes]
 * June 18, 2008: Git Version 1.5.6 now [http://kernel.org/pub/software/scm/git/ available][http://www.kernel.org/pub/software/scm/git/docs/RelNotes-1.5.6.txt Release Notes]
 * May 25, 2008: Git Version 1.5.5.2 now [http://kernel.org/pub/software/scm/git/ available][http://www.kernel.org/pub/software/scm/git/docs/RelNotes-1.5.5.2.txt Release Notes]
