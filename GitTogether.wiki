@@ -111,6 +111,12 @@ All meals with the exception of Tuesday and Wednesday night are free.  Tuesday a
 |  Git ideas from GitHub                                      
 |  1 hour            
 | 
+|-
+|  ?                   
+|  Talk/Discussion       
+|  New git homepage hammering out                               
+|  1 hour            
+| 
 |}
 
 If anyone else wants to introduce or lead a section, please add your name above to volunteer.
