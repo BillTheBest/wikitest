@@ -95,8 +95,14 @@ All meals with the exception of Tuesday and Wednesday night are free.  Tuesday a
 | 
 |-
 |  Scott Chacon        
-|  ?                     
+|  Talk/Discussion       
 |  Linkable library, Scriptability                              
+|  1 hour            
+| 
+|-
+|  Scott Chacon        
+|  Hack Session          
+|  Architecting / Building a usable linkable library            
 |  ?                 
 | 
 |-
