@@ -15,7 +15,7 @@ Any questions, please contact Shawn Pearce (gsoc@spearce.org).
 # Junio C. Hamano
 # Shawn O. Pearce
 # Petr Baudis
-# J.H.
+# John "Warthog" Hawley
 # Johannes Schindelin
 # Sam Vilain
 # David Symonds
