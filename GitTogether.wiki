@@ -117,6 +117,12 @@ All meals with the exception of Tuesday and Wednesday night are free.  Tuesday a
 |  New git homepage hammering out                               
 |  1 hour            
 | 
+|-
+|  ?                   
+|  Talk/Discussion       
+|  Git GUI that even a designer would use                       
+|  1 hour            
+| 
 |}
 
 If anyone else wants to introduce or lead a section, please add your name above to volunteer.
