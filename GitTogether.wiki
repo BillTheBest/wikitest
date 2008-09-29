@@ -113,9 +113,15 @@ All meals with the exception of Tuesday and Wednesday night are free.  Tuesday a
 | 
 |-
 |  Scott Chacon        
-|  Hack Session          
+|  Hack Session(proposed)
 |  Architecting / Building a usable linkable library            
 |  ?                 
+| 
+|-
+|  Scott Chacon        
+|  Lightning Talk        
+|  iGitHub - git daemon and repository browser on the iPhone    
+|  10 min            
 | 
 |-
 |  Tom Preston-Werner  
