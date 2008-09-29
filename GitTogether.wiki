@@ -101,9 +101,9 @@ All meals with the exception of Tuesday and Wednesday night are free.  Tuesday a
 | 
 |-
 |  Tom Preston-Werner  
-|  ?                     
+|  Talk/Discussion       
 |  Git ideas from GitHub                                      
-|  ?                 
+|  1 hour            
 | 
 |}
 
