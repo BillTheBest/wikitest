@@ -77,9 +77,21 @@ All meals with the exception of Tuesday and Wednesday night are free.  Tuesday a
 | 
 |-
 |  Shawn O. Pearce     
-|  ?                     
-|  secret project, JGit, PackV4                               
-|  ?                 
+|  Talk + Brainstorm     
+|  introduce the secret bundle project                          
+|  1 hour            
+| 
+|-
+|  Shawn O. Pearce     
+|  Talk + Debate         
+|  JGit, where is it going?                                     
+|  .5 hour           
+| 
+|-
+|  Shawn O. Pearce     
+|  Talk + Plan Hacking   
+|  Pack v4, what's stopping you?                                
+|  1 hour            
 | 
 |-
 |  Sam Vilain          
