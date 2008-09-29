@@ -57,7 +57,7 @@ The agenda hasn't been fully scheduled yet, and probably won't be until we're ha
 * 12:00-1:00 pm: Lunch at Charlie's
 * 6:00 pm: Dinner out (location TBD)
 
-Please try to time your arrival to the 8:00-8:30 am window each day.  Googlers will be on hand to help you sign in and find the meeting room.  After 8:30 singing in will get a little bit more interesting as you may need to work with main reception, wait for a Googler to be phoned, walk down to collect you, and escort you back to the meeting room.
+Please try to time your arrival to the 8:00-8:30 am window each day.  Googlers will be on hand to help you sign in and find the meeting room.  After 8:30 signing in will get a little bit more interesting as you may need to work with main reception, wait for a Googler to be phoned, walk down to collect you, and escort you back to the meeting room.
 
 All meals with the exception of Tuesday and Wednesday night are free.  Tuesday and Wednesday dinner are at our own expense.   We'll try to locate two establishments in the Mountain View area with a rough price of $15-$20 USD/person (beverage, entree).  If anyone is a local and has suggestions, gsoc@spearce.org.
 
