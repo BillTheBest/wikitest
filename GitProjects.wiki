@@ -255,6 +255,9 @@ List does not currently include [[Git]] or git-related tools.
 * graph-tool
 * http://projects.forked.de/graph-tool/wiki/[[GraphToolDownload]]
 * http://git.forked.de/?p=graph-tool (gitweb)
+* grml - Debian-based Linux Live-CD for sysadmins / texttool users
+* http://grml.org/ (homepage)
+* http://git.grml.org/ (gitweb)
 * gtkmm-utils
 * http://live.gnome.org/gtkmm_utils (homepage)
 * http://git.savannah.nongnu.org/gitweb/?p=gtkmm-utils.git (gitweb)
