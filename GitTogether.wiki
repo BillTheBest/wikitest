@@ -101,9 +101,9 @@ All meals with the exception of Tuesday and Wednesday night are free.  Tuesday a
 | 
 |-
 |  Junio C Hamano      
-|  ?                     
+|  Talk                     
 |  Git Chronicle, Recent Additions to Git                       
-|  ?                 
+|  1 hour                 
 | 
 |-
 |  Scott Chacon        
