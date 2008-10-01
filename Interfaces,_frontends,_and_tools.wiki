@@ -68,6 +68,7 @@
 === Patchy Git (pg), deprecated ===
 * [[Pg:pg]] ([http://www.spearce.org/category/projects/scm/pg/ homepage]) by Shawn Pearce aims to help the user manage a set of patches on top of the current branch. pg is somewhat like Quilt or StGIT, but it does have a slightly different feature set.  <i>Note that pg is no longer being actively developed.</i>
 
+<<Anchor(gui)>>
 == Graphical Interfaces ==
 
 === gitk  (distributed with Git) ===
