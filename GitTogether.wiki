@@ -43,21 +43,22 @@ Please join the [http://lists.utsl.gen.nz/mailman/listinfo.cgi/gittogether GitTo
 The agenda hasn't been fully scheduled yet, and probably won't be until we're half way through the [[GitTogether]] itself, as most of it will be based upon the attendee's interests.  That said, there are some events we do know about:
 
 * Monday (27th)
-** 8:00-8:30 am: arrive, mingle, continental breakfast
+** 9:00-9:30 am: arrive, mingle, hot breakfast
+** 9:30-10:00 am: travel to another part of Google's campus.
 ** 10:00-11:00 am: Johannes Schindelin's Google Tech Talk: Contributing with Git.
     This talk will be recorded and eventually posted on a Google video property (e.g. Google Video or [[YouTube]]) after the [[GitTogether]].  It may take up to a month for the video to get uploaded, depending on the backlog of the tech talk staff.
-* 12:00-1:00 pm: Lunch at Charlie's
+* 12:00-1:00 pm: lunch
 * 6:00 pm: Dinner at Charlie's
 * Tuesday (28th)
-* 8:00-8:30 am: arrive, mingle, continental breakfast
-* 12:00-1:00 pm: Lunch at Charlie's
+* 9:00-9:30 am: arrive, mingle, hot breakfast
+* 12:00-1:00 pm: lunch
 * 6:00 pm: Dinner out (location TBD)
 * Wednesday (29th)
-* 8:00-8:30 am: arrive, mingle, continental breakfast
-* 12:00-1:00 pm: Lunch at Charlie's
+* 9:00-9:30 am: arrive, mingle, hot breakfast
+* 12:00-1:00 pm: lunch
 * 6:00 pm: Dinner out (location TBD)
 
-Please try to time your arrival to the 8:00-8:30 am window each day.  Googlers will be on hand to help you sign in and find the meeting room.  After 8:30 signing in will get a little bit more interesting as you may need to work with main reception, wait for a Googler to be phoned, walk down to collect you, and escort you back to the meeting room.
+Please try to time your arrival to the 9:00-9:30 am window each day.  Googlers will be on hand to help you sign in and find the meeting room.  After 9:30 signing in will get a little bit more interesting as you may need to work with main reception.
 
 All meals with the exception of Tuesday and Wednesday night are free.  Tuesday and Wednesday dinner are at our own expense.   We'll try to locate two establishments in the Mountain View area with a rough price of $15-$20 USD/person (beverage, entree).  If anyone is a local and has suggestions, gsoc@spearce.org.
 
@@ -101,9 +102,9 @@ All meals with the exception of Tuesday and Wednesday night are free.  Tuesday a
 | 
 |-
 |  Junio C Hamano      
-|  Talk                     
+|  Talk                  
 |  Git Chronicle, Recent Additions to Git                       
-|  1 hour                 
+|  1 hour            
 | 
 |-
 |  Scott Chacon        
@@ -170,17 +171,37 @@ The following topics have been proposed for talks/workshops/hack-sessions:
 * Git Survey 2008 results and discussion
 * Free form "We tried to use git in our project this way, didn't work very well" session, where participants are not allowed to say "Your workflow is broken".
 
+== Directions ==
+
+Its up to you to get to Google each day.  You may want to try and carpool with other attendees staying at nearby hotels.
+
+When mapping driving directions you want to use [http://maps.google.com/maps?f=d&saddr=&daddr=37.427258,-122.071775&hl=en&geocode=&mra=mi&mrsp=0&sz=20&sll=37.427265,-122.071771&sspn=0.001087,0.001159&ie=UTF8&ll=37.426786,-122.071484&spn=0.00435,0.004635&t=h&z=18  1500 Crittenden, Mountain View, CA] as the building street address.
+
+The destination pin "B" on the map is positioned where Asgard Training is within the building; its on the first floor directly off the lobby.
+
+<i>Parking:</i>
+Any parking that is not otherwise reserved for the disabled, expectant mothers, etc., is fair game.  Help yourself.
+
+<i>Sign In:</i>
+You will need to sign in at reception each day. You will be asked by our system to execute an NDA, which covers anything you may learn about Google during the course of your visit, not the content of your meeting. If you feel strongly about not executing the NDA, you can go right ahead and decline it during sign in. You won't be anywhere near employee areas so I don't care if you sign it or not.
+
+<i>Photos:</i>
+Nope. Outside only. Be good.
+
+<i>Recording:</i>
+Audio only, no video. Be good.
+
 == Misc. ==
 
-Google will be serving continental breakfast each day, in addition to endless coffee and beverages during the event.  Lunch will be provided each day free of charge in the main cafeteria.  Monday night we will also eat in the main cafeteria, free of charge.  Tuesday and Wednesday we will arrange dinner off-campus.
+Google will be serving hot breakfast each day, in addition to endless coffee and beverages during the event.  Lunch each day will also be catered at the meeting space.  Monday night we will carpool over to eat at Charlie's (Google's main cafeteria), free of charge.  Tuesday and Wednesday we will arrange dinner off-campus.
 
 Plenty of table space and power outlets will be available in the meeting room.  Folks outside the US may need to bring an outlet adapter/voltage converter.  Please make sure to bring your laptop power supply.  Unlike most Google conference rooms our meeting space does not come with built-in laptop power connectors.  Even Googlers need to bring their own power supply.
 
-Google has free wireless Internet access available everywhere on the campus ("[[GoogleGuest]]").  802.11 wireless support is required to connect to the Internet.  Hardwired LAN connections are <b>not</b> available in our meeting space.  If you think you'll want to get online during the sessions please test your wireless to make sure it is working before you travel.
+Google has free wireless Internet access available everywhere on the campus ("[[GoogleGuest]]").  802.11 wireless support is required to connect to the Internet.  Hardwired LAN connections might be available in our meeting space, but don't count on it.  If you think you'll want to get online during the sessions please test your wireless to make sure it is working before you travel.
 
 == Travel Details ==
 
-Google provides [http://code.google.com/events/visitors/ information] about discounted lodging, visiting and parking. Essentially, once you arrive, tell the attendant that you are there for an event in [http://maps.google.com/maps?f=q&hl=en&geocode=&q=37.422235,-122.083248&ie=UTF8&t=h&ll=37.422328,-122.083248&spn=0.004473,0.007467&z=17 University Theater in Building 40], and they will direct you to the correct parking lot.  The pin on the map is positioned approximately where University Theater is located within the building.
+Google provides some [http://code.google.com/events/visitors/ information] about discounted lodging, visiting and parking.
 
 A cab ride from the airport to a nearby hotel will cost approximately, depending on traffic:
 
