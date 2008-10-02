@@ -238,7 +238,7 @@ List does not currently include [[Git]] or git-related tools.
 * http://www.arlut.utexas.edu/gash2 (homepage)
 * http://git.arlut.utexas.edu/?p=ganymede (gitweb)
 * http://git.arlut.utexas.edu/ganymede (repo)
-* git://git.arlut.utexas.edu/ganymede (repo)
+* git://git.arlut.utexas.edu/ganymede
 * [http://www.haskell.org/ghc/ GHC] (Glasgow Haskell Compiler)
 * http://darcs.haskell.org/ghc.git
 * GNU Autoconf
