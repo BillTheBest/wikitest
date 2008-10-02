@@ -237,8 +237,8 @@ List does not currently include [[Git]] or git-related tools.
 * Ganymede network directory management
 * http://www.arlut.utexas.edu/gash2 (homepage)
 * http://git.arlut.utexas.edu/?p=ganymede;a=summary (gitweb)
-* git://git.arlut.utexas.edu/ganymede (repository)
-* http://git.arlut.utexas.edu/ganymede (alternate repository access)
+* http://git.arlut.utexas.edu/ganymede (repo)
+* git://git.arlut.utexas.edu/ganymede (repo)
 * [http://www.haskell.org/ghc/ GHC] (Glasgow Haskell Compiler)
 * http://darcs.haskell.org/ghc.git
 * GNU Autoconf
