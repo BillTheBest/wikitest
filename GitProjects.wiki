@@ -235,7 +235,6 @@ List does not currently include [[Git]] or git-related tools.
 * http://geda.seul.org/wiki/geda:scm (development)
 * http://git.gpleda.org/ (gitweb)
 * [http://www.arlut.utexas.edu/gash2/ Ganymede network directory management]
-* http://www.arlut.utexas.edu/gash2/ (homepage)
 * http://git.arlut.utexas.edu/?p=ganymede;a=summary (gitweb)
 * git://git.arlut.utexas.edu/ganymede (repository)
 * http://git.arlut.utexas.edu/ganymede (alternate repository access)
