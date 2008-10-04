@@ -131,6 +131,12 @@ All meals with the exception of Tuesday and Wednesday night are free.  Tuesday a
 |  1 hour            
 | 
 |-
+|  S Grimm, D Reiss    
+|  Talk/Discussion       
+|  Life with git in a Subversion shop                           
+|  1 hour            
+| 
+|-
 |  ?                   
 |  Talk/Discussion       
 |  New git homepage hammering out                               
