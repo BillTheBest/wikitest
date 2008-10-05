@@ -36,6 +36,8 @@ Any questions, please contact Shawn Pearce (gsoc@spearce.org).
 # Pierre Habouzit (not on the Wednesday though).
 # Tom Preston-Werner
 
+Google has us capped at ~25 attendees.
+
 Please join the [http://lists.utsl.gen.nz/mailman/listinfo.cgi/gittogether GitTogether mailing list].  We promise to keep the traffic low and to disband it after the event.  Useful information for attendees will be sent to this list as we get closer to the [[GitTogether]].
 
 == Agenda ==
