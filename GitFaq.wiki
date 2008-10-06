@@ -181,7 +181,7 @@ No. Git has a specific notion of tracked "content", which is basically just the 
 = Unexpected behavior =
 
 <<Anchor(git-push non-bare)>>
-<<[[GitLink]](non-bare,You shouldn't push to a non-bare repository)>> 
+<<[[GitLink]](non-bare,You shouldn't push to a non-bare repository)>>
 == Why won't I see changes in the remote repo after "git push"? ==
 The <code><nowiki>push</nowiki></code> operation is always about propagating the repository history and updating the refs, and never touches the working tree files.  In particular, if you push to update the branch that is checked out in a remote repository the files in the work tree will not be updated.
 
@@ -373,7 +373,7 @@ you can create a local branch and check it out with:
 Vienna:git pieter$ git checkout -b maint origin/maint
 Branch maint set up to track remote branch refs/remotes/origin/maint.
 Switched to a new branch "maint"
-Vienna:git pieter$ 
+Vienna:git pieter$
 </nowiki></pre>
 
 This will create a local branch "maint" that tracks the remote branch "maint"
@@ -383,7 +383,8 @@ This will create a local branch "maint" that tracks the remote branch "maint"
 You can use <code><nowiki>git --bare init --shared=group</nowiki></code> (or <code><nowiki>git --bare init --shared=all</nowiki></code> for unprivileged gitweb) to initialize a shared repository if you use core [[Git]] (recommended for Git 1.5+). For older versions of Git core you can also use [[Cogito]] command <code><nowiki>cg-admin-setuprepo -g</nowiki></code> (please note that Cogito is no longer actively maintained, if you use Git version 1.5+ it is recommended that you use core Git). All users belonging to your group have now permissions to push their changes to the repository. It's O.K. that refs aren't group writable, it's enough the directory is.
 
 * See the
- [http://www.kernel.org/pub/software/scm/cogito/docs/introduction.html introduction to Cogito] or GIT's [http://www.kernel.org/pub/software/scm/git/docs/cvs-migration.html cvs-migration] doc, "Emulating the CVS Development Model" section for details.
+ [http://www.kernel.org/pub/software/scm/cogito/docs/introduction.html
+ introduction to Cogito] or GIT's [http://www.kernel.org/pub/software/scm/git/docs/gitcvs-migration.html cvs-migration] doc, "Emulating the CVS Development Model" section for details.
 
 <<Anchor(commit-diff)>>
 == How can I add a diff of the commit into the commit message window? ==
@@ -773,7 +774,7 @@ between versions, so the index <i>thinks</i> things are newer. It won't touch th
 <<Anchor(import-cvs)>>
 == Can I import from CVS? ==
 Yes, use [http://www.kernel.org/pub/software/scm/git/docs/git-cvsimport.html git-cvsimport(1)], which needs [http://www.cobite.com/cvsps/ CVSps] ([http://ydirson.free.fr/en/software/scm/cvsps.html CVSps patches]), or use [http://gitweb.freedesktop.org/?p=users-keithp-parsecvs;a=summary parsecvs], which parses directly <code><nowiki>,v</nowiki></code> files. Yet another solution would be to use [http://cvs2svn.tigris.org/cvs2git.html cvs2svn], which can import directly to Git. Lastly, there is also [http://git.or.cz/gitwiki/InterfacesFrontendsAndTools#fromcvs FromCVS toGit], which is a speedy solution with incremental import and branch support, but it currently does not support normal tags.
-* See [http://www.kernel.org/pub/software/scm/git/docs/cvs-migration.html the CVS migration doc] for more examples.
+* See [http://www.kernel.org/pub/software/scm/git/docs/gitcvs-migration.html the CVS migration doc] for more examples.
 * See [http://git.or.cz/course/cvs.html Git - CVS Crash Course] on [http://git.or.cz/ Git homepage]
 
 <<Anchor(import-svn)>>
