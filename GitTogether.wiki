@@ -98,9 +98,21 @@ All meals with the exception of Tuesday and Wednesday night are free.  Tuesday a
 | 
 |-
 |  Sam Vilain          
-|  ?                     
-|  GitTorrent, Git as a DB backend, perl.git conversion       
-|  ?                 
+|  Talk+Q&A, Discussion  
+|  [[GitTorrent]] - the rfc, implemenation                          
+|  1 hour            
+| 
+|-
+|  Sam Vilain          
+|  [[FooStyle]]              
+|  Git as a DB backend                                          
+|  1 hour            
+| 
+|-
+|  Sam Vilain          
+|  War story             
+|  perl.git conversion                                          
+|  0.5 hour          
 | 
 |-
 |  Junio C Hamano      
