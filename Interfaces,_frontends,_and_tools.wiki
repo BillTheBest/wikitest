@@ -435,6 +435,26 @@
 |  (KGit) 
 | 
 |-
+|  compare commits 
+|  (gitk) 
+|  (git-gui) 
+|  (tig) 
+|  (QGit) 
+|  (Giggle) 
+|  (gitview) 
+|  (git-forest) 
+|  (gct) 
+|  (pmpu) 
+|  (Qct) 
+|  Y 
+|  (gitool) 
+|  ([[GitNub]]) 
+|  (GitX) 
+|  (Pyrite) 
+|  (gitSafe) 
+|  (KGit) 
+| 
+|-
 |  (add cool feature here) 
 |  (gitk) 
 |  (git-gui) 
