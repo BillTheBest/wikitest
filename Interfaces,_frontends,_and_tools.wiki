@@ -124,6 +124,197 @@
 === gitSafe ===
 * gitSafe ([http://code.google.com/p/gitsafe/ homepage], [http://www.kodespace.com/?p=38 announcement]) by cmroanirgo is a ![[SourceSafe]]-like GUI for git using .NET 2.0 (C++/CLI)
 
+=== Summary (feature matrix) ===
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <tablestyle="text-align: center;" rowstyle="font-weight: bold; background-color: #ffffcc;"> Feature     
+|  gitk 
+|  git-gui 
+|  tig 
+|  QGit 
+|  Giggle 
+|  gitview 
+|  git-forest 
+|  gct 
+|  PMPY 
+|  Qct 
+|  git-cola 
+|  gitool 
+|  [[GitNub]] 
+|  GitX 
+|  Pyrite 
+|  gitSafe 
+| 
+|}
+<!-- ##------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  written in  
+|  Tcl 
+|  Tcl 
+|  (tig) 
+|  (QGit) 
+|  (Giggle) 
+|  (gitview) 
+|  (git-forest) 
+|  (gct) 
+|  (PMPY) 
+|  (Qct) 
+|  (git-cola) 
+|  (gitool) 
+|  ([[GitNub]]) 
+|  (GitX) 
+|  (Pyrite) 
+|  (gitSafe) 
+| 
+|-
+|  GUI Toolkit 
+|  Tk  
+|  Tk  
+|  (tig) 
+|  (QGit) 
+|  (Giggle) 
+|  (gitview) 
+|  (git-forest) 
+|  (gct) 
+|  (PMPY) 
+|  (Qct) 
+|  (git-cola) 
+|  (gitool) 
+|  ([[GitNub]]) 
+|  (GitX) 
+|  (Pyrite) 
+|  (gitSafe) 
+| 
+|}
+<!-- ##------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  history viewer 
+|  Y 
+|  N 
+|  (tig) 
+|  (QGit) 
+|  (Giggle) 
+|  (gitview) 
+|  (git-forest) 
+|  (gct) 
+|  (PMPY) 
+|  (Qct) 
+|  (git-cola) 
+|  (gitool) 
+|  ([[GitNub]]) 
+|  (GitX) 
+|  (Pyrite) 
+|  (gitSafe) 
+| 
+|-
+|  (un)stage files 
+|  N
+|  Y 
+|  (tig) 
+|  (QGit) 
+|  (Giggle) 
+|  (gitview) 
+|  (git-forest) 
+|  (gct) 
+|  (PMPY) 
+|  (Qct) 
+|  (git-cola) 
+|  (gitool) 
+|  ([[GitNub]]) 
+|  (GitX) 
+|  (Pyrite) 
+|  (gitSafe) 
+| 
+|-
+|  partial staging 
+|  N
+|  Y 
+|  (tig) 
+|  (QGit) 
+|  (Giggle) 
+|  (gitview) 
+|  (git-forest) 
+|  (gct) 
+|  (PMPY) 
+|  (Qct) 
+|  (git-cola) 
+|  (gitool) 
+|  ([[GitNub]]) 
+|  (GitX) 
+|  (Pyrite) 
+|  (gitSafe) 
+| 
+|}
+<!-- ##------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  i18n 
+|  de, es, it, sv 
+|  de, fr, hu, it, ja, ru, sv, zh_cn 
+|  (tig) 
+|  (QGit) 
+|  (Giggle) 
+|  (gitview) 
+|  (git-forest) 
+|  (gct) 
+|  (PMPY) 
+|  (Qct) 
+|  (git-cola) 
+|  (gitool) 
+|  ([[GitNub]]) 
+|  (GitX) 
+|  (Pyrite) 
+|  (gitSafe) 
+| 
+|}
+<!-- ##------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Screenshot 
+|  (gitk) 
+|  (git-gui) 
+|  (tig) 
+|  (QGit) 
+|  (Giggle) 
+|  (gitview) 
+|  (git-forest) 
+|  (gct) 
+|  (PMPY) 
+|  (Qct) 
+|  (git-cola) 
+|  (gitool) 
+|  ([[GitNub]]) 
+|  (GitX) 
+|  (Pyrite) 
+|  (gitSafe) 
+| 
+|-
+|  ...        
+|  (gitk) 
+|  (git-gui) 
+|  (tig) 
+|  (QGit) 
+|  (Giggle) 
+|  (gitview) 
+|  (git-forest) 
+|  (gct) 
+|  (PMPY) 
+|  (Qct) 
+|  (git-cola) 
+|  (gitool) 
+|  ([[GitNub]]) 
+|  (GitX) 
+|  (Pyrite) 
+|  (gitSafe) 
+| 
+|}
+<!-- ## table end
+ -->
+
 == Web Interface ==
 
 === gitweb  (distributed with Git) ===
