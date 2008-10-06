@@ -226,7 +226,7 @@
 |  (gct) 
 |  external 
 |  (Qct) 
-|  (git-cola) 
+|  N 
 |  (gitool) 
 |  ([[GitNub]]) 
 |  Y      
@@ -246,7 +246,7 @@
 |  (gct) 
 |  (pmpu)   
 |  (Qct) 
-|  (git-cola) 
+|  Y 
 |  (gitool) 
 |  ([[GitNub]]) 
 |  (GitX) 
@@ -266,7 +266,7 @@
 |  (gct) 
 |  (pmpu)   
 |  (Qct) 
-|  (git-cola) 
+|  Y 
 |  (gitool) 
 |  ([[GitNub]]) 
 |  (GitX) 
@@ -286,7 +286,7 @@
 |  (gct) 
 |  (pmpu)   
 |  (Qct) 
-|  (git-cola) 
+|  Y 
 |  (gitool) 
 |  ([[GitNub]]) 
 |  (GitX) 
@@ -306,7 +306,7 @@
 |  (gct) 
 |  (pmpu)   
 |  (Qct) 
-|  (git-cola) 
+|  Y 
 |  (gitool) 
 |  ([[GitNub]]) 
 |  (GitX) 
@@ -326,7 +326,7 @@
 |  (gct) 
 |  (pmpu)   
 |  (Qct) 
-|  (git-cola) 
+|  Y 
 |  (gitool) 
 |  ([[GitNub]]) 
 |  (GitX) 
@@ -346,7 +346,7 @@
 |  (gct) 
 |  (pmpu)   
 |  (Qct) 
-|  (git-cola) 
+|  Y 
 |  (gitool) 
 |  ([[GitNub]]) 
 |  (GitX) 
@@ -366,7 +366,27 @@
 |  (gct) 
 |  (pmpu)   
 |  (Qct) 
-|  (git-cola) 
+|  Y 
+|  (gitool) 
+|  ([[GitNub]]) 
+|  (GitX) 
+|  (Pyrite) 
+|  (gitSafe) 
+|  (KGit) 
+| 
+|-
+|  search 
+|  (gitk) 
+|  (git-gui) 
+|  (tig) 
+|  (QGit) 
+|  (Giggle) 
+|  (gitview) 
+|  (git-forest) 
+|  (gct) 
+|  (pmpu) 
+|  (Qct) 
+|  Y 
 |  (gitool) 
 |  ([[GitNub]]) 
 |  (GitX) 
