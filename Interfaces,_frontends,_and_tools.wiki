@@ -395,6 +395,26 @@
 |  (KGit) 
 | 
 |-
+|  interfaces w/ external diff viewers 
+|  (gitk) 
+|  (git-gui) 
+|  (tig) 
+|  (QGit) 
+|  (Giggle) 
+|  (gitview) 
+|  (git-forest) 
+|  (gct) 
+|  (pmpu) 
+|  (Qct) 
+|  Y 
+|  (gitool) 
+|  ([[GitNub]]) 
+|  (GitX) 
+|  (Pyrite) 
+|  (gitSafe) 
+|  (KGit) 
+| 
+|-
 |  (add cool feature here) 
 |  (gitk) 
 |  (git-gui) 
@@ -452,7 +472,7 @@
 |  (gct) 
 |  [http://pmpu.sharesource.org/pmpu2.png X] 
 |  [http://qct.sourceforge.net/qct-1.2.png X] 
-|  (git-cola) 
+|  [http://cola.justroots.com/screenshots.php X] 
 |  (gitool) 
 |  [http://s3.amazonaws.com/caged/gitnub-0.9.0.png X] 
 |  [http://ss.frim.nl/==891 X] 
