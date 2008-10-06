@@ -102,7 +102,7 @@
 * [http://qct.sourceforge.net/ Qct] ([http://hg.borho.org/qct hg repo]) by Steve Borho is Qt/PyQt based GUI commit tool, meant to be SCM and platform agnostic. Supports Mercurial (`hg`), Bazaar (`bzr`), Cogito (but not Git directly atm), Subversion (`svn`), Monotone (`mnt`) and CVS. The [http://hg.borho.org/qct/rev/5c5bdab35c08 README] mentions gct (also on this page), as an alternative supporting plain git.
 
 === git-cola ===
-* [http://cola.tuxfamily.org/ git-cola] ([http://repo.or.cz/w/git-cola.git gitweb], [http://github.com/davvid/git-cola/tree/master github]) by David Aguilar is a git commit tool, similar to git-gui, written in PyQt4. You can get tarballs and debian pacakges at http://cola.tuxfamily.org/ (alt: http://cola.justroots.com/)
+* [http://cola.tuxfamily.org/ git-cola] ([http://repo.or.cz/w/git-cola.git gitweb], [http://github.com/davvid/git-cola/tree/master github]) by David Aguilar is a git commit tool, similar to git-gui, written in PyQt4. You can get tarballs and debian pacakges at http://cola.tuxfamily.org/
 
 === gitool ===
 * [[Gitool:gitool]] ([http://thread.gmane.org/gmane.comp.version-control.git/26415 announcement], [http://ozlabs.org/~paulus/gitool download], [http://www.kernel.org/git/?p=gitk/gitk.git;a=shortlog;h=new gitweb]) by Paul Mackerras is a tool for creating commits. Superseded by git-gui (see above). Written in Tcl/Tk.
@@ -532,7 +532,7 @@
 |  (gct) 
 |  [http://pmpu.sharesource.org/pmpu2.png X] 
 |  [http://qct.sourceforge.net/qct-1.2.png X] 
-|  [http://cola.justroots.com/screenshots.php X] 
+|  [http://cola.tuxfamily.org/screenshots.php X] 
 |  (gitool) 
 |  [http://s3.amazonaws.com/caged/gitnub-0.9.0.png X] 
 |  [http://ss.frim.nl/==891 X] 
