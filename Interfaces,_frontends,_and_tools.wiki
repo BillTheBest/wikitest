@@ -99,7 +99,7 @@
 * [http://www.cl.cam.ac.uk/~maw48/pmpu/ pmpu] (Push Me Pull You) by Mark Williamson is a graphical interface for a distributed version control system. Currently it contains proof-of-concept supports the Mercurial, git and bzr systems. PMPU can make use of external history views and commit tools. Preview release.
 
 === Qct ===
-* [http://www.borho.org/~steve/qct.html Qct] ([http://hg.borho.org/qct hg repo]) by Steve Borho is Qt/PyQt based GUI commit tool, meant to be SCM and platform agnostic. Supports Mercurial (`hg`), Bazaar (`bzr`), Cogito (but not Git directly atm), Subversion (`svn`), Monotone (`mnt`) and CVS. The [http://hg.borho.org/qct/rev/5c5bdab35c08 README] mentions gct (also on this page), as an alternative supporting plain git.
+* [http://qct.sourceforge.net/ Qct] ([http://hg.borho.org/qct hg repo]) by Steve Borho is Qt/PyQt based GUI commit tool, meant to be SCM and platform agnostic. Supports Mercurial (`hg`), Bazaar (`bzr`), Cogito (but not Git directly atm), Subversion (`svn`), Monotone (`mnt`) and CVS. The [http://hg.borho.org/qct/rev/5c5bdab35c08 README] mentions gct (also on this page), as an alternative supporting plain git.
 
 === git-cola (formerly ugit) ===
 * [http://cola.tuxfamily.org/ git-cola] ([http://repo.or.cz/w/git-cola.git gitweb], [http://github.com/davvid/git-cola/tree/master github]), formerly ugit ([http://ugit.sourceforge.net/ SourceForge], [http://permalink.gmane.org/gmane.comp.version-control.git/67854 announcement]) by David Aguilar is a git commit tool, similar to git-gui, written in PyQt4. You can get tarballs at http://cola.tuxfamily.org/
@@ -129,7 +129,7 @@
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <tablestyle="text-align: center;" rowstyle="font-weight: bold; background-color: #ffffcc;"> Feature     
+| <tablestyle="text-align: center;" rowstyle="font-weight: bold; background-color: #ffffcc;"> Feature 
 |  gitk 
 |  git-gui 
 |  tig 
@@ -138,7 +138,7 @@
 |  gitview 
 |  git-forest 
 |  gct 
-|  PMPY 
+|  pmpu 
 |  Qct 
 |  git-cola 
 |  gitool 
@@ -146,47 +146,70 @@
 |  GitX 
 |  Pyrite 
 |  gitSafe 
+|  (KGit) 
 | 
 |}
 <!-- ##------------------------------
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-|  written in  
-|  Tcl 
-|  Tcl 
-|  (tig) 
-|  (QGit) 
-|  (Giggle) 
-|  (gitview) 
-|  (git-forest) 
-|  (gct) 
-|  (PMPY) 
+|  written in 
+|  Tcl  
+|  Tcl  
+|  C      
+|  C++  
+|  C    
+|  Python 
+|  Perl 
+|  Python 
+|  Python 
 |  (Qct) 
-|  (git-cola) 
-|  (gitool) 
-|  ([[GitNub]]) 
-|  (GitX) 
-|  (Pyrite) 
-|  (gitSafe) 
+|  Python 
+|  Tcl  
+|  ObjC, Ruby 
+|  ObjC  
+|  Python 
+|  C++  
+|  C++  
 | 
 |-
-|  GUI Toolkit 
-|  Tk  
-|  Tk  
-|  (tig) 
-|  (QGit) 
-|  (Giggle) 
-|  (gitview) 
-|  (git-forest) 
-|  (gct) 
-|  (PMPY) 
-|  (Qct) 
-|  (git-cola) 
-|  (gitool) 
-|  ([[GitNub]]) 
-|  (GitX) 
-|  (Pyrite) 
-|  (gitSafe) 
+|  UI toolkit 
+|  Tk   
+|  Tk   
+|  curses 
+|  Qt   
+|  GTK+ 
+|  GTK+   
+|  -    
+|  Qt     
+|  Qt4    
+|  Qt    
+|  Qt4    
+|  Tk   
+|  Cocoa      
+|  Cocoa 
+|  ?      
+|  MFC  
+|  KDE  
+| 
+|-
+|  last commit
+|  2008 
+|  2008 
+|  2008   
+|  2008 
+|  2008 
+|  2006   
+|  2008 
+|  2007   
+|  2008   
+|  2008  
+|  2008   
+|  2007 
+|  2008       
+|  2008  
+|  2008   
+|  2008 
+|  2007 
 | 
 |}
 <!-- ##------------------------------
@@ -195,20 +218,21 @@
 |  history viewer 
 |  Y 
 |  N 
-|  (tig) 
-|  (QGit) 
-|  (Giggle) 
+|  Y     
+|  Y      
+|  Y        
 |  (gitview) 
 |  (git-forest) 
 |  (gct) 
-|  (PMPY) 
+|  external 
 |  (Qct) 
 |  (git-cola) 
 |  (gitool) 
 |  ([[GitNub]]) 
-|  (GitX) 
+|  Y      
 |  (Pyrite) 
 |  (gitSafe) 
+|  (KGit) 
 | 
 |-
 |  (un)stage files 
@@ -220,7 +244,7 @@
 |  (gitview) 
 |  (git-forest) 
 |  (gct) 
-|  (PMPY) 
+|  (pmpu)   
 |  (Qct) 
 |  (git-cola) 
 |  (gitool) 
@@ -228,6 +252,7 @@
 |  (GitX) 
 |  (Pyrite) 
 |  (gitSafe) 
+|  (KGit) 
 | 
 |-
 |  partial staging 
@@ -239,7 +264,7 @@
 |  (gitview) 
 |  (git-forest) 
 |  (gct) 
-|  (PMPY) 
+|  (pmpu)   
 |  (Qct) 
 |  (git-cola) 
 |  (gitool) 
@@ -247,6 +272,27 @@
 |  (GitX) 
 |  (Pyrite) 
 |  (gitSafe) 
+|  (KGit) 
+| 
+|-
+|  (add cool feature here) 
+|  (gitk) 
+|  (git-gui) 
+|  (tig) 
+|  (QGit) 
+|  (Giggle) 
+|  (gitview) 
+|  (git-forest) 
+|  (gct) 
+|  (pmpu) 
+|  (Qct) 
+|  (git-cola) 
+|  (gitool) 
+|  ([[GitNub]]) 
+|  (GitX) 
+|  (Pyrite) 
+|  (gitSafe) 
+|  (KGit) 
 | 
 |}
 <!-- ##------------------------------
@@ -261,7 +307,7 @@
 |  (gitview) 
 |  (git-forest) 
 |  (gct) 
-|  (PMPY) 
+|  (pmpu) 
 |  (Qct) 
 |  (git-cola) 
 |  (gitool) 
@@ -269,6 +315,7 @@
 |  (GitX) 
 |  (Pyrite) 
 |  (gitSafe) 
+|  (KGit) 
 | 
 |}
 <!-- ##------------------------------
@@ -277,20 +324,21 @@
 |  Screenshot 
 |  (gitk) 
 |  (git-gui) 
-|  (tig) 
-|  (QGit) 
-|  (Giggle) 
-|  (gitview) 
-|  (git-forest) 
+|  [http://jonas.nitro.dk/tig/screenshots/main-view-split.png X] 
+|  [http://sourceforge.net/dbimage.php?id=72613 X] 
+|  [http://developer.imendio.com/sites/developer.imendio.com/files/giggle.png X] 
+|  [http://sourceforge.net/dbimage.php?id=58006 X] 
+|  [http://jengelh.medozas.de/images/git-forest.png X] 
 |  (gct) 
-|  (PMPY) 
-|  (Qct) 
+|  [http://pmpu.sharesource.org/pmpu2.png X] 
+|  [http://qct.sourceforge.net/qct-1.2.png X] 
 |  (git-cola) 
 |  (gitool) 
-|  ([[GitNub]]) 
-|  (GitX) 
+|  [http://s3.amazonaws.com/caged/gitnub-0.9.0.png X] 
+|  [http://ss.frim.nl/==891 X] 
 |  (Pyrite) 
-|  (gitSafe) 
+|  [http://gitsafe.googlecode.com/files/gitSafe 0.0.1.png X] 
+|  [http://kgit.sourceforge.net/kgit_screenshot1.png X] 
 | 
 |-
 |  ...        
@@ -302,7 +350,7 @@
 |  (gitview) 
 |  (git-forest) 
 |  (gct) 
-|  (PMPY) 
+|  (pmpu) 
 |  (Qct) 
 |  (git-cola) 
 |  (gitool) 
@@ -310,6 +358,7 @@
 |  (GitX) 
 |  (Pyrite) 
 |  (gitSafe) 
+|  (KGit) 
 | 
 |}
 <!-- ## table end
