@@ -226,7 +226,7 @@
 |  (gct) 
 |  external 
 |  (Qct) 
-|  N 
+|  external 
 |  (gitool) 
 |  ([[GitNub]]) 
 |  Y      
@@ -415,6 +415,26 @@
 |  (KGit) 
 | 
 |-
+|  diff syntax highlighting 
+|  (gitk) 
+|  (git-gui) 
+|  (tig) 
+|  (QGit) 
+|  (Giggle) 
+|  (gitview) 
+|  (git-forest) 
+|  (gct) 
+|  (pmpu) 
+|  (Qct) 
+|  Y 
+|  (gitool) 
+|  ([[GitNub]]) 
+|  (GitX) 
+|  (Pyrite) 
+|  (gitSafe) 
+|  (KGit) 
+| 
+|-
 |  (add cool feature here) 
 |  (gitk) 
 |  (git-gui) 
@@ -449,7 +469,7 @@
 |  (gct) 
 |  (pmpu) 
 |  (Qct) 
-|  (git-cola) 
+|  partial de, fr, hu, it, ja, ru, sv, zh_cn 
 |  (gitool) 
 |  ([[GitNub]]) 
 |  (GitX) 
