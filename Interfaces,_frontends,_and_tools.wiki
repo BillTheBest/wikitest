@@ -215,7 +215,7 @@
 <!-- ##------------------------------
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-|  history viewer 
+|  history viewer  
 |  Y 
 |  N 
 |  Y     
@@ -236,7 +236,7 @@
 | 
 |-
 |  (un)stage files 
-|  N
+|  N 
 |  Y 
 |  (tig) 
 |  (QGit) 
@@ -256,8 +256,108 @@
 | 
 |-
 |  partial staging 
-|  N
+|  N 
 |  Y 
+|  (tig) 
+|  (QGit) 
+|  (Giggle) 
+|  (gitview) 
+|  (git-forest) 
+|  (gct) 
+|  (pmpu)   
+|  (Qct) 
+|  (git-cola) 
+|  (gitool) 
+|  ([[GitNub]]) 
+|  (GitX) 
+|  (Pyrite) 
+|  (gitSafe) 
+|  (KGit) 
+| 
+|-
+|  checkout        
+|  Y 
+|  Y 
+|  (tig) 
+|  (QGit) 
+|  (Giggle) 
+|  (gitview) 
+|  (git-forest) 
+|  (gct) 
+|  (pmpu)   
+|  (Qct) 
+|  (git-cola) 
+|  (gitool) 
+|  ([[GitNub]]) 
+|  (GitX) 
+|  (Pyrite) 
+|  (gitSafe) 
+|  (KGit) 
+| 
+|-
+|  cherry-pick     
+|  Y 
+|  N 
+|  (tig) 
+|  (QGit) 
+|  (Giggle) 
+|  (gitview) 
+|  (git-forest) 
+|  (gct) 
+|  (pmpu)   
+|  (Qct) 
+|  (git-cola) 
+|  (gitool) 
+|  ([[GitNub]]) 
+|  (GitX) 
+|  (Pyrite) 
+|  (gitSafe) 
+|  (KGit) 
+| 
+|-
+|  committing      
+|  N 
+|  Y 
+|  (tig) 
+|  (QGit) 
+|  (Giggle) 
+|  (gitview) 
+|  (git-forest) 
+|  (gct) 
+|  (pmpu)   
+|  (Qct) 
+|  (git-cola) 
+|  (gitool) 
+|  ([[GitNub]]) 
+|  (GitX) 
+|  (Pyrite) 
+|  (gitSafe) 
+|  (KGit) 
+| 
+|-
+|  remote features 
+|  N 
+|  Y 
+|  (tig) 
+|  (QGit) 
+|  (Giggle) 
+|  (gitview) 
+|  (git-forest) 
+|  (gct) 
+|  (pmpu)   
+|  (Qct) 
+|  (git-cola) 
+|  (gitool) 
+|  ([[GitNub]]) 
+|  (GitX) 
+|  (Pyrite) 
+|  (gitSafe) 
+|  (KGit) 
+| 
+|-
+|  create patches  
+|  Y 
+|  N 
 |  (tig) 
 |  (QGit) 
 |  (Giggle) 
@@ -339,26 +439,6 @@
 |  (Pyrite) 
 |  [http://gitsafe.googlecode.com/files/gitSafe%200.0.1.png X] 
 |  [http://kgit.sourceforge.net/kgit_screenshot1.png X] 
-| 
-|-
-|  ...        
-|  (gitk) 
-|  (git-gui) 
-|  (tig) 
-|  (QGit) 
-|  (Giggle) 
-|  (gitview) 
-|  (git-forest) 
-|  (gct) 
-|  (pmpu) 
-|  (Qct) 
-|  (git-cola) 
-|  (gitool) 
-|  ([[GitNub]]) 
-|  (GitX) 
-|  (Pyrite) 
-|  (gitSafe) 
-|  (KGit) 
 | 
 |}
 <!-- ## table end
