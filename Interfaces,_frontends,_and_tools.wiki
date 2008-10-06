@@ -235,6 +235,26 @@
 |  (KGit) 
 | 
 |-
+|  history search  
+|  Y 
+|  N 
+|  (tig) 
+|  (QGit) 
+|  (Giggle) 
+|  (gitview) 
+|  (git-forest) 
+|  (gct) 
+|  (pmpu)   
+|  (Qct) 
+|  Y 
+|  (gitool) 
+|  ([[GitNub]]) 
+|  (GitX) 
+|  (Pyrite) 
+|  (gitSafe) 
+|  (KGit) 
+| 
+|-
 |  (un)stage files 
 |  N 
 |  Y 
@@ -355,16 +375,16 @@
 |  (KGit) 
 | 
 |-
-|  stash 
-|  (gitk) 
-|  (git-gui) 
+|  stash           
+|  N 
+|  N 
 |  (tig) 
 |  (QGit) 
 |  (Giggle) 
 |  (gitview) 
 |  (git-forest) 
 |  (gct) 
-|  (pmpu) 
+|  (pmpu)   
 |  (Qct) 
 |  Y 
 |  (gitool) 
@@ -395,26 +415,6 @@
 |  (KGit) 
 | 
 |-
-|  search 
-|  (gitk) 
-|  (git-gui) 
-|  (tig) 
-|  (QGit) 
-|  (Giggle) 
-|  (gitview) 
-|  (git-forest) 
-|  (gct) 
-|  (pmpu) 
-|  (Qct) 
-|  Y 
-|  (gitool) 
-|  ([[GitNub]]) 
-|  (GitX) 
-|  (Pyrite) 
-|  (gitSafe) 
-|  (KGit) 
-| 
-|-
 |  interfaces w/ external diff viewers 
 |  (gitk) 
 |  (git-gui) 
@@ -435,8 +435,28 @@
 |  (KGit) 
 | 
 |-
-|  diff syntax highlighting 
-|  (gitk) 
+|  diff +/- highlighting 
+|  Y 
+|  Y 
+|  (tig) 
+|  Y 
+|  (Giggle) 
+|  (gitview) 
+|  (git-forest) 
+|  (gct) 
+|  (pmpu) 
+|  (Qct) 
+|  Y 
+|  (gitool) 
+|  ([[GitNub]]) 
+|  (GitX) 
+|  (Pyrite) 
+|  (gitSafe) 
+|  (KGit) 
+| 
+|-
+|  compare commits 
+|  Y 
 |  (git-gui) 
 |  (tig) 
 |  (QGit) 
@@ -455,9 +475,9 @@
 |  (KGit) 
 | 
 |-
-|  compare commits 
-|  (gitk) 
-|  (git-gui) 
+|  merge features 
+|  N 
+|  Y 
 |  (tig) 
 |  (QGit) 
 |  (Giggle) 
@@ -466,7 +486,7 @@
 |  (gct) 
 |  (pmpu) 
 |  (Qct) 
-|  Y 
+|  (git-cola) 
 |  (gitool) 
 |  ([[GitNub]]) 
 |  (GitX) 
