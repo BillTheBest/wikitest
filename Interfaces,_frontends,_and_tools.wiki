@@ -337,7 +337,7 @@
 |  [http://s3.amazonaws.com/caged/gitnub-0.9.0.png X] 
 |  [http://ss.frim.nl/==891 X] 
 |  (Pyrite) 
-|  [http://gitsafe.googlecode.com/files/gitSafe 0.0.1.png X] 
+|  [http://gitsafe.googlecode.com/files/gitSafe%200.0.1.png X] 
 |  [http://kgit.sourceforge.net/kgit_screenshot1.png X] 
 | 
 |-
