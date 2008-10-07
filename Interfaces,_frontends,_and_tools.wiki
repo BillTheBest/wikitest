@@ -110,6 +110,9 @@
 === KGit ===
 * [[KGit]] (http://kgit.sourceforge.net/) by Abhijit Bhopatkar is intended to be a small but functional frontend to the popular source control program, git. It is similar to gitk with two significant differences. First of all, it is written in Qt using lop and the KDE libraires. Secondly, it is not only a repository viewer, unlike gitk. It is now defunct and deprecated by the author. Has no future.
 
+=== teamGit ===
+* [[teamGit]] (http://www.devslashzero.com/teamgit) by Abhijit Bhopatkar is a successor of kgit. It is intended to be a complete developmenet workflow management app with git as a base tool. As of oct 2008 it can be used as a pretty good commit tool. Please see feature table below.
+
 === [[GitNub]] ===
 * [[GitNub]] ([http://github.com/Caged/gitnub/wikis homepage], [[http://github.com/Caged/gitnub/tree/master github]) by Justin Palmer is an Mac OSX Leopard client for git written in Ruby and Objective-C.
 <!-- ## is it more like gitk or qgit, or more like git-gui?
