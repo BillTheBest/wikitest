@@ -752,6 +752,9 @@ A Ruby script that imports Monotone repositories with different modes of operati
 === Chuyen ===
 * [http://code.istique.net/?p=chuyen.git;a=summary Chuyen] is a weblog software written in Python, using the django web framework and git as its data storage backend through pygit. It uses ReStructuredText as its markup language.
 
+=== ymcGitWiki ===
+* [http://www.ohloh.net/projects/ymcgitwiki ymcGitWiki] is a wiki software written in PHP, using [http://ezcomponents.org eZ Components] and git as its data storage backend. It can use ReStructuredText as well as different Wiki syntaxes as its markup language.
+
 == Bug/issue trackers, etc. ==
 
 === ditz ===
