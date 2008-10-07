@@ -222,7 +222,7 @@
 |  Y      
 |  Y        
 |  Y         
-|  (git-forest) 
+|  Y            
 |  (gct) 
 |  external 
 |  (Qct) 
@@ -345,7 +345,7 @@
 |  (git-forest) 
 |  (gct) 
 |  (pmpu)   
-|  (Qct) 
+|  Y     
 |  Y 
 |  (gitool) 
 |  ([[GitNub]]) 
@@ -445,7 +445,7 @@
 |  (git-forest) 
 |  (gct) 
 |  (pmpu) 
-|  (Qct) 
+|  Y     
 |  Y 
 |  (gitool) 
 |  Y        
