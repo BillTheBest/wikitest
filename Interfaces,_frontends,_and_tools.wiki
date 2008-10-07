@@ -149,7 +149,7 @@
 |  GitX 
 |  Pyrite 
 |  gitSafe 
-|  (KGit) 
+|  teamGit 
 | 
 |}
 <!-- ##------------------------------
@@ -192,7 +192,7 @@
 |  Cocoa 
 |  ?      
 |  MFC  
-|  KDE  
+|  Qt4  
 | 
 |-
 |  last activity 
@@ -212,7 +212,7 @@
 |  2008  
 |  2008   
 |  2008 
-|  2007 
+|  2008 
 | 
 |}
 <!-- ##------------------------------
@@ -255,7 +255,7 @@
 |  (GitX) 
 |  (Pyrite) 
 |  (gitSafe) 
-|  (KGit) 
+|  Y 
 | 
 |-
 |  (un)stage files 
@@ -275,7 +275,7 @@
 |  (GitX) 
 |  (Pyrite) 
 |  (gitSafe) 
-|  (KGit) 
+|  Y 
 | 
 |-
 |  partial staging 
@@ -295,7 +295,7 @@
 |  (GitX) 
 |  (Pyrite) 
 |  (gitSafe) 
-|  (KGit) 
+|  Y 
 | 
 |-
 |  checkout        
@@ -315,7 +315,7 @@
 |  (GitX) 
 |  (Pyrite) 
 |  (gitSafe) 
-|  (KGit) 
+|  Y 
 | 
 |-
 |  cherry-pick     
@@ -335,7 +335,7 @@
 |  (GitX) 
 |  (Pyrite) 
 |  (gitSafe) 
-|  (KGit) 
+|  Y 
 | 
 |-
 |  committing      
@@ -355,7 +355,7 @@
 |  (GitX) 
 |  (Pyrite) 
 |  (gitSafe) 
-|  (KGit) 
+|  Y 
 | 
 |-
 |  remote features 
@@ -375,7 +375,7 @@
 |  (GitX) 
 |  (Pyrite) 
 |  (gitSafe) 
-|  (KGit) 
+|  Partial 
 | 
 |-
 |  stash           
@@ -395,7 +395,7 @@
 |  (GitX) 
 |  (Pyrite) 
 |  Y         
-|  (KGit) 
+|  N 
 | 
 |-
 |  create patches  
@@ -415,7 +415,7 @@
 |  (GitX) 
 |  (Pyrite) 
 |  (gitSafe) 
-|  (KGit) 
+|  N 
 | 
 |-
 |  interfaces w/ external diff viewers 
@@ -435,7 +435,7 @@
 |  (GitX) 
 |  (Pyrite) 
 |  (gitSafe) 
-|  (KGit) 
+|  N 
 | 
 |-
 |  diff +/- highlighting 
@@ -475,7 +475,7 @@
 |  (GitX) 
 |  (Pyrite) 
 |  Y         
-|  (KGit) 
+|  N 
 | 
 |-
 |  merge features 
@@ -495,7 +495,7 @@
 |  (GitX) 
 |  (Pyrite) 
 |  (gitSafe) 
-|  (KGit) 
+|  N 
 | 
 |-
 |  (add cool feature here) 
@@ -515,7 +515,7 @@
 |  (GitX) 
 |  (Pyrite) 
 |  (gitSafe) 
-|  (KGit) 
+|  git-reset, tags,   
 | 
 |}
 <!-- ##------------------------------
