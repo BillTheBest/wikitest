@@ -538,7 +538,7 @@
 |  (GitX) 
 |  (Pyrite) 
 |  (gitSafe) 
-|  (KGit) 
+|  n/a 
 | 
 |}
 <!-- ##------------------------------
@@ -561,7 +561,7 @@
 |  [http://ss.frim.nl/==891 X] 
 |  (Pyrite) 
 |  [http://gitsafe.googlecode.com/files/gitSafe%200.0.1.png X] 
-|  [http://kgit.sourceforge.net/kgit_screenshot1.png X] 
+|  [http://www.devslashzero.com/image/tde/1 X] 
 | 
 |}
 <!-- ## table end
