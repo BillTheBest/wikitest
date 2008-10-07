@@ -162,6 +162,18 @@ All meals with the exception of Tuesday and Wednesday night are free.  Tuesday a
 |  Git GUI that even a designer would use                       
 |  1 hour            
 | 
+|-
+|  Jeff King           
+|  Talk/Discussion       
+|  Helping new developers join the git community                
+|  0.5 hour          
+| 
+|-
+|  Jeff King           
+|  Talk/Disccusion       
+|  What needs refactoring?                                      
+|  0.5 hour          
+| 
 |}
 
 If anyone else wants to introduce or lead a section, please add your name above to volunteer.
