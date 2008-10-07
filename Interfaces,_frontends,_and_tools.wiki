@@ -221,18 +221,18 @@
 |  Y     
 |  Y      
 |  Y        
-|  (gitview) 
+|  Y         
 |  (git-forest) 
 |  (gct) 
 |  external 
 |  (Qct) 
 |  external 
 |  (gitool) 
-|  ([[GitNub]]) 
+|  Y 
 |  Y      
 |  (Pyrite) 
-|  (gitSafe) 
-|  (KGit) 
+|  Y         
+|  Y      
 | 
 |-
 |  history search  
@@ -391,7 +391,7 @@
 |  ([[GitNub]]) 
 |  (GitX) 
 |  (Pyrite) 
-|  (gitSafe) 
+|  Y         
 |  (KGit) 
 | 
 |-
@@ -441,18 +441,18 @@
 |  (tig) 
 |  Y 
 |  (Giggle) 
-|  (gitview) 
+|  Y 
 |  (git-forest) 
 |  (gct) 
 |  (pmpu) 
 |  (Qct) 
 |  Y 
 |  (gitool) 
-|  ([[GitNub]]) 
-|  (GitX) 
+|  Y        
+|  Y      
 |  (Pyrite) 
 |  (gitSafe) 
-|  (KGit) 
+|  Y      
 | 
 |-
 |  compare commits 
@@ -471,7 +471,7 @@
 |  ([[GitNub]]) 
 |  (GitX) 
 |  (Pyrite) 
-|  (gitSafe) 
+|  Y         
 |  (KGit) 
 | 
 |-
