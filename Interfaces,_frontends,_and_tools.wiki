@@ -486,7 +486,7 @@
 |  (gct) 
 |  (pmpu) 
 |  (Qct) 
-|  (git-cola) 
+|  Y 
 |  (gitool) 
 |  ([[GitNub]]) 
 |  (GitX) 
