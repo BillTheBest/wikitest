@@ -105,7 +105,7 @@
 * [http://cola.tuxfamily.org/ git-cola] ([http://repo.or.cz/w/git-cola.git gitweb], [http://github.com/davvid/git-cola/tree/master github], [http://gitorious.org/projects/git-cola/ gitorious]) by David Aguilar is a git commit tool, similar to git-gui, written in PyQt4. You can get tarballs and debian pacakges at http://cola.tuxfamily.org/.
 
 === gitool ===
-* [[Gitool:gitool]] ([http://thread.gmane.org/gmane.comp.version-control.git/26415 announcement], [http://ozlabs.org/~paulus/gitool download], [http://www.kernel.org/git/?p=gitk/gitk.git;a=shortlog;h=new gitweb]) by Paul Mackerras is a tool for creating commits. Superseded by git-gui (see above). Written in Tcl/Tk.
+* [[Gitool:gitool]] ([http://thread.gmane.org/gmane.comp.version-control.git/26415 announcement], [http://ozlabs.org/~paulus/gitool download], [http://www.kernel.org/git/?p=gitk/gitk.git;a=shortlog;h=new gitweb]) by Paul Mackerras is a tool for creating commits. Superseded by git-gui (see above). Last development activity in 2007. Written in Tcl/Tk.
 
 === KGit ===
 * [[KGit]] (http://kgit.sourceforge.net/) by Abhijit Bhopatkar is intended to be a small but functional frontend to the popular source control program, git. It is similar to gitk with two significant differences. First of all, it is written in Qt using lop and the KDE libraires. Secondly, it is not only a repository viewer, unlike gitk. It is now defunct and deprecated by the author. Has no future.
@@ -144,7 +144,6 @@
 |  pmpu 
 |  Qct 
 |  git-cola 
-|  gitool 
 |  [[GitNub]] 
 |  GitX 
 |  Pyrite 
@@ -167,7 +166,6 @@
 |  Python 
 |  (Qct) 
 |  Python 
-|  Tcl  
 |  ObjC, Ruby 
 |  ObjC  
 |  Python 
@@ -187,7 +185,6 @@
 |  Qt4    
 |  Qt    
 |  Qt4    
-|  Tk   
 |  Cocoa      
 |  Cocoa 
 |  ?      
@@ -207,7 +204,6 @@
 |  2008   
 |  2008  
 |  2008   
-|  2007 
 |  2008       
 |  2008  
 |  2008   
@@ -229,8 +225,7 @@
 |  (gct) 
 |  external 
 |  (Qct) 
-|  external 
-|  (gitool) 
+|  external  
 |  Y 
 |  Y      
 |  (Pyrite) 
@@ -249,8 +244,7 @@
 |  (gct) 
 |  (pmpu)   
 |  (Qct) 
-|  Y 
-|  (gitool) 
+|  Y  
 |  ([[GitNub]]) 
 |  (GitX) 
 |  (Pyrite) 
@@ -269,8 +263,7 @@
 |  (gct) 
 |  (pmpu)   
 |  (Qct) 
-|  Y 
-|  (gitool) 
+|  Y  
 |  ([[GitNub]]) 
 |  (GitX) 
 |  (Pyrite) 
@@ -289,8 +282,7 @@
 |  (gct) 
 |  (pmpu)   
 |  (Qct) 
-|  Y 
-|  (gitool) 
+|  Y  
 |  ([[GitNub]]) 
 |  (GitX) 
 |  (Pyrite) 
@@ -309,8 +301,7 @@
 |  (gct) 
 |  (pmpu)   
 |  (Qct) 
-|  Y 
-|  (gitool) 
+|  Y  
 |  ([[GitNub]]) 
 |  (GitX) 
 |  (Pyrite) 
@@ -329,8 +320,7 @@
 |  (gct) 
 |  (pmpu)   
 |  (Qct) 
-|  Y 
-|  (gitool) 
+|  Y  
 |  ([[GitNub]]) 
 |  (GitX) 
 |  (Pyrite) 
@@ -349,8 +339,7 @@
 |  (gct) 
 |  (pmpu)   
 |  Y     
-|  Y 
-|  (gitool) 
+|  Y  
 |  ([[GitNub]]) 
 |  (GitX) 
 |  (Pyrite) 
@@ -369,8 +358,7 @@
 |  (gct) 
 |  (pmpu)   
 |  (Qct) 
-|  Y 
-|  (gitool) 
+|  Y  
 |  ([[GitNub]]) 
 |  (GitX) 
 |  (Pyrite) 
@@ -389,8 +377,7 @@
 |  (gct) 
 |  (pmpu)   
 |  (Qct) 
-|  Y 
-|  (gitool) 
+|  Y  
 |  ([[GitNub]]) 
 |  (GitX) 
 |  (Pyrite) 
@@ -409,8 +396,7 @@
 |  (gct) 
 |  (pmpu)   
 |  (Qct) 
-|  Y 
-|  (gitool) 
+|  Y  
 |  ([[GitNub]]) 
 |  (GitX) 
 |  (Pyrite) 
@@ -449,8 +435,7 @@
 |  (gct) 
 |  (pmpu) 
 |  Y     
-|  Y 
-|  (gitool) 
+|  Y  
 |  Y        
 |  Y      
 |  (Pyrite) 
@@ -470,7 +455,6 @@
 |  (pmpu) 
 |  (Qct) 
 |  Y 
-|  (gitool) 
 |  ([[GitNub]]) 
 |  (GitX) 
 |  (Pyrite) 
@@ -490,7 +474,6 @@
 |  (pmpu) 
 |  (Qct) 
 |  Y 
-|  (gitool) 
 |  ([[GitNub]]) 
 |  (GitX) 
 |  (Pyrite) 
@@ -510,7 +493,6 @@
 |  (pmpu) 
 |  (Qct) 
 |  (git-cola) 
-|  (gitool) 
 |  ([[GitNub]]) 
 |  (GitX) 
 |  (Pyrite) 
@@ -533,7 +515,6 @@
 |  (pmpu) 
 |  (Qct) 
 |  partial de, fr, hu, it, ja, ru, sv, zh_cn 
-|  (gitool) 
 |  ([[GitNub]]) 
 |  (GitX) 
 |  (Pyrite) 
@@ -556,7 +537,6 @@
 |  [http://pmpu.sharesource.org/pmpu2.png X] 
 |  [http://qct.sourceforge.net/qct-1.2.png X] 
 |  [http://cola.tuxfamily.org/screenshots.php X] 
-|  (gitool) 
 |  [http://s3.amazonaws.com/caged/gitnub-0.9.0.png X] 
 |  [http://ss.frim.nl/==891 X] 
 |  (Pyrite) 
