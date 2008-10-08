@@ -246,7 +246,7 @@
 |  (Qct) 
 |  Y  
 |  ([[GitNub]]) 
-|  (GitX) 
+|  Partial 
 |  (Pyrite) 
 |  (gitSafe) 
 |  Y 
@@ -265,7 +265,7 @@
 |  (Qct) 
 |  Y  
 |  ([[GitNub]]) 
-|  (GitX) 
+|  Y 
 |  (Pyrite) 
 |  (gitSafe) 
 |  Y 
@@ -341,7 +341,7 @@
 |  Y     
 |  Y  
 |  ([[GitNub]]) 
-|  (GitX) 
+|  Y 
 |  (Pyrite) 
 |  (gitSafe) 
 |  Y 
