@@ -531,7 +531,7 @@
  -->
 {| border="1" cellpadding="2" cellspacing="0"
 |  Screenshot 
-|  (gitk) 
+|  [http://lwn.net/Articles/140350/ X] 
 |  [http://www.spearce.org/2007/01/git-gui-screenshots.html X] 
 |  [http://jonas.nitro.dk/tig/screenshots/main-view-split.png X] 
 |  [http://sourceforge.net/dbimage.php?id=72613 X] 
