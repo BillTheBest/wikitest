@@ -229,7 +229,7 @@ Google will be serving hot breakfast each day, in addition to endless coffee and
 
 Plenty of table space and power outlets will be available in the meeting room.  Folks outside the US may need to bring an outlet adapter/voltage converter.  Please make sure to bring your laptop power supply.  Unlike most Google conference rooms our meeting space does not come with built-in laptop power connectors.  Even Googlers need to bring their own power supply.
 
-Google has free wireless Internet access available everywhere on the campus ("[[GoogleGuest]]").  802.11 wireless support is required to connect to the Internet.  Hardwired LAN connections might be available in our meeting space, but don't count on it.  If you think you'll want to get online during the sessions please test your wireless to make sure it is working before you travel.
+Google has free wireless Internet access available everywhere on the campus ("[[GoogleGuest]]").  802.11 wireless support is required to connect to the Internet.  Hardwired LAN connections are not available in our meeting space.  If you think you'll want to get online during the sessions please test your wireless to make sure it is working before you travel.
 
 == Travel Details ==
 
