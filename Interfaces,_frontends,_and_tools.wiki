@@ -398,7 +398,7 @@
 |  (Qct) 
 |  Y  
 |  ([[GitNub]]) 
-|  (GitX) 
+|  Y, upload to github 
 |  (Pyrite) 
 |  (gitSafe) 
 |  N 
