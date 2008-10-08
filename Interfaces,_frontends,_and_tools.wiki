@@ -416,7 +416,6 @@
 |  (pmpu) 
 |  (Qct) 
 |  Y 
-|  (gitool) 
 |  ([[GitNub]]) 
 |  (GitX) 
 |  (Pyrite) 
