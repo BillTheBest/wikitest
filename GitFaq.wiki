@@ -779,7 +779,7 @@ Yes, use [http://www.kernel.org/pub/software/scm/git/docs/git-cvsimport.html git
 
 <<Anchor(import-svn)>>
 == Can I import from svn? ==
-Yes, use [http://git-svn.yhbt.net/git-svn.html git-svn(1)]. Check also [[InterfacesFrontendsAndTools#git-svnconvert:git-svnconvert]] (in Ruby) in [[InterfacesFrontendsAndTools]]. There is also an idea to use <code><nowiki>svnadmin dump</nowiki></code> [http://svn.collab.net/repos/svn/trunk/notes/fs_dumprestore.txt "dumpfile" format] as an input for Subversion to Git repository conversion, (similary to what <code><nowiki>parsecvs</nowiki></code> does for CVS repositories).
+Yes, use [http://git-svn.yhbt.net/git-svn.html git-svn(1)]. Check also [[InterfacesFrontendsAndTools#git-svnconvert:git-svnconvert]] (in Ruby) in [[InterfacesFrontendsAndTools]]. There is also an idea to use <code><nowiki>svnadmin dump</nowiki></code> [http://svn.collab.net/repos/svn/trunk/notes/fs_dumprestore.txt "dumpfile" format] as an input for Subversion to Git repository conversion, (similary to what <code><nowiki>parsecvs</nowiki></code> does for CVS repositories).  [http://cvs2svn.tigris.org/ cvs2svn] version 2.1 or later has a [http://cvs2svn.tigris.org/cvs2git.html git output mode] in which it creates dump files that can be read by [http://www.kernel.org/pub/software/scm/git/docs/git-fast-import.html git fast-import].
 * See [http://git.or.cz/course/svn.html Git - SVN Crash Course] on [http://git.or.cz/ Git homepage]
 
 <<Anchor(import-arch)>>
