@@ -157,7 +157,7 @@ $ git commit  # or git rebase --continue or whatever
 
 <pre><nowiki>
 [alias]
-        graphviz = "!f() { echo 'digraph git {' ; git log --pretty='format:  %h -> { %p }' \"$@\" | sed 's/[0-9a-f]\\+/\"&\"/g' ; echo '}'; }; f"
+        graphviz = "!f() { echo 'digraph git {' ; git log --pretty='format:  %h -> { %p }' \"$@\" | sed 's/[0-9a-f][0-9a-f]*/\"&\"/g' ; echo '}'; }; f"
 </nowiki></pre>
 
 This produces output that can be displayed using dotty, for example:
