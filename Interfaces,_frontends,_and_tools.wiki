@@ -480,7 +480,7 @@
 |  N 
 | 
 |-
-|  (add cool feature here) 
+|  inotify support 
 |  (gitk) 
 |  (git-gui) 
 |  (tig) 
@@ -491,7 +491,7 @@
 |  (gct) 
 |  (pmpu) 
 |  (Qct) 
-|  (git-cola) 
+|  Y 
 |  ([[GitNub]]) 
 |  (GitX) 
 |  (Pyrite) 
@@ -499,6 +499,12 @@
 |  git-reset, tags,   
 | 
 |}
+<!-- ##
+ -->
+<!-- ##|| (add cool feature here) || (gitk) || (git-gui) || (tig) || (QGit) || (Giggle) || (gitview) || (git-forest) || (gct) || (pmpu) || (Qct) || (git-cola) || ([[GitNub]]) || (GitX) || (Pyrite) || (gitSafe) || git-reset, tags,   ||
+ -->
+<!-- ##
+ -->
 <!-- ##------------------------------
  -->
 {| border="1" cellpadding="2" cellspacing="0"
