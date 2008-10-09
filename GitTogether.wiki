@@ -12,7 +12,7 @@ Any questions, please contact Shawn Pearce (gsoc@spearce.org).
 
 == Attendees ==
 
-# Junio C. Hamano
+# Junio C. Hamano (not on Wednesday)
 # Shawn O. Pearce
 # Petr Baudis
 # John "Warthog" Hawley
