@@ -154,7 +154,7 @@
 <!-- ##------------------------------
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-|  written in 
+|  written in    
 |  Tcl  
 |  Tcl  
 |  C      
@@ -173,7 +173,7 @@
 |  C++  
 | 
 |-
-|  UI toolkit 
+|  UI toolkit    
 |  Tk   
 |  Tk   
 |  curses 
@@ -184,7 +184,7 @@
 |  Qt     
 |  Qt4    
 |  Qt    
-|  Qt4    
+|  Qt4     
 |  Cocoa      
 |  Cocoa 
 |  ?      
@@ -195,15 +195,15 @@
 |  last activity 
 |  2008 
 |  2008 
+|  2008   
 |  2008 
 |  2008 
-|  2008 
-|  2006  
+|  2006   
 |  2008 
 |  2007   
 |  2008   
 |  2008  
-|  2008   
+|  2008    
 |  2008       
 |  2008  
 |  2008   
@@ -214,7 +214,7 @@
 <!-- ##------------------------------
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-|  tree view       
+|  tree view                           
 |  X 
 |  ext 
 |  X 
@@ -230,10 +230,10 @@
 |  X 
 |    
 |    
-|    
+|       
 | 
 |-
-|  history viewer  
+|  history viewer                      
 |  X 
 |      
 |  X 
@@ -249,10 +249,10 @@
 |  X 
 |  ? 
 |  X 
-|  X 
+|   X   
 | 
 |-
-|  history search  
+|  history search                      
 |  X 
 |      
 |  X 
@@ -268,10 +268,10 @@
 |    
 |  ? 
 |    
-|  X 
+|   X   
 | 
 |-
-|  (un)stage files 
+|  (un)stage files                     
 |    
 |   X  
 |  X 
@@ -287,10 +287,10 @@
 |  X 
 |  ? 
 |    
-|  X 
+|   X   
 | 
 |-
-|  partial staging 
+|  partial staging                     
 |    
 |   X  
 |    
@@ -306,10 +306,10 @@
 |    
 |    
 |    
-|  X 
+|   X   
 | 
 |-
-|  checkout        
+|  checkout                            
 |    
 |   X  
 |  X 
@@ -325,10 +325,10 @@
 |    
 |  ? 
 |  X 
-|  X 
+|   X   
 | 
 |-
-|  cherry-pick     
+|  cherry-pick                         
 |    
 |      
 |  X 
@@ -344,10 +344,10 @@
 |    
 |  ? 
 |    
-|  X 
+|   X   
 | 
 |-
-|  committing      
+|  committing                          
 |    
 |   X  
 |  X 
@@ -363,10 +363,10 @@
 |  X 
 |  ? 
 |  X 
-|  X 
+|   X   
 | 
 |-
-|  remote features 
+|  remote features                     
 |    
 |   X  
 |    
@@ -385,7 +385,7 @@
 |  some 
 | 
 |-
-|  stash           
+|  stash                               
 |    
 |      
 |    
@@ -401,10 +401,10 @@
 |    
 |  ? 
 |  X 
-|    
+|       
 | 
 |-
-|  format patch    
+|  format patch                        
 |  X 
 |      
 |    
@@ -420,11 +420,12 @@
 |  X 
 |  ? 
 |    
-|    
+|       
 | 
 |-
 |  interfaces w/ external diff viewers 
 |    
+|      
 |    
 |    
 |    
@@ -433,18 +434,17 @@
 |    
 |    
 |    
-|    
-|  X 
-|    
+|   X  
 |    
 |    
 |    
 |    
+|       
 | 
 |-
-|  diff +/- highlighting 
+|  diff +/- highlighting               
 |  X 
-|  X 
+|   X  
 |  X 
 |  X 
 |  X 
@@ -453,53 +453,55 @@
 |    
 |    
 |  X 
-|  X  
+|   X  
 |  X 
 |  X 
 |    
 |    
-|  X 
+|   X   
 | 
 |-
-|  compare commits 
+|  compare commits                     
+|  X 
+|      
+|  X 
 |  X 
 |    
-|  X 
-|  X 
 |    
 |    
 |    
 |    
 |    
-|    
-|  X 
+|   X  
 |    
 |    
 |  ? 
 |  X 
-|    
+|       
 | 
 |-
-|  merge features  
+|  merge features                      
 |    
-|  X 
-|    
-|    
+|   X  
 |    
 |    
 |    
 |    
 |    
 |    
-|  X 
+|    
+|    
+|   X  
 |    
 |    
 |  ? 
 |  ? 
-|    
+|       
 | 
 |-
 |  [http://en.wikipedia.org/wiki/Inotify inotify] support 
+|   
+|      
 |    
 |    
 |    
@@ -508,9 +510,7 @@
 |    
 |    
 |    
-|    
-|    
-|  X 
+|   X  
 |    
 |    
 |    
