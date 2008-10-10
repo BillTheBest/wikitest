@@ -215,307 +215,307 @@
  -->
 {| border="1" cellpadding="2" cellspacing="0"
 |  tree view       
-|  Y 
+|  X 
 |  ext 
-|  Y 
-|  Y 
-|  Y 
-|  Y 
-|  Y 
-|  N 
-|  N 
-|  N 
+|  X 
+|  X 
+|  X 
+|  X 
+|  X 
+|    
+|    
+|    
 |  ext 
-|  Y 
-|  Y 
-|  N 
-|  N 
-|  N 
+|  X 
+|  X 
+|    
+|    
+|    
 | 
 |-
 |  history viewer  
-|  Y 
-|   N  
-|  Y 
-|  Y 
-|  Y 
-|  Y 
-|  Y 
-|  N 
-|  Y 
-|  N 
-|   Y  
-|  Y 
-|  Y 
+|  X 
+|      
+|  X 
+|  X 
+|  X 
+|  X 
+|  X 
+|    
+|  X 
+|    
+|   X  
+|  X 
+|  X 
 |  ? 
-|  Y 
-|  Y 
+|  X 
+|  X 
 | 
 |-
 |  history search  
-|  Y 
-|   N  
-|  Y 
-|  Y 
-|  Y 
-|  N 
-|  N 
-|  N 
-|  N 
-|  N 
-|   Y  
-|  Y 
-|  N 
+|  X 
+|      
+|  X 
+|  X 
+|  X 
+|    
+|    
+|    
+|    
+|    
+|   X  
+|  X 
+|    
 |  ? 
-|  N 
-|  Y 
+|    
+|  X 
 | 
 |-
 |  (un)stage files 
-|  N 
-|   Y  
-|  Y 
-|  N 
-|  N 
-|  N 
-|  N 
-|  N 
-|  N 
-|  N 
-|   Y  
-|  N 
-|  Y 
+|    
+|   X  
+|  X 
+|    
+|    
+|    
+|    
+|    
+|    
+|    
+|   X  
+|    
+|  X 
 |  ? 
-|  N 
-|  Y 
+|    
+|  X 
 | 
 |-
 |  partial staging 
-|  N 
-|   Y  
-|  N 
-|  N 
-|  N 
-|  N 
-|  N 
-|  N 
-|  N 
-|  N 
-|   Y  
-|  N 
-|  N 
-|  N 
-|  N 
-|  Y 
+|    
+|   X  
+|    
+|    
+|    
+|    
+|    
+|    
+|    
+|    
+|   X  
+|    
+|    
+|    
+|    
+|  X 
 | 
 |-
 |  checkout        
-|  Y 
-|   Y  
-|  Y 
-|  Y 
-|  N 
-|  N 
-|  N 
-|  N 
-|  N 
-|  N 
-|   Y  
-|  N 
-|  N 
+|    
+|   X  
+|  X 
+|  X 
+|    
+|    
+|    
+|    
+|    
+|    
+|   X  
+|    
+|    
 |  ? 
-|  Y 
-|  Y 
+|  X 
+|  X 
 | 
 |-
 |  cherry-pick     
-|  Y 
-|   N  
-|  Y 
-|  Y 
-|  N 
-|  N 
-|  N 
-|  N 
-|  N 
-|  N 
-|   Y  
-|  N 
-|  N 
+|    
+|      
+|  X 
+|  X 
+|    
+|    
+|    
+|    
+|    
+|    
+|   X  
+|    
+|    
 |  ? 
-|  N 
-|  Y 
+|    
+|  X 
 | 
 |-
 |  committing      
-|  N 
-|   Y  
-|  Y 
-|  Y 
-|  N 
-|  N 
-|  N 
-|  Y 
-|  Y 
-|  Y 
-|   Y  
-|  N 
-|  Y 
+|    
+|   X  
+|  X 
+|  X 
+|    
+|    
+|    
+|  X 
+|  X 
+|  X 
+|   X  
+|    
+|  X 
 |  ? 
-|  Y 
-|  Y 
+|  X 
+|  X 
 | 
 |-
 |  remote features 
-|  N 
-|   Y  
-|  N 
-|  N 
-|  N 
-|  N 
-|  N 
-|  N 
-|  Y 
-|  N 
-|   Y  
-|  N 
-|  N 
+|    
+|   X  
+|    
+|    
+|    
+|    
+|    
+|    
+|  X 
+|    
+|   X  
+|    
+|    
 |  ? 
-|  N 
+|    
 |  some 
 | 
 |-
 |  stash           
-|  N 
-|   N  
-|  N 
-|  N 
-|  N 
-|  N 
-|  N 
-|  N 
-|  N 
-|  N 
-|   Y  
-|  N 
-|  N 
+|    
+|      
+|    
+|    
+|    
+|    
+|    
+|    
+|    
+|    
+|   X  
+|    
+|    
 |  ? 
-|  Y 
-|  N 
+|  X 
+|    
 | 
 |-
 |  format patch    
-|  Y 
-|   N  
-|  N 
-|  Y 
-|  N 
-|  N 
-|  N 
-|  N 
-|  N 
-|  N 
-|   Y  
-|  N 
-|  Y 
+|  X 
+|      
+|    
+|  X 
+|    
+|    
+|    
+|    
+|    
+|    
+|   X  
+|    
+|  X 
 |  ? 
-|  N 
-|  N 
+|    
+|    
 | 
 |-
 |  interfaces w/ external diff viewers 
-|  N 
-|  N 
-|  N 
-|  N 
-|  N 
-|  N 
-|  N 
-|  N 
-|  N 
-|  N 
-|  Y 
-|  N 
-|  N 
-|  N 
-|  N 
-|  N 
+|    
+|    
+|    
+|    
+|    
+|    
+|    
+|    
+|    
+|    
+|  X 
+|    
+|    
+|    
+|    
+|    
 | 
 |-
 |  diff +/- highlighting 
-|  Y 
-|  Y 
-|  Y 
-|  Y 
-|  Y 
-|  Y 
-|  N 
-|  N 
-|  N 
-|  Y 
-|  Y  
-|  Y 
-|  Y 
-|  N 
-|  N 
-|  Y 
+|  X 
+|  X 
+|  X 
+|  X 
+|  X 
+|  X 
+|    
+|    
+|    
+|  X 
+|  X  
+|  X 
+|  X 
+|    
+|    
+|  X 
 | 
 |-
 |  compare commits 
-|  Y 
-|  N 
-|  Y 
-|  Y 
-|  N 
-|  N 
-|  N 
-|  N 
-|  N 
-|  N 
-|  Y 
-|  N 
-|  N 
+|  X 
+|    
+|  X 
+|  X 
+|    
+|    
+|    
+|    
+|    
+|    
+|  X 
+|    
+|    
 |  ? 
-|  Y 
-|  N 
+|  X 
+|    
 | 
 |-
 |  merge features  
-|  N 
-|  Y 
-|  N 
-|  N 
-|  N 
-|  N 
-|  N 
-|  N 
-|  N 
-|  N 
-|  Y 
-|  N 
-|  N 
+|    
+|  X 
+|    
+|    
+|    
+|    
+|    
+|    
+|    
+|    
+|  X 
+|    
+|    
 |  ? 
 |  ? 
-|  N 
+|    
 | 
 |-
 |  [http://en.wikipedia.org/wiki/Inotify inotify] support 
-|  N 
-|  N 
-|  N 
-|  N 
-|  N 
-|  N 
-|  N 
-|  N 
-|  N 
-|  N 
-|  Y 
-|  N 
-|  N 
-|  N 
-|  N 
-|  N 
+|    
+|    
+|    
+|    
+|    
+|    
+|    
+|    
+|    
+|    
+|  X 
+|    
+|    
+|    
+|    
+|    
 | 
 |}
 <!-- ##
@@ -530,20 +530,20 @@
 |  i18n 
 |  de, es, it, sv 
 |  de, fr, hu, it, ja, ru, sv, zh_cn 
-|  N 
-|  N 
-|  N 
-|  N 
-|  N 
-|  N 
-|  N 
-|  N 
+|    
+|    
+|    
+|   
+|    
+|    
+|    
+|    
 |  partial de, fr, hu, it, ja, ru, sv, zh_cn 
-|  N 
-|  N 
-|  N 
-|  N 
-|  N 
+|    
+|    
+|    
+|    
+|    
 | 
 |}
 <!-- ##------------------------------
