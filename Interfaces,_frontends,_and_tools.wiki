@@ -499,7 +499,7 @@
 |  N 
 | 
 |-
-|  inotify support 
+|  [http://en.wikipedia.org/wiki/Inotify inotify] support 
 |  N 
 |  N 
 |  N 
