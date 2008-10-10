@@ -214,6 +214,25 @@
 <!-- ##------------------------------
  -->
 {| border="1" cellpadding="2" cellspacing="0"
+|  tree view 
+|  Y 
+|  external 
+|  (tig) 
+|  Y 
+|  Y 
+|  Y 
+|  (git-forest) 
+|  (gct) 
+|  (pmpu) 
+|  (Qct) 
+|  external 
+|  ([[GitNub]]) 
+|  (GitX) 
+|  (Pyrite) 
+|  (gitSafe) 
+|  (teamGit) 
+| 
+|-
 |  history viewer  
 |  Y 
 |  N 
@@ -225,7 +244,7 @@
 |  (gct) 
 |  external 
 |  (Qct) 
-|  external  
+|  Y 
 |  Y 
 |  Y      
 |  (Pyrite) 
@@ -501,7 +520,7 @@
 |}
 <!-- ##
  -->
-<!-- ##|| (add cool feature here) || (gitk) || (git-gui) || (tig) || (QGit) || (Giggle) || (gitview) || (git-forest) || (gct) || (pmpu) || (Qct) || (git-cola) || ([[GitNub]]) || (GitX) || (Pyrite) || (gitSafe) || git-reset, tags,   ||
+<!-- ##|| (add cool feature here) || (gitk) || (git-gui) || (tig) || (QGit) || (Giggle) || (gitview) || (git-forest) || (gct) || (pmpu) || (Qct) || (git-cola) || ([[GitNub]]) || (GitX) || (Pyrite) || (gitSafe) || (teamGit) ||
  -->
 <!-- ##
  -->
