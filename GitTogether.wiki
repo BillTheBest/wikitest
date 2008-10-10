@@ -19,7 +19,7 @@ Any questions, please contact Shawn Pearce (gsoc@spearce.org).
 # Johannes Schindelin
 # Sam Vilain
 # David Symonds
-# Christian Couder
+# Christian Couder (not on Wednesday)
 # Scott Chacon
 # Nick Hengeveld
 # Steven Grimm
