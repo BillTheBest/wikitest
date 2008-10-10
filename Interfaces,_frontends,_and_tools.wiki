@@ -164,7 +164,7 @@
 |  Perl 
 |  Python 
 |  Python 
-|  (Qct) 
+|  Python 
 |  Python 
 |  ObjC, Ruby 
 |  ObjC  
@@ -214,308 +214,308 @@
 <!-- ##------------------------------
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-|  tree view 
+|  tree view       
 |  Y 
-|  external 
-|  (tig) 
-|  Y 
+|  ext 
 |  Y 
 |  Y 
-|  (git-forest) 
-|  (gct) 
-|  (pmpu) 
-|  (Qct) 
-|  external 
-|  ([[GitNub]]) 
-|  (GitX) 
-|  (Pyrite) 
-|  (gitSafe) 
-|  (teamGit) 
+|  Y 
+|  Y 
+|  Y 
+|  N 
+|  N 
+|  N 
+|  ext 
+|  Y 
+|  Y 
+|  N 
+|  N 
+|  N 
 | 
 |-
 |  history viewer  
 |  Y 
+|   N  
+|  Y 
+|  Y 
+|  Y 
+|  Y 
+|  Y 
 |  N 
-|  Y     
-|  Y      
-|  Y        
-|  Y         
-|  Y            
-|  (gct) 
-|  external 
-|  (Qct) 
+|  Y 
+|  N 
+|   Y  
 |  Y 
 |  Y 
-|  Y      
-|  (Pyrite) 
-|  Y         
-|  Y      
+|  ? 
+|  Y 
+|  Y 
 | 
 |-
 |  history search  
 |  Y 
+|   N  
+|  Y 
+|  Y 
+|  Y 
 |  N 
-|  (tig) 
-|  (QGit) 
-|  (Giggle) 
-|  (gitview) 
-|  (git-forest) 
-|  (gct) 
-|  (pmpu)   
-|  (Qct) 
-|  Y  
-|  ([[GitNub]]) 
-|  Partial 
-|  (Pyrite) 
-|  (gitSafe) 
+|  N 
+|  N 
+|  N 
+|  N 
+|   Y  
+|  Y 
+|  N 
+|  ? 
+|  N 
 |  Y 
 | 
 |-
 |  (un)stage files 
 |  N 
+|   Y  
 |  Y 
-|  (tig) 
-|  (QGit) 
-|  (Giggle) 
-|  (gitview) 
-|  (git-forest) 
-|  (gct) 
-|  (pmpu)   
-|  (Qct) 
-|  Y  
-|  ([[GitNub]]) 
+|  N 
+|  N 
+|  N 
+|  N 
+|  N 
+|  N 
+|  N 
+|   Y  
+|  N 
 |  Y 
-|  (Pyrite) 
-|  (gitSafe) 
+|  ? 
+|  N 
 |  Y 
 | 
 |-
 |  partial staging 
 |  N 
-|  Y 
-|  (tig) 
-|  (QGit) 
-|  (Giggle) 
-|  (gitview) 
-|  (git-forest) 
-|  (gct) 
-|  (pmpu)   
-|  (Qct) 
-|  Y  
-|  ([[GitNub]]) 
-|  (GitX) 
-|  (Pyrite) 
-|  (gitSafe) 
+|   Y  
+|  N 
+|  N 
+|  N 
+|  N 
+|  N 
+|  N 
+|  N 
+|  N 
+|   Y  
+|  N 
+|  N 
+|  N 
+|  N 
 |  Y 
 | 
 |-
 |  checkout        
 |  Y 
+|   Y  
 |  Y 
-|  (tig) 
-|  (QGit) 
-|  (Giggle) 
-|  (gitview) 
-|  (git-forest) 
-|  (gct) 
-|  (pmpu)   
-|  (Qct) 
-|  Y  
-|  ([[GitNub]]) 
-|  (GitX) 
-|  (Pyrite) 
-|  (gitSafe) 
+|  Y 
+|  N 
+|  N 
+|  N 
+|  N 
+|  N 
+|  N 
+|   Y  
+|  N 
+|  N 
+|  ? 
+|  Y 
 |  Y 
 | 
 |-
 |  cherry-pick     
 |  Y 
+|   N  
+|  Y 
+|  Y 
 |  N 
-|  (tig) 
-|  (QGit) 
-|  (Giggle) 
-|  (gitview) 
-|  (git-forest) 
-|  (gct) 
-|  (pmpu)   
-|  (Qct) 
-|  Y  
-|  ([[GitNub]]) 
-|  (GitX) 
-|  (Pyrite) 
-|  (gitSafe) 
+|  N 
+|  N 
+|  N 
+|  N 
+|  N 
+|   Y  
+|  N 
+|  N 
+|  ? 
+|  N 
 |  Y 
 | 
 |-
 |  committing      
 |  N 
+|   Y  
 |  Y 
-|  (tig) 
-|  (QGit) 
-|  (Giggle) 
-|  (gitview) 
-|  (git-forest) 
-|  (gct) 
-|  (pmpu)   
-|  Y     
-|  Y  
-|  ([[GitNub]]) 
 |  Y 
-|  (Pyrite) 
-|  (gitSafe) 
+|  N 
+|  N 
+|  N 
+|  Y 
+|  Y 
+|  Y 
+|   Y  
+|  N 
+|  Y 
+|  ? 
+|  Y 
 |  Y 
 | 
 |-
 |  remote features 
 |  N 
+|   Y  
+|  N 
+|  N 
+|  N 
+|  N 
+|  N 
+|  N 
 |  Y 
-|  (tig) 
-|  (QGit) 
-|  (Giggle) 
-|  (gitview) 
-|  (git-forest) 
-|  (gct) 
-|  (pmpu)   
-|  (Qct) 
-|  Y  
-|  ([[GitNub]]) 
-|  (GitX) 
-|  (Pyrite) 
-|  (gitSafe) 
-|  Partial 
+|  N 
+|   Y  
+|  N 
+|  N 
+|  ? 
+|  N 
+|  some 
 | 
 |-
 |  stash           
 |  N 
+|   N  
 |  N 
-|  (tig) 
-|  (QGit) 
-|  (Giggle) 
-|  (gitview) 
-|  (git-forest) 
-|  (gct) 
-|  (pmpu)   
-|  (Qct) 
-|  Y  
-|  ([[GitNub]]) 
-|  (GitX) 
-|  (Pyrite) 
-|  Y         
+|  N 
+|  N 
+|  N 
+|  N 
+|  N 
+|  N 
+|  N 
+|   Y  
+|  N 
+|  N 
+|  ? 
+|  Y 
 |  N 
 | 
 |-
-|  create patches  
+|  format patch    
+|  Y 
+|   N  
+|  N 
 |  Y 
 |  N 
-|  (tig) 
-|  (QGit) 
-|  (Giggle) 
-|  (gitview) 
-|  (git-forest) 
-|  (gct) 
-|  (pmpu)   
-|  (Qct) 
-|  Y  
-|  ([[GitNub]]) 
-|  Y, upload to github 
-|  (Pyrite) 
-|  (gitSafe) 
+|  N 
+|  N 
+|  N 
+|  N 
+|  N 
+|   Y  
+|  N 
+|  Y 
+|  ? 
+|  N 
 |  N 
 | 
 |-
 |  interfaces w/ external diff viewers 
-|  (gitk) 
-|  (git-gui) 
-|  (tig) 
-|  (QGit) 
-|  (Giggle) 
-|  (gitview) 
-|  (git-forest) 
-|  (gct) 
-|  (pmpu) 
-|  (Qct) 
+|  N 
+|  N 
+|  N 
+|  N 
+|  N 
+|  N 
+|  N 
+|  N 
+|  N 
+|  N 
 |  Y 
-|  ([[GitNub]]) 
-|  (GitX) 
-|  (Pyrite) 
-|  (gitSafe) 
+|  N 
+|  N 
+|  N 
+|  N 
 |  N 
 | 
 |-
 |  diff +/- highlighting 
 |  Y 
 |  Y 
-|  (tig) 
 |  Y 
-|  (Giggle) 
 |  Y 
-|  (git-forest) 
-|  (gct) 
-|  (pmpu) 
-|  Y     
+|  Y 
+|  Y 
+|  N 
+|  N 
+|  N 
+|  Y 
 |  Y  
-|  Y        
-|  Y      
-|  (Pyrite) 
-|  (gitSafe) 
-|  Y      
+|  Y 
+|  Y 
+|  N 
+|  N 
+|  Y 
 | 
 |-
 |  compare commits 
 |  Y 
-|  (git-gui) 
-|  (tig) 
-|  (QGit) 
-|  (Giggle) 
-|  (gitview) 
-|  (git-forest) 
-|  (gct) 
-|  (pmpu) 
-|  (Qct) 
+|  N 
 |  Y 
-|  ([[GitNub]]) 
-|  (GitX) 
-|  (Pyrite) 
-|  Y         
+|  Y 
+|  N 
+|  N 
+|  N 
+|  N 
+|  N 
+|  N 
+|  Y 
+|  N 
+|  N 
+|  ? 
+|  Y 
 |  N 
 | 
 |-
-|  merge features 
+|  merge features  
 |  N 
 |  Y 
-|  (tig) 
-|  (QGit) 
-|  (Giggle) 
-|  (gitview) 
-|  (git-forest) 
-|  (gct) 
-|  (pmpu) 
-|  (Qct) 
+|  N 
+|  N 
+|  N 
+|  N 
+|  N 
+|  N 
+|  N 
+|  N 
 |  Y 
-|  ([[GitNub]]) 
-|  (GitX) 
-|  (Pyrite) 
-|  (gitSafe) 
+|  N 
+|  N 
+|  ? 
+|  ? 
 |  N 
 | 
 |-
 |  inotify support 
-|  (gitk) 
-|  (git-gui) 
-|  (tig) 
-|  (QGit) 
-|  (Giggle) 
-|  (gitview) 
-|  (git-forest) 
-|  (gct) 
-|  (pmpu) 
-|  (Qct) 
+|  N 
+|  N 
+|  N 
+|  N 
+|  N 
+|  N 
+|  N 
+|  N 
+|  N 
+|  N 
 |  Y 
-|  ([[GitNub]]) 
-|  (GitX) 
-|  (Pyrite) 
-|  (gitSafe) 
-|  git-reset, tags,   
+|  N 
+|  N 
+|  N 
+|  N 
+|  N 
 | 
 |}
 <!-- ##
@@ -530,20 +530,20 @@
 |  i18n 
 |  de, es, it, sv 
 |  de, fr, hu, it, ja, ru, sv, zh_cn 
-|  (tig) 
-|  (QGit) 
-|  (Giggle) 
-|  (gitview) 
-|  (git-forest) 
-|  (gct) 
-|  (pmpu) 
-|  (Qct) 
+|  N 
+|  N 
+|  N 
+|  N 
+|  N 
+|  N 
+|  N 
+|  N 
 |  partial de, fr, hu, it, ja, ru, sv, zh_cn 
-|  ([[GitNub]]) 
-|  (GitX) 
-|  (Pyrite) 
-|  (gitSafe) 
-|  n/a 
+|  N 
+|  N 
+|  N 
+|  N 
+|  N 
 | 
 |}
 <!-- ##------------------------------
