@@ -198,6 +198,12 @@ All meals with the exception of Tuesday and Wednesday night are free.  Tuesday a
 |  What still rocks in Cogito and other Git's UI abominations   
 |  1 hour            
 | 
+|-
+|  David Brown         
+|  Talk/Discussion       
+|  Using git in a 150+ user corporate environment               
+|  1 hour            
+| 
 |}
 
 If anyone else wants to introduce or lead a section, please add your name above to volunteer.
