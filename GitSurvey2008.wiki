@@ -13,6 +13,7 @@ Have fun!
 Links:
 * http://tinyurl.com/[[GitSurvey]]2008 - the survey
 * [http://thread.gmane.org/gmane.comp.version-control.git/94797/ partial summary thread on GMANE]
+* http://tinyurl.com/[[GitSurvey]]2008Analyze - on-line survey analysis
 
 ----
 [[CategoryStatistics]]
