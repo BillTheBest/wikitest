@@ -23,7 +23,7 @@ If you have the main development team on linux/unix, and peripheral developers o
 == OS X ==
 Git for the OS X is installed by using the [http://code.google.com/p/git-osx-installer/downloads/list git-osx-installer] but if you haven't got leopard you're screwed because there aren't any install scripts and the source won't compile.
 
-Alternatively, you can install Git via [http://www.macports.org/ MacPorts] or [http://www.finkproject.org/ Fink].  Both work with Tiger, but may pull in a couple of dependencies.  With [[MacPorts]], Be sure to check out possible extra features with <code><nowiki>port variants git-core</nowiki></code>; for example, to install Git with bash completion use <code><nowiki>sudo port install git-core +bash_completion</nowiki></code>.
+Alternatively, you can install Git via [http://www.macports.org/ MacPorts] or [http://www.finkproject.org/ Fink].  Both work with Tiger, but may pull in a couple of dependencies.  With [[MacPorts]], be sure to check out possible extra features with <code><nowiki>port variants git-core</nowiki></code>; for example, to install Git with bash completion use <code><nowiki>sudo port install git-core +bash_completion</nowiki></code>.
 
 == Getting and installing documentation ==
 You can find all the plain text documentation in the git source tree's [http://www.kernel.org/git/?p=git/git.git;a=tree;f=Documentation Documentation/] directory.
