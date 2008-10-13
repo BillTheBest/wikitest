@@ -35,6 +35,7 @@ Any questions, please contact Shawn Pearce (gsoc@spearce.org).
 # David Brown
 # Pierre Habouzit (not on the Wednesday though).
 # Tom Preston-Werner
+# H. Peter Anvin (aka hpa)
 
 Google has us capped at ~25 attendees.
 
