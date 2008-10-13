@@ -171,9 +171,15 @@ All meals with the exception of Tuesday and Wednesday night are free.  Tuesday a
 | 
 |-
 |  Jeff King           
-|  Talk/Disccusion       
+|  Talk/Discussion       
 |  What needs refactoring?                                      
 |  0.5 hour          
+| 
+|-
+|  Jeff King           
+|  Lightning Talk        
+|  Portability autobuilders                                     
+|  5 min             
 | 
 |-
 |  Petr Baudis         
