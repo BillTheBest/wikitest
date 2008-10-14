@@ -2,16 +2,19 @@
 
 <b>The Git User's Survey 2008 has been closed on October 14, 2008.</b>
 
-The survey could be found there
+The survey could be found here:
 * [http://www.survs.com/survey?id=M3PIVU72&channel=2WXE4BVTW8 Git User's Survey 2008] (http://tinyurl.com/[[GitSurvey]]2008) at Survs.com (closed)
-* [http://www.survs.com/shareResults?survey=M3PIVU72&rndm=OKJQ45LAG8 Graphical results of the survey] (http://tinyurl.com/[[GitSurvey]]2008Analyze) (same site) <<BR>> <b><i>Note:</b> you can use existing on-line filters for basic survey analysis</i>
 
 You can get raw data (individual responses) for the survey here:
 * [attachment:Git_User's_Survey_2008_-_Oct_14,_2008.csv.gz Git User's Survey 2008 - Oct 14, 2008.csv.gz] (CSV, 1.2 MB)
 * [attachment:Git%20User's%20Survey%202008%20-%20Oct%2014,%2008.xls Git User's Survey 2008 - Oct 14, 2008.xls] (Excel, 8.6MB)
 
-Links:
+Results of the survey:
 * [http://thread.gmane.org/gmane.comp.version-control.git/94797/ partial summary thread on GMANE]
+* [http://www.survs.com/shareResults?survey=M3PIVU72&rndm=OKJQ45LAG8 Graphical final results of the survey] (http://tinyurl.com/[[GitSurvey]]2008Analyze) (same site) <<BR>> <b><i>Note:</b> you can use existing on-line filters for basic survey analysis</i>
+* Further final results will follow and will be put into the wiki.
+
+Links:
 
 ----
 [[CategoryStatistics]]
