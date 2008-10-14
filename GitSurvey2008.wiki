@@ -14,8 +14,6 @@ Results of the survey:
 * [http://www.survs.com/shareResults?survey=M3PIVU72&rndm=OKJQ45LAG8 Graphical final results of the survey] (http://tinyurl.com/[[GitSurvey]]2008Analyze) (same site) <<BR>> <b><i>Note:</b> you can use existing on-line filters for basic survey analysis</i>
 * Further final results will follow and will be put into the wiki.
 
-Links:
-
 ----
 [[CategoryStatistics]]
 
