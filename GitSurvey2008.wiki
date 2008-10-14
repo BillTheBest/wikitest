@@ -11,7 +11,7 @@ You can get raw data (individual responses) for the survey here:
 
 Results of the survey:
 * [http://thread.gmane.org/gmane.comp.version-control.git/94797/ partial summary thread on GMANE]
-* [http://www.survs.com/shareResults?survey=M3PIVU72&rndm=OKJQ45LAG8 Graphical final results of the survey] (http://tinyurl.com/[[GitSurvey]]2008Analyze) (same site) <<BR>> <b><i>Note:</b> you can use existing on-line filters for basic survey analysis</i>
+* [http://www.survs.com/shareResults?survey=M3PIVU72&rndm=OKJQ45LAG8 Graphical final results of the survey] (http://tinyurl.com/[[GitSurvey]]2008Analyze) <<BR>> <b><i>Note:</b> you can use existing on-line filters for basic survey analysis</i>
 * Further final results will follow and will be put into the wiki.
 
 ----
