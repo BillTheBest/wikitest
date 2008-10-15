@@ -202,7 +202,7 @@ There is a bit of a chicken and egg problem involved. The build procedure wants 
 <code><nowiki>GIT-VERSION-GEN</nowiki></code> script show current (used) git version, <code><nowiki>git --version</nowiki></code> shows git version used at the time git was build.
 
 <<Anchor(reset-hard-leaving-files)>>
-== Why is "git reset --hard" not removing some files ==
+== Why is "git reset --hard" not removing some files? ==
 <code><nowiki>git reset --hard</nowiki></code> doesn't remove the files which are in the <b>current</b> version of <code><nowiki>.gitignore</nowiki></code>. "git reset" won't delete files it doesn't track (particularly when it has been _told_ to ignore them).
 
 If the version you switched to has an earlier (different) version of the <code><nowiki>.gitignore</nowiki></code> file then the files which were not deleted might be not ignored in the reset version, and will for example show in the <code><nowiki>git status</nowiki></code> output.
