@@ -25,7 +25,7 @@ Alternatively, in Linus' own words as the inventor of git: "git" can mean anythi
 * "Global information tracker": you're in a good mood, and it actually works for you. Angels sing, and a light suddenly fills the room.
 * "Goddamn idiotic truckload of sh*t": when it breaks
 
-<<[[GitLink]](fetch-vs-pull, Fetch retrieves objects, Pull also merges them in)>>
+<<[[GitLink]](fetch-vs-pull, Fetch retrieves objects, pull also merges them in)>>
 == What's the difference between fetch and pull? ==
 The short definition is:
 
@@ -43,6 +43,7 @@ A SSH server, an HTTP server, or the git-daemon. Local networks can also use net
 * See the [http://www.kernel.org/pub/software/scm/git/docs/tutorial.html Git tutorial] for more details.
 
 <<Anchor(empty-dirs)>>
+<<[[GitLink]](empty-dirs,Git only tracks directories with files in them)>>
 == Can I add empty directories? ==
 Currently the design of the git index (staging area) only permits <i>files</i> to be listed, and nobody competent enough to make the change to allow empty directories has cared enough about this situation to remedy it.
 
@@ -53,6 +54,7 @@ You can say "<code><nowiki>git add <dir></nowiki></code>" and it will add files 
 If you really need a directory to exist in checkouts you should create a file in it. .gitignore works well for this purpose; you can leave it empty, or fill in the names of files you expect to show up in the directory.
 
 <<Anchor(rename-tracking)>>
+<<[[GitLink]](rename-tracking,Some workflows do not support rename information)>>
 == Why does git not "track" renames? ==
 [[Git]] has to interoperate with a lot of different workflows, for example some changes can come from patches, where rename information may not be available. Relying on explicit rename tracking makes it impossible to merge two trees that have done exactly the same thing, except one did it as a patch (create/delete) and one did it using some other heuristic.
 
@@ -181,7 +183,7 @@ No. Git has a specific notion of tracked "content", which is basically just the 
 = Unexpected behavior =
 
 <<Anchor(git-push non-bare)>>
-<<[[GitLink]](non-bare,You shouldn't push to a non-bare repository)>>
+<<[[GitLink]](non-bare,Pushing to non-bare repositories is discouraged)>>
 == Why won't I see changes in the remote repo after "git push"? ==
 The <code><nowiki>push</nowiki></code> operation is always about propagating the repository history and updating the refs, and never touches the working tree files.  In particular, if you push to update the branch that is checked out in a remote repository the files in the work tree will not be updated.
 
@@ -194,13 +196,13 @@ If you are sure what you are doing, you can do a "git reset --hard" on the side 
 See also the entry ([[#push-is-reverse-of-fetch How would I use "git push" to sync out of a firewalled host?]]) in this FAQ for the proper way to work with push with a repository with a work tree.
 
 <<Anchor(git-version)>>
-== Why git --version is not reporting the "full" version number? ==
+== Why is git --version not reporting the "full" version number? ==
 There is a bit of a chicken and egg problem involved. The build procedure wants to have an already installed git to figure out the "full" version number. If you are bootstrapping, make clean and rebuild after you install git once would give you a git binary that knows what version it is.
 
 <code><nowiki>GIT-VERSION-GEN</nowiki></code> script show current (used) git version, <code><nowiki>git --version</nowiki></code> shows git version used at the time git was build.
 
 <<Anchor(reset-hard-leaving-files)>>
-== "git reset --hard" is not removing some files ==
+== Why is "git reset --hard" not removing some files ==
 <code><nowiki>git reset --hard</nowiki></code> doesn't remove the files which are in the <b>current</b> version of <code><nowiki>.gitignore</nowiki></code>. "git reset" won't delete files it doesn't track (particularly when it has been _told_ to ignore them).
 
 If the version you switched to has an earlier (different) version of the <code><nowiki>.gitignore</nowiki></code> file then the files which were not deleted might be not ignored in the reset version, and will for example show in the <code><nowiki>git status</nowiki></code> output.
@@ -354,7 +356,7 @@ If you want to keep a file, but not have it in the next revision, do this:
 git rm --cached <filename>
 </nowiki></pre>
 
-<<[[GitLink]](branch, to checkout other branches, use git checkout -b new origin/master)>>
+<<[[GitLink]](branch, to checkout other branches, use git checkout -b somename origin/somename)>>
 == How do I access other branches in a repository? ==
 After you have cloned a repository, only the master branch by default is tracked. This means that <code><nowiki> git branch </nowiki></code> will only show one branch. To view all remote repositories, use <code><nowiki> git branch -r </nowiki></code>. To create access one of those branches, create a local branch that tracks the remote branch. For example, if <code><nowiki> git branch -r </nowiki></code> shows:
 
