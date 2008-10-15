@@ -19,7 +19,7 @@ I've put an attribution of the wish to the person who wrote the email I found it
 * Colored diff should ignore CRLF (just like normal diff does), if entire file is in DOS style format. Is this a problem with the pager? (Clemens Buchacher)
 * show diff -c for conflicting symbolic links -- the default diff --cc is empty because there are no conflict markers (or alternatives) (Clemens Buchacher)
 * http-push should update tracking references like send-pack does. (Clemens Buchacher)
-
+* Encrypted GIT repository and operations on it. (Ferhat Dogru)
 <b>See also:</b>
 * [http://www.freedesktop.org/wiki/Infrastructure/git/UIFlaws Git UI flaws] at freedesktop wiki.
 
