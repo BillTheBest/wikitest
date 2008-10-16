@@ -41,7 +41,7 @@ In essence: The index is a staging area for the next commit, but for convenience
 
 Normally, a git user will rarely be exposed to the index, if she is not committing a revision. But there is one notable exception: merges.
 
-When you merge the work of others, sometimes conflicts happen. These are put in the index. (Strictly speaking, the whole merge is done inside the index by inserting the current version, the version of the branch-to-be-merged, and the merge base (common ancestor) into the index, and merging them using a three-way-diff. If there are no conflcts, these three entries are collapsed into a single entry. Otherwise the three entries stay there, with the common ancestor being replaced by the result of the merge.)
+When you merge the work of others, sometimes conflicts happen. These are put in the index. (Strictly speaking, the whole merge is done inside the index by inserting the current version, the version of the branch-to-be-merged, and the merge base (common ancestor) into the index, and merging them using a three-way-diff. If there are no conflicts, these three entries are collapsed into a single entry. Otherwise the three entries stay there, with the common ancestor being replaced by the result of the merge.)
 
 Again, git is intelligent about what to show you upon a <code><nowiki>git diff</nowiki></code>: those entries which merged cleanly are already updated in the staging area. It is unlikely that you want to see these differences right now, because you have to fix up conflicts -- if there are any. So, a <code><nowiki>git diff</nowiki></code> will show you a combined diff, i.e. a simultaneous diff of the merged-with-conflicts file against both the current version and the version in the branch-to-be-merged.
 
