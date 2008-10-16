@@ -40,7 +40,7 @@ The short definition is:
 A SSH server, an HTTP server, or the git-daemon. Local networks can also use network filesystems, like NFS or SMBFS/CIFS (the Windows networks).
 
 * It seems not everyone thinks that SMBFS is a good idea; several people on #git hold the opinion that SMBFS should not be used with git.
-* See the [http://www.kernel.org/pub/software/scm/git/docs/tutorial.html Git tutorial] for more details.
+* See the [http://www.kernel.org/pub/software/scm/git/docs/gittutorial.html Git tutorial] for more details.
 
 <<Anchor(empty-dirs)>>
 <<[[GitLink]](empty-dirs,Git only tracks directories with files in them)>>
@@ -673,7 +673,7 @@ As well, it's worth mentioning [http://scie.nti.st/2007/11/14/hosting-git-reposi
 
 <<Anchor(create-project)>>
 == How to create the first project? ==
-See the [http://www.kernel.org/pub/software/scm/git/docs/tutorial.html Git tutorial].
+See the [http://www.kernel.org/pub/software/scm/git/docs/gittutorial.html Git tutorial].
 
 == How do I publish my repo via SFTP? ==
 At the moment, git is not able to use a (dumb) sftp protocol for pushing. There is a work around, though: [http://farragut.flameeyes.is-a-geek.org/articles/tag/fuse Use sshfs]. But make sure that you execute 'git update-server-info' in the pushed repository!
