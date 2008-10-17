@@ -14,11 +14,11 @@ Results of the survey:
 * [http://www.survs.com/shareResults?survey=M3PIVU72&rndm=OKJQ45LAG8 Graphical final results of the survey] (http://tinyurl.com/[[GitSurvey]]2008Analyze) <<BR>> <b><i>Note:</b> you can use existing on-line filters for basic survey analysis</i>
 * Further final results will follow and will be put into the wiki.
 
-== Results ==
+== Tabular Results ==
 
 === What country do you live in? ===
 
-(Results of free-form questions will follow.)
+(free-form question)
 
 === How old are you (in years)? ===
 
@@ -52,14 +52,14 @@ Results of the survey:
 |   2.2% 
 | 
 |-
-|  Very easy    
-|    166 
-|   5.1% 
-| 
-|-
 |  Hard         
 |    500 
 |  15.5% 
+| 
+|-
+|  Reasonably   
+|   1488 
+|  46.0% 
 | 
 |-
 |  Easy         
@@ -67,9 +67,9 @@ Results of the survey:
 |  19.7% 
 | 
 |-
-|  Reasonably   
-|   1488 
-|  46.0% 
+|  Very easy    
+|    166 
+|   5.1% 
 | 
 |-
 |  Not answered 
@@ -105,9 +105,9 @@ Results of the survey:
 <!-- ##----------------------------------------------------------------
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-|  'master' branch of official git repository 
-|    244 
-|   7.5% 
+|  pre 1.3                                    
+|     11 
+|   0.3% 
 | 
 |-
 |  1.3.x                                      
@@ -125,14 +125,14 @@ Results of the survey:
 |  60.5% 
 | 
 |-
-|  pre 1.3                                    
-|     11 
-|   0.3% 
-| 
-|-
 |  1.6.x                                      
 |   1137 
 |  35.1% 
+| 
+|-
+|  'master' branch of official git repository 
+|    244 
+|   7.5% 
 | 
 |-
 |  'next' branch of official git repository   
@@ -170,34 +170,9 @@ Results of the survey:
 |   0.5% 
 | 
 |-
-|  1-2 year           
-|    463 
-|  14.3% 
-| 
-|-
-|  less than month    
-|    163 
-|   5.0% 
-| 
-|-
-|  3-6 months         
-|    746 
-|  23.1% 
-| 
-|-
 |  from the beginning 
 |     72 
 |   2.2% 
-| 
-|-
-|  never              
-|     14 
-|   0.4% 
-| 
-|-
-|  1-3 months         
-|    539 
-|  16.7% 
 | 
 |-
 |  more than 2 years  
@@ -205,9 +180,34 @@ Results of the survey:
 |   2.9% 
 | 
 |-
+|  1-2 year           
+|    463 
+|  14.3% 
+| 
+|-
 |  6-12 months        
 |    755 
 |  23.3% 
+| 
+|-
+|  3-6 months         
+|    746 
+|  23.1% 
+| 
+|-
+|  1-3 months         
+|    539 
+|  16.7% 
+| 
+|-
+|  less than month    
+|    163 
+|   5.0% 
+| 
+|-
+|  never              
+|     14 
+|   0.4% 
 | 
 |-
 |  Not answered       
@@ -240,16 +240,6 @@ Results of the survey:
 |   6.6% 
 | 
 |-
-|  can offer advice     
-|    666 
-|  20.6% 
-| 
-|-
-|  know it very well    
-|    104 
-|   3.2% 
-| 
-|-
 |  casual, needs advice 
 |    644 
 |  19.9% 
@@ -258,6 +248,16 @@ Results of the survey:
 |  everyday use         
 |   1233 
 |  38.1% 
+| 
+|-
+|  can offer advice     
+|    666 
+|  20.6% 
+| 
+|-
+|  know it very well    
+|    104 
+|   3.2% 
 | 
 |-
 |  Not answered         
