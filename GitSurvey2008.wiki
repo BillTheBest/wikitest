@@ -14,6 +14,5158 @@ Results of the survey:
 * [http://www.survs.com/shareResults?survey=M3PIVU72&rndm=OKJQ45LAG8 Graphical final results of the survey] (http://tinyurl.com/[[GitSurvey]]2008Analyze) <<BR>> <b><i>Note:</b> you can use existing on-line filters for basic survey analysis</i>
 * Further final results will follow and will be put into the wiki.
 
+== Results ==
+
+=== What country do you live in? ===
+
+(Results of free-form questions will follow.)
+
+=== How old are you (in years)? ===
+
+(Results of free-form questions will follow.)
+
+=== With which programming languages are you proficient? ===
+
+(Results of multiple choice questions with free-form parts will follow.)
+
+=== How did you hear about Git? ===
+
+(Results of multiple choice questions with free-form parts will follow.)
+
+=== Did you find Git easy to learn? ===
+
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Very hard    
+|     70 
+|   2.2% 
+| 
+|-
+|  Very easy    
+|    166 
+|   5.1% 
+| 
+|-
+|  Hard         
+|    500 
+|  15.5% 
+| 
+|-
+|  Easy         
+|    638 
+|  19.7% 
+| 
+|-
+|  Reasonably   
+|   1488 
+|  46.0% 
+| 
+|-
+|  Not answered 
+|    374 
+|  11.6% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== What helped you most in learning to use it? ===
+
+(Results of free-form questions will follow.)
+
+=== What did you find hardest in learning and using Git? ===
+
+(Results of free-form questions will follow.)
+
+=== Which Git version(s) are you using? ===
+
+(multiple choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply                                      
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  'master' branch of official git repository 
+|    244 
+|   7.5% 
+| 
+|-
+|  1.3.x                                      
+|     10 
+|   0.3% 
+| 
+|-
+|  1.4.x                                      
+|     77 
+|   2.4% 
+| 
+|-
+|  1.5.x                                      
+|   1957 
+|  60.5% 
+| 
+|-
+|  pre 1.3                                    
+|     11 
+|   0.3% 
+| 
+|-
+|  1.6.x                                      
+|   1137 
+|  35.1% 
+| 
+|-
+|  'next' branch of official git repository   
+|     42 
+|   1.3% 
+| 
+|-
+|  Not answered                               
+|    415 
+|  12.8% 
+| 
+|}
+<!-- ##----------------------------------------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== How long do you use Git? ===
+
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply              
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  I don't remember   
+|     16 
+|   0.5% 
+| 
+|-
+|  1-2 year           
+|    463 
+|  14.3% 
+| 
+|-
+|  less than month    
+|    163 
+|   5.0% 
+| 
+|-
+|  3-6 months         
+|    746 
+|  23.1% 
+| 
+|-
+|  from the beginning 
+|     72 
+|   2.2% 
+| 
+|-
+|  never              
+|     14 
+|   0.4% 
+| 
+|-
+|  1-3 months         
+|    539 
+|  16.7% 
+| 
+|-
+|  more than 2 years  
+|     94 
+|   2.9% 
+| 
+|-
+|  6-12 months        
+|    755 
+|  23.3% 
+| 
+|-
+|  Not answered       
+|    374 
+|  11.6% 
+| 
+|}
+<!-- ##----------------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== Rate your own proficiency with Git: ===
+
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply                
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  novice               
+|    215 
+|   6.6% 
+| 
+|-
+|  can offer advice     
+|    666 
+|  20.6% 
+| 
+|-
+|  know it very well    
+|    104 
+|   3.2% 
+| 
+|-
+|  casual, needs advice 
+|    644 
+|  19.9% 
+| 
+|-
+|  everyday use         
+|   1233 
+|  38.1% 
+| 
+|-
+|  Not answered         
+|    374 
+|  11.6% 
+| 
+|}
+<!-- ##------------------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== Does git.git repository include code produced by you? ===
+
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  No           
+|   2559 
+|  79.1% 
+| 
+|-
+|  Yes          
+|    243 
+|   7.5% 
+| 
+|-
+|  Not answered 
+|    434 
+|  13.4% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== What other SCM did or do you use? ===
+
+==== SCCS ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Used it      
+|    140 
+|   4.3% 
+| 
+|-
+|  Never        
+|   1605 
+|  49.6% 
+| 
+|-
+|  Still use    
+|     11 
+|   0.3% 
+| 
+|-
+|  Not answered 
+|   1480 
+|  45.7% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== RCS ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Never        
+|   1192 
+|  36.8% 
+| 
+|-
+|  Used it      
+|    585 
+|  18.1% 
+| 
+|-
+|  Still use    
+|     93 
+|   2.9% 
+| 
+|-
+|  Not answered 
+|   1366 
+|  42.2% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== CVS ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Never        
+|    295 
+|   9.1% 
+| 
+|-
+|  Used it      
+|   1790 
+|  55.3% 
+| 
+|-
+|  Still use    
+|    413 
+|  12.8% 
+| 
+|-
+|  Not answered 
+|    738 
+|  22.8% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+==== Subversion ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Never        
+|     96 
+|   3.0% 
+| 
+|-
+|  Used it      
+|    971 
+|  30.0% 
+| 
+|-
+|  Still use    
+|   1696 
+|  52.4% 
+| 
+|-
+|  Not answered 
+|    473 
+|  14.6% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== Arch (or clone) ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Used it      
+|    236 
+|   7.3% 
+| 
+|-
+|  Never        
+|   1520 
+|  47.0% 
+| 
+|-
+|  Still use    
+|      7 
+|   0.2% 
+| 
+|-
+|  Not answered 
+|   1473 
+|  45.5% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== Bazaar-NG ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Never        
+|   1335 
+|  41.3% 
+| 
+|-
+|  Used it      
+|    375 
+|  11.6% 
+| 
+|-
+|  Still use    
+|    129 
+|   4.0% 
+| 
+|-
+|  Not answered 
+|   1397 
+|  43.2% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== Darcs ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Never        
+|   1374 
+|  42.5% 
+| 
+|-
+|  Used it      
+|    382 
+|  11.8% 
+| 
+|-
+|  Still use    
+|     80 
+|   2.5% 
+| 
+|-
+|  Not answered 
+|   1400 
+|  43.3% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== Mercurial ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Never        
+|   1135 
+|  35.1% 
+| 
+|-
+|  Used it      
+|    552 
+|  17.1% 
+| 
+|-
+|  Still use    
+|    256 
+|   7.9% 
+| 
+|-
+|  Not answered 
+|   1293 
+|  40.0% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== Monotone ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Used it      
+|    149 
+|   4.6% 
+| 
+|-
+|  Never        
+|   1591 
+|  49.2% 
+| 
+|-
+|  Still use    
+|     21 
+|   0.6% 
+| 
+|-
+|  Not answered 
+|   1475 
+|  45.6% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== SVK ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Used it      
+|    322 
+|  10.0% 
+| 
+|-
+|  Never        
+|   1461 
+|  45.1% 
+| 
+|-
+|  Still use    
+|     23 
+|   0.7% 
+| 
+|-
+|  Not answered 
+|   1430 
+|  44.2% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== [[AccuRev]] ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Used it      
+|      6 
+|   0.2% 
+| 
+|-
+|  Never        
+|   1724 
+|  53.3% 
+| 
+|-
+|  Still use    
+|      3 
+|   0.1% 
+| 
+|-
+|  Not answered 
+|   1503 
+|  46.4% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== Perforce ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Never        
+|   1479 
+|  45.7% 
+| 
+|-
+|  Used it      
+|    254 
+|   7.8% 
+| 
+|-
+|  Still use    
+|    106 
+|   3.3% 
+| 
+|-
+|  Not answered 
+|   1397 
+|  43.2% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== [[BitKeeper]] ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Used it      
+|    163 
+|   5.0% 
+| 
+|-
+|  Never        
+|   1594 
+|  49.3% 
+| 
+|-
+|  Still use    
+|      4 
+|   0.1% 
+| 
+|-
+|  Not answered 
+|   1475 
+|  45.6% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== [[ClearCase]] ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Used it      
+|    222 
+|   6.9% 
+| 
+|-
+|  Never        
+|   1540 
+|  47.6% 
+| 
+|-
+|  Still use    
+|     60 
+|   1.9% 
+| 
+|-
+|  Not answered 
+|   1414 
+|  43.7% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== MS Visual [[SourceSafe]] ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Never        
+|   1351 
+|  41.7% 
+| 
+|-
+|  Used it      
+|    554 
+|  17.1% 
+| 
+|-
+|  Still use    
+|     28 
+|   0.9% 
+| 
+|-
+|  Not answered 
+|   1303 
+|  40.3% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== MS Visual Studio Team System ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Used it      
+|     75 
+|   2.3% 
+| 
+|-
+|  Never        
+|   1660 
+|  51.3% 
+| 
+|-
+|  Still use    
+|     10 
+|   0.3% 
+| 
+|-
+|  Not answered 
+|   1491 
+|  46.1% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== PVCS ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Never        
+|   1631 
+|  50.4% 
+| 
+|-
+|  Used it      
+|    135 
+|   4.2% 
+| 
+|-
+|  Still use    
+|      8 
+|   0.2% 
+| 
+|-
+|  Not answered 
+|   1462 
+|  45.2% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== custom (non-published) ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Used it      
+|    126 
+|   3.9% 
+| 
+|-
+|  Never        
+|   1566 
+|  48.4% 
+| 
+|-
+|  Still use    
+|     34 
+|   1.1% 
+| 
+|-
+|  Not answered 
+|   1510 
+|  46.7% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== other ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Never        
+|   1461 
+|  45.1% 
+| 
+|-
+|  Used it      
+|    136 
+|   4.2% 
+| 
+|-
+|  Still use    
+|     41 
+|   1.3% 
+| 
+|-
+|  Not answered 
+|   1598 
+|  49.4% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== Why did you choose/use Git? (if you use Git)What do you like about using Git? ===
+
+(Results of free-form questions will follow.)
+
+=== Why did you choose/use other SCMs? (if you use other SCMs)What do you like about using other SCMs? ===
+
+(Results of free-form questions will follow.)
+
+=== Do you miss features in git that you know from other SCMs?If yes, what features are these (and from which SCM)? ===
+
+(Results of free-form questions will follow.)
+
+=== I use Git for (check all that apply): ===
+
+(Results of multiple choice questions with free-form parts will follow.)
+
+=== How do you obtain Git? ===
+
+(multiple choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply                     
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##-----------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  source tarball            
+|    758 
+|  23.4% 
+| 
+|-
+|  source package or script  
+|    680 
+|  21.0% 
+| 
+|-
+|  pull from main repository 
+|    533 
+|  16.5% 
+| 
+|-
+|  binary package            
+|   1787 
+|  55.2% 
+| 
+|-
+|  Not answered              
+|    440 
+|  13.6% 
+| 
+|}
+<!-- ##-----------------------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== What operating system do you use Git on? ===
+
+(Results of multiple choice questions with free-form parts will follow.)
+
+=== What hardware platforms do you use Git on? ===
+
+(Results of multiple choice questions with free-form parts will follow.)
+
+=== What editor, IDE or RAD you use working with Git? ===
+
+(Results of multiple choice questions with free-form parts will follow.)
+
+=== Which porcelains / interfaces / implementations do you use? ===
+
+(Results of multiple choice questions with free-form parts will follow.)
+
+=== Which git GUI (commit tool or history viewer, or both) do you use? ===
+
+(Results of multiple choice questions with free-form parts will follow.)
+
+=== Which git web interface do you use for your projects/have installed? ===
+
+(Results of multiple choice questions with free-form parts will follow.)
+
+=== Which git hosting site do you use for your projects? ===
+
+(Results of multiple choice questions with free-form parts will follow.)
+
+=== How do you publish/propagate your changes? ===
+
+(Results of multiple choice questions with free-form parts will follow.)
+
+=== If the way you publish your changes is not mentioned above, how do you publish your changes?Please explain. ===
+
+(Results of free-form questions will follow.)
+
+=== How often do you use the following forms of git commandsor extra git tools? ===
+
+==== git add -i / -p ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|    919 
+|  28.4% 
+| 
+|-
+|  often        
+|    464 
+|  14.3% 
+| 
+|-
+|  rarely       
+|    389 
+|  12.0% 
+| 
+|-
+|  sometimes    
+|    402 
+|  12.4% 
+| 
+|-
+|  Not answered 
+|   1062 
+|  32.8% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git add -u / -A ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|   1233 
+|  38.1% 
+| 
+|-
+|  rarely       
+|    320 
+|   9.9% 
+| 
+|-
+|  often        
+|    274 
+|   8.5% 
+| 
+|-
+|  sometimes    
+|    244 
+|   7.5% 
+| 
+|-
+|  Not answered 
+|   1165 
+|  36.0% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git am ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|   1469 
+|  45.4% 
+| 
+|-
+|  rarely       
+|    298 
+|   9.2% 
+| 
+|-
+|  often        
+|    105 
+|   3.2% 
+| 
+|-
+|  sometimes    
+|    177 
+|   5.5% 
+| 
+|-
+|  Not answered 
+|   1187 
+|  36.7% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git am -i ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|   1761 
+|  54.4% 
+| 
+|-
+|  often        
+|     13 
+|   0.4% 
+| 
+|-
+|  rarely       
+|    177 
+|   5.5% 
+| 
+|-
+|  sometimes    
+|     68 
+|   2.1% 
+| 
+|-
+|  Not answered 
+|   1217 
+|  37.6% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git apply ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|   1287 
+|  39.8% 
+| 
+|-
+|  often        
+|     74 
+|   2.3% 
+| 
+|-
+|  rarely       
+|    416 
+|  12.9% 
+| 
+|-
+|  sometimes    
+|    262 
+|   8.1% 
+| 
+|-
+|  Not answered 
+|   1197 
+|  37.0% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git apply --whitespace=fix ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|   1677 
+|  51.8% 
+| 
+|-
+|  rarely       
+|    212 
+|   6.6% 
+| 
+|-
+|  often        
+|     30 
+|   0.9% 
+| 
+|-
+|  sometimes    
+|     87 
+|   2.7% 
+| 
+|-
+|  Not answered 
+|   1230 
+|  38.0% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git archive ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|   1469 
+|  45.4% 
+| 
+|-
+|  often        
+|     77 
+|   2.4% 
+| 
+|-
+|  rarely       
+|    293 
+|   9.1% 
+| 
+|-
+|  sometimes    
+|    186 
+|   5.7% 
+| 
+|-
+|  Not answered 
+|   1211 
+|  37.4% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git bisect ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|   1217 
+|  37.6% 
+| 
+|-
+|  often        
+|     61 
+|   1.9% 
+| 
+|-
+|  rarely       
+|    452 
+|  14.0% 
+| 
+|-
+|  sometimes    
+|    330 
+|  10.2% 
+| 
+|-
+|  Not answered 
+|   1176 
+|  36.3% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git bisect run <cmd> ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|   1665 
+|  51.5% 
+| 
+|-
+|  often        
+|     13 
+|   0.4% 
+| 
+|-
+|  rarely       
+|    221 
+|   6.8% 
+| 
+|-
+|  sometimes    
+|    103 
+|   3.2% 
+| 
+|-
+|  Not answered 
+|   1234 
+|  38.1% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git annotate ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|   1416 
+|  43.8% 
+| 
+|-
+|  often        
+|     53 
+|   1.6% 
+| 
+|-
+|  rarely       
+|    350 
+|  10.8% 
+| 
+|-
+|  sometimes    
+|    215 
+|   6.6% 
+| 
+|-
+|  Not answered 
+|   1202 
+|  37.1% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git gui blame ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|   1729 
+|  53.4% 
+| 
+|-
+|  often        
+|     17 
+|   0.5% 
+| 
+|-
+|  rarely       
+|    168 
+|   5.2% 
+| 
+|-
+|  sometimes    
+|     93 
+|   2.9% 
+| 
+|-
+|  Not answered 
+|   1229 
+|  38.0% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git blame ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|   1030 
+|  31.8% 
+| 
+|-
+|  rarely       
+|    496 
+|  15.3% 
+| 
+|-
+|  often        
+|    142 
+|   4.4% 
+| 
+|-
+|  sometimes    
+|    396 
+|  12.2% 
+| 
+|-
+|  Not answered 
+|   1172 
+|  36.2% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git blame -L <start>,<end> etc. ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|   1716 
+|  53.0% 
+| 
+|-
+|  rarely       
+|    171 
+|   5.3% 
+| 
+|-
+|  often        
+|     15 
+|   0.5% 
+| 
+|-
+|  sometimes    
+|     74 
+|   2.3% 
+| 
+|-
+|  Not answered 
+|   1260 
+|  38.9% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git bundle ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|   1819 
+|  56.2% 
+| 
+|-
+|  often        
+|     10 
+|   0.3% 
+| 
+|-
+|  rarely       
+|    128 
+|   4.0% 
+| 
+|-
+|  sometimes    
+|     31 
+|   1.0% 
+| 
+|-
+|  Not answered 
+|   1248 
+|  38.6% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git cherry ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|   1648 
+|  50.9% 
+| 
+|-
+|  often        
+|     31 
+|   1.0% 
+| 
+|-
+|  rarely       
+|    222 
+|   6.9% 
+| 
+|-
+|  sometimes    
+|    100 
+|   3.1% 
+| 
+|-
+|  Not answered 
+|   1235 
+|  38.2% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git cherry-pick ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|   1051 
+|  32.5% 
+| 
+|-
+|  rarely       
+|    364 
+|  11.2% 
+| 
+|-
+|  often        
+|    206 
+|   6.4% 
+| 
+|-
+|  sometimes    
+|    447 
+|  13.8% 
+| 
+|-
+|  Not answered 
+|   1168 
+|  36.1% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git cherry-pick -n ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|   1555 
+|  48.1% 
+| 
+|-
+|  often        
+|     52 
+|   1.6% 
+| 
+|-
+|  rarely       
+|    223 
+|   6.9% 
+| 
+|-
+|  sometimes    
+|    149 
+|   4.6% 
+| 
+|-
+|  Not answered 
+|   1257 
+|  38.8% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git citool ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|   1837 
+|  56.8% 
+| 
+|-
+|  rarely       
+|     77 
+|   2.4% 
+| 
+|-
+|  often        
+|     32 
+|   1.0% 
+| 
+|-
+|  sometimes    
+|     25 
+|   0.8% 
+| 
+|-
+|  Not answered 
+|   1265 
+|  39.1% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git clean ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|   1154 
+|  35.7% 
+| 
+|-
+|  rarely       
+|    404 
+|  12.5% 
+| 
+|-
+|  often        
+|    161 
+|   5.0% 
+| 
+|-
+|  sometimes    
+|    290 
+|   9.0% 
+| 
+|-
+|  Not answered 
+|   1227 
+|  37.9% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git add + git commit ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|    212 
+|   6.6% 
+| 
+|-
+|  rarely       
+|    105 
+|   3.2% 
+| 
+|-
+|  often        
+|   1559 
+|  48.2% 
+| 
+|-
+|  sometimes    
+|    285 
+|   8.8% 
+| 
+|-
+|  Not answered 
+|   1075 
+|  33.2% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git commit -a ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|    197 
+|   6.1% 
+| 
+|-
+|  often        
+|   1480 
+|  45.7% 
+| 
+|-
+|  rarely       
+|    199 
+|   6.1% 
+| 
+|-
+|  sometimes    
+|    394 
+|  12.2% 
+| 
+|-
+|  Not answered 
+|    966 
+|  29.9% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git commit <file>... ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|    494 
+|  15.3% 
+| 
+|-
+|  often        
+|    856 
+|  26.5% 
+| 
+|-
+|  rarely       
+|    330 
+|  10.2% 
+| 
+|-
+|  sometimes    
+|    442 
+|  13.7% 
+| 
+|-
+|  Not answered 
+|   1114 
+|  34.4% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git commit -i <file>... ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|   1308 
+|  40.4% 
+| 
+|-
+|  often        
+|    158 
+|   4.9% 
+| 
+|-
+|  rarely       
+|    330 
+|  10.2% 
+| 
+|-
+|  sometimes    
+|    182 
+|   5.6% 
+| 
+|-
+|  Not answered 
+|   1258 
+|  38.9% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git commit --amend ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|    783 
+|  24.2% 
+| 
+|-
+|  rarely       
+|    339 
+|  10.5% 
+| 
+|-
+|  often        
+|    486 
+|  15.0% 
+| 
+|-
+|  sometimes    
+|    460 
+|  14.2% 
+| 
+|-
+|  Not answered 
+|   1168 
+|  36.1% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git cvsexportcommit ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|   1889 
+|  58.4% 
+| 
+|-
+|  rarely       
+|     43 
+|   1.3% 
+| 
+|-
+|  often        
+|     24 
+|   0.7% 
+| 
+|-
+|  sometimes    
+|     23 
+|   0.7% 
+| 
+|-
+|  Not answered 
+|   1257 
+|  38.8% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git cvsserver ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|   1926 
+|  59.5% 
+| 
+|-
+|  often        
+|      5 
+|   0.2% 
+| 
+|-
+|  rarely       
+|     44 
+|   1.4% 
+| 
+|-
+|  sometimes    
+|     12 
+|   0.4% 
+| 
+|-
+|  Not answered 
+|   1249 
+|  38.6% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git daemon ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|   1500 
+|  46.4% 
+| 
+|-
+|  often        
+|    130 
+|   4.0% 
+| 
+|-
+|  rarely       
+|    242 
+|   7.5% 
+| 
+|-
+|  sometimes    
+|    127 
+|   3.9% 
+| 
+|-
+|  Not answered 
+|   1237 
+|  38.2% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git daemon (pushing enabled) ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|   1709 
+|  52.8% 
+| 
+|-
+|  often        
+|     58 
+|   1.8% 
+| 
+|-
+|  rarely       
+|    147 
+|   4.5% 
+| 
+|-
+|  sometimes    
+|     65 
+|   2.0% 
+| 
+|-
+|  Not answered 
+|   1257 
+|  38.8% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git ... --dirstat ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|   1768 
+|  54.6% 
+| 
+|-
+|  often        
+|     11 
+|   0.3% 
+| 
+|-
+|  rarely       
+|    135 
+|   4.2% 
+| 
+|-
+|  sometimes    
+|     51 
+|   1.6% 
+| 
+|-
+|  Not answered 
+|   1271 
+|  39.3% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git fetch [<options>] ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|    593 
+|  18.3% 
+| 
+|-
+|  rarely       
+|    469 
+|  14.5% 
+| 
+|-
+|  often        
+|    502 
+|  15.5% 
+| 
+|-
+|  sometimes    
+|    501 
+|  15.5% 
+| 
+|-
+|  Not answered 
+|   1171 
+|  36.2% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git filter-branch ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|   1681 
+|  51.9% 
+| 
+|-
+|  often        
+|     10 
+|   0.3% 
+| 
+|-
+|  rarely       
+|    231 
+|   7.1% 
+| 
+|-
+|  sometimes    
+|     62 
+|   1.9% 
+| 
+|-
+|  Not answered 
+|   1252 
+|  38.7% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git format-patch ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|   1165 
+|  36.0% 
+| 
+|-
+|  rarely       
+|    337 
+|  10.4% 
+| 
+|-
+|  often        
+|    202 
+|   6.2% 
+| 
+|-
+|  sometimes    
+|    315 
+|   9.7% 
+| 
+|-
+|  Not answered 
+|   1217 
+|  37.6% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git grep ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|   1196 
+|  37.0% 
+| 
+|-
+|  rarely       
+|    357 
+|  11.0% 
+| 
+|-
+|  often        
+|    242 
+|   7.5% 
+| 
+|-
+|  sometimes    
+|    242 
+|   7.5% 
+| 
+|-
+|  Not answered 
+|   1199 
+|  37.1% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git imap-send ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|   1912 
+|  59.1% 
+| 
+|-
+|  often        
+|      6 
+|   0.2% 
+| 
+|-
+|  rarely       
+|     58 
+|   1.8% 
+| 
+|-
+|  sometimes    
+|      9 
+|   0.3% 
+| 
+|-
+|  Not answered 
+|   1251 
+|  38.7% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git instaweb ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|   1775 
+|  54.9% 
+| 
+|-
+|  often        
+|     12 
+|   0.4% 
+| 
+|-
+|  rarely       
+|    141 
+|   4.4% 
+| 
+|-
+|  sometimes    
+|     45 
+|   1.4% 
+| 
+|-
+|  Not answered 
+|   1263 
+|  39.0% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git log --grep/--author/... ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|    934 
+|  28.9% 
+| 
+|-
+|  often        
+|    289 
+|   8.9% 
+| 
+|-
+|  rarely       
+|    376 
+|  11.6% 
+| 
+|-
+|  sometimes    
+|    441 
+|  13.6% 
+| 
+|-
+|  Not answered 
+|   1196 
+|  37.0% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git log -S<string> (pickaxe search) ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|   1393 
+|  43.0% 
+| 
+|-
+|  often        
+|     95 
+|   2.9% 
+| 
+|-
+|  rarely       
+|    290 
+|   9.0% 
+| 
+|-
+|  sometimes    
+|    207 
+|   6.4% 
+| 
+|-
+|  Not answered 
+|   1251 
+|  38.7% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git log --graph ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|   1481 
+|  45.8% 
+| 
+|-
+|  often        
+|     52 
+|   1.6% 
+| 
+|-
+|  rarely       
+|    302 
+|   9.3% 
+| 
+|-
+|  sometimes    
+|    155 
+|   4.8% 
+| 
+|-
+|  Not answered 
+|   1246 
+|  38.5% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git merge ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|    302 
+|   9.3% 
+| 
+|-
+|  rarely       
+|    432 
+|  13.3% 
+| 
+|-
+|  often        
+|    709 
+|  21.9% 
+| 
+|-
+|  sometimes    
+|    713 
+|  22.0% 
+| 
+|-
+|  Not answered 
+|   1080 
+|  33.4% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git merge with strategy ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|   1533 
+|  47.4% 
+| 
+|-
+|  rarely       
+|    300 
+|   9.3% 
+| 
+|-
+|  often        
+|     32 
+|   1.0% 
+| 
+|-
+|  sometimes    
+|    116 
+|   3.6% 
+| 
+|-
+|  Not answered 
+|   1255 
+|  38.8% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git merge --squash ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|   1464 
+|  45.2% 
+| 
+|-
+|  often        
+|     66 
+|   2.0% 
+| 
+|-
+|  rarely       
+|    312 
+|   9.6% 
+| 
+|-
+|  sometimes    
+|    150 
+|   4.6% 
+| 
+|-
+|  Not answered 
+|   1244 
+|  38.4% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git mergetool ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|   1486 
+|  45.9% 
+| 
+|-
+|  often        
+|    118 
+|   3.6% 
+| 
+|-
+|  rarely       
+|    219 
+|   6.8% 
+| 
+|-
+|  sometimes    
+|    160 
+|   4.9% 
+| 
+|-
+|  Not answered 
+|   1253 
+|  38.7% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git pull (no remote) ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|    406 
+|  12.5% 
+| 
+|-
+|  often        
+|   1009 
+|  31.2% 
+| 
+|-
+|  rarely       
+|    307 
+|   9.5% 
+| 
+|-
+|  sometimes    
+|    444 
+|  13.7% 
+| 
+|-
+|  Not answered 
+|   1070 
+|  33.1% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git pull --rebase [<options>] ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|   1105 
+|  34.1% 
+| 
+|-
+|  rarely       
+|    405 
+|  12.5% 
+| 
+|-
+|  often        
+|    224 
+|   6.9% 
+| 
+|-
+|  sometimes    
+|    272 
+|   8.4% 
+| 
+|-
+|  Not answered 
+|   1230 
+|  38.0% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git pull <remote> ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|    308 
+|   9.5% 
+| 
+|-
+|  often        
+|    862 
+|  26.6% 
+| 
+|-
+|  rarely       
+|    386 
+|  11.9% 
+| 
+|-
+|  sometimes    
+|    623 
+|  19.3% 
+| 
+|-
+|  Not answered 
+|   1057 
+|  32.7% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git pull <URL> <ref> ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|    805 
+|  24.9% 
+| 
+|-
+|  often        
+|    331 
+|  10.2% 
+| 
+|-
+|  rarely       
+|    510 
+|  15.8% 
+| 
+|-
+|  sometimes    
+|    395 
+|  12.2% 
+| 
+|-
+|  Not answered 
+|   1195 
+|  36.9% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git push ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|    135 
+|   4.2% 
+| 
+|-
+|  rarely       
+|    140 
+|   4.3% 
+| 
+|-
+|  often        
+|   1628 
+|  50.3% 
+| 
+|-
+|  sometimes    
+|    358 
+|  11.1% 
+| 
+|-
+|  Not answered 
+|    975 
+|  30.1% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git relink ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|   1889 
+|  58.4% 
+| 
+|-
+|  often        
+|      1 
+|   0.0% 
+| 
+|-
+|  rarely       
+|     53 
+|   1.6% 
+| 
+|-
+|  sometimes    
+|      9 
+|   0.3% 
+| 
+|-
+|  Not answered 
+|   1284 
+|  39.7% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git rebase ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|    592 
+|  18.3% 
+| 
+|-
+|  rarely       
+|    432 
+|  13.3% 
+| 
+|-
+|  often        
+|    586 
+|  18.1% 
+| 
+|-
+|  sometimes    
+|    506 
+|  15.6% 
+| 
+|-
+|  Not answered 
+|   1120 
+|  34.6% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git rebase -i ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|   1097 
+|  33.9% 
+| 
+|-
+|  rarely       
+|    257 
+|   7.9% 
+| 
+|-
+|  often        
+|    346 
+|  10.7% 
+| 
+|-
+|  sometimes    
+|    297 
+|   9.2% 
+| 
+|-
+|  Not answered 
+|   1239 
+|  38.3% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git remote ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|    783 
+|  24.2% 
+| 
+|-
+|  often        
+|    269 
+|   8.3% 
+| 
+|-
+|  rarely       
+|    423 
+|  13.1% 
+| 
+|-
+|  sometimes    
+|    550 
+|  17.0% 
+| 
+|-
+|  Not answered 
+|   1211 
+|  37.4% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git remote update ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|   1327 
+|  41.0% 
+| 
+|-
+|  rarely       
+|    293 
+|   9.1% 
+| 
+|-
+|  often        
+|    138 
+|   4.3% 
+| 
+|-
+|  sometimes    
+|    208 
+|   6.4% 
+| 
+|-
+|  Not answered 
+|   1270 
+|  39.2% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git request-pull ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|   1750 
+|  54.1% 
+| 
+|-
+|  often        
+|     25 
+|   0.8% 
+| 
+|-
+|  rarely       
+|    140 
+|   4.3% 
+| 
+|-
+|  sometimes    
+|     47 
+|   1.5% 
+| 
+|-
+|  Not answered 
+|   1274 
+|  39.4% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git revert ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|    689 
+|  21.3% 
+| 
+|-
+|  rarely       
+|    688 
+|  21.3% 
+| 
+|-
+|  often        
+|    146 
+|   4.5% 
+| 
+|-
+|  sometimes    
+|    536 
+|  16.6% 
+| 
+|-
+|  Not answered 
+|   1177 
+|  36.4% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git send-email ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|   1642 
+|  50.7% 
+| 
+|-
+|  often        
+|     61 
+|   1.9% 
+| 
+|-
+|  rarely       
+|    169 
+|   5.2% 
+| 
+|-
+|  sometimes    
+|     97 
+|   3.0% 
+| 
+|-
+|  Not answered 
+|   1267 
+|  39.2% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git show-branch ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|   1444 
+|  44.6% 
+| 
+|-
+|  rarely       
+|    266 
+|   8.2% 
+| 
+|-
+|  often        
+|     79 
+|   2.4% 
+| 
+|-
+|  sometimes    
+|    188 
+|   5.8% 
+| 
+|-
+|  Not answered 
+|   1259 
+|  38.9% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git shortlog ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|   1414 
+|  43.7% 
+| 
+|-
+|  often        
+|     52 
+|   1.6% 
+| 
+|-
+|  rarely       
+|    301 
+|   9.3% 
+| 
+|-
+|  sometimes    
+|    207 
+|   6.4% 
+| 
+|-
+|  Not answered 
+|   1262 
+|  39.0% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git shortlog -s ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|   1648 
+|  50.9% 
+| 
+|-
+|  rarely       
+|    188 
+|   5.8% 
+| 
+|-
+|  often        
+|     25 
+|   0.8% 
+| 
+|-
+|  sometimes    
+|     97 
+|   3.0% 
+| 
+|-
+|  Not answered 
+|   1278 
+|  39.5% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git stash ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|    703 
+|  21.7% 
+| 
+|-
+|  often        
+|    498 
+|  15.4% 
+| 
+|-
+|  rarely       
+|    302 
+|   9.3% 
+| 
+|-
+|  sometimes    
+|    560 
+|  17.3% 
+| 
+|-
+|  Not answered 
+|   1173 
+|  36.2% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git stash --keep-index ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|   1704 
+|  52.7% 
+| 
+|-
+|  often        
+|     37 
+|   1.1% 
+| 
+|-
+|  rarely       
+|    133 
+|   4.1% 
+| 
+|-
+|  sometimes    
+|     75 
+|   2.3% 
+| 
+|-
+|  Not answered 
+|   1287 
+|  39.8% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git submodule ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|   1381 
+|  42.7% 
+| 
+|-
+|  often        
+|    122 
+|   3.8% 
+| 
+|-
+|  rarely       
+|    292 
+|   9.0% 
+| 
+|-
+|  sometimes    
+|    198 
+|   6.1% 
+| 
+|-
+|  Not answered 
+|   1243 
+|  38.4% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git svn ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|    915 
+|  28.3% 
+| 
+|-
+|  often        
+|    522 
+|  16.1% 
+| 
+|-
+|  rarely       
+|    306 
+|   9.5% 
+| 
+|-
+|  sometimes    
+|    322 
+|  10.0% 
+| 
+|-
+|  Not answered 
+|   1171 
+|  36.2% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git whatchanged ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|   1577 
+|  48.7% 
+| 
+|-
+|  often        
+|     64 
+|   2.0% 
+| 
+|-
+|  rarely       
+|    206 
+|   6.4% 
+| 
+|-
+|  sometimes    
+|    116 
+|   3.6% 
+| 
+|-
+|  Not answered 
+|   1273 
+|  39.3% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== git gui ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|   1330 
+|  41.1% 
+| 
+|-
+|  rarely       
+|    292 
+|   9.0% 
+| 
+|-
+|  often        
+|    234 
+|   7.2% 
+| 
+|-
+|  sometimes    
+|    171 
+|   5.3% 
+| 
+|-
+|  Not answered 
+|   1209 
+|  37.4% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+==== gitk ====
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  never        
+|    601 
+|  18.6% 
+| 
+|-
+|  rarely       
+|    335 
+|  10.4% 
+| 
+|-
+|  often        
+|    692 
+|  21.4% 
+| 
+|-
+|  sometimes    
+|    479 
+|  14.8% 
+| 
+|-
+|  Not answered 
+|   1129 
+|  34.9% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== Which of the following features do or did you use? ===
+
+(multiple choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply                                            
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  non-default hooks                                
+|    236 
+|   7.3% 
+| 
+|-
+|  working with dirty tree                          
+|    405 
+|  12.5% 
+| 
+|-
+|  bisect                                           
+|    643 
+|  19.9% 
+| 
+|-
+|  submodules (subprojects)                         
+|    554 
+|  17.1% 
+| 
+|-
+|  integration with IDE/editor                      
+|    418 
+|  12.9% 
+| 
+|-
+|  multiple worktrees (git-new-worktree)            
+|     72 
+|   2.2% 
+| 
+|-
+|  gitattributes                                    
+|    135 
+|   4.2% 
+| 
+|-
+|  stash                                            
+|   1180 
+|  36.5% 
+| 
+|-
+|  separate worktree                                
+|    141 
+|   4.4% 
+| 
+|-
+|  patch management interface (e.g. StGIT)          
+|    119 
+|   3.7% 
+| 
+|-
+|  alternates mechanism (sharing object database)   
+|    122 
+|   3.8% 
+| 
+|-
+|  git bundle (off-line transport)                  
+|    101 
+|   3.1% 
+| 
+|-
+|  git-filter-branch or cg-admin-rewritehist        
+|    143 
+|   4.4% 
+| 
+|-
+|  commit templates                                 
+|     38 
+|   1.2% 
+| 
+|-
+|  shallow clone                                    
+|    172 
+|   5.3% 
+| 
+|-
+|  eol conversion (crlf)                            
+|    176 
+|   5.4% 
+| 
+|-
+|  my own scripts                                   
+|    523 
+|  16.2% 
+| 
+|-
+|  interactive rebase                               
+|    670 
+|  20.7% 
+| 
+|-
+|  detaching HEAD                                   
+|    309 
+|   9.5% 
+| 
+|-
+|  gitk or other history viewer                     
+|   1586 
+|  49.0% 
+| 
+|-
+|  mergetool                                        
+|    376 
+|  11.6% 
+| 
+|-
+|  add --interactive or other partial commit helper 
+|    741 
+|  22.9% 
+| 
+|-
+|  reflog                                           
+|    339 
+|  10.5% 
+| 
+|-
+|  shell completion of commands                     
+|    951 
+|  29.4% 
+| 
+|-
+|  git-gui or other commit tool                     
+|    666 
+|  20.6% 
+| 
+|-
+|  git-aware shell prompt                           
+|    469 
+|  14.5% 
+| 
+|-
+|  Not answered                                     
+|   1069 
+|  33.0% 
+| 
+|}
+<!-- ##----------------------------------------------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== Which features do you find unique and/or useful ones,compared to other systems (other SCMs)? ===
+
+(multiple choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply                                            
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  working with dirty tree                          
+|    264 
+|   8.2% 
+| 
+|-
+|  submodules (subprojects)                         
+|    399 
+|  12.3% 
+| 
+|-
+|  bisect                                           
+|    735 
+|  22.7% 
+| 
+|-
+|  gitattributes                                    
+|     84 
+|   2.6% 
+| 
+|-
+|  scriptability                                    
+|    497 
+|  15.4% 
+| 
+|-
+|  separate worktree                                
+|    207 
+|   6.4% 
+| 
+|-
+|  the index                                        
+|    789 
+|  24.4% 
+| 
+|-
+|  stash                                            
+|   1121 
+|  34.6% 
+| 
+|-
+|  alternates mechanism (sharing oject database)    
+|    126 
+|   3.9% 
+| 
+|-
+|  git bundle (off-line transport)                  
+|    190 
+|   5.9% 
+| 
+|-
+|  git-filter-branch or cg-admin-rewritehist        
+|    125 
+|   3.9% 
+| 
+|-
+|  commit templates                                 
+|     65 
+|   2.0% 
+| 
+|-
+|  shallow clone                                    
+|    126 
+|   3.9% 
+| 
+|-
+|  detaching HEAD                                   
+|    177 
+|   5.5% 
+| 
+|-
+|  eol conversion (crlf)                            
+|    119 
+|   3.7% 
+| 
+|-
+|  interactive rebase                               
+|    711 
+|  22.0% 
+| 
+|-
+|  mergetool                                        
+|    248 
+|   7.7% 
+| 
+|-
+|  add --interactive or other partial commit helper 
+|    674 
+|  20.8% 
+| 
+|-
+|  reflog                                           
+|    295 
+|   9.1% 
+| 
+|-
+|  hooks system                                     
+|    323 
+|  10.0% 
+| 
+|-
+|  Not answered                                     
+|   1412 
+|  43.6% 
+| 
+|}
+<!-- ##----------------------------------------------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== If you use some important Git features not mentioned above, what are those? ===
+
+(Results of free-form questions will follow.)
+
+=== Overall, how happy are you with Git? ===
+
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply              
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  unhappy            
+|     19 
+|   0.6% 
+| 
+|-
+|  very happy         
+|   1341 
+|  41.4% 
+| 
+|-
+|  happy              
+|    687 
+|  21.2% 
+| 
+|-
+|  completly ecstatic 
+|    498 
+|  15.4% 
+| 
+|-
+|  not so happy       
+|     86 
+|   2.7% 
+| 
+|-
+|  Not answered       
+|    605 
+|  18.7% 
+| 
+|}
+<!-- ##----------------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== How does Git compare to other SCM tools you have used? ===
+
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply                 
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##-------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  worse                 
+|     52 
+|   1.6% 
+| 
+|-
+|  equal (or comparable) 
+|    293 
+|   9.1% 
+| 
+|-
+|  better                
+|   2244 
+|  69.3% 
+| 
+|-
+|  Not answered          
+|    647 
+|  20.0% 
+| 
+|}
+<!-- ##-------------------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== What would you like to see improved about Git? ===
+
+(Results of free-form questions will follow.)
+
+=== What tools (or kind of tools) would you like to see Git support in? ===
+
+(Results of free-form questions will follow.)
+
+=== Did you participate in previous Git User's Surveys? ===
+
+(multiple choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  in 2007      
+|    256 
+|   7.9% 
+| 
+|-
+|  in 2006      
+|     77 
+|   2.4% 
+| 
+|-
+|  Not answered 
+|   2971 
+|  91.8% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== How do you compare current version with version from year ago? ===
+
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  cannot say   
+|    990 
+|  30.6% 
+| 
+|-
+|  worse        
+|      5 
+|   0.2% 
+| 
+|-
+|  better       
+|    855 
+|  26.4% 
+| 
+|-
+|  no changes   
+|     75 
+|   2.3% 
+| 
+|-
+|  Not answered 
+|   1311 
+|  40.5% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== Do you use the Git wiki? ===
+
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  No           
+|   1348 
+|  41.7% 
+| 
+|-
+|  Yes          
+|   1151 
+|  35.6% 
+| 
+|-
+|  Not answered 
+|    737 
+|  22.8% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== Do you find Git wiki useful? ===
+
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  No           
+|    246 
+|   7.6% 
+| 
+|-
+|  Somewhat     
+|    708 
+|  21.9% 
+| 
+|-
+|  Yes          
+|    672 
+|  20.8% 
+| 
+|-
+|  Not answered 
+|   1610 
+|  49.8% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== Do you contribute to Git wiki? ===
+
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply             
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##---------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  only spam removal 
+|     37 
+|   1.1% 
+| 
+|-
+|  No                
+|   1916 
+|  59.2% 
+| 
+|-
+|  Yes               
+|     50 
+|   1.5% 
+| 
+|-
+|  Not answered      
+|   1233 
+|  38.1% 
+| 
+|}
+<!-- ##---------------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== Do you find Git's on-line help (homepages, documentation) useful? ===
+
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  No           
+|    120 
+|   3.7% 
+| 
+|-
+|  Somewhat     
+|    775 
+|  23.9% 
+| 
+|-
+|  Yes          
+|   1392 
+|  43.0% 
+| 
+|-
+|  Not answered 
+|    949 
+|  29.3% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== Do you find help distributed with Git useful? ===
+
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  No           
+|    136 
+|   4.2% 
+| 
+|-
+|  Somewhat     
+|    672 
+|  20.8% 
+| 
+|-
+|  Yes          
+|   1544 
+|  47.7% 
+| 
+|-
+|  Not answered 
+|    884 
+|  27.3% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== What could be improved on the Git homepage(s)? ===
+
+(Results of free-form questions will follow.)
+
+=== What could be improved in Git documentation? ===
+
+(Results of free-form questions will follow.)
+
+=== What is the language you want computer communicate with you? ===
+
+(Results of free-form questions will follow.)
+
+=== What do you need/want to have translated? ===
+
+(multiple choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply                             
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##-------------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  git wiki                          
+|     78 
+|   2.4% 
+| 
+|-
+|  manpages                          
+|    205 
+|   6.3% 
+| 
+|-
+|  subcommands and long option names 
+|     33 
+|   1.0% 
+| 
+|-
+|  git-gui                           
+|     94 
+|   2.9% 
+| 
+|-
+|  technical documentation           
+|    128 
+|   4.0% 
+| 
+|-
+|  command messages                  
+|    132 
+|   4.1% 
+| 
+|-
+|  gitk                              
+|    106 
+|   3.3% 
+| 
+|-
+|  HOWTOs                            
+|    224 
+|   6.9% 
+| 
+|-
+|  User Manual/Tutorial/...          
+|    246 
+|   7.6% 
+| 
+|-
+|  git homepage                      
+|     93 
+|   2.9% 
+| 
+|-
+|  Not answered                      
+|   2911 
+|  90.0% 
+| 
+|}
+<!-- ##-------------------------------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== Have you tried to get Git help from other people? ===
+
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  No           
+|    950 
+|  29.4% 
+| 
+|-
+|  Yes          
+|   1395 
+|  43.1% 
+| 
+|-
+|  Not answered 
+|    891 
+|  27.5% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== What channel did you use to request help? ===
+
+(Results of multiple choice questions with free-form parts will follow.)
+
+=== If yes, did you get these problems resolved quickly and to your liking? ===
+
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  No           
+|     76 
+|   2.3% 
+| 
+|-
+|  Somewhat     
+|    414 
+|  12.8% 
+| 
+|-
+|  Yes          
+|    983 
+|  30.4% 
+| 
+|-
+|  Not answered 
+|   1763 
+|  54.5% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== Would commercial (paid) Git support from a support vendor be of interest to you/your organization? ===
+
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply          
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  not applicable 
+|    481 
+|  14.9% 
+| 
+|-
+|  No             
+|   1475 
+|  45.6% 
+| 
+|-
+|  Yes            
+|    189 
+|   5.8% 
+| 
+|-
+|  Not answered   
+|   1091 
+|  33.7% 
+| 
+|}
+<!-- ##------------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== Do you think it is easy to find out how to do a specific task with git? ===
+
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  No           
+|    272 
+|   8.4% 
+| 
+|-
+|  Yes          
+|    641 
+|  19.8% 
+| 
+|-
+|  not always   
+|   1411 
+|  43.6% 
+| 
+|-
+|  Not answered 
+|    912 
+|  28.2% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== Do you read the mailing list? ===
+
+(multiple choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply                               
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##---------------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  git@vger.kernel.org (main)          
+|    423 
+|  13.1% 
+| 
+|-
+|  msysGit                             
+|     60 
+|   1.9% 
+| 
+|-
+|  Git for Human Beings (Google Group) 
+|     78 
+|   2.4% 
+| 
+|-
+|  Not answered                        
+|   2741 
+|  84.7% 
+| 
+|}
+<!-- ##---------------------------------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== If yes, do you find mailing list useful? ===
+
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  No           
+|     71 
+|   2.2% 
+| 
+|-
+|  Somewhat     
+|    237 
+|   7.3% 
+| 
+|-
+|  Yes          
+|    294 
+|   9.1% 
+| 
+|-
+|  Not answered 
+|   2634 
+|  81.4% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== Do you find the mailing list traffic level to be: ===
+
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply                       
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##-------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  tolerable (a bit high)      
+|    257 
+|   7.9% 
+| 
+|-
+|  I don't read it             
+|    620 
+|  19.2% 
+| 
+|-
+|  intolerable (absurdly high) 
+|     73 
+|   2.3% 
+| 
+|-
+|  OK, just right              
+|    153 
+|   4.7% 
+| 
+|-
+|  too low                     
+|     14 
+|   0.4% 
+| 
+|-
+|  Not answered                
+|   2119 
+|  65.5% 
+| 
+|}
+<!-- ##-------------------------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== Do you use the IRC channel (#git on irc.freenode.net)? ===
+
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  No           
+|   1354 
+|  41.8% 
+| 
+|-
+|  Yes          
+|    539 
+|  16.7% 
+| 
+|-
+|  Not answered 
+|   1343 
+|  41.5% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== If yes, do you find IRC channel useful? ===
+
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  No           
+|     92 
+|   2.8% 
+| 
+|-
+|  Somewhat     
+|    192 
+|   5.9% 
+| 
+|-
+|  Yes          
+|    355 
+|  11.0% 
+| 
+|-
+|  Not answered 
+|   2597 
+|  80.3% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== Did you have problems getting GIT help on mailing list or on IRC channel? What were it? What could be improved? ===
+
+(Results of free-form questions will follow.)
+
+=== What other comments or suggestions do you have that are not covered by the questions above? ===
+
+(Results of free-form questions will follow.)
+
+=== Should Git User's Survey be repeated next year? ===
+
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  No           
+|     29 
+|   0.9% 
+| 
+|-
+|  no opinion   
+|    464 
+|  14.3% 
+| 
+|-
+|  Yes          
+|   1788 
+|  55.3% 
+| 
+|-
+|  Not answered 
+|    955 
+|  29.5% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== Where have you read/find about this survey? ===
+
+(Results of free-form questions will follow.)
+
 ----
 [[CategoryStatistics]]
 
