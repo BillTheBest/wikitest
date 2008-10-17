@@ -431,14 +431,18 @@ Results of the survey:
 |  Reply        
 |  Count 
 |  Perc. 
+|  Group      
+|  Count     
 | 
 |}
-<!-- ##----------------------------------
+<!-- ##----------------------------------------------------------------
  -->
 {| border="1" cellpadding="2" cellspacing="0"
 |  13           
 |      3 
 |   0.1% 
+|rowspan="4" | < 18   
+|rowspan="4" | 39    
 | 
 |-
 |  15           
@@ -459,6 +463,8 @@ Results of the survey:
 |  18           
 |     38 
 |   1.2% 
+|rowspan="4" | 18-21  
+|rowspan="4" | 260   
 | 
 |-
 |  19           
@@ -479,6 +485,8 @@ Results of the survey:
 |  22           
 |    151 
 |   4.7% 
+|rowspan="4" | 22-25  
+|rowspan="4" | 751   
 | 
 |-
 |  23           
@@ -499,6 +507,8 @@ Results of the survey:
 |  26           
 |    209 
 |   6.5% 
+|rowspan="5" | 26-30  
+|rowspan="5" | 902   
 | 
 |-
 |  27           
@@ -524,6 +534,8 @@ Results of the survey:
 |  30+          
 |      4 
 |   0.1% 
+|rowspan="11" | 31-40 
+|rowspan="11" | 701  
 | 
 |-
 |  31           
@@ -579,6 +591,8 @@ Results of the survey:
 |  41           
 |     19 
 |   0.6% 
+|rowspan="10" | 41-50 
+|rowspan="10" | 142  
 | 
 |-
 |  42           
@@ -629,6 +643,8 @@ Results of the survey:
 |  51           
 |      5 
 |   0.2% 
+|rowspan="14" | 51-75 
+|rowspan="14" | 31   
 | 
 |-
 |  52           
@@ -699,6 +715,8 @@ Results of the survey:
 |  Crap answer  
 |      5 
 |   0.2% 
+|rowspan="2" | -      
+|rowspan="2" | 410 
 | 
 |-
 |  Not answered 
