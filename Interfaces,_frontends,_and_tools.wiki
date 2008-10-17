@@ -119,7 +119,7 @@
  -->
 
 === GitX ===
-* GitX ([http://github.com/pieter/gitx/wikis homepage], [http://github.com/pieter/gitx/tree/master github], [http://frim.frim.nl/GitXStable.app.zip download]) by Pieter de Bie is a gitk clone aiming to provide a more native interface to MacOS X users with OS X-only features.  It has a native interface and tries to integrate with the operating system as good as possible. Examples of this are drag and drop support and QuickLook support. <<BR>><b>See also:</b> [http://permalink.gmane.org/gmane.comp.version-control.git/93980 |Announce| GitX v0.1: Gitk clone for OS X] post on git mailing list.
+* GitX ([http://gitx.frim.nl homepage], [http://github.com/pieter/gitx/tree/master github], [http://frim.frim.nl/GitXStable.app.zip download]) by Pieter de Bie is a gitk clone aiming to provide a more native interface to MacOS X users with OS X-only features.  It has a native interface and tries to integrate with the operating system as good as possible. Examples of this are drag and drop support and QuickLook support. <<BR>><b>See also:</b> [http://permalink.gmane.org/gmane.comp.version-control.git/93980 |Announce| GitX v0.1: Gitk clone for OS X] post on git mailing list.
 
 === Pyrite ===
 * [http://pyrite.sophiasuchtig.com/ pyrite] by Govind Salinas is a Git GUI and front end written in Python.
