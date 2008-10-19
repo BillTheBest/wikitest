@@ -310,7 +310,7 @@
 | 
 |-
 |  checkout                            
-|    
+|  X 
 |   X  
 |  X 
 |  X 
@@ -329,7 +329,7 @@
 | 
 |-
 |  cherry-pick                         
-|    
+|  X 
 |      
 |  X 
 |  X 
