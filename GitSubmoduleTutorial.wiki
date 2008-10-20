@@ -186,7 +186,7 @@ $ echo "adding a line again" >> a.txt
 $ git commit -a -m "Updated the submodule from within the superproject."
 $ git push
 $ cd ..
-$ git add a
+$ git add a        # There is a gotcha here.  Read about it below.
 $ git commit -m "Updated submodule a."
 $ git show | cat
 ...
@@ -213,6 +213,22 @@ adding a line again
 </nowiki></pre>
 
 == Gotchas ==
+
+If you use a forward slash (/) after the submodule name when adding 
+changes to a submodule and updating the container repository to use
+the latest submodule changes that you have pulled from the remote source:
+
+<pre><nowiki>
+$ git add submodule/
+</nowiki></pre>
+
+git will think you want to delete the submodule and want to
+add all the files in the submodule directory.  Please DONT use a forward
+slash after the submodule name.  You must type it like this:
+
+<pre><nowiki>
+$ git add submodule
+</nowiki></pre>
 
 Always publish the submodule change before publishing the change to the
 superproject that references it. If you forget to publish the submodule
