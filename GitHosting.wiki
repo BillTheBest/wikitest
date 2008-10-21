@@ -21,7 +21,9 @@ Those are public Git hosting sites where any project can be hosted, perhaps with
 * [http://unfuddle.com/ Unfuddle] (Software Project Management: Git and Subversion Hosting), free (or different payment plans) but not open source.
 * [http://codebasehq.com Codebase] is a Git hosting service with full online source browser, changeset viewer, ticketing and deployment tracking. Designed for private/company projects. Currently, still in beta although invites can be requested through the website.
 * [http://www.a2hosting.com/ A2Hosting] provides paid Git hosting over SSH.
+* [http://www.projectlocker.com ProjectLocker] offers paid Git hosting with plans starting at 1 GB and integration with Trac.
 * [http://www.berlios.de Berlios] provides Git hosting for open source projects, including gitweb. See [http://developer.berlios.de/docman/display_doc.php?docid=1812&group_id=2 documentation]
+
 === Project specific Git hosting sites ===
 * [http://www.kernel.org Kernel.org] ([http://git.kernel.org/ gitweb]) for Linux kernel related projects.  Uses [http://git.kernel.org/?p=git/warthog9/gitweb.git gitweb fork] with caching support.<<BR>> Kernel.org accounts are not given away very often, usually you need to be making some reasonable amount of contributions to the Linux kernel and have a good reason for wanting / needing an account.
 * [http://www.freedesktop.org/wiki/ Freedesktop.org] ([http://gitweb.freedesktop.org gitweb], [http://cgit.freedesktop.org/ cgit]), for X Window System desktop (Linux desktop infrastructure) related projects.  Registering is managed by adding project registering request in Bugzilla.<<BR>> <b>See also:</b> [http://www.freedesktop.org/wiki/Infrastructure/git Infrastructure/git] (formerly UsingGit) page on freedesktop.org wiki.
