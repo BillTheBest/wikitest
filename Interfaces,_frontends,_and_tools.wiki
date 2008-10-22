@@ -31,6 +31,9 @@
 === darcs-git ===
 * [http://git.frugalware.org/gitweb/gitweb.cgi?p=pacman-tools.git;a=blob;f=darcs-git.py;hb=HEAD darcs-git.py] (and its [http://git.frugalware.org/gitweb/gitweb.cgi?p=pacman-tools.git;a=blob;f=darcs-git.txt;hb=HEAD documentation]) darcs-git is a darcs-like porcelain on top of git plumbing.  If you are accustomed to darcs, this porcelain will let you use git via the familiar darcs user interface.
 
+=== repo ===
+* [http://android.git.kernel.org/?p=tools/repo.git repo] is a project to use Git to build OS distributions; similar to Git submodules, it can track specified branches from Git projects.
+
 == Interfaces to other programming languages ==
 
 === [[GitPython]] ===
