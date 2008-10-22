@@ -3364,7 +3364,188 @@ Results of the survey:
 
 === Where have you read/find about this survey? ===
 
-(Results of free-form questions will follow.)
+(free-form question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply                                                                         
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##---------------------------------------------------------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  [[GitHub]] (also blog or mailing list)                                            
+|    584 
+|  18.0% 
+| 
+|-
+|  git.or.cz                                                                     
+|    227 
+|   7.0% 
+| 
+|-
+|  Git mailing list                                                              
+|    209 
+|   6.5% 
+| 
+|-
+|  some project's mailing list                                                   
+|     98 
+|   3.0% 
+| 
+|-
+|  debian-devel-announce mail                                                    
+|     82 
+|   2.5% 
+| 
+|-
+|  some blog or news site                                                        
+|     68 
+|   2.1% 
+| 
+|-
+|  another person                                                                
+|     66 
+|   2.0% 
+| 
+|-
+|  LKML                                                                          
+|     49 
+|   1.5% 
+| 
+|-
+|  IRC                                                                           
+|     48 
+|   1.5% 
+| 
+|-
+|  twitter (chacon, defunkt, chadfowler)                                         
+|     45 
+|   1.4% 
+| 
+|-
+|  http://www.gnome.org/~federico/news-2008-09.html#23 (partly via Planet GNOME) 
+|     41 
+|   1.3% 
+| 
+|-
+|  http://news.ycombinator.com/item?id=291560                                    
+|     38 
+|   1.2% 
+| 
+|-
+|  http://www.pro-linux.de/news/2008/13124.html                                  
+|     36 
+|   1.1% 
+| 
+|-
+|  http://www.heise.de/newsticker/meldung/115637                                 
+|     31 
+|   1.0% 
+| 
+|-
+|  Gitorious.org                                                                 
+|     30 
+|   0.9% 
+| 
+|-
+|  don't know                                                                    
+|     26 
+|   0.8% 
+| 
+|-
+|  reddit.com                                                                    
+|     25 
+|   0.8% 
+| 
+|-
+|  repo.or.cz                                                                    
+|     22 
+|   0.7% 
+| 
+|-
+|  http://unfuddle.com/                                                          
+|     21 
+|   0.6% 
+| 
+|-
+|  [[KernelTrap]]                                                                    
+|     16 
+|   0.5% 
+| 
+|-
+|  http://linuxnews.pl/ankieta-uzytkownikow-systemu-kontroli-wersji-git/         
+|     12 
+|   0.4% 
+| 
+|-
+|  [[GitWiki]]                                                                       
+|     10 
+|   0.3% 
+| 
+|-
+|  some project web pages                                                        
+|      9 
+|   0.3% 
+| 
+|-
+|  gitcasts.com                                                                  
+|      8 
+|   0.2% 
+| 
+|-
+|  git-scm.{org,com}                                                             
+|      7 
+|   0.2% 
+| 
+|-
+|  LWN                                                                           
+|      6 
+|   0.2% 
+| 
+|-
+|  Ohloh.net                                                                     
+|      5 
+|   0.2% 
+| 
+|-
+|  http://www.fsdaily.com/Community/Git_Users_Survey_2008_Begins                 
+|      3 
+|   0.1% 
+| 
+|-
+|  I wrote it                                                                    
+|      2 
+|   0.1% 
+| 
+|-
+|  Crap answer                                                                   
+|     32 
+|   1.0% 
+| 
+|-
+|  Not answered                                                                  
+|   1443 
+|  44.6% 
+| 
+|}
+<!-- ##---------------------------------------------------------------------------------------------------
+ -->
+<!-- ## table end
+ -->
+
+There has been a useful tip for the mailing list "spamming": <i>I thought it was spam at first[...]. Please include a link to a "trusted site" like git.or.cz which explains the survey.</i>
+
+Many of the answers in "Crap answer"s are due to the bad English in the question or due to the big amount of questions and people getting tired. The question has been understood as "What do you think about the survey?" and the main answer is: "This survey is much too long!". Some people added that it may help to improve Git.
+
+Regarding the survey itself, there has been some noteworthy tips or notes:
+* <i>Seems like it </i>(the length of the survey)<i> would impact the accuracy of the results, as people pay less attention as the survey goes on.</i>
+* <i>Try to reduce the amount of questions (specially the multiple-choice ones) the next year.</i>
+* <i>Too long! Remove half of the questions. At minimum, supply a link to a forum where each question block can be discussed. I can't imagine that you can use all questions' answers for anything, so please avoid even showing such questions. Or move them to a "Bonus questions" section that you can open after "finishing" the survey. Or just make git run statistics of it's usage and allow ppl to report that, but please _don't_ make ppl report usage statistics manually like in this questionnaire!</i>
+* <i>unsure about optional fields</i> (Note: the header of the survey said that <b>all</b> questions are optional)
 
 ----
 [[CategoryStatistics]]
