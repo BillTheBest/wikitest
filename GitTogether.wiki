@@ -10,6 +10,12 @@ Signup deadline is Oct 14th.  Google needs a final guest list by then to prepare
 
 Any questions, please contact Shawn Pearce (gsoc@spearce.org).
 
+We have a Google Calendar for tracking what we are doing, so consider adding it to your own Google Calendar, iCal or whatever:
+* Calendar ID: amj5rbmljs66k9rtibs34kc2c8@group.calendar.google.com
+* [http://www.google.com/calendar/ical/amj5rbmljs66k9rtibs34kc2c8%40group.calendar.google.com/public/basic.ics iCal]
+* [http://www.google.com/calendar/hosted/google.com/embed?src=amj5rbmljs66k9rtibs34kc2c8%40group.calendar.google.com&ctz=America/Los_Angeles HTML]
+* [http://www.google.com/calendar/feeds/amj5rbmljs66k9rtibs34kc2c8%40group.calendar.google.com/public/basic XML]
+
 == Attendees ==
 
 # Junio C. Hamano (not on Wednesday)
