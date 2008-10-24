@@ -39,7 +39,7 @@ We have a Google Calendar for tracking what we are doing, so consider adding it 
 # Eric Wong
 # David Bryson
 # David Brown
-# Pierre Habouzit (not on the Wednesday though).
+# Pierre Habouzit (not on Wednesday)
 # Tom Preston-Werner
 # H. Peter Anvin (aka hpa)
 
@@ -47,25 +47,27 @@ Google has us capped at ~25 attendees.
 
 Please join the [http://lists.utsl.gen.nz/mailman/listinfo.cgi/gittogether GitTogether mailing list].  We promise to keep the traffic low and to disband it after the event.  Useful information for attendees will be sent to this list as we get closer to the [[GitTogether]].
 
-== Agenda ==
+== Approximate Agenda ==
 
-The agenda hasn't been fully scheduled yet, and probably won't be until we're half way through the [[GitTogether]] itself, as most of it will be based upon the attendee's interests.  That said, there are some events we do know about:
+For the full agenda, please see the Google Calendar linked above, but the important highlights are here:
 
 * Monday (27th)
-** 9:00-9:30 am: arrive, mingle, hot breakfast
-** 9:30-10:00 am: travel to another part of Google's campus.
-** 10:00-11:00 am: Johannes Schindelin's Google Tech Talk: Contributing with Git.
+** 8:30-9:30 am: Breakfast at No Name Cafe, Building 43
+    [http://maps.google.com/maps?f=q&hl=en&geocode=&q=37.421708,-122.084209&ie=UTF8&ll=37.421708,-122.084209&spn=0.009501,0.012703&t=h&z=17&g=37.421708,-122.084209&iwloc=addr 1600 Amphitheatre Pkwy, Mountain View, California 94043].  The pin is located where No Name Cafe is in Building 43.  Please meet on the patio outside the building 43 lobby.
+* 10:00-11:00 am: Johannes Schindelin's Google Tech Talk: Contributing with Git.
     This talk will be recorded and eventually posted on a Google video property (e.g. Google Video or [[YouTube]]) after the [[GitTogether]].  It may take up to a month for the video to get uploaded, depending on the backlog of the tech talk staff.
 * 12:00-1:00 pm: lunch
 * 6:00 pm: Dinner at Charlie's
 * Tuesday (28th)
 * 9:00-9:30 am: arrive, mingle, hot breakfast
+    [http://maps.google.com/maps?f=d&saddr=&daddr=37.427258,-122.071775&hl=en&geocode=&mra=mi&mrsp=0&sz=20&sll=37.427265,-122.071771&sspn=0.001087,0.001159&ie=UTF8&ll=37.426786,-122.071484&spn=0.00435,0.004635&t=h&z=18  1500 Crittenden, Mountain View, CA].  The pin is located where our conference room, Asgard Training, is located.
+
 * 12:00-1:00 pm: lunch
-* 6:00 pm: Dinner out (location TBD)
+* 6:00 pm: Dinner out: Dinner at Mediterranean Grill House, 650 Castro St, Mountain View, CA 94041
 * Wednesday (29th)
 * 9:00-9:30 am: arrive, mingle, hot breakfast
 * 12:00-1:00 pm: lunch
-* 6:00 pm: Dinner out (location TBD)
+* 6:00 pm: Dinner out: Dinner at Temptations, 288 Castro St, Mountain View, CA 94041
 
 Please try to time your arrival to the 9:00-9:30 am window each day.  Googlers will be on hand to help you sign in and find the meeting room.  After 9:30 signing in will get a little bit more interesting as you may need to work with main reception.
 
