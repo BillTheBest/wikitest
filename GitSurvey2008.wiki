@@ -731,7 +731,302 @@ Results of the survey:
 
 === With which programming languages are you proficient? ===
 
-(Results of multiple choice questions with free-form parts will follow.)
+(multiple choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply                 
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##-------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  C                     
+|   1780 
+|  55.0% 
+| 
+|-
+|  shell                 
+|   1511 
+|  46.7% 
+| 
+|-
+|  Ruby                  
+|   1406 
+|  43.4% 
+| 
+|-
+|  [[JavaScript]]            
+|   1283 
+|  39.6% 
+| 
+|-
+|  Java                  
+|   1191 
+|  36.8% 
+| 
+|-
+|  C++                   
+|   1166 
+|  36.0% 
+| 
+|-
+|  PHP                   
+|   1147 
+|  35.4% 
+| 
+|-
+|  Python                
+|   1084 
+|  33.5% 
+| 
+|-
+|  Perl                  
+|    829 
+|  25.6% 
+| 
+|-
+|  Assembly              
+|    421 
+|  13.0% 
+| 
+|-
+|  C#                    
+|    412 
+|  12.7% 
+| 
+|-
+|  Common Lisp or Scheme 
+|    265 
+|   8.2% 
+| 
+|-
+|  Emacs Lisp            
+|    202 
+|   6.2% 
+| 
+|-
+|  Visual Basic          
+|    194 
+|   6.0% 
+| 
+|-
+|  Delphi                
+|     98 
+|   3.0% 
+| 
+|-
+|  Tcl/Tk                
+|     89 
+|   2.8% 
+| 
+|-
+|  Haskell               
+|     80 
+|   2.5% 
+| 
+|-
+|  Objective-C           
+|     75 
+|   2.3% 
+| 
+|-
+|  Erlang                
+|     54 
+|   1.7% 
+| 
+|-
+|  [[ActionScript]]          
+|     32 
+|   1.0% 
+| 
+|-
+|  OCaml                 
+|     31 
+|   1.0% 
+| 
+|-
+|  Lua                   
+|     29 
+|   0.9% 
+| 
+|-
+|  Fortran               
+|     23 
+|   0.7% 
+| 
+|-
+|  sed or awk *          
+|     19 
+|   0.6% 
+| 
+|-
+|  TeX/[[LaTeX]] *           
+|     19 
+|   0.6% 
+| 
+|-
+|  Matlab, Octave        
+|     18 
+|   0.6% 
+| 
+|-
+|  Smalltalk             
+|     18 
+|   0.6% 
+| 
+|-
+|  Prolog                
+|     17 
+|   0.5% 
+| 
+|-
+|  HTML, XHTML *         
+|     16 
+|   0.5% 
+| 
+|-
+|  Pascal                
+|     16 
+|   0.5% 
+| 
+|-
+|  CSS *                 
+|     12 
+|   0.4% 
+| 
+|-
+|  ML, SML, Caml         
+|     11 
+|   0.3% 
+| 
+|-
+|  R                     
+|     11 
+|   0.3% 
+| 
+|-
+|  SQL                   
+|     11 
+|   0.3% 
+| 
+|-
+|  Scala                 
+|      9 
+|   0.3% 
+| 
+|-
+|  D                     
+|      8 
+|   0.2% 
+| 
+|-
+|  Forth                 
+|      8 
+|   0.2% 
+| 
+|-
+|  Groovy                
+|      8 
+|   0.2% 
+| 
+|-
+|  [[ColdFusion]]            
+|      7 
+|   0.2% 
+| 
+|-
+|  VHDL                  
+|      7 
+|   0.2% 
+| 
+|-
+|  BASIC                 
+|      7 
+|   0.2% 
+| 
+|-
+|  Adobe Flex            
+|      6 
+|   0.2% 
+| 
+|-
+|  Vala                  
+|      6 
+|   0.2% 
+| 
+|-
+|  Ada                   
+|      5 
+|   0.2% 
+| 
+|-
+|  [[AppleScript]]           
+|      5 
+|   0.2% 
+| 
+|-
+|  PL/SQL                
+|      5 
+|   0.2% 
+| 
+|-
+|  Verilog               
+|      5 
+|   0.2% 
+| 
+|-
+|  XSLT                  
+|      5 
+|   0.2% 
+| 
+|-
+|  Python                
+|      4 
+|   0.1% 
+| 
+|-
+|  REXX                  
+|      4 
+|   0.1% 
+| 
+|-
+|  [[VimScript]]             
+|      4 
+|   0.1% 
+| 
+|-
+|  Other                 
+|     87 
+|   2.7% 
+| 
+|-
+|  I am not programmer   
+|     47 
+|   1.5% 
+| 
+|-
+|  Crap answer           
+|      2 
+|   0.1% 
+| 
+|-
+|  Not answered          
+|    343 
+|  10.6% 
+| 
+|}
+<!-- ##-------------------------------------------
+ -->
+<!-- ## table end
+ -->
+
+(*) There are usually a lot more people who are proficient with this language, but it is not considered as a real programming language by many people.
+
+Every explicitly named programming languages with less then 4 users is put into "Other".
 
 === How did you hear about Git? ===
 
