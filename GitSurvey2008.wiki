@@ -731,7 +731,7 @@ Results of the survey:
 
 === With which programming languages are you proficient? ===
 
-(multiple choice question)
+(open multiple choice question)
 
 <!-- ## table begin
  -->
