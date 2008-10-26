@@ -471,6 +471,11 @@ List does not currently include [[Git]] or git-related tools.
 * http://linux.duke.edu/projects/yum/scm.ptml (development)
 * http://devel.linux.duke.edu/gitweb/ (gitweb)
 
+== Projects stopped using Git. ==
+* Mozilla http://weblogs.mozillazine.org/preed/2006/11/version_control_system_shootou.html
+* Ruby http://www.ruby-forum.com/topic/87174
+* [[FlightGear]] http://sourceforge.net/mailarchive/message.php?msg_id=ef5fc9920808201253o2f64d31ao855fafe1811d5d92%40mail.gmail.com
+
 == Git collections ==
 
 * git mirror of many cvs projects important for the development of Fedora Core
