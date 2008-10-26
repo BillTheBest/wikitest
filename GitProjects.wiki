@@ -483,6 +483,8 @@ List does not currently include [[Git]] or git-related tools.
 
 == Git hosting ==
 
+See also [[GitHosting]]
+
 * Public Git hosting site, maintained by Petr Baudis
 ** http://repo.or.cz/
 * http://hosted.fedoraproject.org/ (Primarily Fedora related but open to other Free software projects too)
