@@ -163,7 +163,7 @@ All meals with the exception of Tuesday and Wednesday night are free.  Tuesday a
 |  Petr Baudis         
 |  Talk/Discussion       
 |  New git homepage hammering out                               
-|  1 hour            
+|  0.5 hour or less  
 | 
 |-
 |  ?                   
@@ -191,9 +191,9 @@ All meals with the exception of Tuesday and Wednesday night are free.  Tuesday a
 | 
 |-
 |  Petr Baudis         
-|  Talk + Debate         
+|  Lightning Talk        
 |  Quick [[TopGit]] introduction, problems, future plans            
-|  0.5 hour          
+|  10 min            
 | 
 |-
 |  Petr Baudis         
@@ -205,13 +205,13 @@ All meals with the exception of Tuesday and Wednesday night are free.  Tuesday a
 |  Petr Baudis         
 |  Talk/Brainst./Hacking 
 |  introduce the secret pickaxe project                         
-|  0.5 hour          
+|  0.25 hour         
 | 
 |-
 |  Petr Baudis         
 |  Talk/Discussion/Hack  
 |  What still rocks in Cogito and other Git's UI abominations   
-|  1 hour            
+|  0.5+ hour         
 | 
 |-
 |  David Brown         
