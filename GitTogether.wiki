@@ -253,6 +253,7 @@ The following topics have been proposed for talks/workshops/hack-sessions:
 * Extending Git with volatile metadata database (see [http://mid.gmane.org/20080910164045.GL10360@machine.or.cz 20080910164045.GL10360@machine.or.cz])
 * Git improvement ideas gleaned from creating and running GitHub as a social layer on top of Git
 * Git Survey 2008 results and discussion
+* Hack session - try to port Bazaar's new diff algorithm to Git, compare results with Git's diff
 * Free form "We tried to use git in our project this way, didn't work very well" session, where participants are not allowed to say "Your workflow is broken".
 
 == Directions ==
