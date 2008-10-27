@@ -234,14 +234,14 @@ All meals with the exception of Tuesday and Wednesday night are free.  Tuesday a
 |  1 hour 
 | 
 |-
-|  
+|  scheduled 
 |  David Brown 
 |  Talk/Discussion 
 |  Using git in a 150+ user corporate environment 
 |  1 hour 
 | 
 |-
-|  
+|  scheduled 
 |  Jeffrey Altman 
 |  Talk/Discussion 
 |  OpenAFS' switch to Git, where is Windows Git going? 
@@ -253,6 +253,13 @@ All meals with the exception of Tuesday and Wednesday night are free.  Tuesday a
 |  Brainstorming 
 |  Renames - current situation, future options 
 |  0.25+ hour 
+| 
+|-
+|  
+|  Petr Baudis 
+|  Tutorial 
+|  [[TopGit]] 
+|  0.5 hour 
 | 
 |}
 If anyone else wants to introduce or lead a section, please add your name above to volunteer.
