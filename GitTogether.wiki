@@ -160,7 +160,7 @@ All meals with the exception of Tuesday and Wednesday night are free.  Tuesday a
 |  Petr Baudis 
 |  Talk/Discussion 
 |  New git homepage hammering out 
-|  0.5 hour or less 
+|  0.25- hour 
 | 
 |-
 |  ? 
@@ -208,7 +208,7 @@ All meals with the exception of Tuesday and Wednesday night are free.  Tuesday a
 |  Petr Baudis 
 |  Talk/Discussion/Hack 
 |  What still rocks in Cogito and other Git's UI abominations 
-|  0.5+ hour 
+|  1 hour 
 | 
 |-
 |  David Brown 
@@ -226,7 +226,7 @@ All meals with the exception of Tuesday and Wednesday night are free.  Tuesday a
 |  Petr Baudis 
 |  Brainstorming 
 |  Renames - current situation, future options 
-|  0.5 hour 
+|  0.25+ hour 
 | 
 |}
 If anyone else wants to introduce or lead a section, please add your name above to volunteer.
