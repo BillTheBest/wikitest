@@ -222,6 +222,12 @@ All meals with the exception of Tuesday and Wednesday night are free.  Tuesday a
 |  OpenAFS' switch to Git, where is Windows Git going? 
 |  1 hour 
 | 
+|-
+|  Petr Baudis 
+|  Brainstorming 
+|  Renames - current situation, future options 
+|  0.5 hour 
+| 
 |}
 If anyone else wants to introduce or lead a section, please add your name above to volunteer.
 
