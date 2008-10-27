@@ -110,8 +110,8 @@ All meals with the exception of Tuesday and Wednesday night are free.  Tuesday a
 |-
 |  
 |  Sam Vilain 
-|  Talk+Q&A, Discussion 
-|  GitTorrent - the rfc, implemenation 
+|  [http://utsl.gen.nz/talks/gittorrent/start.html Talk]+Q&A, Discussion 
+|  GitTorrent - the [http://gittorrent.utsl.gen.nz/rfc.html rfc], [http://utsl.gen.nz/gitweb/?p=VCS-Git-Torrent implemenation] 
 |  1 hour 
 | 
 |-
