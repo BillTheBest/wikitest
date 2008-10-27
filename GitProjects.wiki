@@ -258,6 +258,9 @@ List does not currently include [[Git]] or git-related tools.
 * god - Ruby process monitor
 * http://god.rubyforge.org/ (homepage)
 * http://repo.or.cz/w/god.git (gitweb)
+* gPodder - [[PyGtK]] podcast catcher / sync program
+* http://gpodder.org/ (homepage)
+* http://repo.or.cz/w/gpodder.git (gitweb)
 * graph-tool
 * http://projects.forked.de/graph-tool/wiki/[[GraphToolDownload]]
 * http://git.forked.de/?p=graph-tool (gitweb)
