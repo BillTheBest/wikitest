@@ -738,6 +738,10 @@ Git-bzr allows bidirectional synchronization between Bazaar and Git repositories
 
 A Ruby script that imports Monotone repositories with different modes of operation; checkout and fast-import. Depending on the method is the completeness and reliability: checkout method is almost complete. It also allows further updates. Find it at [https://github.com/felipec/mtn2git github].
 
+=== darcs-fast-export ===
+
+A generic fast-export script for darcs, works with git fast-import, bzr fast-import and hg fastimport. Find it at [http://vmiklos.hu/project/darcs-fast-export here].
+
 == Hooks ==
 
 === git-notify ===
