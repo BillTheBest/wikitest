@@ -125,7 +125,7 @@ All meals with the exception of Tuesday and Wednesday night are free.  Tuesday a
 |  scheduled 
 |  Sam Vilain 
 |  War story 
-|  perl.git conversion 
+|  [http://utsl.gen.nz/talks/perl-history/slides/ perl.git conversion] 
 |  0.5 hour 
 | 
 |-
