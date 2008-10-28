@@ -83,7 +83,7 @@ All meals with the exception of Tuesday and Wednesday night are free.  Tuesday a
 |  done 
 |  Johannes Schindelin 
 |  Google Tech Talk 
-|  Contributing with Git (or: all your rebase are belong to us) 
+|  [http://www.youtube.com/watch?v=j45cs5_nY2k Contributing with Git] (or: all your rebase are belong to us) 
 |  1 hour 
 | 
 |-
