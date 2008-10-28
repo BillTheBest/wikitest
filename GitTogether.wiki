@@ -132,7 +132,7 @@ All meals with the exception of Tuesday and Wednesday night are free.  Tuesday a
 |  scheduled 
 |  Junio C Hamano 
 |  Talk 
-|  Git Chronicle, Recent Additions to Git 
+|  [http://userweb.kernel.org/~junio/200810-Chron.pdf Git Chronicle], Recent Additions to Git 
 |  1 hour 
 | 
 |-
