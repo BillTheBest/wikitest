@@ -160,6 +160,7 @@ The fact that steps 3 and 4 can be naturally combined, but steps 1 and 2 cannot 
 Support for this exists in Git versions 1.5 or later.
 
 <<Anchor(git-keywords)>>
+<<[[GitLink]](keywords,It's not a good idea but it's possible)>>
 == Does git have keyword expansion? ==
 Not recommended. Keyword expansion causes all sorts of strange problems and isn't really useful anyway, especially within the context of an SCM. Outside git you may perform keyword expansion using a script. The Linux kernel export script does this to set the EXTRA_VERSION variable in the Makefile.
 
