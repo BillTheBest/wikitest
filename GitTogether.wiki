@@ -230,7 +230,7 @@ All meals with the exception of Tuesday and Wednesday night are free.  Tuesday a
 |  scheduled 
 |  Petr Baudis 
 |  Talk/Discussion/Hack 
-|  What still rocks in Cogito and other Git's UI abominations 
+|  What still rocks in Cogito and other Git's UI abominations ([http://pasky.or.cz/~pasky/cp/gittogether-ui.sxi SXI],[attachment:GitTogether08-pasky-Git_UI-converted.swf SWF]) 
 |  1 hour 
 | 
 |-
