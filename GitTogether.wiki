@@ -231,7 +231,7 @@ All meals with the exception of Tuesday and Wednesday night are free.  Tuesday a
 |  
 |  Petr Baudis 
 |  Talk/Brainst./Hacking 
-|  introduce the secret pickaxe project 
+|  introduce the [http://repo.or.cz/w/giddy.git secret pickaxe project] 
 |  0.25 hour 
 | 
 |-
@@ -266,7 +266,7 @@ All meals with the exception of Tuesday and Wednesday night are free.  Tuesday a
 |  
 |  Petr Baudis 
 |  Tutorial 
-|  [[TopGit]] 
+|  TopGit 
 |  0.5 hour 
 | 
 |}
