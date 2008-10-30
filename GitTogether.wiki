@@ -245,7 +245,7 @@ All meals with the exception of Tuesday and Wednesday night are free.  Tuesday a
 |  scheduled 
 |  David Brown 
 |  Talk/Discussion 
-|  Using git in a 150+ user corporate environment 
+|  [http://www.davidb.org/git/git-corp.pdf Using git in a 150+ user corporate environment] 
 |  1 hour 
 | 
 |-
