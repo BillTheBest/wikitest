@@ -20,9 +20,20 @@ Results of the survey:
 * [http://www.survs.com/shareResults?survey=M3PIVU72&rndm=OKJQ45LAG8 Graphical final results of the survey] (http://tinyurl.com/[[GitSurvey]]2008Analyze) <<BR>> <b><i>Note:</b> you can use existing on-line filters for basic survey analysis</i>
 * Further final results will follow and will be put into the wiki.
 
-== Tabular Results ==
+There were 3236 individual responses, including 21 responses in 'test' channel<<BR>>
+There were 683 individual responses in [[GitSurvey]]2007, and around 117 responses in [[GitSurvey]]2006.
 
-=== What country do you live in? ===
+<i>Please do not add survey <b>data</b> on this page</i>
+----
+<b>Table of contents:</b>
+<<<!-- ! TOC here -->(3)>>
+----
+
+= Tabular Results =
+
+== About you ==
+
+=== 01. What country do you live in? ===
 
 (free-form question)
 
@@ -427,7 +438,7 @@ Results of the survey:
 <!-- ## table end
  -->
 
-=== How old are you (in years)? ===
+=== 02. How old are you (in years)? ===
 
 (free-form question)
 
@@ -735,7 +746,7 @@ Results of the survey:
 <!-- ## table end
  -->
 
-=== With which programming languages are you proficient? ===
+=== 04. With which programming languages are you proficient? ===
 
 (open multiple choice question)
 
@@ -1034,11 +1045,13 @@ Results of the survey:
 
 Every explicitly named programming languages with less then 4 users is put into "Other".
 
-=== How did you hear about Git? ===
+== Getting started with Git ==
+
+=== 04. How did you hear about Git? ===
 
 (Results of multiple choice questions with free-form parts will follow.)
 
-=== Did you find Git easy to learn? ===
+=== 05. Did you find Git easy to learn? ===
 
 (single choice question)
 
@@ -1088,15 +1101,15 @@ Every explicitly named programming languages with less then 4 users is put into 
 <!-- ## table end
  -->
 
-=== What helped you most in learning to use it? ===
+=== 06. What helped you most in learning to use it? ===
 
 (Results of free-form questions will follow.)
 
-=== What did you find hardest in learning and using Git? ===
+=== 07. What did you find hardest in learning and using Git? ===
 
 (Results of free-form questions will follow.)
 
-=== Which Git version(s) are you using? ===
+=== 08. Which Git version(s) are you using? ===
 
 (multiple choice question)
 
@@ -1156,7 +1169,7 @@ Every explicitly named programming languages with less then 4 users is put into 
 <!-- ## table end
  -->
 
-=== How long do you use Git? ===
+=== 09. How long do you use Git? ===
 
 (single choice question)
 
@@ -1226,7 +1239,7 @@ Every explicitly named programming languages with less then 4 users is put into 
 <!-- ## table end
  -->
 
-=== Rate your own proficiency with Git: ===
+=== 10. Rate your own proficiency with Git: ===
 
 (single choice question)
 
@@ -1276,7 +1289,7 @@ Every explicitly named programming languages with less then 4 users is put into 
 <!-- ## table end
  -->
 
-=== Does git.git repository include code produced by you? ===
+=== 11. Does git.git repository include code produced by you? ===
 
 (single choice question)
 
@@ -1311,7 +1324,9 @@ Every explicitly named programming languages with less then 4 users is put into 
 <!-- ## table end
  -->
 
-=== What other SCM did or do you use? ===
+== Other SCMs ==
+
+=== 12. What other SCM did or do you use? ===
 
 (single choice per row)
 
@@ -1542,23 +1557,25 @@ Every explicitly named programming languages with less then 4 users is put into 
 <!-- ## table end
  -->
 
-=== Why did you choose/use Git? (if you use Git)What do you like about using Git? ===
+=== 13. Why did you choose/use Git? (if you use Git)What do you like about using Git? ===
 
 (Results of free-form questions will follow.)
 
-=== Why did you choose/use other SCMs? (if you use other SCMs)What do you like about using other SCMs? ===
+=== 14. Why did you choose/use other SCMs? (if you use other SCMs)What do you like about using other SCMs? ===
 
 (Results of free-form questions will follow.)
 
-=== Do you miss features in git that you know from other SCMs?If yes, what features are these (and from which SCM)? ===
+=== 15. Do you miss features in git that you know from other SCMs?If yes, what features are these (and from which SCM)? ===
 
 (Results of free-form questions will follow.)
 
-=== I use Git for (check all that apply): ===
+== How do you use Git? ==
+
+=== 16. I use Git for (check all that apply): ===
 
 (Results of multiple choice questions with free-form parts will follow.)
 
-=== How do you obtain Git? ===
+=== 17. How do you obtain Git? ===
 
 (multiple choice question)
 
@@ -1603,43 +1620,43 @@ Every explicitly named programming languages with less then 4 users is put into 
 <!-- ## table end
  -->
 
-=== What operating system do you use Git on? ===
+=== 18. What operating system do you use Git on? ===
 
 (Results of multiple choice questions with free-form parts will follow.)
 
-=== What hardware platforms do you use Git on? ===
+=== 19. What hardware platforms do you use Git on? ===
 
 (Results of multiple choice questions with free-form parts will follow.)
 
-=== What editor, IDE or RAD you use working with Git? ===
+=== 20. What editor, IDE or RAD you use working with Git? ===
 
 (Results of multiple choice questions with free-form parts will follow.)
 
-=== Which porcelains / interfaces / implementations do you use? ===
+=== 21. Which porcelains / interfaces / implementations do you use? ===
 
 (Results of multiple choice questions with free-form parts will follow.)
 
-=== Which git GUI (commit tool or history viewer, or both) do you use? ===
+=== 22. Which git GUI (commit tool or history viewer, or both) do you use? ===
 
 (Results of multiple choice questions with free-form parts will follow.)
 
-=== Which git web interface do you use for your projects/have installed? ===
+=== 23. Which git web interface do you use for your projects/have installed? ===
 
 (Results of multiple choice questions with free-form parts will follow.)
 
-=== Which git hosting site do you use for your projects? ===
+=== 24. Which git hosting site do you use for your projects? ===
 
 (Results of multiple choice questions with free-form parts will follow.)
 
-=== How do you publish/propagate your changes? ===
+=== 25. How do you publish/propagate your changes? ===
 
 (Results of multiple choice questions with free-form parts will follow.)
 
-=== If the way you publish your changes is not mentioned above, how do you publish your changes?Please explain. ===
+=== 26. If the way you publish your changes is not mentioned above, how do you publish your changes?Please explain. ===
 
 (Results of free-form questions will follow.)
 
-=== How often do you use the following forms of git commands or extra git tools? ===
+=== 27-28. How often do you use the following forms of git commands or extra git tools? ===
 
 (single choice per row)
 
@@ -2507,7 +2524,7 @@ Every explicitly named programming languages with less then 4 users is put into 
 <!-- ## table end
  -->
 
-=== Which of the following features do or did you use? ===
+=== 29. Which of the following features do or did you use? ===
 
 (multiple choice question)
 
@@ -2662,7 +2679,7 @@ Every explicitly named programming languages with less then 4 users is put into 
 <!-- ## table end
  -->
 
-=== Which features do you find unique and/or useful ones,compared to other systems (other SCMs)? ===
+=== 30. Which features do you find unique and/or useful ones,compared to other systems (other SCMs)? ===
 
 (multiple choice question)
 
@@ -2787,11 +2804,13 @@ Every explicitly named programming languages with less then 4 users is put into 
 <!-- ## table end
  -->
 
-=== If you use some important Git features not mentioned above, what are those? ===
+=== 31. If you use some important Git features not mentioned above, what are those? ===
 
 (Results of free-form questions will follow.)
 
-=== Overall, how happy are you with Git? ===
+== What do you think of Git? ==
+
+=== 32. Overall, how happy are you with Git? ===
 
 (single choice question)
 
@@ -2841,7 +2860,7 @@ Every explicitly named programming languages with less then 4 users is put into 
 <!-- ## table end
  -->
 
-=== How does Git compare to other SCM tools you have used? ===
+=== 33. How does Git compare to other SCM tools you have used? ===
 
 (single choice question)
 
@@ -2881,15 +2900,19 @@ Every explicitly named programming languages with less then 4 users is put into 
 <!-- ## table end
  -->
 
-=== What would you like to see improved about Git? ===
+=== 34. What would you like to see improved about Git? ===
 
 (Results of free-form questions will follow.)
 
-=== What tools (or kind of tools) would you like to see Git support in? ===
+=== 35. What tools (or kind of tools) would you like to see Git support in? ===
 
 (Results of free-form questions will follow.)
 
-=== Did you participate in previous Git User's Surveys? ===
+== Changes in Git ==
+
+Since year ago (since last survey), or since you started using Git.
+
+=== 36. Did you participate in previous Git User's Surveys? ===
 
 (multiple choice question)
 
@@ -2924,7 +2947,7 @@ Every explicitly named programming languages with less then 4 users is put into 
 <!-- ## table end
  -->
 
-=== How do you compare current version with version from year ago? ===
+=== 37. How do you compare current version with version from year ago? ===
 
 (single choice question)
 
@@ -2969,7 +2992,9 @@ Every explicitly named programming languages with less then 4 users is put into 
 <!-- ## table end
  -->
 
-=== Do you use the Git wiki? ===
+== Documentation ==
+
+=== 38. Do you use the Git wiki? ===
 
 (single choice question)
 
@@ -3004,7 +3029,7 @@ Every explicitly named programming languages with less then 4 users is put into 
 <!-- ## table end
  -->
 
-=== Do you find Git wiki useful? ===
+=== 39. Do you find Git wiki useful? ===
 
 (single choice question)
 
@@ -3044,7 +3069,7 @@ Every explicitly named programming languages with less then 4 users is put into 
 <!-- ## table end
  -->
 
-=== Do you contribute to Git wiki? ===
+=== 40. Do you contribute to Git wiki? ===
 
 (single choice question)
 
@@ -3084,7 +3109,7 @@ Every explicitly named programming languages with less then 4 users is put into 
 <!-- ## table end
  -->
 
-=== Do you find Git's on-line help (homepages, documentation) useful? ===
+=== 41. Do you find Git's on-line help (homepages, documentation) useful? ===
 
 (single choice question)
 
@@ -3124,7 +3149,7 @@ Every explicitly named programming languages with less then 4 users is put into 
 <!-- ## table end
  -->
 
-=== Do you find help distributed with Git useful? ===
+=== 42. Do you find help distributed with Git useful? ===
 
 (single choice question)
 
@@ -3164,19 +3189,21 @@ Every explicitly named programming languages with less then 4 users is put into 
 <!-- ## table end
  -->
 
-=== What could be improved on the Git homepage(s)? ===
+=== 43. What could be improved on the Git homepage(s)? ===
 
 (Results of free-form questions will follow.)
 
-=== What could be improved in Git documentation? ===
+=== 44. What could be improved in Git documentation? ===
 
 (Results of free-form questions will follow.)
 
-=== What is the language you want computer communicate with you? ===
+== Translating Git ==
+
+=== 45. What is the language you want computer communicate with you? ===
 
 (Results of free-form questions will follow.)
 
-=== What do you need/want to have translated? ===
+=== 46. What do you need/want to have translated? ===
 
 (multiple choice question)
 
@@ -3251,7 +3278,9 @@ Every explicitly named programming languages with less then 4 users is put into 
 <!-- ## table end
  -->
 
-=== Have you tried to get Git help from other people? ===
+== Getting help, staying in touch ==
+
+=== 47. Have you tried to get Git help from other people? ===
 
 (single choice question)
 
@@ -3286,11 +3315,11 @@ Every explicitly named programming languages with less then 4 users is put into 
 <!-- ## table end
  -->
 
-=== What channel did you use to request help? ===
+=== 48. What channel did you use to request help? ===
 
 (Results of multiple choice questions with free-form parts will follow.)
 
-=== If yes, did you get these problems resolved quickly and to your liking? ===
+=== 49. If yes, did you get these problems resolved quickly and to your liking? ===
 
 (single choice question)
 
@@ -3330,7 +3359,7 @@ Every explicitly named programming languages with less then 4 users is put into 
 <!-- ## table end
  -->
 
-=== Would commercial (paid) Git support from a support vendor be of interest to you/your organization? ===
+=== 50. Would commercial (paid) Git support from a support vendor be of interest to you/your organization? ===
 
 (single choice question)
 
@@ -3370,7 +3399,7 @@ Every explicitly named programming languages with less then 4 users is put into 
 <!-- ## table end
  -->
 
-=== Do you think it is easy to find out how to do a specific task with git? ===
+=== 51. Do you think it is easy to find out how to do a specific task with git? ===
 
 (single choice question)
 
@@ -3410,7 +3439,7 @@ Every explicitly named programming languages with less then 4 users is put into 
 <!-- ## table end
  -->
 
-=== Do you read the mailing list? ===
+=== 52. Do you read the mailing list? ===
 
 (multiple choice question)
 
@@ -3450,7 +3479,7 @@ Every explicitly named programming languages with less then 4 users is put into 
 <!-- ## table end
  -->
 
-=== If yes, do you find mailing list useful? ===
+=== 53. If yes, do you find mailing list useful? ===
 
 (single choice question)
 
@@ -3490,7 +3519,7 @@ Every explicitly named programming languages with less then 4 users is put into 
 <!-- ## table end
  -->
 
-=== Do you find the mailing list traffic level to be: ===
+=== 54. Do you find the mailing list traffic level to be: ===
 
 (single choice question)
 
@@ -3540,7 +3569,7 @@ Every explicitly named programming languages with less then 4 users is put into 
 <!-- ## table end
  -->
 
-=== Do you use the IRC channel (#git on irc.freenode.net)? ===
+=== 55. Do you use the IRC channel (#git on irc.freenode.net)? ===
 
 (single choice question)
 
@@ -3575,7 +3604,7 @@ Every explicitly named programming languages with less then 4 users is put into 
 <!-- ## table end
  -->
 
-=== If yes, do you find IRC channel useful? ===
+=== 56. If yes, do you find IRC channel useful? ===
 
 (single choice question)
 
@@ -3615,15 +3644,17 @@ Every explicitly named programming languages with less then 4 users is put into 
 <!-- ## table end
  -->
 
-=== Did you have problems getting GIT help on mailing list or on IRC channel? What were it? What could be improved? ===
+=== 57. Did you have problems getting GIT help on mailing list or on IRC channel? What were it? What could be improved? ===
 
 (Results of free-form questions will follow.)
 
-=== What other comments or suggestions do you have that are not covered by the questions above? ===
+== Open forum ==
+
+=== 58. What other comments or suggestions do you have that are not covered by the questions above? ===
 
 (Results of free-form questions will follow.)
 
-=== Should Git User's Survey be repeated next year? ===
+=== 59. Should Git User's Survey be repeated next year? ===
 
 (single choice question)
 
@@ -3663,7 +3694,7 @@ Every explicitly named programming languages with less then 4 users is put into 
 <!-- ## table end
  -->
 
-=== Where have you read/find about this survey? ===
+=== 60. Where have you read/find about this survey? ===
 
 (free-form question)
 
