@@ -40,7 +40,7 @@ There were 683 individual responses in [[GitSurvey]]2007, and around 117 respons
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-|  Reply                
+| <tablestyle="font-size: smaller;" rowstyle="font-weight: bold; background-color: #ffffcc;"> Reply                
 |  Count 
 |  Perc. 
 | 
@@ -422,8 +422,25 @@ There were 683 individual responses in [[GitSurvey]]2007, and around 117 respons
 |      1 
 |   0.0% 
 | 
+|}
+<!-- ## .........................................
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <-3>
+| 
 |-
-|  Crap answer          
+|  <i>European Union (sum)</i> 
+|   1142 
+|  40.0% 
+| 
+|-
+| <-3>
+| 
+|}
+<!-- ## ----------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="border-top: dotted;"> Invalid answer       
 |      6 
 |   0.2% 
 | 
@@ -433,10 +450,21 @@ There were 683 individual responses in [[GitSurvey]]2007, and around 117 respons
 |  11.7% 
 | 
 |}
+<!-- ##-----------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total responders 
+|colspan="2" | 2857 
+| 
+|}
 <!-- ##------------------------------------------
  -->
 <!-- ## table end
  -->
+
+As one can easily see, slightly less than third of Git users (30.6%) are in the USA (those who answered this survey).  Next of countries is Germany with around 10.0% responses.  More than third of respondents, around two fifths (40.0%) are in European Union.
+
+You can also take a look at [http://www.ohloh.net/projects/git/map Git Activity Map] at [http://www.ohloh.net Ohloh], where you can see on (large) Google Map locations of selected people who have Git in a [http://www.ohloh.net/about/faq#stack stack], or locations of Git contributors (those with known location).
 
 === 02. How old are you (in years)? ===
 
@@ -445,7 +473,7 @@ There were 683 individual responses in [[GitSurvey]]2007, and around 117 respons
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-|  Reply        
+| <tablestyle="font-size: smaller;" rowstyle="font-weight: bold; background-color: #ffffcc;"> Reply        
 |  Count 
 |  Perc. 
 |  Group      
@@ -728,8 +756,11 @@ There were 683 individual responses in [[GitSurvey]]2007, and around 117 respons
 |      2 
 |   0.1% 
 | 
-|-
-|  Crap answer  
+|}
+<!-- ## ----------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="border-top: dotted;"> Invalid answer 
 |      5 
 |   0.2% 
 |rowspan="2" | -      
@@ -741,19 +772,28 @@ There were 683 individual responses in [[GitSurvey]]2007, and around 117 respons
 |  12.5% 
 | 
 |}
+<!-- ##-----------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total responders 
+|colspan="2" | 2831 
+| 
+|}
 <!-- ##----------------------------------
  -->
 <!-- ## table end
  -->
 
-=== 04. With which programming languages are you proficient? ===
+Youngest git user who answered this survey is 13 years old, oldest is 69 years old.  This is quite a span, I'd say.  The age of 25 got most count (226 answers).  Most people are in 26-30 range span (902 or 31.9% total).
 
-(open multiple choice question)
+=== 03. With which programming languages are you proficient? ===
+
+This is multiple choice question (you can be proficient in more than one programming language), with option of specifying comma separated list of additional programming languages.
 
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-|  Reply                 
+| <tablestyle="font-size: smaller;" rowstyle="font-weight: bold; background-color: #ffffcc;"> Reply 
 |  Count 
 |  Perc. 
 | 
@@ -761,12 +801,12 @@ There were 683 individual responses in [[GitSurvey]]2007, and around 117 respons
 <!-- ##-------------------------------------------
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-|  C                     
+|  <b>C</b>               
 |   1780 
 |  55.0% 
 | 
 |-
-|  shell                 
+|  <b>shell</b>           
 |   1511 
 |  46.7% 
 | 
@@ -776,7 +816,7 @@ There were 683 individual responses in [[GitSurvey]]2007, and around 117 respons
 |  43.4% 
 | 
 |-
-|  [[JavaScript]]            
+|  JavaScript          
 |   1283 
 |  39.6% 
 | 
@@ -801,7 +841,7 @@ There were 683 individual responses in [[GitSurvey]]2007, and around 117 respons
 |  33.5% 
 | 
 |-
-|  Perl                  
+|  <b>Perl</b>            
 |    829 
 |  25.6% 
 | 
@@ -836,7 +876,7 @@ There were 683 individual responses in [[GitSurvey]]2007, and around 117 respons
 |   3.0% 
 | 
 |-
-|  Tcl/Tk                
+|  <b>Tcl/Tk</b>          
 |     89 
 |   2.8% 
 | 
@@ -856,7 +896,7 @@ There were 683 individual responses in [[GitSurvey]]2007, and around 117 respons
 |   1.7% 
 | 
 |-
-|  [[ActionScript]]          
+|  ActionScript        
 |     32 
 |   1.0% 
 | 
@@ -951,7 +991,7 @@ There were 683 individual responses in [[GitSurvey]]2007, and around 117 respons
 |   0.2% 
 | 
 |-
-|  [[ColdFusion]]            
+|  ColdFusion          
 |      7 
 |   0.2% 
 | 
@@ -981,7 +1021,7 @@ There were 683 individual responses in [[GitSurvey]]2007, and around 117 respons
 |   0.2% 
 | 
 |-
-|  [[AppleScript]]           
+|  AppleScript         
 |      5 
 |   0.2% 
 | 
@@ -1011,9 +1051,12 @@ There were 683 individual responses in [[GitSurvey]]2007, and around 117 respons
 |   0.1% 
 | 
 |-
-|  [[VimScript]]             
+|  VimScript           
 |      4 
 |   0.1% 
+| 
+|-
+| <-3>
 | 
 |-
 |  Other                 
@@ -1025,8 +1068,11 @@ There were 683 individual responses in [[GitSurvey]]2007, and around 117 respons
 |     47 
 |   1.5% 
 | 
-|-
-|  Crap answer           
+|}
+<!-- ## ----------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="border-top: dotted;"> Invalid answer        
 |      2 
 |   0.1% 
 | 
@@ -1036,14 +1082,137 @@ There were 683 individual responses in [[GitSurvey]]2007, and around 117 respons
 |  10.6% 
 | 
 |}
+<!-- ##-----------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total responders 
+|colspan="2" | 2893 
+| 
+|}
 <!-- ##-------------------------------------------
  -->
 <!-- ## table end
  -->
 
-(*) There are usually a lot more people who are proficient with this language, but it is not considered as a real programming language by many people.
+(*) There are usually a lot more people who are proficient with this language, but it is not considered as a real programming language by many people.  This means that there might be responders who know this language, but didn't put it as a reply to this question.
 
 Every explicitly named programming languages with less then 4 users is put into "Other".
+
+The table is sorted by the number of replies.
+
+Around 2893 (89.4%) people answered this question.  C is most popular with 55%; a bit suprisingly shell script programming is second with 47%, a bit more than Ruby with 43%.  More people are proficient with Python, around 1/3, than in Perl, around 1/4.  Few people (89 responses, around 4%) feel proficient in Tcl/Tk, which means shallow pool of possible git-gui and gitk contributors.  Java is quite popular with around 37%, which gives hope in continued [[Self:EclipsePlugin|JGit/EGit]] development.
+
+And finally 47 responses (around 1.5%) of "I am not a programmer".  That's nice.
+
+[http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html TIOBE Programming Community Index] for October 2008 (gives an indication of the <i>popularity</i> of programming languages) states:
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Programming language 
+|  Ratings Oct 2008 
+|  Delta Oct 2007 
+| 
+|}
+<!-- ##--------------------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Java                 
+|           20.949% 
+|          -0.67% 
+| 
+|-
+|  C                    
+|           15.565% 
+|          +0.97% 
+| 
+|-
+|  C++                  
+|           10.954% 
+|          +1.37% 
+| 
+|-
+|  (Visual) Basic       
+|            9.811% 
+|          -1.35% 
+| 
+|-
+|  PHP                  
+|            8.612% 
+|          -0.89% 
+| 
+|-
+|  Python               
+|            4.565% 
+|          +1.13% 
+| 
+|-
+|  Perl                 
+|            4.419% 
+|          -0.93% 
+| 
+|-
+|  C#                   
+|            3.767% 
+|          +0.03% 
+| 
+|-
+|  Delphi               
+|            3.288% 
+|          +1.75% 
+| 
+|-
+|  Ruby                 
+|            2.860% 
+|          +0.47% 
+| 
+|-
+|  JavaScript         
+|            2.670% 
+|          -0.01% 
+| 
+|}
+<!-- ##--------------------------------------------------------------
+ -->
+
+Programming languages used by Git, not including `contrib/` section, are marked in bold in table of replies.  As one can see C is most popular programming language.  Shell is more known that Perl.  There are a few (below 100 replies for around 3000 responses to this question, i.e. around 2.8%) people who are proficient in Tcl/Tk, the programming language used for [http://git.or.cz/man/gitk gitk] history viewer and [http://git.or.cz/man/git-gui git-gui] commit tool.
+
+You can check what are the contributions of each programming language to Git code at [http://www.ohloh.net/projects/git/analyses/latest Git Code Analysis at Ohloh].  In the table below there is shown state on the end of October 2008.
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Language 
+|  LoC [%] 
+| 
+|}
+<!-- ##-------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  C              
+|  51% 
+| 
+|-
+|  shell script   
+|  30% 
+| 
+|-
+|  Perl           
+|  11% 
+| 
+|-
+|  Tcl            
+|   5% 
+| 
+|-
+|  Other          
+|   2% 
+| 
+|}
+<!-- ##-------------------------
+ -->
+<!-- ## table end
+ -->
 
 == Getting started with Git ==
 
