@@ -796,6 +796,9 @@ A generic fast-export script for darcs, works with git fast-import, bzr fast-imp
 === Gerrit ===
 * [http://android.git.kernel.org/?p=tools/gerrit.git Gerrit] is a web based code review system, forked off the open sourced [http://code.google.com/p/rietveld/ Rietveld] code review system.  Gerrit runs on the highly scaleable Google App Engine platform, but probably could be ported to an open-source MySQL or PostgreSQL backend if people really wanted to do that.
 
+=== Jira Git plugin ===
+ - [http://confluence.atlassian.com/display/JIRAEXT/Jira+Git+Plugin Git Plugin for JIRA] A plugin for [http://www.atlassian.com/software/jira/ JIRA] linking to Git repos using the Java implementation of Git.
+
 == Other tools ==
 
 === git-completion.bash  (in `contrib/completion`) ===
