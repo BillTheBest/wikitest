@@ -342,6 +342,8 @@ If you are traveling far and wish to stay some extra time there are many activit
 = Previous [[GitTogether]] =
 One such event happened in 2007 with a few developers.  It was an informal, fun time, but not technical.
 
+= Photos =
+http://gallery.eaglescrag.net/v/Events/[[GitTogether]]+2008/
 ----
 <b>Footnotes:</b> <<[[FootNote]]>>
 
