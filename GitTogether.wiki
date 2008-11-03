@@ -224,7 +224,7 @@ All meals with the exception of Tuesday and Wednesday night are free.  Tuesday a
 |  
 |  Petr Baudis 
 |  War story 
-|  Deploying Git in pharma corporation ([http://pasky.or.cz/~pasky/cp/gittogether-novartis.sxi SXI],[ attachment:GitTogether08-pasky-Git_at_Novartis-converted.swf SWF],[http://pasky.or.cz/g/gitweb.cgi?p=templatedemo.git;a=summary demo]) 
+|  Deploying Git in pharma corporation ([http://pasky.or.cz/~pasky/cp/gittogether-novartis.sxi SXI],[attachment:GitTogether08-pasky-Git_at_Novartis-converted.swf SWF],[http://pasky.or.cz/g/gitweb.cgi?p=templatedemo.git;a=summary demo]) 
 |  0.5 hour 
 | 
 |-
