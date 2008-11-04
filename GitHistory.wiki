@@ -172,6 +172,11 @@ maintenance on July 26, 2005 to [[Junio C. Hamano]], a major contributor to the 
 Junio was responsible for the 1.0 release on December 21, 2005.
 As of May 2006, the current release is 1.3.3.
 
-* Source: [[WikiPedia:Git_(software)|Git_(software)]] Wikipedia article. 
+* <b>Source:</b> [[WikiPedia:Git_(software)|Git_(software)]] Wikipedia article. 
+
+-----
+== Git Chronicle ==
+
+On [[GitTogether]] 2008 Junio C Hamano gave a "Git Chronicle" talk about more modern history, and how features were added to Git.  There are [http://www.kernel.org/~junio/200810-Chron.pdf slides in PDF] for this talk.
 
 __NOTOC__
