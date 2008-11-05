@@ -357,4 +357,7 @@ One such event happened in 2007 with a few developers.  It was an informal, fun 
 ----
 <b>Footnotes:</b> <<[[FootNote]]>>
 
+-----
+[[CategoryEvents]]
+
 __NOTOC__
