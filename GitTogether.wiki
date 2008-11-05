@@ -345,11 +345,12 @@ If you are traveling far and wish to stay some extra time there are many activit
 * [http://gitster.livejournal.com/17887.html GitTogether Group Photo] by Junio C Hamano
 
 == Trackback and Links ==
+* [http://github.com/blog/196-gittogether-2008 GitTogether 2008] by Scott Chacon on GitHub blog describes what happened there.
+* [http://google-opensource.blogspot.com/2008/11/gittogether-08.html GitTogether '08] post by Shawn Pearce, Google Open Source Programs Office and Git contributor, on [http://google-opensource.blogspot.com/ Open Source At Google] blog, has links to results of GitTogether 2008 (in form of email threads)
 * SD Times On The Web mentions GitTogether'08 in [http://www.sdtimes.com/link/33018 Git changes how developers manage source code versions] by Alex Handy
 * Junio C Hamano (Git maintainer) talks about GitTogether'08 in his blog:
 ** [http://gitster.livejournal.com/17222.html Gittogether coming up...]
 ** [http://gitster.livejournal.com/18110.html Back from GitTogether]<<BR>> (includes minor correction to SDTimes article mentioned above)
-* [http://google-opensource.blogspot.com/2008/11/gittogether-08.html GitTogether '08] post by Shawn Pearce, Google Open Source Programs Office and Git contributor, on [http://google-opensource.blogspot.com/ Open Source At Google] blog
 
 = Previous [[GitTogether]] =
 One such event happened in 2007 with a few developers.  It was an informal, fun time, but not technical.
