@@ -32,7 +32,7 @@
 * [http://git.frugalware.org/gitweb/gitweb.cgi?p=pacman-tools.git;a=blob;f=darcs-git.py;hb=HEAD darcs-git.py] (and its [http://git.frugalware.org/gitweb/gitweb.cgi?p=pacman-tools.git;a=blob;f=darcs-git.txt;hb=HEAD documentation]) darcs-git is a darcs-like porcelain on top of git plumbing.  If you are accustomed to darcs, this porcelain will let you use git via the familiar darcs user interface.
 
 === repo ===
-* [http://android.git.kernel.org/?p=tools/repo.git repo] is a project to use Git to build OS distributions; similar to Git submodules, it can track specified branches from Git projects.
+* [http://android.git.kernel.org/?p=tools/repo.git repo] is a project to use Git to build OS distributions; similar to Git submodules, it can track specified branches from Git projects.<<BR>><b>See also:</b> [http://newblogtopic.blogspot.com/2008/11/gerrit-and-repo-android-source_04.html Gerrit and Repo, the Android Source Management Tools] blog post by Jeff Bailey
 
 === Zit ===
 * [http://git.oblomov.eu/zit Zit] by Giuseppe Bilotta is the Git-based single file content tracker; it uses Git to independently track single files within a directory; sort of like what RCS does, but with the power, flexibility, elegance and ease of use of Git. Still in alpha stage.<<BR>> You can get it from <code><nowiki>git://git.oblomov.eu/zit</nowiki></code>
@@ -731,6 +731,7 @@
 
 === Git-bzr ===
 Git-bzr allows bidirectional synchronization between Bazaar and Git repositories, much like git-svn. However, git-bzr is able to keep all merge history etc. It can be found at [http://github.com/pieter/git-bzr/ github].
+
 === bzr-fast-export ===
 * Bazaar frontend for git-fast-import. Announcement [https://lists.ubuntu.com/archives/bazaar/2008q1/038391.html here], lives in the `exporters` subdirectory of the [https://launchpad.net/bzr-fastimport bzr-fastimport project].
 
@@ -794,7 +795,7 @@ A generic fast-export script for darcs, works with git fast-import, bzr fast-imp
 * <b>git-cl</b> ([http://neugierig.org/software/git/?r=git-cl cgit], [http://github.com/martine/git-cl GitHub], [http://neugierig.org/software/git/index.cgi?url=git-cl/tree/README README]) by Evan Martin is a tool for integrating code reviews on Rietveld ([http://codereview.appspot.com http://codereview.appspot.com]).  <i>(Python)</i>
 
 === Gerrit ===
-* [http://android.git.kernel.org/?p=tools/gerrit.git Gerrit] is a web based code review system, forked off the open sourced [http://code.google.com/p/rietveld/ Rietveld] code review system.  Gerrit runs on the highly scaleable Google App Engine platform, but probably could be ported to an open-source MySQL or PostgreSQL backend if people really wanted to do that.
+* [http://android.git.kernel.org/?p=tools/gerrit.git Gerrit] is a web based code review system, forked off the open sourced [http://code.google.com/p/rietveld/ Rietveld] code review system.  Gerrit runs on the highly scaleable Google App Engine platform, but probably could be ported to an open-source MySQL or PostgreSQL backend if people really wanted to do that.<<BR>><b>See also:</b> [http://newblogtopic.blogspot.com/2008/11/gerrit-and-repo-android-source_04.html Gerrit and Repo, the Android Source Management Tools] blog post by Jeff Bailey
 
 === Jira Git plugin ===
  - [http://confluence.atlassian.com/display/JIRAEXT/Jira+Git+Plugin Git Plugin for JIRA] A plugin for [http://www.atlassian.com/software/jira/ JIRA] linking to Git repos using the Java implementation of Git.
