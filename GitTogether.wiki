@@ -344,7 +344,7 @@ If you are traveling far and wish to stay some extra time there are many activit
 * http://picasaweb.google.com/dsymonds/[[GitTogether]]08
 * [http://gitster.livejournal.com/17887.html GitTogether Group Photo] by Junio C Hamano
 
-== Trackback ==
+== Trackback and Links ==
 * SD Times On The Web mentions GitTogether'08 in [http://www.sdtimes.com/link/33018 Git changes how developers manage source code versions] by Alex Handy
 * Junio C Hamano (Git maintainer) talks about GitTogether'08 in his blog:
 ** [http://gitster.livejournal.com/17222.html Gittogether coming up...]
