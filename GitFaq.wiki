@@ -784,7 +784,7 @@ Lastly, there is also [http://git.or.cz/gitwiki/InterfacesFrontendsAndTools#from
 
 <<Anchor(import-svn)>>
 == Can I import from svn? ==
-Yes, use [http://git-svn.yhbt.net/git-svn.html git-svn(1)]. Check also [[InterfacesFrontendsAndTools#git-svnconvert:git-svnconvert]] (in Ruby) in [[InterfacesFrontendsAndTools]]. There is also an idea to use <code><nowiki>svnadmin dump</nowiki></code> [http://svn.collab.net/repos/svn/trunk/notes/fs_dumprestore.txt "dumpfile" format] as an input for Subversion to Git repository conversion, (similary to what <code><nowiki>parsecvs</nowiki></code> does for CVS repositories).
+Yes, use [http://git-svn.yhbt.net/git-svn.html git-svn(1)]. Check also [[InterfacesFrontendsAndTools#git-svnconvert:git-svnconvert]] (in Ruby) in [[InterfacesFrontendsAndTools]]. There is also an idea to use <code><nowiki>svnadmin dump</nowiki></code> [http://svn.collab.net/repos/svn/trunk/notes/dump-load-format.txt "dumpfile" format] as an input for Subversion to Git repository conversion, (similary to what <code><nowiki>parsecvs</nowiki></code> does for CVS repositories).
 
 Merge tracking information added to svn repositories by [http://svk.bestpractical.com/ svk], [http://www.orcaware.com/svn/wiki/Svnmerge.py svnmerge], or version 1.5 or later of [http://subversion.tigris.org/merge-tracking/ subversion itself], is not properly converted.
 
