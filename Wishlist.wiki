@@ -11,7 +11,6 @@ I've put an attribution of the wish to the person who wrote the email I found it
 * "pull" and "push" should be symmetrical operations.  (Nicholas Pitre) (Andy Parkins)
 * Remote branch handling should become more straight forward.  (Nicholas Pitre)
 * There's no easy way to do a <code><nowiki>git reset --hard</nowiki></code> while doing a <code><nowiki>git checkout</nowiki></code> style merge. (linux at horizon.com)
-* "bisect" is reserved as a branch name but not clearly documented as such. (linux at horizon.com)
 * It would be nice to have command to rename tags (even in their packed format). <i>Some patches sent to git mailing list</i> (Jakub Narebski)
 * Support foreign VCS URLs in remote tracking branches with, eg, <code><nowiki>svn://</nowiki></code>, <code><nowiki>cvs://</nowiki></code>, <code><nowiki>bzr+http://</nowiki></code>, <code><nowiki>hg://</nowiki></code>, <code><nowiki>svn+webdav+crack://</nowiki></code>, etc.  (Sam Vilain)
 * Fetch/push should show progress even when transferring large objects. Kbs/sec would be particularly nice. (Tim Ansell)
