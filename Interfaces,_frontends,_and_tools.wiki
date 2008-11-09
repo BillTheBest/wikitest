@@ -780,6 +780,9 @@ A generic fast-export script for darcs, works with git fast-import, bzr fast-imp
 === eWiki ===
 * [http://github.com/patrikf/ewiki/tree/master eWiki] is a Wiki with a git backend, written in pure PHP (no ugly system() or exec() calls).
 
+=== Pystl ===
+* [http://blog.codezen.org/entries/tag/pystl Pystl] ([http://codezen.org/cgi-bin/gitweb.cgi?p=pystl.git gitweb]) by Jack Miller is very simple, small blog engine in Python, using git for version control, Markdown for markup and Tenjin for templating.  It doesn't have web interface, so it also have no comments.
+
 == Bug/issue trackers, etc. ==
 
 === ditz ===
