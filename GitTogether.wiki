@@ -105,14 +105,14 @@ All meals with the exception of Tuesday and Wednesday night are free.  Tuesday a
 |  scheduled 
 |  Shawn O. Pearce 
 |  Talk + Debate 
-|  JGit, where is it going? 
+|  [http://www.spearce.org/2008/11/JGit.pdf JGit, where is it going?] 
 |  .5 hour 
 | 
 |-
 |  scheduled 
 |  Shawn O. Pearce 
 |  Talk + Plan Hacking 
-|  Pack v4, what's stopping you? 
+|  [http://www.spearce.org/2008/11/Pack_v4.pdf Pack v4, what's stopping you?] 
 |  1 hour 
 | 
 |-
