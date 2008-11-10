@@ -760,6 +760,23 @@ fatal: Entry 'frotz' not uptodate. Cannot merge.
 
 Second of those error messages is described in [http://www.kernel.org/pub/software/scm/git/docs/git-checkout.html git-checkout(1)] man page, in the "EXAMPLES" section. It means that you have local modifications to 'frotz', which would be lost on checkout. You can give '-m' option to `git-checkout`, which would try three-way merge.
 
+== "git-receive-pack: command not found" on push/fetch/pull ==
+
+Basically the problem is that 'git-receive-pack' is not in the default $PATH on the remote end.  You can see the problem using:
+
+<pre><nowiki>
+$ ssh servername 'echo $PATH'
+/usr/bin:/bin
+$ 
+</nowiki></pre>
+
+Whereas you probably installed git to your $HOME or something like that.  The workarounds include;
+
+* Install git to <code><nowiki>/usr/bin</nowiki></code>
+* Making sure you have the correct path set up in <code><nowiki>.bashrc</nowiki></code> (not only <code><nowiki>.bash_profile</nowiki></code>)
+* Specify <code><nowiki>--receive-pack=PATH/TO/git-receive-pack</nowiki></code> at push time
+* Set <code><nowiki>remote.<name>.receivepack</nowiki></code> using <code><nowiki>git-config</nowiki></code> (see git-config(1))
+
 = Importing from other revision control systems =
 See the [[InterfacesFrontendsAndTools#rcs-interaction:[[InterfacesFrontendsAndTools]]]] page ("Interaction with other Revision Control Systems" section), for a good reference on how to interact with other revision control systems.
 
