@@ -175,7 +175,7 @@ All meals with the exception of Tuesday and Wednesday night are free.  Tuesday a
 |  scheduled 
 |  S Grimm, D Reiss 
 |  Talk/Discussion 
-|  [http://docs.google.com/Presentation?id=dhhs72s2_1wtzbnsnj Life with git in a Subversion shop] 
+|  [http://docs.google.com/Presentation?id=dhhs72s2_1wtzbnsnj Life with git in a Subversion shop] ([http://docs.google.com/MiscCommands?command=saveasdoc&docID=dhhs72s2_1wtzbnsnj&exportFormat=pdf PDF])
 |  1 hour 
 | 
 |-
