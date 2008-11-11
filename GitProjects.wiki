@@ -316,6 +316,9 @@ List does not currently include [[Git]] or git-related tools.
 * http://luaforge.net/projects/luaevent/ (project page)
 * http://repo.or.cz/w/luaevent.git (repo-page)
 * git://repo.or.cz/luaevent.git (repository)
+* Lumiera (a non-linear video editing application)
+* http://lumiera.org/ (project)
+* http://www.lumiera.org/gitweb/ (gitweb)
 * MadMutt
 * http://git.madism.org/?p=madmutt.git (gitweb)
 * Merb (Ruby MVC Framework)
