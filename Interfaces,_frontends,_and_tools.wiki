@@ -726,6 +726,9 @@
 === Darcs-Git ===
 * [http://darcs.net/DarcsWiki/[[DarcsGit]] Darcs-Git] was an effort to make Darcs work with Git repositories, in particular the Linux kernel repository. It was part Darcs-Unstable branch, available from http://abridgegame.org/repos/darcs-unstable .  Unfortunately, both links are now defunct.
 
+=== darcs-fast-export ===
+* A generic fast-export script for darcs by Miklos Vajna, works with git fast-import, bzr fast-import and hg fastimport. Find it at [http://vmiklos.hu/project/darcs-fast-export here].
+
 === SCCS import ===
 * There exists proposed <code><nowiki>conftib/fast-import/git-sccsimport.py</nowiki></code> in [http://marc.info/?i=<c5df85930801200312o7cd5d307v1a39fb35179249a9@mail.gmail.com> fast importer for SCCS files] post by James Youngman on git mailing list, and [http://search.cpan.org/src/HMBRAND/VCS-SCCS-0.11/examples/sccs2git-gfi sccs2git-gfi] importer by Sam Vilain in VCS::SCCS CPAN module.
 
@@ -738,10 +741,6 @@ Git-bzr allows bidirectional synchronization between Bazaar and Git repositories
 === mtn2git ===
 
 A Ruby script that imports Monotone repositories with different modes of operation; checkout and fast-import. Depending on the method is the completeness and reliability: checkout method is almost complete. It also allows further updates. Find it at [https://github.com/felipec/mtn2git github].
-
-=== darcs-fast-export ===
-
-A generic fast-export script for darcs, works with git fast-import, bzr fast-import and hg fastimport. Find it at [http://vmiklos.hu/project/darcs-fast-export here].
 
 == Hooks ==
 
