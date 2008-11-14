@@ -56,6 +56,8 @@ List does not currently include [[Git]] or git-related tools.
 
 == Non-kernel projects that use Git for their source code management. ==
 
+* Google's android
+** http://source.android.com/download
 * Beryl (OpenGL accelerated desktop, fork of Compiz)
 ** http://blog.beryl-project.org/?p=31 (description of moving to Git)
 ** http://gitweb.beryl-project.org/ (gitweb)
@@ -473,6 +475,8 @@ List does not currently include [[Git]] or git-related tools.
 * xwax
 * http://www.xwax.co.uk/devel/source.html (development)
 * http://www.xwax.co.uk/devel/xwax.git (repository)
+* YUI3
+* http://tech.groups.yahoo.com/group/yui3/message/206 (announcement)
 * Yum
 * http://linux.duke.edu/projects/yum/scm.ptml (development)
 * http://devel.linux.duke.edu/gitweb/ (gitweb)
