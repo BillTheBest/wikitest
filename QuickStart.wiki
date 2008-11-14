@@ -1,5 +1,137 @@
-comment2, http://u63vf26r2.cn/nashamaglass.html nashama glass,  >:[[[, http://u63vf26r2.cn/nasoendoscopy.html nasoendoscopy,  8-((, http://u63vf26r2.cn/nasdaqlosers2006omnivision.html nasdaq losers 2006 omnivision,  =-[, http://u63vf26r2.cn/nashotahreo.html nashotah reo,  kyofo, http://u63vf26r2.cn/nasraaladawibiography.html nasra al adawi biography,  >:), http://u63vf26r2.cn/nashvillenewspapertennesssean.html nashville newspaper tennesssean,  ikzl, http://u63vf26r2.cn/nashilinaukrani.html nashili naukrani,  >:[, http://u63vf26r2.cn/nashuawoolystripes.html nashua wooly stripes,  omiafe, http://u63vf26r2.cn/nasifmajeed.html nasif majeed,  :[, http://u63vf26r2.cn/nascartrailingarmsuspension.html nascar trailing arm suspension,  =O, http://u63vf26r2.cn/nashmetropolitantow.html nash metropolitan tow,  %(((, http://u63vf26r2.cn/nashvilletngoodwillstore.html nashville tn goodwill store,  yovq, http://u63vf26r2.cn/nascorpoh.html nascorp oh,  788, http://u63vf26r2.cn/naseselfemployedlogo.html nase self employed logo,  8O, http://u63vf26r2.cn/nashwaakpaddles.html nashwaak paddles,  >:O, http://u63vf26r2.cn/nasirsadiki.html nasir sadiki,  8OOO, http://u63vf26r2.cn/nasppositiononearlychildhoodassessments.html nasp position on early childhood assessments,  qke, http://u63vf26r2.cn/nashekasiddall.html nasheka siddall,  592, http://u63vf26r2.cn/nashobatranslation.html nashoba translation,  197, http://u63vf26r2.cn/nascoraingear.html nasco raingear,  =], http://u63vf26r2.cn/nashfongmagician.html nash fong magician,  %-[, http://u63vf26r2.cn/nasheedhakeem.html nasheed hakeem,  zuser, http://u63vf26r2.cn/nasria.html nasria,  >:))), http://u63vf26r2.cn/nascoshipyardinsandiego.html nasco shipyard in san diego,  885, http://u63vf26r2.cn/nasfresolutions.html nasf resolutions,  qqezpc, http://u63vf26r2.cn/nascocprmaterials.html nasco cpr materials,  250734, http://u63vf26r2.cn/nashmetropolitanforsalecraigslist.html nash metropolitan for sale craigslist,  vsf, http://u63vf26r2.cn/nascarracingsigmatel.html nascar racing sigmatel,  %-[[, http://u63vf26r2.cn/nascoscientificcatalog.html nasco scientific catalog,  1655, http://u63vf26r2.cn/nascarsimracingkeygen.html nascar simracing keygen,  129, http://u63vf26r2.cn/nashrahmaamor.html nashrah maamor,  895, http://u63vf26r2.cn/nasmpersonaltrainingcertificationexamnotes.html nasm personal training certification exam notes,  zlx,
+== Setting up a Git project ==
+
+If you want to work with an existing project, clone it:
+
+<pre><nowiki>
+$ git clone <url>
+</nowiki></pre>
+
+If you do not have an existing git project, create one:
+
+<pre><nowiki>
+$ cd project/
+$ git init          # initializes the repository
+$ git add .         # add those 'unknown' files
+$ git commit        # commit all changes, edit changelog entry
+</nowiki></pre>
+
+Git will look for a file named [[.gitignore]] in the root of your
+repository which contains a set of shell patterns to ignore in
+file paths.
+
+== Branching and merging ==
+
+<pre><nowiki>
+$ git checkout -b linux-work        # create a new branch named "linux-work"
+$ <make changes>
+$ git commit -a
+$ git checkout master               # go back to master branch
+$ git merge linux-work              # merge changesets from linux-work (Git >= 1.5)
+$ git pull . linux-work             # merge changesets from linux-work (all Git versions)
+</nowiki></pre>
+
+== Importing patches ==
+
+<pre><nowiki>
+$ git apply < ../p/foo.patch
+$ git commit -a
+</nowiki></pre>
+
+== Exporting a patch ==
+
+<pre><nowiki>
+$ <make changes>
+$ git commit -a -m "commit message"
+$ git format-patch HEAD^  # creates 0001-commit-message.txt
+                          # (HEAD^ means every patch since one revision before the
+                          # tip of the branch, also known as HEAD)
+</nowiki></pre>
+
+== Network support ==
+
+<pre><nowiki>
+# clone from the primary Git repo
+foo$ git clone git://git.kernel.org/pub/scm/git/git.git
+foo$ cd git
+
+# pushing changes to a remote repo with SSH
+foo$ git push user@example.com:my-repository.git/
+
+# fetch changes to a remote branch into a local branch
+foo$ git fetch user@example.com:my-repository.git/ remote-branch:local-branch
+
+# merge changes from a remote machine
+bar$ git pull git://foo/repo.git/ branch
+
+# Serve repository via git protocol
+foo$ cd /my/repository/
+foo$ touch .git/git-daemon-export-ok
+foo$ git daemon  # now others can fetch from git://your.machine/my/repository/.git/
+
+# Set up a bare (= without working directory) repository (e.g. on a webserver)
+foo$ mkdir my-repo.git
+foo$ cd my-repo.git
+foo$ git --bare init
+foo$ chmod a+x hooks/post-update # this is needed for HTTP transport
+                                      # you need to populate this repository via push
+</nowiki></pre>
+
+== Inspecting revisions ==
+
+<pre><nowiki>
+# inspect history visually
+foo$ gitk       # this opens a Tk window, and shows you how the revisions are connected
+
+# inspect history
+foo$ git log    # this pipes a log of the current branch into your PAGER
+foo$ git log -p # ditto, but append a patch after each commit message
+
+# inspect a specific commit
+foo$ git show HEAD    # show commit info, diffstat and patch
+                      # of the tip of the current branch
+</nowiki></pre>
+
+== Referring to revisions ==
+
+<pre><nowiki>
+# by name
+foo$ git log v1.0.0   # show history leading up to tag "v1.0.0"
+foo$ git log master   # show history of branch "master"
+
+# relative to a name
+foo$ git show master^   # show parent to last revision of master
+foo$ git show master~2  # show grand parent to tip of master
+foo$ git show master~3  # show great grand parent to tip of master (you get the idea)
+
+# by output of "git describe"
+foo$ git show v1.4.4-g730996f  # you get this string by calling "git describe"
+
+# by hash (internally, all objects are identified by a hash)
+foo$ git show f665776185ad074b236c00751d666da7d1977dbe
+foo$ git show f665776   # a unique prefix is sufficient
+
+# tag a revision
+foo$ git tag v1.0.0                      # make current HEAD known as "v1.0.0"
+foo$ git tag interesting v1.4.4-g730996f # tag a specific revision (not HEAD)
+</nowiki></pre>
+
+== Comparing revisions ==
+
+<pre><nowiki>
+# diff between two branches
+foo$ git diff origin..master            # pipes a diff into PAGER
+foo$ git diff origin..master > my.patch # pipes a diff into my.patch
+
+# get diffstat of uncommitted work
+foo$ git diff --stat HEAD
+</nowiki></pre>
+
+== Cherry picking patches ==
+
+<pre><nowiki>
+foo$ git cherry-pick other-branch~3     # apply 4th last patch of other-branch to current branch
+</nowiki></pre>
 ----
-[[CategoryCategory]]
+[[CategoryGitDocumentation]]
 
 __NOTOC__
