@@ -157,6 +157,8 @@ There are <i>two</i> projects dealing with fully managed Git implementation (rew
 
 <b>Repository:</b> http://code.google.com/p/mono-soc-2008/source/browse/ git-sharp project.
 
+<b>Status:</b> [http://thread.gmane.org/gmane.comp.version-control.git/100736/focus=7263 Nothing came out of it]. One student was going to focus on the front-end, the other on the back-end.
+
 == [[DocBox]] project ==
 
 DocBox sits on top of RDoc, uses wiki-like interface, and makes use of either <i>Git</i> or SVN version control systems.
