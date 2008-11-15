@@ -33,9 +33,6 @@ For quick questions or just to hang out with fellow git enthusiasts, join the #g
 * [http://colabti.org/irclogger/irclogger_logs/git Official #git channel log]
 * [http://pasky.or.cz/~pasky/cp/#git/ Historical #git channel log]
 
-= Google Group =
-There is also a Git Users Group at http://groups.google.com/group/git-users. While still new, the community looks like it's going to grow fast.
-
 = [[GitTogether]] =
 These are events when git developers and users physically meet in the same place.
 See the [[GitTogether]] page for more information.
