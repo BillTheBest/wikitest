@@ -29,6 +29,8 @@ Here are few tips for new users, or users that don't like to read the manual:
 
 <!-- ## http://en.wikiquote.org/wiki/Linus_Torvalds
  -->
+<!-- ## and other Linus Torvalds fortune cookies
+ -->
 * Given enough eyeballs, all bugs are shallow. <i>(Eric S. Raymond, aka Linus' Law)</i>
 * I'm basically a very lazy person who likes to get credit for things other people actually do. <i>(Eric S. Raymond)</i>
 * We all know Linux is great: it does infinite loops in 5 seconds. <i>(Linus Torvalds)</i>
@@ -41,6 +43,9 @@ Here are few tips for new users, or users that don't like to read the manual:
 * "Regression testing"? What's that? If it compiles, it is good, if it boots up it is perfect. <i>(Linus Torvalds)</i>
 * Intelligence is the ability to avoid doing work, yet getting the work done. <i>(Linus Torvalds)</i>
 * See, you not only have to be a good coder to create a system like Linux, you have to be a sneaky bastard too. <i>(Linus Torvalds)</i>
+* Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program. <i>(Linus Torvalds)</i>
+* I will, in fact, claim that the difference between a bad programmer and a good one is whether he considers his code or his data structures more important. Bad programmers worry about the code. Good programmers worry about data structures and their relationships. <i>(Linus Torvalds)</i>
+* Really, I’m not out to destroy Microsoft. That will just be a completely unintentional side effect.  <i>(Linus Torvalds)</i>
 
 <!-- ## git mailing list
  -->
