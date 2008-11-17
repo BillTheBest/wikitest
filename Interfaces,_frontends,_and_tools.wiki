@@ -742,6 +742,10 @@ Git-bzr allows bidirectional synchronization between Bazaar and Git repositories
 
 A Ruby script that imports Monotone repositories with different modes of operation; checkout and fast-import. Depending on the method is the completeness and reliability: checkout method is almost complete. It also allows further updates. Find it at [https://github.com/felipec/mtn2git github].
 
+<<Anchor(rcs-fast-export)>>
+=== rcs-fast-export ===
+* rcs-fast-export ([http://git.oblomov.eu/rcs-fast-export gitweb]) is a Ruby script that can be used to export RCS histories in a form suitable to be piped to fast-import tools (only tested with git's). It parses RCS files directly, without requiring any external tool or library. It exports symbols as lightweight tags, and makes up a decently sensible name for branches, based on their initial revision number. It supports the typical `--authors-file` option to convert from usernames to full author identities, and it has an option to (lightweight) tag each RCS revision with its revision number.
+
 == Hooks ==
 
 === git-notify ===
