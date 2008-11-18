@@ -257,6 +257,11 @@ List does not currently include [[Git]] or git-related tools.
 * http://www.lilypond.org/web/devel/participating/ (contributing web page)
 * http://git.sv.gnu.org/gitweb/?p=lilypond.git (gitweb)
 * git://git.sv.gnu.org/lilypond.git (repository)
+* GSL - GNU Scientific Library
+* http://www.gnu.org/software/gsl/ (homepage)
+* https://savannah.gnu.org/projects/gsl (project page)
+* http://git.savannah.gnu.org/gitweb/?p=gsl.git (gitweb)
+* git://git.sv.gnu.org/gsl.git (repository)
 * god - Ruby process monitor
 * http://god.rubyforge.org/ (homepage)
 * http://repo.or.cz/w/god.git (gitweb)
