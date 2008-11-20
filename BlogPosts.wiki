@@ -14,6 +14,7 @@ A lot of blog posts related to Git usage have been published since the project's
 
 * [http://ze-dinosaur.livejournal.com/18564.html Converting branches imported by git-svn to tags]
 * [http://www.softwolves.pp.se/blog/2007-09-13 Using ParseCVS to convert a CVS repository to Git]
+* [http://blogs.igalia.com/aperez/?p=22 Convert repositories with fast-{export,import}] is about converting Bazaar repositories to Git
 * [http://blog.madduck.net/debian/2007.10.07_converting-a-package-to-git Importing SVN-maintained Debian packages into Git]
 * [http://www.dmo.ca/blog/20070608113513 Multiple branches using git-svn]
 * [http://info.wsisiz.edu.pl/~blizinsk/git-bzr.html Git and Bazaar: Subversion interoperability] (in [http://info.wsisiz.edu.pl/~blizinsk/git-bzr.pl.html Polish])
