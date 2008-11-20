@@ -1,5 +1,5 @@
-comment2,
+comment6,
 ----
-[[CategoryCategory]]
+[[CategoryGitHomepage]]
 
 __NOTOC__
