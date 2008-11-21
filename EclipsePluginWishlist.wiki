@@ -53,4 +53,7 @@ I'm considering this to be out of scope for the time being, but if someone takes
 == Support synchronize view and local change sets ==
 It would be really great to have support for Team Synchronize view that would show changed files and also allow to create local outgoing change sets (with those it would be easy to add Mylyn integration to manage them automatically) and maybe incoming change sets too<i> -- Eugene Kuleshov</i>
 
+== Support for SSH Keys ==
+Could you please add support for SSH Keys.
+
 __NOTOC__
