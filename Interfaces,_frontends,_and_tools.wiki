@@ -689,6 +689,12 @@
 === git2svn (fast-export) ===
 * git2svn ([http://repo.or.cz/w/git2svn.git gitweb]), written by Love Hörnquist Åstrand, is a tool to convert the "git fast-export" dump into a svn dump and load it into a new fresh svn repository. git2svn also supports incremental updates.  <b>NOTE:</b> <i>git2svn assumes its the only process that writes into the svn repository</i>.  Written mainly in Perl.<<BR>> <b>See:</b> [http://permalink.gmane.org/gmane.comp.version-control.git/79680 |ANNOUNCE| git2svn 0.1] post on git mailing list.
 
+=== svn2git.py ===
+* svn2git.py ([http://python.ca/nas/python/svn2git.py download]), written by Neil Schemenauer, is a tool to do conversions from SVN (Subversion) to git using a SVN dump.  It's in early stages of development. Written in Python.<<BR>> <b>See:</b> [http://thread.gmane.org/gmane.comp.version-control.git/101370 New converstion tool: svn2git.py] thread on git mailing list
+
+=== svn2git (Ruby) ===
+* svn2git ([http://github.com/nirvdrum/svn2git/ github]), forked by Kevin Menard from James Coglan project, is a Ruby tool for importing existing svn projects into git and github. It uses git-svn.
+
 <<Anchor(git-svnconvert)>>
 === git-svnconvert ===
 * git-svnconvert, written by Rutger Nijlunsing in Ruby, appeared only on git mailing list in post [http://marc.theaimsgroup.com/?l=git&m=114460050718696 |ANNOUNCE| git-svnconvert: YASI (Yet Another SVN importer)].
