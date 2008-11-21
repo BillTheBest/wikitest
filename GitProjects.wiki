@@ -432,6 +432,9 @@ List does not currently include [[Git]] or git-related tools.
 * http://tangram.utsl.gen.nz/development/index.html (development web page)
 * http://utsl.gen.nz/gitweb/?p=Tangram (gitweb)
 * git://utsl.gen.nz/Tangram (repository)
+* The Mana World - A 2d Massive Multiplayer Online Role Playing Game
+* http://themanaworld.org (home page)
+* http://wiki.themanaworld.org/index.php/Git_Repository (list of git repositories)
 * Thousand Parsec, A framework for building space strategy games.
 * http://www.thousandparsec.net/tp/ (home page)
 * http://git.thousandparsec.net/gitweb/gitweb.cgi (git web)
