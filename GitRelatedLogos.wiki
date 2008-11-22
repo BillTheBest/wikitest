@@ -24,6 +24,12 @@ This favicon is resized fragment of above Git logo.
 Favicon of [http://github.com/ GitHub], one of [[GitHosting:git hosting]] sites.<<BR>>
 PNG, 16x16, grayscale.
 
+ ||http://gitorious.org/projects/teamgit/repos/mainline/blobs/raw/HEAD/teamgit_icon.png||[http://www.devslashzero.com/teamgit teamGit] icon||
+ ||<#A0A0A0> http://gitorious.org/projects/teamgit/repos/mainline/blobs/raw/HEAD/teamgit_icon.png||as above, gray background ||
+
+Icon (logo) of [http://www.devslashzero.com/teamgit TeamGit], one of Git GUIs.<<BR>>
+PNG, 32x32, color
+
 ----
 
  ||<:>http://henrik.nyh.se/uploads/git-logo.png||<:>attachment:gitlogo.svg_from_msysGit.png||
