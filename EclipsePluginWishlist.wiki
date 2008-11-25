@@ -55,5 +55,6 @@ It would be really great to have support for Team Synchronize view that would sh
 
 == Support for SSH Keys ==
 Could you please add support for SSH Keys.
+A: AFAIK, we have that <i>-- Robin</i> (to discuss this use the mailing list).
 
 __NOTOC__
