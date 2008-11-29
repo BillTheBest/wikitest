@@ -123,7 +123,7 @@
 * [[teamGit]] (http://www.devslashzero.com/teamgit) by Abhijit Bhopatkar is a successor of kgit. It is intended to be a complete developmenet workflow management app with git as a base tool. As of oct 2008 it can be used as a pretty good commit tool. Please see feature table below.
 
 === [[GitNub]] ===
-* [[GitNub]] ([http://github.com/Caged/gitnub/wikis homepage], [[http://github.com/Caged/gitnub/tree/master github]) by Justin Palmer is an Mac OSX Leopard client for git written in Ruby and Objective-C.
+* [[GitNub]] ([http://github.com/Caged/gitnub/wikis homepage], [http://github.com/Caged/gitnub/tree/master github]) by Justin Palmer is an Mac OSX Leopard client for git written in Ruby and Objective-C.
 <!-- ## is it more like gitk or qgit, or more like git-gui?
  -->
 
@@ -135,6 +135,10 @@
 
 === gitSafe ===
 * gitSafe ([http://code.google.com/p/gitsafe/ homepage], [http://www.kodespace.com/?p=38 announcement]) by cmroanirgo is a ![[SourceSafe]]-like GUI for git using .NET 2.0 (C++/CLI)
+
+=== Git Extensions ===
+
+* <b>Git Extensions</b> is a toolkit for Windows users. The main feature is a shell extension that enables a context menu in Windows Exlorer to use most Git functions. The toolkit also contains a standalone gui and a Visual Studio 2008 plugin. The toolkit is mainly written in C# which mains most functionality can be developend very rapidly. The toolkit is still under development, but the latest version is downloadable here: https://sourceforge.net/projects/gitextensions/
 
 === Summary (feature matrix) ===
 
