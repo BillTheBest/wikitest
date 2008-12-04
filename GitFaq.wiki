@@ -223,10 +223,10 @@ This means that your branch is not a strict superset of the remote side. That is
 
 <pre><nowiki>
 	git fetch origin
-	git log HEAD..origin/master
+	git log master..origin/master
 </nowiki></pre>
 
-will list all the changes the remote side has that your side doesn't. If you want a graphical representation, use <code><nowiki> gitk --left-right HEAD...origin/master</nowiki></code>. The arrows to the left are changes you want to push, the arrows to the right are changes on the remote side.
+will list all the changes the remote side has that your side doesn't. If you want a graphical representation, use <code><nowiki> gitk --left-right master...origin/master</nowiki></code>. The arrows to the left are changes you want to push, the arrows to the right are changes on the remote side.
 
 If you have rebased your branch and try to push that, see the next question.
 
