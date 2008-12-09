@@ -10,38 +10,6 @@ Many git commands have some "-q" or "--quiet" option to make them "quiet". Despi
 
 So it would be a good idea to find such code and change it to use -q option.
 
-* Convert config code to use "git_config_string"
-
-The goal is to convert code like this:
-
-<pre><nowiki>
-if (!value)
-        return config_error_nonbool(var);
-help_default_format = xstrdup(value);
-return 0;
-</nowiki></pre>
-
-into code like this:
-
-<pre><nowiki>
-return git_config_string(&help_default_format, var, value);
-</nowiki></pre>
-
-For example look at this patch:
-
-http://git.kernel.org/?p=git/git.git;a=commitdiff;h=9886ea417b7da9722c95630b5980ac174e04c71c
-
-But here is another example patch that you should look at:
-
-http://git.kernel.org/?p=git/git.git;a=commitdiff;h=872da32d80c004c26a19a5d6cb31eb3e7f034094
-
-So why is the latter example longer than the former ?
-
-It's because the "pager_program" variable from the latter was defined as <b>char *pager_program</b> while the "help_default_format" from the former was already defined as <b>const char *help_default_format</b>. So the latter patch had to add the "const" qualifier to "char *pager_program" (hence the title of that patch), before converting the code to use "git_config_string".
-
-This is because the first argument to "git_config_string" should be a "const char **", not a "char **". There will be a compile time warning if a "char **" is passed instead of a "const char **" and the patch will be rejected. (And no, casting the "char **" into a "const char **" is not a good solution either.) 
-
-Also note that some care is needed when adding a "const" qualifier. A "const char *" variable is a pointer to some constant characters. It means that the characters the variable points to should not be modified. You have to check that before you can safely add a "const" qualifier to a "char *".
 * Use time_t for timestamps returned by approxidate() instead of unsigned long. This also affects e.g. OPT_DATE options.
 
 __NOTOC__
