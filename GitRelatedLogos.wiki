@@ -1,12 +1,13 @@
  || http://git.or.cz/git-logo.png       || [http://git.or.cz/ Git homepage] ||
  || http://git.kernel.org/git-logo.png  || [http://www.kernel.org/git/ gitweb at kernel.org] ||
- || http://jengelh.medozas.de/images/git-logo-jengelh.png || [http://dev.medozas.de/gitweb.cgi gitweb at dev.medozas.de] ||
 
 Logo of [[Git]] [[DistributedSCM|distributed revision control system]]. 
 Used by [[Gitweb]] installations to link to [http://www.kernel.org/pub/software/scm/git/docs/ git(7)], 
 and by [http://git.or.cz/ Git homepage] to link to [http://git.or.cz/index.html Home].
 
-The source for the last logo is [http://jengelh.medozas.de/images/git-logo-jengelh.svg git-logo-jengelh.svg]
+ || http://jengelh.medozas.de/images/git-logo-jengelh.png || [http://dev.medozas.de/gitweb.cgi gitweb at dev.medozas.de] ||
+
+The source for the last logo (by Jan Engelhardt) is [http://jengelh.medozas.de/images/git-logo-jengelh.svg git-logo-jengelh.svg]
 ----
 
  ||http://git.kernel.org/git-favicon.png|| without background ||
