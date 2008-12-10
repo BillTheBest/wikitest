@@ -1,8 +1,10 @@
 <<<!-- ! TOC here -->(2)>>
 
 ----
-* <b>See also:</b>
+<b>See also:</b>
 * [[GitTips]] page
+* [http://yuilibrary.com/gitfaq/ Git FAQ at YUI Library]
+
 = General Questions =
 
 == What is git ? ==
