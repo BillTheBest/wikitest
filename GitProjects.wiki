@@ -377,6 +377,9 @@ List does not currently include [[Git]] or git-related tools.
 * Puppet
 * http://reductivelabs.com/trac/puppet/wiki/[[DownloadingPuppet]] (download)
 * git://reductivelabs.com/puppet (repository)
+* Quassel IRC
+* http://quassel-irc.org/ (homepage)
+* git://git.quassel-irc.org/quassel.git (repository)
 * Ready Lisp
 * http://www.newartisans.com/software/readylisp.html (homepage)
 * http://git.newartisans.com/?r=ready-lisp (cgit)
