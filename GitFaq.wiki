@@ -825,7 +825,7 @@ Maybe, check if Tailor ([http://wiki.darcs.net/DarcsWiki/Tailor homepage]) can d
 
 ----
 = References =
-* [http://koalabs.org/~ange/git_faq/faq.html GIT FAQ by Thomas Riboulet].
+* [http://koalabs.org/~ange/git_faq/faq.html GIT FAQ by Thomas Riboulet] (defunct).
 * [[GitCommunity]], mainly Git mailing list.
 * [[WikiPedia:Git_(software)|Git (software)]] article at Wikipedia.
 ----
