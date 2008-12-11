@@ -332,6 +332,9 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * http://merbivore.com/ (homepage)
 * http://github.com/wycats/merb-core/tree/master (repository browser)
 * git://github.com/wycats/merb-core.git (repository)
+* Mingle
+* http://telepathy.freedesktop.org/wiki/Mingle
+* git://git.collabora.co.uk/git/mingle.git (repository)
 * MirrorManager
 * https://hosted.fedoraproject.org/projects/mirrormanager/ (homepage)
 * http://git.fedoraproject.org/?p=hosted/mirrormanager (gitweb)
