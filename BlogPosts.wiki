@@ -40,6 +40,7 @@ A lot of blog posts related to Git usage have been published since the project's
 * [http://blog.madism.org/index.php/2007/09/09/138-git-awsome-ness-git-rebase-interactive git awsome-ness: git rebase --interactive]
 * [http://www.rockstarprogrammer.org/post/2008/sep/25/automating-git-bisection-rails-apps/ Automating Git Bisection for Rails Apps]
 * [http://feeding.cloud.geek.nz/2008/12/setting-default-git-branch-in-bare.html Setting the default branch in a bare repository]
+* <i>Pimp your Git</i> meme (Planet Debian): [http://upsilon.cc/~zack/blog/posts/2008/12/git_tips:_coloring_and_aliases/ Aliases and UI coloring], [http://blog.orebokech.com/2008/12/pimp-your-git-meme.html quilt-like log output]
 
 == Advanced stuff ==
 
