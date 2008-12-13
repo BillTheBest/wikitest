@@ -46,6 +46,7 @@ A lot of blog posts related to Git usage have been published since the project's
 ** [http://upsilon.cc/~zack/blog/posts/2008/12/git_tips:_coloring_and_aliases/ aliases and UI coloring]
 ** [http://blog.orebokech.com/2008/12/pimp-your-git-meme.html quilt-like log output]
 ** [http://feeding.cloud.geek.nz/2008/12/recovering-lost-git-commits.html displaying lost commits]
+** [http://log.damog.net/2008/12/two-git-tips/ bash prompt with branch and log1 alias]
 
 == Advanced stuff ==
 
