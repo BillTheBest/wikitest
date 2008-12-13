@@ -41,6 +41,7 @@ A lot of blog posts related to Git usage have been published since the project's
 * [http://www.rockstarprogrammer.org/post/2008/sep/25/automating-git-bisection-rails-apps/ Automating Git Bisection for Rails Apps]
 * [http://feeding.cloud.geek.nz/2008/12/setting-default-git-branch-in-bare.html Setting the default branch in a bare repository]
 * [http://mirror.dabase.com/e/09018/ Random tips from using Git at work]
+* [http://blog.interlinked.org/tutorials/git.html Git overview]
 * <i>Pimp your Git</i> meme (Planet Debian):
 ** [http://upsilon.cc/~zack/blog/posts/2008/12/git_tips:_coloring_and_aliases/ aliases and UI coloring]
 ** [http://blog.orebokech.com/2008/12/pimp-your-git-meme.html quilt-like log output]
