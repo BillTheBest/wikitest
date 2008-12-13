@@ -47,6 +47,7 @@ A lot of blog posts related to Git usage have been published since the project's
 ** [http://blog.orebokech.com/2008/12/pimp-your-git-meme.html quilt-like log output]
 ** [http://feeding.cloud.geek.nz/2008/12/recovering-lost-git-commits.html displaying lost commits]
 ** [http://log.damog.net/2008/12/two-git-tips/ bash prompt with branch and log1 alias]
+* [http://www.jukie.net/~bart/blog/20080509111534 zsh prompt with git branch and status of rebase/merge/am/bisect]
 
 == Advanced stuff ==
 
