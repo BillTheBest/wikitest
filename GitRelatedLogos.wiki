@@ -77,4 +77,10 @@ http://epmills.com/wp-content/uploads/2008/05/merge-made-by-octopus_resized.png
 
 "Merge made by octopus" bumper sticker from [http://epmills.com/2008/05/16/merge-made-by-octopus/ Merge Made by Octopus] blog post on [http://epmills.com/ Evan P. Mills’ Ramblings] (epmills.com)
 
+----
+
+[http://jblevins.org/svg/git.svg git.svg]
+
+A Git icon in plain SVG (636 bytes) by [http://jblevins.org/ Jason Blevins].
+
 __NOTOC__
