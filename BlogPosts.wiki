@@ -62,6 +62,7 @@ A lot of blog posts related to Git usage have been published since the project's
 * [http://www.cimgf.com/2008/03/18/git-and-mac-a-match-made-in-purgatory/ Using Git with .mac (iFolder)]
 * [http://www.rubyinside.com/giternal-easy-git-external-dependency-management-1322.html Easy Git External Dependency Management with Giternal] (on Ruby and Rails News Site, mentions Rake task and Braid as alternate solutions)
 * [http://jblevins.org/log/tools/managing-websites-with-git Managing Websites with Git] using post-update hooks
+* [http://gwolf.org/node/1874 Extending your bash prompt to show git status information]
 
 == Praise ==
 
