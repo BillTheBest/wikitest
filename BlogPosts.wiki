@@ -50,6 +50,7 @@ A lot of blog posts related to Git usage have been published since the project's
 ** [http://gwolf.org/node/1874 some more bash promptisms]
 * [http://www.jukie.net/~bart/blog/zsh-git-prompt zsh prompt with git branch and status of rebase/merge/am/bisect]
 * [http://triptico.com/notes/8d4510bb.html Matching git-svn strange authors to useful email addresses]
+* [http://triptico.com/notes/736c3681.html Sharing code via email with git]
 
 == Advanced stuff ==
 
