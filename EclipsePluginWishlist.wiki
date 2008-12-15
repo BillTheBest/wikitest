@@ -1,6 +1,8 @@
 = Eclipse Plugin Wishlist =
 Now that we have some basic features in the Eclipse plugin, we need to focus on making it usable by average users doing daily tasks.
 
+== Submodules ==
+Currently, projects that use git submodules cannot be cloned or managed at all with egit. Even if the project is cloned externally from Eclipse, Egit commit doesn't work.
 == Create Branch ==
 Create a new branch from any revision specification.
 
@@ -54,7 +56,6 @@ I'm considering this to be out of scope for the time being, but if someone takes
 It would be really great to have support for Team Synchronize view that would show changed files and also allow to create local outgoing change sets (with those it would be easy to add Mylyn integration to manage them automatically) and maybe incoming change sets too<i> -- Eugene Kuleshov</i>
 
 == Support for SSH Keys ==
-Could you please add support for SSH Keys.
-A: AFAIK, we have that <i>-- Robin</i> (to discuss this use the mailing list).
+Could you please add support for SSH Keys. A: AFAIK, we have that <i>-- Robin</i> (to discuss this use the mailing list).
 
 __NOTOC__
