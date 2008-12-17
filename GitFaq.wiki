@@ -500,7 +500,7 @@ $ git cat-file blob 33cd1f76 >endian.h-1
 $ git cat-file blob 7f531bb7 >endian.h-3
 $ merge src/util/endian.h endian.h-1 endian.h-3
 </nowiki></pre>
-(that is merge yours, original and his). Of course instead of <code><nowiki>merge</nowiki></code> from RCS you can use your favorite 3-way file merge program, e.g. [http://www.delorie.com/gnu/docs/emacs/ediff_2.html Ediff3 from Emacs] (see also [http://www.selenic.com/mercurial/wiki/index.cgi/MergingWithEmacs [[MergingWithEmacs]]] at Mercurial wiki), [http://meld.sourceforge.net/ Meld], [http://furius.ca/xxdiff/ xxdiff] or [http://kdiff3.sourceforge.net/ KDiff3]. In newer versions of Git you could use "<i>:<stage>:<filename></i>" instead of SHA1 to extract files to temporary files (<code><nowiki>:1:util/endian.h</nowiki></code> and <code><nowiki>:3:util/endian.h</nowiki></code>, respectively); check [[RevisionSpecification]] and references therein.
+(that is merge yours, original and his). Of course instead of <code><nowiki>merge</nowiki></code> from RCS you can use your favorite 3-way file merge program, e.g. [http://www.delorie.com/gnu/docs/emacs/ediff_2.html Ediff3 from Emacs] (see also [http://www.selenic.com/mercurial/wiki/index.cgi/MergingWithEmacs [[MergingWithEmacs]]] at Mercurial wiki), [http://www.vim.org/htmldoc/diff.html#vimdiff vimdiff/gvimdiff], [http://meld.sourceforge.net/ Meld], [http://furius.ca/xxdiff/ xxdiff] or [http://kdiff3.sourceforge.net/ KDiff3]. In newer versions of Git you could use "<i>:<stage>:<filename></i>" instead of SHA1 to extract files to temporary files (<code><nowiki>:1:util/endian.h</nowiki></code> and <code><nowiki>:3:util/endian.h</nowiki></code>, respectively); check [[RevisionSpecification]] and references therein.
 
 Once you come up with the desired state in your file (<code><nowiki>src/util/endian.h</nowiki></code> in our example), then you have to inform Git that file was renamed, i.e. say "<code><nowiki>git update-index --remove util/endian.h</nowiki></code>" in our example (removing the file from working directory as well, if it exist there) and then "<code><nowiki>git update-index src/util/endian.h</nowiki></code>" (you should have it already in the index, so you do not have to say <code><nowiki>--add</nowiki></code>).
 
@@ -831,6 +831,6 @@ Maybe, check if Tailor ([http://wiki.darcs.net/DarcsWiki/Tailor homepage]) can d
 * [[GitCommunity]], mainly Git mailing list.
 * [[WikiPedia:Git_(software)|Git (software)]] article at Wikipedia.
 ----
-[[CategoryGlossary]]
+[[CategoryGlossary]] [[CategoryGitDocumentation]]
 
 __NOTOC__
