@@ -3,32 +3,40 @@
 * <b>Maintainer</b>: Git mailing list < git@vger.kernel.org >
 * <b>Repository</b>: From the git version 1.4.0 gitweb is bundled with git
 * <b>License</b>: GPLv2
+
 = Project description =
-<b><i>Gitweb</b></i> is a [[Git]] web interface, the one working on http://www.kernel.org/git/. It is written in Perl, and can be used as a CGI script, or as a mod_perl legacy script (run by Mod<code><nowiki></nowiki></code>Perl::Registry handler). It allows browsing a git repository (or a set of git repositories) using a web browser.
+<b><i>Gitweb</b></i> is a [[Git]] web interface, the one working on http://www.kernel.org/git/. It is written in Perl, and can be used as a CGI script, or as a mod_perl legacy script (run by ModPerl::Registry handler). It allows browsing a git repository (or a set of git repositories) using a web browser.
 
 Using gitweb you can browse directory trees at arbitrary revisions, view contents of files (blobs), see log or shortlog of a given branch, examine commits, commit messages and changes made by a given commit.  Gitweb can generate feeds in RSS or Atom format.  You can get any given version of a file; if not disabled you can download a snapshot of a given version of a project (project tree at given revision).  You can search (if it is not disabled) for commits by an author, added to repository by a comitter, commit with commit message (commit description) which includes some text.
 
 There even exists a <code><nowiki>git-instaweb</nowiki></code> script to setup gitweb and a web server for browsing the local repository.
 
 == See also ==
+
 * [[InterfacesFrontendsAndTools#gitweb:gitweb entry in [[InterfacesFrontendsAndTools]] page]]
 * [[GitwebWishlist]]
 * [http://www.kernel.org/pub/software/scm/git/docs/git-instaweb.html git-instaweb(1) Manual Page]
+
 == Documentation ==
-* [http://repo.or.cz/w/alt-git.git?a=blob_plain;f=gitweb/README gitweb/README] (txt), describes build configuration variables, runtime configuration, and example webserver (Apache) configuration.
+
+* [http://repo.or.cz/w/alt-git.git?a=blob_plain;f=gitweb/README  gitweb/README] (txt), describes build configuration variables, runtime configuration, and example webserver (Apache) configuration.
 * [http://repo.or.cz/w/alt-git.git?a=blob_plain;f=gitweb/INSTALL gitweb/INSTALL] (txt), describes how to build gitweb, build time configuration, gitweb config file, how to set-up gitweb repositories and repo specific config, and two example webserver (Apache2) configurations.
+
 == Notable forks ==
 * [http://git.xmms.se/?p=gitweb-xmms2.git;a=summary gitweb-xmms2] (gitweb with XMMS2 project modifications) by Sham Chukoury. Forked off before gitweb was included in the git repository. Extra features (added usually in project specific way) include: committags support (i.e. <u>BUG(nn)</u> is hyperlink to appropriate issue in Mantis bug tracker), syntax highlighting in 'blob' view, generating anchors to function definitions with the help of on-the-fly generated tags file. It implemented snapshot support and had separate CSS file before mainline gitweb.
-* [http://repo.or.cz/w/git/repo.git repo.or.cz] (custom gitweb patches) by Petr Baudis. Uses the current version of gitweb as base, has all features enabled. Includes extra scripts for creating and managing repositories, and integration with [http://repo.or.cz/w/git-browser.git/ git-browser], a graphical history viewer in Java<code><nowiki></nowiki></code>Script.
+* [http://repo.or.cz/w/git/repo.git repo.or.cz] (custom gitweb patches) by Petr Baudis. Uses the current version of gitweb as base, has all features enabled. Includes extra scripts for creating and managing repositories, and integration with [http://repo.or.cz/w/git-browser.git/ git-browser], a graphical history viewer in JavaScript.
 * [http://www.kernel.org/git/?p=git/warthog9/gitweb.git;a=summary kernel.org] (gitweb w/ caching) by John 'Warthog9' Hawley. Adds gitweb-specific caching support on top of generic gitweb. Split into many smaller modules.
+
 == Other web interfaces ==
 * [http://hjemli.net/git/cgit/ cgit] (doubles as homepage) by Lars Hjemli in C (compiled CGI), uses libgit.a, has builtin caching, fast
 * [http://www.grmso.net:8090/ wit] ([http://www.absolutegiganten.org/wit/ download]) by Christian Meder in Python, uses PATH_INFO extensively. <i>(defunct, no longer maintained)</i>
 * [http://git.flameeyes.is-a-geek.org/gitarella/ gitarella] ([http://flameeyes.is-a-geek.org/projects#gitarella homepage]) by Flameeyes in Ruby, supports CGI and Fast<code><nowiki></nowiki></code>CGI interfaces. Inspired by gitweb. <i>(demo no longer works)</i>
 * [http://dan.chokola.com/wit/ Wit] ([http://dan.chokola.com/software/wit.rhtml homepage]) by Daniel Chokola in Ruby/eRuby. Easy setup, configuration (YAML), and customization (customizable CSS, templates), clean code.
-* [http://zackb.org/git-php/git.php git-php] ([http://code.google.com/p/git-php/ homepage]) by Zack Bartel in PHP. Goals: robust, customizable. Gitweb look-alike.[[BR]] [http://people.proekspert.ee/peeter/git/git.php git-php] ([http://people.proekspert.ee/peeter/blog/ blog]) by Peeter Vois in PHP. Continuation of work by Zack Bartel.
+* [http://zackb.org/git-php/git.php git-php] ([http://code.google.com/p/git-php/ homepage]) by Zack Bartel in PHP. Goals: robust, customizable. Gitweb look-alike.<<BR>>
+ [http://people.proekspert.ee/peeter/git/git.php git-php] ([http://people.proekspert.ee/peeter/blog/ blog]) by Peeter Vois in PHP. Continuation of work by Zack Bartel.
 * [http://viewgit.sourceforge.net/ viewgit]: another PHP git repository browser written from scratch.
+
 ----
-* [[CategoryTools]] [[CategoryWebInterfaces]]
+[[CategoryTools]] [[CategoryWebInterfaces]]
 
 __NOTOC__
