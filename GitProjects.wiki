@@ -58,10 +58,6 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 
 * Google's android
 ** http://source.android.com/download
-* Beryl (OpenGL accelerated desktop, fork of Compiz)
-** http://blog.beryl-project.org/?p=31 (description of moving to Git)
-** http://gitweb.beryl-project.org/ (gitweb)
-** git://git.beryl-project.org/beryl/<i><project></i> (repositories)
 * Various projects hosted at Freedesktop.org:
   http://www.freedesktop.org/wiki/Infrastructure/git (description)<<BR>>
   http://www.freedesktop.org/wiki/Infrastructure/git/UIFlaws (git UI wishlist)<<BR>>
@@ -85,8 +81,9 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 ** http://fontconfig.org/wiki/
 * Poppler (PDF rendering library)
 ** http://poppler.freedesktop.org/
-* Compiz (OpenGL based compositing manager)
-** http://go-compiz.org
+* Compiz Fusion (OpenGL based compositing manager, emerged from Compiz and Beryl)
+* http://compiz-fusion.org (description)
+* http://gitweb.compiz-fusion.org/ (gitweb)
 * One Laptop Per Child (OLPC)
 * http://laptop.org
 * http://dev.laptop.org/wiki/[[CentralTree]] (basic description)
