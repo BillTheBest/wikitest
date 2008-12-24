@@ -506,6 +506,7 @@ Once you come up with the desired state in your file (<code><nowiki>src/util/end
 
 <<Anchor(revert-file-change)>>
 == How to revert file to version from current commit? ==
+<<[[GitLink]](git-checkout, How do I check out a set of paths from the last commit?)>>
 If you messed up a file, or removed it accidentally, and want to revert file change to version at current commit, you can use:
 
 <pre><nowiki>
