@@ -313,6 +313,8 @@ This is usually caused by <code><nowiki>color.diff</nowiki></code> being set to 
 
 It is recommended (as of 1.5.3) that <code><nowiki>color.diff</nowiki></code> be kept off. Use <code><nowiki>git log --color</nowiki></code> if you need colored output.
 
+This problem should be fixed since version 1.5.4.
+
 == Why does gitk on Cygwin display "git 1316 tty_list::allocate: No tty allocated"? ==
 This appears to be an issue with your Cygwin configuration.  Make sure your CYGWIN environment variable doesn't contain 'tty'.
 
