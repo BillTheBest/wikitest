@@ -254,6 +254,9 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * GNU core utils
 * http://git.sv.gnu.org/gitweb/?p=coreutils.git (gitweb)
 * git://git.sv.gnu.org/coreutils.git
+* GNU Guile
+* http://git.sv.gnu.org/gitweb/?p=guile.git (gitweb)
+* git://git.sv.gnu.org/guile.git (repository)
 * GNU Lily<code><nowiki></nowiki></code>Pond (program to format music notation)
 * http://www.lilypond.org/web/devel/participating/ (contributing web page)
 * http://git.sv.gnu.org/gitweb/?p=lilypond.git (gitweb)
