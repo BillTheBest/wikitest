@@ -63,6 +63,9 @@
 === eWiki ===
 * [http://github.com/patrikf/ewiki/tree/master eWiki] includes a git backend  in the folder <b>include/git</b>. It is completely written in PHP, both supporting read and write access, without using exec() or system() calls. Therefore it can be run on simple shared web hosting accounts.
 
+=== dotGit ===
+* [http://github.com/pheew/dotgit/tree/master dotGit] is an implementation for .NET written in C#. It is still in it's early stages but can read objects from packed and loose storage. So all the read-only operations are supported. A diff engine is in the works.
+
 == Patch-management Interface layers ==
 
 === StGIT (Stacked Git) ===
