@@ -332,6 +332,9 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * http://www.lumiera.org/gitweb/ (gitweb)
 * MadMutt
 * http://git.madism.org/?p=madmutt.git (gitweb)
+* Mantis Bugtracker
+* http://www.mantisbt.org/ (homepage)
+* http://git.mantisbt.org/?p=mantisbt.git; (gitweb)
 * Merb (Ruby MVC Framework)
 * http://merbivore.com/ (homepage)
 * http://github.com/wycats/merb-core/tree/master (repository browser)
