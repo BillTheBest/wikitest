@@ -166,7 +166,7 @@ Support for this exists in Git versions 1.5 or later.
 == Does git have keyword expansion? ==
 Not recommended. Keyword expansion causes all sorts of strange problems and isn't really useful anyway, especially within the context of an SCM. Outside git you may perform keyword expansion using a script. The Linux kernel export script does this to set the EXTRA_VERSION variable in the Makefile.
 
-See [http://www.kernel.org/pub/software/scm/git/docs/gitattributes.html gitattributes(5)] if you really want to do this.  If your translation is not reversible (eg SCCS keyword expansion) this may be problematic.
+See [http://www.kernel.org/pub/software/scm/git/docs/gitattributes.html gitattributes(5)] if you really want to do this.  If your translation is not reversible (eg SCCS keyword expansion) this may be problematic. (Hint: The supplied [http://www.kernel.org/pub/software/scm/git/docs/gitattributes.html#_tt_ident_tt $Id$-expansion] puts the 40-character hexadecimal blob object name into the id; you can figure out which commits include this blob by using a script like [http://stackoverflow.com/questions/223678/git-which-commit-has-this-blob this].)
 
 <<Anchor(git-filter)>>
 == Does git allow arbitrary conversion of contents? ==
