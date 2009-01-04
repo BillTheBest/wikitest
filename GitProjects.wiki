@@ -51,7 +51,10 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 ** http://android.git.kernel.org/ (gitweb)
 * Garzik's various Linux projects
 ** http://linux.yyz.us/projects.html (home page)
+* [[DragonFly]] BSD
+** http://gitweb.dragonflybsd.org/?p=dragonfly.git (gitweb)
 * Many other Linux related projects...
+** http://www.dragonflybsd.org/index.shtml (home page)
 ** http://git.kernel.org/ (gitweb)
 
 == Non-kernel projects that use Git for their source code management. ==
