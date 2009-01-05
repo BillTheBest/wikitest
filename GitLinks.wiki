@@ -98,6 +98,7 @@ Miscellaneous git-related links, not including [http://git.or.cz/ Git homepage] 
 == Blogs ==
 Also see [[BlogPosts]] for a collection of blog posts on specific Git usage.
 
+* [http://blogs.gnome.org/newren/2009/01/03/gnome-dvcs-survey-results/ Gnome DVCS survey results] by Elijah (03 Jan 2009)
 * [http://markmcb.com/2008/10/18/3-reasons-to-switch-to-git-from-subversion/ 3 Reasons to Switch to Git from Subversion] by Mark ![[McBride]] (19 Oct 2008)
 * [http://willowbend.cx/2005/08/24/git-epiphany/ Git Epiphany] by Darrin 'Willowbend' Thompson, at [http://willowbend.cx/ Willowbend: Confessions of a Wannabe Capitalist] blog, (Wednesday, August 24th, 2005).
 * [http://keithp.com/blog/Tyrannical_SCM_selection/ Tyrannical SCM selection] and [http://keithp.com/blog/Repository_Formats_Matter/ Repository Formats Matter] by Keith Packard, about moving X.Org from CVS to Git. (see also [http://www.selenic.com/mercurial/wiki/index.cgi/RepositoryFormatsMatter [[RepositoryFormatsMatter]] in the Mercurial wiki])
