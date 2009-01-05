@@ -1140,7 +1140,7 @@ correctly, git will be basically faster at anything, pretty much
 everything, than anybody else would.  I am very confident about
 git performance. One of the things we don't necessarily do
 really well is "CVS annotate".  People use "CVS annotate" a
-lot. I'm told it sucks under Perforce, to, so you probably don't
+lot. I'm told it sucks under Perforce, too, so you probably don't
 use Perforce version of "annotate", I am not sure. But CVS users
 are used to "CVS annotate", it's one operation that CVS can do
 faster than git because CVS does track things one file at a
@@ -1154,7 +1154,7 @@ dig back and say "Hey those two lines actually came from that
 other file five years ago". Again this is something nobody else
 can do and it boils down to the same thing, it's the contents
 that matter, it's not actually the files. but it makes it much
-more expensive operation so it you go back five years, maybe it
+more expensive operation so if you go back five years, maybe it
 takes 30 seconds.  On the kernel it takes a second for any file
 I have, we started from no history two years ago, because we
 just made the decision "let's not make it more complicated than
