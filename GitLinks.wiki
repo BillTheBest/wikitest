@@ -188,6 +188,7 @@ Only those including [[Git]] as one of the systems.
 * [http://speirs.org/2007/07/19/a-subversion-user-looks-at-git/ A Subversion User Looks at Git] and [http://speirs.org/2007/07/23/a-subversion-user-looks-at-git-part-2/ A Subversion User Looks at Git - Part 2] (comments) on Fraser Speirs blog.
 * [http://blog.experimentalworks.net/archives/38-Git-vs.-Mercurial.html Git vs. Mercurial] - comparison of features.
 * [http://www.smashingmagazine.com/2008/09/18/the-top-7-open-source-version-control-systems/ 7 Version Control Systems Reviewed] in [http://www.smashingmagazine.com/ Smashing Magazine] describes some of the top open-source SCM: CVS, Subversion (SVN), Git, Mercurial, Bazaar, LibreSource and Monotone, providing besides description also a few important links for each tool.
+* [http://whygitisbetterthanx.com/ Why Git is Better than X] (where X is one of {hg,bzr,svn,perforce}) - FAQ for common git advantages.
 * [http://utsl.gen.nz/talks/git-svn/intro.html An introduction to git-svn for Subversion/SVK users and deserters] by Sam Vilain describes how to import from and work with Subversion repositories and SVK mirrors. Also describes why would one want to choose Git over Subversion.
 * [[GitSvnComparison:Comparison of Git with Subversion]] on this wiki
 
