@@ -40,7 +40,7 @@ Consequently Git:
 ** Why the merge was done (<i>optional; can be supplied by the user</i>).
 * Automatically starts the next merge at the last merge.
 ** Knowing what revision was last merged is necessary in order to successfully merge the same branches together again in the future.
-This is quite contrary to Subversion's handling of branches.  As of Subversion 1.3:
+This is quite contrary to Subversion's handling of branches.  As of Subversion 1.5:
 
 * Automatically tracks the project revision the branch started from.
 ** Like Git Subversion remembers where a branch originated.
@@ -50,13 +50,6 @@ This is quite contrary to Subversion's handling of branches.  As of Subversion 1
 *** This means that from a historical perspective every line of code modified on the branch will appear in the trunk as though it was written by the user who merged the branch.  <i>This is wrong if there were other users working on that branch.</i>
 * It's impossible to see only merge related changes.
 ** If the merging user had to modify 12 lines of code to complete the merge successfully you can't tell what those 12 lines were, or how those 12 lines differ from the versions on the branches being merged.
-* The user must manually record what branches were merged and what versions they were.
-** Unlike Git Subversion does not automatically include these details.  Consequently unless the user performing the merge explicitly includes these details in the commit message it's impossible to know what exactly was merged.
-* Does not track merge bases.
-** Because Subversion does not record important details about a branch merge it cannot provide the new merge base on subsequent branch merges.  What this means in practice is that users must manually track branch merge points so subsequent merges can be completed.
-In short Subversion's branching implementation is significantly flawed while Git's implementation accurately records the activity and is fully automatic.
-
-In the current Subversion release (1.5), merge tracking has been significantly improved, see http://subversion.tigris.org/merge-tracking/ for details. Would be nice if someone would update this comparison to take this into account.
 
 Supplement: In Subversion, branches and tags all are copies, it's a smart idea, but sometimes it's not convenient, many newbies checkout the whole repository by mistake or are confused when update or merge a moved branch. Branch path and file path lie in same namespace but they have different semantics indeed and should be taken care in different way.
 
@@ -88,7 +81,7 @@ Whilst Git versions prior 1.5.1 never convert files and always assume that every
 Subversion has some notable features that Git currently doesn't have or will never have.
 
 == User Interfaces ==
-Currently Subversion has a wider range of user interface tools than Git.  For example there are SVN plugins available for most popular IDEs.  There is a Windows Explorer shell extension.  There are a number of native Windows and Mac OS X GUI tools available in ready-to-install packages.
+Currently Subversion has a wider range of user interface tools than Git.  For example there are SVN plugins available for most popular IDEs.  There is a [http://tortoisesvn.net/ Windows Explorer shell extension].  There are a number of native Windows and Mac OS X GUI tools available in ready-to-install packages.
 
 Git's primary user interface is through the command line. There are two graphical interfaces: git-gui (distributed with Git) and [http://digilander.libero.it/mcostalba/ qgit], which is making great strides towards providing another feature-complete graphical interface. Also gitk, the graphical history browser, can be more than just a fancy log reader. git-gui and gitk usually work out-of-box for common operating systems, and qgit is being ported to Qt4, which improves its portability.
 
