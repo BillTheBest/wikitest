@@ -693,10 +693,17 @@ If you just want to checkout the latest source code of a project who may has ver
 </nowiki></pre>
 
 == How do I use git for large projects? ==
-(i.e., projects that are too big to expect each developer to obtain a full copy of the repo).
 
-== How do I obtain a list of files which have changed? ==
-i.e., a list files added, removed, moved, but without all the log or diff details.
+Use shallow clones:
+<pre><nowiki>
+    git clone --depth 1 <url>
+</nowiki></pre>
+
+== How do I obtain a list of files which have changed in a given commit? ==
+
+<pre><nowiki>
+    git diff --name-only <commit>^!
+</nowiki></pre>
 
 = Error diagnostic =
 
