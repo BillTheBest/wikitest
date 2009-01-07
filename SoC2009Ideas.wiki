@@ -81,10 +81,9 @@ Most of what is required for the "smart" Git transport for this project is alrea
 <<BR>><b>Goal:</b> Server (CGI) and client that supports fetch & push operation for both authenticated & anonymous clients.
 <<BR>><b>Mentor:</b>
 * Shawn Pearce (gsoc@spearce.org)
-<<BR>><b>Suggested by:</b> Gitzilla
 
 = Other Resources =
-* [[SoC2008Application]]
+* [[SoC2009Application]]
 * [[SoC2008Projects]]
 * [[SoC2007Projects]]
 
