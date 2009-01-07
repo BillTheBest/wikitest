@@ -31,7 +31,7 @@
 * [http://automatthias.wordpress.com/2007/06/07/directory-renaming-in-scm/ Directory renaming in SCM] on [http://automatthias.wordpress.com/ Maciej Bliziński blog] checks this specific aspect, or rather adding file to directory renamed in other branch.
 * [http://bryan-murdock.blogspot.com/2007/03/cutting-edge-revision-control.html Cyclopedia Square: Cutting Edge Revision Control:], on Bryan Murdock blog, comparez Bazaar-NG ('bzr'), Darcs, Mercurial ('hg') and Git in the terms of performance, usability and handling renames. See also other articles tagged [http://bryan-murdock.blogspot.com/search/label/revision%20control revision control]
 * [http://speirs.org/2007/07/19/a-subversion-user-looks-at-git/ A Subversion User Looks at Git] and [http://speirs.org/2007/07/23/a-subversion-user-looks-at-git-part-2/ A Subversion User Looks at Git - Part 2] (comments) on Fraser Speirs blog.
-* [http://blog.experimentalworks.net/archives/38-Git-vs.-Mercurial.html Git vs. Mercurial] - comparison of features.
+* [http://blog.experimentalworks.net/2007/08/git-vs-mercurial/ Git vs. Mercurial] - comparison of features.
 * [http://utsl.gen.nz/talks/git-svn/intro.html An introduction to git-svn for Subversion/SVK users and deserters] by Sam Vilain describes how to import from and work with Subversion repositories and SVK mirrors. Also describes why would one want to choose Git over Subversion.
 * Git Vs SVN by [http://mjtsai.com/blog/2007/07/15/subversion-to-git/ Michael Tsai]
 * Git Vs SVN by [http://utsl.gen.nz/talks/git-svn/intro.html Sam Vilain]
