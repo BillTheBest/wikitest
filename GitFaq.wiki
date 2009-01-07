@@ -705,6 +705,12 @@ Use shallow clones:
     git diff --name-only <commit>^!
 </nowiki></pre>
 
+or (to get also the commit message):
+
+<pre><nowiki>
+    git show --name-only <commit>
+</nowiki></pre>
+
 = Error diagnostic =
 
 <<Anchor(empty-ident)>>
