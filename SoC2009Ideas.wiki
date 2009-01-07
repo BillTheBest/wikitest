@@ -82,6 +82,23 @@ Most of what is required for the "smart" Git transport for this project is alrea
 <<BR>><b>Mentor:</b>
 * Shawn Pearce (gsoc@spearce.org)
 
+== Narrow and Sparse clone support ==
+
+One of the things that Git is not currently very good at is handling repositories with large media in them.  There is no way to checkout a single file or directory, and the shallow clone support does not allow you to make changes and push back.
+
+This project would implement the shallow, narrow and sparse checkout mechanisms to both the client and server side of Git, allowing you to clone:
+
+* the last revision (shallow)
+* a single directory (narrow)
+* a single file (sparse)
+
+It would accomplish this by downloading all of the commit and tree objects, which are generally small, but only the blobs that you ask for (or just getting the blobs when you need them). It would also allow you to do pushes back.
+
+<b>Goal:</b> Enable narrow and sparse cloning options in Git.
+<<BR>><b>Language:</b> C
+<<BR>><b>Suggested by:</b>
+* Scott Chacon (schacon@gmail.com)
+
 = Other Resources =
 * [[SoC2009Application]]
 * 2008: [[SoC2008Projects:Accepted projects]], [[SoC2008Ideas:Proposed projects]]
