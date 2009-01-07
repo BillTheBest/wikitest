@@ -110,7 +110,7 @@ arbitrary command to convert a file to text before diffing. It makes
 it very easy to set up, and allows keeping all the goodness of git
 diff like --color, --color-words, ...
 
-First, install odt2txt, and configure git to allow it to run it, by adding this to ~/.gitconfig:
+First, install [http://stosberg.net/odt2txt/ odt2txt], a simple (and stupid) converter from [[OpenDocument]] to plain text, and configure git to allow it to run it, by adding this to ~/.gitconfig:
 
 <pre><nowiki>
 [diff "odf"]
