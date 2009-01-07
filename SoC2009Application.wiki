@@ -1,7 +1,7 @@
 Git's application to Google's Summer of Code 2009.
 
 The application questions can be found on
-[http://code.google.com/soc/2009/faqs.html#0.1_org_app code.google.com].  Also the published [http://groups.google.com/group/google-summer-of-code-announce/web/notes-on-organization-selection-criteria notes on organization selection] may be of interest.
+[http://code.google.com/soc/2008/faqs.html#0.1_org_app code.google.com].  Also the published [http://groups.google.com/group/google-summer-of-code-announce/web/notes-on-organization-selection-criteria notes on organization selection] may be of interest.
 
 Shawn Pearce has volunteered to submit the application and serve
 as our group's primary contact.
@@ -12,7 +12,7 @@ Git Development Community
 
 <b> What is your Organization's Homepage? </b>
 
-[http://git.or.cz/]
+[http://git-scm.com/]
 
 <b> Describe your organization. </b>
 
@@ -27,13 +27,15 @@ This achievement is the product of the lively Git development
 community, a loose-knit team of developers, technical writers, and
 end users with a passion for high quality open-source development.
 
-''' Why is your organization applying to participate in GSoC 2008? What
+''' Why is your organization applying to participate in GSoC 2009? What
 do you hope to gain by participating? '''
 
 During GSoC 2007 Git had two successful student projects.  Although
 both students contributed useful code to the community, the biggest
 benefit we received was the increased visibility and the addition of
 new long-term contributors.
+
+<b>TBD: Talk about 2008</b>
 
 By participating in GSoC 2009 the Git community hopes to attract
 more new talent to our community, and convert that talent into
@@ -66,10 +68,12 @@ issue too late and did not try to ask Google to replace the student
 with another.  It was later clear to us at the Mentor Summit that
 we probably should have asked for a replacement student.
 
+<b>TBD: Talk about 2008</b>
+
 ''' If your organization has not previously participated in GSoC,
 have you applied in the past? If so, for what year(s)? '''
 
-N/A.  Applied and accepted GSoC 2007; did not apply prior to that.
+N/A.  Applied and accepted GSoC 2007, 2008; did not apply prior to that.
 
 ''' Who will your organization administrator be? Please include Google
 Account information. '''
@@ -82,7 +86,7 @@ GPL (GNU Public License), version 2
 
 <b> What is the URL for your ideas page? </b>
 
-[http://git.or.cz/gitwiki/SoC2008Ideas]
+[http://git.or.cz/gitwiki/SoC2009Ideas]
 
 <b> What is the main development mailing list for your organization? </b>
 
@@ -118,7 +122,7 @@ the Git development community.
 
 Active contributors are defined to be those who have submitted and
 have had accepted into a shipped release a substantial amount of
-new code or fixes within the last 4 months (Nov 2007 - Mar 2008).
+new code or fixes within the last 4 months (Nov 2008 - Mar 2009).
 Substantial amount of code is defined to be equal in size (or
 larger) to what might be reasonably expected of a student working
 on a Google Summer of Code project.
@@ -149,7 +153,7 @@ Most of our suggested projects have more than one mentor available.
 As a community we plan on making sure all of the active projects have
 at least two mentors willing and available to work with the student,
 reducing the likelihood that the project becomes mentor-less during
-GSoC '08.
+GSoC '09.
 
 In the unlikely event that a mentor disappears during the summer
 another mentor will be arranged to step in.  The Git community
@@ -193,7 +197,7 @@ Frequent email and IRC interaction with mentors and other developers
 will be strongly encouraged by suggesting students post their
 questions and ideas to the mailing list, and to discuss them on #git.
 Most developers either already hold "office-hours" on IRC, or have
-agreed to do so during GSoC '08.
+agreed to do so during GSoC '09.
 
 ''' What will you do to ensure that your accepted students stick with
 the project after GSoC concludes? '''
@@ -215,7 +219,7 @@ as the community is filled with a wide range of very experienced
 programmers who are ready and willing to help a contributor improve
 the quality of their work.  We hope that students will realize this
 unique opportunity during GSoC and continue staying active within
-the community even after GSoC '08 completes, just like our GSoC
-'07 students did.
+the community even after GSoC '09 completes, just like our GSoC
+'08 students did.
 
 __NOTOC__
