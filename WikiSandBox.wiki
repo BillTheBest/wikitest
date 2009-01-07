@@ -15,19 +15,18 @@ Please feel free to experiment here, after the four dashes below... and please d
 ----
 
 == Test Section ==
-hmm... how would one go about creating a user account?  the [[UserPreferences]] page behind the login link seems to be b0rken.
+hmm... how would one go about creating a user account? the [[UserPreferences]] page behind the login link seems to be b0rken.
 
 * [[GitSurvey]], [[Git]], [[Git]] - wikipedia-like syntax
 * [[GitSurvey:surve]] - wikipedia-like pipe link
 * <code><nowiki>backticks typewriter</nowiki></code>
 * Camel<code><nowiki></nowiki></code>Case
-
 == Formatting ==
 <i>italic</i> <b>bold</b> <code><nowiki>typewriter</nowiki></code>
 
 <code><nowiki>backtick typewriter</nowiki></code> (configurable)
 
-<span style="font-size: larger">bigger </span> <span style="font-size: smaller">smaller </span>
+<span style="font-size: larger">bigger </span><span style="font-size: smaller">smaller </span>
 
 <pre><nowiki>
 preformatted some more
@@ -43,6 +42,7 @@ def syntax(highlight):
 #!java
   public void main(String[] args]){
      System.out.println("Hello world!");
+	System.out.println("Hello anderworld too!");
   }
 </nowiki></pre>
 == Linking ==
@@ -58,8 +58,8 @@ def syntax(highlight):
 
 * <code><nowiki>[[MoinMoin]]:[[InterWiki]]</nowiki></code> -> [[MoinMoin]]:[[InterWiki]]
 * <code><nowiki>[[MoinMoin:[[InterWiki]]|[[InterWiki]]] on [[MoinMoin]]]</nowiki></code> -> [[MoinMoin:[[InterWiki]]|[[InterWiki]]] on [[MoinMoin]]]
-* <code><nowiki>[[WikiPedia:Subversion]</nowiki></code>|-> [wiki:WikiPedia:Subversion]]
-* <code><nowiki>[[WikiPedia:Subversion|Subversion]]</nowiki></code> -> [[WikiPedia:Subversion|Subversion]]
+* <code><nowiki>[[WikiPedia:Subversion]</nowiki></code>|-> [wiki:WikiPedia:Subversion wiki:[[WikiPedia]]]:Subversion]
+* <code><nowiki>[[WikiPedia:Subversion|Subversion]]</nowiki></code> -> [[WikiPedia]]:Subversion
 http://moinmoin.wikiwikiweb.de/ [http://www.python.org/ Python]
 
 someone@the.inter.net
@@ -80,12 +80,10 @@ http://c2.com/sig/wiki.gif
 * second
 * third blockquote
 ** deeper
-
 "Long item" list
-* I've been so busy with other projects. I didn't realize so many interfaces exist.  Thanks to this survey I'll spend some time checking out the wiki for the other interfaces.<<BR>>At the 'Solutions Linux 2007' exhibition in Paris I have been.
 
- I didn't even know about any of the new git features listed in question 43.<<BR>>I need to get an up to date version as there are things mentioned in this survey that I don't know about.
-
+* I've been so busy with other projects. I didn't realize so many interfaces exist. Thanks to this survey I'll spend some time checking out the wiki for the other interfaces.<br>At the 'Solutions Linux 2007' exhibition in Paris I have been.
+ I didn't even know about any of the new git features listed in question 43.<br>I need to get an up to date version as there are things mentioned in this survey that I don't know about.
 === Glossary ===
 ; Term : Definition
 === Drawing ===
@@ -113,10 +111,10 @@ drawing:mytest
 (23:40) <     jroes> yeah :/
 (23:42) <HonestDave> How queer.
 </nowiki></pre>
-
 = Tables =
 == CSV table ==
-<pre><nowiki>#!CSV
+<pre><nowiki>
+#!CSV
 Answer;                         Count
 very easy;                      38
 easy;                           136
@@ -126,105 +124,94 @@ very hard;                      33
 Base;                           656 / 683
 Total (sum);                    656
 </nowiki></pre>
-
 == Styled table ==
-
 <!-- ## comment?
  -->
+* 
+{| border="1" cellpadding="2" cellspacing="0"
+| <tablewidth="60%" tablestyle="FONT-SIZE: smaller"rowbgcolor="#ffffcc" rowstyle="FONT-WEIGHT: bold">Answer 
+| Count 
+| 
+|}
+ ||<6 0 %>very easy ||38 ||
+ ||easy[[FootNote(auto: easy)]] ||136 ||
+ ||||<rowbgcolor="#ffffdd" rowstyle="FONT-STYLE: italic">inner header ||
+ ||reasonably ||318 ||
+ |||| ||
+ ||hard[[FootNote(auto: hard)]] ||131 ||
+ ||<rowstyle="BORDER-TOP-STYLE: dotted">hard ||131 ||
+ ||hard ||131 ||
+ |||| ||
+ ||hard [[#fn_a (a)]] ||131 ||
+ ||very hard[[#fn_b <sup>b</sup>]] ||33 ||
+ ||<rowbgcolor="#ccffff" rowstyle="FONT-WEIGHT: bold; FONT-STYLE: italic">Base ||656 / 683 ||
+ ||<rowbgcolor="#ccffff" rowstyle="FONT-WEIGHT: bold; FONT-STYLE: italic">Total (sum) ||656 ||
+<b>Footnotes (macro):</b> [[FootNote]] <b>Footnotes (by hand):</b>
 
- ||<tablewidth="60%" tablestyle="font-size: smaller;" rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer                         || Count      ||
- ||<width="60%"> very easy                      || 38         ||
- || easy<<[[FootNote]](auto: easy)>>         || 136        ||
- ||<colspan="2" rowstyle="font-style: italic; background-color: #ffffdd;"> inner header ||
- || reasonably                     || 318        ||
- ||<-2>&nbsp;||
- || hard<<[[FootNote]](auto: hard)>>         || 131        ||
- ||<rowstyle="border-top: dotted;"> hard                           || 131        ||
- || hard                           || 131        ||
- ||<-2>||
- || hard [[#fn_a (a)]]                           || 131        ||
- || very hard[[#fn_b <sup>b</sup>]]                      || 33         ||
- ||<rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           || 656 / 683  ||
- ||<rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    || 656        ||
-
-<b>Footnotes (macro):</b>
-<<[[FootNote]]>>
-<b>Footnotes (by hand):</b>
-* <b>a)</b> <<Anchor(fn_a)>> hard
-* <b>b)</b> <<Anchor(fn_b)>> very hard
-
+* <b>a)</b> [[Anchor(fn_a)]] hard
+* <b>b)</b> [[Anchor(fn_b)]] very hard
 Some trailing text
 
 == More tables ==
-
 <!-- ##----------------------------------------------------
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;" rowspan="2"> Answer 
-|<-2:>| 2006 
-|<-2:>| 2007 
+| <rowbgcolor="#ffffcc" rowstyle="FONT-WEIGHT: bold"|2>Answer 
+|colspan="2" |<style="TEXT-ALIGN: center">2006 
+|colspan="2" |<style="TEXT-ALIGN: center">2007 
 | 
 |-
-| <rowstyle="font-weight: bold; background-color: #ffffcc;">      Count 
-|  % sum 
-|  Count 
-|  %sum 
-| 
-|}
-<!-- ##----------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-|  very easy        
-|  6   
-|   5.1% 
-|  38  
-|   5.7% 
+| <rowbgcolor="#ffffcc" rowstyle="FONT-WEIGHT: bold">Count 
+| % sum 
+| Count 
+| %sum 
 | 
 |-
-|  easy             
-|  21  
-|  17.9% 
-|  136 
-|  20.4% 
+| very easy 
+| 6 
+| 5.1% 
+| 38 
+| 5.7% 
 | 
 |-
-|  reasonably       
-|  64  
-|  54.4% 
-|  318 
-|  47.7% 
+| easy 
+| 21 
+| 17.9% 
+| 136 
+| 20.4% 
 | 
 |-
-|  hard             
-|  23  
-|  19.6% 
-|  131 
-|  19.8% 
+| reasonably 
+| 64 
+| 54.4% 
+| 318 
+| 47.7% 
 | 
 |-
-|  very hard        
-|  3   
-|   2.6% 
-|  33  
-|   5.0% 
-| 
-|}
-<!-- ##----------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base             
-|<-2:>|   117    
-|<-2:>|   683    
+| hard 
+| 23 
+| 19.6% 
+| 131 
+| 19.8% 
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)      
-|  117 
-|   100% 
-|  656 
-|   100% 
+| very hard 
+| 3 
+| 2.6% 
+| 33 
+| 5.0% 
 | 
-|}
-<!-- ##----------------------------------------------------
- -->
+|-
+| <rowbgcolor="#ccffff" rowstyle="FONT-WEIGHT: bold; FONT-STYLE: italic">Base 
+|colspan="2" |<style="TEXT-ALIGN: center">117 
+|colspan="2" |<style="TEXT-ALIGN: center">683 
+| 
+|-
+| <rowbgcolor="#ccffff" rowstyle="FONT-WEIGHT: bold; FONT-STYLE: italic">Total (sum) 
+| 117 
+| 100% 
+| 656 
+| 100% 
+| 
 
 __NOTOC__
