@@ -48,6 +48,15 @@ its questions as part of your application.
 A collection of smaller projects.  Pick one or two and get introduced
 to the open source community!
 
+== Restartable Clone ==
+
+When cloning a large repository (such as KDE, Open Office, Linux kernel) there is currently no way to restart an interrupted clone.  It may take considerable time for a user on the end of a small pipe to download the data, and if the clone is interrupted in the middle the user currently needs to start over from the beginning and try again.  For some users this may make it impossible to clone a large repository.
+
+<b>Goal:</b> Allow git-clone to automatically resume a previously failed download over the native git:// protocol.
+<<BR>><b>Language:</b> C
+<<BR>><b>Mentor:</b> Shawn Pearce (gsoc@spearce.org)
+<<BR>><b>Suggested by:</b> Shawn Pearce [http://article.gmane.org/gmane.comp.version-control.git/55298 on gmane]
+
 = Larger Projects =
 
 == Implement pack v4/v5 for higher compression ==
@@ -144,6 +153,19 @@ http://n2.nabble.com/Git-and-Media-repositories....-td1446700.html
 <<BR>><b>Suggested by:</b>
 * Scott Chacon (schacon@gmail.com)
 <<BR>><b>See:</b> [http://n2.nabble.com/Git-and-Media-repositories....-td1446700.html on Nabble]
+
+== [[GitTorrent]] ==
+
+This is a P2P method for distributing git repositories, which
+will allow for faster downloads, lower startup overheads, etc.
+For use for sites such as git.kernel.org, repo.or.cz, etc.  Existing partial implementations exist at http://jonas.nitro.dk/gittorrent/libgtp.git/ and http://git.utsl.gen.nz/VCS-Git-Torrent
+
+<b>Goal:</b> to implement the GTP/0.1 standard
+<<BR>><b>Language:</b> Open for proposal.
+<<BR>><b>Suggested mentors:</b>
+* Jonas Fonseca (designed the original protocol)
+* Johannes Schindelin (interested party) 
+<<BR>><b>See:</b> [[SoC2008Projects:2008 GSoC project]]
 
 = Other Resources =
 * [[SoC2009Application]]
