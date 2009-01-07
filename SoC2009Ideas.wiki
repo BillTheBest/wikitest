@@ -82,6 +82,51 @@ Most of what is required for the "smart" Git transport for this project is alrea
 <<BR>><b>Mentor:</b>
 * Shawn Pearce (gsoc@spearce.org)
 
+== Proper git-svn support on Windows ==
+
+While we have a git-svn in msysGit (that was backed out for some time due to dependency problems), it is very slow, as it is based on an MSys perl (using a POSIX emulation layer) rather than a MinGW perl (using the Win32 API directly).  Also, the interaction between CR/LF handling (core.autocrlf = true) and git-svn seems to have issues.
+
+This project requires knowledge of Perl, and persistence in dealing with the Win32 API.
+
+<b>Language:</b> Perl, C, shell
+<<BR>><b>Goal:</b> Substitute msysGit's Perl with a MinGW based one, and profile git-svn.
+{BR>><b>Mentor:</b>
+* Johannes Schindelin (johannes.schindelin@gmx.de)
+
+== Improve git-cheetah, a TortoiseSVN lookalike ==
+
+git-cheetah is pretty rudimentary at the moment, and its development speed is glacial, even if it is basically working (but lacks a few functions).  However, it is much, much smaller and less complicated than, say, TortoiseSVN, and the goal is to provide most functionality by enhancing and calling git-gui, so it should be pretty easy to get a truly competitive Explorer extension.
+
+Further, git-cheetah was started with X11 and MacOSX support in mind, so at least one of the two should be supported by the end of the project -- again, this should be relatively easy since the GUI part will be offloaded to git-gui.
+
+<b>Language:</b> C, Tcl/Tk
+<<BR>><b>Goal:</b> Make git-cheetah an Explorer plugin everybody wants to have.
+<<BR>><b>Mentor:</b>
+* Johannes Schindelin (johannes.schindelin@gmx.de)
+
+== libgit2 ==
+
+Git's source code was not written to be reentrant, but to execute a program doing a specific task, and then exit.  This is not really useful if you want to access a Git repository using a library rather than executing a program, catching and parsing its output.  Further, some companies seem to be put off by the GPL that applies to Git's source code, and would prefer a BSD licensed library to base their product on.
+
+Shawn Pearce already started libgit2, but as of now most functions are not implemented.  This project's purpose is to implement most of these functions, and maybe provide language bindings for Python, Ruby, etc.
+
+<b>Language:</b> C, doxygen
+<<BR>><b>Goal:</b> Implement enough of libgit2 to access a Git repository from a C program and/or a Python/Ruby/Whatever script.
+<<BR>><b>Mentor:</b>
+* Johannes Schindelin (johannes.schindelin@gmx.de)
+* Shawn Pearce (gsoc@spearce.org)
+
+== svnserver ==
+
+The idea here is implement something in Git that speaks the
+Subversion protocol on the wire, but uses Git as the backend
+storage. (This would be like the existing git-cvsserver.)
+
+<b>Goal:</b> To be able to access git repository, at minimum read-only, from a Subversion client, at least svn CLI.
+<<BR>><b>Language:</b> Open for proposal.
+<<BR>><b>Suggested mentors:</b>
+* Julian Phillips (has a partial python implementation!  at http://git.q42.co.uk/w/git_svn_server.git)
+
 == Narrow and Sparse clone support ==
 
 One of the things that Git is not currently very good at is handling repositories with large media in them.  There is no way to checkout a single file or directory, and the shallow clone support does not allow you to make changes and push back.
