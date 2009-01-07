@@ -84,8 +84,8 @@ Most of what is required for the "smart" Git transport for this project is alrea
 
 = Other Resources =
 * [[SoC2009Application]]
-* [[SoC2008Projects]]
-* [[SoC2007Projects]]
+* 2008: [[SoC2008Projects:Accepted projects]], [[SoC2008Ideas:Proposed projects]]
+* 2007: [[SoC2007Projects:Accepted projects]], [[SoC2007Ideas:Proposed projects]]
 
 = Other links =
 * [http://www.selenic.com/mercurial/wiki/index.cgi/SummerOfCode Mercurial ideas for GSoC 2008]
