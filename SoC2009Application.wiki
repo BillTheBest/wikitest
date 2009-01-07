@@ -35,7 +35,10 @@ both students contributed useful code to the community, the biggest
 benefit we received was the increased visibility and the addition of
 new long-term contributors.
 
-<b>TBD: Talk about 2008</b>
+During GSoC 2008, Git had 6 students, 5 of which succeeded.  We gained two
+regular contributors, and the other students are still seen on the mailing
+list sometimes.  Even the student we had to fail continues working on
+his project.
 
 By participating in GSoC 2009 the Git community hopes to attract
 more new talent to our community, and convert that talent into
@@ -68,7 +71,37 @@ issue too late and did not try to ask Google to replace the student
 with another.  It was later clear to us at the Mentor Summit that
 we probably should have asked for a replacement student.
 
-<b>TBD: Talk about 2008</b>
+In 2008, we had six projects: "[[GitTorrent]] - implement a [[BitTorrent]]
+like protocol to exchange Git repositories", "git-statistics - mine
+the commit history of a project and identify 'good' changes from 'bad'
+changes", "Gitweb caching - a project that allows gitweb, our web
+interface, to scale better", "Eclipse plugin push support",
+"builtin-merge - reimplement git-merge in C", and "git-sequencer -
+a low-level patch-application engine".
+
+While we had to fail the student working on [[GitTorrent]], he still
+continues to work on the project from time to time.
+
+The git-statistics project was finished, but it was decided that
+it is independent enough to be maintained separately, the better
+to gain support for other source code management tools.  This student
+is an active member of the Git community, even if he is also an
+active contributor to the Melange project.
+
+The Eclipse plugin and builtin-merge projects were integrated into
+the mainline source code.  The latter student remains a very
+active contributor to our project.
+
+While the Gitweb caching and the git-statistics project were finished
+in time, neither of them were fully integrated into our mainline
+source code yet.  However, both students have a two-digit number of
+commits in our repository.
+
+The biggest challenge turned out to move the communications with some
+of the students from private to public.  For example, the Gitweb caching
+and the [[GitTorrent]] projects could have shared some effort, and in
+general, the students did not benefit from the competence of the
+non-mentor community members as much as they could have.
 
 ''' If your organization has not previously participated in GSoC,
 have you applied in the past? If so, for what year(s)? '''
