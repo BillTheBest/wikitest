@@ -1,0 +1,96 @@
+= Welcome! =
+
+Git is planning on applying to the Google Summer of Code 2009 program.  As mentoring organizations have not yet been accepted, there is no guarantee that Git will be asked to participate again this year.  This page is to help plan proposed student projects.
+
+This page contains project ideas culled from the Git user and developer community.  You can get started by reading some project descriptions, and the mailing list thread(s) that spawned them.  Also consider joining the developer mailing list, or finding us on IRC.  Details can be found in [[GitCommunity]].
+
+Don't like a project you see here?  Toss your own idea out there, it may be just the thing we have been looking for!
+
+If you are interested, you can also find projects which got accepted previously in [[SoC2007Projects:2007]] and [[SoC2008Projects:2008]].
+
+<<<!-- ! TOC here -->(2)>>
+
+= General Requirements =
+All projects have the following basic requirements:
+
+* Unless otherwise stated, projects will require programming in C, as nearly all of Git is written in C, for maximum speed and portability.
+* All materials must be released under the [http://www.gnu.org/copyleft/gpl.html GNU General Public License (GPL)], version 2.
+* Individual students shall retain copyright on their works.
+* Projects must be tracked and managed in Git, and published on [http://repo.or.cz].
+* Weekly project status reports should be sent to the project's mentors.  Each status report should outline what was accomplished that week, any issues that prevented that week's goals from being completed, and your goals for the next week.  This will help you to break your project down into manageable chunks, and will also help the project's mentors to better support your efforts.
+
+Interested students are encouraged to read the
+[http://code.google.com/p/google-summer-of-code/wiki/AdviceforStudents Advice for GSoC Students Page],
+as it has excellent suggestions that might help you to pick a
+project and shape your proposal.
+
+If your proposal is accepted by the Git Development Community
+you will be expected to work on it full time during the summer.
+Its cool if you want to take a week off for vacation, but remember
+that Google is hiring you for the summer to help us improve Git.
+That should be your focus.  Don't expect that you will be able to
+work on your project for just 10 hours a week and then collect at
+the end.
+
+If your original proposal doesn't pan out or becomes too much of
+a challenge, you should work with your mentor to help redefine it.
+We really want to see every project succeed this summer, as there
+is a great deal of interest in these projects from within the
+user community.
+
+Students can apply for the program at the
+[http://code.google.com/soc/ Google Summer of Code website].
+Please consider reviewing our [[SoC2008Template]] and answering
+its questions as part of your application.
+
+= New To Git? New To Open Source Development? =
+
+A collection of smaller projects.  Pick one or two and get introduced
+to the open source community!
+
+= Larger Projects =
+
+== Implement pack v4/v5 for higher compression ==
+
+Although Git's packfile format offers incredible disk space savings
+over other VCS systems, we already know we can still do better.
+A prototype design dubbed 'packv4' has been floating around the
+Git world for almost two years, but has not been fully implemented
+for inclusion in a shipping release.
+
+At this point the implementation for 'packv4' would need to be
+rewritten from scratch, as much of the affected parts of the core Git
+code have been modified to support other enhancements.  A student
+with a strong interest in data compression could really get into
+this project and take it to places we have never thought possible.
+
+<b>Goal:</b> Save at least 10% on current packv2 for benchmark
+repositories (linux-2.6, git, mozilla, gcc) and boost runtime ~10%.
+<<BR>><b>Language:</b> C
+<<BR>><b>Suggested mentors:</b>
+* Shawn Pearce (gsoc@spearce.org)
+<<BR>><b>See:</b> [http://kerneltrap.org/mailarchive/git/2007/2/27/239830 on kerneltrap] and [http://article.gmane.org/gmane.comp.version-control.git/43016 the entire "understanding version 4 packs" thread on gmane]
+
+== "Smart" HTTP based GIT Transport ==
+
+Hosting a publicly available Git repository currently requires a server where a TCP port based service may be operated. This not permitted by most of the web site hosting companies except as part of their "dedicated" server offerings. This project is to implement a CGI based "smart" Git transport for Git's fetch and push operations, and the necessary client code. The completed project should also include support both authenticated and anonymous clients.
+
+Most of what is required for the "smart" Git transport for this project is already implemented by the bundle facilities that Git already supports but changes to the existing bundle code may be necessary. The CGI component should be implemented in in a language that a majority of web site hosting companies permit to be used with their product offerings and should rely the Git suite of programs for most of the repository manipulation.
+
+<b>Language:</b> Perl, C, shell, other
+<<BR>><b>Goal:</b> Server (CGI) and client that supports fetch & push operation for both authenticated & anonymous clients.
+<<BR>><b>Mentor:</b>
+* Shawn Pearce (gsoc@spearce.org)
+<<BR>><b>Suggested by:</b> Gitzilla
+
+= Other Resources =
+* [[SoC2008Application]]
+* [[SoC2008Projects]]
+* [[SoC2007Projects]]
+
+= Other links =
+* [http://www.selenic.com/mercurial/wiki/index.cgi/SummerOfCode Mercurial ideas for GSoC 2008]
+* [http://subversion.tigris.org/project_tasks.html Subversion ideas for Summer of Code]
+* [http://subclipse.tigris.org/soc/tasks.html Subclipse Ideas for Google Summer of Code]
+
+__NOTOC__
