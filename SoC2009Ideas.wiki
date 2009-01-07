@@ -147,7 +147,7 @@ This project would implement the shallow, narrow and sparse checkout mechanisms 
 * a single file (sparse)
 
 It would accomplish this by downloading all of the commit and tree objects, which are generally small, but only the blobs that you ask for (or just getting the blobs when you need them). It would also allow you to do pushes back.
-http://n2.nabble.com/Git-and-Media-repositories....-td1446700.html
+
 <b>Goal:</b> Enable narrow and sparse cloning options in Git.
 <<BR>><b>Language:</b> C
 <<BR>><b>Suggested by:</b>
