@@ -90,7 +90,7 @@ This project requires knowledge of Perl, and persistence in dealing with the Win
 
 <b>Language:</b> Perl, C, shell
 <<BR>><b>Goal:</b> Substitute msysGit's Perl with a MinGW based one, and profile git-svn.
-{BR>><b>Mentor:</b>
+<<BR>><b>Mentor:</b>
 * Johannes Schindelin (johannes.schindelin@gmx.de)
 
 == Improve git-cheetah, a TortoiseSVN lookalike ==
