@@ -154,17 +154,20 @@ It would accomplish this by downloading all of the commit and tree objects, whic
 * Scott Chacon (schacon@gmail.com)
 <<BR>><b>See:</b> [http://n2.nabble.com/Git-and-Media-repositories....-td1446700.html on Nabble]
 
-== [[GitTorrent]] ==
+== git mirror-sync ==
 
-This is a P2P method for distributing git repositories, which
-will allow for faster downloads, lower startup overheads, etc.
-For use for sites such as git.kernel.org, repo.or.cz, etc.  Existing partial implementations exist at http://jonas.nitro.dk/gittorrent/libgtp.git/ and http://git.utsl.gen.nz/VCS-Git-Torrent
+An extension, rebirth and grand simplification of the key features of the (incomplete) [[GitTorrent]] projects from previous years.
 
-<b>Goal:</b> to implement the GTP/0.1 standard
+Includes extensions to the git daemon protocol to handle automatic registration and verification of mirrors, expedient distribution of updates to the mirrors, mirror selection, and for extra points, download spreading (pulling fractions of bundles from a number of nodes) and/or "mob" fork support.  Thus yielding the major P2P benefits of [[GitTorrent]] in simple, incremental steps.  The result would be faster downloads, lower startup overheads, restartable cloning, a more resilient server network, push to any point in the cloud, etc.
+
+For use for sites such as git.kernel.org, repo.or.cz, github.com, etc.  Implementations of [[GitTorrent]] exist at http://jonas.nitro.dk/gittorrent/libgtp.git/ and http://git.utsl.gen.nz/VCS-Git-Torrent, but the [[MirrorSync]] proposal is a simpler way forward, integrates better with git and would be preferred to proposals that would attempt to finish the [[GitTorrent]] proofs of concept.
+
+<b>Goal:</b> to implement a useful amount of the [[MirrorSync]] proposal (http://code.google.com/p/gittorrent/wiki/[[MirrorSync]])
 <<BR>><b>Language:</b> Open for proposal.
 <<BR>><b>Suggested mentors:</b>
 * Jonas Fonseca (designed the original protocol)
 * Johannes Schindelin (interested party) 
+* Sam Vilain (worked on [[GitTorrent]], designed [[MirrorSync]])
 <<BR>><b>See:</b> [[SoC2008Projects:2008 GSoC project]]
 
 = Other Resources =
