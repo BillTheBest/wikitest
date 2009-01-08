@@ -31,7 +31,7 @@ You can read (selected) threads using RSS feeds
  -->
 For quick questions or just to hang out with fellow git enthusiasts, join the #git channel on irc.freenode.net.
 * [http://colabti.org/irclogger/irclogger_logs/git Official #git channel log]
-* [http://pasky.or.cz/~pasky/cp/#git/ Historical #git channel log]
+* [http://pasky.or.cz/~pasky/cp/%23git/ Historical #git channel log]
 
 = [[GitTogether]] =
 These are events when git developers and users physically meet in the same place.
