@@ -8,7 +8,7 @@
 = Other programs that *should* be taught to work with Git, but haven't been =
 
 ----
-<span style="font-size: smaller">[[#Bugzilla Bugzilla]], [[#Bonsai Bonsai]], [[#Trac Trac]], [[#TWiki TWiki]], [[#scmbug SCMBug]], [[#be BugsEverywhere]], [[#Savane Savane]], [[#GForge GForge]], [[#libresource LibreSource]], [[#DVC DVC (Emacs)]], [[#PIDA PIDA]], [[#Eric3 Eric3]], [[#Meld Meld]], [[#xxdiff xxdiff]], [[#Dreamweaver Dreamweaver]]</span>
+<span style="font-size: smaller">[[#Bugzilla Bugzilla]], [[#Bonsai Bonsai]], [[#Trac Trac]], [[#TWiki TWiki]], [[#scmbug SCMBug]], [[#be BugsEverywhere]], [[#Savane Savane]], [[#GForge GForge]], [[#libresource LibreSource]], [[#DVC DVC (Emacs)]], [[#PIDA PIDA]], [[#Eric3 Eric3]], [[#xxdiff xxdiff]], [[#Dreamweaver Dreamweaver]]</span>
 ----
 
 <b>Bugzilla</b> (bugtracker)<<Anchor(Bugzilla)>><<Anchor(Bonsai)>>:: <span style="font-size: x-large; color: red">!</span>
@@ -53,8 +53,8 @@
 <b>[[NetBeans]]</b> (IDE)<<Anchor([[NetBeans]])>>::
     Popular open-source IDE offering typical IDE features for Java, Ruby, C++ and other languages. See [[NetBeansPlugin]] for information on a plugin in development. <i>(Java, Swing)</i>
 
-<b>Meld</b> (merge tool)<<Anchor(Meld)>><<Anchor(xxdiff)>><<Anchor(KDiff3)>><<Anchor(Kompare)>>::
-    [http://meld.sourceforge.net/ Meld] is a general diff, merge, and history browsing tool written in Python for GNOME. Has CVS, Subversion, Bazaar-NG and Monotone support (see [http://bugzilla.gnome.org/show_bug.cgi?id=327980 here] for git support). Perhaps [http://furius.ca/xxdiff/ xxdiff] (Qt; has CVS and Subversion integration with scripts), [http://kdiff3.sourceforge.net/ KDiff3] and/or [http://www.caffeinated.me.uk/kompare/ Kompare] (Kompare is diff only) should also have some VCS support...  <i>(Python, GNOME)</i>
+<b>Merge tools</b> <<Anchor(xxdiff)>><<Anchor(KDiff3)>><<Anchor(Kompare)>>::
+    Perhaps [http://furius.ca/xxdiff/ xxdiff] (Qt; has CVS and Subversion integration with scripts), [http://kdiff3.sourceforge.net/ KDiff3] and/or [http://www.caffeinated.me.uk/kompare/ Kompare] (Kompare is diff only) should also have some VCS support...  <i>(Python, GNOME)</i>
 
     Note: Git support for external graphical merge resolution programs has been added into the git development mainline via a new git command, "git mergetool", as of git 1.5.1.  git-mergetool currently supports kdiff3, meld, xxdiff, tkdiff, and GNU Emacs's emerge.
 
