@@ -682,7 +682,7 @@ As well, it's worth mentioning [http://scie.nti.st/2007/11/14/hosting-git-reposi
 See the [http://www.kernel.org/pub/software/scm/git/docs/gittutorial.html Git tutorial].
 
 == How do I publish my repo via SFTP? ==
-At the moment, git is not able to use a (dumb) sftp protocol for pushing. There is a work around, though: [http://farragut.flameeyes.is-a-geek.org/articles/tag/fuse Use sshfs]. But make sure that you execute 'git update-server-info' in the pushed repository!
+At the moment, git is not able to use a (dumb) sftp protocol for pushing. There is a work around, though: [http://blog.flameeyes.eu/2007/02/14/how-to-use-git-via-sftp-only Use sshfs]. But make sure that you execute 'git update-server-info' in the pushed repository!
 
 Alternatively, you can use whatever means to mirror your .git/ directory to the server (rsync, scp -r, ...). But make sure that 'git update-server-info' was run in that repository _before_ mirroring!
 
