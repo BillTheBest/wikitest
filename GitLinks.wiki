@@ -94,6 +94,7 @@ Miscellaneous git-related links, not including [http://git.or.cz/ Git homepage] 
 * [http://www.jukie.net/~bart/slides/intro-to-git/intro-to-git.pdf Bart Trojanowski - "Introduction to Git"] (PDF) - slides used to teach an  [http://www.jukie.net/~bart/blog/into-to-git-talk-2 intro course].
 * [http://www.jdl.com/papers/BestCollabGit.pdf Jon Loeliger - "Best Collaboration Practices Using Git"] (PDF) - A presentation given at the [[MontaVista]] Vision Conference.
 * [http://conferences.oreillynet.com/presentations/os2007/os_vilain.pdf Sam Vilain <sam@vilain net> - "Next Generation Version Control Systems"] (PDF) - slides from 9th OSCON 2007.
+* [http://www.gitcasts.com/ Scott Chacon's GitCasts]
 
 == Blogs ==
 Also see [[BlogPosts]] for a collection of blog posts on specific Git usage.
