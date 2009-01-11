@@ -711,6 +711,34 @@ or (to get also the commit message):
     git show --name-only <commit>
 </nowiki></pre>
 
+<<[[GitLink]](fb-purge, Delete backup refs, expire reflog, repack and prune)>>
+== How do I remove all the old objects after using filter-branch? ==
+
+Note: It is recommended you backup your repository before using <code><nowiki>git filter-branch</nowiki></code>.
+
+First, remove the backup references filter-branch created in <code><nowiki>refs/original</nowiki></code>:
+
+<pre><nowiki>
+    git for-each-ref --format='%(refname)' refs/original | \
+        while read ref
+        do
+            git update-ref -d "$ref"
+        done
+</nowiki></pre>
+
+Then clean your reflogs:
+
+<pre><nowiki>
+    git reflog expire --expire=0 --all
+</nowiki></pre>
+
+And finally, repack and drop all the old unreachable objects:
+
+<pre><nowiki>
+    git repack -ad
+    git prune # For objects that repack -ad might have left around 
+</nowiki></pre>
+
 = Error diagnostic =
 
 <<Anchor(empty-ident)>>
