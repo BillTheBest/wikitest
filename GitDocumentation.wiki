@@ -8,7 +8,8 @@
 * Git SVN [http://git.or.cz/course/svn.html crash course]
 * Many [http://kernel.org/pub/software/scm/git/docs/howto/ Howto] documents come with git as well
 * [http://repo.or.cz/w/git.git?a=tree;f=Documentation/technical;hb=HEAD Documentation/technical] for all the technical information relating to Git
-* [[TroubleShooting]]
+* [[TroubleShooting]] (Can someone tell me what "Unable to lock remote branch refs/heads/master" means?)
+
 == Documentation on this Wiki ==
 All documentation residing on this wiki is put in the [[CategoryGitDocumentation:[[GitDocumentation]] category]]
 
