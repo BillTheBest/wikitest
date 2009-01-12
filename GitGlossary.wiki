@@ -1,5 +1,14 @@
+
+---- /!\ <b>Edit conflict - other version:</b> ----
 http://www.kaboodle.com/micronion
 ----
 [[CategoryGlossary]]
+
+---- /!\ <b>Edit conflict - your version:</b> ----
+http://www.kaboodle.com/micronion
+----
+[[CategoryGlossary]]
+
+---- /!\ <b>End of edit conflict</b> ----
 
 __NOTOC__
