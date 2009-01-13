@@ -237,6 +237,9 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 ** http://www.reactivated.net/fprint/
 ** http://www.reactivated.net/fprint/wiki/Libfprint_development (repo info)
 ** http://www.reactivated.net/fprint/wiki/Pam_fprint#Development (repo info)
+* FreeRADIUS
+* http://freeradius.org/(homepage)
+* git://git.freeradius.org/freeradius-server.git radiusd (repo)
 * Frugalware Linux
 * http://frugalware.org/about (homepage)
 * http://git.frugalware.org/gitweb/gitweb.cgi (gitweb)
