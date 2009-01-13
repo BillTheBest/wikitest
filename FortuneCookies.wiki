@@ -100,5 +100,7 @@ Here are few tips for new users, or users that don't like to read the manual:
 * People disagree with me. I just ignore them. <i>(Linus Torvalds, regarding the use of C++ for the Linux kernel.)</i>
 * Anyone can build a fast processor. The trick is to build a fast system. <i>(Seymour Cray)</i>
 * The problem with common sense is that it is not all that common. <i>(Voltaire)</i>
+* The computer "doth make fools of us all," so that any fool without the ability to share a laugh on himself will be unable to tolerate programming for long. <i>(Gerald M. Weinberg)</i>
+* It has been said with great perspicacity that the Programmer's National Anthem is "aaaaahhhhh." <i>(Gerald M. Weinberg)</i>
 
 __NOTOC__
