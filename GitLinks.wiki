@@ -4,7 +4,7 @@
 <<<!-- ! TOC here -->(2)>>
 ----
 
-Miscellaneous git-related links, not including [http://git.or.cz/ Git homepage] (and [http://git-scm.com/ alternate Git homepage] by Scott Chacon), [[GitDocumentation]] links, 
+Miscellaneous git-related links, not including [http://git.or.cz/ Git homepage], [[GitDocumentation]] links, 
 [[GitCommunity]] links including mailing list archives and IRC logs, and links to miscellaneous tools on the [[InterfacesFrontendsAndTools]] page.
 
 = Wikipedia =
