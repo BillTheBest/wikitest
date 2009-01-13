@@ -147,6 +147,9 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * http://ceph.newdream.net/ (homepage)
 * http://ceph.newdream.net/git/ (gitweb)
 * http://wiki.soe.ucsc.edu/bin/view/Main/[[PetascaleObject]]-basedStorage (wiki)
+* Clutter - library for creating fast, visually rich and animated graphical user interfaces
+* http://www.clutter-project.org/ (homepage)
+* http://git.clutter-project.org/ (cgitweb)
 * cmus - C* Music Player
 * http://cmus.sourceforge.net/ (homepage)
 * http://repo.or.cz/w/cmus.git/ (gitweb)
