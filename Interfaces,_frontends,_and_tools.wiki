@@ -899,8 +899,10 @@
 === William Morgan git tools ===
 * [http://git-wt-commit.rubyforge.org/ William's miscellaneous git tools] include `git-wtf`, a tool for working with feature branches (and its precursor `git-show-merges`), `git-publish-branch` to ease the task of "publishing" a branch, and `git-rank-contributors` which ranks all the contributors by the size of their diffs (as opposed to <code><nowiki>git shortlog --numbered --summary</nowiki></code> which counts number of commits.  By William Morgan and Jeff Balogh <i>(Ruby)</i>
 
-=== 0release ===
+=== git-central ===
+* <b>git-central</b> ([http://github.com/stephenh/git-central github]) by Stephen Haberman is a small collections of hooks, scripts, and practices (documentation) for use with a centralized (non-distributed/corporate) git repo.  Those include: svn-like revision numbers, combined diff-enabled commit emails, Hudson hooks, Trac hooks, branch locking, etc.
 
+=== 0release ===
 * [http://0install.net/0release.html 0release] can be used to make new releases of your software. It handles details such as setting the version number and release date, tagging the release in GIT, exporting, running any unit-tests, uploading the archive, pushing the tag, and updating your Zero Install feed. The workflow is: run the script (creates a tarball), do any manual release testing, then either publish everything or fail the release (reverting to your repository's previous state ready to make changes and try again). Only two user interactions are required: starting the script and confirming the generated release.
 
 ----
