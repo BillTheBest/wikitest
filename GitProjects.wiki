@@ -403,6 +403,8 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * Puppet
 * http://reductivelabs.com/trac/puppet/wiki/[[DownloadingPuppet]] (download)
 * git://reductivelabs.com/puppet (repository)
+* Qt (Cross-platform graphic toolkit)
+* http://arstechnica.com/news.ars/post/20090114-nokia-qt-lgpl-switch-huge-win-for-cross-platform-development.html (announcement)
 * Quassel IRC
 * http://quassel-irc.org/ (homepage)
 * git://git.quassel-irc.org/quassel.git (repository)
