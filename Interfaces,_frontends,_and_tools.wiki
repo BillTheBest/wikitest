@@ -803,6 +803,9 @@
 === gitit ===
 * [http://github.com/jgm/gitit/tree/master gitit], a Wiki written in Haskell, uses git for storage, HAppS for a web server, and pandoc for markdown processing.
 
+=== Shinmun ===
+* [http://www.matthias-georgi.de/shinmun Shinmun] ([http://github.com/georgi/shinmun github]) by Matthias Georgi is  small git-based blog engine written in Ruby.  Write posts in your favorite editor, `git-push` it and serve your blog straight from a repository.  Supports Markdown, Textile or HTML files.
+
 == Bug/issue trackers, etc. ==
 
 === ditz ===
