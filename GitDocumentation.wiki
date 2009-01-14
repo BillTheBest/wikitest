@@ -76,6 +76,8 @@ If you wish that something were documented better (or at all), or would like to 
 * [http://repo.or.cz/w/gitman-de.git German translation of the Git man pages] - currently work in progress.
 === Spanish ===
 * http://gitorious.org/projects/curso-git-osluca - some notes that I wrote for a short 1-week course on Git
+=== Japanese ===
+* http://www8.atwiki.jp/git_jp/ - early attempts to translate the manuals.  Has translation of the user-manual (completed).
 ----
 * [[CategoryGitDocumentation]] [[CategoryGitHomepage]] ([http://git.or.cz/#documentation Documentation])
 ----
