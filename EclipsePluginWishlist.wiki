@@ -3,8 +3,9 @@ Now that we have some basic features in the Eclipse plugin, we need to focus on 
 
 == Submodules ==
 Currently, projects that use git submodules cannot be cloned or managed at all with egit. Even if the project is cloned externally from Eclipse, Egit commit doesn't work.
+
 == Create Branch ==
-Create a new branch from any revision specification.
+Create a new branch from any revision specification. This can be done from the history view (at least at first)
 
 == Delete Branch ==
 Delete a branch.
@@ -57,5 +58,11 @@ It would be really great to have support for Team Synchronize view that would sh
 
 == Support for SSH Keys ==
 Could you please add support for SSH Keys. A: AFAIK, we have that <i>-- Robin</i> (to discuss this use the mailing list).
+
+== Stash ==
+Support the stash functionality of git.
+
+== Identities ==
+Have a list of identities (author / committer / signed-off-by) that is configurable on a per-project basis and also on a (Eclipse) global basis. Also make it dynamic in that it is appended with new identities learned through (for example) the commit dialog. Use this list in relevant places.
 
 __NOTOC__
