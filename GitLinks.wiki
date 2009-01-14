@@ -143,6 +143,7 @@ Below there are blogs by gitters:
 * [http://excess.org/article/2008/07/ogre-git-tutorial/ Git the basics] given by Bart Trojanowski for the Ottawa Ruby group.
 * [http://google-opensource.blogspot.com/2008/07/getting-giddy-with-git.html Getting Giddy with Git] post on [http://google-opensource.blogspot.com Google Code: Open Source at Google] blog: GSoC podcast 18: Git, Shawn Pearce and Johannes Schindelin with Leslie Hawthorn.
 * [http://www.youtube.com/watch?v=j45cs5_nY2k Tech Talk: Contributing with Git] by Johannes Schindelin at [[GitTogether]] 2008 on YouTube.
+* [http://eagain.net/blog/2008/08/11/ep-talk-videos.html Version Control for Du<sup>H</sup>HDevelopers] given by Tommi Virtanen at [[EuroPython]]2008 in Vilnius, Lithuania.
 
 = Other version control software =
 
