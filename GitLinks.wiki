@@ -64,6 +64,10 @@ Miscellaneous git-related links, not including [http://git.or.cz/ Git homepage],
   *[http://kerneltrap.org/node/14205 Graphical Git Statistics]
   *[http://kerneltrap.org/Linux/Git_Management Git Management] (about git workflows)
 
+== RSS feeds ==
+
+* [http://gitrss.q42.co.uk Some RSS feeds filtering the mailing list by certain terms in the mail subject lines]
+
 == Magazines ==
 * [http://www.pcworld.idg.com.au PC World]
   *[http://www.pcworld.idg.com.au/index.php/id;1852076002;fp;16;fpid;0 After controversy, Torvalds begins work on "git"] by Robert McMillan, 20/04/2005.
