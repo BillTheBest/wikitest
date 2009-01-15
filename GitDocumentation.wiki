@@ -37,7 +37,7 @@ All documentation residing on this wiki is put in the [[CategoryGitDocumentation
 * Carl Worth's [http://cworth.org/hgbook-git/tour/ A tour of git: the basics] [http://git-users.googlegroups.com/web/gitbasic.pdf?gda=TjULfjwAAACRcUWZoNoqHn0MmsB4ogNRkdJPXci4pHF-t7wRb-FXv_7_kSc1FlgquWbpkoDUr3jz_JaIg30gP77VRAtzw-G6 Mirror(PDF)] <b>Recommended</b>
 * John Wiegley's tutorial describing [http://www.newartisans.com/blog_files/git.from.bottom.up.php Git From Bottom Up] Link to PDF, [http://git-users.googlegroups.com/web/gitfrombottomup.pdf?gda=52xMLEQAAACpB0I6kTeoe_gDZwr_Wu3rSzh-BYU3WCJcU16DCLQHrmG1qiJ7UbTIup-M2XPURDRYda-7QfdsxTTX4bqgEJoy1bwkoqS54nAZJJjHLLKkeg Mirror(PDF)] <b>Recommended</b>
 * [http://osteele.com/archives/2008/05/my-git-workflow My Git workflow] and [http://osteele.com/archives/2008/05/commit-policies Commit Policies] by Oliver Steele
-* [http://www-cs-students.stanford.edu/~blynn/gitmagic/ Git magic]. Chinese translation:[http://docs.google.com/View?id=dfwthj68_675gz3bw8kj Git 魔法].
+* [http://www-cs-students.stanford.edu/~blynn/gitmagic/ Git magic]. Chinese translation:[http://docs.google.com/View?id=dfwthj68_675gz3bw8kj Git ??].
 * [http://www.redhatmagazine.com/2008/05/02/shipping-quality-code-with-git/ Shipping quality code with git] at Redhat Magazine
 * [http://www.gitcasts.com/ GitCasts]
 * [http://eagain.net/articles/git-for-computer-scientists/ Git for computer scientists]
@@ -48,8 +48,9 @@ All documentation residing on this wiki is put in the [[CategoryGitDocumentation
 * Git wikibook: [http://en.wikibooks.org/wiki/Source_Control_Management_With_Git Source Control Management With Git]
 * [http://linux.yyz.us/git-howto.html The Kernel Hacker's Git Tutorial] by Jeff Garzik
 * [http://git.rsbx.net/ Documents and Notes] by Raymond S Brand -Out of date? (edit if not)
-* [http://www.golden-gryphon.com/software/misc/packaging.html Packaging Software using Git] is an analysis of schemes people use for packaging.[[BR]]
-See also [http://vcs-pkg.org/ vcs-pkg] project, aim of which is to investigate the use of version control for distro package maintenance.
+* [http://www.golden-gryphon.com/software/misc/packaging.html Packaging Software using Git] is an analysis of schemes people use for packaging.
+  See also [http://vcs-pkg.org/ vcs-pkg] project, aim of which is to investigate the use of version control for distro package maintenance.
+* [http://www.jinx.de/teclog/2009.01.15.git-dmg-build-scripts-for-xcode.html Git scripts for Xcode users] Build and distribution scripts for Xcode.
 
 == Man pages ==
 Each git command is documented in its own man page. If the man pages are installed on your local system running:
@@ -68,7 +69,7 @@ If you wish that something were documented better (or at all), or would like to 
 
 == Non-english Language Documentation ==
 === Chinese ===
-* http://www.linuxsir.org/main/doc/git/gittutorcn.htm or http://www.bitsun.com/documents/gittutorcn.htm [[BR]]translation of official tutorials
+* http://www.linuxsir.org/main/doc/git/gittutorcn.htm or http://www.bitsun.com/documents/gittutorcn.htm translation of official tutorials
 * http://www.linuxsir.org/bbs/showthread.php?t=281294 or http://www.newsmth.net/bbscon.php?bid=392&id=422519
 * http://my.opera.com/dahema/blog/show.dml/171011
 * http://www-128.ibm.com/developerworks/cn/linux/l-git/index.html
