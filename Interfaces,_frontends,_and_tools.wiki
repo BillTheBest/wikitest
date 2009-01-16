@@ -48,6 +48,9 @@
 === Grit ===
 * [http://grit.rubyforge.org/ Grit] is a Ruby library for extracting information from a git repository in an object oriented manner.  This includes a [http://github.com/blog/107-supercharged-ruby-git partial native Ruby implementation], which is used for a number of the operations.
 
+=== Dulwich ===
+* [https://launchpad.net/dulwich Dulwich] is a pure-Python implementation of the Git file formats and protocols. It is named after the village in which Mr. and Mrs. Git live in the Monty Python sketch.
+
 === Ruby/Git (deprecated) ===
 * [http://jointheconversation.org/rubygit/ Ruby/Git] ([http://github.com/schacon/git-ruby github]) is a Ruby library that can be used to create, read and manipulate Git repositories.  Unmaintained, abandoned in favor of mentioned above [http://grit.rubyforge.org/ Grit].
 
