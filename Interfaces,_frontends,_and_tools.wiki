@@ -521,22 +521,60 @@
 | 
 |-
 |  [http://en.wikipedia.org/wiki/Inotify inotify] support 
+|  
+|  
+|  
+|  
+|  
+|  
+|  
+|  
 |   
-|      
-|    
-|    
-|    
-|    
-|    
-|    
-|    
 |    
 |   X  
 |    
 |    
 |    
 |    
+|       
+| 
+|-
+|  interactive rebase                  
 |    
+|      
+|  ? 
+|  ? 
+|  ? 
+|  ? 
+|  ? 
+|  ? 
+|  ? 
+|  ? 
+|   ?  
+|  ? 
+|  ? 
+|  ? 
+|  ? 
+|   X   
+| 
+|-
+|  apply patches via drag'n'drop       
+|    
+|      
+|  ? 
+|  ? 
+|  ? 
+|  ? 
+|  ? 
+|  ? 
+|  ? 
+|  ? 
+|   ?  
+|  ? 
+|  ? 
+|  ? 
+|  ? 
+|   X   
 | 
 |}
 <!-- ##
