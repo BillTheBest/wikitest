@@ -319,6 +319,9 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * Ledger
 * http://www.newartisans.com/software/ledger.html (homepage)
 * http://git.newartisans.com/?r=ledger (cgit)
+* Libzypp (software management engine that powers products like YaST, ZYpper and Zenworks)
+* http://en.opensuse.org/Libzypp (homepage)
+* http://git.opensuse.org/?p=projects/zypp/libzypp.git (gitweb) 
 * LiveCD-tools
 * http://fedoraproject.org/wiki/[[FedoraLiveCD]] (homepage)
 * http://gitweb.freedesktop.org/?p=users/david/livecd-tools.git (gitweb)
