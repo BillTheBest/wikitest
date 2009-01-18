@@ -366,6 +366,9 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * http://git.debian.org/?p=netconf/netconf/master.git;a=summary (gitweb)
 * Openbox (A standards compliant light-weight extensible window manager)
 * http://icculus.org/openbox
+* [[OpenGrade]] (software for teachers to keep track of grades)
+* http://www.lightandmatter.com/ogr/ogr.html
+* git://github.com/bcrowell/opengrade.git (repository)
 * Openswan
 * http://www.openswan.org/development/ (development)
 * http://git.openswan.org (gitweb)
