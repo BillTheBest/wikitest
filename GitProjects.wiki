@@ -566,4 +566,12 @@ See also [[GitHosting]]
 * [http://www.assembla.com/free_git_hosting Assembla]
 ** http://www.assembla.com/ - Git+Trac or Git+Integrated tickets
 
+==== See also ====
+
+[http://bazaar-vcs.org/WhoUsesBzr Projects using Bazaar]
+
+[http://wiki.darcs.net/DarcsWiki/[[ProjectsUsingDarcs]] Projects using Darcs]
+
+[http://www.selenic.com/mercurial/wiki/index.cgi/ProjectsUsingMercurial Projects using Mercurial]
+
 __NOTOC__
