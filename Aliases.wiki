@@ -166,6 +166,35 @@ $ git graphviz HEAD~100..HEAD~60 | dotty /dev/stdin
 $ git graphviz --first-parent master | dotty /dev/stdin
 </nowiki></pre>
 
+== Shortcuts ==
+
+<pre><nowiki>
+[alias]
+    st = status
+    ci = commit
+    br = branch
+    co = checkout
+    df = diff
+    lg = log -p
+    who = shortlog -s --
+</nowiki></pre>
+
+== git k ==
+
+If you use gitk in your git sessions quite frequently, you have perhaps misused your history and done:
+
+<pre><nowiki>
+$ gitk foo..bar
+$ gitk checkout baz
+</nowiki></pre>
+
+Using `git k` instead of `gitk` may solve your problem:
+
+<pre><nowiki>
+[alias]
+        k = !gitk
+</nowiki></pre>
+
 ----
 [[CategoryGitDocumentation]]
 
