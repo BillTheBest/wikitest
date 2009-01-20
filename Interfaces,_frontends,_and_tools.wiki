@@ -665,7 +665,7 @@
 * [http://straytree.com/ git-browser] by Arteem Khodush is an experimental gitk-like web interface. It visualizes commit history graph and shows commit diffs. User interface is done in JavaScript, and is rather heavy on the <i>client</i> side.  [http://straytree.com/git-browser/by-commit.html?r=git view online] [http://straytree.com/git-browser.tar.bz2 download] [http://repo.or.cz/gitweb.cgi/git-browser.git gitweb mirror].
 
 === [[InDefero]] ===
-* [http://www.indefero.net InDefero] is a clone of [[GoogleCode]] with git, Mercurial and Subversion browser, wiki, download area, issue tracking and code review supporting multiple private/public projects. GNU GPL/Clean MVC PHP5 code, very fast and easy to extend. [http://projects.ceondo.com/p/indefero/downloads/ Download], [http://projects.ceondo.com/p/indefero/source/tree/master/ view source].
+* [http://www.indefero.net InDefero] is a clone of [[GoogleCode]] with git, Mercurial and Subversion browser, wiki, download area, issue tracking and code review supporting multiple private/public projects. Using a shared user account with SSH keys you can control the read/write access rights to your repositories from within the web interface. GNU GPL/Clean MVC PHP5 code, very fast and easy to extend. [http://projects.ceondo.com/p/indefero/downloads/ Download], [http://projects.ceondo.com/p/indefero/source/tree/master/ view source].
 
 = Tools =
 
