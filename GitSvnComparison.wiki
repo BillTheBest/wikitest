@@ -67,7 +67,7 @@ FIXME: Include actual comparisons, e.g. load Git code into both Git and SVN.
 == Small Space Requirements ==
 Git's repository and working directory sizes are extremely small when compared to SVN.
 
-For example the Mozilla repository is reported to be almost 12 GiB when stored in SVN using the fsfs backend.  The fsfs backend also requires over 240,000 files in one directory to record all 240,000 commits made over the 10 year project history.  The exact same history is stored in Git by only two files totaling just over 420 MiB.  SVN requires 30x the disk space to store the same history.
+For example the Mozilla repository is reported to be almost 12 GiB when stored in SVN using the fsfs backend.  Previously, the fsfs backend also required over 240,000 files in one directory to record all 240,000 commits made over the 10 year project history. This was fixed in SVN 1.5, where every 1000 revisions are placed in a separate directory. The exact same history is stored in Git by only two files totaling just over 420 MiB.  SVN requires 30x the disk space to store the same history.
 
 An SVN working directory always contains two copies of each file: one for the user to actually work with and another hidden in .svn/ to aid operations such as status, diff and commit.  In contrast a Git working directory requires only one small index file that stores about 100 bytes of data per tracked file.  On projects with a large number of files this can be a substantial difference in the disk space required per working copy.
 
