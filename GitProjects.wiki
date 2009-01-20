@@ -450,6 +450,9 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * SpeakGoodChinese
 * http://speakgoodchinese.org/download.html (download)
 * git://fondialog1.hum.uva.nl/sgc.git (repository)
+* StreamOS ( a free operating system in Object Pascal)
+* http://postfactum.pl.ua/streamos/ (homepage)
+* http://git.hackndev.com/?p=postfactum/streamos.git;a=summary (repository)
 * SWI-Prolog (A free Prolog environment)
 * http://www.swi-prolog.org (web page)
 * http://gollem.science.uva.nl/git/pl.git (gitweb)
