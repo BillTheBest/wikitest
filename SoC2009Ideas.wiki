@@ -170,6 +170,17 @@ For use for sites such as git.kernel.org, repo.or.cz, github.com, etc.  Implemen
 * Sam Vilain (worked on [[GitTorrent]], designed [[MirrorSync]])
 <<BR>><b>See:</b> [[SoC2008Projects:2008 GSoC project]]
 
+== Domain specific merge helpers ([[LaTeX]], [[OpenOffice]], SVG, images or other file types) ==
+
+Git adds conflict markers to text files when there where conflicts while merging.  This is pretty useful if your text file is line based source code.  But it can be pretty difficult to use, say, with [[LaTeX]] files (where the lines typically reflect whole paragraphs, and a single typo fix results in the same conflict size as if the whole paragraph were rewritten) or XML/SVG/build.xml files (which are not commonly edited with text editors, but other programs that expect valid XML as input -- which might not be true when the conflict markers are added).
+
+To be useful with other file types than plain text or (line based) source code, domain specific merge helpers are needed which present the merge conflict in a reasonable form, helping the user to resolve the conflicts.
+
+<b>Goal:</b> to implement a merge helper for at least one additional file type (depending on the file type, one domain specific merge helper might not fill a whole GSoC project)
+<<BR>><b>Language:</b> Open for proposal.
+<<BR>><b>Suggested mentors:</b>
+* Johannes Schindelin
+
 = Other Resources =
 * [[SoC2009Application]]
 * 2008: [[SoC2008Projects:Accepted projects]], [[SoC2008Ideas:Proposed projects]]
