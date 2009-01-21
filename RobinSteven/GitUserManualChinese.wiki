@@ -349,4 +349,33 @@ Note that the name "origin" is just the name that git uses by default to refer t
 
 注意一下，"origin" 是 git 用来指向你的版本库的克隆来源的默认名称。
 
+== Naming branches, tags, and other references 命名分支，标签，与其他引用 ==
+
+Branches, remote-tracking branches, and tags are all references to commits. All references are named with a slash-separated path name starting with "refs"; the names we've been using so far are actually shorthand:
+
+分支，远程踪迹分支，与标签所有这些都是交付的引用。这些因为被命名为以 "refs" 起头的带斜杠的路径名；实际上我们一直以来都用他们的速记名。
+
+* The branch "test" is short for "refs/heads/test".
+* The tag "v2.6.18" is short for "refs/tags/v2.6.18".
+* "origin/master" is short for "refs/remotes/origin/master". 
+* 分支 "branch" 作为 "refs/heads/test" 的简称。
+* 标签 "v2.6.18" 作为 "refs/tags/v2.6.18" 的简称
+* "origin/master" 作为 "refs/remotes/origin/master" 的简称
+
+The full name is occasionally useful if, for example, there ever exists a tag and a branch with the same name.
+
+全名偶尔也会很有用，例如存在一个同名的分支和标签的时候。
+
+(Newly created refs are actually stored in the .git/refs directory, under the path given by their name. However, for efficiency reasons they may also be packed together in a single file; see git-pack-refs(1)).
+
+（新创建的引用实际是保存在 .git/refs 目录中，在他们的名字表明的路径下面。不过，由于效率的原因，它们几乎总是被打包到一个单独的文件中了；参考 git-pack-refs(1)）
+
+As another useful shortcut, the "HEAD" of a repository can be referred to just using the name of that repository. So, for example, "origin" is usually a shortcut for the HEAD branch in the repository "origin".
+
+还有一个很有用的捷径，版本库中的 "HEAD" 可以被引用为一个版本库的名称。作为例子，"origin" 常常作为 "origin" 版本库中的 HEAD 分支的快捷引用。
+
+For the complete list of paths which git checks for references, and the order it uses to decide which to choose when there are multiple references with the same shorthand name, see the "SPECIFYING REVISIONS" section of git-rev-parse(1).
+
+完整的路径令 git 可以查验引用，并在速记名相同的情况下决定准确的引用。
+
 __NOTOC__
