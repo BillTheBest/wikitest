@@ -64,6 +64,8 @@ It will be useful to have a git repository to experiment with as you read this m
 
 The best way to get one is by using the git-clone(1) command to download a copy of an existing repository. If you don't already have a project in mind, here are some interesting examples:
 
+获取一个已经存在的版本库，最佳的方法是用 git-clone 命令，如果你还没有什么心目中的项目的话，那么这里有些有趣的例子：
+
 <pre><nowiki>
         # git itself (approx. 10MB download):
 $ git clone git://git.kernel.org/pub/scm/git/git.git
@@ -73,6 +75,10 @@ $ git clone git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux-2.6.git
 
 The initial clone may be time-consuming for a large project, but you will only need to clone once.
 
+对于一个大型项目来说，初始性的克隆是挺费时的，不过克隆只需要做一次。
+
 The clone command creates a new directory named after the project ("git" or "linux-2.6" in the examples above). After you cd into this directory, you will see that it contains a copy of the project files, called the working tree, together with a special top-level directory named ".git", which contains all the information about the history of the project.
+
+克隆命令会创建一个新的目录，并根据项目的名称来命名这个项目（譬如上说例子中的 “git” 和 “linux-2.6”）。当你进入这个目录的时候，你可以看到它已经包含了项目中的所有文件，我们称之为工作树，在顶层目录中连带了一个叫 ".git" 的特殊的目录，里面包含了项目的发展历史的所有信息。
 
 __NOTOC__
