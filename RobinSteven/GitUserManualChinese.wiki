@@ -217,4 +217,22 @@ In the following, we say that commit X is "reachable" from commit Y if commit X 
 
 接着，我们说 交付X 对于 交付Y 来说是“可及的”， 如果 交付X 是 交付Y 的祖先的话。同样地，你可以说 Y 是 X 的一个后裔， 或者说存在一个从 Y 追索到 X 的世系族谱。
 
+=== Understanding history: History diagrams 理解历史： 历史沿革示图 ===
+
+We will sometimes represent git history using diagrams like the one below. Commits are shown as "o", and the links between them with lines drawn with - / and \. Time goes left to right:
+
+某些时候，我们会用下面的示图来描述 git 的历史。所有的交付用 "o" 表示， 联系他们各个发展线路之间画上 / 和 \。时间的推移是由左至右。
+
+<pre><nowiki>
+         o--o--o <-- Branch A
+        /
+ o--o--o <-- master
+        \
+         o--o--o <-- Branch B
+</nowiki></pre>
+
+If we need to talk about a particular commit, the character "o" may be replaced with another letter or number.
+
+如果需要具体地谈论某个交付，那么就用其他的字母或者是数字来替代 "o" 。
+
 __NOTOC__
