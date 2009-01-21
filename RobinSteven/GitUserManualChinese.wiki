@@ -85,7 +85,7 @@ The clone command creates a new directory named after the project ("git" or "lin
 
 Git is best thought of as a tool for storing the history of a collection of files. It stores the history as a compressed collection of interrelated snapshots of the project's contents. In git each such version is called a commit.
 
-最好将 git 当作是文件发展的历史纪录的收集工具，它压缩并保存了项目的发展的关联性快照。在 git 中，每个这些变化称作交托(commit)。
+最好将 git 当作是文件发展的历史纪录的收集工具，它压缩并保存了项目的发展的关联性快照。在 git 中，每个这些变化称作交付(commit)。
 
 Those snapshots aren't necessarily all arranged in a single line from oldest to newest; instead, work may simultaneously proceed along parallel lines of development, called branches, which may merge and diverge.
 
@@ -93,7 +93,7 @@ Those snapshots aren't necessarily all arranged in a single line from oldest to 
 
 A single git repository can track development on multiple branches. It does this by keeping a list of heads which reference the latest commit on each branch; the git-branch(1) command shows you the list of branch heads:
 
-一个 git 版本库可以跟踪多个分支的发展，它通过保存一个分支头列表的方式来做到这一点，每个分支头都是一个引用(reference)，它指向该分支最后一个交托(commit)；git-branch(1) 命令可以向你展示每个分支头：
+一个 git 版本库可以跟踪多个分支的发展，它通过保存一个分支头列表的方式来做到这一点，每个分支头都是一个引用(reference)，它指向该分支最后一个交付(commit)；git-branch(1) 命令可以向你展示每个分支头：
 
 <pre><nowiki>
 $ git branch
