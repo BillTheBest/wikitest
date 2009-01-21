@@ -1,9 +1,38 @@
-
 {| border="1" cellpadding="2" cellspacing="0"
 | <tablestyle="width:95%; text-align:center; font-size:2.2em; font-weight:bold; border:hidden">Git 用户手册中文版
 | 
 |}
  .<i>Translator:</i> <b>Robin Steven</b> <vortune@gmail.com>
 -----
+
+= Preface =
+
+Git is a fast distributed revision control system.
+
+This manual is designed to be readable by someone with basic UNIX command-line skills, but no previous knowledge of git.
+
+Chapter 1, Repositories and Branches and Chapter 2, Exploring git history explain how to fetch and study a project using git—read these chapters to learn how to build and test a particular version of a software project, search for regressions, and so on.
+
+People needing to do actual development will also want to read Chapter 3, Developing with git and Chapter 4, Sharing development with others.
+
+Further chapters cover more specialized topics.
+
+Comprehensive reference documentation is available through the man pages, or git-help(1) command. For example, for the command "git clone <repo>", you can either use:
+
+<pre><nowiki>
+$ man git-clone
+</nowiki></pre>
+
+or:
+
+<pre><nowiki>
+$ git help clone
+</nowiki></pre>
+
+With the latter, you can use the manual viewer of your choice; see git-help(1) for more information.
+
+See also Appendix A, Git Quick Reference for a brief overview of git commands, without any explanation.
+
+Finally, see Appendix B, Notes and todo list for this manual for ways that you can help make this manual more complete.
 
 __NOTOC__
