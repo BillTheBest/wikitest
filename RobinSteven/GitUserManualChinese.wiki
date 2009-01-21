@@ -54,4 +54,25 @@ Finally, see Appendix B, Notes and todo list for this manual for ways that you c
 
 最后，看看附录B，这份手册的笔记和工作表，通过那里你可以帮助这份文档变得更完善。
 
+= Chapter 1. Repositories and Branches 第一章，版本库与分支 =
+
+== How to get a git repository 如何获取一个版本库 ==
+
+It will be useful to have a git repository to experiment with as you read this manual.
+
+有一个实验性的 git 版本库对我们阅读这份手册将非常有用。
+
+The best way to get one is by using the git-clone(1) command to download a copy of an existing repository. If you don't already have a project in mind, here are some interesting examples:
+
+<pre><nowiki>
+        # git itself (approx. 10MB download):
+$ git clone git://git.kernel.org/pub/scm/git/git.git
+        # the Linux kernel (approx. 150MB download):
+$ git clone git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux-2.6.git
+</nowiki></pre>
+
+The initial clone may be time-consuming for a large project, but you will only need to clone once.
+
+The clone command creates a new directory named after the project ("git" or "linux-2.6" in the examples above). After you cd into this directory, you will see that it contains a copy of the project files, called the working tree, together with a special top-level directory named ".git", which contains all the information about the history of the project.
+
 __NOTOC__
