@@ -284,4 +284,39 @@ $ cat .git/HEAD
 ref: refs/heads/master
 </nowiki></pre>
 
+== Examining an old version without creating a new branch 不通过创建新分支来演练旧版本 ==
+
+The git-checkout command normally expects a branch head, but will also accept an arbitrary commit; for example, you can check out the commit referenced by a tag:
+
+git-checkout 命令按常规是抽取分支头的，但是也可以接受任意的交付；例如，你可以引用一个标签来进行提取。
+
+<pre><nowiki>
+$ git checkout v2.6.17
+Note: moving to "v2.6.17" which isn't a local branch
+If you want to create a new branch from this checkout, you may do so
+(now or later) by using -b with the checkout command again. Example:
+  git checkout -b <new_branch_name>
+HEAD is now at 427abfa... Linux v2.6.17
+</nowiki></pre>
+
+The HEAD then refers to the SHA1 of the commit instead of to a branch, and git branch shows that you are no longer on a branch:
+
+此时，HEAD 将指向交付的 SHA1 来代替分支名称， git branch 命令表明你现在的项目状态不从属于任何一个分支： 
+
+<pre><nowiki>
+$ cat .git/HEAD
+427abfa28afedffadfca9dd8b067eb6d36bac53f
+$ git branch
+* (no branch)
+  master
+</nowiki></pre>
+
+In this case we say that the HEAD is "detached".
+
+这种情况，我们说 HEAD 是 “超离的”。
+
+This is an easy way to check out a particular version without having to make up a name for the new branch. You can still create a new branch (or tag) for this version later if you decide to.
+
+这是一个方便的途径，既可以提取某个版本，又避免了创建与命名一个新的分支。如果你愿意，你当然还可以以这个版本为标本来创建一个新分支（或者是标签）。
+
 __NOTOC__
