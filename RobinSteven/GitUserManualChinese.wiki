@@ -247,4 +247,41 @@ However, when no confusion will result, we often just use the term "branch" both
 
 可是， 在不至于产生混淆的前提下，我们常常只是用 “分支” 这个术语来表示分支和分支头。
 
+== Manipulating branches 操作分支 ==
+
+Creating, deleting, and modifying branches is quick and easy; here's a summary of the commands:
+
+创建，删除，和更改分支都是很快和容易的；这里是这个命令的摘要：
+
+* <i>git branch</i>
+** list all branches
+** 列举所有的分支
+* <i>git branch <branch></i>
+** create a new branch named <branch>, referencing the same point in history as the current branch 
+** 创建一个新的分支，并引用当前分支作为同一历史沿革
+* <i>git branch <branch> <start-point></i>
+** create a new branch named <branch>, referencing <start-point>, which may be specified any way you like, including using a branch name or a tag name 
+** 创建一个名叫 <branch> 的新分支，引用 <start-point>，它是可以任意指定的，可以是现存的分支的名称或者是标签的名称
+* <i>git branch -d <branch></i>
+** delete the branch <branch>; if the branch you are deleting points to a commit which is not reachable from the current branch, this command will fail with a warning. 
+** 删除一个叫 <branch> 的分支；如果你要删除的分支指向当前分支中一个不可及的交付的话，那么命令将返回失败并作出提示
+* <i>git branch -D <branch></i>
+** even if the branch points to a commit not reachable from the current branch, you may know that that commit is still reachable from some other branch or tag. In that case it is safe to use this command to force git to delete the branch.
+** 尽管需要删除一个当前分支不可及的交付，但是你知道那个交付仍然可有其他的分支或者是标签可及。在这种情况下，用这个命令强制删除一个分支是安全的。
+* <i>git checkout <branch></i>
+** make the current branch <branch>, updating the working directory to reflect the version referenced by <branch> 
+** 提取分支，也即是引用 <branch> 版本状态更新工作目录的内容
+* <i>git checkout -b <new> <start-point></i>
+** create a new branch <new> referencing <start-point>, and check it out. 
+** 引用 <start-point> 创建一个叫 <new> 的分支，并且将它提取出来。
+
+The special symbol "HEAD" can always be used to refer to the current branch. In fact, git uses a file named "HEAD" in the .git directory to remember which branch is current:
+
+特殊的标号 "HEAD" 总是被用作引用，指向当前分支。事实上，git 是用 .git 目录中的名叫 "HEAD" 的文件来记住那个是当前分支。
+
+<pre><nowiki>
+$ cat .git/HEAD
+ref: refs/heads/master
+</nowiki></pre>
+
 __NOTOC__
