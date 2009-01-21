@@ -199,4 +199,22 @@ In fact, in Chapter 7, Git concepts we shall see that everything stored in git h
 
 事实上，在 第七章，Git 的概念 中，我们可以看到保存在 git 历史中的所有东西，包括文件数据与目录内容都会被保存为对象，对象名就是他们的内容的哈希特征值。
 
+=== Understanding history: commits, parents, and reachability 理解历史： 交付，父交付与可及性 ===
+
+Every commit (except the very first commit in a project) also has a parent commit which shows what happened before this commit. Following the chain of parents will eventually take you back to the beginning of the project.
+
+每个交付（除非是项目的第一个交付）总是有他的父交付，这样就说明了到当前的交付为止到底发生过什么。追索父交付链，可以将我们带回项目的起始点。
+
+However, the commits do not form a simple list; git allows lines of development to diverge and then reconverge, and the point where two lines of development reconverge is called a "merge". The commit representing a merge can therefore have more than one parent, with each parent representing the most recent commit on one of the lines of development leading to that point.
+
+无论如何，这些交付的组织形式都不会是简单的；git 容许开发路线可以分道扬镳，也可以殊途同归，两条开发线路的结合点我们叫“合并”（merge）。表示合并的交付就等于有一个以上的父交付了，每个父交付表示每个开发线路发展到这里的最贴近的交付。
+
+The best way to see how this works is using the gitk(1) command; running gitk now on a git repository and looking for merge commits will help understand how the git organizes history.
+
+最好的查看这个机制的方法是用 gitk(1) 命令；现在在版本库中运行 gitk 命令，并查看一下那些合并交付会对你理解 git 是如何组织历史的会有帮助。
+
+In the following, we say that commit X is "reachable" from commit Y if commit X is an ancestor of commit Y. Equivalently, you could say that Y is a descendant of X, or that there is a chain of parents leading from commit Y to commit X.
+
+接着，我们说 交付X 对于 交付Y 来说是“可及的”， 如果 交付X 是 交付Y 的祖先的话。同样地，你可以说 Y 是 X 的一个后裔， 或者说存在一个从 Y 繁衍到 X 的世系族谱。
+
 __NOTOC__
