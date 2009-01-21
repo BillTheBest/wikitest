@@ -376,6 +376,16 @@ As another useful shortcut, the "HEAD" of a repository can be referred to just u
 
 For the complete list of paths which git checks for references, and the order it uses to decide which to choose when there are multiple references with the same shorthand name, see the "SPECIFYING REVISIONS" section of git-rev-parse(1).
 
-完整的路径令 git 可以查验引用，并在速记名相同的情况下决定准确的引用。
+完整的路径令 git 可以查验引用，并在速记名相同的情况下决定准确的引用。参考 git rev-parse(1) 中 "SPECIFYING REVISIONS" 一段。
+
+== Updating a repository with git-fetch 用 git fetch 更新版本库 ==
+
+Eventually the developer cloned from will do additional work in her repository, creating new commits and advancing the branches to point at the new commits.
+
+你向她克隆版本库的那个开发者，总归是要将新的工作加入到版本库中的，如创建了新的交付，将分支推进到新的交付点上。
+
+The command "git fetch", with no arguments, will update all of the remote-tracking branches to the latest version found in her repository. It will not touch any of your own branches—not even the "master" branch that was created for you on clone.
+
+命令 "git fetch"，不用带任何参数，本地版本库中所有远程关联的分支都会被更新到远程版本库中对应的分支的最新版本。它不会触动任何与你的分支无关的东西，甚至是克隆的时候为你创建的 "master" 分支。
 
 __NOTOC__
