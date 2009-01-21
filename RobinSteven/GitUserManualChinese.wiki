@@ -29,11 +29,14 @@ Further chapters cover more specialized topics.
 
 Comprehensive reference documentation is available through the man pages, or git-help(1) command. For example, for the command "git clone <repo>", you can either use:
 
+参考文档可以通过系统的手册页命令，或者是 git-help(1) 命令来查看。譬如，你想参考 "git clone <repo>"， 你可以用下面的两种方式：
+
 <pre><nowiki>
 $ man git-clone
 </nowiki></pre>
 
 or:
+或者：
 
 <pre><nowiki>
 $ git help clone
@@ -41,8 +44,14 @@ $ git help clone
 
 With the latter, you can use the manual viewer of your choice; see git-help(1) for more information.
 
+晚一点你就有机会用到这些手册查看器的；看 git-help(1) 会得到比较多的信息。
+
 See also Appendix A, Git Quick Reference for a brief overview of git commands, without any explanation.
 
+阅读附录 A，那里是一个 git 命令的快速纵览，它不带任何的解说。
+
 Finally, see Appendix B, Notes and todo list for this manual for ways that you can help make this manual more complete.
+
+最后，看看附录B，这份手册的笔记和工作表，通过那里你可以帮助这份文档变得更完善。
 
 __NOTOC__
