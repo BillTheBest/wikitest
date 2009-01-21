@@ -1,0 +1,9 @@
+
+{| border="1" cellpadding="2" cellspacing="0"
+| <tablestyle="width:95%; text-align:center; font-size:2.2em; font-weight:bold; border:hidden">Git 用户手册中文版
+| 
+|}
+ .<i>Translator:</i> <b>Robin Steven</b> <vortune@gmail.com>
+-----
+
+__NOTOC__
