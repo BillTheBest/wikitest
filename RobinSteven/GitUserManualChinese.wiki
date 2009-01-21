@@ -284,7 +284,7 @@ $ cat .git/HEAD
 ref: refs/heads/master
 </nowiki></pre>
 
-== Examining an old version without creating a new branch 不通过创建新分支来演练旧版本 ==
+== Examining an old version without creating a new branch 不通过创建新分支来调查旧版本 ==
 
 The git-checkout command normally expects a branch head, but will also accept an arbitrary commit; for example, you can check out the commit referenced by a tag:
 
@@ -313,10 +313,40 @@ $ git branch
 
 In this case we say that the HEAD is "detached".
 
-这种情况，我们说 HEAD 是 “超离的”。
+这种情况，我们说 HEAD 是 “游离的”。
 
 This is an easy way to check out a particular version without having to make up a name for the new branch. You can still create a new branch (or tag) for this version later if you decide to.
 
 这是一个方便的途径，既可以提取某个版本，又避免了创建与命名一个新的分支。如果你愿意，你当然还可以以这个版本为标本来创建一个新分支（或者是标签）。
+
+== Examining branches from a remote repository 调查远程版本库上的分支 ==
+
+The "master" branch that was created at the time you cloned is a copy of the HEAD in the repository that you cloned from. That repository may also have had other branches, though, and your local repository keeps branches which track each of those remote branches, which you can view using the "-r" option to git-branch(1):
+
+"master" 分支是你克隆版本库的时候创建的，它是你的克隆的那个远程版本库上的 HEAD 的复件。那么远程版本库上可能还存在其他的分支，故而你的本地版本库中也保留了那些远程分支的踪迹。你可以用 git branch(1) 命令加上 "-r" 选项来查看。
+
+<pre><nowiki>
+$ git branch -r
+  origin/HEAD
+  origin/html
+  origin/maint
+  origin/man
+  origin/master
+  origin/next
+  origin/pu
+  origin/todo
+</nowiki></pre>
+
+You cannot check out these remote-tracking branches, but you can examine them on a branch of your own, just as you would a tag:
+
+你不可能将这些远程分支提取出来，但是你可以用一个你自己的分支来调查他们，你当他们是一个标签好了。
+
+<pre><nowiki>
+$ git checkout -b my-todo-copy origin/todo
+</nowiki></pre>
+
+Note that the name "origin" is just the name that git uses by default to refer to the repository that you cloned from.
+
+注意一下，"origin" 是 git 用来指向你的版本库的克隆来源的默认名称。
 
 __NOTOC__
