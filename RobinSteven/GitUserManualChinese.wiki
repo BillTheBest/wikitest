@@ -5,6 +5,8 @@
  .<i>Translator:</i> <b>罗峥嵘 (Robin Steven)</b> <vortune@gmail.com>
 -----
 
+<<<!-- ! TOC here -->()>>
+
 = Preface 前言 =
 
 Git is a fast distributed revision control system.
@@ -199,7 +201,7 @@ In fact, in Chapter 7, Git concepts we shall see that everything stored in git h
 
 事实上，在 第七章，Git 的概念 中，我们可以看到保存在 git 历史中的所有东西，包括文件数据与目录内容都会被保存为对象，对象名就是他们的内容的哈希特征值。
 
-=== Understanding history: commits, parents, and reachability 理解历史： 交付，父交付与可及性 ===
+=== Understanding history: commits, parents, and reachability 交付，父交付与可及性 ===
 
 Every commit (except the very first commit in a project) also has a parent commit which shows what happened before this commit. Following the chain of parents will eventually take you back to the beginning of the project.
 
@@ -217,7 +219,7 @@ In the following, we say that commit X is "reachable" from commit Y if commit X 
 
 接着，我们说 交付X 对于 交付Y 来说是“可及的”， 如果 交付X 是 交付Y 的祖先的话。同样地，你可以说 Y 是 X 的一个后裔， 或者说存在一个从 Y 追索到 X 的世系族谱。
 
-=== Understanding history: History diagrams 理解历史： 历史沿革示图 ===
+=== Understanding history: History diagrams 历史沿革示图 ===
 
 We will sometimes represent git history using diagrams like the one below. Commits are shown as "o", and the links between them with lines drawn with - / and \. Time goes left to right:
 
@@ -234,5 +236,15 @@ We will sometimes represent git history using diagrams like the one below. Commi
 If we need to talk about a particular commit, the character "o" may be replaced with another letter or number.
 
 如果需要具体地谈论某个交付，那么就用其他的字母或者是数字来替代 "o" 。
+
+=== Understanding history: What is a branch? 什么是分支 ===
+
+When we need to be precise, we will use the word "branch" to mean a line of development, and "branch head" (or just "head") to mean a reference to the most recent commit on a branch. In the example above, the branch head named "A" is a pointer to one particular commit, but we refer to the line of three commits leading up to that point as all being part of "branch A".
+
+为准确起见，我们用 “分支” 这个词来表达开发的线路， 并且用 “分支头”（或者是 “头”）来表达一个分支中最晚的一个交付。在上面的例子中，那个叫 “A” 的分支头是一个指向一个具体的交付的指针。但是我们指出，该线路上发展到这个点的三个交付全都是 “分支A” 的组成部分。 
+
+However, when no confusion will result, we often just use the term "branch" both for branches and for branch heads.
+
+可是， 在不至于产生混淆的前提下，我们常常只是用 “分支” 这个术语来表示分支和分支头。
 
 __NOTOC__
