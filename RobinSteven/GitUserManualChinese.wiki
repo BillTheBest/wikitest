@@ -215,6 +215,6 @@ The best way to see how this works is using the gitk(1) command; running gitk no
 
 In the following, we say that commit X is "reachable" from commit Y if commit X is an ancestor of commit Y. Equivalently, you could say that Y is a descendant of X, or that there is a chain of parents leading from commit Y to commit X.
 
-接着，我们说 交付X 对于 交付Y 来说是“可及的”， 如果 交付X 是 交付Y 的祖先的话。同样地，你可以说 Y 是 X 的一个后裔， 或者说存在一个从 Y 繁衍到 X 的世系族谱。
+接着，我们说 交付X 对于 交付Y 来说是“可及的”， 如果 交付X 是 交付Y 的祖先的话。同样地，你可以说 Y 是 X 的一个后裔， 或者说存在一个从 Y 追索到 X 的世系族谱。
 
 __NOTOC__
