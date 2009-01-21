@@ -25,6 +25,7 @@ A lot of blog posts related to Git usage have been published since the project's
 * [http://blog.alieniloquent.com/2008/03/08/git-svn-with-svnexternals/ git-svn with svn:externals] explains how to make submodules of externals while converting to git.
 * [http://blogs.frugalware.org/vmiklos/2007/09/07/p300 git-svn "Howto"] shortly explaining the three main commands
 * [http://subtlegradient.com/articles/2008/04/22/cloning-a-git-svn-clone Cloning a Git SVN Clone]
+* [http://blog.ultranurd.net/2009/01/21/local-version-control-with-git/ Local version control with git] inside of a Microsoft Visual Source Safe working directory
 
 == Portability ==
 
