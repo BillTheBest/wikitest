@@ -500,9 +500,15 @@ $ git bisect visualize
 
 which will run gitk and label the commit it chose with a marker that says "bisect". Choose a safe-looking commit nearby, note its commit id, and check it out with:
 
+这个命令会运行 gitk 并将它选取的那个交付标贴上一个叫 "bisect" 的记号，就近这个标记选择一个看起来是安全的交付，纪录下它的 id，并将它提取出来：
+
+<pre><nowiki>
 $ git reset --hard fb47ddb2db...
+</nowiki></pre>
 
 then test, run "bisect good" or "bisect bad" as appropriate, and continue.
+
+接着进行测试，并恰当地运行 "bisect good" 或 "bisect bad"，不断尝试。
 
 Instead of "git bisect visualize" and then "git reset —hard fb47ddb2db…", you might just want to tell git that you want to skip the current commit:
 
