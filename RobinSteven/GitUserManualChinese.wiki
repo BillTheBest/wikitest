@@ -480,13 +480,23 @@ checks out an older version. Continue like this, telling git at each stage wheth
 
 After about 13 tests (in this case), it will output the commit id of the guilty commit. You can then examine the commit with git-show(1), find out who wrote it, and mail them your bug report with the commit id. Finally, run
 
+在这个例子中，经过13个测试之后，它终于定位到了那个出现问题的交付的 id 。你可以通过 git show(1) 命令来检查是谁写的这个东西，并将缺陷报告通过邮件告诉他们，记得写上那个交付的 id 。最后运行：
+
+<pre><nowiki>
 $ git bisect reset
+</nowiki></pre>
 
 to return you to the branch you were on before.
 
+这样就返回到你原来所在的分支了。
+
 Note that the version which git-bisect checks out for you at each point is just a suggestion, and you're free to try a different version if you think it would be a good idea. For example, occasionally you may land on a commit that broke something unrelated; run
 
+提醒一下，git bisect 为你提取的版本只是一个建议性的东西，其实你可以尝试任何的版本，如果你认为这样是个好主意的话，偶尔可能会空降到某个造成问题的交付上去；运行：
+
+<pre><nowiki>
 $ git bisect visualize
+</nowiki></pre>
 
 which will run gitk and label the commit it chose with a marker that says "bisect". Choose a safe-looking commit nearby, note its commit id, and check it out with:
 
