@@ -448,4 +448,58 @@ We start with one specialized tool that is useful for finding the commit that in
 
 我们用一个特别点的工具作为开始，它对于如何发现一个将 bug 引入到项目中的交付很有用。
 
+== How to use bisect to find a regression 如何用平分来定位撤退 ==
+
+Suppose version 2.6.18 of your project worked, but the version at "master" crashes. Sometimes the best way to find the cause of such a regression is to perform a brute-force search through the project's history to find the particular commit that caused the problem. The git-bisect(1) command can help you do this:
+
+假设项目中的 2.6.18 版本工作良好，但是 "master" 分支不稳定。某些时候，通过对项目历史进行暴力搜索，确定是那个交付造成的问题，这样我们就可以知道我们应该撤退到什么地方。git-bisect(1) 命令可以帮你做到这点：
+
+<pre><nowiki>
+$ git bisect start
+$ git bisect good v2.6.18
+$ git bisect bad master 
+Bisecting: 3537 revisions left to test after this
+[65934a9a028b88e83e2b0f8b36618fe503349f8e] BLOCK: Make USB storage depend on SCSI rather than selecting it [try #6]
+</nowiki></pre>
+
+If you run "git branch" at this point, you'll see that git has temporarily moved you in "(no branch)". HEAD is now detached from any branch and points directly to a commit (with commit id 65934…) that is reachable from "master" but not from v2.6.18. Compile and test it, and see whether it crashes. Assume it does crash. Then:
+
+如果这个时候你运行 "git branch"，你会发现 git 已经将你移到 “无分支的状态”。HEAD 目前是处于游离的状态的，他不从属于任何的分支，并直接指向一个交付（id 为 65934...），这个交付对于 "master" 分支来说是可及的，但对于 v2.6.18 来说就不是。现在可以编译和测试一下，看它是否会崩溃，如果是，那么：
+
+<pre><nowiki>
+$ git bisect bad
+Bisecting: 1769 revisions left to test after this
+[7eff82c8b1511017ae605f0c99ac275a7e21b867] i2c-core: Drop useless bitmaskings
+</nowiki></pre>
+
+checks out an older version. Continue like this, telling git at each stage whether the version it gives you is good or bad, and notice that the number of revisions left to test is cut approximately in half each time.
+
+现在 git 提取出了更旧的版本，继续类似的步骤（编译和测试），将 git 每次给你的版本的测试结果用 <i>good</i> 或者是 <i>bad</i> 告诉 git，并且注意每次提取出来用于测试的版本都大致是截取一半的时段。
+
+* (!) <b>译注：</b> git 每次都抽取大致从 good 至 bad 之间这个项目发展区间一半的那个版本进行测试，如果测试的结果是 good，那么就以当前被提出出来的这个版本到 bad 版本为区间再次进行平分提取，如此不断循环，很快就定位到项目的漏洞。
+
+After about 13 tests (in this case), it will output the commit id of the guilty commit. You can then examine the commit with git-show(1), find out who wrote it, and mail them your bug report with the commit id. Finally, run
+
+$ git bisect reset
+
+to return you to the branch you were on before.
+
+Note that the version which git-bisect checks out for you at each point is just a suggestion, and you're free to try a different version if you think it would be a good idea. For example, occasionally you may land on a commit that broke something unrelated; run
+
+$ git bisect visualize
+
+which will run gitk and label the commit it chose with a marker that says "bisect". Choose a safe-looking commit nearby, note its commit id, and check it out with:
+
+$ git reset --hard fb47ddb2db...
+
+then test, run "bisect good" or "bisect bad" as appropriate, and continue.
+
+Instead of "git bisect visualize" and then "git reset —hard fb47ddb2db…", you might just want to tell git that you want to skip the current commit:
+
+$ git bisect skip
+
+In this case, though, git may not eventually be able to tell the first bad one between some first skipped commits and a later bad commit.
+
+There are also ways to automate the bisecting process if you have a test script that can tell a good from a bad commit. See git-bisect(1) for more information about this and other "git bisect" features.
+
 __NOTOC__
