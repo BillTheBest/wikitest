@@ -2,7 +2,8 @@
 | <tablestyle="width:95%; text-align:center; font-size:2.2em; font-weight:bold; border:hidden">Git 用户手册中文版
 | 
 |}
- .<i>Translator:</i> <b>罗峥嵘 (Robin Steven)</b> <vortune@gmail.com>
+* <i>Translator:</i> <b>罗峥嵘 (Robin Steven)</b> <vortune@gmail.com>
+* <i>English Version:</i> http://www.kernel.org/pub/software/scm/git/docs/user-manual.html
 -----
 
 <<<!-- ! TOC here -->()>>
@@ -386,6 +387,51 @@ Eventually the developer cloned from will do additional work in her repository, 
 
 The command "git fetch", with no arguments, will update all of the remote-tracking branches to the latest version found in her repository. It will not touch any of your own branches—not even the "master" branch that was created for you on clone.
 
-命令 "git fetch"，不用带任何参数，本地版本库中所有远程关联的分支都会被更新到远程版本库中对应的分支的最新版本。它不会触动任何与你的分支无关的东西，甚至是克隆的时候为你创建的 "master" 分支。
+命令 "git fetch"，不用带任何参数，本地版本库中所有远程关联分支都会被更新到远程版本库中对应的分支的最新版本。它不会触动你的专属分支的任何东西，甚至是克隆的时候为你创建的 "master" 分支。
+* (!) <b>译者注：</b> 你可以直接修改 .git/config 文件将 master 分支的远程跟踪属性去掉。
+
+== Fetching branches from other repositories 获取其他版本库的分支 ==
+
+You can also track branches from repositories other than the one you cloned from, using git-remote(1):
+
+你同样可以跟踪一个并不是你的克隆源头的版本库上的分支。使用 git remote(1):
+
+<pre><nowiki>
+$ git remote add linux-nfs git://linux-nfs.org/pub/nfs-2.6.git
+$ git fetch linux-nfs
+* refs/remotes/linux-nfs/master: storing branch 'master' ...
+  commit: bf81b46
+</nowiki></pre>
+
+New remote-tracking branches will be stored under the shorthand name that you gave "git-remote add", in this case linux-nfs:
+
+新的远程跟踪分支将以速记名的形式保存，这个名称是有命令 "git remote add" 给定的，在这里是 linux-nfs:
+
+<pre><nowiki>
+$ git branch -r
+linux-nfs/master
+origin/master
+</nowiki></pre>
+
+If you run "git fetch <remote>" later, the tracking branches for the named <remote> will be updated.
+
+如果在晚一点的时候再你运行 "git fetch <remote>"，那么这个跟踪分支就会被更新。
+
+If you examine the file .git/config, you will see that git has added a new stanza:
+
+如果你检查一下 .git/config 文件，你发现 git 增加了一个新的配置段。
+
+<pre><nowiki>
+$ cat .git/config
+...
+[remote "linux-nfs"]
+        url = git://linux-nfs.org/pub/nfs-2.6.git
+        fetch = +refs/heads/*:refs/remotes/linux-nfs/*
+...
+</nowiki></pre>
+
+This is what causes git to track the remote's branches; you may modify or delete these configuration options by editing .git/config with a text editor. (See the "CONFIGURATION FILE" section of git-config(1) for details.)
+
+这里的配置就是 git 进行远端分支跟踪的机制，你可以用文本编辑器修改或者是删除 .git/config 文件中的配置。
 
 __NOTOC__
