@@ -508,11 +508,15 @@ $ git reset --hard fb47ddb2db...
 
 then test, run "bisect good" or "bisect bad" as appropriate, and continue.
 
-接着进行测试，并恰当地运行 "bisect good" 或 "bisect bad"，不断尝试。
+进行测试，并恰当地运行 "bisect good" 或 "bisect bad"，不断尝试。
 
 Instead of "git bisect visualize" and then "git reset —hard fb47ddb2db…", you might just want to tell git that you want to skip the current commit:
 
+要么不按 "git bisect visualize" 和 "git reset --hard fb47ddb2db" 这样的方法来做，你只是想跳过 git 为你选择的那个交付的话：
+
+<pre><nowiki>
 $ git bisect skip
+</nowiki></pre>
 
 In this case, though, git may not eventually be able to tell the first bad one between some first skipped commits and a later bad commit.
 
