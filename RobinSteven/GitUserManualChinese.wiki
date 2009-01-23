@@ -512,7 +512,7 @@ then test, run "bisect good" or "bisect bad" as appropriate, and continue.
 
 Instead of "git bisect visualize" and then "git reset —hard fb47ddb2db…", you might just want to tell git that you want to skip the current commit:
 
-要么不按 "git bisect visualize" 和 "git reset --hard fb47ddb2db" 这样的方法来做，你只是想跳过 git 为你选择的那个交付的话：
+要是不想去做 "git bisect visualize" 和 "git reset --hard fb47ddb2db" 。你只是想跳过 git 为你选择的那个交付的话：
 
 <pre><nowiki>
 $ git bisect skip
@@ -520,6 +520,63 @@ $ git bisect skip
 
 In this case, though, git may not eventually be able to tell the first bad one between some first skipped commits and a later bad commit.
 
+要是这样，
+
 There are also ways to automate the bisecting process if you have a test script that can tell a good from a bad commit. See git-bisect(1) for more information about this and other "git bisect" features.
+
+其实存在自动进行平分操作的方法，不过你需要一个脚本来告诉 git 好和坏的交付，参考 git bisect(1) 有更多的信息，这是 git bisect 的一个特性。
+
+== Naming commits 交付的称谓 ==
+
+We have seen several ways of naming commits already:
+
+我们有一系列的方法来称呼交付：
+
+* 40-hexdigit object name
+* branch name: refers to the commit at the head of the given branch
+* tag name: refers to the commit pointed to by the given tag (we've seen branches and tags are special cases of references).
+* HEAD: refers to the head of the current branch 
+* 40个十六进制字符的对象名
+* 分支名： 指向给定的分支头的交付
+* 标签名： 指向给定的标签的交付的引用（我们已经了解过分支和标签都是引用的特例）；
+* 头: 指向当前分支的引用
+
+There are many more; see the "" section of the git-rev-parse(1) man page for the complete list of ways to name revisions. Some examples:
+
+还有更多的称谓； 参考 git rev-parse(1) 手册页中的 "SPECIFYING REVISIONS" 的章节，那里是有关修订名称的介绍，例如：
+
+<pre><nowiki>
+$ git show fb47ddb2 # the first few characters of the object name
+                    # are usually enough to specify it uniquely
+$ git show HEAD^    # the parent of the HEAD commit
+$ git show HEAD^^   # the grandparent
+$ git show HEAD~4   # the great-great-grandparent
+</nowiki></pre>
+
+Recall that merge commits may have more than one parent; by default, ^ and ~ follow the first parent listed in the commit, but you can also choose:
+
+回想一下，一个合并的交付可能有一个以上的父交付；默认地，^ 和 ~ 是他们的父辈列表中的一个父交付，当然你也可以显式地指出他们，譬如：
+
+<pre><nowiki>
+$ git show HEAD^1   # show the first parent of HEAD
+$ git show HEAD^2   # show the second parent of HEAD
+</nowiki></pre>
+
+In addition to HEAD, there are several other special names for commits:
+
+Merges (to be discussed later), as well as operations such as git-reset, which change the currently checked-out commit, generally set ORIG_HEAD to the value HEAD had before the current operation.
+
+The git-fetch operation always stores the head of the last fetched branch in FETCH_HEAD. For example, if you run git fetch without specifying a local branch as the target of the operation
+
+$ git fetch git://example.com/proj.git theirbranch
+
+the fetched commits will still be available from FETCH_HEAD.
+
+When we discuss merges we'll also see the special name MERGE_HEAD, which refers to the other branch that we're merging in to the current branch.
+
+The git-rev-parse(1) command is a low-level command that is occasionally useful for translating some name for a commit to the object name for that commit:
+
+$ git rev-parse origin
+e05db0fd4f31dde7005f075a84f96b360d05984b
 
 __NOTOC__
