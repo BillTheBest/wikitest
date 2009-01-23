@@ -287,6 +287,9 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * grml - Debian-based Linux Live-CD for sysadmins / texttool users
 * http://grml.org/ (homepage)
 * http://git.grml.org/ (gitweb)
+* GStreamer - open source multimedia framework
+* http://gstreamer.freedesktop.org/
+* http://cgit.freedesktop.org/gstreamer/ (cgit)
 * gtkmm-utils
 * http://live.gnome.org/gtkmm_utils (homepage)
 * http://git.savannah.nongnu.org/gitweb/?p=gtkmm-utils.git (gitweb)
