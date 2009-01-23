@@ -1,5 +1,14 @@
+
+---- /!\ <b>Edit conflict - other version:</b> ----
 621b36eb56
 ----
 [[CategoryTemplate]]
+
+---- /!\ <b>Edit conflict - your version:</b> ----
+621b36eb56
+----
+[[CategoryTemplate]]
+
+---- /!\ <b>End of edit conflict</b> ----
 
 __NOTOC__
