@@ -543,7 +543,7 @@ We have seen several ways of naming commits already:
 
 There are many more; see the "" section of the git-rev-parse(1) man page for the complete list of ways to name revisions. Some examples:
 
-还有更多的称谓； 参考 git rev-parse(1) 手册页中的 "SPECIFYING REVISIONS" 的章节，那里是有关修订名称的介绍，例如：
+还有更多的称谓； 参考 git rev-parse(1) 手册页中的 "SPECIFYING REVISIONS" 的章节，那里有有“关世系名称”的介绍，例如：
 
 <pre><nowiki>
 $ git show fb47ddb2 # the first few characters of the object name
@@ -564,19 +564,35 @@ $ git show HEAD^2   # show the second parent of HEAD
 
 In addition to HEAD, there are several other special names for commits:
 
+对于 HEAD，交付有某种特殊的称谓。
+
 Merges (to be discussed later), as well as operations such as git-reset, which change the currently checked-out commit, generally set ORIG_HEAD to the value HEAD had before the current operation.
+
+合并（将会在后面讨论到），有如 git reset 操作，均是改变当前提取的交付，通常是将 ORIG_HEAD 赋值为 HEAD 在进行这些操作之前所保存的值。
 
 The git-fetch operation always stores the head of the last fetched branch in FETCH_HEAD. For example, if you run git fetch without specifying a local branch as the target of the operation
 
+git fetch 操作总是将最后抓取的那个分支的头 (head) 保存到 FETCH_HEAD 中，如果你在运行 git fetch 的时候没有给定本地分支作为操作的目标的话。
+
+<pre><nowiki>
 $ git fetch git://example.com/proj.git theirbranch
+</nowiki></pre>
 
 the fetched commits will still be available from FETCH_HEAD.
 
+抓取的交付将总是在 FETCH_HEAD 中。
+
 When we discuss merges we'll also see the special name MERGE_HEAD, which refers to the other branch that we're merging in to the current branch.
+
+当我们要讨论合并的时候，还将看到一个特殊称谓 MERGE_HEAD，它指向被我们刚刚合并进当前分支的另外一个分支。
 
 The git-rev-parse(1) command is a low-level command that is occasionally useful for translating some name for a commit to the object name for that commit:
 
+git rev-parse 命名是一个底层命令，我们偶尔要将某些称谓翻译成对象名的时候非常有用。
+
+<pre><nowiki>
 $ git rev-parse origin
 e05db0fd4f31dde7005f075a84f96b360d05984b
+</nowiki></pre>
 
 __NOTOC__
