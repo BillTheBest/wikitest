@@ -520,7 +520,7 @@ $ git bisect skip
 
 In this case, though, git may not eventually be able to tell the first bad one between some first skipped commits and a later bad commit.
 
-要是这样，
+如此一来，git 就无法得知在第一个跳过的交付到最后一个坏交付中那些交付是坏交付。
 
 There are also ways to automate the bisecting process if you have a test script that can tell a good from a bad commit. See git-bisect(1) for more information about this and other "git bisect" features.
 
