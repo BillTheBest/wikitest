@@ -720,4 +720,37 @@ Alternatively, you may often see this sort of thing done with the lower-level co
 $ git rev-list origin..mybranch | wc -l
 </nowiki></pre>
 
+=== Check whether two branches point at the same history 检查两分支是否在同一历史时期 ===
+
+Suppose you want to check whether two branches point at the same point in history.
+
+若然你想检查两个分支是否在同一历史时期。
+
+<pre><nowiki>
+$ git diff origin..master
+</nowiki></pre>
+
+will tell you whether the contents of the project are the same at the two branches; in theory, however, it's possible that the same project contents could have been arrived at by two different historical routes. You could compare the object names:
+
+这样就得知一个项目的内容在两个分支中是否是相同的；理论上，项目可以经由不同的历史进程抵达相同的历史场面。你可以比较一下他们对应的对象名就知道了。
+
+<pre><nowiki>
+$ git rev-list origin
+e05db0fd4f31dde7005f075a84f96b360d05984b
+$ git rev-list master
+e05db0fd4f31dde7005f075a84f96b360d05984b
+</nowiki></pre>
+
+Or you could recall that the … operator selects all commits contained reachable from either one reference or the other but not both: so
+
+或者你可以回顾一下，选取他们两者之中任何一个，而不是两者共同的可及的交付的操作： 如
+
+<pre><nowiki>
+$ git log origin...master
+</nowiki></pre>
+
+will return no commits when the two branches are equal.
+
+当两个分支是相等的情况下，将不返回任何的交付。
+
 __NOTOC__
