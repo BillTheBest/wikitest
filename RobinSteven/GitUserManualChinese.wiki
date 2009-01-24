@@ -686,4 +686,18 @@ will generate a file with a patch for each commit reachable from test but not fr
 
 这样会产生一个补丁文件，该文件是所有 test 可及的交付, 而不是 master。
 
+== Viewing old file versions 查看旧的文件版本 ==
+
+You can always view an old version of a file by just checking out the correct revision first. But sometimes it is more convenient to be able to view an old version of a single file without checking anything out; this command does that:
+
+你当然可以通过提取文件的恰当的旧版本的方式来查看文件。不过有些时候查看单个文件可以有比提取出来更方便的办法，这个命令就是：
+
+<pre><nowiki>
+$ git show v2.5:fs/locks.c
+</nowiki></pre>
+
+Before the colon may be anything that names a commit, and after it may be any path to a file tracked by git.
+
+冒号之前可以是任意一个交付的名称，冒号之后跟着已经纳入 git 跟踪的文件的路径。
+
 __NOTOC__
