@@ -753,4 +753,56 @@ will return no commits when the two branches are equal.
 
 当两个分支是相等的情况下，将不返回任何的交付。
 
+=== Find first tagged version including a given fix  ===
+
+Suppose you know that the commit e05db0fd fixed a certain problem. You'd like to find the earliest tagged release that contains that fix.
+
+Of course, there may be more than one answer—if the history branched after commit e05db0fd, then there could be multiple "earliest" tagged releases.
+
+You could just visually inspect the commits since e05db0fd:
+
+$ gitk e05db0fd..
+
+Or you can use git-name-rev(1), which will give the commit a name based on any tag it finds pointing to one of the commit's descendants:
+
+$ git name-rev --tags e05db0fd
+e05db0fd tags/v1.5.0-rc1^0~23
+
+The git-describe(1) command does the opposite, naming the revision using a tag on which the given commit is based:
+
+$ git describe e05db0fd
+v1.5.0-rc0-260-ge05db0f
+
+but that may sometimes help you guess which tags might come after the given commit.
+
+If you just want to verify whether a given tagged version contains a given commit, you could use git-merge-base(1):
+
+$ git merge-base e05db0fd v1.5.0-rc1
+e05db0fd4f31dde7005f075a84f96b360d05984b
+
+The merge-base command finds a common ancestor of the given commits, and always returns one or the other in the case where one is a descendant of the other; so the above output shows that e05db0fd actually is an ancestor of v1.5.0-rc1.
+
+Alternatively, note that
+
+$ git log v1.5.0-rc1..e05db0fd
+
+will produce empty output if and only if v1.5.0-rc1 includes e05db0fd, because it outputs only commits that are not reachable from v1.5.0-rc1.
+
+As yet another alternative, the git-show-branch(1) command lists the commits reachable from its arguments with a display on the left-hand side that indicates which arguments that commit is reachable from. So, you can run something like
+
+$ git show-branch e05db0fd v1.5.0-rc0 v1.5.0-rc1 v1.5.0-rc2
+! [e05db0fd] Fix warnings in sha1_file.c - use C99 printf format if
+available
+ ! [v1.5.0-rc0] GIT v1.5.0 preview
+  ! [v1.5.0-rc1] GIT v1.5.0-rc1
+   ! [v1.5.0-rc2] GIT v1.5.0-rc2
+...
+
+then search for a line that looks like
+
++ ++ [e05db0fd] Fix warnings in sha1_file.c - use C99 printf format if
+available
+
+Which shows that e05db0fd is reachable from itself, from v1.5.0-rc1, and from v1.5.0-rc2, but not from v1.5.0-rc0.
+
 __NOTOC__
