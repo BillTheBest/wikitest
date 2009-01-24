@@ -753,34 +753,58 @@ will return no commits when the two branches are equal.
 
 当两个分支是相等的情况下，将不返回任何的交付。
 
-=== Find first tagged version including a given fix  ===
+=== Find first tagged version including a given fix 找到包含给定修正的第一个标签版本 ===
 
 Suppose you know that the commit e05db0fd fixed a certain problem. You'd like to find the earliest tagged release that contains that fix.
 
+假如你知道交付 e05db0fd 已经修正了一个问题，你一定想知道包含这个交付的最早的标签发行版本是什么。
+
 Of course, there may be more than one answer—if the history branched after commit e05db0fd, then there could be multiple "earliest" tagged releases.
+
+当然，可能会存在不止一个的答案，如果历史在交付 e05db0fd 之后发生了分叉的话，那么就会存在多个“最早”的标签版本。
 
 You could just visually inspect the commits since e05db0fd:
 
+你可能需要一个可视化的方式来检查交付 e05db0fd 之后的情况：
+
+<pre><nowiki>
 $ gitk e05db0fd..
+</nowiki></pre>
 
 Or you can use git-name-rev(1), which will give the commit a name based on any tag it finds pointing to one of the commit's descendants:
 
+又或者你可以用命令 git name-rev(1), 它可以给出你指定的那个交付的后裔中已经打过标签的那个交付。
+
+<pre><nowiki>
 $ git name-rev --tags e05db0fd
 e05db0fd tags/v1.5.0-rc1^0~23
+</nowiki></pre>
 
 The git-describe(1) command does the opposite, naming the revision using a tag on which the given commit is based:
 
+git describe(1) 命令则是逆操作，找到以给定的交付为根源的那个标签的名字。
+
+<pre><nowiki>
 $ git describe e05db0fd
 v1.5.0-rc0-260-ge05db0f
+</nowiki></pre>
 
 but that may sometimes help you guess which tags might come after the given commit.
 
+它对你要推断在给定的交付之后有那个标签会出现很有帮助。
+
 If you just want to verify whether a given tagged version contains a given commit, you could use git-merge-base(1):
 
+要是你只是想核实一下某个标签是否包含某个交付的话，你可以用 git merge-base(1):
+
+<pre><nowiki>
 $ git merge-base e05db0fd v1.5.0-rc1
 e05db0fd4f31dde7005f075a84f96b360d05984b
+</nowiki></pre>
 
 The merge-base command finds a common ancestor of the given commits, and always returns one or the other in the case where one is a descendant of the other; so the above output shows that e05db0fd actually is an ancestor of v1.5.0-rc1.
+
+merge-base 命令查找给定的交付的共同的祖先，它总是返回一个结果，或者是返回他们两个之中的其中一个，而这一个是另外一个的祖先；从输出的结果来看，e05db0fd 的确是 v1.5.0-rc1 的祖先。
 
 Alternatively, note that
 
