@@ -700,4 +700,24 @@ Before the colon may be anything that names a commit, and after it may be any pa
 
 冒号之前可以是任意一个交付的名称，冒号之后跟着已经纳入 git 跟踪的文件的路径。
 
+== Examples 实例 ==
+
+=== Counting the number of commits on a branch 统计一个分支中的交付数目 ===
+
+Suppose you want to know how many commits you've made on "mybranch" since it diverged from "origin":
+
+假如你想知道你自己那个派生自 "origin" 的，叫 "mybranch" 的分支中有多少个交付：
+
+<pre><nowiki>
+$ git log --pretty=oneline origin..mybranch | wc -l
+</nowiki></pre>
+
+Alternatively, you may often see this sort of thing done with the lower-level command git-rev-list(1), which just lists the SHA1's of all the given commits:
+
+另外一个途径是你可以通过底层命令 git rev-list(1) 来列举这些东西，不过它列举的只是那些交付的 SHA1 的 id 好。
+
+<pre><nowiki>
+$ git rev-list origin..mybranch | wc -l
+</nowiki></pre>
+
 __NOTOC__
