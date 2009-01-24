@@ -656,4 +656,34 @@ Note that git log starts with the most recent commit and works backwards through
 
 需要注意的是， git log 从最新的交付开始向后回溯父交付；然而，git 的历史中包含了许多并行的相互独立的开发线路，具体的列举顺序可能需要我们作出一定的仲裁。
 
+== Generating diffs 生成差异 ==
+
+You can generate diffs between any two versions using git-diff(1):
+
+你可以用 git diff(1) 命令生成两个版本之间的差异：
+
+<pre><nowiki>
+$ git diff master..test
+</nowiki></pre>
+
+That will produce the diff between the tips of the two branches. If you'd prefer to find the diff from their common ancestor to test, you can use three dots instead of two:
+
+这将产生两个分支之间的差异提示。如果你期望发现他们两个的共同的祖先的差异，那你可以用三个点号代替两个点号。
+
+<pre><nowiki>
+$ git diff master...test
+</nowiki></pre>
+
+Sometimes what you want instead is a set of patches; for this you can use git-format-patch(1):
+
+有时候，你希望取得一个实际的补丁集；你可以用 git format-patch(1)：
+
+<pre><nowiki>
+$ git format-patch master..test
+</nowiki></pre>
+
+will generate a file with a patch for each commit reachable from test but not from master.
+
+这样会产生一个补丁文件，该文件是所有 test 可及的交付, 而不是 master。
+
 __NOTOC__
