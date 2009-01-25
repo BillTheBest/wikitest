@@ -4,12 +4,14 @@ It's a very good way to get started if you want to start working on Git or learn
 
 Please be sure to read the [http://git.kernel.org/?p=git/git.git;a=blob;f=Documentation/SubmittingPatches [[SubmittingPatches]]] document before posting your patches. Also please check that your patches apply by sending them to yourself first and then by using "git apply" on what you received.
 
-* Convert code to use "-q" option
-
-Many git commands have some "-q" or "--quiet" option to make them "quiet". Despite that, a lot of code in git uses ">/dev/null" or "2>/dev/null" with these commands, instead of the "-q" or "--quiet" option.
-
-So it would be a good idea to find such code and change it to use -q option.
-
-* Use time_t for timestamps returned by approxidate() instead of unsigned long. This also affects e.g. OPT_DATE options.
+* <i>Convert code to use "-q" option</i>
+** Many git commands have some "-q" or "--quiet" option to make them "quiet".
+** Despite that, a lot of code in git uses ">/dev/null" or "2>/dev/null" with these commands, instead of the "-q" or "--quiet" option.
+** So it would be a good idea to find such code and change it to use -q option.
+* <i>Use time_t for timestamps returned by approxidate() instead of unsigned long. This also affects e.g. OPT_DATE options. </i>
+** Review the discussions posted to the list:
+*** [https://kerneltrap.org/mailarchive/git/2008/11/6/4014344 November2008]
+*** [https://kerneltrap.org/mailarchive/git/2009/1/24/4804444 January2009]
+* Contact the mail list to see how to proceed.
 
 __NOTOC__
