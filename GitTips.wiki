@@ -1,12 +1,15 @@
-<b>Table of contents:</b>
-
-<<<!-- ! TOC here -->(2)>>
-----
 <b>See also:</b>
 * [[GitFaq]] (Frequently Asked Questions) page.
 * [[GitWorkflows]] which attempts to decribe actual, useful, real-world things that people do with git, step by step.
 * [[ExampleScripts]] - You can do a lot by writing a simple script.
 * [[Aliases]] are very powerful ways to avoid writing a script.
+* [http://gitready.com/ git ready - daily tips for the noob to the guru] 
+
+----
+<b>Table of contents:</b>
+
+<<<!-- ! TOC here -->(2)>>
+----
 
 = General =
 
