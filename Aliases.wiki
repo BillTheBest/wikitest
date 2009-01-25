@@ -123,7 +123,7 @@ Aliases can get pretty complicated.  For example when you want to see just the d
 <pre><nowiki>
 $ git config alias.funcdiff '!sh -c "git show \"\$0:\$2\" | sed -n \"/^[^ \t].*\$3(/,/^}/p\" > .tmp1 &&
         git show \"\$1:\$2\" | sed -n \"/^[^ \t].*\$3(/,/^}/p\" > .tmp2 &&
-        git diff .tmp1 .tmp2"'   
+        git diff --no-index .tmp1 .tmp2"'   
 </nowiki></pre>
 
 The idea is to create two temporary files which contain only the function, and call <i>git diff</i> on them.  Use this alias this way: <i>git funcdiff <old-rev> <new-rev> <path> <function></i>.
