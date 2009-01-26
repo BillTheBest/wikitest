@@ -52,7 +52,7 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * Garzik's various Linux projects
 ** http://linux.yyz.us/projects.html (home page)
 * DragonFly BSD
-** http://www.dragonflybsd.org/index.shtml (home page)
+** http://www.dragonflybsd.org (home page)
 ** http://gitweb.dragonflybsd.org/?p=dragonfly.git (gitweb)
 * Many other Linux related projects...
 ** http://git.kernel.org/ (gitweb)
