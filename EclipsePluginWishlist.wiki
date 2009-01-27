@@ -65,4 +65,13 @@ Support the stash functionality of git.
 == Identities ==
 Have a list of identities (author / committer / signed-off-by) that is configurable on a per-project basis and also on a (Eclipse) global basis. Also make it dynamic in that it is appended with new identities learned through (for example) the commit dialog. Use this list in relevant places.
 
+== Checkout / Replace ==
+An Egit version of Replace with latest from head and or Replace with revision (see the CVS plugin version, which is actually quite good). 
+
+== Compare == 
+An Egit version of Compare with latest from head and or Compare with resivision (see the CVS plugin version, which is actually quite good). 
+
+== Partial patches == 
+Make patches with only selected lines of code (submit only 2 of 4 altered lines of code)
+
 __NOTOC__
