@@ -57,6 +57,18 @@ When cloning a large repository (such as KDE, Open Office, Linux kernel) there i
 <<BR>><b>Mentor:</b> Shawn Pearce (gsoc@spearce.org)
 <<BR>><b>Suggested by:</b> Shawn Pearce [http://article.gmane.org/gmane.comp.version-control.git/55298 on gmane]
 
+== Line-level history browser ==
+
+Output from "git blame" is often not useful, as you do not see the actual changes.  It could have been an indentation change, a typo fix, a code movement, or really the origin of the code that you are looking for.
+
+What is needed, then, is a browser similar to "git log", except that it should be able to follow the history of particular line ranges, not whole files.
+
+Like "git log", it should be possible to see the commits, the diffs (restricted to the interesting area), and code moves.  It would be mighty cool if it could see code copies, too.
+
+<b>Goal:</b> A program that can follow history of line ranges.
+<<BR>><b>Language:</b> C
+<<BR>><b>Mentor:</b> Johannes Schindelin (johannes.schindelin@gmx.de)
+
 = Larger Projects =
 
 == Implement pack v4/v5 for higher compression ==
