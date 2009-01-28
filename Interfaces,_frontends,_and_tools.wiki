@@ -733,6 +733,9 @@
 * [http://github.com/jgm/gitit/tree/master gitit], a Wiki written in Haskell, uses git for storage, HAppS for a web server, and pandoc for markdown processing.
 === Shinmun ===
 * [http://www.matthias-georgi.de/shinmun Shinmun] ([http://github.com/georgi/shinmun github]) by Matthias Georgi is small git-based blog engine written in Ruby. Write posts in your favorite editor, <code><nowiki>git-push</nowiki></code> it and serve your blog straight from a repository. Supports Markdown, Textile or HTML files.
+=== [[OddmuseGit]] ===
+* [http://www.foo.be/cgi-bin/wiki.pl/OddmuseGit [[OddmuseGit]]], two bash scripts to interface between git and the [http://www.oddmuse.org/ Oddmuse] wiki. Handy for merging multiple Wikis or having distributed Oddmuse wikis without changing the existing backend.
+
 == Bug/issue trackers, etc. ==
 === ditz ===
 * [http://ditz.rubyforge.org Ditz] is a simple, light-weight distributed issue tracker designed to work with distributed version control systems like darcs and git. Ditz maintains an issue database file on disk, written in a line-based and human-editable format. This file is kept under version control, alongside project code. Changes in issue state is handled by version control like code change: included as part of a commit, merged with changes from other developers, conflict-resolved in the standard manner, etc.
