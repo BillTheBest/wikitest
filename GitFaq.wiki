@@ -711,7 +711,7 @@ or (to get also the commit message):
     git show --name-only <commit>
 </nowiki></pre>
 
-<<[[GitLink]](fb-purge, Delete backup refs, expire reflog, repack and prune)>>
+<<[[GitLink]](fb-prune, Delete backup refs, expire reflog, repack and prune)>>
 == How do I remove all the old objects after using filter-branch? ==
 
 Note: It is recommended you backup your repository before using <code><nowiki>git filter-branch</nowiki></code>.
