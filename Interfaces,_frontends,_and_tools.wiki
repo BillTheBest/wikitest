@@ -3,10 +3,10 @@
 <!-- #language en
  -->
 -----
-<!-- ## reducing font size doesn't work with 2-level table of contents
+<!-- ## reducing font size doesn't work with 2-level/3-level table of contents
  -->
-<b>Table of contents:</b> <!-- ! TOC here -->
-
+<b>Table of contents:</b> 
+<<<!-- ! TOC here -->(3)>>
 -----
 
 = Frontends and Interfaces =
