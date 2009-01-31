@@ -39,7 +39,7 @@ In essence: The index is a staging area for the next commit, but for convenience
 
 == Merges ==
 
-Normally, a git user will rarely be exposed to the index, if she is not committing a revision. But there is one notable exception: merges.
+Normally, a git user will rarely be exposed to the index, if he/she is not committing a revision. But there is one notable exception: merges.
 
 When you merge the work of others, sometimes conflicts happen. These are put in the index. (Strictly speaking, the whole merge is done inside the index by inserting the current version, the version of the branch-to-be-merged, and the merge base (common ancestor) into the index, and merging them using a three-way-diff. If there are no conflicts, these three entries are collapsed into a single entry. Otherwise the three entries stay there, with the common ancestor being replaced by the result of the merge.)
 
