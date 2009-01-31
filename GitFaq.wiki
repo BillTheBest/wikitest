@@ -692,7 +692,7 @@ If you just want to checkout the latest source code of a project who may has ver
     git clone --depth 1 your_repo_url
 </nowiki></pre>
 
-== How do I use git for large projects? ==
+== How do I use git for large projects, where the repository is large, say approaching 1 TB, but a checkout is only a few hundred MB? Will every developer need 1 TB of local disk space? ==
 
 Use shallow clones:
 <pre><nowiki>
