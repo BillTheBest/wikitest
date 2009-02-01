@@ -7,6 +7,8 @@
 Miscellaneous git-related links, not including [http://git.or.cz/ Git homepage], [[GitDocumentation]] links, 
 [[GitCommunity]] links including mailing list archives and IRC logs, and links to miscellaneous tools on the [[InterfacesFrontendsAndTools]] page.
 
+<b>See also:</b> [http://gitlog.wordpress.com/ git blog - A git blog looking to be official] and its collection of <i>git monthly links</i>.
+
 = Wikipedia =
 [http://en.wikipedia.org Wikipedia] (English version)
 * [[WikiPedia:Git_(software)|Git (software)]] article.
