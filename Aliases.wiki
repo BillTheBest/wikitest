@@ -82,6 +82,15 @@ It makes use of the fact that (currently, as of git 1.5.6.1) non-git alias are e
 
 works only when called from the top-level dir. In any case, you can connect simply by <i>git ls-remote git://127.0.0.1/</i> etc.
 
+== Prune all your remotes ==
+
+There's no way to tell `git remote update` to prune stale branches, and `git prune` doesn't take `--all`. So:
+
+<pre><nowiki>
+[alias]
+        prune-all = !git remote | xargs -n 1 git remote prune
+</nowiki></pre>
+
 = Aliases with arguments =
 Right from the start, aliases were meant as an easy way to avoid really simple, really short scripts.  Therefore, they can take arguments, which are appended to the command.
 
