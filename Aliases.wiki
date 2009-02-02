@@ -82,9 +82,9 @@ It makes use of the fact that (currently, as of git 1.5.6.1) non-git alias are e
 
 works only when called from the top-level dir. In any case, you can connect simply by <i>git ls-remote git://127.0.0.1/</i> etc.
 
-== Prune all your remotes ==
+== Prune all your stale remote branches ==
 
-There's no way to tell `git remote update` to prune stale branches, and `git prune` doesn't take `--all`. So:
+There's no way to tell `git remote update` to prune stale branches, and `git remote prune` does not understand `--all`. So here is an alias to do the job:
 
 <pre><nowiki>
 [alias]
