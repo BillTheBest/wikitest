@@ -5,103 +5,149 @@
 -----
 <!-- ## reducing font size doesn't work with 2-level/3-level table of contents
  -->
-<b>Table of contents:</b> <!-- ! TOC here -->
-
+<b>Table of contents:</b> 
+<<<!-- ! TOC here -->(3)>>
 -----
 
 = Frontends and Interfaces =
+
 == Version Control Interface layers ==
+
 === Core Git (in distribution) ===
 * Core Git contains a set of scripts on top of the [[Git]] plumbing providing a version control system interface distributed along the Git itself. It also bundles stable versions of [[#git-gui git-gui]] and [[#gitk gitk]].
+
 === Cogito ===
 * [[Cogito]] for some time was the most popular version control system on top of Git. It aims at seamless user interface and ease of use, providing generally smoother user experience than the "raw" Git interface and indeed also many other version control systems. Note that Cogito is <i>no longer maintained or recommended</i>. Git 1.5.0 and beyond has incorporated many features that make it suitable for direct use without needing additional software.
+
 === [[IsiSetup]] ===
-* [http://www.isisetup.ch/ IsiSetup] (APT for your config) is a utility to help managing your configuration files with Git as backend. You can rollback changes, explore the history of changes, replicate your configuration, backup your configuration and blame changes to admins.[[BR]] <b>See also:</b> [http://kitenet.net/~joey/code/etckeeper/ etckeeper].
+* [http://www.isisetup.ch/ IsiSetup] (APT for your config) is a utility to help managing your configuration files with Git as backend. You can rollback changes, explore the history of changes, replicate your configuration, backup your configuration and blame changes to admins.<<BR>> <b>See also:</b> [http://kitenet.net/~joey/code/etckeeper/ etckeeper].
+
 === Easy Git ===
 * [http://www.gnome.org/~newren/eg/ Easy Git (eg)] Easy Git is a wrapper for Git that is designed to make git easy to learn and use. Easy Git aims to be easily learnable, interchangeable with Git, fully capable, and compatible with Git. Users can move back and forth between using Easy Git and Git itself.
+
 === Yap ===
 * [http://repo.or.cz/w/yap.git yap (Yet Another Git Porcelain)] Yap is an alternative porcelain for git that is designed to have a friendlier, more orthogonal interface. It is also easily extensible with python plugins.
+
 === darcs-git ===
 * [http://git.frugalware.org/gitweb/gitweb.cgi?p=pacman-tools.git;a=blob;f=darcs-git.py;hb=HEAD darcs-git.py] (and its [http://git.frugalware.org/gitweb/gitweb.cgi?p=pacman-tools.git;a=blob;f=darcs-git.txt;hb=HEAD documentation]) darcs-git is a darcs-like porcelain on top of git plumbing. If you are accustomed to darcs, this porcelain will let you use git via the familiar darcs user interface.
+
 === repo ===
-* [http://android.git.kernel.org/?p=tools/repo.git repo] is a project to use Git to build OS distributions; similar to Git submodules, it can track specified branches from Git projects.[[BR]]<b>See also:</b> [http://newblogtopic.blogspot.com/2008/11/gerrit-and-repo-android-source_04.html Gerrit and Repo, the Android Source Management Tools] blog post by Jeff Bailey
+* [http://android.git.kernel.org/?p=tools/repo.git repo] is a project to use Git to build OS distributions; similar to Git submodules, it can track specified branches from Git projects.<<BR>><b>See also:</b> [http://newblogtopic.blogspot.com/2008/11/gerrit-and-repo-android-source_04.html Gerrit and Repo, the Android Source Management Tools] blog post by Jeff Bailey
+
 === Zit ===
-* [http://git.oblomov.eu/zit Zit] by Giuseppe Bilotta is the Git-based single file content tracker; it uses Git to independently track single files within a directory; sort of like what RCS does, but with the power, flexibility, elegance and ease of use of Git. Still in alpha stage.[[BR]] You can get it from <code><nowiki>git://git.oblomov.eu/zit</nowiki></code>
+* [http://git.oblomov.eu/zit Zit] by Giuseppe Bilotta is the Git-based single file content tracker; it uses Git to independently track single files within a directory; sort of like what RCS does, but with the power, flexibility, elegance and ease of use of Git. Still in alpha stage.<<BR>> You can get it from `git://git.oblomov.eu/zit`
+
 == Interfaces to other programming languages ==
+
 === [[GitPython]] ===
 * A Python module that provides object model access to your Git repositories. Once you have created a repository object, you can traverse it to find parent commit(s), trees, blobs, etc.. Port of the the [http://grit.rubyforge.org/ grit] library in Ruby created by Tom Preston-Werner and Chris Wanstrath. Git repository is [http://gitorious.org/projects/git-python/ available here].
+
 === [[PyGit]] ===
 * Pythonic [http://code.istique.net/?p=pygit.git git bindings] targeted towards porcelains. There is also the [http://code.istique.net/?p=pygit.git;a=shortlog;h=refs/heads/stores "stores" branch] that implements pack and object reading natively in Python.
+
 === Grit ===
 * [http://grit.rubyforge.org/ Grit] is a Ruby library for extracting information from a git repository in an object oriented manner. This includes a [http://github.com/blog/107-supercharged-ruby-git partial native Ruby implementation], which is used for a number of the operations.
+
 === Dulwich ===
 * [https://launchpad.net/dulwich Dulwich] is a pure-Python implementation of the Git file formats and protocols. It is named after the village in which Mr. and Mrs. Git live in the Monty Python sketch. A Git repository ca be found at git://git.samba.org/jelmer/dulwich.git and its gitweb [http://git.samba.org/?p=jelmer/dulwich.git;a=summary here].
+
 === Ruby/Git (deprecated) ===
 * [http://jointheconversation.org/rubygit/ Ruby/Git] ([http://github.com/schacon/git-ruby github]) is a Ruby library that can be used to create, read and manipulate Git repositories. Unmaintained, abandoned in favor of mentioned above [http://grit.rubyforge.org/ Grit].
+
 === Objective Git ===
 * [http://github.com/schacon/objective-git ObjectiveGit] is an Objective-C partial implementation of Git and a corresponding object level library that can be used to create, read and manipulate Git repositories. It also contains git server implementations (receive-pack and upload-pack).
+
 === JGit (Java) ===
 * See below in Editors and IDE integration
+
 === [[JavaGit]] ===
-* [http://www.javagit.com JavaGit] is an API providing access to git repositories for Java applications. Java<code><nowiki></nowiki></code>Git is engineered to provide the developer with access to the raw git commands bhrough a command API as well as an object API designed to represent the .git repository, the working tree and other, familiar git concepts. Java<code><nowiki></nowiki></code>Git uses the git binaries installed on the host machine to provide git functionality and has been designed to easily accommodate additional methods of access to git repositories. Java<code><nowiki></nowiki></code>Git is released as open source software under the GNU LGPL license.[[BR]]<i>Currently in early alpha version</i> [[BR]]<b>See also:</b> [http://thread.gmane.org/gmane.comp.version-control.git/91381 NYU Open Source Programming Class Releases JavaGit API 0.1.0 Alpha] thread on git mailing list.
+* [http://www.javagit.com JavaGit] is an API providing access to git repositories for Java applications. JavaGit is engineered to provide the developer with access to the raw git commands bhrough a command API as well as an object API designed to represent the .git repository, the working tree and other, familiar git concepts. JavaGit uses the git binaries installed on the host machine to provide git functionality and has been designed to easily accommodate additional methods of access to git repositories. JavaGit is released as open source software under the GNU LGPL license.<<BR>><i>Currently in early alpha version</i> <<BR>><b>See also:</b> [http://thread.gmane.org/gmane.comp.version-control.git/91381 NYU Open Source Programming Class Releases JavaGit API 0.1.0 Alpha] thread on git mailing list.
+
 === eWiki ===
 * [http://github.com/patrikf/ewiki/tree/master eWiki] includes a git backend in the folder <b>include/git</b>. It is completely written in PHP, both supporting read and write access, without using exec() or system() calls. Therefore it can be run on simple shared web hosting accounts.
+
 === dotGit ===
 * [http://github.com/pheew/dotgit/tree/master dotGit] is an implementation for .NET written in C#. It is still in it's early stages but can read objects from packed and loose storage. So all the read-only operations are supported. A diff engine is in the works.
+
 == Patch-management Interface layers ==
+
 === StGIT (Stacked Git) ===
-* [[StGIT]] ([http://www.procode.org/stgit/ homepage]) provides a Quilt-like patch management functionality (i.e. pushing/popping patches to/from a stack) in the Git environment. You can easily manage your patches in the scope of Git until they get merged upstream.[[BR]] <b>See also</b>: [http://savannah.nongnu.org/projects/quilt/ Quilt project page].
+* [[StGIT]] ([http://www.procode.org/stgit/ homepage]) provides a Quilt-like patch management functionality (i.e. pushing/popping patches to/from a stack) in the Git environment. You can easily manage your patches in the scope of Git until they get merged upstream.<<BR>> <b>See also</b>: [http://savannah.nongnu.org/projects/quilt/ Quilt project page].
+
 === Guilt (formerly Git Queues (gq)) ===
 * [[Guilt:guilt]] ([http://www.kernel.org/pub/linux/kernel/people/jsipek/guilt/ download], [http://www.kernel.org/git/?p=linux/kernel/git/jsipek/guilt.git;a=summary gitweb]) by Josef "Jeff" Sipek is a series of bash scripts which add a [http://www.selenic.com/mercurial/wiki/index.cgi/MqExtension Mercurial queues]-like functionality and interface to git. The one distinguishing feature from other Quilt-like porcelains, is the format of the patches directory. All the information is stored as plain text - a series file and the patches (one per file). This easily lends itself to versioning the patches using any number of of SCMs.
+
 === [[TopGit]] ===
-* [[TopGit]] ([http://repo.or.cz/w/topgit.git gitweb], [http://repo.or.cz/w/topgit.git?a=blob;f=README README]) by Petr 'Pasky' Baudis is patch management interface done as a shell script, which can be used to manage queue of third-party patches on top of another project. It is a very thin layer on top of Git (allowing to use index), it attempts to keep all history of your changes till final cleanup, and allows to specify patch dependencies instead of linearizing patches in patch series (patch queue).[[BR]] <i>In early stages of development.</i>[[BR]] <b>See also:</b> [http://permalink.gmane.org/gmane.comp.version-control.git/91197 |ANNOUNCE| TopGit - A different patch queue manager] announcement on git mailing list.
+* [[TopGit]] ([http://repo.or.cz/w/topgit.git gitweb], [http://repo.or.cz/w/topgit.git?a=blob;f=README README]) by Petr 'Pasky' Baudis is patch management interface done as a shell script, which can be used to manage queue of third-party patches on top of another project. It is a very thin layer on top of Git (allowing to use index), it attempts to keep all history of your changes till final cleanup, and allows to specify patch dependencies instead of linearizing patches in patch series (patch queue).<<BR>> <i>In early stages of development.</i><<BR>> <b>See also:</b> [http://permalink.gmane.org/gmane.comp.version-control.git/91197 |ANNOUNCE| TopGit - A different patch queue manager] announcement on git mailing list.
+
 === Patchy Git (pg), deprecated ===
 * [[Pg:pg]] ([http://www.spearce.org/category/projects/scm/pg/ homepage]) by Shawn Pearce aims to help the user manage a set of patches on top of the current branch. pg is somewhat like Quilt or StGIT, but it does have a slightly different feature set. <i>Note that pg is no longer being actively developed.</i>
-[[Anchor(gui)]]
 
+<<Anchor(gui)>>
 == Graphical Interfaces ==
+
 === gitk (distributed with Git) ===
 * [[Gitk:gitk]] is a simple Tcl/Tk GUI for browsing history of Git repositories easily, distributed with Git.
+
 === git-gui (distributed with Git) ===
 * [[Git-gui:git-gui]] ([http://permalink.gmane.org/gmane.comp.version-control.git/31054 announcement], [http://repo.or.cz/w/git-gui.git gitweb]) by Shawn Pearce is a tool for creating commits and managing branches. It was inspired by and initially based on [[#gitool gitool]]. Written in Tcl/Tk. Stable versions are shipped with Core Git since version 1.5.
+
 === tig (Text-mode Interface for Git) ===
-* [[Tig:tig]] ([http://jonas.nitro.dk/tig/ homepage]) by Jonas Fonseca is a simple git repository browser written using ncurses. Basically, it just acts as a front-end for <code><nowiki>git-log</nowiki></code> and <code><nowiki>git-show</nowiki></code>/<code><nowiki>git-diff</nowiki></code>. Additionally, you can also use it as a pager for git commands.
+* [[Tig:tig]] ([http://jonas.nitro.dk/tig/ homepage]) by Jonas Fonseca is a simple git repository browser written using ncurses. Basically, it just acts as a front-end for `git-log` and `git-show`/`git-diff`. Additionally, you can also use it as a pager for git commands.
+
 === QGit ===
 * [[QGit]] ([http://digilander.libero.it/mcostalba/ homepage]) is a Qt GUI for browsing the history of Git repositories. It also acts as a commit tool, like [[#hgct (h)gct]] and as a graphical interface to [[#StGIT StGIT]]. There is an experimental version of QGit ported under Qt4.2 libraries, available at http://repo.or.cz as qgit4. This means that it could be compiled and run as a Windows native application.
+
 === Giggle ===
 * [[Giggle]] ([http://developer.imendio.com/projects/giggle/ homepage]) is a graphical frontend for browsing history of Git repositories (think of gitk on GTK+). Result of a Hackathon 2007, currently developed by Imendio's Carlos Garnacho and Sven Herzberg.
+
 === gitview (in `contrib/`) ===
-* [[GitView]] is a GTK based repository browser for git written in Python by Aneesh Kumar K.V. It can be found in <code><nowiki>contrib/</nowiki></code> directory of Git source tree.
+* [[GitView]] is a GTK based repository browser for git written in Python by Aneesh Kumar K.V. It can be found in `contrib/` directory of Git source tree.
+
 === git-forest ===
-* <b>git-forest</b> ([http://dev.medozas.de/gitweb.cgi?p=hxtools;a=blob_plain;f=bin/git-forest git-forest] file and [http://dev.medozas.de/gitweb.cgi?p=hxtools;a=blob_plain;f=doc/git-forest.1 manpage]) is a text-based tree visualizer, using extended ASCII characters for frames. A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png git-forest.png]. It can show also octopus merges. Written in Perl by Jan Engelhardt.[[BR]]<b>See also:</b> [http://permalink.gmane.org/gmane.comp.version-control.git/76404 text-based tree visualizer] announcement on git mailing list.
+* <b>git-forest</b> ([http://dev.medozas.de/gitweb.cgi?p=hxtools;a=blob_plain;f=bin/git-forest git-forest] file and [http://dev.medozas.de/gitweb.cgi?p=hxtools;a=blob_plain;f=doc/git-forest.1 manpage]) is a text-based tree visualizer, using extended ASCII characters for frames. A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png git-forest.png]. It can show also octopus merges. Written in Perl by Jan Engelhardt.<<BR>><b>See also:</b> [http://permalink.gmane.org/gmane.comp.version-control.git/76404 text-based tree visualizer] announcement on git mailing list.
+
 === (h)gct ===
-* [[(h)gct]] ([http://repo.or.cz/w/hgct.git gitweb]) by Fredrik Kuivinen is a GUI enabled commit tool. It has support for both Git and Mercurial. In Debian in [http://packages.debian.org/search?searchon=names&keywords=commit-tool commit-tool] package. Written in Py<code><nowiki></nowiki></code>Qt.
+* [[(h)gct]] ([http://repo.or.cz/w/hgct.git gitweb]) by Fredrik Kuivinen is a GUI enabled commit tool. It has support for both Git and Mercurial. In Debian in [http://packages.debian.org/search?searchon=names&keywords=commit-tool commit-tool] package. Written in PyQt.
+
 === Push Me Pull You ===
 * [http://www.cl.cam.ac.uk/~maw48/pmpu/ pmpu] (Push Me Pull You) by Mark Williamson is a graphical interface for a distributed version control system. Currently it contains proof-of-concept supports the Mercurial, git and bzr systems. PMPU can make use of external history views and commit tools. Preview release.
+
 === Qct ===
-* [http://qct.sourceforge.net/ Qct] ([http://hg.borho.org/qct hg repo]) by Steve Borho is Qt/Py<code><nowiki></nowiki></code>Qt based GUI commit tool, meant to be SCM and platform agnostic. Supports Mercurial (<code><nowiki>hg</nowiki></code>), Bazaar (<code><nowiki>bzr</nowiki></code>), Cogito (but not Git directly atm), Subversion (<code><nowiki>svn</nowiki></code>), Monotone (<code><nowiki>mnt</nowiki></code>) and CVS. The [http://hg.borho.org/qct/rev/5c5bdab35c08 README] mentions gct (also on this page), as an alternative supporting plain git.
+* [http://qct.sourceforge.net/ Qct] ([http://hg.borho.org/qct hg repo]) by Steve Borho is Qt/PyQt based GUI commit tool, meant to be SCM and platform agnostic. Supports Mercurial (`hg`), Bazaar (`bzr`), Cogito (but not Git directly atm), Subversion (`svn`), Monotone (`mnt`) and CVS. The [http://hg.borho.org/qct/rev/5c5bdab35c08 README] mentions gct (also on this page), as an alternative supporting plain git.
+
 === git-cola ===
-* [http://cola.tuxfamily.org/ git-cola] ([http://repo.or.cz/w/git-cola.git gitweb], [http://github.com/davvid/git-cola/tree/master github], [http://gitorious.org/projects/git-cola/ gitorious]) by David Aguilar is a git commit tool, similar to git-gui, written in Py<code><nowiki></nowiki></code>Qt4. You can get tarballs and debian packages at http://cola.tuxfamily.org/.
+* [http://cola.tuxfamily.org/ git-cola] ([http://repo.or.cz/w/git-cola.git gitweb], [http://github.com/davvid/git-cola/tree/master github], [http://gitorious.org/projects/git-cola/ gitorious]) by David Aguilar is a git commit tool, similar to git-gui, written in PyQt4. You can get tarballs and debian packages at http://cola.tuxfamily.org/.
+
 === gitool ===
 * [[Gitool:gitool]] ([http://thread.gmane.org/gmane.comp.version-control.git/26415 announcement], [http://ozlabs.org/~paulus/gitool download], [http://www.kernel.org/git/?p=gitk/gitk.git;a=shortlog;h=new gitweb]) by Paul Mackerras is a tool for creating commits. Superseded by git-gui (see above). Last development activity in 2007. Written in Tcl/Tk.
+
 === KGit ===
 * [[KGit]] (http://kgit.sourceforge.net/) by Abhijit Bhopatkar is intended to be a small but functional frontend to the popular source control program, git. It is similar to gitk with two significant differences. First of all, it is written in Qt using lop and the KDE libraires. Secondly, it is not only a repository viewer, unlike gitk. It is now defunct and deprecated by the author. Has no future.
+
 === teamGit ===
 * [[TeamGit:teamGit]] (http://www.devslashzero.com/teamgit) by Abhijit Bhopatkar is a successor of kgit. It is intended to be a complete developmenet workflow management app with git as a base tool. As of oct 2008 it can be used as a pretty good commit tool. Please see feature table below.
+
 === [[GitNub]] ===
 * [[GitNub]] ([http://github.com/Caged/gitnub/wikis homepage], [http://github.com/Caged/gitnub/tree/master github]) by Justin Palmer is an Mac OSX Leopard client for git written in Ruby and Objective-C.
 <!-- ## is it more like gitk or qgit, or more like git-gui?
  -->
+
 === GitX ===
-* Git<code><nowiki></nowiki></code>X ([http://gitx.frim.nl homepage], [http://github.com/pieter/gitx/tree/master github], [http://frim.frim.nl/GitXStable.app.zip download]) by Pieter de Bie is a gitk clone aiming to provide a more native interface to Mac<code><nowiki></nowiki></code>OS X users with OS X-only features. It has a native interface and tries to integrate with the operating system as good as possible. Examples of this are drag and drop support and Quick<code><nowiki></nowiki></code>Look support. [[BR]]<b>See also:</b> [http://permalink.gmane.org/gmane.comp.version-control.git/93980 |Announce| GitX v0.1: Gitk clone for OS X] post on git mailing list.
+* GitX ([http://gitx.frim.nl homepage], [http://github.com/pieter/gitx/tree/master github], [http://frim.frim.nl/GitXStable.app.zip download]) by Pieter de Bie is a gitk clone aiming to provide a more native interface to MacOS X users with OS X-only features. It has a native interface and tries to integrate with the operating system as good as possible. Examples of this are drag and drop support and QuickLook support. <<BR>><b>See also:</b> [http://permalink.gmane.org/gmane.comp.version-control.git/93980 |Announce| GitX v0.1: Gitk clone for OS X] post on git mailing list.
+
 === Pyrite ===
 * [http://pyrite.sophiasuchtig.com/ pyrite] by Govind Salinas is a Git GUI and front end written in Python.
+
 === gitSafe ===
 * gitSafe ([http://www.kodespace.com/gitSafe/ homepage]) by cmroanirgo is a ![[SourceSafe]]-like GUI for git using .NET 2.0 (C++/CLI). <b>NOTE:</b> This software is Closed Source.
+
 === Git Extensions ===
-* <b>Git Extensions</b> ([http://github.com/spdr870/gitextensions/tree/master github]) is a toolkit for Windows users. The main feature is a shell extension that enables a context menu in Windows Exlorer to use most Git functions. The toolkit also contains a standalone GUI and a Visual Studio 2005/2008 plugin. The toolkit is mainly written in C#, the shell extensions code is written in C++. The toolkit is still under development, there is a beta version downloadable here: https://sourceforge.net/projects/gitextensions/ [[BR]] <b>See also:</b> [http://permalink.gmane.org/gmane.comp.version-control.git/103371 Announcement: Git Extensions stable (windows shell extensions)] on git mailing list.
+* <b>Git Extensions</b> ([http://github.com/spdr870/gitextensions/tree/master github]) is a toolkit for Windows users. The main feature is a shell extension that enables a context menu in Windows Exlorer to use most Git functions. The toolkit also contains a standalone GUI and a Visual Studio 2005/2008 plugin. The toolkit is mainly written in C#, the shell extensions code is written in C++. The toolkit is still under development, there is a beta version downloadable here: https://sourceforge.net/projects/gitextensions/ <<BR>> <b>See also:</b> [http://permalink.gmane.org/gmane.comp.version-control.git/103371 Announcement: Git Extensions stable (windows shell extensions)] on git mailing list.
+
 === [[TortoiseGit]] ===
-* [http://code.google.com/p/tortoisegit/ TortoiseGit] ([http://repo.or.cz/w/TortoiseGit.git gitweb]) by Li Frank is a port of [http://tortoisesvn.tigris.org/ TortoiseSVN] to Git. It is Microsoft Windows shell (Explorer) extension, written in C++. Tortoise<code><nowiki></nowiki></code>Git is in very early stages of development, implementing currently only minimal set of features.[[BR]]<b>See also:</b> [http://github.com/blog/256-tortoisegit-challenge TortoiseGit Challenge] on Git<code><nowiki></nowiki></code>Hub.
+* [http://code.google.com/p/tortoisegit/ TortoiseGit] ([http://repo.or.cz/w/TortoiseGit.git gitweb]) by Li Frank is a port of [http://tortoisesvn.tigris.org/ TortoiseSVN] to Git. It is Microsoft Windows shell (Explorer) extension, written in C++. TortoiseGit is in very early stages of development, implementing currently only minimal set of features.<<BR>><b>See also:</b> [http://github.com/blog/256-tortoisegit-challenge TortoiseGit Challenge] on GitHub.
+
 === Summary (feature matrix) ===
 <!-- ## table begin
  -->
@@ -124,7 +170,6 @@
 | gitSafe 
 | teamGit 
 | Git Extensions 
-| [[TortoiseGit]] 
 | 
 |-
 | written in 
@@ -145,7 +190,6 @@
 | C++ 
 | C++ 
 | C#, C++ 
-| C++ 
 | 
 |-
 | UI toolkit 
@@ -166,7 +210,6 @@
 | MFC 
 | Qt4 
 | - 
-| MFC 
 | 
 |-
 | last activity 
@@ -186,7 +229,6 @@
 | 2008 
 | 2008 
 | 2008 
-| 2009 
 | 2009 
 | 
 |-
@@ -208,7 +250,6 @@
 |  
 |  
 | X 
-| Explore 
 | 
 |-
 | history viewer 
@@ -226,7 +267,6 @@
 | X 
 | X 
 | ? 
-| X 
 | X 
 | X 
 | X 
@@ -250,7 +290,6 @@
 |  
 | X 
 |  
-| X 
 | 
 |-
 | (un)stage files 
@@ -269,7 +308,6 @@
 | X 
 | ? 
 |  
-| X 
 | X 
 | X 
 | 
@@ -292,7 +330,6 @@
 |  
 | X 
 |  
-| X 
 | 
 |-
 | checkout 
@@ -310,7 +347,6 @@
 |  
 |  
 | ? 
-| X 
 | X 
 | X 
 | X 
@@ -334,7 +370,6 @@
 |  
 | X 
 | X 
-| X 
 | 
 |-
 | committing 
@@ -352,7 +387,6 @@
 |  
 | X 
 | ? 
-| X 
 | X 
 | X 
 | X 
@@ -376,7 +410,6 @@
 |  
 | some 
 | X 
-| X 
 | 
 |-
 | stash 
@@ -396,7 +429,6 @@
 | ? 
 | X 
 |  
-| X 
 | X 
 | 
 |-
@@ -418,7 +450,6 @@
 |  
 |  
 | X 
-| X 
 | 
 |-
 | interfaces w/ external diff viewers 
@@ -439,7 +470,6 @@
 |  
 |  
 |  
-| X 
 | 
 |-
 | diff +/- highlighting 
@@ -460,7 +490,6 @@
 |  
 | X 
 |  
-| X 
 | 
 |-
 | compare commits 
@@ -480,7 +509,6 @@
 | ? 
 | X 
 |  
-| X 
 | X 
 | 
 |-
@@ -502,7 +530,6 @@
 | ? 
 |  
 | X 
-| X 
 | 
 |-
 | [http://en.wikipedia.org/wiki/Inotify inotify] support 
@@ -517,7 +544,6 @@
 |  
 |  
 | X 
-|  
 |  
 |  
 |  
@@ -544,7 +570,6 @@
 | ? 
 | X 
 |  
-|  
 | 
 |-
 | apply patches via drag'n'drop 
@@ -565,7 +590,6 @@
 | ? 
 | X 
 |  
-|  
 | 
 |-
 | i18n 
@@ -580,7 +604,6 @@
 |  
 |  
 | partial de, fr, hu, it, ja, ru, sv, zh_cn 
-|  
 |  
 |  
 |  
@@ -607,233 +630,340 @@
 | [http://gitsafe.googlecode.com/files/gitSafe%200.0.1.png X] 
 | [http://www.devslashzero.com/image/tde/1 X] 
 | [http://sourceforge.net/project/screenshots.php?group_id=246547 X] 
-| [http://code.google.com/p/tortoisegit/ X] 
 | 
 |}
-[[Anchor(web-interface)]]
 
+<<Anchor(web-interface)>>
 == Web Interface ==
+
 === gitweb (distributed with Git) ===
-* [[Gitweb:gitweb]] provides full-fledged web interface for Git repositories. It is written in Perl and was maintained by Kay Sievers; from git version 1.4.0 it is distributed with Git. Used at [http://www.kernel.org/git/ kernel.org] and [http://repo.or.cz repo.or.cz]. The [http://wiki.xmms2.xmms.se/index.php/Main_Page XMMS2 project] maintains their own version of gitweb which has some additional features. The latest snapshot of this effort can be downloaded from http://git.xmms.se/?p=gitweb-xmms2.git;a=summary. John 'Warthog9' has added in caching to the gitweb, and split it into many modules. See it at work at http://www.kernel.org/git/?p=git/warthog9/gitweb.git;a=summary. Changes are published at <code><nowiki>git://git.kernel.org/pub/scm/git/warthog9/gitweb.git</nowiki></code>. See also: [http://permalink.gmane.org/gmane.comp.version-control.git/35692 Gitweb - caching] message at git mailing list.
+* [[Gitweb:gitweb]] provides full-fledged web interface for Git repositories. It is written in Perl and was maintained by Kay Sievers; from git version 1.4.0 it is distributed with Git. Used at [http://www.kernel.org/git/ kernel.org] and [http://repo.or.cz repo.or.cz]. The [http://wiki.xmms2.xmms.se/index.php/Main_Page XMMS2 project] maintains their own version of gitweb which has some additional features. The latest snapshot of this effort can be downloaded from http://git.xmms.se/?p=gitweb-xmms2.git;a=summary. John 'Warthog9' has added in caching to the gitweb, and split it into many modules. See it at work at http://www.kernel.org/git/?p=git/warthog9/gitweb.git;a=summary. Changes are published at `git://git.kernel.org/pub/scm/git/warthog9/gitweb.git`. See also: [http://permalink.gmane.org/gmane.comp.version-control.git/35692 Gitweb - caching] message at git mailing list.
+
 === Wit ===
 * [[Wit]] (http://dan.chokola.com/software/wit.rhtml) is a Ruby/eRuby web interface to git that provides much easier setup, configuration, maintainability, and customizability than gitweb, all in fewer lines of code and with a prettier interface. It is maintained by [http://dan.chokola.com/ Daniel Chokola] of the XMMS2 project. See it in action [http://dan.chokola.com/wit here]. The website does not seem to be working. Anyone able to find Wit online?
+
 === wit (defunct?) ===
 * <b>wit</b> ([http://www.absolutegiganten.org/wit/ download]) is a Python implementation maintained by Christian Meder. Uses PATH_INFO URLs extensively. See it in work [http://www.grmso.net:8090/ here].
+
 === gitarella ===
 * [http://flameeyes.is-a-geek.org/projects#gitarella gitarella] ([http://freshmeat.net/projects/gitarella/ freshmeat project page]) is a Ruby-based Git web frontend, created and maintained by Flameeyes. It is inspired by and following the style of gitweb. It supports CGI and FastCGI interfaces. See it in work on [http://git.flameeyes.is-a-geek.org/gitarella/ gitarella repository].
+
 === git-php ===
 * [http://code.google.com/p/git-php/ git-php] is a PHP git web frontend created by Zack Bartel. The goal of git-php is a robust PHP web interface to git repositories. It is meant to be easily customizable through styles and the ability to be embedded into any PHP page. For example, creating a git repository viewer plug-in for your favorite PHP based CMS should be easy with git-php. It seems to be inspired by gitweb. See it at work at [http://zackb.org/git-php/git.php zackb.org].
 * http://people.proekspert.ee/peeter/git/git.php is a PHP git web frontend created by Peeter Vois. This is continued work of Zack's version of git.php. git-php does now have syntax highlighting of code, graph view of the repository including branch and tag, diff can be browsed against several parent versions, tree browser does have some nice icons, simple search for branch heads and tags, any version of tree can be downloaded in tar.gz or zip format and the filename will include hash of the tree or tag if attached, files can be downloaded independently in binary form. Git php is providing interface for sending bundles to the owner of the site. This is useful for those who would like to stay anonymous or do not like to send bundles via e-mail. The bundle is also tested against the repository before acceptance.
+
 === GitPHP ===
 * [http://www.xiphux.com/programming/php/gitphp/ GitPHP] ([http://www.xiphux.com/gitphp/ demo]) is a PHP git web interface with gitweb-like look (the xmms2 fork of git), created by Christopher Han. It makes use of [http://smarty.php.net/ Smarty] templates, so it can be easily modified and customized. It offers syntax highlighting via [http://qbnz.com/highlighter/ GeSHi] PHP class, has support for snapshots and projects categories; it can be run with msysGit.
+
 === viewgit ===
 * [http://viewgit.sourceforge.net/ viewgit] is another PHP web interface for git, written from scratch. It aims to be easy to set up and upgrade, light on dependencies, and comfortable to use. It provides all basic features such as commitdiffs, RSS feeds of changes, downloading of trees, checkouts, syntax highlighting using GeSHi, etc.
+
 === cgit ===
 * [http://hjemli.net/git/cgit/ cgit] is a fast and lightweight webinterface written in C. It uses libgit.a to avoid forking of git commands and an on-disk cache to avoid duplication of expensive repository operations. The repo is hosted on [http://hjemli.net/git/ hjemli.net] and can be cloned from git://hjemli.net/pub/git/cgit. Users of cgit include [http://cgit.freedesktop.org freedesktop.org], [http://cgit.compiz-fusion.org/ compiz-fusion.org], [http://git.dyne.org dyne.org], [http://repo.or.cz/c/ repo.or.cz], [http://git.savannah.gnu.org/cgit/ savannah.gnu.org] and [http://git.gnome.org/cgit/ gnome.org].
+
 === [[GitStat]] ===
 * <b>[[GitStat]]</b> ([http://sourceforge.net/projects/gitstat SourceForge project]) is a GPL'd, web-based git statistics/monitoring system. It retrieves a specified git tree, analyzes changesets, and shows graphical information like the number of changesets per day, the number of people who submitted changesets for a specific version (tag) etc. Users may subscribe to gitstat so that they automatically receive an email notification if any change is applied to a specified directory. See also [http://permalink.gmane.org/gmane.comp.version-control.git/56161 gitstat 0.1: kernel development statistics / monitoring system] announcement on git mailing list. You are welcome to try gitstat at http://tree.celinuxforum.org/gitstat
+
 === git-browser ===
-* [http://straytree.com/ git-browser] by Arteem Khodush is an experimental gitk-like web interface. It visualizes commit history graph and shows commit diffs. User interface is done in Java<code><nowiki></nowiki></code>Script, and is rather heavy on the <i>client</i> side. [http://straytree.com/git-browser/by-commit.html?r=git view online] [http://straytree.com/git-browser.tar.bz2 download] [http://repo.or.cz/gitweb.cgi/git-browser.git gitweb mirror].
+* [http://straytree.com/ git-browser] by Arteem Khodush is an experimental gitk-like web interface. It visualizes commit history graph and shows commit diffs. User interface is done in JavaScript, and is rather heavy on the <i>client</i> side. [http://straytree.com/git-browser/by-commit.html?r=git view online] [http://straytree.com/git-browser.tar.bz2 download] [http://repo.or.cz/gitweb.cgi/git-browser.git gitweb mirror].
+
 === [[InDefero]] ===
 * [http://www.indefero.net InDefero] is a clone of [[GoogleCode]] with git, Mercurial and Subversion browser, wiki, download area, issue tracking and code review supporting multiple private/public projects. Using a shared user account with SSH keys you can control the read/write access rights to your repositories from within the web interface. GNU GPL/Clean MVC PHP5 code, very fast and easy to extend. [http://projects.ceondo.com/p/indefero/downloads/ Download], [http://projects.ceondo.com/p/indefero/source/tree/master/ view source].
+
 = Tools =
+
 == Editors and IDE integration ==
+
 === Emacs integration (in `contrib/`) ===
-* Preliminary Emacs mode for Git from Alexandre Julliard (in <code><nowiki>contrib/emacs</nowiki></code> directory) consist of <code><nowiki>git.el</nowiki></code> which is project tree browser similar to pcl-cvs, and <code><nowiki>vc-git.el</nowiki></code> which is VC backend (see also vc-git-hacking at [http://www.gnuvola.org/wip/ gnuvola]).[[BR]] There is also a project, [http://download.gna.org/dvc/ DVC] (Distributed Version Control), on Gna!, by the authors of Xtla, to create a generic library for fancy Emacs interfaces to modern version control systems. Currently it supports [http://www.gnu.org/software/gnu-arch/ GNU Arch] (<i>tla</i>) and [http://freshmeat.net/projects/baz/ Bazaar] (<i>baz</i>), and has initial support for [http://bazaar-vcs.org/ Bazaar-NG] (<i>bzr</i>) and [http://www.selenic.com/mercurial/ Mercurial] (<i>xhg</i>).
+* Preliminary Emacs mode for Git from Alexandre Julliard (in `contrib/emacs` directory) consist of `git.el` which is project tree browser similar to pcl-cvs, and `vc-git.el` which is VC backend (see also vc-git-hacking at [http://www.gnuvola.org/wip/ gnuvola]).<<BR>> There is also a project, [http://download.gna.org/dvc/ DVC] (Distributed Version Control), on Gna!, by the authors of Xtla, to create a generic library for fancy Emacs interfaces to modern version control systems. Currently it supports [http://www.gnu.org/software/gnu-arch/ GNU Arch] (<i>tla</i>) and [http://freshmeat.net/projects/baz/ Bazaar] (<i>baz</i>), and has initial support for [http://bazaar-vcs.org/ Bazaar-NG] (<i>bzr</i>) and [http://www.selenic.com/mercurial/ Mercurial] (<i>xhg</i>).
 * <b>See also:</b> [[EmacsWiki]]:Git and [[EmacsWiki]]:[[CategoryVersionControl]] pages on [http://www.emacswiki.org EmacsWiki]
+
 === Java GIT/Eclipse GIT ===
 * [http://repo.or.cz/w/egit.git Java GIT/Eclipse GIT] (repository) originated by Shawn Pearce is a Java GIT library and plugin for [http://www.eclipse.org/ Eclipse] IDE, in very early stages of development. The site no longer seems to have the plugin. Robin Rosenberg has recently been working on history and compare views for the plugin. David Watson contributed GUI for branch handling and commit. Progress is slow but steady. A [[EclipsePluginWishlist]] has been started as a roadmap of features. A page has been started to follow development: [[EclipsePlugin]].
+
 === Git4Idea ===
 * The Git4Idea plugin provides basic Git integration support for the IntelliJ/[[JetBrains]] IDEA (v6 & above) development environment. The Git4Idea plugin can be downloaded from within IDEA itself using the IDE Settings->Plugins config panel. The [http://plugins.intellij.net/plugin?id=3033 plugin home page] contains the latest release information and source code is also available [http://github.com/markscott/git4idea/tree/master here]. Git4Idea uses the git command line tool to work; Cygwin 'git' on Windows is recommended.
+
 === KDevelop ===
 * Development of a Git plugin for kdevelop has begun. [http://drwxr-xr-x.blogspot.com/2008/06/now-kdevelop-has-basic-git-support.html Basic support implemented]
+
 === Netbeans module (nbgit) ===
 * A [[NetBeansPlugin]] with a limited set of features are available for testing.
+
 === PIDA ===
 * [http://pida.co.uk/ PIDA] Integrated development environment supporting GIT, Subversion, Darcs, Mercurial, Monotone, Bazaar-NG (<i>bzr</i>). It allows embedding Vim or emacs. <i>(Python, GTK)</i>
+
 === [[TextMate]] ===
 * [http://github.com/timcharper/git-tmbundle/ Git-tmBundle] Provides a variety of tools for interacting with Git repositories, such as push, pull, tag, fetch, browse annotations, merge, switching branches, stashing, committing, etc. <i>(Ruby)</i>
+
 === Vim ===
 * [http://code.google.com/p/vcscommand/ VCS Command plugin] is a Vim plugin for various source code control systems and includes a Git component. It can be used to view the differences side by side, commit, blame, etc.
+
 == Merge tools ==
+
 === dirdiff ===
 * [http://www.liacs.nl/~sverdool/gitweb.cgi?p=dirdiff.git dirdiff] (gitweb) is a graphical tool to display the differences (a la diff) between files in directories. Given two or more directory trees, dirdiff will display the differences between them in various glorious colors. It provides merging and the creation of patches. Link is to version modified by Sven Verdoolaege, which adds some more git support, and which is based on [http://samba.org/ftp/paulus/dirdiff-2.1.tar.gz dirdiff-2.1.tar.gz] by Paul Mackerras. Not actively developed. In Tcl/Tk. (To be not conffused with [http://sourceforge.net/projects/dirdiff/ dirdiff] in Perl).
+
 === Meld ===
 * [http://meld.sourceforge.net Meld] is a visual diff and merge tool. You can compare two or three files and edit them in place (diffs update dynamically). You can compare two or three folders and launch file comparisons. You can browse and view a working copy from popular version control systems such as Git, CVS, Subversion, Bazaar-ng and Mercurial, etc...
+
 == Interaction with other Revision Control Systems ==
+
 === Built-in import (built in) ===
-* Core Git contains import commands for importing from other systems: <code><nowiki>git-archimport</nowiki></code> for [http://www.gnu.org/software/gnu-arch/ GNU Arch] (<code><nowiki>tla</nowiki></code>), <code><nowiki>git-cvsimport</nowiki></code> for [http://www.nongnu.org/cvs/ CVS] (needs <code><nowiki>cvsps</nowiki></code>: [http://ydirson.free.fr/en/software/scm/cvsps.html CVSps patches]), <code><nowiki>git-svn</nowiki></code> for [http://subversion.tigris.org/ Subversion] (<code><nowiki>svn</nowiki></code>) (using <code><nowiki>SVN::Perl</nowiki></code> module), <code><nowiki>git-quiltimport</nowiki></code> for [https://savannah.nongnu.org/projects/quilt/ Quilt], and <code><nowiki>git-p4import</nowiki></code> for [http://www.perforce.com/ Perforce] (<code><nowiki>p4</nowiki></code>). For Quilt see also quilt2git / git2guilt below. For Perforce import there is also a script using alternative import method, which works without changing local state: [http://permalink.gmane.org/gmane.comp.version-control.git/25352 git-p4-import]. There also exists a (dumb and slow) unpublished Bit<code><nowiki></nowiki></code>Keeper (<code><nowiki>bk</nowiki></code>) importer.
+* Core Git contains import commands for importing from other systems: `git-archimport` for [http://www.gnu.org/software/gnu-arch/ GNU Arch] (`tla`), `git-cvsimport` for [http://www.nongnu.org/cvs/ CVS] (needs `cvsps`: [http://ydirson.free.fr/en/software/scm/cvsps.html CVSps patches]), `git-svn` for [http://subversion.tigris.org/ Subversion] (`svn`) (using `SVN::Perl` module), `git-quiltimport` for [https://savannah.nongnu.org/projects/quilt/ Quilt], and `git-p4import` for [http://www.perforce.com/ Perforce] (`p4`). For Quilt see also quilt2git / git2guilt below. For Perforce import there is also a script using alternative import method, which works without changing local state: [http://permalink.gmane.org/gmane.comp.version-control.git/25352 git-p4-import]. There also exists a (dumb and slow) unpublished BitKeeper (`bk`) importer.
+
 === git-cvsexportcommit (built in) ===
-* <code><nowiki>git-cvsexportcommit</nowiki></code> exports a commit from Git to a CVS checkout, making it easier to merge patches from a git repository into a CVS repository. Supports file additions, removals, and commits that affect binary files.
+* `git-cvsexportcommit` exports a commit from Git to a CVS checkout, making it easier to merge patches from a git repository into a CVS repository. Supports file additions, removals, and commits that affect binary files.
+
 === git-cvsserver (built in) ===
-* <code><nowiki>git-cvsserver</nowiki></code> is a CVS emulation layer for git. It is highly functional; the mapping is bidirectional, so people who like cvs, can do both checkout and commit using cvs, and it shows up in git. However, not all methods are implemented, and for those methods that are implemented, not all switches are implemented. Testing has been done using both the CLI CVS client, and the Eclipse CVS plugin. Most functionality works fine with both of these clients.
+* `git-cvsserver` is a CVS emulation layer for git. It is highly functional; the mapping is bidirectional, so people who like cvs, can do both checkout and commit using cvs, and it shows up in git. However, not all methods are implemented, and for those methods that are implemented, not all switches are implemented. Testing has been done using both the CLI CVS client, and the Eclipse CVS plugin. Most functionality works fine with both of these clients.
+
 === parsecvs ===
 * [http://cgit.freedesktop.org/~keithp/parsecvs/ parsecvs] by Keith Packard is a C-based CVS file parser and Git import tool. It directly reads RCS ,v files (you can get them using CVSsuck if you don't have access to $CVSROOT) and generates a git-style rev-list structure from them. Repository available at git://anongit.freedesktop.org/~keithp/parsecvs
+
 === cvs2git ===
-* [http://cvs2svn.tigris.org/ cvs2svn] has a [http://cvs2svn.tigris.org/cvs2git.html cvs2git] mode for converting directly from CVS to git. cvs2svn/cvs2git is very robust and gives high-quality conversions with many [http://cvs2svn.tigris.org/features.html features and customization options]. cvs2svn/cvs2git only supports one-time conversions. cvs2git's output can be read by Shawn Pearce's [http://www.kernel.org/pub/software/scm/git/docs/git-fast-import.html git-fast-import], which has been bundled with core Git since version 1.5.[[BR]] Note that cvs2svn/cvs2git itself can't work with remote repositories. If you can't get a copy of the CVS repository directly, you might be able to recreate it indirectly via [http://cvs2svn.tigris.org/faq.html#repoaccess information read over the CVS protocol] using a tool like [http://cvs.m17n.org/~akr/cvssuck/ CVSsuck].
+* [http://cvs2svn.tigris.org/ cvs2svn] has a [http://cvs2svn.tigris.org/cvs2git.html cvs2git] mode for converting directly from CVS to git. cvs2svn/cvs2git is very robust and gives high-quality conversions with many [http://cvs2svn.tigris.org/features.html features and customization options]. cvs2svn/cvs2git only supports one-time conversions. cvs2git's output can be read by Shawn Pearce's [http://www.kernel.org/pub/software/scm/git/docs/git-fast-import.html git-fast-import], which has been bundled with core Git since version 1.5.<<BR>> Note that cvs2svn/cvs2git itself can't work with remote repositories. If you can't get a copy of the CVS repository directly, you might be able to recreate it indirectly via [http://cvs2svn.tigris.org/faq.html#repoaccess information read over the CVS protocol] using a tool like [http://cvs.m17n.org/~akr/cvssuck/ CVSsuck].
+
 === fromcvs/togit ===
 * [http://ww2.fs.ei.tum.de/~corecode/hg/fromcvs fromcvs] by Simon 'corecode' Schubert is a conversion tool ment convert from CVS to multiple SCMs. At the moment there is a git and a hg output and a sqlite output for quick CVS changeset navigation. For the cvs->git conversion, git-fast-import by Shawn Pearce is needed (see above). fromcvs handles branches (though no tags yet), including native support for vendor branches. Incremental operation should work, but was not yet tested extensively. Conversion speed should be well above 10 changesets per second on common hardware. fromcvs/togit can take advantage of two CPUs.
+
 === gc-utils ===
 * [http://gcutils.sourceforge.net/ gc-utils] ([http://freshmeat.net/projects/gc-utils/ freshmeat page], [http://git.experimentalworks.net/?p=gcutils.git gitweb], [http://thread.gmane.org/gmane.comp.version-control.git/78540 announcement]) is a small set of scripts wrapping git-cvsexportcommit and git-cvsimport, allowing to import and update CVS repositories into git very easy and let you export patches back into a CVS working copy. Written in bash.
+
 === git-svn (built in) ===
-* [http://git-svn.yhbt.net/ git-svn] ([http://git.bogomips.org/git-svn.git git repository]), written by Eric Wong, is a conduit for bidirectional operation between a Subversion repository and git. It supports Subversion branches and tags, importing multiple Subversion repositories into a single git repository, and incrementally updating the git repository with changes from the Subversion parent. It is designed for developers who wish to contribute to projects that use Subversion, but would rather be using git. Written in Perl using the SVN::Core Perl library.[[BR]] <b>See also:</b> [http://permalink.gmane.org/gmane.comp.version-control.git/102500 |ANNOUNCE| git-svn-bugfix script]
+* [http://git-svn.yhbt.net/ git-svn] ([http://git.bogomips.org/git-svn.git git repository]), written by Eric Wong, is a conduit for bidirectional operation between a Subversion repository and git. It supports Subversion branches and tags, importing multiple Subversion repositories into a single git repository, and incrementally updating the git repository with changes from the Subversion parent. It is designed for developers who wish to contribute to projects that use Subversion, but would rather be using git. Written in Perl using the SVN::Core Perl library.<<BR>> <b>See also:</b> [http://permalink.gmane.org/gmane.comp.version-control.git/102500 |ANNOUNCE| git-svn-bugfix script]
+
 === git-svnimport (contrib) ===
 * There is also git-svnimport, and because it came earlier it is mentioned often in old documentation. At the moment (August, 2008), git-svn is better supported.
+
 === git2svn (perl/bash) ===
 * [http://voltar.org/git2svn/ git2svn], written by Paul Miller, is a git repo exporter designed to allow a user to import numerous git repos into a [http://trac.edgewall.org/ trac] wiki. Trac only supports svn (natively) and only supports a one repo configuration. Although there are git plugins for Trac, they are cumbersome and (because of trac's design) only support one repo at a time. git2svn solves that by importing as many git repos as needed into directories of an svn repo. It does this using native svn and git commands with perl as glue.
+
 === git2svn (fast-export) ===
-* git2svn ([http://repo.or.cz/w/git2svn.git gitweb]), written by Love Hrnquist strand, is a tool to convert the "git fast-export" dump into a svn dump and load it into a new fresh svn repository. git2svn also supports incremental updates. <b>NOTE:</b> <i>git2svn assumes its the only process that writes into the svn repository</i>. Written mainly in Perl.[[BR]] <b>See:</b> [http://permalink.gmane.org/gmane.comp.version-control.git/79680 |ANNOUNCE| git2svn 0.1] post on git mailing list.
+* git2svn ([http://repo.or.cz/w/git2svn.git gitweb]), written by Love Hrnquist strand, is a tool to convert the "git fast-export" dump into a svn dump and load it into a new fresh svn repository. git2svn also supports incremental updates. <b>NOTE:</b> <i>git2svn assumes its the only process that writes into the svn repository</i>. Written mainly in Perl.<<BR>> <b>See:</b> [http://permalink.gmane.org/gmane.comp.version-control.git/79680 |ANNOUNCE| git2svn 0.1] post on git mailing list.
+
 === svn2git.py ===
-* svn2git.py ([http://python.ca/nas/python/svn2git.py download]), written by Neil Schemenauer, is a tool to do conversions from SVN (Subversion) to git using a SVN dump. It's in early stages of development. Written in Python.[[BR]] <b>See:</b> [http://thread.gmane.org/gmane.comp.version-control.git/101370 New converstion tool: svn2git.py] thread on git mailing list
+* svn2git.py ([http://python.ca/nas/python/svn2git.py download]), written by Neil Schemenauer, is a tool to do conversions from SVN (Subversion) to git using a SVN dump. It's in early stages of development. Written in Python.<<BR>> <b>See:</b> [http://thread.gmane.org/gmane.comp.version-control.git/101370 New converstion tool: svn2git.py] thread on git mailing list
+
 === svn2git (Ruby) ===
 * svn2git ([http://github.com/nirvdrum/svn2git/ github]), forked by Kevin Menard from James Coglan project, is a Ruby tool for importing existing svn projects into git and github. It uses git-svn.
-[[Anchor(git-svnconvert)]]
 
+<<Anchor(git-svnconvert)>>
 === git-svnconvert ===
 * git-svnconvert, written by Rutger Nijlunsing in Ruby, appeared only on git mailing list in post [http://marc.theaimsgroup.com/?l=git&m=114460050718696 |ANNOUNCE| git-svnconvert: YASI (Yet Another SVN importer)].
+
 === braid ===
 * [http://evil.che.lu/projects/braid Braid] ([http://github.com/evilchelu/braid/tree/master github]), formerly [http://evil.che.lu/2007/11/27/ann-giston-piston-lookalike-for-git Giston], is a [http://piston.rubyforge.org/index.html Piston] lookalike for git-svn: a simple tool to help track svn vendor branches in your git repository. By Cristi Balan, in Ruby (Piston is in Ruby).
+
 === git-rails-plugins ===
 * GIT sub-project porcelain that provides an alternative to git-svn dcommit when managing rails vendor plugins which are held in a central SVN repository. Currently git-svn is not able to dcommit into a Subversion repository when a Git repository contains submodules. [http://github.com/nazar/git-rails-plugins/tree/master git-rails-plugins] is an [http://panthersoftware.com/articles/view/4/git-svn-dcommit-workaround-for-git-submodules alternative] implementation to sub-modules.
+
 === git-ucmimport (IBM Rational [[ClearCase]]) ===
-* git-ucmimport, also written by Rutger Nijlunsing, is a converter from IBM Rational Clear<code><nowiki></nowiki></code>Case UCM to git. The latest version can be found currently on http://www.wingding.demon.nl. In Ruby.
+* git-ucmimport, also written by Rutger Nijlunsing, is a converter from IBM Rational ClearCase UCM to git. The latest version can be found currently on http://www.wingding.demon.nl. In Ruby.
+
 === quilt2git / git2quilt ===
 * These utilities convert patch series in a quilt repository and commit series in git back and forth. You can download files [http://home-tj.org/files/misc here]; they can be found on [http://home-tj.org/wiki/index.php/Misc HomeTJ webpage].
+
 === hg-to-git ===
-* hg-to-git is Mercurial to git converter, written by Stelian Pop, appeared only on git mailing list in post [http://permalink.gmane.org/gmane.comp.version-control.git/36601 Mercurial to git converter.] It supports incremental conversion, supports (multiple) hg branches and converts hg tags. Written in combination of shell script and Python.[[BR]]
+* hg-to-git is Mercurial to git converter, written by Stelian Pop, appeared only on git mailing list in post [http://permalink.gmane.org/gmane.comp.version-control.git/36601 Mercurial to git converter.] It supports incremental conversion, supports (multiple) hg branches and converts hg tags. Written in combination of shell script and Python.<<BR>>
+
 === hg-fast-export ===
-* hg-fast-export is another converter using <code><nowiki>git-fast-import</nowiki></code> as backend and is written in Python using the mecurial python classes directly. It uses a single pass, supports tags, mercurial named branches, incremental imports and merges. It is quite fast since no subshells and/or pipe communication is used except for the feed to <code><nowiki>git-fast-import</nowiki></code>. The source is available as part of the fast-export repository at [http://repo.or.cz/w/fast-export.git repo.or.cz].
+* hg-fast-export is another converter using `git-fast-import` as backend and is written in Python using the mecurial python classes directly. It uses a single pass, supports tags, mercurial named branches, incremental imports and merges. It is quite fast since no subshells and/or pipe communication is used except for the feed to `git-fast-import`. The source is available as part of the fast-export repository at [http://repo.or.cz/w/fast-export.git repo.or.cz].
+
 === git-p4 and git-p4-import (Perforce) ===
-* The built-in Perforce importer <code><nowiki>git-p4import.py</nowiki></code> does not work and is not being actively developed. A replacement, <code><nowiki>git-p4</nowiki></code> by Simon Hausmann, is now in contrib/fast-import and is highly recommended. See also [http://marc.info/?l=git&m=117861263323170&w=2 Yet another git perforce integration] thread on git mailing list. There is also an older Perl version, <code><nowiki>git-p4-import</nowiki></code> by Alex Riesen: see [http://marc.info/?l=git&m=117840529828575&w=2 Yet another Perforce importer] email/thread on git mailing list.[[BR]]
+* The built-in Perforce importer `git-p4import.py` does not work and is not being actively developed. A replacement, `git-p4` by Simon Hausmann, is now in contrib/fast-import and is highly recommended. See also [http://marc.info/?l=git&m=117861263323170&w=2 Yet another git perforce integration] thread on git mailing list. There is also an older Perl version, `git-p4-import` by Alex Riesen: see [http://marc.info/?l=git&m=117840529828575&w=2 Yet another Perforce importer] email/thread on git mailing list.<<BR>>
+
 === darcs2git ===
-* <i>darcs2git</i> ([http://repo.or.cz/w/darcs2git.git gitweb]) by Han-Wen Nienhuys ([http://www.xs4all.nl/~hanwen/ his homepage]) is a Darcs to Git converter utilizing <code><nowiki>git-fast-import</nowiki></code>. It tries to map Darcs conflict resolutions onto Git branch merges. Written in Python.[[BR]] <b>See:</b> [http://marc.info/?l=git&m=117123822725808&w=2 darcs2git.py - convert darcs repository using gfi] at git mailing list[[BR]]
+* <i>darcs2git</i> ([http://repo.or.cz/w/darcs2git.git gitweb]) by Han-Wen Nienhuys ([http://www.xs4all.nl/~hanwen/ his homepage]) is a Darcs to Git converter utilizing `git-fast-import`. It tries to map Darcs conflict resolutions onto Git branch merges. Written in Python.<<BR>> <b>See:</b> [http://marc.info/?l=git&m=117123822725808&w=2 darcs2git.py - convert darcs repository using gfi] at git mailing list<<BR>>
+
 === Tailor ===
 * [http://wiki.darcs.net/DarcsWiki/Tailor Tailor] is an any-to-any version control system converter, with support for most free SCMs. It was written by Lele and it is implemented in Python. Note that you need [http://wiki.darcs.net/DarcsWiki/Tailor/[[VersionOne]] [[VersionOne]]]. Note also that as of 2006-12-01, it only has rudimentary support for branches, and mostly supports linear histories.
+
 === darcs-to-git ===
 * Having had problems with darcs2git and tailor, [http://www.sanityinc.com/ Steve Purcell] wrote another simple darcs import tool called darcs-to-git, which can incrementally import a single darcs source repo: [http://www.sanityinc.com/articles/converting-darcs-repositories-to-git article] / [http://git.sanityinc.com/?p=darcs-to-git.git darcs-to-git gitweb]
+
 === Darcs-Git ===
 * [http://darcs.net/DarcsWiki/[[DarcsGit]] Darcs-Git] was an effort to make Darcs work with Git repositories, in particular the Linux kernel repository. It was part Darcs-Unstable branch, available from http://abridgegame.org/repos/darcs-unstable . Unfortunately, both links are now defunct.
+
 === darcs-fast-export ===
 * A generic fast-export script for darcs by Miklos Vajna, works with git fast-import, bzr fast-import and hg fastimport. Find it at [http://vmiklos.hu/project/darcs-fast-export here].
+
 === SCCS import ===
-* There exists proposed <code><nowiki>conftib/fast-import/git-sccsimport.py</nowiki></code> in [http://marc.info/?i=<c5df85930801200312o7cd5d307v1a39fb35179249a9@mail.gmail.com> fast importer for SCCS files] post by James Youngman on git mailing list, and [http://search.cpan.org/src/HMBRAND/VCS-SCCS-0.11/examples/sccs2git-gfi sccs2git-gfi] importer by Sam Vilain in VCS::SCCS CPAN module.
+* There exists proposed `conftib/fast-import/git-sccsimport.py` in [http://marc.info/?i=<c5df85930801200312o7cd5d307v1a39fb35179249a9@mail.gmail.com> fast importer for SCCS files] post by James Youngman on git mailing list, and [http://search.cpan.org/src/HMBRAND/VCS-SCCS-0.11/examples/sccs2git-gfi sccs2git-gfi] importer by Sam Vilain in VCS::SCCS CPAN module.
+
 === Git-bzr ===
 * Git-bzr allows bidirectional synchronization between Bazaar and Git repositories, much like git-svn. However, git-bzr is able to keep all merge history etc. It can be found at [http://github.com/pieter/git-bzr/ github].
+
 === bzr-fast-export ===
-* Bazaar frontend for git-fast-import. Announcement [https://lists.ubuntu.com/archives/bazaar/2008q1/038391.html here], lives in the <code><nowiki>exporters</nowiki></code> subdirectory of the [https://launchpad.net/bzr-fastimport bzr-fastimport project].
+* Bazaar frontend for git-fast-import. Announcement [https://lists.ubuntu.com/archives/bazaar/2008q1/038391.html here], lives in the `exporters` subdirectory of the [https://launchpad.net/bzr-fastimport bzr-fastimport project].
+
 === mtn2git ===
 * A Ruby script that imports Monotone repositories with different modes of operation; checkout and fast-import. Depending on the method is the completeness and reliability: checkout method is almost complete. It also allows further updates. Find it at [https://github.com/felipec/mtn2git github].
-[[Anchor(rcs-fast-export)]]
 
+<<Anchor(rcs-fast-export)>>
 === rcs-fast-export ===
-* rcs-fast-export ([http://git.oblomov.eu/rcs-fast-export gitweb]) is a Ruby script that can be used to export RCS histories in a form suitable to be piped to fast-import tools (only tested with git's). It parses RCS files directly, without requiring any external tool or library. It exports symbols as lightweight tags, and makes up a decently sensible name for branches, based on their initial revision number. It supports the typical <code><nowiki>--authors-file</nowiki></code> option to convert from usernames to full author identities, and it has an option to (lightweight) tag each RCS revision with its revision number.
+* rcs-fast-export ([http://git.oblomov.eu/rcs-fast-export gitweb]) is a Ruby script that can be used to export RCS histories in a form suitable to be piped to fast-import tools (only tested with git's). It parses RCS files directly, without requiring any external tool or library. It exports symbols as lightweight tags, and makes up a decently sensible name for branches, based on their initial revision number. It supports the typical `--authors-file` option to convert from usernames to full author identities, and it has an option to (lightweight) tag each RCS revision with its revision number.
+
 == Hooks ==
+
 === git-notify ===
 * [http://source.winehq.org/git/tools.git/?a=blob;f=git-notify;hb=HEAD git-notify] is the post-receive hook used by the wine project. It sends one email per commit. It also supports sending cia notifications.
+
 == Wikis, blogs, etc. ==
+
 === ikiwiki ===
 * [http://ikiwiki.info/ Ikiwiki] is a <b>wiki compiler</b>, written in Perl. It converts wiki pages into HTML pages suitable for publishing on a website. Ikiwiki stores pages and history in a [http://ikiwiki.info/rcs/ revision control system] such as [http://ikiwiki.info/rcs/svn/ Subversion] or [http://ikiwiki.info/rcs/git/ Git]. There are many other [http://ikiwiki.info/features/ features], including support for [http://ikiwiki.info/ikiwiki/blog/ blogging], as well as a large array of [http://ikiwiki.info/plugins/ plugins] (for example [http://ikiwiki.info/plugins/recentchanges/ recentchanges] plugin).
+
 === wikiri ===
-* [http://blitiri.com.ar/p/misc.html wikiri] is a simple, single-file wiki written in Python. It uses reStructuredText for markup, and has optional git support for history tracking. You can [http://blitiri.com.ar/git/?p=wikiri browse the repository] or just clone it from <code><nowiki>git://blitiri.com.ar/wikiri</nowiki></code>.
+* [http://blitiri.com.ar/p/misc.html wikiri] is a simple, single-file wiki written in Python. It uses reStructuredText for markup, and has optional git support for history tracking. You can [http://blitiri.com.ar/git/?p=wikiri browse the repository] or just clone it from `git://blitiri.com.ar/wikiri`.
+
 === git-wiki ===
 * [http://atonie.org/2008/02/git-wiki git-wiki] by [http://purl.org/net/sr/ Simon Rozet] a wiki that relies on Git to keep pages\u2019 history and [http://sinatra.rubyforge.org/ Sinatra] (Ruby web framework) to serve them. git-wiki is available on [http://github.com/sr/git-wiki GitHub] under [http://sam.zoy.org/wtfpl/ WTFPL license terms]. See also git-wiki [http://github.com/sr/git-wiki/network forks], especially [http://github.com/al3x/github al3x]'s one.
+
 === [[WiGit]] ===
 * [http://el-tramo.be/software/wigit WiGit] by [http://el-tramo.be/ Remko Tronon] is a simple themable PHP wiki with Git as a backend, [http://textile.thresholdstate.com/ Textile] PHP class for marking up text. It has history support, basic user support (from HTTP authentication), and pretty URLs. See [http://el-tramo.be/blog/wigit-intro WiGit: A Simple Git-based Wiki] blog post for introduction.
+
 === Nuki ===
 * <b>Nuki</b> ([http://github.com/patrickt/nuki/tree/master github]) by Patrick Thomson is a Wiki engine written in [http://programming.nu/ Nu] and powered by Nunja ([http://github.com/timburks/nunja/tree/master github]), a cross-platform web server that's scripted with Nu, that uses Git for version control, and Markdown (via [http://programming.nu/posts/2007/10/10/markdown-in-nu NuMarkdown]) for markup.
+
 === git-blog ===
 * git-blog ([http://github.com/elliottcable/git-blog/tree/master github]) is a minimalist blogware that uses git, using Ruby to 'deploy' Markdown posts to XHTML when git-pushed to your server.
+
 === Tekuti ===
-* [http://wingolog.org/software/tekuti/ Tekuti] is weblog software written in Scheme, using Git as its persistent store. It uses [[WikiPedia]]:SXML for markup, and requires [http://www.gnu.org/software/guile/ Guile] or other Scheme implementation, and [http://www.fractalconcept.com/asp/mod_lisp mod_lisp] (a bit of misnomer: it is similar to [[WikiPedia]]:FastCGI or [[WikiPedia:Simple_Common_Gateway_Interface|SCGI]] that it creates long-lived CGI process, but with simpler protocol). Tekuti includes a script to import posts from Wordpress into a suitably-laid-out directory.[[BR]] <b>Announcement:</b> [http://wingolog.org/archives/2008/02/29/im-telling-you I'm telling you] on Andy Wingo wingolog.
+* [http://wingolog.org/software/tekuti/ Tekuti] is weblog software written in Scheme, using Git as its persistent store. It uses [[WikiPedia]]:SXML for markup, and requires [http://www.gnu.org/software/guile/ Guile] or other Scheme implementation, and [http://www.fractalconcept.com/asp/mod_lisp mod_lisp] (a bit of misnomer: it is similar to [[WikiPedia]]:FastCGI or [[WikiPedia:Simple_Common_Gateway_Interface|SCGI]] that it creates long-lived CGI process, but with simpler protocol). Tekuti includes a script to import posts from Wordpress into a suitably-laid-out directory.<<BR>> <b>Announcement:</b> [http://wingolog.org/archives/2008/02/29/im-telling-you I'm telling you] on Andy Wingo wingolog.
+
 === Chuyen ===
-* [http://code.istique.net/?p=chuyen.git;a=summary Chuyen] is a weblog software written in Python, using the django web framework and git as its data storage backend through pygit. It uses Re<code><nowiki></nowiki></code>Structured<code><nowiki></nowiki></code>Text as its markup language.
+* [http://code.istique.net/?p=chuyen.git;a=summary Chuyen] is a weblog software written in Python, using the django web framework and git as its data storage backend through pygit. It uses ReStructuredText as its markup language.
+
 === ymcGitWiki ===
-* [http://www.ohloh.net/projects/ymcgitwiki ymcGitWiki] is a wiki software written in PHP, using [http://ezcomponents.org eZ Components] and git as its data storage backend. It can use Re<code><nowiki></nowiki></code>Structured<code><nowiki></nowiki></code>Text as well as different Wiki syntaxes as its markup language.
+* [http://www.ohloh.net/projects/ymcgitwiki ymcGitWiki] is a wiki software written in PHP, using [http://ezcomponents.org eZ Components] and git as its data storage backend. It can use ReStructuredText as well as different Wiki syntaxes as its markup language.
+
 === eWiki ===
 * [http://github.com/patrikf/ewiki/tree/master eWiki] is a Wiki with a git backend, written in pure PHP (no ugly system() or exec() calls).
+
 === Pystl ===
 * [http://blog.codezen.org/entries/tag/pystl Pystl] ([http://codezen.org/cgi-bin/gitweb.cgi?p=pystl.git gitweb]) by Jack Miller is very simple, small blog engine in Python, using git for version control, Markdown for markup and Tenjin for templating. It doesn't have web interface, so it also have no comments.
+
 === gitit ===
 * [http://github.com/jgm/gitit/tree/master gitit], a Wiki written in Haskell, uses git for storage, HAppS for a web server, and pandoc for markdown processing.
+
 === Shinmun ===
-* [http://www.matthias-georgi.de/shinmun Shinmun] ([http://github.com/georgi/shinmun github]) by Matthias Georgi is small git-based blog engine written in Ruby. Write posts in your favorite editor, <code><nowiki>git-push</nowiki></code> it and serve your blog straight from a repository. Supports Markdown, Textile or HTML files.
+* [http://www.matthias-georgi.de/shinmun Shinmun] ([http://github.com/georgi/shinmun github]) by Matthias Georgi is small git-based blog engine written in Ruby. Write posts in your favorite editor, `git-push` it and serve your blog straight from a repository. Supports Markdown, Textile or HTML files.
+
 === [[OddmuseGit]] ===
 * [http://www.foo.be/cgi-bin/wiki.pl/OddmuseGit [[OddmuseGit]]], two bash scripts to interface between git and the [http://www.oddmuse.org/ Oddmuse] wiki. Handy for merging multiple Wikis or having distributed Oddmuse wikis without changing the existing backend.
+
 == Bug/issue trackers, etc. ==
+
 === ditz ===
 * [http://ditz.rubyforge.org Ditz] is a simple, light-weight distributed issue tracker designed to work with distributed version control systems like darcs and git. Ditz maintains an issue database file on disk, written in a line-based and human-editable format. This file is kept under version control, alongside project code. Changes in issue state is handled by version control like code change: included as part of a commit, merged with changes from other developers, conflict-resolved in the standard manner, etc.
+
 === ticgit ===
 * [http://jointheconversation.org/2008/03/23/ticgit-and-a-new-git-gem/ TicGit] is a distributed bug tracker written in Ruby. It stores bug information in a separate branch, allowing multiple developers to control the bug tracking system by merging their ticgit branch. More information on the [http://github.com/schacon/ticgit/wikis wiki]
+
 === cil ===
-* [http://www.kapiti.geek.nz/software/cil.html CIL] - Command-line Issue List (written in Perl), allows fast creation of a distributed issue tracker which fits in well with any VCS.[[BR]] <b>See also:</b> [http://www.kapiti.geek.nz/random/label:cil.html Blog posts tagged 'cil'] on kapiti.geek.nz.
+* [http://www.kapiti.geek.nz/software/cil.html CIL] - Command-line Issue List (written in Perl), allows fast creation of a distributed issue tracker which fits in well with any VCS.<<BR>> <b>See also:</b> [http://www.kapiti.geek.nz/random/label:cil.html Blog posts tagged 'cil'] on kapiti.geek.nz.
+
 === git-cl ===
 * <b>git-cl</b> ([http://neugierig.org/software/git/?r=git-cl cgit], [http://github.com/martine/git-cl GitHub], [http://neugierig.org/software/git/index.cgi?url=git-cl/tree/README README]) by Evan Martin is a tool for integrating code reviews on Rietveld (http://codereview.appspot.com). <i>(Python)</i>
+
 === Gerrit ===
-* [http://android.git.kernel.org/?p=tools/gerrit.git Gerrit] ([http://review.source.android.com/ demo]) is a web based code review system, forked off the open sourced [http://code.google.com/p/rietveld/ Rietveld] code review system. Gerrit runs on the highly scaleable Google App Engine platform, but probably could be ported to an open-source MySQL or PostgreSQL backend if people really wanted to do that.[[BR]]<b>See also:</b> [http://newblogtopic.blogspot.com/2008/11/gerrit-and-repo-android-source_04.html Gerrit and Repo, the Android Source Management Tools] blog post by Jeff Bailey
+* [http://android.git.kernel.org/?p=tools/gerrit.git Gerrit] ([http://review.source.android.com/ demo]) is a web based code review system, forked off the open sourced [http://code.google.com/p/rietveld/ Rietveld] code review system. Gerrit runs on the highly scaleable Google App Engine platform, but probably could be ported to an open-source MySQL or PostgreSQL backend if people really wanted to do that.<<BR>><b>See also:</b> [http://newblogtopic.blogspot.com/2008/11/gerrit-and-repo-android-source_04.html Gerrit and Repo, the Android Source Management Tools] blog post by Jeff Bailey
+
 === Jira Git plugin ===
 * [http://confluence.atlassian.com/display/JIRAEXT/Jira+Git+Plugin Git Plugin for JIRA] A plugin for [http://www.atlassian.com/software/jira/ JIRA] linking to Git repos using the Java implementation of Git.
+
 === git-bugzilla ===
-* <b>git-bugzilla</b> ([http://code.istique.net/?p=git-bugzilla.git gitweb], [http://code.istique.net/?p=git-bugzilla.git;a=blob;f=docs/git-send-bugzilla.txt manpage]) by Steve Frcinaux, is a tool to post (attach) patches to [http://www.bugzilla.org/ Bugzilla], modelled mostly after <code><nowiki>git-format-patch</nowiki></code>/<code><nowiki>git-send-email</nowiki></code>. It is written in Perl and requires [http://search.cpan.org/~petdance/WWW-Mechanize-1.50/lib/WWW/Mechanize.pm WWW::Mechanize]
+* <b>git-bugzilla</b> ([http://code.istique.net/?p=git-bugzilla.git gitweb], [http://code.istique.net/?p=git-bugzilla.git;a=blob;f=docs/git-send-bugzilla.txt manpage]) by Steve Frcinaux, is a tool to post (attach) patches to [http://www.bugzilla.org/ Bugzilla], modelled mostly after `git-format-patch`/`git-send-email`. It is written in Perl and requires [http://search.cpan.org/~petdance/WWW-Mechanize-1.50/lib/WWW/Mechanize.pm WWW::Mechanize]
+
 == Other tools ==
+
 === git-completion.bash (in `contrib/completion`) ===
 * Bash tab-completion shipped with core Git. Inspired by and superceeds the tab-completion provided by gitcompletion (see below). Completion support is provided for almost all commands, including completion of local and remote reference names and long command line options.
+
 === gitcompletion and generate-completions ===
-* [http://www.hawaga.org.uk/ben/tech/gitcompletion/ gitcompletion] ([http://www.hawaga.org.uk/gitcompletion.git/ git repository]) by Ben Clifford is bash tab-completion for Git, gitk, Cogito (<i>cg</i>) and StGIT (<i>stg</i>). Cogito has the cogito bits of the above already included. There is also <code><nowiki>generate-completions.sh</nowiki></code> by Johannes Schindelin, available on git mailing list archive [http://marc.theaimsgroup.com/?l=git&m=114515313911717 |FYI| generated completions]. <span style="font-size: smaller">Yet another StGIT completions by Paolo Giarrusso, aka Blaisorblade are available at [http://marc.theaimsgroup.com/?l=git&m=113025114026388 Re: latest stg/git commandline completions code]</span>.
+* [http://www.hawaga.org.uk/ben/tech/gitcompletion/ gitcompletion] ([http://www.hawaga.org.uk/gitcompletion.git/ git repository]) by Ben Clifford is bash tab-completion for Git, gitk, Cogito (<i>cg</i>) and StGIT (<i>stg</i>). Cogito has the cogito bits of the above already included. There is also `generate-completions.sh` by Johannes Schindelin, available on git mailing list archive [http://marc.theaimsgroup.com/?l=git&m=114515313911717 |FYI| generated completions]. <span style="font-size: smaller">Yet another StGIT completions by Paolo Giarrusso, aka Blaisorblade are available at [http://marc.theaimsgroup.com/?l=git&m=113025114026388 Re: latest stg/git commandline completions code]</span>.
+
 === CIAbot ===
-* [http://www.kernel.org/git/?p=cogito/cogito.git;a=blob;hb=HEAD;f=contrib/ciabot.pl ciabot.pl] by Petr Baudis in <code><nowiki>contrib/</nowiki></code> directory in [[Cogito]] and [http://dev.gentoo.org/~ferdy/stuff/ciabot.bash ciabot.bash] by Fernando J. Pereda are scripts meant to run either on a post-commit hook or in an update hook. They send a git log message to [http://cia.navi.cx/ CIA] (system for tracking open-source projects in real-time). [[BR]] <b>See:</b> [http://cia.navi.cx/stats/project/cogito cogito at CIA].
+* [http://www.kernel.org/git/?p=cogito/cogito.git;a=blob;hb=HEAD;f=contrib/ciabot.pl ciabot.pl] by Petr Baudis in `contrib/` directory in [[Cogito]] and [http://dev.gentoo.org/~ferdy/stuff/ciabot.bash ciabot.bash] by Fernando J. Pereda are scripts meant to run either on a post-commit hook or in an update hook. They send a git log message to [http://cia.navi.cx/ CIA] (system for tracking open-source projects in real-time). <<BR>> <b>See:</b> [http://cia.navi.cx/stats/project/cogito cogito at CIA].
+
 === Gitdm ===
 * <b>Gitdm</b> (the "git data miner") ([http://repo.or.cz/w/git-dm.git gitweb], mirror) is the tool that Greg KH and Jonathan Corbet have used to crank out statistics on where kernel patches come from at LWM ([http://lwn.net/images/gitdm/gitdm-config-2.6.26.tar.bz2 configuration files], tar.bz2). Public repository for gitdm can be found at: git://git.lwn.net/gitdm.git
+
 === git2rss ===
 * [http://bent.latency.net/git2rss git2rss] by Bennett Todd is a Perl script to generate an RSS summary of a git repo. Currently to be used rather as example. Similar to [http://darcs.simplicidade.org/repos/darcs2rss/darcs2rss darcs2rss].
+
 === log remapper ===
-* [http://www.linux.org.uk/pub/people/viro/remapper/ remapper] ([http://www.kernel.org/git/?p=linux/kernel/git/viro/remapper.git gitweb], [http://www.codemonkey.org.uk/projects/git-snapshots/remapper/ snapshots]) by Al Viro, announced in [http://marc.theaimsgroup.com/?l=git&m=114756555630327 Re: |RFC| Add "rcs format diff" support], is a tool to (re)map position (file name and line number) in one revision to corresponding position (file name and line number) in other revision. E.g. user sends report "linux-2.6.16 with configuration XYZZY fails to compile with: <code><nowiki>arch/wii/kernel/l33t.c:42:parse error</nowiki></code>" and with the remap tool you can map the error report to the current commit's state, when that bit of code got moved around to <code><nowiki>drivers/input/wii/l33tcontrol.c:31337</nowiki></code>. It also already very useful for log comparison, with the noise due to line number changes excluded. Note that it's not just for build logs; the thing is useful for sparse logs, grep -n output, etc., etc. [[BR]] <b>See also:</b> [http://www.linuxworld.com/news/2006/110706-kernel-warnings.html Kernel space: Buried in warnings] article at [http://www.linuxworld.com/ LinuxWorld.com].
+* [http://www.linux.org.uk/pub/people/viro/remapper/ remapper] ([http://www.kernel.org/git/?p=linux/kernel/git/viro/remapper.git gitweb], [http://www.codemonkey.org.uk/projects/git-snapshots/remapper/ snapshots]) by Al Viro, announced in [http://marc.theaimsgroup.com/?l=git&m=114756555630327 Re: |RFC| Add "rcs format diff" support], is a tool to (re)map position (file name and line number) in one revision to corresponding position (file name and line number) in other revision. E.g. user sends report "linux-2.6.16 with configuration XYZZY fails to compile with: <code><nowiki>arch/wii/kernel/l33t.c:42:parse error</nowiki></code>" and with the remap tool you can map the error report to the current commit's state, when that bit of code got moved around to `drivers/input/wii/l33tcontrol.c:31337`. It also already very useful for log comparison, with the noise due to line number changes excluded. Note that it's not just for build logs; the thing is useful for sparse logs, grep -n output, etc., etc. <<BR>> <b>See also:</b> [http://www.linuxworld.com/news/2006/110706-kernel-warnings.html Kernel space: Buried in warnings] article at [http://www.linuxworld.com/ LinuxWorld.com].
+
 === ArcheoloGIT ===
-* In planning stage: an Archeolo<code><nowiki></nowiki></code>GIT tool to help reconstructing history from individual pieces, by Yann Dirson. Written in Perl. See [http://ydirson.free.fr/en/software/ Yann's Software page]. <i>(stalled)</i>[[BR]] <b>Repository:</b> http://ydirson.free.fr/soft/git/argit.git/
+* In planning stage: an ArcheoloGIT tool to help reconstructing history from individual pieces, by Yann Dirson. Written in Perl. See [http://ydirson.free.fr/en/software/ Yann's Software page]. <i>(stalled)</i><<BR>> <b>Repository:</b> http://ydirson.free.fr/soft/git/argit.git/
+
 === git-split ===
 * [http://people.freedesktop.org/~jamey/git-split git-split] by Jamey Sharp and Josh Triplett is a tool to split the history of a git repository by subdirectories and ranges, for example to break single monolithic repository imported from foreign SCM into smaller modules, easier to manage. Written in Python.
 * The core command [http://www.kernel.org/pub/software/scm/git/docs/git-filter-branch.html git filter-branch] can be used to the same effect - examples here: http://log.emmanuelebassi.net/archives/2007/09/when-the-levee-breaks/ .
+
 === gitfs ===
 * [http://www.sfgoth.com/~mitch/linux/gitfs/ GitFS] is a FUSE-based filesystem for working with source trees stored in git repositories. The eventual goal is to provide a convenient way to work with lots of branches and patches. Currently (pre-release version 0.03) only very basic functionality is implemented - read-only access to the existing tags and objects.
+
 === chronoversion ===
 * Chronoversion is a simple Python script which attempts to use the git content tracker to provide chronological snapshots similar to Plan 9's <b>venti</b> filesystem. The two differences are that, being based on git, it isn't a filesystem in the sense of needing kernel support to gain access to the data (so it can be used on systems where you can only install userspace programs) and it allows programatic decisions about what to snapshot, rather than recording everything into the snapshot. By David Tweed. It can be downloaded (at least currently) from [http://www.personal.rdg.ac.uk/~sis05dst/chronoversion.tgz chronoversion.tgz].
+
 === Metastore ===
-* [http://david.hardeman.nu/software.php#metastore Metastore] ([http://git.hardeman.nu/?p=metastore.git gitweb]) by David Hardeman is a tool which allows the metadata to be stored in a separate file which can be stored along with the rest of the data in the repo (or separately). This is also useful for tripwire type checks and for other types of storage which drops some of the metadata (tar comes to mind).[[BR]] <b>Repository:</b> git://git.hardeman.nu/metastore.git
+* [http://david.hardeman.nu/software.php#metastore Metastore] ([http://git.hardeman.nu/?p=metastore.git gitweb]) by David Hardeman is a tool which allows the metadata to be stored in a separate file which can be stored along with the rest of the data in the repo (or separately). This is also useful for tripwire type checks and for other types of storage which drops some of the metadata (tar comes to mind).<<BR>> <b>Repository:</b> git://git.hardeman.nu/metastore.git
+
 === etckeeper ===
-* [http://kitenet.net/~joey/code/etckeeper/ etckeeper] ([http://git.kitenet.net/?p=etckeeper gitweb], [http://kitenet.net/~joey/blog/entry/announcing_etckeeper/ announcement]) by Joey Hess is a collection of tools to let /etc be stored in a git repository. It hooks into apt to automatically commit changes made to /etc during package upgrades. It uses [http://david.hardeman.nu/software.php metastore] to track file metadata that git does not normally support, but that is important for /etc, such as the permissions of /etc/shadow. It's quite modular and configurable, while also being simple to use if you understand the basics of working with git.[[BR]] <b>See also:</b> [http://www.isisetup.ch/ IsiSetup]
+* [http://kitenet.net/~joey/code/etckeeper/ etckeeper] ([http://git.kitenet.net/?p=etckeeper gitweb], [http://kitenet.net/~joey/blog/entry/announcing_etckeeper/ announcement]) by Joey Hess is a collection of tools to let /etc be stored in a git repository. It hooks into apt to automatically commit changes made to /etc during package upgrades. It uses [http://david.hardeman.nu/software.php metastore] to track file metadata that git does not normally support, but that is important for /etc, such as the permissions of /etc/shadow. It's quite modular and configurable, while also being simple to use if you understand the basics of working with git.<<BR>> <b>See also:</b> [http://www.isisetup.ch/ IsiSetup]
+
 === git-cache-meta ===
-* git-cache-meta by jidanni is minimalistic approach to saving file ownership and permissions. It was submitted to <code><nowiki>contrib/metadata</nowiki></code> and can be found in [http://permalink.gmane.org/gmane.comp.version-control.git/105133 |PATCH| git-cache-meta -- file owner and permissions caching, minimalist approach] post at git mailing list.
+* git-cache-meta by jidanni is minimalistic approach to saving file ownership and permissions. It was submitted to `contrib/metadata` and can be found in [http://permalink.gmane.org/gmane.comp.version-control.git/105133 |PATCH| git-cache-meta -- file owner and permissions caching, minimalist approach] post at git mailing list.
+
 === git2cl ===
 * [http://josefsson.org/git2cl/ git2cl] ([http://repo.or.cz/w/git2cl.git gitweb]) by Simon Josefsson is a Perl script to convert git logs to [http://www.gnu.org/prep/standards/html_node/Change-Logs.html GNU ChangeLog] format. The tool expects output from <code><nowiki>git --pretty --numstat --summary</nowiki></code> on standard input. Inspired by [http://www.red-bean.com/cvs2cl/ cvs2cl] tool. <b>References:</b> [http://permalink.gmane.org/gmane.comp.version-control.git/41170 ANNOUNCE: git2cl] message on git mailing list.
 * See also alternate solution: [http://marc.info/?l=git&m=119403382117250&w=2 |PATCH| New script: git-changelog.perl - revised] by Ronald Landheer-Cieslak, with slightly different output, less dependencies, and being standalone command and not a filter.
+
 === gitco ===
 * [http://blog.josefsson.org/?p=8 gitco] by Simon Josefsson is a tiny shell script to remove unversioned files from git directories, similar to [http://www.red-bean.com/cvsutils/ cvsutils] 'cvsco' or subversion's svn-clean.
+
 === gitlsfiles ===
 * [http://ygingras.net/b/tag/gitlsfiles gitlsfiles] is Git plugin for [http://peak.telecommunity.com/DevCenter/setuptools Setuptools], by Yannick Gingras (Python). Setuptools is a collection of enhancements to the Python distutils that allow you to more easily build and distribute Python packages, especially ones that have dependencies on other packages.
+
 === gitosis ===
 * <b>gitosis</b> ([http://eagain.net/gitweb/?p=gitosis.git gitweb], [http://eagain.net/gitweb/?p=gitosis.git;a=blob;f=README.rst;hb=HEAD README] by Tommi 'Tv' Virtanen is a tool to manage git repositories, provide access to them over SSH, with tight access control and not needing shell accounts. Described in [http://eagain.net/blog/2007/10/12/snakepit-and-gitosis.html Tv's cobweb: Snakepit and gitosis, things I've been working on] on author's blog and [http://scie.nti.st/2007/11/14/hosting-git-repositories-the-easy-and-secure-way Hosting Git repositories, The Easy (and Secure) Way] post on [http://scie.nti.st scie.nti.st], Garry Dolley blog. <i>(Python, requires setuptools)</i>
+
 === ssh_acl ===
 * [http://www.inf.ufpr.br/ribas/ssh_acl.html ssh_acl] by Bruno Ribas is a set of bash scripts which can be used to manage Git repositories access.
+
 === libgit-thin ===
-* libgit-thin by Luiz Fernando N. Capitulino and Shawn O. Pearce is an ongoing effort to develop a library for git, which started as a [http://code.google.com/p/google-summer-of-code-2007-git/ Google Summer of Code 2007 project]. Read [http://article.gmane.org/gmane.comp.version-control.git/53433 this announcement] for more details. It also comes with Python bindings called Py<code><nowiki></nowiki></code>Git, wich demonstrate the current capabilities. The git repository of this project can be found under http://repo.or.cz/w/git/libgit-gsoc.git.
+* libgit-thin by Luiz Fernando N. Capitulino and Shawn O. Pearce is an ongoing effort to develop a library for git, which started as a [http://code.google.com/p/google-summer-of-code-2007-git/ Google Summer of Code 2007 project]. Read [http://article.gmane.org/gmane.comp.version-control.git/53433 this announcement] for more details. It also comes with Python bindings called PyGit, wich demonstrate the current capabilities. The git repository of this project can be found under http://repo.or.cz/w/git/libgit-gsoc.git.
+
 === git-buildpackage ===
 * [http://packages.debian.org/git-buildpackage git-buildpackage] is a tool for managing the debian packaging of an application in git. [http://honk.sigxcpu.org/projects/git-buildpackage/manual-html/gbp.html Documentation]. There are other solutions and suggestions for debian packaging and git, for example see [http://wiki.debian.org/GitSrc [[GitSrc]]].
+
 === gitbuilder ===
-* gitbuilder ([http://github.com/apenwarr/gitbuilder/ github], [http://versabanq.com/demo/gitbuild/ demo]) by Avery Pennarun is a set of relatively simple scripts for automatically building git-hosted project, optionally running unit tests, and reporting pass/fail results. In case of failures, it automatically uses [http://www.kernel.org/pub/software/scm/git/docs/git-bisect.html git-bisect(1)] to try to track down the first commit that started failing. It's also smart about branches; it knows how to build each commit only once, no matter how many branches include it, thus greatly simplifying future bisections. [[BR]]<b>See also:</b> [http://permalink.gmane.org/gmane.comp.version-control.git/94449 Announce: gitbuilder, an autobuilder for git-based projects] post on git mailing list.
+* gitbuilder ([http://github.com/apenwarr/gitbuilder/ github], [http://versabanq.com/demo/gitbuild/ demo]) by Avery Pennarun is a set of relatively simple scripts for automatically building git-hosted project, optionally running unit tests, and reporting pass/fail results. In case of failures, it automatically uses [http://www.kernel.org/pub/software/scm/git/docs/git-bisect.html git-bisect(1)] to try to track down the first commit that started failing. It's also smart about branches; it knows how to build each commit only once, no matter how many branches include it, thus greatly simplifying future bisections. <<BR>><b>See also:</b> [http://permalink.gmane.org/gmane.comp.version-control.git/94449 Announce: gitbuilder, an autobuilder for git-based projects] post on git mailing list.
+
 === git-merge-changelog ===
-* The estimable Bruno Haible wrote a merge driver for Change<code><nowiki></nowiki></code>Log files. The driver currently lives in the [http://git.sv.gnu.org/gitweb/?p=gnulib.git;a=blob;f=lib/git-merge-changelog.c gnulib sources].
+* The estimable Bruno Haible wrote a merge driver for ChangeLog files. The driver currently lives in the [http://git.sv.gnu.org/gitweb/?p=gnulib.git;a=blob;f=lib/git-merge-changelog.c gnulib sources].
+
 === Nico Schottelius scripts ===
-* Some of [http://unix.schottelius.org/scripts/ Nico Schottelius (unix|linux) scripts] deal with Git: <code><nowiki>db-dump+git.sh</nowiki></code>, <code><nowiki>update-gitweb.sh</nowiki></code>, <code><nowiki>update-git+cogito.sh</nowiki></code>.
+* Some of [http://unix.schottelius.org/scripts/ Nico Schottelius (unix|linux) scripts] deal with Git: `db-dump+git.sh`, `update-gitweb.sh`, `update-git+cogito.sh`.
+
 === William Morgan git tools ===
-* [http://git-wt-commit.rubyforge.org/ William's miscellaneous git tools] include <code><nowiki>git-wtf</nowiki></code>, a tool for working with feature branches (and its precursor <code><nowiki>git-show-merges</nowiki></code>), <code><nowiki>git-publish-branch</nowiki></code> to ease the task of "publishing" a branch, and <code><nowiki>git-rank-contributors</nowiki></code> which ranks all the contributors by the size of their diffs (as opposed to <code><nowiki>git shortlog --numbered --summary</nowiki></code> which counts number of commits. By William Morgan and Jeff Balogh <i>(Ruby)</i>
+* [http://git-wt-commit.rubyforge.org/ William's miscellaneous git tools] include `git-wtf`, a tool for working with feature branches (and its precursor `git-show-merges`), `git-publish-branch` to ease the task of "publishing" a branch, and `git-rank-contributors` which ranks all the contributors by the size of their diffs (as opposed to <code><nowiki>git shortlog --numbered --summary</nowiki></code> which counts number of commits. By William Morgan and Jeff Balogh <i>(Ruby)</i>
+
 === git-central ===
 * <b>git-central</b> ([http://github.com/stephenh/git-central github]) by Stephen Haberman is a small collections of hooks, scripts, and practices (documentation) for use with a centralized (non-distributed/corporate) git repo. Those include: svn-like revision numbers, combined diff-enabled commit emails, Hudson hooks, Trac hooks, branch locking, etc.
+
 === 0release ===
 * [http://0install.net/0release.html 0release] can be used to make new releases of your software. It handles details such as setting the version number and release date, tagging the release in GIT, exporting, running any unit-tests, uploading the archive, pushing the tag, and updating your Zero Install feed. The workflow is: run the script (creates a tarball), do any manual release testing, then either publish everything or fail the release (reverting to your repository's previous state ready to make changes and try again). Only two user interactions are required: starting the script and confirming the generated release.
+
 ----
 = See also =
 * [[InterfacesFrontendsAndToolsWishlist]]
 * [[Plumbings]]
 * [http://git.or.cz/#tools Git - Related Tools] (at Git homepage)
+
 ----
 [[CategoryTools]] [[CategoryGitHomepage]] ([http://git.or.cz/#tools Related Tools])
 
