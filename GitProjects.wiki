@@ -319,6 +319,10 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * Koha (A library catalog system)
 * http://www.koha.org/ (homepage)
 * http://git.koha.org/ (gitweb)
+* Laconica (Openmicroblogging software)
+* http://laconi.ca/ (homepage)
+* http://gitorious.org/projects/laconica (gitorious)
+* http://identi.ca/ (main instance)
 * Ledger
 * http://www.newartisans.com/software/ledger.html (homepage)
 * http://git.newartisans.com/?r=ledger (cgit)
