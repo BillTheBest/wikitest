@@ -170,6 +170,7 @@
 | gitSafe 
 | teamGit 
 | Git Extensions 
+| [[TortoiseGit]] 
 | 
 |-
 | written in 
@@ -190,6 +191,7 @@
 | C++ 
 | C++ 
 | C#, C++ 
+| C++ 
 | 
 |-
 | UI toolkit 
@@ -210,6 +212,7 @@
 | MFC 
 | Qt4 
 | - 
+| MFC 
 | 
 |-
 | last activity 
@@ -229,6 +232,7 @@
 | 2008 
 | 2008 
 | 2008 
+| 2009 
 | 2009 
 | 
 |-
@@ -250,6 +254,7 @@
 |  
 |  
 | X 
+| Explore 
 | 
 |-
 | history viewer 
@@ -267,6 +272,7 @@
 | X 
 | X 
 | ? 
+| X 
 | X 
 | X 
 | X 
@@ -290,6 +296,7 @@
 |  
 | X 
 |  
+| X 
 | 
 |-
 | (un)stage files 
@@ -308,6 +315,7 @@
 | X 
 | ? 
 |  
+| X 
 | X 
 | X 
 | 
@@ -330,6 +338,7 @@
 |  
 | X 
 |  
+| X 
 | 
 |-
 | checkout 
@@ -347,6 +356,7 @@
 |  
 |  
 | ? 
+| X 
 | X 
 | X 
 | X 
@@ -370,6 +380,7 @@
 |  
 | X 
 | X 
+| X 
 | 
 |-
 | committing 
@@ -387,6 +398,7 @@
 |  
 | X 
 | ? 
+| X 
 | X 
 | X 
 | X 
@@ -410,6 +422,7 @@
 |  
 | some 
 | X 
+| X 
 | 
 |-
 | stash 
@@ -429,6 +442,7 @@
 | ? 
 | X 
 |  
+| X 
 | X 
 | 
 |-
@@ -450,6 +464,7 @@
 |  
 |  
 | X 
+| X 
 | 
 |-
 | interfaces w/ external diff viewers 
@@ -470,6 +485,7 @@
 |  
 |  
 |  
+| X 
 | 
 |-
 | diff +/- highlighting 
@@ -490,6 +506,7 @@
 |  
 | X 
 |  
+| X 
 | 
 |-
 | compare commits 
@@ -509,6 +526,7 @@
 | ? 
 | X 
 |  
+| X 
 | X 
 | 
 |-
@@ -530,6 +548,7 @@
 | ? 
 |  
 | X 
+| X 
 | 
 |-
 | [http://en.wikipedia.org/wiki/Inotify inotify] support 
@@ -544,6 +563,7 @@
 |  
 |  
 | X 
+|  
 |  
 |  
 |  
@@ -570,6 +590,7 @@
 | ? 
 | X 
 |  
+|  
 | 
 |-
 | apply patches via drag'n'drop 
@@ -590,6 +611,7 @@
 | ? 
 | X 
 |  
+|  
 | 
 |-
 | i18n 
@@ -604,6 +626,7 @@
 |  
 |  
 | partial de, fr, hu, it, ja, ru, sv, zh_cn 
+|  
 |  
 |  
 |  
@@ -630,6 +653,7 @@
 | [http://gitsafe.googlecode.com/files/gitSafe%200.0.1.png X] 
 | [http://www.devslashzero.com/image/tde/1 X] 
 | [http://sourceforge.net/project/screenshots.php?group_id=246547 X] 
+| [http://code.google.com/p/tortoisegit/ X] 
 | 
 |}
 
