@@ -1,7 +1,7 @@
 <i>Note: This page is currently a work in progress.  It started out as a private email to someone who currently uses Subversion.  I decided to make it available and try to extend it further. I'll remove this comment when the page is improved.  :)  -- Shawn Pearce</i>
 
 ----
-Although this page is hosted on a Git-specific Wiki it tries to provide a fair and unbiased comparison of Git and [http://subversion.tigris.org/ Subversion] to help prospective users of both tools better evaluate their choices.  This page only describes base Subversion and does not discuss the benefits and drawbacks to using [http://svk.elixus.org/ SVK], a distributed wrapper around Subversion.
+Although this page is hosted on a Git-specific Wiki it tries to provide a fair and unbiased comparison of [http://git-scm.com/ Git] and [http://subversion.tigris.org/ Subversion] to help prospective users of both tools better evaluate their choices.  This page only describes base Subversion and does not discuss the benefits and drawbacks to using [http://svk.elixus.org/ SVK], a distributed wrapper around Subversion.
 
 <i>Some comments for consideration in the next rev: A distinct bias is evident in the pro-svn section, which attempts to mitigate git's disadvantages (e.g., it talks more about how well git UI's are progressing than how incredibly good Subversion's UI's are; likewise, but less so, in 'Shorter Revision Numbers'). Also not mentioned are Subversion's support for http(s) and WebDAV, and its excellent support for Windows (in stark contrast to git's)</i>
 
