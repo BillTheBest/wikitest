@@ -964,6 +964,9 @@
 === git-buildpackage ===
 * [http://packages.debian.org/git-buildpackage git-buildpackage] is a tool for managing the debian packaging of an application in git. [http://honk.sigxcpu.org/projects/git-buildpackage/manual-html/gbp.html Documentation]. There are other solutions and suggestions for debian packaging and git, for example see [http://wiki.debian.org/GitSrc [[GitSrc]]].
 
+=== gear ===
+* [http://en.altlinux.org/Gear Gear] is a tool for building RPM packages from git repositories.
+
 === gitbuilder ===
 * gitbuilder ([http://github.com/apenwarr/gitbuilder/ github], [http://versabanq.com/demo/gitbuild/ demo]) by Avery Pennarun is a set of relatively simple scripts for automatically building git-hosted project, optionally running unit tests, and reporting pass/fail results. In case of failures, it automatically uses [http://www.kernel.org/pub/software/scm/git/docs/git-bisect.html git-bisect(1)] to try to track down the first commit that started failing. It's also smart about branches; it knows how to build each commit only once, no matter how many branches include it, thus greatly simplifying future bisections. <<BR>><b>See also:</b> [http://permalink.gmane.org/gmane.comp.version-control.git/94449 Announce: gitbuilder, an autobuilder for git-based projects] post on git mailing list.
 
