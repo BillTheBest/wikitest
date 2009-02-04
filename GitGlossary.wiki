@@ -1,5 +1,12 @@
 out.txt;3;3
 ----
+
+---- /!\ <b>Edit conflict - other version:</b> ----
 [[CategoryPeople]]
+
+---- /!\ <b>Edit conflict - your version:</b> ----
+[[CategoryPeople]]
+
+---- /!\ <b>End of edit conflict</b> ----
 
 __NOTOC__
