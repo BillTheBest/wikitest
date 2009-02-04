@@ -148,6 +148,9 @@
 === [[TortoiseGit]] ===
 * [http://code.google.com/p/tortoisegit/ TortoiseGit] ([http://repo.or.cz/w/TortoiseGit.git gitweb]) by Li Frank is a port of [http://tortoisesvn.tigris.org/ TortoiseSVN] to Git. It is Microsoft Windows shell (Explorer) extension, written in C++. TortoiseGit is in very early stages of development, implementing currently only minimal set of features.<<BR>><b>See also:</b> [http://github.com/blog/256-tortoisegit-challenge TortoiseGit Challenge] on GitHub.
 
+=== gitg ===
+* gitg ([http://github.com/jessevdk/gitg/ gitg]) by Jesse van den Kieboom is a clone of GitX for gtk+/GNOME. As such it tries to follow the implementation of GitX closely, while providing tight integration into the GNOME desktop.
+
 === Summary (feature matrix) ===
 <!-- ## table begin
  -->
@@ -171,6 +174,7 @@
 | teamGit 
 | Git Extensions 
 | [[TortoiseGit]] 
+| gitg 
 | 
 |-
 | written in 
@@ -192,6 +196,7 @@
 | C++ 
 | C#, C++ 
 | C++ 
+| C 
 | 
 |-
 | UI toolkit 
@@ -213,6 +218,7 @@
 | Qt4 
 | - 
 | MFC 
+|  GTK+ 
 | 
 |-
 | last activity 
@@ -234,6 +240,7 @@
 | 2008 
 | 2009 
 | 2009 
+|  2009 
 | 
 |-
 | tree view 
@@ -255,6 +262,7 @@
 |  
 | X 
 | Explore 
+| X 
 | 
 |-
 | history viewer 
@@ -272,6 +280,7 @@
 | X 
 | X 
 | ? 
+| X 
 | X 
 | X 
 | X 
@@ -297,6 +306,7 @@
 | X 
 |  
 | X 
+| X 
 | 
 |-
 | (un)stage files 
@@ -315,6 +325,7 @@
 | X 
 | ? 
 |  
+| X 
 | X 
 | X 
 | X 
@@ -339,6 +350,7 @@
 | X 
 |  
 | X 
+| X 
 | 
 |-
 | checkout 
@@ -360,6 +372,7 @@
 | X 
 | X 
 | X 
+|  
 | 
 |-
 | cherry-pick 
@@ -381,6 +394,7 @@
 | X 
 | X 
 | X 
+|  
 | 
 |-
 | committing 
@@ -398,6 +412,7 @@
 |  
 | X 
 | ? 
+| X 
 | X 
 | X 
 | X 
@@ -423,6 +438,7 @@
 | some 
 | X 
 | X 
+|  
 | 
 |-
 | stash 
@@ -444,6 +460,7 @@
 |  
 | X 
 | X 
+|  
 | 
 |-
 | format patch 
@@ -465,6 +482,7 @@
 |  
 | X 
 | X 
+|  
 | 
 |-
 | interfaces w/ external diff viewers 
@@ -486,6 +504,7 @@
 |  
 |  
 | X 
+|  
 | 
 |-
 | diff +/- highlighting 
@@ -506,6 +525,7 @@
 |  
 | X 
 |  
+| X 
 | X 
 | 
 |-
@@ -528,6 +548,7 @@
 |  
 | X 
 | X 
+|  
 | 
 |-
 | merge features 
@@ -549,6 +570,7 @@
 |  
 | X 
 | X 
+|  
 | 
 |-
 | [http://en.wikipedia.org/wiki/Inotify inotify] support 
@@ -563,6 +585,7 @@
 |  
 |  
 | X 
+|  
 |  
 |  
 |  
@@ -591,6 +614,7 @@
 | X 
 |  
 |  
+|  
 | 
 |-
 | apply patches via drag'n'drop 
@@ -612,6 +636,7 @@
 | X 
 |  
 |  
+|  
 | 
 |-
 | i18n 
@@ -626,6 +651,7 @@
 |  
 |  
 | partial de, fr, hu, it, ja, ru, sv, zh_cn 
+|  
 |  
 |  
 |  
@@ -654,6 +680,7 @@
 | [http://www.devslashzero.com/image/tde/1 X] 
 | [http://sourceforge.net/project/screenshots.php?group_id=246547 X] 
 | [http://code.google.com/p/tortoisegit/ X] 
+| [http://wiki.github.com/jessevdk/gitg X] 
 | 
 |}
 
