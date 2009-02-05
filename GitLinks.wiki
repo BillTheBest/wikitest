@@ -49,6 +49,8 @@ Miscellaneous git-related links, not including [http://git.or.cz/ Git homepage],
   *[http://lwn.net/Articles/132796/ A very quick guide to starting with git]
   *[http://lwn.net/Articles/210045/ Branching and merging with git (draft)]
   *[http://lwn.net/Articles/246381/ Re: clarification on git, central repositories and commit access lists]
+  *[http://lwn.net/Articles/277872/ Bisection divides users and developers]
+  *[http://lwn.net/Articles/317154/ Fully automated bisecting with "git bisect run"]
 * [http://kerneltrap.org KernelTrap] (all pre 1.0 release):
   *[http://kerneltrap.org/node/4982 Managing the Kernel Source With 'git']
   *[http://kerneltrap.org/node/4998 Continued git Development]
