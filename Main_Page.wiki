@@ -17,7 +17,7 @@ Welcome to the [[Git]] wiki web site. This wiki is a community effort to provide
 
 == Starting points ==
 * [[Installation]]
-* [[InterfacesFrontendsAndTools:Git Tools]] -- <i>Note: Have you written one? Add it here and announce it on the list!</i>
+* [[InterfacesFrontendsAndTools:Git Tools]]&nbsp;&ndash; <i>Note: Have you written one? Add it here and announce it on the list!</i>
 * [[GitDocumentation:Git Documentation]]
 * [[GitCommunity:Git Community Support]]
 * [[GitProjects:Projects using Git]]
