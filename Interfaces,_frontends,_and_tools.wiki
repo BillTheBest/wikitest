@@ -151,6 +151,9 @@
 === gitg ===
 * gitg ([http://github.com/jessevdk/gitg/ gitg]) by Jesse van den Kieboom is a clone of GitX for gtk+/GNOME. As such it tries to follow the implementation of GitX closely, while providing tight integration into the GNOME desktop.
 
+=== Qt Creator ===
+* [http://www.qtsoftware.com/developer/qt-creator Qt Creator] is a lightweight, cross-platform integrated development environment (IDE) for developing with Qt that provides a built in GUI for working with Git repositories.
+
 === Summary (feature matrix) ===
 <!-- ## table begin
  -->
