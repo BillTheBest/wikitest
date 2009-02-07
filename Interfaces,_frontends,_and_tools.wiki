@@ -856,7 +856,7 @@
 * rcs-fast-export ([http://git.oblomov.eu/rcs-fast-export gitweb]) is a Ruby script that can be used to export RCS histories in a form suitable to be piped to fast-import tools (only tested with git's). It parses RCS files directly, without requiring any external tool or library. It exports symbols as lightweight tags, and makes up a decently sensible name for branches, based on their initial revision number. It supports the typical `--authors-file` option to convert from usernames to full author identities, and it has an option to (lightweight) tag each RCS revision with its revision number.
 
 === rpm2git ===
-* [http://www.gnome.org/~federico/news-2008-07.html#rpm2git rpm2git] ([http://gitorious.org/projects/rpm2git/repos/mainline gitorious]) by Federico Mena-Quintero is a tool to help import patches from SRPM (source rpm) into appropriate place in git repository <i>(in Python)</i>. <<BR>><b>See also:</b> [http://blip.tv/file/1155469 How to use rpm2git] screencast.
+* [http://gitorious.org/projects/rpm2git/pages/Home rpm2git] ([http://gitorious.org/projects/rpm2git/repos/mainline gitorious], [http://www.gnome.org/~federico/news-2008-07.html#rpm2git announcement]) by Federico Mena-Quintero is a tool to help import patches from SRPM (source rpm) into appropriate place in git repository <i>(in Python)</i>. <<BR>><b>See also:</b> [http://blip.tv/file/1155469 How to use rpm2git] screencast.
 
 == Hooks ==
 
