@@ -26,6 +26,7 @@ Those are public Git hosting sites where any project can be hosted, perhaps with
 * [http://codebasehq.com Codebase] is a Git hosting service with full online source browser, changeset viewer, ticketing and deployment tracking. Designed for private/company projects. Currently, in free open beta.
 * [http://www.a2hosting.com/ A2Hosting] provides paid Git hosting over SSH.
 * [http://www.projectlocker.com ProjectLocker] offers paid Git hosting with plans starting at 1 GB and integration with Trac.
+* [http://sourcerepo.com] Source Repo provides paid Git hosting along with Trac project management. 
 
 === Project specific Git hosting sites ===
 * [http://www.kernel.org Kernel.org] ([http://git.kernel.org/ gitweb]) for Linux kernel related projects.  Uses [http://git.kernel.org/?p=git/warthog9/gitweb.git gitweb fork] with caching support.<<BR>> Kernel.org accounts are not given away very often, usually you need to be making some reasonable amount of contributions to the Linux kernel and have a good reason for wanting / needing an account.
