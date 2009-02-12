@@ -108,7 +108,7 @@ Only that with Git, the default is to interpret the files as binary to begin wit
 === Change Tracking ===
 Seemingly minor changes to binary files, such as adjusting brightness on an image, could be different enough that Git interprets them as a new file, causing the content history to split. Since Subversion tracks by file, history for such changes is maintained.
 
-<i>Note: This claim is incorrect; it may be based on an earlier version of Git. Both minor and major changes to binary files are both marked as a modification, Git does not interpret them as a new file. -- Tim Uruski</i>
+<i>Note: This claim is incorrect; it may be based on an earlier version of Git. Both minor and major changes to binary files are marked as a modification, Git does not interpret them as a new file. -- Tim Uruski</i>
 
 == Partial Checkout ==
 With Subversion, you can check out just a subdirectory of a repository. Such a thing is not possible with Git.
