@@ -1,4 +1,4 @@
-= List of contact persons =
+List of contact persons
 
 This is a list of people who volunteered to forward messages regarding git to the projects that use git they belong to.
 
@@ -22,14 +22,6 @@ If your favourite project that uses git is not listed, and you are willing to vo
 |-
 | Wine 
 |  
-| 
-|-
-| Emacs Org Mode
-|  
-| 
-|-
-|  Perl 5 
-|  perl5-porters at perl; ask@perl.org 
 | 
 
 __NOTOC__
