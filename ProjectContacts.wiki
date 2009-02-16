@@ -23,5 +23,9 @@ If your favourite project that uses git is not listed, and you are willing to vo
 | Wine 
 |  
 | 
+|-
+| Emacs Org Mode
+|  emacs-orgmode@gnu.org 
+| 
 
 __NOTOC__
