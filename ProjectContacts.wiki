@@ -1,4 +1,4 @@
-List of contact persons
+= List of contact persons =
 
 This is a list of people who volunteered to forward messages regarding git to the projects that use git they belong to.
 
