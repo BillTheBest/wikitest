@@ -53,6 +53,7 @@ A lot of blog posts related to Git usage have been published since the project's
 * [http://triptico.com/notes/8d4510bb.html Matching git-svn strange authors to useful email addresses]
 * [http://triptico.com/notes/736c3681.html Sharing code via email with git]
 * [http://triptico.com/notes/a2826177.html Showing an intermixed short log of a bunch of git repositories]
+* [http://www.dont-panic.cc/capi/2009/02/16/how-to-force-git-to-consider-a-file-as-binary/ How to force Git to consider a file as binary], or to be more exact as not having crlf conversion (for example EPS, Encapsulated PostScript files).
 
 == Advanced stuff ==
 
