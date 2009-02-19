@@ -74,4 +74,11 @@ An Egit version of Compare with latest from head and or Compare with resivision 
 == Partial patches ==
 Make patches with only selected lines of code (submit only 2 of 4 altered lines of code)
 
+== Pending Changes ==
+Add a window/pane in which the pending changes are listed, maybe along with their state of unstaged/staged/etc.
+
+== Git GUI / Gitk ==
+Make the commit dialog more like Git GUI?
+Integrate gitk and git gui a-like UIs?
+
 __NOTOC__
