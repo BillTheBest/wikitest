@@ -32,6 +32,9 @@ Merging changes from one local branch to another.
 
 Again, like fetch I'd like to keep egit/jgit 100% pure Java and implement merge-recursive in Java.  We may need to invoke RCS merge if Eclipse doesn't have its own 3 way file merge algorithm available, or do what core Git just did and implement a 3 way in memory merge algorithm.  git-merge-recursive is only 1336 lines of C so it should not be too difficult to port the algorithm to pure Java.
 
+== Rebase ==
+Rebasing one local branch on another, and the rebase workflow.
+
 == Support linked URIs ==
 [[GitProvider]] does not currently support linked URIs
 
