@@ -128,6 +128,9 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * http://bucardo.org/testdynamic.git/ (Test::Dynamic repository)
 * cksfv (Simple File Verification tool)
 * http://zakalwe.fi/~shd/foss/cksfv
+* Conky(light-weight system monitor for X)
+* http://conky.sourceforge.net/
+* http://git.omp.am/?p=conky.git;a=summary (gitweb)
 * Debian buildd-tools (buildd, sbuild, schroot)
 * http://git.debian.org (gitweb)
 * Debian debpool
