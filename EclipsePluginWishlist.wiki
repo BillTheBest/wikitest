@@ -51,7 +51,7 @@ Add the "Add to .gitignore" entry menu.
 
 Ignored files should also be processed for status handling, initial refusal to add to the tree (require extra confirmation), etc.
 
-[Ferry Huberts]: 20090224 I've started work on implementing support for .gitignore files.
+20090224 I've started work on implementing support for .gitignore files. -- Ferry Huberts
 
 == SVN Integration ==
 It would be swell -- but put it at the bottom of your priority list -- to have git-svn interoperability; sadly most of my git usage at the moment is in cloned svn repositories and it would be great if egit could do the right thing when the current git repo is cloned from svn. What "the right thing" is, exactly, is debatable, but I suppose some kind of integration with the Subclipse plugin is one possibility (and if nothing else, that plugin probably has code that can be reused.) I'd like to be able to update from and commit to the parent svn repository. <i>-- Steven Grimm</i>
@@ -60,6 +60,8 @@ I'm considering this to be out of scope for the time being, but if someone takes
 
 == Support synchronize view and local change sets ==
 It would be really great to have support for Team Synchronize view that would show changed files and also allow to create local outgoing change sets (with those it would be easy to add Mylyn integration to manage them automatically) and maybe incoming change sets too<i> -- Eugene Kuleshov</i>
+
+Also, a simple 'Pending Changes' window would already bring a lot of information to the user. -- Ferry Huberts
 
 == Support for SSH Keys ==
 Could you please add support for SSH Keys. A: AFAIK, we have that <i>-- Robin</i> (to discuss this use the mailing list).
