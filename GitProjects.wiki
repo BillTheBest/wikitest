@@ -62,9 +62,9 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * Google's android
 ** http://source.android.com/download
 * Various projects hosted at Freedesktop.org:
-  http://www.freedesktop.org/wiki/Infrastructure/git (description)<<BR>>
-  http://www.freedesktop.org/wiki/Infrastructure/git/UIFlaws (git UI wishlist)<<BR>>
-  http://gitweb.freedesktop.org/ (repository, gitweb)<<BR>>
+  http://www.freedesktop.org/wiki/Infrastructure/git (description)<br>
+  http://www.freedesktop.org/wiki/Infrastructure/git/UIFlaws (git UI wishlist)<br>
+  http://gitweb.freedesktop.org/ (repository, gitweb)<br>
   http://cgit.freedesktop.org/ (cgit, alternative web front end)
 * X.Org (X server, X libraries, classic X applictions, drivers)
 ** http://xorg.freedesktop.org/wiki/Development/git (description)
