@@ -53,9 +53,9 @@ to the open source community!
 When cloning a large repository (such as KDE, Open Office, Linux kernel) there is currently no way to restart an interrupted clone.  It may take considerable time for a user on the end of a small pipe to download the data, and if the clone is interrupted in the middle the user currently needs to start over from the beginning and try again.  For some users this may make it impossible to clone a large repository.
 
 <b>Goal:</b> Allow git-clone to automatically resume a previously failed download over the native git:// protocol.
-<<BR>><b>Language:</b> C
-<<BR>><b>Mentor:</b> Shawn Pearce (gsoc@spearce.org)
-<<BR>><b>Suggested by:</b> Shawn Pearce [http://article.gmane.org/gmane.comp.version-control.git/55298 on gmane]
+<br><b>Language:</b> C
+<br><b>Mentor:</b> Shawn Pearce (gsoc@spearce.org)
+<br><b>Suggested by:</b> Shawn Pearce [http://article.gmane.org/gmane.comp.version-control.git/55298 on gmane]
 
 == Line-level history browser ==
 
@@ -66,8 +66,8 @@ What is needed, then, is a browser similar to "git log", except that it should b
 Like "git log", it should be possible to see the commits, the diffs (restricted to the interesting area), and code moves.  It would be mighty cool if it could see code copies, too.
 
 <b>Goal:</b> A program that can follow history of line ranges.
-<<BR>><b>Language:</b> C
-<<BR>><b>Mentor:</b> Johannes Schindelin (johannes.schindelin@gmx.de)
+<br><b>Language:</b> C
+<br><b>Mentor:</b> Johannes Schindelin (johannes.schindelin@gmx.de)
 
 = Larger Projects =
 
@@ -87,10 +87,10 @@ this project and take it to places we have never thought possible.
 
 <b>Goal:</b> Save at least 10% on current packv2 for benchmark
 repositories (linux-2.6, git, mozilla, gcc) and boost runtime ~10%.
-<<BR>><b>Language:</b> C
-<<BR>><b>Suggested mentors:</b>
+<br><b>Language:</b> C
+<br><b>Suggested mentors:</b>
 * Shawn Pearce (gsoc@spearce.org)
-<<BR>><b>See:</b> [http://kerneltrap.org/mailarchive/git/2007/2/27/239830 on kerneltrap] and [http://article.gmane.org/gmane.comp.version-control.git/43016 the entire "understanding version 4 packs" thread on gmane]
+<br><b>See:</b> [http://kerneltrap.org/mailarchive/git/2007/2/27/239830 on kerneltrap] and [http://article.gmane.org/gmane.comp.version-control.git/43016 the entire "understanding version 4 packs" thread on gmane]
 
 == "Smart" HTTP based GIT Transport ==
 
@@ -99,8 +99,8 @@ Hosting a publicly available Git repository currently requires a server where a 
 Most of what is required for the "smart" Git transport for this project is already implemented by the bundle facilities that Git already supports but changes to the existing bundle code may be necessary. The CGI component should be implemented in in a language that a majority of web site hosting companies permit to be used with their product offerings and should rely the Git suite of programs for most of the repository manipulation.
 
 <b>Language:</b> Perl, C, shell, other
-<<BR>><b>Goal:</b> Server (CGI) and client that supports fetch & push operation for both authenticated & anonymous clients.
-<<BR>><b>Mentor:</b>
+<br><b>Goal:</b> Server (CGI) and client that supports fetch & push operation for both authenticated & anonymous clients.
+<br><b>Mentor:</b>
 * Shawn Pearce (gsoc@spearce.org)
 
 == Proper git-svn support on Windows ==
@@ -110,8 +110,8 @@ While we have a git-svn in msysGit (that was backed out for some time due to dep
 This project requires knowledge of Perl, and persistence in dealing with the Win32 API.
 
 <b>Language:</b> Perl, C, shell
-<<BR>><b>Goal:</b> Substitute msysGit's Perl with a MinGW based one, and profile git-svn.
-<<BR>><b>Mentor:</b>
+<br><b>Goal:</b> Substitute msysGit's Perl with a MinGW based one, and profile git-svn.
+<br><b>Mentor:</b>
 * Johannes Schindelin (johannes.schindelin@gmx.de)
 
 == Improve git-cheetah, a TortoiseSVN lookalike ==
@@ -121,8 +121,8 @@ git-cheetah is pretty rudimentary at the moment, and its development speed is gl
 Further, git-cheetah was started with X11 and MacOSX support in mind, so at least one of the two should be supported by the end of the project -- again, this should be relatively easy since the GUI part will be offloaded to git-gui.
 
 <b>Language:</b> C, Tcl/Tk
-<<BR>><b>Goal:</b> Make git-cheetah an Explorer plugin everybody wants to have.
-<<BR>><b>Mentor:</b>
+<br><b>Goal:</b> Make git-cheetah an Explorer plugin everybody wants to have.
+<br><b>Mentor:</b>
 * Johannes Schindelin (johannes.schindelin@gmx.de)
 
 == libgit2 ==
@@ -132,8 +132,8 @@ Git's source code was not written to be reentrant, but to execute a program doin
 Shawn Pearce already started libgit2, but as of now most functions are not implemented.  This project's purpose is to implement most of these functions, and maybe provide language bindings for Python, Ruby, etc.
 
 <b>Language:</b> C, doxygen
-<<BR>><b>Goal:</b> Implement enough of libgit2 to access a Git repository from a C program and/or a Python/Ruby/Whatever script.
-<<BR>><b>Mentor:</b>
+<br><b>Goal:</b> Implement enough of libgit2 to access a Git repository from a C program and/or a Python/Ruby/Whatever script.
+<br><b>Mentor:</b>
 * Johannes Schindelin (johannes.schindelin@gmx.de)
 * Shawn Pearce (gsoc@spearce.org)
 
@@ -144,8 +144,8 @@ Subversion protocol on the wire, but uses Git as the backend
 storage. (This would be like the existing git-cvsserver.)
 
 <b>Goal:</b> To be able to access git repository, at minimum read-only, from a Subversion client, at least svn CLI.
-<<BR>><b>Language:</b> Open for proposal.
-<<BR>><b>Suggested mentors:</b>
+<br><b>Language:</b> Open for proposal.
+<br><b>Suggested mentors:</b>
 * Julian Phillips (has a partial python implementation!  at http://git.q42.co.uk/w/git_svn_server.git)
 
 == Narrow and Sparse clone support ==
@@ -161,10 +161,10 @@ This project would implement the shallow, narrow and sparse checkout mechanisms 
 It would accomplish this by downloading all of the commit and tree objects, which are generally small, but only the blobs that you ask for (or just getting the blobs when you need them). It would also allow you to do pushes back.
 
 <b>Goal:</b> Enable narrow and sparse cloning options in Git.
-<<BR>><b>Language:</b> C
-<<BR>><b>Suggested by:</b>
+<br><b>Language:</b> C
+<br><b>Suggested by:</b>
 * Scott Chacon (schacon@gmail.com)
-<<BR>><b>See:</b> [http://n2.nabble.com/Git-and-Media-repositories....-td1446700.html on Nabble]
+<br><b>See:</b> [http://n2.nabble.com/Git-and-Media-repositories....-td1446700.html on Nabble]
 
 == git mirror-sync ==
 
@@ -175,12 +175,12 @@ Includes extensions to the git daemon protocol to handle automatic registration 
 For use for sites such as git.kernel.org, repo.or.cz, github.com, etc.  Implementations of [[GitTorrent]] exist at http://jonas.nitro.dk/gittorrent/libgtp.git/ and http://git.utsl.gen.nz/VCS-Git-Torrent, but the [[MirrorSync]] proposal is a simpler way forward, integrates better with git and would be preferred to proposals that would attempt to finish the [[GitTorrent]] proofs of concept.
 
 <b>Goal:</b> to implement a useful amount of the [[MirrorSync]] proposal (http://code.google.com/p/gittorrent/wiki/[[MirrorSync]])
-<<BR>><b>Language:</b> Open for proposal.
-<<BR>><b>Suggested mentors:</b>
+<br><b>Language:</b> Open for proposal.
+<br><b>Suggested mentors:</b>
 * Jonas Fonseca (designed the original protocol)
 * Johannes Schindelin (interested party) 
 * Sam Vilain (worked on [[GitTorrent]], designed [[MirrorSync]])
-<<BR>><b>See:</b> [[SoC2008Projects:2008 GSoC project]]
+<br><b>See:</b> [[SoC2008Projects:2008 GSoC project]]
 
 == Domain specific merge helpers ([[LaTeX]], [[OpenOffice]], SVG, images or other file types) ==
 
@@ -189,8 +189,8 @@ Git adds conflict markers to text files when there where conflicts while merging
 To be useful with other file types than plain text or (line based) source code, domain specific merge helpers are needed which present the merge conflict in a reasonable form, helping the user to resolve the conflicts.
 
 <b>Goal:</b> to implement a merge helper for at least one additional file type (depending on the file type, one domain specific merge helper might not fill a whole GSoC project)
-<<BR>><b>Language:</b> Open for proposal.
-<<BR>><b>Suggested mentors:</b>
+<br><b>Language:</b> Open for proposal.
+<br><b>Suggested mentors:</b>
 * Johannes Schindelin
 
 = Other Resources =
