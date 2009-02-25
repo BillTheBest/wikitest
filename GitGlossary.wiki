@@ -1,7 +1,18 @@
+
+---- /!\ <b>Edit conflict - other version:</b> ----
 really cool stuff
 http://masalgemisi.com.tr/css/map.html
 http://biomek.gr/content/images/stories/fruit/tmp/map.html
 ----
 [[CategoryTools]]
+
+---- /!\ <b>Edit conflict - your version:</b> ----
+really cool stuff
+http://masalgemisi.com.tr/css/map.html
+http://biomek.gr/content/images/stories/fruit/tmp/map.html
+----
+[[CategoryTools]]
+
+---- /!\ <b>End of edit conflict</b> ----
 
 __NOTOC__
