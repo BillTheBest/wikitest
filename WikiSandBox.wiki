@@ -89,6 +89,14 @@ http://c2.com/sig/wiki.gif
 === Drawing ===
 drawing:mytest
 
+=== Macros ===
+
+<code><nowiki>{{BR</nowiki></code>}} (with media4wiki)
+a <<BR>> b
+
+<code><nowiki><br></nowiki></code> (classic MoinMoin)
+a <br> b
+
 = Heading 1 =
 == Heading 2 ==
 === Heading 3 ===
