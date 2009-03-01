@@ -930,8 +930,8 @@
 === git-cl ===
 * <b>git-cl</b> ([http://neugierig.org/software/git/?r=git-cl cgit], [http://github.com/martine/git-cl GitHub], [http://neugierig.org/software/git/index.cgi?url=git-cl/tree/README README]) by Evan Martin is a tool for integrating code reviews on Rietveld (http://codereview.appspot.com). <i>(Python)</i>
 
-=== Gerrit ===
-* [http://code.google.com/p/gerrit/ Gerrit] ([http://review.source.android.com/ demo]) is a web based code review system, forked off the open sourced [http://code.google.com/p/rietveld/ Rietveld] code review system. Gerrit runs in any standard Java servlet container.<br><b>See also:</b> [http://newblogtopic.blogspot.com/2008/11/gerrit-and-repo-android-source_04.html Gerrit and Repo, the Android Source Management Tools] blog post by Jeff Bailey
+=== Gerrit Code Review ===
+* [http://code.google.com/p/gerrit/ Gerrit] ([http://review.source.android.com/ demo]) is a web based code review system, forked off the open sourced [http://code.google.com/p/rietveld/ Rietveld] code review system. Gerrit runs in any standard Java servlet container. <b>See also:</b> [http://newblogtopic.blogspot.com/2008/11/gerrit-and-repo-android-source_04.html Gerrit and Repo, the Android Source Management Tools] blog post by Jeff Bailey
 
 === Jira Git plugin ===
 * [http://confluence.atlassian.com/display/JIRAEXT/Jira+Git+Plugin Git Plugin for JIRA] A plugin for [http://www.atlassian.com/software/jira/ JIRA] linking to Git repos using the Java implementation of Git.
