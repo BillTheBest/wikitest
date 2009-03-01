@@ -852,7 +852,7 @@
 * There exists proposed `conftib/fast-import/git-sccsimport.py` in [http://marc.info/?i=<c5df85930801200312o7cd5d307v1a39fb35179249a9@mail.gmail.com> fast importer for SCCS files] post by James Youngman on git mailing list, and [http://search.cpan.org/src/HMBRAND/VCS-SCCS-0.11/examples/sccs2git-gfi sccs2git-gfi] importer by Sam Vilain in VCS::SCCS CPAN module.
 
 === Git-bzr ===
-* Git-bzr allows bidirectional synchronization between Bazaar and Git repositories, much like git-svn. However, git-bzr is able to keep all merge history etc. It can be found at [http://github.com/pieter/git-bzr/ github].
+* Git-bzr allows bidirectional synchronization between Bazaar and Git repositories, much like git-svn. However, git-bzr is able to keep all merge history etc. Ruby original can be found at [http://github.com/pieter/git-bzr/ github] ([http://github.com/mcepl/git-bzr/ port to shellscript]).
 
 === bzr-fast-export ===
 * Bazaar frontend for git-fast-import. Announcement [https://lists.ubuntu.com/archives/bazaar/2008q1/038391.html here], lives in the `exporters` subdirectory of the [https://launchpad.net/bzr-fastimport bzr-fastimport project].
