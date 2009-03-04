@@ -25,7 +25,7 @@ If your favourite project that uses git is not listed, and you are willing to vo
 | 
 |-
 | Emacs Org Mode
-|  emacs-orgmode@gnu.org 
+|  
 | 
 |-
 |  Perl 5 
