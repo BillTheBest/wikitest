@@ -694,7 +694,7 @@ If you just want to checkout the latest source code of a project who may has ver
 
 == How do I use git for large projects, where the repository is large, say approaching 1 TB, but a checkout is only a few hundred MB? Will every developer need 1 TB of local disk space? ==
 
-Use shallow clones:
+In general, git is not a viable solution for the the case of a large repository with relatively small individual checkouts. However, if developers do not intend to clone, fetch, push into or push from their repositories, then use shallow clones
 <pre><nowiki>
     git clone --depth 1 <url>
 </nowiki></pre>
