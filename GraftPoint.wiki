@@ -1,41 +1,5 @@
-<b>Graft points</b> or <b>grafts</b> enable two otherwise different
-lines of development to be joined together. It works by letting
-users record <i>fake</i> ancestry information for commits.
-This way you can make git pretend the set of parents a commit has
-is different from what was recorded when the commit was created.
-
-= Reasons for Using Grafts =
-
-Grafts can be useful when moving development to git, since it allows you
-to make cloning of the old history imported from another SCM optional.
-This keeps the initial clone for users who just wants to follow the
-latest version down while developers can have the full development
-history available.
-
-When Linus started using git for maintaining his kernel tree
-there didn't exist any tools to convert the old kernel history.
-Later, when the old kernel history was imported into git from
-the bkcvs gateway, grafts was created as a method for making
-it possible to tie the two different repositories together.
-
-= How to Use Grafts =
-
-On the technical side, graft points are configured via
-the <code><nowiki>.git/info/grafts</nowiki></code> file. It has one record per line
-describing a commit and its fake parents by listing their
-40-byte hexadecimal object names separated by a space and
-terminated by a newline. <pre><nowiki>
-<commit sha1> <parent sha1> [<parent sha1>]*
-</nowiki></pre>
-
-* [http://www.ussg.iu.edu/hypermail/linux/kernel/0604.0/1249.html An example script],
- for downloading the historic linux kernel pack file and inserting grafts point.
-
-* A more readable [http://elinks.cz/grafthistory.sh history grafting script] used by
- the ELinks project.
-
+comment1,
 ----
-[[CategoryGitDocumentation]]
-[[CategoryGlossary]]
+[[CategoryGitHomepage]]
 
 __NOTOC__
