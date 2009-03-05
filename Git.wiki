@@ -1,5 +1,61 @@
-comment4,
+<b>Git</b> is a modern [[DistributedSCM:distributed version control system]] focused on speed, efficacy and real-world usability on large projects. More generally, Git can serve as a general tool for directory content tracking.
+
+Git was created by [[Linus Torvalds]] with assistance from a loosely-knit team of hackers across the Net.  It is currently maintained by [[Junio C. Hamano]].  While Git has no official logo the community has adopted a [[GitRelatedLogos:few favorites]].
+
 ----
-[[CategoryTemplate]]
+<b>Table of contents:</b>
+<<<!-- ! TOC here -->(2)>>
+----
+
+= Design =
+Git was designed to be extremely fast (seconds per patch), distributed SCM with good support for nonlinear history (including working with multiple branches).
+
+* <b>Pure content tracker.</b> The main design idea of Git is <i>"pure content tracking"</i>. Regardless of how you get to a particular state, git will consider that state 100% identical. Consequently, git separates the notion of history (which is purely a list of commits and their relationships), and the notion of place and name of file in filesystem (structure), from the notion of "content", which has no history nor structure in itself.
+** content is stored in <i>blob objects</i>.
+** history is stored in <i>commit objects</i>.
+** structure is stored in <i>tree objects</i>.
+* <b>Storing states.</b> Closely tied with "pure content tracking" is that Git versions <i>whole contents</i> of a project, i.e. revision/commit refers to the snapshot of the top directory tree. Git does not explicitly record file revision relationships at any level below the source code tree; content copying and moving between files (so called "rename detection") is done at runtime.
+<!-- ## Three tier infrastructure: working directory, index, repository
+ -->
+* <b>Index.</b> In addition to <i>object database</i> (<i>repository</i>) Git has a mutable <i>index</i> that caches information about the working directory and the next revision to be committed, storing the information about "interesting" files. It serves as staging area to prepare commits, helps with merge conflicts resolving, and improves performance (and speed of operations is one of driving ideas of Git design).
+<!-- ## Explicit packing
+ -->
+* <b>Explicit packing.</b> Deltafying in Git occurs at low level (plumbing level), and occurs on demand rather than implicitly (although [[Porcelain:porcelains]] may choose to do packing implicitly).
+
+= Git Features =
+== Advantages ==
+* <b>Strong support for non-linear development.</b> Git supports rapid and convenient branching and merging, and includes powerful tools for visualizing and navigating a non-linear development history.
+* <b>Distributed development.</b> Like Bit<code><nowiki></nowiki></code>Keeper and SVK, Git gives each developer a local copy of the entire development history, and changes are copied from one such repository to another. These changes are imported as additional development branches, and can be merged in the same way as a locally developed branch. Repositories can be easily accessed via the efficient Git protocol (optionally wrapped in ssh) or simply using HTTP - you can publish your repository anywhere without any special webserver configuration required.
+* <b>Efficient handling of large projects.</b> Git is very fast and scales well even when working with large projects and long histories. It is commonly an order of magnitude faster than most other revision control systems, and several orders of magnitude faster on some operations. It also uses an extremely efficient packed format for long-term revision storage that currently tops any other open source version control system.
+* <b>Cryptographic authentication of history.</b> The Git history is stored in such a way that the name of a particular revision (a "commit" in Git terms) depends upon the complete development history leading up to that commit. Once it is published, it is not possible to change the old versions without it being noticed. Also, tags can be cryptographically signed.
+* <b>Toolkit design.</b> Following the Unix tradition, Git is a collection of many small tools written in C, and a number of scripts that provide convenient wrappers. It is easy to chain the components together to do other clever things.
+* <b>Pluggable merge strategies.</b> As part of its toolkit design, git has a well-defined model of an incomplete merge, and it has multiple algorithms for completing it, culminating in telling the user that it is unable to complete the merge automatically and manual editing is required. It is thus easy to experiment with new merge algorithms.
+Besides providing a version control system, the Git project provides a generic low-level toolkit for tree history storage and directory content management. Traditionally, the toolkit is called the [[Plumbing:plumbing]]. Several other projects (so-called <i>[[Porcelain:porcelains]]</i>) offer compatible version control interfaces -- see the [http://git.or.cz/#tools related tools page on Git Homepage] and [[InterfacesFrontendsAndTools]] page on this wiki.
+
+== Design Consequences ==
+Some might say that these are disadvantages
+
+* <b>Renames are handled implicitly rather than explicitly.</b> A major complaint with CVS is that it uses the name of a file to identify its revision history, so moving or renaming a file is not possible without either interrupting its history, or renaming the history and thereby making the history inaccurate. Most post-CVS revision control systems solve this by giving a file a unique long-lived name (a sort of inode number) that survives renaming. Git does not record such an identifier, and this is claimed as an advantage. Source code files are sometimes split or merged as well as simply renamed, and recording this as a simple rename would freeze an inaccurate description of what happened in the (immutable) history. Git addresses the issue by detecting renames while browsing the history of snapshots rather than recording it when making the snapshot. (Briefly, given a file in revision N, a file of the same name in revision N-1 is its default ancestor. However, when there is no like-named file in revision N-1, Git searches for a file that existed only in revision N-1 and is very similar to the new file.) However, it does require more CPU-intensive work every time history is reviewed, and a number of options to adjust the heuristics.
+* <b>Periodic explicit object packing.</b> Git stores each newly created object as a separate file. Although individually compressed, this takes a great deal of space and is inefficient. This is solved by the use of "packs" that store a large number of objects in a single file (or network byte stream), delta-compressed among themselves. Packs are compressed using the heuristic that files with the same name are probably similar, but do not depend on it for correctness. Newly created objects (newly added history) are still stored singly, and periodic repacking is required to maintain space efficiency.
+* <b>Garbage accumulates unless collected.</b> Aborting operations or backing out changes will leave useless dangling objects in the database. These are generally a small fraction of the continuously growing history of wanted objects, but checking for dangling objects using <code><nowiki>git-fsck-objects</nowiki></code> and reclaiming the space using <code><nowiki>git-prune</nowiki></code> can be slow. Pruning also breaks immutability of the database. Newer version of git feature a <code><nowiki>git-gc</nowiki></code> command which will combine the pruning and packing.
+
+= Implementation =
+Git has two data structures, a mutable <i>index</i> that caches information about the working directory and the next revision to be committed, and an immutable, append-only <i>object database</i> (repository) containing four types of objects:
+
+* A <i>blob</i> object is the content of a file. Blob objects have no names, timestamps, or other metadata.
+* A <i>tree</i> object is the equivalent of a (sub)directory: it contains a list of filenames, each with some type bits and the name of a blob or tree object that is that file, symbolic link, or directory's contents. This object describes a snapshot of the source tree.
+* A <i>commit</i> object links tree objects together into a history. It contains the name of a tree object (of the top-level source directory), a timestamp, a log message, and the names of zero or more parent commit objects.
+* A <i>tag</i> object is a container that contains reference to another object and can hold additional meta-data related to another object. Most commonly it is used to store a digital signature of a commit object corresponding to a particular release of the data being tracked by Git.
+The object database can hold any kind of object. An intermediate layer, the index, serves as connection point between the object database and the working tree.
+
+Each object is identified by a SHA1 hash of its contents. Git computes the hash, and uses this value for the object's name. The object is put into a directory matching the first two characters of its hash. The rest of the hash is used as the file name for that object.
+
+Git stores each revision of a file as a unique blob object. The relationships between the blobs can be found through examining the tree and commit objects. Newly added objects are stored in their entirety using zlib compression. This can consume a large amount of hard disk space quickly, so objects can be combined into <b>packs</b>, which use delta compression to save space, storing blobs as their changes relative to other blobs.
+
+= References =
+* [http://git.or.cz/#about About Git] at [http://git.or.cz/ Git homepage]
+* [[WikiPedia:Git_(software)|Git (software)]] article at English [http://en.wikipedia.org Wikipedia]
+----
+[[CategoryGitHomepage]] ([http://git.or.cz/#about About])
 
 __NOTOC__
