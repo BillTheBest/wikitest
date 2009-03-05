@@ -1,9 +1,7 @@
 == A note from the maintainer ==
 
-* A newer version of this message may be found in the 'todo' branch in git.git,
+* The newest version of this message can be found in the 'todo' branch in git.git,
  as file [http://repo.or.cz/w/git.git?a=blob_plain;f=MaintNotes;hb=todo [[MaintNotes]]].
- The copy in [http://members.cox.net/junkio/git/MaintNotes.html [[MaintNotes]]] should be
- the latest.
 
 Welcome to git community.
 
@@ -115,7 +113,7 @@ but they are not expected to be anything major, and more
 importantly quickly and trivially fixable.  Every now and
 then, a "feature release" is cut from the tip of this branch and
 they typically are named with three dotted decimal digits.  The
-last such release was 1.5.6 done on Jun 18th this year.  You
+last such release was 1.6.1 done on Dec 24th 2008.  You
 can expect that the tip of the "master" branch is always more
 stable than any of the released versions.
 
@@ -124,7 +122,7 @@ from "master" at that point.  Obvious, safe and urgent fixes
 after a feature release are applied to this branch and
 maintenance releases are cut from it.  The maintenance releases
 are named with four dotted decimal, named after the feature
-release they are updates to; the last such release was 1.5.6.3.
+release they are updates to; the last such release was 1.6.0.6.
 New features never go to this branch.  This branch is also
 merged into "master" to propagate the fixes forward.
 
