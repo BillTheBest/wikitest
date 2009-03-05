@@ -26,7 +26,7 @@ Those are public Git hosting sites where any project can be hosted, perhaps with
 * [http://unfuddle.com/ Unfuddle] (Software Project Management: Git and Subversion Hosting), free (or different payment plans) but not open source.
 * [http://codebasehq.com Codebase] is a Git hosting service with full online source browser, changeset viewer, ticketing and deployment tracking. Designed for private/company projects. Currently, in free open beta.
 * [http://www.a2hosting.com/ A2Hosting] provides paid Git hosting over SSH.
-* [http://www.projectlocker.com ProjectLocker] offers free Git hosting with unlimited repositories and integration with Trac.  Repositories are private, designed for businesses.  Paid plans offer increased storage and users.
+* [http://www.projectlocker.com ProjectLocker] offers free Git hosting with limited storage space and users and integration with Trac.  Repositories are private, designed for businesses.  Paid plans offer increased storage and users.
 * [http://sourcerepo.com SourceRepo] [[SourceRepo]] provides paid Git hosting along with Trac project management. 
 
 === Project specific Git hosting sites ===
