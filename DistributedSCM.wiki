@@ -1,5 +1,18 @@
-comment3,
-----
-[[CategoryHomepage]]
+= Distributed SCM (Software Configuration Management) =
+
+A distributed [[SCM]] tool is designed to support a model in which each repository is loosely coupled to many others. Each repository contains a complete set of metadata describing one or more projects. These repositories may be located almost anywhere. Individual developers only need access to their own repositories, not to a central one, in order to commit changes.
+
+In the distributed approach, each developer works directly with their own local repository, and changes are shared between repositories as a separate step. This mode of operation allows developers to work without a network connection, and it also allows developers full revision control capabilities without requiring permissions to be granted by a central authority. One of the leading proponents of distributed revision control is [[Linus Torvalds]], developer of the Linux kernel. Distributed systems inherently allow multiple simultaneous editing.
+
+Distributed SCMs provide mechanisms for propagating changes between repositories.
+
+Distributed SCMs are in contrast to [[CentralisedSCM]]s.
+
+= Examples =
+* [http://www.bitkeeper.com/ BitKeeper] (`bk`) - proprietary (was used in Linux kernel development December 1999 - April 2005)
+* [http://www.gnu.org/software/gnu-arch/ GNU Arch] (`tla`) aka. GNU Arch 1 — the original Arch. Created and written mainly by Tom Lord, currently maintained by Andy Tai.
+* [http://www.bazaar-ng.org/ Bazaar-NG] (`bzr`) — written in Python. Decentralised and easy to use. Can losslessly import Arch archives. Sponsored by  Canonical Limited
+* [http://www.venge.net/monotone/ Monotone] — full-decentralized in a P2P way, with emphasizis on SCM security: e.g. cryptographic version naming and client-side RSA certificates (was considered for Linux kernel development). 
+* [http://www.selenic.com/mercurial/ Mercurial] (`hg`) — written in Python. Very fast, lightweight, portable, and easy to use.
 
 __NOTOC__
