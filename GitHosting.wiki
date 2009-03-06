@@ -1,5 +1,47 @@
-comment3,
-----
-[[CategoryStatistics]]
+= Public Git hosting sites =
+Here are some places that provide free Git hosting.
+
+List is limited to sites that provide explicit Git hosting, not including generic hosting sites that can be used to host Git repositories.
+
+== General software ==
+Those are public Git hosting sites where any project can be hosted, perhaps with exception to requirements for license used (some hosting sites require project to be open source or free software).
+
+* [http://repo.or.cz/ repo.or.cz], public Git hosting site, maintained by Petr Baudis.  Very basic custom web interface for creating or forking projects, uses gitweb with custom modifications as web interface.  The first public Git hosting site.
+* [http://savannah.gnu.org Savannah] ([http://git.sv.gnu.org/gitweb/ gitweb]) is hosting facility for [http://www.gnu.org/gnu/thegnuproject.html GNU software], with companion site [http://savannah.nongnu.org savannah.nongnu.org] for hosting [http://www.gnu.org/philosophy/free-sw.html Free Software].  Savannah uses [https://savannah.nongnu.org/p/savane-cleanup clean-up branch of Savane], which does have [https://savannah.gnu.org/maintenance/Git Git support]<br> <b>See also:</b> [http://savannah.gnu.org/maintenance/UsingGit [[UsingGit]]] (user) documentation.
+* [http://www.sourceforge.net SourceForge.net] software development site
+* [http://sourceforge.jp/ SourceForge.JP] provides Git hosting for open source projects, including gitweb. See [http://sourceforge.jp/forum/forum.php?forum_id=16362 documentation]
+* [http://sshcontrol.com/ SSHControl.com] provides public free and paid Git, Subversion, and Mercurial project hosting over SSH.
+* [http://tuxfamily.org TuxFamily] ([http://git.tuxfamily.org/ gitweb]) is hosting facility for FLOSS software (software with libre license, for example GPL, BSD, CC-BY-SA, Art Libre,...).  Includes support for Git repositories.  Moderators speak English, French and Spanish.<br> <b>See also:</b> [http://faq.tuxfamily.org/GIT/En GIT/En] (in English) and [http://faq.tuxfamily.org/GIT/Fr GIT/Fr] (in French) wiki pages.
+* [http://gitorious.org/ Gitorious] offers Git hosting to free / open source projects.  Its aim is to provide way of doing <i>distributed</i> opensource code collaboration.  [http://gitorious.org/projects/gitorious Gitorious engine], which also provides web interface for Git repositories, is opensource too.   Written by Johan S&oslash;rensen, in Ruby (Ruby on Rails, Mongrel)<br> <b>See also:</b> [http://rashkovskii.com/articles/2008/1/9/gitorious Gitorious] post on [http://rashkovskii.com/ Yurii Rashkowskii's blog]
+* [http://www.indefero.net InDefero] offers Git hosting with private/public projects, bug tracking, code review and more (it started as a Google Code clone), the full code of InDefero is available (GPL).
+* [http://github.com/ GitHub] is public Git hosting site for both public, open source projects and private, proprietary codes.  GitHub is not open source.<br> <b>See also:</b>
+** [http://railsontherun.com/2008/3/3/how-to-use-github-and-submit-a-patch Rails on the Run - How to use github and submit a patch]
+** [http://tomayko.com/writings/github-is-myspace-for-hackers GitHub: My Kind of Social Software] by Ryan Tomayko
+** [http://railstips.org/2008/2/16/git-and-github Git and GitHub // [[RailsTips]].org by John Nunemaker]
+** [http://pauldowman.com/2008/07/26/got-git/ Paul Dowman » Blog Archive » Got Git] (why people chose GitHub).
+* [http://repoz.org/ repoz.org], a public and free Git repository hosting service.  Provides restricted shell to upload to server.  Contact by email.
+* [http://www.berlios.de Berlios] provides Git hosting for open source projects, including gitweb. See [http://developer.berlios.de/docman/display_doc.php?docid=1812&group_id=2 documentation]
+* [http://thechaw.com/ The Chaw], from the authors of [https://www.ohloh.net Ohloh]
+* [http://www.assembla.com Assembla] provides free git hosting for public and private projects if you use under 200Mb of disk space. [http://trac-git.assembla.com/breakout/browser Assembla site] is open source, but not free.
+* [http://unfuddle.com/ Unfuddle] (Software Project Management: Git and Subversion Hosting), free (or different payment plans) but not open source.
+* [http://codebasehq.com Codebase] is a Git hosting service with full online source browser, changeset viewer, ticketing and deployment tracking. Designed for private/company projects. Currently, in free open beta.
+* [http://www.a2hosting.com/ A2Hosting] provides paid Git hosting over SSH.
+* [http://www.projectlocker.com ProjectLocker] offers Git hosting and integration with Trac. Repositories are private, designed for businesses.  Free plans give limited space and users, and paid plans offer increased storage capacity and number of users.
+* [http://sourcerepo.com SourceRepo] [[SourceRepo]] provides paid Git hosting along with Trac project management.
+
+=== Project specific Git hosting sites ===
+* [http://www.kernel.org Kernel.org] ([http://git.kernel.org/ gitweb]) for Linux kernel related projects.  Uses [http://git.kernel.org/?p=git/warthog9/gitweb.git gitweb fork] with caching support.<br> Kernel.org accounts are not given away very often, usually you need to be making some reasonable amount of contributions to the Linux kernel and have a good reason for wanting / needing an account.
+* [http://www.freedesktop.org/wiki/ Freedesktop.org] ([http://gitweb.freedesktop.org gitweb], [http://cgit.freedesktop.org/ cgit]), for X Window System desktop (Linux desktop infrastructure) related projects.  Registering is managed by adding project registering request in Bugzilla.<br> <b>See also:</b> [http://www.freedesktop.org/wiki/Infrastructure/git Infrastructure/git] (formerly UsingGit) page on freedesktop.org wiki.
+* [http://alioth.debian.org/ Alioth] ([http://git.debian.org/ gitweb]) is a [http://www.debian.org/social_contract#guidelines free software] hosting system managed by the [http://www.debian.org/ Debian] project, which runs a slightly modified version of the [http://gforge.org/ GForge] software.  Most of the projects hosted by Alioth are packaging existing software in the Debian format.<br> <b>See also:</b>
+** [http://wiki.debian.org/Alioth/Git Alioth/Git] page on [http://wiki.debian.org/ Debian Wiki]
+** [http://roland.entierement.nu/blog/2006/08/17/bits-about-alioth.html Roland weblog - Bits about Alioth] (description)
+** [http://www.debian.org/News/weekly/2006/34/ Debian Weekly News #34 - August 22nd, 2006] (announcement)
+* [http://hosted.fedoraproject.org Fedora Hosted] is a [http://fedoraproject.org/ Fedora Project]-sponsored way for developers to host their code and collaborate online.  It provides each project with source control via git, Mercurial, bzr, and others, as well as a bug tracker and wiki via Trac.  New project requests must be filled via Fedora Inftastructure Trac instance.  (Primarily Fedora related but open to other Free software projects too).
+* [http://rubyforge.org/ RubyForge] is a home for open source Ruby projects.  RubyForge Git repositories are managed via gitosis; gitosis does authentication via public keys.  RubyForge is based on GForge engine.<br> <b>See:</b>
+** [http://drnicwilliams.com/2008/04/08/git-for-rubyforge-accounts/ Git for Rubyforge accounts] post on [http://drnicwilliams.com/ Dr Nic] blog.
+* http://git.postgresql.org/ provides Git hosting for [http://www.postgresql.org/ PostgreSQL] and related projects.
+== Other links ==
+* [http://www.simplicidade.org/notes/archives/2008/03/git_hosting_sit.html git hosting sites] article at [http://www.simplicidade.org/notes/ simplicidade blog] (Gitorious and [[GitHub]]).
+* [[WikiPedia:Comparison_of_free_software_hosting_facilities|Comparison of free software hosting facilities]] at Wikipedia.
 
 __NOTOC__
