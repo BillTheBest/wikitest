@@ -1,5 +1,760 @@
-comment2,
+= Git User's Survey 2006 summary =
+(I'm going to summarize git survey incrementally here)
+Note that count is not exactly number of people.
+
+<b>Table of contents:</b>
+
+<<<!-- ! TOC here -->(2)>>
+
+== 1. What country are you in? ==
+<pre><nowiki>#!CSV
+      Count;Country
+      3;Australia
+      2;Austria
+      1;Belarus
+      2;Brazil
+      1;British Isles
+      3;Canada
+      1;Chile
+      2;China
+      2;Czech Republic
+      4;Denmark
+      2;England
+      1;Estonia
+      1;Europe
+      5;Finland
+      6;France
+     14;Germany
+      1;Indian
+      3;Italy
+      1;Lithuania
+      3;Netherlands
+      1;Norway
+      1;Philippines
+      3;Poland
+      2;Russia
+      1;South Africa
+      2;Spain
+      6;Sweden
+      1;Switzerland
+      1;UAE
+      5;United Kingdom
+     35;United States
+      1;Vietnam
+</nowiki></pre>
+== 2. What is your preferred non-programming language? ==
+<pre><nowiki>#!CSV
+      Count;Language
+      1;Belarusian
+      1;Chinese
+      2;Czech
+      5;Danish
+      4;Dutch
+     71;English
+      1;Estonian
+      4;Finnish
+      5;French
+     12;German
+      3;Italian
+      1;Japanese
+      3;Polish
+      4;Russian
+      4;Spanish
+      5;Swedish
+      1;Vietnamese
+</nowiki></pre>
+
+== 3. How did you hear about GIT? ==
+<pre><nowiki>#!CSV
+      Count;Answer
+      4; Friends
+      1; GCC
+      5; Either Carl Worth, Keith Packard, David Greaves, Pasky, Jonas
+      1; I wrote it
+      5; KernelTrap
+      2; linuxppc-embedded
+     74; LKML
+     11; LWN
+      1; Monotone
+      6; Other
+      5; Slashdot
+      1; The Register
+      2; U-Boot
+      3; Xorg
+</nowiki></pre>
+
+== 4. Did you find GIT easy to learn? ==
+<pre><nowiki>#!CSV
+  Count;Answer
+  6 ; Very easy
+  21 ; Easy
+  64 ; Reasonably
+  23 ; Hard
+  3 ; Very hard
+</nowiki></pre>
+
+== 5. What helped you most in learning to use it? ==
+<pre><nowiki>#!CSV
+      Count;Answer
+     38; documentation (including online tutorials..)
+     27; man pages
+     17; mailing list (both git and lkml)
+      11; practice
+      8; Cogito
+      7; examples
+      5; google
+      5; GIT code
+      5; Carl Worth, Keith Packard, Pasky, Jeff Garzik
+      4; experience
+      4; Everyday GIT
+      3; #git
+      3; friends
+      2; Git wiki
+      1; Writing StGIT
+      1; Writing pg, a StGit-like patch stack frontend to GIT.
+      1; Wine wiki
+      1; time
+      1; Ottawa (OLS) tutorials
+      1; gitk
+</nowiki></pre>
+
+== 6. What did you find hardest? ==
+
+Note: "poor documetation" is not mentioned here. Please grep -i "doc" for it.
+
+<pre><nowiki>#!CSV
+     Count;Summary;Detail
+     29;too many commands;The "too many commands" usually because mixing of porcelain commands and low-level commands. Also there are complaints about too many command options, some doesn't have enough documentation such as git-diff-*
+     19;index;there is a suggestion to refer it as "cache" for easier understanding. Another mentioned about the index manipulation after a "git reset --soft".
+      8;merge; and merge conflict, why merge fails
+      7;distributed nature;
+      4;comparison with other vcs; about (esspecially) concepts, workflow, commands...
+      3;push/pull;
+      3;git concepts; blobs, trees, commits..
+      4;error messages;not descriptive enough to identify the source of errors, "empty commit" message
+      3;cherry picking; one recommended StGIT
+      2;setting up the remote repository;
+      2;git work flow;
+      1;refspec;
+      1;rebase;
+      1;Network protocol changes;
+      1;topic branches; examples?
+      1;git vs cogito;
+      1;branches vs tags;
+      1;branches;
+      1;bisect;
+      1;;GIT repository via a strict firewall
+      1;;Working out which commands operated on the working tree, which on the index, and which on commits (e.g. git diff).
+      1;;Understand the check-in and check-out stuff.
+      1;;Understanding where the patch repositories are located, and how to determine patch order.
+      1;;The fact git will let you destroy your work trivially, the poor design of the merge system.
+      1;;Still not confidant in doing anything other than cloning
+      1;;how to reorder fixes and cherrypick fixes from my other temporary git trees
+      1;;git diff not showing diff for files updated to index
+      1;;Generating mail with all the patches created
+      1;;Accidentally commiting master branch Difference between pull/commit
+</nowiki></pre>
+
+== 7. When did you start using git? ==
+
+In summary, there are 18 started using GIT from the beginning. 47 others started in 2005. 42 started in 2006. One started using from GIT v0.9, one from 0.98, one from 1.0. Two started from elinks git conversion. See the below table for details.
+
+<pre><nowiki>#!CSV
+      Count;Time
+      1;GIT 0.9
+      1;GIT 0.98
+      1;GIT 1.0
+      9;Sometime in 2005
+      1;200502
+      3;200504
+      4;200505
+      6;200506
+      1;200507
+      6;200508
+      6;200509
+      5;200510
+      1;200511
+      2;200512
+      1;2005 Q2
+      2;2005 Q3
+      3;Sometime in 2006
+      8;200601
+      4;200602
+      2;200603
+      5;200604
+      7;200605
+      4;200606
+      6;200607
+      1;2006 Q1
+      2;elinks conversion
+      1;git-pasky-0.3
+     17;From the beginning
+      2;Cogito annoucement
+      1;xcb conversion 200602
+      1;Xorg conversion
+</nowiki></pre>
+
+== 8. How you use GIT? Do you use GIT for ... ==
+<pre><nowiki>#!CSV
+   Count;Purpose
+   14;Work
+   50;Unpaid projects
+   53;Both
+</nowiki></pre>
+
+== 9. How do you obtain GIT ==
+<pre><nowiki>#!CSV
+   Count; Method
+   33;Source tarball
+   31;Binary package
+   53;Pull from main repository
+</nowiki></pre>
+
+== 10. What hardware platforms do you use GIT on? ==
+Some hardwares I'm not sure, so left them as is. If you know them, please edit the table.
+
+<pre><nowiki>#!CSV
+      Count;Architecture
+    101;ia32
+     39;amd64 / x86-64
+     12;ppc
+      6;sparc
+      3;sparc64
+      3;ia64
+      2;ppc64
+      1;x64_32
+      1;SGI Onyx 2
+      1;power4
+      1;power3
+      1;PC Laptop IBM T30
+      1;parisc
+      1;mac ibook g4
+      1;IBM ThinkPad laptop, 64 MB
+      1;arm
+      1;Apple PowerBook G4 1.5GHz Quantex Laptop P3 400MHz
+      1;Apple iBook
+      1;alpha
+</nowiki></pre>
+
+== 11. What OS (please include the version) do you use GIT on? ==
+Most is Linux. 14 for Cygwin. 4 for FreeBSD. One for IRIX, NetBSD and HP-UX. 10 for Mac OS X. 3 for Solaris.
+
+<pre><nowiki>#!CSV
+Count;OS
+      1; AIX
+      7; Cygwin
+      2; Cygwin Windows 2000
+      3; Cygwin Windows XP
+      1; Cygwin Windows XP Professional
+      1; Cygwin Windows XP SP2
+      1; Darwin 8.6.0
+      1; FreeBSD
+      1; FreeBSD 6.0
+      1; FreeBSD 6-stable
+      1; FreeBSD 7-current
+      1; HP-UX 11i
+      1; IRIX
+      3; Mac OS X
+      1; Mac OS X 10.3
+      1; Mac OS X 10.3.9
+      1; Mac OS X 10.4
+      2; Mac OS X 10.4
+      1; Mac OS X 10.4.6
+      2; Mac OS X 10.4.7
+      1; NetBSD 3.0
+      2; Solaris
+      1; Solaris 10
+      1; Solaris 9
+</nowiki></pre>
+
+Linux table
+
+<pre><nowiki>#!CSV
+Count;Distro
+     15; Linux
+      4; Linux 2.4
+     17; Linux 2.6
+      3; Linux Arch
+      4; Linux Debian
+     12; Linux Debian Etch
+      4; Linux Debian Sarge
+     18; Linux Debian Sid
+      6; Linux Debian Stable
+      1; Linux FC
+      2; Linux FC2
+      4; Linux FC3
+      4; Linux FC4
+     11; Linux FC5
+      1; Linux FC6
+      3; Linux FC Rawhide
+      9; Linux Gentoo
+      1; Linux Gentoo 2005.1
+      1; Linux Gentoo 2006.1
+      1; Linux Mandrake 2005LE
+      1; Linux Mandriva 2006
+      1; Linux OpenSuSE
+      1; Linux Red Hat 6.2
+      2; Linux Red Hat 8.0
+      1; Linux RHEL
+      1; Linux RHEL3
+      1; Linux RHEL4
+      1; Linux Slackware
+      4; Linux Slackware 10.2
+      1; Linux Slackware-current
+      1; Linux Slackware-current
+      1; Linux slamd64 10.1
+      2; Linux SLED 10
+      2; Linux SLES 10
+      1; Linux SLES 9
+      1; Linux SLES 9 SP3
+      4; Linux SuSE
+      1; Linux Ubuntu
+      1; Linux Ubuntu 5.10
+     14; Linux Ubuntu 6.06
+      1; Linux Ubuntu 6.10
+      1; Linux Ubuntu breezy
+      1; Linux Ubuntu hoary
+      1; Linux Ubuntu warty
+</nowiki></pre>
+
+== 12. How many people do you collaborate with using GIT? ==
+<pre><nowiki>#!CSV
+     32;0
+      6;1
+     10;2
+      9;3
+      5;4
+      9;5
+      1;6
+      2;7
+      8;10
+      1;12
+      2;15
+      3;20
+      2;25
+      1;30
+      1;40
+      1;80
+      2;cairo ~25
+      4;Linux
+      2;U-Boot
+      1;v4l-dvb
+      1;Wine
+      1;XCB
+      1;XCB ~10
+      2;xorg ~50
+</nowiki></pre>
+
+== 13. How big are the repositories that you work on? (e.g. how many files, how much disk space, how deep is the history) ==
+
+TODO
+
+== 14. Empty ==
+
+== 15. Which porcelains do you use? ==
+<pre><nowiki>#!CSV
+Count;Porcelain
+     62;git
+     22;cogito (maybe plus git-format-patch, gitk, tig, qgit)
+     11;stgit
+      5;qgit
+      5;gitk or gitweb
+      2;pg
+</nowiki></pre>
+
+== 16. Is the git.git repository including codes produced by you? ==
+73 say no. 34 say yes.
+
+== 17. What you think of GIT? Overall, how happy are you with GIT? ==
+(There're lots of reasons behind these numbers. Need an analysis)
+
+<pre><nowiki>#!CSV
+Count;Answer
+1;Unhappy (maybe more because I might have classified some into "Not so happy" instead of this category)
+19;Not so happy
+53;Happy
+41;Very happy
+ 1;Completely ecstatic
+</nowiki></pre>
+
+== 18. How does GIT compare to other SCM tools you have used? ==
+(There're lots of reasons behind these numbers. Need an analysis)
+
+<pre><nowiki>#!CSV
+Count;Answer
+8;Worse
+20;Equal (or uncomparable)
+80;Better
+</nowiki></pre>
+
+== 19. What do you like about using GIT? ==
+The most loved features are speed, distributed nature, visualization, merging, git design, branching
+
+<pre><nowiki>#!CSV
+Count;Answer;Note
+      3; amend;git commit --amend
+     19; branch; ease of branching, topic branch...
+      3; cherry-picking;
+      1; cli;
+      2; collaboration; encourage collaboration
+      1; color; git diff --color
+      3; community;
+     11; design;
+     30; distributed;
+      1; dump transport; can work with http only
+      4; easy to use;
+      3; everything;
+      1; fast development;
+      3; flexibility;
+      5; free;GPL
+      3; git bisect;
+      2; git daemon;
+      3; git diff;
+      1; git grep;
+      2; git log;
+      2; git log -p;
+      2; git log -S;
+      1; git rev-parse syntax; HEAD, HEAD^2...
+      1; git show;
+      4; gitweb;
+      1; history rewriting;
+      1; http/webdav;
+      1; implicit rename;
+      1; index;
+      1; integrity check;
+     16; merge;
+      3; patch;patch support, including git format-patch and friends, probably including stgit too
+      1; rebase;
+      1; sign off;
+      2; simplicity;
+      1; small;GIT binaries
+      3; space;packs
+     40; speed;
+      1; stable;
+      3; StGIT;
+      9; unix philosophy;
+     11; visualization;gitk, qgit and friends
+      3; workflow;
+</nowiki></pre>
+
+== 20. What would you most like to see improved about GIT? (features, bugs, plugins, documentation, ...) ==
+
+Note: I got dizzy digging into this answer set. I dropped some answers because I thought those were either not important nor vast. If someone is brave enough to review the raw data again and update this question, you are really welcome.
+
+There are various ideas in the answers. Documentation related answers account the most (43 counts) followed by UI's (13) shallow/lazy/partial cloning (10), win32 native binaries, subproject support and some kind of plugins (all 9 counts).
+
+<pre><nowiki>#!CSV
+Count;Answer class;Note
+     44;documentation; See below
+     13;UI; See below
+     10;shallow/lazy/partial cloning;
+      9;win32 native binaries;
+      9;subproject support;
+      9;other kinds of plugins;See below
+      7;remote repositories;See below
+      6;merge-related;See below
+      6;libification
+      5;error-related;See below
+      5;Eclipse plugin and others;
+      4;GUI;Among others: gitk having the ability to graphically cherry pick fixes and initiate cleanup operations on the tree (rebasing to eliminate empty commits)
+      4;git-undo;See below
+      4;bugs;Just simply that, don't know what exact bug
+      4;auto repack;
+      3;rename;(It seems to be implemented already. We may need more documentation)
+      3;gitweb;git-blame, something about header/footer templates so that people can change it without touching gitweb code
+      3;design;incremental storage of changes for very big files. Redesign the git "backend storage", so that things like git-repack can go away. better objects store. Its better to have one BerkDB or GDBM file than 1000000 files named b5659bb2a599d0649871f56b59819c50 or whatever.
+      2;portability;less dependency on script languages. Non-ascii file name handing across machines and platforms (UTF-8 vs ISO-8859-1)
+      2;performance;fast recursive merge strategy (almost done) and a packing strategy on memory-starved machines (<=256M)
+      8;others;See below
+</nowiki></pre>
+
+Regarding to documentation. Here is some ideas:
+
+* Make "The GIT Book"
+* Comparison with other SCMs
+* Common work flow cases simplified, especially WRT extracting patches for new development in the face of criss-crossed merges.
+* consistency in command options (--blah=bluh and --blah bluh for example)
+* Document <b>every</b> command options. git-diff options especially
+* How to deal with failed merges
+* Command classification: plumbing/porcelain/ancillary, C/Python/Bash, works on working tree/index/respository, manipulation/integration/syncing
+* GIT server setup, GIT remote repository setup
+* I'd like to see a tutorial that doesn't just teach you the commands, but walks you through the repository format and what it looks like; talk about the content-addressable filesystem, the various types of objects, how they work together, and what the commands change. I don't mean that this tutorial should show all the low-level plumbing commands; rather, it should what the porcelain commands do to the repo. I found that I understood GIT far better by understanding how it works.
+* More recipe'like examples, with step by step instruction for various tasks.
+* The documentation doesn't explain *why* I would ever use a command
+* More workflow
+
+As for UI:
+* better/consistent look'n'feel (something SVN and darcs get very right)
+* Cleaning up the user interface and separating the "porcelain" from the "plumbing". Hide plumbing parts from users and $PATH (keep them in /usr/lib/git for example)
+* cogito-like frontend in main distribution
+* don't provide several commands that does almost the same thing (git-am vs git-applymbox, git-blame vs git-annotate and so on) Merge them or keep the best version and get rid of the other one.
+* I'd like to see "git-diff" mean something saner, namely a diff between the working copy and the last commit, like cg-diff
+* increased verbosity about progresses. e.g. transfer rate or percentage. i have a slow connection and never know when it got stuck. another problem with slow connections is, that you cant resume a clone i.e. you transfer the complete repository with 14kb/s. on failure you have to restart; this sucks hugely
+* PLEASE GOD FIX THE UI
+* shortcuts for common commands (I think he meant default shortcuts)
+
+The "other kinds of plugins" includes StGIT integration (3 counts), SCM integration (Subversion, Bazaar and Mercurial) and another comment for git-svn*:
+* The SVN import tools can be difficult to use on some repostories like most of the ones on sourceforge that have been converted with cvs2git, and have a structure like trunk/projectA, trunk/projectB, branches/branchA/projectA, branches/branchA/projectB, which is a silly layout but seemingly common. This is difficult if I only want one of the projects, but want the branches and tags
+
+Regarding to "remote repositories"
+* better compression on the downloads
+* better packing for dumb (HTTP-only) servers
+* git-daemon with push support (+ seperate authentification database)
+* git server over cgi
+* Repository creation over HTTP/WebDAV
+* I'd like to see an easier way to push changes to a remote repository on a machine without GIT installed. Pushing via SSH requires GIT installed on the remote machine. Currently, I get around this by using sshfs.
+* Related to that, I'd like to see it made far easier to create a remote repository given a local one. Right now you have to create the remote repository first, possibly enable a hook (if HTTP access desired), set up a new remote to that repo, and then push. How about a new command that does all of that automatically; just run it with a repository URL, and optionally a name for the new remote branch, and it creates the remote repo, sets up the remote, optionally but by default enables the HTTP access hook, and pushes. Ideally, this functionality could become part of git-push, so that git-push creates the remote repo if it doesn't exist.
+
+Here is merge-related comments:
+* check for merge conflicts without actual merge (git-diff --show-conflicts <1> <2>)
+* git-pull's behavior of merging in the first refspec to the current branch is very bad and has caused us serious repository issues in xorg.
+* graphical merger (meld)
+* Hierarhichal merges ala Accurev with a nice speedy GUI (Accurev's java gui is shit)
+
+About error messages:
+* error handling. I have couple times messed my repo so that I can't do Pull or push.
+* make the error messages more helpful
+* more error conditions and produce better diagnostics
+* More helpful error messages.
+* proper error messages that give some idea of what is going wrong.
+
+There are some ideas about "git-undo":
+* I'd also very much like to be able to use it in a sand-box mode where I can perform small commits for the sake of development and then roll some or all of them into a single changeset for pushing upstream.
+* make it easy to undo things. Eg there is no generic "git-undo"
+* '--undo' option for each command: 'git commit --undo' undoes the last commit, 'git update-index --undo' undoes the last update-index etc., so I don't have to remember how to undo that particular operation (was it --soft, --mixed, ^HEAD , or...)
+* Would like the ability to more easily remove a bad commit from the middle of a tree (in many cases the tree is not the parent of any other tree so it should be harmless to reorder the later fixes).
+
+Others include:
+* patch handling (cherry picking). Migrating individual patches from one repository to another
+* git-commit --review (as in cogito)
+* I'd like to see *all* git commands work in subdirectories of the repository, and automatically go up until they find a .git directory
+* Read settings from ~/.gitrc, then read the settings in a given repo. Many settings make more sense on a per-user basis rather than a per-repo basis, such as the settings for git-imap-send
+* Topic branch management
+
+== 21. If you want to see GIT more widely used, what do you think we could do to make this happen? ==
+
+Those "See Q20" answers were removed.
+
+* Localization and internationalization support.
+* Get more high-profile projects using GIT, and others will follow.
+* Adverisement. I still see people who doesn't know about git and use cvs/svn
+* Beat Mercurial.
+* No scripts for the basic commands (such as git-fetch)
+* Encrypted and authenticated git protocol (using ssl or tls)
+* better gitweb interface, (subdirs, multilevel, more like webcvs)
+* Convince big sites like sf.net to provide GIT repository hosting.
+* Evangelism
+* Evangelism. Publicity and soliciting feedback.
+* force sourceforge, freshmeat, ... to use git
+* Force to use in open source project
+* For open source projects - get it made available at some source hosting sites. Those of us with dumb HTTP only webspace can't use the git: protocol for projects and this is a bit limiting. For corporate take up : it needs to look more polished and mature to 'corporate' types. Not sure what's needed to achieve this.
+* get it adopted by main distros, renaming extensions to help people make the link (eg: git-ui instead of cogito), and write a small book on it to group all docs in a more structured manner.
+* Get the distributions to pick it up. Good interface for Windows users (even just for checking out/remote use)
+* GIT has to be used by big projects
+* Help people understand that losing the history from their old revision control system is not the end of the world. Just cut away with a clean import and use the old VCS for historical research.
+* If git were to interact transparently with an SVN repository, that would be cool.
+* improve the documentation/wiki visability.
+* Include the GIT package in various kind of Linux or other possible unix like distrubutions by default rather than a extra or make-by-yourself action needed.
+* It is time [[SourceForge]].net dumped CVS. Or at least had support for both (CVS, GIT) at the same time.
+* Make sourceforge use it.
+* Make the novice experience flawless and account for as many newbie mistakes as possible.
+* Political changes in projects. Many people simply aren't ready for distributed version control.
+* Publish a book. ;-)
+* push it for fedora use of repo. have _good_ conversions programms, they are essential as most sucessfull software out there uses a repo.
+* Remove old cruft (f.e. git-resolve). Stop talking about the "stupid content tracker", it confuses people. Move most of the executables to libexec!
+* [[SourceForge]] support Bundle automatically with Mac OS X and other distros.
+* Stronger promotion of its ability to a) Replicate a CVS server b) Allow hackers to have a personal git repository when hacking on projects with a SVN centralised repository
+* surveys, ask people for new cool features
+* Web marketing and make another big project use it.
+* Well, get more high-profile projects to use it. The fact that cairo and Wine use it is awesome, but it'd be great if sourceforge would make it easy to use Git (although that's not "our" responsibility really).
+* You could team up with Firefox and make an announcement in the New York Times.
+
+== 22.Documentation: Do you use the GIT wiki? If yes, do you find it useful? ==
+
+<pre><nowiki>#!CSV
+Count;Answer;Note
+29;Don't use it;
+58;No, it's not useful;Some answers were just "no" so they're probably either "no I don't use it" or "no it's not useful"
+28;Yes, it's useful;
+</nowiki></pre>
+
+== 23. Do you find GIT's online help useful? ==
+
+<pre><nowiki>#!CSV
+Count;Answer
+88; Yes
+20;No
+</nowiki></pre>
+
+== 24. What is your favourite user documentation for any software projects or products you have used? ==
+
+<pre><nowiki>#!CSV
+Count;Answer;Note
+21;man pages;FreeBSD, glibc, rsync, Solaris. Man pages with integrated usages/examples
+12;Subversion;http://svnbook.red-bean.com/ (most mentioned). design notes in the SVN repository. TSVN manual
+3;PostgreSQL;
+4;Python;Online documentation. The book "Learning Python". The book "Dive into Python"
+3;Doxygen;
+2;Emacs;info, on paper manual, on-line tutorial
+2;FreeBSD handbook;
+2;info pages;libc and cvs
+2;Java;http://docs.sun.com and JDK JavaDocs. Sun's "Java Trails"
+2;Perl;man pages, perldoc
+2;PHP;http://php.net/docs/
+2;Wiki;Debian wiki and Gentoo wiki
+2;TeXbook;
+</nowiki></pre>
+
+Others:
+* Apple's Mac API docs are very nice.
+* Ascii documentation, like man pages, info or plain text
+* A single, hyperlinked searchable PDF document.
+* At
+* Bash advanced scripting guide
+* darcs --help
+* DULG for ELDK/U-Boot.
+* GCC documentation
+* Gnus pwnz0rs the documentation contest, in size, depth, and legibility.
+* http://alleg.sourceforge.net/api.html
+* http://tapestry.apache.org/tapestry4/
+* Jeff Garzik's documentation
+* [[LaTeX]] companion
+* Linux Device Drivers by O'Reilly
+* Linux kernel FAQ
+* Microsoft Word 2.0 online help
+* monotone
+* MySQL
+* Online GNU make manual
+* Programming Ruby
+* QT documentation
+* step by step approach diving deeper into the subject while *not* sitting at my computer ;-)
+* Sun's [[OpenBoot]] references are very very good
+* texinfo
+* The avr-libc docs, and source. Very well commented.
+* The built-in help for GNU Arch
+* The gtk+ documentation: gtk.org/api
+* The IBM's manuals.
+* The one you can print.
+* The quilt docs are great
+* The usage examples on every page are wonderful
+* Turbo Pascal 5.x/6.0 help system
+* Unfortunately I'd have to say the Apache foundation's documentation on the Apache httpd server's configuration file. But maybe that was simply because I learned Apache back when it was NCSA and knew enough of the guts to just need to look up infrequently used configuration parameters every once in a while. But I can't really say its the best model for documentation.
+* vim, perl, zsh I find pretty usable. man pages are fine. I despise documentation that's only provided in umpteen small HTML files over the Internet. I need a downloadable version that I can browse locally.
+* ZBrush - http://www.pixologic.com/zbrush/home/home.html
+* Zsh has a pretty good manual.
+
+== 25. What could be improved on the GIT homepage? ==
+
+* Fix the CSS - http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fgit.or.cz%2Fstylesheets%2Fscreen.css&usermedium=all
+* There are lots of spelling and grammar errors - wouldn't hurt to fix those.
+* A "don't panic" section for users who've never seen git before. New users should walk away with the impression that they can be productive with git after spending 20 minutes with a nice tutorial, not that git is too complicated for mere mortals.
+* A good technical explanation of the GIT concepts (blobs, trees, tags, commits.)
+* A stronger emphasis on the Wiki?
+* Change the link in the top navigation bar that reads "Git's Gitweb" to "Browse repository (gitweb)", for people who don't yet know about gitweb. Add a mailing list link in the top navigation bar.
+* documentation -- come on, you first refer to Documentation/ -directory and then link to a rendered man-page
+* Eye candy. An animal (Panda?). Propaganda (like M$, start off by quoting so many success stories -- people tend to listen to that).
+* Fix spelling errors! Add quickstart tutorial. List Git requirements.
+* For selling the idea to potential users, screenshots and some statistics about Git and some current Git repositories would be nice (project size, repository size, command time/memory usage, etc.).
+* Get a better international domain name (e.g. git.org or git.info). Project news should be on the homepage. git for CVS/Subversion users should use git commands, not Cogito (it would be more appropriate on the Cogito page). http://git.or.cz/course/stgit.html advocates mixing cogito and StGIT. Come on! It's the git homepage.
+* Git home page? Where? :)
+* Have a more detailed tutorial and plugins for common IDEs.
+* Hosting on kernel.org would probably make it look more official. I don't really use it, so I wouldn't know.
+* Keep it simple. No need to over-engineer.
+* Lack of quick-start-guide or your distribution fast entry to make GIT use more widely.
+* Links to packages of git binaries + porcelains + docs ready to use.
+* Looks good. I'm no web expert anyway. I still use lynx a lot.
+* make the inset with git latest version more visible. It looks so similar to inline advertisment that I've used to ignore it for a long time, and was very surprised to find out that it has the direct link that I have always could not find.
+* Maybe a domain other than git.or.cz, something like git-scm.org
+* more languages, simple examples
+* More marketing at the top of the page! ("Tired from the limitations of CVS, SVN and $favorite_scm?" :-)
+* More obvious tutorial/usage links
+* One linear, alphabetical list of commands as the primary reference point. A _different_ list broken out functionally.
+* screenshots gitk, qgit
+* shorter lines, let a webdesigner take a look at it?
+* Split the home page in several pages. The top links should not bring you out of the website. Add a news section. Make it sexy.
+* The content is fine but I can't remember its URL.
+* The documentation link in the menu should point to the git documentation paragraph on the same page (where are links to tutorial, every day git etc.) and not to the man page. Althougt the man page is really nice it can scare people away from git.
+* The layout, the current one sucks.
+* Things are looking a lot better these days; not sure if I have any issues.
+* Tips on resolving dirty working directories and failed merges.
+* You could register the "git.org" domain.
+
+== 26. Getting help, staying in touch: Have you tried to get GIT help from other people? ==
+
+<pre><nowiki>#!CSV
+Count;Answer
+68;Yes
+45;No
+</nowiki></pre>
+
+== 27. If yes, did you get these problems resolved quickly and to your liking? ==
+
+<pre><nowiki>#!CSV
+Count;Answer
+     50;Yes
+     19;No
+</nowiki></pre>
+
+== 28. Do you subscribe to the mailing list? ==
+
+<pre><nowiki>#!CSV
+Count;Answer
+    67;Yes
+    50;No
+</nowiki></pre>
+
+== 29. If yes, do you find it useful, and traffic levels OK? ==
+
+Two questions in one. So you're best bet.
+<pre><nowiki>#!CSV
+Count;Answer
+      3; Not OK
+     69;OK
+</nowiki></pre>
+
+== 30. Do you use the IRC channel (#git on irc.freenode.net)? ==
+
+<pre><nowiki>#!CSV
+Count;Answer
+   23;Yes
+   93;No
+</nowiki></pre>
+
+== 31. Open question: What other comments or suggestions do you have that are not covered by the questions above? ==
+
+* Simplify and reorganize all the output from the command so that they are consistent and easy to read (read fetch, merge,...).
+* Some info command that shows you information about a branch, a commit, a remote,... For a commit more or less what currently shows gitk (the Follows, Branches,...) For a branch what is the relation to other branches (which fast-forward the other,...) and where it pull from.
+* Fix the handling of the remote files, if a branch does not fast-forward mark it so (the maintainer of the repo should mark it so, not the one cloning). Remove branches that disapears upstream... 5-Options to show other type of diffstat (as the program diffstat provides).
+* Be able to ask the relation of two commits (e.g. git name-rev --reference sha1 sha2)
+* git show-branch --origin, to show the normal output with the current branch and the one that get pulled.
+* Be able to say something like "git-rev-parse --refs refs/heads/*"
+* 20% of the questions in this "survey" are very, very badly formulated. For example, two questions in one (Q29), bad formulation (Q24), bad grammar (Q16), and a few others...
+* Also need to support virtual git-daemons.
+* Centralize and harmonize git command line options for the various commands. Require any patch to include full documentation (in source code, online help, Documentation/* files) before graduating to mainline.
+* Comparisons to other SCMs and potential improvements to git could use more depth.
+* error messages
+* From my perspective, I think cogito should go away. In comparing cogito to the git command line tools, it seems to be just different without adding any value. It's odd to have two command sets that seem to effectively provide the same functionality. I'm sure there is good value to Cogito, and what I'm really saying is that it's never been clear to me what it is. But I can't imagine that having two text mode interfaces makes git more attractive to the potential new user. Thanks for making this survey. I hope you find my comments useful.
+* Get a mascot! *g*
+* Git porcelain should have an option to display all commit SHA1 as name-rev format everywhere.
+* I use the manpages, which are mostly good. The exception is that push/pull behavior is nonintuitive, and the manpages explain the behavior in far too much dense text.
+* The lack of a bugzilla means that I can only really report a bug if I have a fix in hand that I think will get merged.
+* I would like to see it be more useful for projects that *aren't* exactly like the kernel. If I could replace SVN then I'd be a really happy camper. To do this, git will need to address some of the features that SVN does well, but I don't think this is simply a porcelain issue. Instead, it looks like git needs to a) perform comparable functions and b) reach a little lower in terms of comprehensibility.
+* I would like to use git more, but I worry about the administration time and effort.
+* Just improve the docs so that a novice could understand it quicker.
+* libgit ;)
+* The essential function of a VCS is to protect data from loss. As such Mercurial appears to have a superior design in terms of always appending. Graphics and features will help adoption but only robustness and safety will keep users. Right now its neither robust nor safe to use for a serious project
+* Name the mailing list.
+* requested git.debian.org for repo usage for debian developers. as lowprio suggestion improve gitweb to allow mod_perl interface itself. gitweb has a very cool interface, but code sucks. git clone should continue at the point were it aborted, complaints from wlan laptop users with flacky connections and big repos. all in all all the best and thanks!!
+* simple instructions (possibly on the home page) for people who are testers, not developers. they want to use git to have the most recent source available, but need to be able to generate sane bug reports, and to be able to test specific, tagged versions when asked. then go from this to the 'you found a bug and want to generate a patch' mode, and from there to a normal developer mode (which I see is documented on the wiki)
+* Someone should hack on the "Git (software" page on wikipedia.
+* Sounds there are a lot of GIT related stuff to use git core more effectively. So a overall comment/summary on these stuff could be helpful for users to choose.
+* The git emacs mode is really nice. Hopefully someone ads the pull, and push commands to it :)
+* The survey could ask about how successfull was introduction of Git in corporate environments. My answer to this question: not at all.
+* Topics not covered by this survey: workflows used. tools used (rebase, bisect, rerere,...). modularity of project. "GUI" used. How you use GIT doesn't take for account tracking private files (neither project nor work).
+* "What is your workflow?" would be a good question to find out how people use GIT and the Porcelains.
+* Years of experience with programming, and/or SCMs. Use cases other than programming projects.
+* You may want to ask if somebody asked me for help with git or expressed any opinion about it. You may want to ask how stable and reliable git has been for me.
 ----
-[[CategoryPeople]]
+[[CategoryGitHomepage]] [[CategoryStatistics]]
 
 __NOTOC__
