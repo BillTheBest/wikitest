@@ -1,5 +1,420 @@
-Thank you, this is excellent!! Please see my links: <url>http://www.wmforum.nl/member.php?u=16667| wedding flowers</url>, <url>http://forum.playfish.com/member.php?u=62997| bridal flowers</url>, <url>http://www.vgwf.net/member.php?u=10095| wedding flowers bouquets</url>, <url>http://www.divernet.com/forumvb/member.php?u=12576| wedding bouquets</url>
+<b>See also:</b>
+
+* [[GitFaq]] (Frequently Asked Questions) page.
+* [[GitWorkflows]] which attempts to decribe actual, useful, real-world things that people do with git, step by step.
+* [[ExampleScripts]] - You can do a lot by writing a simple script.
+* [[Aliases]] are very powerful ways to avoid writing a script.
+* [http://gitready.com/ git ready - daily tips for the noob to the guru]
+
+<b>Table of contents:</b>
+
+<!-- ! TOC here -->
+
 ----
-[[CategoryHomepage]]
+
+= General =
+[[Anchor(--amend)]]
+
+== How to fix the most recent commit ==
+Git allows you to easily fix up the most recent commit you've made on a branch with the --amend option:
+
+For example the following command will allow you to alter the commit message at the top of current head:
+
+<pre><nowiki>
+$ git commit --amend
+</nowiki></pre>
+while
+
+<pre><nowiki>
+$ git commit -s --amend
+</nowiki></pre>
+will let you alter the commit message and will also automatically add a sign-off message for you.
+
+[[Anchor(rewrite-hist)]]
+
+== How to change commits deeper in history ==
+Since history in Git is immutable, fixing anything but the most recent commit (commit which is not branch head) requires that the history is rewritten from the changed commit and forward.
+
+You can use [[StGIT]] for that, initialize branch if necessary, uncommitting up to the commit you want to change, pop to it if necessary, make a change then refresh patch (with <code><nowiki>-e</nowiki></code> option if you want to correct commit message), then push everything and stg commit.
+
+Or you can use rebase to do that. Create new temporary branch, rewind it to the commit you want to change using <code><nowiki>git reset --hard</nowiki></code>, change that commit (it would be top of current head), then rebase branch on top of changed commit, using <code><nowiki>git rebase --onto <tmp branch> <commit after changed> <branch></nowiki></code>.
+
+Or you can use <code><nowiki>git rebase --interactive</nowiki></code>, which allows various modifications like patch re-ordering, collapsing, ...
+
+<code><nowiki>git filter-branch</nowiki></code> can also be usefull. It has been ported from the obsoleted [[Cogito]]'s [http://www.kernel.org/git/?p=cogito/cogito-doc.git;a=blob;hb=HEAD;f=txt/cg-admin-rewritehist.1.txt cg-admin-rewritehist(1)].
+
+[[Anchor(only-merges)]]
+
+== How to get only merges in gitk? ==
+With recent version of git you can use
+
+<pre><nowiki>
+gitk --full-history -- a//b
+</nowiki></pre>
+which will give you each commit that changes that nonexistent file (because there can't be file with double slash in name in git repository), and the full commit history for those (i.e. all the merges).
+
+If you use "git log", you also need to add "--parents" while gitk will do it for you.
+
+[[Anchor(wrong-branch)]]
+
+== What to do if you have realized that you are on wrong branch? ==
+If you have not commited your changes yet, it is enough to
+
+<pre><nowiki>
+git checkout -m <correct-branch>
+</nowiki></pre>
+(if you use [[Git:core Git]] at least v1.4.1-rc2).
+
+([[Cogito]] users will do <code><nowiki>cg switch <correct-branch></nowiki></code>)
+
+Let's assume that you wanted your changes to go on top of <i><current></i>, but by accident you committed your changes on top of <i><master></i> for example, and that the commit before your commits (the tip of <i><master></i> branch should be) is <i><before></i>. Let as assume that all changes are committed, and the working dir is clean.
+
+First, create temporary branch (just in case), e.g.
+
+<pre><nowiki>
+git branch <tmpBranch>
+</nowiki></pre>
+Then you can reset <i><master></i> branch to correct commit
+
+<pre><nowiki>
+git reset <before>
+</nowiki></pre>
+Move temporary branch to correct branch, i.e. <i><current></i>, using
+
+<pre><nowiki>
+git rebase --onto <current> <master> <tmpBranch>
+</nowiki></pre>
+After resolving all conflict what is left is to fast-forward <i><current></i> to correct commit, and remove temporary branch
+
+<pre><nowiki>
+git checkout <current>
+git reset --hard <tmpBranch>
+git branch -d <tmpBranch>
+</nowiki></pre>
+I'm not sure if <code><nowiki>--hard</nowiki></code> option is really needed.
+
+[[Anchor(diff-repositories)]]
+
+== How to compare two local repositories ==
+In [[Git]] you can use, being in one of repositories
+
+<pre><nowiki>
+GIT_ALTERNATE_OBJECT_DIRECTORIES=../repo/.git/objects git-diff-tree $(GIT_DIR=../repo/.git git rev-parse --verify HEAD) HEAD
+</nowiki></pre>
+if you want to compare current repository with <code><nowiki>../repo/</nowiki></code> repository.
+
+In the obsoleted [[Cogito]] you would nearly exactly the same
+
+<pre><nowiki>
+GIT_ALTERNATE_OBJECT_DIRECTORIES=../repo/.git/objects cg-diff -r `GIT_DIR=../repo/.git cg-object-id -c HEAD`..HEAD
+</nowiki></pre>
+[[Anchor(opendocument)]]
+
+== How to use git to track [[OpenDocument]] ([[OpenOffice]], Koffice) files? ==
+=== Instructions for Git 1.6.1 or later ===
+Git now comes with the "textconv" features, which allows using an arbitrary command to convert a file to text before diffing. It makes it very easy to set up, and allows keeping all the goodness of git diff like --color, --color-words, ...
+
+First, install [http://stosberg.net/odt2txt/ odt2txt], a simple (and stupid) converter from [[OpenDocument]] to plain text, and configure git to allow it to run it, by adding this to ~/.gitconfig:
+
+<pre><nowiki>
+[diff "odf"]
+      textconv=odt2txt
+</nowiki></pre>
+Now, for each project, you just need to ask git to use this driver in .gitattributes or $GIT_DIR/info/attributes, like this:
+
+<pre><nowiki>
+*.ods diff=odf
+*.odt diff=odf
+*.odp diff=odf
+</nowiki></pre>
+... and you're done! Enjoy "git diff", "git log -p", "git show" in this project.
+
+=== Instructions for older Git's ===
+To view plaintext diff of [[OpenDocument]] files in Git, you can use the GIT_EXTERNAL_DIFF environment variable. First, install :
+
+* [http://stosberg.net/odt2txt/ odt2txt]: A simple (and stupid) converter from [[OpenDocument]] to plain text
+* [http://www-verimag.imag.fr/~moy/opendocument/git-oodiff git-oodiff]: Wrapper script for odt2txt and diff.
+You can now, for example, do
+
+<pre><nowiki>
+$ GIT_EXTERNAL_DIFF=git-oodiff git diff
+git-oodiff presentation-expl.odp presentation-expl.odp
+--- a/presentation-expl.odp
++++ b/presentation-expl.odp
+@@ -3,7 +3,7 @@
+   First item
+- First version of second item
++ Second version of second item
+   Last item
+</nowiki></pre>
+Now, let's automate this a bit more. Add this to your [http://www-verimag.imag.fr/~moy/opendocument/git-oodiff ~/.gitconfig] (or .git/config):
+
+<pre><nowiki>
+[diff "oodiff"]
+        command=git-oodiff
+</nowiki></pre>
+This defines a "oodiff" diff driver, that you can now use in [http://www.kernel.org/pub/software/scm/git/docs/gitattributes.html .gitattributes] (at the root of your working tree, or in $GIT_DIR/info/attributes)
+
+<pre><nowiki>
+*.odp diff=oodiff
+*.odt diff=oodiff
+*.ods diff=oodiff
+</nowiki></pre>
+Now, git will use this oodiff driver for any file whose name ends with .odp, .odt, or .ods.
+
+(this is also documented [http://www-verimag.imag.fr/~moy/opendocument/ here]).
+
+user-note:
+
+* BUG in git-oodiff script - it will give an error if /bin/sh points to "dash" instead of "bash" (this will affect current debian & ubuntu distros)
+[[Anchor(git rm .)]]
+
+== How to remove all files which are missing from working directory? ==
+<pre><nowiki>
+git ls-files -z --deleted | git update-index -z --remove --stdin
+</nowiki></pre>
+== How to ignore files which are "Untracked" now? ==
+<pre><nowiki>
+$ git ls-files -o --exclude-standard >> .gitignore
+$ $EDITOR .gitignore
+</nowiki></pre>
+(note : <code><nowiki>--exclude-standard</nowiki></code> is not yet in a released version of git as of november 2007, you'll have to use <code><nowiki>--exclude-from=.gitignore --exclude-from=.git/info/exclude ...</nowiki></code> if you don't have it).
+
+== How to unpack all branches? ==
+For example if you have realized that you repository must be accessible by older dumb clients, or some script you use doesn't understand packed refs.
+
+<pre><nowiki>
+git for-each-ref refs/heads | \
+  ( x=`git rev-parse --git-dir`; \
+    while read id junk ref; do \
+      echo $id > "$x/$ref"; \
+    done )
+</nowiki></pre>
+== How to find a commit for a shortened git-describe string ==
+For your local (!) repository you can get the commit for a string like v2.6.26-rc9-56 by the following command :
+
+<pre><nowiki>
+git rev-list --all v2.6.26-rc9.. | xargs git describe | grep '\-56\-'
+</nowiki></pre>
+= Configuration =
+
+== Specifiy attribute values in the correct format ==
+
+When specifiying values for [http://www.kernel.org/pub/software/scm/git/docs/gitattributes.html gitattributes(5)] do not include white space around '=' as whitespace is the attribute delimeter. This differs from [http://www.kernel.org/pub/software/scm/git/docs/git-config.html#_configuration_file git configuration] files where white space around '=' is supported.
+
+[[Anchor(upgrade-to-post-1.5.0)]]
+
+== How to upgrade repository config to use post-1.5.0 features? ==
+Updating a pre-1.5.0 [[Git]] repository to be like a 1.5.0 (and later) style repository basically means rewriting the remotes (.git/info/remotes/) into .git/config, setting up wildcard tracking branches under refs/remotes and deleting the old tracking branches from the refs/heads namespace.
+
+The following shell script can be used to upgrade <b>non-bare</b> (!) repository (with a working directory) to post-1.5.0 style, to be able to use new features:
+
+<pre><nowiki>
+#!/bin/sh
+##
+## Upgrades a pre-1.5.0 repository to a 1.5.0-style layout.
+## Use at your own risk.
+##
+sh remotes2config.sh # from git.git/contrib
+git config core.bare false
+git config core.logallrefupdates true
+for r in `git remote`
+do
+  old="`git config --get-all remote.$r.fetch | sed s,^.*:refs/heads/,,`"
+  if [ -z "$old" ]
+  then
+    echo "No fetch lines for $r."
+    continue
+  fi
+  echo "Converting $r..."
+  git config --replace-all remote.$r.fetch +refs/heads/*:refs/remotes/$r/*
+  git fetch $r
+  for r in $old
+  do
+    case "$r" in
+    *:*) echo "Not deleting $r" ;;
+    *) git branch -D $r ;;
+    esac
+  done
+done
+</nowiki></pre>
+This script requires [http://git.kernel.org/?p=git/git.git;a=blob_plain;h=master;f=contrib/remotes2config.sh remotes2config.sh] conversion tool by Johannes Schindelin, which can be found in the <i>contrib</i> area of git.git repository.
+
+* [http://permalink.gmane.org/gmane.comp.version-control.git/42176 Upgrade to 1.5.0 utility] post by Shawn O. Pearce on Git mailing list
+= StGIT =
+[[Anchor(stg-rebase)]]
+
+== How to rebase StGIT stack? ==
+If you have <n> patches on stack, and you want to rebase it (for example because git branch got rebased, or you want to base stack on different branch)
+
+<pre><nowiki>
+stg pop -a
+git reset --hard <new_base>
+stg push -n <n>
+</nowiki></pre>
+= Web =
+[[Anchor(RSS)]]
+
+== How to generate RSS feed off-line? ==
+You can either adapt [http://bent.latency.net/git2rss git2rss] tool by Bennett Todd to your needs (which is mentioned on [[InterfacesFrontendsAndTools#git2rss:Interfaces Frontends And Tools]] page), or use <i>gitweb</i> to do that, running it as a script. Assuming that <code><nowiki>gitweb.cgi</nowiki></code> is setup correctly, you can use:
+
+<pre><nowiki>
+env REQUEST_METHOD=GET QUERY_STRING='p=git/git.git;a=rss' \
+./gitweb.cgi | tail -n +2</nowiki></pre>
+where of course instead of <code><nowiki>git/git.git</nowiki></code> you put project (git repository) you are interested in.
+
+[[Anchor(SSH-tunnel)]]
+
+== How to push/pull via ssh to host behind gateway? ==
+There are two possible solutions. With first, using Proxy<code><nowiki></nowiki></code>Command option of ssh, you can connect to the entire network behind firewall. In your ssh configuration file, for example <code><nowiki>~/.ssh/config</nowiki></code> put the following:
+
+<pre><nowiki>
+Host *.foo.internal
+     [[ProxyCommand]] ssh gateway.foo.com exec nc %h %p</nowiki></pre>
+(where <code><nowiki>'%h'</nowiki></code> expands to the host you connect to, and <code><nowiki>'%p'</nowiki></code> to the port you are using). You have to have <code><nowiki>nc</nowiki></code> ([http://www.vulnwatch.org/netcat/ netcat] or [http://netcat.sourceforge.net/ GNU Netcat]) installed on gateway, but this should be no problem as it is 22K binary. Note that path is expanded on local side, while it should be to file on gateway side.
+
+Second is slightly faster, doesn't need any tool besides ssh, but you have to run port forwarding command before connecting, must make sure that ssh tunnel is up, and must be set up host for host. In your ssh configuration file, for example <code><nowiki>~/.ssh/config</nowiki></code> put the following:
+
+<pre><nowiki>
+Host hostname
+     NoHostAuthenticationForLocalhost yes
+     HostName localhost
+     Port 2222</nowiki></pre>
+where `hostname' is the name you would be using for connecting. Before trying to connect to host begind gateway, you must run
+
+<pre><nowiki>
+ssh -f -N -L 2222:host.foo.internal:22 username@gateway.foo.com
+</nowiki></pre>
+Of course port numbers must match (and port number should be above 1024 if you won't be running ssh tunnel as root). If you have sufficiently new ssh, you can add <code><nowiki>'-M'</nowiki></code> option, for use with Control<code><nowiki></nowiki></code>Master option. You can also use [http://www.harding.motd.ca/autossh/ autossh] for running port forwarding/ssh tunnel.
+
+[[Anchor(SSH-options)]]
+
+== How to pass ssh options in git? ==
+You can set the path of the ssh executable to use with the GIT_SSH environment variable. Create a shell script like
+
+<pre><nowiki>
+#!/bin/sh
+exec ssh --your-options-- "$@"
+</nowiki></pre>
+and make GIT_SSH point to it.
+
+But if you have just a couple of "standard" setups, then it's really better to use a ".ssh/config" file instead. If you want to use different options "dynamically" (the same host, different options), you can just use different "fake hostnames". For example, you can do
+
+<pre><nowiki>
+Host private.host.com
+        User myname
+        Hostname host.com
+        IdentityFile /home/myname/.ssh/private-identity
+Host public.host.com
+        User groupname
+        Hostname host.com
+        IdentityFile /home/myname/.ssh/public-identity
+</nowiki></pre>
+and now you can ssh to "host.com" using different identities by just using "private.host.com" and "public.host.com" respectively.
+
+= Mail =
+[[Anchor(msmtp)]]
+
+== Using msmtp to send your patches ==
+NOTE: git send-email supports TLS/SSL now.
+
+Mailing off a set of patches to a mailing list can be quite neatly done by git-send-email. One of the problems you may encounter there is figuring out which machine is going to send your mail. I tried smtp.gmail.com, but that one requires tls and a password, and git-send-email could not handle that.
+
+A neat little program, msmtp http://msmtp.sourceforge.net/ can help you there. Install and configure a .msmtprc file in your home directory, the likes of:
+
+<pre><nowiki>
+# Example for a user configuration file
+# Set default values for all following accounts.
+defaults
+tls on
+tls_trust_file /etc/pki/tls/certs/ca-bundle.crt
+logfile ~/.msmtp.log
+# My email service
+account gmail
+host smtp.gmail.com
+port 587
+from some.user.name@gmail.com
+auth on
+user some.user.name@gmail.com
+password my-secret
+# Set a default account
+account default : gmail
+</nowiki></pre>
+This takes gmail as an example. The ca-bundle.crt is the file with CA certificates for Fedora Core 6, for other distros you might have to dig it up from somewhere else. On Ubuntu /etc/ssl/certs/ca-certificates.crt should be used, for example. Now, by giving the full path name to the msmtp program as smtp server to git-send-email, you can send the patches through gmail or some other smtp account with TLS and/or user authentication.
+
+<pre><nowiki>
+git-send-email --smtp-server /usr/local/bin/msmtp <file|directory>
+</nowiki></pre>
+An alternative to setting --smtp-server each time is to set the global sendemail.smtpserver value.
+
+<pre><nowiki>
+git-config --global sendemail.smtpserver /usr/local/bin/msmtp
+</nowiki></pre>
+Another option is to configure a local smtp server on your machine, using a well-known SMTP server as smarthost. Then, all applications using localhost as a mail server (e.g. /usr/bin/mail) will work.
+
+On OS X with macports, msmtp can be installed with 'sudo port install msmtp', and '/usr/share/curl/curl-ca-bundle.crt' should work for tls_trust_file.
+
+= git svn =
+[[Anchor(gitsvnbranches)]]
+
+== How to use git branches with git svn ==
+[http://www.kernel.org/pub/software/scm/git/docs/git-svn.html git-svn(1)] allows you to use git as an interface to a Subversion repository. However, there are a number of caveats when doing this because Subversion's branching model is less powerful. [http://www.kernel.org/pub/software/scm/git/docs/git-merge.html git-merge(1)] should not be used on the branch you intend to <i>git svn dcommit</i> from because the merge object cannot be expressed in a useful form to the Subversion repository when committing. This essentially makes it impossible to usefully use git branches for local development - yet the branching/merging mechanism is one of the most powerful features that git provides.
+
+There are two ways to get around the <i>git merge</i> problem and so be able to use git branches for (local) development. For the following, assume you've branched and the commit geneology looks like:
+
+<pre><nowiki>
+     C--E--F branch
+    /
+A--B--D master
+</nowiki></pre>
+The first merge solution is to replicate the changes you made on your branch to <i>master</i> using [http://www.kernel.org/pub/software/scm/git/docs/git-cherry-pick.html git-cherry-pick(1)] (or alternatively [http://www.kernel.org/pub/software/scm/git/docs/git-format-patch.html git-format-patch(1)] and [http://www.kernel.org/pub/software/scm/git/docs/git-am.html git-am(1)]). However, it can be rather laborious determining the list of required commits (C,E,F) and iteratively re-applying them to <i>master</i> (C', E', F').
+
+<pre><nowiki>
+     C--E--F branch
+    /
+A--B--D--C'--E'--F' master
+</nowiki></pre>
+Whilst this does allow you to develop multiple projects simultaneously and independently, this work-around isn't much friendlier than just working directly on <i>master</i> in the first place.
+
+The second solution takes advantage of [http://www.kernel.org/pub/software/scm/git/docs/git-rebase.html git-rebase(1)] and [http://www.kernel.org/pub/software/scm/git/docs/git-branch.html git-branch(1)]. When you want to merge your changes back to <i>master</i> you rebase your branch with respect to <i>master</i> HEAD (i.e. what the Subversion repository looks like):
+
+<pre><nowiki>
+git checkout <branch>
+git rebase master
+</nowiki></pre>
+Your branch now looks like <i>master</i> plus the extra changes you made on the branch:
+
+<pre><nowiki>
+        C"--E"--F" branch
+       /
+A--B--D master
+</nowiki></pre>
+In fact, it's what you'd ideally like to <i>git svn dcommit</i> now (or later) but it's stuck on the wrong branch. So now we tell git that we'd like to pretend that the branching never happened and that <i>branch</i> is what <i>master</i> should really look like:
+
+<pre><nowiki>
+git branch -M master
+</nowiki></pre>
+The -M specifies that we want to do a forced rename of the branch (forced because <i>master</i> already exists):
+
+<pre><nowiki>
+A--B--D--C"--E"--F" master
+</nowiki></pre>
+Note that this destroys the development branch in the process* so this should only be done when you've finished development on the branch. However, there's nothing stopping you from re-branching again:
+
+<pre><nowiki>
+git checkout -b <branch>
+</nowiki></pre>
+<pre><nowiki>
+                   o branch
+                  /
+A--B--D--C"--E"--F" master
+</nowiki></pre>
+* Technically we destroyed the old <i>master</i> branch but since <i>branch</i> can no longer be referred to by name it appears as though that is the object that was destroyed.
+
+== An Alternate Method Using `git-svn rebase` ==
+If you have a branch like above, you can often perform a <code><nowiki>git-svn rebase</nowiki></code> on the branch directly. Instead of rebasing to master, this rebases the branch directly onto the latest remote revision in subversion. Then you can <code><nowiki>git-svn dcommit</nowiki></code> <i>in the branch</i>. Finally, check out <code><nowiki>master</nowiki></code> and do another <code><nowiki>git-svn rebase</nowiki></code> to bring it up to date. This will merge in the changes from the branch as well as any new changes in subversion. Note that with this method, the branch sticks around, but afterwards <code><nowiki>gitk</nowiki></code> will show that it marks the same history as <code><nowiki>master</nowiki></code> -- until you commit to it again or delete it, anyway.
+
+----
+[[CategoryGitDocumentation]]
 
 __NOTOC__
