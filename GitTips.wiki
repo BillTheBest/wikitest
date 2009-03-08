@@ -5,7 +5,7 @@
 * [[ExampleScripts]] - You can do a lot by writing a simple script.
 * [[Aliases]] are very powerful ways to avoid writing a script.
 * [http://gitready.com/ git ready - daily tips for the noob to the guru]
-
+----
 <b>Table of contents:</b>
 
 <!-- ! TOC here -->
@@ -143,8 +143,8 @@ git-oodiff presentation-expl.odp presentation-expl.odp
 +++ b/presentation-expl.odp
 @@ -3,7 +3,7 @@
    First item
-- First version of second item
-+ Second version of second item
+-  First version of second item
++  Second version of second item
    Last item
 </nowiki></pre>
 Now, let's automate this a bit more. Add this to your [http://www-verimag.imag.fr/~moy/opendocument/git-oodiff ~/.gitconfig] (or .git/config):
@@ -156,9 +156,9 @@ Now, let's automate this a bit more. Add this to your [http://www-verimag.imag.f
 This defines a "oodiff" diff driver, that you can now use in [http://www.kernel.org/pub/software/scm/git/docs/gitattributes.html .gitattributes] (at the root of your working tree, or in $GIT_DIR/info/attributes)
 
 <pre><nowiki>
-*.odp diff=oodiff
-*.odt diff=oodiff
-*.ods diff=oodiff
+*.odp  diff=oodiff
+*.odt  diff=oodiff
+*.ods  diff=oodiff
 </nowiki></pre>
 Now, git will use this oodiff driver for any file whose name ends with .odp, .odt, or .ods.
 
@@ -184,10 +184,10 @@ $ $EDITOR .gitignore
 For example if you have realized that you repository must be accessible by older dumb clients, or some script you use doesn't understand packed refs.
 
 <pre><nowiki>
-git for-each-ref refs/heads | \
+git for-each-ref refs/heads |    \
   ( x=`git rev-parse --git-dir`; \
-    while read id junk ref; do \
-      echo $id > "$x/$ref"; \
+    while read id junk ref; do   \
+      echo $id > "$x/$ref";      \
     done )
 </nowiki></pre>
 == How to find a commit for a shortened git-describe string ==
