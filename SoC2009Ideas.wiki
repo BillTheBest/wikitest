@@ -84,14 +84,6 @@ The goal is for git-daemon to cache packfiles, use cached packfiles if possible,
 <b>Goal:</b> Support for packfile cache in git-daemon, benchmark server load
 <<BR>><b>Language:</b> C
 
-== Single credentials ==
-
-Currently if you don't save your username and password in plain-text `.netrc` file (for HTTP transport), or avoid need for interactive credentials using public key / private key pair (for SSH), you need to repeat credentials many times during single git-fetch or git-clone command.  The goal is to reuse existing connections if possible, so the whole transaction occurs using single connection and single credentials; if that is not possible cache credentials (in secure way) so user need to provide username and password at most once.
-
-<b>Goal:</b> git-fetch and git-clone over HTTPS and git:// require providing username and password at most once
-<<BR>><b>Language:</b> C (perhaps also shell script)
-<<BR>><b>See also:</b> [http://marc.info/?l=git&m=123599968929476&w=4 http: a non-curl_multi interface?] post by Tay Ray Chuan on git mailing list (via MARC), and other messages in this thread; this thread deals with using single connection for HTTP(S) protocol (and doesn't touch neither credentials caching, nor SSH protocol).
-
 = Larger Projects =
 
 == Implement pack v4/v5 for higher compression ==
