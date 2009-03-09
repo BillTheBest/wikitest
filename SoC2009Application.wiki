@@ -61,7 +61,8 @@ git@vger.kernel.org
  -->
 
 <b> What criteria do you use to select the members of your group?  Please be as specific as possible. </b>
-<i>note: they mean "mentors" here, but the language is wrong due to it coming from Melange</i>
+
+<i>(note: they mean "mentors" here, but the language is wrong due to it coming from Melange)</i>
 
 All mentors volunteered for the specific project(s) that they could
 contribute the most to.  All mentors are active contributors within
@@ -77,9 +78,7 @@ on a Google Summer of Code project.
 All mentors are well known within the Git development community
 for their accomplishments and contributions.
 
-''' Did your organization participate in past GSoCs? If so, please
-summarize your involvement and the successes and challenges of your
-participation. '''
+<b> Has your group participated previously?  If so, please summarize your involvement and any past successes and failures. </b>
 
 During GSoC 2007 we had two student projects ("GIT library project",
 "Replace most core scripts with C versions") mentored by two of our
@@ -136,8 +135,7 @@ and the [[GitTorrent]] projects could have shared some effort, and in
 general, the students did not benefit from the competence of the
 non-mentor community members as much as they could have.
 
-''' If your organization has not previously participated in GSoC,
-have you applied in the past? If so, for what year(s)? '''
+<b> If your group has not previously participated, have you applied in the past?  If so, for what sort of participation? </b>
 
 N/A.  Applied and accepted GSoC 2007, 2008; did not apply prior to that.
 
@@ -149,12 +147,19 @@ GPL (GNU Public License), version 2
 
 [http://git.or.cz/gitwiki/SoC2009Ideas]
 
-''' Does your organization have an application template you would like
-to see students use? If so, please provide it now. '''
+<b> What is the main development mailing list for your group? </b>
+
+git@vger.kernel.org
+
+<b> What is the application template you would like contributors to your organization to use. </b>
+
+<i>(note: they mean students here, but its Melange... so...)</i>
 
 [http://git.or.cz/gitwiki/SoC2008Template]
 
-<b> What is your plan for dealing with disappearing students? </b>
+<b> What is your plan for dealing with disappearing contributors? </b>
+
+<i>(note: they mean students here, but its Melange... so...)</i>
 
 Every reasonable effort will be made to maintain contact with
 students and ensure they are making progress throughout the summer.
@@ -171,7 +176,9 @@ help students to feel like they have accomplished something useful
 sooner, as well as making it easier for the Git community to pick
 up an abandoned project.
 
-<b> What is your plan for dealing with disappearing mentors? </b>
+<b> What is your plan for dealing with disappearing members? </b>
+
+<i>(note: they mean mentors here, but its Melange... so...)</i>
 
 Most of our suggested projects have more than one mentor available.
 As a community we plan on making sure all of the active projects have
@@ -187,8 +194,10 @@ replacement mentor would already be familiar with the student and
 the project, as many community members routinely review code and
 discussions on the mailing list.
 
-''' What steps will you take to encourage students to interact with
+''' What steps will you take to encourage contributors to interact with
 your project's community before, during and after the program? '''
+
+<i>(note: they mean students here, but its Melange... so...)</i>
 
 Students will be required to join the main development mailing
 list, and post their patches for discussion to same.  All current
@@ -223,8 +232,10 @@ questions and ideas to the mailing list, and to discuss them on #git.
 Most developers either already hold "office-hours" on IRC, or have
 agreed to do so during GSoC '09.
 
-''' What will you do to ensure that your accepted students stick with
-the project after GSoC concludes? '''
+''' What will you do to ensure that your accepted contributors stick with
+the project after the program concludes? '''
+
+<i>(note: they mean students here, but its Melange... so...)</i>
 
 GSoC will be a good introduction to Git (both the technology and the
 community) for the students.  Once they know Git and are "hooked",
