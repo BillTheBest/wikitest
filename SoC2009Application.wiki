@@ -1,20 +1,28 @@
 Git's application to Google's Summer of Code 2009.
 
 The application questions can be found on
-[http://code.google.com/soc/2008/faqs.html#0.1_org_app code.google.com].  Also the published [http://groups.google.com/group/google-summer-of-code-announce/web/notes-on-organization-selection-criteria notes on organization selection] may be of interest.
+[http://socghop.appspot.com/org_app/apply/google/gsoc2009 socghop].  Also the published [http://groups.google.com/group/google-summer-of-code-announce/web/notes-on-organization-selection-criteria notes on organization selection] may be of interest.
 
 Shawn Pearce has volunteered to submit the application and serve
 as our group's primary contact.
 
-<b> What is your Organization's Name? </b>
+<b> Link ID </b>
+
+git
+
+<b> Group Name </b>
 
 Git Development Community
 
-<b> What is your Organization's Homepage? </b>
+<b> Home Page URL </b>
 
 [http://git-scm.com/]
 
-<b> Describe your organization. </b>
+<b> Public Email </b>
+
+git at vger.kernel.org
+
+<b> Description </b>
 
 As Git approaches its third anniversary, it is now the revision
 control system of choice for many of the largest and most successful
@@ -27,8 +35,7 @@ This achievement is the product of the lively Git development
 community, a loose-knit team of developers, technical writers, and
 end users with a passion for high quality open-source development.
 
-''' Why is your organization applying to participate in GSoC 2009? What
-do you hope to gain by participating? '''
+<b> Why is your group applying to participate? What do you hope to gain by participating? </b>
 
 During GSoC 2007 Git had two successful student projects.  Although
 both students contributed useful code to the community, the biggest
@@ -43,6 +50,15 @@ his project.
 By participating in GSoC 2009 the Git community hopes to attract
 more new talent to our community, and convert that talent into
 long-term contributors and high-quality enhancements to Git.
+
+<b> What is the main public mailing list for your group? </b>
+
+git at vger.kernel.org
+
+<b> What is the main IRC channel for your group? </b>
+
+<!-- #git (on freenode)
+ -->
 
 ''' Did your organization participate in past GSoCs? If so, please
 summarize your involvement and the successes and challenges of your
