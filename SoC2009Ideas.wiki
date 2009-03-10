@@ -293,8 +293,8 @@ The difficulty of this task is under a dispute: it should be fairly easy to make
 * 2007: [[SoC2007Projects:Accepted projects]], [[SoC2007Ideas:Proposed projects]]
 
 = Other links =
-* [http://www.selenic.com/mercurial/wiki/index.cgi/SummerOfCode Mercurial ideas for GSoC 2008]
-* [http://subversion.tigris.org/project_tasks.html Subversion ideas for Summer of Code]
+* [http://www.selenic.com/mercurial/wiki/index.cgi/SummerOfCode Mercurial ideas for Google Summer of Code]
+* [http://subversion.tigris.org/tasks.html#summer-of-code Subversion ideas for Google Summer of Code]
 * [http://subclipse.tigris.org/soc/tasks.html Subclipse Ideas for Google Summer of Code]
 
 __NOTOC__
