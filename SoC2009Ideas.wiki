@@ -48,17 +48,6 @@ its questions as part of your application.
 A collection of smaller projects.  Pick one or two and get introduced
 to the open source community!
 
-== Restartable Clone ==
-
-When cloning a large repository (such as KDE, Open Office, Linux kernel) there is currently no way to restart an interrupted clone.  It may take considerable time for a user on the end of a small pipe to download the data, and if the clone is interrupted in the middle the user currently needs to start over from the beginning and try again.  For some users this may make it impossible to clone a large repository.
-
-The difficulty of this task is under a dispute: it should be fairly easy to make clone restartable for (deprecated) rsync:// protocol and for "dumb" protocols using commit walker, like http://.  It shouldn't be to difficult to design user interface for this feature.  Adding resume support to git-clone over "smart" protocols using packfile generation like git:// and ssh:// would require (most probably) good knowledge of pack protocol and packfiles.  It would require most probably new extension to git protocol.
-
-<b>Goal:</b> Allow git-clone to automatically resume a previously failed download over the native git:// protocol.
-<<BR>><b>Language:</b> C
-<<BR>><b>Mentor:</b> Shawn Pearce (gsoc@spearce.org)
-<<BR>><b>Suggested by:</b> Shawn Pearce [http://article.gmane.org/gmane.comp.version-control.git/55298 on gmane]
-
 == Line-level history browser ==
 
 Output from "git blame" is often not useful, as you do not see the actual changes.  It could have been an indentation change, a typo fix, a code movement, or really the origin of the code that you are looking for.
@@ -117,7 +106,7 @@ Most of what is required for the "smart" Git transport for this project is alrea
 <<BR>><b>Goal:</b> Server (CGI) and client that supports fetch & push operation for both authenticated & anonymous clients.
 <<BR>><b>Mentor:</b>
 * Shawn Pearce (gsoc@spearce.org)
-<<BR>><b>See:</b> [http://thread.gmane.org/gmane.comp.version-control.git/91104/focus=91211  |RFC 2/2| Add Git-aware CGI for Git-aware smart HTTP transport] thread on git mailing list (GMane)
+<<BR>><b>See:</b> [http://thread.gmane.org/gmane.comp.version-control.git/91104/focus=91211  |RFC 2/2| Add Git-aware CGI for Git-aware smart HTTP transport] thread on git mailing list (GMane), [http://repo.or.cz/w/git/fastimport.git?a=blob;f=Documentation/technical/http-protocol.txt;hb=smart-http http-protocol.txt RFC] 
 
 == Proper git-svn support on Windows ==
 
@@ -140,29 +129,6 @@ Further, git-cheetah was started with X11 and MacOSX support in mind, so at leas
 <<BR>><b>Goal:</b> Make git-cheetah an Explorer plugin everybody wants to have.
 <<BR>><b>Mentor:</b>
 * Johannes Schindelin (johannes.schindelin@gmx.de)
-
-== libgit2 ==
-
-Git's source code was not written to be reentrant, but to execute a program doing a specific task, and then exit.  This is not really useful if you want to access a Git repository using a library rather than executing a program, catching and parsing its output.  Further, some companies seem to be put off by the GPL that applies to Git's source code, and would prefer a BSD licensed library to base their product on.
-
-Shawn Pearce already started libgit2, but as of now most functions are not implemented.  This project's purpose is to implement most of these functions, and maybe provide language bindings for Python, Ruby, etc.
-
-<b>Language:</b> C, doxygen
-<<BR>><b>Goal:</b> Implement enough of libgit2 to access a Git repository from a C program and/or a Python/Ruby/Whatever script.
-<<BR>><b>Mentor:</b>
-* Johannes Schindelin (johannes.schindelin@gmx.de)
-* Shawn Pearce (gsoc@spearce.org)
-
-== git-svnserver ==
-
-The idea here is implement something in Git that speaks the
-Subversion protocol on the wire, but uses Git as the backend
-storage. (This would be like the existing git-cvsserver.)
-
-<b>Goal:</b> To be able to access git repository, at minimum read-only, from a Subversion client, at least svn CLI.
-<<BR>><b>Language:</b> Open for proposal.
-<<BR>><b>Suggested mentors:</b>
-* Julian Phillips (has a partial python implementation!  at http://git.q42.co.uk/w/git_svn_server.git)
 
 == Narrow and Sparse clone support ==
 
@@ -224,6 +190,40 @@ There is a bit of controversy about this feature, as for example in    some prog
 * [http://thread.gmane.org/gmane.comp.version-control.git/108106 Comments on "Understanding Version Control" by Eric S. Raymond] thread contains some thoughts on wholesame directory rename detection
 * [http://blog.teksol.info/2008/01/16/directory-renames-under-git Directory renames under Git] blog post notice the issue
 * [http://www.markshuttleworth.com/archives/123 Renaming is the killer app of distributed version control] blog post by Mak Shuttleworth (pro-Bazaar).
+
+== libgit2 ==
+
+Git's source code was not written to be reentrant, but to execute a program doing a specific task, and then exit.  This is not really useful if you want to access a Git repository using a library rather than executing a program, catching and parsing its output.  Further, some companies seem to be put off by the GPL that applies to Git's source code, and would prefer a BSD licensed library to base their product on.
+
+Shawn Pearce already started libgit2, but as of now most functions are not implemented.  This project's purpose is to implement most of these functions, and maybe provide language bindings for Python, Ruby, etc.
+
+<b>Language:</b> C, doxygen
+<<BR>><b>Goal:</b> Implement enough of libgit2 to access a Git repository from a C program and/or a Python/Ruby/Whatever script.
+<<BR>><b>Mentor:</b>
+* Johannes Schindelin (johannes.schindelin@gmx.de)
+* Shawn Pearce (gsoc@spearce.org)
+
+== git-svnserver ==
+
+The idea here is implement something in Git that speaks the
+Subversion protocol on the wire, but uses Git as the backend
+storage. (This would be like the existing git-cvsserver.)
+
+<b>Goal:</b> To be able to access git repository, at minimum read-only, from a Subversion client, at least svn CLI.
+<<BR>><b>Language:</b> Open for proposal.
+<<BR>><b>Suggested mentors:</b>
+* Julian Phillips (has a partial python implementation!  at http://git.q42.co.uk/w/git_svn_server.git)
+
+== Restartable Clone ==
+
+When cloning a large repository (such as KDE, Open Office, Linux kernel) there is currently no way to restart an interrupted clone.  It may take considerable time for a user on the end of a small pipe to download the data, and if the clone is interrupted in the middle the user currently needs to start over from the beginning and try again.  For some users this may make it impossible to clone a large repository.
+
+The difficulty of this task is under a dispute: it should be fairly easy to make clone restartable for (deprecated) rsync:// protocol and for "dumb" protocols using commit walker, like http://.  It shouldn't be to difficult to design user interface for this feature.  Adding resume support to git-clone over "smart" protocols using packfile generation like git:// and ssh:// would require (most probably) good knowledge of pack protocol and packfiles.  It would require most probably new extension to git protocol.
+
+<b>Goal:</b> Allow git-clone to automatically resume a previously failed download over the native git:// protocol.
+<<BR>><b>Language:</b> C
+<<BR>><b>Mentor:</b> Shawn Pearce (gsoc@spearce.org)
+<<BR>><b>Suggested by:</b> Shawn Pearce [http://article.gmane.org/gmane.comp.version-control.git/55298 on gmane]
 
 = Other Resources =
 * [[SoC2009Application]]
