@@ -24,12 +24,12 @@ git@vger.kernel.org
 
 <b> Description </b>
 
-As Git approaches its third anniversary, it is now the revision
+As Git approaches its fourth anniversary, it is now the revision
 control system of choice for many of the largest and most successful
-open source projects, including the Linux kernel and at least eight
-other Google Summer of Code 2007 projects: ikiwiki, One Laptop Per
-Child, Samba, Thousand Parsec, The Wine Project, VideoLAN, XMMS2,
-and X.org.
+open source projects, including the Linux kernel and at least twelve
+other Google Summer of Code 2008 projects:  BlueZ, Cairo, [[DragonFly]] BSD,
+Etherboot, One Laptop Per Child, Perl, Samba, Thousand Parsec, The Wine
+Project, VideoLAN, XMMS2, and X.org.
 
 This achievement is the product of the lively Git development
 community, a loose-knit team of developers, technical writers, and
@@ -82,26 +82,8 @@ for their accomplishments and contributions.
 
 During GSoC 2007 we had two student projects ("GIT library project",
 "Replace most core scripts with C versions") mentored by two of our
-active developers.
-
-The first project produced a Python binding to the internal Git
-APIs, showing it is possible to embed our private library in a
-developer friendly interface.  This work has not yet been merged
-into a release tree as it still requires additional effort to
-resolve memory management issues in the underlying private library.
-
-The second project ported two core Git functions from Bourne shell
-to C, as well as cleaned up the implementation to follow our current
-best practices.  The student involved with this project is still
-an active contributor almost one year later.
-
-One challenge that we faced was a third student project was granted
-by Google but had to be forfeited due to political reasons out of
-our control.  The student was unable to file the proper paperwork
-and the project had to be stopped.  As a community we realized the
-issue too late and did not try to ask Google to replace the student
-with another.  It was later clear to us at the Mentor Summit that
-we probably should have asked for a replacement student.
+active developers.  Both projects were completed successfully, but
+only one merged its code into the main project.
 
 In 2008, we had six projects: "[[GitTorrent]] - implement a [[BitTorrent]]
 like protocol to exchange Git repositories", "git-statistics - mine
@@ -124,12 +106,12 @@ The Eclipse plugin and builtin-merge projects were integrated into
 the mainline source code.  The latter student remains a very
 active contributor to our project.
 
-While the Gitweb caching and the git-statistics project were finished
+While the Gitweb caching and the git-sequencer project were finished
 in time, neither of them were fully integrated into our mainline
 source code yet.  However, both students have a two-digit number of
 commits in our repository.
 
-The biggest challenge turned out to move the communications with some
+The biggest challenge turned out to be moving the communications with some
 of the students from private to public.  For example, the Gitweb caching
 and the [[GitTorrent]] projects could have shared some effort, and in
 general, the students did not benefit from the competence of the
@@ -137,7 +119,7 @@ non-mentor community members as much as they could have.
 
 <b> If your group has not previously participated, have you applied in the past?  If so, for what sort of participation? </b>
 
-N/A.  Applied and accepted GSoC 2007, 2008; did not apply prior to that.
+N/A
 
 <b> What license does your project use? </b>
 
