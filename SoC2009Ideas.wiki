@@ -64,6 +64,52 @@ For an alternate solution, utilizing <i>pickaxe</i> search rather than git-blame
 <<BR>><b>Language:</b> C
 <<BR>><b>Mentor:</b> Johannes Schindelin (johannes.schindelin@gmx.de)
 
+= Medium Sized Projects =
+
+== Implement git-submodule using .git file  ==
+
+Rewrite git-submodule, placing the repository for each referenced
+submodules in the superproject's $GIT_DIR/modules, and use .git as a
+file (not a directory), which is currently in 'pu', to point at it.
+This resolves issues related to switching between versions of the
+superproject which contain/do-not-contain the submodule, as the
+submodule working directory can be safely created/deleted at will
+and its objects are safe somewhere within $GIT_DIR/modules.
+
+<b>Goal:</b> Rework git-submodule, keeping submodule repositories safe under $GIT_DIR.
+<<BR>><b>Language:</b> C, Bourne shell
+<<BR>><b>See:</b> gitster's recent remarks on #git [http://article.gmane.org/gmane.comp.version-control.git/76136 on gmane].
+
+== Teach git-apply the 3-way merge fallback git-am knows ==
+
+When git-apply patches file(s) the files may not patch cleanly.
+In such a case git-apply currently rejects the patch.  If it is
+called from git-am then a 3-way merge is attempted by taking the
+"index ..." data from the patch and constructing a temporary tree,
+applying the patch to that, then merging the temporary tree to the
+current branch.
+
+For various reasons it would be nice to do the entire temporary
+tree dance directly inside of git-apply, as it can benefit say
+the git-sequence's "apply" command, speed up git-am processing by
+forking less, etc.
+
+<b>Goal:</b> Apply a patch that git-apply rejects today, but that "git am -3" can apply cleanly.
+<<BR>><b>Language:</b> C
+<<BR>><b>See:</b> gitster's recent remarks on #git [http://article.gmane.org/gmane.comp.version-control.git/76136 on gmane].
+
+== Lazy clone / remote alternates ==
+
+The idea here is to be able to remotely access objects from a network
+based object server as needed, rather than having them all local.
+This would make Git more approachable for very large projects,
+especially in a more corporate LAN-user setting.
+
+<b>Goal:</b> A working lazy clone prototype implementation that could be considered for inclusion, in a nice series of commits (separate  branch/fork)
+<<BR>><b>Language:</b> C
+<<BR>><b>Suggested mentor:</b> Jan Holesovsky, who submitted proof-of-concept patch for lazy clone
+<<BR>><b>See also:</b> [[#narrowclone Narrow and Sparse clone support]] below, as it is quite related.
+
 == Packfile caching for git-daemon ==
 
 Even with delta reuse, enumerating objects to be present in packfile generates significant load on server for pack-generating protocols, such as git:// protocol used by git-daemon.  Many of requests result in the same packfile to be generated and sent; examples include full clone, or fetch of all branches since last update.  It would make sense then to save (cache) packfiles, and if possible avoid regenerating packfiles by sending them from cache.  (Possible extension would be to send slightly larger pack than needed if one can reuse cached packfile instead).
@@ -73,28 +119,47 @@ The goal is for git-daemon to cache packfiles, use cached packfiles if possible,
 <b>Goal:</b> Support for packfile cache in git-daemon, benchmark server load
 <<BR>><b>Language:</b> C
 
-= Larger Projects =
+== git mirror-sync ==
 
-== Implement pack v4/v5 for higher compression ==
+An extension, rebirth and grand simplification of the key features of the (incomplete) [[GitTorrent]] projects from previous years.
 
-Although Git's packfile format offers incredible disk space savings
-over other VCS systems, we already know we can still do better.
-A prototype design dubbed 'packv4' has been floating around the
-Git world for almost two years, but has not been fully implemented
-for inclusion in a shipping release.
+Includes extensions to the git daemon protocol to handle automatic registration and verification of mirrors, expedient distribution of updates to the mirrors, mirror selection, and for extra points, download spreading (pulling fractions of bundles from a number of nodes) and/or "mob" fork support.  Thus yielding the major P2P benefits of [[GitTorrent]] in simple, incremental steps.  The result would be faster downloads, lower startup overheads, restartable cloning, a more resilient server network, push to any point in the cloud, etc.
 
-At this point the implementation for 'packv4' would need to be
-rewritten from scratch, as much of the affected parts of the core Git
-code have been modified to support other enhancements.  A student
-with a strong interest in data compression could really get into
-this project and take it to places we have never thought possible.
+For use for sites such as git.kernel.org, repo.or.cz, github.com, etc.  Implementations of [[GitTorrent]] exist at http://jonas.nitro.dk/gittorrent/libgtp.git/ and http://git.utsl.gen.nz/VCS-Git-Torrent, but the [[MirrorSync]] proposal is a simpler way forward, integrates better with git and would be preferred to proposals that would attempt to finish the [[GitTorrent]] proofs of concept.
 
-<b>Goal:</b> Save at least 10% on current packv2 for benchmark
-repositories (linux-2.6, git, mozilla, gcc) and boost runtime ~10%.
-<<BR>><b>Language:</b> C
+<b>Goal:</b> to implement a useful amount of the [[MirrorSync]] proposal (http://code.google.com/p/gittorrent/wiki/[[MirrorSync]])
+<<BR>><b>Language:</b> Open for proposal.
 <<BR>><b>Suggested mentors:</b>
-* Shawn Pearce (gsoc@spearce.org)
-<<BR>><b>See:</b> [http://kerneltrap.org/mailarchive/git/2007/2/27/239830 on kerneltrap] and [http://article.gmane.org/gmane.comp.version-control.git/43016 the entire "understanding version 4 packs" thread on gmane]
+* Jonas Fonseca (designed the original protocol)
+* Johannes Schindelin (interested party) 
+* Sam Vilain (worked on [[GitTorrent]], designed [[MirrorSync]])
+<<BR>><b>See:</b> [[SoC2008Projects:2008 GSoC project]]
+
+== Domain specific merge helpers ==
+
+Git adds conflict markers to text files when there where conflicts while merging.  This is pretty useful if your text file is line based source code.  But it can be pretty difficult to use, say, with [[LaTeX]] files (where the lines typically reflect whole paragraphs, and a single typo fix results in the same conflict size as if the whole paragraph were rewritten) or XML/SVG/build.xml files (which are not commonly edited with text editors, but other programs that expect valid XML as input -- which might not be true when the conflict markers are added).
+
+To be useful with other file types than plain text or (line based) source code, domain specific merge helpers are needed which present the merge conflict in a reasonable form, helping the user to resolve the conflicts.
+
+<b>Goal:</b> to implement a merge helper for at least one additional file type (depending on the file type, one domain specific merge helper might not fill a whole GSoC project)
+<<BR>><b>Language:</b> Open for proposal.
+<<BR>><b>Suggested mentors:</b>
+* Johannes Schindelin
+
+== Apply sparse To Fix Errors ==
+
+Teach [http://kernel.org/pub/linux/kernel/people/josh/sparse/ sparse]
+how to fix common errors, and then use sparse to actually fix them.
+Perhaps more of a sparse project than a Git project.  The community
+just wants to see Git improved, if sparse is improved at the same
+time, double bonus points!  :-)
+
+<b>Goal:</b> Fix existing errors in Git.
+<<BR>><b>Language:</b> C
+<<BR>><b>Mentor:</b>  Johannes Schindelin (johannes.schindelin@gmx.de)
+<<BR>><b>Suggested by:</b> Johannes Schindelin [http://article.gmane.org/gmane.comp.version-control.git/40801 on gmane]
+
+= Larger Projects =
 
 == "Smart" HTTP based GIT Transport ==
 
@@ -130,6 +195,7 @@ Further, git-cheetah was started with X11 and MacOSX support in mind, so at leas
 <<BR>><b>Mentor:</b>
 * Johannes Schindelin (johannes.schindelin@gmx.de)
 
+<<Anchor(narrowclone)>>
 == Narrow and Sparse clone support ==
 
 One of the things that Git is not currently very good at is handling repositories with large media in them.  There is no way to checkout a single file or directory, and the shallow clone support does not allow you to make changes and push back.
@@ -148,33 +214,6 @@ It would accomplish this by downloading all of the commit and tree objects, whic
 * Scott Chacon (schacon@gmail.com)
 <<BR>><b>See:</b> [http://n2.nabble.com/Git-and-Media-repositories....-td1446700.html "Git and Media repositories" on Nabble]
 
-== git mirror-sync ==
-
-An extension, rebirth and grand simplification of the key features of the (incomplete) [[GitTorrent]] projects from previous years.
-
-Includes extensions to the git daemon protocol to handle automatic registration and verification of mirrors, expedient distribution of updates to the mirrors, mirror selection, and for extra points, download spreading (pulling fractions of bundles from a number of nodes) and/or "mob" fork support.  Thus yielding the major P2P benefits of [[GitTorrent]] in simple, incremental steps.  The result would be faster downloads, lower startup overheads, restartable cloning, a more resilient server network, push to any point in the cloud, etc.
-
-For use for sites such as git.kernel.org, repo.or.cz, github.com, etc.  Implementations of [[GitTorrent]] exist at http://jonas.nitro.dk/gittorrent/libgtp.git/ and http://git.utsl.gen.nz/VCS-Git-Torrent, but the [[MirrorSync]] proposal is a simpler way forward, integrates better with git and would be preferred to proposals that would attempt to finish the [[GitTorrent]] proofs of concept.
-
-<b>Goal:</b> to implement a useful amount of the [[MirrorSync]] proposal (http://code.google.com/p/gittorrent/wiki/[[MirrorSync]])
-<<BR>><b>Language:</b> Open for proposal.
-<<BR>><b>Suggested mentors:</b>
-* Jonas Fonseca (designed the original protocol)
-* Johannes Schindelin (interested party) 
-* Sam Vilain (worked on [[GitTorrent]], designed [[MirrorSync]])
-<<BR>><b>See:</b> [[SoC2008Projects:2008 GSoC project]]
-
-== Domain specific merge helpers ([[LaTeX]], [[OpenOffice]], SVG, images or other file types) ==
-
-Git adds conflict markers to text files when there where conflicts while merging.  This is pretty useful if your text file is line based source code.  But it can be pretty difficult to use, say, with [[LaTeX]] files (where the lines typically reflect whole paragraphs, and a single typo fix results in the same conflict size as if the whole paragraph were rewritten) or XML/SVG/build.xml files (which are not commonly edited with text editors, but other programs that expect valid XML as input -- which might not be true when the conflict markers are added).
-
-To be useful with other file types than plain text or (line based) source code, domain specific merge helpers are needed which present the merge conflict in a reasonable form, helping the user to resolve the conflicts.
-
-<b>Goal:</b> to implement a merge helper for at least one additional file type (depending on the file type, one domain specific merge helper might not fill a whole GSoC project)
-<<BR>><b>Language:</b> Open for proposal.
-<<BR>><b>Suggested mentors:</b>
-* Johannes Schindelin
-
 == Directory renames ==
 
 Git deals quite well with renames when merging.  One of the corner cases is when one side renamed some directory, and other side created <i>new files</i> in the old-name directory.  Git currently creates new files in resurrected old-name directory, while it could create new files under new-name directory instead.
@@ -190,6 +229,29 @@ There is a bit of controversy about this feature, as for example in    some prog
 * [http://thread.gmane.org/gmane.comp.version-control.git/108106 Comments on "Understanding Version Control" by Eric S. Raymond] thread contains some thoughts on wholesame directory rename detection
 * [http://blog.teksol.info/2008/01/16/directory-renames-under-git Directory renames under Git] blog post notice the issue
 * [http://www.markshuttleworth.com/archives/123 Renaming is the killer app of distributed version control] blog post by Mak Shuttleworth (pro-Bazaar).
+
+= Projects So Large Your Head Will Spin =
+
+== Implement pack v4/v5 for higher compression ==
+
+Although Git's packfile format offers incredible disk space savings
+over other VCS systems, we already know we can still do better.
+A prototype design dubbed 'packv4' has been floating around the
+Git world for almost two years, but has not been fully implemented
+for inclusion in a shipping release.
+
+At this point the implementation for 'packv4' would need to be
+rewritten from scratch, as much of the affected parts of the core Git
+code have been modified to support other enhancements.  A student
+with a strong interest in data compression could really get into
+this project and take it to places we have never thought possible.
+
+<b>Goal:</b> Save at least 10% on current packv2 for benchmark
+repositories (linux-2.6, git, mozilla, gcc) and boost runtime ~10%.
+<<BR>><b>Language:</b> C
+<<BR>><b>Suggested mentors:</b>
+* Shawn Pearce (gsoc@spearce.org)
+<<BR>><b>See:</b> [http://kerneltrap.org/mailarchive/git/2007/2/27/239830 on kerneltrap] and [http://article.gmane.org/gmane.comp.version-control.git/43016 the entire "understanding version 4 packs" thread on gmane]
 
 == libgit2 ==
 
