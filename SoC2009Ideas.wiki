@@ -64,8 +64,6 @@ For an alternate solution, utilizing <i>pickaxe</i> search rather than git-blame
 <<BR>><b>Language:</b> C
 <<BR>><b>Mentor:</b> Johannes Schindelin (johannes.schindelin@gmx.de)
 
-= Medium Sized Projects =
-
 == Implement git-submodule using .git file  ==
 
 Rewrite git-submodule, placing the repository for each referenced
@@ -79,6 +77,8 @@ and its objects are safe somewhere within $GIT_DIR/modules.
 <b>Goal:</b> Rework git-submodule, keeping submodule repositories safe under $GIT_DIR.
 <<BR>><b>Language:</b> C, Bourne shell
 <<BR>><b>See:</b> gitster's recent remarks on #git [http://article.gmane.org/gmane.comp.version-control.git/76136 on gmane].
+
+= Medium Sized Projects =
 
 == Teach git-apply the 3-way merge fallback git-am knows ==
 
