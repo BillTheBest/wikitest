@@ -37,14 +37,13 @@ The short definition is:
 
 * See the [http://www.kernel.org/pub/software/scm/git/docs/git-fetch.html git-fetch(1)] and [http://www.kernel.org/pub/software/scm/git/docs/git-pull.html git-pull(1)] man pages or the tutorials for more details.
 
-<<Anchor(public-repo)>>
+<<[[GitLink]](public-repo,A daemon like sshd, apache, or git-daemon)>>
 == What can I use to set up a public repository? ==
 A SSH server, an HTTP server, or the git-daemon. Local networks can also use network filesystems, like NFS or SMBFS/CIFS (the Windows networks).
 
 * It seems not everyone thinks that SMBFS is a good idea; several people on #git hold the opinion that SMBFS should not be used with git.
 * See the [http://www.kernel.org/pub/software/scm/git/docs/gittutorial.html Git tutorial] for more details.
 
-<<Anchor(empty-dirs)>>
 <<[[GitLink]](empty-dirs,Git only tracks directories with files in them)>>
 == Can I add empty directories? ==
 Currently the design of the git index (staging area) only permits <i>files</i> to be listed, and nobody competent enough to make the change to allow empty directories has cared enough about this situation to remedy it.
@@ -55,7 +54,6 @@ You can say "<code><nowiki>git add <dir></nowiki></code>" and it will add files 
 
 If you really need a directory to exist in checkouts you should create a file in it. .gitignore works well for this purpose; you can leave it empty, or fill in the names of files you expect to show up in the directory.
 
-<<Anchor(rename-tracking)>>
 <<[[GitLink]](rename-tracking,Some workflows do not support rename information)>>
 == Why does git not "track" renames? ==
 [[Git]] has to interoperate with a lot of different workflows, for example some changes can come from patches, where rename information may not be available. Relying on explicit rename tracking makes it impossible to merge two trees that have done exactly the same thing, except one did it as a patch (create/delete) and one did it using some other heuristic.
@@ -70,7 +68,7 @@ As a very special case, <code><nowiki>'git log'</nowiki></code> version 1.5.3 an
 
 Git has a rename command <b>git mv</b>, but that is just a convenience. The effect is indistinguishable from removing the file and adding another with different name and the same content.
 
-<<Anchor(no-per-file-history)>>
+<<[[GitLink]](no-per-file-history,A git repository's history is not stored by filename)>>
 == Why is "git log <filename>" slow? ==
 The answer to the question why <code><nowiki>git log <filename></nowiki></code> takes so long to find a small number of commits which changed a given file lies in the fact that Git looks at <b>all</b> the commits to find that.
 
@@ -94,6 +92,7 @@ To speed up "git log" give it a range of interesting revisions; you can also try
 
 * [http://permalink.gmane.org/gmane.comp.version-control.git/39358 Re: how to speed up "git log"?] by Linus Torvalds on Git mailing list.
 
+<<[[GitLink]](exporting-cdpath-breaks-things,Exporting CDPATH confuses shell scripts)>>
 == Why is it wrong to export the environment variable CDPATH? ==
 The CDPATH variable is purely for interactive use.  A lot of scripts break if a simple "cd" suddenly outputs a text that was directed at <b>you</b>, the user, and not meant for processing by the script.  Setting, but not exporting, CDPATH will still work as expected, but may break many scripts, including the make procedure of Git.  Having said that, we tried hard to avoid to unset CDPATH everywhere in the Git scripts, and in the Makefiles, but it is well possible that we missed out some places.
 
@@ -101,9 +100,11 @@ In contrast, if you just remove the "export" from your .bashrc, you are guarante
 
 * [http://article.gmane.org/gmane.comp.version-control.git/13736/match=cdpath Re: make install bug?]
 
+<<[[GitLink]](gitweb-in-git,Gitweb is distributed with git now)>>
 == How come gitweb suddenly disappeared from the project list at kernel.org/git? ==
 Because it got merged into git. See [http://kernel.org/git/?p=git/git.git;a=commit;h=0a8f4f0020cb35095005852c0797f0b90e9ebb74 the relevant commit].
 
+<<[[GitLink]](merge-vs-rebase,Rebasing rewrites history)>>
 == What is the difference between a merge and a rebase? ==
 Imagine this history:
 
@@ -126,6 +127,7 @@ after rebase:
 </nowiki></pre>
 So, the merge does not rewrite your commits. They will stay the same. A rebase _will_ rewrite them. The advantage is that the history looks nicer. The disadvantage is that you usually tested more while developing, so that some obscure feature in, say, "G", could work less nicely together with the changes of, say, "B", than you hope for. In other words, G was tested thoroughly, G' was not. As always, it is a trade-off.
 
+<<[[GitLink]](rm-is-shorthand,"git rm" is needed more often than "git rm --cached")>>
 == Why is "git rm" not the inverse of "git add"? ==
 Don't think of 'rm' as the inverse of 'add'.  That would only confuse you.
 
@@ -157,9 +159,9 @@ The fact that steps 3 and 4 can be naturally combined, but steps 1 and 2 cannot 
 
 = Features =
 
-<<Anchor(git-crlf)>>
+<<[[GitLink]](git-crlf,Yes, with attribute crlf or configuration setting core.autocrlf)>>
 == Does git convert between CRLF and LF for different platforms? ==
-Support for this exists in Git versions 1.5 or later.
+Support for this exists in Git versions 1.5 or later.  See [http://www.kernel.org/pub/software/scm/git/docs/gitattributes.html#_checking_out_and_checking_in gitattributes(5)].
 
 <<Anchor(git-keywords)>>
 <<[[GitLink]](keywords,It's not a good idea but it's possible)>>
