@@ -21,7 +21,7 @@ In a centralized VCS like Subversion only the central repository has the complet
 Due to being distributed, you inherently do not have to give commit access to other people. Instead, you decide when to merge what from whom. (There exist different mechanisms of control in case you do want to have a  repository into which multiple people can push to. -not covered yet here-)
 
 == Branch Handling ==
-Branches in Git are a core concept used everyday by every user.  In Subversion they are almost an afterthought and tend to be avoided unless absolutely necessary.
+Branches in Git are a core concept used everyday by every user.  In Subversion they are more cumbersome and used sparingly.
 
 The reason branches are so core in Git is every developer's working directory is itself a branch.  Even if two developers are modifying two different unrelated files at the same time it's easy to view these two different working directories as different branches stemming from the same common base revision of the project.
 
