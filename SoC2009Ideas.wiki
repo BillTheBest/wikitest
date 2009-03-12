@@ -116,6 +116,8 @@ Even with delta reuse, enumerating objects to be present in packfile generates s
 
 The goal is for git-daemon to cache packfiles, use cached packfiles if possible, and to manage packfile cache.  Note that one would need in the final version some way to specify upper limit on packfile cache size and some cache entry expire policy.
 
+Caching packfiles is a good solution for infrequently updated repositories (e.g. once per day), so at least full clone requests, and fetch since last update would generate the same packfile.  An alternate solution, explored in [http://permalink.gmane.org/gmane.comp.version-control.git/112703 this post] (for JGit), is to cache object list instead, speeding up the most costly part of operation.  This might work even for very busy repositories (used as exchange, not only distribution point).
+
 <b>Goal:</b> Support for packfile cache in git-daemon, benchmark server load
 <<BR>><b>Language:</b> C
 
