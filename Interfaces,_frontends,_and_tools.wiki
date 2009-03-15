@@ -5,7 +5,7 @@
 -----
 <!-- ## reducing font size doesn't work with 2-level/3-level table of contents
  -->
-<b>Table of contents:</b> 
+<b>Table of contents:</b>
 <<<!-- ! TOC here -->(3)>>
 -----
 
@@ -744,6 +744,9 @@
 === Netbeans module (nbgit) ===
 * A [[NetBeansPlugin]] with a limited set of features are available for testing.
 
+=== Padre ===
+* [http://search.cpan.org/~KAARE/Padre-Plugin-Git/ Padre-Plugin-Git] provides basic Git integration for Padre, a text editor being developed as an IDE for Perl.
+
 === PIDA ===
 * [http://pida.co.uk/ PIDA] Integrated development environment supporting GIT, Subversion, Darcs, Mercurial, Monotone, Bazaar-NG (<i>bzr</i>). It allows embedding Vim or emacs. <i>(Python, GTK)</i>
 
@@ -810,7 +813,7 @@
 * git-svnconvert, written by Rutger Nijlunsing in Ruby, appeared only on git mailing list in post [http://marc.theaimsgroup.com/?l=git&m=114460050718696 |ANNOUNCE| git-svnconvert: YASI (Yet Another SVN importer)].
 
 === svn-all-fast-export ===
-* svn-all-fast-export ([http://repo.or.cz/w/svn-all-fast-export.git gitweb]) by Thiago Macieira, is a tool that exports from Subversion onto multiple Git repositories via git-fast-import. Written in C++,  uses Qt Core library. 
+* svn-all-fast-export ([http://repo.or.cz/w/svn-all-fast-export.git gitweb]) by Thiago Macieira, is a tool that exports from Subversion onto multiple Git repositories via git-fast-import. Written in C++,  uses Qt Core library.
 
 === braid ===
 * [http://evil.che.lu/projects/braid Braid] ([http://github.com/evilchelu/braid/tree/master github]), formerly [http://evil.che.lu/2007/11/27/ann-giston-piston-lookalike-for-git Giston], is a [http://piston.rubyforge.org/index.html Piston] lookalike for git-svn: a simple tool to help track svn vendor branches in your git repository. By Cristi Balan, in Ruby (Piston is in Ruby).
