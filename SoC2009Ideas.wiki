@@ -2,6 +2,8 @@
 
 Git has been accepted to the [http://socghop.appspot.com/program/home/google/gsoc2009 Google Summer of Code 2009] program!
 
+Google will be accepting student applications March 23 ~12 noon PDT/19:00 UTC through April 3 12 noon PDT/19:00 UTC.
+
 This page contains project ideas culled from the Git user and developer community.  You can get started by reading some project descriptions, and the mailing list thread(s) that spawned them.  Also consider joining the developer mailing list, or finding us on IRC.  Details can be found in [[GitCommunity]].
 
 Don't like a project you see here?  Toss your own idea out there, it may be just the thing we have been looking for!
