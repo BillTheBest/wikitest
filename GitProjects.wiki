@@ -498,6 +498,9 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * http://www.denx.de/cgi-bin/gitweb.cgi?p=u-boot.git;a=summary (gitweb)
 * uade (Unix Amiga Delitracker Emulator)
 * http://zakalwe.fi/uade
+* uriparser (strictly RFC 3986 compliant URI library in C)
+* http://uriparser.sourceforge.net/ (homepage)
+* http://uriparser.git.sourceforge.net/git/gitweb.cgi?p=uriparser (gitweb)
 * usplash
 * http://git.debian.org/?p=collab-maint/usplash.git (gitweb)
 * util-linux-ng
