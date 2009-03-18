@@ -1,7 +1,28 @@
 = [[GitTogether]] =
 These are events when git developers and users physically meet in the same place.
 
-= Discussions and Projects =
+= [[GitTogether]] '09 =
+
+It's not yet decided yet if there will be a Gittogether in 2009 and when and where it would happen.
+Please list bellow the location and date ideas you have. And why they might be good.
+
+=== [[GitTogether]] '09 Location and date ideas ===
+
+* San Francisco in October, just after the Google Summer of Code Mentor:
+
+Tha date of the Mentor Summit is not yet decided, see:
+http://socghop.appspot.com/document/show/program/google/gsoc2009/faqs#timeline
+
+This would make it easy for mentors going to the Mentor Summit to come and attendees could perhaps
+be hosted and feeded by Google and/or other Git friendly company located nearby.
+
+* Portland Oregon in September, during or after [http://events.linuxfoundation.org/events/linuxcon LinuxCon] and/or [http://linuxplumbersconf.org/ Linux Plumbers Conference]:
+
+The [http://events.linuxfoundation.org/events/linuxcon LinuxCon] is scheduled for September 21 - 23 and the [http://linuxplumbersconf.org/ Linux Plumbers Conference] is scheduled for September 23 - 25.
+
+This would hopefully make it easy for many Git users going to the above conferences to come. 
+
+= [[GitTogether]] '08 Discussions and Projects =
 A couple of wiki pages for notes on some of the longer term project topics we discussed at the [[GitTogether]]08.
 
 * [[GTUserInterfaceImprovements]]
