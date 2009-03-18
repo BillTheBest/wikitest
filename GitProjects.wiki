@@ -329,6 +329,9 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * Ledger
 * http://www.newartisans.com/software/ledger.html (homepage)
 * http://git.newartisans.com/?r=ledger (cgit)
+* libxspf (XSPF playlist handling library)
+* http://sourceforge.net/projects/libspiff (homepage)
+* http://git.xiph.org/?p=libxspf.git;a=summary (gitweb)
 * Libzypp (software management engine that powers products like YaST, ZYpper and Zenworks)
 * http://en.opensuse.org/Libzypp (homepage)
 * http://git.opensuse.org/?p=projects/zypp/libzypp.git (gitweb) 
