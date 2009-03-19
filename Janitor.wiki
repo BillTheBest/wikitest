@@ -12,7 +12,7 @@ Also note that it may happen that this list is not up to date. In this case plea
 ** Of course after that it makes sense to clean up the "*.c" source files that include all these headers, to remove the headers that are no more needed there.
 ** There may be other ways to cleanup header file include directives. 
 * <i>Refactor binary search functions</i>
-** There are different binary search functions in the git code base. Some are quite complex like in "sha1-lookup.c" other are more simple.
+** There are different binary search functions in the git code base. Some are quite complex like in "sha1-lookup.c" other are simpler.
 ** It would be a good idea to refactor these functions so that less code is duplicated. Look for "*_pos" functions.
 * <i>Convert code to use "-q" option</i>
 ** Many git commands have some "-q" or "--quiet" option to make them "quiet".
