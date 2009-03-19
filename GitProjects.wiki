@@ -273,6 +273,9 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * http://www.lilypond.org/web/devel/participating/ (contributing web page)
 * http://git.sv.gnu.org/gitweb/?p=lilypond.git (gitweb)
 * git://git.sv.gnu.org/lilypond.git (repository)
+* GNOME : Free Software Desktop Project
+* http://www.gnome.org/ (home page)
+* http://git.gnome.org/cgit/ (cgit web interface)
 * GSL - GNU Scientific Library
 * http://www.gnu.org/software/gsl/ (homepage)
 * https://savannah.gnu.org/projects/gsl (project page)
