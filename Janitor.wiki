@@ -4,6 +4,16 @@ It's a very good way to get started if you want to start working on Git or learn
 
 Please be sure to read the [http://git.kernel.org/?p=git/git.git;a=blob;f=Documentation/SubmittingPatches [[SubmittingPatches]]] document before posting your patches. Also please check that your patches apply by sending them to yourself first and then by using "git apply" on what you received.
 
+Also note that it may happen that this list is not up to date. In this case please send an email to the git mailing list (git@vger.kernel.org). Bonus point if you propose to fix that yourself on the wiki!
+
+* <i>Improve header file include directives</i>
+** Some git headers depend on other headers to compile cleanly, in this case it might be a good idea to include the needed headers in the header that needs them.
+** For example "revision.h" depends on "commit.h" and "diff.h", so "revision.h" should include them.
+** Of course after that it makes sense to clean up the "*.c" source files that include all these headers, to remove the headers that are no more needed there.
+** There may be other ways to cleanup header file include directives. 
+* <i>Refactor binary search functions</i>
+** There are different binary search functions in the git code base. Some are quite complex like in "sha1-lookup.c" other are more simple.
+** It would be a good idea to refactor these functions so that less code is duplicated. Look for "*_pos" functions.
 * <i>Convert code to use "-q" option</i>
 ** Many git commands have some "-q" or "--quiet" option to make them "quiet".
 ** Despite that, a lot of code in git uses ">/dev/null" or "2>/dev/null" with these commands, instead of the "-q" or "--quiet" option.
