@@ -22,7 +22,7 @@ Those are public Git hosting sites where any project can be hosted, perhaps with
 * [http://repoz.org/ repoz.org], a public and free Git repository hosting service.  Provides restricted shell to upload to server.  Contact by email.
 * [http://www.berlios.de Berlios] provides Git hosting for open source projects, including gitweb. See [http://developer.berlios.de/docman/display_doc.php?docid=1812&group_id=2 documentation]
 * [http://thechaw.com/ The Chaw], from the authors of [https://www.ohloh.net Ohloh]
-* [http://www.assembla.com Assembla] provides free git hosting for public and private projects if you use under 200Mb of disk space. [http://trac-git.assembla.com/breakout/browser Assembla site] is open source, but not free.
+* [http://www.assembla.com Assembla] provides free git hosting for public projects if you use under 200Mb of disk space. [http://trac-git.assembla.com/breakout/browser Assembla site] is open source, but not free.
 * [http://unfuddle.com/ Unfuddle] (Software Project Management: Git and Subversion Hosting), free (or different payment plans) but not open source.
 * [http://codebasehq.com Codebase] is a Git hosting service with full online source browser, changeset viewer, ticketing and deployment tracking. Designed for private/company projects. Currently, in free open beta.
 * [http://www.a2hosting.com/ A2Hosting] provides paid Git hosting over SSH.
