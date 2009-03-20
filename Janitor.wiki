@@ -14,6 +14,7 @@ Also note that it may happen that this list is not up to date. In this case plea
 * <i>Refactor binary search functions</i>
 ** There are different binary search functions in the git code base. Some are quite complex like in "sha1-lookup.c" other are simpler.
 ** It would be a good idea to refactor these functions so that less code is duplicated. Look for "*_pos" functions.
+** See also [http://thread.gmane.org/gmane.comp.version-control.git/105363/focus=105436 what Junio said about that]
 * <i>Convert code to use "-q" option</i>
 ** Many git commands have some "-q" or "--quiet" option to make them "quiet".
 ** Despite that, a lot of code in git uses ">/dev/null" or "2>/dev/null" with these commands, instead of the "-q" or "--quiet" option.
