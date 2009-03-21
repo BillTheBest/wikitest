@@ -226,5 +226,12 @@ d266b9873ad50488163457f025db7cdd9683d88b HEAD@{0}: checkout: moving to d266b9873
 4389b0d8e22e616c88a99ebd072cfebba40797ef HEAD@{1}: commit: line added inside private2
 d266b9873ad50488163457f025db7cdd9683d88b HEAD@{2}: checkout: moving to d266b9873ad50488163457f025db7cdd9683d88b
 </nowiki></pre>
+== Removal ==
+To remove a submodule you need to:
+
+# Delete the relevant line from the <i>.gitmodules</i> file.
+# Delete the relevant section from <i>.git/config</i>.
+# Run <i>git rm --cached path_to_submodule</i> (no trailing slash).
+# Commit and delete the now untracked submodule files.
 
 __NOTOC__
