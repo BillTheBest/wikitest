@@ -3,7 +3,7 @@ These are events when git developers and users physically meet in the same place
 
 = [[GitTogether]] '09 =
 
-It's not yet decided yet if there will be a Gittogether in 2009 and when and where it would happen.
+It's not yet decided yet if there will be a [[GitTogether]] in 2009 and when and where it would happen.
 Please list bellow the location and date ideas you have. And why they might be good.
 
 === [[GitTogether]] '09 Location and date ideas ===
