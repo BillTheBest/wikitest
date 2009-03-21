@@ -8,7 +8,7 @@ Please list bellow the location and date ideas you have. And why they might be g
 
 === [[GitTogether]] '09 Location and date ideas ===
 
-* San Francisco in October, just after the Google Summer of Code Mentor:
+* San Francisco area in October, just after the Google Summer of Code Mentor:
 
 Tha date of the Mentor Summit is not yet decided, see:
 http://socghop.appspot.com/document/show/program/google/gsoc2009/faqs#timeline
@@ -16,7 +16,7 @@ http://socghop.appspot.com/document/show/program/google/gsoc2009/faqs#timeline
 This would make it easy for mentors going to the Mentor Summit to come and attendees could perhaps
 be hosted and fed by Google and/or other Git friendly company located nearby.
 
-* Portland Oregon in September, during or after [http://events.linuxfoundation.org/events/linuxcon LinuxCon] and/or [http://linuxplumbersconf.org/ Linux Plumbers Conference]:
+* Portland, Oregon in September, during or after [http://events.linuxfoundation.org/events/linuxcon LinuxCon] and/or [http://linuxplumbersconf.org/ Linux Plumbers Conference]:
 
 The [http://events.linuxfoundation.org/events/linuxcon LinuxCon] is scheduled for September 21 - 23 and the [http://linuxplumbersconf.org/ Linux Plumbers Conference] is scheduled for September 23 - 25.
 
