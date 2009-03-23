@@ -173,8 +173,6 @@ Most of what is required for the "smart" Git transport for this project is alrea
 
 <b>Language:</b> Perl, C, shell, other
 <<BR>><b>Goal:</b> Server (CGI) and client that supports fetch & push operation for both authenticated & anonymous clients.
-<<BR>><b>Mentor:</b>
-* Shawn Pearce (gsoc@spearce.org)
 <<BR>><b>See:</b> [http://thread.gmane.org/gmane.comp.version-control.git/91104/focus=91211  |RFC 2/2| Add Git-aware CGI for Git-aware smart HTTP transport] thread on git mailing list (GMane), [http://repo.or.cz/w/git/fastimport.git?a=blob;f=Documentation/technical/http-protocol.txt;hb=smart-http http-protocol.txt RFC] 
 
 == Proper git-svn support on Windows ==
@@ -253,8 +251,6 @@ this project and take it to places we have never thought possible.
 <b>Goal:</b> Save at least 10% on current packv2 for benchmark
 repositories (linux-2.6, git, mozilla, gcc) and boost runtime ~10%.
 <<BR>><b>Language:</b> C
-<<BR>><b>Suggested mentors:</b>
-* Shawn Pearce (gsoc@spearce.org)
 <<BR>><b>See:</b> [http://kerneltrap.org/mailarchive/git/2007/2/27/239830 on kerneltrap] and [http://article.gmane.org/gmane.comp.version-control.git/43016 the entire "understanding version 4 packs" thread on gmane]
 
 == libgit2 ==
@@ -267,7 +263,6 @@ Shawn Pearce already started libgit2, but as of now most functions are not imple
 <<BR>><b>Goal:</b> Implement enough of libgit2 to access a Git repository from a C program and/or a Python/Ruby/Whatever script.
 <<BR>><b>Mentor:</b>
 * Johannes Schindelin (johannes.schindelin@gmx.de)
-* Shawn Pearce (gsoc@spearce.org)
 
 == git-svnserver ==
 
@@ -288,7 +283,6 @@ The difficulty of this task is under a dispute: it should be fairly easy to make
 
 <b>Goal:</b> Allow git-clone to automatically resume a previously failed download over the native git:// protocol.
 <<BR>><b>Language:</b> C
-<<BR>><b>Mentor:</b> Shawn Pearce (gsoc@spearce.org)
 <<BR>><b>Suggested by:</b> Shawn Pearce [http://article.gmane.org/gmane.comp.version-control.git/55298 on gmane]
 
 = Other Resources =
