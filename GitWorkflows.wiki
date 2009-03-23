@@ -35,7 +35,7 @@ First, get a git tree which was derived from another:
 This could take a bit of time to download the whole thing.  But, if you are
 wondering how to do this, you probably already have one of those.
 
-Them you need to find a revision against which you would like to generate your
+Then you need to find a revision against which you would like to generate your
 patches.  The easiest way to do this is to use an existing tag.  Look at your tags
 directory:
 
