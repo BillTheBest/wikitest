@@ -72,7 +72,7 @@ It is tedious to quickly compare differences between non-immediate pushes in git
 
 <b>Goal:</b> A way to select and compare different versions on gitweb
 <<BR>><b>Language:</b> Perl
-<<BR>><b>Mentor:</b> Johannes Schindelin (johannes.schindelin@gmx.de)
+<<BR>><b>See:</b> Gitweb!
 
 == Implement git-submodule using .git file  ==
 
