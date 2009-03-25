@@ -66,6 +66,14 @@ For an alternate solution, utilizing <i>pickaxe</i> search rather than git-blame
 <<BR>><b>Language:</b> C
 <<BR>><b>Mentor:</b> Johannes Schindelin (johannes.schindelin@gmx.de)
 
+== Comparative revision history in Gitweb ==
+
+It is tedious to quickly compare differences between non-immediate pushes in git-web. Implement a selectable, comparative history viewer like on Wikipedia: http://en.wikipedia.org/w/index.php?title=Git_(software)&action=history, http://en.wikipedia.org/w/index.php?title=Git_(software)&diff=279286585&oldid=278280915
+
+<b>Goal:</b> A way to select and compare different versions on gitweb
+<<BR>><b>Language:</b> Perl
+<<BR>><b>Mentor:</b> Johannes Schindelin (johannes.schindelin@gmx.de)
+
 == Implement git-submodule using .git file  ==
 
 Rewrite git-submodule, placing the repository for each referenced
