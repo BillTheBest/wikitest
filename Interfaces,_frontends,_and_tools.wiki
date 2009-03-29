@@ -928,7 +928,7 @@
 * [http://ditz.rubyforge.org Ditz] is a simple, light-weight distributed issue tracker designed to work with distributed version control systems like darcs and git. Ditz maintains an issue database file on disk, written in a line-based and human-editable format. This file is kept under version control, alongside project code. Changes in issue state is handled by version control like code change: included as part of a commit, merged with changes from other developers, conflict-resolved in the standard manner, etc.
 
 === ticgit ===
-* [http://jointheconversation.org/2008/03/23/ticgit-and-a-new-git-gem/ TicGit] is a distributed bug tracker written in Ruby. It stores bug information in a separate branch, allowing multiple developers to control the bug tracking system by merging their ticgit branch. More information on the [http://github.com/schacon/ticgit/wikis wiki]
+* [http://wiki.github.com/schacon/ticgit TicGit] is a distributed bug tracker written in Ruby. It stores bug information in a separate branch, allowing multiple developers to control the bug tracking system by merging their ticgit branch.
 
 === cil ===
 * [http://www.kapiti.geek.nz/software/cil.html CIL] - Command-line Issue List (written in Perl), allows fast creation of a distributed issue tracker which fits in well with any VCS.<br> <b>See also:</b> [http://www.kapiti.geek.nz/random/label:cil.html Blog posts tagged 'cil'] on kapiti.geek.nz.
