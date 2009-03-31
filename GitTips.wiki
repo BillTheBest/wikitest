@@ -173,6 +173,10 @@ user-note:
 <pre><nowiki>
 git ls-files -z --deleted | git update-index -z --remove --stdin
 </nowiki></pre>
+To both remote files that are missing, and add all files that are new is much easier:
+<pre><nowiki>
+git add -A
+</nowiki></pre>
 == How to ignore files which are "Untracked" now? ==
 <pre><nowiki>
 $ git ls-files -o --exclude-standard >> .gitignore
