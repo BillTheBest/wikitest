@@ -115,6 +115,8 @@ based object server as needed, rather than having them all local.
 This would make Git more approachable for very large projects,
 especially in a more corporate LAN-user setting.
 
+<b>Note:</b> After having implemented the proof-of-concept, I don't think the lazy clone/remote alternates is a good idea; in most of the scenarios it leads to far too many roundtrips which makes it unusable even on LANs.  [[#narrowclone Narrow and Sparse clone support]] is the way to go, if you considered subscribing to the lazy clone idea, please choose 'Narrow and Sparse clone' instead :-) <i>-- Jan Holesovsky</i>
+
 <b>Goal:</b> A working lazy clone prototype implementation that could be considered for inclusion, in a nice series of commits (separate  branch/fork)
 <<BR>><b>Language:</b> C
 <<BR>><b>Suggested mentor:</b> Jan Holesovsky, who submitted proof-of-concept patch for lazy clone
