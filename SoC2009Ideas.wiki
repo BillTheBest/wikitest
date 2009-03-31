@@ -139,7 +139,7 @@ Includes extensions to the git daemon protocol to handle automatic registration 
 
 For use for sites such as git.kernel.org, repo.or.cz, github.com, etc.  Implementations of [[GitTorrent]] exist at http://jonas.nitro.dk/gittorrent/libgtp.git/ and http://git.utsl.gen.nz/VCS-Git-Torrent, but the [[MirrorSync]] proposal is a simpler way forward, integrates better with git and would be preferred to proposals that would attempt to finish the [[GitTorrent]] proofs of concept.
 
-<b>Goal:</b> to implement a useful amount of the [[MirrorSync]] proposal (http://code.google.com/p/gittorrent/wiki/[[MirrorSync]])
+<b>Goal:</b> to implement a useful amount of the [[MirrorSync]] proposal (http://code.google.com/p/gittorrent/wiki/[[MirrorSync]], also http://github.com/samv/git/tree/mirror-sync - see Documentation/git-mirror-sync.txt and Documentation/git-mirror-sync-impl.txt in that tree)
 <<BR>><b>Language:</b> Open for proposal.
 <<BR>><b>Suggested mentors:</b>
 * Jonas Fonseca (designed the original protocol)
