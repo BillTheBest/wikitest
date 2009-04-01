@@ -47,6 +47,7 @@ Stacked Git operations. (Personally I have dropped this and will opt for the int
 Make a tag and delete tags
 
 == Gitignore ==
+<<Anchor(gitignore)>>
 Add the "Add to .gitignore" entry menu.
 
 Ignored files should also be processed for status handling, initial refusal to add to the tree (require extra confirmation), etc.
