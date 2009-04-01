@@ -173,7 +173,7 @@ user-note:
 <pre><nowiki>
 git ls-files -z --deleted | git update-index -z --remove --stdin
 </nowiki></pre>
-To both remote files that are missing, and add all files that are new is much easier:
+To both remove files that are missing, and add all files that are new, one can use the (much easier) command:
 <pre><nowiki>
 git add -A
 </nowiki></pre>
