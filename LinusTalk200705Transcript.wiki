@@ -1,5 +1,7 @@
 <i>This is transcript of [http://www.youtube.com/watch?v=4XpnKHJAok8 Tech Talk: Linus Torvalds on Git] at Google on YouTube.</i>
 
+* 토발즈가 git에 대해 강의한 동영상(http://www.youtube.com/watch?v=4XpnKHJAok8 )에 대한 자막용 파일입니다. 
+
 ----
 <b>Andrew:</b>
 
