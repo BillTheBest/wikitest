@@ -200,6 +200,57 @@ For your local (!) repository you can get the commit for a string like v2.6.26-r
 <pre><nowiki>
 git rev-list --all v2.6.26-rc9.. | xargs git describe | grep '\-56\-'
 </nowiki></pre>
+
+== How to create a new empty branch that has no ancestor ==
+
+Why? You might want to create a new component in a branch by itself, or perhaps you want to create a test case branch, or perhaps a documentation branch, any of which you want to keep separate from other development branches because they have completely different files.
+
+So, here is how to add a new and empty branch.
+
+<pre><nowiki>
+git symbolic-ref HEAD refs/heads/mynewbranch
+rm .git/index 
+git clean -fdx 
+# add some files here
+git add .
+git commit
+</nowiki></pre>
+
+=== How does this work? ===
+
+<pre><nowiki>
+git symbolic-ref HEAD refs/heads/mynewbranch
+</nowiki></pre>
+
+HEAD is a symbolic reference that refers to the current branch.  Try doing 'git symbolic-ref HEAD' and it will show you the actual reference to which it refers.
+
+By providing that second argument, you are saying that you now want the symbolic reference HEAD to refer to this new reference refs/heads/mynewbranch.  Voila! a new branch is created.
+
+But the branch is not yet empty ... which bring us to the next couple commands.
+
+<pre><nowiki>
+rm .git/index
+git clean -fdx
+</nowiki></pre>
+
+The first command removes the index file with with Git is tracking the working directory changes. No index, no tracking.
+
+The second command will clean out all untracked files (which is now everything except for the Git repository files. This is a safe way of emptying the directory (whereas rm -rf * is NOT safe :-).
+
+Now you can create one or more files that will be part of the initial commit of this new branch. Then add and commit, as you normally would.  For example:
+
+<pre><nowiki>
+git add .
+git commit
+</nowiki></pre>
+
+That's it. A bit tricky at the start, but not too tricky.
+
+=== References ===
+
+# http://book.git-scm.com/5_creating_new_empty_branches.html
+# http://madduck.net/blog/2007.07.11:creating-a-git-branch-without-ancestry/
+
 = Configuration =
 
 == Specifiy attribute values in the correct format ==
