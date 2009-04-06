@@ -272,6 +272,7 @@ Shawn Pearce already started libgit2, but as of now most functions are not imple
 <b>Language:</b> C, doxygen
 <<BR>><b>Goal:</b> Implement enough of libgit2 to access a Git repository from a C program and/or a Python/Ruby/Whatever script.
 <<BR>><b>Mentor:</b>
+* Andreas Ericsson (ae@op5.com)
 * Johannes Schindelin (johannes.schindelin@gmx.de)
 
 == git-svnserver ==
