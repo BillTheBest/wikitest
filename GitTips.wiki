@@ -201,11 +201,39 @@ For your local (!) repository you can get the commit for a string like v2.6.26-r
 git rev-list --all v2.6.26-rc9.. | xargs git describe | grep '\-56\-'
 </nowiki></pre>
 
-== How to create a new empty branch that has no ancestor ==
+== How to create a new branch that has no ancestor ==
 
 Why? You might want to create a new component in a branch by itself, or perhaps you want to create a test case branch, or perhaps a documentation branch, any of which you want to keep separate from other development branches because they have completely different files.
 
 So, here is how to add a new and empty branch.
+
+The easy way: create a new repository, start the branch, and push this branch into your original repository.  Example:
+
+<pre><nowiki>
+mkdir anew
+cd anew
+git init
+# add some files here
+cp ../<files...> ./
+git add .
+git commit
+git push .. HEAD:new-branch-without-ancestor
+cd ..
+rm -rf anew
+</nowiki></pre>
+
+The quick way: reuse the working directory, but initialize a new repository with a new branch, and then fetch the branch.  Example:
+
+<pre><nowiki>
+git --git-dir=tmp.git init
+# add some files
+git --git-dir=tmp.git add <files...>
+git --git-dir=tmp.git commit
+git fetch tmp.git master:new-branch-without-master
+rm -rf tmp.git
+</nowiki></pre>
+
+Of course, you can make life hard on yourself instead:
 
 <pre><nowiki>
 git symbolic-ref HEAD refs/heads/mynewbranch
