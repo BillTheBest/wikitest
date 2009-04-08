@@ -24,10 +24,11 @@ This would hopefully make it easy for many Git users going to the above conferen
 
 = "Alles Wird Git" Berlin [[GitTogether]] '09 =
 * What: An informal gathering of Gits.
-* When: Saturday, October 3, 2009.
-* Where: Somewhere in Berlin, DE. Local help is needed to find a venue.
+* Date: Saturday, October 3, 2009.
+* Time: To be determined.
+* Where: To be determined but somewhere in Berlin, DE. Local help is needed to find a venue.
 * Why: Gitzilla will be visiting and volunteered a $100 subsidy.
-* Who: Any Gits than can attend. IRC handle starting with "git" not required.
+* Who: Any Gits that can attend. IRC handle starting with "git" not required.
 
 = [[GitTogether]] '08 Discussions and Projects =
 A couple of wiki pages for notes on some of the longer term project topics we discussed at the [[GitTogether]]08.
