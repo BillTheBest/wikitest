@@ -22,6 +22,13 @@ The [http://events.linuxfoundation.org/events/linuxcon LinuxCon] is scheduled fo
 
 This would hopefully make it easy for many Git users going to the above conferences to come. 
 
+= "Alles Wird Git" Berlin [[GitTogether]] '09 =
+* What: An informal gathering of Gits.
+* When: Saturday, October 3, 2009.
+* Where: Somewhere in Berlin, DE. Local help is needed to find a venue.
+* Why: Gitzilla will be visiting and volunteered a $100 subsidy.
+* Who: Any Gits than can attend. IRC handle starting with "git" not required.
+
 = [[GitTogether]] '08 Discussions and Projects =
 A couple of wiki pages for notes on some of the longer term project topics we discussed at the [[GitTogether]]08.
 
