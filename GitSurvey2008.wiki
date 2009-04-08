@@ -1,5 +1,4054 @@
-Very nice site!
+= Git User's Survey 2008 summary =
+
+<b>The Git User's Survey 2008 has been closed on October 14, 2008.</b>
+
+The survey could be found here:
+* [http://www.survs.com/survey?id=M3PIVU72&channel=2WXE4BVTW8 Git User's Survey 2008] (http://tinyurl.com/[[GitSurvey]]2008) at Survs.com (closed)
+
+You can get raw data (individual responses) for the survey here:
+* [attachment:Git_User's_Survey_2008_-_Oct_14,_2008.csv.gz Git User's Survey 2008 - Oct 14, 2008.csv.gz] (CSV, 1.2 MB)
+* [attachment:Git%20User's%20Survey%202008%20-%20Oct%2014,%2008.xls Git User's Survey 2008 - Oct 14, 2008.xls] (Excel, 8.6MB)
+
+Or even better, as long as the survey is not 100% evaluated, do
+* git clone git://git.pkqs.net/gitsurvey08.git
+* read README and README.mob
+* use the error-prone scripts
+* commit to a mob branch and push
+
+Results of the survey:
+* [http://thread.gmane.org/gmane.comp.version-control.git/94797/ partial summary thread on GMANE]
+* [http://www.survs.com/shareResults?survey=M3PIVU72&rndm=OKJQ45LAG8 Graphical final results of the survey] (http://tinyurl.com/[[GitSurvey]]2008Analyze) <<BR>> <b><i>Note:</b> you can use existing on-line filters for basic survey analysis</i>
+* Further final results will follow and will be put into the wiki.
+
+There were 3236 individual responses, including 21 responses in 'test' channel<<BR>>
+There were 683 individual responses in [[GitSurvey]]2007, and around 117 responses in [[GitSurvey]]2006.
+
+<i>Please do not add survey <b>data</b> on this page</i>
 ----
-[[CategoryCategory]]
+<b>Table of contents:</b>
+<<<!-- ! TOC here -->(3)>>
+----
+
+= Tabular Results =
+
+== About you ==
+
+=== 01. What country do you live in? ===
+
+(free-form question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <tablestyle="font-size: smaller;" rowstyle="font-weight: bold; background-color: #ffffcc;"> Reply                
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Afghanistan          
+|      1 
+|   0.0% 
+| 
+|-
+|  Argentina            
+|     17 
+|   0.5% 
+| 
+|-
+|  Australia            
+|    100 
+|   3.1% 
+| 
+|-
+|  Austria              
+|     39 
+|   1.2% 
+| 
+|-
+|  Bangladesh           
+|      1 
+|   0.0% 
+| 
+|-
+|  Belarus              
+|      2 
+|   0.1% 
+| 
+|-
+|  Belgium              
+|     31 
+|   1.0% 
+| 
+|-
+|  Brazil               
+|     67 
+|   2.1% 
+| 
+|-
+|  Bulgaria             
+|      5 
+|   0.2% 
+| 
+|-
+|  Canada               
+|    123 
+|   3.8% 
+| 
+|-
+|  Chile                
+|     11 
+|   0.3% 
+| 
+|-
+|  China                
+|     34 
+|   1.1% 
+| 
+|-
+|  Colombia             
+|      6 
+|   0.2% 
+| 
+|-
+|  Croatia              
+|      6 
+|   0.2% 
+| 
+|-
+|  Cuba                 
+|      1 
+|   0.0% 
+| 
+|-
+|  Cyprus               
+|      1 
+|   0.0% 
+| 
+|-
+|  Czech Republic       
+|     30 
+|   0.9% 
+| 
+|-
+|  Denmark              
+|     34 
+|   1.1% 
+| 
+|-
+|  Dominican Republic   
+|      2 
+|   0.1% 
+| 
+|-
+|  Egypt                
+|      2 
+|   0.1% 
+| 
+|-
+|  Estonia              
+|      5 
+|   0.2% 
+| 
+|-
+|  Finland              
+|     35 
+|   1.1% 
+| 
+|-
+|  France               
+|     93 
+|   2.9% 
+| 
+|-
+|  Germany              
+|    324 
+|  10.0% 
+| 
+|-
+|  Greece               
+|      7 
+|   0.2% 
+| 
+|-
+|  Hungary              
+|      5 
+|   0.2% 
+| 
+|-
+|  Iceland              
+|      3 
+|   0.1% 
+| 
+|-
+|  India                
+|     37 
+|   1.1% 
+| 
+|-
+|  Indonesia            
+|      1 
+|   0.0% 
+| 
+|-
+|  Iran                 
+|      1 
+|   0.0% 
+| 
+|-
+|  Ireland              
+|     11 
+|   0.3% 
+| 
+|-
+|  Israel               
+|     16 
+|   0.5% 
+| 
+|-
+|  Italy                
+|     43 
+|   1.3% 
+| 
+|-
+|  Japan                
+|     18 
+|   0.6% 
+| 
+|-
+|  Korea                
+|      1 
+|   0.0% 
+| 
+|-
+|  Latvia               
+|      3 
+|   0.1% 
+| 
+|-
+|  Lebanon              
+|      1 
+|   0.0% 
+| 
+|-
+|  Lithuania            
+|      4 
+|   0.1% 
+| 
+|-
+|  Macedonia            
+|      1 
+|   0.0% 
+| 
+|-
+|  Malaysia             
+|      1 
+|   0.0% 
+| 
+|-
+|  Mexico               
+|     12 
+|   0.4% 
+| 
+|-
+|  Moldova              
+|      1 
+|   0.0% 
+| 
+|-
+|  Netherlands          
+|     58 
+|   1.8% 
+| 
+|-
+|  New Zealand          
+|     36 
+|   1.1% 
+| 
+|-
+|  Norway               
+|     52 
+|   1.6% 
+| 
+|-
+|  Paraguay             
+|      1 
+|   0.0% 
+| 
+|-
+|  Peru                 
+|      3 
+|   0.1% 
+| 
+|-
+|  Philippines          
+|      3 
+|   0.1% 
+| 
+|-
+|  Poland               
+|     69 
+|   2.1% 
+| 
+|-
+|  Portugal             
+|     15 
+|   0.5% 
+| 
+|-
+|  Romania              
+|     18 
+|   0.6% 
+| 
+|-
+|  Russia               
+|     47 
+|   1.5% 
+| 
+|-
+|  Saudi Arabia         
+|      1 
+|   0.0% 
+| 
+|-
+|  Serbia               
+|      3 
+|   0.1% 
+| 
+|-
+|  Singapore            
+|      8 
+|   0.2% 
+| 
+|-
+|  Slovakia             
+|      1 
+|   0.0% 
+| 
+|-
+|  Slovenia             
+|      6 
+|   0.2% 
+| 
+|-
+|  South Africa         
+|     12 
+|   0.4% 
+| 
+|-
+|  Spain                
+|     50 
+|   1.5% 
+| 
+|-
+|  Sri Lanka            
+|      2 
+|   0.1% 
+| 
+|-
+|  Sweden               
+|     63 
+|   1.9% 
+| 
+|-
+|  Switzerland          
+|     58 
+|   1.8% 
+| 
+|-
+|  Taiwan               
+|      6 
+|   0.2% 
+| 
+|-
+|  Tanzania             
+|      1 
+|   0.0% 
+| 
+|-
+|  Thailand             
+|      3 
+|   0.1% 
+| 
+|-
+|  Tunisia              
+|      1 
+|   0.0% 
+| 
+|-
+|  Turkey               
+|      1 
+|   0.0% 
+| 
+|-
+|  Uganda               
+|      1 
+|   0.0% 
+| 
+|-
+|  Ukraine              
+|     12 
+|   0.4% 
+| 
+|-
+|  United Arab Emirates 
+|      1 
+|   0.0% 
+| 
+|-
+|  United Kingdom       
+|    192 
+|   5.9% 
+| 
+|-
+|  Uruguay              
+|      3 
+|   0.1% 
+| 
+|-
+|  USA                  
+|    991 
+|  30.6% 
+| 
+|-
+|  Venezuela            
+|      1 
+|   0.0% 
+| 
+|-
+|  Vietnam              
+|      1 
+|   0.0% 
+| 
+|}
+<!-- ## .........................................
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <-3>
+| 
+|-
+|  <i>European Union (sum)</i> 
+|   1142 
+|  40.0% 
+| 
+|-
+| <-3>
+| 
+|}
+<!-- ## ----------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="border-top: dotted;"> Invalid answer       
+|      6 
+|   0.2% 
+| 
+|-
+|  Not answered         
+|    379 
+|  11.7% 
+| 
+|}
+<!-- ##-----------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total responders 
+|colspan="2" | 2857 
+| 
+|}
+<!-- ##------------------------------------------
+ -->
+<!-- ## table end
+ -->
+
+As one can easily see, slightly less than third of Git users (30.6%) are in the USA (those who answered this survey).  Next of countries is Germany with around 10.0% responses.  More than third of respondents, around two fifths (40.0%) are in European Union.
+
+You can also take a look at [http://www.ohloh.net/projects/git/map Git Activity Map] at [http://www.ohloh.net Ohloh], where you can see on (large) Google Map locations of selected people who have Git in a [http://www.ohloh.net/about/faq#stack stack], or locations of Git contributors (those with known location).
+
+=== 02. How old are you (in years)? ===
+
+(free-form question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <tablestyle="font-size: smaller;" rowstyle="font-weight: bold; background-color: #ffffcc;"> Reply        
+|  Count 
+|  Perc. 
+|  Group      
+|  Count     
+| 
+|}
+<!-- ##----------------------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  13           
+|      3 
+|   0.1% 
+|rowspan="4" | < 18   
+|rowspan="4" | 39    
+| 
+|-
+|  15           
+|      7 
+|   0.2% 
+| 
+|-
+|  16           
+|      8 
+|   0.2% 
+| 
+|-
+|  17           
+|     21 
+|   0.6% 
+| 
+|-
+|  18           
+|     38 
+|   1.2% 
+|rowspan="4" | 18-21  
+|rowspan="4" | 260   
+| 
+|-
+|  19           
+|     40 
+|   1.2% 
+| 
+|-
+|  20           
+|     81 
+|   2.5% 
+| 
+|-
+|  21           
+|    101 
+|   3.1% 
+| 
+|-
+|  22           
+|    151 
+|   4.7% 
+|rowspan="4" | 22-25  
+|rowspan="4" | 751   
+| 
+|-
+|  23           
+|    182 
+|   5.6% 
+| 
+|-
+|  24           
+|    192 
+|   5.9% 
+| 
+|-
+|  25           
+|    226 
+|   7.0% 
+| 
+|-
+|  26           
+|    209 
+|   6.5% 
+|rowspan="5" | 26-30  
+|rowspan="5" | 902   
+| 
+|-
+|  27           
+|    184 
+|   5.7% 
+| 
+|-
+|  28           
+|    206 
+|   6.4% 
+| 
+|-
+|  29           
+|    159 
+|   4.9% 
+| 
+|-
+|  30           
+|    144 
+|   4.4% 
+| 
+|-
+|  30+          
+|      4 
+|   0.1% 
+|rowspan="11" | 31-40 
+|rowspan="11" | 701  
+| 
+|-
+|  31           
+|    132 
+|   4.1% 
+| 
+|-
+|  32           
+|    107 
+|   3.3% 
+| 
+|-
+|  33           
+|     89 
+|   2.8% 
+| 
+|-
+|  34           
+|     68 
+|   2.1% 
+| 
+|-
+|  35           
+|     90 
+|   2.8% 
+| 
+|-
+|  36           
+|     58 
+|   1.8% 
+| 
+|-
+|  37           
+|     51 
+|   1.6% 
+| 
+|-
+|  38           
+|     47 
+|   1.5% 
+| 
+|-
+|  39           
+|     27 
+|   0.8% 
+| 
+|-
+|  40           
+|     28 
+|   0.9% 
+| 
+|-
+|  41           
+|     19 
+|   0.6% 
+|rowspan="10" | 41-50 
+|rowspan="10" | 142  
+| 
+|-
+|  42           
+|     21 
+|   0.6% 
+| 
+|-
+|  43           
+|     23 
+|   0.7% 
+| 
+|-
+|  44           
+|     17 
+|   0.5% 
+| 
+|-
+|  45           
+|     14 
+|   0.4% 
+| 
+|-
+|  46           
+|     17 
+|   0.5% 
+| 
+|-
+|  47           
+|      8 
+|   0.2% 
+| 
+|-
+|  48           
+|     10 
+|   0.3% 
+| 
+|-
+|  49           
+|      8 
+|   0.2% 
+| 
+|-
+|  50           
+|      5 
+|   0.2% 
+| 
+|-
+|  51           
+|      5 
+|   0.2% 
+|rowspan="14" | 51-75 
+|rowspan="14" | 31   
+| 
+|-
+|  52           
+|      6 
+|   0.2% 
+| 
+|-
+|  53           
+|      3 
+|   0.1% 
+| 
+|-
+|  54           
+|      4 
+|   0.1% 
+| 
+|-
+|  55           
+|      1 
+|   0.0% 
+| 
+|-
+|  56           
+|      1 
+|   0.0% 
+| 
+|-
+|  57           
+|      2 
+|   0.1% 
+| 
+|-
+|  59           
+|      1 
+|   0.0% 
+| 
+|-
+|  60           
+|      1 
+|   0.0% 
+| 
+|-
+|  62           
+|      1 
+|   0.0% 
+| 
+|-
+|  64           
+|      2 
+|   0.1% 
+| 
+|-
+|  66           
+|      1 
+|   0.0% 
+| 
+|-
+|  67           
+|      1 
+|   0.0% 
+| 
+|-
+|  69           
+|      2 
+|   0.1% 
+| 
+|}
+<!-- ## ----------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="border-top: dotted;"> Invalid answer 
+|      5 
+|   0.2% 
+|rowspan="2" | -      
+|rowspan="2" | 410 
+| 
+|-
+|  Not answered 
+|    405 
+|  12.5% 
+| 
+|}
+<!-- ##-----------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total responders 
+|colspan="2" | 2831 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+Youngest git user who answered this survey is 13 years old, oldest is 69 years old.  This is quite a span, I'd say.  The age of 25 got most count (226 answers).  Most people are in 26-30 range span (902 or 31.9% total).
+
+=== 03. With which programming languages are you proficient? ===
+
+This is multiple choice question (you can be proficient in more than one programming language), with option of specifying comma separated list of additional programming languages.
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <tablestyle="font-size: smaller;" rowstyle="font-weight: bold; background-color: #ffffcc;"> Reply 
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##-------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  <b>C</b>               
+|   1780 
+|  55.0% 
+| 
+|-
+|  <b>shell</b>           
+|   1511 
+|  46.7% 
+| 
+|-
+|  Ruby                  
+|   1406 
+|  43.4% 
+| 
+|-
+|  JavaScript          
+|   1283 
+|  39.6% 
+| 
+|-
+|  Java                  
+|   1191 
+|  36.8% 
+| 
+|-
+|  C++                   
+|   1166 
+|  36.0% 
+| 
+|-
+|  PHP                   
+|   1147 
+|  35.4% 
+| 
+|-
+|  Python                
+|   1084 
+|  33.5% 
+| 
+|-
+|  <b>Perl</b>            
+|    829 
+|  25.6% 
+| 
+|-
+|  Assembly              
+|    421 
+|  13.0% 
+| 
+|-
+|  C#                    
+|    412 
+|  12.7% 
+| 
+|-
+|  Common Lisp or Scheme 
+|    265 
+|   8.2% 
+| 
+|-
+|  Emacs Lisp            
+|    202 
+|   6.2% 
+| 
+|-
+|  Visual Basic          
+|    194 
+|   6.0% 
+| 
+|-
+|  Delphi                
+|     98 
+|   3.0% 
+| 
+|-
+|  <b>Tcl/Tk</b>          
+|     89 
+|   2.8% 
+| 
+|-
+|  Haskell               
+|     80 
+|   2.5% 
+| 
+|-
+|  Objective-C           
+|     75 
+|   2.3% 
+| 
+|-
+|  Erlang                
+|     54 
+|   1.7% 
+| 
+|-
+|  ActionScript        
+|     32 
+|   1.0% 
+| 
+|-
+|  OCaml                 
+|     31 
+|   1.0% 
+| 
+|-
+|  Lua                   
+|     29 
+|   0.9% 
+| 
+|-
+|  Fortran               
+|     23 
+|   0.7% 
+| 
+|-
+|  sed or awk *          
+|     19 
+|   0.6% 
+| 
+|-
+|  TeX/[[LaTeX]] *           
+|     19 
+|   0.6% 
+| 
+|-
+|  Matlab, Octave        
+|     18 
+|   0.6% 
+| 
+|-
+|  Smalltalk             
+|     18 
+|   0.6% 
+| 
+|-
+|  Prolog                
+|     17 
+|   0.5% 
+| 
+|-
+|  HTML, XHTML *         
+|     16 
+|   0.5% 
+| 
+|-
+|  Pascal                
+|     16 
+|   0.5% 
+| 
+|-
+|  CSS *                 
+|     12 
+|   0.4% 
+| 
+|-
+|  ML, SML, Caml         
+|     11 
+|   0.3% 
+| 
+|-
+|  R                     
+|     11 
+|   0.3% 
+| 
+|-
+|  SQL                   
+|     11 
+|   0.3% 
+| 
+|-
+|  Scala                 
+|      9 
+|   0.3% 
+| 
+|-
+|  D                     
+|      8 
+|   0.2% 
+| 
+|-
+|  Forth                 
+|      8 
+|   0.2% 
+| 
+|-
+|  Groovy                
+|      8 
+|   0.2% 
+| 
+|-
+|  ColdFusion          
+|      7 
+|   0.2% 
+| 
+|-
+|  VHDL                  
+|      7 
+|   0.2% 
+| 
+|-
+|  BASIC                 
+|      7 
+|   0.2% 
+| 
+|-
+|  Adobe Flex            
+|      6 
+|   0.2% 
+| 
+|-
+|  Vala                  
+|      6 
+|   0.2% 
+| 
+|-
+|  Ada                   
+|      5 
+|   0.2% 
+| 
+|-
+|  AppleScript         
+|      5 
+|   0.2% 
+| 
+|-
+|  PL/SQL                
+|      5 
+|   0.2% 
+| 
+|-
+|  Verilog               
+|      5 
+|   0.2% 
+| 
+|-
+|  XSLT                  
+|      5 
+|   0.2% 
+| 
+|-
+|  Python                
+|      4 
+|   0.1% 
+| 
+|-
+|  REXX                  
+|      4 
+|   0.1% 
+| 
+|-
+|  VimScript           
+|      4 
+|   0.1% 
+| 
+|-
+| <-3>
+| 
+|-
+|  Other                 
+|     87 
+|   2.7% 
+| 
+|-
+|  I am not programmer   
+|     47 
+|   1.5% 
+| 
+|}
+<!-- ## ----------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="border-top: dotted;"> Invalid answer        
+|      2 
+|   0.1% 
+| 
+|-
+|  Not answered          
+|    343 
+|  10.6% 
+| 
+|}
+<!-- ##-----------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total responders 
+|colspan="2" | 2893 
+| 
+|}
+<!-- ##-------------------------------------------
+ -->
+<!-- ## table end
+ -->
+
+(*) There are usually a lot more people who are proficient with this language, but it is not considered as a real programming language by many people.  This means that there might be responders who know this language, but didn't put it as a reply to this question.
+
+Every explicitly named programming languages with less then 4 users is put into "Other".
+
+The table is sorted by the number of replies.
+
+Around 2893 (89.4%) people answered this question.  C is most popular with 55%; a bit suprisingly shell script programming is second with 47%, a bit more than Ruby with 43%.  More people are proficient with Python, around 1/3, than in Perl, around 1/4.  Few people (89 responses, around 4%) feel proficient in Tcl/Tk, which means shallow pool of possible git-gui and gitk contributors.  Java is quite popular with around 37%, which gives hope in continued [[Self:EclipsePlugin|JGit/EGit]] development.
+
+And finally 47 responses (around 1.5%) of "I am not a programmer".  That's nice.
+
+[http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html TIOBE Programming Community Index] for October 2008 (gives an indication of the <i>popularity</i> of programming languages) states:
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Programming language 
+|  Ratings Oct 2008 
+|  Delta Oct 2007 
+| 
+|}
+<!-- ##--------------------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Java                 
+|           20.949% 
+|          -0.67% 
+| 
+|-
+|  C                    
+|           15.565% 
+|          +0.97% 
+| 
+|-
+|  C++                  
+|           10.954% 
+|          +1.37% 
+| 
+|-
+|  (Visual) Basic       
+|            9.811% 
+|          -1.35% 
+| 
+|-
+|  PHP                  
+|            8.612% 
+|          -0.89% 
+| 
+|-
+|  Python               
+|            4.565% 
+|          +1.13% 
+| 
+|-
+|  Perl                 
+|            4.419% 
+|          -0.93% 
+| 
+|-
+|  C#                   
+|            3.767% 
+|          +0.03% 
+| 
+|-
+|  Delphi               
+|            3.288% 
+|          +1.75% 
+| 
+|-
+|  Ruby                 
+|            2.860% 
+|          +0.47% 
+| 
+|-
+|  JavaScript         
+|            2.670% 
+|          -0.01% 
+| 
+|}
+<!-- ##--------------------------------------------------------------
+ -->
+
+Programming languages used by Git, not including `contrib/` section, are marked in bold in table of replies.  As one can see C is most popular programming language.  Shell is more known that Perl.  There are a few (below 100 replies for around 3000 responses to this question, i.e. around 2.8%) people who are proficient in Tcl/Tk, the programming language used for [http://git.or.cz/man/gitk gitk] history viewer and [http://git.or.cz/man/git-gui git-gui] commit tool.
+
+You can check what are the contributions of each programming language to Git code at [http://www.ohloh.net/projects/git/analyses/latest Git Code Analysis at Ohloh].  In the table below there is shown state on the end of October 2008.
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Language 
+|  LoC [%] 
+| 
+|}
+<!-- ##-------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  C              
+|  51% 
+| 
+|-
+|  shell script   
+|  30% 
+| 
+|-
+|  Perl           
+|  11% 
+| 
+|-
+|  Tcl            
+|   5% 
+| 
+|-
+|  Other          
+|   2% 
+| 
+|}
+<!-- ##-------------------------
+ -->
+<!-- ## table end
+ -->
+
+== Getting started with Git ==
+
+=== 04. How did you hear about Git? ===
+
+(Results of multiple choice questions with free-form parts will follow.)
+
+=== 05. Did you find Git easy to learn? ===
+
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Very hard    
+|     70 
+|   2.2% 
+| 
+|-
+|  Hard         
+|    500 
+|  15.5% 
+| 
+|-
+|  Reasonably   
+|   1488 
+|  46.0% 
+| 
+|-
+|  Easy         
+|    638 
+|  19.7% 
+| 
+|-
+|  Very easy    
+|    166 
+|   5.1% 
+| 
+|-
+|  Not answered 
+|    374 
+|  11.6% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== 06. What helped you most in learning to use it? ===
+
+(Results of free-form questions will follow.)
+
+=== 07. What did you find hardest in learning and using Git? ===
+
+(Results of free-form questions will follow.)
+
+=== 08. Which Git version(s) are you using? ===
+
+(multiple choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply                                      
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  pre 1.3                                    
+|     11 
+|   0.3% 
+| 
+|-
+|  1.3.x                                      
+|     10 
+|   0.3% 
+| 
+|-
+|  1.4.x                                      
+|     77 
+|   2.4% 
+| 
+|-
+|  1.5.x                                      
+|   1957 
+|  60.5% 
+| 
+|-
+|  1.6.x                                      
+|   1137 
+|  35.1% 
+| 
+|-
+|  'master' branch of official git repository 
+|    244 
+|   7.5% 
+| 
+|-
+|  'next' branch of official git repository   
+|     42 
+|   1.3% 
+| 
+|-
+|  Not answered                               
+|    415 
+|  12.8% 
+| 
+|}
+<!-- ##----------------------------------------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== 09. How long do you use Git? ===
+
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply              
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  I don't remember   
+|     16 
+|   0.5% 
+| 
+|-
+|  from the beginning 
+|     72 
+|   2.2% 
+| 
+|-
+|  more than 2 years  
+|     94 
+|   2.9% 
+| 
+|-
+|  1-2 year           
+|    463 
+|  14.3% 
+| 
+|-
+|  6-12 months        
+|    755 
+|  23.3% 
+| 
+|-
+|  3-6 months         
+|    746 
+|  23.1% 
+| 
+|-
+|  1-3 months         
+|    539 
+|  16.7% 
+| 
+|-
+|  less than month    
+|    163 
+|   5.0% 
+| 
+|-
+|  never              
+|     14 
+|   0.4% 
+| 
+|-
+|  Not answered       
+|    374 
+|  11.6% 
+| 
+|}
+<!-- ##----------------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== 10. Rate your own proficiency with Git: ===
+
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply                
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  novice               
+|    215 
+|   6.6% 
+| 
+|-
+|  casual, needs advice 
+|    644 
+|  19.9% 
+| 
+|-
+|  everyday use         
+|   1233 
+|  38.1% 
+| 
+|-
+|  can offer advice     
+|    666 
+|  20.6% 
+| 
+|-
+|  know it very well    
+|    104 
+|   3.2% 
+| 
+|-
+|  Not answered         
+|    374 
+|  11.6% 
+| 
+|}
+<!-- ##------------------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== 11. Does git.git repository include code produced by you? ===
+
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  No           
+|   2559 
+|  79.1% 
+| 
+|-
+|  Yes          
+|    243 
+|   7.5% 
+| 
+|-
+|  Not answered 
+|    434 
+|  13.4% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+== Other SCMs ==
+
+=== 12. What other SCM did or do you use? ===
+
+(single choice per row)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  SCM                          
+|colspan="2" | Never      
+|colspan="2" | Used it    
+|colspan="2" | Still use  
+|colspan="2" | Not answered 
+| 
+|}
+<!-- ##----------------------------------------------------------------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  SCCS                         
+|   1605 
+|  49.6% 
+|    140 
+|   4.3% 
+|     11 
+|   0.3% 
+|   1480 
+|  45.7% 
+| 
+|-
+|  RCS                          
+|   1192 
+|  36.8% 
+|    585 
+|  18.1% 
+|     93 
+|   2.9% 
+|   1366 
+|  42.2% 
+| 
+|-
+|  CVS                          
+|    295 
+|   9.1% 
+|   1790 
+|  55.3% 
+|    413 
+|  12.8% 
+|    738 
+|  22.8% 
+| 
+|-
+|  Subversion                   
+|     96 
+|   3.0% 
+|    971 
+|  30.0% 
+|   1696 
+|  52.4% 
+|    473 
+|  14.6% 
+| 
+|-
+|  Arch (or clone)              
+|   1520 
+|  47.0% 
+|    236 
+|   7.3% 
+|      7 
+|   0.2% 
+|   1473 
+|  45.5% 
+| 
+|-
+|  Bazaar-NG                    
+|   1335 
+|  41.3% 
+|    375 
+|  11.6% 
+|    129 
+|   4.0% 
+|   1397 
+|  43.2% 
+| 
+|-
+|  Darcs                        
+|   1374 
+|  42.5% 
+|    382 
+|  11.8% 
+|     80 
+|   2.5% 
+|   1400 
+|  43.3% 
+| 
+|-
+|  Mercurial                    
+|   1135 
+|  35.1% 
+|    552 
+|  17.1% 
+|    256 
+|   7.9% 
+|   1293 
+|  40.0% 
+| 
+|-
+|  Monotone                     
+|   1591 
+|  49.2% 
+|    149 
+|   4.6% 
+|     21 
+|   0.6% 
+|   1475 
+|  45.6% 
+| 
+|-
+|  SVK                          
+|   1461 
+|  45.1% 
+|    322 
+|  10.0% 
+|     23 
+|   0.7% 
+|   1430 
+|  44.2% 
+| 
+|-
+|  [[AccuRev]]                      
+|   1724 
+|  53.3% 
+|      6 
+|   0.2% 
+|      3 
+|   0.1% 
+|   1503 
+|  46.4% 
+| 
+|-
+|  Perforce                     
+|   1479 
+|  45.7% 
+|    254 
+|   7.8% 
+|    106 
+|   3.3% 
+|   1397 
+|  43.2% 
+| 
+|-
+|  [[BitKeeper]]                    
+|   1594 
+|  49.3% 
+|    163 
+|   5.0% 
+|      4 
+|   0.1% 
+|   1475 
+|  45.6% 
+| 
+|-
+|  [[ClearCase]]                    
+|   1540 
+|  47.6% 
+|    222 
+|   6.9% 
+|     60 
+|   1.9% 
+|   1414 
+|  43.7% 
+| 
+|-
+|  MS Visual [[SourceSafe]]         
+|   1351 
+|  41.7% 
+|    554 
+|  17.1% 
+|     28 
+|   0.9% 
+|   1303 
+|  40.3% 
+| 
+|-
+|  MS Visual Studio Team System 
+|   1660 
+|  51.3% 
+|     75 
+|   2.3% 
+|     10 
+|   0.3% 
+|   1491 
+|  46.1% 
+| 
+|-
+|  PVCS                         
+|   1631 
+|  50.4% 
+|    135 
+|   4.2% 
+|      8 
+|   0.2% 
+|   1462 
+|  45.2% 
+| 
+|-
+|  custom (non-publ.)           
+|   1566 
+|  48.4% 
+|    126 
+|   3.9% 
+|     34 
+|   1.1% 
+|   1510 
+|  46.7% 
+| 
+|-
+|  other                        
+|   1461 
+|  45.1% 
+|    136 
+|   4.2% 
+|     41 
+|   1.3% 
+|   1598 
+|  49.4% 
+| 
+|}
+<!-- ##--------------------------------------------------------------------------------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== 13. Why did you choose/use Git? (if you use Git)What do you like about using Git? ===
+
+(Results of free-form questions will follow.)
+
+=== 14. Why did you choose/use other SCMs? (if you use other SCMs)What do you like about using other SCMs? ===
+
+(Results of free-form questions will follow.)
+
+=== 15. Do you miss features in git that you know from other SCMs?If yes, what features are these (and from which SCM)? ===
+
+(Results of free-form questions will follow.)
+
+== How do you use Git? ==
+
+=== 16. I use Git for (check all that apply): ===
+
+(Results of multiple choice questions with free-form parts will follow.)
+
+=== 17. How do you obtain Git? ===
+
+(multiple choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply                     
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##-----------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  binary package            
+|   1787 
+|  55.2% 
+| 
+|-
+|  source tarball            
+|    758 
+|  23.4% 
+| 
+|-
+|  source package or script  
+|    680 
+|  21.0% 
+| 
+|-
+|  pull from main repository 
+|    533 
+|  16.5% 
+| 
+|-
+|  Not answered              
+|    440 
+|  13.6% 
+| 
+|}
+<!-- ##-----------------------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== 18. What operating system do you use Git on? ===
+
+(Results of multiple choice questions with free-form parts will follow.)
+
+=== 19. What hardware platforms do you use Git on? ===
+
+(Results of multiple choice questions with free-form parts will follow.)
+
+=== 20. What editor, IDE or RAD you use working with Git? ===
+
+(Results of multiple choice questions with free-form parts will follow.)
+
+=== 21. Which porcelains / interfaces / implementations do you use? ===
+
+(Results of multiple choice questions with free-form parts will follow.)
+
+=== 22. Which git GUI (commit tool or history viewer, or both) do you use? ===
+
+(Results of multiple choice questions with free-form parts will follow.)
+
+=== 23. Which git web interface do you use for your projects/have installed? ===
+
+(Results of multiple choice questions with free-form parts will follow.)
+
+=== 24. Which git hosting site do you use for your projects? ===
+
+(Results of multiple choice questions with free-form parts will follow.)
+
+=== 25. How do you publish/propagate your changes? ===
+
+(Results of multiple choice questions with free-form parts will follow.)
+
+=== 26. If the way you publish your changes is not mentioned above, how do you publish your changes?Please explain. ===
+
+(Results of free-form questions will follow.)
+
+=== 27-28. How often do you use the following forms of git commands or extra git tools? ===
+
+(single choice per row)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Command                             
+|colspan="2" | Never       
+|colspan="2" | Rarely     
+|colspan="2" | Sometimes  
+|colspan="2" | Often    
+|colspan="2" | Not answered 
+| 
+|}
+<!-- ##----------------------------------------------------------------------------------------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  git add -i / -p                     
+|     919 
+|  28.4% 
+|    389 
+|  12.0% 
+|    402 
+|  12.4% 
+|    464 
+|  14.3% 
+|   1062 
+|  32.8% 
+| 
+|-
+|  git add -u / -A                     
+|    1233 
+|  38.1% 
+|    320 
+|   9.9% 
+|    244 
+|   7.5% 
+|    274 
+|   8.5% 
+|   1165 
+|  36.0% 
+| 
+|-
+|  git am                              
+|    1469 
+|  45.4% 
+|    298 
+|   9.2% 
+|    177 
+|   5.5% 
+|    105 
+|   3.2% 
+|   1187 
+|  36.7% 
+| 
+|-
+|  git am -i                           
+|    1761 
+|  54.4% 
+|    177 
+|   5.5% 
+|     68 
+|   2.1% 
+|     13 
+|   0.4% 
+|   1217 
+|  37.6% 
+| 
+|-
+|  git apply                           
+|    1287 
+|  39.8% 
+|    416 
+|  12.9% 
+|    262 
+|   8.1% 
+|     74 
+|   2.3% 
+|   1197 
+|  37.0% 
+| 
+|-
+|  git apply --whitespace=fix          
+|    1677 
+|  51.8% 
+|    212 
+|   6.6% 
+|     87 
+|   2.7% 
+|     30 
+|   0.9% 
+|   1230 
+|  38.0% 
+| 
+|-
+|  git archive                         
+|    1469 
+|  45.4% 
+|    293 
+|   9.1% 
+|    186 
+|   5.7% 
+|     77 
+|   2.4% 
+|   1211 
+|  37.4% 
+| 
+|-
+|  git bisect                          
+|    1217 
+|  37.6% 
+|    452 
+|  14.0% 
+|    330 
+|  10.2% 
+|     61 
+|   1.9% 
+|   1176 
+|  36.3% 
+| 
+|-
+|  git bisect run <cmd>                
+|    1665 
+|  51.5% 
+|    221 
+|   6.8% 
+|    103 
+|   3.2% 
+|     13 
+|   0.4% 
+|   1234 
+|  38.1% 
+| 
+|-
+|  git annotate                        
+|    1416 
+|  43.8% 
+|    350 
+|  10.8% 
+|    215 
+|   6.6% 
+|     53 
+|   1.6% 
+|   1202 
+|  37.1% 
+| 
+|-
+|  git gui blame                       
+|    1729 
+|  53.4% 
+|    168 
+|   5.2% 
+|     93 
+|   2.9% 
+|     17 
+|   0.5% 
+|   1229 
+|  38.0% 
+| 
+|-
+|  git blame                           
+|    1030 
+|  31.8% 
+|    496 
+|  15.3% 
+|    396 
+|  12.2% 
+|    142 
+|   4.4% 
+|   1172 
+|  36.2% 
+| 
+|-
+|  git blame -L <start>,<end> etc.     
+|    1716 
+|  53.0% 
+|    171 
+|   5.3% 
+|     74 
+|   2.3% 
+|     15 
+|   0.5% 
+|   1260 
+|  38.9% 
+| 
+|-
+|  git bundle                          
+|    1819 
+|  56.2% 
+|    128 
+|   4.0% 
+|     31 
+|   1.0% 
+|     10 
+|   0.3% 
+|   1248 
+|  38.6% 
+| 
+|-
+|  git cherry                          
+|    1648 
+|  50.9% 
+|    222 
+|   6.9% 
+|    100 
+|   3.1% 
+|     31 
+|   1.0% 
+|   1235 
+|  38.2% 
+| 
+|-
+|  git cherry-pick                     
+|    1051 
+|  32.5% 
+|    364 
+|  11.2% 
+|    447 
+|  13.8% 
+|    206 
+|   6.4% 
+|   1168 
+|  36.1% 
+| 
+|-
+|  git cherry-pick -n                  
+|    1555 
+|  48.1% 
+|    223 
+|   6.9% 
+|    149 
+|   4.6% 
+|     52 
+|   1.6% 
+|   1257 
+|  38.8% 
+| 
+|-
+|  git citool                          
+|    1837 
+|  56.8% 
+|     77 
+|   2.4% 
+|     25 
+|   0.8% 
+|     32 
+|   1.0% 
+|   1265 
+|  39.1% 
+| 
+|-
+|  git clean                           
+|    1154 
+|  35.7% 
+|    404 
+|  12.5% 
+|    290 
+|   9.0% 
+|    161 
+|   5.0% 
+|   1227 
+|  37.9% 
+| 
+|-
+|  git add + git commit                
+|     212 
+|   6.6% 
+|    105 
+|   3.2% 
+|    285 
+|   8.8% 
+|   1559 
+|  48.2% 
+|   1075 
+|  33.2% 
+| 
+|-
+|  git commit -a                       
+|     197 
+|   6.1% 
+|    199 
+|   6.1% 
+|    394 
+|  12.2% 
+|   1480 
+|  45.7% 
+|    966 
+|  29.9% 
+| 
+|-
+|  git commit <file>...                
+|     494 
+|  15.3% 
+|    330 
+|  10.2% 
+|    442 
+|  13.7% 
+|    856 
+|  26.5% 
+|   1114 
+|  34.4% 
+| 
+|-
+|  git commit -i <file>...             
+|    1308 
+|  40.4% 
+|    330 
+|  10.2% 
+|    182 
+|   5.6% 
+|    158 
+|   4.9% 
+|   1258 
+|  38.9% 
+| 
+|-
+|  git commit --amend                  
+|     783 
+|  24.2% 
+|    339 
+|  10.5% 
+|    460 
+|  14.2% 
+|    486 
+|  15.0% 
+|   1168 
+|  36.1% 
+| 
+|-
+|  git cvsexportcommit                 
+|    1889 
+|  58.4% 
+|     43 
+|   1.3% 
+|     23 
+|   0.7% 
+|     24 
+|   0.7% 
+|   1257 
+|  38.8% 
+| 
+|-
+|  git cvsserver                       
+|    1926 
+|  59.5% 
+|     44 
+|   1.4% 
+|     12 
+|   0.4% 
+|      5 
+|   0.2% 
+|   1249 
+|  38.6% 
+| 
+|-
+|  git daemon                          
+|    1500 
+|  46.4% 
+|    242 
+|   7.5% 
+|    127 
+|   3.9% 
+|    130 
+|   4.0% 
+|   1237 
+|  38.2% 
+| 
+|-
+|  git daemon (pushing enabled)        
+|    1709 
+|  52.8% 
+|    147 
+|   4.5% 
+|     65 
+|   2.0% 
+|     58 
+|   1.8% 
+|   1257 
+|  38.8% 
+| 
+|-
+|  git ... --dirstat                   
+|    1768 
+|  54.6% 
+|    135 
+|   4.2% 
+|     51 
+|   1.6% 
+|     11 
+|   0.3% 
+|   1271 
+|  39.3% 
+| 
+|-
+|  git fetch [<options>]               
+|     593 
+|  18.3% 
+|    469 
+|  14.5% 
+|    501 
+|  15.5% 
+|    502 
+|  15.5% 
+|   1171 
+|  36.2% 
+| 
+|-
+|  git filter-branch                   
+|    1681 
+|  51.9% 
+|    231 
+|   7.1% 
+|     62 
+|   1.9% 
+|     10 
+|   0.3% 
+|   1252 
+|  38.7% 
+| 
+|-
+|  git format-patch                    
+|    1165 
+|  36.0% 
+|    337 
+|  10.4% 
+|    315 
+|   9.7% 
+|    202 
+|   6.2% 
+|   1217 
+|  37.6% 
+| 
+|-
+|  git grep                            
+|    1196 
+|  37.0% 
+|    357 
+|  11.0% 
+|    242 
+|   7.5% 
+|    242 
+|   7.5% 
+|   1199 
+|  37.1% 
+| 
+|-
+|  git imap-send                       
+|    1912 
+|  59.1% 
+|     58 
+|   1.8% 
+|      9 
+|   0.3% 
+|      6 
+|   0.2% 
+|   1251 
+|  38.7% 
+| 
+|-
+|  git instaweb                        
+|    1775 
+|  54.9% 
+|    141 
+|   4.4% 
+|     45 
+|   1.4% 
+|     12 
+|   0.4% 
+|   1263 
+|  39.0% 
+| 
+|-
+|  git log --grep/--author/...         
+|     934 
+|  28.9% 
+|    376 
+|  11.6% 
+|    441 
+|  13.6% 
+|    289 
+|   8.9% 
+|   1196 
+|  37.0% 
+| 
+|-
+|  git log -S<string> (pickaxe search) 
+|    1393 
+|  43.0% 
+|    290 
+|   9.0% 
+|    207 
+|   6.4% 
+|     95 
+|   2.9% 
+|   1251 
+|  38.7% 
+| 
+|-
+|  git log --graph                     
+|    1481 
+|  45.8% 
+|    302 
+|   9.3% 
+|    155 
+|   4.8% 
+|     52 
+|   1.6% 
+|   1246 
+|  38.5% 
+| 
+|-
+|  git merge                           
+|     302 
+|   9.3% 
+|    432 
+|  13.3% 
+|    713 
+|  22.0% 
+|    709 
+|  21.9% 
+|   1080 
+|  33.4% 
+| 
+|-
+|  git merge with strategy             
+|    1533 
+|  47.4% 
+|    300 
+|   9.3% 
+|    116 
+|   3.6% 
+|     32 
+|   1.0% 
+|   1255 
+|  38.8% 
+| 
+|-
+|  git merge --squash                  
+|    1464 
+|  45.2% 
+|    312 
+|   9.6% 
+|    150 
+|   4.6% 
+|     66 
+|   2.0% 
+|   1244 
+|  38.4% 
+| 
+|-
+|  git mergetool                       
+|    1486 
+|  45.9% 
+|    219 
+|   6.8% 
+|    160 
+|   4.9% 
+|    118 
+|   3.6% 
+|   1253 
+|  38.7% 
+| 
+|-
+|  git pull (no remote)                
+|     406 
+|  12.5% 
+|    307 
+|   9.5% 
+|    444 
+|  13.7% 
+|   1009 
+|  31.2% 
+|   1070 
+|  33.1% 
+| 
+|-
+|  git pull --rebase [<options>]       
+|    1105 
+|  34.1% 
+|    405 
+|  12.5% 
+|    272 
+|   8.4% 
+|    224 
+|   6.9% 
+|   1230 
+|  38.0% 
+| 
+|-
+|  git pull <remote>                   
+|     308 
+|   9.5% 
+|    386 
+|  11.9% 
+|    623 
+|  19.3% 
+|    862 
+|  26.6% 
+|   1057 
+|  32.7% 
+| 
+|-
+|  git pull <URL> <ref>                
+|     805 
+|  24.9% 
+|    510 
+|  15.8% 
+|    395 
+|  12.2% 
+|    331 
+|  10.2% 
+|   1195 
+|  36.9% 
+| 
+|-
+|  git push                            
+|     135 
+|   4.2% 
+|    140 
+|   4.3% 
+|    358 
+|  11.1% 
+|   1628 
+|  50.3% 
+|    975 
+|  30.1% 
+| 
+|-
+|  git relink                          
+|    1889 
+|  58.4% 
+|     53 
+|   1.6% 
+|      9 
+|   0.3% 
+|      1 
+|   0.0% 
+|   1284 
+|  39.7% 
+| 
+|-
+|  git rebase                          
+|     592 
+|  18.3% 
+|    432 
+|  13.3% 
+|    506 
+|  15.6% 
+|    586 
+|  18.1% 
+|   1120 
+|  34.6% 
+| 
+|-
+|  git rebase -i                       
+|    1097 
+|  33.9% 
+|    257 
+|   7.9% 
+|    297 
+|   9.2% 
+|    346 
+|  10.7% 
+|   1239 
+|  38.3% 
+| 
+|-
+|  git remote                          
+|     783 
+|  24.2% 
+|    423 
+|  13.1% 
+|    550 
+|  17.0% 
+|    269 
+|   8.3% 
+|   1211 
+|  37.4% 
+| 
+|-
+|  git remote update                   
+|    1327 
+|  41.0% 
+|    293 
+|   9.1% 
+|    208 
+|   6.4% 
+|    138 
+|   4.3% 
+|   1270 
+|  39.2% 
+| 
+|-
+|  git request-pull                    
+|    1750 
+|  54.1% 
+|    140 
+|   4.3% 
+|     47 
+|   1.5% 
+|     25 
+|   0.8% 
+|   1274 
+|  39.4% 
+| 
+|-
+|  git revert                          
+|     689 
+|  21.3% 
+|    688 
+|  21.3% 
+|    536 
+|  16.6% 
+|    146 
+|   4.5% 
+|   1177 
+|  36.4% 
+| 
+|-
+|  git send-email                      
+|    1642 
+|  50.7% 
+|    169 
+|   5.2% 
+|     97 
+|   3.0% 
+|     61 
+|   1.9% 
+|   1267 
+|  39.2% 
+| 
+|-
+|  git show-branch                     
+|    1444 
+|  44.6% 
+|    266 
+|   8.2% 
+|    188 
+|   5.8% 
+|     79 
+|   2.4% 
+|   1259 
+|  38.9% 
+| 
+|-
+|  git shortlog                        
+|    1414 
+|  43.7% 
+|    301 
+|   9.3% 
+|    207 
+|   6.4% 
+|     52 
+|   1.6% 
+|   1262 
+|  39.0% 
+| 
+|-
+|  git shortlog -s                     
+|    1648 
+|  50.9% 
+|    188 
+|   5.8% 
+|     97 
+|   3.0% 
+|     25 
+|   0.8% 
+|   1278 
+|  39.5% 
+| 
+|-
+|  git stash                           
+|     703 
+|  21.7% 
+|    302 
+|   9.3% 
+|    560 
+|  17.3% 
+|    498 
+|  15.4% 
+|   1173 
+|  36.2% 
+| 
+|-
+|  git stash --keep-index              
+|    1704 
+|  52.7% 
+|    133 
+|   4.1% 
+|     75 
+|   2.3% 
+|     37 
+|   1.1% 
+|   1287 
+|  39.8% 
+| 
+|-
+|  git submodule                       
+|    1381 
+|  42.7% 
+|    292 
+|   9.0% 
+|    198 
+|   6.1% 
+|    122 
+|   3.8% 
+|   1243 
+|  38.4% 
+| 
+|-
+|  git svn                             
+|     915 
+|  28.3% 
+|    306 
+|   9.5% 
+|    322 
+|  10.0% 
+|    522 
+|  16.1% 
+|   1171 
+|  36.2% 
+| 
+|-
+|  git whatchanged                     
+|    1577 
+|  48.7% 
+|    206 
+|   6.4% 
+|    116 
+|   3.6% 
+|     64 
+|   2.0% 
+|   1273 
+|  39.3% 
+| 
+|-
+|  git gui                             
+|    1330 
+|  41.1% 
+|    292 
+|   9.0% 
+|    171 
+|   5.3% 
+|    234 
+|   7.2% 
+|   1209 
+|  37.4% 
+| 
+|-
+|  gitk                                
+|     601 
+|  18.6% 
+|    335 
+|  10.4% 
+|    479 
+|  14.8% 
+|    692 
+|  21.4% 
+|   1129 
+|  34.9% 
+| 
+|}
+<!-- ##----------------------------------------------------------------------------------------------------------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== 29. Which of the following features do or did you use? ===
+
+(multiple choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply                                            
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  non-default hooks                                
+|    236 
+|   7.3% 
+| 
+|-
+|  working with dirty tree                          
+|    405 
+|  12.5% 
+| 
+|-
+|  bisect                                           
+|    643 
+|  19.9% 
+| 
+|-
+|  submodules (subprojects)                         
+|    554 
+|  17.1% 
+| 
+|-
+|  integration with IDE/editor                      
+|    418 
+|  12.9% 
+| 
+|-
+|  multiple worktrees (git-new-worktree)            
+|     72 
+|   2.2% 
+| 
+|-
+|  gitattributes                                    
+|    135 
+|   4.2% 
+| 
+|-
+|  stash                                            
+|   1180 
+|  36.5% 
+| 
+|-
+|  separate worktree                                
+|    141 
+|   4.4% 
+| 
+|-
+|  patch management interface (e.g. StGIT)          
+|    119 
+|   3.7% 
+| 
+|-
+|  alternates mechanism (sharing object database)   
+|    122 
+|   3.8% 
+| 
+|-
+|  git bundle (off-line transport)                  
+|    101 
+|   3.1% 
+| 
+|-
+|  git-filter-branch or cg-admin-rewritehist        
+|    143 
+|   4.4% 
+| 
+|-
+|  commit templates                                 
+|     38 
+|   1.2% 
+| 
+|-
+|  shallow clone                                    
+|    172 
+|   5.3% 
+| 
+|-
+|  eol conversion (crlf)                            
+|    176 
+|   5.4% 
+| 
+|-
+|  my own scripts                                   
+|    523 
+|  16.2% 
+| 
+|-
+|  interactive rebase                               
+|    670 
+|  20.7% 
+| 
+|-
+|  detaching HEAD                                   
+|    309 
+|   9.5% 
+| 
+|-
+|  gitk or other history viewer                     
+|   1586 
+|  49.0% 
+| 
+|-
+|  mergetool                                        
+|    376 
+|  11.6% 
+| 
+|-
+|  add --interactive or other partial commit helper 
+|    741 
+|  22.9% 
+| 
+|-
+|  reflog                                           
+|    339 
+|  10.5% 
+| 
+|-
+|  shell completion of commands                     
+|    951 
+|  29.4% 
+| 
+|-
+|  git-gui or other commit tool                     
+|    666 
+|  20.6% 
+| 
+|-
+|  git-aware shell prompt                           
+|    469 
+|  14.5% 
+| 
+|-
+|  Not answered                                     
+|   1069 
+|  33.0% 
+| 
+|}
+<!-- ##----------------------------------------------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== 30. Which features do you find unique and/or useful ones,compared to other systems (other SCMs)? ===
+
+(multiple choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply                                            
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  working with dirty tree                          
+|    264 
+|   8.2% 
+| 
+|-
+|  submodules (subprojects)                         
+|    399 
+|  12.3% 
+| 
+|-
+|  bisect                                           
+|    735 
+|  22.7% 
+| 
+|-
+|  gitattributes                                    
+|     84 
+|   2.6% 
+| 
+|-
+|  scriptability                                    
+|    497 
+|  15.4% 
+| 
+|-
+|  separate worktree                                
+|    207 
+|   6.4% 
+| 
+|-
+|  the index                                        
+|    789 
+|  24.4% 
+| 
+|-
+|  stash                                            
+|   1121 
+|  34.6% 
+| 
+|-
+|  alternates mechanism (sharing oject database)    
+|    126 
+|   3.9% 
+| 
+|-
+|  git bundle (off-line transport)                  
+|    190 
+|   5.9% 
+| 
+|-
+|  git-filter-branch or cg-admin-rewritehist        
+|    125 
+|   3.9% 
+| 
+|-
+|  commit templates                                 
+|     65 
+|   2.0% 
+| 
+|-
+|  shallow clone                                    
+|    126 
+|   3.9% 
+| 
+|-
+|  detaching HEAD                                   
+|    177 
+|   5.5% 
+| 
+|-
+|  eol conversion (crlf)                            
+|    119 
+|   3.7% 
+| 
+|-
+|  interactive rebase                               
+|    711 
+|  22.0% 
+| 
+|-
+|  mergetool                                        
+|    248 
+|   7.7% 
+| 
+|-
+|  add --interactive or other partial commit helper 
+|    674 
+|  20.8% 
+| 
+|-
+|  reflog                                           
+|    295 
+|   9.1% 
+| 
+|-
+|  hooks system                                     
+|    323 
+|  10.0% 
+| 
+|-
+|  Not answered                                     
+|   1412 
+|  43.6% 
+| 
+|}
+<!-- ##----------------------------------------------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== 31. If you use some important Git features not mentioned above, what are those? ===
+
+(Results of free-form questions will follow.)
+
+== What do you think of Git? ==
+
+=== 32. Overall, how happy are you with Git? ===
+
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply              
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  unhappy            
+|     19 
+|   0.6% 
+| 
+|-
+|  very happy         
+|   1341 
+|  41.4% 
+| 
+|-
+|  happy              
+|    687 
+|  21.2% 
+| 
+|-
+|  completly ecstatic 
+|    498 
+|  15.4% 
+| 
+|-
+|  not so happy       
+|     86 
+|   2.7% 
+| 
+|-
+|  Not answered       
+|    605 
+|  18.7% 
+| 
+|}
+<!-- ##----------------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== 33. How does Git compare to other SCM tools you have used? ===
+
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply                 
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##-------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  worse                 
+|     52 
+|   1.6% 
+| 
+|-
+|  equal (or comparable) 
+|    293 
+|   9.1% 
+| 
+|-
+|  better                
+|   2244 
+|  69.3% 
+| 
+|-
+|  Not answered          
+|    647 
+|  20.0% 
+| 
+|}
+<!-- ##-------------------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== 34. What would you like to see improved about Git? ===
+
+(Results of free-form questions will follow.)
+
+=== 35. What tools (or kind of tools) would you like to see Git support in? ===
+
+(Results of free-form questions will follow.)
+
+== Changes in Git ==
+
+Since year ago (since last survey), or since you started using Git.
+
+=== 36. Did you participate in previous Git User's Surveys? ===
+
+(multiple choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  in 2007      
+|    256 
+|   7.9% 
+| 
+|-
+|  in 2006      
+|     77 
+|   2.4% 
+| 
+|-
+|  Not answered 
+|   2971 
+|  91.8% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== 37. How do you compare current version with version from year ago? ===
+
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  cannot say   
+|    990 
+|  30.6% 
+| 
+|-
+|  worse        
+|      5 
+|   0.2% 
+| 
+|-
+|  better       
+|    855 
+|  26.4% 
+| 
+|-
+|  no changes   
+|     75 
+|   2.3% 
+| 
+|-
+|  Not answered 
+|   1311 
+|  40.5% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+== Documentation ==
+
+=== 38. Do you use the Git wiki? ===
+
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  No           
+|   1348 
+|  41.7% 
+| 
+|-
+|  Yes          
+|   1151 
+|  35.6% 
+| 
+|-
+|  Not answered 
+|    737 
+|  22.8% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== 39. Do you find Git wiki useful? ===
+
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  No           
+|    246 
+|   7.6% 
+| 
+|-
+|  Somewhat     
+|    708 
+|  21.9% 
+| 
+|-
+|  Yes          
+|    672 
+|  20.8% 
+| 
+|-
+|  Not answered 
+|   1610 
+|  49.8% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== 40. Do you contribute to Git wiki? ===
+
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply             
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##---------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  only spam removal 
+|     37 
+|   1.1% 
+| 
+|-
+|  No                
+|   1916 
+|  59.2% 
+| 
+|-
+|  Yes               
+|     50 
+|   1.5% 
+| 
+|-
+|  Not answered      
+|   1233 
+|  38.1% 
+| 
+|}
+<!-- ##---------------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== 41. Do you find Git's on-line help (homepages, documentation) useful? ===
+
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  No           
+|    120 
+|   3.7% 
+| 
+|-
+|  Somewhat     
+|    775 
+|  23.9% 
+| 
+|-
+|  Yes          
+|   1392 
+|  43.0% 
+| 
+|-
+|  Not answered 
+|    949 
+|  29.3% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== 42. Do you find help distributed with Git useful? ===
+
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  No           
+|    136 
+|   4.2% 
+| 
+|-
+|  Somewhat     
+|    672 
+|  20.8% 
+| 
+|-
+|  Yes          
+|   1544 
+|  47.7% 
+| 
+|-
+|  Not answered 
+|    884 
+|  27.3% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== 43. What could be improved on the Git homepage(s)? ===
+
+(Results of free-form questions will follow.)
+
+=== 44. What could be improved in Git documentation? ===
+
+(Results of free-form questions will follow.)
+
+== Translating Git ==
+
+=== 45. What is the language you want computer communicate with you? ===
+
+(Results of free-form questions will follow.)
+
+=== 46. What do you need/want to have translated? ===
+
+(multiple choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply                             
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##-------------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  git wiki                          
+|     78 
+|   2.4% 
+| 
+|-
+|  manpages                          
+|    205 
+|   6.3% 
+| 
+|-
+|  subcommands and long option names 
+|     33 
+|   1.0% 
+| 
+|-
+|  git-gui                           
+|     94 
+|   2.9% 
+| 
+|-
+|  technical documentation           
+|    128 
+|   4.0% 
+| 
+|-
+|  command messages                  
+|    132 
+|   4.1% 
+| 
+|-
+|  gitk                              
+|    106 
+|   3.3% 
+| 
+|-
+|  HOWTOs                            
+|    224 
+|   6.9% 
+| 
+|-
+|  User Manual/Tutorial/...          
+|    246 
+|   7.6% 
+| 
+|-
+|  git homepage                      
+|     93 
+|   2.9% 
+| 
+|-
+|  Not answered                      
+|   2911 
+|  90.0% 
+| 
+|}
+<!-- ##-------------------------------------------------------
+ -->
+<!-- ## table end
+ -->
+
+== Getting help, staying in touch ==
+
+=== 47. Have you tried to get Git help from other people? ===
+
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  No           
+|    950 
+|  29.4% 
+| 
+|-
+|  Yes          
+|   1395 
+|  43.1% 
+| 
+|-
+|  Not answered 
+|    891 
+|  27.5% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== 48. What channel did you use to request help? ===
+
+(Results of multiple choice questions with free-form parts will follow.)
+
+=== 49. If yes, did you get these problems resolved quickly and to your liking? ===
+
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  No           
+|     76 
+|   2.3% 
+| 
+|-
+|  Somewhat     
+|    414 
+|  12.8% 
+| 
+|-
+|  Yes          
+|    983 
+|  30.4% 
+| 
+|-
+|  Not answered 
+|   1763 
+|  54.5% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== 50. Would commercial (paid) Git support from a support vendor be of interest to you/your organization? ===
+
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply          
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  not applicable 
+|    481 
+|  14.9% 
+| 
+|-
+|  No             
+|   1475 
+|  45.6% 
+| 
+|-
+|  Yes            
+|    189 
+|   5.8% 
+| 
+|-
+|  Not answered   
+|   1091 
+|  33.7% 
+| 
+|}
+<!-- ##------------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== 51. Do you think it is easy to find out how to do a specific task with git? ===
+
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  No           
+|    272 
+|   8.4% 
+| 
+|-
+|  Yes          
+|    641 
+|  19.8% 
+| 
+|-
+|  not always   
+|   1411 
+|  43.6% 
+| 
+|-
+|  Not answered 
+|    912 
+|  28.2% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== 52. Do you read the mailing list? ===
+
+(multiple choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply                               
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##---------------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  git@vger.kernel.org (main)          
+|    423 
+|  13.1% 
+| 
+|-
+|  msysGit                             
+|     60 
+|   1.9% 
+| 
+|-
+|  Git for Human Beings (Google Group) 
+|     78 
+|   2.4% 
+| 
+|-
+|  Not answered                        
+|   2741 
+|  84.7% 
+| 
+|}
+<!-- ##---------------------------------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== 53. If yes, do you find mailing list useful? ===
+
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  No           
+|     71 
+|   2.2% 
+| 
+|-
+|  Somewhat     
+|    237 
+|   7.3% 
+| 
+|-
+|  Yes          
+|    294 
+|   9.1% 
+| 
+|-
+|  Not answered 
+|   2634 
+|  81.4% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== 54. Do you find the mailing list traffic level to be: ===
+
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply                       
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##-------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  tolerable (a bit high)      
+|    257 
+|   7.9% 
+| 
+|-
+|  I don't read it             
+|    620 
+|  19.2% 
+| 
+|-
+|  intolerable (absurdly high) 
+|     73 
+|   2.3% 
+| 
+|-
+|  OK, just right              
+|    153 
+|   4.7% 
+| 
+|-
+|  too low                     
+|     14 
+|   0.4% 
+| 
+|-
+|  Not answered                
+|   2119 
+|  65.5% 
+| 
+|}
+<!-- ##-------------------------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== 55. Do you use the IRC channel (#git on irc.freenode.net)? ===
+
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  No           
+|   1354 
+|  41.8% 
+| 
+|-
+|  Yes          
+|    539 
+|  16.7% 
+| 
+|-
+|  Not answered 
+|   1343 
+|  41.5% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== 56. If yes, do you find IRC channel useful? ===
+
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  No           
+|     92 
+|   2.8% 
+| 
+|-
+|  Somewhat     
+|    192 
+|   5.9% 
+| 
+|-
+|  Yes          
+|    355 
+|  11.0% 
+| 
+|-
+|  Not answered 
+|   2597 
+|  80.3% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== 57. Did you have problems getting GIT help on mailing list or on IRC channel? What were it? What could be improved? ===
+
+(Results of free-form questions will follow.)
+
+== Open forum ==
+
+=== 58. What other comments or suggestions do you have that are not covered by the questions above? ===
+
+(Results of free-form questions will follow.)
+
+=== 59. Should Git User's Survey be repeated next year? ===
+
+(single choice question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply        
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  No           
+|     29 
+|   0.9% 
+| 
+|-
+|  no opinion   
+|    464 
+|  14.3% 
+| 
+|-
+|  Yes          
+|   1788 
+|  55.3% 
+| 
+|-
+|  Not answered 
+|    955 
+|  29.5% 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+=== 60. Where have you read/find about this survey? ===
+
+(free-form question)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply                                                                         
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##---------------------------------------------------------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  [[GitHub]] (also blog or mailing list)                                            
+|    584 
+|  18.0% 
+| 
+|-
+|  git.or.cz                                                                     
+|    227 
+|   7.0% 
+| 
+|-
+|  Git mailing list                                                              
+|    209 
+|   6.5% 
+| 
+|-
+|  some project's mailing list                                                   
+|     98 
+|   3.0% 
+| 
+|-
+|  debian-devel-announce mail                                                    
+|     82 
+|   2.5% 
+| 
+|-
+|  some blog or news site                                                        
+|     68 
+|   2.1% 
+| 
+|-
+|  another person                                                                
+|     66 
+|   2.0% 
+| 
+|-
+|  LKML                                                                          
+|     49 
+|   1.5% 
+| 
+|-
+|  IRC                                                                           
+|     48 
+|   1.5% 
+| 
+|-
+|  twitter (chacon, defunkt, chadfowler)                                         
+|     45 
+|   1.4% 
+| 
+|-
+|  http://www.gnome.org/~federico/news-2008-09.html#23 (partly via Planet GNOME) 
+|     41 
+|   1.3% 
+| 
+|-
+|  http://news.ycombinator.com/item?id=291560                                    
+|     38 
+|   1.2% 
+| 
+|-
+|  http://www.pro-linux.de/news/2008/13124.html                                  
+|     36 
+|   1.1% 
+| 
+|-
+|  http://www.heise.de/newsticker/meldung/115637                                 
+|     31 
+|   1.0% 
+| 
+|-
+|  Gitorious.org                                                                 
+|     30 
+|   0.9% 
+| 
+|-
+|  don't know                                                                    
+|     26 
+|   0.8% 
+| 
+|-
+|  reddit.com                                                                    
+|     25 
+|   0.8% 
+| 
+|-
+|  repo.or.cz                                                                    
+|     22 
+|   0.7% 
+| 
+|-
+|  http://unfuddle.com/                                                          
+|     21 
+|   0.6% 
+| 
+|-
+|  [[KernelTrap]]                                                                    
+|     16 
+|   0.5% 
+| 
+|-
+|  http://linuxnews.pl/ankieta-uzytkownikow-systemu-kontroli-wersji-git/         
+|     12 
+|   0.4% 
+| 
+|-
+|  [[GitWiki]]                                                                       
+|     10 
+|   0.3% 
+| 
+|-
+|  some project web pages                                                        
+|      9 
+|   0.3% 
+| 
+|-
+|  gitcasts.com                                                                  
+|      8 
+|   0.2% 
+| 
+|-
+|  git-scm.{org,com}                                                             
+|      7 
+|   0.2% 
+| 
+|-
+|  LWN                                                                           
+|      6 
+|   0.2% 
+| 
+|-
+|  Ohloh.net                                                                     
+|      5 
+|   0.2% 
+| 
+|-
+|  http://www.fsdaily.com/Community/Git_Users_Survey_2008_Begins                 
+|      3 
+|   0.1% 
+| 
+|-
+|  I wrote it                                                                    
+|      2 
+|   0.1% 
+| 
+|-
+|  Crap answer                                                                   
+|     32 
+|   1.0% 
+| 
+|-
+|  Not answered                                                                  
+|   1443 
+|  44.6% 
+| 
+|}
+<!-- ##---------------------------------------------------------------------------------------------------
+ -->
+<!-- ## table end
+ -->
+
+There has been a useful tip for the mailing list "spamming": <i>I thought it was spam at first[...]. Please include a link to a "trusted site" like git.or.cz which explains the survey.</i>
+
+Many of the answers in "Crap answer"s are due to the bad English in the question or due to the big amount of questions and people getting tired. The question has been understood as "What do you think about the survey?" and the main answer is: "This survey is much too long!". Some people added that it may help to improve Git.
+
+Regarding the survey itself, there has been some noteworthy tips or notes:
+* <i>Seems like it </i>(the length of the survey)<i> would impact the accuracy of the results, as people pay less attention as the survey goes on.</i>
+* <i>Try to reduce the amount of questions (specially the multiple-choice ones) the next year.</i>
+* <i>Too long! Remove half of the questions. At minimum, supply a link to a forum where each question block can be discussed. I can't imagine that you can use all questions' answers for anything, so please avoid even showing such questions. Or move them to a "Bonus questions" section that you can open after "finishing" the survey. Or just make git run statistics of it's usage and allow ppl to report that, but please _don't_ make ppl report usage statistics manually like in this questionnaire!</i>
+* <i>unsure about optional fields</i> (Note: the header of the survey said that <b>all</b> questions are optional)
+
+----
+[[CategoryStatistics]]
 
 __NOTOC__
