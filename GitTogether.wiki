@@ -30,7 +30,7 @@ This would hopefully make it easy for many Git users going to the above conferen
 * Why: Gitzilla will be visiting and volunteered a $100 subsidy.
 * Who: Any Gits that can attend. IRC handle starting with "git" not required.
 
-Verified attendants:
+Verified attendees:
 
 * Gitzilla
 * Steffen Prohaska
