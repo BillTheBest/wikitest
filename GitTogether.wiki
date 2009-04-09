@@ -35,6 +35,7 @@ Verified attendees:
 * Gitzilla
 * Steffen Prohaska
 * Johannes Schindelin
+* Tuncer Ayaz
 
 = [[GitTogether]] '08 Discussions and Projects =
 A couple of wiki pages for notes on some of the longer term project topics we discussed at the [[GitTogether]]08.
