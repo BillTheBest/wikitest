@@ -156,7 +156,7 @@ $ git push
 $ cd ..
 $ git add a        # There is a gotcha here.  Read about it below.
 $ git commit -m "Updated submodule a."
-$ git show | cat
+$ git show
 ...
 diff --git a/a b/a
 index d266b98..261dfac 160000
