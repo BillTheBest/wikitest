@@ -13,7 +13,7 @@ $ cd project/
 $ git init          # initializes the repository
 $ git add .         # add those 'unknown' files
 $ git commit        # commit all changes, edit changelog entry
-$ git rm --cached <file>... # undo, in case you forgot .gitignore
+$ git rm --cached <file>... # ridiculously complicated command to undo, in case you forgot .gitignore
 </nowiki></pre>
 
 Git will look for a file named [[.gitignore]] in the root of your
