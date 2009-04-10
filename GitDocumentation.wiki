@@ -70,6 +70,7 @@ If you wish that something were documented better (or at all), or would like to 
 
 == Non-english Language Documentation ==
 === Chinese ===
+* http://www.bitsun.com/documents/[[GitUserManualChinese]].html translation of official Git user's manual
 * http://www.linuxsir.org/main/doc/git/gittutorcn.htm or http://www.bitsun.com/documents/gittutorcn.htm translation of official tutorials
 * http://www.linuxsir.org/bbs/showthread.php?t=281294 or http://www.newsmth.net/bbscon.php?bid=392&id=422519
 * http://my.opera.com/dahema/blog/show.dml/171011
