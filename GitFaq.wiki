@@ -170,6 +170,8 @@ Not recommended. Keyword expansion causes all sorts of strange problems and isn'
 
 See [http://www.kernel.org/pub/software/scm/git/docs/gitattributes.html gitattributes(5)] if you really want to do this.  If your translation is not reversible (eg SCCS keyword expansion) this may be problematic. (Hint: The supplied [http://www.kernel.org/pub/software/scm/git/docs/gitattributes.html#_tt_ident_tt $Id$-expansion] puts the 40-character hexadecimal blob object name into the id; you can figure out which commits include this blob by using a script like [http://stackoverflow.com/questions/223678/git-which-commit-has-this-blob this].)
 
+See [http://thread.gmane.org/gmane.comp.version-control.git/44750 here for a discussion], and [http://article.gmane.org/gmane.comp.version-control.git/44849 here on how GIT may help anyway].
+
 <<Anchor(git-filter)>>
 == Does git allow arbitrary conversion of contents? ==
 Yes. Not just "keyword expansion" and/or "CRLF conversion", the current version of git allows you to specify filters to munge contents immediately before checking things in. See [http://www.kernel.org/pub/software/scm/git/docs/gitattributes.html gitattributes(5)] man pages for details.
