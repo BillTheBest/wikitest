@@ -984,6 +984,9 @@
 === etckeeper ===
 * [http://kitenet.net/~joey/code/etckeeper/ etckeeper] ([http://git.kitenet.net/?p=etckeeper gitweb], [http://kitenet.net/~joey/blog/entry/announcing_etckeeper/ announcement]) by Joey Hess is a collection of tools to let /etc be stored in a git repository. It hooks into apt to automatically commit changes made to /etc during package upgrades. It uses [http://david.hardeman.nu/software.php metastore] to track file metadata that git does not normally support, but that is important for /etc, such as the permissions of /etc/shadow. It's quite modular and configurable, while also being simple to use if you understand the basics of working with git.<<BR>> <b>See also:</b> [http://www.isisetup.ch/ IsiSetup]
 
+=== Giterback ===
+* [https://insomnia.ed.ntnu.no/code/index.php/p/giterback/ Giterback] by Sindre R. Myren is a small backup-tool using git, [http://david.hardeman.nu/software.php metastore] and rsync. It is at a rather early stage in the development, but the core functionallety seam to be in place. The script uses rsync commands to copy files from the file system into a git repository. The changes after the rsync operations, can then be committed to this repository. The current date and time will be used as a commit message. If you like, you can push the entire repository to a remote location for enchaced security of your files. <b>Repository:</b> git://insomnia.ed.ntnu.no/giterback.git
+
 === git-cache-meta ===
 * git-cache-meta by jidanni is minimalistic approach to saving file ownership and permissions. It was submitted to `contrib/metadata` and can be found in [http://permalink.gmane.org/gmane.comp.version-control.git/105133 |PATCH| git-cache-meta -- file owner and permissions caching, minimalist approach] post at git mailing list.
 
@@ -1048,5 +1051,7 @@
 
 ----
 [[CategoryTools]] [[CategoryGitHomepage]] ([http://git.or.cz/#tools Related Tools])
+----
+[[CategoryTools]]
 
 __NOTOC__
