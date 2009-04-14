@@ -635,7 +635,7 @@
 | [http://ss.frim.nl/==891 X] 
 | (Pyrite) 
 | [http://gitsafe.googlecode.com/files/gitSafe%200.0.1.png X] 
-| [http://www.devslashzero.com/image/tde/1 X] 
+| [http://www.devslashzero.com//node/17 X] 
 | [http://sourceforge.net/project/screenshots.php?group_id=246547 X] 
 | [http://code.google.com/p/tortoisegit/ X] 
 | [http://wiki.github.com/jessevdk/gitg X] 
