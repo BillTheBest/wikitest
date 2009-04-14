@@ -23,6 +23,9 @@ It would be nice to have installed parsers from [[MoinMoin:[[ParserMarket]]|[[Pa
 * Perl parsers from [[MoinMoin:[[ParserMarket]]|[[ParserMarket]]]]: [[MoinMoin:parser/Perl|parser/Perl]] by Johannes Hoerburger <i>(`.py` extension needs to be aded)</i>.
 * diff output parsers from [[MoinMoin:[[ParserMarket]]|[[ParserMarket]]]]: [[MoinMoin:parser/diff.py|parser/diff.py]] by Emilio Lopes.
 
+== Error in GUI editing ==
+When editing in gui mode, and pressing text-mode, all blank lines are removed, and ({) curly-braces are replaced with square ones ([), causing things like \{\{TableOfContents(2)\}\} and \{\{BR\}\} not to work! This especially seams to be a problem on the [[[InterfacesFrontendsAndTools]]] page.
+
 == [[InterWiki]] Links ==
 It would be nice if there were shorter [[InterWiki]] links for linking to the [[Git]] and [[Cogito]] [[GitDocumentation|documentation]], both HTML version and gitweb sources. One of the way of adding InterWiki link is to modify site's `data/intermap.txt` file.
 
@@ -80,5 +83,7 @@ Here a few suggestions for new pages.
 
 = Random stuff =
 * Why is there always a Git-prefix to the wiki pages?
+----
+[[CategoryWebInterfaces]] [[CategoryWebInterfaces]]
 
 __NOTOC__
