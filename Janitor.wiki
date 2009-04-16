@@ -10,7 +10,7 @@ Also note that it may happen that this list is not up to date. In this case plea
 ** There are different binary search functions in the git code base. Some are quite complex like in "sha1-lookup.c" other are simpler.
 ** A refactoring has been started. So now the "sha1_pos" function from "sha1-lookup.{h,c}" is used in some places.
 ** It would be a good idea to use "sha1_pos" in more places. Look for "*_pos" (and perhaps "lookup_*") functions.
-** See [http://git.kernel.org/?p=git/git.git;a=commitdiff;h=4eb5b64631d281f3789b052efac53f4c1ec2c1b6 an example of a refactoring patch]
+** See [http://git.kernel.org/?p=git/git.git;a=commitdiff;h=4eb5b64631d281f3789b052efac53f4c1ec2c1b6 this patch] for an example of how it can be done.
 * <i>Improve header file include directives</i> (Please don't do that right now as there are some discussions about this on the mailing list these days and things are still in flux.)
 ** Some git headers depend on other headers to compile cleanly, in this case it might be a good idea to include the needed headers in the header that needs them.
 ** For example "revision.h" depends on "commit.h" and "diff.h", so "revision.h" should include them.
