@@ -890,7 +890,7 @@
 * [http://atonie.org/2008/02/git-wiki git-wiki] by [http://purl.org/net/sr/ Simon Rozet] a wiki that relies on Git to keep pages\u2019 history and [http://sinatra.rubyforge.org/ Sinatra] (Ruby web framework) to serve them. git-wiki is available on [http://github.com/sr/git-wiki GitHub] under [http://sam.zoy.org/wtfpl/ WTFPL license terms]. See also git-wiki [http://github.com/sr/git-wiki/network forks], especially [http://github.com/al3x/github al3x]'s one.
 
 === [[WiGit]] ===
-* [http://el-tramo.be/software/wigit WiGit] by [http://el-tramo.be/ Remko Tronon] is a simple themable PHP wiki with Git as a backend, [http://textile.thresholdstate.com/ Textile] PHP class for marking up text. It has history support, basic user support (from HTTP authentication), and pretty URLs. See [http://el-tramo.be/blog/wigit-intro WiGit: A Simple Git-based Wiki] blog post for introduction.
+* [http://el-tramo.be/software/wigit WiGit] by [http://el-tramo.be/ Remko Tronçon] is a simple themable PHP wiki with Git as a backend, [http://textile.thresholdstate.com/ Textile] PHP class for marking up text. It has history support, basic user support (from HTTP authentication), and pretty URLs. See [http://el-tramo.be/blog/wigit-intro WiGit: A Simple Git-based Wiki] blog post for introduction.
 
 === Nuki ===
 * <b>Nuki</b> ([http://github.com/patrickt/nuki/tree/master github]) by Patrick Thomson is a Wiki engine written in [http://programming.nu/ Nu] and powered by Nunja ([http://github.com/timburks/nunja/tree/master github]), a cross-platform web server that's scripted with Nu, that uses Git for version control, and Markdown (via [http://programming.nu/posts/2007/10/10/markdown-in-nu NuMarkdown]) for markup.
