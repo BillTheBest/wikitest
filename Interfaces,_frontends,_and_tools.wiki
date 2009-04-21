@@ -796,6 +796,9 @@
 === git-svnimport (contrib) ===
 * There is also git-svnimport, and because it came earlier it is mentioned often in old documentation. At the moment (August, 2008), git-svn is better supported.
 
+=== git2svn (perl/bash) ===
+* [http://voltar.org/git2svn/ git2svn], written by Paul Miller, is a git repo exporter designed to allow a user to import numerous git repos into a [http://trac.edgewall.org/ trac] wiki. Trac only supports svn (natively) and only supports a one repo configuration. Although there are git plugins for Trac, they are cumbersome and (because of trac's design) only support one repo at a time. git2svn solves that by importing as many git repos as needed into directories of an svn repo. It does this using native svn and git commands with perl as glue.
+
 === git2svn (fast-export) ===
 * git2svn ([http://repo.or.cz/w/git2svn.git gitweb]), written by Love Hrnquist strand, is a tool to convert the "git fast-export" dump into a svn dump and load it into a new fresh svn repository. git2svn also supports incremental updates. <b>NOTE:</b> <i>git2svn assumes its the only process that writes into the svn repository</i>. Written mainly in Perl.<<BR>> <b>See:</b> [http://permalink.gmane.org/gmane.comp.version-control.git/79680 |ANNOUNCE| git2svn 0.1] post on git mailing list.
 
