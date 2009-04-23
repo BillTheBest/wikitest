@@ -873,6 +873,9 @@
 === rpm2git ===
 * [http://gitorious.org/projects/rpm2git/pages/Home rpm2git] ([http://gitorious.org/projects/rpm2git/repos/mainline gitorious], [http://www.gnome.org/~federico/news-2008-07.html#rpm2git announcement]) by Federico Mena-Quintero is a tool to help import patches from SRPM (source rpm) into appropriate place in git repository <i>(in Python)</i>. <<BR>><b>See also:</b> [http://blip.tv/file/1155469 How to use rpm2git] screencast.
 
+=== vss2git (Visual Source Safe to Git) ===
+* [http://code.google.com/p/vss2git/ vss2git] is a tool written in C# to convert a Visual Source Safe repository into a Git one.
+
 == Hooks ==
 
 === git-notify ===
