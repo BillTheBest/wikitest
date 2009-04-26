@@ -281,7 +281,7 @@ That's it. A bit tricky at the start, but not too tricky.
 
 = Configuration =
 
-== Specifiy attribute values in the correct format ==
+== Specify attribute values in the correct format ==
 
 When specifiying values for [http://www.kernel.org/pub/software/scm/git/docs/gitattributes.html gitattributes(5)] do not include white space around '=' as whitespace is the attribute delimeter. This differs from [http://www.kernel.org/pub/software/scm/git/docs/git-config.html#_configuration_file git configuration] files where white space around '=' is supported.
 
