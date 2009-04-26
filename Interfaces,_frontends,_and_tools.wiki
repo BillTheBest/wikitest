@@ -769,111 +769,124 @@
 
 == Interaction with other Revision Control Systems ==
 
-=== Built-in import (built in) ===
+=== Multiple Systems ===
+
+==== Built-in import (built in) ====
 * Core Git contains import commands for importing from other systems: `git-archimport` for [http://www.gnu.org/software/gnu-arch/ GNU Arch] (`tla`), `git-cvsimport` for [http://www.nongnu.org/cvs/ CVS] (needs `cvsps`: [http://ydirson.free.fr/en/software/scm/cvsps.html CVSps patches]), `git-svn` for [http://subversion.tigris.org/ Subversion] (`svn`) (using `SVN::Perl` module), `git-quiltimport` for [https://savannah.nongnu.org/projects/quilt/ Quilt], and `git-p4import` for [http://www.perforce.com/ Perforce] (`p4`). For Quilt see also quilt2git / git2guilt below. For Perforce import there is also a script using alternative import method, which works without changing local state: [http://permalink.gmane.org/gmane.comp.version-control.git/25352 git-p4-import]. There also exists a (dumb and slow) unpublished BitKeeper (`bk`) importer.
 
-=== git-cvsexportcommit (built in) ===
+==== Tailor ====
+* [http://wiki.darcs.net/DarcsWiki/Tailor Tailor] is an any-to-any version control system converter, with support for most free SCMs. It was written by Lele and it is implemented in Python. Note that you need [http://wiki.darcs.net/DarcsWiki/Tailor/[[VersionOne]] [[VersionOne]]]. Note also that as of 2006-12-01, it only has rudimentary support for branches, and mostly supports linear histories.
+
+=== CVS ===
+==== git-cvsexportcommit (built in) ====
 * `git-cvsexportcommit` exports a commit from Git to a CVS checkout, making it easier to merge patches from a git repository into a CVS repository. Supports file additions, removals, and commits that affect binary files.
 
-=== git-cvsserver (built in) ===
+==== git-cvsserver (built in) ====
 * `git-cvsserver` is a CVS emulation layer for git. It is highly functional; the mapping is bidirectional, so people who like cvs, can do both checkout and commit using cvs, and it shows up in git. However, not all methods are implemented, and for those methods that are implemented, not all switches are implemented. Testing has been done using both the CLI CVS client, and the Eclipse CVS plugin. Most functionality works fine with both of these clients.
 
-=== parsecvs ===
+==== parsecvs ====
 * [http://cgit.freedesktop.org/~keithp/parsecvs/ parsecvs] by Keith Packard is a C-based CVS file parser and Git import tool. It directly reads RCS ,v files (you can get them using CVSsuck if you don't have access to $CVSROOT) and generates a git-style rev-list structure from them. Repository available at git://anongit.freedesktop.org/~keithp/parsecvs
 
-=== cvs2git ===
+==== cvs2git ====
 * [http://cvs2svn.tigris.org/ cvs2svn] has a [http://cvs2svn.tigris.org/cvs2git.html cvs2git] mode for converting directly from CVS to git. cvs2svn/cvs2git is very robust and gives high-quality conversions with many [http://cvs2svn.tigris.org/features.html features and customization options]. cvs2svn/cvs2git only supports one-time conversions. cvs2git's output can be read by Shawn Pearce's [http://www.kernel.org/pub/software/scm/git/docs/git-fast-import.html git-fast-import], which has been bundled with core Git since version 1.5.<<BR>> Note that cvs2svn/cvs2git itself can't work with remote repositories. If you can't get a copy of the CVS repository directly, you might be able to recreate it indirectly via [http://cvs2svn.tigris.org/faq.html#repoaccess information read over the CVS protocol] using a tool like [http://cvs.m17n.org/~akr/cvssuck/ CVSsuck].
 
-=== fromcvs/togit ===
+==== fromcvs/togit ====
 * [http://ww2.fs.ei.tum.de/~corecode/hg/fromcvs fromcvs] by Simon 'corecode' Schubert is a conversion tool ment convert from CVS to multiple SCMs. At the moment there is a git and a hg output and a sqlite output for quick CVS changeset navigation. For the cvs->git conversion, git-fast-import by Shawn Pearce is needed (see above). fromcvs handles branches (though no tags yet), including native support for vendor branches. Incremental operation should work, but was not yet tested extensively. Conversion speed should be well above 10 changesets per second on common hardware. fromcvs/togit can take advantage of two CPUs.
 
-=== gc-utils ===
+==== gc-utils ====
 * [http://gcutils.sourceforge.net/ gc-utils] ([http://freshmeat.net/projects/gc-utils/ freshmeat page], [http://git.experimentalworks.net/?p=gcutils.git gitweb], [http://thread.gmane.org/gmane.comp.version-control.git/78540 announcement]) is a small set of scripts wrapping git-cvsexportcommit and git-cvsimport, allowing to import and update CVS repositories into git very easy and let you export patches back into a CVS working copy. Written in bash.
 
-=== git-svn (built in) ===
+=== Subversion ===
+
+==== git-svn (built in) ====
 * [http://git-svn.yhbt.net/ git-svn] ([http://git.bogomips.org/git-svn.git git repository]), written by Eric Wong, is a conduit for bidirectional operation between a Subversion repository and git. It supports Subversion branches and tags, importing multiple Subversion repositories into a single git repository, and incrementally updating the git repository with changes from the Subversion parent. It is designed for developers who wish to contribute to projects that use Subversion, but would rather be using git. Written in Perl using the SVN::Core Perl library.<<BR>> <b>See also:</b> [http://permalink.gmane.org/gmane.comp.version-control.git/102500 |ANNOUNCE| git-svn-bugfix script]
 
-=== git-svnimport (contrib) ===
+==== git-svnimport (contrib) ====
 * There is also git-svnimport, and because it came earlier it is mentioned often in old documentation. At the moment (August, 2008), git-svn is better supported.
 
-=== git2svn (perl/bash) ===
+==== git2svn (perl/bash) ====
 * [http://voltar.org/git2svn/ git2svn], written by Paul Miller, is a git repo exporter designed to allow a user to import numerous git repos into a [http://trac.edgewall.org/ trac] wiki. Trac only supports svn (natively) and only supports a one repo configuration. Although there are git plugins for Trac, they are cumbersome and (because of trac's design) only support one repo at a time. git2svn solves that by importing as many git repos as needed into directories of an svn repo. It does this using native svn and git commands with perl as glue.
 
-=== git2svn (fast-export) ===
+==== git2svn (fast-export) ====
 * git2svn ([http://repo.or.cz/w/git2svn.git gitweb]), written by Love Hrnquist strand, is a tool to convert the "git fast-export" dump into a svn dump and load it into a new fresh svn repository. git2svn also supports incremental updates. <b>NOTE:</b> <i>git2svn assumes its the only process that writes into the svn repository</i>. Written mainly in Perl.<<BR>> <b>See:</b> [http://permalink.gmane.org/gmane.comp.version-control.git/79680 |ANNOUNCE| git2svn 0.1] post on git mailing list.
 
-=== git2svn.pl (yet another one) ===
+==== git2svn.pl (yet another one) ====
 * git2svn.pl ([http://repo.or.cz/w/nagiosplugins.git?a=blob;f=tools/git2svn.pl gitweb]), by Thomas Guyot-Sionnest, has been written to keep Nagios-plugins SVN tree updated from Git. It uses "git svn set-tree" to update the old subversion repository. Forced updated are possible (with manual intervention) as set-tree just apply a given snapshot with the last commit message. Under normal operation all commits are applied (not just the latest) and a "From:" line is inserted in the message to keep tracks of who commited what from SVN commit logs.
 
-=== svn2git.py ===
+==== svn2git.py ====
 * svn2git.py ([http://python.ca/nas/python/svn2git.py download]), written by Neil Schemenauer, is a tool to do conversions from SVN (Subversion) to git using a SVN dump. It's in early stages of development. Written in Python.<<BR>> <b>See:</b> [http://thread.gmane.org/gmane.comp.version-control.git/101370 New converstion tool: svn2git.py] thread on git mailing list
 
-=== svn2git (Ruby) ===
+==== svn2git (Ruby) ====
 * svn2git ([http://github.com/nirvdrum/svn2git/ github]), forked by Kevin Menard from James Coglan project, is a Ruby tool for importing existing svn projects into git and github. It uses git-svn.
 
 <<Anchor(git-svnconvert)>>
-=== git-svnconvert ===
+==== git-svnconvert ====
 * git-svnconvert, written by Rutger Nijlunsing in Ruby, appeared only on git mailing list in post [http://marc.theaimsgroup.com/?l=git&m=114460050718696 |ANNOUNCE| git-svnconvert: YASI (Yet Another SVN importer)].
 
-=== svn-all-fast-export ===
+==== svn-all-fast-export ====
 * svn-all-fast-export ([http://repo.or.cz/w/svn-all-fast-export.git gitweb]) by Thiago Macieira, is a tool that exports from Subversion onto multiple Git repositories via git-fast-import. Written in C++,  uses Qt Core library.
 
-=== braid ===
+==== braid ====
 * [http://evil.che.lu/projects/braid Braid] ([http://github.com/evilchelu/braid/tree/master github]), formerly [http://evil.che.lu/2007/11/27/ann-giston-piston-lookalike-for-git Giston], is a [http://piston.rubyforge.org/index.html Piston] lookalike for git-svn: a simple tool to help track svn vendor branches in your git repository. By Cristi Balan, in Ruby (Piston is in Ruby).
 
-=== git-rails-plugins ===
+==== git-rails-plugins ====
 * GIT sub-project porcelain that provides an alternative to git-svn dcommit when managing rails vendor plugins which are held in a central SVN repository. Currently git-svn is not able to dcommit into a Subversion repository when a Git repository contains submodules. [http://github.com/nazar/git-rails-plugins/tree/master git-rails-plugins] is an [http://panthersoftware.com/articles/view/4/git-svn-dcommit-workaround-for-git-submodules alternative] implementation to sub-modules.
 
-=== git-ucmimport (IBM Rational [[ClearCase]]) ===
-* git-ucmimport, also written by Rutger Nijlunsing, is a converter from IBM Rational ClearCase UCM to git. The latest version can be found currently on http://www.wingding.demon.nl. In Ruby.
+=== Mercurial ===
 
-=== quilt2git / git2quilt ===
-* These utilities convert patch series in a quilt repository and commit series in git back and forth. You can download files [http://home-tj.org/files/misc here]; they can be found on [http://home-tj.org/wiki/index.php/Misc HomeTJ webpage].
-
-=== hg-to-git ===
+==== hg-to-git ====
 * hg-to-git is Mercurial to git converter, written by Stelian Pop, appeared only on git mailing list in post [http://permalink.gmane.org/gmane.comp.version-control.git/36601 Mercurial to git converter.] It supports incremental conversion, supports (multiple) hg branches and converts hg tags. Written in combination of shell script and Python.<<BR>>
 
-=== hg-fast-export ===
+==== hg-fast-export ====
 * hg-fast-export is another converter using `git-fast-import` as backend and is written in Python using the mecurial python classes directly. It uses a single pass, supports tags, mercurial named branches, incremental imports and merges. It is quite fast since no subshells and/or pipe communication is used except for the feed to `git-fast-import`. The source is available as part of the fast-export repository at [http://repo.or.cz/w/fast-export.git repo.or.cz].
+=== Darcs ===
 
-=== git-p4 and git-p4-import (Perforce) ===
-* The built-in Perforce importer `git-p4import.py` does not work and is not being actively developed. A replacement, `git-p4` by Simon Hausmann, is now in contrib/fast-import and is highly recommended. See also [http://marc.info/?l=git&m=117861263323170&w=2 Yet another git perforce integration] thread on git mailing list. There is also an older Perl version, `git-p4-import` by Alex Riesen: see [http://marc.info/?l=git&m=117840529828575&w=2 Yet another Perforce importer] email/thread on git mailing list.<<BR>>
-
-=== darcs2git ===
-* <i>darcs2git</i> ([http://repo.or.cz/w/darcs2git.git gitweb]) by Han-Wen Nienhuys ([http://www.xs4all.nl/~hanwen/ his homepage]) is a Darcs to Git converter utilizing `git-fast-import`. It tries to map Darcs conflict resolutions onto Git branch merges. Written in Python.<<BR>> <b>See:</b> [http://marc.info/?l=git&m=117123822725808&w=2 darcs2git.py - convert darcs repository using gfi] at git mailing list<<BR>>
-
-=== Tailor ===
-* [http://wiki.darcs.net/DarcsWiki/Tailor Tailor] is an any-to-any version control system converter, with support for most free SCMs. It was written by Lele and it is implemented in Python. Note that you need [http://wiki.darcs.net/DarcsWiki/Tailor/[[VersionOne]] [[VersionOne]]]. Note also that as of 2006-12-01, it only has rudimentary support for branches, and mostly supports linear histories.
-
-=== darcs-to-git ===
+==== darcs-to-git ====
 * Having had problems with darcs2git and tailor, [http://www.sanityinc.com/ Steve Purcell] wrote another simple darcs import tool called darcs-to-git, which can incrementally import a single darcs source repo: [http://www.sanityinc.com/articles/converting-darcs-repositories-to-git article] / [http://git.sanityinc.com/?p=darcs-to-git.git darcs-to-git gitweb]
 
-=== Darcs-Git ===
+==== Darcs-Git ====
 * [http://darcs.net/DarcsWiki/[[DarcsGit]] Darcs-Git] was an effort to make Darcs work with Git repositories, in particular the Linux kernel repository. It was part Darcs-Unstable branch, available from http://abridgegame.org/repos/darcs-unstable . Unfortunately, both links are now defunct.
 
-=== darcs-fast-export ===
+==== darcs-fast-export ====
 * A generic fast-export script for darcs by Miklos Vajna, works with git fast-import, bzr fast-import and hg fastimport. Find it at [http://vmiklos.hu/project/darcs-fast-export here].
 
-=== SCCS import ===
-* There exists proposed `conftib/fast-import/git-sccsimport.py` in [http://marc.info/?i=<c5df85930801200312o7cd5d307v1a39fb35179249a9@mail.gmail.com> fast importer for SCCS files] post by James Youngman on git mailing list, and [http://search.cpan.org/src/HMBRAND/VCS-SCCS-0.11/examples/sccs2git-gfi sccs2git-gfi] importer by Sam Vilain in VCS::SCCS CPAN module.
-
-=== Git-bzr ===
+==== darcs2git ====
+* <i>darcs2git</i> ([http://repo.or.cz/w/darcs2git.git gitweb]) by Han-Wen Nienhuys ([http://www.xs4all.nl/~hanwen/ his homepage]) is a Darcs to Git converter utilizing `git-fast-import`. It tries to map Darcs conflict resolutions onto Git branch merges. Written in Python.<<BR>> <b>See:</b> [http://marc.info/?l=git&m=117123822725808&w=2 darcs2git.py - convert darcs repository using gfi] at git mailing list<<BR>>
+=== Baraar ===
+==== Git-bzr ====
 * Git-bzr allows bidirectional synchronization between Bazaar and Git repositories, much like git-svn. However, git-bzr is able to keep all merge history etc. Ruby original can be found at [http://github.com/pieter/git-bzr/ github] ([http://github.com/mcepl/git-bzr/ port to shellscript]).
 
-=== bzr-fast-export ===
+==== bzr-fast-export ====
 * Bazaar frontend for git-fast-import. Announcement [https://lists.ubuntu.com/archives/bazaar/2008q1/038391.html here], lives in the `exporters` subdirectory of the [https://launchpad.net/bzr-fastimport bzr-fastimport project].
 
-=== mtn2git ===
+=== Perforce ===
+==== git-p4 and git-p4-import (Perforce) ====
+* The built-in Perforce importer `git-p4import.py` does not work and is not being actively developed. A replacement, `git-p4` by Simon Hausmann, is now in contrib/fast-import and is highly recommended. See also [http://marc.info/?l=git&m=117861263323170&w=2 Yet another git perforce integration] thread on git mailing list. There is also an older Perl version, `git-p4-import` by Alex Riesen: see [http://marc.info/?l=git&m=117840529828575&w=2 Yet another Perforce importer] email/thread on git mailing list.<<BR>>
+
+=== Monotone ===
+
+==== mtn2git ====
 * A Ruby script that imports Monotone repositories with different modes of operation; checkout and fast-import. Depending on the method is the completeness and reliability: checkout method is almost complete. It also allows further updates. Find it at [https://github.com/felipec/mtn2git github].
 
+=== Others ===
+
+==== git-ucmimport (IBM Rational [[ClearCase]]) ====
+* git-ucmimport, also written by Rutger Nijlunsing, is a converter from IBM Rational ClearCase UCM to git. The latest version can be found currently on http://www.wingding.demon.nl. In Ruby.
+
+==== quilt2git / git2quilt ====
+* These utilities convert patch series in a quilt repository and commit series in git back and forth. You can download files [http://home-tj.org/files/misc here]; they can be found on [http://home-tj.org/wiki/index.php/Misc HomeTJ webpage].
+
+==== SCCS import ====
+* There exists proposed `conftib/fast-import/git-sccsimport.py` in [http://marc.info/?i=<c5df85930801200312o7cd5d307v1a39fb35179249a9@mail.gmail.com> fast importer for SCCS files] post by James Youngman on git mailing list, and [http://search.cpan.org/src/HMBRAND/VCS-SCCS-0.11/examples/sccs2git-gfi sccs2git-gfi] importer by Sam Vilain in VCS::SCCS CPAN module.
+
 <<Anchor(rcs-fast-export)>>
-=== rcs-fast-export ===
+==== rcs-fast-export ====
 * rcs-fast-export ([http://git.oblomov.eu/rcs-fast-export gitweb]) is a Ruby script that can be used to export RCS histories in a form suitable to be piped to fast-import tools (only tested with git's). It parses RCS files directly, without requiring any external tool or library. It exports symbols as lightweight tags, and makes up a decently sensible name for branches, based on their initial revision number. It supports the typical `--authors-file` option to convert from usernames to full author identities, and it has an option to (lightweight) tag each RCS revision with its revision number.
 
-=== rpm2git ===
+==== rpm2git ====
 * [http://gitorious.org/projects/rpm2git/pages/Home rpm2git] ([http://gitorious.org/projects/rpm2git/repos/mainline gitorious], [http://www.gnome.org/~federico/news-2008-07.html#rpm2git announcement]) by Federico Mena-Quintero is a tool to help import patches from SRPM (source rpm) into appropriate place in git repository <i>(in Python)</i>. <<BR>><b>See also:</b> [http://blip.tv/file/1155469 How to use rpm2git] screencast.
 
-=== vss2git (Visual Source Safe to Git) ===
+==== vss2git (Visual Source Safe to Git) ====
 * [http://code.google.com/p/vss2git/ vss2git] is a tool written in C# to convert a Visual Source Safe repository into a Git one.
 
 == Hooks ==
