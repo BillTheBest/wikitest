@@ -51,7 +51,7 @@ All documentation residing on this wiki is put in the [[CategoryGitDocumentation
 * [http://git.rsbx.net/ Documents and Notes] by Raymond S Brand -Out of date? (edit if not)
 * [http://www.golden-gryphon.com/software/misc/packaging.html Packaging Software using Git] is an analysis of schemes people use for packaging.
   See also [http://vcs-pkg.org/ vcs-pkg] project, aim of which is to investigate the use of version control for distro package maintenance.
-* [http://www.jinx.de/teclog/2009.01.15.git-dmg-build-scripts-for-xcode.html Git scripts for Xcode users] Build and distribution scripts for Xcode.
+* [http://www.jinx.de/teclog/Entries/2009/1/15_Git_and_DMG_build_scripts_for_Xcode.html Git scripts for Xcode users] Build and distribution scripts for Xcode can now also found on [http://github.com/jollyjinx/jnxfree github].
 
 == Man pages ==
 Each git command is documented in its own man page. If the man pages are installed on your local system running:
