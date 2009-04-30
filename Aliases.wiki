@@ -1,10 +1,9 @@
 = Aliases =
-
 With aliases, you can avoid typing the same commands over and over again. Aliases were added in Git version 1.4.0.
 
 <b>Table of contents:</b>
 
-<<<!-- ! TOC here -->(2)>>
+<!-- ! TOC here -->
 
 ----
 
@@ -31,7 +30,6 @@ If you want to be able to say <i>git lc</i> to list all new commits after you fe
 [alias]
         lc = log ORIG_HEAD.. --stat --no-merges
 </nowiki></pre>
-
 == Shortcut for displaying dates in your local timezone ==
 Here's how to create an alias <i>git llog</i> that will behave just like <i>git log</i>, but will display dates in your local timezone.
 
@@ -39,7 +37,11 @@ Here's how to create an alias <i>git llog</i> that will behave just like <i>git 
 [alias]
         llog = log --date=local
 </nowiki></pre>
-
+== Fetch all remotes ==
+Runs git fetch for all remotes listed by git remote.
+<pre><nowiki>
+[alias]
+        fetch-all = !git remote | xargs -n1 git fetch</nowiki></pre>
 = Advanced =
 Since version 1.5.0, Git supports aliases executing non-git commands, by prefixing the value with "!":
 
@@ -53,10 +55,8 @@ Since <i>gitk</i> does not follow the common form <i>git-<name></i>, and is no b
 
 <pre><nowiki>
 [alias]
-
  . gitkconflict = !gitk --left-right HEAD...MERGE_HEAD
 </nowiki></pre>
-
 == Poor man's "stash" ==
 A concatenation of git programs can also be achieved by the prefix "!":
 
@@ -64,7 +64,6 @@ A concatenation of git programs can also be achieved by the prefix "!":
 [alias]
         stsh = !CURRENT=$(git symbolic-ref HEAD) && git symbolic-ref HEAD refs/heads/stash && git commit -a -m stashed && git checkout $CURRENT
 </nowiki></pre>
-
 == Serve repo on the spot ==
 This fires up a git daemon for the repo you are currently in:
 
@@ -72,25 +71,21 @@ This fires up a git daemon for the repo you are currently in:
 [alias]
         serve = !git daemon --reuseaddr --verbose  --base-path=. --export-all ./.git
 </nowiki></pre>
-
 It makes use of the fact that (currently, as of git 1.5.6.1) non-git alias are executed from the top-level dir of a repo. The simpler version
 
 <pre><nowiki>
 [alias]
         serve = daemon --reuseaddr --verbose  --base-path=. --export-all ./.git
 </nowiki></pre>
-
 works only when called from the top-level dir. In any case, you can connect simply by <i>git ls-remote git://127.0.0.1/</i> etc.
 
 == Prune all your stale remote branches ==
-
-There's no way to tell `git remote update` to prune stale branches, and `git remote prune` does not understand `--all`. So here is an alias to do the job:
+There's no way to tell <code><nowiki>git remote update</nowiki></code> to prune stale branches, and <code><nowiki>git remote prune</nowiki></code> does not understand <code><nowiki>--all</nowiki></code>. So here is an alias to do the job:
 
 <pre><nowiki>
 [alias]
         prune-all = !git remote | xargs -n 1 git remote prune
 </nowiki></pre>
-
 = Aliases with arguments =
 Right from the start, aliases were meant as an easy way to avoid really simple, really short scripts.  Therefore, they can take arguments, which are appended to the command.
 
@@ -125,24 +120,20 @@ If upstream applied a slightly modified patch, and you want to see the modificat
 [alias]
         intercommit = !sh -c 'git show "$0" > .git/commit1 && git show "$1" > .git/commit2 && interdiff .git/commit[12] | less -FRS'
 </nowiki></pre>
-
 == Getting the diff of only one function ==
 Aliases can get pretty complicated.  For example when you want to see just the differences of one function in one file in two different commits, you can do this:
 
 <pre><nowiki>
 $ git config alias.funcdiff '!sh -c "git show \"\$0:\$2\" | sed -n \"/^[^ \t].*\$3(/,/^}/p\" > .tmp1 &&
         git show \"\$1:\$2\" | sed -n \"/^[^ \t].*\$3(/,/^}/p\" > .tmp2 &&
-        git diff --no-index .tmp1 .tmp2"'   
+        git diff --no-index .tmp1 .tmp2"'
 </nowiki></pre>
-
 The idea is to create two temporary files which contain only the function, and call <i>git diff</i> on them.  Use this alias this way: <i>git funcdiff <old-rev> <new-rev> <path> <function></i>.
 
 = Collection of aliases by Git users =
-
 Here is a collection of some Git users' aliases. If you know a simpler way to achieve the same, please add some notes.
 
 == Editing/adding conflicted files ==
-
 You get a lot of merge conflicts and want to quickly solve them using an editor and then add the conflicted files. Try this:
 
 <pre><nowiki>
@@ -150,10 +141,10 @@ You get a lot of merge conflicts and want to quickly solve them using an editor 
         edit-unmerged = "!f() { git ls-files --unmerged | cut -f2 | sort -u ; }; vim `f`"
         add-unmerged = "!f() { git ls-files --unmerged | cut -f2 | sort -u ; }; git add `f`"
 </nowiki></pre>
-
 You should replace "vim" by your favorite editor.
 
-Then just use 
+Then just use
+
 <pre><nowiki>
 $ git edit-unmerged
 ... edit ...
@@ -161,22 +152,18 @@ $ ... test ...
 $ git add-unmerged
 $ git commit  # or git rebase --continue or whatever
 </nowiki></pre>
-
 == Use graphviz for display ==
-
 <pre><nowiki>
 [alias]
         graphviz = "!f() { echo 'digraph git {' ; git log --pretty='format:  %h -> { %p }' \"$@\" | sed 's/[0-9a-f][0-9a-f]*/\"&\"/g' ; echo '}'; }; f"
 </nowiki></pre>
-
 This produces output that can be displayed using dotty, for example:
+
 <pre><nowiki>
 $ git graphviz HEAD~100..HEAD~60 | dotty /dev/stdin
 $ git graphviz --first-parent master | dotty /dev/stdin
 </nowiki></pre>
-
 == Shortcuts ==
-
 <pre><nowiki>
 [alias]
     st = status
@@ -187,24 +174,20 @@ $ git graphviz --first-parent master | dotty /dev/stdin
     lg = log -p
     who = shortlog -s --
 </nowiki></pre>
-
 == git k ==
-
 If you use gitk in your git sessions quite frequently, you have perhaps misused your history and done:
 
 <pre><nowiki>
 $ gitk foo..bar
 $ gitk checkout baz
 </nowiki></pre>
-
-Using `git k` instead of `gitk` may solve your problem:
+Using <code><nowiki>git k</nowiki></code> instead of <code><nowiki>gitk</nowiki></code> may solve your problem:
 
 <pre><nowiki>
 [alias]
         k = !gitk
 </nowiki></pre>
-
 ----
-[[CategoryGitDocumentation]]
+ [[CategoryGitDocumentation]]
 
 __NOTOC__
