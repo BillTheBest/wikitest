@@ -1,5 +1,14 @@
+
+---- /!\ <b>Edit conflict - other version:</b> ----
 wgrthynhf http://www.paulocoelho.pl/forum/viewtopic.php?TopicID=293#30581 http://www.paulocoelho.pl/forum/viewtopic.php?TopicID=294#30582 http://www.paulocoelho.pl/forum/viewtopic.php?TopicID=295#30583 http://www.paulocoelho.pl/forum/viewtopic.php?TopicID=296#30584 http://www.paulocoelho.pl/forum/viewtopic.php?TopicID=297#30585
 ----
 [[CategoryGitDocumentation]]
+
+---- /!\ <b>Edit conflict - your version:</b> ----
+wgrthynhf http://www.paulocoelho.pl/forum/viewtopic.php?TopicID=293#30581 http://www.paulocoelho.pl/forum/viewtopic.php?TopicID=294#30582 http://www.paulocoelho.pl/forum/viewtopic.php?TopicID=295#30583 http://www.paulocoelho.pl/forum/viewtopic.php?TopicID=296#30584 http://www.paulocoelho.pl/forum/viewtopic.php?TopicID=297#30585
+----
+[[CategoryStatistics]]
+
+---- /!\ <b>End of edit conflict</b> ----
 
 __NOTOC__
