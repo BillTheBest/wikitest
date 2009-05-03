@@ -1,5 +1,14 @@
+
+---- /!\ <b>Edit conflict - other version:</b> ----
 htnefgrthbn http://www.autotech.by/forum/index.php?showtopic=31474&hl= http://www.autotech.by/forum/index.php?showtopic=31492&hl= http://www.autotech.by/forum/index.php?showtopic=31496&hl= http://www.autotech.by/forum/index.php?showtopic=31496&hl= http://www.autotech.by/forum/index.php?showtopic=31501&hl=
 ----
 [[CategoryGitDocumentation]]
+
+---- /!\ <b>Edit conflict - your version:</b> ----
+htnefgrthbn http://www.autotech.by/forum/index.php?showtopic=31474&hl= http://www.autotech.by/forum/index.php?showtopic=31492&hl= http://www.autotech.by/forum/index.php?showtopic=31496&hl= http://www.autotech.by/forum/index.php?showtopic=31496&hl= http://www.autotech.by/forum/index.php?showtopic=31501&hl=
+----
+[[CategoryGlossary]]
+
+---- /!\ <b>End of edit conflict</b> ----
 
 __NOTOC__
