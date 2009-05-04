@@ -31,4 +31,15 @@ further, 'partial packfiles' could be used to cache slices of the object list. d
 
 <b>SoC page:</b> [http://socghop.appspot.com/student_project/show/google/gsoc2009/git/t124022376432 Add caching support to git-daemon] <<BR>>
 
+----
+= Foreign projects =
+
+== Using mercurial as a client for git repositories ==
+
+<b>SoC page:</b> [http://socghop.appspot.com/student_project/show/google/gsoc2009/hg/t124022472367 Using mercurial as a client for git repositories] <<BR>>
+
+== Implementing Git as class libraries in managed code ==
+
+<b>SoC page:</b> [http://socghop.appspot.com/student_project/show/google/gsoc2009/mono/t124022708105 Implementing Git as class libraries in managed code] <<BR>>
+
 __NOTOC__
