@@ -28,7 +28,7 @@ Welcome to the [[Git]] wiki web site. This wiki is a community effort to provide
 
 == News ==
 * April 20, 2009: Google Summer of Code Git projects announced. [[SoC2009Projects:SoC 2009 Git Projects]]
-* April 13, 2009: [[GitTogether]] '09 Announced. [[GitTogether:[[GitTogether]]'09]]
+* April 13, 2009: [[GitTogether]] '09 announced. [[GitTogether:[[GitTogether]]'09]]
 * January 07, 2009: Google Summer of Code 2009 pre-announced. [[SoC2009Ideas:2009 Project Ideas]]
 * January 07, 2009: The Git home page moved from [http://git.or.cz/index.html git.or.cz] to [http://git-scm.com/ git-scm.com] (the old URL redirects to the new one)
 * December 02, 2008: Webpage [http://whygitisbetterthanx.com/ whygitisbettterthanx.com] launches
