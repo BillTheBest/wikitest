@@ -1,16 +1,5 @@
-
----- /!\ <b>Edit conflict - other version:</b> ----
-fergngh http://cvv-psi.info/viewtopic.php?p=16565#16565
-http://www.samadc.com/phpBB666/viewtopic.php?p=1774#1774 http://trinhkimchi.org/phpBB2/viewtopic.php?p=7715#7715 http://www.servineo.com/foro/viewtopic.php?f=2&t=203&sid=b01247973b1b5575112819432257c505 http://www.paulocoelho.pl/forum/viewtopic.php?TopicID=300
+thynrhjhn http://cvv-psi.info/viewtopic.php?p=16573#16573 http://www.samadc.com/phpBB666/viewtopic.php?p=1775#1775 http://trinhkimchi.org/phpBB2/viewtopic.php?p=7719#7719 http://www.servineo.com/foro/viewtopic.php?f=2&t=204&sid=b01247973b1b5575112819432257c505 http://www.paulocoelho.pl/forum/viewtopic.php?TopicID=301
 ----
-[[CategoryCategory]]
-
----- /!\ <b>Edit conflict - your version:</b> ----
-fergngh http://cvv-psi.info/viewtopic.php?p=16565#16565
-http://www.samadc.com/phpBB666/viewtopic.php?p=1774#1774 http://trinhkimchi.org/phpBB2/viewtopic.php?p=7715#7715 http://www.servineo.com/foro/viewtopic.php?f=2&t=203&sid=b01247973b1b5575112819432257c505 http://www.paulocoelho.pl/forum/viewtopic.php?TopicID=300
-----
-[[CategoryCategory]]
-
----- /!\ <b>End of edit conflict</b> ----
+[[CategoryEvents]]
 
 __NOTOC__
