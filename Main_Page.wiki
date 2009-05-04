@@ -27,6 +27,7 @@ Welcome to the [[Git]] wiki web site. This wiki is a community effort to provide
 * [[GitComparison:Git Compared]]
 
 == News ==
+* April 20, 2009: Google Summer of code Git projects announced. [[SoC2009Projects:SoC 2009 Git Projects]]
 * January 07, 2009: Google Summer of Code 2009 pre-announced. [[SoC2009Ideas:2009 Project Ideas]]
 * January 07, 2009: The Git home page moved from [http://git.or.cz/index.html git.or.cz] to [http://git-scm.com/ git-scm.com] (the old URL redirects to the new one)
 * December 02, 2008: Webpage [http://whygitisbetterthanx.com/ whygitisbettterthanx.com] launches
@@ -35,7 +36,7 @@ Welcome to the [[Git]] wiki web site. This wiki is a community effort to provide
 * June 18, 2008: Git Version 1.5.6 now [http://kernel.org/pub/software/scm/git/ available][http://www.kernel.org/pub/software/scm/git/docs/RelNotes-1.5.6.txt Release Notes]
 * May 25, 2008: Git Version 1.5.5.2 now [http://kernel.org/pub/software/scm/git/ available][http://www.kernel.org/pub/software/scm/git/docs/RelNotes-1.5.5.2.txt Release Notes]
 * May 07, 2008: [http://www.infoq.com/articles/dvcs-guide InfoQ compares] Git with Hg and Bzr with Git leading in performance
-* April 22, 2008: Google summer of code Git projects announced. [[SoC2008Projects:SoC 2008 Git Projects]]
+* April 22, 2008: Google Summer of code Git projects announced. [[SoC2008Projects:SoC 2008 Git Projects]]
 * April 20, 2008: Git Version 1.5.5.1 now [http://kernel.org/pub/software/scm/git/ available][http://www.kernel.org/pub/software/scm/git/docs/RelNotes-1.5.5.1.txt Release Notes]
 * April 10, 2008: [http://www.github.com GitHub] launches and ends beta opening doors for anyone looking for git hosting
 [[News:Older news]]
