@@ -3,19 +3,17 @@ These are events when git developers and users physically meet in the same place
 
 = [[GitTogether]] '09 =
 
-It's not yet decided yet if there will be a [[GitTogether]] in 2009 and when and where it would happen.
-Please list bellow the location and date ideas you have. And why they might be good.
+2 [[GitTogether]] are planned in 2009:
 
-=== [[GitTogether]] '09 Location and date ideas ===
+== [[GitTogether]] '09 ==
 
-* San Francisco area, tentative date: 26th-28th October 2009 (see [http://mid.gmane.org/20090413151808.GT23604@spearce.org Shawn's mail]).  Host: our [http://www.google.com generous friends] in Mountain View (like last year).  If you plan to attend, please fill out the [http://tinyurl.com/coefaq survey].
-* Portland, Oregon, in September, during or after [http://events.linuxfoundation.org/events/linuxcon LinuxCon] and/or [http://linuxplumbersconf.org/ Linux Plumbers Conference]:
+<b>October 26(Mon)-28(Wed) in [http://maps.google.com/maps?f=q&hl=en&q=Amphitheatre+Pkwy,+Mountain+View,+California+94043,+United+States&sll=37.40293,-121.952735&sspn=0.008565,0.012081&ie=UTF8&cd=2&geocode=FcEHOwIdfiW5-A&ll=37.421572,-122.083619&spn=0.017127,0.024161&t=h&z=16&iwloc=addr Mountain View, California]</b>
 
-The [http://events.linuxfoundation.org/events/linuxcon LinuxCon] is scheduled for September 21 - 23 and the [http://linuxplumbersconf.org/ Linux Plumbers Conference] is scheduled for September 23 - 25.
+See [http://mid.gmane.org/20090413151808.GT23604@spearce.org Shawn's mail].
 
-This would hopefully make it easy for many Git users going to the above conferences to come. 
+Host: our [http://www.google.com generous friends] in Mountain View (like last year). If you plan to attend, please fill out the [http://tinyurl.com/coefaq survey].
 
-= "Alles Wird Git" Berlin [[GitTogether]] '09 =
+== "Alles Wird Git" Berlin [[GitTogether]] '09 ==
 * What: An informal gathering of Gits.
 * Date: Saturday, October 3, 2009.
 * Time: To be determined.
