@@ -91,6 +91,9 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * http://laptop.org
 * http://dev.laptop.org/wiki/[[CentralTree]] (basic description)
 * http://dev.laptop.org/browser (gitweb)
+* Sugar Labs (the OLPC desktop)
+* http://sugarlabs.org
+* http://git.sugarlabs.org (Gitorious)
 * Wine (implementation of the Windows API on top of X and Unix)
 * http://wiki.winehq.org/[[GitWine]] (description)
 * http://source.winehq.org/git/?p=wine.git;a=summary (gitweb)
