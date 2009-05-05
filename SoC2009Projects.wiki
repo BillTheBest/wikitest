@@ -46,4 +46,8 @@ further, 'partial packfiles' could be used to cache slices of the object list. d
 
 <b>SoC page:</b> [http://socghop.appspot.com/student_project/show/google/gsoc2009/opensuse/t124023150939 Prototype git backend for OpenSUSE Build Service] <<BR>>
 
+== Plan9: GitFS ==
+
+<b>SoC page:</b> [http://socghop.appspot.com/student_project/show/google/gsoc2009/plan9/t124024225905 GitFS for Plan 9 from Bell Labs] <<BR>>
+
 __NOTOC__
