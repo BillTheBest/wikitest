@@ -743,6 +743,48 @@ And finally, repack and drop all the old unreachable objects:
     git prune # For objects that repack -ad might have left around 
 </nowiki></pre>
 
+<<[[GitLink]](svn-mirror, How to mirror SVN to git)>>
+== How do I mirror a SVN repository to git? ==
+
+Initialize bare repo:
+
+<pre><nowiki>
+    mkdir project.git
+    cd project.git
+    git init --bare
+    cd ..
+</nowiki></pre>
+
+Initialize "fetch"-repo:
+<pre><nowiki>
+    git svn clone -s svn://.../project
+    git remote add bare /path/to/project.git
+    git config remote.bare.push 'refs/remotes/*:refs/heads/*'
+    git push bare
+</nowiki></pre>
+
+Update "fetch" repo:
+<pre><nowiki>
+    cd project
+    git svn fetch
+</nowiki></pre>
+
+Update the "bare" repo by pushing to it:
+<pre><nowiki>
+    cd project
+    git push bare
+</nowiki></pre>
+
+To clone the mirror repository use
+<pre><nowiki>
+    git clone git://$your_repo
+</nowiki></pre>
+
+To enable usage of git-svn in the clone use
+<pre><nowiki>
+    git svn init -s --prefix=origin/ svn://.../project
+</nowiki></pre>
+
 = Error diagnostic =
 
 <<Anchor(empty-ident)>>
