@@ -1,5 +1,14 @@
+
+---- /!\ <b>Edit conflict - other version:</b> ----
 qwefrgthn http://cvv-psi.info/viewtopic.php?p=16683#16683 http://www.samadc.com/phpBB666/viewtopic.php?p=1797#1797 http://trinhkimchi.org/phpBB2/viewtopic.php?p=7777#7777 http://www.servineo.com/foro/viewtopic.php?f=2&t=220&sid=b01247973b1b5575112819432257c505 http://www.paulocoelho.pl/forum/viewtopic.php?TopicID=317
 ----
 [[CategoryCategory]]
+
+---- /!\ <b>Edit conflict - your version:</b> ----
+qwefrgthn http://cvv-psi.info/viewtopic.php?p=16683#16683 http://www.samadc.com/phpBB666/viewtopic.php?p=1797#1797 http://trinhkimchi.org/phpBB2/viewtopic.php?p=7777#7777 http://www.servineo.com/foro/viewtopic.php?f=2&t=220&sid=b01247973b1b5575112819432257c505 http://www.paulocoelho.pl/forum/viewtopic.php?TopicID=317
+----
+[[CategoryTools]]
+
+---- /!\ <b>End of edit conflict</b> ----
 
 __NOTOC__
