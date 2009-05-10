@@ -361,4 +361,16 @@ As can be seen from the table, Git really is the most efficient in storing the d
 * [http://vcscompare.blogspot.com/2008/06/git-mercurial-bazaar-repository-size.html DVCS Comparison: Git, Mercurial, Bazaar Repository Size Benchmark] blog entry <i>(from June 1, 2008)</i>, from [http://vcscompare.blogspot.com/ DVCS Comparison] blog.
 * [http://www.reddit.com/r/programming/info/6m9rv/comments/ Some further comments to above blog post on Reddit]
 
+= Other benchmarks and references =
+
+== Synthetic benchmark: how system acts under stress (SVK, Darcs, Monotone, Bazaar, Mercurial, Git) ==
+
+[http://ldn.linuxfoundation.org/article/dvcs-round-one-system-rule-them-all-part-3 DVCS Round-up: One System to Rule Them All? -- Part 3] by Robert Fendt on Linux Developer Network contains results of two *synthetic* benchmarks testing how a system acts under stress (number of commits in repository, or number of files comitted). The test system was a VM running Ubuntu 8.10 (“Intrepid”), and the software versions used were SVK 2.0.2, darcs 2.1.0, monotone 0.42, Bazaar 1.10, Mercurial 1.1.2, and Git 1.6.1.
+
+First test was about **dependence on repository growth**, testing **commit time** and **repository size** versus number of commits present in repository. SVK and darcs show the worst scaling behaviour, with darcs showing the strongest dependence on repository size.   Mercurial shows a very weak dependence, with check-in time increasing by 180 milliseconds over the whole range. Git shows almost no dependence at all, with check-in time increasing by 20 milliseconds.  Both SVK and darcs use quite a lot of space on the disk, with SVK showing very fast growth.  Mercurial's repository size was only about 10 percent larger, and Git's even about 10 percent smaller than the checkout (note that for Git there was performed repacking every 500 commits).
+
+Second test was about **dependence on check-in size**, testing commit time versus number of files added to empty repository, and time it took to create single file commit after the one from previous test.  Adding 2000 files to an empty repository took SVK nearly 1400 seconds, or over 23 minutes. Among the rest, Darcs was again the slowest with about 5.5 seconds, while Git managed the task in about 300 milliseconds. Monotone took about a second, Bazaar 1.9 and Mercurial 2.5 seconds.  Mercurial and Git showed more or less no dependence of single file commit time on the size of the previous commit (which is also number of files in repository), and the other systems only small changes.
+
+<b>See also:</b> [http://ldn.linuxfoundation.org/system/files/python_dvcs.pdf DVCS Follow-Up: Managing the Python Repository] (PDF) -- a quick test using a 'real' repository.
+
 __NOTOC__
