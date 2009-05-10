@@ -50,4 +50,8 @@ further, 'partial packfiles' could be used to cache slices of the object list. d
 
 <b>SoC page:</b> [http://socghop.appspot.com/student_project/show/google/gsoc2009/plan9/t124024225905 GitFS for Plan 9 from Bell Labs] <<BR>>
 
+== Python: SVN, Git, Perforce, Mercurial, Bazaar and CVS backends for PyVCAL ==
+
+<b>SoC page:</b> [http://socghop.appspot.com/student_project/show/google/gsoc2009/python/t124024625817 SVN, Git, Perforce, Mercurial, Bazaar and CVS backends for PyVCAL] (Python Version Control Abstraction Layer)
+
 __NOTOC__
