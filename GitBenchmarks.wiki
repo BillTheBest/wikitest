@@ -282,6 +282,22 @@ As you can see, Mercurial (`hg`) was the fastest.  The fact that Mercurial outpe
 * [http://bryan-murdock.blogspot.com/2007/03/cutting-edge-revision-control.html Cyclopedia Square: Cutting Edge Revision Control], blog by Bryan Murdock, at Saturday, March 3, 2007.
 * [http://thread.gmane.org/gmane.comp.version-control.git/54382 Git benchmark - comparison with Bazaar, Darcs, Git and Mercurial] thread at git mailing list.
 
+== Clone and pull benchmark of Git and Mercurial for Google Code ==
+
+This is <i>synthetic</i> benchmark comparing mainly transfer over HTTP protocol; note that Mercurial uses hg-serve here, while Git uses ordinary web server (HTTP is "dumb" protocol in git).
+
+Repositories were seeded with approximately 1500 files totaling 35 M of data for initial "clone" test.  Then a single file in the repository was then changed 50 times and the clients pulled the updates for "pull" test. The servers were running in Chicago and the clients in Mountain View (51 ms ping time).
+
+ ||<|2><b><i>Operation</b></i>||<|2> ||<|2:><b>hg</b>||<-2:><b>git</b>||
+ ||<:>HTTP||<:>git||
+ ||<i>clone</i> || ||<)> 8.1 sec ||<)> 178 sec ||<)> 8.7 sec ||
+ ||<i>pull</i>  || ||<)> 1.5 sec ||<)>  18 sec ||<)> 2.8 sec ||
+
+Git was 22 times slower than Mercurial for clone over HTTP, and 12 times slower for pull over HTTP. Times for smart protocols were similar for Git and for Mercurial.
+
+<b>Reference:</b>
+* [http://code.google.com/p/support/wiki/DVCSAnalysis Analysis of Git and Mercurial] for DVCS support in Google Code.
+
 = Repository size benchmarks =
 
 == --window and --depth parameters ==
