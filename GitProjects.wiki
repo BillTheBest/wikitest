@@ -558,6 +558,8 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * xwax
 * http://www.xwax.co.uk/devel/source.html (development)
 * http://www.xwax.co.uk/devel/xwax.git (repository)
+* [http://tukaani.org/xz/ XZ Utils] (formerly LZMA-Utils)
+* git://ctrl.tukaani.org/xz.git (repository)
 * YUI3
 * http://tech.groups.yahoo.com/group/yui3/message/206 (announcement)
 * Yum
