@@ -31,6 +31,7 @@ All documentation residing on this wiki is put in the [[CategoryGitDocumentation
 * [[IndexCommandQuickref]]
 * The [[RevisionSpecification]]
 * Equivalent of <i>svn switch</i> for git-svn: [[GitSvnSwitch]] - when an SVN repos moves
+
 == User contributed Documentation ==
 * [http://book.git-scm.com/ The Git Community Book] at [http://git-scm.com git-scm.com].
 * [http://gitready.com/ gitready.com] daily tips for the noob to the guru
@@ -52,6 +53,7 @@ All documentation residing on this wiki is put in the [[CategoryGitDocumentation
 * [http://www.golden-gryphon.com/software/misc/packaging.html Packaging Software using Git] is an analysis of schemes people use for packaging.
   See also [http://vcs-pkg.org/ vcs-pkg] project, aim of which is to investigate the use of version control for distro package maintenance.
 * [http://www.jinx.de/teclog/Entries/2009/1/15_Git_and_DMG_build_scripts_for_Xcode.html Git scripts for Xcode users] Build and distribution scripts for Xcode can now also found on [http://github.com/jollyjinx/jnxfree github].
+* Slides from [http://www.breitbandig.de/git/git-as-cvs-en.odp Git as cvs replacement talk] (for cvs refugees) and [http://www.breitbandig.de/git/advanced-git-en.odp Advanced Git talk] by Thomas Pasch
 
 == Man pages ==
 Each git command is documented in its own man page. If the man pages are installed on your local system running:
