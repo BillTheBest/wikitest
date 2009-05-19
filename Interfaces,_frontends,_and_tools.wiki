@@ -1062,6 +1062,9 @@
 * <b>git_fast_filter</b> ([http://gitorious.org/projects/git_fast_filter gitorious]) by Elijah Newren assists with quickly rewriting the history of a repository by making it easy to write scripts whose purpose is to serve as safe filters between [http://www.kernel.org/pub/software/scm/git/docs/git-fast-export.html fast-export] and [http://www.kernel.org/pub/software/scm/git/docs/git-fast-import.html fast-import].  git_fast_filter comes with example programs,and a basic test-suite. <<BR>><b>See</b> [http://permalink.gmane.org/gmane.comp.version-control.git/116028 announcement on git mailing list] and the following thread.
 * <b>git-rewrite-commits</b> by Sven Verdoolaege is an alternate interface to [http://www.kernel.org/pub/software/scm/git/docs/git-filter-branch.html git-filter-branch]-like functionality (more similar to cg-admin-rewritehist from Cogito).  It is available from git mailing list archives fro [http://thread.gmane.org/gmane.comp.version-control.git/52323 |PATCH 0/6| Add git-rewrite-commits v2] thread.
 
+=== git-subtree ===
+* <b>git-subtree</b> ([http://github.com/apenwarr/git-subtree github]) by Avery Pennarun is an experimental alternative to the git-submodule command, making it easier to use workflow which uses "subtree" merge strategy.  The series introducing git-submodule was posted twice on git mailing list: [http://thread.gmane.org/gmane.comp.version-control.git/117612 here] and [http://thread.gmane.org/gmane.comp.version-control.git/118635 here].<<BR>><b>See also:</b> [http://alumnit.ca/~apenwarr/log/?m=200904#30 A new alternative to git submodules: git subtree] blog post (and [http://news.ycombinator.com/item?id=604889 comments]).
+
 ----
 = See also =
 * [[InterfacesFrontendsAndToolsWishlist]]
