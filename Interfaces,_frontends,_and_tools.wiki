@@ -1073,7 +1073,5 @@
 
 ----
 [[CategoryTools]] [[CategoryGitHomepage]] ([http://git.or.cz/#tools Related Tools])
-----
-[[CategoryTools]] [[CategoryTools]]
 
 __NOTOC__
