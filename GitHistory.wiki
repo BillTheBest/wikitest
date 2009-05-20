@@ -148,6 +148,7 @@ moving old objects that weren't needed into some "backup storage" kind of
 thing.
 
 * Source: Linus [http://permalink.gmane.org/gmane.comp.version-control.git/19620 e-mail] on git mailing list.
+* See also: Linus [http://article.gmane.org/gmane.comp.version-control.bazaar-ng.general/18353 comparison with BitKeeper].
 
 -----
 == Early history ==
