@@ -102,7 +102,7 @@ Starting with version 1.5.3, git supports appending the arguments to commands pr
 [alias]
         example = !sh -c 'ls $1 $0'
 </nowiki></pre>
-NOTE: the arguments start with $0, not with $1 as you are used from shell scripts.
+NOTE: unlike shell scripts, arguments start with $0, not with $1.
 
 == A 'debug' alias to help debugging builtins ==
 When debugging builtins, you often use gdb to analyze the runtime state.  However, you have to disable the pager, and often you have to call the program with arguments.  If the program to debug is a builtin, you can use this alias:
