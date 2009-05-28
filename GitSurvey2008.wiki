@@ -3,11 +3,11 @@
 <b>The Git User's Survey 2008 has been closed on October 14, 2008.</b>
 
 The survey could be found here:
-* [http://www.survs.com/survey?id=M3PIVU72&channel=2WXE4BVTW8 Git User's Survey 2008] (http://tinyurl.com/[[GitSurvey]]2008) at Survs.com (closed)
+* [[http://www.survs.com/survey?id=M3PIVU72&channel=2WXE4BVTW8|Git User's Survey 2008]] (http://tinyurl.com/[[GitSurvey]]2008) at Survs.com (closed)
 
 You can get raw data (individual responses) for the survey here:
-* [attachment:Git_User's_Survey_2008_-_Oct_14,_2008.csv.gz Git User's Survey 2008 - Oct 14, 2008.csv.gz] (CSV, 1.2 MB)
-* [attachment:Git%20User's%20Survey%202008%20-%20Oct%2014,%2008.xls Git User's Survey 2008 - Oct 14, 2008.xls] (Excel, 8.6MB)
+* [[attachment:Git_User's_Survey_2008_-_Oct_14,_2008.csv.gz|Git User's Survey 2008 - Oct 14, 2008.csv.gz]] (CSV, 1.2 MB)
+* [[attachment:Git User's Survey 2008 - Oct 14, 08.xls|Git User's Survey 2008 - Oct 14, 2008.xls]] (Excel, 8.6MB)
 
 Or even better, as long as the survey is not 100% evaluated, do
 * git clone git://git.pkqs.net/gitsurvey08.git
@@ -16,8 +16,8 @@ Or even better, as long as the survey is not 100% evaluated, do
 * commit to a mob branch and push
 
 Results of the survey:
-* [http://thread.gmane.org/gmane.comp.version-control.git/94797/ partial summary thread on GMANE]
-* [http://www.survs.com/shareResults?survey=M3PIVU72&rndm=OKJQ45LAG8 Graphical final results of the survey] (http://tinyurl.com/[[GitSurvey]]2008Analyze) <<BR>> <b><i>Note:</b> you can use existing on-line filters for basic survey analysis</i>
+* [[http://thread.gmane.org/gmane.comp.version-control.git/94797/|partial summary thread on GMANE]]
+* [[http://www.survs.com/shareResults?survey=M3PIVU72&rndm=OKJQ45LAG8|Graphical final results of the survey]] (http://tinyurl.com/[[GitSurvey]]2008Analyze) <<BR>> <b><i>Note:</b> you can use existing on-line filters for basic survey analysis</i>
 * Further final results will follow and will be put into the wiki.
 
 There were 3236 individual responses, including 21 responses in 'test' channel<<BR>>
@@ -464,7 +464,7 @@ There were 683 individual responses in [[GitSurvey]]2007, and around 117 respons
 
 As one can easily see, slightly less than third of Git users (30.6%) are in the USA (those who answered this survey).  Next of countries is Germany with around 10.0% responses.  More than third of respondents, around two fifths (40.0%) are in European Union.
 
-You can also take a look at [http://www.ohloh.net/projects/git/map Git Activity Map] at [http://www.ohloh.net Ohloh], where you can see on (large) Google Map locations of selected people who have Git in a [http://www.ohloh.net/about/faq#stack stack], or locations of Git contributors (those with known location).
+You can also take a look at [[http://www.ohloh.net/projects/git/map|Git Activity Map]] at [[http://www.ohloh.net|Ohloh]], where you can see on (large) Google Map locations of selected people who have Git in a [[http://www.ohloh.net/about/faq#stack|stack]], or locations of Git contributors (those with known location).
 
 === 02. How old are you (in years)? ===
 
@@ -1100,11 +1100,11 @@ Every explicitly named programming languages with less then 4 users is put into 
 
 The table is sorted by the number of replies.
 
-Around 2893 (89.4%) people answered this question.  C is most popular with 55%; a bit suprisingly shell script programming is second with 47%, a bit more than Ruby with 43%.  More people are proficient with Python, around 1/3, than in Perl, around 1/4.  Few people (89 responses, around 4%) feel proficient in Tcl/Tk, which means shallow pool of possible git-gui and gitk contributors.  Java is quite popular with around 37%, which gives hope in continued [[Self:EclipsePlugin|JGit/EGit]] development.
+Around 2893 (89.4%) people answered this question.  C is most popular with 55%; a bit suprisingly shell script programming is second with 47%, a bit more than Ruby with 43%.  More people are proficient with Python, around 1/3, than in Perl, around 1/4.  Few people (89 responses, around 4%) feel proficient in Tcl/Tk, which means shallow pool of possible git-gui and gitk contributors.  Java is quite popular with around 37%, which gives hope in continued [[EclipsePlugin|JGit/EGit]] development.
 
 And finally 47 responses (around 1.5%) of "I am not a programmer".  That's nice.
 
-[http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html TIOBE Programming Community Index] for October 2008 (gives an indication of the <i>popularity</i> of programming languages) states:
+[[http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html|TIOBE Programming Community Index]] for October 2008 (gives an indication of the <i>popularity</i> of programming languages) states:
 
 <!-- ## table begin
  -->
@@ -1175,9 +1175,9 @@ And finally 47 responses (around 1.5%) of "I am not a programmer".  That's nice.
 <!-- ##--------------------------------------------------------------
  -->
 
-Programming languages used by Git, not including `contrib/` section, are marked in bold in table of replies.  As one can see C is most popular programming language.  Shell is more known that Perl.  There are a few (below 100 replies for around 3000 responses to this question, i.e. around 2.8%) people who are proficient in Tcl/Tk, the programming language used for [http://git.or.cz/man/gitk gitk] history viewer and [http://git.or.cz/man/git-gui git-gui] commit tool.
+Programming languages used by Git, not including `contrib/` section, are marked in bold in table of replies.  As one can see C is most popular programming language.  Shell is more known that Perl.  There are a few (below 100 replies for around 3000 responses to this question, i.e. around 2.8%) people who are proficient in Tcl/Tk, the programming language used for [[http://git.or.cz/man/gitk|gitk]] history viewer and [[http://git.or.cz/man/git-gui|git-gui]] commit tool.
 
-You can check what are the contributions of each programming language to Git code at [http://www.ohloh.net/projects/git/analyses/latest Git Code Analysis at Ohloh].  In the table below there is shown state on the end of October 2008.
+You can check what are the contributions of each programming language to Git code at [[http://www.ohloh.net/projects/git/analyses/latest|Git Code Analysis at Ohloh]].  In the table below there is shown state on the end of October 2008.
 
 <!-- ## table begin
  -->
@@ -1218,7 +1218,99 @@ You can check what are the contributions of each programming language to Git cod
 
 === 04. How did you hear about Git? ===
 
-(Results of multiple choice questions with free-form parts will follow.)
+(Multiple choice questions with free-form parts.)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Reply 
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##-------------------------------------------
+ -->
+
+{| border="1" cellpadding="2" cellspacing="0"
+|  Linux kernel news       
+|   785 
+|  27% 
+| 
+|-
+|  news site or magazine   
+|   536 
+|  19% 
+| 
+|-
+|  blog entry              
+|   993 
+|  35% 
+| 
+|-
+|  some project uses it    
+|  1117 
+|  39% 
+| 
+|-
+|  required at work        
+|   199 
+|   7% 
+| 
+|-
+|  presentation or seminar 
+|   294 
+|  10% 
+| 
+|-
+|  SCM research            
+|   457 
+|  16% 
+| 
+|-
+|  IRC                     
+|   253 
+|   9% 
+| 
+|-
+|  mailing list            
+|   285 
+|  10% 
+| 
+|-
+|  told by friend          
+|   516 
+|  18% 
+| 
+|-
+|  word of mouth           
+|   622 
+|  22% 
+| 
+|-
+| <-3>
+| 
+|-
+|  <i>Other (please specify)</i> 
+|   226 
+|   8% 
+| 
+|}
+<!-- ##-----------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total responders 
+|colspan="2" | 2865 
+| 
+|}
+<!-- ##----------------------------------
+ -->
+<!-- ## table end
+ -->
+
+Most people heard about Git because some project uses it (or started using it), and from blog posts (39-35%).  Linux kernel news, such as (currently on hiatus) [[http://kerneltrap.org/|KernelTrap]], or (no longer updated) [[http://kerneltraffic.osmirror.nl/|Kernel Traffic]],
+or [[http://lwn.net/|LWN.net]] are third with 27%, close to word of mouth (22%).
+
+The free-form part of this question is not yet analyzed; but there are only around 8% of free-form answers (i.e. other source).
 
 === 05. Did you find Git easy to learn? ===
 
@@ -1726,11 +1818,11 @@ You can check what are the contributions of each programming language to Git cod
 <!-- ## table end
  -->
 
-=== 13. Why did you choose/use Git? (if you use Git)What do you like about using Git? ===
+=== 13. Why did you choose/use Git? (if you use Git).  What do you like about using Git? ===
 
 (Results of free-form questions will follow.)
 
-=== 14. Why did you choose/use other SCMs? (if you use other SCMs)What do you like about using other SCMs? ===
+=== 14. Why did you choose/use other SCMs? (if you use other SCMs).   What do you like about using other SCMs? ===
 
 (Results of free-form questions will follow.)
 
@@ -1742,7 +1834,119 @@ You can check what are the contributions of each programming language to Git cod
 
 === 16. I use Git for (check all that apply): ===
 
-(Results of multiple choice questions with free-form parts will follow.)
+(Multiple choice questions with free-form parts.)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Reply 
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##--------------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  work projects                         
+|  2195 
+|  78% 
+| 
+|-
+|  unpaid projects                       
+|  2211 
+|  78% 
+| 
+|-
+| <-3>
+| 
+|-
+|  proprietary code                      
+|  1011 
+|  36% 
+| 
+|-
+|  OSS development                       
+|  1847 
+|  66% 
+| 
+|-
+|  private (unpublished) code            
+|  2037 
+|  72% 
+| 
+|-
+| <-3>
+| 
+|-
+|  personal data                         
+|   913 
+|  32% 
+| 
+|-
+|  documents                             
+|   772 
+|  27% 
+| 
+|-
+|  website or web app                    
+|  1365 
+|  48% 
+| 
+|-
+|  sharing data or sync                  
+|   524 
+|  19% 
+| 
+|-
+|  backup                                
+|   574 
+|  20% 
+| 
+|-
+|  wiki/blog/other web app backend       
+|   290 
+|  10% 
+| 
+|-
+|  managing configuration files          
+|   695 
+|  25% 
+| 
+|-
+|  frontend to other SCM (e.g. git-svn)  
+|   897 
+|  32% 
+| 
+|-
+| <-3>
+| 
+|-
+|  <i>Other (please specify)</i>            
+|    65 
+|   2% 
+| 
+|}
+<!-- ##--------------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total responders 
+|colspan="2" | 2819 
+| 
+|}
+<!-- ##--------------------------------------------------------
+ -->
+<!-- ## table end
+ -->
+
+This is multiple-choice question, and for this question it looks like many people have chosen more than one answer.  Correlations, including for example how many people answered both 'work' and 'unpaid' projects is yet to be analized.
+
+There is around the same number of using Git for unpaid projects as of using Git for work related projects.  (In previous surveys in [[GitSurvey2006|2006]] and [[GitSurvey2007|2007]] this question was single-choice question with work/unpaid projects/both as possible answers; this survey uses multiple choice question and answer 'both' can be derived from correlations).
+
+Almost 3/4 (72%) use Git to manage private (unpublished) code.  There are around twice that many uses of Git used in OSS development (used to manage open source software) than uses for proprietary code (66% versus 36%).
+
+From 'non code' uses of Git most popular is using it to manage websites or web applications (well, web applications can be code), followed by using Git as frontend to other version control system (like git-svn used as frontend/client for Subversion), and using Git for personal data.  Note that those choices are not exclusive!
+
+The free-form part of this question is not yet analyzed; but there are only around 2% of free-form answers (i.e. other, unlisted way of using git).
 
 === 17. How do you obtain Git? ===
 
@@ -1791,37 +1995,784 @@ You can check what are the contributions of each programming language to Git cod
 
 === 18. What operating system do you use Git on? ===
 
-(Results of multiple choice questions with free-form parts will follow.)
+(Multiple choice questions with free-form parts.)
+
+Note that one person can use Git on multiple operating systems simultaneously, either on different machines, or on the same machine with multi-boot (multiple operating systems on the same computer).
+
+Entries in table below are sorted by number of replies; it does not reflect original order of answers in the survey.
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Reply 
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Linux                       
+|  2434 
+|  86% 
+| 
+|-
+|  MacOS X (Darwin)            
+|  1330 
+|  47% 
+| 
+|-
+|  MS Windows/msysGit (MINGW)  
+|   452 
+|  16% 
+| 
+|-
+|  MS Windows/Cygwin           
+|   297 
+|  10% 
+| 
+|-
+|  FreeBSD, OpenBSD, NetBSD    
+|   244 
+|   9% 
+| 
+|-
+|  Solaris, [[OpenSolaris]]        
+|   143 
+|   5% 
+| 
+|-
+|  AIX                         
+|    21 
+|   1% 
+| 
+|-
+|  SunOS                       
+|    18 
+|   1% 
+| 
+|-
+|  HP-UX                       
+|    10 
+|   0% 
+| 
+|-
+|  IRIX                        
+|     5 
+|   0% 
+| 
+|-
+|  SCO SV                      
+|     2 
+|   0% 
+| 
+|-
+|  [[UnixWare]]                    
+|     1 
+|   0% 
+| 
+|-
+| <-3>
+| 
+|-
+|  <i>Other, please specify</i>   
+|    32 
+|   1% 
+| 
+|}
+<!-- ##----------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total responders 
+|colspan="2" | 2842 
+| 
+|}
+<!-- ##----------------------------------------------
+ -->
+<!-- ## table end
+ -->
+
+Other operating systems (excluding distributions of Linux and GNU/Linux wording and similar answers which are listed) that people use Git on include iPhone OS (is there Git for iPhone?), BeOS (but with comment: not really), [[DragonFly]] BSD and GNU/kFreeBSD (both probably should be counted as element of xBSD family), MS Windows/[[AndLinux]], and finally QNX and Plan 9.
+
+Linux dominates (86% replies) as the operating system of Git users (other systems do not cross 50% of replies). This isn't strange, as Git was at least originally developed for Linux and on Linux; it doesn't for example work as well on MS Windows, and lack some of GUI tools (some) MS Windows users expect. Next in popularity is MacOS X with 47% replies, and MS Windows with around 26% replies. The "native" [[http://code.google.com/p/msysgit/|msysGit]] version is more popular than using Git from/via [[http://cygwin.com/|Cygwin]]. The remaining operating systems with more than 1% of responses are various members of xBSD family: FreeBSD, OpenBSD, NetBSD, and (a bit surprisingly for me) (Open)Solaris.
 
 === 19. What hardware platforms do you use Git on? ===
 
-(Results of multiple choice questions with free-form parts will follow.)
+(Multiple choice questions with free-form parts.)
+
+Note that one person can use Git on more than one machine (for example desktop and laptop, or home computer and computer at work).
+
+Sidenote: Some responders might have mistaken hardware platforms you use Git on with more broad hardare platforms you work on (or have contact with).
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Reply 
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  32bit                       
+|  2484 
+|  89% 
+| 
+|-
+|  64bit                       
+|  1700 
+|  61% 
+| 
+|-
+|  portable/handheld           
+|    92 
+|   3% 
+| 
+|-
+| <-3>
+| 
+|-
+|  <i>other (please specify)</i>  
+|    23 
+|   1% 
+| 
+|}
+<!-- ##----------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total responders 
+|colspan="2" | 2798 
+| 
+|}
+<!-- ##----------------------------------------------
+ -->
+<!-- ## table end
+ -->
+
+People usually put in 'other' field either comment about choice, or name of architecture (PowerPC/PPC, G4, SPARC, ARM, ia32 or ia64), or type of machine (OLPC-XO, [[MacBook]] with Intel).
+
+32bit architecture is still most polular (89%), but more than half  use (also) 64bit (61%).
 
 === 20. What editor, IDE or RAD you use working with Git? ===
 
-(Results of multiple choice questions with free-form parts will follow.)
+(Multiple choice questions with free-form parts.)
+
+This question was intended to mean editor (or IDE) which one use to edit files which one has under version control using Git, not any editor one use.
+
+This is multiple choice question as one can use different editors in different situations (e.g. for different projects).
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Reply 
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##---------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Eclipse                    
+|   364 
+|  13% 
+| 
+|-
+|  NetBeans                 
+|   154 
+|   6% 
+| 
+|-
+|  IntelliJ IDEA            
+|    43 
+|   2% 
+| 
+|-
+|  MS Visual Studio           
+|   125 
+|   5% 
+| 
+|-
+|  KDevelop                   
+|    82 
+|   3% 
+| 
+|-
+|  Anjuta                     
+|    13 
+|   0% 
+| 
+|-
+|  XCode                      
+|   139 
+|   5% 
+| 
+|-
+|  PIDA                       
+|     5 
+|   0% 
+| 
+|-
+|  Eric                       
+|     7 
+|   0% 
+| 
+|-
+|  Emacs                      
+|   582 
+|  21% 
+| 
+|-
+|  Vim                        
+|  1380 
+|  51% 
+| 
+|-
+|  Notepad++                  
+|   100 
+|   4% 
+| 
+|-
+|  TextMate                 
+|   890 
+|  33% 
+| 
+|-
+| <-3>
+| 
+|-
+|  <i>Other, please specify</i>  
+|   410 
+|  15% 
+| 
+|}
+<!-- ##----------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total responders 
+|colspan="2" | 2707 
+| 
+|}
+<!-- ##----------------------------------------------
+ -->
+<!-- ## table end
+ -->
+
+The free-form part of this question is not yet analyzed; some of editors, IDE and RAD that are missing from above table include: gedit (from GNOME), Geany (Scintilla-based GTK+ editor/IDE), Kate (from KDE), nano (curses-based text editor), 'E' (MS Windows TextMate port) and SciTE (Scintilla-based cross-platform editor).
+
+Among text editors (although with plugins, addons, modes one can make those into something resembling IDE) Vim with 51% wins over TextMate with 33%, which in turn wins over Emacs with 21%.  Next in turn is Eclipse with 13% (assuming that editors in 'other' won't change it; this would a bit unlikely, though); it is most popular among Java IDE listed (from those NetBeans is more popular than IntelliJ IDEA).  XCode, MS Visual Studio and KDevelop IDE have similar popularity, surpassing Anjuta.
 
 === 21. Which porcelains / interfaces / implementations do you use? ===
 
-(Results of multiple choice questions with free-form parts will follow.)
+(Multiple choice questions with free-form parts.)
+
+This question was made multiple choice because one can use patch management interface such as StGIT, or topic branch management tool TopGit together with "core" git interface (git in C).
+
+This question intentionally mixes implementations (such as git-core aka. git written (mainly) in C, and JGit which is (re)implementation written in Java), management interfaces extending Git such as patch management interfaces: StGIT and Guilt, or tool to manage topic branches: TopGit, and alternate user interfaces such as Pyrite, Easy Git and (deprecated) Cogito.
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Reply 
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##------------------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  git (core)                                
+|  2654 
+|  99% 
+| 
+|-
+|  JGit (Java implementation)                
+|    38 
+|   1% 
+| 
+|-
+|  Cogito <b><i>(DEPRECATED)</b></i>             
+|    14 
+|   1% 
+| 
+|-
+|  pg aka Patchy Git <b><i>(DEPRECATED)</b></i>  
+|     2 
+|   0% 
+| 
+|-
+|  StGIT                                     
+|    63 
+|   2% 
+| 
+|-
+|  Guilt (formerly gq)                       
+|    15 
+|   1% 
+| 
+|-
+|  Easy Git                                  
+|    24 
+|   1% 
+| 
+|-
+|  Pyrite                                    
+|     1 
+|   0% 
+| 
+|-
+|  [[TopGit]]                                    
+|    30 
+|   1% 
+| 
+|-
+| <-3>
+| 
+|-
+|  my own scripts                            
+|   321 
+|  12% 
+| 
+|-
+| <-3>
+| 
+|-
+|  <i>Other (please specify)</i>                
+|    79 
+|   3% 
+| 
+|}
+<!-- ##------------------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total responders 
+|colspan="2" | 2681 
+| 
+|}
+<!-- ##------------------------------------------------------------
+ -->
+<!-- ## table end
+ -->
+
+The free-form part of this question is not yet analyzed; nevertheless other (unspecified) consist only of 3% of responses.  
+
+Listed (in a free-form) part porcelains / interfaces / implementations include: Grit (Ruby interface and partial (re)implementation), [[GitPython]], git and GitHub Ruby git gems, Sake tasks, gc-utils, git-wtf, thor-git, mr (generic VC CLI interface), gibak (for backups) and etckeeper, gitosis, vng, yap/yagp, 0release, git-buildpackage (Debian tool), smug, and using Git from editors and IDE, i.e. various Emacs modes: magit, git.el, TextMate git bundle, and VCSCommand Vim plugin.
+
+Most people (99%) use git-core implementation.  From patch management interfaces most users has StGIT (63), then Guilt (15); deprecated Patchy Git (pg) has only 2 users.  Cogito has 14 users in sipte of it being deprecated and unmaintained for quite a long time.
+
+There is qute a large percentage of people (12%) who create their own scripts to help their git usage.  Whether it is a sign of good scriptability, or lacks in user interface, it depends on point of view...
 
 === 22. Which git GUI (commit tool or history viewer, or both) do you use? ===
 
-(Results of multiple choice questions with free-form parts will follow.)
+(Multiple choice questions with free-form parts.)
+
+This is multiple choice question because one can use more than one tool, for example both history viewer and graphical commit tool.
+
+This question is not fully analized (beside lack of tabularization of free-form 'other tool' answer); the data should be grouped into categories and/or sorted by usage (by number of responses).  Currently data is in the same order as in survey.
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Reply 
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##---------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  CLI (command line)         
+|  1868 
+|  74% 
+| 
+|-
+|  gitk                       
+|  1563 
+|  62% 
+| 
+|-
+|  git gui                    
+|   529 
+|  21% 
+| 
+|-
+|  QGit                       
+|   245 
+|  10% 
+| 
+|-
+|  [[GitView]]                    
+|    14 
+|   1% 
+| 
+|-
+|  Giggle                     
+|   128 
+|   5% 
+| 
+|-
+|  tig                        
+|   137 
+|   5% 
+| 
+|-
+|  git-sh (git shell)         
+|    38 
+|   2% 
+| 
+|-
+|  instaweb                   
+|    68 
+|   3% 
+| 
+|-
+|  (h)gct                     
+|     2 
+|   0% 
+| 
+|-
+|  qct                        
+|     5 
+|   0% 
+| 
+|-
+|  git-cola / ugit            
+|     5 
+|   0% 
+| 
+|-
+|  [[GitNub]]                     
+|   291 
+|  11% 
+| 
+|-
+|  GitX                       
+|    44 
+|   2% 
+| 
+|-
+|  Pyrite                     
+|     1 
+|   0% 
+| 
+|-
+|  git.el or git-vc.el        
+|    94 
+|   4% 
+| 
+|-
+|  DVC (Emacs)                
+|    38 
+|   2% 
+| 
+|-
+|  EGit (Eclipse plugin)      
+|    56 
+|   2% 
+| 
+|-
+|  Push Me Pull You           
+|     3 
+|   0% 
+| 
+|-
+|  gitSafe                    
+|     2 
+|   0% 
+| 
+|-
+| <-3>
+| 
+|-
+|  <i>Other, please specify</i>  
+|    96 
+|   4% 
+| 
+|}
+<!-- ##---------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total responders 
+|colspan="2" | 2533 
+| 
+|}
+<!-- ##---------------------------------------------
+ -->
+<!-- ## table end
+ -->
+
+Around 3/4 (74%) of people use git command line interface.  Among other tools dominate gitk history viewer (62%) and git-gui commit tool (21%), probably because they are multiplatform (using Tcl/Tk) and distributed with Git.  [[GitNub]] and QGit follow, with similar popularity over 200 responses, then Giggle, tig (text-mode interface) and various Emacs modes for Git.  Above 50 users has instaweb and Eclipse plugin (EGit), with GitX close (44 responses); that doesn't count (currently) tools specified in free-text form in 'other tools' answer.
+
+The free-form part of this question is not yet analyzed.  Tools that people use and are (currently) missing from the above table include:
+git-forest, git-wtf, gitosis, GitHub, metarw-git, Meld (graphical diff and merge tool), GitCheetah, gitsum (darcsum-like Emacs interface), magit (Emacs interface), tm-bundle (TextMate git bundle), VCSCommand Vim plugin,... and my own tools/plugin.
 
 === 23. Which git web interface do you use for your projects/have installed? ===
 
-(Results of multiple choice questions with free-form parts will follow.)
+<b>Web interfaces used by git hosting sites do not count</b>
+
+(Multiple choice questions with free-form parts.)
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Reply 
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##--------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  gitweb (Perl)              
+|  781 
+|  80% 
+| 
+|-
+|  cgit (C)                   
+|  104 
+|  11% 
+| 
+|-
+|  Wit (Ruby)                 
+|    5 
+|   1% 
+| 
+|-
+|  git-php (PHP)              
+|   15 
+|   2% 
+| 
+|-
+|  viewgit (PHP)              
+|    7 
+|   1% 
+| 
+|-
+|  gitarella (Ruby)           
+|    6 
+|   1% 
+| 
+|-
+|  Gitorious (Ruby)           
+|  100 
+|  10% 
+| 
+|-
+|  [[InDefero]] (PHP)             
+|    3 
+|   0% 
+| 
+|-
+| <-3>
+| 
+|-
+|  <i>Other, please specify</i>  
+|  106 
+|  11% 
+| 
+|}
+<!-- ##--------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total responders 
+|colspan="2" |  980 
+| 
+|}
+<!-- ##--------------------------------------------
+ -->
+<!-- ## table end
+ -->
+
+This questions was meant to be about web interface the user himself/herself deploy, not just web interfaces one use.  As one can see only 980 people out of 3236 answered this question (and even that might be overestimated); not every user needs to deploy web interface.
+
+Most commonly used (deployed) web interface from this survey is gitweb with 80%, most probably because it is distributed with git.  The only other web interfaces that crossed 10% of responses are cgit (cahcing web interface in C) and Gitorious (git hosting solution in Ruby).
+
+The free-form part of this question is not yet analyzed.
+
+Web interfaces listed as 'other': GitHub (it is not public; the question was not meant to be about <i>using</i> web interface), Trac and gittrac (bugtracker), Redmine (bugtracker), ikiwiki (wiki compiler with possible git backend), git-browser (graphical history viewer using [[JavaScript]]), Sputnik (Lua), internal / my own non public, gitalone, lookgit, gitlocal, Retrospectiva, Version Control API in Drupal (PHP, experimental), Merge Monkey, lxr-cvs with git backend.
 
 === 24. Which git hosting site do you use for your projects? ===
 
-(Results of multiple choice questions with free-form parts will follow.)
+(Multiple choice questions with free-form parts.)
+
+This is multiple choice because one can use multiple git hosting sites, either for different projects, or as mirrors (alternate sources).
+
+The table below is sorted by number of replies, but with 'generic site', 'self hosted' and "other git hosting site" put at the end.  Currently it also does not include git hosting sites specified in free-form "other site" answer.
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Reply 
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  GitHub                          
+|  1404 
+|  59% 
+| 
+|-
+|  repo.or.cz                        
+|   237 
+|  10% 
+| 
+|-
+|  Gitorious                         
+|   171 
+|   7% 
+| 
+|-
+|  Unfuddle                          
+|    66 
+|   3% 
+| 
+|-
+|  Alioth                            
+|    63 
+|   3% 
+| 
+|-
+|  freedesktop.org                   
+|    50 
+|   2% 
+| 
+|-
+|  Assembla                          
+|    41 
+|   2% 
+| 
+|-
+|  Savannah                          
+|    37 
+|   2% 
+| 
+|-
+|  kernel.org                        
+|    37 
+|   2% 
+| 
+|-
+|  Fedora Hosted                     
+|    14 
+|   1% 
+| 
+|-
+| <-3>
+| 
+|-
+|  generic site without git support  
+|   107 
+|   4% 
+| 
+|-
+|  self hosted                       
+|  1095 
+|  46% 
+| 
+|-
+| <-3>
+| 
+|-
+|  <i>Other (please specify)</i>        
+|    87 
+|   4% 
+| 
+|}
+<!-- ##--------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total responders 
+|colspan="2" | 2385 
+| 
+|}
+<!-- ##--------------------------------------------
+ -->
+<!-- ## table end
+ -->
+
+Note that replies might be affected by the fact that announcement about this survey was shown at some git hosting sites, but not at other (additionally users of some git hosting sites may skip welcome page more often than for other hosting site; not all hosting sites have blog or a news / announcements section).
+
+The leader here is GitHub (59%); only self hosted has close amount of replies (46%).
+
+The free-form part of this question is not yet analyzed.  Git hosting site that people use (and wrote about in free-form section) and are not present in above table include project specific or distribution specific multi-repo hosting sites such as dev.laptop.org (OLPC), git.altlinux.org, git.slind.org, git.exherbo.org, overlays.gentoo.org, infradead.org, git.videolan.org, linux-nfs.org, open-osd.org, alsa-project.org, moblin.org, samba.org, denx.de, git.xfce.org, git.postgresql.org, Heroku, GNOME git mirror (nowadays GNOME chosen Git as SCM), git hosting sites not mentioned above such as TuxFamily or codebasehq, software hosting sites (with some git support) such as BerliOS, RubyForge, non-public git hosting sites, foreign SCM (e.g. Subversion) hosting sites.  Some of those are mentioned only once.
 
 === 25. How do you publish/propagate your changes? ===
 
-(Results of multiple choice questions with free-form parts will follow.)
+(Multiple choice questions with free-form parts.)
 
-=== 26. If the way you publish your changes is not mentioned above, how do you publish your changes?Please explain. ===
+This question is multiple choice because one can use different mechanism for different repositories one publish to.
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Reply 
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  push                      
+|  2355 
+|  90% 
+| 
+|-
+|  pull request              
+|   709 
+|  27% 
+| 
+|-
+|  format-patch + email      
+|   584 
+|  22% 
+| 
+|-
+|  git bundle                
+|    48 
+|   2% 
+| 
+|-
+|  git-svn                   
+|   704 
+|  27% 
+| 
+|-
+|  foreign SCM, not git-svn  
+|    82 
+|   3% 
+| 
+|-
+| <-3>
+| 
+|-
+|  other                     
+|    51 
+|   2% 
+| 
+|}
+<!-- ##--------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total responders 
+|colspan="2" | 2625 
+| 
+|}
+<!-- ##--------------------------------------------
+ -->
+<!-- ## table end
+ -->
+
+Most common way by a large margin to publish one changes is via push (90%).  Next in order is pull request (in many different forms) and git-svn, both with 27% of replies.  From more common ways of publishing one's changes there is also format-patch + email with 22% (which was meant to include other ways of publishing via format-patch).
+
+The free-form part of this question is not yet analyzed, and neither is the next question, which expand "other solution" answer.
+
+The foreigh SCM used to publish one's changes include: git-bzr (Bazaar), git-p4 (Perforce), git-cvsexportcommit (CVS), git-acu (AccuRev), git-send-bugzilla, unknown tool / custom script for publishing to ClearCase, email + mq to publish to Mercurial, fast-export / fast-import (Mercurial), own tool or via working directory for Visual SourceSafe.
+
+=== 26. If the way you publish your changes is not mentioned above, how do you publish your changes?  Please explain. ===
 
 (Results of free-form questions will follow.)
 
@@ -3486,7 +4437,79 @@ Since year ago (since last survey), or since you started using Git.
 
 === 48. What channel did you use to request help? ===
 
-(Results of multiple choice questions with free-form parts will follow.)
+(Multiple choice questions with free-form parts.)
+
+Note that percentages here are relative to number of people who answered this question, not to the number of people who took this survey (contrary to other questions in this section: you can distinguish it by the use of decimal point in percentage).
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Reply                            
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##------------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  git mailing list                 
+|   276  
+|   19%  
+| 
+|-
+|  git Google Group                 
+|    72  
+|    5%  
+| 
+|-
+|  IRC (#git)                       
+|   545  
+|   37%  
+| 
+|-
+|  IRC (#github)                    
+|   147  
+|   10%  
+| 
+|-
+|  request in blog post or on wiki  
+|   115  
+|    8%  
+| 
+|-
+|  asking git guru/colleague        
+|   843  
+|   57%  
+| 
+|-
+| <-3>
+| 
+|-
+|  <i>other (please specify)</i>       
+|   148  
+|   10%  
+| 
+|-
+| <-3>
+| 
+|}
+<!-- ##------------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total responders 
+|colspan="2" | 1478 / 3236 
+| 
+|}
+<!-- ##------------------------------------------------------
+ -->
+<!-- ## table end
+ -->
+
+The most popular way of requesting for help on Git, with 57% replies, is asking git guru or colleague.  Second is using #git IRC channel (on FreeNode) with 37% of people asking for help, with asking on git mailing list third with 19%.  IRC channel might be more popular than git mailing list because of its instant nature.
+
+Only around half of survey takers answered this questions; is it because they did not need to ask for help, or the survey was too long (and this is one of last questions)...
+
+The free-form part of this question is not yet analyzed.  Other channels of asking for help and getting help include doing research or googling for answers, or looking upd documentation or gitcasts.com (which is not asking for help in a strict sense), asking on other IRC channels, using other mailing lists and other Google groups (LKML, msysGit,...), forums such like GitHub support, asking via (private) mail, using Twitter or some instant messanging (IM) such as XMPP, at conferences or git workshops.
 
 === 49. If yes, did you get these problems resolved quickly and to your liking? ===
 
