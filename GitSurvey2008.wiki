@@ -776,7 +776,7 @@ You can also take a look at [[http://www.ohloh.net/projects/git/map|Git Activity
  -->
 {| border="1" cellpadding="2" cellspacing="0"
 | <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total responders 
-|colspan="2" | 2831 
+|colspan="4" | 2831 
 | 
 |}
 <!-- ##----------------------------------
@@ -1228,9 +1228,8 @@ You can check what are the contributions of each programming language to Git cod
 |  Perc. 
 | 
 |}
-<!-- ##-------------------------------------------
+<!-- ##------------------------------------------
  -->
-
 {| border="1" cellpadding="2" cellspacing="0"
 |  Linux kernel news       
 |   785 
@@ -1295,14 +1294,14 @@ You can check what are the contributions of each programming language to Git cod
 |   8% 
 | 
 |}
-<!-- ##-----------------------------------------
+<!-- ##---------------------------------------------
  -->
 {| border="1" cellpadding="2" cellspacing="0"
 | <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total responders 
 |colspan="2" | 2865 
 | 
 |}
-<!-- ##----------------------------------
+<!-- ##---------------------------------------------
  -->
 <!-- ## table end
  -->
