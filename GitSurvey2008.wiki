@@ -1713,7 +1713,7 @@ The free-form part of this question is not yet analyzed; but there are only arou
 |  44.2% 
 | 
 |-
-|  [[AccuRev]]                      
+|  ![[AccuRev]]                     
 |   1724 
 |  53.3% 
 |      6 
@@ -1735,7 +1735,7 @@ The free-form part of this question is not yet analyzed; but there are only arou
 |  43.2% 
 | 
 |-
-|  [[BitKeeper]]                    
+|  ![[BitKeeper]]                   
 |   1594 
 |  49.3% 
 |    163 
@@ -1746,7 +1746,7 @@ The free-form part of this question is not yet analyzed; but there are only arou
 |  45.6% 
 | 
 |-
-|  [[ClearCase]]                    
+|  ![[ClearCase]]                   
 |   1540 
 |  47.6% 
 |    222 
@@ -1757,7 +1757,7 @@ The free-form part of this question is not yet analyzed; but there are only arou
 |  43.7% 
 | 
 |-
-|  MS Visual [[SourceSafe]]         
+|  MS Visual ![[SourceSafe]]        
 |   1351 
 |  41.7% 
 |    554 
@@ -2036,7 +2036,7 @@ Entries in table below are sorted by number of replies; it does not reflect orig
 |   9% 
 | 
 |-
-|  Solaris, [[OpenSolaris]]        
+|  Solaris, ![[OpenSolaris]]       
 |   143 
 |   5% 
 | 
@@ -2066,7 +2066,7 @@ Entries in table below are sorted by number of replies; it does not reflect orig
 |   0% 
 | 
 |-
-|  [[UnixWare]]                    
+|  ![[UnixWare]]                   
 |     1 
 |   0% 
 | 
@@ -2320,7 +2320,7 @@ This question intentionally mixes implementations (such as git-core aka. git wri
 |   0% 
 | 
 |-
-|  [[TopGit]]                                    
+|  ![[TopGit]]                                   
 |    30 
 |   1% 
 | 
@@ -2355,7 +2355,7 @@ This question intentionally mixes implementations (such as git-core aka. git wri
 
 The free-form part of this question is not yet analyzed; nevertheless other (unspecified) consist only of 3% of responses.  
 
-Listed (in a free-form) part porcelains / interfaces / implementations include: Grit (Ruby interface and partial (re)implementation), [[GitPython]], git and GitHub Ruby git gems, Sake tasks, gc-utils, git-wtf, thor-git, mr (generic VC CLI interface), gibak (for backups) and etckeeper, gitosis, vng, yap/yagp, 0release, git-buildpackage (Debian tool), smug, and using Git from editors and IDE, i.e. various Emacs modes: magit, git.el, TextMate git bundle, and VCSCommand Vim plugin.
+Listed (in a free-form) part porcelains / interfaces / implementations include: Grit (Ruby interface and partial (re)implementation), GitPython, git and GitHub Ruby git gems, Sake tasks, gc-utils, git-wtf, thor-git, mr (generic VC CLI interface), gibak (for backups) and etckeeper, gitosis, vng, yap/yagp, 0release, git-buildpackage (Debian tool), smug, and using Git from editors and IDE, i.e. various Emacs modes: magit, git.el, TextMate git bundle, and VCSCommand Vim plugin.
 
 Most people (99%) use git-core implementation.  From patch management interfaces most users has StGIT (63), then Guilt (15); deprecated Patchy Git (pg) has only 2 users.  Cogito has 14 users in sipte of it being deprecated and unmaintained for quite a long time.
 
@@ -2400,7 +2400,7 @@ This question is not fully analized (beside lack of tabularization of free-form 
 |  10% 
 | 
 |-
-|  [[GitView]]                    
+|  ![[GitView]]                   
 |    14 
 |   1% 
 | 
@@ -2440,7 +2440,7 @@ This question is not fully analized (beside lack of tabularization of free-form 
 |   0% 
 | 
 |-
-|  [[GitNub]]                     
+|  ![[GitNub]]                    
 |   291 
 |  11% 
 | 
@@ -2500,7 +2500,7 @@ This question is not fully analized (beside lack of tabularization of free-form 
 <!-- ## table end
  -->
 
-Around 3/4 (74%) of people use git command line interface.  Among other tools dominate gitk history viewer (62%) and git-gui commit tool (21%), probably because they are multiplatform (using Tcl/Tk) and distributed with Git.  [[GitNub]] and QGit follow, with similar popularity over 200 responses, then Giggle, tig (text-mode interface) and various Emacs modes for Git.  Above 50 users has instaweb and Eclipse plugin (EGit), with GitX close (44 responses); that doesn't count (currently) tools specified in free-text form in 'other tools' answer.
+Around 3/4 (74%) of people use git command line interface.  Among other tools dominate gitk history viewer (62%) and git-gui commit tool (21%), probably because they are multiplatform (using Tcl/Tk) and distributed with Git.  ![[GitNub]] and QGit follow, with similar popularity over 200 responses, then Giggle, tig (text-mode interface) and various Emacs modes for Git.  Above 50 users has instaweb and Eclipse plugin (EGit), with GitX close (44 responses); that doesn't count (currently) tools specified in free-text form in 'other tools' answer.
 
 The free-form part of this question is not yet analyzed.  Tools that people use and are (currently) missing from the above table include:
 git-forest, git-wtf, gitosis, GitHub, metarw-git, Meld (graphical diff and merge tool), GitCheetah, gitsum (darcsum-like Emacs interface), magit (Emacs interface), tm-bundle (TextMate git bundle), VCSCommand Vim plugin,... and my own tools/plugin.
@@ -2557,7 +2557,7 @@ git-forest, git-wtf, gitosis, GitHub, metarw-git, Meld (graphical diff and merge
 |  10% 
 | 
 |-
-|  [[InDefero]] (PHP)             
+|  ![[InDefero]] (PHP)            
 |    3 
 |   0% 
 | 
@@ -2588,7 +2588,7 @@ Most commonly used (deployed) web interface from this survey is gitweb with 80%,
 
 The free-form part of this question is not yet analyzed.
 
-Web interfaces listed as 'other': GitHub (it is not public; the question was not meant to be about <i>using</i> web interface), Trac and gittrac (bugtracker), Redmine (bugtracker), ikiwiki (wiki compiler with possible git backend), git-browser (graphical history viewer using [[JavaScript]]), Sputnik (Lua), internal / my own non public, gitalone, lookgit, gitlocal, Retrospectiva, Version Control API in Drupal (PHP, experimental), Merge Monkey, lxr-cvs with git backend.
+Web interfaces listed as 'other': GitHub (it is not public; the question was not meant to be about <i>using</i> web interface), Trac and gittrac (bugtracker), Redmine (bugtracker), ikiwiki (wiki compiler with possible git backend), git-browser (graphical history viewer using JavaScript), Sputnik (Lua), internal / my own non public, gitalone, lookgit, gitlocal, Retrospectiva, Version Control API in Drupal (PHP, experimental), Merge Monkey, lxr-cvs with git backend.
 
 === 24. Which git hosting site do you use for your projects? ===
 
@@ -4900,7 +4900,7 @@ The free-form part of this question is not yet analyzed.  Other channels of aski
 <!-- ##---------------------------------------------------------------------------------------------------
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-|  [[GitHub]] (also blog or mailing list)                                            
+|  ![[GitHub]] (also blog or mailing list)                                            
 |    584 
 |  18.0% 
 | 
@@ -4995,7 +4995,7 @@ The free-form part of this question is not yet analyzed.  Other channels of aski
 |   0.6% 
 | 
 |-
-|  [[KernelTrap]]                                                                    
+|  ![[KernelTrap]]                                                                   
 |     16 
 |   0.5% 
 | 
@@ -5005,7 +5005,7 @@ The free-form part of this question is not yet analyzed.  Other channels of aski
 |   0.4% 
 | 
 |-
-|  [[GitWiki]]                                                                       
+|  ![[GitWiki]]                                                                      
 |     10 
 |   0.3% 
 | 
