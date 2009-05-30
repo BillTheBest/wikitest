@@ -1,7 +1,7 @@
 <i>Note: This page is currently a work in progress.  It started out as a private email to someone who currently uses Subversion.  I decided to make it available and try to extend it further. I'll remove this comment when the page is improved.  :)  -- Shawn Pearce</i>
 
 ----
-Although this page is hosted on a Git-specific Wiki it tries to provide a fair and unbiased comparison of [http://git-scm.com/ Git] and [http://subversion.tigris.org/ Subversion] to help prospective users of both tools better evaluate their choices.  This page only describes base Subversion and does not discuss the benefits and drawbacks to using [http://svk.elixus.org/ SVK], a distributed wrapper around Subversion.
+Although this page is hosted on a Git-specific Wiki it tries to provide a fair and unbiased comparison of [[http://git-scm.com/|Git]] and [[http://subversion.tigris.org/|Subversion]] to help prospective users of both tools better evaluate their choices.  This page only describes base Subversion and does not discuss the benefits and drawbacks to using [[http://svk.elixus.org/|SVK]], a distributed wrapper around Subversion.
 
 <i>Some comments for consideration in the next rev: A distinct bias is evident in the pro-svn section, which attempts to mitigate git's disadvantages (e.g., it talks more about how well git UI's are progressing than how incredibly good Subversion's UI's are; likewise, but less so, in 'Shorter Revision Numbers'). Also not mentioned are Subversion's support for http(s) and WebDAV, and its excellent support for Windows (in stark contrast to git's)</i>
 
@@ -81,9 +81,10 @@ Whilst Git versions prior 1.5.1 never convert files and always assume that every
 Subversion has some notable features that Git currently doesn't have or will never have.
 
 == User Interfaces ==
-Currently Subversion has a wider range of user interface tools than Git.  For example there are SVN plugins available for most popular IDEs.  There is a [http://tortoisesvn.net/ Windows Explorer shell extension].  There are a number of native Windows and Mac OS X GUI tools available in ready-to-install packages.
+Currently Subversion has a wider range of user interface tools than Git.  For example there are SVN plugins available for most popular IDEs.  There is a [[http://tortoisesvn.net/|Windows Explorer shell extension]].  There are a number of native Windows and Mac OS X GUI tools available in ready-to-install packages.
 
-Git's primary user interface is through the command line. There are two graphical interfaces: git-gui (distributed with Git) and [http://digilander.libero.it/mcostalba/ qgit], which is making great strides towards providing another feature-complete graphical interface. Also gitk, the graphical history browser, can be more than just a fancy log reader. git-gui and gitk usually work out-of-box for common operating systems, and qgit is being ported to Qt4, which improves its portability.
+Git's primary user interface is through the command line. There are two graphical interfaces: git-gui (distributed with Git) and [[http://digilander.libero.it/mcostalba/|qgit]], which is making great strides towards providing another feature-complete graphical interface. Also gitk, the graphical history browser, can be more than just a fancy log reader. git-gui and gitk usually work out-of-box for common operating systems, and qgit is being ported to Qt4, which improves its portability.
+There are some user interface tools in development for Git, namely [[http://code.google.com/p/tortoisegit/|TortoiseGit]], a port of TortoiseSVN. There is also [[http://code.google.com/p/gitextensions/|Git Extensions]], another explorer shell extension.
 
 == Single Repository ==
 Since Subversion only supports a single repository there is little doubt about where something is stored.  Once a user knows the repository URL they can reasonably assume that all materials and all branches related to that project are always available at that location.  Backup to tape/CD/DVD is also simple as there is exactly one location that needs to be backed up regularly.
