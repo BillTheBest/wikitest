@@ -1,13 +1,13 @@
-[[Image:EclipsePlugin$egit2_med.png]]
+{{attachment:egit2_med.png}}
 
-Java GIT/Eclipse GIT (by Shawn Pearce) is a Java GIT library and plugin for [http://www.eclipse.org/ Eclipse IDE].
+Java GIT/Eclipse GIT (by Shawn Pearce) is a Java GIT library and plugin for [[http://www.eclipse.org/|Eclipse IDE]].
 
 Roadmap of features: [[EclipsePluginWishlist]]
 
 = News =
 
 2008-08 Marek Zawirski implemented push. An experimental update site can be found
-on [http://www.jgit.org] and an issue tracker on [http://code.google.com/p/egit]. Both
+on [[http://www.jgit.org]] and an issue tracker on [[http://code.google.com/p/egit]]. Both
 sites are subject to change so if nothing happens on those sites or they disappear, go
 back here and look for clues. Meanwhile, feedback is welcome through the Git mailing list.
 
@@ -27,10 +27,10 @@ Current revision is 0.3.1. A copy of the announcement can be found at http://mar
 
 Some ways to keep informed about Egit development.
 
-* [http://repo.or.cz/w/egit.git?a=log Revision log]
-* [http://git.or.cz/gitwiki/GitCommunity Maling lists, IRC, newgroups (Same as Git)]
+* [[http://repo.or.cz/w/egit.git?a=log|Revision log]]
+* [[http://git.or.cz/gitwiki/GitCommunity|Maling lists, IRC, newgroups (Same as Git)]]
 = Links =
-* [http://repo.or.cz/w/egit.git gitweb] (clone)
+* [[http://repo.or.cz/w/egit.git|gitweb]] (clone)
 * Get the source: git clone git://repo.or.cz/egit.git
 = Features =
 * Compare revisions
@@ -45,13 +45,13 @@ Some ways to keep informed about Egit development.
 * See [[EclipsePluginScreenshots]].
 = FAQ =
 * Q: How do you tie the plugin to a project or create a project by cloning a repository?
-** A: EGit provides an Import Wizard.  From File->Import, select Git/'Git Repository'.  This will allow you to clone the repository within Eclipse.  There are more details in the [http://github.com/guides/using-the-egit-eclipse-plugin-with-github Git plugin for Eclipse (EGit) guide on GitHub].
+** A: EGit provides an Import Wizard.  From File->Import, select Git/'Git Repository'.  This will allow you to clone the repository within Eclipse.  There are more details in the [[http://github.com/guides/using-the-egit-eclipse-plugin-with-github|Git plugin for Eclipse (EGit) guide on GitHub]].
 ** - A: or Use Git (THE Git) to create or clone your repo. Select the project in the navigator and go to the context menu's Team item and below it you will find "Share Project". Select it and the rest is self explanatory.
 * Q: How do I build and install the plugin?
 ** A: See the README and INSTALL documents in the egit repository.
-  - A: or see a [http://cho.hapgoods.com/wordpress/?p=159 blog entry describing building and installing the EGit plugin]
+  - A: or see a [[http://cho.hapgoods.com/wordpress/?p=159|blog entry describing building and installing the EGit plugin]]
 * Q: Is there an update site so I can easily install the plugin (without building it)?
-** A: Point the update manager to the [http://www.jgit.org/update-site Git plugin for Eclipse (EGit) update site]. This is the easiest way if you're not interested in contributing to plugin development.
+** A: Point the update manager to the [[http://www.jgit.org/update-site|Git plugin for Eclipse (EGit) update site]] (NOTE: this is broken as of May 31, 2009). This is the easiest way if you're not interested in contributing to plugin development.
 * Q: Is the project active?
 ** A: Depends on what is meant by active. Admitted the progress is slow, mostly because there are very few people involved so far, but the project is certainly not dead (as of February 2008).
 * Q: Will there be support for Eclipse 3.4 Ganymede anytime soon?
@@ -59,10 +59,10 @@ Some ways to keep informed about Egit development.
 
 == Documentation ==
 === What doc. for starting help? ===
-* [http://www.eclipse.org/eclipse/platform-team/ Eclipse platform team]
-* [http://git.or.cz/gitwiki General Git information]
-* [http://repo.or.cz/w/egit.git?a=blob_plain;f=SUBMITTING_PATCHES;hb=HEAD Submitting patches]
-* [http://repo.or.cz/w/egit.git?a=blob_plain;f=EGIT_INSTALL;hb=HEAD Installing the plugin from source]
+* [[http://www.eclipse.org/eclipse/platform-team/|Eclipse platform team]]
+* [[http://git.or.cz/gitwiki|General Git information]]
+* [[http://repo.or.cz/w/egit.git?a=blob_plain;f=SUBMITTING_PATCHES;hb=HEAD|Submitting patches]]
+* [[http://repo.or.cz/w/egit.git?a=blob_plain;f=EGIT_INSTALL;hb=HEAD|Installing the plugin from source]]
 ----
  [[CategoryTools]]
 
