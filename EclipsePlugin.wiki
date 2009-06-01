@@ -51,7 +51,7 @@ Some ways to keep informed about Egit development.
 ** A: See the README and INSTALL documents in the egit repository.
   - A: or see a [[http://cho.hapgoods.com/wordpress/?p=159|blog entry describing building and installing the EGit plugin]]
 * Q: Is there an update site so I can easily install the plugin (without building it)?
-** A: Point the update manager to the [[http://www.jgit.org/update-site|Git plugin for Eclipse (EGit) update site]] (NOTE: this is broken as of May 31, 2009). This is the easiest way if you're not interested in contributing to plugin development.
+** A: Point the update manager to the [[http://www.jgit.org/update-site|Git plugin for Eclipse (EGit) update site]]. This is the easiest way if you're not interested in contributing to plugin development.
 * Q: Is the project active?
 ** A: Depends on what is meant by active. Admitted the progress is slow, mostly because there are very few people involved so far, but the project is certainly not dead (as of February 2008).
 * Q: Will there be support for Eclipse 3.4 Ganymede anytime soon?
