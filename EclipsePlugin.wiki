@@ -6,6 +6,9 @@ Roadmap of features: [[EclipsePluginWishlist]]
 
 = News =
 
+2009-05-07 EGit is now an official Eclipse Technology Project. Some time will pass
+before the project actually gets moved to Ecllipse premises.
+
 2008-08 Marek Zawirski implemented push. An experimental update site can be found
 on [[http://www.jgit.org]] and an issue tracker on [[http://code.google.com/p/egit]]. Both
 sites are subject to change so if nothing happens on those sites or they disappear, go
