@@ -31,6 +31,9 @@ further, 'partial packfiles' could be used to cache slices of the object list. d
 
 <b>Idea:</b> [[SoC2009Ideas#Packfilecachingforgit-daemon|Packfile caching for git-daemon]] on [[SoC2009Ideas]] page <<BR>>
 <b>SoC page:</b> [[http://socghop.appspot.com/student_project/show/google/gsoc2009/git/t124022376432|Add caching support to git-daemon]] <<BR>>
+<b>Git repository (web interface):</b>
+* http://github.com/sirnot/git
+* http://github.com/samv/git (mentor)
 
 ----
 = Foreign projects =
