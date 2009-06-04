@@ -20,8 +20,8 @@ This project proposes a highly intuitive GUI for Git that lets a user interact d
 <b>SoC page:</b> [[http://socghop.appspot.com/student_project/show/google/gsoc2009/git/t124022376285|Interactive graph GUI]] <<BR>>
 
 == Add caching support to git-daemon ==
-<b>Student:</b> Nick Edelen <<BR>>
-<b>Mentor:</b>  Sam Vilain <<BR>>
+<b>Student:</b> Nick Edelen ([[http://github.com/sirnot|sirnot]] on github) <<BR>>
+<b>Mentor:</b>  Sam Vilain ([[http://github.com/samv|samv]] on github, mugwump on #git) <<BR>>
 
 Every time git-daemon handles a fetch, it must (re-)enumerate and (re-)pack all the required objects. this is often very inefficient.
 
