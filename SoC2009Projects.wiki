@@ -29,6 +29,7 @@ I propose maintaining an updated list of commits/objects reachable from HEAD. th
 
 further, 'partial packfiles' could be used to cache slices of the object list. due to the nature of packfiles, these could more-or-less be coalesced to form the majority of the pack.
 
+<b>Idea:</b> [[SoC2009Ideas#Packfilecachingforgit-daemon|Packfile caching for git-daemon]] on [[SoC2009Ideas]] page <<BR>>
 <b>SoC page:</b> [[http://socghop.appspot.com/student_project/show/google/gsoc2009/git/t124022376432|Add caching support to git-daemon]] <<BR>>
 
 ----
