@@ -16,15 +16,15 @@ transport via a peer-to-peer system, potentially allowing
 popular projects such as the linux kernel to be available
 via more servers than just git.kernel.org.
 
-<b>Idea:</b> [[SoC2008Ideas#GitTorrent:[[GitTorrent]]]] at SoC2008Ideas <<BR>>
-<b>Homepage:</b> [http://gittorrent.utsl.gen.nz/rfc.html RFC -- GitTorrent Protocol -- GTP/0.1] <<BR>>
-<b>SoC page:</b> [http://code.google.com/soc/2008/git/appinfo.html?csaid=F544F0DAA82AFDFC GitTorrent] <<BR>>
-<b>Google Code:</b> [http://code.google.com/p/gittorrent/ GitTorrent - Peer-to-peer Protocol for Synchronizing of Git Repositories] page at Google Code. <<BR>>
+<b>Idea:</b> [[SoC2008Ideas#GitTorrent|[[GitTorrent]]]] at SoC2008Ideas <<BR>>
+<b>Homepage:</b> [[http://gittorrent.utsl.gen.nz/rfc.html|RFC -- GitTorrent Protocol -- GTP/0.1]] <<BR>>
+<b>SoC page:</b> [[http://code.google.com/soc/2008/git/appinfo.html?csaid=F544F0DAA82AFDFC|GitTorrent]] <<BR>>
+<b>Google Code:</b> [[http://code.google.com/p/gittorrent/|GitTorrent - Peer-to-peer Protocol for Synchronizing of Git Repositories]] page at Google Code. <<BR>>
 <b>Gitweb:</b> 
 * http://utsl.gen.nz/gitweb/?p=VCS-Git-Torrent
 * http://repo.or.cz/w/VCS-Git-Torrent.git (mirror)
 <b>Pull:</b> git://utsl.gen.nz/VCS-Git-Torrent <<BR>>
-<b>Mailing list:</b> <<[[MailTo]](gittorrent@lists.utsl.gen.nz)>> ([http://lists.utsl.gen.nz/mailman/listinfo.cgi/gittorrent mailman], [http://lists.utsl.gen.nz/pipermail/gittorrent/ archives])
+<b>Mailing list:</b> <<[[MailTo]](gittorrent@lists.utsl.gen.nz)>> ([[http://lists.utsl.gen.nz/mailman/listinfo.cgi/gittorrent|mailman]], [[http://lists.utsl.gen.nz/pipermail/gittorrent/|archives]])
 
 == git-statistics ([[GitStats]]) ==
 <b>Student:</b> Sverre Rabbelier <<BR>>
@@ -38,13 +38,13 @@ to more quickly locate individuals who are experienced in
 a particular section of code (e.g. automatically identify
 module maintainers).
 
-<b>Idea:</b> [http://thread.gmane.org/gmane.comp.version-control.git/77728 |SoC RFC| git statistics - information about commits] thread on git mailing list <<BR>>
-<b>Homepage:</b> [http://alturin.googlepages.com/gsoc2008 Sverre Rabbelier GSoC2008 page] (PDFs) <<BR>>
-<b>SoC page:</b> [http://code.google.com/soc/2008/git/appinfo.html?csaid=C73DCF4CEBF4295D git statistics] <<BR>>
+<b>Idea:</b> [[http://thread.gmane.org/gmane.comp.version-control.git/77728|[SoC RFC] git statistics - information about commits]] thread on git mailing list <<BR>>
+<b>Homepage:</b> [[http://alturin.googlepages.com/gsoc2008|Sverre Rabbelier GSoC2008 page]] (PDFs) <<BR>>
+<b>SoC page:</b> [[http://code.google.com/soc/2008/git/appinfo.html?csaid=C73DCF4CEBF4295D|git statistics]] <<BR>>
 <b>Gitweb:</b> http://repo.or.cz/w/git-stats.git <<BR>>
-<b>See also:</b> [http://thread.gmane.org/gmane.comp.version-control.git/81534 |RFC| Use cases for 'git statistics'] thread on git mailing list.
+<b>See also:</b> [[http://thread.gmane.org/gmane.comp.version-control.git/81534|[RFC] Use cases for 'git statistics']] thread on git mailing list.
 
-<b>Status:</b> [http://permalink.gmane.org/gmane.comp.version-control.git/90691 |ANNOUNCE| GitStats development finished (WRT GSoC)]. As a separate tool it is not expected to be merged in.
+<b>Status:</b> [[http://permalink.gmane.org/gmane.comp.version-control.git/90691|[ANNOUNCE] [[GitStats]] development finished (WRT GSoC)]]. As a separate tool it is not expected to be merged in.
 
 == Gitweb caching ==
 <b>Student:</b> Lea Wiemann           <<BR>>
@@ -56,12 +56,12 @@ implementing even more improved caching for really large sites
 like kernel.org, repo.or.cz, or anyone else using gitweb for
 a large number of repositories and users.
 
-<b>Idea:</b> [[SoC2008Ideas#gitweb-caching:Gitweb caching]] at SoC2008Ideas <<BR>>
-<b>SoC page:</b> [http://code.google.com/soc/2008/git/appinfo.html?csaid=C5B7544DDE4909C3 Gitweb caching] <<BR>>
+<b>Idea:</b> [[SoC2008Ideas#gitweb-caching|Gitweb caching]] at SoC2008Ideas <<BR>>
+<b>SoC page:</b> [[http://code.google.com/soc/2008/git/appinfo.html?csaid=C5B7544DDE4909C3|Gitweb caching]] <<BR>>
 <b>Gitweb:</b> http://repo.or.cz/w/git/gitweb-caching.git <<BR>>
-<b>See also:</b> [http://thread.gmane.org/gmane.comp.version-control.git/77529 |RFD| Gitweb caching] thread, parts 1-3, by Jakub Narebski
+<b>See also:</b> [[http://thread.gmane.org/gmane.comp.version-control.git/77529|[RFD] Gitweb caching]] thread, parts 1-3, by Jakub Narebski
 
-<b>Status:</b> Done, second round of review: [http://thread.gmane.org/gmane.comp.version-control.git/88068/focus=92875 Re: |PATCH 0/3| Git::Repo API and gitweb caching].  <i>(Unfortunately sending it as huge, large change patches doesn't help reviewability.)</i>
+<b>Status:</b> Done, second round of review: [[http://thread.gmane.org/gmane.comp.version-control.git/88068/focus=92875|Re: [PATCH 0/3] Git::Repo API and gitweb caching]].  <i>(Unfortunately sending it as huge, large change patches doesn't help reviewability.)</i>
 
 == Eclipse plugin push support ==
 <b>Student:</b> Marek Zawirski  <<BR>>
@@ -74,11 +74,11 @@ a remote repository over the native Git transport.  Marek is
 also looking forward to improving some of the user interface
 aspects of the Eclipse Git team provider plugin.
 
-<b>Idea:</b> [[SoC2008Ideas#Eclipse:Git Eclipse Plugin]] at SoC2008Ideas <<BR>>
-<b>SoC page:</b> [http://code.google.com/soc/2008/git/appinfo.html?csaid=DD669FC01FC5F07B Push operation implementation and GUI improvements for egit Eclipse plugin] <<BR>>
+<b>Idea:</b> [[SoC2008Ideas#Eclipse|Git Eclipse Plugin]] at SoC2008Ideas <<BR>>
+<b>SoC page:</b> [[http://code.google.com/soc/2008/git/appinfo.html?csaid=DD669FC01FC5F07B|Push operation implementation and GUI improvements for egit Eclipse plugin]] <<BR>>
 <b>Gitweb:</b> http://repo.or.cz/w/egit/zawir.git
 
-<b>Status:</b> [http://repo.or.cz/w/egit.git?a=commit;h=305060a576e2320c1fb82beb3b630f452001dae7 Merged in]
+<b>Status:</b> [[http://repo.or.cz/w/egit.git?a=commit;h=305060a576e2320c1fb82beb3b630f452001dae7|Merged in]]
 
 == git-merge builtin ==
 <b>Student:</b> Miklos Vajna        <<BR>>
@@ -92,11 +92,11 @@ merge strategies (e.g. git-merge-ours) will be the work of the
 second half of the GSoC project, as Miklos was too fast with
 the principal goal.
 
-<b>Idea:</b> [[SoC2008Ideas#builtin-merge:Make git-merge and helpers Builtins]] at SoC2008Ideas <<BR>>
-<b>SoC page:</b> [http://code.google.com/soc/2008/git/appinfo.html?csaid=C6691859F6E209E8 Make git-merge Builtin] <<BR>>
+<b>Idea:</b> [[SoC2008Ideas#builtin-merge|Make git-merge and helpers Builtins]] at SoC2008Ideas <<BR>>
+<b>SoC page:</b> [[http://code.google.com/soc/2008/git/appinfo.html?csaid=C6691859F6E209E8|Make git-merge Builtin]] <<BR>>
 <b>Gitweb:</b> http://repo.or.cz/w/git/vmiklos.git
 
-<b>Status:</b> [http://repo.or.cz/w/alt-git.git?a=commit;h=1c7b76be7d620bbaf2e6b8417f04012326bbb9df Merged in]
+<b>Status:</b> [[http://repo.or.cz/w/alt-git.git?a=commit;h=1c7b76be7d620bbaf2e6b8417f04012326bbb9df|Merged in]]
 
 == git-sequencer ==
 <b>Student:</b> Stephan Beyer                     <<BR>>
@@ -109,78 +109,78 @@ implementation for "git-am", all three forms of "git-rebase",
 and possibly implement an "interactive rebase GUI" within
 git-gui and/or gitk.
 
-<b>Idea:</b> [[SoC2008Ideas#git-sequencer:Implement git-sequencer]] at SoC2008Ideas <<BR>>
-<b>SoC page:</b> [http://code.google.com/soc/2008/git/appinfo.html?csaid=92728710F52338C1 implement git-sequencer] <<BR>>
+<b>Idea:</b> [[SoC2008Ideas#git-sequencer|Implement git-sequencer]] at SoC2008Ideas <<BR>>
+<b>SoC page:</b> [[http://code.google.com/soc/2008/git/appinfo.html?csaid=92728710F52338C1|implement git-sequencer]] <<BR>>
 <b>Gitweb:</b> http://repo.or.cz/w/git/sbeyer.git <<BR>>
 <b>See also:</b> 
-* [http://thread.gmane.org/gmane.comp.version-control.git/80240 Speed up git-svn fetch] thread on git mailing list by Adam Roben, about git-cat-file sequencer.
-* [http://thread.gmane.org/gmane.comp.version-control.git/84230 |RFC| git-sequencer.txt] post on git mailing list by Stephan Beyer.
+* [[http://thread.gmane.org/gmane.comp.version-control.git/80240|Speed up git-svn fetch]] thread on git mailing list by Adam Roben, about git-cat-file sequencer.
+* [[http://thread.gmane.org/gmane.comp.version-control.git/84230|[RFC] git-sequencer.txt]] post on git mailing list by Stephan Beyer.
 
 ----
 = Foreign projects =
 == Git plugin for Anjuta IDE ==
 
-Support for <i>Git</i> projects in [http://anjuta.sourceforge.net/ Anjuta IDE]
+Support for <i>Git</i> projects in [[http://anjuta.sourceforge.net/|Anjuta IDE]]
 
-<b>SoC page:</b> [http://code.google.com/soc/2008/gnome/appinfo.html?csaid=674D114D9E574B36 Git Version Control Plugin for the Anjuta IDE] <<BR>>
-<b>Idea:</b>  [http://live.gnome.org/SummerOfCode2008/Ideas/[[AnjutaGit]] Anjuta GIT plugin] at [http://live.gnome.org/Home live.gnome.org] wiki <<BR>>
-<b>Organization:</b> [http://www.gnome.org/ GNOME] ([http://code.google.com/soc/2008/gnome/about.html organization SoC info]) <<BR>>
+<b>SoC page:</b> [[http://code.google.com/soc/2008/gnome/appinfo.html?csaid=674D114D9E574B36|Git Version Control Plugin for the Anjuta IDE]] <<BR>>
+<b>Idea:</b>  [[http://live.gnome.org/SummerOfCode2008/Ideas/[[AnjutaGit]]|Anjuta GIT plugin]] at [[http://live.gnome.org/Home|live.gnome.org]] wiki <<BR>>
+<b>Organization:</b> [[http://www.gnome.org/|GNOME]] ([[http://code.google.com/soc/2008/gnome/about.html|organization SoC info]]) <<BR>>
 <b>Student:</b> James R. Liggett <<BR>>
 <b>Mentor:</b>  Naba Kumar       <<BR>>
 <b>Gitweb:</b> http://repo.or.cz/w/anjuta-git-plugin.git (probably) <<BR>>
 
 == KDevelop DVCS support ==
 
-The purpose of project is to supply [http://www.kdevelop.org/ KDevelop] with generic DVCS support, implement UI support for VCSs and test its functionality on the example of <i>Git</i>.
+The purpose of project is to supply [[http://www.kdevelop.org/|KDevelop]] with generic DVCS support, implement UI support for VCSs and test its functionality on the example of <i>Git</i>.
 
-<b>SoC page:</b> [http://code.google.com/soc/2008/kde/appinfo.html?csaid=9A4258C09B92FE9E KDevelop DVCS(VCS) support] <<BR>>
-<b>Organization:</b> [http://www.kde.org/ KDE] ([http://code.google.com/soc/2008/kde/about.html organization SoC info]) <<BR>>
+<b>SoC page:</b> [[http://code.google.com/soc/2008/kde/appinfo.html?csaid=9A4258C09B92FE9E|KDevelop DVCS(VCS) support]] <<BR>>
+<b>Organization:</b> [[http://www.kde.org/|KDE]] ([[http://code.google.com/soc/2008/kde/about.html|organization SoC info]]) <<BR>>
 <b>Student:</b> Evgeniy Ivanov <<BR>>
 <b>Mentor:</b>  Oleksandr Dymo <<BR>>
 <b>Gitweb:</b>  http://repo.or.cz/w/kdevelopdvcssupport.git <<BR>>
-<b>See also:</b> [http://www.ericsink.com/scm/scm_ide_integration.html Eric Sink's Source Control HOWTO: Chapter 9: Source Control Integration with IDEs] (about advantages and disadvantages of SCM <-> IDE integration; bit outdated wrt. SCMs side).
+<b>See also:</b> [[http://www.ericsink.com/scm/scm_ide_integration.html|Eric Sink's Source Control HOWTO: Chapter 9: Source Control Integration with IDEs]] (about advantages and disadvantages of SCM <-> IDE integration; bit outdated wrt. SCMs side).
 
 == Git# implementation ==
 
-There are <i>two</i> projects dealing with fully managed Git implementation (rewrite in C# / Git applications in .NET), both from [http://www.mono-project.com/ Mono] project.
+There are <i>two</i> projects dealing with fully managed Git implementation (rewrite in C# / Git applications in .NET), both from [[http://www.mono-project.com/|Mono]] project.
 
-<b>Organization:</b> [http://www.mono-project.com/ Mono Project] ([http://code.google.com/soc/2008/mono/about.html organization SoC info]) <<BR>>
-<b>Idea:</b> [http://www.mono-project.com/StudentProjects#GIT.23_implementation Class Libraries and Bindings: GIT# implementation]
+<b>Organization:</b> [[http://www.mono-project.com/|Mono Project]] ([[http://code.google.com/soc/2008/mono/about.html|organization SoC info]]) <<BR>>
+<b>Idea:</b> [[http://www.mono-project.com/StudentProjects#GIT.23_implementation|Class Libraries and Bindings: GIT# implementation]]
 
-<b>SoC page:</b> [http://code.google.com/soc/2008/mono/appinfo.html?csaid=E6D8A717A88A7632 Git# Full Managed Git Implementation] <<BR>>
+<b>SoC page:</b> [[http://code.google.com/soc/2008/mono/appinfo.html?csaid=E6D8A717A88A7632|Git# Full Managed Git Implementation]] <<BR>>
 <b>Student:</b> Hector Enrique Gomez Morales <<BR>>
 <b>Mentor:</b>  Massimiliano Mantione        <<BR>>
 
-<b>SoC page:</b> [http://code.google.com/soc/2008/mono/appinfo.html?csaid=F2E71A4D93E7EF37 Git# implementation] <<BR>>
+<b>SoC page:</b> [[http://code.google.com/soc/2008/mono/appinfo.html?csaid=F2E71A4D93E7EF37|Git# implementation]] <<BR>>
 <b>Student:</b> Igor Guerrero Fonseca <<BR>>
 <b>Mentor:</b>  Massimiliano Mantione <<BR>>
 
 <b>Repository:</b> http://code.google.com/p/mono-soc-2008/source/browse/ git-sharp project.
 
-<b>Status:</b> [http://thread.gmane.org/gmane.comp.version-control.git/100736/focus=7263 Nothing came out of it]. One student was going to focus on the front-end, the other on the back-end.
+<b>Status:</b> [[http://thread.gmane.org/gmane.comp.version-control.git/100736/focus=7263|Nothing came out of it]]. One student was going to focus on the front-end, the other on the back-end.
 
 == [[DocBox]] project ==
 
 DocBox sits on top of RDoc, uses wiki-like interface, and makes use of either <i>Git</i> or SVN version control systems.
 
-<b>SoC page:</b> [http://code.google.com/soc/2008/ruby/appinfo.html?csaid=E7E49508C605278D DocBox: A Wiki frontend to Documentation] <<BR>>
-<b>Idea:</b>     See "RDoc wiki" in [http://rubycentral.com/projects/gsoc-2008/ideas-for-gsoc-2008 Ruby Central Project Ideas for GSoC 2008] <<BR>>
-<b>Organization:</b> [http://rubycentral.org/ Ruby Central] ([http://code.google.com/soc/2008/ruby/about.html organization SoC info]) <<BR>>
+<b>SoC page:</b> [[http://code.google.com/soc/2008/ruby/appinfo.html?csaid=E7E49508C605278D|DocBox: A Wiki frontend to Documentation]] <<BR>>
+<b>Idea:</b>     See "RDoc wiki" in [[http://rubycentral.com/projects/gsoc-2008/ideas-for-gsoc-2008|Ruby Central Project Ideas for GSoC 2008]] <<BR>>
+<b>Organization:</b> [[http://rubycentral.org/|Ruby Central]] ([[http://code.google.com/soc/2008/ruby/about.html|organization SoC info]]) <<BR>>
 <b>Student:</b> Ian Ownbey       <<BR>>
 <b>Mentor:</b>  Jeremy McAnally  <<BR>>
 
 ----
 ----
 = References =
-* [http://permalink.gmane.org/gmane.comp.version-control.git/80050 Welcome to Git's GSoC 2008!] post by Shawn O. Pearce (administrator for GSoC 2008 for git) on git mailing list
-* [http://code.google.com/soc/2008/git/about.html Git Development Community GSoC 2008] page
+* [[http://permalink.gmane.org/gmane.comp.version-control.git/80050|Welcome to Git's GSoC 2008!]] post by Shawn O. Pearce (administrator for GSoC 2008 for git) on git mailing list
+* [[http://code.google.com/soc/2008/git/about.html|Git Development Community GSoC 2008]] page
 * Git mainling list:
-** [http://thread.gmane.org/gmane.comp.version-control.git/75186 Google Summer of Code 2008] thread (before beginning)
-** [http://thread.gmane.org/gmane.comp.version-control.git/87670 |GSoC| What is status of Git's Google Summer of Code 2008 projects?]
-** [http://permalink.gmane.org/gmane.comp.version-control.git/90294 Summer of Code 2008 Midterm Summary] post by Shawn O. Pearce
-** [http://thread.gmane.org/gmane.comp.version-control.git/94959 |GSoC| Git projects for Google Summer of Code 2008 final evaluation]
-* Open Source at Google blog: posts labelled [http://google-opensource.blogspot.com/search/label/git git]
-** [http://google-opensource.blogspot.com/2008/08/git-and-google-summer-of-code.html Git and Google Summer of Code] by Shawn Pearce
-** [http://google-opensource.blogspot.com/2008/07/getting-giddy-with-git.html Getting Giddy with Git] by Leslie Hawthorn (Episode 18 of the Google Summer of Code podcast, with Shawn Pearce and Johannes Schindelin)
+** [[http://thread.gmane.org/gmane.comp.version-control.git/75186|Google Summer of Code 2008]] thread (before beginning)
+** [[http://thread.gmane.org/gmane.comp.version-control.git/87670|[GSoC] What is status of Git's Google Summer of Code 2008 projects?]]
+** [[http://permalink.gmane.org/gmane.comp.version-control.git/90294|Summer of Code 2008 Midterm Summary]] post by Shawn O. Pearce
+** [[http://thread.gmane.org/gmane.comp.version-control.git/94959|[GSoC] Git projects for Google Summer of Code 2008 final evaluation]]
+* Open Source at Google blog: posts labelled [[http://google-opensource.blogspot.com/search/label/git|git]]
+** [[http://google-opensource.blogspot.com/2008/08/git-and-google-summer-of-code.html|Git and Google Summer of Code]] by Shawn Pearce
+** [[http://google-opensource.blogspot.com/2008/07/getting-giddy-with-git.html|Getting Giddy with Git]] by Leslie Hawthorn (Episode 18 of the Google Summer of Code podcast, with Shawn Pearce and Johannes Schindelin)
 
 __NOTOC__
