@@ -35,6 +35,9 @@ further, 'partial packfiles' could be used to cache slices of the object list. d
 * http://github.com/sirnot/git
 * http://github.com/samv/git (mentor)
 
+<b>Progress reports / status:</b>
+* [[http://thread.gmane.org/gmane.comp.version-control.git/120752|[PATCH 0/7] [GSoC2009] Revision cache / git-daemon caching plan]]
+
 ----
 = Foreign projects =
 
