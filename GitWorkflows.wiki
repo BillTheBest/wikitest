@@ -15,7 +15,7 @@ That number is the beginning of the commit which marks the revision that you
 built your kernel.  The next step is to find the full commit name:
 
 <pre><nowiki>
-dave@machine:~/linux-2.6.git$ git rev-list  --all | grep ^7e472020 | head -1
+dave@machine:~/linux-2.6.git$ git rev-parse 2.6.18-g7e472020
 7e4720201ad44ace85a443f41d668a62a737e7d0
 </nowiki></pre>
 
