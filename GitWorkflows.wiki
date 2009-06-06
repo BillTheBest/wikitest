@@ -6,14 +6,16 @@ If you actually run versions of the kernel on your machine that you've checked
 out of a git repository, you will see a uname that starts with a 'g' followed by
 a hex number:
 
-<pre><nowiki># uname -r
+<pre><nowiki>
+# uname -r
 2.6.18-g7e472020
 </nowiki></pre>
 
 That number is the beginning of the commit which marks the revision that you
 built your kernel.  The next step is to find the full commit name:
 
-<pre><nowiki>dave@machine:~/linux-2.6.git$ git rev-list  --all | grep ^7e472020 | head -1
+<pre><nowiki>
+dave@machine:~/linux-2.6.git$ git rev-list  --all | grep ^7e472020 | head -1
 7e4720201ad44ace85a443f41d668a62a737e7d0
 </nowiki></pre>
 
@@ -22,14 +24,16 @@ this isn't your revision, but it is highly unlikely.
 
 Now that you've found the revision, you need to revert back to it:
 
-<pre><nowiki>git reset --hard 7e4720201ad44ace85a443f41d668a62a737e7d0
+<pre><nowiki>
+git reset --hard 7e4720201ad44ace85a443f41d668a62a737e7d0
 </nowiki></pre>
 
 == How to turn a git branch into a set of patches between revisions ==
 
 First, get a git tree which was derived from another:
 
-<pre><nowiki>git-clone http://git.openvz.org/pub/linux-2.6.16-openvz linux-2.6.16-openvz
+<pre><nowiki>
+git-clone http://git.openvz.org/pub/linux-2.6.16-openvz linux-2.6.16-openvz
 </nowiki></pre>
 
 This could take a bit of time to download the whole thing.  But, if you are
@@ -39,7 +43,8 @@ Then you need to find a revision against which you would like to generate your
 patches.  The easiest way to do this is to use an existing tag.  Look at your tags
 directory:
 
-<pre><nowiki>linux-2.6.git$ ls .git/refs/tags/
+<pre><nowiki>
+linux-2.6.git$ ls .git/refs/tags/
 2.6.16-git1   2.6.16-git2         v2.6.11       v2.6.13-rc3  v2.6.15      v2.6.16-rc3  v2.6.18
 2.6.16-git10  2.6.16-git20        v2.6.11-tree  v2.6.13-rc4  v2.6.15-rc1  v2.6.16-rc4  v2.6.18-rc1
 2.6.16-git11  2.6.16-git3         v2.6.12       v2.6.13-rc5  v2.6.15-rc2  v2.6.16-rc5  v2.6.18-rc2
@@ -53,7 +58,8 @@ value you will need.
 
 So, using either the tag name, or the SHA1 ID, run git-format-patch:
 
-<pre><nowiki>$ git-format-patch -o ../openvz-patches/ v2.6.18..
+<pre><nowiki>
+$ git-format-patch -o ../openvz-patches/ v2.6.18..
 $ git-format-patch -o ../openvz-patches/ eead19bffcf064856ab8513afc395eaf80896e0f..
 ../openvz-patches/0001-Namespaces-support-from-mm-tree.txt
 ../openvz-patches/0002-Namespaces-support-from-mm-tree.txt
@@ -80,24 +86,28 @@ Voila!  You should have a nice, linear set of patches.
 
 My changelog for the top patch is wrong, what do I do?
 
-<pre><nowiki>        git commit --amend
+<pre><nowiki>
+        git commit --amend
 </nowiki></pre>
 If you just need to add your SOB line:
 
-<pre><nowiki>        git commit --amend -s
+<pre><nowiki>
+        git commit --amend -s
 </nowiki></pre>
 Note: don't ever do this on a publicly-available git tree.
 
 == How do I rearrange a set of commits ==
 
-<pre><nowiki>        git rebase -i <commit-ish>
+<pre><nowiki>
+        git rebase -i <commit-ish>
 </nowiki></pre>
 You would usually use "master" there for the <commit-ish>.
 You probably want to go find this with gitk.
 
 You then get a nice file that looks like this: 
 
-<pre><nowiki>pick 9feaa34 reduce kvm stack usage in kvm_arch_vm_ioctl()
+<pre><nowiki>
+pick 9feaa34 reduce kvm stack usage in kvm_arch_vm_ioctl()
 pick a888f5b reduce stack usage in kvm_vcpu_ioctl()
 pick e4a0c10 reduce stack usage in kvm_arch_vcpu_ioctl()
 pick 8cd362a kvm: reduce stack usage in kvm_pv_mmu_op()</nowiki></pre>
@@ -106,7 +116,8 @@ Rearrange this file as you like.  If you want to edit a commit message
 for one of these, change the 'pick' to 'edit', and use the above command,
 with an additional -a:
 
-<pre><nowiki>        git commit -a --amend
+<pre><nowiki>
+        git commit -a --amend
 </nowiki></pre>
 
 Note: don't ever do this on a publicly-available git tree.
@@ -118,7 +129,8 @@ and now I need to pull another copy from Linus and update on what I'm
 basing these patches.
 
         I get output like this:
-<pre><nowiki>     $ git fetch
+<pre><nowiki>
+     $ git fetch
         <should churn here a bit...>
         From /home/dave/lse/linux/2.5/linux-2.6.git/
                    c9272c4..f934fb1  master     -> origin/master
