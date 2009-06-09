@@ -1,11 +1,20 @@
 
 ---- /!\ <b>Edit conflict - other version:</b> ----
+
+---- /!\ <b>Edit conflict - other version:</b> ----
 this post is fantastic
 ----
 [[CategoryEvents]]
 
 ---- /!\ <b>Edit conflict - your version:</b> ----
 It's serious
+----
+[[CategoryEvents]]
+
+---- /!\ <b>End of edit conflict</b> ----
+
+---- /!\ <b>Edit conflict - your version:</b> ----
+this post is fantastic
 ----
 [[CategoryEvents]]
 
