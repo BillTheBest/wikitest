@@ -2,6 +2,8 @@
 ---- /!\ <b>Edit conflict - other version:</b> ----
 
 ---- /!\ <b>Edit conflict - other version:</b> ----
+
+---- /!\ <b>Edit conflict - other version:</b> ----
 this post is fantastic
 ----
 [[CategoryEvents]]
@@ -15,6 +17,13 @@ It's serious
 
 ---- /!\ <b>Edit conflict - your version:</b> ----
 this post is fantastic
+----
+[[CategoryEvents]]
+
+---- /!\ <b>End of edit conflict</b> ----
+
+---- /!\ <b>Edit conflict - your version:</b> ----
+Thanks funny site
 ----
 [[CategoryEvents]]
 
