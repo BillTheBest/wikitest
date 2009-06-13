@@ -18,7 +18,7 @@ Git runs on Linux, BSD, Solaris, Darwin, Windows, and other operating systems.
 == Why the 'git' name? ==
 Quoting Linus: "I'm an egotistical ***, and I name all my projects after myself. First 'Linux', now 'git'".
 
-('git' is British slang for "silly, stupid, or worthless person").
+('git' is British slang for "pig headed, think they are always correct, argumentative").
 
 Alternatively, in Linus' own words as the inventor of git: "git" can mean anything, depending on your mood:
 
