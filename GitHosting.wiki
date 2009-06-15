@@ -38,6 +38,7 @@ Those are public Git hosting sites where any project can be hosted, perhaps with
 ** [[http://roland.entierement.nu/blog/2006/08/17/bits-about-alioth.html|Roland weblog - Bits about Alioth]] (description)
 ** [[http://www.debian.org/News/weekly/2006/34/|Debian Weekly News #34 - August 22nd, 2006]] (announcement)
 * [[http://hosted.fedoraproject.org|Fedora Hosted]] is a [[http://fedoraproject.org/|Fedora Project]]-sponsored way for developers to host their code and collaborate online.  It provides each project with source control via git, Mercurial, bzr, and others, as well as a bug tracker and wiki via Trac.  New project requests must be filled via Fedora Inftastructure Trac instance.  (Primarily Fedora related but open to other Free software projects too).
+* [[http://git.debian.org/|git.debian.org]] provides Git hosting for maintainers of Debian packages.
 * [[http://rubyforge.org/|RubyForge]] is a home for open source Ruby projects.  RubyForge Git repositories are managed via gitosis; gitosis does authentication via public keys.  RubyForge is based on GForge engine.<<BR>> <b>See:</b>
 ** [[http://drnicwilliams.com/2008/04/08/git-for-rubyforge-accounts/|Git for Rubyforge accounts]] post on [[http://drnicwilliams.com/|Dr Nic]] blog.
 * http://git.postgresql.org/ provides Git hosting for [[http://www.postgresql.org/|PostgreSQL]] and related projects.
