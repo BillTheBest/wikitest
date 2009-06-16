@@ -705,6 +705,9 @@
 === gitarella ===
 * [[http://flameeyes.is-a-geek.org/projects#gitarella|gitarella]] ([[http://freshmeat.net/projects/gitarella/|freshmeat project page]]) is a Ruby-based Git web frontend, created and maintained by Flameeyes. It is inspired by and following the style of gitweb. It supports CGI and FastCGI interfaces. See it in work on [[http://git.flameeyes.is-a-geek.org/gitarella/|gitarella repository]].
 
+=== ginatra ===
+* <b>ginatra</b> ([http://github.com/lenary/ginatra/ github], [http://ginatra.lenary.co.uk/ demo]) is web interface written in Ruby using [http://www.sinatrarb.com Sinatra] web framework.
+
 === git-php ===
 * [[http://code.google.com/p/git-php/|git-php]] is a PHP git web frontend created by Zack Bartel. The goal of git-php is a robust PHP web interface to git repositories. It is meant to be easily customizable through styles and the ability to be embedded into any PHP page. For example, creating a git repository viewer plug-in for your favorite PHP based CMS should be easy with git-php. It seems to be inspired by gitweb. See it at work at [[http://zackb.org/git-php/git.php|zackb.org]].
 * http://people.proekspert.ee/peeter/git/git.php is a PHP git web frontend created by Peeter Vois. This is continued work of Zack's version of git.php. git-php does now have syntax highlighting of code, graph view of the repository including branch and tag, diff can be browsed against several parent versions, tree browser does have some nice icons, simple search for branch heads and tags, any version of tree can be downloaded in tar.gz or zip format and the filename will include hash of the tree or tag if attached, files can be downloaded independently in binary form. Git php is providing interface for sending bundles to the owner of the site. This is useful for those who would like to stay anonymous or do not like to send bundles via e-mail. The bundle is also tested against the repository before acceptance.
