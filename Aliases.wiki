@@ -187,6 +187,19 @@ Using <code><nowiki>git k</nowiki></code> instead of <code><nowiki>gitk</nowiki>
 [alias]
         k = !gitk
 </nowiki></pre>
+
+== alias ==
+Now that you know all about aliases, it might be handy to define some, using an alias:
+
+<pre><nowiki>
+[alias]
+        alias = !sh -c '[ -n \"$1\" -a -z \"$2\" ] && git config --global alias.\"$0\" \"$1\" && exit 0 || echo \"usage: git alias <new alias> <original command>\" >&2 && exit 1'
+</nowiki></pre>
+
+then define new aliases with:
+<pre><nowiki>
+$ git alias new_alias original_command
+</nowiki></pre>
 ----
  [[CategoryGitDocumentation]]
 
