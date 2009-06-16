@@ -1,5 +1,6 @@
 = [[GitCheatSheet]] =
 
+{{http://ktown.kde.org/~zrusin/git/git-cheat-sheet-medium.png}}
 <<http://ktown.kde.org/~zrusin/git/git-cheat-sheet-medium.png >>
 
 <b>References:</b>
