@@ -7,7 +7,7 @@ List is limited to sites that provide explicit Git hosting, not including generi
 Those are public Git hosting sites where any project can be hosted, perhaps with exception to requirements for license used (some hosting sites require project to be open source or free software).
 
 * [[http://repo.or.cz/|repo.or.cz]], public Git hosting site, maintained by Petr Baudis.  Very basic custom web interface for creating or forking projects, uses gitweb with custom modifications as web interface.  The first public Git hosting site.
-* [[http://www.cipherhive.com/|CipherHive]] is a free Git/Webdav hosting repository for Open Source Developers. [[CipherHive]] also offers custom Git/Webdav repository solutions for proprietary developers.
+* [[http://www.cipherhive.com/|CipherHive]] is a free Git/Webdav hosting repository for Open Source Developers. [[http://hotpepperhosting.com|HotPepperHosting]] the developers of [[CipherHive]] offers custom Git/Webdav repository solutions for proprietary developers.
 * [[http://github.com/|GitHub]] is public Git hosting site for both public, open source projects and private, proprietary codes.  GitHub is not open source.
 ** [[http://railsontherun.com/2008/3/3/how-to-use-github-and-submit-a-patch|Rails on the Run - How to use github and submit a patch]]
 ** [[http://tomayko.com/writings/github-is-myspace-for-hackers|GitHub: My Kind of Social Software]] by Ryan Tomayko
