@@ -73,7 +73,7 @@
 * [[http://github.com/pheew/dotgit/tree/master|dotGit]] is an implementation for .NET written in C#. It is still in it's early stages but can read objects from packed and loose storage. So all the read-only operations are supported. A diff engine is in the works.
 
 === Git# ([[GitSharp]]) ===
-* [[http://www.eqqon.com/index.php/GitSharp|Git#]] for .NET is written in C#. Being a straight port of JGit is the most advanced and fastest moving of all emerging implementations on Windows. It is aimed to be fully compatible to the original Git and can be either used as stand alone command line application (potentially replacing msysGit) or as library for windows applications such as gui frontends or plugins for IDEs. 
+* [[http://www.eqqon.com/index.php/GitSharp|Git#]] for .NET is written in C#. Being a straight port of JGit, Git# is the most advanced and fastest moving of all emerging implementations on Windows. It is aimed to be fully compatible to the original Git and can be either used as stand alone command line application (potentially replacing msysGit) or as library for windows applications such as gui frontends or plugins for IDEs. 
 
 == Patch-management Interface layers ==
 
