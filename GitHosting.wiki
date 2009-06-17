@@ -23,13 +23,13 @@ Those are public Git hosting sites where any project can be hosted, perhaps with
 * [[http://tuxfamily.org|TuxFamily]] ([[http://git.tuxfamily.org/|gitweb]]) is hosting facility for FLOSS software (software with libre license, for example GPL, BSD, CC-BY-SA, Art Libre,...).  Includes support for Git repositories.  Moderators speak English, French and Spanish.<<BR>> <b>See also:</b> [[http://faq.tuxfamily.org/GIT/En|GIT/En]] (in English) and [[http://faq.tuxfamily.org/GIT/Fr|GIT/Fr]] (in French) wiki pages.
 * [[http://gitorious.org/|Gitorious]] offers Git hosting to free / open source projects.  Its aim is to provide way of doing <i>distributed</i> opensource code collaboration.  [[http://gitorious.org/projects/gitorious|Gitorious engine]], which also provides web interface for Git repositories, is opensource too.   Written by Johan S&oslash;rensen, in Ruby (Ruby on Rails, Mongrel)<<BR>> <b>See also:</b> [[http://rashkovskii.com/articles/2008/1/9/gitorious|Gitorious]] post on [[http://rashkovskii.com/|Yurii Rashkowskii's blog]]
 * [[http://repoz.org/|repoz.org]], a public and free Git repository hosting service.  Provides restricted shell to upload to server.  Contact by email.
-* [[http://www.berlios.de|Berlios]] provides Git hosting for open source projects, including gitweb. See [[http://developer.berlios.de/docman/display_doc.php?docid=1812&group_id=2|documentation]]
+* [[http://www.berlios.de|BerliOS]] provides Git hosting for open source projects, including gitweb. See [[http://developer.berlios.de/docman/display_doc.php?docid=1812&group_id=2|documentation]]
 * [[http://thechaw.com/|The Chaw]], from the authors of [[https://www.ohloh.net|Ohloh]]
 * [[http://www.assembla.com|Assembla]] provides free git hosting for public projects if you use under 200Mb of disk space. [[http://trac-git.assembla.com/breakout/browser|Assembla site]] is open source, but not free.
 * [[http://www.a2hosting.com/|A2Hosting]] provides paid Git hosting over SSH.
 * [[http://www.projectlocker.com|ProjectLocker]] offers Git hosting and integration with Trac. Repositories are private, designed for businesses.  Free plans give limited space and users, and paid plans offer increased storage capacity and number of users.
-* [[http://sourcerepo.com|SourceRepo]] [[SourceRepo]] provides paid Git hosting along with Trac project management.
-* [[http://www.cipherhive.com/|CipherHive]] is a free Git/Webdav hosting repository for Open Source Developers. [[http://hotpepperhosting.com|HotPepperHosting]] the developer of [[CipherHive]] offer custom Git/Webdav repository solutions for proprietary developers needs.
+* [[http://sourcerepo.com|SourceRepo]] provides paid Git hosting along with Trac project management.
+* [[http://www.cipherhive.com/|CipherHive]] is a free Git/Webdav hosting repository for Open Source Developers. [[http://hotpepperhosting.com|HotPepperHosting]] the developer of ![[CipherHive]] offer custom Git/Webdav repository solutions for proprietary developers needs.
 
 === Project specific Git hosting sites ===
 * [[http://www.kernel.org|Kernel.org]] ([[http://git.kernel.org/|gitweb]]) for Linux kernel related projects.  Uses [[http://git.kernel.org/?p=git/warthog9/gitweb.git|gitweb fork]] with caching support.<<BR>> Kernel.org accounts are not given away very often, usually you need to be making some reasonable amount of contributions to the Linux kernel and have a good reason for wanting / needing an account.
@@ -43,8 +43,9 @@ Those are public Git hosting sites where any project can be hosted, perhaps with
 * [[http://rubyforge.org/|RubyForge]] is a home for open source Ruby projects.  RubyForge Git repositories are managed via gitosis; gitosis does authentication via public keys.  RubyForge is based on GForge engine.<<BR>> <b>See:</b>
 ** [[http://drnicwilliams.com/2008/04/08/git-for-rubyforge-accounts/|Git for Rubyforge accounts]] post on [[http://drnicwilliams.com/|Dr Nic]] blog.
 * http://git.postgresql.org/ provides Git hosting for [[http://www.postgresql.org/|PostgreSQL]] and related projects.
+
 == Other links ==
-* [[http://www.simplicidade.org/notes/archives/2008/03/git_hosting_sit.html|git hosting sites]] article at [[http://www.simplicidade.org/notes/|simplicidade blog]] (Gitorious and [[GitHub]]).
+* [[http://www.simplicidade.org/notes/archives/2008/03/git_hosting_sit.html|git hosting sites]] article at [[http://www.simplicidade.org/notes/|simplicidade blog]] (Gitorious and ![[GitHub]]).
 * [[WikiPedia:Comparison_of_free_software_hosting_facilities|Comparison of free software hosting facilities]] at Wikipedia.
 
 __NOTOC__
