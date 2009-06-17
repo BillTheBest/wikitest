@@ -30,18 +30,15 @@ The basic concept of these scripts was to parse the options with `git-rev-parse`
 
 If you _need_ to know which commit gave what file its current form, this script will help you:
 
-(someone edited these examples with the comment "Yikes. At least use strict and check if open() failed in perl scripts...". Please revisit add the error check to close, i.e close or die, as close is the place to check for errors from pipes). open(),
-isn't likely to err out. I won't do it as I don't have time to test).
+(_please_, if you try to be helpful and edit the script, make _at least_ sure that it _still runs_ (that is particularly true if you insist on adding "use strict".  Yikes, I thought this goes without saying!)
 
 <pre><nowiki>
 #!/usr/bin/perl
 
-use strict;
-
 my %attributions = ();
 my @files = ();
 
-open IN, "git ls-tree -r HEAD |" or die;
+open IN, "git ls-tree -r --full-name HEAD |" or die;
 while (<IN>) {
 	if (/^\S+\s+blob \S+\s+(\S+)$/) {
 		$files[$#files + 1] = $1;
@@ -424,7 +421,7 @@ print @canvas;
 git-darcs-record, emulate "darcs record" interface on top of a git repository.
 This is replacement for <code><nowiki>git commit --interactive</nowiki></code>
 
-<b>Reference:</b> [http://raphael.slinckx.net/blog/2007-11-03/git-commit-darcs-record git commit / darcs record] on [http://raphael.slinckx.net/blog/ Raphaël Slinckx blog]
+<b>Reference:</b> [[http://raphael.slinckx.net/blog/2007-11-03/git-commit-darcs-record|git commit / darcs record]] on [[http://raphael.slinckx.net/blog/|Raphaël Slinckx blog]]
 
 <pre><nowiki>#!python
 #!/usr/bin/env python
