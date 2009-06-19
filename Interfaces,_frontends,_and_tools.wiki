@@ -764,6 +764,7 @@
 
 === Vim ===
 * [[http://code.google.com/p/vcscommand/|VCS Command plugin]] is a Vim plugin for various source code control systems and includes a Git component. It can be used to view the differences side by side, commit, blame, etc.
+* Other Vim [[http://vim.wikia.com/wiki/Using_Git_from_Vim|tips]]
 
 == Merge tools ==
 
