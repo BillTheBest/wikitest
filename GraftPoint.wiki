@@ -18,6 +18,8 @@ Later, when the old kernel history was imported into git from
 the bkcvs gateway, grafts was created as a method for making
 it possible to tie the two different repositories together.
 
+Git grafts are useful if you need to do [[http://radorant.blogspot.com/2009/06/use-git-to-do-your-svn-merges.html|subversion merges]] in a git branch maintained using git svn.  Until very recent subversion releases subversion had no merge tracking which made repeated merges between 2 branches problematic in that you would have to remerge things which had already been merged before.  Git grafting can alleviate these issues.
+
 = How to Use Grafts =
 
 On the technical side, graft points are configured via
@@ -28,10 +30,10 @@ terminated by a newline. <pre><nowiki>
 <commit sha1> <parent sha1> [<parent sha1>]*
 </nowiki></pre>
 
-* [http://www.ussg.iu.edu/hypermail/linux/kernel/0604.0/1249.html An example script],
+* [[http://www.ussg.iu.edu/hypermail/linux/kernel/0604.0/1249.html|An example script]],
  for downloading the historic linux kernel pack file and inserting grafts point.
 
-* A more readable [http://elinks.cz/grafthistory.sh history grafting script] used by
+* A more readable [[http://elinks.cz/grafthistory.sh|history grafting script]] used by
  the ELinks project.
 
 ----
