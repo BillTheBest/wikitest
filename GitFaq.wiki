@@ -785,6 +785,28 @@ To enable usage of git-svn in the clone use
     git svn init -s --prefix=origin/ svn://.../project
 </nowiki></pre>
 
+<<[[GitLink]](edit-root, How to edit the root commit)>>
+== How do I edit the root commit? ==
+
+<code><nowiki>git rebase -i</nowiki></code> allows you to conveniently edit any previous commits, except for the root commit. The following commands show you how to do this manually.
+
+<pre><nowiki>
+    # tag the old root
+    git tag root `git rev-list HEAD | tail -1`
+    git checkout -b new-root root
+    # edit...
+    git commit --amend
+
+    # check out the previous branch
+    git checkout @{-1}
+    # replace old root with amended version
+    git rebase --onto new-root root
+
+    # cleanup
+    git branch -d new-root
+    git tag -d root
+</nowiki></pre>
+
 = Error diagnostic =
 
 <<Anchor(empty-ident)>>
