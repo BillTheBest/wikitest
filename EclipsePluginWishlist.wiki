@@ -97,4 +97,7 @@ Support mylyn contexts. Make sure untracked files that suddenly appear (i.e. gen
 == Amend Commits for Dummies ==
 Try to detect if the current HEAD (or commit) has been pushed, and if it has then don't offer to amend a commit. Obviously, many have ran into this issue.
 
+== GIT annotate support ==
+Git annotation for individual files/current editor. Something I use pretty much everyday, who changed the current file, when, and if possible with the ability to see the commit message for the individual changes.
+
 __NOTOC__
