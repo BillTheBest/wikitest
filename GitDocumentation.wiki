@@ -84,6 +84,8 @@ If you wish that something were documented better (or at all), or would like to 
 * http://gitorious.org/projects/curso-git-osluca - some notes that I wrote for a short 1-week course on Git
 === Japanese ===
 * http://www8.atwiki.jp/git_jp/ - early attempts to translate the manuals.  Has translation of the user-manual (completed).
+=== Catalan ===
+* http://ca.wikibooks.org/wiki/Tutorial_de_git - A basic tutorial in catalan
 ----
 * [[CategoryGitDocumentation]] [[CategoryGitHomepage]] ([[http://git.or.cz/#documentation|Documentation]])
 ----
