@@ -807,6 +807,13 @@ To enable usage of git-svn in the clone use
     git tag -d root
 </nowiki></pre>
 
+<<[[GitLink]](clone-subdir, Git cannot clone subdirectories)>>
+== How do I clone a subdirectory? ==
+
+Currently, you cannot. There are plans for [[http://git.or.cz/gitwiki/SoC2009Ideas#NarrowandSparseclonesupport|narrow and sparse clone support]].
+
+In the meantime, you can use the subdirectory-filter of <code><nowiki>git filter-branch</nowiki></code> to extract a subdirectory. You can also merge changes back using the [[http://www.kernel.org/pub/software/scm/git/docs/howto/using-merge-subtree.html|subtree merge strategy]]. Or you can use [[http://www.kernel.org/pub/software/scm/git/docs/user-manual.html#submodules|submodules]].
+
 = Error diagnostic =
 
 <<Anchor(empty-ident)>>
