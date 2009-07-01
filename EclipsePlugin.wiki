@@ -2,7 +2,7 @@
 
 Java GIT/Eclipse GIT (by Shawn Pearce) is a Java GIT library and plugin for [[http://www.eclipse.org/|Eclipse IDE]].
 
-The Eclipse update site for the plugin is (Obsolete http://www.jgit.org/update-site) (NOW use http://www.jgit.org/updates) .
+The Eclipse update site for the plugin is (Obsolete) http://www.jgit.org/update-site, (Incubation) http://www.jgit.org/updates .
 
 Roadmap of features: [[EclipsePluginWishlist]]
 
