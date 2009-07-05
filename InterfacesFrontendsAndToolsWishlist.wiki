@@ -63,6 +63,10 @@
 <b>Quickbuild</b> (Continuous Integration build server)
     [[http://wiki.pmease.com/display/qb2/Documentation+Home|Documentation]] for the upcoming 2.0 release. The new 2.0 version allows the writing of plugins for repositories.
 
+<b>Rational Team Concert</b> (Work Item Management / SCM / Build Management / Dev. Environment)
+    [[https://jazz.net/projects/rational-team-concert/|Rational Team Concert]] - A collaborative software development environment.
+    Rational Team Concert enables developers to collaborate together using integrated Planning, Source Control, Work Items, Build, Dashboards, Reports, and Process Support. An example Git integration tutorial can be seen [[https://jazz.net/library/article/194|here]]
+
 ----
 [[CategoryTools]]
 
