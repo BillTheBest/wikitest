@@ -155,7 +155,7 @@
 * [[http://code.google.com/p/tortoisegit/|TortoiseGit]] ([[http://repo.or.cz/w/TortoiseGit.git|gitweb]]) by Li Frank is a port of [[http://tortoisesvn.tigris.org/|TortoiseSVN]] to Git. It is Microsoft Windows Explorer extension, written in C++. As of April 2009, TortoiseGit is at version 0.5, and it implements init, clone, pull, push, patch, branch, merge, clean and other features. It is not yet complete and stable, but worth a try.<<BR>><b>See also:</b> [[http://github.com/blog/256-tortoisegit-challenge|TortoiseGit Challenge]] on GitHub.
 
 === gitg ===
-* gitg ([[http://github.com/jessevdk/gitg/|gitg]]) by Jesse van den Kieboom is a clone of GitX for gtk+/GNOME. As such it tries to follow the implementation of GitX closely, while providing tight integration into the GNOME desktop.
+* gitg ([[http://git.gnome.org/cgit/gitg/|gitg]]) by Jesse van den Kieboom is a clone of GitX for gtk+/GNOME. As such it tries to follow the implementation of GitX closely, while providing tight integration into the GNOME desktop.
 
 === Qt Creator ===
 * [[http://www.qtsoftware.com/developer/qt-creator|Qt Creator]] is a lightweight, cross-platform integrated development environment (IDE) for developing with Qt that provides a built in GUI for working with Git repositories.
@@ -381,7 +381,7 @@
 | X 
 | X 
 | X 
-|  
+| X 
 | 
 |-
 | cherry-pick 
@@ -447,7 +447,7 @@
 | some 
 | X 
 | X 
-|  
+| some 
 | 
 |-
 | stash 
@@ -469,7 +469,7 @@
 |  
 | X 
 | X 
-|  
+| X 
 | 
 |-
 | format patch 
@@ -579,7 +579,7 @@
 |  
 | X 
 | X 
-|  
+| X 
 | 
 |-
 | [[http://en.wikipedia.org/wiki/Inotify|inotify]] support 
