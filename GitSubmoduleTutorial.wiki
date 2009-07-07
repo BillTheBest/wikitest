@@ -1,5 +1,5 @@
 = Git Submodule Tutorial =
-Submodule support has been available in Git since version 1.5.3. This tutorial explains how to create and publish a repository with four submodules using the [http://www.kernel.org/pub/software/scm/git/docs/git-submodule.html git-submodule(1)] command.
+Submodule support has been available in Git since version 1.5.3. This tutorial explains how to create and publish a repository with four submodules using the [[http://www.kernel.org/pub/software/scm/git/docs/git-submodule.html|git-submodule(1)]] command.
 
 Submodules maintain their own identity; the submodule support just stores the submodule repository location and commit ID, so other developers who clone the superproject can easily clone all the submodules at the same revision.
 
@@ -165,6 +165,10 @@ index d266b98..261dfac 160000
 @@ -1 +1 @@
 -Subproject commit d266b9873ad50488163457f025db7cdd9683d88b
 +Subproject commit 261dfac35cb99d380eb966e102c1197139f7fa24
+$ git submodule summary HEAD^
+* a d266b98...261dfac (1):
+  > Updated the submodule from within the superproject.
+
 $ git push
 </nowiki></pre>
 Switch back to the other private checkout; the new change should be visible.
