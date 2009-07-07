@@ -17,6 +17,7 @@ Git stores a repository’s history as a directed acyclic graph (DAG) of commits
 
 This project proposes a highly intuitive GUI for Git that lets a user interact directly with an illustration of this underlying DAG, invoking commands on nodes, branches, or tags via context menus.
 
+<b>Programming language:</b> Java (uses EGit) <<BR>>
 <b>SoC page:</b> [[http://socghop.appspot.com/student_project/show/google/gsoc2009/git/t124022376285|Interactive graph GUI]] <<BR>>
 
 == Add caching support to git-daemon ==
@@ -30,6 +31,7 @@ I propose maintaining an updated list of commits/objects reachable from HEAD. th
 further, 'partial packfiles' could be used to cache slices of the object list. due to the nature of packfiles, these could more-or-less be coalesced to form the majority of the pack.
 
 <b>Idea:</b> [[SoC2009Ideas#Packfilecachingforgit-daemon|Packfile caching for git-daemon]] on [[SoC2009Ideas]] page <<BR>>
+<b>Programming language:</b> C <<BR>>
 <b>SoC page:</b> [[http://socghop.appspot.com/student_project/show/google/gsoc2009/git/t124022376432|Add caching support to git-daemon]] <<BR>>
 <b>Git repository (web interface):</b>
 * http://github.com/sirnot/git
