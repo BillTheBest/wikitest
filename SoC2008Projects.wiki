@@ -174,7 +174,8 @@ DocBox sits on top of RDoc, uses wiki-like interface, and makes use of either <i
 = References =
 * [[http://permalink.gmane.org/gmane.comp.version-control.git/80050|Welcome to Git's GSoC 2008!]] post by Shawn O. Pearce (administrator for GSoC 2008 for git) on git mailing list
 * [[http://code.google.com/soc/2008/git/about.html|Git Development Community GSoC 2008]] page
-* Git mainling list:
+* [[SoC2008MidtermSummary]]
+* Git mailing list:
 ** [[http://thread.gmane.org/gmane.comp.version-control.git/75186|Google Summer of Code 2008]] thread (before beginning)
 ** [[http://thread.gmane.org/gmane.comp.version-control.git/87670|[GSoC] What is status of Git's Google Summer of Code 2008 projects?]]
 ** [[http://permalink.gmane.org/gmane.comp.version-control.git/90294|Summer of Code 2008 Midterm Summary]] post by Shawn O. Pearce
