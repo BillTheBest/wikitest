@@ -7,21 +7,24 @@ With aliases, you can avoid typing the same commands over and over again. Aliase
 
 ----
 
-= Simple =
-== 'ci' ==
-By adding the following section to <b>.git/config</b>, you can write <i>git ci</i> instead of <i>git commit</i>:
+= Introduction =
+
+To show how to use aliases, suppose you wish you could write <i>git ci</i> instead of <i>git commit</i>.  You can achieve this by adding the following section to <b>.git/config</b>:
 
 <pre><nowiki>
 [alias]
         ci = commit
 </nowiki></pre>
-== 'ci', without editing .git/config ==
+
 Some people are uncomfortable editing the config file themselves. They can edit the config by calling <i>git config alias.ci commit</i> instead.
 
-== 'ci', in all local repositories ==
 If you want to have the alias available everywhere on your local machine, you can either
 
-- edit <b>$HOME/.gitconfig</b>, or - use the <i>--global</i> flag: <i>git config --global alias.ci commit</i>
+- edit <b>$HOME/.gitconfig</b>, or
+
+- use the <i>--global</i> flag: <i>git config --global alias.ci commit</i>
+
+= Simple =
 
 == A shortcut for seeing the fetched commits ==
 If you want to be able to say <i>git lc</i> to list all new commits after you fetched, with stats, but excluding merges, add this alias:
@@ -30,6 +33,23 @@ If you want to be able to say <i>git lc</i> to list all new commits after you fe
 [alias]
         lc = log ORIG_HEAD.. --stat --no-merges
 </nowiki></pre>
+
+== Undoing any change in the current branch ==
+Note that this is dangerous!
+
+<pre><nowiki>
+[alias]
+        undo=reset --hard</nowiki></pre>
+
+= Aliases with arguments =
+Right from the start, aliases were meant as an easy way to avoid really simple, really short scripts.  Therefore, they can take arguments, which are appended to the command.
+
+== 'ci' ==
+That's right.  The simplest alias on this page takes arguments, so you can call:
+
+<pre><nowiki>
+$ git ci -m message file1 file2 dir1
+</nowiki></pre>
 == Shortcut for displaying dates in your local timezone ==
 Here's how to create an alias <i>git llog</i> that will behave just like <i>git log</i>, but will display dates in your local timezone.
 
@@ -37,25 +57,23 @@ Here's how to create an alias <i>git llog</i> that will behave just like <i>git 
 [alias]
         llog = log --date=local
 </nowiki></pre>
-== Fetch all remotes ==
-Runs git fetch for all remotes listed by git remote.
+== Simple diff wrappers ==
+
+These two aliases wrap commonly used options to <i>git diff</i>, and accept the full range of arguments that diff accepts:
 <pre><nowiki>
 [alias]
-        fetch-all = !git remote | xargs -n1 git fetch</nowiki></pre>
+        changes=diff --name-status -r
+        diffstat=diff --stat -r</nowiki></pre>
+
 = Advanced =
 Since version 1.5.0, Git supports aliases executing non-git commands, by prefixing the value with "!":
 
-== Calling "find" ==
-<pre><nowiki>
-[alias]
-        findobjects = !find -type f -name *.o
-</nowiki></pre>
 == Calling "gitk" ==
 Since <i>gitk</i> does not follow the common form <i>git-<name></i>, and is no builtin either, you have to use the prefix "!" to call <i>gitk</i> from an alias:
 
 <pre><nowiki>
 [alias]
- . gitkconflict = !gitk --left-right HEAD...MERGE_HEAD
+        gitkconflict = !gitk --left-right HEAD...MERGE_HEAD
 </nowiki></pre>
 == Poor man's "stash" ==
 A concatenation of git programs can also be achieved by the prefix "!":
@@ -86,23 +104,17 @@ There's no way to tell <code><nowiki>git remote update</nowiki></code> to prune 
 [alias]
         prune-all = !git remote | xargs -n 1 git remote prune
 </nowiki></pre>
-= Aliases with arguments =
-Right from the start, aliases were meant as an easy way to avoid really simple, really short scripts.  Therefore, they can take arguments, which are appended to the command.
-
-== 'ci' ==
-That's right.  The simplest alias on this page takes arguments, so you can call:
-
-<pre><nowiki>
-$ git ci -m message file1 file2 dir1
-</nowiki></pre>
 = Advanced aliases with arguments =
 Starting with version 1.5.3, git supports appending the arguments to commands prefixed with "!", too.  If you need to perform a reordering, or to use an argument twice, you can use this trick:
 
 <pre><nowiki>
 [alias]
-        example = !sh -c 'ls $1 $0'
+        example = !sh -c 'ls $2 $1' -
 </nowiki></pre>
-NOTE: unlike shell scripts, arguments start with $0, not with $1.
+
+The final dash is so that arguments start with $1, not with $0.
+
+<i>NOTE: later on the page presents a nice trick using a shell function instead of </i>sh -c<i>.  Most aliases could be converted to use that style.</i>
 
 == A 'debug' alias to help debugging builtins ==
 When debugging builtins, you often use gdb to analyze the runtime state.  However, you have to disable the pager, and often you have to call the program with arguments.  If the program to debug is a builtin, you can use this alias:
@@ -118,10 +130,25 @@ If upstream applied a slightly modified patch, and you want to see the modificat
 
 <pre><nowiki>
 [alias]
-        intercommit = !sh -c 'git show "$0" > .git/commit1 && git show "$1" > .git/commit2 && interdiff .git/commit[12] | less -FRS'
+        intercommit = !sh -c 'git show "$1" > .git/commit1 && git show "$2" > .git/commit2 && interdiff .git/commit[12] | less -FRS' -
 </nowiki></pre>
+
+This accept two commits, typically the first coming from upstream (e.g. <i>origin/master</i>) and the second coming from your own topic branch.
+
+== Spelunking of the project's history ==
+Aliases can get pretty complicated.  For example here are two aliases suggested on the mailing list by Junio Hamano:
+
+<pre><nowiki>[alias]
+        whois = "!sh -c 'git log -i -1 --pretty=\"format:%an <%ae>\n\" --author=\"$1\"' -"
+        whatis = "!sh -c 'git show -s --pretty=\"format:%h (%s, %ai\" \"$@\" | sed -e \"s/ [012][0-9]:[0-5][0-9]:[0-5][0-9] [-+][0-9][0-9][0-9][0-9]$/)\\n/\"' -"</nowiki></pre>
+
+Try then by yourself!  The first takes the name of a person or their email address.  The second takes a commit name.
+
+= Collection of aliases by Git users =
+Here is a collection of some Git users' aliases. If you know a simpler way to achieve the same, please add some notes.
+
 == Getting the diff of only one function ==
-Aliases can get pretty complicated.  For example when you want to see just the differences of one function in one file in two different commits, you can do this:
+When you want to see just the differences of one function in one file in two different commits, you can do this:
 
 <pre><nowiki>
 $ git config alias.funcdiff '!sh -c "git show \"\$0:\$2\" | sed -n \"/^[^ \t].*\$3(/,/^}/p\" > .tmp1 &&
@@ -129,9 +156,6 @@ $ git config alias.funcdiff '!sh -c "git show \"\$0:\$2\" | sed -n \"/^[^ \t].*\
         git diff --no-index .tmp1 .tmp2"'
 </nowiki></pre>
 The idea is to create two temporary files which contain only the function, and call <i>git diff</i> on them.  Use this alias this way: <i>git funcdiff <old-rev> <new-rev> <path> <function></i>.
-
-= Collection of aliases by Git users =
-Here is a collection of some Git users' aliases. If you know a simpler way to achieve the same, please add some notes.
 
 == Editing/adding conflicted files ==
 You get a lot of merge conflicts and want to quickly solve them using an editor and then add the conflicted files. Try this:
@@ -163,6 +187,9 @@ This produces output that can be displayed using dotty, for example:
 $ git graphviz HEAD~100..HEAD~60 | dotty /dev/stdin
 $ git graphviz --first-parent master | dotty /dev/stdin
 </nowiki></pre>
+
+Note how defining a function eliminates the need to use sh -c.
+
 == Shortcuts ==
 <pre><nowiki>
 [alias]
@@ -193,13 +220,23 @@ Now that you know all about aliases, it might be handy to define some, using an 
 
 <pre><nowiki>
 [alias]
-        alias = !sh -c '[ -n \"$1\" -a -z \"$2\" ] && git config --global alias.\"$0\" \"$1\" && exit 0 || echo \"usage: git alias <new alias> <original command>\" >&2 && exit 1'
+        alias = !sh -c '[ $# = 2 ] && git config --global alias.\"$1\" \"$2\" && exit 0 || echo \"usage: git alias <new alias> <original command>\" >&2 && exit 1' -
 </nowiki></pre>
 
 then define new aliases with:
 <pre><nowiki>
 $ git alias new_alias original_command
 </nowiki></pre>
+
+== Sending multiple messages from a single file ==
+This can be useful to use send-email on the output of <i>git format-patch --stdout</i>
+
+<pre><nowiki>
+[alias]
+        send-mbox = "!bash -c 'eval f=\\$$#; eval set -- `seq -f\"\\$%.0f\" 1 $(($#-1))`; mkdir .mboxsplit || exit; trap \"st=\\$?; rm -rf .mboxsplit; exit \\$?\" 0 INT TERM; if last=`git mailsplit -d4 -o.mboxsplit -b -- \"$f\"`; then echo Found $last messages in \"$f\"; git send-email \"$@\" .mboxsplit; fi' -"</nowiki></pre>
+
+Most of the complication is because the last argument must be passed to <i>git mailsplit</i>, while the others must be passed to <i>git send-email</i>.
+
 ----
  [[CategoryGitDocumentation]]
 
