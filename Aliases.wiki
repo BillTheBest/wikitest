@@ -152,9 +152,9 @@ Here is a collection of some Git users' aliases. If you know a simpler way to ac
 When you want to see just the differences of one function in one file in two different commits, you can do this:
 
 <pre><nowiki>
-$ git config alias.funcdiff '!sh -c "git show \"\$0:\$2\" | sed -n \"/^[^ \t].*\$3(/,/^}/p\" > .tmp1 &&
-        git show \"\$1:\$2\" | sed -n \"/^[^ \t].*\$3(/,/^}/p\" > .tmp2 &&
-        git diff --no-index .tmp1 .tmp2"'
+$ git config alias.funcdiff '!sh -c "git show \"\$1:\$3\" | sed -n \"/^[^ \t].*\$4(/,/^}/p\" > .tmp1 &&
+        git show \"\$2:\$3\" | sed -n \"/^[^ \t].*\$4(/,/^}/p\" > .tmp2 &&
+        git diff --no-index .tmp1 .tmp2"' -
 </nowiki></pre>
 The idea is to create two temporary files which contain only the function, and call <i>git diff</i> on them.  Use this alias this way: <i>git funcdiff <old-rev> <new-rev> <path> <function></i>.
 
