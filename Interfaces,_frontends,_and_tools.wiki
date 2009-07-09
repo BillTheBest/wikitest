@@ -866,6 +866,9 @@
 ==== bzr-fast-export ====
 * Bazaar frontend for git-fast-import. Announcement [[https://lists.ubuntu.com/archives/bazaar/2008q1/038391.html|here]], lives in the `exporters` subdirectory of the [[https://launchpad.net/bzr-fastimport|bzr-fastimport project]].
 
+==== [[BzrToGit]] ====
+* A shell script that migrates a Bazaar repository to Git, written by Henrik Nilsson and can be found [[http://sortedbits.ath.cx/scripts/bzrtogit.sh|here]].
+
 === Perforce ===
 ==== git-p4 and git-p4-import (Perforce) ====
 * The built-in Perforce importer `git-p4import.py` does not work and is not being actively developed. A replacement, `git-p4` by Simon Hausmann, is now in contrib/fast-import and is highly recommended. See also [[http://marc.info/?l=git&m=117861263323170&w=2|Yet another git perforce integration]] thread on git mailing list. There is also an older Perl version, `git-p4-import` by Alex Riesen: see [[http://marc.info/?l=git&m=117840529828575&w=2|Yet another Perforce importer]] email/thread on git mailing list.<<BR>>
