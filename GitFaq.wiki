@@ -345,7 +345,7 @@ sshfs -o workaround=rename login@machine:foo bar
 
 and 2) use at least the 1.6.0.2 version of <code><nowiki>git</nowiki></code>.
 
-== Why does <code><nowiki>git bisect</nowiki></code> makes me test versions outside the "good-bad" range? ==
+== Why does "git bisect" makes me test versions outside the "good-bad" range? ==
 
 The reason may be that some commits have been developed starting from a version before the "good" commit, and then merged after the "good" commit.
 
