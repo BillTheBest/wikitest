@@ -345,6 +345,12 @@ sshfs -o workaround=rename login@machine:foo bar
 
 and 2) use at least the 1.6.0.2 version of <code><nowiki>git</nowiki></code>.
 
+== Why does <code><nowiki>git bisect</nowiki></code> makes me test versions outside the "good-bad" range? ==
+
+The reason may be that some commits have been developed starting from a version before the "good" commit, and then merged after the "good" commit.
+
+See http://thread.gmane.org/gmane.comp.version-control.git/99967/focus=99977 for more explanations from Linus.
+
 = How do I ... =
 
 <<[[GitLink]](ssh-config,You can setup a new entry in ~/.ssh/config with the right key)>>
