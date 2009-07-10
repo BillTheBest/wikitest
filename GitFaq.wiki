@@ -301,7 +301,7 @@ Git sets the current time as the timestamp on every file it modifies, but only t
 == Why does git use a pager for commands like diff/log and --help? ==
 Usually, you are not interested in the whole log, but only some bits at the beginning.  It would not be useful for "git log" to simply let the output whiz by, leaving you looking at the uninteresting parts at the end.  And if it did it the other way round, showing you the interesting bits last, it would waste a lot of time showing information that you are not interested in at all.  So the only thing that makes sense is to look at the log in a pager.  It also helps searching for keywords.
 
-Note that "--help" just spawns "man", so it is not Git's fault there.
+Note that "--help" just spawns "man", so it is not Git's fault there. But you can use <code><nowiki>git help -w xxx</nowiki></code> to use a browser instead of "man" if the HTML documentation is installed. See the git help documentation for more information about this.
 
 If you do not like the pager default, you can set <code><nowiki>core.pager = cat</nowiki></code> with <code><nowiki>git-config</nowiki></code> or tell your shell about <code><nowiki>GIT_PAGER=cat</nowiki></code>.
 
