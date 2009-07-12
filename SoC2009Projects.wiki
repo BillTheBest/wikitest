@@ -17,12 +17,12 @@ Git stores a repository’s history as a directed acyclic graph (DAG) of commits
 
 This project proposes a highly intuitive GUI for Git that lets a user interact directly with an illustration of this underlying DAG, invoking commands on nodes, branches, or tags via context menus.
 
-<b>Programming language:</b> Java (uses EGit) <<BR>>
+<b>Programming language:</b> Java (uses JGit) <<BR>>
 <b>SoC page:</b> [[http://socghop.appspot.com/student_project/show/google/gsoc2009/git/t124022376285|Interactive graph GUI]] <<BR>>
 
 <b>Progress reports / status:</b> <<BR>>
-GSoC project for the graph-based UI failed
-* [[http://thread.gmane.org/gmane.comp.version-control.git/123149|[JGIT PATCH 0/3] Request for help: graph-based UI]]
+Unfortunately, the GSoC project for the graph-based UI failed
+* [[http://thread.gmane.org/gmane.comp.version-control.git/123149|[JGIT PATCH 0/3] Request for help: graph-based UI]] (this means it is up to all other people to get this idea somewhere)
 
 == Add caching support to git-daemon ==
 <b>Student:</b> Nick Edelen ([[http://github.com/sirnot|sirnot]] on github) <<BR>>
