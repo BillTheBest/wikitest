@@ -116,6 +116,16 @@ The final dash is so that arguments start with $1, not with $0.
 
 <i>NOTE: later on the page presents a nice trick using a shell function instead of </i>sh -c<i>.  Most aliases could be converted to use that style.</i>
 
+== Spelunking of the project's history ==
+Here are two aliases suggested on the mailing list by Junio Hamano:
+
+<pre><nowiki>
+[alias]
+        whois = "!sh -c 'git log -i -1 --pretty=\"format:%an <%ae>\n\" --author=\"$1\"' -"
+        whatis = show -s --pretty='tformat:%h (%s, %ad)' --date=short</nowiki></pre>
+
+Try then by yourself!  The first takes the name of a person or their email address.  The second takes a commit name.
+
 == A 'debug' alias to help debugging builtins ==
 When debugging builtins, you often use gdb to analyze the runtime state.  However, you have to disable the pager, and often you have to call the program with arguments.  If the program to debug is a builtin, you can use this alias:
 
@@ -134,16 +144,6 @@ If upstream applied a slightly modified patch, and you want to see the modificat
 </nowiki></pre>
 
 This accept two commits, typically the first coming from upstream (e.g. <i>origin/master</i>) and the second coming from your own topic branch.
-
-== Spelunking of the project's history ==
-Aliases can get pretty complicated.  For example here are two aliases suggested on the mailing list by Junio Hamano:
-
-<pre><nowiki>
-[alias]
-        whois = "!sh -c 'git log -i -1 --pretty=\"format:%an <%ae>\n\" --author=\"$1\"' -"
-        whatis = "!sh -c 'git show -s --pretty=\"format:%h (%s, %ai\" \"$@\" | sed -e \"s/ [012][0-9]:[0-5][0-9]:[0-5][0-9] [-+][0-9][0-9][0-9][0-9]$/)\\n/\"' -"</nowiki></pre>
-
-Try then by yourself!  The first takes the name of a person or their email address.  The second takes a commit name.
 
 = Collection of aliases by Git users =
 Here is a collection of some Git users' aliases. If you know a simpler way to achieve the same, please add some notes.
