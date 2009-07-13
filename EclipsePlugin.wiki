@@ -46,6 +46,7 @@ Some ways to keep informed about Egit development.
 * Graphical history visualization with filtering on selected resources and search capability
 * Checkout and reset
 * Cross platform
+
 = Screenshots =
 * See [[EclipsePluginScreenshots]].
 = FAQ =
