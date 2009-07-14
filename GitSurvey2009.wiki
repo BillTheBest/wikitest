@@ -1,7 +1,18 @@
 = Git User's Survey 2009 =
 
-The "Git User's Survey 2009" has not yet begun.
+The Git User's Survey 2009 has not yet begun.
 
-You will be able to [[http://www.survs.com/survey?id=2PIMZGU0&channel=Q0EKJ3NF54|take part in the survey]] <i>(tentatively)</i> from <b>15 July to 15 September, 2009</b>
+You will be able to take part in this survey <i>(tentatively)</i> 
+from <b>15 July</b> to <b>15 September 2009</b>.
+
+* http://tinyurl.com/[[GitSurvey]]2009 (expands to the link below)
+* http://www.survs.com/survey?id=2PIMZGU0&channel=Q0EKJ3NF54
+
+Or you can choose version which does not require cookies, but it
+doesn't allow to go back to response and edit it.
+
+* http://www.survs.com/survey?id=2PIMZGU0&channel=1MH6FTZV5O
+----
+[[CategoryStatistics]]
 
 __NOTOC__
