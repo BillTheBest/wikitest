@@ -15,9 +15,11 @@
 = Git Wiki Homepage =
 Welcome to the [[Git]] wiki web site. This wiki is a community effort to provide an accurate source of information for all things related to [[http://git-scm.com|Git]]. Make sure to visit the Git website for current updates and information. The Git [[http://github.com/schacon/gitscm|web site source]] is also managed using Git. The maintainers of the Git website would love patches for improving the website. It's a great way to try out Git. If you come across anything in this wiki or the Git homepage that needs to be fixed; help yourself and fix it. The more people who help work on this wiki the better this site will serve Git users. Think of this site as a Wikipedia for Git. 
 
+<pre><nowiki>#!wiki caution
 '''[[http://tinyurl.com/GitSurvey2009|The Git User's Survey 2009]] is up now! Please devote a few minutes of your time to fill this simple questionnaire, it will help a lot the Git community to understand your needs, what you like of Git, and of course what you don't like of it.
 
 The results will be published at [[GitSurvey2009]].'''
+</nowiki></pre>
 
 == Starting points ==
 * [[Installation]]
