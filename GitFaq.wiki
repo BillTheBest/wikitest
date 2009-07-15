@@ -820,6 +820,15 @@ Currently, you cannot. There are plans for [[http://git.or.cz/gitwiki/SoC2009Ide
 
 In the meantime, you can use the subdirectory-filter of <code><nowiki>git filter-branch</nowiki></code> to extract a subdirectory. You can also merge changes back using the [[http://www.kernel.org/pub/software/scm/git/docs/howto/using-merge-subtree.html|subtree merge strategy]]. Or you can use [[http://www.kernel.org/pub/software/scm/git/docs/user-manual.html#submodules|submodules]].
 
+== How do I make existing non-bare repository bare? ==
+
+After making sure that there are no uncommitted changes, etc.:
+<pre><nowiki>
+    $ mv repo/.git repo.git
+    $ git --git-dir=repo.git config core.bare true
+    $ rm -rf repo
+</nowiki></pre>
+
 = Error diagnostic =
 
 <<Anchor(empty-ident)>>
