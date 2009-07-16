@@ -830,6 +830,14 @@ After making sure that there are no uncommitted changes, etc.:
     $ rm -rf repo
 </nowiki></pre>
 
+The problem with the above process is that it doesn't take into account future internal changes of Git. A safer method is to let Git handle all the internal settings for you by doing something like this.
+<pre><nowiki>
+   * ssh to remote server
+   * git clone --bare -l <path_to_repos> <new_dir>
+   * renamed old repository directory
+   * renamed new repository dir to what old repository used to be.
+</nowiki></pre>
+
 = Error diagnostic =
 
 <<Anchor(empty-ident)>>
