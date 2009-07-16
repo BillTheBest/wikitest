@@ -765,6 +765,7 @@ Initialize "fetch"-repo:
 <pre><nowiki>
     git svn clone -s svn://.../project
     git remote add bare /path/to/project.git
+    git config --unset remote.bare.fetch
     git config remote.bare.push 'refs/remotes/*:refs/heads/*'
     git push bare
 </nowiki></pre>
