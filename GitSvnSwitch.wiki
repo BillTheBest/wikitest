@@ -1,7 +1,7 @@
 When an SVN repository moves, the equivalent of <i>svn switch</i> for git-svn is required.
 
 = General Case =
-What immediately sprang to mind, and what was suggested e.g. [http://thread.gmane.org/gmane.comp.version-control.git/59271 on the mailing list], was to simply edit your .git/config, and change the url= in the section [svn-remote "svn"]. That doesn't work, however. Instead, I found several suggestions to use variations of[http://www.ciaran-lee.com/articles/6 this theme]:
+What immediately sprang to mind, and what was suggested e.g. [[http://thread.gmane.org/gmane.comp.version-control.git/59271|on the mailing list]], was to simply edit your .git/config, and change the url= in the section [svn-remote "svn"]. That doesn't work, however. Instead, I found several suggestions to use variations of[[http://www.ciaran-lee.com/articles/6|this theme]]:
 
 * Edit the svn-remote url URL in .git/config to point to the new domain name
 * Run <code><nowiki>git svn fetch</nowiki></code> - <i>This needs to fetch at least one new revision from svn!</i>
@@ -10,6 +10,12 @@ What immediately sprang to mind, and what was suggested e.g. [http://thread.gman
 * Change svn-remote url back to the new url
 * Run <code><nowiki>git svn rebase</nowiki></code> should now work again!
 This will only work, if the <code><nowiki>git svn fetch</nowiki></code> step actually fetches anything! (Took me a while to discover that... I had to put in a dummy revision to our svn repository to make it happen!)
+
+= Using git-filter-branch =
+
+One can also use <code><nowiki>git filter-branch</nowiki></code> directly to rewrite the copied svn-history so that the <code><nowiki>git-svn-id:</nowiki></code> points to the right place.  This technique has been documented at 
+[[http://translate.org.za/blogs/wynand/en/content/changing-your-svn-repository-address-git-svn-setup|this entry on winterstream's blog]].
+The heart of the technique uses <code><nowiki>sed</nowiki></code> to rewrite the <code><nowiki>git-svn-id:</nowiki></code> entries, but it also includes some magic with <code><nowiki>git-gc</nowiki></code> and <code><nowiki>awk</nowiki></code> to do more complete history rewriting. 
 
 = Using --rewrite-root =
 In my case, I had a local <code><nowiki>file://</nowiki></code> mirror, that I wanted to use during the initial <code><nowiki>git svn fetch</nowiki></code> only. After that I wanted to follow the network on a <code><nowiki>ssh://</nowiki></code> mirror, a 1.2 G 7000 rev SVN repo on the other side of the world. So during the initial <code><nowiki>git svn fetch</nowiki></code> I wanted the history to reflect the <code><nowiki>ssh://</nowiki></code> URL for the repos. This worked for me:
