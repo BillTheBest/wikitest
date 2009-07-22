@@ -2,7 +2,7 @@
 
 <b>The Git User's Survey 2009 has begun.</b>
 
-[[http://www.survs.com/survey?id=2PIMZGU0&channel=Q0EKJ3NF54|Git User's Survey 2009]] is up now!. Please devote a few minutes of your time to fill this simple questionnaire, it will help a lot the Git community to understand your needs, what you like of Git, and of course what you don't like of it.
+[[http://www.survs.com/survey?id=2PIMZGU0&channel=Q0EKJ3NF54|Git User's Survey 2009]] is up now! Please devote a few minutes of your time to fill this simple questionnaire, it will help a lot the Git community to understand your needs, what you like of Git, and of course what you don't like of it.
 
 This survey would last
 from <b>15 July</b> to <b>15 September 2009</b>.
