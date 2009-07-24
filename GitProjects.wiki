@@ -238,6 +238,10 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * http://featherstitch.cs.ucla.edu/howto/ (development)
 * http://featherstitch.cs.ucla.edu/gitweb?p=fstitch (gitweb)
 * git://featherstitch.cs.ucla.edu/fstitch/fstitch (repository)
+* Fiji (Fiji Is Just ImageJ -- batteries included)
+* http://pacific.mpi-cbg.de/ (homepage)
+* http://pacific.mpi-cbg.de/cgi-bin/gitweb?p=fiji.git (gitweb)
+* git://pacific.mpi-cbg.de/fiji.git (repository)
 * fluxbox
 * http://www.fluxbox.org
 * http://git.fluxbox.org (gitweb)
