@@ -325,6 +325,10 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * ikiwiki
 * http://ikiwiki.info/download/
 * http://git.ikiwiki.info/?p=ikiwiki (gitweb)
+* ImageJA
+* http://imageja.sourceforge.net/ (homepage)
+* http://imageja.git.sourceforge.net/git/gitweb.cgi?p=imageja (gitweb)
+* git://imageja.git.sourceforge.net/gitroot/imageja (repository)
 * iogrind
 * http://live.gnome.org/iogrind (homepage)
 * http://www.gnome.org/~michael/git/iogrind.git (repository)
