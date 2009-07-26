@@ -111,7 +111,9 @@
 * [[GitView]] is a GTK based repository browser for git written in Python by Aneesh Kumar K.V. It can be found in `contrib/` directory of Git source tree.
 
 === git-forest ===
-* <b>git-forest</b> ([[http://dev.medozas.de/gitweb.cgi?p=hxtools;a=blob_plain;f=bin/git-forest|git-forest]] file and [[http://dev.medozas.de/gitweb.cgi?p=hxtools;a=blob_plain;f=doc/git-forest.1|manpage]]) is a text-based tree visualizer, using extended ASCII characters for frames. A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|git-forest.png]]. It can show also octopus merges. Written in Perl by Jan Engelhardt.<<BR>><b>See also:</b> [[http://permalink.gmane.org/gmane.comp.version-control.git/76404|text-based tree visualizer]] announcement on git mailing list.
+* <b>git-forest</b> ([[http://dev.medozas.de/gitweb.cgi?p=hxtools;a=blob_plain;f=bin/git-forest|git-forest]] file and [[http://dev.medozas.de/gitweb.cgi?p=hxtools;a=blob_plain;f=doc/git-forest.1|manpage]]) is a text-based tree visualizer, using Unicode characters for tree graphics. Part of its key features are: display of tags, heads and other refs (like gitk), constantly vertical branch graphics (allows to follow a branch with the mouse easily), display of octopus merges. It can also display history in reverse.
+
+A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|git-forest.png]]. Written in Perl by Jan Engelhardt.<<BR>><b>See also:</b> [[http://permalink.gmane.org/gmane.comp.version-control.git/76404|text-based tree visualizer]] announcement on git mailing list.
 
 === (h)gct ===
 * [[(h)gct]] ([[http://repo.or.cz/w/hgct.git|gitweb]]) by Fredrik Kuivinen is a GUI enabled commit tool. It has support for both Git and Mercurial. In Debian in [[http://packages.debian.org/search?searchon=names&keywords=commit-tool|commit-tool]] package. Written in PyQt.
