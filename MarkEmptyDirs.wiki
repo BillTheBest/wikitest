@@ -55,8 +55,69 @@ A tree with the corresponding placeholder files will then look like this:
 To create the `.emptydir` files use the `[[MarkEmptyDir]]s` tool simply like this:
 
 <pre><nowiki>
-$> MarkEmptyDirs PROJECT
+$> MarkEmptyDirs.exe PROJECT
 </nowiki></pre>
+
+This creates empty `.emptydir` files. If you want the placeholder files to contain special content there are two ways.
+
+* Provide the content directly on command line:
+<pre><nowiki>
+$> MarkEmptyDirs.exe --text "Do not delete this file." PROJECT
+</nowiki></pre>
+* Provide a template file:
+<pre><nowiki>
+$> MarkEmptyDirs.exe --file template.txt PROJECT
+</nowiki></pre>
+
+In both cases you can use template variables in your placeholder content which are evaluated everytime a new placeholder file is to be created. The evaluated results then replace the variables. Currently, the following variables are available:
+
+{| border="1" cellpadding="2" cellspacing="0"
+|  VARIABLE 
+|  DESCRIPTION 
+|  ARGUMENT DESCRIPTION 
+| 
+|-
+|  `§datetime[[<format-pattern>]]§` 
+|  get UTC time 
+|  `<format-pattern>`: C# [[DateTime]] format pattern string 
+| 
+|-
+|  `§env:<env-var-name>§` 
+|  get the value from an environment variable 
+|  `<env-var-name>`: the environment variable's name 
+| 
+|-
+|  `§guid§` 
+|  get a new globally unique identifier 
+|  
+| 
+|-
+|  `§lf[[<count>]]§` 
+|  get a line feed character 
+|  `<count>`: integer describing how many linefeeds should be returned 
+| 
+|-
+|  `§sp[[<count>]]§` 
+|  get a space character 
+|  `<count>`: integer describing how many spaces should be returned 
+| 
+|}
+
+So in order to create template files with a unique id and time information you could do:
+<pre><nowiki>
+$> MarkEmptyDirs.exe --text="CREATOR: §env:USER§§lf§ID: §guid§§lf§TIME: §datetime§§lf:2§Do not delete this file.§lf§" PROJECT
+</nowiki></pre>
+
+A generated placeholder file might then look like this:
+<pre><nowiki>
+CREATOR: jonnydee
+ID: 36358168-b347-4758-adaa-63e198809c32
+TIME: 28.07.2009 17:20:30
+
+Do not delete this file.
+</nowiki></pre>
+
+Using placeholder files with unique content allows to detect renames of directories automatically.
 
 == Update placeholder files ==
 
