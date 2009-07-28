@@ -116,6 +116,8 @@ Seemingly minor changes to binary files, such as adjusting brightness on an imag
 == Partial Checkout ==
 With Subversion, you can check out just a subdirectory of a repository. Such a thing is not possible with Git.
 
+<i>Note: I believe this can be done with</i> "git checkout <i>commit</i> -- <i>path</i>"
+
 == Shorter Revision Numbers ==
 As SVN assigns revision numbers sequentially (starting from 1) even very old projects such as Mozilla have short unique revision numbers (Mozilla is only up to 6 digits in length).  Many users find this convenient when entering revisions for historical research purposes.  They also find this number easy to embed into their product, supposedly making it easy to determine which sources were used to create a particular executable.  However since the revision number is global to the entire repository, including all branches, there is still a question of which branch the revision number corresponds to.
 
