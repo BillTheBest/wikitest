@@ -1,7 +1,7 @@
 == A note from the maintainer ==
 
 * The newest version of this message can be found in the 'todo' branch in git.git,
- as file [http://repo.or.cz/w/git.git?a=blob_plain;f=MaintNotes;hb=todo [[MaintNotes]]].
+ as file [[http://repo.or.cz/w/git.git?a=blob_plain;f=MaintNotes;hb=todo|[[MaintNotes]]]].
 
 Welcome to git community.
 
@@ -19,7 +19,7 @@ http://colabti.org/irclogger/irclogger_log/git
 
 The development however is primarily done on the git mailing list
 (git@vger.kernel.org).  If you have patches, please send them to the
-list, following [http://repo.or.cz/w/git.git?a=blob_plain;f=Documentation/SubmittingPatches Documentation/[[SubmittingPatches]]].
+list, following [[http://repo.or.cz/w/git.git?a=blob_plain;f=Documentation/SubmittingPatches|Documentation/[[SubmittingPatches]]]].
 
 I usually try to read all patches posted to the list, and follow
 almost all the discussions on the list, unless the topic is about an
@@ -206,8 +206,8 @@ from "next" because fatal flaws were found in them later.
 
 === Other people's trees, trusted lieutenants and credits ===
 
-[http://repo.or.cz/w/git.git?a=blob_plain;f=Documentation/SubmittingPatches Documentation/[[SubmittingPatches]]] outlines to whom your proposed
-changes should be sent.  As described in [http://repo.or.cz/w/git.git?a=blob_plain;f=contrib/README contrib/README], I would
+[[http://repo.or.cz/w/git.git?a=blob_plain;f=Documentation/SubmittingPatches|Documentation/[[SubmittingPatches]]]] outlines to whom your proposed
+changes should be sent.  As described in [[http://repo.or.cz/w/git.git?a=blob_plain;f=contrib/README|contrib/README]], I would
 delegate fixes and enhancements in contrib/ area to the primary
 contributors of them.
 
@@ -249,7 +249,7 @@ relying on heavily:
 == This document ==
 
 The latest copy of this document is found in git.git repository,
-on 'todo' branch, as [http://repo.or.cz/w/git.git?a=blob_plain;f=MaintNotes;hb=todo [[MaintNotes]]].
+on 'todo' branch, as [[http://repo.or.cz/w/git.git?a=blob_plain;f=MaintNotes;hb=todo|[[MaintNotes]]]].
 
 ----
 == Addendum ==
@@ -405,7 +405,7 @@ then replace some parts with the new patch, and reapplying:
  $ git rebase master ai/topic
 </nowiki></pre>
 
- This step is helped with [http://repo.or.cz/w/git.git?a=blob;f=git-topic.perl;hb=todo Meta/git-topic.perl] script to identify which topic is rebaseable.  There also is a pre-rebase hook to make sure that topics that are already in 'next' are not rebased beyond the merged commit.
+ This step is helped with [[http://repo.or.cz/w/git.git?a=blob;f=git-topic.perl;hb=todo|Meta/git-topic.perl]] script to identify which topic is rebaseable.  There also is a pre-rebase hook to make sure that topics that are already in 'next' are not rebased beyond the merged commit.
 
 * Rebuild "pu" to merge the tips of topics not in 'next'.
 
@@ -416,15 +416,15 @@ then replace some parts with the new patch, and reapplying:
  $ make test
 </nowiki></pre>
 
- This step is helped with [http://repo.or.cz/w/git.git?a=blob;f=PU;hb=todo Meta/PU] script
+ This step is helped with [[http://repo.or.cz/w/git.git?a=blob;f=PU;hb=todo|Meta/PU]] script
 
 * Push four integration branches to a private repository at k.org and run "make test" on all of them.
 * Push four integration branches to /pub/scm/git/git.git at k.org.  This triggers its post-update hook which:
 *# runs "git pull" in $HOME/git-doc/ repository to pull 'master' just pushed out;
 *# runs "make doc" in $HOME/git-doc/, install the generated documentation in staging areas, which are separate repositories that have 'html' and 'man' branches checked out.
 *# runs "git commit" in the staging areas, and run "git push" back to /pub/scm/git/git.git/ to update the html and man branches.
-*# installs generated documentation to /pub/software/scm/git/docs/ to be viewed from [http://www.kernel.org/pub/software/scm/git/docs/ http://www.kernel.org/]
-* Fetch 'html' and 'man' branches back from k.org, and push four integration branches and the two documentation branches to [http://repo.or.cz repo.or.cz]
+*# installs generated documentation to /pub/software/scm/git/docs/ to be viewed from [[http://www.kernel.org/pub/software/scm/git/docs/|http://www.kernel.org/]]
+* Fetch 'html' and 'man' branches back from k.org, and push four integration branches and the two documentation branches to [[http://repo.or.cz repo.or.cz]]
 
 === Observations ===
 
@@ -439,7 +439,7 @@ Some observations to be made.
 * Being in the 'next' branch is not a guarantee for a topic to be included in the next feature release.  Being in the 'master' branch typically is.
 
 <b>References:</b>
-* [http://permalink.gmane.org/gmane.comp.version-control.git/65722> Addendum to "MaintNotes"] post at git mailing list.
-* [http://repo.or.cz/w/git.git?a=blob_plain;f=Documentation/howto/maintain-git.txt Documentation/howto/maintain-git.txt] with foreword by Jeff King.
+* [[http://permalink.gmane.org/gmane.comp.version-control.git/65722> Addendum to|"MaintNotes"]] post at git mailing list.
+* [[http://repo.or.cz/w/git.git?a=blob_plain;f=Documentation/howto/maintain-git.txt|Documentation/howto/maintain-git.txt]] with foreword by Jeff King.
 
 __NOTOC__
