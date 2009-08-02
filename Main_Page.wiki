@@ -38,7 +38,7 @@ Welcome to the [[Git]] wiki web site. This wiki is a community effort to provide
 * April 13, 2009: [[GitTogether]] '09 announced. [[GitTogether|[[GitTogether]]'09]]
 * January 07, 2009: Google Summer of Code 2009 pre-announced. [[SoC2009Ideas|2009 Project Ideas]]
 * January 07, 2009: The Git home page moved from [[http://git.or.cz/index.html|git.or.cz]] to [[http://git-scm.com/|git-scm.com]] (the old URL redirects to the new one)
-* December 02, 2008: Webpage [[http://whygitisbetterthanx.com/|whygitisbettterthanx.com]] launches
+* December 02, 2008: Webpage [[http://whygitisbetterthanx.com/|whygitisbetterthanx.com]] launches
 * October 27-29, 2008: [[GitTogether]] '08
 * August 17, 2008: Git Version 1.6.0 now [[http://kernel.org/pub/software/scm/git/|available]][[http://www.kernel.org/pub/software/scm/git/docs/RelNotes-1.6.0.txt|Release Notes]]
 * June 18, 2008: Git Version 1.5.6 now [[http://kernel.org/pub/software/scm/git/|available]][[http://www.kernel.org/pub/software/scm/git/docs/RelNotes-1.5.6.txt|Release Notes]]
