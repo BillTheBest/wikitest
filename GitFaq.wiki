@@ -697,7 +697,7 @@ At the moment, git is not able to use a (dumb) sftp protocol for pushing. There 
 Alternatively, you can use whatever means to mirror your .git/ directory to the server (rsync, scp -r, ...). But make sure that 'git update-server-info' was run in that repository _before_ mirroring!
 
 == How do I do a quick clone without history revisions? ==
-If you just want to checkout the latest source code of a project who may has very large repo,  you can use
+If you just want to checkout the latest source code of a project which may have a very large repo,  you can use
 <pre><nowiki>
     git clone --depth 1 your_repo_url
 </nowiki></pre>
