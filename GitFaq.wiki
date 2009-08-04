@@ -351,6 +351,13 @@ The reason may be that some commits have been developed starting from a version 
 
 See http://thread.gmane.org/gmane.comp.version-control.git/99967/focus=99977 for more explanations from Linus.
 
+<<[[GitLink]](detached, You are on a detached HEAD and might lose commits.)>>
+== Why am I "not on any branch"? ==
+
+You are on a detached HEAD and might lose commits.  See
+http://sitaramc.github.com/concepts/detached-head.html for an
+excellent discussion of the topic.
+
 = How do I ... =
 
 <<[[GitLink]](ssh-config,You can setup a new entry in ~/.ssh/config with the right key)>>
