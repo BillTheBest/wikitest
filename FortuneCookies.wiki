@@ -63,6 +63,7 @@ Here are few tips for new users, or users that don't like to read the manual:
 * ... where "core git" originally was about "what I use" and the whole "porcelain" side ends up being "what people who need hand-holding use" ;) <i>(Linus Torvalds)</i>
 * For example, try doing the timings after flushing the disk caches [...] Or do it over NFS.  Yes, even the "fast" case will actually be painfully slow (well, it is for me, people who are used to CVS probably think it's just "normal"). <i>(Linus Torvalds)</i>
 * Linus constantly says that he prefers tools that he can figure out why they did something stupid over tools that try really hard to get it right, and I agree with him 100%, as do most of the core contributors (insofar as I've understood it). <i>(Andreas Ericsson)</i>
+* PS. Ok, so my definition of "plain C" is a bit odd. There's nothing plain about it. It's disgusting C preprocessor misuse. But dang, it's kind of fun to abuse the compiler this way. <i>(Linus Torvalds)</i>
 
 <!-- ## blogs
  -->
