@@ -79,7 +79,7 @@ Voila!  You should have a nice, linear set of patches.
 
 <pre><nowiki>
 $ git-pack-redundant --all | xargs --no-run-if-empty rm
-$ git-prune-packed 
+$ git-prune-packed
 </nowiki></pre>
 
 == How to edit a [[ChangeLog]] entry ==
@@ -104,7 +104,7 @@ $ git rebase -i <commit-ish>
 You would usually use "master" there for the <commit-ish>.
 You probably want to go find this with gitk.
 
-You then get a nice file that looks like this: 
+You then get a nice file that looks like this:
 
 <pre><nowiki>
 pick 9feaa34 reduce kvm stack usage in kvm_arch_vm_ioctl()
@@ -153,6 +153,17 @@ Here FETCH_HEAD is the new commit on which we
 are going to rebase, and master is the name of
 the branch which we are going to merge on top
 of FETCH_HEAD.
+
+== How to search for a deleted file ==
+Courtesy of doener and hyperair on the git IRC channel.
+
+This command gets a list of all filenames that ever existed in a project:
+<pre><nowiki>
+git log --all --pretty=format:  --name-only | sort -u
+</nowiki></pre>
+(Take note of the double spaces after `format:`)
+
+You can then run this list through `| grep <pattern>` to search for old file names.
 
 ----
 [[CategoryGitDocumentation]]
