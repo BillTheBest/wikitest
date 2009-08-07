@@ -110,5 +110,6 @@ Here are few tips for new users, or users that don't like to read the manual:
 * The problem with common sense is that it is not all that common. <i>(Voltaire)</i>
 * The computer "doth make fools of us all," so that any fool without the ability to share a laugh on himself will be unable to tolerate programming for long. <i>(Gerald M. Weinberg)</i>
 * It has been said with great perspicacity that the Programmer's National Anthem is "aaaaahhhhh." <i>(Gerald M. Weinberg)</i>
+* We should forget about small efficiencies, say about 97% of the time: premature optimization is the root of all evil. Yet we should not pass up our opportunities in that critical 3%. <i>(Donald Knuth)</i>
 
 __NOTOC__
