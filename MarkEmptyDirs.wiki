@@ -97,6 +97,11 @@ In both cases you can use template variables in your placeholder content which a
 |  `<count>`: integer describing how many linefeeds should be returned 
 | 
 |-
+|  `§placeholder[[<name|fullname>]]§` 
+|  get the placeholder name 
+|  `<name|fullname>`: 'name' for filename, 'fullname' for full path (default is 'name') 
+| 
+|-
 |  `§sp[[<count>]]§` 
 |  get a space character 
 |  `<count>`: integer describing how many spaces should be returned 
@@ -194,5 +199,15 @@ Note that this command is simply a shorthand for:
 <pre><nowiki>
 $> MarkEmptyDirs --short --dry-run --clean PROJECT
 </nowiki></pre>
+
+== Execute actions upon creation or deletion of placeholder files ==
+
+Sometimes you might want to hook into the placeholder creation or deletion process in order to execute certain actions. For example, if you want the placeholder files be added to a Mercurial repository automatically you could tell [[MarkEmptyDirs]] to execute a `hg add <placeholder-file>` everytime a new placeholder is created. Likewise, you can tell it to execute a `hg rm -fA <placeholder-file>` everytime a placeholder is to be deleted. The following command line will exactly do this:
+
+<pre><nowiki>
+$> MarkEmptyDirs.exe --create-hook="hg add §placeholder§" --delete-hook="hg rm -fA §placeholder§" PROJECT
+</nowiki></pre>
+----
+[[CategoryTools]] [[CategoryTools]]
 
 __NOTOC__
