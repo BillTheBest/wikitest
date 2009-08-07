@@ -12,7 +12,7 @@ Git is a distributed version control system developed by Junio Hamano and Linus 
 
 Git does not use a centralized server.
 
-Git runs on Linux, BSD, Solaris, Darwin, Windows, and other operating systems.
+Git runs on Linux, BSD, Solaris, Darwin, Windows, Android and other operating systems.
 
 <<[[GitLink]](git-name, Because Linus is an egotistical git)>>
 == Why the 'git' name? ==
