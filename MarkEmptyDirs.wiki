@@ -173,7 +173,7 @@ Consequently, after updating the placeholder files the tree should look like thi
 Using the `[[MarkEmptyDir]]s` tool for synchronization one would simply do (again):
 
 <pre><nowiki>
-$> MarkEmptyDirs PROJECT
+$> MarkEmptyDirs.exe PROJECT
 </nowiki></pre>
 
 == Delete placeholder files ==
@@ -183,7 +183,7 @@ There are situations where one wants a clean tree which does not contain any pla
 This can simply be achieved by using the `--clean` option:
 
 <pre><nowiki>
-$> MarkEmptyDirs --clean PROJECT
+$> MarkEmptyDirs.exe --clean PROJECT
 </nowiki></pre>
 
 == List placeholder files ==
@@ -191,13 +191,13 @@ $> MarkEmptyDirs --clean PROJECT
 In order to list all placeholder files just execute:
 
 <pre><nowiki>
-$> MarkEmptyDirs --list PROJECT
+$> MarkEmptyDirs.exe --list PROJECT
 </nowiki></pre>
 
 Note that this command is simply a shorthand for:
 
 <pre><nowiki>
-$> MarkEmptyDirs --short --dry-run --clean PROJECT
+$> MarkEmptyDirs.exe --short --dry-run --clean PROJECT
 </nowiki></pre>
 
 == Execute actions upon creation or deletion of placeholder files ==
