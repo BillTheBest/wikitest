@@ -6,7 +6,7 @@ Sometimes a solution where the missing directories are created by some magic is 
 
 I have been confronted with such a situation several times now. This is why I decided to write an open source tool which can manage the creation/deletion of such placeholder files automatically. It creates placeholder files in all empty directories. If later on new files or directories are put into such directories, the placeholder files are not necessary anymore and, thus, are removed automatically.
 
-This tool is licensed under the GPLv3 and runs under [[http://mono-project.com/Main_Page|Mono]] (Linux) as well as under [[http://www.microsoft.com/NET|Microsoft .NET]] platform (Windows). It can be downloaded here: [[http://code.google.com/p/markemptydirs]]
+This tool is licensed under the GPLv3 and runs on [[http://mono-project.com/Main_Page|Mono .NET platform]] (available for <b>Linux</b> and <b>MacOS X</b>) as well as on [[http://www.microsoft.com/NET|Microsoft .NET platform]] (available for <b>Windows</b>). You can download it here: [[http://code.google.com/p/markemptydirs]].
 
 = Use Cases =
 
