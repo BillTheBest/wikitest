@@ -116,7 +116,7 @@ Here are few tips for new users, or users that don't like to read the manual:
 * Every program has \(at least\) two purposes: the one for which it was written, and another for which it wasn't. <i>(Alan J. Perlis)</i>
 * If a listener nods his head when you're explaining your program, wake him up. <i>(Alan J. Perlis)</i>
 * Simplicity does not precede complexity, but follows it. <i>(Alan J. Perlis)</i>
-* Programmers are not to be measured by their ingenuity and their logic but by the completeness of their case analysis. '(Alan J. Perlis)''
+* Programmers are not to be measured by their ingenuity and their logic but by the completeness of their case analysis. <i>(Alan J. Perlis)</i>
 * There are two ways to write error-free programs; only the third one works. <i>(Alan J. Perlis)</i>
 * The best book on programming for the layman is "Alice in Wonderland"; but that's because it's the best book on anything for the layman. <i>(Alan J. Perlis)</i>
 * It is easier to change the specification to fit the program than vice versa. <i>(Alan J. Perlis)</i>
