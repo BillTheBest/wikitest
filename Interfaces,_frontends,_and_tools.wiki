@@ -1087,7 +1087,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 * <b>git-subtree</b> ([[http://github.com/apenwarr/git-subtree|github]]) by Avery Pennarun is an experimental alternative to the git-submodule command, making it easier to use workflow which uses "subtree" merge strategy.  The series introducing git-submodule was posted twice on git mailing list: [[http://thread.gmane.org/gmane.comp.version-control.git/117612|here]] and [[http://thread.gmane.org/gmane.comp.version-control.git/118635|here]].<<BR>><b>See also:</b> [[http://alumnit.ca/~apenwarr/log/?m=200904#30|A new alternative to git submodules: git subtree]] blog post (and [[http://news.ycombinator.com/item?id=604889|comments]]).
 
 === bbchop ===
-* <b>bbchop</b> ([[http://github.com/Ealdwulf/bbchop|github]]) by Ealdwulf Wuffinga is a tool for bisecting on an intermittent bug, using bayesian inference.
+* <b>bbchop</b> ([[http://github.com/Ealdwulf/bbchop|github]]) by Ealdwulf Wuffinga is a tool for bisecting on an intermittent bug, using Bayesian decision theory.
 
 ----
 = See also =
