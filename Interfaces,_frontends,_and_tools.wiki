@@ -770,6 +770,9 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 
 == Merge tools ==
 
+=== Diffuse ===
+* [[http://diffuse.sourceforge.net|Diffuse]] is a graphical tool for merging and comparing text files. Diffuse is able to compare an arbitrary number of files side-by-side and gives users the ability to manually adjust line-matching and directly edit files. Diffuse can also retrieve revisions of files from Bazaar, CVS, Darcs, Git, Mercurial, Monotone, Subversion, and SVK repositories for comparison and merging.
+
 === dirdiff ===
 * [[http://www.liacs.nl/~sverdool/gitweb.cgi?p=dirdiff.git|dirdiff]] (gitweb) is a graphical tool to display the differences (a la diff) between files in directories. Given two or more directory trees, dirdiff will display the differences between them in various glorious colors. It provides merging and the creation of patches. Link is to version modified by Sven Verdoolaege, which adds some more git support, and which is based on [[http://samba.org/ftp/paulus/dirdiff-2.1.tar.gz|dirdiff-2.1.tar.gz]] by Paul Mackerras. Not actively developed. In Tcl/Tk. (To be not conffused with [[http://sourceforge.net/projects/dirdiff/|dirdiff]] in Perl).
 
