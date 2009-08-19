@@ -119,7 +119,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 * [[(h)gct]] ([[http://repo.or.cz/w/hgct.git|gitweb]]) by Fredrik Kuivinen is a GUI enabled commit tool. It has support for both Git and Mercurial. In Debian in [[http://packages.debian.org/search?searchon=names&keywords=commit-tool|commit-tool]] package. Written in PyQt.
 
 === Push Me Pull You ===
-* [[http://www.cl.cam.ac.uk/~maw48/pmpu/|pmpu]] (Push Me Pull You) by Mark Williamson is a graphical interface for a distributed version control system. Currently it contains proof-of-concept supports the Mercurial, git and bzr systems. PMPU can make use of external history views and commit tools. Preview release.
+* [[http://pmpu.sharesource.org/|pmpu]] (Push Me Pull You) by Mark Williamson is a graphical interface for a distributed version control system. Currently it contains proof-of-concept supports the Mercurial, git and bzr systems. PMPU can make use of external history views and commit tools. Preview release.
 
 === Qct ===
 * [[http://qct.sourceforge.net/|Qct]] ([[http://hg.borho.org/qct|hg repo]]) by Steve Borho is Qt/PyQt based GUI commit tool, meant to be SCM and platform agnostic. Supports Mercurial (`hg`), Bazaar (`bzr`), Cogito (but not Git directly atm), Subversion (`svn`), Monotone (`mnt`) and CVS. The [[http://hg.borho.org/qct/rev/5c5bdab35c08|README]] mentions gct (also on this page), as an alternative supporting plain git.
