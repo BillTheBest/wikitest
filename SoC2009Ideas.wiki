@@ -1,6 +1,6 @@
 = Welcome! =
 
-Git has been accepted to the [http://socghop.appspot.com/program/home/google/gsoc2009 Google Summer of Code 2009] program!
+Git has been accepted to the [[http://socghop.appspot.com/program/home/google/gsoc2009|Google Summer of Code 2009]] program!
 
 Google will be accepting student applications March 23 ~12 noon PDT/19:00 UTC through April 3 12 noon PDT/19:00 UTC.
 
@@ -8,7 +8,7 @@ This page contains project ideas culled from the Git user and developer communit
 
 Don't like a project you see here?  Toss your own idea out there, it may be just the thing we have been looking for!
 
-If you are interested, you can also find projects which got accepted previously in [[SoC2007Projects:2007]] and [[SoC2008Projects:2008]].
+If you are interested, you can also find projects which got accepted previously in [[SoC2007Projects|2007]] and [[SoC2008Projects|2008]].
 
 <<<!-- ! TOC here -->(2)>>
 
@@ -16,13 +16,13 @@ If you are interested, you can also find projects which got accepted previously 
 All projects have the following basic requirements:
 
 * Unless otherwise stated, projects will require programming in C, as nearly all of Git is written in C, for maximum speed and portability.
-* All materials must be released under the [http://www.gnu.org/copyleft/gpl.html GNU General Public License (GPL)], version 2.
+* All materials must be released under the [[http://www.gnu.org/copyleft/gpl.html|GNU General Public License (GPL)]], version 2.
 * Individual students shall retain copyright on their works.
-* Projects must be tracked and managed in Git, and published on [http://repo.or.cz].
+* Projects must be tracked and managed in Git, and published on [[http://repo.or.cz]].
 * Weekly project status reports should be sent to the project's mentors.  Each status report should outline what was accomplished that week, any issues that prevented that week's goals from being completed, and your goals for the next week.  This will help you to break your project down into manageable chunks, and will also help the project's mentors to better support your efforts.
 
 Interested students are encouraged to read the
-[http://code.google.com/p/google-summer-of-code/wiki/AdviceforStudents Advice for GSoC Students Page],
+[[http://code.google.com/p/google-summer-of-code/wiki/AdviceforStudents|Advice for GSoC Students Page]],
 as it has excellent suggestions that might help you to pick a
 project and shape your proposal.
 
@@ -41,7 +41,7 @@ is a great deal of interest in these projects from within the
 user community.
 
 Students can apply for the program at the
-[http://code.google.com/soc/ Google Summer of Code website].
+[[http://code.google.com/soc/|Google Summer of Code website]].
 Please consider reviewing our [[SoC2008Template]] and answering
 its questions as part of your application.
 
@@ -58,9 +58,9 @@ What is needed, then, is a browser similar to "git log", except that it should b
 
 Like "git log", it should be possible to see the commits, the diffs (restricted to the interesting area), and code moves.  It would be mighty cool if it could see code copies, too.
 
-Some of above functionality can be found in graphical blame browsers such like sample program blameview from `contrib/` (Perl, Gtk2), or "git gui blame" (Tcl/Tk), or [http://wiki.github.com/krig/git-age git-age] 'blame visualizer' (PyGTK).
+Some of above functionality can be found in graphical blame browsers such like sample program blameview from `contrib/` (Perl, Gtk2), or "git gui blame" (Tcl/Tk), or [[http://wiki.github.com/krig/git-age|git-age]] 'blame visualizer' (PyGTK).
 
-For an alternate solution, utilizing <i>pickaxe</i> search rather than git-blame, see [http://repo.or.cz/w/giddy.git Giddy], Git Pickaxe Frontend by Petr Baudis (Perl, Gtk2), presented at [[GitTogether:Git Together '08]] as the secret pickaxe project.
+For an alternate solution, utilizing <i>pickaxe</i> search rather than git-blame, see [[http://repo.or.cz/w/giddy.git|Giddy]], Git Pickaxe Frontend by Petr Baudis (Perl, Gtk2), presented at [[GitTogether|Git Together '08]] as the secret pickaxe project.
 
 <b>Goal:</b> A program that can follow history of line ranges.
 <<BR>><b>Language:</b> C
@@ -86,7 +86,7 @@ and its objects are safe somewhere within $GIT_DIR/modules.
 
 <b>Goal:</b> Rework git-submodule, keeping submodule repositories safe under $GIT_DIR.
 <<BR>><b>Language:</b> C, Bourne shell
-<<BR>><b>See:</b> gitster's recent remarks on #git [http://article.gmane.org/gmane.comp.version-control.git/76136 on gmane].
+<<BR>><b>See:</b> gitster's recent remarks on #git [[http://article.gmane.org/gmane.comp.version-control.git/76136|on gmane]].
 
 = Medium Sized Projects =
 
@@ -106,7 +106,7 @@ forking less, etc.
 
 <b>Goal:</b> Apply a patch that git-apply rejects today, but that "git am -3" can apply cleanly.
 <<BR>><b>Language:</b> C
-<<BR>><b>See:</b> gitster's recent remarks on #git [http://article.gmane.org/gmane.comp.version-control.git/76136 on gmane].
+<<BR>><b>See:</b> gitster's recent remarks on #git [[http://article.gmane.org/gmane.comp.version-control.git/76136|on gmane]].
 
 == Lazy clone / remote alternates ==
 
@@ -115,12 +115,12 @@ based object server as needed, rather than having them all local.
 This would make Git more approachable for very large projects,
 especially in a more corporate LAN-user setting.
 
-<b>Note:</b> After having implemented the proof-of-concept, I don't think the lazy clone/remote alternates is a good idea; in most of the scenarios it leads to far too many roundtrips which makes it unusable even on LANs.  [[#narrowclone Narrow and Sparse clone support]] is the way to go, if you considered subscribing to the lazy clone idea, please choose 'Narrow and Sparse clone' instead :-) <i>-- Jan Holesovsky</i>
+<b>Note:</b> After having implemented the proof-of-concept, I don't think the lazy clone/remote alternates is a good idea; in most of the scenarios it leads to far too many roundtrips which makes it unusable even on LANs.  [[[#narrowclone|Narrow and Sparse clone support]]] is the way to go, if you considered subscribing to the lazy clone idea, please choose 'Narrow and Sparse clone' instead :-) <i>-- Jan Holesovsky</i>
 
 <b>Goal:</b> A working lazy clone prototype implementation that could be considered for inclusion, in a nice series of commits (separate  branch/fork)
 <<BR>><b>Language:</b> C
 <<BR>><b>Suggested mentor:</b> Jan Holesovsky, who submitted proof-of-concept patch for lazy clone
-<<BR>><b>See also:</b> [[#narrowclone Narrow and Sparse clone support]] below, as it is quite related.
+<<BR>><b>See also:</b> [[[#narrowclone|Narrow and Sparse clone support]]] below, as it is quite related.
 
 == Packfile caching for git-daemon ==
 
@@ -128,7 +128,7 @@ Even with delta reuse, enumerating objects to be present in packfile generates s
 
 The goal is for git-daemon to cache packfiles, use cached packfiles if possible, and to manage packfile cache.  Note that one would need in the final version some way to specify upper limit on packfile cache size and some cache entry expire policy.
 
-Caching packfiles is a good solution for infrequently updated repositories (e.g. once per day), so at least full clone requests, and fetch since last update would generate the same packfile.  An alternate solution, explored in [http://permalink.gmane.org/gmane.comp.version-control.git/112703 this post] (for JGit), is to cache object list instead, speeding up the most costly part of operation.  This might work even for very busy repositories (used as exchange, not only distribution point).
+Caching packfiles is a good solution for infrequently updated repositories (e.g. once per day), so at least full clone requests, and fetch since last update would generate the same packfile.  An alternate solution, explored in [[http://permalink.gmane.org/gmane.comp.version-control.git/112703|this post]] (for JGit), is to cache object list instead, speeding up the most costly part of operation.  This might work even for very busy repositories (used as exchange, not only distribution point).
 
 <b>Goal:</b> Support for packfile cache in git-daemon, benchmark server load
 <<BR>><b>Language:</b> C
@@ -147,7 +147,7 @@ For use for sites such as git.kernel.org, repo.or.cz, github.com, etc.  Implemen
 * Jonas Fonseca (designed the original protocol)
 * Johannes Schindelin (interested party) 
 * Sam Vilain (worked on [[GitTorrent]], designed [[MirrorSync]])
-<<BR>><b>See:</b> [[SoC2008Projects:2008 GSoC project]]
+<<BR>><b>See:</b> [[SoC2008Projects|2008 GSoC project]]
 
 == Domain specific merge helpers ==
 
@@ -162,7 +162,7 @@ To be useful with other file types than plain text or (line based) source code, 
 
 == Apply sparse To Fix Errors ==
 
-Teach [http://kernel.org/pub/linux/kernel/people/josh/sparse/ sparse]
+Teach [[http://kernel.org/pub/linux/kernel/people/josh/sparse/|sparse]]
 how to fix common errors, and then use sparse to actually fix them.
 Perhaps more of a sparse project than a Git project.  The community
 just wants to see Git improved, if sparse is improved at the same
@@ -171,7 +171,7 @@ time, double bonus points!  :-)
 <b>Goal:</b> Fix existing errors in Git.
 <<BR>><b>Language:</b> C
 <<BR>><b>Mentor:</b>  Johannes Schindelin (johannes.schindelin@gmx.de)
-<<BR>><b>Suggested by:</b> Johannes Schindelin [http://article.gmane.org/gmane.comp.version-control.git/40801 on gmane]
+<<BR>><b>Suggested by:</b> Johannes Schindelin [[http://article.gmane.org/gmane.comp.version-control.git/40801|on gmane]]
 
 = Larger Projects =
 
@@ -183,7 +183,7 @@ Most of what is required for the "smart" Git transport for this project is alrea
 
 <b>Language:</b> Perl, C, shell, other
 <<BR>><b>Goal:</b> Server (CGI) and client that supports fetch & push operation for both authenticated & anonymous clients.
-<<BR>><b>See:</b> [http://thread.gmane.org/gmane.comp.version-control.git/91104/focus=91211  |RFC 2/2| Add Git-aware CGI for Git-aware smart HTTP transport] thread on git mailing list (GMane), [http://repo.or.cz/w/git/fastimport.git?a=blob;f=Documentation/technical/http-protocol.txt;hb=smart-http http-protocol.txt RFC] 
+<<BR>><b>See:</b> [[http://thread.gmane.org/gmane.comp.version-control.git/91104/focus=91211||RFC 2/2| Add Git-aware CGI for Git-aware smart HTTP transport]] thread on git mailing list (GMane), [[http://repo.or.cz/w/git/fastimport.git?a=blob;f=Documentation/technical/http-protocol.txt;hb=smart-http|http-protocol.txt RFC]] 
 
 == Proper git-svn support on Windows ==
 
@@ -224,7 +224,7 @@ It would accomplish this by downloading all of the commit and tree objects, whic
 <<BR>><b>Language:</b> C
 <<BR>><b>Suggested by:</b>
 * Scott Chacon (schacon@gmail.com)
-<<BR>><b>See:</b> [http://n2.nabble.com/Git-and-Media-repositories....-td1446700.html "Git and Media repositories" on Nabble]
+<<BR>><b>See:</b> [[http://n2.nabble.com/Git-and-Media-repositories....-td1446700.html|"Git and Media repositories" on Nabble]]
 
 == Directory renames ==
 
@@ -235,12 +235,12 @@ There is a bit of controversy about this feature, as for example in    some prog
 <b>Goal:</b> At minimum option enabling wholesame directory rename detection.  Preferred to add dealing with directory renames also to merge.  At last, one can try to implement "git log --follow" for directories.
 <<BR>><b>Language:</b> C
 <<BR>><b>Suggested mentor:</b> Yann Dirson
-<<BR>><b>See:</b> [http://thread.gmane.org/gmane.comp.version-control.git/99529 |RFC PATCH v2 0/2| Detection of directory renames] thread on git mailing list (via GMane)
+<<BR>><b>See:</b> [[http://thread.gmane.org/gmane.comp.version-control.git/99529||RFC PATCH v2 0/2| Detection of directory renames]] thread on git mailing list (via GMane)
 <<BR>><b>See also:</b>
-* [http://thread.gmane.org/gmane.comp.version-control.git/80912/focus=81362 merge renamed files/directories?] subthread on git mailing list
-* [http://thread.gmane.org/gmane.comp.version-control.git/108106 Comments on "Understanding Version Control" by Eric S. Raymond] thread contains some thoughts on wholesame directory rename detection
-* [http://blog.teksol.info/2008/01/16/directory-renames-under-git Directory renames under Git] blog post notice the issue
-* [http://www.markshuttleworth.com/archives/123 Renaming is the killer app of distributed version control] blog post by Mak Shuttleworth (pro-Bazaar).
+* [[http://thread.gmane.org/gmane.comp.version-control.git/80912/focus=81362|merge renamed files/directories?]] subthread on git mailing list
+* [[http://thread.gmane.org/gmane.comp.version-control.git/108106|Comments on "Understanding Version Control" by Eric S. Raymond]] thread contains some thoughts on wholesame directory rename detection
+* [[http://blog.teksol.info/2008/01/16/directory-renames-under-git|Directory renames under Git]] blog post notice the issue
+* [[http://www.markshuttleworth.com/archives/123|Renaming is the killer app of distributed version control]] blog post by Mak Shuttleworth (pro-Bazaar).
 
 = Projects So Large Your Head Will Spin =
 
@@ -261,7 +261,7 @@ this project and take it to places we have never thought possible.
 <b>Goal:</b> Save at least 10% on current packv2 for benchmark
 repositories (linux-2.6, git, mozilla, gcc) and boost runtime ~10%.
 <<BR>><b>Language:</b> C
-<<BR>><b>See:</b> [http://kerneltrap.org/mailarchive/git/2007/2/27/239830 on kerneltrap] and [http://article.gmane.org/gmane.comp.version-control.git/43016 the entire "understanding version 4 packs" thread on gmane]
+<<BR>><b>See:</b> [[http://kerneltrap.org/mailarchive/git/2007/2/27/239830|on kerneltrap]] and [[http://article.gmane.org/gmane.comp.version-control.git/43016|the entire "understanding version 4 packs" thread on gmane]]
 
 == libgit2 ==
 
@@ -290,20 +290,20 @@ storage. (This would be like the existing git-cvsserver.)
 
 When cloning a large repository (such as KDE, Open Office, Linux kernel) there is currently no way to restart an interrupted clone.  It may take considerable time for a user on the end of a small pipe to download the data, and if the clone is interrupted in the middle the user currently needs to start over from the beginning and try again.  For some users this may make it impossible to clone a large repository.
 
-The difficulty of this task is under a dispute: it should be fairly easy to make clone restartable for (deprecated) rsync:// protocol and for "dumb" protocols using commit walker, like http://.  It shouldn't be to difficult to design user interface for this feature.  Adding resume support to git-clone over "smart" protocols using packfile generation like git:// and ssh:// would require (most probably) good knowledge of pack protocol and packfiles.  It would require most probably new extension to git protocol.
+The difficulty of this task is under a dispute: it should be fairly easy to make clone restartable for (deprecated) rsync:// protocol and for "dumb" protocols using commit walker, like http://.  It shouldn't be too difficult to design user interface for this feature.  Adding resume support to git-clone over "smart" protocols using packfile generation like git:// and ssh:// would require (most probably) good knowledge of pack protocol and packfiles.  It would require most probably new extension to git protocol.
 
 <b>Goal:</b> Allow git-clone to automatically resume a previously failed download over the native git:// protocol.
 <<BR>><b>Language:</b> C
-<<BR>><b>Suggested by:</b> Shawn Pearce [http://article.gmane.org/gmane.comp.version-control.git/55298 on gmane]
+<<BR>><b>Suggested by:</b> Shawn Pearce [[http://article.gmane.org/gmane.comp.version-control.git/55298|on gmane]]
 
 = Other Resources =
 * [[SoC2009Application]]
-* 2008: [[SoC2008Projects:Accepted projects]], [[SoC2008Ideas:Proposed projects]]
-* 2007: [[SoC2007Projects:Accepted projects]], [[SoC2007Ideas:Proposed projects]]
+* 2008: [[SoC2008Projects|Accepted projects]], [[SoC2008Ideas|Proposed projects]]
+* 2007: [[SoC2007Projects|Accepted projects]], [[SoC2007Ideas|Proposed projects]]
 
 = Other links =
-* [http://www.selenic.com/mercurial/wiki/index.cgi/SummerOfCode Mercurial ideas for Google Summer of Code]
-* [http://subversion.tigris.org/tasks.html#summer-of-code Subversion ideas for Google Summer of Code]
-* [http://subclipse.tigris.org/soc/tasks.html Subclipse Ideas for Google Summer of Code]
+* [[http://www.selenic.com/mercurial/wiki/index.cgi/SummerOfCode|Mercurial ideas for Google Summer of Code]]
+* [[http://subversion.tigris.org/tasks.html#summer-of-code|Subversion ideas for Google Summer of Code]]
+* [[http://subclipse.tigris.org/soc/tasks.html|Subclipse Ideas for Google Summer of Code]]
 
 __NOTOC__
