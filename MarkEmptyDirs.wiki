@@ -4,7 +4,7 @@ GIT as well as other well-known version control systems cannot version directori
 
 Sometimes a solution where the missing directories are created by some magic is not practicable and people will face the problem of managing such placeholder files. In particular, the problem with using placeholder files is that you need to create them, and delete them, if they are not necessary anymore (because there were added sub-directories or files). With big source trees managing these placeholder files can be cumbersome and error prone.
 
-I have been confronted with such a situation several times now. This is why I decided to write an open source tool which can manage the creation/deletion of such placeholder files automatically. It creates placeholder files in all empty directories. If later on new files or directories are put into such directories, the placeholder files are not necessary anymore and, thus, are removed automatically.
+In the past, I had been confronted with such a situation several times. This is why I decided to write an open source tool which can manage the creation/deletion of such placeholder files automatically. It creates placeholder files in all empty directories. If later on new files or directories are put into such directories, the placeholder files are not necessary anymore and, thus, are removed automatically.
 
 This tool is licensed under the GPLv3 and runs on [[http://mono-project.com/Main_Page|Mono .NET platform]] (available for <b>Linux</b>, <b>MacOS X</b> and <b>Windows</b>) as well as on [[http://www.microsoft.com/NET|Microsoft .NET platform]] (available only for <b>Windows</b>). You can download it here: [[http://code.google.com/p/markemptydirs]].
 
@@ -72,19 +72,24 @@ $> MarkEmptyDirs.exe --file template.txt PROJECT
 In both cases you can use template variables in your placeholder content which are evaluated everytime a new placeholder file is to be created. The evaluated results then replace the variables. Currently, the following variables are available:
 
 {| border="1" cellpadding="2" cellspacing="0"
-|  VARIABLE 
-|  DESCRIPTION 
-|  ARGUMENT DESCRIPTION 
+|  <b>VARIABLE</b> 
+|  <b>DESCRIPTION</b> 
+|  <b>ARGUMENT DESCRIPTION</b> 
 | 
 |-
 |  `§datetime[[<format-pattern>]]§` 
 |  get UTC time 
-|  `<format-pattern>`: C# [[DateTime]] format pattern string 
+|  `format-pattern`: C# [[DateTime]] format pattern string 
+| 
+|-
+|  `§dir[[<base|cur.abs|cur.rel>]]§` 
+|  get the base directory or current directory (default is `base`) 
+|  `base` : base directory -- `cur.abs` : absolute path of current directory -- `cur.rel` : relative path to current directory 
 | 
 |-
 |  `§env:<env-var-name>§` 
 |  get the value from an environment variable 
-|  `<env-var-name>`: the environment variable's name 
+|  `env-var-name` : the environment variable's name 
 | 
 |-
 |  `§guid§` 
@@ -94,17 +99,22 @@ In both cases you can use template variables in your placeholder content which a
 |-
 |  `§lf[[<count>]]§` 
 |  get a line feed character 
-|  `<count>`: integer describing how many linefeeds should be returned 
+|  `count` : integer describing how many linefeeds should be returned 
 | 
 |-
 |  `§placeholder[[<name|fullname>]]§` 
-|  get the placeholder name 
-|  `<name|fullname>`: 'name' for filename, 'fullname' for full path (default is 'name') 
+|  get the placeholder name (default is `name`) 
+|  `name` : file name only -- `fullname` : full file path 
+| 
+|-
+|  `§separator:<dir|path|vol>§` 
+|  get platform specific directory, path, or volume separator 
+|  `dir` : directory level separator -- `path` : path separator -- `vol` : volume separator 
 | 
 |-
 |  `§sp[[<count>]]§` 
 |  get a space character 
-|  `<count>`: integer describing how many spaces should be returned 
+|  `count` : integer describing how many spaces should be returned 
 | 
 |}
 
