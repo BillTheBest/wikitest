@@ -55,6 +55,7 @@ All documentation residing on this wiki is put in the [[CategoryGitDocumentation
 * [[http://www.jinx.de/teclog/Entries/2009/1/15_Git_and_DMG_build_scripts_for_Xcode.html|Git scripts for Xcode users]] Build and distribution scripts for Xcode can now also found on [[http://github.com/jollyjinx/jnxfree|github]].
 * Slides from [[http://www.breitbandig.de/git/git-as-cvs-en.odp|Git as cvs replacement talk]] (for cvs refugees) and [[http://www.breitbandig.de/git/advanced-git-en.odp|Advanced Git talk]] by Thomas Pasch
 * [[http://www.ralfebert.de/blog/tools/visual_git_tutorial_1/|Visual git tutorial]] - The visual git tutorial explains how to locally track project files. It shows how to add and commit changes, how to browse the history, revert changes and how to work with tags and branches.
+* [[http://www.eqqon.com/index.php/Collaborative_Github_Workflow|Collaborative git workflow]] explains how to collaborate with git on an open source project that is (not necessarily) hosted on [[GitHub]].
 
 == Man pages ==
 Each git command is documented in its own man page. If the man pages are installed on your local system running:
