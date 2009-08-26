@@ -21,7 +21,7 @@ The heart of the technique uses <code><nowiki>sed</nowiki></code> to rewrite the
 In my case, I had a local <code><nowiki>file://</nowiki></code> mirror, that I wanted to use during the initial <code><nowiki>git svn fetch</nowiki></code> only. After that I wanted to follow the network on a <code><nowiki>ssh://</nowiki></code> mirror, a 1.2 G 7000 rev SVN repo on the other side of the world. So during the initial <code><nowiki>git svn fetch</nowiki></code> I wanted the history to reflect the <code><nowiki>ssh://</nowiki></code> URL for the repos. This worked for me:
 
 <pre><nowiki>
-$ git svn init -T trunk -t tags -b brances --rewrite-root  svn+ssh://server/repo file:///some/path
+$ git svn init -T trunk -t tags -b branches --rewrite-root  svn+ssh://server/repo file:///some/path
 $ git svn fetch
 # Wait a while
 </nowiki></pre>
