@@ -979,6 +979,10 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 === git-bugzilla ===
 * <b>git-bugzilla</b> ([[http://code.istique.net/?p=git-bugzilla.git|gitweb]], [[http://code.istique.net/?p=git-bugzilla.git;a=blob;f=docs/git-send-bugzilla.txt|manpage]]) by Steve Frcinaux, is a tool to post (attach) patches to [[http://www.bugzilla.org/|Bugzilla]], modelled mostly after `git-format-patch`/`git-send-email`. It is written in Perl and requires [[http://search.cpan.org/~petdance/WWW-Mechanize-1.50/lib/WWW/Mechanize.pm|WWW::Mechanize]]
 
+=== git-bz ===
+
+* <i>git-bz</i> ([[http://git.fishsoup.net/cgit/git-bz/plain/git-bz|script]], [[http://git.fishsoup.net/cgit/git-bz/|cgit]]) is a command-line tool for using git with bugzilla. You can file commits (in git-format-patch format) as new bugs, attach them to existing bugs, or apply patches attached to bugs to your working tree. It has some neat features like rewriting the commit to include the URL to the newly filed bug before attaching it to the bug. git-bz is a self-contained Python script that acts as a git subcommand and has no external dependencies other than git.
+
 == Other tools ==
 
 === git-completion.bash (in `contrib/completion`) ===
