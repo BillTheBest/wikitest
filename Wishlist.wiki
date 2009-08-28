@@ -4,6 +4,7 @@ In November 2006 there were a lot of emails to the git mailing list with suggest
 
 I've put an attribution of the wish to the person who wrote the email I found it in - if it wasn't originally their idea, and it was yours, I apologise, it's my fault, not theirs.  I've not been comprehensive by any means, ideas that were liked are more likely to be here.
 
+* Standardize whether you say --cached or --staged to refer to the index (Ollie Saunders)
 * It would be really nice if none of the "common" commands had a hyphen in them (Carl Worth)
 * Have --merge arguments to git-pull, and --fetch argument to git-merge. (Jakub Narebski)
 * "pull" and "push" should be symmetrical operations.  (Nicholas Pitre) (Andy Parkins)
@@ -18,8 +19,8 @@ I've put an attribution of the wish to the person who wrote the email I found it
 * http-push should update tracking references like send-pack does. (Clemens Buchacher)
 * Encrypted GIT repository and operations on it. (Ferhat Dogru)
 <b>See also:</b>
-* [http://www.freedesktop.org/wiki/Infrastructure/git/UIFlaws Git UI flaws] at freedesktop wiki.
-* Debian [http://bugs.debian.org/cgi-bin/pkgreport.cgi?ordering=normal;archive=0;src=git-core;dist=unstable;repeatmerged=0 bug reports].
+* [[http://www.freedesktop.org/wiki/Infrastructure/git/UIFlaws|Git UI flaws]] at freedesktop wiki.
+* Debian [[http://bugs.debian.org/cgi-bin/pkgreport.cgi?ordering=normal;archive=0;src=git-core;dist=unstable;repeatmerged=0|bug reports]].
 
 = Granted Wishes =
 
