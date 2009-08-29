@@ -449,7 +449,7 @@ See also http://thread.gmane.org/gmane.comp.version-control.git/42506/focus=4268
 
 <<Anchor(tag-checkout)>>
 == How do I check out the tree at a particular tag? ==
-So you cloned that shiny repository and now would like to get the working tree to the state as of some tag (use <code><nowiki>cg tag-ls</nowiki></code> or <code><nowiki>git tag -l</nowiki></code> to list all available tags). If your Git is 1.5+, just do a <code><nowiki>git checkout TAGNAME</nowiki></code>. If you have a version prior to 1.5, you will have to create a temporary branch based on the tag. If you will never want to come back, <code><nowiki>git checkout -b temporarybranch TAGNAME</nowiki></code>. If you want to return to your latest revision later, before going away check what is your current branch (usually it's <code><nowiki>master</nowiki></code>), and when going back do <code><nowiki>git checkout ORIGINALBRANCH</nowiki></code>. Get rid of <code><nowiki>temporarybranch</nowiki></code> by doing <code><nowiki>git branch -D temporarybranch</nowiki></code>.
+So you cloned that shiny repository and now would like to get the working tree to the state as of some tag? Use <code><nowiki>git tag -l</nowiki></code> to list all available tags, then just do a <code><nowiki>git checkout TAGNAME</nowiki></code>. If you want to build some work on it, use <code><nowiki>git checkout -b newbranch TAGNAME</nowiki></code> instead. If you want to return to your latest revision later, do <code><nowiki>git checkout ORIGINALBRANCH</nowiki></code> (usually it is <code><nowiki>master</nowiki></code>, you can list them with <code><nowiki>git branch</nowiki></code>).
 
 <<Anchor(share-objects)>>
 == How to share objects between existing repositories? ==
