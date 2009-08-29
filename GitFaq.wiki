@@ -60,7 +60,7 @@ If you really need a directory to exist in checkouts you should create a file in
 
 On a second note, tracking renames is really just a special case of tracking how content moves in the tree. In some cases, you may instead be interested in querying when a function was added or moved to a different file. By only relying on the ability to recreate this information when needed, Git aims to provide a more flexible way to track how your tree is changing.
 
-However, this does not mean that Git has no support for renames. The diff machinery in Git has support for automatically detecting renames, this is turned on by the <code><nowiki>'-M'</nowiki></code> switch to the <code><nowiki>git-diff-*</nowiki></code> family of commands. The rename detection machinery is used by [[http://www.kernel.org/pub/software/scm/git/docs/git-log.html|git-log(1)]] and [[http://www.kernel.org/pub/software/scm/git/docs/git-whatchanged.html|git-whatchanged(1)]], so for example, <code><nowiki>'git-log -M'</nowiki></code> will give the commit history with rename information. Git also supports a limited form of merging across renames. The two tools for assigning blame, [[http://www.kernel.org/pub/software/scm/git/docs/git-blame.html|git-blame(1)]] and [[http://www.kernel.org/pub/software/scm/git/docs/git-annotate.html|git-annotate(1)]] both uses the automatic rename detection code to track renames.
+However, this does not mean that Git has no support for renames. The diff machinery in Git has support for automatically detecting renames, this is turned on by the <code><nowiki>'-M'</nowiki></code> switch to the <code><nowiki>git-diff-*</nowiki></code> family of commands. The rename detection machinery is used by [[http://www.kernel.org/pub/software/scm/git/docs/git-log.html|git-log(1)]] and [[http://www.kernel.org/pub/software/scm/git/docs/git-whatchanged.html|git-whatchanged(1)]], so for example, <code><nowiki>'git log -M'</nowiki></code> will give the commit history with rename information. Git also supports a limited form of merging across renames. The two tools for assigning blame, [[http://www.kernel.org/pub/software/scm/git/docs/git-blame.html|git-blame(1)]] and [[http://www.kernel.org/pub/software/scm/git/docs/git-annotate.html|git-annotate(1)]] both uses the automatic rename detection code to track renames.
 
 As a very special case, <code><nowiki>'git log'</nowiki></code> version 1.5.3 and later has <code><nowiki>'--follow'</nowiki></code> option that allows you to follow renames when given a single path.
 
@@ -131,7 +131,7 @@ So, the merge does not rewrite your commits. They will stay the same. A rebase _
 == Why is "git rm" not the inverse of "git add"? ==
 Don't think of 'rm' as the inverse of 'add'.  That would only confuse you.
 
-When git-add is used to add changes made to a file already tracked by git, the inverse of 'git add <file>' is 'git reset HEAD -- <file>'.
+When <code><nowiki>git add</nowiki></code> is used to add changes made to a file already tracked by git, the inverse of 'git add <file>' is 'git reset HEAD -- <file>'.
 
 In the case of adding a new file, a natural inverse of 'add' is 'un-add', and that operation is called 'rm --cached', because we use that to name the option to invoke an "index-only" variant of a command when the command can operate on index and working tree file (e.g. "diff --cached", "apply --cached").
 
@@ -274,7 +274,7 @@ Most other version control systems will do a full-tree commit, using the content
 
 Git does it differently. By default, git commits the content of the index, and only this. <code><nowiki>git commit -a</nowiki></code> gives roughly the equivalent of what other systems do. Indeed, there are many concrete reasons why git's way to manage the index is good (and leads to unique features of git):
 
-* You can select files to commit with a fine granularity, telling git what you want to do little by little (<code><nowiki>git add </nowiki></code><i>file</i> to add the full content of the file to the index, <code><nowiki>git add -i</nowiki></code> or <code><nowiki>git-gui</nowiki></code> to add the content hunk-by-hunk, or even use the hunk splitting feature of <code><nowiki>git add -i</nowiki></code>).
+* You can select files to commit with a fine granularity, telling git what you want to do little by little (<code><nowiki>git add </nowiki></code><i>file</i> to add the full content of the file to the index, <code><nowiki>git add -i</nowiki></code> or <code><nowiki>git gui</nowiki></code> to add the content hunk-by-hunk, or even use the hunk splitting feature of <code><nowiki>git add -i</nowiki></code>).
 * This fine-grained file selection can help you to keep an uncommited modification in your tree for a reasonably long time. For example, you can increment the version number in the Makefile some time before a release, and use this as a reminder.
 * You can perform several small steps for one commit, checking what you did with git diff, and validating each small step with git add or git add -u. Typically, you can apply a broken patch, updating the index, with <code><nowiki>git apply --index</nowiki></code>, and then fix the patch. <code><nowiki>git diff --cached</nowiki></code> will show you your fixes, while <code><nowiki>git diff HEAD</nowiki></code> will show you the combined diff.
 * This allows excellent management of merge conflicts: <code><nowiki>git diff --base</nowiki></code>, <code><nowiki>git diff --ours</nowiki></code>, <code><nowiki>git diff --theirs</nowiki></code>.
@@ -303,7 +303,7 @@ Usually, you are not interested in the whole log, but only some bits at the begi
 
 Note that "--help" just spawns "man", so it is not Git's fault there. But you can use <code><nowiki>git help -w xxx</nowiki></code> to use a browser instead of "man" if the HTML documentation is installed. See the git help documentation for more information about this.
 
-If you do not like the pager default, you can set <code><nowiki>core.pager = cat</nowiki></code> with <code><nowiki>git-config</nowiki></code> or tell your shell about <code><nowiki>GIT_PAGER=cat</nowiki></code>.
+If you do not like the pager default, you can set <code><nowiki>core.pager = cat</nowiki></code> with <code><nowiki>git config</nowiki></code> or tell your shell about <code><nowiki>GIT_PAGER=cat</nowiki></code>.
 
 <<[[GitLink]](pager-color, Your pager might remove the colors)>>
 == Why does diff/log not show color, even though I enabled it? ==
@@ -419,7 +419,7 @@ git commit -v
 
 <<Anchor(push-is-reverse-of-fetch)>>
 == How would I use "git push" to sync out of a firewalled host? ==
-When you work on two machines, sometimes your firewall would let you make a TCP connection only in one direction but not in the other direction. Suppose you start a project on machine A (mothership), and clone from there to a machine B (satellite). You work on B and would want to propagate the change back to your repository on machine A. Even if you wanted to, you cannot run git-fetch on machine A to fetch from B, as B is firewalled and does not allow incoming connections. What should you do in such a case?
+When you work on two machines, sometimes your firewall would let you make a TCP connection only in one direction but not in the other direction. Suppose you start a project on machine A (mothership), and clone from there to a machine B (satellite). You work on B and would want to propagate the change back to your repository on machine A. Even if you wanted to, you cannot run <code><nowiki>git fetch</nowiki></code> on machine A to fetch from B, as B is firewalled and does not allow incoming connections. What should you do in such a case?
 
 Pushing 'master' branch on B to 'master' branch on A, however, is not what you would want to do. Push is a reverse of fetch in the sense that it propagates the objects and update the branch tips, but does not touch the working tree in the target repository, and you will be utterly confused when you go back to machine A after you update 'master' that way. You can realize that a push is a mirror operation of a fetch and take advantage of it. If B were <i>not</i> firewalled, you would instead run fetch on A from B. And such a fetch is arranged to fetch 'master' from B and store that in 'refs/remotes/B/master' in A.
 
@@ -428,7 +428,7 @@ So the simple solution to work around such a firewalled setup is to push 'master
 <pre><nowiki>
 machineB$ git push machineA:repo.git master:refs/remotes/B/master
 </nowiki></pre>
-When you go back to machineA to work further, it is as if you did a git-fetch from machineB, like this:
+When you go back to machineA to work further, it is as if you did a <code><nowiki>git fetch</nowiki></code> from machineB, like this:
 
 <pre><nowiki>
 machineA$ git fetch machineB:repo.git master:refs/remotes/B/master
@@ -438,7 +438,7 @@ When you are ready to integrate the changes you did on machineB into the master 
 <pre><nowiki>
 machineA$ git merge B/master ;# shorthand for refs/remotes/B/master
 </nowiki></pre>
-This is no different from the case where you actually pulled from B on A. You can set up your .git/config file to largely automate the above git-push, so that you can just say:
+This is no different from the case where you actually pulled from B on A. You can set up your .git/config file to largely automate the above <code><nowiki>git push</nowiki></code>, so that you can just say:
 
 <pre><nowiki>
 machineB$ git push
@@ -802,7 +802,7 @@ To clone the mirror repository use
     git clone git://$your_repo
 </nowiki></pre>
 
-To enable usage of git-svn in the clone use
+To enable usage of <code><nowiki>git svn</nowiki></code> in the clone use
 <pre><nowiki>
     git svn init -s --prefix=origin/ svn://.../project
 </nowiki></pre>
@@ -924,7 +924,7 @@ fatal: Entry 'frotz' not uptodate. Cannot merge.
 </nowiki></pre>
 <b>TO DO:</b> <i>Explain first of those messages</i>
 
-Second of those error messages is described in [[http://www.kernel.org/pub/software/scm/git/docs/git-checkout.html|git-checkout(1)]] man page, in the "EXAMPLES" section. It means that you have local modifications to 'frotz', which would be lost on checkout. You can give '-m' option to `git-checkout`, which would try three-way merge.
+Second of those error messages is described in [[http://www.kernel.org/pub/software/scm/git/docs/git-checkout.html|git-checkout(1)]] man page, in the "EXAMPLES" section. It means that you have local modifications to 'frotz', which would be lost on checkout. You can give '-m' option to <code><nowiki>git checkout</nowiki></code>, which would try three-way merge.
 
 Sometimes the solution is to commit.
 
@@ -943,7 +943,7 @@ Whereas you probably installed git to your $HOME or something like that.  The wo
 * Install git to <code><nowiki>/usr/bin</nowiki></code>
 * Making sure you have the correct path set up in <code><nowiki>.bashrc</nowiki></code> (not only <code><nowiki>.bash_profile</nowiki></code>)
 * Specify <code><nowiki>--receive-pack=PATH/TO/git-receive-pack</nowiki></code> at push time
-* Set <code><nowiki>remote.<name>.receivepack</nowiki></code> using <code><nowiki>git-config</nowiki></code> (see git-config(1))
+* Set <code><nowiki>remote.<name>.receivepack</nowiki></code> using <code><nowiki>git config</nowiki></code> (see git-config(1))
 
 = Importing from other revision control systems =
 See the [[InterfacesFrontendsAndTools#rcs-interaction|[[InterfacesFrontendsAndTools]]]] page ("Interaction with other Revision Control Systems" section), for a good reference on how to interact with other revision control systems.
