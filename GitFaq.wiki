@@ -404,7 +404,7 @@ This will create a local branch "maint" that tracks the remote branch "maint"
 
 <<Anchor(repo-sharing)>>
 == How do I share a git public repository and use it in a CVS way? ==
-You can use <code><nowiki>git --bare init --shared=group</nowiki></code> (or <code><nowiki>git --bare init --shared=all</nowiki></code> for unprivileged gitweb) to initialize a shared repository if you use core [[Git]] (recommended for Git 1.5+). For older versions of Git core you can also use [[Cogito]] command <code><nowiki>cg-admin-setuprepo -g</nowiki></code> (please note that Cogito is no longer actively maintained, if you use Git version 1.5+ it is recommended that you use core Git). All users belonging to your group have now permissions to push their changes to the repository. It's O.K. that refs aren't group writable, it's enough the directory is.
+You can use <code><nowiki>git --bare init --shared=group</nowiki></code> (or <code><nowiki>git --bare init --shared=all</nowiki></code> for unprivileged gitweb) to initialize a shared repository. All users belonging to your group now have permissions to push their changes to the repository. It's O.K. that refs aren't group writable, it's enough that the directory is.
 
 * See the
  [http://www.kernel.org/pub/software/scm/cogito/docs/introduction.html
