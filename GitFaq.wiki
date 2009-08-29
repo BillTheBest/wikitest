@@ -370,7 +370,10 @@ git rm --cached <filename>
 
 <<[[GitLink]](branch, to checkout other branches, use git checkout -b somename origin/somename)>>
 == How do I access other branches in a repository? ==
-After you have cloned a repository, only the master branch is tracked by default. This means that <code><nowiki> git branch </nowiki></code> will only show one branch. To view all remote repositories, use <code><nowiki> git branch -r </nowiki></code>. To access one of those branches, create a local branch that tracks the remote branch. For example, if <code><nowiki> git branch -r </nowiki></code> shows:
+When a repository is cloned, the clone gets a remote tracking branch for each
+of the original repository's branch heads, but only a single local branch head
+is created, usually this will be "master". You can get a list of all remote
+tracking branches with <code><nowiki>git branch -r</nowiki></code>.
 
 <pre><nowiki>
 Vienna:git pieter$ git branch -r
@@ -381,7 +384,13 @@ Vienna:git pieter$ git branch -r
   origin/master
 </nowiki></pre>
 
-you can create a local branch and check it out with:
+These remote tracking branches represent the branch heads of the remote
+repository as of the time you last fetched from the remote. You can use them
+almost like local branch heads, for example with <code><nowiki>git log origin/maint</nowiki></code>,
+but there's an important exception: <code><nowiki>git checkout</nowiki></code>. Trying to checkout a remote
+tracking branch will leave you with a [[[#detached|detached HEAD]]]. So if you
+want to work on some of these branches, you should create a local branch head
+for your work and check that out:
 
 <pre><nowiki>
 Vienna:git pieter$ git checkout -b maint origin/maint
@@ -390,7 +399,9 @@ Switched to a new branch "maint"
 Vienna:git pieter$
 </nowiki></pre>
 
-This will create a local branch "maint" that tracks the remote branch "maint". You can also directly checkout the remote branch with <code><nowiki>git checkout origin/maint</nowiki></code>, which will leave you with a [[[#detached|detached HEAD]]].
+This will create and checkout a branch head called "maint" that starts at the
+same commit that the remote tracking branch "origin/maint" currently
+references.
 
 <<Anchor(repo-sharing)>>
 == How do I share a git public repository and use it in a CVS way? ==
