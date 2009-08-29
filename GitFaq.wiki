@@ -60,7 +60,7 @@ If you really need a directory to exist in checkouts you should create a file in
 
 On a second note, tracking renames is really just a special case of tracking how content moves in the tree. In some cases, you may instead be interested in querying when a function was added or moved to a different file. By only relying on the ability to recreate this information when needed, Git aims to provide a more flexible way to track how your tree is changing.
 
-However, this does not mean that Git has no support for renames. The diff machinery in Git has support for automatically detecting renames, this is turned on by the <code><nowiki>'-M'</nowiki></code> switch to the <code><nowiki>git-diff-*</nowiki></code> family of commands. The rename detection machinery is used by [[http://www.kernel.org/pub/software/scm/git/docs/git-log.html|git-log(1)]] and [[http://www.kernel.org/pub/software/scm/git/docs/git-whatchanged.html|git-whatchanged(1)]], so for example, <code><nowiki>'git log -M'</nowiki></code> will give the commit history with rename information. Git also supports a limited form of merging across renames. The two tools for assigning blame, [[http://www.kernel.org/pub/software/scm/git/docs/git-blame.html|git-blame(1)]] and [[http://www.kernel.org/pub/software/scm/git/docs/git-annotate.html|git-annotate(1)]] both uses the automatic rename detection code to track renames.
+However, this does not mean that Git has no support for renames. The diff machinery in Git has support for automatically detecting renames, this is turned on by the <code><nowiki>'-M'</nowiki></code> switch to the <code><nowiki>git-diff-*</nowiki></code> family of commands. The rename detection machinery is used by [[http://www.kernel.org/pub/software/scm/git/docs/git-log.html|git-log(1)]] and [[http://www.kernel.org/pub/software/scm/git/docs/git-whatchanged.html|git-whatchanged(1)]], so for example, <code><nowiki>'git log -M'</nowiki></code> will give the commit history with rename information. Git also supports a limited form of merging across renames. The two tools for assigning blame, [[http://www.kernel.org/pub/software/scm/git/docs/git-blame.html|git-blame(1)]] and [[http://www.kernel.org/pub/software/scm/git/docs/git-annotate.html|git-annotate(1)]] both use the automatic rename detection code to track renames.
 
 As a very special case, <code><nowiki>'git log'</nowiki></code> version 1.5.3 and later has <code><nowiki>'--follow'</nowiki></code> option that allows you to follow renames when given a single path.
 
@@ -72,23 +72,13 @@ Git has a rename command <b>git mv</b>, but that is just a convenience. The effe
 == Why is "git log <filename>" slow? ==
 The answer to the question why <code><nowiki>git log <filename></nowiki></code> takes so long to find a small number of commits which changed a given file lies in the fact that Git looks at <b>all</b> the commits to find that.
 
-Git simply <b>does not have</b> per-file history. Not having per-file history is what allows Git to do
+Git simply <b>does not have</b> per-file history. Not having per-file history is what allows Git to do <code><nowiki>git log <directory-or-file></nowiki></code> rather than being able to track just one file. You can't do it sanely with per-file history (because to tie the per-file histories back together in a logical sequence, you need the global history to sort it again!).
 
-<pre><nowiki>
-git log <directory-or-file>
-</nowiki></pre>
-rather than being able to track just one file. You can't do it sanely with per-file history (because to tie the per-file histories back together in a logical sequence, you need the global history to sort it again!).
-
-That said, you might well need to just run
-
-<pre><nowiki>
-git gc
-</nowiki></pre>
-to make it hugely faster.
+That said, you might well need to just run <code><nowiki>git gc</nowiki></code> to make it hugely faster.
 
 Note that <code><nowiki>git log <file1> <file2></nowiki></code> (or <code><nowiki>gitk <file1> <file2></nowiki></code>) is not simply the union of <code><nowiki>git log <file1></nowiki></code> and <code><nowiki>git log <file2></nowiki></code>; it can contain merges which are in neither of the separate histories. Doing the history for two files together is <b>not at all equivalent</b> to doing the history for those files individually and stitching it together.
 
-To speed up "git log" give it a range of interesting revisions; you can also try <code><nowiki>--remove-empty</nowiki></code> option (with some caveats).
+To speed up <code><nowiki>git log</nowiki></code>, give it a range of interesting revisions; you can also try <code><nowiki>--remove-empty</nowiki></code> option (with some caveats).
 
 * [[http://permalink.gmane.org/gmane.comp.version-control.git/39358|Re: how to speed up "git log"?]] by Linus Torvalds on Git mailing list.
 
@@ -312,7 +302,7 @@ Set <code><nowiki>core.pager = less -FXRS</nowiki></code> with <code><nowiki>git
 == Why does git diff sometimes list a file that has no changes? ==
 <code><nowiki>git diff</nowiki></code> and other git operations is optimized so it does not even look at files whose status (size, modification time etc) on disk and in git's [[Index|index]] are different. This makes <code><nowiki>git diff</nowiki></code> extremely fast for small changes. If the file has been touched somehow, git diff has to look at the content of and compare it which is a much slower operation even when there is in fact no change. <code><nowiki>git diff</nowiki></code> lists the files as a reminder that it is not used optimally. Running <code><nowiki>git status</nowiki></code> will not only show status, but will also update the index with status for unchanged files disk making subsequent operations, not only diff, much faster. A typical case that causes many files to be listed by diff is running mass editing commands like <code><nowiki>perl -pi -e '...'</nowiki></code>.
 
-== What does the gitk error message ""Can't parse git log output:" mean? ==
+== What does the gitk error message "Can't parse git log output:" mean? ==
 This is usually caused by <code><nowiki>color.diff</nowiki></code> being set to true in your config. <code><nowiki>git log</nowiki></code> outputs log entries in colors when <code><nowiki>color.diff = true</nowiki></code>. And <code><nowiki>gitk</nowiki></code> can only parse plain output.
 
 It is recommended (as of 1.5.3) that <code><nowiki>color.diff</nowiki></code> be kept off. Use <code><nowiki>git log --color</nowiki></code> if you need colored output.
@@ -380,7 +370,7 @@ git rm --cached <filename>
 
 <<[[GitLink]](branch, to checkout other branches, use git checkout -b somename origin/somename)>>
 == How do I access other branches in a repository? ==
-After you have cloned a repository, only the master branch by default is tracked. This means that <code><nowiki> git branch </nowiki></code> will only show one branch. To view all remote repositories, use <code><nowiki> git branch -r </nowiki></code>. To create access one of those branches, create a local branch that tracks the remote branch. For example, if <code><nowiki> git branch -r </nowiki></code> shows:
+After you have cloned a repository, only the master branch is tracked by default. This means that <code><nowiki> git branch </nowiki></code> will only show one branch. To view all remote repositories, use <code><nowiki> git branch -r </nowiki></code>. To access one of those branches, create a local branch that tracks the remote branch. For example, if <code><nowiki> git branch -r </nowiki></code> shows:
 
 <pre><nowiki>
 Vienna:git pieter$ git branch -r
@@ -400,7 +390,7 @@ Switched to a new branch "maint"
 Vienna:git pieter$
 </nowiki></pre>
 
-This will create a local branch "maint" that tracks the remote branch "maint"
+This will create a local branch "maint" that tracks the remote branch "maint". You can also directly checkout the remote branch with <code><nowiki>git checkout origin/maint</nowiki></code>, which will leave you with a [[[#detached|detached HEAD]]].
 
 <<Anchor(repo-sharing)>>
 == How do I share a git public repository and use it in a CVS way? ==
@@ -539,7 +529,7 @@ If you messed up a file, or removed it accidentally, and want to revert file cha
 <pre><nowiki>
 git checkout HEAD -- <file>
 </nowiki></pre>
-If you want to revert to version in index, use
+If you want to revert to version in index (i.e. the last version you ran <code><nowiki>git add</nowiki></code> on), use
 
 <pre><nowiki>
 git checkout -- <file>
@@ -884,7 +874,7 @@ If you want to track it, add a plus (+) sign to the proper line in your <code><n
 [remote "origin"]
         fetch = +refs/heads/pu:refs/remotes/origin/pu
 </nowiki></pre>
-Which tells git to deal with the problem for you by simply skip the fast forward check (doing "true" merge instead of fast-forward). Or you can just delete that line completely if you don't want to track the pu branch at all.
+Which tells git to deal with the problem for you by simply skip the fast forward check (overwriting your old ref with the new one). Or you can just delete that line completely if you don't want to track the pu branch at all.
 
 It is conceivable that in future versions of git we might want to be able to mark some branches "this is expected to be rewound" explicitly and make the clone operation to take notice, to give you the plus sign automatically.
 
@@ -896,7 +886,7 @@ fatal: protocol error: bad line length character
 error: failed to push to 'git.example.com:/Repo/Project.git'
 fatal: The remote end hung up unexpectedly
 </nowiki></pre>
-It likely means you have some extraneous characters, info message or something upon loging into ssh in command mode.
+It likely means you have some extraneous characters, info message or something upon logging into ssh in command mode.
 
 To test this, do:
 
