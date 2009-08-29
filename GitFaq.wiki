@@ -406,9 +406,7 @@ This will create a local branch "maint" that tracks the remote branch "maint"
 == How do I share a git public repository and use it in a CVS way? ==
 You can use <code><nowiki>git --bare init --shared=group</nowiki></code> (or <code><nowiki>git --bare init --shared=all</nowiki></code> for unprivileged gitweb) to initialize a shared repository. All users belonging to your group now have permissions to push their changes to the repository. It's O.K. that refs aren't group writable, it's enough that the directory is.
 
-* See the
- [http://www.kernel.org/pub/software/scm/cogito/docs/introduction.html
- introduction to Cogito] or GIT's [[http://www.kernel.org/pub/software/scm/git/docs/gitcvs-migration.html|cvs-migration]] doc, "Emulating the CVS Development Model" section for details.
+* See Git's [[http://www.kernel.org/pub/software/scm/git/docs/gitcvs-migration.html|cvs-migration]] doc, "Emulating the CVS Development Model" section for details.
 
 <<Anchor(commit-diff)>>
 == How can I add a diff of the commit into the commit message window? ==
