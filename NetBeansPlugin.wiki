@@ -1,7 +1,8 @@
 = [[NetBeans]] Plugin =
 
 New project underway to provide support for Git repositories directly from the [[NetBeans]] IDE.
-Code based on [[NetBeans]] Mercurial support. Wraps around Git command-line tool, rather than relying on E-Git (such as [[EclipsePlugin]]) for the time-being.
+The module is based on the [[NetBeans]] Mercurial code. It uses the JGit library originally developed as part of the [[EclipsePlugin]].
+
 More information at http://nbgit.googlecode.com/
 
 == Project Information ==
