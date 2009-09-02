@@ -146,6 +146,7 @@ Obviously, we cannot usefully combine steps 1 and 2.  We could have "git add --c
 The fact that steps 3 and 4 can be naturally combined, but steps 1 and 2 cannot be, makes "add" and "rm" not inverse of each other.
 
 * [[http://mid.gmane.org/7vps2y3a4n.fsf@assigned-by-dhcp.cox.net|Re: git-rm isn't the inverse action of git-add]] message by Junio C Hamano.
+* [[http://pivotallabs.com/users/alex/blog/articles/1001-git-unadd|git unadd]] by Alex Chaffee
 
 = Features =
 
