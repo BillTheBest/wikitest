@@ -7,11 +7,9 @@ These are events when git developers and users physically meet in the same place
 
 == [[GitTogether]] '09 ==
 
-<b>October 26(Mon)-28(Wed) in [http://maps.google.com/maps?f=q&hl=en&q=Amphitheatre+Pkwy,+Mountain+View,+California+94043,+United+States&sll=37.40293,-121.952735&sspn=0.008565,0.012081&ie=UTF8&cd=2&geocode=FcEHOwIdfiW5-A&ll=37.421572,-122.083619&spn=0.017127,0.024161&t=h&z=16&iwloc=addr Mountain View, California]</b>
+<b>October 26(Mon)-28(Wed) in [[http://maps.google.com/maps?f=q&hl=en&q=Amphitheatre+Pkwy,+Mountain+View,+California+94043,+United+States&sll=37.40293,-121.952735&sspn=0.008565,0.012081&ie=UTF8&cd=2&geocode=FcEHOwIdfiW5-A&ll=37.421572,-122.083619&spn=0.017127,0.024161&t=h&z=16&iwloc=addr|Mountain View, California]]</b>
 
-See [http://mid.gmane.org/20090413151808.GT23604@spearce.org Shawn's mail].
-
-Host: our [http://www.google.com generous friends] in Mountain View (like last year). If you plan to attend, please fill out the [http://tinyurl.com/coefaq survey].
+For further details, see the [[GitTogether]]09 planning page.
 
 == "Alles Wird Git" Berlin [[GitTogether]] '09 ==
 * What: An informal gathering of Gits.
