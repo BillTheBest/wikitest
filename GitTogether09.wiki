@@ -43,6 +43,13 @@ Please propose and vote on topics through [[http://moderator.appspot.com/#15/e=b
 |  [[http://code.google.com/p/gerrit/|Gerrit Code Review]] 
 |  30 min 
 | 
+|-
+|  [[http://moderator.appspot.com/#8/e=bbfd5|proposed]] 
+|  Sverre Rabbelier 
+|  Demo, integration discussion, seek feedback 
+|  [[http://github.com/SRabbelier/hg-git/tree/fast-export|Hg-git and hg fast-export]] 
+|  15? min 
+| 
 |}
 
 == Directions ==
