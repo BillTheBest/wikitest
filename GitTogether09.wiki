@@ -54,8 +54,8 @@ Please propose and vote on topics through [[http://moderator.appspot.com/#15/e=b
 |-
 |  [[http://moderator.appspot.com/#8/e=bbfd5|proposed]] 
 |  Scott Chacon 
-|  Cassandra backed Git Daemon 
-|  [[http://github.com/schacon/agitmemnon|Agitmemnon]] 
+|   Demo and feedback 
+|  [[http://github.com/schacon/agitmemnon|Agitmemnon : Cassandra backed Git Daemon]] 
 |  15 min 
 | 
 |}
