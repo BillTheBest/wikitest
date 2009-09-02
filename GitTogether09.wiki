@@ -33,7 +33,8 @@ Please propose and vote on topics through [[http://moderator.appspot.com/#15/e=b
 |  <b>Speaker</b> 
 |  <b>Kind of session</b> 
 |  <b>Title</b> 
-|  <b>Talk Length</b>
+|  <b>Talk Length</b> 
+| 
 |-
 |  [[http://moderator.appspot.com/#15/e=bbfd5&t=bbfd6&q=bcb91|proposed]] 
 |  Shawn Pearce 
