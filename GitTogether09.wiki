@@ -26,23 +26,22 @@ Breakfast and lunch each day will be catered by Google.  Dinner out is at our ow
 
 == Suggested Topics ==
 
+Please propose and vote on topics through [[http://moderator.appspot.com/#15/e=bbfd5&t=bbfd6|the GitTogether '09 moderator series]].  If you propose a topic, please also add it the table below.
+
 {| border="1" cellpadding="2" cellspacing="0"
 |  <b>Status</b> 
 |  <b>Speaker</b> 
 |  <b>Kind of session</b> 
 |  <b>Title</b> 
-|  <b>Talk Length</b> 
-| 
+|  <b>Talk Length</b>
 |-
-|  proposed 
+|  [[http://moderator.appspot.com/#15/e=bbfd5&t=bbfd6&q=bcb91|proposed]] 
 |  Shawn Pearce 
 |  Demo, describe challenges, seek feedback 
 |  Gerrit Code Review 
 |  30 min 
 | 
 |}
-
-Please add suggestions to the above topic list.
 
 == Directions ==
 Its up to you to get to Google each day.  You may want to try and carpool with other attendees staying at nearby hotels.
