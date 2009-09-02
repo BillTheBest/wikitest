@@ -39,7 +39,7 @@ Please propose and vote on topics through [[http://moderator.appspot.com/#15/e=b
 |  [[http://moderator.appspot.com/#15/e=bbfd5&t=bbfd6&q=bcb91|proposed]] 
 |  Shawn Pearce 
 |  Demo, describe challenges, seek feedback 
-|  Gerrit Code Review 
+|  [[http://code.google.com/p/gerrit/|Gerrit Code Review]] 
 |  30 min 
 | 
 |}
