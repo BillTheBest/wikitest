@@ -11,6 +11,7 @@ Any questions, please contact Shawn Pearce ( gsoc@spearce.org ).
 # Scott Chacon
 # Tom Preston-Werner
 # David Brown
+# Steve Bourne
 
 Google has us capped at ~25 attendees.
 
