@@ -59,6 +59,9 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 
 == Non-kernel projects that use Git for their source code management. ==
 
+* [[OpenSpliceDDS]] (Prismtech open source implementation of the OMG Data Distribution Service (DDS)) 
+** http://www.opensplice.org (homepage)
+** git://www.opensplice.org/opensplice (repository)
 * Google's android
 ** http://source.android.com/download
 * Various projects hosted at Freedesktop.org:
