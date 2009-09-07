@@ -12,11 +12,20 @@ Have fun!
 * http://tinyurl.com/[[GitSurvey]]2009 (expands to the link below)
 * http://www.survs.com/survey?id=2PIMZGU0&channel=Q0EKJ3NF54
 
-There is also alternate version which does not require cookies, but it
+There is also alternate version which <i>does not require cookies</i>, but it
 doesn't allow to go back to response and edit it.  
-Please use the other version if possible.
+Please use the version above if possible.
 
 * http://www.survs.com/survey?id=2PIMZGU0&channel=1MH6FTZV5O
+
+----
+Current results of the survey:
+
+* "partial summary" threads on git mailing list, via GMANE
+** [[http://thread.gmane.org/gmane.comp.version-control.git/124599|Git User's Survey 2009 partial summary, part 1 - announcing survey, participation]]
+** [[http://thread.gmane.org/gmane.comp.version-control.git/126153|Git User's Survey 2009 partial summary, part 2 - from first 10]] (git difficulty, proficiency, uses, install, OS, editors)
+** [[http://thread.gmane.org/gmane.comp.version-control.git/127632|Git User's Survey 2009 partial summary, part 3 - last 10 questions (incl. getting help)]]
+* [[http://www.survs.com/shareResults?survey=2PIMZGU0&rndm=678J66QRA2|Live results (summary) of the survey]] (on Survs.com)<<BR>> <b><i>Note:</b> you can use existing on-line filters for basic survey analysis</i>
 
 ----
 [[CategoryStatistics]]
