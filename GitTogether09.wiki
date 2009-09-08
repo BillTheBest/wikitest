@@ -48,18 +48,25 @@ Please propose and vote on topics through [[http://moderator.appspot.com/#15/e=b
 |  30 min 
 | 
 |-
-|  [[http://moderator.appspot.com/#8/e=bbfd5|proposed]] 
+|  [[http://moderator.appspot.com/#15/e=bbfd5&t=bbfd6&q=bbfd7|proposed]] 
 |  Sverre Rabbelier 
 |  Demo, integration discussion, seek feedback 
 |  [[http://github.com/SRabbelier/hg-git/tree/fast-export|Hg-git and hg fast-export]] 
 |  15? min 
 | 
 |-
-|  [[http://moderator.appspot.com/#8/e=bbfd5|proposed]] 
+|  [[http://moderator.appspot.com/#15/e=bbfd5&t=bbfd6&q=bdb2d|proposed]] 
 |  Scott Chacon 
 |   Demo and feedback 
 |  [[http://github.com/schacon/agitmemnon|Agitmemnon : Cassandra backed Git Daemon]] 
 |  15 min 
+| 
+|-
+|  [[http://moderator.appspot.com/#15/e=bbfd5&t=bbfd6&q=bfe72|proposed]] 
+|  Shawn Pearce 
+|  Demo, challenges, future directions 
+|  [[http://code.google.com/p/gimd/|gimd (Git Message Database]] 
+|  30 min 
 | 
 |}
 
