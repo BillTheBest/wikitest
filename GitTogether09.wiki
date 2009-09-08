@@ -65,7 +65,7 @@ Please propose and vote on topics through [[http://moderator.appspot.com/#15/e=b
 |  [[http://moderator.appspot.com/#15/e=bbfd5&t=bbfd6&q=bfe72|proposed]] 
 |  Shawn Pearce 
 |  Demo, challenges, future directions 
-|  [[http://code.google.com/p/gimd/|gimd (Git Message Database]] 
+|  [[http://code.google.com/p/gimd/|gimd (Git Message Database)]] 
 |  30 min 
 | 
 |}
