@@ -989,6 +989,7 @@ Yes, there is a number of importers, including one in contrib/ directory of Git 
 == Can I import from Mercurial? ==
 Yes, use for example Rocco Rutte's hg-fast-export (from fast-export.git on [[http://repo.or.cz/|repo.or.cz]]).
 
+You can also use hg-git mercurial plugin ([[http://hg-git.github.com/]]) that adds to the Mercurial repository ability to push to and pull from a Git server.
 <<Anchor(import-others)>>
 == Can I import from other SCMs? ==
 Maybe, check if Tailor ([[http://wiki.darcs.net/DarcsWiki/Tailor|homepage]]) can do it. Take a look at [[InterfacesFrontendsAndTools#rcs-interaction|[[InterfacesFrontendsAndTools]]]] page ("Interaction with other Revision Control Systems" section)
