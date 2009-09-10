@@ -1,5 +1,59 @@
-4DzG74 ronmental impact are very long. The introduction of aircraft and engine design changes, [[http://technetnepal.net/members/malaysian_2D00_airline/default.aspx|malaysian airline]]fluids (Type I ADFs) and aircraft anti-icing fluids (Type IV AAFs) (Switzenbaum et al.,,  uatltp, [[http://drowningintechnicaldebt.com/members/continental_2D00_airline/default.aspx|continental airline]]implementation  plan,  SIP)  to  achieve  or  exceed  these  minimum  standards               ,  01547, [[http://prisonplace.com/members/thai_2D00_airline/default.aspx|thai airline]]of aviation emissions at the local and regional level.,  pfoi, [[http://ncraonline.org/forum/members/deltaairlines/default.aspx|deltaairlines]]Nov. 15, 1990, 104 Stat. 2399). Section 14.5 discusses the sources, impacts and control,  8-))), [[http://f1inschools.pitsco.com/members/united_2D00_airfare/default.aspx|united airfare]]Deicing and anti-icing of aircraft are most commonly done by applying aircraft deicing,  >:-DDD, [[http://codesapien.com/members/cheap_2D00_flight_2D00_to_2D00_vegas/default.aspx|cheap flight to vegas]]statements that are required prior to airport development projects or airspace redesign.,  2064, [[http://forum.planetrock.co.uk/members/northwest_2D00_airline/default.aspx|northwest airline]]changes, technological changes and policy changes (that may or may not directly impact,  8715,
-----
-[[CategoryPeople]]
+= Installation Help =
+== Installing Git ==
+If you already have Git installed (many new Linux distributions come with git), you can get the latest development version via Git itself by using the command:
+
+<pre><nowiki>
+git clone git://git.kernel.org/pub/scm/git/git.git</nowiki></pre>
+* If you have problems connecting (Git uses port 9418), you can try to access the repository over the HTTP protocol (this method is considerably slower but works even behind firewalls and such):
+<pre><nowiki>
+git clone http://www.kernel.org/pub/scm/git/git.git
+</nowiki></pre>
+The <b>main</b> place to get Git is at: http://www.kernel.org/pub/software/scm/git/ You can also use one of many [[http://www.kernel.org/mirrors/|kernel.org mirrors]].
+
+The latest install directions are included with git under INSTALL and the most current version online is [[http://git.kernel.org/?p=git/git.git;a=blob_plain;f=INSTALL;hb=master|here]].
+
+== Windows Systems ==
+Git can be obtained by using the [[http://www.cygwin.com/|Cygwin]] system and installing Git from within Cygwin. More info at [[CygwinBinaryInstall]]. Another convenient choice is [[http://code.google.com/p/msysgit/|msysGit]]. If you would like to help develop Git on windows you need to [[http://code.google.com/p/msysgit/|install the Git Development Environment for Windows]]. Running Git on Windows is still in its infancy but it is improving rapidly every day.
+
+If you have the main development team on linux/unix, and peripheral developers or translators on Windows, consider using <code><nowiki>git-cvsserver</nowiki></code> to give those users read or read/write access to the GIT tree via the CVS protocol. Committers using <code><nowiki>git-cvsserver</nowiki></code> have some limits: they cannot branch, tag or merge. On the other hand, git-cvsserver works well with Eclipse, TortoiseCVS and other easy-to-use CVS clients. You could also set up a SVN repository and use git-svn to achieve the same thing as using CVS.
+
+== Others ==
+* EclipseIDE-based GIT client, based on a pure [[http://repo.or.cz/w/egit.git|Java implementation]] of GIT's internals.
+* Windows Explorer extension ([[http://code.google.com/p/msysgit/wiki/GitCheetah|Git-Cheetah]])
+== OS X ==
+Git for the OS X is installed by using the [[http://code.google.com/p/git-osx-installer/downloads/list|git-osx-installer]] but if you haven't got Leopard you're screwed because there aren't any install scripts and the source won't compile.
+
+Alternatively, you can install Git via [[http://www.macports.org/|MacPorts]] or [[http://www.finkproject.org/|Fink]]. Both work with Tiger, but may pull in a couple of dependencies. With [[MacPorts]], be sure to check out possible extra features with <code><nowiki>port variants git-core</nowiki></code>; for example, to install Git with bash completion use <code><nowiki>sudo port install git-core +bash_completion</nowiki></code>.
+
+== Debian / Ubuntu ==
+If you want to build deb packages from upstream Git sources yourself (because the official debs are too old or you want to try some patch, whatever), you could try: [[http://repo.or.cz/w/gitcj-debian.git]]
+
+== Getting and installing documentation ==
+You can find all the plain text documentation in the git source tree's [[http://www.kernel.org/git/?p=git/git.git;a=tree;f=Documentation|Documentation/]] directory.
+
+In order to build the HTML version of the documentation you need to have [[AsciiDoc]] version 7.0 or greater installed. Man pages also require that xmlto is installed.
+
+To build and install documentation from the git source code simply run:
+
+<pre><nowiki>
+$ make install-doc
+</nowiki></pre>
+If you want to avoid having to install the documentation tools, autogenerated documentation is available in separate tarballs from:
+
+* http://www.kernel.org/pub/software/scm/git/
+beginning with the 1.4.0 version, as:
+
+* http://www.kernel.org/pub/software/scm/git/git-htmldocs-1.4.0.tar.gz
+* http://www.kernel.org/pub/software/scm/git/git-manpages-1.4.0.tar.gz
+Also, many distributions bundle pregenerated documentation with either the git-core package or in a separate git-doc package.
+
+If you already track development in the public git project repository, you may also choose to fetch the autogenerated HTML and man pages from the <code><nowiki>html</nowiki></code> and <code><nowiki>man</nowiki></code> branches. Read [[http://www.kernel.org/git/?p=git/git.git;a=blob;hb=HEAD;f=INSTALL|INSTALL]] for more detailed documentation (at the end of the file). Once you have fetched the branches, you can use:
+
+<pre><nowiki>
+$ git tar-tree man > git-man.tar
+$ git tar-tree html > git-html.tar</nowiki></pre>
+to easily extract the documentation.
+
+For people on OS X (and on distributions that do not manage XML catalog files automatically), write-up by Steven Grimm may be helpful: http://article.gmane.org/gmane.comp.version-control.git/35565
 
 __NOTOC__
