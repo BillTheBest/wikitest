@@ -237,5 +237,6 @@ To remove a submodule you need to:
 # Delete the relevant section from <i>.git/config</i>.
 # Run <i>git rm --cached path_to_submodule</i> (no trailing slash).
 # Commit and delete the now untracked submodule files.
+# [[http://www.elephantcarhire.com/car-hire-united-kingdom/gatwick-airport-car-hire.htm|hertz gatwick]]
 
 __NOTOC__
