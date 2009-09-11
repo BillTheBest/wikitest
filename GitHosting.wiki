@@ -31,7 +31,7 @@ Those are public Git hosting sites where any project can be hosted, perhaps with
 * [[http://www.projectlocker.com|ProjectLocker]] offers Git hosting and integration with Trac. Repositories are private, designed for businesses. Free plans give limited space and users, and paid plans offer increased storage capacity and number of users.
 * [[http://sourcerepo.com|SourceRepo]] provides paid Git hosting along with Trac project management.
 * [[http://www.cipherhive.com/|CipherHive]] is a free Git/Webdav hosting repository for Open Source Developers. [[http://hotpepperhosting.com|HotPepperHosting]] the developer of ![[CipherHive]] offer custom Git/Webdav repository solutions for proprietary developers needs.
-* [[http://gitfarm.appspot.com|GitFarm]] A git free private git hosting service built upon Google App Engine technology, good for small groups or individual developers.
+* [[http://gitfarm.appspot.com|GitFarm]] A free private git hosting service built upon Google App Engine technology, good for small groups or individual developers.
 
 === Project specific Git hosting sites ===
 * [[http://www.kernel.org|Kernel.org]] ([[http://git.kernel.org/|gitweb]]) for Linux kernel related projects. Uses [[http://git.kernel.org/?p=git/warthog9/gitweb.git|gitweb fork]] with caching support.<<BR>> Kernel.org accounts are not given away very often, usually you need to be making some reasonable amount of contributions to the Linux kernel and have a good reason for wanting / needing an account.
