@@ -1,5 +1,143 @@
-w8viev airport activities, and is discussed in detail in this chapter., [[http://technetnepal.net/members/malaysian_2D00_airline/default.aspx|malaysian airline]]protection standards. The Clean Air Act of  1973  (CAA), which was last amended in,  8-]], [[http://drowningintechnicaldebt.com/members/continental_2D00_airline/default.aspx|continental airline]]issued by the Environmental Council  (European Commission,  2006a). The EU Direc-,  94864, [[http://prisonplace.com/members/thai_2D00_airline/default.aspx|thai airline]]the world can adopt (NRC, 2002). With regard to the environmental impact of aviation,,  099815, [[http://cankayabmt.com/members/las_2D00_vegas_2D00_airfare/default.aspx|las vegas airfare]]Prize Award for Best Paper in Transportation Science & Logistics , and the INFORMS,  752015, [[http://f1inschools.pitsco.com/members/united_2D00_airfare/default.aspx|united airfare]]from washing of ground support vehicles can contain oils, grease, detergents and sol-,  99877, [[http://codesapien.com/members/cheap_2D00_flight_2D00_to_2D00_vegas/default.aspx|cheap flight to vegas]]typically produced through public reaction to noise assessments and environmental impact,  8-[[[, [[http://cnug.co.in/members/dog_2D00_airlines/default.aspx|dog airlines]]been awarded the Franz Edelman 2nd Prize for Achievement in Operations and the Man-,  :-OOO,
+== 创建一个 Git 版本库 ==
+
+<pre><nowiki>
+$ cd project/
+$ git init          # 创建 .git 目录 ( 1.4.4.4 版本之后用这个命令 )
+$ git add .         # 将那些未被跟踪的文件加入版本库中
+$ git commit        # 将工作目录的变化提交到版本库中
+</nowiki></pre>
+
+Git 将根据在版本库根目录中的 [[.gitignore]] 文件中列出的文件名，
+忽略对那些文件的跟踪， 文件和目录名，可以用 shell 正则表达式来表示。
+
+== 分支与合并 ==
+
+<pre><nowiki>
+$ git checkout -b linux-work  # 创建一个名叫 "linux-work" 的分支
+$ <make changes>
+$ git commit -a
+$ git checkout master         # 回到主分支
+$ git merge linux-work        # 将在 linux-work 分支上的变更集合并入 master 分支 
+                              # (适用于 Git 1.5 以上版本)
+$ git pull . linux-work       # 将在 linux-work 分支上的变更集合并入 master 分支 
+                              # (适用于 Git 的所有版本)
+</nowiki></pre>
+
+== 引入补丁 ==
+
+<pre><nowiki>
+$ git apply < ../p/foo.patch
+$ git commit -a
+</nowiki></pre>
+
+== 生成补丁 ==
+
+<pre><nowiki>
+$ <make changes>
+$ git commit -a -m "commit message"
+$ git format-patch HEAD^  # 生成一个 0001-commit-message.patch 的文件
+                          # ( 这里的意思是生成当前分支的最新版本到他的父版本 HEAD^ 
+                          # 的所有文件的补丁，当然你应该知道 HEAD 的概念是什么 )
+</nowiki></pre>
+
+== 网络功能 ==
+
+<pre><nowiki>
+# 从主版本库中克隆
+
+foo$ git clone git://git.kernel.org/pub/scm/git/git.git
+foo$ cd git
+
+# 将本地变更推入远程版本库
+
+foo$ git push user@example.com:my-repository.git/
+
+# 抓取远程版本库中的其中一个分支到本地版本库
+
+foo$ git fetch user@example.com:my-repository.git/ remote-branch:local-branch
+
+# 将远程版本库中的变化合并到本地
+
+bar$ git pull git://foo/repo.git/ branch
+
+# 用 git 协议建立版本库服务
+
+foo$ cd /my/repository/
+foo$ touch .git/git-daemon-export-ok
+foo$ git daemon                      # 这样其他人就可以通过 git://your.machine/my/repository/.git/ 来抓取版本库
+
+# 建立一个裸版本库( 没有工作目录的 )
+
+foo$ mkdir my-repo.git
+foo$ cd my-repo.git
+foo$ git --bare init
+foo$ chmod a+x .git/hooks/post-update # 用 HTTP 协议来传输版本时要这样
+                                      # 并且你需要用 push 命令来植入你的版本库的内容
+</nowiki></pre>
+
+== 查看各个版本 ==
+<pre><nowiki>
+# 用图形界面工具查看历史
+
+foo$ gitview            # 这个命令打开图形界面窗口，你可以从中看到版本的历史沿革关系 
+
+# 查看日志
+
+foo$ git log             # 输出当前分支的日志
+foo$ git log -p          # 输出日志，并同时在每个提交信息之后显示补丁
+
+# 查看指定的变更
+
+foo$ git show HEAD       # 显示变更信息，差异比较位置，
+                         # 以及到当前分支最新状态的补丁。
+</nowiki></pre>
+
+== 查看历史记录 ==
+
+<pre><nowiki>
+# 根据名称查看
+
+foo$ git log v1.0.0                         # 列举历史记录至标签 "v1.0.0" 
+foo$ git log master                         # 列举 "master" 分支的历史记录
+
+# 根据名称关联查看
+
+foo$ git show master^                       # 检查 master 分支的最后一个父版本的内容
+foo$ git show master~2                      # 检查 master 祖父版本的最后内容
+foo$ git show master~3                      # 检查 master 曾祖父的最后内容
+
+# 根据 "git describe" 的输出
+
+foo$ git show v1.4.4-g730996f               # 你可以用 "git describe" 命令得到这个输出
+
+# 根据哈希序列号（在 git 内部，所有的对象都是由哈希序列号来标记的）
+
+foo$ git show f665776185ad074b236c00751d666da7d1977dbe
+foo$ git show f665776                        # 通常你只要输入前几个数字已经足够
+
+# 制作标签
+
+foo$ git tag v1.0.0                          # 将当前 HEAD 制作为 "v1.0.0" 的标签
+foo$ git tag interesting v1.4.4-g730996f     # 标记你感兴趣的东西（不是 HEAD）
+</nowiki></pre>
+
+== Comparing revisions ==
+
+<pre><nowiki>
+# diff between two branches
+foo$ git diff origin..master            # pipes a diff into PAGER
+foo$ git diff origin..master > my.patch # pipes a diff into my.patch
+
+# get diffstat of uncommitted work
+foo$ git diff --stat HEAD
+</nowiki></pre>
+
+== Cherry picking patches ==
+
+<pre><nowiki>
+foo$ git cherry-pick other-branch~3     # apply 4th last patch of other-branch to current branch
+</nowiki></pre>
 ----
-[[CategoryTemplate]]
+[[CategoryGitDocumentation]]
 
 __NOTOC__
