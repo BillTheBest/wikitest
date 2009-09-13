@@ -1,5 +1,53 @@
-long been strong incentives for improved fuel efficiency. More fuel-efficient aircraft emit, [[http://radiowiki.teknusi.org/euro-airline-265|euro airline]]to carry fuel reserves to ensure they can safely reach their destination - and beyond if,  =[[, http://wiki.edumagnet.org/cheap-flight-to-germany-220|cheap flight to germany14.3                                                                                             Airport Water Quality Control,  :(((, [[http://ccan.ozlabs.org/Wiki/airline-annual-report-112|airline annual report]]bus stations, car parks and roads, can contain a wide range of potentially polluting,  %-[[[, http://hvr.postech.ac.kr/wiki/wiki.php/airline-ticket-auction-366|airline ticket auctionchanges, technological changes and policy changes (that may or may not directly impact,  90045, [[http://140.112.13.91/eg2008/vegas-airline-tickets-50|vegas airline tickets]]interrelated. For example, quieter engines may be heavier and therefore less fuel efficient,,  %-)), [[http://llug.skn.wsinf.edu.pl/lowest-airline-fares-196|lowest airline fares]]produce a net warming effect). Section 14.6 discusses the impact of aviation emissions,  cpifvj, [[http://wiki.lareta.net/philippine-airline-315|philippine airline]]homes and land purchase) around airports. In particular, the Aviation Safety and Noise,  8-OO,
+= What is the index? =
+
+Many a times the subject comes up on the mailing list: "Why keep the index?" or, "The index is a performance trick."
+
+<i>The truth is: the index is a staging area. Every SCM has it, but git shows it to you, and uses it effectively.</i>
+
+== A staging area ==
+
+For those used to CVS or similar: What happens when you do
+
+<pre><nowiki>
+cvs add some.file
+cvs commit some.file
+</nowiki></pre>
+
+The first command, <code><nowiki>cvs add some.file</nowiki></code> does not commit the file, right? Where has it gone? Answer: into the staging area.
+
+With the second command, <code><nowiki>cvs commit some.file</nowiki></code>, you can finally commit. But what happens to the other modified files? Are they committed? Answer: no, the last revision is updated with the new version of <code><nowiki>some.file</nowiki></code>, "in the staging area", and <i>then</i> committed.
+
+So really, it is neither a new concept, nor an intimidating one. The index comes naturally to you when you say
+
+<pre><nowiki>
+git add some.file
+</nowiki></pre>
+
+Now, the file is in the index. And here comes the difference to CVS: once you put something into the index, a simple <code><nowiki>git diff</nowiki></code> will only show differences <i>with respect to the indexed version</i>. Which means that you will not see any differences to <code><nowiki>some.file</nowiki></code>, once you put it into the index. The reason: git assumes that you know what you are doing. If you put something into the staging area with <code><nowiki>git add</nowiki></code>, remove a file with <code><nowiki>git rm</nowiki></code>, or put a modified version of a file into the staging area with <code><nowiki>git update-index some.file</nowiki></code>, git assumes that you want to commit this state, and will not bother you by showing differences you are most likely not interested in.
+
+One special case exists:
+
+<pre><nowiki>
+git commit some.file
+</nowiki></pre>
+
+In this case, git assumes that you want to create a temporary staging area from the tip of the current branch ("HEAD"), update <code><nowiki>some.file</nowiki></code>, and commit the resulting state. After you committed that state, the staging area is resurrected as it was before that commit.
+
+This operation ("save the current staging area, construct a new one, commit it, and then restore the staging area") seems a bit illogical, since you would usually expect only one staging area. However, in practice it happens quite often that you slap your forehead, because you forgot to commit something very important. So, just edit the respective files, commit just these, and continue with what you were doing before you hurt yourself (slapping your forehead).
+
+In essence: The index is a staging area for the next commit, but for convenience, passing filenames explicitely to <code><nowiki>git commit</nowiki></code> builds a temporary staging area from the latest revision and the current version of the provided files before committing that state.
+
+== Merges ==
+
+Normally, a git user will rarely be exposed to the index, if he/she is not committing a revision. But there is one notable exception: merges.
+
+When you merge the work of others, sometimes conflicts happen. These are put in the index. (Strictly speaking, the whole merge is done inside the index by inserting the current version, the version of the branch-to-be-merged, and the merge base (common ancestor) into the index, and merging them using a three-way-diff. If there are no conflicts, these three entries are collapsed into a single entry. Otherwise the three entries stay there, with the common ancestor being replaced by the result of the merge.)
+
+Again, git is intelligent about what to show you upon a <code><nowiki>git diff</nowiki></code>: those entries which merged cleanly are already updated in the staging area. It is unlikely that you want to see these differences right now, because you have to fix up conflicts -- if there are any. So, a <code><nowiki>git diff</nowiki></code> will show you a combined diff, i.e. a simultaneous diff of the merged-with-conflicts file against both the current version and the version in the branch-to-be-merged.
+
+Now you know what the index is good for.
+
 ----
-[[CategoryTemplate]]
+[[CategoryGitDocumentation]]
 
 __NOTOC__
