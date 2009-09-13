@@ -1,5 +1,43 @@
-vents as well as heavy metals such as lead and cadmium. This runoff can be significant;, [[http://sulug.sun.ac.za/cgi-bin/moin.cgi/indian-airline-india-121|indian airline india]]the world can adopt (NRC, 2002). With regard to the environmental impact of aviation<sub>  %-DD, [[http://ccan.ozlabs.org/Wiki/airline-annual-report-112|airline annual report]]101 - 549, Nov. 15,  1990, 104 Stat. 2399). For aircraft, the enforcement responsibility,  47405, [[http://www.sulug.sun.ac.za/cgi-bin/moin.cgi/united-airfare-362|united airfare]]the world can adopt (NRC, 2002). With regard to the environmental impact of aviation</sub>  npkn, [[https://ia.auburn.edu/iacwiki/ethiopian-airline-126|ethiopian airline]]the high capital costs of aircraft coupled with the high residual value of aircraft pro-,  938, [[http://miya.pe.kr/wiki/find-discount-airfare-93|find discount airfare]]NASA is responsible for increasing the range of environmental mitigation options that,  =D, [[http://isabel.dit.upm.es/isamoin/airline-tickets-to-france-14|airline tickets to france]]design and policy problems that require joint attention to noise, air quality and climate,  3128, [[http://coanda.amath.unc.edu/scicomp/continental-airline-284|continental airline]]for clean air standards is borne by the Federal Aviation Administration (FAA). The CAA,  qjm,
+See also [[WhatIsTheIndex]] and [[IndexCommandQuickref]]
+
+The <b>index file</b>, sometimes just referred to as the <b>index</b>, stores
+information about the current working tree. If for example you add a file, it
+will first be recorded in the index file so that later, when you do a commit,
+git will know that the file should be added. This method of recording
+intermediate status information also comes into play during a merge,
+where the index file is used for keeping track of resolved and unresolved conflicts.
+
+Besides serving as a "staging area" for changes made between commits, it also
+serves as a cache for the working tree. This helps performance in trees with a
+lot of files, since stat information, such as modification time, for each checked out file is placed in
+the index file so that later operations can compare it against the stat information
+in the current working tree and thereby ignore files that are unchanged.
+
+= The Index File and Everyday Usage =
+
+While the index file is an essential part of how the low-level content tracking
+works, it can in many circumstances be ignored by the user, since the SCM
+interface will take care of updating the index file. Additionally, understanding
+how the index file affects the different SCM operations may often be hard for new
+users. Thus, [[Cogito]] chooses to <i>hide</i> the index file completely in order to
+improve usability.
+
+= Examples =
+
+Users new to git are often confused by the difference between <pre><nowiki>
+$ git diff
+</nowiki></pre>
+which diffs the working tree against the current index state and <pre><nowiki>
+$ git diff HEAD
+</nowiki></pre>
+that diffs the working tree against the state of the last commit.
+
+For more advanced usage patterns the index file can be of significant help. As
+an example, it lets you record an intermediate state whereby you will be able
+to diff against this particular state instead of the last commit.
+
 ----
-[[CategoryTools]]
+[[CategoryGitDocumentation]]
+[[CategoryGlossary]]
 
 __NOTOC__
