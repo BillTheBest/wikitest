@@ -1,47 +1,5 @@
-= A collection of how Git compares to other version control software: =
-== Git Wiki comparisons: ==
-* [[GitBenchmarks]]
-* [[GitSvnComparsion:[[GitSvnComparison]]]]
-
-== Git comparisons found on the web: ==
-* [http://whygitisbetterthanx.com/ whygitisbetterthanx.com]
-* [http://better-scm.berlios.de/comparison/ Better SCM Initiative: Comparison] by Shlomi Fish (includes all systems that make sense, and some more).<br> <b>Note</b> that as of 1 Dec 2008 information about Git contained there is [http://thread.gmane.org/gmane.comp.version-control.git/95809/focus=97253 inaccurate].
-* [http://versioncontrolblog.com/comparison/ Version control systems comparison] Another interface to Better SCM database.
-* [http://vcscompare.blogspot.com/2008/06/git-mercurial-bazaar-repository-size.html Blogpost comparing Git, Mercurial and Bazaar size]
-* [[WikiPedia:Comparison_of_revision_control_software|Comparison of revision control software]] table at Wikipedia.
-* [http://www.infoq.com/articles/dvcs-guide InfoQ] comparison of Git, Hg, and Bzr. (May 2008)
-* [http://bazaar-vcs.org/RcsComparisons?action=recall&rev=98 [[RcsComparisons]] rev. 98] (user-oriented table, removed because it was of limited use), [http://bazaar-vcs.org/RCSChoices RCSChoices] (table of the decisions), [http://bazaar-vcs.org/SCMComparisons SCMComparisons] (lists of features) and [http://bazaar-vcs.org/BzrVsGit [[BzrVsGit]]] at Bazaar-NG wiki. /!\
-* [http://zooko.com/revision_control_quick_ref.html Quick Reference Guide to Free Software Decentralized Revision Control Systems] by Zooko
-* [http://www.dwheeler.com/essays/scm.html Comments on Open Source Software / Free Software (OSS/FS) Software Configuration Management (SCM) Systems] by David A. Wheeler, (April 10, 2004; lightly revised May 18, 2005). Git added at the very end of article.
-* [http://linuxmafia.com/faq/Apps/scm.html Source-code management on Linux] - large list of SCMs with descriptions at Linux<code><nowiki></nowiki></code>Mafia.
-* [http://www.selenic.com/pipermail/mercurial/2005-May/000334.html Mercurial 0.5b vs git] is an old (before pack files in git) post by Matt Mackall benchmarking Mercurial (<code><nowiki>hg</nowiki></code>) and comparing Mercurial, Git and Bit<code><nowiki></nowiki></code>Keeper.
-* [http://bramcohen.livejournal.com/17319.html Version Control Shenanigans] and [http://bramcohen.livejournal.com/17925.html More version control stuff] Live<code><nowiki></nowiki></code>Journal articles by Bram Cohen, founder of Codeville and a current contributor.
-* [http://wincent.com/a/about/wincent/weblog/archives/2007/07/a_look_back_bra.php A look back: Bram Cohen vs Linus Torvalds] on a [http://wincent.com/a/about/wincent/weblog/ Wincent Colaiuta's weblog] describes mailing list thread in which Bram Cohen (of Codeville) and Linus Torvalds (of Git) discuss importance of merge algorithms.
-* [http://glyphobet.theory.org/blog/?p=60 A Codeville user speaks] on [http://glyphobet.theory.org/blog/ Matt Chisholm blog] is a Codeville user response to [http://speirs.org/ Fraser Speirs] post [http://speirs.org/2007/07/19/a-subversion-user-looks-at-git/ A Subversion User Looks at Git]
-* [http://opensolaris.org/os/community/tools/scm/ Source Code Management for OpenSolaris] describes choosing SCM for Open<code><nowiki></nowiki></code>Solaris (Subversion for centralized SCM, Mercurial for distributed SCM was chosen).
-** [http://www.opensolaris.org/os/community/tools/scm/dscmreqdoc/ Distributed Source Code Management (DSCM) Requirements]
-** [http://opensolaris.org/os/community/tools/scm/dcm_evaluation_mercurial/ OpenSolaris DSCM Evaluation: Mercurial] (chosen as distributed SCM)
-** [http://opensolaris.org/os/community/tools/scm/bzr-eval/ OpenSolaris DSCM Evaluation: Bzr] (Interim Report)
-** [http://opensolaris.org/os/community/tools/scm/git-report-final.txt OpenSolaris DSCM Evaluation: Git] (Final Report, txt)
-* [http://keithp.com/blog/Repository_Formats_Matter/ Repository Formats Matter] by Keith Packard, about moving X.Org from CVS to Git (and choosing Git over Mercurial), and the [http://www.selenic.com/mercurial/wiki/index.cgi/RepositoryFormatsMatter answer in the Mercurial wiki].
-* [http://www-128.ibm.com/developerworks/linux/library/l-vercon/index.html?ca=drs- Version control for Linux] article by M. Tim Jones, at [http://www-128.ibm.com/developerworks/ IBM's developerWorks] is an overview of SCM architectures, models, and examples (CVS, Subversion, GNU Arch, Git).
-* [http://changelog.complete.org/posts/528-Whose-Distributed-VCS-Is-The-Most-Distributed.html Whose Distributed VCS Is The Most Distributed?] entry by John Goerzen compares chosen 8 "ideal VCS" features (author uses Darcs) against different common SCM: Arch (tla, baz, etc), Bazaar-NG (bzr), Darcs, Git, Mercurial (hg), and Subversion (svn). [http://changelog.complete.org/posts/594-More-on-Git,-Mercurial,-and-Bzr.html More on Git, Mercurial, and Bzr], [http://changelog.complete.org/posts/595-bzr,-again.html bzr, again] and [http://changelog.complete.org/posts/596-Some-more-git,-mercurial,-and-darcs.html Some more git, mercurial, and darcs] compares those SCMs. Read also comments for those articles.
-* [http://tytso.livejournal.com/29467.html Git and hg] by Ted Tso is a reply to [http://changelog.complete.org/posts/594-More-on-Git,-Mercurial,-and-Bzr.html More on Git, Mercurial, and Bzr] by John Goerzen, reaching different conclusion but agreeing with description of git shortcomings (ease-of-use and documentation shortcomings).
-* [http://jaredrobinson.com/blog/?p=62 What’s happening with Version Control Systems?] from January 28, 2007 on [http://jaredrobinson.com/blog Jared’s Blog] talks about different SCM systems and gives highly subjective comparison table for Subversion, SVK, Git/Cogito, Mercurial, Bazaar-NG, Darcs and Perforce.
-* [http://automatthias.wordpress.com/2007/06/07/directory-renaming-in-scm/ Directory renaming in SCM] on [http://automatthias.wordpress.com/ Maciej Bliziński blog] checks this specific aspect, or rather adding file to directory renamed in other branch.
-* [http://bryan-murdock.blogspot.com/2007/03/cutting-edge-revision-control.html Cyclopedia Square: Cutting Edge Revision Control:], on Bryan Murdock blog, comparez Bazaar-NG ('bzr'), Darcs, Mercurial ('hg') and Git in the terms of performance, usability and handling renames. See also other articles tagged [http://bryan-murdock.blogspot.com/search/label/revision%20control revision control]
-* [http://speirs.org/2007/07/19/a-subversion-user-looks-at-git/ A Subversion User Looks at Git] and [http://speirs.org/2007/07/23/a-subversion-user-looks-at-git-part-2/ A Subversion User Looks at Git - Part 2] (comments) on Fraser Speirs blog.
-* [http://blog.experimentalworks.net/2007/08/git-vs-mercurial/ Git vs. Mercurial] - comparison of features.
-* [http://utsl.gen.nz/talks/git-svn/intro.html An introduction to git-svn for Subversion/SVK users and deserters] by Sam Vilain describes how to import from and work with Subversion repositories and SVK mirrors. Also describes why would one want to choose Git over Subversion.
-* Git Vs SVN by [http://mjtsai.com/blog/2007/07/15/subversion-to-git/ Michael Tsai]
-* Git Vs SVN by [http://utsl.gen.nz/talks/git-svn/intro.html Sam Vilain]
-* Git Vs Hg by [http://tytso.livejournal.com/29467.html Ted Tso]
-* Git Vs Hg by [http://www.jukie.net/~bart/blog/git-vs-hg Bart Trojanowski]
-* [http://www.smashingmagazine.com/2008/09/18/the-top-7-open-source-version-control-systems/ 7 Version Control Systems Reviewed] in [http://www.smashingmagazine.com/ Smashing Magazine] describes some of the top open-source SCM: CVS, Subversion (SVN), Git, Mercurial, Bazaar, LibreSource and Monotone, providing besides description also a few important links for each tool;
-
-== SCMs comparisons not including Git ==
-* [http://wiki.gnuarch.org/SubVersionAndCvsComparison Subversion and CVS Comparison], includes Aegis, Arch, CVS, Subversion, SVK briefly compared table.
-* [http://www.onlamp.com/pub/a/onlamp/2004/01/29/scm_overview.html The New Breed of Version Control Systems] by Shlomi Fish, at O'Reilly ONLamp (CVS, Subversion, Arch, Open<code><nowiki></nowiki></code>CM, Aegis, Monotone, Bit<code><nowiki></nowiki></code>Keeper).
-* [http://blog.mwolson.org/tech/why_i_dislike_subversion.html Why I dislike Subversion] on [http://blog.mwolson.org/ Michael Olson blog] <i>(more of a rant than comparison)</i>.
+increasing fuel use (and thus increasing operating costs and environmental impacts). To, [[http://radiowiki.teknusi.org/airline-t-shirts-139|airline t shirts]]the INFORMS Transportation and Logistics Section, as President of INFORMS, and as,  32471, [[http://140.112.13.91/eg2008/airline-in-israel-279|airline in israel]]protection standards. The Clean Air Act of  1973  (CAA), which was last amended in,  30696, [[http://ccan.ozlabs.org/Wiki/thai-airline-225|thai airline]]design and policy problems that require joint attention to noise, air quality and climate,  856480, [[http://llug.skn.wsinf.edu.pl/airfare-insurance-372|airfare insurance]]The FAA also bears the responsibility for setting and enforcing aviation noise standards,  czamj, [[http://www.sulug.sun.ac.za/cgi-bin/moin.cgi/airline-ticket-special-275|airline ticket special]](a warming effect) and through removal of methane (a cooling effect). In addition, contrails,  34287, [[http://coanda.amath.unc.edu/scicomp/airline-in-pakistan-392|airline in pakistan]]house gas emissions on the global climate (ICAO, 2005a). Within ICAO, the Committee,  623, [[https://ia.auburn.edu/iacwiki/delta-airline-home-page-377|delta airline home page]]Clearing of airfield surfaces is achieved using chemical deicing agents (e.g., ethylene or,  149904,
+----
+[[CategoryTools]]
 
 __NOTOC__
