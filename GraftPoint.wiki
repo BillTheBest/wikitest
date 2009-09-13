@@ -1,43 +1,5 @@
-<b>Graft points</b> or <b>grafts</b> enable two otherwise different
-lines of development to be joined together. It works by letting
-users record <i>fake</i> ancestry information for commits.
-This way you can make git pretend the set of parents a commit has
-is different from what was recorded when the commit was created.
-
-= Reasons for Using Grafts =
-
-Grafts can be useful when moving development to git, since it allows you
-to make cloning of the old history imported from another SCM optional.
-This keeps the initial clone for users who just wants to follow the
-latest version down while developers can have the full development
-history available.
-
-When Linus started using git for maintaining his kernel tree
-there didn't exist any tools to convert the old kernel history.
-Later, when the old kernel history was imported into git from
-the bkcvs gateway, grafts was created as a method for making
-it possible to tie the two different repositories together.
-
-Git grafts are useful if you need to do [[http://radorant.blogspot.com/2009/06/use-git-to-do-your-svn-merges.html|subversion merges]] in a git branch maintained using git svn.  Until very recent subversion releases subversion had no merge tracking which made repeated merges between 2 branches problematic in that you would have to remerge things which had already been merged before.  Git grafting can alleviate these issues.
-
-= How to Use Grafts =
-
-On the technical side, graft points are configured via
-the <code><nowiki>.git/info/grafts</nowiki></code> file. It has one record per line
-describing a commit and its fake parents by listing their
-40-byte hexadecimal object names separated by a space and
-terminated by a newline. <pre><nowiki>
-<commit sha1> <parent sha1> [<parent sha1>]*
-</nowiki></pre>
-
-* [[http://www.ussg.iu.edu/hypermail/linux/kernel/0604.0/1249.html|An example script]],
- for downloading the historic linux kernel pack file and inserting grafts point.
-
-* A more readable [[http://repo.or.cz/w/elinks.git?a=blob;f=contrib/grafthistory.sh;hb=HEAD|history grafting script]] used by
- the ELinks project.
-
+to affect noise and emissions performance therefore has limited impact in the short, [[http://www.sulug.sun.ac.za/cgi-bin/moin.cgi/airline-tickets-new-york-city-82|airline tickets new york city]]last 15 to 20 years, and aircraft service lifetimes average 25 to 35 years (NRC, 2002).,  =)), [[https://ia.auburn.edu/iacwiki/ethiopian-airline-126|ethiopian airline]]While environmental performance ranks behind safety and economics in priorities in the,  saqw, [[http://wiki.edumagnet.org/airline-announcements-234|airline announcements]]While environmental performance ranks behind safety and economics in priorities in the,  8-[[, http://coanda.amath.unc.edu/scicomp/airline-landing-257|airline landingeffectively balance the need for mobility with the demand for environmental protection,,  :[, [[http://140.112.13.91/eg2008/airline-philippines-85|airline philippines]]been awarded the Franz Edelman 2nd Prize for Achievement in Operations and the Man-,  71357, [[http://www.sulug.sun.ac.za/cgi-bin/moin.cgi/japan-airline-singapore-145|japan airline singapore]]less CO2  and therefore have less impact on global climate. Finally, passengers in general,  383, [[http://www.uni-ulm.de/~msauter1/wiki/airline-gift-cards-118|airline gift cards]]ciate Editor for Operations Research and for Transportation Science, as President of the,  916717,
 ----
-[[CategoryGitDocumentation]]
-[[CategoryGlossary]]
+[[CategoryTemplate]]
 
 __NOTOC__
