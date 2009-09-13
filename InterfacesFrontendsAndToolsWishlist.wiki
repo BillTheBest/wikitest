@@ -1,5 +1,73 @@
-the airline industry and airline management at MIT and is the Program Manager of the, [[http://www.uni-ulm.de/~msauter1/wiki/iran-airline-141|iran airline]]an ethylene glycol-based fluid known as UCAR) to loosen snow and ice, which can then,  cixlz, [[http://lexicon.tufs.ac.jp/icciwiki/airline-to-pakistan-298|airline to pakistan]]interrelated. For example, quieter engines may be heavier and therefore less fuel efficient,,  gkv, [[http://140.112.13.91/eg2008/airline-to-singapore-93|airline to singapore]]using a combination of mechanical methods, deicing fluids and solid chemicals, to ensure,  979, [[http://miya.pe.kr/wiki/cheap-flight-to-vegas-65|cheap flight to vegas]]Engineering, Professor of Civil and Environmental Engineering and Engineering Sys-,  %-(((, [[http://wiki.ubuntu-fi.org/travel-cheap-airfare-45|travel cheap airfare]]cially acceptable and certified, production runs on successful commercial aircraft may,  648, [[http://isabel.dit.upm.es/isamoin/airline-tickets-atlanta-391|airline tickets atlanta]]such as on-time performance, availability of direct flights, and ticket price tend to trump,  435, [[http://lexicon.tufs.ac.jp/icciwiki/airline-consultants-135|airline consultants]]from aircraft engines directly and indirectly  (through the formation of cirrus clouds),  fodx,
+<b>See also:</b>
+* [[InterfacesFrontendsAndTools]]
+* [[http://www.venge.net/monotone/wiki/InterfacesFrontendsAndTools|[[InterfacesFrontendsAndTools]]]] page on Monotone wiki
+* [[http://www.selenic.com/mercurial/wiki/index.cgi/OtherTools|Other Tools that work with Mercurial]] page on Mercurial wiki
+* [[http://wiki.darcs.net/DarcsWiki/[[RelatedSoftware]]|Software that works with darcs]] page on Darcs wiki
+* [[http://bazaar-vcs.org/3rdPartyTools|Third party tools]] and [[http://bazaar-vcs.org/PluginRegistry|Plugin registry]] pages on Bazaar-NG wiki
+
+= Other programs that *should* be taught to work with Git, but haven't been =
+
 ----
-[[CategoryGlossary]]
+<span style="font-size: smaller">[[[#Bugzilla|Bugzilla]]], [[[#Bonsai|Bonsai]]], [[[#Trac|Trac]]], [[[#TWiki|TWiki]]], [[[#scmbug|SCMBug]]], [[[#be|BugsEverywhere]]], [[[#Savane|Savane]]], [[[#libresource|LibreSource]]], [[[#DVC|DVC (Emacs)]]], [[[#PIDA|PIDA]]], [[[#Eric3|Eric3]]], [[[#xxdiff|xxdiff]]], [[[#Dreamweaver|Dreamweaver]]]</span>
+----
+
+<b>Bugzilla</b> (bugtracker)<<Anchor(Bugzilla)>><<Anchor(Bonsai)>>:: <span style="font-size: x-large; color: red">!</span>
+    [[http://www.bugzilla.org/|Bugzilla]] is a "Defect Tracking System" or "Bug-Tracking System".  [[http://bugzilla.kernel.org/|Kernel Bug Tracker]] for posting bugs against the mainline Linux kernels is based on Bugzilla.
+
+    Patch Viewer is (built in?) an enhancement to Bugzilla designed to provide adequate context for submitted patches through integration with [[http://www.mozilla.org/projects/bonsai/|Bonsai]], [[http://lxr.sourceforge.net/|LXR]] and CVS. [[http://www.cvszilla.org/|CVSZilla]] is a small piece of Perl-glue to integrate either CVS or Subversion with Bugzilla and CVSWeb or ViewCVS. <b>See also:</b> [[[#scmbug|SCMBug]]] entry below.
+
+    It would be nice to have also Git integration, for example referencing commits and tags, perhaps via making (additionally) Bonsai report against Git. Via hooks, this should be possible using [[http://www.liquidx.net/pybugz/|PyBugz]]. <i>(Perl)</i>
+
+<b>Trac</b> (bugtracker/wiki/history browser)<<Anchor(Trac)>><<Anchor([[GitTrac]])>>::
+    [[http://www.edgewall.com/trac/|Trac]] is a popular integrated history browser/wiki/bug tracker, which has very recently grown a plugin interface that lets it work with VCS-es besides Subversion. The right place to start is probably the [[http://projects.edgewall.com/trac/wiki/TracMercurial|[[TracMercurial]] plugin]], since Mercurial uses the same history model as Git. Another right place could be the [[http://trac-hacks.org/wiki/GitPlugin|[[GitPlugin]]]], a plugin for Trac to use Git instead of Subversion (and perhaps also [[http://trac-hacks.org/wiki/GitwebPlugin|[[GitwebPlugin]]]]). Using [[http://trac-hacks.org/wiki/TracGitPlugin|[[TracGitPlugin]]]] is not recommended, as it is a hack.
+
+    There is also [[http://cvstrac.org/cvstrac/wiki?p=GitTrac|GIT Trac]] project to add Git suport for [[http://cvstrac.org/|CVSTrac]], similar to Trac but simpler project (inspiration for Trac).
+
+    Another similar project for which would be nice to have Git support is [[http://collaboa.org/about|Collaboa]] and [[http://www.atlassian.com/software/jira/|JIRA]]. <i>(Python for Trac, C for CVSTrac, Ruby on Rails for Collaboa, Java for JIRA)</i>.
+
+<b>TWiki</b> (wiki)<<Anchor(TWiki)>>::
+    [[http://twiki.org/|TWiki]] is a flexible, powerful, and easy to use enterprise collaboration platform and knowledge management system. It includes plugins for integration with bug-tracking software: Bugzilla and GNATS. Plugins are developed under CVS and Subversion; moving to Subversion is encouraged. No support for plugin development under Git. <i>(Perl CGI)</i>
+
+<b>SCMBug</b> (SCM with bugtracking integration)<<Anchor(scmbug)>>::
+    [[http://www.mkgnu.net/?q=scmbug|Scmbug]] is a system that integrates software configuration management (SCM) with bug-tracking. It aims to be a universal tool that will glue any source code version control system (supports CVS and Subversion, no Git support yet) with any bug-tracking system (supports Bugzilla, Mantis and Request Tracker). It is in early version. <i>(Perl)</i>
+
+<b>Bugs Everywhere</b> (bugtracker)<<Anchor(be)>>::
+    [[http://bugseverywhere.org|Bugs Everywhere]] is a bug-tracker for distributed development. It stores bugreports inside the repository, so the status of bugs are propagated with push/pull/merges, and no glue is needed between the SCM and the Bug Tracker. <b>Has Git support.</b> <i>(Python)</i>
+
+<b>Savane</b> (software hosting system)<<Anchor(Savane)>>::
+    [[https://gna.org/projects/savane|Savane]] is a web-based software hosting system. Both Savannah ([[https://savannah.gnu.org|GNU]] and [[https://savannah.nongnu.org/|non-GNU]]) and [[https://gna.org|Gna!]] use Savane as their software hosting engine. They currently include issue tracking, project member management by roles and individual account maintenance. The issue tracking handles bugs, tasks, support, news and documentation management. It currently supports CVS, Subversion, and GNU Arch. Savannah uses [[https://savannah.nongnu.org/p/savane-cleanup|clean-up branch of Savane]] which does have [[https://savannah.gnu.org/maintenance/Git|Git support]], but there is no Git support in [[https://gna.org/projects/savane|Savane]] proper yet. <i>(Perl or PHP)</i>
+
+    [[http://sharesource.org/about/|ShareSource]], another software hosting system, has also plans for Git support (see [[http://sharesource.org/project/sharesource/bugtracker/view/67/|Git revision control support]] ticket); currently it supports Subversion and Mercurial ('hg'),
+
+<b>LibreSource</b> (Open Source Versatile Collaborative Distributed Envirionment)<<Anchor(libresource)>>::
+    [[http://www.libresource.org/|LibreSource]] aims to be distributed version of collaborative environment platforms such as Drupal (CMS) or SourceForge (software development).  LibreSource includes its own SCM tool called LibreSource Synchronizer (described as: innovative, simple, united).  Since version 2.0 LibreSource integrates the Subversion SCM... which is a bit strange as Subversion is centralized SCM.  It would be nice to have integration with Git, which is distributed SCM. <i>(Java J2EE: ObjectWeb Jonas application server)</i>
+
+<b>DVC (Distributed Version Control)</b> (Emacs interface)<<Anchor(DVC)>>::
+    [[http://download.gna.org/dvc/|DVC]] is a project to create a generic library for fancy Emacs interfaces to modern version control systems. Has support for several systems, including (incomplete) support for Git. <i>(Emacs, elisp)</i>
+
+<b>Eric3</b> (IDE)<<Anchor(Eric3)>>::
+    [[http://www.die-offenbachs.de/detlev/eric3.html|Eric3]] is a full featured Python (and Ruby) IDE that is written in PyQt using the QScintilla editor widget. It supports CVS, Subversion and Mercurial. <i>(Python, Qt)</i>
+
+<b>[[NetBeans]]</b> (IDE)<<Anchor([[NetBeans]])>>::
+    Popular open-source IDE offering typical IDE features for Java, Ruby, C++ and other languages. See [[NetBeansPlugin]] for information on a plugin in development. <i>(Java, Swing)</i>
+
+<b>Merge tools</b> <<Anchor(xxdiff)>><<Anchor(KDiff3)>><<Anchor(Kompare)>>::
+    Perhaps [[http://furius.ca/xxdiff/|xxdiff]] (Qt; has CVS and Subversion integration with scripts), [[http://kdiff3.sourceforge.net/|KDiff3]] and/or [[http://www.caffeinated.me.uk/kompare/|Kompare]] (Kompare is diff only) should also have some VCS support...  <i>(Python, GNOME)</i>
+
+    Note: Git support for external graphical merge resolution programs has been added into the git development mainline via a new git command, "git mergetool", as of git 1.5.1.  git-mergetool currently supports kdiff3, meld, xxdiff, tkdiff, and GNU Emacs's emerge.
+
+<b>Dreamweaver</b>  (IDE)<<Anchor(Dreamweaver)>>::
+    [[http://labs.adobe.com/technologies/dreamweavercs4/|Dreamweaver 4 Beta]] Download the prerelease of the next version of Dreamweaver now and send us your feedback. The Dreamweaver beta will expire soon after the next version of Dreamweaver is available for purchase.
+    I've [[http://www.adobe.com/cfusion/webforums/forum/messageview.cfm?catid=674&threadid=1370996|put in a request]] to the Dreamweaver CS4 Forum.
+
+<b>Quickbuild</b> (Continuous Integration build server)
+    [[http://wiki.pmease.com/display/qb2/Documentation+Home|Documentation]] for the upcoming 2.0 release. The new 2.0 version allows the writing of plugins for repositories.
+
+<b>Rational Team Concert</b> (Work Item Management / SCM / Build Management / Dev. Environment)
+    [[https://jazz.net/projects/rational-team-concert/|Rational Team Concert]] - A collaborative software development environment.
+    Rational Team Concert enables developers to collaborate together using integrated Planning, Source Control, Work Items, Build, Dashboards, Reports, and Process Support. An example Git integration tutorial can be seen [[https://jazz.net/library/article/194|here]]
+
+----
+[[CategoryTools]]
 
 __NOTOC__
