@@ -1,5 +1,97 @@
-impacts. It falls to local, national and international regulatory bodies to seek policies that, [[http://sulug.sun.ac.za/cgi-bin/moin.cgi/cozumel-airfare-39|cozumel airfare]]design and policy problems that require joint attention to noise, air quality and climate,  rbcll, [[http://ccan.ozlabs.org/Wiki/thai-airline-225|thai airline]]issued by the Environmental Council  (European Commission,  2006a). The EU Direc-,  89757, [[http://lexicon.tufs.ac.jp/icciwiki/airfare-offers-292|airfare offers]]may have negative consequences for local, national and world economies. But allow-,  cpdwge, [[http://miya.pe.kr/wiki/netherlands-airline-192|netherlands airline]]airport sources adversely affect air quality and therefore health. In the USA many coun-,  %-))), [[http://wiki.edumagnet.org/airline-to-rome-349|airline to rome]]quality, community noise, local air quality, and climate change, and how these impacts,  23094, [[http://ccan.ozlabs.org/Wiki/delta-airline-travel-17|delta airline travel]]marketplace, there is a growing awareness of the important link between environmental,  89614, [[http://wiki.ubuntu-fi.org/airline-ticket-secrets-301|airline ticket secrets]]the INFORMS Transportation and Logistics Section, as President of INFORMS, and as,  4512,
+See [[IndexFile]] to know what "index" is
+
+<<<!-- ! TOC here -->(2)>>
+
+== Update file content to index ==
+
+With development version (FIXME: add version here), you can do:
+<code><nowiki>git add file</nowiki></code>
+
+Otherwise use:
+<code><nowiki>git update-index file</nowiki></code>
+
+== Add a file to index ==
+<code><nowiki>git add file</nowiki></code>
+
+Low-level command is:
+<code><nowiki>git update-index --add file</nowiki></code>
+
+== Delete a file from index ==
+<code><nowiki>git rm file</nowiki></code>
+
+Note: with new git version, the above command also removes file in working directory if it matches HEAD
+
+Low-level command is:
+<code><nowiki>git update-index --remove [--force-remove] file</nowiki></code>
+
+== Read a tree to index ==
+To read a tree from HEAD (reset index), do:
+<code><nowiki>git reset</nowiki></code>
+
+To read an abitrary tree to index:
+<code><nowiki>git reset <commit-ish></nowiki></code>
+
+Low-level command is:
+<code><nowiki>git read-tree <tree-ish></nowiki></code>
+
+== Read a file from a tree to index ==
+Sorry there is currently no short command for this.
+
+<code><nowiki>git ls-tree treeish file | git update-index --index-info --stdin</nowiki></code>
+
+== Copy a file from index to working directory ==
+<code><nowiki>git checkout file</nowiki></code>
+
+Or low-level version:
+<code><nowiki>git checkout-index file</nowiki></code>
+
+== Refresh index ==
+<code><nowiki>git status</nowiki></code>
+
+Actually the above command does more, but who cares :-)
+
+Low-level command is:
+<code><nowiki>git update-index --refresh</nowiki></code>
+
+== Copy entire index to working directory ==
+<code><nowiki>git checkout -f</nowiki></code>
+
+Low-level command:
+<code><nowiki>git checkout-index</nowiki></code>
+
+== List files in index ==
+<code><nowiki>git ls-files</nowiki></code>
+
+== Compare index file listing and working directory ==
+<code><nowiki>git status</nowiki></code>
+
+Or a lower command:
+<code><nowiki>git ls-files {--deleted|--others|--ignored|--stage|--unmerged|--killed|--modified} </nowiki></code>
+See man page for more information
+
+== View a file from index (Output a file from index to stdout) ==
+<code><nowiki>git cat-file -p ::<file></nowiki></code>
+
+To see files from stage <n>, do:
+<code><nowiki>git cat-file -p :<n>:<file></nowiki></code>
+
+== Diff between working directory and index ==
+<code><nowiki>git diff</nowiki></code>
+
+Low-level command:
+<code><nowiki>git diff-files</nowiki></code>
+
+== Diff between index and a tree ==
+To diff index with a tree:
+<code><nowiki>git diff --cached</nowiki></code>
+
+To diff with an abitrary tree:
+<code><nowiki>git diff --cached <tree-ish></nowiki></code>
+
+Low-level command:
+<code><nowiki>git diff-index --cached <tree-ish></nowiki></code>
+
 ----
-[[CategoryPeople]]
+[[CategoryGitDocumentation]]
 
 __NOTOC__
