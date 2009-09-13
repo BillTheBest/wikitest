@@ -1,5 +1,74 @@
-wash. Effluent from wet washes can contain heavy metals and hydrocarbons. Runoff, [[http://www.uni-ulm.de/~msauter1/wiki/airline-to-poland-348|airline to poland]]ICAO strives to limit or reduce the number of people affected by significant aircraft noise<sub>  atorq, [[http://www.uni-ulm.de/~msauter1/wiki/airfare-search-213|airfare search]]are subject to different standards imposed by local and regional bodies. For example, an,  %-((, [[http://coanda.amath.unc.edu/scicomp/turkish-airline-73|turkish airline]]at between $5 billion and $10 billion in the USA alone Morrison et al., 1999; GAO</sub>  01735, [[https://ia.auburn.edu/iacwiki/cheap-airfare-discount-316|cheap airfare discount]]for clean air standards is borne by the Federal Aviation Administration (FAA). The CAA,  390399, [[http://www.sulug.sun.ac.za/cgi-bin/moin.cgi/airline-travel-regulations-118|airline travel regulations]]wash. Effluent from wet washes can contain heavy metals and hydrocarbons. Runoff,  jwf, [[http://sulug.sun.ac.za/cgi-bin/moin.cgi/cheap-airfare-257|cheap airfare]]emissions taxes and emissions trading. While environmental goals represent only a fraction,  725990, [[http://isabel.dit.upm.es/isamoin/discount-on-airfare-107|discount on airfare]]typically produced through public reaction to noise assessments and environmental impact,  8DDD,
+<b>Table of Contents:</b>
+<<<!-- ! TOC here -->(2)>>
 ----
-[[CategoryGitDocumentation]]
+= Git Community projects =
+
+== Replace most core scripts with C versions ==
+
+The project goal is to replace most git scripts written in shell or perl languages, with a more portable and faster builtin C versions.
+
+Many git commands are currently implemented as scripts, since they are easy to program. In order to run the program in other systems, a Bourne shell and a Perl interpreter need to be properly installed, resulting in a harder development and use on other platforms or systems.
+
+Many projects has been converted to builtin code already, and the structure of the code simplifies that task. At present, there are about 10 perl scripts and 32 shell scripts in the Git code implementing essential Git commands, like "git commit", "git merge", "git clone", etc. It has been estimated three days for converting the smaller cases, and a couple of weeks for the larger ones, so most of the scripts would be replaced with this project, allowing easier port of the program to other platforms.
+
+<b>SoC page:</b> [[http://code.google.com/soc/git/appinfo.html?csaid=BB370B5D857FA7A|Replace most core scripts with C versions.]] <<BR>>
+<b>Webpage:</b> [[SoC2007Projects/MoreToolsBuiltin]] <<BR>>
+<b>Student:</b> Carlos Rica Espinosa <<BR>>
+<b>Mentor:</b> Johannes Schindelin <<BR>>
+<b>Repository:</b> git://repo.or.cz/git/builtin-gsoc.git <<BR>>
+<b>Gitweb:</b> http://repo.or.cz/w/git/builtin-gsoc.git <<BR>>
+
+<b>Progress reports:</b>
+* [[http://permalink.gmane.org/gmane.comp.version-control.git/53070|Re: GSoC status report]] by Shawn O. Pearce on git mailing list
+* [[http://permalink.gmane.org/gmane.comp.version-control.git/53081|Re: GSoC status report]] by Johannes Schindelin (project mentor) on git mailing list
+
+== GIT library project ==
+
+Although GIT is well designed and does its job quite well, its current implementation makes use of static variables and may quit program execution when an error condition occurs.
+
+Such implementation problems make it hard to write bindings for GIT (e.g. Perl and Python), embbed it or even write graphical front-ends.
+
+This project's goal is to fix the main issues, write an API to retrieve data from GIT and a simple Python binding to demonstrate the API usefulness.
+
+<b>SoC page:</b> [[http://code.google.com/soc/git/appinfo.html?csaid=5DB940E4533E058B|GIT library project]] <<BR>>
+<b>Webpage:</b> [[SoC2007Projects/Libification]] <<BR>>
+<b>Student:</b> Luiz Fernando N. Capitulino <<BR>>
+<b>Mentor:</b> Shawn O. Pearce <<BR>>
+<b>Repository:</b> git://repo.or.cz/git/libgit-gsoc.git <<BR>>
+<b>Gitweb:</b> http://repo.or.cz/w/git/libgit-gsoc.git <<BR>>
+
+<b>Progress reports:</b>
+* [[http://permalink.gmane.org/gmane.comp.version-control.git/53070|Re: GSoC status report]] by Shawn O. Pearce on git mailing list
+* [[http://permalink.gmane.org/gmane.comp.version-control.git/53433|ANNOUNCE: PyGit and libgit-thin]] by Luiz Fernando N. Capitulino (student) on git mailing list
+* [[http://blog.cpu.eti.br/?p=91|Summer of Code]] blog post on [[http://blog.cpu.eti.br/|Blog do Fernando Capitulino]]
+
+== [[GitTorrent]] Server and Peer ==
+
+The goal of the project is to provide a GitTorrent client, according to the specs at http://gittorrent.utsl.gen.nz/rfc.html . Having a decentralized version control system that can share load among users is a very novel idea. There are numerous ways in which this can be beneficial to organizations or large, widely separated development groups.
+
+The first goal of the project is to provide working experimental version of this client (client is client and server, like BitTorrent) and tracker. It should implement all the elements in the spec.
+
+The code will be written in Python.
+
+<b>SoC page:</b> [[http://code.google.com/soc/git/appinfo.html?csaid=130BE24CCA0EFEAC|Gittorrent Server and Peer]] <<BR>>
+<b>Webpage:</b> [[SoC2007Projects/GitTorrent]] <<BR>>
+<b>Student:</b> Srijak Rijal <<BR>>
+<b>Mentor:</b> Sam Vilain <<BR>>
+<b>Repository:</b> <<BR>>
+<b>Gitweb:</b> <<BR>>
+
+----
+----
+
+= Foreign projects =
+
+== Managed C# git implementation for use in Tomboy versioning (Mono) ==
+
+The goal of this project is to to write a fully managed library implementing the git source code management system in C#, and use said library to write a versioning plugin for the Tomboy note-taking application. This would accomplish multiple objectives of importance to several FOSS projects: it would provide a managed git library that could be used to provide a git extension to MonoDevelop, as has been requested by the Mono project; provide versioning support to Tomboy, as has been requested by GNOME; and provide the foundations for a Windows port of git that does not rely on Cygwin or other compatibility layers.
+
+<b>SoC page:</b> [[http://code.google.com/soc/mono/appinfo.html?csaid=59AC96ED9267FFC3|Managed C# git implementation for use in Tomboy versioning]] <<BR>>
+<b>Organization:</b> [[http://www.mono-project.com|Mono Project]] ([[http://code.google.com/soc/mono/about.html|organization SoC info]]) <<BR>>
+<b>Student:</b> Andrew Pendleton <<BR>>
+<b>Mentor:</b> Miguel de Icaza <<BR>>
 
 __NOTOC__
