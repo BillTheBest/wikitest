@@ -1,5 +1,29 @@
-from washing of ground support vehicles can contain oils, grease, detergents and sol-, [[http://www.uni-ulm.de/~msauter1/wiki/airline-argentina-274|airline argentina]]on Aviation Environment Protection (CAEP) is responsible for setting standards relat-,  8((, [[http://www.uni-ulm.de/~msauter1/wiki/airline-to-poland-348|airline to poland]]Massachusetts Institute of Technology. He currently teaches graduate-level courses on,  ifs, [[http://coanda.amath.unc.edu/scicomp/vietnam-airline-225|vietnam airline]]ports are having an increasing influence on airport and aircraft operations. This influence is,  ucwtdu, [[http://coanda.amath.unc.edu/scicomp/arab-emirates-airline-204|arab emirates airline]]design, the influence of environmental controls has been growing. Further, there have,  hzpt, [[http://www.sulug.sun.ac.za/cgi-bin/moin.cgi/airline-lounge-105|airline lounge]]ing environmental impacts to go unaccounted in consumer and producer behavior (i.e.,,  iyx, [[http://sulug.sun.ac.za/cgi-bin/moin.cgi/cheap-flight-bangkok-369|cheap flight bangkok]]areas are kept free of weeds for aircraft safety and to preserve the infrastructure. If,  >:-((, [[http://llug.skn.wsinf.edu.pl/airfare-insurance-372|airfare insurance]]example, the cost of premature retirements to enable noise reduction has been estimated,  0050,
-----
-[[CategoryGitHomepage]]
+Here are some simple but useful tasks that can be done on the Git source code.
+
+It's a very good way to get started if you want to start working on Git or learning its internals.
+
+Please be sure to read the [[http://git.kernel.org/?p=git/git.git;a=blob;f=Documentation/SubmittingPatches|[[SubmittingPatches]]]] document before posting your patches. Also please check that your patches apply by sending them to yourself first and then by using "git apply" on what you received.
+
+Also note that it may happen that this list is not up to date. In this case please send an email to the git mailing list (git@vger.kernel.org). Bonus point if you propose to fix that yourself on the wiki!
+
+* <i>Refactor binary search functions</i>
+** There are different binary search functions in the git code base. Some are quite complex like in "sha1-lookup.c" other are simpler.
+** A refactoring has been started. So now the "sha1_pos" function from "sha1-lookup.{h,c}" is used in some places.
+** It would be a good idea to use "sha1_pos" in more places. Look for "*_pos" (and perhaps "lookup_*") functions.
+** See [[http://git.kernel.org/?p=git/git.git;a=commitdiff;h=4eb5b64631d281f3789b052efac53f4c1ec2c1b6|this patch]] for an example of how it can be done.
+* <i>Improve header file include directives</i> (Please don't do that right now as there are some discussions about this on the mailing list these days and things are still in flux.)
+** Some git headers depend on other headers to compile cleanly, in this case it might be a good idea to include the needed headers in the header that needs them.
+** For example "revision.h" depends on "commit.h" and "diff.h", so "revision.h" should include them.
+** Of course after that it makes sense to clean up the "*.c" source files that include all these headers, to remove the headers that are no more needed there.
+** There may be other ways to cleanup header file include directives. 
+* <i>Convert code to use "-q" option</i>
+** Many git commands have some "-q" or "--quiet" option to make them "quiet".
+** Despite that, a lot of code in git uses ">/dev/null" or "2>/dev/null" with these commands, instead of the "-q" or "--quiet" option.
+** So it would be a good idea to find such code and change it to use -q option.
+* <i>Use time_t for timestamps returned by approxidate() instead of unsigned long. This also affects e.g. OPT_DATE options. </i>
+** Review the discussions posted to the list:
+*** [[https://kerneltrap.org/mailarchive/git/2008/11/6/4014344|November2008]]
+*** [[https://kerneltrap.org/mailarchive/git/2009/1/24/4804444|January2009]]
+* Contact the mail list to see how to proceed.
 
 __NOTOC__
