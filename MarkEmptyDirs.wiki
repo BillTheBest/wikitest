@@ -1,5 +1,223 @@
-on behalf of the EPA. The Aircraft Noise Abatement Act of  1968  (49 U.S.C. 44709<sub> [[http://wiki.edumagnet.org/cheap-plane-ticket-prices-339|cheap plane ticket prices]]Agency (EPA) is responsible for the establishment and enforcement of US environmental,  590, [[http://wiki.edumagnet.org/airfare-deals-93|airfare deals]]been awarded the Franz Edelman 2nd Prize for Achievement in Operations and the Man-,  =-], [[http://www.uni-ulm.de/~msauter1/wiki/airfare-search-213|airfare search]]ciate Editor for Operations Research and for Transportation Science, as President of the,  068, [[http://coanda.amath.unc.edu/scicomp/airline-landing-257|airline landing]]Abatement Act of 1979 provides assistance to airport operators to prepare and carry out,  655672, [[http://hvr.postech.ac.kr/wiki/wiki.php/airline-ticket-discounts-129|airline ticket discounts]]the world can adopt (NRC, 2002). With regard to the environmental impact of aviation</sub>  54491, [[http://www.sulug.sun.ac.za/cgi-bin/moin.cgi/airline-tickets-in-canada-372|airline tickets in canada]]In Europe, the European Union monitors and limits emissions by means of Directives,  >:P, [[http://www.sulug.sun.ac.za/cgi-bin/moin.cgi/jordan-airline-218|jordan airline]]operations and technology). Operational changes include limiting flight hours (e.g., noise,  8405,
+= Introduction =
+
+GIT as well as other well-known version control systems cannot version directories. In other words, you cannot add empty directories! A "workaround" for this issue is to use placeholder files which are placed into empty directories. These placeholder files can then be committed into the repository and will make sure that, upon checkout, the directory tree is entirely reconstructed. This solution is also suggested in the [[http://git.or.cz/gitwiki/GitFaq#[[CanIaddemptydirectories]].3F|[[GitFaq]]]]. Note however, that using that workaround might not be a good idea. Creating missing directories during a build process should also be considered as an option.
+
+Sometimes a solution where the missing directories are created by some magic is not practicable and people will face the problem of managing such placeholder files. In particular, the problem with using placeholder files is that you need to create them, and delete them, if they are not necessary anymore (because there were added sub-directories or files). With big source trees managing these placeholder files can be cumbersome and error prone.
+
+In the past, I had been confronted with such a situation several times. This is why I decided to write an open source tool which can manage the creation/deletion of such placeholder files automatically. It creates placeholder files in all empty directories. If later on new files or directories are put into such directories, the placeholder files are not necessary anymore and, thus, are removed automatically.
+
+This tool is licensed under the GPLv3 and runs on [[http://mono-project.com/Main_Page|Mono .NET platform]] (available for <b>Linux</b>, <b>MacOS X</b> and <b>Windows</b>) as well as on [[http://www.microsoft.com/NET|Microsoft .NET platform]] (available only for <b>Windows</b>). You can download it here: [[http://code.google.com/p/markemptydirs]].
+
+= Use Cases =
+
+In the following sections some typical use cases are described and it is shown how the tool can help you getting your work easily done. For clarity, I use directory names with upper case letters and file names with lowercase letters in the following examples.
+
+== Create placeholder files ==
+
+Within a directory `PROJECT` find all "leaf" directories that do not contain any files or sub-directories, and create a placeholder file `.emptydir` within each such "leaf" directory.
+
+For example, let's assume the following source tree:
+
+<pre><nowiki>
+[PROJECT]
+        |
+        *--[DIR1]
+        |       |
+        |       *--[DIR1-1]
+        |
+        *--[DIR2]
+        |       |
+        |       *--file1
+        |
+        *--[DIR3]
+</nowiki></pre>
+
+A tree with the corresponding placeholder files will then look like this:
+
+<pre><nowiki>
+[PROJECT]
+        |
+        *--[DIR1]
+        |       |
+        |       *--[DIR1-1]
+        |                 |
+        |                 *--.emptydir
+        |
+        *--[DIR2]
+        |       |
+        |       *--file1
+        |
+        *--[DIR3]
+                |
+                *--.emptydir
+</nowiki></pre>
+
+To create the `.emptydir` files use the `[[MarkEmptyDir]]s` tool simply like this:
+
+<pre><nowiki>
+$> MarkEmptyDirs.exe PROJECT
+</nowiki></pre>
+
+This creates empty `.emptydir` files. If you want the placeholder files to contain special content there are two ways.
+
+* Provide the content directly on command line:
+<pre><nowiki>
+$> MarkEmptyDirs.exe --text "Do not delete this file." PROJECT
+</nowiki></pre>
+* Provide a template file:
+<pre><nowiki>
+$> MarkEmptyDirs.exe --file template.txt PROJECT
+</nowiki></pre>
+
+In both cases you can use template variables in your placeholder content which are evaluated everytime a new placeholder file is to be created. The evaluated results then replace the variables. Currently, the following variables are available:
+
+{| border="1" cellpadding="2" cellspacing="0"
+|  <b>VARIABLE</b> 
+|  <b>DESCRIPTION</b> 
+|  <b>ARGUMENT DESCRIPTION</b> 
+| 
+|-
+|  `§datetime[[<format-pattern>]]§` 
+|  get UTC time 
+|  `format-pattern`: C# [[DateTime]] format pattern string 
+| 
+|-
+|  `§dir[[<base|cur.abs|cur.rel>]]§` 
+|  get the base directory or current directory (default is `base`) 
+|  `base` : base directory -- `cur.abs` : absolute path of current directory -- `cur.rel` : relative path to current directory 
+| 
+|-
+|  `§env:<env-var-name>§` 
+|  get the value from an environment variable 
+|  `env-var-name` : the environment variable's name 
+| 
+|-
+|  `§guid§` 
+|  get a new globally unique identifier 
+|  
+| 
+|-
+|  `§lf[[<count>]]§` 
+|  get a line feed character 
+|  `count` : integer describing how many linefeeds should be returned 
+| 
+|-
+|  `§placeholder[[<name|fullname>]]§` 
+|  get the placeholder name (default is `name`) 
+|  `name` : file name only -- `fullname` : full file path 
+| 
+|-
+|  `§separator:<dir|path|vol>§` 
+|  get platform specific directory, path, or volume separator 
+|  `dir` : directory level separator -- `path` : path separator -- `vol` : volume separator 
+| 
+|-
+|  `§sp[[<count>]]§` 
+|  get a space character 
+|  `count` : integer describing how many spaces should be returned 
+| 
+|}
+
+So in order to create template files with a unique id and time information you could do:
+<pre><nowiki>
+$> MarkEmptyDirs.exe --text="CREATOR: §env:USER§§lf§ID: §guid§§lf§TIME: §datetime§§lf:2§Do not delete this file.§lf§" PROJECT
+</nowiki></pre>
+
+A generated placeholder file might then look like this:
+<pre><nowiki>
+CREATOR: jonnydee
+ID: 36358168-b347-4758-adaa-63e198809c32
+TIME: 28.07.2009 17:20:30
+
+Do not delete this file.
+</nowiki></pre>
+
+Using placeholder files with unique content allows to detect renames of directories automatically.
+
+== Update placeholder files ==
+
+Let's assume the `PROJECT` directory has undergone some changes. Directories and/or files have been added and/or deleted. This requires to synchronize the corresponding placeholder files. In particular, some now are not needed anymore and new ones may now be necessary.
+
+For instance, have a look at the following tree:
+
+<pre><nowiki>
+[PROJECT]
+        |
+        *--[DIR1]
+        |       |
+        |       *--[DIR1-1]
+        |                 |
+        |                 *--.emptydir
+        |                 |
+        |                 *--newfile.txt
+        |
+        *--[DIR2]
+        |
+        *--[DIR3]
+                |
+                *--.emptydir
+</nowiki></pre>
+
+`DIR1-1` now contains a new file `newfile.txt` and a previously created `.emptydir` file. The former now acts as a placholder and, thus, the latter is not needed anymore. `DIR2` now is empty and requires a placeholder file.
+
+Consequently, after updating the placeholder files the tree should look like this:
+
+<pre><nowiki>
+[PROJECT]
+        |
+        *--[DIR1]
+        |       |
+        |       *--[DIR1-1]
+        |                 |
+        |                 *--newfile.txt
+        |
+        *--[DIR2]
+        |       |
+        |       *--.emptydir
+        |
+        *--[DIR3]
+                |
+                *--.emptydir
+</nowiki></pre>
+
+Using the `[[MarkEmptyDir]]s` tool for synchronization one would simply do (again):
+
+<pre><nowiki>
+$> MarkEmptyDirs.exe PROJECT
+</nowiki></pre>
+
+== Delete placeholder files ==
+
+There are situations where one wants a clean tree which does not contain any placeholder files. So all `.emptydir` files should be removed.
+
+This can simply be achieved by using the `--clean` option:
+
+<pre><nowiki>
+$> MarkEmptyDirs.exe --clean PROJECT
+</nowiki></pre>
+
+== List placeholder files ==
+
+In order to list all placeholder files just execute:
+
+<pre><nowiki>
+$> MarkEmptyDirs.exe --list PROJECT
+</nowiki></pre>
+
+Note that this command is simply a shorthand for:
+
+<pre><nowiki>
+$> MarkEmptyDirs.exe --short --dry-run --clean PROJECT
+</nowiki></pre>
+
+== Execute actions upon creation or deletion of placeholder files ==
+
+Sometimes you might want to hook into the placeholder creation or deletion process in order to execute certain actions. For example, if you want the placeholder files be added to a Mercurial repository automatically you could tell [[MarkEmptyDirs]] to execute a `hg add <placeholder-file>` everytime a new placeholder is created. Likewise, you can tell it to execute a `hg rm -fA <placeholder-file>` everytime a placeholder is to be deleted. The following command line will exactly do this:
+
+<pre><nowiki>
+$> MarkEmptyDirs.exe --create-hook="hg add §placeholder§" --delete-hook="hg rm -fA §placeholder§" PROJECT
+</nowiki></pre>
 ----
-[[CategoryGitDocumentation]]
+[[CategoryTools]] [[CategoryTools]]
 
 __NOTOC__
