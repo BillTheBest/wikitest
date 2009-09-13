@@ -1,5 +1,64 @@
-actions in the commercial air transport arena must address a wide range of scientific<sub> [[http://sulug.sun.ac.za/cgi-bin/moin.cgi/philippine-airline-company-134|philippine airline company]]ties containing airports do not meet federal Clean Air Act standards (Pub. L. 101 - 549</sub>  21647, [[http://ccan.ozlabs.org/Wiki/discount-airfare-flights-334|discount airfare flights]]levels of greenhouse gases such as CO2  and H2O in the troposphere and stratosphere.,  gyl, [[http://www.sulug.sun.ac.za/cgi-bin/moin.cgi/eastern-china-airline-333|eastern china airline]]the interdependencies between noise and emissions. Aircraft designed to meet stringent,  142791, [[http://140.112.13.91/eg2008/viet-nam-airline-400|viet nam airline]]tives aim to harmonize monitoring strategies, measuring methods, calibration and quality,  rjfw, [[http://projects.dorkbot.org/rd04/wiki/san-diego-airline-tickets-124|san diego airline tickets]]operations and technology). Operational changes include limiting flight hours (e.g., noise,  8-(, [[http://llug.skn.wsinf.edu.pl/emirates-airline-dubai-289|emirates airline dubai]]Ambient Air Quality Standards, or NAAQS) and requires states to implement a plan (state,  wdaliw, [[http://www.sulug.sun.ac.za/cgi-bin/moin.cgi/southwest-airline-schedule-374|southwest airline schedule]]bus stations, car parks and roads, can contain a wide range of potentially polluting,  >:PPP,
+Git was originally developed to manage the sources of the Linux kernel, a monolithic code base. It has since developed many features that make it attractive as a general purpose SCM, and is now used by all sorts of projects, some of which are developed in a 'modular' style.
+
+The rule of thumb for determining whether a source tree is monolithic or modular is the correlation of subdirectories to release 'tarballs'. The monolithic Linux kernel is released as a single tarball, whereas the modular Xorg project releases dozens of such packages, with each one potentially having its own release schedule.
+
+Non-distributed revision control systems such as CVS or SVN do not enforce this distinction; large projects like KDE and GNOME host hundreds of subprojects in a single repository and developers only ever have to check out the module they are working on. Sometimes, release managers, documenters or translators will make single commits that modify files across several modules. Similarly, if a change is made to the public API of a shared library in one module, the developer may update applications in other modules to use the new API as part of the same commit.
+
+Such flexibility is an implicit feature of centralized SCMs, but is much more difficult to implement in a distributed system like git.
+
+== Status ==
+(as of Sep 2, 2007)
+
+"[[http://www.kernel.org/pub/software/scm/git/docs/git-submodule.html|git submodule]]" support added in 1.5.3 (see also [[GitSubmoduleTutorial]])
+
+(as of May 3, 2007)
+
+Plumbing code is in place since 1.5.2-rc0 [[http://thread.gmane.org/gmane.comp.version-control.git/44106|Corresponding thread on Git mailing list]]
+
+(as of March 26, 2007)
+
+Martin Waitz' implementation's object-level extensions have been well-reviewed, and are generally accepted as being the way to go at this point. Effectively, they allow tree objects to contain entries which have a special file mode (directory + symlink) which holds a commit from a subproject; the interpretation of this for the filesystem structure is that the commit's tree should be placed rooted at the path of the entry.
+
+The initial implementation ran into scalability constraints when applied to  "vast superprojects". This implementation has not been completed due to these problems.
+
+A newer implementation is in the works which should be able to handle this case efficiently; this implementation does not require changes to the object-level extension proposed previously, so the initial implemention may be used for projects where scalability on this order is not important. The main difference is in where the objects in a subproject are stored.
+
+== Use cases ==
+There are a number of goals which come under the general heading of subprojects, and have been requested by different people at different times. These are listed in rough order of the size of the subproject.
+
+=== Separable parts of normal projects ===
+Often a project will contain some parts which are either available elsewhere as separate projects or could be used elsewhere. For example, the Linux kernel contains a version of zlib (imported from the external project), and Kbuild (developed in the kernel tree, but adopted by other projects). The git tree itself contains xdiff, an externally-developed comparison engine.
+
+Centralized version control isn't going to handle these at all because they are shared between different development groups with different central servers. So existing users for this case are using informal methods (generally, copying particular revisions by hand at arbitrary times).
+
+Users in this case want to fetch all of the reachable files, since they are integral to the superproject, and may want to fetch all of the subproject history, since the subprojects are generally relatively small.
+
+=== Weakly dependent portions of a large project ===
+Large projects like KDE or GNOME are often segmented into different modules which share some higher-level structure. Users want to be able to check out some of the modules without checking out all of them. It is often the case that the top level contains some general infrastructure (such as the build system) that any checkout would need.
+
+This case could be supported by path-split partial fetches and checkouts. That is, there could be a single large repository, and the user could ask for only certain paths. When requesting support for this use case, some people have asked for it in this form, but this design is generally seen as having problems.
+
+Users in this case want to fetch and check out the superproject, and some submodules with their entire history. Development mostly happens in the submodules, with every submodule commit appearing in a superproject commit, where the subtree of the superproject history which changes the submodule exactly matches the submodule's history.
+
+=== Vast superprojects ===
+Some projects (often embedded Linux distributions, but also many *BSDs) consist of a superproject that contains every piece of software in the distribution as a component. This has obvious scalability concerns, since the total reachable content in such a project could be hundreds of times bigger than the largest normal project, since it could include thousands of projects of various sizes.
+
+This case is also not handled by traditional version control, since all of the subprojects are treated by almost all of their developers as completely independent projects. Version control is used to track distribution URLs of the original sources and local patch sets.
+
+Some users in such projects will be doing development of the subprojects, but in the context of the superproject (e.g., people making distro-specific kernel patches). Others will be working at the superproject level, deciding which subprojects to update, and to what versions (without necessarily making any changes to those versions).
+
+Most likely, no users will ever want to check out the entire superproject (since it is likely to include mutually-exclusive packages to provide the same functionality). Even for users who want to check out a particular subproject, many of them will only want to check out versions which are included in superproject commits, not intermediate versions that were never adopted by the superproject. Fetching and storing the complete reachable history of the superproject is impossible for practically all developers.
+
+=== Unhandled desires ===
+There is an implicit assumption in previous use cases that a subproject is contained in a directory in the superproject and not mixed with other files from the superproject or other subprojects. Furthermore, the superproject subdirectory contains the subproject's root directory. People have discussed allowing more flexibility, but not in particular detail. In general, using symlinks into subprojects takes care of all of the cases that don't also require other features that git doesn't presently have.
+
+== References ==
+* <i>Obsolete</i>: [[http://git.kernel.org/?p=git/git.git;a=blob;f=Subpro.txt;h=713b72eea20e567622e2d29d8d6ad258970ec103;hb=874a2aa6053e778a22c985323c69311cfffb65a7|Notes on Subproject Support]] by Junio C Hamano in [[http://www.kernel.org/git/?p=git/git.git;a=tree;h=todo;hb=todo|todo]] branch in git repository. This idea was abandoned.
+* [[http://git.admingilde.org/tali/git.git/module2|prototype implementation]] by Martin Waitz
+* [[http://news.gmane.org/find-root.php?message_id=<200612200901.30584.andyparkins@gmail.com>|http://news.gmane.org/find-root.php?message_id=%3c200612200901.30584.andyparkins%40gmail.com%3e]] A very basic patch to the pre and post commit hooks to track sub-repositories.  No merge, clone, fetch, or anything else support - just notes the latest revision of the submodule in the supermodule.  Read the whole thread to get the fixes to the patch.
+* http://marc.theaimsgroup.com/?l=git&m=115196739921363&w=2
+
 ----
-[[CategoryTemplate]]
+[[CategoryGitDocumentation]]
 
 __NOTOC__
