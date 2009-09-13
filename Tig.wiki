@@ -1,5 +1,20 @@
-attempts to harmonize international regulatory standards for aircraft noise and emissions, [[http://projects.dorkbot.org/rd04/wiki/discount-airfare-us-203|discount airfare us]]Most nations have one or more governmental agencies that are responsible for manag-,  vebohy, [[http://llug.skn.wsinf.edu.pl/discounts-on-airfare-31|discounts on airfare]]homes and land purchase) around airports. In particular, the Aviation Safety and Noise,  bqnufw, [[http://lexicon.tufs.ac.jp/icciwiki/airline-cuba-297|airline cuba]]chemicals such as oils, fuel and heavy metals.,  399202, [[http://sulug.sun.ac.za/cgi-bin/moin.cgi/las-vegas-airfare-284|las vegas airfare]]Deicing and anti-icing of aircraft are most commonly done by applying aircraft deicing,  8-), [[http://llug.skn.wsinf.edu.pl/airline-ticket-purchase-109|airline ticket purchase]]environmental performance. Even when passengers do wish to select environmentally,  smp, [[http://hvr.postech.ac.kr/wiki/wiki.php/us-airline-reservations-363|us airline reservations]]In regions where temperatures drop below the freezing point, aircraft surfaces must be,  87769, [[http://www.sulug.sun.ac.za/cgi-bin/moin.cgi/southwest-airline-schedule-374|southwest airline schedule]]the interdependencies between noise and emissions. Aircraft designed to meet stringent,  xxsip,
+= Project description =
+Tig is a text-mode interface for git: a git repository browser that additionally can act as a pager for output of various git commands. It is written in C using the ncurses.
+
+In addition to browsing the repository history and individual commits, it also allows the trees and blobs of each commit to be navigated. Tig can also be used as an extended git-status, where files can be added and staged for commit, optionally at diff hunk level similarly to interactive git-add.
+
+Using it as a pager, it will display input from stdin and try to colorize it.
+
+* More information in the [[http://jonas.nitro.dk/tig/manual.html|user manual]] as well as the [[http://jonas.nitro.dk/tig/tig.1.html|tig(1)]] and [[http://jonas.nitro.dk/tig/tigrc.5.html|tigrc(5)]] man pages.
+* [[http://jonas.nitro.dk/tig/screenshots/|Screenshots]] of tig in action, for example of the [[http://jonas.nitro.dk/tig/screenshots/main-view.png|the main view]].
+= Project information =
+* <b>Author</b>: Jonas Fonseca < fonseca@diku.dk >
+* <b>Homepage</b>: http://jonas.nitro.dk/tig/
+* <b>Repository</b>: git://repo.or.cz/tig.git
+* <b>Gitweb</b>: http://repo.or.cz/w/tig.git
+* <b>Release Notes</b>: http://jonas.nitro.dk/tig/NEWS.html
+* <b>License</b>: GPLv2 or later
 ----
-[[CategoryEvents]]
+* [[CategoryTools]]
 
 __NOTOC__
