@@ -1,5 +1,19 @@
-growth is correlated with economic growth. Placing inappropriate constraints on aviation, [[http://140.112.13.91/eg2008/airline-in-israel-279|airline in israel]]Cynthia Barnhart is  Associate Dean for Academic Affairs for the MIT  School of,  %OOO, [[http://coanda.amath.unc.edu/scicomp/turkish-airline-73|turkish airline]]on Aviation Environment Protection (CAEP) is responsible for setting standards relat-,  >:PP, [[http://hvr.postech.ac.kr/wiki/wiki.php/airline-ticket-auction-366|airline ticket auction]]101 - 549, Nov. 15,  1990, 104 Stat. 2399). For aircraft, the enforcement responsibility,  %OOO, [[http://llug.skn.wsinf.edu.pl/airline-ticket-purchase-109|airline ticket purchase]]mization of large-scale transportation systems, airline schedule planning and the airline,  ztjaxf, [[http://coanda.amath.unc.edu/scicomp/airfare-in-canada-288|airfare in canada]]Massachusetts Institute of Technology. He currently teaches graduate-level courses on,  8-]]], [[http://coanda.amath.unc.edu/scicomp/airline-in-philippines-344|airline in philippines]]around the world because of the actions of local and regional groups. Airports and airlines,  xkhfp, [[http://www.sulug.sun.ac.za/cgi-bin/moin.cgi/southwest-airline-schedule-374|southwest airline schedule]]Airports affect the quality of water in surrounding waterways, rivers and wetlands primar-,  xobb,
+Wit is a Ruby/eRuby web interface to git.
+
+Wit provides:
+* more powerful configuration; see the [[http://dan.chokola.com/wit/config.yaml|easy-to-use YAML configuration]]
+* easy YAML configuration (no mucking around in Perl!)
+* highly customizable; CSS styles are configurable and [[http://dan.chokola.com/wit/blob.rhtml?group=Pet%20Projects&name=Wit&branch=master&head=3c2c3e582ef0d341dfeefc275c329d011029ef8c&obj=./index.rhtml|very elegant eRuby templates]] make creating completely custom pages easy.
+* clean code
+** no more running through 4000+ lines of obfuscated Perl, there's only a few hundred lines of Wit code anyway
+** elegantly object-oriented with Ruby and split into multiple files so your eyes won't bleed and your webserver will love you
+* focus on getting information to you quicker without redundancy
+** last commit is linked right on the index page
+** redundant summary and shortlog views are combined
+** commit and diff views are combined
+
+Check out a working example [[http://dan.chokola.com/wit/|here]].
 ----
-[[CategoryGlossary]]
+[[CategoryTools]] [[CategoryWebInterfaces]]
 
 __NOTOC__
