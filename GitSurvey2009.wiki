@@ -1,5 +1,33 @@
-ronmental impact are very long. The introduction of aircraft and engine design changes, [[http://wiki.ubuntu-fi.org/airline-turkey-395|airline turkey]]Thus it can take up to 40 years to turn a fleet over to a new technology. In addition<sub>  ngycj, [[http://miya.pe.kr/wiki/jordanian-airline-12|jordanian airline]]eral additives, such as corrosion inhibitors, flame retardants, wetting agents, pH buffers</sub>  6642, [[http://coanda.amath.unc.edu/scicomp/airline-landing-257|airline landing]]2001). ADFs and AAFs consist mainly of ethylene or propylene glycol mixed with sev-,  bldsmn, [[http://sulug.sun.ac.za/cgi-bin/moin.cgi/philippine-airline-company-134|philippine airline company]]to carry fuel reserves to ensure they can safely reach their destination - and beyond if,  =-((, [[http://www.sulug.sun.ac.za/cgi-bin/moin.cgi/belgium-airline-269|belgium airline]]2001). ADFs and AAFs consist mainly of ethylene or propylene glycol mixed with sev-,  %-[[, http://lexicon.tufs.ac.jp/icciwiki/cuba-airline-284|cuba airlinedo not consider environmental performance important in selecting an airline - concerns,  sej, [[http://lexicon.tufs.ac.jp/icciwiki/airline-consultants-135|airline consultants]]Airports affect the quality of water in surrounding waterways, rivers and wetlands primar-,  jytt,
+= Git User's Survey 2009 =
+
+<b>The Git User's Survey 2009 has begun.</b>
+
+[[http://www.survs.com/survey?id=2PIMZGU0&channel=Q0EKJ3NF54|Git User's Survey 2009]] is up now! Please devote a few minutes of your time to fill this simple questionnaire, it will help a lot the Git community to understand your needs, what you like of Git, and of course what you don't like of it.
+
+This survey would last
+from <b>15 July</b> to <b>15 September 2009</b>.
+
+Have fun!
+
+* http://tinyurl.com/[[GitSurvey]]2009 (expands to the link below)
+* http://www.survs.com/survey?id=2PIMZGU0&channel=Q0EKJ3NF54
+
+There is also alternate version which <i>does not require cookies</i>, but it
+doesn't allow to go back to response and edit it.  
+Please use the version above if possible.
+
+* http://www.survs.com/survey?id=2PIMZGU0&channel=1MH6FTZV5O
+
 ----
-[[CategoryGitHomepage]]
+Current results of the survey:
+
+* "partial summary" threads on git mailing list, via GMANE
+** [[http://thread.gmane.org/gmane.comp.version-control.git/124599|Git User's Survey 2009 partial summary, part 1 - announcing survey, participation]]
+** [[http://thread.gmane.org/gmane.comp.version-control.git/126153|Git User's Survey 2009 partial summary, part 2 - from first 10]] (git difficulty, proficiency, uses, install, OS, editors)
+** [[http://thread.gmane.org/gmane.comp.version-control.git/127632|Git User's Survey 2009 partial summary, part 3 - last 10 questions (incl. getting help)]]
+* [[http://www.survs.com/shareResults?survey=2PIMZGU0&rndm=678J66QRA2|Live results (summary) of the survey]] on Survs.com ([[http://tinyurl.com/GitSurvey2009Analyze]])<<BR>> <b><i>Note:</b> you can use existing on-line filters for basic survey analysis</i>
+
+----
+[[CategoryStatistics]]
 
 __NOTOC__
