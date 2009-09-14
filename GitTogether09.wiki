@@ -13,6 +13,7 @@ Any questions, please contact Shawn Pearce ( gsoc@spearce.org ).
 # David Brown
 # Steve Bourne
 # Eric Raible
+ 42. Sam Vilain
 
 Google has us capped at ~25 attendees.
 
