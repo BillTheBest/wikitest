@@ -30,6 +30,8 @@ Those are public Git hosting sites where any project can be hosted, perhaps with
 * [[http://sourcerepo.com|SourceRepo]] provides paid Git hosting along with Trac project management.
 * [[http://www.cipherhive.com/|CipherHive]] is a free Git/Webdav hosting repository for Open Source Developers. [[http://hotpepperhosting.com|HotPepperHosting]] the developer of ![[CipherHive]] offer custom Git/Webdav repository solutions for proprietary developers needs.
 * [[http://gitfarm.appspot.com|GitFarm]] A free private git hosting service built upon Google App Engine technology, good for small groups or individual developers.
+* [[http://www.indefero.net|InDefero]] offers 250MB free Git hosting with private/public projects, bug tracking, code review, file sharing and more (it started as a Google Code clone), the full code of InDefero is available (GPL).
+* [[http://repositoryhosting.com|repositoryhosting.com]] one flat price of $6/month, 2GB of space (WebDAV + repo), Trac project management, fully customizable, regular encrypted backups to EC2
 
 === Project specific Git hosting sites ===
 * [[http://www.kernel.org|Kernel.org]] ([[http://git.kernel.org/|gitweb]]) for Linux kernel related projects. Uses [[http://git.kernel.org/?p=git/warthog9/gitweb.git|gitweb fork]] with caching support.<<BR>> Kernel.org accounts are not given away very often, usually you need to be making some reasonable amount of contributions to the Linux kernel and have a good reason for wanting / needing an account.
@@ -43,8 +45,6 @@ Those are public Git hosting sites where any project can be hosted, perhaps with
 * [[http://rubyforge.org/|RubyForge]] is a home for open source Ruby projects. RubyForge Git repositories are managed via gitosis; gitosis does authentication via public keys. RubyForge is based on GForge engine.<<BR>> <b>See:</b>
 ** [[http://drnicwilliams.com/2008/04/08/git-for-rubyforge-accounts/|Git for Rubyforge accounts]] post on [[http://drnicwilliams.com/|Dr Nic]] blog.
 * http://git.postgresql.org/ provides Git hosting for [[http://www.postgresql.org/|PostgreSQL]] and related projects.
-* [[http://www.indefero.net|InDefero]] offers 250MB free Git hosting with private/public projects, bug tracking, code review, file sharing and more (it started as a Google Code clone), the full code of InDefero is available (GPL).
-* [[http://repositoryhosting.com|repositoryhosting.com]] one flat price of $6/month, 2GB of space (WebDAV + repo), Trac project management, fully customizable, regular encrypted backups to EC2
 
 == Other links ==
 * [[http://www.simplicidade.org/notes/archives/2008/03/git_hosting_sit.html|git hosting sites]] article at [[http://www.simplicidade.org/notes/|simplicidade blog]] (Gitorious and ![[GitHub]]).
