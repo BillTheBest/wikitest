@@ -768,6 +768,10 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 * [[http://code.google.com/p/vcscommand/|VCS Command plugin]] is a Vim plugin for various source code control systems and includes a Git component. It can be used to view the differences side by side, commit, blame, etc.
 * Other Vim [[http://vim.wikia.com/wiki/Using_Git_from_Vim|tips]]
 
+=== Visual Studio ===
+
+* [[http://code.google.com/p/gitextensions/|Git Extensions]]. See Graphical Interfaces above or website for details.
+
 == Merge tools ==
 
 === Diffuse ===
