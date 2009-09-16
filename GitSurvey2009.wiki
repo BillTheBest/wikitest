@@ -7,6 +7,10 @@ The survey could be found here:
 
 This survey was open from 15 July to 15 September 2009 (2 months).
 
+You can get raw data (individual responses) for the survey here:
+* [[attachment:Git User_'s Survey 2009 - results num Sep 16, 09.csv.gz|Git User's Survey 2009 - results num Sep 16, 09.csv.gz]] (CSV + gzip, 100 KB)
+* [[attachment:Git User_'s Survey 2009 - results txt Sep 16, 09.xls.zip|Git User's Survey 2009 - results txt Sep 16, 09.xls.zip]] (XLS + zip, 168 KB)
+
 Results of the survey:
 * "partial summary" threads on git mailing list, via GMANE (done during survey was open)
 ** [[http://thread.gmane.org/gmane.comp.version-control.git/124599|Git User's Survey 2009 partial summary, part 1 - announcing survey, participation]]
