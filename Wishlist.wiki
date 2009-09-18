@@ -18,6 +18,8 @@ I've put an attribution of the wish to the person who wrote the email I found it
 * show diff -c for conflicting symbolic links -- the default diff --cc is empty because there are no conflict markers (or alternatives) (Clemens Buchacher)
 * http-push should update tracking references like send-pack does. (Clemens Buchacher)
 * Encrypted GIT repository and operations on it. (Ferhat Dogru)
+* Fix file globbing such as "git add -u '*.c'". See also [[http://article.gmane.org/gmane.comp.version-control.git/105679]]. (Clemens Buchacher)
+
 <b>See also:</b>
 * [[http://www.freedesktop.org/wiki/Infrastructure/git/UIFlaws|Git UI flaws]] at freedesktop wiki.
 * Debian [[http://bugs.debian.org/cgi-bin/pkgreport.cgi?ordering=normal;archive=0;src=git-core;dist=unstable;repeatmerged=0|bug reports]].
