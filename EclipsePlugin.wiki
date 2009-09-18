@@ -8,6 +8,9 @@ Roadmap of features: [[EclipsePluginWishlist]]
 
 = News =
 
+2009-09-16 JGit got the approval of the Eclipse board to be hosted at eclipse.org under EDL license.
+Hence JGit will also get moved to Eclipse. Find the EGit mailing list at [[http://dev.eclipse.org/mhonarc/lists/egit-dev/|Eclipse]].
+
 2009-05-07 EGit is now an official Eclipse Technology Project. Some time will pass
 before the project actually gets moved to Eclipse premises.
 
