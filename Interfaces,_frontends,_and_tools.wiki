@@ -1099,6 +1099,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 
 === gitolite ===
 * <b>gitolite</b> ([[http://github.com/sitaramc/gitolite]]), by Sitaram Chamarty, (sitaramc at gmail), is inspired by gitosis, plus an urgent need to manage per-branch permissions. It is written entirely in perl, and designed to be usable on any Unix machine that managed to install git and perl. It does not require root access to install or use.
+* Other advantages: copious documentation makes it easier to install/admin by people new to ssh and git, better logging helps figure out exactly what was allowed/denied and why, "personal" branch namespace for developers.  Also there's a version that allows "excludes" in the access control list, making it truly powerful for pretty much all sorts of access restriction needs
 
 = See also =
 * [[InterfacesFrontendsAndToolsWishlist]]
