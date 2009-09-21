@@ -189,6 +189,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 | Git Extensions 
 | [[TortoiseGit]] 
 | gitg 
+|  [[SmartGit]]
 | 
 |-
 | written in 
@@ -211,6 +212,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 | C#, C++ 
 | C++ 
 | C 
+| Java
 | 
 |-
 | UI toolkit 
@@ -233,6 +235,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 | - 
 | MFC 
 |  GTK+ 
+| Swing
 | 
 |-
 | last activity 
@@ -255,6 +258,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 | 2009 
 | 2009 
 |  2009 
+| 2009
 | 
 |-
 | tree view 
@@ -277,6 +281,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 | X 
 | Explore 
 | X 
+| X
 | 
 |-
 | history viewer 
@@ -299,6 +304,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 | X 
 | X 
 | X 
+| X
 | 
 |-
 | history search 
@@ -321,6 +327,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 | X 
 | X 
 | X 
+| X
 | 
 |-
 | (un)stage files 
@@ -343,6 +350,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 | X 
 | X 
 | X 
+| X
 | 
 |-
 | partial staging 
@@ -365,6 +373,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 |  
 | X 
 | X 
+| X
 | 
 |-
 | checkout 
@@ -387,6 +396,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 | X 
 | X 
 | X 
+| X
 | 
 |-
 | cherry-pick 
@@ -409,6 +419,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 | X 
 | X 
 |  
+| X
 | 
 |-
 | committing 
@@ -431,6 +442,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 | X 
 | X 
 | X 
+| X
 | 
 |-
 | remote features 
@@ -453,6 +465,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 | X 
 | X 
 | some 
+| some
 | 
 |-
 | stash 
@@ -475,6 +488,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 | X 
 | X 
 | X 
+| X
 | 
 |-
 | format patch 
@@ -496,6 +510,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 |  
 | X 
 | X 
+|  
 |  
 | 
 |-
@@ -519,6 +534,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 | X 
 | X 
 |  
+| X
 | 
 |-
 | diff +/- highlighting 
@@ -541,6 +557,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 | X 
 | X 
 | X 
+|  
 | 
 |-
 | compare commits 
@@ -563,6 +580,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 | X 
 | X 
 |  
+| X
 | 
 |-
 | merge features 
@@ -585,6 +603,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 | X 
 | X 
 | X 
+| X
 | 
 |-
 | [[http://en.wikipedia.org/wiki/Inotify|inotify]] support 
@@ -599,6 +618,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 |  
 |  
 | X 
+|  
 |  
 |  
 |  
@@ -629,6 +649,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 |  
 |  
 |  
+|  
 | 
 |-
 | apply patches via drag'n'drop 
@@ -651,6 +672,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 |  
 |  
 |  
+|  
 | 
 |-
 | i18n 
@@ -665,6 +687,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 |  
 |  
 | partial de, fr, hu, it, ja, ru, sv, zh_cn 
+|  
 |  
 |  
 |  
@@ -695,6 +718,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 | [[http://sourceforge.net/project/screenshots.php?group_id=246547|X]] 
 | [[http://code.google.com/p/tortoisegit/|X]] 
 | [[http://wiki.github.com/jessevdk/gitg|X]] 
+|  [[http://blog.syntevo.net/images/smartgit/project-window-osx.png|X]]
 | 
 |}
 
