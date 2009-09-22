@@ -15,6 +15,7 @@ Any questions, please contact Shawn Pearce ( gsoc@spearce.org ).
 # Eric Raible
  42. Sam Vilain
 # Brandon Casey
+# Jeff King
 
 Google has us capped at ~25 attendees.
 
