@@ -35,6 +35,7 @@ A lot of blog posts related to Git usage have been published since the project's
 * [[http://speirs.org/2007/07/22/getting-git-svn-working-on-the-mac/|Getting git-svn working on the Mac]]
 * [[http://rip747.wordpress.com/2008/09/04/getting-git-svn-to-work-under-cygwin/|Getting Git-SVN to work under Cygwin]]
 * [[http://blog.mattwynne.net/2008/09/13/bring-git-joy-to-windows/|Bring Git Joy to Windows]] by Matt Wynne (step by step [[http://code.google.com/p/msysgit|msysGit]] installation)
+* [[http://asimilatorul.com/adapter/post/git-on-windows-with-msysgit/|Git 1.6.4.4 on Windows with msysGit]]
 
 == Usage ==
 
