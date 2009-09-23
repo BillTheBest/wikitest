@@ -822,7 +822,7 @@ To enable usage of <code><nowiki>git svn</nowiki></code> in the clone use
     git commit --amend
 
     # check out the previous branch
-    git checkout @{1}
+    git checkout @{-1}
     # replace old root with amended version
     git rebase --onto new-root root
 
