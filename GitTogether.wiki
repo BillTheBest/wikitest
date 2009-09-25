@@ -13,9 +13,10 @@ For further details, see the [[GitTogether]]09 planning page.
 
 == "Alles Wird Git" Berlin [[GitTogether]] '09 ==
 * What: An informal gathering of Gits.
+* What2: Dscho will talk about msysGit.
 * Date: Saturday, October 3, 2009.
-* Time: To be determined.
-* Where: To be determined but somewhere in Berlin, DE. Local help is needed to find a venue.
+* Time: 10am until the end
+* Where: http://www.zib.de/besucher/index.en.html
 * Why: Gitzilla will be visiting and volunteered a $100 subsidy.
 * Who: Any Gits that can attend. IRC handle starting with "git" not required.
 
