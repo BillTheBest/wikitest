@@ -331,6 +331,8 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * Hypertable (massively parallel database)
 * http://www.hypertable.org/ (homepage)
 * git://scm.hypertable.org/pub/repos/hypertable.git (repository)
+* iKaaro (A Python CMS, with object database, tracker, wiki, and calendars, based on itools)
+* http://git.hforge.org/?p=ikaaro.git;a=summary (gitweb)
 * ikiwiki
 * http://ikiwiki.info/download/
 * http://git.ikiwiki.info/?p=ikiwiki (gitweb)
@@ -350,11 +352,6 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * http://git.kernel.org/?p=linux/kernel/git/shemminger/iproute2.git (gitweb)
 * itools (A Python library for web development)
 * http://www.hforge.org/itools (description)
-* iKaaro (A Python CMS based on itools)
-* http://git.hforge.org/?p=ikaaro.git;a=summary (gitweb)
-* perfect-sales (ecommerce system based on itools/iKaaro)
-* http://perfect-sale.com/ (description)
-* hthttp://git.hforge.org/?p=shop.git;a=summary (gitweb)
 * KDbg (KDE frontend to GDB)
 * http://www.kdbg.org/
 * Koha (A library catalog system)
@@ -442,6 +439,9 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * paraslash (network audio streaming tools)
 * http://paraslash.systemlinux.org/ (description)
 * http://paraslash.systemlinux.org/gitweb/gitweb.cgi?p=.git;a=shortlog (gitweb)
+* perfect-sales (ecommerce system based on itools/iKaaro)
+* http://perfect-sale.com/ (description)
+* hthttp://git.hforge.org/?p=shop.git;a=summary (gitweb)
 * pekwm (window manager)
 * http://www.pekwm.org
 * http://pekwm.org/projects/pekwm/repository
