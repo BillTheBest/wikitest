@@ -59,7 +59,7 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 
 == Non-kernel projects that use Git for their source code management. ==
 
-* [[OpenSpliceDDS]] (Prismtech open source implementation of the OMG Data Distribution Service (DDS)) 
+* [[OpenSpliceDDS]] (Prismtech open source implementation of the OMG Data Distribution Service (DDS))
 ** http://www.opensplice.org (homepage)
 ** git://www.opensplice.org/opensplice (repository)
 * Google's android
@@ -133,9 +133,11 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * http://www.liacs.nl/~sverdool/gitweb.cgi?p=barvinok.git;a=summary (gitweb)
 * Bucardo (a PostgreSQL replication system)
 * http://bucardo.org/ (website)
-* http://bucardo.org/bucardo.git/ (main repository)
-* http://bucardo.org/dbixsafe.git/ (DBIx::Safe repository)
-* http://bucardo.org/testdynamic.git/ (Test::Dynamic repository)
+* git://bucardo.org/bucardo.git/ (Bucardo repository)
+* git://bucardo.org/dbixsafe.git/ (DBIx::Safe repository)
+* check_postgres (a Nagios plugin for monitoring PostgreSQL databases)
+* http://bucardo.org/wiki/Check_postgres (homepage)
+* git://bucardo.org/check_postgres.git/
 * cksfv (Simple File Verification tool)
 * http://zakalwe.fi/~shd/foss/cksfv
 * Conky(light-weight system monitor for X)
@@ -336,6 +338,10 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * http://imageja.sourceforge.net/ (homepage)
 * http://imageja.git.sourceforge.net/git/gitweb.cgi?p=imageja (gitweb)
 * git://imageja.git.sourceforge.net/gitroot/imageja (repository)
+* Interchange (ecommerce system)
+* http://www.icdevgroup.org/ (homepage)
+* http://git.icdevgroup.org/ (gitweb)
+* git://git.icdevgroup.org/interchange (repository)
 * iogrind
 * http://live.gnome.org/iogrind (homepage)
 * http://www.gnome.org/~michael/git/iogrind.git (repository)
@@ -362,7 +368,7 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * http://git.xiph.org/?p=libxspf.git;a=summary (gitweb)
 * Libzypp (software management engine that powers products like YaST, ZYpper and Zenworks)
 * http://en.opensuse.org/Libzypp (homepage)
-* http://git.opensuse.org/?p=projects/zypp/libzypp.git (gitweb) 
+* http://git.opensuse.org/?p=projects/zypp/libzypp.git (gitweb)
 * LiveCD-tools
 * http://fedoraproject.org/wiki/[[FedoraLiveCD]] (homepage)
 * http://gitweb.freedesktop.org/?p=users/david/livecd-tools.git (gitweb)
