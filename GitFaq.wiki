@@ -838,6 +838,14 @@ Currently, you cannot. There are plans for [[http://git.or.cz/gitwiki/SoC2009Ide
 
 In the meantime, you can use the subdirectory-filter of <code><nowiki>git filter-branch</nowiki></code> to extract a subdirectory. You can also merge changes back using the [[http://www.kernel.org/pub/software/scm/git/docs/howto/using-merge-subtree.html|subtree merge strategy]]. Or you can use [[http://www.kernel.org/pub/software/scm/git/docs/user-manual.html#submodules|submodules]].
 
+It is possible, however, to download subdirectories or even individual files if the server enables the <code><nowiki>upload-archive</nowiki></code> service. The following example retrieves the source code for the main git executable of version 1.6.0.
+
+<pre><nowiki>
+    git archive --remote=git://repo.or.cz/git.git v1.6.0 git.c > git.c.tar
+</nowiki></pre>
+
+Use <code><nowiki>git ls-remote</nowiki></code> to list available versions.
+
 == How do I make existing non-bare repository bare? ==
 
 After making sure that there are no uncommitted changes, etc.:
