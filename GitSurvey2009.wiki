@@ -8,7 +8,7 @@ The survey could be found here:
 This survey was open from 15 July to 15 September 2009 (for 2 months).
 
 You can get raw data (individual responses) for the survey here:
-* [[attachment:Git User_'s Survey 2009 - results num Sep 16, 09.csv.gz|Git User's Survey 2009 - results num Sep 16, 09.csv.gz]] (CSV + gzip, 100 KB)
+* [[attachment:Git User's Survey 2009 - results num Sep 16, 09.csv.gz|Git User's Survey 2009 - results num Sep 16, 09.csv.gz]] (CSV + gzip,  505.4 KB)
 * [[attachment:Git User_'s Survey 2009 - results txt Sep 16, 09.xls.zip|Git User's Survey 2009 - results txt Sep 16, 09.xls.zip]] (XLS + zip, 168 KB)
 
 Results of the survey:
