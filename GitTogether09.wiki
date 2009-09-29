@@ -72,6 +72,34 @@ Please propose and vote on topics through [[http://moderator.appspot.com/#15/e=b
 |  [[http://code.google.com/p/gimd/|gimd (Git Message Database)]] 
 |  30 min 
 | 
+|-
+|  [[http://moderator.appspot.com/#15/e=bbfd5&t=bbfd6&q=bfe72|proposed]] 
+|  Jeff King 
+|  Flamefest discussion 
+|  Bug-tracking in git.git 
+|  30 min 
+| 
+|-
+|  [[http://moderator.appspot.com/#15/e=bbfd5&t=bbfd6&q=bfe72|proposed]] 
+|  David Brown 
+|  User story 
+|  Git/Gerrit corporately, part 2 
+|  30 min 
+| 
+|-
+|  [[http://moderator.appspot.com/#15/e=bbfd5&t=bbfd6&q=bfe72|proposed]] 
+|  Sam Vilain 
+|  Progress/design session 
+|  Automatic git-daemon mirroring 
+|  30 min 
+| 
+|-
+|  [[http://moderator.appspot.com/#15/e=bbfd5&t=bbfd6&q=bfe72|proposed]] 
+|  Sam Vilain 
+|  GSoC update 
+|  Report on revision caching GSoC 
+|  30 min 
+| 
 |}
 
 == Directions ==
