@@ -955,6 +955,21 @@ Whereas you probably installed git to your $HOME or something like that.  The wo
 * Specify <code><nowiki>--receive-pack=PATH/TO/git-receive-pack</nowiki></code> at push time
 * Set <code><nowiki>remote.<name>.receivepack</nowiki></code> using <code><nowiki>git config</nowiki></code> (see git-config(1))
 
+== My username contains a '@', I can't clone through HTTP/HTTPS ==
+
+<pre><nowiki>
+$ git clone https://user@mail.com@gitserver.com/path/
+[...]
+error: Couldn't resolve host 'user@mail.com' while accessing https://user@mail.com@gitserver.com/path/info/refs
+</nowiki></pre>
+
+Solution : URL-escape the '@' sign in your username, i.e. replace it
+with %40, like <code><nowiki>git clone https://user%40mail.com@gitserver.com/path/</nowiki></code>.
+
+Explanation : Git delegates the URL handling to curl, which doesn't
+allow '@' signs in usernames because RFC 3986 doesn't allow it. See
+[[http://sourceforge.net/tracker/index.php?func=detail&aid=2826621&group_id=976&atid=100976|this bug report]] for example.
+
 = Importing from other revision control systems =
 See the [[InterfacesFrontendsAndTools#rcs-interaction|[[InterfacesFrontendsAndTools]]]] page ("Interaction with other Revision Control Systems" section), for a good reference on how to interact with other revision control systems.
 
