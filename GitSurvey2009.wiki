@@ -212,6 +212,10 @@ Most answered question was "07. I use Git for (check all that apply)" multiple-c
 
 The graph above shows histogram of number of replies per question.  As you can see the least replied questions were "12. What tool (or kind of tool) would you like to have Git support in?" (free-form essay question), "19. What features would you like implemented in Git? What features are you missing?" (also free-form essay), "22. Did you participate in previous Git User's Surveys?" (where skipping means simply not participating in previous surveys), and "30. What other comments or suggestions do you have that are not covered by the questions above?" (again free-form essay), and also "28. Which communication channel(s) do you use?" (multiple choice question, without 'other' answer)
 
+{{attachment:[[GitSurvey]]2009-date_hist.png}}
+
+The graph above shows histogram of number of responders by date (in CET / GMT+1 / +0100 timezone).
+
 == About you ==
 
 === 01. What country do you live in? ===
