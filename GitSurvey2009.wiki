@@ -1,4 +1,4 @@
-= Git User's Survey 2009 summary =
+ Git User's Survey 2009 summary =
 
 <b>The Git User's Survey 2009 has been closed on September 15, 2009.</b>
 
@@ -1203,7 +1203,7 @@ expected; that is the easiest way.
 |   7.4% 
 | 
 |-
-|  [[OpenSolaris]]                    
+|  ![[OpenSolaris]]                   
 |    120 
 |   3.3% 
 | 
@@ -2256,7 +2256,7 @@ Percentages are relative to the number of people who answered this question, not
 |  18.9% 
 | 
 |-
-|  [[StackOverflow]]                             
+|  ![[StackOverflow]]                            
 |    406 
 |  17.4% 
 | 
