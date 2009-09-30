@@ -1,4 +1,4 @@
- Git User's Survey 2009 summary =
+= Git User's Survey 2009 summary =
 
 <b>The Git User's Survey 2009 has been closed on September 15, 2009.</b>
 
