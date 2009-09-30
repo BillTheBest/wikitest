@@ -423,9 +423,7 @@ password my-secret
 # Set a default account
 account default : gmail
 </nowiki></pre>
-This takes gmail as an example. The ca-bundle.crt is the file with CA certificates for Fedora Core 6, for other distros you might have to dig it up from somewhere else. On Ubuntu /etc/ssl/certs/ca-certificates.crt should be used, for example. Now, by giving the full path name to the msmtp program as smtp server to git-send-email, you can send the patches through gmail or some other smtp account with TLS and/or user authentication.
-
-Note: The password field is not required. msmtp will prompt you for your password if the field is omitted.
+This takes gmail as an example.  The password field is not required. msmtp will prompt you for your password if the field is omitted.  The ca-bundle.crt is the file with CA certificates for Fedora Core 6, for other distros you might have to dig it up from somewhere else. On Ubuntu /etc/ssl/certs/ca-certificates.crt should be used, for example. Now, by giving the full path name to the msmtp program as smtp server to git-send-email, you can send the patches through gmail or some other smtp account with TLS and/or user authentication.
 
 <pre><nowiki>
 git-send-email --smtp-server /usr/local/bin/msmtp <file|directory>
