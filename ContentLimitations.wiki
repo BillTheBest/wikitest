@@ -1,5 +1,26 @@
-eFUDI7 potassium chloride) are used less frequently because they may cause damage to aircraft., [[http://ukazurenet.com/members/qantas_2D00_airline/default.aspx|qantas airline]]from aircraft engines directly and indirectly  (through the formation of cirrus clouds),  :OOO, [[http://technetnepal.net/members/malaysian_2D00_airline/default.aspx|malaysian airline]]There are three main ways to limit the impact of aviation on the environment: operational,  672, [[http://drowningintechnicaldebt.com/members/continental_2D00_airline/default.aspx|continental airline]]for clean air standards is borne by the Federal Aviation Administration (FAA). The CAA,  2879, [[http://ncraonline.org/forum/members/deltaairlines/default.aspx|deltaairlines]]assessment methods across the EU. Previously, emissions standards were set at national,  86952, [[http://f1inschools.pitsco.com/members/united_2D00_airfare/default.aspx|united airfare]]of Technology. She has developed and teaches courses including carrier systems, opti-,  51045, [[http://forum.planetrock.co.uk/members/northwest_2D00_airline/default.aspx|northwest airline]]In regions where temperatures drop below the freezing point, aircraft surfaces must be,  ghzpt, [[http://cnug.co.in/members/dog_2D00_airlines/default.aspx|dog airlines]]areas are kept free of weeds for aircraft safety and to preserve the infrastructure. If,  1566,
-----
-[[CategoryTools]]
+Git is a <i>content</i> tracker, where <i>content</i> is de facto defined as "whatever is relevant to the state of a typical sourcecode tree". Basically, this is just files' data and "executable" attribute.
+
+By design, git cannot track other aspects of the filesystem, including:
+
+* File modes (except for the "executable" bit, and being symbolic link)
+* File ownership (commits, however, remember 'author' and 'committer' info)
+* File modification and access times (these are set to checkout time for files which are modified during checkout)
+* File ACLs and extended attributes
+* Hard links
+* Empty directories (although it is not a fundamental limitation, git just automatically removes empty directories and does not add empty directories)
+
+There are some names which are considered <i>special</i> by git:
+* Arbitrary directories called ".git" (these contain the base of a repository),
+* Arbitrary directories containing a ".git" subdirectory with certain content (if "dir/.git" exists and seems to contain a valid head ref, then "git add dir" assumes that "dir" is a submodule)
+* Arbitrary files called ".gitignore" (these have special semantics)
+* Arbitrary files called ".gitattributes" (these have special semantics)
+
+In general, it's best to consider any file or directory name beginning with ".git" as potentially special.
+
+Consequentially, Git cannot be directly used as a general versioning solution for arbitrary files, such as home directories or "/etc". In principle, it is possible to add a layer above git to convert the above information into "content" that Git can track. A crude and inefficient example would be to "tar" the whole directory and track the tar file as a single blob.
+
+Some of the above items can be represented by tree objects in a git repository, but such tree objects are difficult or impossible to create using the standard git tools.
+
+There exist tools which either help git track full set of file modes etc., for example Metastore by David Hardeman (git://git.hardeman.nu/metastore.git). There also exists configuration versioning tool (APT for your config), based on git, named [[http://www.isisetup.ch/|IsiSetup]]. There is also a tool to backup your home directory with git: [[http://eigenclass.org/hiki/gibak-backup-system-introduction|gibak]]. See [[InterfacesFrontendsAndTools]] page.
 
 __NOTOC__
