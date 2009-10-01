@@ -156,5 +156,6 @@ The key things that I like about Git are:
 = Links =
 * http://utsl.gen.nz/talks/git-svn/intro.html
 * http://techblog.floorplanner.com/2008/12/09/git-vs-svn-for-bosses/
+* http://www.looble.com/git-vs-svn-which-is-better/
 
 __NOTOC__
