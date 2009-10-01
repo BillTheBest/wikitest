@@ -19,9 +19,9 @@ Results of the survey:
 * [[http://www.survs.com/shareResults?survey=2PIMZGU0&rndm=678J66QRA2|Graphical final results of the survey]] on Survs.com ([[http://tinyurl.com/GitSurvey2009Analyze]])<<BR>> <b><i>Note:</b> you can use existing on-line filters for basic survey analysis</i>
 * Further final results will follow and will be put into the wiki.
 
-There were 3868 individual responses in this survey (the 30 responses in 'test' channel were removed)<<BR>>
-There were 3236 individual responses in [[GitSurvey2008]] (including 21 responses in 'test' channel)<<BR>>
-There were 683 individual responses in [[GitSurvey2007]]<<BR>>
+There were 3868 individual responses in this survey (the 30 responses in 'test' channel were removed).<<BR>>
+There were 3236 individual responses in [[GitSurvey2008]] (including 21 responses in 'test' channel).<<BR>>
+There were 683 individual responses in [[GitSurvey2007]].<<BR>>
 There were around 117 responses in [[GitSurvey2006]].
 
 ----
@@ -31,6 +31,9 @@ There were around 117 responses in [[GitSurvey2006]].
 
 == Information about survey completion ==
 
+=== Number of questions answered per responder ===
+
+{{attachment:[[GitSurvey]]2009-base_hist.png|Histogram of the number of answered questions by responder|align="right"}}
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
@@ -208,13 +211,29 @@ Note that in one of questions, "22. Did you participate in previous Git User's S
 
 Most answered question was "07. I use Git for (check all that apply)" multiple-choice question.
 
+=== Number of replies per question ===
+
 {{attachment:[[GitSurvey]]2009-resp_hist.png}}
 
-The graph above shows histogram of number of replies per question.  As you can see the least replied questions were "12. What tool (or kind of tool) would you like to have Git support in?" (free-form essay question), "19. What features would you like implemented in Git? What features are you missing?" (also free-form essay), "22. Did you participate in previous Git User's Surveys?" (where skipping means simply not participating in previous surveys), and "30. What other comments or suggestions do you have that are not covered by the questions above?" (again free-form essay), and also "28. Which communication channel(s) do you use?" (multiple choice question, without 'other' answer)
+The graph above shows histogram of number of replies per question.  As you can see the least replied questions were:
+* "12. What tool (or kind of tool) would you like to have Git support in?" (free-form essay question), 
+* "19. What features would you like implemented in Git? What features are you missing?" (also free-form essay), 
+* "22. Did you participate in previous Git User's Surveys?" (where skipping means simply not participating in previous surveys), and 
+* "30. What other comments or suggestions do you have that are not covered by the questions above?" (again free-form essay), and also
+* "28. Which communication channel(s) do you use?" (multiple choice question, without 'other' answer)
+
+=== Date of response ===
 
 {{attachment:[[GitSurvey]]2009-date_hist.png}}
 
 The graph above shows histogram of number of responders by date (in CET / GMT+1 / +0100 timezone).
+
+There are a few spikes spikes on above Completion Rate Graph; from those the following four spikes are most visible:
+* 15 Jul | 573 respondents / day
+* 21 Jul | 622 respondents / day
+* 27 Jul | 155 respondents / day
+* 13 Aug | 103 respondents / day
+(note that those results are slightly different from the ones presented in 'partial summary, part 1' thread linked above; this might be possibly the matter of different timezones used).
 
 == About you ==
 
