@@ -937,6 +937,15 @@ What's interesting is comparing (percentage) results for questions 3. and 4.; ho
 <!-- ## table end
  -->
 
+~-
+<b>Description:</b><<BR>>
+One can find git version by using "`git --version`" or "`git version`".
+
+"Minor release" is additional specification, so if one for example use
+git version 1.6.3.3, one should check both "1.6.x" and "minor release".
+-~
+
+<b>Analysis:</b><<BR>>
 As you can see from above results great majority (83%) run latest 1.6.x series of git (note: because it is multiple-choice question it means 'at least on one machine').  Only a few use 1.3.x or pre 1.3 versions somewhere.
 
 Only a bit more than one fourth (26.7%) of responders use (somewhere) maintenance releases.  That, or the question was,'t formulated clear enough.
@@ -990,6 +999,12 @@ Only a bit more than one fourth (26.7%) of responders use (somewhere) maintenanc
 <!-- ## table end
  -->
 
+~-
+<b>Description:</b><<BR>>
+One can think of it as 1-5 numerical grade of your proficiency in Git.
+-~
+
+<b>Analysis:</b><<BR>>
 As you can see most responders know Git enough for everyday use, or
 can even offer some Git advice.  If we treat possible answers as a
 proficiency grade, the average proficiency is around 3.2.
@@ -1119,6 +1134,12 @@ might want to check multiple answers even for a single repository.
 <!-- ## table end
  -->
 
+~-
+<b>Description:</b><<BR>>
+Note that above choices are neither orthogonal nor exclusive.
+You might want to check multiple answers even for a single repository.
+-~
+
 === 08. How do/did you obtain Git (install and/or upgrade)? ===
 (multiple choice, with other)
 
@@ -1180,6 +1201,30 @@ operating systems.
 <!-- ## table end
  -->
 
+~-
+<b>Description:</b><<BR>>
+Explanation: "<i>binary package</i>" covers pre-compiled binary (e.g.
+from rpm or deb binary packages); "<i>source package</i>" covers things
+like deb-src and SRPMS / *.src.rpm; "<i>source script</i>" is meant to
+cover installation in source-based distributions, like 'emerge' in
+Gentoo.
+
+Automatic update (apt, yum, etc.) in most cases means binary package
+install; unless one uses source-based distribution like Gentoo, CRUX,
+or ![[SourceMage]], where automatic update means using source package (or
+source script).
+
+The option named "<i>preinstalled / sysadmin job</i>" means that either
+you didn't need to install git because it was preinstalled (and you
+didn't upgrade); or that you have to ask system administrator to have
+git installed or upgraded.
+
+Note that this question is multiple choices question because one can
+install Git in different ways on different machines or on different
+operating systems.
+-~
+
+<b>Analysis:</b><<BR>>
 Most people (71.5%) use ready binary packages, which was kind of
 expected; that is the easiest way.
 
@@ -1261,6 +1306,13 @@ expected; that is the easiest way.
 <!-- ## table end
  -->
 
+~-
+<b>Description:</b><<BR>>
+On Unices you can get the name of operating system by running
+"`uname`".
+-~
+
+<b>Analysis:</b><<BR>>
 Most common used operating system is Linux, next is MacOS X, and then
 MS Windows (on MS Window dominates msysGit version).  This is quite
 understandable, as Git was created on Linux and for Linux, and it
@@ -1326,6 +1378,15 @@ clarifications.
 <!-- ## table end
  -->
 
+~-
+<b>Description:</b><<BR>>
+* "<i>simple text editor</i>" option includes editors such as pico, nano, joe, Notepad,
+* "<i>programmets editor</i>" option includes editors such as Emacs/XEmacs, Vim, ![[TextMate]], SciTE (syntax highlighting, autoindentation, integration with other programmers tools, etc.)
+* "<i>IDE (Integrated Development Environment) and RAD (Rapid Application Development)</i>" option includes tools such as Eclipse, ![[NetBeans]] IDE, IntelliJ IDE, MS Visual Studio, KDevelop, Anjuta, Xcode, Code::Blocks but also tools such as Quanta+, ![[BlueFish]] or Screem (for editing HTML, CSS, PHP etc.), and Kile or LEd for ![[LaTeX]].
+* "<i>WYSIWYG tools</i>" option includes word processors such as MS Office or ![[OpenOffice]].org, but also tools such as Adobe Acrobat (for PDF) or GIMP (for images), or WYSIWYG DTP tools such as !QuarkXPress,  ![[PageMaker]] or Scribus, or WYSIWYG HTML editors such as ![[FrontPage]],  Dreamweaver or ![[KompoZer]].
+-~
+
+<b>Analysis:</b><<BR>>
 Most popular kind of tool is programmer's editor with very strong 88%
 lead.  Next in turn are IDE or RAD with 33%, followed by simple text
 editor, with 26%.  The WYSIWYG tools are last, with very small 6% of
@@ -1333,13 +1394,13 @@ replies; also people who use WYSIWYG tools also use other kind of
 tools to edit (presumably to edit commit message at least).
 
 From browsing through some of "other tool" responses it seem like there should be included 'web interface' among possible tools (written
-as: wiki frontend, [[GitHub]] editor, <textarea>). Other responses include
-Xournal (note taking application for graphic tablet, using stylus),
-Tinderbox (also note taking application), Git GUI tool: GitX (?),
-custom git-aware CMS (probably also 'web interface'), scripts and
-oneliners, command line and 'On occasion, Unix text manipulation
-tools'. Also there is "audio editors" answer (which probably should
-fall under "WYSIWYG tool)...
+as: wiki frontend, ![[GitHub]] editor, <textarea>). Other responses
+include Xournal (note taking application for graphic tablet, using
+stylus), Tinderbox (also note taking application), Git GUI tool: 
+GitX (?), custom git-aware CMS (probably also 'web interface'),
+scripts and oneliners, command line and 'On occasion, Unix text
+manipulation tools'. Also there is "audio editors" answer (which
+probably should fall under "WYSIWYG tool)...
 
 Many answers in 'other tool' falls in one of ready categories; perhaps
 they are clarification of answer?
@@ -1566,6 +1627,16 @@ they are clarification of answer?
 <!-- ## table end
  -->
 
+~-
+<b>Description:</b><<BR>>
+Here "<i>graphics diff tool</i>" means tools such as Kompare, and graphical merge tool means tools such as Meld and !KDiff3. Those answers include graphical merge and diff tools used by programmers editors and IDEs.
+
+"<i>graphical history browser (any)</i>" covers tools such as gitk, QGit, Giggle, tig etc., but also built-in git commands such as "`git log --graph`" and "`git show-branch`". If you use one of mentioned tools <u>as</u> history browser, mark both a tool and "graphical history browser (any)"; if you use some graphical history viewer not listed here, please both mark this answer and specify it in the "other tool" answer.
+
+Similarly for other answers marked "(any)".
+-~
+
+<b>Analysis:</b><<BR>>
 Currently the above table is only roughly divided into categories and subcategories.
 
 === 12. What tool (or kind of tool) would you like to have Git support in? ===
@@ -1760,6 +1831,18 @@ The leader here is (again) ![[GitHub]] (62%); only self hosted has close amount 
 <!-- ## table end
  -->
 
+~-
+<b>Description:</b><<BR>>
+This question asks about how do you get changes (updates) from
+projects you follow into your local repository. It is not about how do
+you get latest version of Git.
+
+Fetching (or rather cloning) via bundle could mean that project
+publishes ready for download bundles to reduce traffic and load on
+server (HTTP download [of bundle] can be resumed, git-clone currently
+cannot; one can also distribute bundle using P2P).
+-~
+
 === 15. How do you publish/propagate your changes? ===
 (multiple choice, with other)
 
@@ -1831,6 +1914,12 @@ The leader here is (again) ![[GitHub]] (62%); only self hosted has close amount 
 |}
 <!-- ## table end
  -->
+
+~-
+<b>Description:</b><<BR>>
+Publishing via bundle could mean sending bundle via email, or posting
+it on review board (or forum).
+-~
 
 === 16. How often do you use the following forms of git commands or extra git tools? ===
 (matrix)
@@ -2135,6 +2224,33 @@ Percentages are relative to the number of people who answered this question, not
 |}
 <!-- ## table end
  -->
+
+~-
+<b>Description:</b><<BR>>
+The version from approximately one year ago is 1.5.6 from 18-06-2008,
+the last version in 1.5.x series (except maintenance releases from
+1.5.6.1 to 1.5.6.6). Major controversial change in 1.6.0 was
+installing most of the programs outside your $PATH.
+
+Other changes include:
+* stash never expires by default
+* git-branch got -v, --contains and --merged options
+* fast-export / fast-import learned to export and import marks file
+* "git stash save" learned --keep-index option; "git stash" learned "branch" subcommand
+* when you mistype a command name, git can suggest what you might meant to say
+* git add -N / --intent-to-add
+* built in synonym "git stage" for "git add", and --staged for --cached
+* improvements to "git bisect skip" (can take range, more aggresive)
+* "git diff" can use varying mnemonic prefixes, learned "textconv" filter
+* "git log" learned --simplify-merges, --source, --simplify-by-decoration
+* "git send-email" can automatically run "git format-patch"
+* unconfigured git-push issue now a big warning (preparing for the future incompatibile change)
+* you can use @{-1} to refer to the last branch you were on
+* "git diff" learned --inter-hunk-context and can be told to run --patience diff
+* git-difftool can run graphical diff tool
+
+(see individual ![[RelNotes]] for more details)
+-~
 
 == Documentation. Getting help. ==
 
