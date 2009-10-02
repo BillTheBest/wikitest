@@ -1,3 +1,11 @@
+= New Home =
+
+<i>The EGit plugin and its companion JGit library have moved to eclipse.org:</i>
+
+[[http://www.eclipse.org/egit/|EGit at Eclipse]]
+
+= Prior Content =
+
 {{attachment:egit2_med.png}}
 
 Java GIT/Eclipse GIT (by Shawn Pearce) is a Java GIT library and plugin for [[http://www.eclipse.org/|Eclipse IDE]].
