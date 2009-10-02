@@ -1,7 +1,7 @@
 = Eclipse Plugin Wishlist =
-Now that we have some basic features in the Eclipse plugin, we need to focus on making it usable by average users doing daily tasks.
+Please file all feature requests in the [[https://bugs.eclipse.org/bugs/enter_bug.cgi?product=EGit|EGit issue tracker]].
 
-<<<!-- ! TOC here -->>>
+= Old Content =
 
 == Submodules ==
 Currently, projects that use git submodules cannot be cloned or managed at all with egit. Even if the project is cloned externally from Eclipse, Egit commit doesn't work.
