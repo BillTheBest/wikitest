@@ -1,4 +1,4 @@
-= Old Content =
+= Old Egit Page =
 
 <b>Please note that this page is kept for historic purposes. For current information about EGit, please see the new homepage at [[http://www.eclipse.org/egit/]]</b>
 
@@ -68,7 +68,7 @@ Some ways to keep informed about Egit development.
 * Q: Will there be support for Eclipse 3.4 Ganymede anytime soon?
 ** A: Eclipse 3.4 is already supported.
 
-= Historic notes -
+= Historic notes =
 
 This page was the old wiki hosted at git.or.cz. Both EGit and JGit have moved to Eclipse.org; the sources can be found at [[http://wiki.eclipse.org/EGit/Contributor_Guide]]
 
