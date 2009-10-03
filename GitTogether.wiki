@@ -25,7 +25,6 @@ Verified attendees:
 * Gitzilla
 * Steffen Prohaska
 * Johannes Schindelin
-* Tuncer Ayaz
 * Sebastian Schuberth
 * Sverre Rabbelier
 * Jens Lehmann
