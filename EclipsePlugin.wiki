@@ -4,6 +4,10 @@
 
 [[http://www.eclipse.org/egit/|EGit at Eclipse]]
 
+The new Git repositories can be found at the [[http://wiki.eclipse.org/EGit/Contributor_Guide|EGit contributor guide]]
+
+OldEGitPage
+
 = Prior Content =
 
 {{attachment:egit2_med.png}}
