@@ -31,6 +31,7 @@ Verified attendees:
 * Jens Lehmann
 * Heiko Voigt
 * Christian Halstrick
+* Michael Haggerty
 
 = [[GitTogether]] '08 =
 [[GitTogether]]08 took place October 27-29 2008 in Mountain View, California, with around 25 developers and users.
