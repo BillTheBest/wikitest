@@ -2,8 +2,6 @@
 
 <b>Please note that this page is kept for historic purposes. For current information about EGit, please see the new homepage at [[http://www.eclipse.org/egit/]]</b>
 
-{{attachment:egit2_med.png}}
-
 Java GIT/Eclipse GIT (by Shawn Pearce) is a Java GIT library and plugin for [[http://www.eclipse.org/|Eclipse IDE]].
 
 The <b>old</b> Eclipse update site for the plugin is (Incubation) <s>[[http://www.jgit.org/updates]]</s>
