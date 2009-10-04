@@ -353,7 +353,7 @@ excellent discussion of the topic.
 
 <<[[GitLink]](ssh-config,You can setup a new entry in ~/.ssh/config with the right key)>>
 == How do I specify what ssh key git should use? ==
-This is not really a git question. However, you can edit your ~/.ssh/config file in order to tell ssh what key to use. More information about this is in the [[http://www.openbsd.org/cgi-bin/man.cgi?query=ssh_config|ssh config manpage]]. The short version is that you can specify a custom Host with it's own [[IdentityFile]], like this:
+This is not really a git question. However, you can edit your ~/.ssh/config file in order to tell ssh what key to use. More information about this is in the [[http://www.openbsd.org/cgi-bin/man.cgi?query=ssh_config|ssh config manpage]]. The short version is that you can specify a custom Host with its own [[IdentityFile]], like this:
 <pre><nowiki>
 Host GitServer
   Hostname=git.example.org
