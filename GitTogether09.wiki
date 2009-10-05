@@ -18,6 +18,7 @@ Any questions, please contact Shawn Pearce ( gsoc@spearce.org ).
 # Jeff King
 # Nick Edelen
 # Wink Saville
+# John 'Warthog9' Hawley (probably only attending one or two days)
 
 Google has us capped at ~25 attendees.
 
