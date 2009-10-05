@@ -17,6 +17,7 @@ Any questions, please contact Shawn Pearce ( gsoc@spearce.org ).
 # Brandon Casey
 # Jeff King
 # Nick Edelen
+# Wink Saville
 
 Google has us capped at ~25 attendees.
 
