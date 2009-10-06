@@ -233,7 +233,9 @@ There are a few spikes spikes on above Completion Rate Graph; from those the fol
 * 21 Jul | 622 respondents / day
 * 27 Jul | 155 respondents / day
 * 13 Aug | 103 respondents / day
-(note that those results are slightly different from the ones presented in 'partial summary, part 1' thread linked above; this might be possibly the matter of different timezones used).
+(note that those results are slightly different from the ones presented in [[http://thread.gmane.org/gmane.comp.version-control.git/124599|'partial summary, part 1' thread]] mentioned above; this might be possibly the matter of different timezones used).
+
+There were 25 responses in the non-default "[[GitSurvey]]2009: no cookies, anonymous" channel that required no cookies, and was totally anonymous.  This was at the cost of not being able to go back to one's responses to correct or complete it.
 
 == About you ==
 
@@ -568,7 +570,7 @@ This table is sorted alphabetically.
 |   2.1% 
 | 
 |-
-|  Serbia and Montenegro                
+|  Serbia                               
 |      5 
 |   0.1% 
 | 
@@ -683,15 +685,151 @@ This table is sorted alphabetically.
 
 As one can easily see, slightly less than third of Git users (32.7%) are in the USA (those who answered this survey, and this question).  Next of countries is Germany with around 11.0% responses.  Third is United Kingdom of Great Britain (including England, Scotland, Wales and Northern Ireland) with 8.1%.
 
-The names of the countries were normalized using [[http://p3rl.org/Locale::Country|Locale::Country]] Perl module version 2.07
+The names of the countries were normalized using [[http://p3rl.org/Locale::Country|Locale::Country]] Perl module version 2.07 (with the fix that Serbia and Montenegro split into Republic of Serbia and Montenegro on 5 June 2006).
+
+<b>Top 12 Countries:</b>
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Country  
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  United States                              
+|   1189 
+|  32.7% 
+| 
+|-
+|  Germany                                    
+|    400 
+|  11.0% 
+| 
+|-
+|  United Kingdom                             
+|    293 
+|   8.1% 
+| 
+|-
+|  Canada                                     
+|    158 
+|   4.4% 
+| 
+|-
+|  France                                     
+|    157 
+|   4.3% 
+| 
+|-
+|  Australia                                  
+|    121 
+|   3.3% 
+| 
+|-
+|  Netherlands                                
+|     76 
+|   2.1% 
+| 
+|-
+|  Russian Federation                         
+|     75 
+|   2.1% 
+| 
+|-
+|  Sweden                                     
+|     73 
+|   2.0% 
+| 
+|-
+|  Poland                                     
+|     68 
+|   1.9% 
+| 
+|-
+|  Italy                                      
+|     65 
+|   1.8% 
+| 
+|-
+|  Norway                                     
+|     63 
+|   1.7% 
+| 
+|}
+<!-- ##----------------------------------------------------------------
+ -->
+<!-- ## table end
+ -->
 
 You can also take a look at [[http://www.ohloh.net/projects/git/map|Git Activity Map]] at [[http://www.ohloh.net|Ohloh]], where you can see on (large) Google Map locations of selected people who have Git in a [[http://www.ohloh.net/about/faq#stack|stack]], or locations of Git contributors (those with known location).
 
 It is a bit pity that this survey did not include question "Does git.git repository include code produced by you?" (or equivalent), so we would be able to see where the developers are.
 
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Continent  
+|  Count 
+|  Perc. 
+| 
+|}
+<!-- ##----------------------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  Africa                                     
+|     19 
+|   0.5% 
+| 
+|-
+|  Asia                                       
+|    201 
+|   5.5% 
+| 
+|-
+|  Europe                                     
+|   1769 
+|  48.7% 
+| 
+|-
+|  North America                              
+|   1371 
+|  37.8% 
+| 
+|-
+|  South America                              
+|     98 
+|   2.7% 
+| 
+|-
+|  Oceania                                    
+|    161 
+|   4.4% 
+| 
+|}
+<!-- ##................................................................
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="border-top: dotted;"> Unknown    
+|     12 
+|   0.3% 
+| 
+|}
+<!-- ##----------------------------------------------------------------
+ -->
+<!-- ## table end
+ -->
+
+In the table above "Oceania" includes (among others) Australia and New Zealand.  As you can see most responders are from Europe (49%, slightly less than half), followed by North America (38% responders).
+
+The conversion from country name to continent was done using [[http://p3rl.org/Locale::Object::Country|Locale::Object::Country]] Perl module from CPAN, which in turn uses data from http://www.worldatlas.com/cntycont.htm
+
 === 02. How old are you (in years)? ===
 (tabularized free-form single line)
 
+{{attachment:[[GitSurvey]]2009-age_hist.png|Histogram of age of responders|align="right"}}
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
