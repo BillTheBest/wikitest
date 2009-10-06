@@ -12,10 +12,10 @@ Those are public Git hosting sites where any project can be hosted, perhaps with
 ** [[http://tomayko.com/writings/github-is-myspace-for-hackers|GitHub: My Kind of Social Software]] by Ryan Tomayko
 ** [[http://railstips.org/2008/2/16/git-and-github|Git and GitHub // [[RailsTips]].org by John Nunemaker]]
 ** [[http://pauldowman.com/2008/07/26/got-git/|Paul Dowman » Blog Archive » Got Git]] (why people chose GitHub).
-* [[http://www.indefero.net|InDefero]] offers free Git hosting with private/public projects, bug tracking, code review, file sharing and more (it started as a Google Code clone), the full code of InDefero is available (GPL).
 * [[http://codebasehq.com|Codebase]] is a Git hosting service with full online source browser, changeset viewer, deployment tracking, alng with ticketing and other project management functionality. Designed for private/company projects.
 ** [[http://drewblas.com/2009/03/07/my-new-love-codebase-hq/|Drew Blas on Codebase and Github]]
 * [[http://unfuddle.com/|Unfuddle]] (Software Project Management: Git and Subversion Hosting), free (or different payment plans) but not open source.
+* [[http://www.indefero.net|InDefero]] offers free Git hosting with private/public projects, bug tracking, code review, file sharing and more (it started as a Google Code clone), the full code of InDefero is available (GPL).
 * [[http://savannah.gnu.org|Savannah]] ([[http://git.sv.gnu.org/gitweb/|gitweb]]) is hosting facility for [[http://www.gnu.org/gnu/thegnuproject.html|GNU software]], with companion site [[http://savannah.nongnu.org|savannah.nongnu.org]] for hosting [[http://www.gnu.org/philosophy/free-sw.html|Free Software]]. Savannah uses [[https://savannah.nongnu.org/p/savane-cleanup|clean-up branch of Savane]], which does have [[https://savannah.gnu.org/maintenance/Git|Git support]]<<BR>> <b>See also:</b> [[http://savannah.gnu.org/maintenance/UsingGit|[[UsingGit]]]] (user) documentation.
 * [[http://www.sourceforge.net|SourceForge.net]] software development site
 * [[http://sourceforge.jp/|SourceForge.JP]] provides Git hosting for open source projects, including gitweb. See [[http://sourceforge.jp/forum/forum.php?forum_id=16362|documentation]]
