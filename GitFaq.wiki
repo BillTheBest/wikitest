@@ -349,6 +349,22 @@ You are on a detached HEAD and might lose commits.  See
 http://sitaramc.github.com/concepts/detached-head.html for an
 excellent discussion of the topic.
 
+== "git log -S" does not show all commits ==
+
+The behavior of <code><nowiki>git log -Ssearchstring</nowiki></code> is not to
+compute the diff for each commit and to search for <code><nowiki>searchstring</nowiki></code>
+in it, but to show the commits where the number of occurences of
+<code><nowiki>searchstring</nowiki></code> have changed (which is much faster than grepping
+the diff).
+
+If you want to see all the commits for which <code><nowiki>searchstring</nowiki></code> appear
+in the diff, you can get close to the behavior you expect with a bit
+of scripting like:
+
+<pre><nowiki>
+git log -p -z | perl -0 -ne 'print "$_\n" if(/[+-].*searchedstring/);'
+</nowiki></pre>
+
 = How do I ... =
 
 <<[[GitLink]](ssh-config,You can setup a new entry in ~/.ssh/config with the right key)>>
