@@ -362,7 +362,7 @@ in the diff, you can get close to the behavior you expect with a bit
 of scripting like:
 
 <pre><nowiki>
-git log -p -z | perl -0 -ne 'print "$_\n" if /[+-].*searchedstring/;'
+git log -p -z | perl -ln0e 'print "$_\n" if /[+-].*searchedstring/;'
 </nowiki></pre>
 
 = How do I ... =
