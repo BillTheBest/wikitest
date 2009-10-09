@@ -205,7 +205,7 @@ There were around 117 responses in [[GitSurvey2006]].
 <!-- ## table end
  -->
 
-The table above shows histogram of the number of answered questions by responder from the 30 questions in the survey.  Most people answered from 23 to 27 questions from 30.
+The table above shows histogram of the number of answered questions by responder from the 30 questions in the survey.  Most people answered from 23 to 27 questions from 30.  Average number of skipped (not answered) questions is 6.7 +/- 5.9.
 
 Note that in one of questions, "22. Did you participate in previous Git User's Surveys?" lack of answer didn't necessarily mean that somebody skipped this question; lack of answer was there answer in itself.  There are also optional (well, more optional) 3 free-form essay questions.  That makes 26 questions to answer.
 
@@ -234,6 +234,8 @@ There are a few spikes spikes on above Completion Rate Graph; from those the fol
 * 27 Jul | 155 respondents / day
 * 13 Aug | 103 respondents / day
 (note that those results are slightly different from the ones presented in [[http://thread.gmane.org/gmane.comp.version-control.git/124599|'partial summary, part 1' thread]] mentioned above; this might be possibly the matter of different timezones used).
+
+At most often time between responses was below 1 second (the precision of Survs.com response timestamp), while maximum duration of time between responses was slightly more than 12 hours (half a day).
 
 There were 25 responses in the non-default "[[GitSurvey]]2009: no cookies, anonymous" channel that required no cookies, and was totally anonymous.  This was at the cost of not being able to go back to one's responses to correct or complete it.
 
