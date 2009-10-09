@@ -6,7 +6,7 @@ Submodules maintain their own identity; the submodule support just stores the su
 For the purposes of the tutorial, the public repositories will be published under your home directory in ~/subtut/public. Let's create the four public submodule repositories first:
 
 <pre><nowiki>
-$ mkdir ~/subtut ~/subtut/public
+$ mkdir -p ~/subtut/public
 $ cd ~/subtut/public
 $ for mod in a b c d; do
     mkdir $mod
