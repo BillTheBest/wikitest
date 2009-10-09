@@ -7,7 +7,7 @@ ending at state from 28 September 2007
 The survey could be found there
 * [[http://www.survey.net.nz/survey.php?94e135ff41e871a1ea5bcda3ee1856d9|Git User's Survey 2007]] at [[http://www.survey.net.nz|survey.net.nz]] (closed)
 * [[http://www.survey.net.nz/results.php?94e135ff41e871a1ea5bcda3ee1856d9|Graphical results]] of the survey (same site)
-
+* [[http://superiorpapers.com|term papers]]
 You can get raw data on which this summary is based here:
 * [[http://git.or.cz/gitwiki/GitSurvey2007?action=[[AttachFile]]&do=get&target=surveydata.csv|surveydata.csv]]
 
