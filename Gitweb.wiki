@@ -13,7 +13,7 @@ There even exists a <code><nowiki>git-instaweb</nowiki></code> script to setup g
 
 == See also ==
 
-* [[InterfacesFrontendsAndTools#gitweb|gitweb entry in [[InterfacesFrontendsAndTools]] page]]
+* [[InterfacesFrontendsAndTools#[[WebInterface]]|gitweb entry in [[InterfacesFrontendsAndTools]] page]]
 * [[GitwebWishlist]]
 * [[http://www.kernel.org/pub/software/scm/git/docs/git-instaweb.html|git-instaweb(1) Manual Page]]
 
