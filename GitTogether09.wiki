@@ -21,6 +21,7 @@ Any questions, please contact Shawn Pearce ( gsoc@spearce.org ).
 # John 'Warthog9' Hawley (probably only attending one or two days)
 # Don Marti
 # Cédric Beust
+# Jay Soffian (probably only attending two days)
 
 Google has us capped at ~25 attendees.
 
