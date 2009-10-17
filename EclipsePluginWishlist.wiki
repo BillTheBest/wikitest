@@ -55,7 +55,7 @@ Add the "Add to .gitignore" entry menu.
 
 Ignored files should also be processed for status handling, initial refusal to add to the tree (require extra confirmation), etc.
 
-20090224 I've started work on implementing support for .gitignore files. -- Ferry Huberts
+20091017 I'm having trouble freeing up some time to resume work on implementing support for .gitignore files. Do not expect anything anytime soon. -- Ferry Huberts
 
 == SVN Integration ==
 It would be swell -- but put it at the bottom of your priority list -- to have git-svn interoperability; sadly most of my git usage at the moment is in cloned svn repositories and it would be great if egit could do the right thing when the current git repo is cloned from svn. What "the right thing" is, exactly, is debatable, but I suppose some kind of integration with the Subclipse plugin is one possibility (and if nothing else, that plugin probably has code that can be reused.) I'd like to be able to update from and commit to the parent svn repository. <i>-- Steven Grimm</i>
