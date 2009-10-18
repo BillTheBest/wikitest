@@ -1005,6 +1005,9 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 === codeBeamer Collaborative ALM Solution ===
 * [[http://www.intland.com/products/cb/overview.html|codeBeamer]] - ([[http://www.javaforge.com|free trial at JavaForge]]) Award winning collaborative ALM solution with wiki, document management, highly customizable issue tracking, continuous integration, version control with Git (and Mercurial, Subversion, etc.), source code analysis, forums and more.
 
+=== [[BugTracker]].NET ===
+* [[http://ifdefined.com/bugtrackernet.html]] An ASP.NET bug tracking system with git integration.
+
 === Jira Git plugin ===
 * [[http://confluence.atlassian.com/display/JIRAEXT/Jira+Git+Plugin|Git Plugin for JIRA]] A plugin for [[http://www.atlassian.com/software/jira/|JIRA]] linking to Git repos using the Java implementation of Git.
 
