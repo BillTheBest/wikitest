@@ -395,6 +395,9 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * Mantis Bugtracker
 * http://www.mantisbt.org/ (homepage)
 * http://git.mantisbt.org/?p=mantisbt.git; (gitweb)
+* Maemo (Linux platform for mobile phones; used on the Nokia N900)
+* http://maemo.org/ (homepage)
+* http://maemo.gitorious.org/ (repo-page)
 * Merb (Ruby MVC Framework)
 * http://merbivore.com/ (homepage)
 * http://github.com/wycats/merb-core/tree/master (repository browser)
