@@ -16,7 +16,7 @@
 === Core Git (in distribution) ===
 * Core Git contains a set of scripts on top of the [[Git]] plumbing providing a version control system interface distributed along the Git itself. It also bundles stable versions of [[[#git-gui|git-gui]]] and [[[#gitk|gitk]]].
 
-=== Cogito ===
+=== Cogito (deprecated) ===
 * [[Cogito]] for some time was the most popular version control system on top of Git. It aims at seamless user interface and ease of use, providing generally smoother user experience than the "raw" Git interface and indeed also many other version control systems. Note that Cogito is <i>no longer maintained or recommended</i>. Git 1.5.0 and beyond has incorporated many features that make it suitable for direct use without needing additional software.
 
 === [[IsiSetup]] ===
