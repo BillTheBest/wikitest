@@ -189,7 +189,7 @@ This is a precautionary design decision.  The remote repository's work tree may 
 
 A quick rule of thumb is to <i>never</i> push into a repository that has a work tree attached to it, until you know what you are doing.
 
-If you are sure what you are doing, you can do a "git reset --hard" on the side you pushed to. Note that this WILL lose ALL changes you made on that side, resetting the working tree to the newest revision you pushed.
+If you are sure what you are doing, you can do a "git reset --hard" on the side you pushed to. Note that this WILL lose ALL changes you made on that side, resetting the working tree to the newest revision you pushed. See [[http://sitaramc.github.com/concepts/bare.html#how_do_I_fix_such_a_non_bare_push_|this article about bare repositories]] for details.
 
 See also the entry ([[[#push-is-reverse-of-fetch|How would I use "git push" to sync out of a firewalled host?]]]) in this FAQ for the proper way to work with push with a repository with a work tree.
 
