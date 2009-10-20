@@ -67,6 +67,9 @@
     [[https://jazz.net/projects/rational-team-concert/|Rational Team Concert]] - A collaborative software development environment.
     Rational Team Concert enables developers to collaborate together using integrated Planning, Source Control, Work Items, Build, Dashboards, Reports, and Process Support. An example Git integration tutorial can be seen [[https://jazz.net/library/article/194|here]]
 
+<b>[[MonoDevelop]]</b> (IDE for C#/.NET)
+    [[http://kerneltrap.org/mailarchive/git/2008/11/12/4067754|mailing list post]] and [[http://monodevelop.com/Developers/TODO|monodevelop wiki page]] have details.
+
 ----
 [[CategoryTools]]
 
