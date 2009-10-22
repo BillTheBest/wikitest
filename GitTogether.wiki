@@ -12,25 +12,8 @@ These are events when git developers and users physically meet in the same place
 For further details, see the [[GitTogether]]09 planning page.
 
 == "Alles Wird Git" Berlin [[GitTogether]] '09 ==
-* What: An informal gathering of Gits.
-* What2: Dscho will talk about msysGit.
-* Date: Saturday, October 3, 2009.
-* Time: 10am until the end
-* Where: http://www.zib.de/besucher/index.en.html
-* Why: Gitzilla will be visiting and volunteered a $100 subsidy.
-* Who: Any Gits that can attend. IRC handle starting with "git" not required.
 
-Verified attendees:
-
-* Gitzilla
-* Steffen Prohaska
-* Johannes Schindelin
-* Sebastian Schuberth
-* Sverre Rabbelier
-* Jens Lehmann
-* Heiko Voigt
-* Christian Halstrick
-* Michael Haggerty
+See [[[AllesWirdGit|'09]]].
 
 = [[GitTogether]] '08 =
 [[GitTogether]]08 took place October 27-29 2008 in Mountain View, California, with around 25 developers and users.
