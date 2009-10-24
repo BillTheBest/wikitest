@@ -709,7 +709,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 | (gct) 
 | [[http://pmpu.sharesource.org/pmpu2.png|X]] 
 | [[http://qct.sourceforge.net/qct-1.2.png|X]] 
-| [[http://cola.tuxfamily.org/screenshots.php|X]] 
+| [[http://cola.tuxfamily.org/screenshots.html|X]] 
 | [[http://s3.amazonaws.com/caged/gitnub-0.9.0.png|X]] 
 | [[http://ss.frim.nl/==891|X]] 
 | (Pyrite) 
