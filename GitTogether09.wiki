@@ -33,7 +33,11 @@ Please join the [[http://lists.utsl.gen.nz/mailman/listinfo.cgi/gittogether|GitT
 
 Please try to time your arrival to the 9:00-9:30 am window each day.  Googlers will be on hand to help you sign in and find the meeting room.  After 9:30 sign-in will get a little bit more interesting as you may need to work with main reception.
 
-Breakfast and lunch each day will be catered by Google.  Dinner out is at our own expense.   We'll try to locate some establishments in the Mountain View area with a rough price of $15-$20 USD/person (beverage, entree).  If anyone is a local and has suggestions, gsoc@spearce.org .
+Breakfast and lunch each day will be catered by Google.
+
+Dinner on Monday will be sponsored by [[GitHub]] and take place at Cascal Restaurant (400 Castro St in Mtn. View) at 7:00pm.
+Dinner on Tuesday will be at your own expense at Vive Sol (2020 El Camino Real in Mtn. View) at 6:30pm.
+Dinner on Wednesday is not pre-arranged.
 
 == Speakers ==
 
