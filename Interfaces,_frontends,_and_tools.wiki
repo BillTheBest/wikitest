@@ -51,6 +51,9 @@
 === Grit ===
 * [[http://grit.rubyforge.org/|Grit]] is a Ruby library for extracting information from a git repository in an object oriented manner. This includes a [[http://github.com/blog/107-supercharged-ruby-git|partial native Ruby implementation]], which is used for a number of the operations.
 
+=== v ===
+* [[http://github.com/boof/v|v]] is another Ruby library providing a git adapter that makes working with git repositories easy. Git operations are mapped almost 1:1 to ruby methods and executed in a seperate thread returning futures when they're queued. It supports core git objects and convenience objects (indexes, branches, ...) which will provide a convenient API. It is still under development, means except for few examples there is no real documentation and most of the git operations still need to be implemented (first [[CommandLine]] wrapper (porcelain and plumbing), then pure Ruby (plumbing and then porcelain)).
+
 === Dulwich ===
 * [[https://launchpad.net/dulwich|Dulwich]] is a pure-Python implementation of the Git file formats and protocols. It is named after the village in which Mr. and Mrs. Git live in the Monty Python sketch. A Git repository ca be found at git://git.samba.org/jelmer/dulwich.git and its gitweb [[http://git.samba.org/?p=jelmer/dulwich.git;a=summary|here]].
 
