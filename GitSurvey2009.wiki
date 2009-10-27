@@ -322,7 +322,7 @@ This survey was announced at the following blogs (note that dates below for blog
 <!-- ##--------------------------------------------------------------------
  -->
 
-Another important channel for finding about this survey was according to question 19 microblogging platforms such as [[http://twitter.com|Twitter]], [[http://identi.ca|Identi.ca]], [[http://www.plurk.com|Plurk]], etc.
+Another quite important channel for finding about this survey was, according to question 19, microblogging platforms such as [[http://twitter.com|Twitter]], [[http://identi.ca|Identi.ca]], [[http://www.plurk.com|Plurk]], etc.
 
 <!-- ## table begin
  -->
@@ -3946,16 +3946,16 @@ Other changes include:
 | 
 |-
 |  Twitter or other microblogging platform      
-|    781 
-|  22.4% 
+|    350 
+|  10.0% 
 | 
 |-
 | <-3>
 | 
 |-
 |  other - please specify                       
-|      7 
-|   0.2% 
+|    438 
+|  12.6% 
 | 
 |}
 <!-- ## -----------------------------------------------------------------
