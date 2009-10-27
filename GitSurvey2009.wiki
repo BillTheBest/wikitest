@@ -312,6 +312,8 @@ This survey was announced at the following blogs (note that dates below for blog
 |  4 Aug 2009, 10:13      
 |  04 Aug 
 |  http://virtualgenius.spaces.live.com/blog/cns!CC3C966FA733667C!811.entry 
+| 
+|-
 |  2009/08/18             
 |  18 Aug 
 |  http://www.debian-news.net/2009/08/18/misc-developer-news-17/ 
@@ -356,6 +358,9 @@ Another important channel for finding about this survey was according to questio
 |   8:06 PM, Aug 23rd 2009 
 |  23 Aug 
 |  http://twitter.com/scyldinga/status/3495621307 
+| 
+|-
+| <-3>
 | 
 |-
 |  24-Jul-09 00:27:46 UTC 
