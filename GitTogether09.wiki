@@ -22,6 +22,7 @@ Any questions, please contact Shawn Pearce ( gsoc@spearce.org ).
 # Don Marti
 # Cédric Beust
 # Jay Soffian (probably only attending two days)
+# Brad Larson
 
 Google has us capped at ~25 attendees.
 
