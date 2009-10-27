@@ -235,9 +235,177 @@ There are a few spikes spikes on above Completion Rate Graph; from those the fol
 * 13 Aug | 103 respondents / day
 (note that those results are slightly different from the ones presented in [[http://thread.gmane.org/gmane.comp.version-control.git/124599|'partial summary, part 1' thread]] mentioned above; this might be possibly the matter of different timezones used).
 
-At most often time between responses was below 1 second (the precision of Survs.com response timestamp), while maximum duration of time between responses was slightly more than 12 hours (half a day).
+This survey was announced at the following blogs (note that dates below for blog posts are in local timezone of blog, whatever it is, while Survs.com dates are in survey admin timezone, which is GMT+01:00 / +0100):
 
-There were 25 responses in the non-default "[[GitSurvey]]2009: no cookies, anonymous" channel that required no cookies, and was totally anonymous.  This was at the cost of not being able to go back to one's responses to correct or complete it.
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Local Date 
+|  Date 
+|  URL 
+| 
+|}
+<!-- ##--------------------------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  July 14th, 2009, 06:34 pm  
+|  14 Jul 
+|  http://gitster.livejournal.com/36139.html 
+| 
+|-
+|  July 15th, 2009 at 4:23 am 
+|  15 Jul 
+|  http://blogs.gnome.org/newren/2009/07/15/git-users-survey-2009 
+| 
+|-
+|  July 15, 2009 - 12:47 pm   
+|  15 Jul 
+|  http://gitlog.wordpress.com/2009/07/15/git-users-survey-2009 
+| 
+|-
+|  July 17, 2009 at 10:40 am  
+|  17 Jul 
+|  http://blog.gitorious.org/2009/07/17/the-git-users-survey 
+| 
+|-
+|  20 Jul 2009                
+|  <b>20 Jul</b> 
+|  http://github.com/blog/460-git-user-s-survey-2009 
+| 
+|-
+|  20 Aug 2009, 10:08 am      
+|  20 Aug 
+|  http://www.ceondo.com/ecte/2009/08/git-survey-2009 (http://www.indefero.net/blog/) 
+| 
+|-
+|  Sep 10, 2009 @ 10:11 AM    
+|  10 Sep 
+|  http://blog.assembla.com/assemblablog/tabid/12618/bid/10431/Bloggers-compare-Git-notes.aspx 
+| 
+|}
+<!-- ##--------------------------------------------------------------------
+ -->
+
+"Git User's Survey 2009" was also announced on the following blogs  (found via blogsearch):
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Local Date 
+|  Date 
+|  URL 
+| 
+|}
+<!-- ##--------------------------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|  17th Jul 2009, 8:47 am 
+|  17 Jul 
+|  http://marilyn.frields.org:8080/~paul/wordpress/?p=2632 
+| 
+|-
+|  2009-07-27             
+|  <b>27 Jul</b> 
+|  http://blog.hartwork.org/?p=451 
+| 
+|-
+|  4 Aug 2009, 10:13      
+|  04 Aug 
+|  http://virtualgenius.spaces.live.com/blog/cns!CC3C966FA733667C!811.entry 
+|  2009/08/18             
+|  18 Aug 
+|  http://www.debian-news.net/2009/08/18/misc-developer-news-17/
+|}
+<!-- ##--------------------------------------------------------------------
+ -->
+
+Another important channel for finding about this survey was according to question 19 microblogging platforms such as [[http://twitter.com|Twitter]], [[http://identi.ca|Identi.ca]], [[http://www.plurk.com|Plurk]], etc.
+
+<!-- ## table begin
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Local Date 
+|  Date 
+|  URL 
+| 
+|}
+<!-- ##--------------------------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+|   5:41 PM, Jul 15th 2009 
+|  15 Jul 
+|  http://twitter.com/jhelwig/statuses/2652743883 
+| 
+|-
+|  11:56 PM, Jul 19th 2009 
+|  19 Jul 
+|  http://twitter.com/kevmoo/status/2728027845 
+| 
+|-
+|  12:24 AM, Jul 21st 2009 
+|  <b>21 Jul</b> 
+|  http://twitter.com/github/status/2746745923 
+| 
+|-
+|   6:02 PM, Jul 21st 2009 
+|  <b>21 Jul</b> 
+|  http://twitter.com/howdous/status/2760055856 
+| 
+|-
+|   8:06 PM, Aug 23rd 2009 
+|  23 Aug 
+|  http://twitter.com/scyldinga/status/3495621307 
+| 
+|-
+|  24-Jul-09 00:27:46 UTC 
+|  24 Jul 
+|  http://identi.ca/notice/6906889 
+| 
+|-
+|  24-Jul-09 10:47:50 UTC 
+|  24 Jul 
+|  http://identi.ca/notice/6927573 
+| 
+|-
+|  03-Aug-09 05:36:49 UTC 
+|  03 Aug 
+|  http://identi.ca/notice/7461438 
+| 
+|}
+<!-- ##--------------------------------------------------------------------
+ -->
+
+As you can see the announcement on [[GitHub]] Blog (and via Twitter: [[http://twitter.com/github/status/2746745923]]) correlate with the second spike in responses on 27 July 2009, when we take difference in timezone into account.
+
+It looks like the announcement on Hartwork Blog, part of Planet Gentoo, might be responsible for small spike in responses at 27 July. But it might have been cased by announcement arriving via other channels, see answers to question "29. How did you hear about this Git User's Survey?" below.
+
+=== Survey statistics ===
+
+{| border="1" cellpadding="2" cellspacing="0"
+|  Total respondents:	
+|  3868         
+| 
+|-
+|  First response:	
+|  Jul 15, 2009 
+| 
+|-
+|  Last response:	
+|  Sep 16, 2009 
+| 
+|-
+|  Open during:		
+|  72 days      
+| 
+|-
+|  Average time:	
+|  49 minutes   
+| 
+|}
+
+At most often time between responses was below 1 second (the precision of Survs.com response timestamp), while maximum time between responses was slightly more than 12 hours (half a day).
+
+There were 25 responses in the non-default "[[GitSurvey]]2009: no cookies, anonymous" channel that required no cookies, and was totally anonymous (no logging of IP address).  This was at the cost of not being able to go back to one's responses to correct or complete it.
 
 == About you ==
 
