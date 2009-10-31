@@ -379,6 +379,29 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 | X
 | 
 |-
+| undo diff fragments 
+|  
+|  
+|  
+|  
+|  
+|  
+|  
+|  
+|  
+|  
+| X 
+|  
+|  
+|  
+|  
+|  
+|  
+|  
+|  
+|  
+| 
+|-
 | checkout 
 | X 
 | X 
