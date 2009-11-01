@@ -862,6 +862,7 @@ It is possible, however, to download subdirectories or even individual files if 
 
 Use <code><nowiki>git ls-remote</nowiki></code> to list available versions.
 
+<<[[GitLink]](make-bare, How to convert to bare repository)>>
 == How do I make existing non-bare repository bare? ==
 
 After making sure that there are no uncommitted changes, etc.:
@@ -877,6 +878,41 @@ The problem with the above process is that it doesn't take into account future i
    * git clone --bare -l <path_to_repos> <new_dir>
    * renamed old repository directory
    * renamed new repository dir to what old repository used to be.
+</nowiki></pre>
+
+<<[[GitLink]](find-large, Howto find large files)>>
+== How do I find large files? ==
+
+Save the following script to <code><nowiki>git-find-large</nowiki></code> in a directory listed in $PATH. The command <code><nowiki>git find-large</nowiki></code> will then list 10 paths corresponding to the largest blobs in your repository. Note that only one path is listed per blob, even if the blob has copies or different names in history.
+
+<pre><nowiki>
+ #!/bin/sh
+#
+# From Message-ID: <20090710114316.GA6880@atjola.homenet>
+#
+
+usage() {
+        echo "usage: `basename $0` [<limit>]"
+        exit 1
+}
+
+limit=10
+if test $# -gt 1
+then
+        usage
+elif test $# -eq 1
+then
+        limit=$1
+fi
+
+git rev-list --all --objects |
+        sed -n $(git rev-list --objects --all |
+                cut -f1 -d' ' | git cat-file --batch-check | grep blob |
+                sort -n -k3 | tail -n$limit | while read hash type size;
+                do
+                        echo -n "-e s/$hash/$size/p ";
+                done) |
+        sort -n -k1
 </nowiki></pre>
 
 = Error diagnostic =
