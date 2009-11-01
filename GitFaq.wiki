@@ -888,7 +888,7 @@ Save the following script to <code><nowiki>git-find-large</nowiki></code> in a d
 <pre><nowiki>
  #!/bin/sh
 #
-# From Message-ID: <20090710114316.GA6880@atjola.homenet>
+# From http://mid.gmane.org/20090710114316.GA6880@atjola.homenet
 #
 
 usage() {
