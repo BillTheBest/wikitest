@@ -160,7 +160,7 @@ Below there are blogs by gitters:
 === Software using a distributed approach ===
 * [[http://www.bitkeeper.com/|BitKeeper]] (`bk`) (was used in Linux kernel development December 1999 - April 2005)
 * [[http://www.gnu.org/software/gnu-arch/|GNU Arch]] (`tla`) — the original Arch (see also [[http://migo.sixbit.org/software/axp/|AXP - Arch eXtension Platform]]).
-* [[http://www.nongnu.org/arx/|ArX]] (`arx`) — started as fork of Arch, written in C  .
+* [[http://www.nongnu.org/arx/|ArX]] (`arx`) — started as fork of Arch, written in C++.
 * [[http://bazaar-vcs.org/|Bazaar-NG]] (`bzr`) — written in Python. Fast, supports symlinks and merge-through-renames. Decentralised and easy to use. Can losslessly import Arch, Hg, SVN archives.
 * [[http://www.venge.net/monotone/|Monotone]] — full-decentralized in a P2P way.
 * [[http://www.selenic.com/mercurial/|Mercurial]] (`hg`) — written in Python. Extremely fast, lightweight, portable, and easy to use.
