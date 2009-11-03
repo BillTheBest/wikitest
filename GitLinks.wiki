@@ -111,7 +111,7 @@ Also see [[BlogPosts]] for a collection of blog posts on specific Git usage.
 * [[http://markmcb.com/2008/10/18/3-reasons-to-switch-to-git-from-subversion/|3 Reasons to Switch to Git from Subversion]] by Mark ![[McBride]] (19 Oct 2008)
 * [[http://willowbend.cx/2005/08/24/git-epiphany/|Git Epiphany]] by Darrin 'Willowbend' Thompson, at [[http://willowbend.cx/|Willowbend: Confessions of a Wannabe Capitalist]] blog, (Wednesday, August 24th, 2005).
 * [[http://keithp.com/blog/Tyrannical_SCM_selection/|Tyrannical SCM selection]] and [[http://keithp.com/blog/Repository_Formats_Matter/|Repository Formats Matter]] by Keith Packard, about moving X.Org from CVS to Git. (see also [[http://www.selenic.com/mercurial/wiki/index.cgi/RepositoryFormatsMatter|[[RepositoryFormatsMatter]] in the Mercurial wiki]])
-* [[http://blogs.gnome.org/view/mortenw/2007/01/07/0|10x+ Better Compression Than Gzip]] by Morten Welinder shows size of git repository from archive of all released Gnumeric versions.
+* [[http://blogs.gnome.org/view/mortenw/2007/01/07/0|10x  Better Compression Than Gzip]] by Morten Welinder shows size of git repository from archive of all released Gnumeric versions.
 * [[http://tw.apinc.org/weblog/2007/01/03#subverting-git|Tainted Words - Subverting git]] by Steve Frécinaux talks about Git, SVN (Subversion) and git-svn.
 * [[http://weblogs.mozillazine.org/jst/archives/2006/11/vcs_performance.html|bzr/hg/git performance]] on Jst's Blog compares diff (tree diff and file diff) performance of Bazaar-NG (`bzr`), Mercurial (`hg`) and Git (`git`).
 * [[http://weblogs.mozillazine.org/preed/2007/04/version_control_system_shootou_1.html|Version Control System Shootout Redux Redux]] on [[http://weblogs.mozillazine.org/preed/|preed's blah-blah-blahg]] describes process of choosing Next Generation Version Control System by Mozilla Project (Mercurial was chosen for its Windows support and performance).
@@ -160,7 +160,7 @@ Below there are blogs by gitters:
 === Software using a distributed approach ===
 * [[http://www.bitkeeper.com/|BitKeeper]] (`bk`) (was used in Linux kernel development December 1999 - April 2005)
 * [[http://www.gnu.org/software/gnu-arch/|GNU Arch]] (`tla`) — the original Arch (see also [[http://migo.sixbit.org/software/axp/|AXP - Arch eXtension Platform]]).
-* [[http://www.nongnu.org/arx/|ArX]] (`arx`) — started as fork of Arch, written in C++.
+* [[http://www.nongnu.org/arx/|ArX]] (`arx`) — started as fork of Arch, written in C  .
 * [[http://bazaar-vcs.org/|Bazaar-NG]] (`bzr`) — written in Python. Fast, supports symlinks and merge-through-renames. Decentralised and easy to use. Can losslessly import Arch, Hg, SVN archives.
 * [[http://www.venge.net/monotone/|Monotone]] — full-decentralized in a P2P way.
 * [[http://www.selenic.com/mercurial/|Mercurial]] (`hg`) — written in Python. Extremely fast, lightweight, portable, and easy to use.
@@ -252,5 +252,6 @@ There is place for generic, non SCM specific, links
 * [[http://vcs-home.madduck.net|Using VCS to manage $HOME]]
 * [[http://madduck.net/tag/git|Pages tagged git]] on Martin "madduck" Krafft's website
 * [[http://stackhopr.com/blog/2009/git-commit|git poetry]]
+* [[http://students.ceid.upatras.gr/~sxanth/pyvm-2.0/|pyvm toolchain]] - contains a minimal implementation of git (1500 lines) in a python-like dynamic language. Supports only loose-object repositories but good to figure out how git works.
 
 __NOTOC__
