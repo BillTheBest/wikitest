@@ -307,6 +307,8 @@ CVS, you can't do this, if you use... what do you use here?
 Perforce?  ... Perforce.  Eh ... I'm sorry.  I'm sure it's
 better than CVS.
 
+<i>[whispers]</i> A tiny bit.
+
 <i>[audience laugh]</i>
 
 So that's part of it.  One of the really nice things which is
@@ -322,7 +324,7 @@ this class of people who are ostensibly not morons.  And most of
 the time what happens is that you make that class too small,
 because it is really hard to know if a person is smart or not,
 and even if you make it too small, you will have problems.  So this
-whole commit access issue, where some companies are able to
+whole commit access issue, which some companies are able to
 ignore by just giving everybody commit access, is a huge
 psychological barrier and causes endless hours of politics in
 most open source projects.
