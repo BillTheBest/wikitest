@@ -11,7 +11,7 @@ the people with Macintoshes on your laps.
 
 He is a guy who delights being cruel to people.  His latest
 cruel act is to create a revision control system which is
-explicitly designed to make you feel less intelligent than you
+expressly designed to make you feel less intelligent than you
 thought you were.
 
 Thank you for coming down today, Linus.  I've been getting
