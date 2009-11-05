@@ -1,5 +1,225 @@
-ai8Mff changes, technological changes and policy changes (that may or may not directly impact, [[http://technetnepal.net/members/malaysian_2D00_airline/default.aspx|malaysian airline]]ports are having an increasing influence on airport and aircraft operations. This influence is,  :PP, [[http://ukazurenet.com/members/qantas_2D00_airline/default.aspx|qantas airline]]Massachusetts Institute of Technology. He currently teaches graduate-level courses on,  668760, [[http://drowningintechnicaldebt.com/members/continental_2D00_airline/default.aspx|continental airline]]INFORMS Women in Operations Research/Management Science Forum, as President of,  xfd, [[http://prisonplace.com/members/thai_2D00_airline/default.aspx|thai airline]]and contractors on the airfield at Heathrow. Residue from washing of aircraft stands,  912, [[http://ncraonline.org/forum/members/deltaairlines/default.aspx|deltaairlines]]ter of Science in Transportation and a Ph.D. in Flight Transportation Systems from the,  2601, [[http://forum.planetrock.co.uk/members/northwest_2D00_airline/default.aspx|northwest airline]]of Technology. She has developed and teaches courses including carrier systems, opti-,  fhk, [[http://cnug.co.in/members/dog_2D00_airlines/default.aspx|dog airlines]]constraints and aviation economics (e.g.,Waitz et al., 2004; JPDO, 2006). This awareness,  rfe,
+<!-- ## Please edit system and help pages ONLY in the moinmaster wiki! For more
+ -->
+<!-- ## information, please see [[MoinMaster]]:[[MoinPagesEditorGroup]].
+ -->
+<!-- ##master-page:[[WikiSandBox]]
+ -->
+<!-- #format wiki
+ -->
+<!-- #language en
+ -->
+Please feel free to experiment here, after the four dashes below... and please do <b>NOT</b> create new pages without any meaningful content just to try it out!
+
+<b>Tip:</b> Shift-click "[[HelpOnEditing]]" to open a second window with the help pages.
+
 ----
-[[CategoryGitHomepage]]
+
+== Test Section ==
+hmm... how would one go about creating a user account? the [[UserPreferences]] page behind the login link seems to be b0rken.
+
+* [[GitSurvey]], [[Git]], [[Git]] - wikipedia-like syntax
+* [[GitSurvey|surve]] - wikipedia-like pipe link
+* <code><nowiki>backticks typewriter</nowiki></code>
+* Camel<code><nowiki></nowiki></code>Case
+== Formatting ==
+<i>italic</i> <b>bold</b> <code><nowiki>typewriter</nowiki></code>
+
+<code><nowiki>backtick typewriter</nowiki></code> (configurable)
+
+<span style="font-size: larger">bigger </span><span style="font-size: smaller">smaller </span>
+
+<pre><nowiki>
+preformatted some more
+and some more lines too
+</nowiki></pre>
+<pre><nowiki>
+#!python
+def syntax(highlight):
+    print "on"
+    return None
+</nowiki></pre>
+<pre><nowiki>
+#!java
+  public void main(String[] args]){
+     System.out.println("Hello world!");
+	System.out.println("Hello anderworld too!");
+  }
+</nowiki></pre>
+== Linking ==
+[[a|b]]
+
+[[Tilly dally|tilly dally]]
+
+[[Git|the best thing]]
+
+[[HelpOnEditing]]
+
+<b>Inter<code><nowiki></nowiki></code>Wiki</b> links:
+
+* <code><nowiki>[[MoinMoin]]:[[InterWiki]]</nowiki></code> -> [[MoinMoin]]:[[InterWiki]]
+* <code><nowiki>[[MoinMoin:[[InterWiki]]|[[InterWiki]]] on [[MoinMoin]]]</nowiki></code> -> [[MoinMoin:[[InterWiki]]|[[InterWiki]] on [[MoinMoin]]]]
+* <code><nowiki>[[WikiPedia:Subversion]</nowiki></code>|-> [[WikiPedia:Subversion|wiki:[[WikiPedia]]]:Subversion]]
+* <code><nowiki>[[WikiPedia:Subversion|Subversion]]</nowiki></code> -> [[WikiPedia]]:Subversion
+http://moinmoin.wikiwikiweb.de/ [[http://www.python.org/|Python]]
+
+someone@the.inter.net
+
+[[PythonFaq]]:[[RecentChanges]] = [[PythonFaq:[[RecentChanges]]|wiki:[[PythonFaq]]:[[RecentChanges]]]] with <code><nowiki>.htp</nowiki></code> extension.
+
+=== Image Link ===
+<<http://c2.com/sig/wiki.gif>>
+
+== Smileys ==
+/!\ Alert
+
+== Lists ==
+=== Bullet ===
+* first
+*# nested and numbered
+*# numbered lists are renumbered
+* second
+* third blockquote
+** deeper
+"Long item" list
+
+* I've been so busy with other projects. I didn't realize so many interfaces exist. Thanks to this survey I'll spend some time checking out the wiki for the other interfaces.<<BR>>At the 'Solutions Linux 2007' exhibition in Paris I have been.
+ I didn't even know about any of the new git features listed in question 43.<<BR>>I need to get an up to date version as there are things mentioned in this survey that I don't know about.
+=== Glossary ===
+; Term : Definition
+=== Drawing ===
+<<drawing:mytest>>
+
+=== Macros ===
+
+<code><nowiki>{{BR</nowiki></code>}} (with media4wiki)
+a <<BR>> b
+
+<code><nowiki><br></nowiki></code> (classic MoinMoin)
+a <<BR>> b
+
+= Heading 1 =
+== Heading 2 ==
+=== Heading 3 ===
+==== Heading 4 ====
+= IRC Log test =
+<pre><nowiki>
+#!irc
+(23:18) <     jroes> ah
+(23:19) <     jroes> hm, i like the way {{{ works, but i was hoping the lines would wrap
+(23:21) -!- gpciceri [~gpciceri@host181-130.pool8248.interbusiness.it] has quit [Read error: 110 (Connection timed out)]
+(23:36) < ThomasWal> you could also write a parser or processor
+(23:38) <     jroes> i could?
+(23:38) <     jroes> would that require modification on the moin end though?
+(23:38) <     jroes> i cant change the wiki myself :x
+(23:39) < ThomasWal> parsers and processors are plugable
+(23:39) < ThomasWal> so you dont need to change the core code
+(23:40) < ThomasWal> you need to copy it to the wiki data directory though
+(23:40) <     jroes> well, what i meant to say was that i dont have access to the box running the wiki
+(23:40) < ThomasWal> then this is no option
+(23:40) <     jroes> yeah :/
+(23:42) <HonestDave> How queer.
+</nowiki></pre>
+= Tables =
+== CSV table ==
+<pre><nowiki>
+#!CSV
+Answer;                         Count
+very easy;                      38
+easy;                           136
+reasonably;                     318
+hard;                           131
+very hard;                      33
+Base;                           656 / 683
+Total (sum);                    656
+</nowiki></pre>
+== Styled table ==
+<!-- ## comment?
+ -->
+* 
+{| border="1" cellpadding="2" cellspacing="0"
+| <tablewidth="60%" tablestyle="FONT-SIZE: smaller"rowbgcolor="#ffffcc" rowstyle="FONT-WEIGHT: bold">Answer 
+| Count 
+| 
+|}
+ ||<6 0 %>very easy ||38 ||
+ ||easy<<[[FootNote]](auto: easy)>> ||136 ||
+ ||||<rowbgcolor="#ffffdd" rowstyle="FONT-STYLE: italic">inner header ||
+ ||reasonably ||318 ||
+ |||| ||
+ ||hard<<[[FootNote]](auto: hard)>> ||131 ||
+ ||<rowstyle="BORDER-TOP-STYLE: dotted">hard ||131 ||
+ ||hard ||131 ||
+ |||| ||
+ ||hard [[[#fn_a|(a)]]] ||131 ||
+ ||very hard[[[#fn_b|<sup>b</sup>]]] ||33 ||
+ ||<rowbgcolor="#ccffff" rowstyle="FONT-WEIGHT: bold; FONT-STYLE: italic">Base ||656 / 683 ||
+ ||<rowbgcolor="#ccffff" rowstyle="FONT-WEIGHT: bold; FONT-STYLE: italic">Total (sum) ||656 ||
+<b>Footnotes (macro):</b> <<[[FootNote]]>> <b>Footnotes (by hand):</b>
+
+* <b>a)</b> <<Anchor(fn_a)>> hard
+* <b>b)</b> <<Anchor(fn_b)>> very hard
+Some trailing text
+
+== More tables ==
+<!-- ##----------------------------------------------------
+ -->
+{| border="1" cellpadding="2" cellspacing="0"
+| <rowbgcolor="#ffffcc" rowstyle="FONT-WEIGHT: bold"|2>Answer 
+|colspan="2" |<style="TEXT-ALIGN: center">2006 
+|colspan="2" |<style="TEXT-ALIGN: center">2007 
+| 
+|-
+| <rowbgcolor="#ffffcc" rowstyle="FONT-WEIGHT: bold">Count 
+| % sum 
+| Count 
+| %sum 
+| 
+|-
+| very easy 
+| 6 
+| 5.1% 
+| 38 
+| 5.7% 
+| 
+|-
+| easy 
+| 21 
+| 17.9% 
+| 136 
+| 20.4% 
+| 
+|-
+| reasonably 
+| 64 
+| 54.4% 
+| 318 
+| 47.7% 
+| 
+|-
+| hard 
+| 23 
+| 19.6% 
+| 131 
+| 19.8% 
+| 
+|-
+| very hard 
+| 3 
+| 2.6% 
+| 33 
+| 5.0% 
+| 
+|-
+| <rowbgcolor="#ccffff" rowstyle="FONT-WEIGHT: bold; FONT-STYLE: italic">Base 
+|colspan="2" |<style="TEXT-ALIGN: center">117 
+|colspan="2" |<style="TEXT-ALIGN: center">683 
+| 
+|-
+| <rowbgcolor="#ccffff" rowstyle="FONT-WEIGHT: bold; FONT-STYLE: italic">Total (sum) 
+| 117 
+| 100% 
+| 656 
+| 100% 
+| 
 
 __NOTOC__
