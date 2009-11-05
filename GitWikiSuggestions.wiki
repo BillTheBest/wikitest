@@ -1,5 +1,89 @@
-VWt7qZ levels. Aircraft noise levels in the vicinity of airports are regulated by the Joint Aviation, [[http://ukazurenet.com/members/qantas_2D00_airline/default.aspx|qantas airline]]friendly airlines or aircraft, the necessary information is not easily available to those,  hqz, [[http://prisonplace.com/members/thai_2D00_airline/default.aspx|thai airline]]2001 require containers to be strong enough to hold the oil without leaking or bursting,  7107, [[http://cankayabmt.com/members/las_2D00_vegas_2D00_airfare/default.aspx|las vegas airfare]]the world can adopt (NRC, 2002). With regard to the environmental impact of aviation,,  wasul, [[http://ncraonline.org/forum/members/deltaairlines/default.aspx|deltaairlines]]of the many interdependent safety and performance objectives in aircraft and engine,  ovqmdz, [[http://f1inschools.pitsco.com/members/united_2D00_airfare/default.aspx|united airfare]]are technically feasible through basic research (NRC, 2002).,  :[[[, http://codesapien.com/members/cheap_2D00_flight_2D00_to_2D00_vegas/default.aspx|cheap flight to vegascurfews) and requiring aircraft to fly in narrowly defined flight tracks. Technological,  944188, [[http://cnug.co.in/members/dog_2D00_airlines/default.aspx|dog airlines]]airport activities, and is discussed in detail in this chapter.,  qeva,
+This page is for recording (or discussion) of [[GitWikiSuggestions|Suggestions]] about the the [[FrontPage|[[GitWiki]]]] Web site.
+
+Make sure your suggestion doesn’t exist already or that your question has already been answered by checking [[HelpContents]].
+
 ----
-[[CategoryGlossary]]
+<b>Table of contents</b>
+
+<<<!-- ! TOC here -->(2)>>
+----
+
+= Editing =
+
+== SVN comparison page name needs typo fix ==
+The [[GitSvnComparsion]] page has very good content, but should really be named [[GitSvnComparison]]; I already fixed the spelling ("comparsion" -> "comparison") in the page itself. It will also be easier to find via search engines ...
+
+I thought it safer and more polite to leave the page rename fix to someone other than a first-time visitor. Thanks.
+
+== SVN comparison page might want to compare the storing of binary files in each system ==
+The [[GitSvnComparsion]] page has very good content, but it would be nice to know the differences between the two in how binary files are stored and whether either uses a differential backup vs a file level backup.
+
+== Parsers ==
+It would be nice to have installed parsers from [[MoinMoin:[[ParserMarket]]|[[ParserMarket]]]] (see [[MoinMoin:[[ParserMarket]]#head-17c33967bbb4345a453627b944bad1f1bc4b2791|Installation Instructions]] there) for languages used in [[Git]], [[Cogito]] and examples, i.e for <b>Perl</b>, <b>shell</b> and e.g. <b>diff</b>.
+* Perl parsers from [[MoinMoin:[[ParserMarket]]|[[ParserMarket]]]]: [[MoinMoin:parser/Perl|parser/Perl]] by Johannes Hoerburger <i>(`.py` extension needs to be aded)</i>.
+* diff output parsers from [[MoinMoin:[[ParserMarket]]|[[ParserMarket]]]]: [[MoinMoin:parser/diff.py|parser/diff.py]] by Emilio Lopes.
+
+== Error in GUI editing ==
+When editing in gui mode, and pressing text-mode, all blank lines are removed, and ({) curly-braces are replaced with square ones ([), causing things like \{\{TableOfContents(2)\}\} and \{\{BR\}\} not to work! This especially seams to be a problem on the [[[InterfacesFrontendsAndTools]]] page.
+
+== [[InterWiki]] Links ==
+It would be nice if there were shorter <<[[InterWiki]]>> links for linking to the [[Git]] and [[Cogito]] [[GitDocumentation|documentation]], both HTML version and gitweb sources. One of the way of adding InterWiki link is to modify site's `data/intermap.txt` file.
+
+For git and cogito manpages online it would mean that instead of writing for example
+<pre><nowiki>
+[http://www.kernel.org/pub/software/scm/git/docs/git-apply.html git-apply(1)]
+</nowiki></pre>
+([[http://www.kernel.org/pub/software/scm/git/docs/git-apply.html|git-apply(1)]]) use <i>(proposal)</i> GitDoc InterWiki link, i.e. use one of the following (ones that are possible to create)
+<pre><nowiki>
+[wiki:GitDoc:git-apply git-apply(1)]
+GitDoc:git-apply
+</nowiki></pre>
+if it is not possible). Analogous for Cogito docs. 
+
+For links to file in the git.git source via gitweb, instead of using for example
+<pre><nowiki>
+[http://www.kernel.org/git/?p=git/git.git;a=blob;hb=HEAD;f=Documentation/git-apply.txt git-apply.txt]
+</nowiki></pre>
+([[http://www.kernel.org/git/?p=git/git.git;a=blob;hb=HEAD;f=Documentation/git-apply.txt|git-apply.txt]]) use GitSource InterWiki link
+<pre><nowiki>
+[wiki:GitSource:Documentation/git-apply.txt git-apply.txt]
+</nowiki></pre>
+
+----
+Would be also of use to have [[InterWiki]] links for common [[GitCommunity|[[GitMailingList]]]] archives, i.e. MARC and GMane, similarly like there is now <code><nowiki>MsgID</nowiki></code> InterWiki link?
+
+= New Pages =
+
+Here a few suggestions for new pages.
+
+== Best Practice Page ==
+* commit message: short summary (<80 characters and not the beginning sentence continuing in second line) \n\n long description
+   Reason: emailed patches, oneline log, gitweb overview.
+   Some tools currently insert new lines after the first line if there is none. This may be considered as a bug and should be fixed.
+* branching is easy and fast, use it (encourage topic branches)
+* rebase if you've been the only person working on the branch to prevent unnecessary merges (making the history complicated)
+* do not rewind history on public repositories or repositories used by someone else than you, it will cause confusion
+
+== Development Page ==
+* common pitfalls
+** run make test after patching
+** check for correct whitespaces (tabs, no spaces for indentation, no space at eol)
+* editor settings
+   vim:tabstop=8:softtabstop=8:shiftwidth=8:noexpandtab:textwidth=80 for C files
+   documentation seems to use a bit less than 80 for the textwidth most of the time, is there any recommendation for that?
+* mua settings
+   Is it possible in some user agents to reply automatically to all people in a thread and the mailing list? If so please post configuration options :)
+* mutt: press g (group-reply) but this may set the wrong followup-to header
+
+= Merging pages =
+
+== [[IndexFile]] and [[WhatIsIndex]] ==
+
+* [[IndexFile]] and [[WhatIsTheIndex]] pages are about nearly the same topic; perhaps they should be merged into one page.
+
+= Random stuff =
+* Why is there always a Git-prefix to the wiki pages?
+----
+[[CategoryWebInterfaces]] [[CategoryWebInterfaces]]
 
 __NOTOC__
