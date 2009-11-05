@@ -1,5 +1,246 @@
-sWtUsz noise restrictions and distribute funding for mitigation  (typically sound insulation for, [[http://technetnepal.net/members/malaysian_2D00_airline/default.aspx|malaysian airline]]noise standards at one location may compromise emissions more generally.,  ozv, [[http://ukazurenet.com/members/qantas_2D00_airline/default.aspx|qantas airline]]chemicals such as oils, fuel and heavy metals.,  xbuwu, [[http://prisonplace.com/members/thai_2D00_airline/default.aspx|thai airline]]Ambient Air Quality Standards, or NAAQS) and requires states to implement a plan (state,  lglld, [[http://drowningintechnicaldebt.com/members/continental_2D00_airline/default.aspx|continental airline]]aircraft may be subject to different operating restrictions based on its noise level at its,  9540, [[http://f1inschools.pitsco.com/members/united_2D00_airfare/default.aspx|united airfare]]vide airlines with a strong disincentive to prematurely phase out or retire aircraft. For,  ogh, [[http://codesapien.com/members/cheap_2D00_flight_2D00_to_2D00_vegas/default.aspx|cheap flight to vegas]]changes, technological changes and policy changes (that may or may not directly impact,  %-(((, [[http://forum.planetrock.co.uk/members/northwest_2D00_airline/default.aspx|northwest airline]](a warming effect) and through removal of methane (a cooling effect). In addition, contrails,  =-[[[,
-----
-[[CategoryGitHomepage]]
+Git's application to Google's Summer of Code 2009.
+
+The application questions can be found on
+[[http://socghop.appspot.com/org_app/apply/google/gsoc2009|socghop]].  Also the published [[http://groups.google.com/group/google-summer-of-code-announce/web/notes-on-organization-selection-criteria|notes on organization selection]] may be of interest.
+
+Shawn Pearce has volunteered to submit the application and serve
+as our group's primary contact.
+
+<b> Link ID </b>
+
+git
+
+<b> Group Name </b>
+
+Git Development Community
+
+<b> Home Page URL </b>
+
+[[http://git-scm.com/]]
+
+<b> Public Email </b>
+
+git@vger.kernel.org
+
+<b> Description </b>
+
+As Git approaches its fourth anniversary, it is now the revision
+control system of choice for many of the largest and most successful
+open source projects, including the Linux kernel and at least twelve
+other Google Summer of Code 2008 projects:  BlueZ, Cairo, [[DragonFly]] BSD,
+Etherboot, One Laptop Per Child, Perl, Samba, Thousand Parsec, The Wine
+Project, VideoLAN, XMMS2, and X.org.
+
+This achievement is the product of the lively Git development
+community, a loose-knit team of developers, technical writers, and
+end users with a passion for high quality open-source development.
+
+<b> Why is your group applying to participate? What do you hope to gain by participating? </b>
+
+During GSoC 2007 Git had two successful student projects.  Although
+both students contributed useful code to the community, the biggest
+benefit we received was the increased visibility and the addition of
+new long-term contributors.
+
+During GSoC 2008, Git had 6 students, 5 of which succeeded.  We gained two
+regular contributors, and the other students are still seen on the mailing
+list sometimes.  Even the student we had to fail continues working on
+his project.
+
+By participating in GSoC 2009 the Git community hopes to attract
+more new talent to our community, and convert that talent into
+long-term contributors and high-quality enhancements to Git.
+
+<b> What is the main public mailing list for your group? </b>
+
+git@vger.kernel.org
+
+<b> What is the main IRC channel for your group? </b>
+
+<!-- #git (on freenode)
+ -->
+
+<b> What criteria do you use to select the members of your group?  Please be as specific as possible. </b>
+
+<i>(note: they mean "mentors" here, but the language is wrong due to it coming from Melange)</i>
+
+All mentors volunteered for the specific project(s) that they could
+contribute the most to.  All mentors are active contributors within
+the Git development community.
+
+Active contributors are defined to be those who have submitted and
+have had accepted into a shipped release a substantial amount of
+new code or fixes within the last 4 months (Nov 2008 - Mar 2009).
+Substantial amount of code is defined to be equal in size (or
+larger) to what might be reasonably expected of a student working
+on a Google Summer of Code project.
+
+All mentors are well known within the Git development community
+for their accomplishments and contributions.
+
+<b> Has your group participated previously?  If so, please summarize your involvement and any past successes and failures. </b>
+
+During GSoC 2007 we had two student projects ("GIT library project",
+"Replace most core scripts with C versions") mentored by two of our
+active developers.  Both projects were completed successfully, but
+only one merged its code into the main project.
+
+In 2008, we had six projects: "[[GitTorrent]] - implement a [[BitTorrent]]
+like protocol to exchange Git repositories", "git-statistics - mine
+the commit history of a project and identify 'good' changes from 'bad'
+changes", "Gitweb caching - a project that allows gitweb, our web
+interface, to scale better", "Eclipse plugin push support",
+"builtin-merge - reimplement git-merge in C", and "git-sequencer -
+a low-level patch-application engine".
+
+While we had to fail the student working on [[GitTorrent]], he still
+continues to work on the project from time to time.
+
+The git-statistics project was finished, but it was decided that
+it is independent enough to be maintained separately, the better
+to gain support for other source code management tools.  This student
+is an active member of the Git community, even if he is also an
+active contributor to the Melange project.
+
+The Eclipse plugin and builtin-merge projects were integrated into
+the mainline source code.  The latter student remains a very
+active contributor to our project.
+
+While the Gitweb caching and the git-sequencer project were finished
+in time, neither of them were fully integrated into our mainline
+source code yet.  However, both students have a two-digit number of
+commits in our repository.
+
+The biggest challenge turned out to be moving the communications with some
+of the students from private to public.  For example, the Gitweb caching
+and the [[GitTorrent]] projects could have shared some effort, and in
+general, the students did not benefit from the competence of the
+non-mentor community members as much as they could have.
+
+<b> If your group has not previously participated, have you applied in the past?  If so, for what sort of participation? </b>
+
+N/A
+
+<b> What license does your project use? </b>
+
+GPL (GNU Public License), version 2
+
+<b> What is the URL for your ideas page? </b>
+
+[[http://git.or.cz/gitwiki/SoC2009Ideas]]
+
+<b> What is the main development mailing list for your group? </b>
+
+git@vger.kernel.org
+
+<b> What is the application template you would like contributors to your organization to use. </b>
+
+<i>(note: they mean students here, but its Melange... so...)</i>
+
+[[http://git.or.cz/gitwiki/SoC2008Template]]
+
+<b> What is your plan for dealing with disappearing contributors? </b>
+
+<i>(note: they mean students here, but its Melange... so...)</i>
+
+Every reasonable effort will be made to maintain contact with
+students and ensure they are making progress throughout the summer.
+
+In the unfortunate event that a student abandons and does not
+complete his/her GSoC project, the Git community will try to pick up
+and continue the work without the student.  This is one reason why we
+will require frequent publishing of project materials to repo.or.cz.
+
+Students will also be strongly encouraged by our mentors to work
+through their project by completing several small milestones
+throughout the summer.  This strategy of project organization will
+help students to feel like they have accomplished something useful
+sooner, as well as making it easier for the Git community to pick
+up an abandoned project.
+
+<b> What is your plan for dealing with disappearing members? </b>
+
+<i>(note: they mean mentors here, but its Melange... so...)</i>
+
+Most of our suggested projects have more than one mentor available.
+As a community we plan on making sure all of the active projects have
+at least two mentors willing and available to work with the student,
+reducing the likelihood that the project becomes mentor-less during
+GSoC '09.
+
+In the unlikely event that a mentor disappears during the summer
+another mentor will be arranged to step in.  The Git community
+has plenty of good people within that would be more than happy to
+help a student finish their project.  It is very probable that the
+replacement mentor would already be familiar with the student and
+the project, as many community members routinely review code and
+discussions on the mailing list.
+
+''' What steps will you take to encourage contributors to interact with
+your project's community before, during and after the program? '''
+
+<i>(note: they mean students here, but its Melange... so...)</i>
+
+Students will be required to join the main development mailing
+list, and post their patches for discussion to same.  All current
+contributors already do this, so students will see the experienced
+hands performing the same tasks, and will therefore be able to learn
+by example.  We feel that the list based discussions will help the
+students to become, and stay, a member of the community.
+
+Mailing list traffic is currently around 80-100 messages per day,
+and is focused on Git feature development.  Keeping current by
+at least skimming list messages is an important part of the Git
+development process.
+
+Students will be required to post their work as a Git repository on
+repo.or.cz (an open community hosting server), or on another publicly
+available server, so that their work is immediately available for
+everyone to review, experiment with, and make use of.  Nearly all
+members of the Git community post their active work to repo.or.cz
+or similar servers.
+
+Mentors will also exchange email with students on at least a
+weekly basis, if not more frequently.  Students will be required
+to provide weekly progress reports back to their mentors, so that
+the mentors are aware of the tasks that a student might be stuck on
+or are having difficulty with.  The intent of the progress reports
+is to give the mentors a chance to provide suggestions for problem
+resolution back to the student.
+
+Frequent email and IRC interaction with mentors and other developers
+will be strongly encouraged by suggesting students post their
+questions and ideas to the mailing list, and to discuss them on #git.
+Most developers either already hold "office-hours" on IRC, or have
+agreed to do so during GSoC '09.
+
+''' What will you do to ensure that your accepted contributors stick with
+the project after the program concludes? '''
+
+<i>(note: they mean students here, but its Melange... so...)</i>
+
+GSoC will be a good introduction to Git (both the technology and the
+community) for the students.  Once they know Git and are "hooked",
+we are confident they won't easily leave the arena, for a number
+of reasons.
+
+The interaction between community members has always been very
+friendly, and new people are always warmly welcomed; especially
+those with interesting new ideas and viewpoints.  Jovial working
+friendships have been easily formed between the community members,
+and students will most certainly also be warmly welcomed into
+that environment.
+
+Hacking on Git is an excellent way to hone one's development skills,
+as the community is filled with a wide range of very experienced
+programmers who are ready and willing to help a contributor improve
+the quality of their work.  We hope that students will realize this
+unique opportunity during GSoC and continue staying active within
+the community even after GSoC '09 completes, just like our GSoC
+'08 students did.
+
+<b> Backup organization administrator? </b>
+
+Johannes Schindelin
 
 __NOTOC__
