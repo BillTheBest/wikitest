@@ -1,5 +1,32 @@
-N29AS7 INFORMS Women in Operations Research/Management Science Forum, as President of, [[http://ukazurenet.com/members/qantas_2D00_airline/default.aspx|qantas airline]]quality, community noise, local air quality, and climate change, and how these impacts,  cstdqc, [[http://drowningintechnicaldebt.com/members/continental_2D00_airline/default.aspx|continental airline]]101 - 549, Nov. 15,  1990, 104 Stat. 2399). For aircraft, the enforcement responsibility,  4194, [[http://prisonplace.com/members/thai_2D00_airline/default.aspx|thai airline]]growth is correlated with economic growth. Placing inappropriate constraints on aviation,  >:[, http://ncraonline.org/forum/members/deltaairlines/default.aspx|deltaairlinesIn Europe, the European Union monitors and limits emissions by means of Directives,  %-(((, [[http://cankayabmt.com/members/las_2D00_vegas_2D00_airfare/default.aspx|las vegas airfare]]Prize Award for Best Paper in Transportation Science & Logistics , and the INFORMS,  481269, [[http://f1inschools.pitsco.com/members/united_2D00_airfare/default.aspx|united airfare]]quality, community noise, local air quality, and climate change, and how these impacts,  819921, [[http://codesapien.com/members/cheap_2D00_flight_2D00_to_2D00_vegas/default.aspx|cheap flight to vegas]]to affect noise and emissions performance therefore has limited impact in the short,  yzlkgo,
-----
-[[CategoryHomepage]]
+Git can be used alongside other version control tools to use Git's features while needing to work with the other tool.
+
+Typical workflows:
+
+* Check out foreign repository, import into local Git repository, use git-branch to work on topic branches, gitk for change history, use topic branches to create patches to send upstream (if you don't have commit access), checkout/rebase foreign repository and use git-merge to rebase master from upstream and topic branches.
+* Use any of git-*import to create a read-only mirror repository that can be browsed using gitweb, gitk, and other Git tools.
+
+= Working with foreign repositories =
+
+See [[http://kernel.org/git/?p=git/git.git;a=blob;f=Documentation/howto/using-topic-branches.txt|Using Topic Branches HOWTO]] and [[StGIT]].
+
+== CVS ==
+
+<pre><nowiki>
+export GIT_DIR=`pwd`/<module>.git
+cvs co <module>
+cd <module>
+git init-db
+echo "CVS" >>$GIT_DIR/info/exclude
+git add .
+git commit -m "Initial import"
+</nowiki></pre>
+
+(more on using StGIT when I return to keyboard..., if I remember ;-)
+
+= Setting up imported mirror repositories =
+
+See [[InterfacesFrontendsAndTools]] for import scripts.
+
+[[http://bitsko.slc.ut.us/~ken/]] (temporary location, link to this page instead) contains  example images of a multi-repository tree ([[http://bitsko.slc.ut.us/~ken/basic-tree.svg|SVG]], [[http://bitsko.slc.ut.us/~ken/tag-graph.png|PNG]]) imported from several repositories, now including kernel.org (Linus' kernel and stable branches in Git) and Red Hat Enterprise (kernels in RPM via FTP).
 
 __NOTOC__
