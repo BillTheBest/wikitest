@@ -1,5 +1,5 @@
-comment4
+comment6
 ----
-[[CategoryStatistics]]
+[[CategoryGlossary]]
 
 __NOTOC__
