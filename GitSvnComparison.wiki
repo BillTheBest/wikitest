@@ -118,6 +118,8 @@ With Subversion, you can check out just a subdirectory of a repository. Such a t
 
 <i>Note: I believe this can be done with</i> "git checkout <i>commit</i> -- <i>path</i>"
 
+<i>Note: I think the author of the above note might be misinterpreting SVN's benefit here because of the difference in terminology. If this section was originally written by a SVN user, the equivalent in Git terminology would be that Git doesn't allow you to </i>clone<i> just part of a repository. After all, </i>git checkout<i> operates on some working copy; I tried a couple different versions of that command, and just get </i>fatal: Not a git repository<i>. Furthermore, this point is supported by [[http://book.git-scm.com/5_submodules.html|The Git Community Book]], which says "Git does not allow partial checkouts".</i>
+
 == Shorter and Predictable Revision Numbers ==
 First, as SVN assigns revision numbers sequentially (starting from 1) even very old projects such as Mozilla have short unique revision numbers (Mozilla is only up to 6 digits in length).  Many users find this convenient when entering revisions for historical research purposes.  They also find this number easy to embed into their product, supposedly making it easy to determine which sources were used to create a particular executable.  However since the revision number is global to the entire repository, including all branches, there is still a question of which branch the revision number corresponds to.
 
