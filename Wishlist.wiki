@@ -16,7 +16,6 @@ I've put an attribution of the wish to the person who wrote the email I found it
 * Blame support for git-grep. So you can grep the tree and show the author for each matching line. (Kieran Clancy)
 * Colored diff should ignore CRLF (just like normal diff does), if entire file is in DOS style format. Is this a problem with the pager? (Clemens Buchacher)  <i>Isn't this entry stale?  See cr-at-eol</i>
 * show diff -c for conflicting symbolic links -- the default diff --cc is empty because there are no conflict markers (or alternatives) (Clemens Buchacher)
-* http-push should update tracking references like send-pack does. (Clemens Buchacher)  <i>Isn't this entry stale?  I thought it does this already with recent enough git</i>
 * Encrypted GIT repository and operations on it. (Ferhat Dogru)  <i>Can somebody drop this?  I do not think it will ever happen, unless you are talking about placing the repository on cryptfs</i>
 * Fix file globbing such as "git add -u '*.c'". See also [[http://article.gmane.org/gmane.comp.version-control.git/105679]]. (Clemens Buchacher)
 
