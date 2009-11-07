@@ -106,7 +106,7 @@ Only that with Git, the default is to interpret the files as binary to begin wit
 
 <i>Marking a file with the correct mime-type is important when you do things like surf your repository with a browser (esp. for web content, a browser that respects the mime-type (IE, not IE) will by default, display all HTML as plaintext from mod_dav_svn). svn mime-type autodetection (a subset of the auto-props feature) can be configured to specify a mime-type based on filename extension, as well as the default basic detection of application/octet-stream. You could happily do this with attribute globs on git, if I read the manual right, setting the crlf attribute. One big difference I do see is that if you turn on core.autocrlf, if a file is falsely determined to be text, it will get munged for line endings. On svn you must identify each file that you want line endings munged for manually (or via a manually configured feature). </i>
 
-<i>All in all, yes, git has a slightly more convenient properties feature, but scoring for or against either product on these points is marginal ; both deal with binary and text properly, both have metadata features, both let you control EOL munging in an equivalent way. I would be shy about turning on autocrlf globally for git, simply because I don't think it's necessary for the majority of projects.</i>
+<i>All in all, yes, git has a slightly more convenient properties feature, but scoring for or against either product on these points is marginal ; both deal with binary and text properly, both have metadata features, both let you control EOL munging in an equivalent way. I would be shy about turning on autocrlf globally for git, simply because I don't think it's necessary for the majority of projects.</i> 
 
 === Change Tracking ===
 Seemingly minor changes to binary files, such as adjusting brightness on an image, could be different enough that Git interprets them as a new file, causing the content history to split. Since Subversion tracks by file, history for such changes is maintained.
@@ -118,12 +118,14 @@ With Subversion, you can check out just a subdirectory of a repository. Such a t
 
 <i>Note: I believe this can be done with</i> "git checkout <i>commit</i> -- <i>path</i>"
 
-== Shorter Revision Numbers ==
-As SVN assigns revision numbers sequentially (starting from 1) even very old projects such as Mozilla have short unique revision numbers (Mozilla is only up to 6 digits in length).  Many users find this convenient when entering revisions for historical research purposes.  They also find this number easy to embed into their product, supposedly making it easy to determine which sources were used to create a particular executable.  However since the revision number is global to the entire repository, including all branches, there is still a question of which branch the revision number corresponds to.
+== Shorter and Predictable Revision Numbers ==
+First, as SVN assigns revision numbers sequentially (starting from 1) even very old projects such as Mozilla have short unique revision numbers (Mozilla is only up to 6 digits in length).  Many users find this convenient when entering revisions for historical research purposes.  They also find this number easy to embed into their product, supposedly making it easy to determine which sources were used to create a particular executable.  However since the revision number is global to the entire repository, including all branches, there is still a question of which branch the revision number corresponds to.
 
 <i>Unless the last committed revision is recorded. Since revisions are global for a repository, the last committed revision makes it possible to determine which branch was used</i>
 
 As Git uses a SHA1 to uniquely identify a commit each specific revision can only be described by a 40 character hexadecimal string, however this string not only identifies the revision but also the branch it came from.  In practice the first 8 characters tends to be unique for a project, however most users try to not rely on this over the long term.  Rather than embedding long commit SHA1s into executables Git users generate a uniquely named tag.  This is an additional step, but a simple one.
+
+Secondly, SVN's revision numbers are predictable. If the current commit is 435 the next one will be 436. It's very easy then to go through a few sequential revisions to, e.g. look at differences, revert to an old revision to find when a regression was introduced, etc. Furthermore, without looking up any additional information, you know that commit 436 was done after 435. Similar actions and knowledge from git requires looking at the log.
 
 ----
 = The Original Email =
