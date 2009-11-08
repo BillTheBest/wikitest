@@ -1,5 +1,5 @@
 comment4
 ----
-[[CategoryHomepage]]
+[[CategoryGitDocumentation]]
 
 __NOTOC__
