@@ -1,14 +1,5 @@
-
----- /!\ <b>Edit conflict - other version:</b> ----
-comment5
+comment4
 ----
 [[CategoryHomepage]]
-
----- /!\ <b>Edit conflict - your version:</b> ----
-comment5
-----
-[[CategoryHomepage]]
-
----- /!\ <b>End of edit conflict</b> ----
 
 __NOTOC__
