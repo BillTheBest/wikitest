@@ -1,39 +1,39 @@
 JGIT Package Layout and Notes
 
 {| border="1" cellpadding="2" cellspacing="0"
-| <tablewidth="1197px" tableheight="291px" tablealign="">org.spearce.jgit.lib
+| <tablewidth="1197px" tableheight="291px" tablealign="">org.eclipse.jgit.lib
 | the on disk representation of a repository, reading/writing that data.
 | 
 |-
-| org.spearce.jgit.transport
+| org.eclipse.jgit.transport
 | network connectivity to push or fetch to another local or remote repository.
 | 
 |-
-| org.spearce.jgit.revwalk
+| org.eclipse.jgit.revwalk
 | steps through the commit graph, like git-rev-list or similiar tools such as git-log or git-format patch.
 | 
 |-
-| org.spearce.jgit.treewalk
+| org.eclipse.jgit.treewalk
 | steps through N trees in parallel, merge-sorting the tree entries by their path names. This is used for computing tree differences or merges where (N > 1) or for enumeration where (N==1)
 | 
 |-
-| org.spearce.jgit.dircache
+| org.eclipse.jgit.dircache
 | handles the.git/index file, reading and writing to it.
 | 
 |-
-| org.spearce.jgit.errors
+| org.eclipse.jgit.errors
 | Exception classes
 | 
 |-
-| org.spearch.jgit.revplot
+| org.eclipse.jgit.revplot
 | graphics library agnostic commit graphing algorithms. 
 | 
 |-
-| org.spearce.jgit.awtui
+| org.eclipse.jgit.awtui
 | extension of revplot to draw commit graph diagrams using Swing/AWT
 | 
 |-
-| org.spearce.jgit.pgm
+| org.eclipse.jgit.pgm
 | Currently the best example code in the source distribution for a bird's eye view. Start here with little command line tools like Branch, [[LsTree]] and Log.
 | 
 |}
