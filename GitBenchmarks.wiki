@@ -1,5 +1,14 @@
+
+---- /!\ <b>Edit conflict - other version:</b> ----
 comment5
 ----
 [[CategoryEvents]]
+
+---- /!\ <b>Edit conflict - your version:</b> ----
+comment5
+----
+[[CategoryEvents]]
+
+---- /!\ <b>End of edit conflict</b> ----
 
 __NOTOC__
