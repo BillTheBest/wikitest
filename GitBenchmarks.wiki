@@ -1,5 +1,5 @@
-comment1
+comment2
 ----
-[[CategoryStatistics]]
+[[CategoryPeople]]
 
 __NOTOC__
