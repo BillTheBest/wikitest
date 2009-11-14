@@ -392,6 +392,8 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * http://www.lumiera.org/gitweb/ (gitweb)
 * MadMutt
 * http://git.madism.org/?p=madmutt.git (gitweb)
+* Magit (easy-to-use and powerful Emacs mode for Git)
+* http://zagadka.vm.bytemark.co.uk/magit/ (homepage)
 * Mantis Bugtracker
 * http://www.mantisbt.org/ (homepage)
 * http://git.mantisbt.org/?p=mantisbt.git; (gitweb)
