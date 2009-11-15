@@ -1,5 +1,5 @@
-comment2
+comment1
 ----
-[[CategoryTemplate]]
+[[CategoryGitDocumentation]]
 
 __NOTOC__
