@@ -1,14 +1,5 @@
-
----- /!\ <b>Edit conflict - other version:</b> ----
-comment1
+comment4
 ----
-[[CategoryGitDocumentation]]
-
----- /!\ <b>Edit conflict - your version:</b> ----
-comment1
-----
-[[CategoryGitDocumentation]]
-
----- /!\ <b>End of edit conflict</b> ----
+[[CategoryEvents]]
 
 __NOTOC__
