@@ -83,6 +83,10 @@ Here a few suggestions for new pages.
 
 = Random stuff =
 * Why is there always a Git-prefix to the wiki pages?
+
+= Add web option =
+* Add [[http://www.knowledgeforge.net/|KForge]] as a web interface in the comparisons/category, it seems promising.
+
 ----
 [[CategoryWebInterfaces]] [[CategoryWebInterfaces]]
 
