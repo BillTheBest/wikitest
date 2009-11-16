@@ -113,8 +113,8 @@ Seemingly minor changes to binary files, such as adjusting brightness on an imag
 
 <i>Note: This claim is incorrect; it may be based on an earlier version of Git. Both minor and major changes to binary files are marked as a modification, Git does not interpret them as a new file. -- Tim Uruski</i>
 
-== Partial Checkout ==
-With Subversion, you can check out just a subdirectory of a repository. Such a thing is not possible with Git.
+== Partial Checkout/Used bandwidth ==
+With Subversion, you can check out just a subdirectory of a repository. Such a thing is not possible with Git. For a large project, this means that you always have to download the whole repository, even if you only need the current version of some sub-directory. In times where fast Internet connections are only available in most cities and traffic over mobile internet connections is expensive, git can cost much more time and money in rural areas or with mobile devices.
 
 <i>Note: I believe this can be done with</i> "git checkout <i>commit</i> -- <i>path</i>"
 
