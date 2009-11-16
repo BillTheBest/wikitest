@@ -1,5 +1,5 @@
-comment3
+comment1
 ----
-[[CategoryEvents]]
+[[CategoryTemplate]]
 
 __NOTOC__
