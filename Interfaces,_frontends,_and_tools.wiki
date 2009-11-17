@@ -199,7 +199,8 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 | Git Extensions 
 | [[TortoiseGit]] 
 | gitg 
-|  [[SmartGit]]
+|  [[SmartGit]] 
+|  [[StupidGit]] 
 | 
 |-
 | written in 
@@ -223,6 +224,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 | C++ 
 | C 
 | Java
+|  Python 
 | 
 |-
 | UI toolkit 
@@ -246,6 +248,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 | MFC 
 |  GTK+ 
 | Swing
+| wxWidgets
 | 
 |-
 | last activity 
@@ -268,6 +271,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 | 2009 
 | 2009 
 |  2009 
+| 2009
 | 2009
 | 
 |-
@@ -292,6 +296,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 | Explore 
 | X 
 | X
+|  
 | 
 |-
 | history viewer 
@@ -314,6 +319,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 | X 
 | X 
 | X 
+| X
 | X
 | 
 |-
@@ -338,6 +344,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 | X 
 | X 
 | X
+|  
 | 
 |-
 | (un)stage files 
@@ -360,6 +367,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 | X 
 | X 
 | X 
+| X
 | X
 | 
 |-
@@ -384,6 +392,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 | X 
 | X 
 | X
+|  
 | 
 |-
 | undo diff fragments 
@@ -398,6 +407,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 |  
 |  
 | X 
+|  
 |  
 |  
 |  
@@ -430,6 +440,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 | X 
 | X 
 | X
+| X
 | 
 |-
 | cherry-pick 
@@ -452,6 +463,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 | X 
 | X 
 |  
+| X
 | X
 | 
 |-
@@ -476,6 +488,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 | X 
 | X 
 | X
+| X
 | 
 |-
 | remote features 
@@ -499,6 +512,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 | X 
 | some 
 | some
+|  
 | 
 |-
 | stash 
@@ -522,6 +536,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 | X 
 | X 
 | X
+| X
 | 
 |-
 | format patch 
@@ -543,6 +558,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 |  
 | X 
 | X 
+|  
 |  
 |  
 | 
@@ -568,6 +584,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 | X 
 |  
 | X
+| X
 | 
 |-
 | diff +/- highlighting 
@@ -591,6 +608,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 | X 
 | X 
 |  
+| X
 | 
 |-
 | compare commits 
@@ -614,6 +632,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 | X 
 |  
 | X
+|  
 | 
 |-
 | merge features 
@@ -637,6 +656,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 | X 
 | X 
 | X
+| X
 | 
 |-
 | [[http://en.wikipedia.org/wiki/Inotify|inotify]] support 
@@ -651,6 +671,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 |  
 |  
 | X 
+|  
 |  
 |  
 |  
@@ -683,6 +704,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 |  
 |  
 |  
+|  
 | 
 |-
 | apply patches via drag'n'drop 
@@ -706,6 +728,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 |  
 |  
 |  
+|  
 | 
 |-
 | i18n 
@@ -720,6 +743,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 |  
 |  
 | partial de, fr, hu, it, ja, ru, sv, zh_cn 
+|  
 |  
 |  
 |  
@@ -751,7 +775,8 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 | [[http://sourceforge.net/project/screenshots.php?group_id=246547|X]] 
 | [[http://code.google.com/p/tortoisegit/|X]] 
 | [[http://wiki.github.com/jessevdk/gitg|X]] 
-|  [[http://blog.syntevo.net/images/smartgit/project-window-osx.png|X]]
+|  [[http://blog.syntevo.net/images/smartgit/project-window-osx.png|X]] 
+| [[http://lh3.ggpht.com/_BJIQUZdOLVk/SwCoXDR2viI/AAAAAAAAAW0/wCKoGeB_55I/s800/stupidgit1.png|X]]
 | 
 |}
 
