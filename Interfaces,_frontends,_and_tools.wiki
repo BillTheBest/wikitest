@@ -109,10 +109,10 @@
 * [[Tig|tig]] ([[http://jonas.nitro.dk/tig/|homepage]]) by Jonas Fonseca is a simple git repository browser written using ncurses. Basically, it just acts as a front-end for `git-log` and `git-show`/`git-diff`. Additionally, you can also use it as a pager for git commands.
 
 === QGit ===
-* [[QGit]] ([[http://digilander.libero.it/mcostalba/|homepage]]) is a Qt GUI for browsing the history of Git repositories. It also acts as a commit tool, like [[[#hgct|(h)gct]]] and as a graphical interface to [[[#StGIT|StGIT]]]. There is an experimental version of QGit ported under Qt4.2 libraries, available at http://repo.or.cz as qgit4. This means that it could be compiled and run as a Windows native application.
+* [[QGit]] ([[http://digilander.libero.it/mcostalba/|homepage]]) is a Qt GUI for browsing the history of Git repositories. It also acts as a commit tool, like [[[#hgct|(h)gct]]] and as a graphical interface to [[[#StGIT|StGIT]]]. There is an experimental version of QGit ported under Qt4.2 libraries, available at http://repo.or.cz/w/qgit4.git. This means that it could be compiled and run as a Windows native application. As of November '09, no developper activity for nearly 6 months.
 
 === Giggle ===
-* [[Giggle]] ([[http://live.gnome.org/giggle|homepage]]) is a graphical frontend for browsing history of Git repositories (think of gitk on GTK+). Result of a Hackathon 2007, later developed by Imendio's Carlos Garnacho and Sven Herzberg. Currently maintained by Mathias Hasselmann. Available from http://github.com/hasselmm/giggle/
+* [[Giggle]] ([[http://live.gnome.org/giggle|homepage]]) is a graphical frontend for browsing history of Git repositories (think of gitk on GTK+). Result of a Hackathon 2007, later developed by Imendio's Carlos Garnacho and Sven Herzberg. Currently maintained by Mathias Hasselmann. Available from http://github.com/hasselmm/giggle/. As of November '09, no developper activity for more than 6 months.
 
 === gitview (in `contrib/`) ===
 * [[GitView]] is a GTK based repository browser for git written in Python by Aneesh Kumar K.V. It can be found in `contrib/` directory of Git source tree.
@@ -122,31 +122,14 @@
 
 A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|git-forest.png]]. Written in Perl by Jan Engelhardt.<<BR>><b>See also:</b> [[http://permalink.gmane.org/gmane.comp.version-control.git/76404|text-based tree visualizer]] announcement on git mailing list.
 
-=== (h)gct ===
-* [[(h)gct]] ([[http://repo.or.cz/w/hgct.git|gitweb]]) by Fredrik Kuivinen is a GUI enabled commit tool. It has support for both Git and Mercurial. In Debian in [[http://packages.debian.org/search?searchon=names&keywords=commit-tool|commit-tool]] package. Written in PyQt.
-
-=== Push Me Pull You ===
-* [[http://pmpu.sharesource.org/|pmpu]] (Push Me Pull You) by Mark Williamson is a graphical interface for a distributed version control system. Currently it contains proof-of-concept supports the Mercurial, git and bzr systems. PMPU can make use of external history views and commit tools. Preview release.
-
 === Qct ===
-* [[http://qct.sourceforge.net/|Qct]] ([[http://hg.borho.org/qct|hg repo]]) by Steve Borho is Qt/PyQt based GUI commit tool, meant to be SCM and platform agnostic. Supports Mercurial (`hg`), Bazaar (`bzr`), Cogito (but not Git directly atm), Subversion (`svn`), Monotone (`mnt`) and CVS. The [[http://hg.borho.org/qct/rev/5c5bdab35c08|README]] mentions gct (also on this page), as an alternative supporting plain git.
+* [[http://qct.sourceforge.net/|Qct]] ([[http://bitbucket.org/sborho/qct/overview/|hg repo]]) by Steve Borho is Qt/PyQt based GUI commit tool, meant to be SCM and platform agnostic. Supports Mercurial (`hg`), Bazaar (`bzr`), Cogito (but not Git directly atm), Subversion (`svn`), Monotone (`mnt`) and CVS. The [[http://hg.borho.org/qct/rev/5c5bdab35c08|README]] mentions gct (also on this page), as an alternative supporting plain git.
 
 === git-cola ===
 * [[http://cola.tuxfamily.org/|git-cola]] ([[http://repo.or.cz/w/git-cola.git|gitweb]], [[http://github.com/davvid/git-cola/tree/master|github]], [[http://gitorious.org/projects/git-cola/|gitorious]]) by David Aguilar is a git commit tool, similar to git-gui, written in PyQt4. You can get tarballs and debian packages at http://cola.tuxfamily.org/.
 
-=== gitool ===
-* [[Gitool|gitool]] ([[http://thread.gmane.org/gmane.comp.version-control.git/26415|announcement]], [[http://ozlabs.org/~paulus/gitool|download]], [[http://www.kernel.org/git/?p=gitk/gitk.git;a=shortlog;h=new|gitweb]]) by Paul Mackerras is a tool for creating commits. Superseded by git-gui (see above). Last development activity in 2007. Written in Tcl/Tk.
-
-=== KGit ===
-* [[KGit]] (http://kgit.sourceforge.net/) by Abhijit Bhopatkar is intended to be a small but functional frontend to the popular source control program, git. It is similar to gitk with two significant differences. First of all, it is written in Qt using lop and the KDE libraires. Secondly, it is not only a repository viewer, unlike gitk. It is now defunct and deprecated by the author. Has no future.
-
 === teamGit ===
 * [[TeamGit|teamGit]] (http://www.devslashzero.com/teamgit) by Abhijit Bhopatkar is a successor of kgit. It is intended to be a complete developmenet workflow management app with git as a base tool. As of oct 2008 it can be used as a pretty good commit tool. Please see feature table below.
-
-=== [[GitNub]] ===
-* [[GitNub]] ([[http://github.com/Caged/gitnub/wikis|homepage]], [[http://github.com/Caged/gitnub/tree/master|github]]) by Justin Palmer is an Mac OSX Leopard client for git written in Ruby and Objective-C.
-<!-- ## is it more like gitk or qgit, or more like git-gui?
- -->
 
 === GitX ===
 * GitX ([[http://gitx.frim.nl|homepage]], [[http://github.com/pieter/gitx/tree/master|github]], [[http://frim.frim.nl/GitXStable.app.zip|download]]) by Pieter de Bie is a gitk clone aiming to provide a more native interface to MacOS X users with OS X-only features. It has a native interface and tries to integrate with the operating system as good as possible. Examples of this are drag and drop support and QuickLook support. <<BR>><b>See also:</b> [[http://permalink.gmane.org/gmane.comp.version-control.git/93980||Announce| GitX v0.1: Gitk clone for OS X]] post on git mailing list.
@@ -170,7 +153,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 * [[http://www.qtsoftware.com/developer/qt-creator|Qt Creator]] is a lightweight, cross-platform integrated development environment (IDE) for developing with Qt that provides a built in GUI for working with Git repositories.
 
 === [[SmartGit]] ===
-* [[http://www.syntevo.com/smartgit|SmartGit]] by Syntevo GmbH is a graphical Git client which runs on all major platforms (e.g. Linux, Mac OS X, Microsoft Windows). It requires (SUN-) Java 1.5 or newer as well as a Git installation.
+* [[http://www.syntevo.com/smartgit|SmartGit]] by Syntevo GmbH is a graphical Git client which runs on all major platforms (e.g. Linux, Mac OS X, Microsoft Windows). It requires (SUN-) Java 1.5 or newer as well as a Git installation.  Closed source, free of charge for non-commercial usage.
 
 === [[StupidGit]] ===
 * [[http://wiki.github.com/gyim/stupidgit|StupidGit]] by Ákos Gyimesi is a cross-platform git GUI written in wxPython. It tries to be easy to use for beginners and has advanced support for submodules. It is quite early in development, but already implements many features including merge, cherry-pick and easy switching between versions.
@@ -779,6 +762,25 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 | [[http://lh3.ggpht.com/_BJIQUZdOLVk/SwCoXDR2viI/AAAAAAAAAW0/wCKoGeB_55I/s800/stupidgit1.png|X]]
 | 
 |}
+
+=== Deprecated and stalled projects ===
+
+==== (h)gct (deprecated) ====
+* [[(h)gct]] ([[http://repo.or.cz/w/hgct.git|gitweb]]) by Fredrik Kuivinen is a GUI enabled commit tool. It has support for both Git and Mercurial. In Debian in [[http://packages.debian.org/search?searchon=names&keywords=commit-tool|commit-tool]] package. Written in PyQt. Does not support git 1.6 and higher.
+
+==== gitool (deprecated) ====
+* [[Gitool|gitool]] ([[http://thread.gmane.org/gmane.comp.version-control.git/26415|announcement]], [[http://ozlabs.org/~paulus/gitool|download]], [[http://www.kernel.org/git/?p=gitk/gitk.git;a=shortlog;h=new|gitweb]]) by Paul Mackerras is a tool for creating commits. Superseded by git-gui (see above). Last development activity in 2007. Written in Tcl/Tk.
+
+==== [[GitNub]] (stalled) ====
+* [[GitNub]] ([[http://github.com/Caged/gitnub/wikis|homepage]], [[http://github.com/Caged/gitnub/tree/master|github]]) by Justin Palmer is an Mac OSX Leopard client for git written in Ruby and Objective-C.
+<!-- ## is it more like gitk or qgit, or more like git-gui?
+ -->
+
+==== KGit (deprecated) ====
+* [[KGit]] (http://kgit.sourceforge.net/) by Abhijit Bhopatkar is intended to be a small but functional frontend to the popular source control program, git. It is similar to gitk with two significant differences. First of all, it is written in Qt using lop and the KDE libraires. Secondly, it is not only a repository viewer, unlike gitk. It is now defunct and deprecated by the author. Has no future.
+
+==== Push Me Pull You (stalled) ====
+* [[http://pmpu.sharesource.org/|pmpu]] (Push Me Pull You) by Mark Williamson is a graphical interface for a distributed version control system. Currently it contains proof-of-concept supports the Mercurial, git and bzr systems. PMPU can make use of external history views and commit tools. Preview release. As of November '09, no developper activity for more than 1 year.
 
 <<Anchor(web-interface)>>
 == Web Interface ==
