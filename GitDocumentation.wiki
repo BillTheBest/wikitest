@@ -56,6 +56,9 @@ All documentation residing on this wiki is put in the [[CategoryGitDocumentation
 * Slides from [[http://www.breitbandig.de/git/git-as-cvs-en.odp|Git as cvs replacement talk]] (for cvs refugees) and [[http://www.breitbandig.de/git/advanced-git-en.odp|Advanced Git talk]] by Thomas Pasch
 * [[http://www.ralfebert.de/blog/tools/visual_git_tutorial_1/|Visual git tutorial]] - The visual git tutorial explains how to locally track project files. It shows how to add and commit changes, how to browse the history, revert changes and how to work with tags and branches.
 * [[http://www.eqqon.com/index.php/Collaborative_Github_Workflow|Collaborative git workflow]] explains how to collaborate with git on an open source project that is (not necessarily) hosted on [[GitHub]].
+* [[http://wiki.impressive-media.de/doc/git-%C3%BCber-apache-und-webdav-git-%C3%BCber-http|HowTo: Installation of Apache WebDAV for git over http]]
+* [[http://wiki.impressive-media.de/doc/git-165-unter-debian-lenny-bzw-ubuntu-jaunty|HowTo: Installation of git 1.6.5 under Debain Lenny and Ubuntu Jaunty]]
+* [[http://wiki.impressive-media.de/doc/braid-f%C3%BCr-git-installieren-debian-lenny|HowTo: Installation and tutorial of Braid (submodule alternative)]]
 
 == Man pages ==
 Each git command is documented in its own man page. If the man pages are installed on your local system running:
@@ -81,6 +84,7 @@ If you wish that something were documented better (or at all), or would like to 
 * http://www-128.ibm.com/developerworks/cn/linux/l-git/index.html
 === German ===
 * [[http://repo.or.cz/w/gitman-de.git|German translation of the Git man pages]] - currently work in progress.
+* [[http://wiki.impressive-media.de/searchplus/results/taxonomy:418| Several tutorials and installation howtos for: *DAV, Braid, Gitorious, Gitosis, Submodul, Debian*]]
 === Spanish ===
 * http://gitorious.org/projects/curso-git-osluca - some notes that I wrote for a short 1-week course on Git
 === Japanese ===
