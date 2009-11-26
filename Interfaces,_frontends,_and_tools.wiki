@@ -788,6 +788,9 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 === gitweb (distributed with Git) ===
 * [[Gitweb|gitweb]] provides full-fledged web interface for Git repositories. It is written in Perl and was maintained by Kay Sievers; from git version 1.4.0 it is distributed with Git. Used at [[http://www.kernel.org/git/|kernel.org]] and [[http://repo.or.cz|repo.or.cz]]. The [[http://wiki.xmms2.xmms.se/index.php/Main_Page|XMMS2 project]] maintains their own version of gitweb which has some additional features. The latest snapshot of this effort can be downloaded from http://git.xmms.se/?p=gitweb-xmms2.git;a=summary. John 'Warthog9' has added in caching to the gitweb, and split it into many modules. See it at work at http://www.kernel.org/git/?p=git/warthog9/gitweb.git;a=summary. Changes are published at `git://git.kernel.org/pub/scm/git/warthog9/gitweb.git`. See also: [[http://permalink.gmane.org/gmane.comp.version-control.git/35692|Gitweb - caching]] message at git mailing list.
 
+=== Gitorious ===
+* [[http://gitorious.org/|Gitorious ]] provides free open source infrastructure for open source projects that use Git. Open Source and Ruby on Rails based. 
+
 === [[InDefero]] ===
 * [[http://www.indefero.net|InDefero]] is a clone of [[GoogleCode]] with git, Mercurial and Subversion browser, wiki, download area, issue tracking and code review supporting multiple private/public projects. Using a shared user account with SSH keys you can control the read/write access rights to your repositories from within the web interface. GNU GPL/Clean MVC PHP5 code, very fast and easy to extend. [[http://projects.ceondo.com/p/indefero/downloads/|Download]], [[http://projects.ceondo.com/p/indefero/source/tree/master/|view source]]. Free hosting also available.
 
