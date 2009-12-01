@@ -804,7 +804,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 * [[http://flameeyes.is-a-geek.org/projects#gitarella|gitarella]] ([[http://freshmeat.net/projects/gitarella/|freshmeat project page]]) is a Ruby-based Git web frontend, created and maintained by Flameeyes. It is inspired by and following the style of gitweb. It supports CGI and FastCGI interfaces. See it in work on [[http://git.flameeyes.is-a-geek.org/gitarella/|gitarella repository]].
 
 === ginatra ===
-* <b>ginatra</b> ([http://github.com/lenary/ginatra/ github], [http://ginatra.lenary.co.uk/ demo]) is web interface written in Ruby using [http://www.sinatrarb.com Sinatra] web framework.
+* <b>ginatra</b> ([[http://github.com/lenary/ginatra/|github]], [[http://ginatra.lenary.co.uk/|demo]]) is web interface written in Ruby using [[http://www.sinatrarb.com|Sinatra]] web framework.
 
 === git-php ===
 * [[http://code.google.com/p/git-php/|git-php]] is a PHP git web frontend created by Zack Bartel. The goal of git-php is a robust PHP web interface to git repositories. It is meant to be easily customizable through styles and the ability to be embedded into any PHP page. For example, creating a git repository viewer plug-in for your favorite PHP based CMS should be easy with git-php. It seems to be inspired by gitweb. See it at work at [[http://zackb.org/git-php/git.php|zackb.org]].
@@ -823,8 +823,8 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 === [[GitStat]] ===
 * <b>[[GitStat]]</b> ([[http://sourceforge.net/projects/gitstat|SourceForge project]]) is a GPL'd, web-based git statistics/monitoring system. It retrieves a specified git tree, analyzes changesets, and shows graphical information like the number of changesets per day, the number of people who submitted changesets for a specific version (tag) etc. Users may subscribe to gitstat so that they automatically receive an email notification if any change is applied to a specified directory. See also [[http://permalink.gmane.org/gmane.comp.version-control.git/56161|gitstat 0.1: kernel development statistics / monitoring system]] announcement on git mailing list. You are welcome to try gitstat at http://tree.celinuxforum.org/gitstat
 
-===[[GitStats]] ===
-* <b>[[GitStats]]</b> - with a 's', not the same as [[GitStat]] - ([[http://sourceforge.net/projects/gitstats/|SourceForge project]]) is a statistics generator for git repositories. It examines the repository and produces some interesting statistics from the history. Currently it outputs only HTML. As opposed to [[GitStat]], it generates the HTML statically, and is therefore suitable to generate pages to upload to a dumb HTTP server. Some [[http://gitstats.sourceforge.net/examples/|examples]] are available.
+=== [[GitStats]] ===
+* <b>[[GitStats]]</b> - with a 's', not the same as ![[GitStat]] - ([[http://sourceforge.net/projects/gitstats/|SourceForge project]]) is a statistics generator for git repositories. It examines the repository and produces some interesting statistics from the history. Currently it outputs only HTML. As opposed to ![[GitStat]], it generates the HTML statically, and is therefore suitable to generate pages to upload to a dumb HTTP server. Some [[http://gitstats.sourceforge.net/examples/|examples]] are available.
 
 === git-browser ===
 * [[http://straytree.com/|git-browser]] by Arteem Khodush is an experimental gitk-like web interface. It visualizes commit history graph and shows commit diffs. User interface is done in JavaScript, and is rather heavy on the <i>client</i> side. [[http://straytree.com/git-browser/by-commit.html?r=git|view online]] [[http://straytree.com/git-browser.tar.bz2|download]] [[http://repo.or.cz/gitweb.cgi/git-browser.git|gitweb mirror]].
