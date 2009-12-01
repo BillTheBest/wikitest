@@ -812,7 +812,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 * http://github.com/josegonzalez/git-php is a PHP git web frontend created by Jose Diaz-Gonzalez. Contains updates to Peeter Vois and Zack Bartel's work that adds a github-like stylesheet, as well as fixes for the latest updates to git syntax. It is also an attempt to ameliorate the differences between gitweb and all other gitweb derivatives with git-php.
 
 === GitPHP ===
-* [[http://www.xiphux.com/programming/php/gitphp/|GitPHP]] ([[http://www.xiphux.com/gitphp/|demo]]) is a PHP git web interface with gitweb-like look (the xmms2 fork of git), created by Christopher Han. It makes use of [[http://smarty.php.net/|Smarty]] templates, so it can be easily modified and customized. It offers syntax highlighting via [[http://qbnz.com/highlighter/|GeSHi]] PHP class, has support for snapshots and projects categories; it can be run with msysGit.
+* [[http://www.xiphux.com/programming/php/gitphp/|GitPHP]] ([[http://gitphp.xiphux.com/|demo]]) is a PHP git web interface with gitweb-like look (the xmms2 fork of git), created by Christopher Han. It makes use of [[http://smarty.php.net/|Smarty]] templates, so it can be easily modified and customized. It offers syntax highlighting via [[http://qbnz.com/highlighter/|GeSHi]] PHP class, has support for snapshots and projects categories; it can be run with msysGit.
 
 === viewgit ===
 * [[http://viewgit.sourceforge.net/|viewgit]] is another PHP web interface for git, written from scratch. It aims to be easy to set up and upgrade, light on dependencies, and comfortable to use. It provides all basic features such as commitdiffs, RSS feeds of changes, downloading of trees, checkouts, syntax highlighting using GeSHi, etc.
