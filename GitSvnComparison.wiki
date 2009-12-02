@@ -51,7 +51,7 @@ This is quite contrary to Subversion's handling of branches.  As of Subversion 1
 * It's impossible to see only merge related changes.
 ** If the merging user had to modify 12 lines of code to complete the merge successfully you can't tell what those 12 lines were, or how those 12 lines differ from the versions on the branches being merged.
 
-Supplement: In Subversion, branches and tags all are copies, it's a smart idea, but sometimes it's not convenient, many newbies checkout the whole repository by mistake or are confused when update or merge a moved branch. Branch path and file path lie in same namespace but they have different semantics indeed and should be taken care in different way.
+Supplement: In Subversion, branches and tags all are copies, it's a smart idea, but sometimes it's not convenient, many newbies checkout the whole repository by mistake or are confused when updating or merging a moved branch. Branch path and file path lie in same namespace but they have different semantics indeed and should be taken care in different way.
 
 == Performance (Speed of Operation) ==
 Git is extremely fast.  Since all operations (except for push and fetch) are local there is no network latency involved to:
