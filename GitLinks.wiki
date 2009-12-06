@@ -99,7 +99,7 @@ Miscellaneous git-related links, not including [[http://git.or.cz/|Git homepage]
 * [[http://h4x0r5.com/~ryan/presentations/git-why.pdf|Ryan Anderson "Why a distributed SCM?"]] (PDF) - slides from Ubucon
 * [[http://h4x0r5.com/~ryan/presentations/git-tutorial.pdf|Ryan Anderson "Git - The Distributed SCM"]] (PDF) - slides from Penguicon
 * [[http://www.ourmedia.org/node/276036|Randal L. Schwartz - "Introduction to Git"]] (PDF) - slides from Dec 2006 presentation at [[http://www.pdxlinux.org/|Portland Oregon Linux Users Group Advanced Topics meeting]].
-* [[http://www.jukie.net/~bart/slides/intro-to-git/intro-to-git.pdf|Bart Trojanowski - "Introduction to Git"]] (PDF) - slides used to teach an  [[http://www.jukie.net/~bart/blog/into-to-git-talk-2|intro course]].
+* [[http://www.jukie.net/~bart/slides/intro-to-git/intro-to-git.pdf|Bart Trojanowski - "Introduction to Git"]] (PDF) - slides used to teach an  [[http://www.jukie.net/~bart/blog/into-to-git-talk-2|intro course]].  It has also been redone for [[http://www.jukie.net/~bart/slides/git-reflections/|ACM Reflections 2009]].
 * [[http://www.jdl.com/papers/BestCollabGit.pdf|Jon Loeliger - "Best Collaboration Practices Using Git"]] (PDF) - A presentation given at the [[MontaVista]] Vision Conference.
 * [[http://conferences.oreillynet.com/presentations/os2007/os_vilain.pdf|Sam Vilain <sam@vilain net> - "Next Generation Version Control Systems"]] (PDF) - slides from 9th OSCON 2007.
 * [[http://www.gitcasts.com/|Scott Chacon's GitCasts]]
@@ -144,7 +144,7 @@ Below there are blogs by gitters:
 * [[http://www.twit.tv/floss19|FLOSS Weekly #19 git]] Gitster on FLOSS Weekly
 * [[http://video.google.ca/videoplay?docid=1251251453592758541|Tech Talk: Git]] at Google by Randal Schwartz ([[http://www.youtube.com/watch?v=8dhZ9BXQgc4|YouTube]])
 * [[http://www.hanselminutes.com/default.aspx?showID=126|Hansel minutes #108]] Scott Hanselman sits down with Robby, Gary and Andy from Planet Argon, a local Rails shop in Portland, OR, and talks about their experience as they move from Subversion to Git for their source control (podcast).
-* [[http://excess.org/article/2008/07/ogre-git-tutorial/|Git the basics]] given by Bart Trojanowski for the Ottawa Ruby group.
+* [[http://excess.org/article/2008/07/ogre-git-tutorial/|Git the basics]] given by Bart Trojanowski for the Ottawa Ruby group.  Slides have been redone for [[http://www.jukie.net/~bart/slides/git-reflections/|ACM Reflections 2009]].
 * [[http://google-opensource.blogspot.com/2008/07/getting-giddy-with-git.html|Getting Giddy with Git]] post on [[http://google-opensource.blogspot.com|Google Code: Open Source at Google]] blog: GSoC podcast 18: Git, Shawn Pearce and Johannes Schindelin with Leslie Hawthorn.
 * [[http://www.youtube.com/watch?v=j45cs5_nY2k|Tech Talk: Contributing with Git]] by Johannes Schindelin at [[GitTogether]] 2008 on YouTube.
 * [[http://eagain.net/blog/2008/08/11/ep-talk-videos.html|Version Control for Du<sup>H</sup>HDevelopers]] given by Tommi Virtanen at [[EuroPython]]2008 in Vilnius, Lithuania.
