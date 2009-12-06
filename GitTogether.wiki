@@ -3,7 +3,7 @@ These are events when git developers and users physically meet in the same place
 
 = [[GitTogether]] '09 =
 
-2 [[GitTogether]] are planned in 2009:
+2 [[GitTogether]] took place in 2009:
 
 == [[GitTogether]] '09 ==
 
