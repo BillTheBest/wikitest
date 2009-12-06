@@ -111,13 +111,14 @@ collaboratively with topic branches that need to be rebased frequently.
 He also showed a rather complicated script that is necessary to coordinate 
 work between 3 different maintainers (at 3 different locations).
 
-We also got some hacking done, e.g. Heiko, Sebastian and me on 
+We also got some hacking done, e.g. Heiko, Sebastian and Dscho on 
 Git-Cheetah, and of course the utterly useful "mispel" patch (that has not 
-made it into git.git yet, much to my chagrin).  But most of the time we 
+made it into git.git yet, much to our chagrin).  But most of the time we 
 just had a good time and talked about what we love.
 
 Oh, and Gitzilla entertained the whole party by recounting a few of the 
-most hilarious emails authored by yours truly.
+most hilarious emails authored by Dscho, who should not write mails
+after he had a beer.
 
 The unanimous consensus at the end of the day, after we were for dinner, 
 was that we should do this more often: Git together.
