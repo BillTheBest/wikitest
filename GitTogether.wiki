@@ -1,5 +1,5 @@
 = [[GitTogether]] =
-These are events when git developers and users physically meet in the same place.
+These are events when git developers (and in one case, one user) physically meet in the same place.
 
 = [[GitTogether]] '09 =
 
