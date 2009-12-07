@@ -1003,7 +1003,7 @@ A screenshot may be found at [[http://jengelh.medozas.de/images/git-forest.png|g
 * [[http://code.google.com/p/vss2git/|vss2git]] is a tool written in C# to convert a Visual Source Safe repository into a Git one. It preserves deleted files and renames, and attempts to construct meaningful changesets based on chronologically grouping individual project/file revisions.
 
 ==== vss2git (Visual [[SourceSafe]] to Git) ====
-* [[http://github.com/Gediminas/vss2git/|vss2git]] - tool (written in C++) converts Visual [[SourceSafe]] database to Git repository. Simple cycle "ss get" "git commit" is used. File revisions are grouped by user but split by date
+* [[http://github.com/Gediminas/vss2git/|vss2git]] - tool (written in C++) converts Visual [[SourceSafe]] database to Git repository. vss2git does not use direct analysis of VSS database - simple cycle "ss get" "git commit" is used. Deleted files are skipped during conversion process. File revisions are grouped by user but split by date. (6GB database 10 years development took ~4 hours to convert)
 
 == Hooks ==
 
