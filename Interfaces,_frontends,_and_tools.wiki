@@ -58,6 +58,12 @@
 === Grit ===
 * [[http://grit.rubyforge.org/|Grit]] is a Ruby library for extracting information from a git repository in an object oriented manner. This includes a [[http://github.com/blog/107-supercharged-ruby-git|partial native Ruby implementation]], which is used for a number of the operations.
 
+=== git_store ===
+* [[http://github.com/georgi/git_store|GitStore]] implements a versioned data store based on the revision management system Git. You can store object hierarchies as nested hashes, which will be mapped on the directory structure of a git repository. Basically [[GitStore]] checks out the repository into a in-memory representation, which can be modified and finally committed. [[GitStore]] reads and writes the git repository natively in Ruby.
+
+=== gitrb ===
+* [[http://github.com/minad/gitrb|GitRb]] is another partial native implementation of Git in Ruby similar to grit.
+
 === v ===
 * [[http://github.com/boof/v|v]] is another Ruby library providing a git adapter that makes working with git repositories easy. Git operations are mapped almost 1:1 to ruby methods and executed in a seperate thread returning futures when they're queued. It supports core git objects and convenience objects (indexes, branches, ...) which will provide a convenient API. It is still under development, means except for few examples there is no real documentation and most of the git operations still need to be implemented (first [[CommandLine]] wrapper (porcelain and plumbing), then pure Ruby (plumbing and then porcelain)).
 
