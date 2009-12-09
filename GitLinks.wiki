@@ -38,7 +38,8 @@ Miscellaneous git-related links, not including [[http://git.or.cz/|Git homepage]
 * [[http://students.ceid.upatras.gr/~sxanth/ungit.html|Complete Introduction to git]] (aka "Getting into SCM with git") attempts to explain the git system to people who have no, or minimal experience on SCMs and version control tools.
 * [[http://cworth.org/hgbook-git/|Carl Worth's effort]] "translating"
  [[http://hgbook.red-bean.com/|Brian O'Sullivan's book on Mercurial]] to Git
-* [[http://sysmonblog.co.uk/misc/git_by_example/|Git by example]] simple walk through of common git commands
+* [[http://sysmonblog.co.uk/misc/git_by_example/|Git by example]] simple walk through of common git commands.
+* [[http://www.fml.eti.br/wiki/index.php/Git|Simple Git guide in Portuguese]] guia para preguiçosos em português.
 
 = Articles about Git =
 
