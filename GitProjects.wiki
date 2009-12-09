@@ -224,8 +224,11 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * http://eddt.mbrio.org/ (index page)
 * git://source.mbrio.org/eddt.git (repository)
 * Egit/Jgit ( A pure java implementation of parts of git and an Eclipse plugin)
-* http://git.or.cz/gitwiki/[[EclipsePlugin]] (description)
-* http://repo.or.cz/egit.git (gitweb)
+* http://eclipse.org/egit (homepage)
+* http://egit.eclipse.org/w/ (gitweb)
+* http://egit.eclipse.org/r/ (code review)
+* http://wiki.eclipse.org/EGit (wiki)
+* http://git.or.cz/gitwiki/[[EclipsePlugin]] (description)  
 * ELinks (text mode web browser)
 * http://elinks.cz/ (description)
 * http://elinks.cz/elinks.git (repository, Cogito managed)
@@ -607,6 +610,10 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 
 * git mirror of many cvs projects important for the development of Fedora Core
 ** http://www.jur-linux.org/git/
+* git mirror of many svn projects at Apache
+** http://git.apache.org/
+* git mirror of cvs projects at Eclipse
+** http://dev.eclipse.org/git/
 
 == Publications and web sites ==
 
