@@ -135,6 +135,9 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * http://bucardo.org/ (website)
 * git://bucardo.org/bucardo.git/ (Bucardo repository)
 * git://bucardo.org/dbixsafe.git/ (DBIx::Safe repository)
+* CakePHP (PHP Framework)
+* http://cakephp.org/ (website)
+* http://github.com/cakephp/ (github)
 * check_postgres (a Nagios plugin for monitoring PostgreSQL databases)
 * http://bucardo.org/wiki/Check_postgres (homepage)
 * git://bucardo.org/check_postgres.git/
