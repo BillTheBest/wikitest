@@ -15,7 +15,7 @@ Please feel free to experiment here, after the four dashes below... and please d
 ----
 
 == Test Section ==
-hmm... how would one go about creating a user account? the [[UserPreferences]] page behind the login link seems to be b0rken.
+hmm... how would one go about creating a user account? the [[UserPreferences]] page behind the login link seems to be br0ken.
 
 * [[GitSurvey]], [[Git]], [[Git]] - wikipedia-like syntax
 * [[GitSurvey|surve]] - wikipedia-like pipe link
