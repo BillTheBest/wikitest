@@ -358,6 +358,8 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * http://git.kernel.org/?p=linux/kernel/git/shemminger/iproute2.git (gitweb)
 * itools (A Python library for web development)
 * http://www.hforge.org/itools (description)
+* jQuery ([[JavaScript]] library)
+* http://jquery.com/
 * KDbg (KDE frontend to GDB)
 * http://www.kdbg.org/
 * Koha (A library catalog system)
