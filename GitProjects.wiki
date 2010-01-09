@@ -125,8 +125,8 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * http://bacula.org/ (homepage)
 * git://github.com/bacula/bacula.git (repository)
 * http://github.com/bacula/ (github)
-* Banu Ltd. (various free software projects)
-* https://www.banu.com/git/ (repository, gitweb)
+* Banu (various free software projects)
+* https://www.banu.com/cgit/ (cgit web interface)
 * barvinok (A library for counting integer points in polytopes)
 * http://freshmeat.net/projects/barvinok/
 * http://www.liacs.nl/~sverdool/barvinok.git (repository)
