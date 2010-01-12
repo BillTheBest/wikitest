@@ -503,9 +503,10 @@ You can put shell-style globs (e.g. <code><nowiki>*.o</nowiki></code>) in either
  [[http://www.kernel.org/pub/software/scm/git/docs/git-ls-files.html|git-ls-files(1)]] man page, section "Exclude Patterns" for details.
 
 <<Anchor(saving-draft)>>
+<<[[GitLink]](stash, Use git stash or a temporary branch to save temporarily)>>
 == How do I save some local modifications? ==
 Sometimes it is necessary to put some local changes aside, and come back to them later (typically, when one hits an easily-fixable bug in the middle of non-trivial work, and wants to fix the bug before anything else).
-<<[[GitLink]](stash, Use git stash or a temporary branch to save temporarily)>>
+
 With recent versions of git, you can use [[http://www.kernel.org/pub/software/scm/git/docs/git-stash.html|"git stash"]] to save temporary modifications and come back to a "clean" tree, and then "git stash apply" to re-apply it.
 
 Alternatively:
