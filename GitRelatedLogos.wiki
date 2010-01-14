@@ -12,7 +12,9 @@ and by [http://git.or.cz/ Git homepage] to link to [http://git.or.cz/index.html 
 
 The source for the last logo (by Jan Engelhardt) is [http://jengelh.medozas.de/images/git-logo-jengelh.svg git-logo-jengelh.svg]
 
- || attachment:jk_gitlogo_70px.png || Another remake of the above logo by Jan Krüger; available as [http://gg.jk.gs/gitlogo2.0beta.svg SVG], too. ||
+{|
+| [[File:Jk gitlogo 70px.png]] | Another remake of the above logo by Jan Krüger; available as [http://gg.jk.gs/gitlogo2.0beta.svg SVG], too. |
+|}
 ----
 
  ||http://git.kernel.org/git-favicon.png|| without background ||
