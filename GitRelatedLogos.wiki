@@ -40,8 +40,11 @@ PNG, 32x32, color
 
 ----
 
- ||<:>http://henrik.nyh.se/uploads/git-logo.png||<:>attachment:gitlogo.svg_from_msysGit.png||
- ||by [http://henrik.nyh.se/2007/06/alternative-git-logo-and-favicon Henrik Nyh]||from [http://repo.or.cz/w/msysgit.git?a=blob_plain;f=share/resources/gitlogo.svg;h=c0d67e70ab31394f0635c141998e512437a138b4;hb=HEAD gitlogo.svg] in msysGit||
+{|
+| [http://henrik.nyh.se/uploads/git-logo.png] | [[File:gitlogo.svg from msysGit.png]] |
+|-
+|by [http://henrik.nyh.se/2007/06/alternative-git-logo-and-favicon Henrik Nyh] | from [http://repo.or.cz/w/msysgit.git?a=blob_plain;f=share/resources/gitlogo.svg;h=c0d67e70ab31394f0635c141998e512437a138b4;hb=HEAD gitlogo.svg] in msysGit |
+|}
 
 Henrik Nyh came up with an alternative logo/favicon to use with gitweb:
 * [http://henrik.nyh.se/2007/06/alternative-git-logo-and-favicon Alternative Git logo and favicon] at his blog: [http://henrik.nyh.se/ The Pug Automatic]
