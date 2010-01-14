@@ -7,7 +7,7 @@ The survey could be found here:
 
 You can get raw data (individual responses) for the survey here:
 * [[Media:Git_User's_Survey_2008_-_Oct_14,_2008.csv.gz‎|Git User's Survey 2008 - Oct 14, 2008.csv.gz]] (CSV, 1.2 MB)
-* [[Media:Git User's Survey 2008 - Oct 14, 08.xls|Git User's Survey 2008 - Oct 14, 2008.xls]] (Excel, 8.6MB)
+* [[Media:GitSurvey2008$Git User's Survey 2008 - Oct 14, 08.xls|Git User's Survey 2008 - Oct 14, 2008.xls]] (Excel, 8.6MB)
 
 Or even better, as long as the survey is not 100% evaluated, do
 * git clone git://git.pkqs.net/gitsurvey08.git
