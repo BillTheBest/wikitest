@@ -55,8 +55,9 @@ ICO, 32x32 + 16x16, four colors.<<BR>>
 This favicon is taken from [http://repo.or.cz/w/git-gui.git git-gui.git] repository at [http://repo.or.cz repo.or.cz]
 
 ----
-
- ||<:>attachment:Michael_J_Gruber_gitlogo.png||<:>attachment:Michael_J_Gruber_gitlogo2.png||
+{|
+| [[File:Michael J Gruber gitlogo.png]] | [[File:Michael J Gruber gitlogo2.png]] |
+|}
 
 Yet another alternate Git logo from Michael J Gruber in [http://permalink.gmane.org/gmane.comp.version-control.git/89342 Re: Git Branding Overview, Re: Git.or.cz Experimental Design] post on git mailing list.  The original is pure [[PostScript]], no fonts used.
 
