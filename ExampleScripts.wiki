@@ -1,16 +1,13 @@
-<!-- #format wiki
- -->
-<!-- #language en
- -->
-<!-- #pragma section-numbers off
- -->
+<!-- #format wiki -->
+<!-- #language en -->
+<!-- #pragma section-numbers off -->
 = Example scripts =
 
 Often, new users request a new feature of Git, which is very easy to do in a script. In fact, most of Git's user interface originated as a bash or Perl script. As a consequence, the interfaces of core Git programs (e.g. `rev-list` or `diff-tree`) are quite easy to use from scripts.
 
 <b>Table of contents:</b>
 
-<<<!-- ! TOC here -->(2)>>
+__TOC__
 
 == git log ==
 
@@ -421,7 +418,7 @@ print @canvas;
 git-darcs-record, emulate "darcs record" interface on top of a git repository.
 This is replacement for <code><nowiki>git commit --interactive</nowiki></code>
 
-<b>Reference:</b> [[http://raphael.slinckx.net/blog/2007-11-03/git-commit-darcs-record|git commit / darcs record]] on [[http://raphael.slinckx.net/blog/|Raphaël Slinckx blog]]
+<b>Reference:</b> [http://raphael.slinckx.net/blog/2007-11-03/git-commit-darcs-record git commit / darcs record] on [http://raphael.slinckx.net/blog/ Raphaël Slinckx blog]
 
 <pre><nowiki>#!python
 #!/usr/bin/env python
@@ -686,7 +683,7 @@ else:
 	print "Ok, if you don't want to record anything, that's fine!"
 
 </nowiki></pre>
-----
-[[CategoryGitDocumentation]]
+
+[[Category:GitDocumentation]]
 
 __NOTOC__
