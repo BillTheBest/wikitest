@@ -1,16 +1,10 @@
-<!-- ## Please edit system and help pages ONLY in the moinmaster wiki! For more
- -->
-<!-- ## information, please see [[MoinMaster]]:[[MoinPagesEditorGroup]].
- -->
-<!-- ##master-page:[[FrontPage]]
- -->
-<!-- #format wiki
- -->
-<!-- #language en
- -->
-<!-- #pragma section-numbers off
- -->
-{{attachment:git-logo.png}}
+<!-- ## Please edit system and help pages ONLY in the moinmaster wiki! For more -->
+<!-- ## information, please see [[MoinMaster]]:[[MoinPagesEditorGroup]].  -->
+<!-- ##master-page:[[FrontPage]]  -->
+<!-- #format wiki  -->
+<!-- #language en  -->
+<!-- #pragma section-numbers off  -->
+[[File:FrontPage$git-logo.png‎]]
 
 = Git Wiki Homepage =
 
