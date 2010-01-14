@@ -1,18 +1,17 @@
 = [[GitCheatSheet]] =
 
-{{http://ktown.kde.org/~zrusin/git/git-cheat-sheet-medium.png}}
-<<http://ktown.kde.org/~zrusin/git/git-cheat-sheet-medium.png >>
+http://ktown.kde.org/~zrusin/git/git-cheat-sheet-medium.png
 
 <b>References:</b>
-* [[http://ktown.kde.org/~zrusin/git/git-cheat-sheet.svg|SVG source]] by Zack Rusin
-* [[http://ktown.kde.org/~zrusin/git/git-cheat-sheet-large.png|PNG, large]]
-* [[http://swxruby.org/git-cheat-sheet.pdf|PDF]]
-* [[http://permalink.gmane.org/gmane.comp.version-control.git/56904|Announcement]] on git mailing list
+* [http://ktown.kde.org/~zrusin/git/git-cheat-sheet.svg SVG source] by Zack Rusin
+* [http://ktown.kde.org/~zrusin/git/git-cheat-sheet-large.png PNG, large]
+* [http://swxruby.org/git-cheat-sheet.pdf PDF]
+* [http://permalink.gmane.org/gmane.comp.version-control.git/56904 Announcement] on git mailing list
 
 <b>See also:</b>
-* [[http://jan-krueger.net/development/git-cheat-sheet-extended-edition|Git cheat sheet, extended edition]] prepared by Jan Krueger
+* [http://jan-krueger.net/development/git-cheat-sheet-extended-edition Git cheat sheet, extended edition] prepared by Jan Krueger
 
 ----
-[[CategoryGitDocumentation]]
+[[Category:GitDocumentation]]
 
 __NOTOC__
