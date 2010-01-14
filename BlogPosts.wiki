@@ -13,72 +13,72 @@ A lot of blog posts related to Git usage have been published since the project's
 
 == Switching to Git and SCMs interaction ==
 
-* [[http://ze-dinosaur.livejournal.com/18564.html|Converting branches imported by git-svn to tags]]
-* [[http://www.softwolves.pp.se/blog/2007-09-13|Using ParseCVS to convert a CVS repository to Git]]
-* [[http://blogs.igalia.com/aperez/?p=22|Convert repositories with fast-{export,import}]] is about converting Bazaar repositories to Git
-* [[http://blog.madduck.net/debian/2007.10.07_converting-a-package-to-git|Importing SVN-maintained Debian packages into Git]]
-* [[http://www.dmo.ca/blog/20070608113513|Multiple branches using git-svn]]
-* [[http://info.wsisiz.edu.pl/~blizinsk/git-bzr.html|Git and Bazaar: Subversion interoperability]] (in [[http://info.wsisiz.edu.pl/~blizinsk/git-bzr.pl.html|Polish]])
-* [[http://blog.paulbetts.org/index.php/2007/12/02/moving-git-repositories-to-svntfs/|Moving git repositories to SVN/TFS]] explains how to interact with [[WikiPedia:Team_Foundation_Server|Team Foundation Server]] via git-svn and SVNBridge.
-* [[http://duncan.mac-vicar.com/blog/archives/282|Change the svn url that a git-svn repository points to]].
-* [[http://blogs.frugalware.org/vmiklos/2007/12/09/p320|svn->git conversion using git-svn]] by VMiklos describes how to use `git-svn` in place of `git-svnimport`
-* [[http://quirkygba.blogspot.com/2007/10/using-git-with-google-code-hosting.html|Using Git with Google Code Hosting]] (Google Code offers Subversion hosting) via `git-svn`
-* [[http://blog.alieniloquent.com/2008/03/08/git-svn-with-svnexternals/|git-svn with svn:externals]] explains how to make submodules of externals while converting to git.
-* [[http://blogs.frugalware.org/vmiklos/2007/09/07/p300|git-svn "Howto"]] shortly explaining the three main commands
-* [[http://subtlegradient.com/articles/2008/04/22/cloning-a-git-svn-clone|Cloning a Git SVN Clone]]
-* [[http://blog.ultranurd.net/2009/01/21/local-version-control-with-git/|Local version control with git]] inside of a Microsoft Visual Source Safe working directory
+* [http://ze-dinosaur.livejournal.com/18564.html Converting branches imported by git-svn to tags]
+* [http://www.softwolves.pp.se/blog/2007-09-13 Using ParseCVS to convert a CVS repository to Git]
+* [http://blogs.igalia.com/aperez/?p=22 Convert repositories with fast-{export,import}] is about converting Bazaar repositories to Git
+* [http://blog.madduck.net/debian/2007.10.07_converting-a-package-to-git Importing SVN-maintained Debian packages into Git]
+* [http://www.dmo.ca/blog/20070608113513 Multiple branches using git-svn]
+* [http://info.wsisiz.edu.pl/~blizinsk/git-bzr.html Git and Bazaar: Subversion interoperability] (in [http://info.wsisiz.edu.pl/~blizinsk/git-bzr.pl.html Polish])
+* [http://blog.paulbetts.org/index.php/2007/12/02/moving-git-repositories-to-svntfs/ Moving git repositories to SVN/TFS] explains how to interact with [WikiPedia:Team_Foundation_Server Team Foundation Server] via git-svn and SVNBridge.
+* [http://duncan.mac-vicar.com/blog/archives/282 Change the svn url that a git-svn repository points to].
+* [http://blogs.frugalware.org/vmiklos/2007/12/09/p320 svn->git conversion using git-svn] by VMiklos describes how to use `git-svn` in place of `git-svnimport`
+* [http://quirkygba.blogspot.com/2007/10/using-git-with-google-code-hosting.html Using Git with Google Code Hosting]  (Google Code offers Subversion hosting) via `git-svn`
+* [http://blog.alieniloquent.com/2008/03/08/git-svn-with-svnexternals/ git-svn with svn:externals] explains how to make submodules of externals while converting to git.
+* [http://blogs.frugalware.org/vmiklos/2007/09/07/p300 git-svn "Howto"] shortly explaining the three main commands
+* [http://subtlegradient.com/articles/2008/04/22/cloning-a-git-svn-clone Cloning a Git SVN Clone]
+* [http://blog.ultranurd.net/2009/01/21/local-version-control-with-git/ Local version control with git] inside of a Microsoft Visual Source Safe working directory
 
 == Portability ==
 
-* [[http://www.dekorte.com/blog/blog.cgi?do=item&id=2539|Setting up Git on OSX]]
-* [[http://unixsadm.blogspot.com/2008/03/porting-git-to-hp-ux-pa-risc-and-aix.html|Building Git on AIX, HP-UX and Solaris]]
-* [[http://speirs.org/2007/07/22/getting-git-svn-working-on-the-mac/|Getting git-svn working on the Mac]]
-* [[http://rip747.wordpress.com/2008/09/04/getting-git-svn-to-work-under-cygwin/|Getting Git-SVN to work under Cygwin]]
-* [[http://blog.mattwynne.net/2008/09/13/bring-git-joy-to-windows/|Bring Git Joy to Windows]] by Matt Wynne (step by step [[http://code.google.com/p/msysgit|msysGit]] installation)
-* [[http://asimilatorul.com/adapter/post/git-on-windows-with-msysgit/|Git 1.6.4.4 on Windows with msysGit]]
+* [http://www.dekorte.com/blog/blog.cgi?do=item&id=2539 Setting up Git on OSX]
+* [http://unixsadm.blogspot.com/2008/03/porting-git-to-hp-ux-pa-risc-and-aix.html Building Git on AIX, HP-UX and Solaris]
+* [http://speirs.org/2007/07/22/getting-git-svn-working-on-the-mac/ Getting git-svn working on the Mac]
+* [http://rip747.wordpress.com/2008/09/04/getting-git-svn-to-work-under-cygwin/ Getting Git-SVN to work under Cygwin]
+* [http://blog.mattwynne.net/2008/09/13/bring-git-joy-to-windows/ Bring Git Joy to Windows] by Matt Wynne (step by step [http://code.google.com/p/msysgit msysGit] installation)
+* [http://asimilatorul.com/adapter/post/git-on-windows-with-msysgit/ Git 1.6.4.4 on Windows with msysGit]
 
 == Usage ==
 
-* [[http://blog.madduck.net/vcs/2007.07.11_publishing-git-repositories|Publishing Git repositories]]
-* [[http://blog.madism.org/index.php/2007/09/09/138-git-awsome-ness-git-rebase-interactive|git awsome-ness: git rebase --interactive]]
-* [[http://www.rockstarprogrammer.org/post/2008/sep/25/automating-git-bisection-rails-apps/|Automating Git Bisection for Rails Apps]]
-* [[http://feeding.cloud.geek.nz/2008/12/setting-default-git-branch-in-bare.html|Setting the default branch in a bare repository]]
-* [[http://mirror.dabase.com/e/09018/|Random tips from using Git at work]]
-* [[http://blog.interlinked.org/tutorials/git.html|Git overview]]
+* [http://blog.madduck.net/vcs/2007.07.11_publishing-git-repositories Publishing Git repositories]
+* [http://blog.madism.org/index.php/2007/09/09/138-git-awsome-ness-git-rebase-interactive|git awsome-ness: git rebase --interactive]
+* [http://www.rockstarprogrammer.org/post/2008/sep/25/automating-git-bisection-rails-apps/ Automating Git Bisection for Rails Apps]
+* [http://feeding.cloud.geek.nz/2008/12/setting-default-git-branch-in-bare.html Setting the default branch in a bare repository]
+* [http://mirror.dabase.com/e/09018/ Random tips from using Git at work]
+* [http://blog.interlinked.org/tutorials/git.html Git overview]
 * <i>Pimp your Git</i> meme (Planet Debian):
-** [[http://upsilon.cc/~zack/blog/posts/2008/12/git_tips:_coloring_and_aliases/|aliases and UI coloring]]
-** [[http://blog.orebokech.com/2008/12/pimp-your-git-meme.html|quilt-like log output]]
-** [[http://feeding.cloud.geek.nz/2008/12/recovering-lost-git-commits.html|displaying lost commits]]
-** [[http://log.damog.net/2008/12/two-git-tips/|bash prompt with branch and log1 alias]]
-** [[http://gwolf.org/node/1874|some more bash promptisms]]
-* [[http://www.jukie.net/~bart/blog/zsh-git-prompt|zsh prompt with git branch and status of rebase/merge/am/bisect]]
-* [[http://triptico.com/notes/8d4510bb.html|Matching git-svn strange authors to useful email addresses]]
-* [[http://triptico.com/notes/736c3681.html|Sharing code via email with git]]
-* [[http://triptico.com/notes/a2826177.html|Showing an intermixed short log of a bunch of git repositories]]
-* [[http://www.dont-panic.cc/capi/2009/02/16/how-to-force-git-to-consider-a-file-as-binary/|How to force Git to consider a file as binary]], or to be more exact as not having crlf conversion (for example EPS, Encapsulated PostScript files).
-* [[http://www.coffee.geek.nz/how-change-author-git.html|How to change the author of existing commits]] (for example when you committed things without first having set the git author and email address)
+** [http://upsilon.cc/~zack/blog/posts/2008/12/git_tips:_coloring_and_aliases/ aliases and UI coloring]
+** [http://blog.orebokech.com/2008/12/pimp-your-git-meme.html quilt-like log output]
+** [http://feeding.cloud.geek.nz/2008/12/recovering-lost-git-commits.html displaying lost commits]
+** [http://log.damog.net/2008/12/two-git-tips/ bash prompt with branch and log1 alias]
+** [http://gwolf.org/node/1874 some more bash promptisms]
+* [http://www.jukie.net/~bart/blog/zsh-git-prompt zsh prompt with git branch and status of rebase/merge/am/bisect]
+* [http://triptico.com/notes/8d4510bb.html Matching git-svn strange authors to useful email addresses]
+* [http://triptico.com/notes/736c3681.html Sharing code via email with git]
+* [http://triptico.com/notes/a2826177.html Showing an intermixed short log of a bunch of git repositories]
+* [http://www.dont-panic.cc/capi/2009/02/16/how-to-force-git-to-consider-a-file-as-binary/ How to force Git to consider a file as binary], or to be more exact as not having crlf conversion (for example EPS, Encapsulated PostScript files).
+* [http://www.coffee.geek.nz/how-change-author-git.html How to change the author of existing commits] (for example when you committed things without first having set the git author and email address)
 
 == Advanced stuff ==
 
-* [[http://blog.madduck.net/vcs/2007.07.11_creating-a-git-branch-without-ancestry|Creating a branch without ancestry]]
-* [[http://blog.madduck.net/debian/2007.10.03_packaging-with-git|A Git workflow for Debian package maintenance]]
-* [[http://web.glandium.org/blog/?p=146|Finding where a tarball came from with git]]
-* [[http://www.dmo.ca/blog/git-saves-me-pain-again|Now, when did I send that patch again?]] or finding version of a file
-* [[http://www.bluishcoder.co.nz/2007/09/git-binary-files-and-cherry-picking.html|Git, Binary Files and Cherry Picking Patches]] (using <code><nowiki>.gitattributes</nowiki></code> to mark file as binary, cherry-picking in git)
-* [[http://loupgaroublond.blogspot.com/2007/12/how-to-split-repository-in-git.html|Split a git repository into two different repos]]
-* [[http://www.ishlif.org/blog/linux/git-submodules/|Git submodules]] describes simple submodules usage (for a test project)<<BR>> [[http://www.ishlif.org/blog/linux/splitting-a-git-repository/|Splitting a git repository]] describes how to split existing repository to submodules.
-* [[http://blog.nuclearsquid.com/writings/subtree-merging-and-you|Subtree merging and you]] describes how to use subtree merge, an alternative to submodules. <i>See also:</i> [[http://www.kernel.org/pub/software/scm/git/docs/howto/using-merge-subtree.txt|Documentation/howto/using-merge-subtree.txt]]
-* [[http://blog.mozilla.com/oremj/2008/03/14/efficiently-updating-web-sites-on-web-clusters/|Efficiently Updating Web Sites on Web Clusters]] on [[http://blog.mozilla.com/oremj/|Oremj’s Blog]] describes how to use git instead of rsync to sync web contents to multiple web servers.
-* [[http://www.cimgf.com/2008/03/18/git-and-mac-a-match-made-in-purgatory/|Using Git with .mac (iFolder)]]
-* [[http://www.rubyinside.com/giternal-easy-git-external-dependency-management-1322.html|Easy Git External Dependency Management with Giternal]] (on Ruby and Rails News Site, mentions Rake task and Braid as alternate solutions)
-* [[http://jblevins.org/log/tools/managing-websites-with-git|Managing Websites with Git]] using post-update hooks
-* [[http://gwolf.org/node/1874|Extending your bash prompt to show git status information]]
+* [http://blog.madduck.net/vcs/2007.07.11_creating-a-git-branch-without-ancestry Creating a branch without ancestry]
+* [http://blog.madduck.net/debian/2007.10.03_packaging-with-git A Git workflow for Debian package maintenance]
+* [http://web.glandium.org/blog/?p=146 Finding where a tarball came from with git]
+* [http://www.dmo.ca/blog/git-saves-me-pain-again Now, when did I send that patch again?] or finding version of a file
+* [http://www.bluishcoder.co.nz/2007/09/git-binary-files-and-cherry-picking.html Git, Binary Files and Cherry Picking Patches] (using <code><nowiki>.gitattributes</nowiki></code> to mark file as binary, cherry-picking in git)
+* [http://loupgaroublond.blogspot.com/2007/12/how-to-split-repository-in-git.html Split a git repository into two different repos]
+* [http://www.ishlif.org/blog/linux/git-submodules/ Git submodules] describes simple submodules usage (for a test project)<BR> [http://www.ishlif.org/blog/linux/splitting-a-git-repository/ Splitting a git repository] describes how to split existing repository to submodules.
+* [http://blog.nuclearsquid.com/writings/subtree-merging-and-you Subtree merging and you] describes how to use subtree merge, an alternative to submodules. <i>See also:</i> [http://www.kernel.org/pub/software/scm/git/docs/howto/using-merge-subtree.txt Documentation/howto/using-merge-subtree.txt]
+* [http://blog.mozilla.com/oremj/2008/03/14/efficiently-updating-web-sites-on-web-clusters/ Efficiently Updating Web Sites on Web Clusters] on [http://blog.mozilla.com/oremj/ Oremj’s Blog] describes how to use git instead of rsync to sync web contents to multiple web servers.
+* [http://www.cimgf.com/2008/03/18/git-and-mac-a-match-made-in-purgatory/ Using Git with .mac (iFolder)]
+* [http://www.rubyinside.com/giternal-easy-git-external-dependency-management-1322.html Easy Git External Dependency Management with Giternal]] (on Ruby and Rails News Site, mentions Rake task and Braid as alternate solutions)
+* [http://jblevins.org/log/tools/managing-websites-with-git Managing Websites with Git] using post-update hooks
+* [http://gwolf.org/node/1874 Extending your bash prompt to show git status information]
 
 == Praise ==
 
 Like everybody else, the git developers like to be praised from time to time, too.
 
-* Masukomi has [[http://weblog.masukomi.org/2008/2/4/some-thoughts-about-git|Some thoughts on Git]]
+* Masukomi has [http://weblog.masukomi.org/2008/2/4/some-thoughts-about-git Some thoughts on Git]
 
 [[Category:GitDocumentation]]
 
