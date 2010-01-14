@@ -4,12 +4,12 @@ A lot of blog posts related to Git usage have been published since the project's
 
 == Setup ==
 
-* [[http://www.itp.tuwien.ac.at/~mattems/blog/2006/07/17#git_server_setup|git-daemon setup]]
-* [[http://scie.nti.st/2007/11/14/hosting-git-repositories-the-easy-and-secure-way|Hosting Git repositories, The Easy (and Secure) Way]] (via ssh),<<BR>> with the help of [[http://eagain.net/gitweb/?p=gitosis.git|gitosis]] tool <i>(Python, requires setuptools)</i>
-* [[http://kaeso.wordpress.com/2008/02/02/git-repository-with-apache-via-webdav-and-gitweb/|Git repository with Apache (via WebDAV) and gitweb]] (push via https).
-* [[http://cho.hapgoods.com/wordpress/?p=159|Setting up the Eclipse Git plugin]]
-* [[http://www.thread-pool.com/2008/11/15/gitweb-installation-in-5-minutes/|Gitweb installation in 5 minutes]] on MacOS (see also [[http://repo.or.cz/w/git.git/:/gitweb/INSTALL|gitweb/INSTALL]] and [[http://repo.or.cz/w/git.git/:/gitweb/README|gitweb/README]])
-* [[http://www.pie.geek.nz/wiki/git-repo-on-shared-hosting-with-no-git.html|Setting up a repo on shared hosting which has no 'git' binary]]
+* [http://www.itp.tuwien.ac.at/~mattems/blog/2006/07/17#git_server_setup git-daemon setup]
+* [http://scie.nti.st/2007/11/14/hosting-git-repositories-the-easy-and-secure-way Hosting Git repositories, The Easy (and Secure) Way] (via ssh),<BR> with the help of [http://eagain.net/gitweb/?p=gitosis.git gitosis] tool <i>(Python, requires setuptools)</i>
+* [http://kaeso.wordpress.com/2008/02/02/git-repository-with-apache-via-webdav-and-gitweb/ Git repository with Apache (via WebDAV) and gitweb] (push via https).
+* [http://cho.hapgoods.com/wordpress/?p=159 Setting up the Eclipse Git plugin]
+* [http://www.thread-pool.com/2008/11/15/gitweb-installation-in-5-minutes/ Gitweb installation in 5 minutes] on MacOS (see also [http://repo.or.cz/w/git.git/:/gitweb/INSTALL gitweb/INSTALL] and [http://repo.or.cz/w/git.git/:/gitweb/README gitweb/README])
+* [http://www.pie.geek.nz/wiki/git-repo-on-shared-hosting-with-no-git.html|Setting up a repo on shared hosting which has no 'git' binary]
 
 == Switching to Git and SCMs interaction ==
 
@@ -79,7 +79,7 @@ A lot of blog posts related to Git usage have been published since the project's
 Like everybody else, the git developers like to be praised from time to time, too.
 
 * Masukomi has [[http://weblog.masukomi.org/2008/2/4/some-thoughts-about-git|Some thoughts on Git]]
-----
-[[CategoryGitDocumentation]]
+
+[[Category:GitDocumentation]]
 
 __NOTOC__
