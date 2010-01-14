@@ -8,8 +8,8 @@ The survey could be found here:
 This survey was open from 15 July to 15 September 2009 (for 2 months).
 
 You can get raw data (individual responses) for the survey here:
-* [[attachment:Git User's Survey 2009 - results num Sep 16, 09.csv.gz|Git User's Survey 2009 - results num Sep 16, 09.csv.gz]] (CSV + gzip,  505.4 KB)
-* [[attachment:Git User_'s Survey 2009 - results txt Sep 16, 09.xls.zip|Git User's Survey 2009 - results txt Sep 16, 09.xls.zip]] (XLS + zip, 168 KB)
+* [[Media:Git User's Survey 2009 - results num Sep 16, 09.csv.gz|Git User's Survey 2009 - results num Sep 16, 09.csv.gz]] (CSV + gzip,  505.4 KB)
+* [[Media:Git User_'s Survey 2009 - results txt Sep 16, 09.xls.zip|Git User's Survey 2009 - results txt Sep 16, 09.xls.zip]] (XLS + zip, 168 KB)
 
 Results of the survey:
 * "partial summary" threads on git mailing list, via GMANE (done during survey was open)
@@ -33,7 +33,7 @@ There were around 117 responses in [[GitSurvey2006]].
 
 === Number of questions answered per responder ===
 
-{{attachment:[[GitSurvey]]2009-base_hist.png|Histogram of the number of answered questions by responder|align="right"}}
+[[File:GitSurvey2009-date hist.png|Histogram of the number of answered questions by responder|align="right"]]
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
@@ -213,7 +213,7 @@ Most answered question was "07. I use Git for (check all that apply)" multiple-c
 
 === Number of replies per question ===
 
-{{attachment:[[GitSurvey]]2009-resp_hist.png}}
+[[File:GitSurvey2009-resp_hist.png]]
 
 The graph above shows histogram of number of replies per question.  As you can see the least replied questions were:
 * "12. What tool (or kind of tool) would you like to have Git support in?" (free-form essay question), 
@@ -224,7 +224,7 @@ The graph above shows histogram of number of replies per question.  As you can s
 
 === Date of response ===
 
-{{attachment:[[GitSurvey]]2009-date_hist.png}}
+[[File:GitSurvey2009-date hist.png]]
 
 The graph above shows histogram of number of responders by date (in CET / GMT+1 / +0100 timezone).
 
@@ -1005,7 +1005,7 @@ The conversion from country name to continent was done using [[http://p3rl.org/L
 === 02. How old are you (in years)? ===
 (tabularized free-form single line)
 
-{{attachment:[[GitSurvey]]2009-age_hist.png|Histogram of age of responders|align="right"}}
+[[File:GitSurvey2009-age hist.png|Histogram of age of responders|align="right"]]
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
