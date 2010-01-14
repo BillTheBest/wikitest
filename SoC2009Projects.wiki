@@ -3,7 +3,7 @@ __TOC__
 ----
 = Git Community projects =
 
-See also [[http://socghop.appspot.com/org/home/google/gsoc2009/git|the Git GSoC2009 Google page]].
+See also [http://socghop.appspot.com/org/home/google/gsoc2009/git the Git GSoC2009 Google page].
 
 This year Git received funding for 2 students,
 and we are looking forward to the successful completion of the
@@ -18,15 +18,15 @@ Git stores a repository’s history as a directed acyclic graph (DAG) of commits
 This project proposes a highly intuitive GUI for Git that lets a user interact directly with an illustration of this underlying DAG, invoking commands on nodes, branches, or tags via context menus.
 
 <b>Programming language:</b> Java (uses JGit) <<BR>>
-<b>SoC page:</b> [[http://socghop.appspot.com/student_project/show/google/gsoc2009/git/t124022376285|Interactive graph GUI]] <<BR>>
+<b>SoC page:</b> [http://socghop.appspot.com/student_project/show/google/gsoc2009/git/t124022376285 Interactive graph GUI] <<BR>>
 
 <b>Progress reports / status:</b> <<BR>>
 Unfortunately, the GSoC project for the graph-based UI failed
-* [[http://thread.gmane.org/gmane.comp.version-control.git/123149|[JGIT PATCH 0/3] Request for help: graph-based UI]] (this means it is up to all other people to get this idea somewhere)
+* [http://thread.gmane.org/gmane.comp.version-control.git/123149 [JGIT PATCH 0/3] Request for help: graph-based UI] (this means it is up to all other people to get this idea somewhere)
 
 == Add caching support to git-daemon ==
-<b>Student:</b> Nick Edelen ([[http://github.com/sirnot|sirnot]] on github) <<BR>>
-<b>Mentor:</b>  Sam Vilain ([[http://github.com/samv|samv]] on github, mugwump on #git) <<BR>>
+<b>Student:</b> Nick Edelen ([http://github.com/sirnot sirnot] on github) <<BR>>
+<b>Mentor:</b>  Sam Vilain ([http://github.com/samv samv] on github, mugwump on #git) <<BR>>
 
 Every time git-daemon handles a fetch, it must (re-)enumerate and (re-)pack all the required objects. this is often very inefficient.
 
@@ -36,17 +36,18 @@ further, 'partial packfiles' could be used to cache slices of the object list. d
 
 <b>Idea:</b> [[SoC2009Ideas#Packfilecachingforgit-daemon|Packfile caching for git-daemon]] on [[SoC2009Ideas]] page <<BR>>
 <b>Programming language:</b> C <<BR>>
-<b>SoC page:</b> [[http://socghop.appspot.com/student_project/show/google/gsoc2009/git/t124022376432|Add caching support to git-daemon]] <<BR>>
+<b>SoC page:</b> [http://socghop.appspot.com/student_project/show/google/gsoc2009/git/t124022376432 Add caching support to git-daemon] <<BR>>
 <b>Git repository (web interface):</b>
 * http://github.com/sirnot/git
 * http://github.com/samv/git (mentor)
 
 <b>Progress reports / status:</b>
-* [[http://thread.gmane.org/gmane.comp.version-control.git/120752|[PATCH 0/7] [GSoC2009] Revision cache / git-daemon caching plan]] from 2009-06-04.
-* [[http://thread.gmane.org/gmane.comp.version-control.git/122698|[RFC/PATCH INTRO] rev-cache]] ([[http://thread.gmane.org/gmane.comp.version-control.git/122699|1]], [[http://permalink.gmane.org/gmane.comp.version-control.git/122700|2]], [[http://permalink.gmane.org/gmane.comp.version-control.git/122701|3]], [[http://permalink.gmane.org/gmane.comp.version-control.git/122702|4]]) from 2009-07-03.
-* [[http://thread.gmane.org/gmane.comp.version-control.git/125056|[PATCH 0/5] Suggested for PU: revision caching system to significantly speed up packing/walking]] from 2009-08-06, and the following patches.
+* [http://thread.gmane.org/gmane.comp.version-control.git/120752 [PATCH 0/7] [GSoC2009] Revision cache / git-daemon caching plan]] from 2009-06-04.
+* [http://thread.gmane.org/gmane.comp.version-control.git/122698 [RFC/PATCH INTRO] rev-cache] ([http://thread.gmane.org/gmane.comp.version-control.git/122699 1], [http://permalink.gmane.org/gmane.comp.version-control.git/122700 2], [http://permalink.gmane.org/gmane.comp.version-control.git/122701 3], [http://permalink.gmane.org/gmane.comp.version-control.git/122702 4]) from 2009-07-03.
+* [http://thread.gmane.org/gmane.comp.version-control.git/125056 [PATCH 0/5] Suggested for PU: revision caching system to significantly speed up packing/walking] from 2009-08-06, and the following patches.
 
 ----
+
 = Foreign projects =
 
 == Mercurial: Using mercurial as a client for git repositories ==
