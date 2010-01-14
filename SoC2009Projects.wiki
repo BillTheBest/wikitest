@@ -22,7 +22,7 @@ This project proposes a highly intuitive GUI for Git that lets a user interact d
 
 <b>Progress reports / status:</b> <BR>
 Unfortunately, the GSoC project for the graph-based UI failed
-* [http://thread.gmane.org/gmane.comp.version-control.git/123149 [JGIT PATCH 0/3] Request for help: graph-based UI] (this means it is up to all other people to get this idea somewhere)
+* [http://thread.gmane.org/gmane.comp.version-control.git/123149 &#91;JGIT PATCH 0/3&#93; Request for help: graph-based UI] (this means it is up to all other people to get this idea somewhere)
 
 == Add caching support to git-daemon ==
 <b>Student:</b> Nick Edelen ([http://github.com/sirnot sirnot] on github) <BR>
