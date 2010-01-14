@@ -1,5 +1,5 @@
 <b>Table of Contents:</b>
-<<<!-- ! TOC here -->(2)>>
+__TOC__
 ----
 = Git Community projects =
 
