@@ -123,6 +123,6 @@ after he had a beer.
 The unanimous consensus at the end of the day, after we were for dinner, 
 was that we should do this more often: Git together.
 
-{{attachment:alles-wird-git-2009.jpg}}
+[[File:alles-wird-git-2009.jpg]]
 
 __NOTOC__
