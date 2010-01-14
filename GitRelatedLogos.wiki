@@ -1,5 +1,8 @@
- || http://git.or.cz/git-logo.png       || [http://git.or.cz/ Git homepage] ||
- || http://git.kernel.org/git-logo.png  || [http://www.kernel.org/git/ gitweb at kernel.org] ||
+{|
+| http://git.or.cz/git-logo.png       | [http://git.or.cz/ Git homepage] |
+|-
+| http://git.kernel.org/git-logo.png  | [http://www.kernel.org/git/ gitweb at kernel.org] |
+|}
 
 Logo of [[Git]] [[DistributedSCM|distributed revision control system]]. 
 Used by [[Gitweb]] installations to link to [http://www.kernel.org/pub/software/scm/git/docs/ git(7)], 
@@ -44,8 +47,9 @@ Henrik Nyh came up with an alternative logo/favicon to use with gitweb:
 * [http://henrik.nyh.se/2007/06/alternative-git-logo-and-favicon Alternative Git logo and favicon] at his blog: [http://henrik.nyh.se/ The Pug Automatic]
 
 This alternative logo/favicon is used as icon for git-gui (git commit tool in Tcl/Tk).
-
- ||http://repo.or.cz/w/git-gui.git/:lib/git-gui.ico|| ||attachment:git-gui-32x32.png||attachment:git-gui-16x16.png|| ||[http://www.kernel.org/pub/software/scm/git/docs/git-gui.html git-gui] icon||
+{|
+| http://repo.or.cz/w/git-gui.git/:lib/git-gui.ico | | [[File:git-gui-32x32.png]] | [[File:git-gui-16x16.png]] | | [http://www.kernel.org/pub/software/scm/git/docs/git-gui.html git-gui] icon |
+|}
 
 ICO, 32x32 + 16x16, four colors.<<BR>>
 This favicon is taken from [http://repo.or.cz/w/git-gui.git git-gui.git] repository at [http://repo.or.cz repo.or.cz]
