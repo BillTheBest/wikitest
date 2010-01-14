@@ -213,7 +213,7 @@ Most answered question was "07. I use Git for (check all that apply)" multiple-c
 
 === Number of replies per question ===
 
-[[File:GitSurvey2009-resp_hist.png]]
+[[File:GitSurvey2009-resp hist.png]]
 
 The graph above shows histogram of number of replies per question.  As you can see the least replied questions were:
 * "12. What tool (or kind of tool) would you like to have Git support in?" (free-form essay question), 
