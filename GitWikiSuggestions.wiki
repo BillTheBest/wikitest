@@ -3,9 +3,9 @@ This page is for recording (or discussion) of [[GitWikiSuggestions|Suggestions]]
 Make sure your suggestion doesn’t exist already or that your question has already been answered by checking [[HelpContents]].
 
 ----
-<b>Table of contents</b>
+''Table of contents''
 
-<<<!-- ! TOC here -->(2)>>
+__TOC__
 ----
 
 = Editing =
@@ -19,8 +19,8 @@ I thought it safer and more polite to leave the page rename fix to someone other
 The [[GitSvnComparsion]] page has very good content, but it would be nice to know the differences between the two in how binary files are stored and whether either uses a differential backup vs a file level backup.
 
 == Parsers ==
-It would be nice to have installed parsers from [[MoinMoin:[[ParserMarket]]|[[ParserMarket]]]] (see [[MoinMoin:[[ParserMarket]]#head-17c33967bbb4345a453627b944bad1f1bc4b2791|Installation Instructions]] there) for languages used in [[Git]], [[Cogito]] and examples, i.e for <b>Perl</b>, <b>shell</b> and e.g. <b>diff</b>.
-* Perl parsers from [[MoinMoin:[[ParserMarket]]|[[ParserMarket]]]]: [[MoinMoin:parser/Perl|parser/Perl]] by Johannes Hoerburger <i>(`.py` extension needs to be aded)</i>.
+It would be nice to have installed parsers from [[MoinMoin:[[ParserMarket]]|[[ParserMarket]]]] (see [[MoinMoin:[[ParserMarket]]#head-17c33967bbb4345a453627b944bad1f1bc4b2791|Installation Instructions]] there) for languages used in [[Git]], [[Cogito]] and examples, i.e for ''Perl'', ''shell'' and e.g. ''diff''.
+* Perl parsers from [[MoinMoin:[[ParserMarket]]|[[ParserMarket]]]]: [[MoinMoin:parser/Perl|parser/Perl]] by Johannes Hoerburger ''(`.py` extension needs to be aded)''.
 * diff output parsers from [[MoinMoin:[[ParserMarket]]|[[ParserMarket]]]]: [[MoinMoin:parser/diff.py|parser/diff.py]] by Emilio Lopes.
 
 == Error in GUI editing ==
@@ -33,7 +33,7 @@ For git and cogito manpages online it would mean that instead of writing for exa
 <pre><nowiki>
 [http://www.kernel.org/pub/software/scm/git/docs/git-apply.html git-apply(1)]
 </nowiki></pre>
-([[http://www.kernel.org/pub/software/scm/git/docs/git-apply.html|git-apply(1)]]) use <i>(proposal)</i> GitDoc InterWiki link, i.e. use one of the following (ones that are possible to create)
+([http://www.kernel.org/pub/software/scm/git/docs/git-apply.html git-apply(1)]) use ''(proposal)'' GitDoc InterWiki link, i.e. use one of the following (ones that are possible to create)
 <pre><nowiki>
 [wiki:GitDoc:git-apply git-apply(1)]
 GitDoc:git-apply
@@ -44,7 +44,7 @@ For links to file in the git.git source via gitweb, instead of using for example
 <pre><nowiki>
 [http://www.kernel.org/git/?p=git/git.git;a=blob;hb=HEAD;f=Documentation/git-apply.txt git-apply.txt]
 </nowiki></pre>
-([[http://www.kernel.org/git/?p=git/git.git;a=blob;hb=HEAD;f=Documentation/git-apply.txt|git-apply.txt]]) use GitSource InterWiki link
+([http://www.kernel.org/git/?p=git/git.git;a=blob;hb=HEAD;f=Documentation/git-apply.txt git-apply.txt]) use GitSource InterWiki link
 <pre><nowiki>
 [wiki:GitSource:Documentation/git-apply.txt git-apply.txt]
 </nowiki></pre>
@@ -85,9 +85,9 @@ Here a few suggestions for new pages.
 * Why is there always a Git-prefix to the wiki pages?
 
 = Add web option =
-* Add [[http://www.knowledgeforge.net/|KForge]] as a web interface in the comparisons/category, it seems promising.
+* Add [http://www.knowledgeforge.net/ KForge] as a web interface in the comparisons/category, it seems promising.
 
 ----
-[[CategoryWebInterfaces]] [[CategoryWebInterfaces]]
+[[Category:WebInterfaces]] [[Category:WebInterfaces]]
 
 __NOTOC__
