@@ -23,7 +23,7 @@ The source for the last logo (by Jan Engelhardt) is [http://jengelh.medozas.de/i
  ||http://git.henrik.nyh.se/favicon.png||[http://henrik.nyh.se/2007/06/alternative-git-logo-and-favicon proposed] by Henrik Nyh ||
  ||<#A0A0A0> http://git.henrik.nyh.se/favicon.png||as above, gray background ||
 
-Proposed [[WikiPedia:Favicon|favicons]] for Git-related web pages.<<BR>>
+Proposed [[WikiPedia:Favicon|favicons]] for Git-related web pages.<BR>
 PNG, 16x16, 3 colors including white background.
 
 This favicon is resized fragment of above Git logo.
@@ -31,13 +31,13 @@ This favicon is resized fragment of above Git logo.
  ||http://github.com/favicon.png||[http://github.com/ GitHub] favicon||
  ||<#A0A0A0> http://github.com/favicon.png||as above, gray background ||
 
-Favicon of [http://github.com/ GitHub], one of [[GitHosting:git hosting]] sites.<<BR>>
+Favicon of [http://github.com/ GitHub], one of [[GitHosting:git hosting]] sites.<BR>
 PNG, 16x16, grayscale.
 
  ||http://gitorious.org/projects/teamgit/repos/mainline/blobs/raw/HEAD/teamgit_icon.png||[http://www.devslashzero.com/teamgit teamGit] icon||
  ||<#A0A0A0> http://gitorious.org/projects/teamgit/repos/mainline/blobs/raw/HEAD/teamgit_icon.png||as above, gray background ||
 
-Icon (logo) of [http://www.devslashzero.com/teamgit TeamGit], one of Git GUIs.<<BR>>
+Icon (logo) of [http://www.devslashzero.com/teamgit TeamGit], one of Git GUIs.<BR>
 PNG, 32x32, color
 
 ----
@@ -56,7 +56,7 @@ This alternative logo/favicon is used as icon for git-gui (git commit tool in Tc
 | http://repo.or.cz/w/git-gui.git/:lib/git-gui.ico | | [[File:git-gui-32x32.png]] | [[File:git-gui-16x16.png]] | | [http://www.kernel.org/pub/software/scm/git/docs/git-gui.html git-gui] icon |
 |}
 
-ICO, 32x32 + 16x16, four colors.<<BR>>
+ICO, 32x32 + 16x16, four colors.<BR>
 This favicon is taken from [http://repo.or.cz/w/git-gui.git git-gui.git] repository at [http://repo.or.cz repo.or.cz]
 
 ----
@@ -74,7 +74,7 @@ http://repo.or.cz/w/git.git?a=blob_plain;hb=HEAD;f=t/test4012.png
 
 http://www.cs.indiana.edu/picons/db/users/net/cox/junkio/face.gif
 
-<code><nowiki>http://www.cs.indiana.edu/picons/db/users/net/cox/junkio/face.gif</nowiki></code><<BR>>
+<code><nowiki>http://www.cs.indiana.edu/picons/db/users/net/cox/junkio/face.gif</nowiki></code><BR>
 Picons Search Results for Junio C Hamano picon.
 
 In case people do not know, this is gitster's ([[Junio C Hamano]]) [[WikiPedia:Picon_(Apple)|picon]] (personal icon: see [http://www.cs.indiana.edu/picons/ftp/faq.html Picons FAQ]) and also appears on his "Git Maintainer" business card.
