@@ -1,13 +1,13 @@
 = New Home =
 
-<i>The EGit plugin and its companion JGit library have moved to eclipse.org:</i>
+''The EGit plugin and its companion JGit library have moved to eclipse.org:''
 
-[[http://www.eclipse.org/egit/|EGit at Eclipse]]
+[http://www.eclipse.org/egit/ EGit at Eclipse]
 
-The new Git repositories can be found at the [[http://wiki.eclipse.org/EGit/Contributor_Guide|EGit contributor guide]]
+The new Git repositories can be found at the [http://wiki.eclipse.org/EGit/Contributor_Guide EGit contributor guide]
 
 [[OldEgitPage]]
 
-[[CategoryTools]]
+[[Category:Tools]]
 
 __NOTOC__
