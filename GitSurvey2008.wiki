@@ -17,10 +17,10 @@ Or even better, as long as the survey is not 100% evaluated, do
 
 Results of the survey:
 * [http://thread.gmane.org/gmane.comp.version-control.git/94797/ partial summary thread on GMANE]
-* [http://www.survs.com/shareResults?survey=M3PIVU72&rndm=OKJQ45LAG8 Graphical final results of the survey] (http://tinyurl.com/[[GitSurvey]]2008Analyze) <<BR>> ''''Note:'' you can use existing on-line filters for basic survey analysis''
+* [http://www.survs.com/shareResults?survey=M3PIVU72&rndm=OKJQ45LAG8 Graphical final results of the survey] (http://tinyurl.com/[[GitSurvey]]2008Analyze) <BR> ''''Note:'' you can use existing on-line filters for basic survey analysis''
 * Further final results will follow and will be put into the wiki.
 
-There were 3236 individual responses, including 21 responses in 'test' channel<<BR>>
+There were 3236 individual responses, including 21 responses in 'test' channel<BR>
 There were 683 individual responses in [[GitSurvey]]2007, and around 117 responses in [[GitSurvey]]2006.
 
 ''Please do not add survey ''data'' on this page''
