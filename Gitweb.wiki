@@ -32,7 +32,7 @@ There even exists a <code><nowiki>git-instaweb</nowiki></code> script to setup g
 * [http://www.grmso.net:8090/ wit] ([http://www.absolutegiganten.org/wit/ download]) by Christian Meder in Python, uses PATH_INFO extensively. ''(defunct, no longer maintained)''
 * [http://git.flameeyes.is-a-geek.org/gitarella/ gitarella] ([http://flameeyes.is-a-geek.org/projects#gitarella homepage]) by Flameeyes in Ruby, supports CGI and Fast<code><nowiki></nowiki></code>CGI interfaces. Inspired by gitweb. ''(demo no longer works)''
 * [http://dan.chokola.com/wit/ Wit] ([http://dan.chokola.com/software/wit.rhtml homepage]) by Daniel Chokola in Ruby/eRuby. Easy setup, configuration (YAML), and customization (customizable CSS, templates), clean code.
-* [http://zackb.org/git-php/git.php git-php] ([http://code.google.com/p/git-php/ homepage]) by Zack Bartel in PHP. Goals: robust, customizable. Gitweb look-alike.<<BR>>
+* [http://zackb.org/git-php/git.php git-php] ([http://code.google.com/p/git-php/ homepage]) by Zack Bartel in PHP. Goals: robust, customizable. Gitweb look-alike.<BR>
  [http://people.proekspert.ee/peeter/git/git.php git-php] ([http://people.proekspert.ee/peeter/blog/ blog]) by Peeter Vois in PHP. Continuation of work by Zack Bartel.
 * [http://viewgit.sourceforge.net/ viewgit]: another PHP git repository browser written from scratch.
 
