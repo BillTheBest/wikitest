@@ -12,7 +12,7 @@ Git Development Community
 
 '' What is your Organization's Homepage? ''
 
-[[http://git.or.cz/]]
+[http://git.or.cz/ http://git.or.cz/]
 
 '' Describe your organization. ''
 
@@ -49,7 +49,7 @@ GPL (GNU Public License)
 
 '' What is the URL for your ideas page? ''
 
-[[http://git.or.cz/gitwiki/SoC2007Ideas]]
+[http://git.or.cz/gitwiki/SoC2007Ideas http://git.or.cz/gitwiki/SoC2007Ideas]
 
 '' What is the main development mailing list for your organization? ''
 
