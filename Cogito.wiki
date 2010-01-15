@@ -1,6 +1,6 @@
-<b>Cogito</b> (originally git-pasky) was a [[WikiPedia:Revision_control|revision control system]] layered on top of [[Git]].  It is historically the first Git frontend, which appeared in April 2005, just days after Git itself.  While Git was initially meant just as the low-level interface, Cogito started with the stated goal of becoming a user-friendly frontend.
+''Cogito'' (originally git-pasky) was a [[WikiPedia:Revision_control|revision control system]] layered on top of [[Git]].  It is historically the first Git frontend, which appeared in April 2005, just days after Git itself.  While Git was initially meant just as the low-level interface, Cogito started with the stated goal of becoming a user-friendly frontend.
 
-While <b>cogito</b> significantly helped making git user-friendly, it is now deprecated, and no longer maintained.
+While ''cogito'' significantly helped making git user-friendly, it is now deprecated, and no longer maintained.
 
 Cogito has significantly fewer sub-commands compared to Git, in line with its purpose to present a simple user interface sufficient for common workflows.  As of May 2006, Cogito had only 41 sub-commands, compared to Git's 119.  Some features that started in Cogito migrated later to Git, making Git more suitable for standalone use.
 
@@ -20,6 +20,6 @@ Cogito is implemented a set of [[WikiPedia:Bash|Bash]] scripts (unlike Git, whic
 * http://www.kernel.org/pub/software/scm/cogito/
 
 ----
-[[CategoryTools]]
+[[Category:Tools]]
 
 __NOTOC__
