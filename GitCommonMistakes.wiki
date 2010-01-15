@@ -7,9 +7,9 @@ It might make sense to eventually update git or its [[porcelain|porcelains]] to 
 If you wish to add to this list, avoid hypothetical cases and try to cite real repositories in the wild where your mistake has been observed.
 
 ----
-<b>Table of contents:</b>
+''Table of contents:''
 
-<<<!-- ! TOC here -->>>
+__TOC__
 ----
 
 == Why does this matter? ==
@@ -92,7 +92,7 @@ history being sensible (as the ACPI people may remember ;), so I usually
 also do
 
 gitk ORIG_HEAD..
-'' -- [[http://www.ussg.iu.edu/hypermail/linux/kernel/0603.2/2856.html|Linus on mailinglist]]
+'' -- [http://www.ussg.iu.edu/hypermail/linux/kernel/0603.2/2856.html Linus on mailinglist]
 ==== Xorg: Log message conventions not followed ====
 
 http://lists.freedesktop.org/archives/xorg/2006-June/016127.html
@@ -101,7 +101,7 @@ http://lists.freedesktop.org/archives/xorg/2006-June/016127.html
  We don't follow these conventions yet, and at least git-rebase behaves
  strangely if they are not followed." - mhopf
 
-<b>See also:</b> [[CommitMessageConventions]].
+''See also:'' [[CommitMessageConventions]].
 
 TODO: explain, link
 
