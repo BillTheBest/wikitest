@@ -8,9 +8,9 @@
  -->
 <!-- #language en
  -->
-Please feel free to experiment here, after the four dashes below... and please do <b>NOT</b> create new pages without any meaningful content just to try it out!
+Please feel free to experiment here, after the four dashes below... and please do ''NOT'' create new pages without any meaningful content just to try it out!
 
-<b>Tip:</b> Shift-click "[[HelpOnEditing]]" to open a second window with the help pages.
+''Tip:'' Shift-click "[[HelpOnEditing]]" to open a second window with the help pages.
 
 ----
 
@@ -22,7 +22,7 @@ hmm... how would one go about creating a user account? the [[UserPreferences]] p
 * <code><nowiki>backticks typewriter</nowiki></code>
 * Camel<code><nowiki></nowiki></code>Case
 == Formatting ==
-<i>italic</i> <b>bold</b> <code><nowiki>typewriter</nowiki></code>
+''italic'' ''bold'' <code><nowiki>typewriter</nowiki></code>
 
 <code><nowiki>backtick typewriter</nowiki></code> (configurable)
 
@@ -54,13 +54,13 @@ def syntax(highlight):
 
 [[HelpOnEditing]]
 
-<b>Inter<code><nowiki></nowiki></code>Wiki</b> links:
+''Inter<code><nowiki></nowiki></code>Wiki'' links:
 
 * <code><nowiki>[[MoinMoin]]:[[InterWiki]]</nowiki></code> -> [[MoinMoin]]:[[InterWiki]]
 * <code><nowiki>[[MoinMoin:[[InterWiki]]|[[InterWiki]]] on [[MoinMoin]]]</nowiki></code> -> [[MoinMoin:[[InterWiki]]|[[InterWiki]] on [[MoinMoin]]]]
 * <code><nowiki>[[WikiPedia:Subversion]</nowiki></code>|-> [[WikiPedia:Subversion|wiki:[[WikiPedia]]]:Subversion]]
 * <code><nowiki>[[WikiPedia:Subversion|Subversion]]</nowiki></code> -> [[WikiPedia]]:Subversion
-http://moinmoin.wikiwikiweb.de/ [[http://www.python.org/|Python]]
+http://moinmoin.wikiwikiweb.de/ [http://www.python.org/ Python]
 
 someone@the.inter.net
 
@@ -142,11 +142,11 @@ Total (sum);                    656
 | 
 |}
  ||<6 0 %>very easy ||38 ||
- ||easy<<[[FootNote]](auto: easy)>> ||136 ||
+ ||easy<<[[FootNote]](auto: easy}} ||136 ||
  ||||<rowbgcolor="#ffffdd" rowstyle="FONT-STYLE: italic">inner header ||
  ||reasonably ||318 ||
  |||| ||
- ||hard<<[[FootNote]](auto: hard)>> ||131 ||
+ ||hard<<[[FootNote]](auto: hard}} ||131 ||
  ||<rowstyle="BORDER-TOP-STYLE: dotted">hard ||131 ||
  ||hard ||131 ||
  |||| ||
@@ -154,10 +154,10 @@ Total (sum);                    656
  ||very hard[[[#fn_b|<sup>b</sup>]]] ||33 ||
  ||<rowbgcolor="#ccffff" rowstyle="FONT-WEIGHT: bold; FONT-STYLE: italic">Base ||656 / 683 ||
  ||<rowbgcolor="#ccffff" rowstyle="FONT-WEIGHT: bold; FONT-STYLE: italic">Total (sum) ||656 ||
-<b>Footnotes (macro):</b> <<[[FootNote]]>> <b>Footnotes (by hand):</b>
+''Footnotes (macro):'' <<[[FootNote]]>> ''Footnotes (by hand):''
 
-* <b>a)</b> <<Anchor(fn_a)>> hard
-* <b>b)</b> <<Anchor(fn_b)>> very hard
+* ''a)'' {{anchor|fn_a}} hard
+* ''b)'' {{anchor|fn_b}} very hard
 Some trailing text
 
 == More tables ==
