@@ -1,13 +1,13 @@
 This section describes various ways to specify what revisions you are
 interested in. Aside from being used by 
-[[http://www.kernel.org/pub/software/scm/git/docs/git-log.html|git-log(1)]] and
-[[http://www.kernel.org/pub/software/scm/git/docs/git-whatchanged.html|git-whatchanged(1)]],
+[http://www.kernel.org/pub/software/scm/git/docs/git-log.html git-log(1)] and
+[http://www.kernel.org/pub/software/scm/git/docs/git-whatchanged.html git-whatchanged(1)],
 they may also be used with graphical frontends such as [[gitk]].
 
 ----
-<b>Table of contents:</b>
+''Table of contents:''
 
-<<<!-- ! TOC here -->(2)>>
+__TOC__
 ----
 
 = Limit by Path Name =
@@ -36,7 +36,7 @@ you can use: <pre><nowiki>
 $ git log --after="May 5th" --before="2006-05-16 15:44"
 </nowiki></pre>
 
-<b>Note:</b>
+''Note:''
     If you want to avoid having to quote dates containing spaces you can
     use "." instead, e.g. `--after=May.5th`.
 
@@ -95,23 +95,23 @@ $ gitk --all --since=1.week -- Makefile
 Another example: <pre><nowiki>
 $ gitk --all --since=1.month -15 -- t/
 </nowiki></pre>
-will show at most fifteen commits from <i>any</i> branch that changed the 
+will show at most fifteen commits from ''any'' branch that changed the 
 test subdirectory in the last month.
 
 ----
 = References =
 
 * More examples can be found in the Git
- [[http://kernel.org/pub/software/scm/git/docs/tutorial.html|tutorial's]]
+ [http://kernel.org/pub/software/scm/git/docs/tutorial.html tutorial's]
  section about "Exploring History".
 
 * Relevant man pages:
- [[http://www.kernel.org/pub/software/scm/git/docs/git-log.html|git-log(1)]],
- [[http://www.kernel.org/pub/software/scm/git/docs/git-rev-list.html|git-rev-list(1)]], and
+ [http://www.kernel.org/pub/software/scm/git/docs/git-log.html git-log(1)],
+ [http://www.kernel.org/pub/software/scm/git/docs/git-rev-list.html git-rev-list(1)], and
  the section on "Specifying Revisions" in
- [[http://www.kernel.org/pub/software/scm/git/docs/git-rev-parse.html|git-rev-parse(1)]].
+ [http://www.kernel.org/pub/software/scm/git/docs/git-rev-parse.html git-rev-parse(1)].
 
 ----
-[[CategoryGitDocumentation]]
+[[Category:GitDocumentation]]
 
 __NOTOC__
