@@ -498,6 +498,6 @@ A--B--D--C"--E"--F" master
 If you have a branch like above, you can often perform a <code><nowiki>git-svn rebase</nowiki></code> on the branch directly. Instead of rebasing to master, this rebases the branch directly onto the latest remote revision in subversion. Then you can <code><nowiki>git-svn dcommit</nowiki></code> ''in the branch''. Finally, check out <code><nowiki>master</nowiki></code> and do another <code><nowiki>git-svn rebase</nowiki></code> to bring it up to date. This will merge in the changes from the branch as well as any new changes in subversion. Note that with this method, the branch sticks around, but afterwards <code><nowiki>gitk</nowiki></code> will show that it marks the same history as <code><nowiki>master</nowiki></code> -- until you commit to it again or delete it, anyway.
 
 ----
-[[CategoryGitDocumentation]]
+[[Category:GitDocumentation]]
 
 __NOTOC__
