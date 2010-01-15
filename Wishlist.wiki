@@ -10,16 +10,16 @@ I've put an attribution of the wish to the person who wrote the email I found it
 * "pull" and "push" should be symmetrical operations.  (Nicholas Pitre) (Andy Parkins)
 * Remote branch handling should become more straight forward.  (Nicholas Pitre)
 * There's no easy way to do a <code><nowiki>git reset --hard</nowiki></code> while doing a <code><nowiki>git checkout</nowiki></code> style merge. (linux at horizon.com)
-* It would be nice to have command to rename tags (even in their packed format). <i>Some patches sent to git mailing list</i> (Jakub Narebski)
-* Support foreign VCS URLs in remote tracking branches with, eg, <code><nowiki>svn://</nowiki></code>, <code><nowiki>cvs://</nowiki></code>, <code><nowiki>bzr+http://</nowiki></code>, <code><nowiki>hg://</nowiki></code>, <code><nowiki>svn+webdav+crack://</nowiki></code>, etc.  (Sam Vilain)  <i>Isn't this sort of already happening, or is this totally a different wish?</i>
+* It would be nice to have command to rename tags (even in their packed format). ''Some patches sent to git mailing list'' (Jakub Narebski)
+* Support foreign VCS URLs in remote tracking branches with, eg, <code><nowiki>svn://</nowiki></code>, <code><nowiki>cvs://</nowiki></code>, <code><nowiki>bzr+http://</nowiki></code>, <code><nowiki>hg://</nowiki></code>, <code><nowiki>svn+webdav+crack://</nowiki></code>, etc.  (Sam Vilain)  ''Isn't this sort of already happening, or is this totally a different wish?''
 * Fetch/push should show progress even when transferring large objects. Kbs/sec would be particularly nice. (Tim Ansell)
 * Blame support for git-grep. So you can grep the tree and show the author for each matching line. (Kieran Clancy)
 * show diff -c for conflicting symbolic links -- the default diff --cc is empty because there are no conflict markers (or alternatives) (Clemens Buchacher)
 * Fix file globbing such as "git add -u '*.c'". See also [[http://article.gmane.org/gmane.comp.version-control.git/105679]]. (Clemens Buchacher)
 
-<b>See also:</b>
-* [[http://www.freedesktop.org/wiki/Infrastructure/git/UIFlaws|Git UI flaws]] at freedesktop wiki.
-* Debian [[http://bugs.debian.org/cgi-bin/pkgreport.cgi?ordering=normal;archive=0;src=git-core;dist=unstable;repeatmerged=0|bug reports]].
+''See also:''
+* [http://www.freedesktop.org/wiki/Infrastructure/git/UIFlaws Git UI flaws] at freedesktop wiki.
+* Debian [http://bugs.debian.org/cgi-bin/pkgreport.cgi?ordering=normal;archive=0;src=git-core;dist=unstable;repeatmerged=0 bug reports].
 
 = Granted Wishes =
 
