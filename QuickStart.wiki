@@ -133,6 +133,6 @@ $ git diff --stat HEAD
 $ git cherry-pick other-branch~3     # apply 4th last patch of other-branch to current branch
 </nowiki></pre>
 ----
-[[CategoryGitDocumentation]]
+[[Category:GitDocumentation]]
 
 __NOTOC__
