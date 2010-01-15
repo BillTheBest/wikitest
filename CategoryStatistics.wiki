@@ -3,15 +3,15 @@
 <!-- #language en
  -->
 
-A category for pages containing <i>statistics</i>.
+A category for pages containing ''statistics''.
 
 To add a page to this category, add a link to this page on the last line of the page. You can add multiple categories to a page.
 
-<b>List of pages in this category:</b>
+''List of pages in this category:''
 
-<<[[FullSearch]]()>>
+<<[[FullSearch]](}}
 
 ----
-[[CategoryCategory]]
+[[Category:Category]]
 
 __NOTOC__
