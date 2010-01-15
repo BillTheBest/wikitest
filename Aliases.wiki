@@ -1,7 +1,7 @@
 = Aliases =
 With aliases, you can avoid typing the same commands over and over again. Aliases were added in Git version 1.4.0.
 
-<b>Table of contents:</b>
+''Table of contents:''
 
 __TOC__
 
@@ -9,25 +9,25 @@ __TOC__
 
 = Introduction =
 
-To show how to use aliases, suppose you wish you could write <i>git ci</i> instead of <i>git commit</i>.  You can achieve this by adding the following section to <b>.git/config</b>:
+To show how to use aliases, suppose you wish you could write ''git ci'' instead of ''git commit''.  You can achieve this by adding the following section to ''.git/config'':
 
 <pre><nowiki>
 [alias]
         ci = commit
 </nowiki></pre>
 
-Some people are uncomfortable editing the config file themselves. They can edit the config by calling <i>git config alias.ci commit</i> instead.
+Some people are uncomfortable editing the config file themselves. They can edit the config by calling ''git config alias.ci commit'' instead.
 
 If you want to have the alias available everywhere on your local machine, you can either
 
-- edit <b>$HOME/.gitconfig</b>, or
+- edit ''$HOME/.gitconfig'', or
 
-- use the <i>--global</i> flag: <i>git config --global alias.ci commit</i>
+- use the ''--global'' flag: ''git config --global alias.ci commit''
 
 = Simple =
 
 == A shortcut for seeing the fetched commits ==
-If you want to be able to say <i>git lc</i> to list all new commits after you fetched, with stats, but excluding merges, add this alias:
+If you want to be able to say ''git lc'' to list all new commits after you fetched, with stats, but excluding merges, add this alias:
 
 <pre><nowiki>
 [alias]
@@ -51,7 +51,7 @@ That's right.  The simplest alias on this page takes arguments, so you can call:
 $ git ci -m message file1 file2 dir1
 </nowiki></pre>
 == Shortcut for displaying dates in your local timezone ==
-Here's how to create an alias <i>git llog</i> that will behave just like <i>git log</i>, but will display dates in your local timezone.
+Here's how to create an alias ''git llog'' that will behave just like ''git log'', but will display dates in your local timezone.
 
 <pre><nowiki>
 [alias]
@@ -59,7 +59,7 @@ Here's how to create an alias <i>git llog</i> that will behave just like <i>git 
 </nowiki></pre>
 == Simple diff wrappers ==
 
-These two aliases wrap commonly used options to <i>git diff</i>, and accept the full range of arguments that diff accepts:
+These two aliases wrap commonly used options to ''git diff'', and accept the full range of arguments that diff accepts:
 <pre><nowiki>
 [alias]
         changes=diff --name-status -r
@@ -69,7 +69,7 @@ These two aliases wrap commonly used options to <i>git diff</i>, and accept the 
 Since version 1.5.0, Git supports aliases executing non-git commands, by prefixing the value with "!":
 
 == Calling "gitk" ==
-Since <i>gitk</i> does not follow the common form <i>git-<name></i>, and is no builtin either, you have to use the prefix "!" to call <i>gitk</i> from an alias:
+Since ''gitk'' does not follow the common form ''git-<name>'', and is no builtin either, you have to use the prefix "!" to call ''gitk'' from an alias:
 
 <pre><nowiki>
 [alias]
@@ -95,7 +95,7 @@ It makes use of the fact that (currently, as of git 1.5.6.1) non-git alias are e
 [alias]
         serve = daemon --reuseaddr --verbose  --base-path=. --export-all ./.git
 </nowiki></pre>
-works only when called from the top-level dir. In any case, you can connect simply by <i>git ls-remote git://127.0.0.1/</i> etc.
+works only when called from the top-level dir. In any case, you can connect simply by ''git ls-remote git://127.0.0.1/'' etc.
 
 == Prune all your stale remote branches ==
 There's no way to tell <code><nowiki>git remote update</nowiki></code> to prune stale branches, and <code><nowiki>git remote prune</nowiki></code> does not understand <code><nowiki>--all</nowiki></code>. So here is an alias to do the job:
@@ -114,7 +114,7 @@ Starting with version 1.5.3, git supports appending the arguments to commands pr
 
 The final dash is so that arguments start with $1, not with $0.
 
-<i>NOTE: later on the page presents a nice trick using a shell function instead of </i>sh -c<i>.  Most aliases could be converted to use that style.</i>
+''NOTE: later on the page presents a nice trick using a shell function instead of ''sh -c''.  Most aliases could be converted to use that style.''
 
 == Spelunking of the project's history ==
 Here are two aliases suggested on the mailing list by Junio Hamano:
@@ -133,17 +133,17 @@ When debugging builtins, you often use gdb to analyze the runtime state.  Howeve
 [alias]
         debug = !GIT_PAGER= gdb --args git
 </nowiki></pre>
-Suppose you want to debug <i>git log HEAD..next</i>, you can call <i>gdb</i> by <i>git debug log HEAD..next</i> now.
+Suppose you want to debug ''git log HEAD..next'', you can call ''gdb'' by ''git debug log HEAD..next'' now.
 
 == Calling "interdiff" between commits ==
-If upstream applied a slightly modified patch, and you want to see the modifications, you should use the program <i>interdiff</i> of the <b>patchutils</b> package. Then you can add the alias <i>intercommit</i>:
+If upstream applied a slightly modified patch, and you want to see the modifications, you should use the program ''interdiff'' of the ''patchutils'' package. Then you can add the alias ''intercommit'':
 
 <pre><nowiki>
 [alias]
         intercommit = !sh -c 'git show "$1" > .git/commit1 && git show "$2" > .git/commit2 && interdiff .git/commit[12] | less -FRS' -
 </nowiki></pre>
 
-This accept two commits, typically the first coming from upstream (e.g. <i>origin/master</i>) and the second coming from your own topic branch.
+This accept two commits, typically the first coming from upstream (e.g. ''origin/master'') and the second coming from your own topic branch.
 
 = Collection of aliases by Git users =
 Here is a collection of some Git users' aliases. If you know a simpler way to achieve the same, please add some notes.
@@ -156,7 +156,7 @@ $ git config alias.funcdiff '!sh -c "git show \"\$1:\$3\" | sed -n \"/^[^ \t].*\
         git show \"\$2:\$3\" | sed -n \"/^[^ \t].*\$4(/,/^}/p\" > .tmp2 &&
         git diff --no-index .tmp1 .tmp2"' -
 </nowiki></pre>
-The idea is to create two temporary files which contain only the function, and call <i>git diff</i> on them.  Use this alias this way: <i>git funcdiff <old-rev> <new-rev> <path> <function></i>.
+The idea is to create two temporary files which contain only the function, and call ''git diff'' on them.  Use this alias this way: ''git funcdiff <old-rev> <new-rev> <path> <function>''.
 
 == Editing/adding conflicted files ==
 You get a lot of merge conflicts and want to quickly solve them using an editor and then add the conflicted files. Try this:
@@ -230,15 +230,15 @@ $ git alias new_alias original_command
 </nowiki></pre>
 
 == Sending multiple messages from a single file ==
-This can be useful to use send-email on the output of <i>git format-patch --stdout</i>
+This can be useful to use send-email on the output of ''git format-patch --stdout''
 
 <pre><nowiki>
 [alias]
         send-mbox = "!bash -c 'eval f=\\$$#; eval set -- `seq -f\"\\$%.0f\" 1 $(($#-1))`; mkdir .mboxsplit || exit; trap \"st=\\$?; rm -rf .mboxsplit; exit \\$?\" 0 INT TERM; if last=`git mailsplit -d4 -o.mboxsplit -b -- \"$f\"`; then echo Found $last messages in \"$f\"; git send-email \"$@\" .mboxsplit; fi' -"</nowiki></pre>
 
-Most of the complication is because the last argument must be passed to <i>git mailsplit</i>, while the others must be passed to <i>git send-email</i>.
+Most of the complication is because the last argument must be passed to ''git mailsplit'', while the others must be passed to ''git send-email''.
 
 ----
-[[Category:GitDocumentation]]
+[[Category::GitDocumentation]]
 
 __NOTOC__
