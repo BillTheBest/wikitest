@@ -43,7 +43,7 @@ $ git svn rebase
 </nowiki></pre>
 But that will only work that once! You can use the "General Case" above several times, though.
 
-<b>Note</b>: I was not able to find much documentation for the <code><nowiki>--rewrite-root</nowiki></code> option, except what little is found in <code><nowiki>man git-svn</nowiki></code>. However, in <code><nowiki>man git-svn</nowiki></code> under <code><nowiki>svn-remote.<name>.rewriteRoot</nowiki></code> it says:
+''Note'': I was not able to find much documentation for the <code><nowiki>--rewrite-root</nowiki></code> option, except what little is found in <code><nowiki>man git-svn</nowiki></code>. However, in <code><nowiki>man git-svn</nowiki></code> under <code><nowiki>svn-remote.<name>.rewriteRoot</nowiki></code> it says:
 
 <pre><nowiki>
 these settings should never be changed once they are set
@@ -51,6 +51,6 @@ these settings should never be changed once they are set
 Clearly, here I change the rewriteRoot option in contradition with <code><nowiki>man git-svn</nowiki></code>. So use at your own risk! :)
 
 ----
-* [[Category:GitDocumentation]]
+* [[Category::GitDocumentation]]
 
 __NOTOC__
