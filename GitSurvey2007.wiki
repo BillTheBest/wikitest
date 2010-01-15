@@ -5463,7 +5463,7 @@ Suggestions and comments about this survey:
 
 * The survey asks about new features that are not in a stable version of git yet. git-stash comes to mind. This is silly. Not everybody will track your development branch. I certainly don't. I don't for other SCMs I use either.
 
- ''(I tried to put only features which are in released, i.e. numbered, version. [http://www.kernel.org/pub/software/scm/git/docs/git-stash.html git-stash] is in 1.5.3, see [http://www.kernel.org/pub/software/scm/git/docs/RelNotes-1.5.3.txt Documentation/[[RelNotes]-1.5.3.txt]])''
+ ''(I tried to put only features which are in released, i.e. numbered, version. [http://www.kernel.org/pub/software/scm/git/docs/git-stash.html git-stash] is in 1.5.3, see [http://www.kernel.org/pub/software/scm/git/docs/RelNotes-1.5.3.txt Documentation/RelNotes-1.5.3.txt])''
 
 * Regarding Q19 (How do you obtain GIT?). I actually use all three forms on different systems.
 ** Mac: pull from MacPorts
