@@ -166,6 +166,6 @@ git log --all --pretty=format:  --name-only | sort -u
 You can then run this list through `| grep <pattern>` to search for old file names.
 
 ----
-[[CategoryGitDocumentation]]
+[[Category:GitDocumentation]]
 
 __NOTOC__
