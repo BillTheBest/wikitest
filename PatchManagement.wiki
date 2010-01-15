@@ -10,21 +10,21 @@ This page is meant to collect those ideas found in all existing patch-management
 
 == Standalone ==
 
-[[http://savannah.nongnu.org/projects/quilt|Quilt]] is probably the most used patch-management tool that not depending on a particular VCS.  It is the inspiration of most patch-management tools mentionned in this page.
+[http://savannah.nongnu.org/projects/quilt Quilt] is probably the most used patch-management tool that not depending on a particular VCS.  It is the inspiration of most patch-management tools mentionned in this page.
 
-[[http://darcs.net/|Darcs]] is a patch-centered VCS.
+[http://darcs.net/ Darcs] is a patch-centered VCS.
 
 == Layers above GIT ==
 
-[[http://www.procode.org/stgit/|StGIT]] is at this date the most advanced patch-management tool built on GIT.
+[http://www.procode.org/stgit/ StGIT] is at this date the most advanced patch-management tool built on GIT.
 
-[[http://www.spearce.org/category/projects/scm/pg/|Pg]] is a prototype tool whose latest version (0.1.7) experiments with the tracking of patch history.
+[http://www.spearce.org/category/projects/scm/pg/ Pg] is a prototype tool whose latest version (0.1.7) experiments with the tracking of patch history.
 
-[[http://www.kernel.org/git/?p=linux/kernel/git/jsipek/guilt.git;a=summary|guilt]] (formerly [[http://www.kernel.org/git/?p=linux/kernel/git/jsipek/gq.git;a=summary|gq]]) also emphasizes on the tracking of patch history, but in another way.
+[http://www.kernel.org/git/?p=linux/kernel/git/jsipek/guilt.git;a=summary guilt] (formerly [http://www.kernel.org/git/?p=linux/kernel/git/jsipek/gq.git;a=summary gq]) also emphasizes on the tracking of patch history, but in another way.
 
 == Layers above other VCS ==
 
-[[http://www.selenic.com/mercurial/wiki/index.cgi/MqExtension|Mq]] extension to Mercurial.
+[http://www.selenic.com/mercurial/wiki/index.cgi/MqExtension Mq] extension to Mercurial.
 
 = Typical workflows needing patch management =
 
@@ -61,6 +61,6 @@ The approach in pg 0.1.7 of using merge commits, while allowing to track the ful
 Todo
 
 ----
-[[CategoryGitDocumentation]]
+[[Category:GitDocumentation]]
 
 __NOTOC__
