@@ -1,6 +1,6 @@
 See also [[WhatIsTheIndex]] and [[IndexCommandQuickref]]
 
-The <b>index file</b>, sometimes just referred to as the <b>index</b>, stores
+The ''index file'', sometimes just referred to as the ''index'', stores
 information about the current working tree. If for example you add a file, it
 will first be recorded in the index file so that later, when you do a commit,
 git will know that the file should be added. This method of recording
@@ -19,7 +19,7 @@ While the index file is an essential part of how the low-level content tracking
 works, it can in many circumstances be ignored by the user, since the SCM
 interface will take care of updating the index file. Additionally, understanding
 how the index file affects the different SCM operations may often be hard for new
-users. Thus, [[Cogito]] chooses to <i>hide</i> the index file completely in order to
+users. Thus, [[Cogito]] chooses to ''hide'' the index file completely in order to
 improve usability.
 
 = Examples =
@@ -37,7 +37,7 @@ an example, it lets you record an intermediate state whereby you will be able
 to diff against this particular state instead of the last commit.
 
 ----
-[[Category:GitDocumentation]]
-[[Category:Glossary]]
+[[Category::GitDocumentation]]
+[[Category::Glossary]]
 
 __NOTOC__
