@@ -92,6 +92,6 @@ Low-level command:
 <code><nowiki>git diff-index --cached <tree-ish></nowiki></code>
 
 ----
-[[Category:GitDocumentation]]
+[[Category::GitDocumentation]]
 
 __NOTOC__
