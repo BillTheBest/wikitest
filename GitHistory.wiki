@@ -7,10 +7,10 @@ __TOC__
 
 [[Linus Torvalds]] wrote at Fri, 5 May 2006, on git mailing list, in [[http://permalink.gmane.org/gmane.comp.version-control.git/19620|Re: [ANNOUNCE] Git wiki]]:
 
-On Fri, 5 May 2006, Petr Baudis wrote:<<BR>>
-> <<BR>>
-> It's a philosophical question here, but I'd say that [[Git]] is much closer<<BR>>
-> to [[Monotone]] than to any other version control system<<BR>>
+On Fri, 5 May 2006, Petr Baudis wrote:<BR>
+> <BR>
+> It's a philosophical question here, but I'd say that [[Git]] is much closer<BR>
+> to [[Monotone]] than to any other version control system<BR>
 
 Some historical background..
 
