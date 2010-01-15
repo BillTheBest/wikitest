@@ -1,17 +1,17 @@
 = Old Egit Page =
 
-<b>Please note that this page is kept for historic purposes. For current information about EGit, please see the new homepage at [[http://www.eclipse.org/egit/]]</b>
+''Please note that this page is kept for historic purposes. For current information about EGit, please see the new homepage at [[http://www.eclipse.org/egit/]]''
 
-Java GIT/Eclipse GIT (by Shawn Pearce) is a Java GIT library and plugin for [[http://www.eclipse.org/|Eclipse IDE]].
+Java GIT/Eclipse GIT (by Shawn Pearce) is a Java GIT library and plugin for [http://www.eclipse.org/ Eclipse IDE].
 
-The <b>old</b> Eclipse update site for the plugin is (Incubation) <s>[[http://www.jgit.org/updates]]</s>
+The ''old'' Eclipse update site for the plugin is (Incubation) <s>[[http://www.jgit.org/updates]]</s>
 
 Roadmap of features: [[EclipsePluginWishlist]]
 
 = News =
 
 2009-09-16 JGit got the approval of the Eclipse board to be hosted at eclipse.org under EDL license.
-Hence JGit will also get moved to Eclipse. Find the EGit mailing list at [[http://dev.eclipse.org/mhonarc/lists/egit-dev/|Eclipse]].
+Hence JGit will also get moved to Eclipse. Find the EGit mailing list at [http://dev.eclipse.org/mhonarc/lists/egit-dev/ Eclipse].
 
 2009-05-07 EGit is now an official Eclipse Technology Project. Some time will pass
 before the project actually gets moved to Eclipse premises.
@@ -37,10 +37,10 @@ A copy of the 0.3.1 announcement can be found at http://marc.info/?l=git&m=12044
 
 Some ways to keep informed about Egit development.
 
-* <s>[[http://repo.or.cz/w/egit.git?a=log|Revision log]]</s>
-* [[http://git.or.cz/gitwiki/GitCommunity|Git Mailing lists, IRC, newsgroups]]
+* <s>[http://repo.or.cz/w/egit.git?a=log Revision log]</s>
+* [http://git.or.cz/gitwiki/GitCommunity Git Mailing lists, IRC, newsgroups]
 = Links =
-* <s>[[http://repo.or.cz/w/egit.git|gitweb]]</s> (clone)
+* <s>[http://repo.or.cz/w/egit.git gitweb]</s> (clone)
 * Get the source: git clone <s>git://repo.or.cz/egit.git</s>
 = Features =
 * Compare revisions
@@ -56,13 +56,13 @@ Some ways to keep informed about Egit development.
 * See [[EclipsePluginScreenshots]].
 = FAQ =
 * Q: How do you tie the plugin to a project or create a project by cloning a repository?
-** A: EGit provides an Import Wizard.  From File->Import, select Git/'Git Repository'.  This will allow you to clone the repository within Eclipse.  There are more details in the [[http://github.com/guides/using-the-egit-eclipse-plugin-with-github|Git plugin for Eclipse (EGit) guide on GitHub]].
+** A: EGit provides an Import Wizard.  From File->Import, select Git/'Git Repository'.  This will allow you to clone the repository within Eclipse.  There are more details in the [http://github.com/guides/using-the-egit-eclipse-plugin-with-github Git plugin for Eclipse (EGit) guide on GitHub].
 ** - A: or Use Git (THE Git) to create or clone your repo. Select the project in the navigator and go to the context menu's Team item and below it you will find "Share Project". Select it and the rest is self explanatory.
 * Q: How do I build and install the plugin?
 ** A: See the README and INSTALL documents in the egit repository.
-  - A: or see a [[http://cho.hapgoods.com/wordpress/?p=159|blog entry describing building and installing the EGit plugin]]
+  - A: or see a [http://cho.hapgoods.com/wordpress/?p=159 blog entry describing building and installing the EGit plugin]
 * Q: Is there an update site so I can easily install the plugin (without building it)?
-** A: Point the update manager to the <s>[[http://www.jgit.org/updates|Git plugin for Eclipse (EGit) update site]]</s>. This is the easiest way if you're not interested in contributing to plugin development.
+** A: Point the update manager to the <s>[http://www.jgit.org/updates Git plugin for Eclipse (EGit) update site]</s>. This is the easiest way if you're not interested in contributing to plugin development.
 * Q: Is the project active?
 ** A: <s>Depends on what is meant by active. Admitted the progress is slow, mostly because there are very few people involved so far, but the project is certainly not dead (as of February 2008).</s>
 * Q: Will there be support for Eclipse 3.4 Ganymede anytime soon?
