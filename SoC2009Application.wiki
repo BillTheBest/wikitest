@@ -16,7 +16,7 @@ Git Development Community
 
 '' Home Page URL ''
 
-[[http://git-scm.com/]]
+[http://git-scm.com/ http://git-scm.com/]
 
 '' Public Email ''
 
@@ -127,7 +127,7 @@ GPL (GNU Public License), version 2
 
 '' What is the URL for your ideas page? ''
 
-[[http://git.or.cz/gitwiki/SoC2009Ideas]]
+[http://git.or.cz/gitwiki/SoC2009Ideas http://git.or.cz/gitwiki/SoC2009Ideas]
 
 '' What is the main development mailing list for your group? ''
 
@@ -137,7 +137,7 @@ git@vger.kernel.org
 
 ''(note: they mean students here, but its Melange... so...)''
 
-[[http://git.or.cz/gitwiki/SoC2008Template]]
+[http://git.or.cz/gitwiki/SoC2008Template http://git.or.cz/gitwiki/SoC2008Template]
 
 '' What is your plan for dealing with disappearing contributors? ''
 
