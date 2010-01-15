@@ -6,17 +6,17 @@ From the [[AsciiDoc]] homepage
     articles, books and UNIX man pages. [[AsciiDoc]] files can be
     translated to HTML and DocBook markups using the asciidoc(1) command.
 
-Its output formats include PDF, <b>XHTML</b>, HTML Help, <b>manpage</b> or plain text
+Its output formats include PDF, ''XHTML'', HTML Help, ''manpage'' or plain text
 (the formats used by [[Git]] are emphasized).
 
 Much of the [[GitDocumentation]] is written in [[AsciiDoc]].
 
 = Project information =
 
-* <b>Author</b>: Stuart Rackham <srackham@methods.co.nz>
-* <b>Homepage</b>: http://www.methods.co.nz/asciidoc/
+* ''Author'': Stuart Rackham <srackham@methods.co.nz>
+* ''Homepage'': http://www.methods.co.nz/asciidoc/
 
 ----
-[[CategoryTools]]
+[[Category:Tools]]
 
 __NOTOC__
