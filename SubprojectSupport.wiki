@@ -9,11 +9,11 @@ Such flexibility is an implicit feature of centralized SCMs, but is much more di
 == Status ==
 (as of Sep 2, 2007)
 
-"[[http://www.kernel.org/pub/software/scm/git/docs/git-submodule.html|git submodule]]" support added in 1.5.3 (see also [[GitSubmoduleTutorial]])
+"[http://www.kernel.org/pub/software/scm/git/docs/git-submodule.html git submodule]" support added in 1.5.3 (see also [[GitSubmoduleTutorial]])
 
 (as of May 3, 2007)
 
-Plumbing code is in place since 1.5.2-rc0 [[http://thread.gmane.org/gmane.comp.version-control.git/44106|Corresponding thread on Git mailing list]]
+Plumbing code is in place since 1.5.2-rc0 [http://thread.gmane.org/gmane.comp.version-control.git/44106 Corresponding thread on Git mailing list]
 
 (as of March 26, 2007)
 
@@ -53,12 +53,12 @@ Most likely, no users will ever want to check out the entire superproject (since
 There is an implicit assumption in previous use cases that a subproject is contained in a directory in the superproject and not mixed with other files from the superproject or other subprojects. Furthermore, the superproject subdirectory contains the subproject's root directory. People have discussed allowing more flexibility, but not in particular detail. In general, using symlinks into subprojects takes care of all of the cases that don't also require other features that git doesn't presently have.
 
 == References ==
-* <i>Obsolete</i>: [[http://git.kernel.org/?p=git/git.git;a=blob;f=Subpro.txt;h=713b72eea20e567622e2d29d8d6ad258970ec103;hb=874a2aa6053e778a22c985323c69311cfffb65a7|Notes on Subproject Support]] by Junio C Hamano in [[http://www.kernel.org/git/?p=git/git.git;a=tree;h=todo;hb=todo|todo]] branch in git repository. This idea was abandoned.
-* [[http://git.admingilde.org/tali/git.git/module2|prototype implementation]] by Martin Waitz
-* [[http://news.gmane.org/find-root.php?message_id=<200612200901.30584.andyparkins@gmail.com>|http://news.gmane.org/find-root.php?message_id=%3c200612200901.30584.andyparkins%40gmail.com%3e]] A very basic patch to the pre and post commit hooks to track sub-repositories.  No merge, clone, fetch, or anything else support - just notes the latest revision of the submodule in the supermodule.  Read the whole thread to get the fixes to the patch.
+* ''Obsolete'': [http://git.kernel.org/?p=git/git.git;a=blob;f=Subpro.txt;h=713b72eea20e567622e2d29d8d6ad258970ec103;hb=874a2aa6053e778a22c985323c69311cfffb65a7 Notes on Subproject Support] by Junio C Hamano in [http://www.kernel.org/git/?p=git/git.git;a=tree;h=todo;hb=todo todo] branch in git repository. This idea was abandoned.
+* [http://git.admingilde.org/tali/git.git/module2 prototype implementation] by Martin Waitz
+* [http://news.gmane.org/find-root.php?message_id=<200612200901.30584.andyparkins@gmail.com> http://news.gmane.org/find-root.php?message_id=%3c200612200901.30584.andyparkins%40gmail.com%3e] A very basic patch to the pre and post commit hooks to track sub-repositories.  No merge, clone, fetch, or anything else support - just notes the latest revision of the submodule in the supermodule.  Read the whole thread to get the fixes to the patch.
 * http://marc.theaimsgroup.com/?l=git&m=115196739921363&w=2
 
 ----
-[[CategoryGitDocumentation]]
+[[Category:GitDocumentation]]
 
 __NOTOC__
