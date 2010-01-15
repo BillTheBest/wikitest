@@ -11,7 +11,7 @@
 * [[TroubleShooting]]
 
 == Documentation on this Wiki ==
-All documentation residing on this wiki is put in the [[CategoryGitDocumentation GitDocumentation category]]
+All documentation residing on this wiki is put in the [[Category:GitDocumentation GitDocumentation category]]
 
 * Git glossary ([[GitGlossary GitWiki version]], [http://www.kernel.org/pub/software/scm/git/docs/gitglossary.html HTML version], [http://www.kernel.org/git/?p=git/git.git;a=blob;hb=HEAD;f=Documentation/glossary.txt source via gitweb])
 * Git [[QuickStart]]
@@ -98,6 +98,6 @@ If you wish that something were documented better (or at all), or would like to 
 ----
 ([http://git.or.cz/#documentation Documentation] )
 
-[[Category:GitDocumentation]]
+[[Category::GitDocumentation]]
 
 __NOTOC__
