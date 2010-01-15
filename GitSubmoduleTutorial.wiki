@@ -1,5 +1,5 @@
 = Git Submodule Tutorial =
-Submodule support has been available in Git since version 1.5.3. This tutorial explains how to create and publish a repository with four submodules using the [[http://www.kernel.org/pub/software/scm/git/docs/git-submodule.html|git-submodule(1)]] command.
+Submodule support has been available in Git since version 1.5.3. This tutorial explains how to create and publish a repository with four submodules using the [http://www.kernel.org/pub/software/scm/git/docs/git-submodule.html git-submodule(1)] command.
 
 Submodules maintain their own identity; the submodule support just stores the submodule repository location and commit ID, so other developers who clone the superproject can easily clone all the submodules at the same revision.
 
@@ -233,9 +233,9 @@ d266b9873ad50488163457f025db7cdd9683d88b HEAD@{2}: checkout: moving to d266b9873
 == Removal ==
 To remove a submodule you need to:
 
-# Delete the relevant line from the <i>.gitmodules</i> file.
-# Delete the relevant section from <i>.git/config</i>.
-# Run <i>git rm --cached path_to_submodule</i> (no trailing slash).
+# Delete the relevant line from the ''.gitmodules'' file.
+# Delete the relevant section from ''.git/config''.
+# Run ''git rm --cached path_to_submodule'' (no trailing slash).
 # Commit and delete the now untracked submodule files.
 
 __NOTOC__
