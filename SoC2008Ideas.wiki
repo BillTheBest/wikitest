@@ -1,8 +1,8 @@
 = Welcome! =
 
-<b>Summer of code projects [[SoC2008Projects|announced for 2008]].</b>
+''Summer of code projects [[SoC2008Projects|announced for 2008]].''
 
-Git has been accepted as a mentoring organization for the 2008 edition of [[http://code.google.com/soc/|Google Summer of Code]].  This is the second year that the Git community has participated, and we're very excited about the possibilities that this year's GSoC students will bring.
+Git has been accepted as a mentoring organization for the 2008 edition of [http://code.google.com/soc/ Google Summer of Code].  This is the second year that the Git community has participated, and we're very excited about the possibilities that this year's GSoC students will bring.
 
 This page contains project ideas culled from the Git user and developer community.  You can get started by reading some project descriptions, and the mailing list thread(s) that spawned them.  Also consider joining the developer mailing list, or finding us on IRC.  Details can be found in [[GitCommunity]].
 
@@ -10,19 +10,19 @@ Don't like a project you see here?  Toss your own idea out there, it may be just
 
 If you are interested, you can also find projects which got accepted last year for Summer of Code 2007 at [[SoC2007Projects]] wiki page.
 
-<<<!-- ! TOC here -->(2)>>
+__TOC__
 
 = General Requirements =
 All projects have the following basic requirements:
 
 * Unless otherwise stated, projects will require programming in C, as nearly all of Git is written in C, for maximum speed and portability.
-* All materials must be released under the [[http://www.gnu.org/copyleft/gpl.html|GNU General Public License (GPL)]], version 2.
+* All materials must be released under the [http://www.gnu.org/copyleft/gpl.html GNU General Public License (GPL)], version 2.
 * Individual students shall retain copyright on their works.
 * Projects must be tracked and managed in Git, and published on [[http://repo.or.cz]].
 * Weekly project status reports should be sent to the project's mentors.  Each status report should outline what was accomplished that week, any issues that prevented that week's goals from being completed, and your goals for the next week.  This will help you to break your project down into manageable chunks, and will also help the project's mentors to better support your efforts.
 
 Interested students are encouraged to read the
-[[http://code.google.com/p/google-summer-of-code/wiki/AdviceforStudents|Advice for GSoC Students Page]],
+[http://code.google.com/p/google-summer-of-code/wiki/AdviceforStudents Advice for GSoC Students Page],
 as it has excellent suggestions that might help you to pick a
 project and shape your proposal.
 
@@ -41,7 +41,7 @@ is a great deal of interest in these projects from within the
 user community.
 
 Students can apply for the program at the
-[[http://code.google.com/soc/|Google Summer of Code website]].
+[http://code.google.com/soc/ Google Summer of Code website].
 Please consider reviewing our [[SoC2008Template]] and answering
 its questions as part of your application.
 
@@ -50,7 +50,7 @@ its questions as part of your application.
 A collection of smaller projects.  Pick one or two and get introduced
 to the open source community!
 
-<<Anchor(builtin-merge)>>
+{{anchor|builtin-merge}}
 == Make git-merge and helpers Builtins ==
 
 We have generally found that the C version of a tool is more portable
@@ -59,10 +59,10 @@ and easier to maintain across systems, not to mention faster.
 A lot of scripts have been converted already, but "merge" is the
 big remaining chunk.
 
-<b>Goal:</b> Replace git-merge and its helpers with C versions.
-<<BR>><b>Language:</b> C
-<<BR>><b>Mentor:</b> Johannes Schindelin (johannes.schindelin@gmx.de)
-<<BR>><b>Suggested by:</b> Johannes Schindelin [[http://article.gmane.org/gmane.comp.version-control.git/40801|on gmane]]
+''Goal:'' Replace git-merge and its helpers with C versions.
+<<BR>>''Language:'' C
+<<BR>>''Mentor:'' Johannes Schindelin (johannes.schindelin@gmx.de)
+<<BR>>''Suggested by:'' Johannes Schindelin [http://article.gmane.org/gmane.comp.version-control.git/40801 on gmane]
 
 == Better Windows support ==
 
@@ -78,32 +78,32 @@ main reason scripts are slow (e.g. git-svn).
 NOTE: A good knowledge of Windows performance tuning, and probably
 of the Windows API in general, is required.
 
-<b>Goal:</b> Make Git on Windows perform faster.
-<<BR>><b>Language:</b> C
-<<BR>><b>Mentor:</b>  Johannes Schindelin (johannes.schindelin@gmx.de)
-<<BR>><b>Suggested by:</b> Johannes on this Wiki page
+''Goal:'' Make Git on Windows perform faster.
+<<BR>>''Language:'' C
+<<BR>>''Mentor:''  Johannes Schindelin (johannes.schindelin@gmx.de)
+<<BR>>''Suggested by:'' Johannes on this Wiki page
 
 == Apply sparse To Fix Errors ==
 
-Teach [[http://kernel.org/pub/linux/kernel/people/josh/sparse/|sparse]]
+Teach [http://kernel.org/pub/linux/kernel/people/josh/sparse/ sparse]
 how to fix common errors, and then use sparse to actually fix them.
 Perhaps more of a sparse project than a Git project.  The community
 just wants to see Git improved, if sparse is improved at the same
 time, double bonus points!  :-)
 
-<b>Goal:</b> Fix existing errors in Git.
-<<BR>><b>Language:</b> C
-<<BR>><b>Mentor:</b>  Johannes Schindelin (johannes.schindelin@gmx.de)
-<<BR>><b>Suggested by:</b> Johannes Schindelin [[http://article.gmane.org/gmane.comp.version-control.git/40801|on gmane]]
+''Goal:'' Fix existing errors in Git.
+<<BR>>''Language:'' C
+<<BR>>''Mentor:''  Johannes Schindelin (johannes.schindelin@gmx.de)
+<<BR>>''Suggested by:'' Johannes Schindelin [http://article.gmane.org/gmane.comp.version-control.git/40801 on gmane]
 
 == Restartable Clone ==
 
 When cloning a large repository (such as KDE, Open Office, Linux kernel) there is currently no way to restart an interrupted clone.  It may take considerable time for a user on the end of a small pipe to download the data, and if the clone is interrupted in the middle the user currently needs to start over from the beginning and try again.  For some users this may make it impossible to clone a large repository.
 
-<b>Goal:</b> Allow git-clone to automatically resume a previously failed download over the native git:// protocol.
-<<BR>><b>Language:</b> C
-<<BR>><b>Mentor:</b> Shawn Pearce (gsoc@spearce.org)
-<<BR>><b>Suggested by:</b> Shawn Pearce [[http://article.gmane.org/gmane.comp.version-control.git/55298|on gmane]]
+''Goal:'' Allow git-clone to automatically resume a previously failed download over the native git:// protocol.
+<<BR>>''Language:'' C
+<<BR>>''Mentor:'' Shawn Pearce (gsoc@spearce.org)
+<<BR>>''Suggested by:'' Shawn Pearce [http://article.gmane.org/gmane.comp.version-control.git/55298 on gmane]
 
 == Lazy clone / remote alternates ==
 
@@ -112,9 +112,9 @@ based object server as needed, rather than having them all local.
 This would make Git more approachable for very large projects,
 especially in a more corporate LAN-user setting.
 
-<b>Goal:</b> A working lazy clone prototype implementation that could be considered for inclusion, in a nice series of commits (separate  branch/fork)
-<<BR>><b>Language:</b> C
-<<BR>><b>Suggested mentor:</b> Jan Holesovsky, who submitted proof-of-concept patch for lazy clone
+''Goal:'' A working lazy clone prototype implementation that could be considered for inclusion, in a nice series of commits (separate  branch/fork)
+<<BR>>''Language:'' C
+<<BR>>''Suggested mentor:'' Jan Holesovsky, who submitted proof-of-concept patch for lazy clone
 
 == Partial (subtree) checkout, or its generalization: sparse checkout ==
 
@@ -124,9 +124,9 @@ workflows may be better suited to this type of usage than using
 submodules. Optionally should include partial clone (not needed
 objects not in repository).
 
-<b>Goal:</b> A working partial checkout prototype implementation, with technical documentation.
-<<BR>><b>Language:</b> C
-<<BR>><b>Suggested mentors:</b>
+''Goal:'' A working partial checkout prototype implementation, with technical documentation.
+<<BR>>''Language:'' C
+<<BR>>''Suggested mentors:''
 * gitzilla (sent proposal),
 * Nguyen Thai Ngoc Duy (pclouds), proposed to implements it
 
@@ -140,9 +140,9 @@ superproject which contain/do-not-contain the submodule, as the
 submodule working directory can be safely created/deleted at will
 and its objects are safe somewhere within $GIT_DIR/modules.
 
-<b>Goal:</b> Rework git-submodule, keeping submodule repositories safe under $GIT_DIR.
-<<BR>><b>Language:</b> C, Bourne shell
-<<BR>><b>See:</b> gitster's recent remarks on #git [[http://article.gmane.org/gmane.comp.version-control.git/76136|on gmane]].
+''Goal:'' Rework git-submodule, keeping submodule repositories safe under $GIT_DIR.
+<<BR>>''Language:'' C, Bourne shell
+<<BR>>''See:'' gitster's recent remarks on #git [http://article.gmane.org/gmane.comp.version-control.git/76136 on gmane].
 
 == Teach git-apply the 3-way merge fallback git-am knows ==
 
@@ -158,11 +158,11 @@ tree dance directly inside of git-apply, as it can benefit say
 the git-sequence's "apply" command, speed up git-am processing by
 forking less, etc.
 
-<b>Goal:</b> Apply a patch that git-apply rejects today, but that "git am -3" can apply cleanly.
-<<BR>><b>Language:</b> C
-<<BR>><b>See:</b> gitster's recent remarks on #git [[http://article.gmane.org/gmane.comp.version-control.git/76136|on gmane]].
+''Goal:'' Apply a patch that git-apply rejects today, but that "git am -3" can apply cleanly.
+<<BR>>''Language:'' C
+<<BR>>''See:'' gitster's recent remarks on #git [http://article.gmane.org/gmane.comp.version-control.git/76136 on gmane].
 
-<<Anchor(gitweb-caching)>>
+{{anchor|gitweb-caching}}
 == Gitweb caching ==
 
 Implementing very smart caching in gitweb, to avoid the thundering
@@ -174,14 +174,14 @@ If-Modified-Since: and If-None-Match: requests, cheaply.
 Perhaps becoming the gitweb maintainer could come of it, or at
 least the gitweb admin for kernel.org (sorely needed).
 
-<b>Goal:</b> At minimum, port kernel.org's caching to mainline (git's) gitweb
-<<BR>><b>Language:</b> Perl, HTML, perhaps JavaScript
-<<BR>><b>Mentors:</b>
+''Goal:'' At minimum, port kernel.org's caching to mainline (git's) gitweb
+<<BR>>''Language:'' Perl, HTML, perhaps JavaScript
+<<BR>>''Mentors:''
 * John 'Warthog9' Hawley (wrote caching for kernel.org's gitweb)
-<b>Co-mentors:</b>
+''Co-mentors:''
 * Petr Baudis (repo.or.cz admin)
 * Jakub Narebski (gitweb contributor)
-<b>Suggested mentors:</b>
+''Suggested mentors:''
 * Lars Hjemli (cgit author, git web interface in C, with caching)
 
 == Git / Subversion Interoperability ==
@@ -195,29 +195,29 @@ There are two potential approaches:
 # git-svnserver
 # write a backend for Subversion
 
-<b>Goal:</b> To be able to access git repository, at minimum read-only, from a Subversion client, at least svn CLI.
-<<BR>><b>Language:</b> Open for proposal.
-<<BR>><b>Suggested mentors:</b>
+''Goal:'' To be able to access git repository, at minimum read-only, from a Subversion client, at least svn CLI.
+<<BR>>''Language:'' Open for proposal.
+<<BR>>''Suggested mentors:''
 * Eric Wong (git-svn author)
 * Matthias Urlichs (git-svnimport author)
 * 
 * Julian Phillips (has a partial python implementation!  at http://git.q42.co.uk/w/git_svn_server.git)
 * Subversion project member t.b.c. as a co-mentor
-<b>Resources:</b> 
+''Resources:'' 
 * Sam Vilains's 'ripper' / 'server' design: http://utsl.gen.nz/git/git-svnserver.txt,
-** writing the ripper may not be necessary; a tool such as git-svn or the [[http://repo.or.cz/w/svn-all-fast-export.git|svn-all-fast-export]] script may 
+** writing the ripper may not be necessary; a tool such as git-svn or the [http://repo.or.cz/w/svn-all-fast-export.git svn-all-fast-export] script may 
 ** the milestones and hints in the "Server" section are worth reading.
 
 == Better Emacs integration ==
 
 Make git mode for Emacs full featured git GUI, and not only commit tool, following ideas of PCL-CVS... and its limitation. Existing is today git.el, which is very limited in features, and DVC (http://download.gna.org/dvc), which still doesn't take full advantage of Git's capabilities. Merging git.el and DVC would probably be a good start.  Other git GUIs, like git-gui, gitk, qgit, tig could also be inspiration for features.
 
-<b>Goal:</b> Allow creating and switching branches, examining history, merging, fetching etc. from withing Emacs. Should include modes for git config file format and format-patch patches.
-<<BR>><b>Language:</b> Emacs Lisp
-<<BR>><b>Suggested mentors:</b>
+''Goal:'' Allow creating and switching branches, examining history, merging, fetching etc. from withing Emacs. Should include modes for git config file format and format-patch patches.
+<<BR>>''Language:'' Emacs Lisp
+<<BR>>''Suggested mentors:''
 * Alexandre Julliard
 * David Kagedal
-<<BR>><b>Possible Co-mentor:</b>
+<<BR>>''Possible Co-mentor:''
 * Matthieu Moy
 
 = Larger Projects =
@@ -225,20 +225,20 @@ Make git mode for Emacs full featured git GUI, and not only commit tool, followi
 The following projects are probably more suited to the
 junio/senior/graduate students.  Pick one and really make it shine.
 
-<<Anchor([[GitTorrent]])>>
+{{anchor|[[GitTorrent]]}}
 == [[GitTorrent]] ==
 
 This is a P2P method for distributing git repositories, which
 will allow for faster downloads, lower startup overheads, etc.
 For use for sites such as git.kernel.org, repo.or.cz, etc.  Existing partial implementations exist at http://jonas.nitro.dk/gittorrent/libgtp.git/ and http://git.utsl.gen.nz/VCS-Git-Torrent
 
-<b>Goal:</b> to implement the GTP/0.1 standard
-<<BR>><b>Language:</b> Open for proposal.
-<<BR>><b>Suggested mentors:</b>
+''Goal:'' to implement the GTP/0.1 standard
+<<BR>>''Language:'' Open for proposal.
+<<BR>>''Suggested mentors:''
 * Jonas Fonseca (designed the original protocol)
 * Johannes Schindelin (interested party) 
 
-<<Anchor(git-sequencer)>>
+{{anchor|git-sequencer}}
 == Implement git-sequencer ==
 
 git-am, git-rebase, git-rebase -m, and git-rebase -i are all roughly
@@ -254,18 +254,18 @@ Frontends like git-am, git-rebase, etc. can then setup the "todo"
 script and pass it to git-sequencer, which does the actual patch
 application, editing, etc.
 
-<b>Goal:</b> implement a common rebase/am backend.
-<<BR>><b>Language:</b> C
-<<BR>><b>Suggested menors:</b>
+''Goal:'' implement a common rebase/am backend.
+<<BR>>''Language:'' C
+<<BR>>''Suggested menors:''
 * Shawn Pearce (gsoc@spearce.org)
 * Johannes Schindelin (johannes.schindelin@gmx.de)
-<b>Suggested by:</b> Junio C Hamano [[http://kerneltrap.org/mailarchive/git/2008/2/17/886714|on kerneltrap]]
+''Suggested by:'' Junio C Hamano [http://kerneltrap.org/mailarchive/git/2008/2/17/886714 on kerneltrap]
 
-<<Anchor(Eclipse)>>
+{{anchor|Eclipse}}
 == Git Eclipse Plugin ==
 
 Extend the currently-under-development
-[[http://repo.or.cz/w/egit.git/|Eclipse plugin]]
+[http://repo.or.cz/w/egit.git/ Eclipse plugin]
 so that it is actually useful for daily development work.  The plugin
 can currently read a Git repository (but not quite fast enough)
 and can write new history to the repository, but a lot of Eclipse
@@ -276,14 +276,14 @@ Particularly of note is the plugin's missing functionality to push
 changes to another repository, and to merge changes locally.
 
 This was also one of
-[[http://wiki.eclipse.org/index.php/Google_Summer_of_Code_2007_Ideas|Eclipse SoC2007 Ideas]]
-(<i>More work on git support</i>).
+[http://wiki.eclipse.org/index.php/Google_Summer_of_Code_2007_Ideas Eclipse SoC2007 Ideas]
+(''More work on git support'').
 
-<b>Language:</b> Java (Eclipse API, SWT API)
-<<BR>><b>Goal:</b> Push changes over native Git protocol, or merge changes locally, or both!.
-<<BR>><b>Mentor:</b>  Shawn O. Pearce (gsoc@spearce.org)
-<<BR>><b>Suggested by:</b> Jakub Narebski [[http://article.gmane.org/gmane.comp.version-control.git/41031|on gmane]]
-<<BR>><b>See:</b> [[EclipsePluginWishlist]]
+''Language:'' Java (Eclipse API, SWT API)
+<<BR>>''Goal:'' Push changes over native Git protocol, or merge changes locally, or both!.
+<<BR>>''Mentor:''  Shawn O. Pearce (gsoc@spearce.org)
+<<BR>>''Suggested by:'' Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031 on gmane]
+<<BR>>''See:'' [[EclipsePluginWishlist]]
 
 == Implement pack v4/v5 for higher compression ==
 
@@ -299,12 +299,12 @@ code have been modified to support other enhancements.  A student
 with a strong interest in data compression could really get into
 this project and take it to places we have never thought possible.
 
-<b>Goal:</b> Save at least 10% on current packv2 for benchmark
+''Goal:'' Save at least 10% on current packv2 for benchmark
 repositories (linux-2.6, git, mozilla, gcc) and boost runtime ~10%.
-<<BR>><b>Language:</b> C
-<<BR>><b>Suggested mentors:</b>
+<<BR>>''Language:'' C
+<<BR>>''Suggested mentors:''
 * Shawn Pearce (gsoc@spearce.org)
-<<BR>><b>See:</b> [[http://kerneltrap.org/mailarchive/git/2007/2/27/239830|on kerneltrap]] and [[http://article.gmane.org/gmane.comp.version-control.git/43016|the entire "understanding version 4 packs" thread on gmane]]
+<<BR>>''See:'' [http://kerneltrap.org/mailarchive/git/2007/2/27/239830 on kerneltrap] and [http://article.gmane.org/gmane.comp.version-control.git/43016 the entire "understanding version 4 packs" thread on gmane]
 
 == git-cheetah, a TortoiseCVS Lookalike ==
 
@@ -315,10 +315,10 @@ needs a lot of work, to be as helpful as TortoiseCVS.
 And when this work is done, let's enhance the code base to provide
 the same extension to Dolphin, konqueror, Finder, etc
 
-<b>Language:</b> C/COM.
-<<BR>><b>Goal:</b> Have a fully functional TortoiseCVS lookalike for Git.
-<<BR>><b>Mentor:</b> Johannes Schindelin (johannes.schindelin@gmx.de).
-<<BR>><b>Suggested by:</b> Johannes Schindelin
+''Language:'' C/COM.
+<<BR>>''Goal:'' Have a fully functional TortoiseCVS lookalike for Git.
+<<BR>>''Mentor:'' Johannes Schindelin (johannes.schindelin@gmx.de).
+<<BR>>''Suggested by:'' Johannes Schindelin
 
 == "Smart" HTTP based GIT Transport ==
 
@@ -326,10 +326,10 @@ Hosting a publicly available Git repository currently requires a server where a 
 
 Most of what is required for the "smart" Git transport for this project is already implemented by the bundle facilities that Git already supports but changes to the existing bundle code may be necessary. The CGI component should be implemented in in a language that a majority of web site hosting companies permit to be used with their product offerings and should rely the Git suite of programs for most of the repository manipulation.
 
-<b>Language:</b> Perl, C, shell, other
-<<BR>><b>Goal:</b> Server (CGI) and client that supports fetch & push operation for both authenticated & anonymous clients.
-<<BR>><b>Mentor:</b> 
-<<BR>><b>Suggested by:</b> Gitzilla
+''Language:'' Perl, C, shell, other
+<<BR>>''Goal:'' Server (CGI) and client that supports fetch & push operation for both authenticated & anonymous clients.
+<<BR>>''Mentor:'' 
+<<BR>>''Suggested by:'' Gitzilla
 
 = Projects So Large Your Head Will Spin =
 
@@ -339,7 +339,7 @@ brain spinning.
 
 == Continue "libification" work ==
 
-<i>Description copied from [[SoC2007Ideas]]:</i>
+''Description copied from [[SoC2007Ideas]]:''
 
 Make more parts of libgit.a reentrant by removing static variables,
 avoid dying e.g. when malloc() fails, etc. Most of Git was
@@ -350,10 +350,10 @@ longer-running server such as an Apache module. Existing code must
 be modified to return errors rather than terminating the process,
 and memory leaks need to be plugged.
 
-<b>Goal:</b> In addition to the general goal of being able to link libgit.a into external programs that are not exclusively git utilities and have the git code be usable as a well-behaved library, one specific goal given on the [[SoC2007Ideas]] page was: Usable Perl binding that a future gitweb.cgi could take advantage of, rather than repeatedly forking Git processes.
-<<BR>><b>Language:</b> C
-<<BR>><b>See:</b> The existing work on [[http://repo.or.cz/w/git/libgit-gsoc.git|libgit-thin]] may be relevant; gitster's recent remarks on #git [[http://article.gmane.org/gmane.comp.version-control.git/76136|on gmane]].
-<<BR>><b>Suggested mentors:</b>
+''Goal:'' In addition to the general goal of being able to link libgit.a into external programs that are not exclusively git utilities and have the git code be usable as a well-behaved library, one specific goal given on the [[SoC2007Ideas]] page was: Usable Perl binding that a future gitweb.cgi could take advantage of, rather than repeatedly forking Git processes.
+<<BR>>''Language:'' C
+<<BR>>''See:'' The existing work on [http://repo.or.cz/w/git/libgit-gsoc.git libgit-thin] may be relevant; gitster's recent remarks on #git [http://article.gmane.org/gmane.comp.version-control.git/76136 on gmane].
+<<BR>>''Suggested mentors:''
 * Shawn Pearce (gsoc@spearce.org)
 
 = Other Resources =
@@ -361,8 +361,8 @@ and memory leaks need to be plugged.
 * [[SoC2008Projects]]
 
 = Other links =
-* [[http://www.selenic.com/mercurial/wiki/index.cgi/SummerOfCode|Mercurial ideas for GSoC 2008]]
-* [[http://subversion.tigris.org/project_tasks.html|Subversion ideas for Summer of Code]]
-* [[http://subclipse.tigris.org/soc/tasks.html|Subclipse Ideas for Google Summer of Code]]
+* [http://www.selenic.com/mercurial/wiki/index.cgi/SummerOfCode Mercurial ideas for GSoC 2008]
+* [http://subversion.tigris.org/project_tasks.html Subversion ideas for Summer of Code]
+* [http://subclipse.tigris.org/soc/tasks.html Subclipse Ideas for Google Summer of Code]
 
 __NOTOC__
