@@ -82,7 +82,7 @@ Here are few tips for new users, or users that don't like to read the manual:
 * We  reject  kings, presidents,  and  voting.  We  believe in rough consensus and running code. ''(Dave Clark, 1992 IETF meeting)''
 * I've never met a human being who would want to read 17,000 pages of documentation, and if there was, I'd kill him to get him out of the gene pool. ''(Joseph Costello)''
 * The world of technical support is like a reflecting pool. To those who exist outside, it appears to be a deep, mystical place; bottomless, terrifying, foreign. The truth, however, is that the pool is only about three feet deep, and the bottom is grainy silt over sharp, hurty rocks.
-* ''Q:'' How many hackers does it take to screw in a light bulb?<<BR>>''A:'' Huh?...What? Oh, it's dark in here?
+* ''Q:'' How many hackers does it take to screw in a light bulb?<BR>''A:'' Huh?...What? Oh, it's dark in here?
 * "The most exciting phrase to hear in science, the one that heralds new discoveries, is not 'Eureka!' but 'That's funny ...'" ''(Isaac Asimov)''
 * Unix ''*is*'' user-friendly. It is not ignorant-friendly and idiot-friendly.
 * Remember, Murphy was an optimist. ''(Peter van Hooft)''
