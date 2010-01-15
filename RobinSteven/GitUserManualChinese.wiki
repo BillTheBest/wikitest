@@ -2,11 +2,11 @@
 | <tablestyle="width:95%; text-align:center; font-size:2.2em; font-weight:bold; border:hidden">Git 用户手册中文版
 | 
 |}
-* <i>Translator:</i> <b>罗峥嵘 (Robin Steven)</b> <vortune@gmail.com>
-* <i>English Version:</i> http://www.kernel.org/pub/software/scm/git/docs/user-manual.html
+* ''Translator:'' ''罗峥嵘 (Robin Steven)'' <vortune@gmail.com>
+* ''English Version:'' http://www.kernel.org/pub/software/scm/git/docs/user-manual.html
 -----
 
-<<<!-- ! TOC here -->()>>
+__TOC__
 
 = Preface 前言 =
 
@@ -254,25 +254,25 @@ Creating, deleting, and modifying branches is quick and easy; here's a summary o
 
 创建，删除，和更改分支都是很快和容易的；这里是这个命令的摘要：
 
-* <i>git branch</i>
+* ''git branch''
 ** list all branches
 ** 列举所有的分支
-* <i>git branch <branch></i>
+* ''git branch <branch>''
 ** create a new branch named <branch>, referencing the same point in history as the current branch 
 ** 创建一个新的分支，并引用当前分支作为同一历史沿革
-* <i>git branch <branch> <start-point></i>
+* ''git branch <branch> <start-point>''
 ** create a new branch named <branch>, referencing <start-point>, which may be specified any way you like, including using a branch name or a tag name 
 ** 创建一个名叫 <branch> 的新分支，引用 <start-point>，它是可以任意指定的，可以是现存的分支的名称或者是标签的名称
-* <i>git branch -d <branch></i>
+* ''git branch -d <branch>''
 ** delete the branch <branch>; if the branch you are deleting points to a commit which is not reachable from the current branch, this command will fail with a warning. 
 ** 删除一个叫 <branch> 的分支；如果你要删除的分支指向当前分支中一个不可及的交付的话，那么命令将返回失败并作出提示
-* <i>git branch -D <branch></i>
+* ''git branch -D <branch>''
 ** even if the branch points to a commit not reachable from the current branch, you may know that that commit is still reachable from some other branch or tag. In that case it is safe to use this command to force git to delete the branch.
 ** 尽管需要删除一个当前分支不可及的交付，但是你知道那个交付仍然可有其他的分支或者是标签可及。在这种情况下，用这个命令强制删除一个分支是安全的。
-* <i>git checkout <branch></i>
+* ''git checkout <branch>''
 ** make the current branch <branch>, updating the working directory to reflect the version referenced by <branch> 
 ** 提取分支，也即是引用 <branch> 版本状态更新工作目录的内容
-* <i>git checkout -b <new> <start-point></i>
+* ''git checkout -b <new> <start-point>''
 ** create a new branch <new> referencing <start-point>, and check it out. 
 ** 引用 <start-point> 创建一个叫 <new> 的分支，并且将它提取出来。
 
@@ -388,7 +388,7 @@ Eventually the developer cloned from will do additional work in her repository, 
 The command "git fetch", with no arguments, will update all of the remote-tracking branches to the latest version found in her repository. It will not touch any of your own branches—not even the "master" branch that was created for you on clone.
 
 命令 "git fetch"，不用带任何参数，本地版本库中所有远程关联分支都会被更新到远程版本库中对应的分支的最新版本。它不会触动你的专属分支的任何东西，甚至是克隆的时候为你创建的 "master" 分支。
-* (!) <b>译者注：</b> 你可以直接修改 .git/config 文件将 master 分支的远程跟踪属性去掉。
+* (!) ''译者注：'' 你可以直接修改 .git/config 文件将 master 分支的远程跟踪属性去掉。
 
 == Fetching branches from other repositories 获取其他版本库的分支 ==
 
@@ -474,9 +474,9 @@ Bisecting: 1769 revisions left to test after this
 
 checks out an older version. Continue like this, telling git at each stage whether the version it gives you is good or bad, and notice that the number of revisions left to test is cut approximately in half each time.
 
-现在 git 提取出了更旧的版本，继续类似的步骤（编译和测试），将 git 每次给你的版本的测试结果用 <i>good</i> 或者是 <i>bad</i> 告诉 git，并且注意每次提取出来用于测试的版本都大致是截取一半的时段。
+现在 git 提取出了更旧的版本，继续类似的步骤（编译和测试），将 git 每次给你的版本的测试结果用 ''good'' 或者是 ''bad'' 告诉 git，并且注意每次提取出来用于测试的版本都大致是截取一半的时段。
 
-* (!) <b>译注：</b> git 每次都抽取大致从 good 至 bad 之间这个项目发展区间一半的那个版本进行测试，如果测试的结果是 good，那么就以当前被提出出来的这个版本到 bad 版本为区间再次进行平分提取，如此不断循环，很快就定位到项目的漏洞。
+* (!) ''译注：'' git 每次都抽取大致从 good 至 bad 之间这个项目发展区间一半的那个版本进行测试，如果测试的结果是 good，那么就以当前被提出出来的这个版本到 bad 版本为区间再次进行平分提取，如此不断循环，很快就定位到项目的漏洞。
 
 After about 13 tests (in this case), it will output the commit id of the guilty commit. You can then examine the commit with git-show(1), find out who wrote it, and mail them your bug report with the commit id. Finally, run
 
