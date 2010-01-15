@@ -14,7 +14,7 @@ Git does not use a centralized server.
 
 Git runs on Linux, BSD, Solaris, Darwin, Windows, Android and other operating systems.
 
-<<[[GitLink]](git-name, Because Linus is an egotistical git)>>
+<<[[GitLink]](git-name, Because Linus is an egotistical git}}
 == Why the 'git' name? ==
 Quoting Linus: "I'm an egotistical ***, and I name all my projects after myself. First 'Linux', now 'git'".
 
@@ -27,26 +27,26 @@ Alternatively, in Linus' own words as the inventor of git: "git" can mean anythi
 * "Global information tracker": you're in a good mood, and it actually works for you. Angels sing, and a light suddenly fills the room.
 * "Goddamn idiotic truckload of sh*t": when it breaks
 
-<<[[GitLink]](fetch-vs-pull, Fetch retrieves objects, pull also merges them in)>>
+<<[[GitLink]](fetch-vs-pull, Fetch retrieves objects, pull also merges them in}}
 == What's the difference between fetch and pull? ==
 The short definition is:
 
-<b>Fetch</b>: Download  (new) objects and a head from another repository.
+''Fetch'': Download  (new) objects and a head from another repository.
 
-<b>Pull</b>: Fetch (as defined above), and then merge what was downloaded with the current development.
+''Pull'': Fetch (as defined above), and then merge what was downloaded with the current development.
 
 * See the [http://www.kernel.org/pub/software/scm/git/docs/git-fetch.html git-fetch(1)] and [http://www.kernel.org/pub/software/scm/git/docs/git-pull.html git-pull(1)] man pages or the tutorials for more details.
 
-<<[[GitLink]](public-repo,A daemon like sshd, apache, or git-daemon)>>
+<<[[GitLink]](public-repo,A daemon like sshd, apache, or git-daemon}}
 == What can I use to set up a public repository? ==
 A SSH server, an HTTP server, or the git-daemon. Local networks can also use network filesystems, like NFS or SMBFS/CIFS (the Windows networks).
 
 * It seems not everyone thinks that SMBFS is a good idea; several people on #git hold the opinion that SMBFS should not be used with git.
 * See the [http://www.kernel.org/pub/software/scm/git/docs/gittutorial.html Git tutorial] for more details.
 
-<<[[GitLink]](empty-dirs,Git only tracks directories with files in them)>>
+<<[[GitLink]](empty-dirs,Git only tracks directories with files in them}}
 == Can I add empty directories? ==
-Currently the design of the git index (staging area) only permits <i>files</i> to be listed, and nobody competent enough to make the change to allow empty directories has cared enough about this situation to remedy it.
+Currently the design of the git index (staging area) only permits ''files'' to be listed, and nobody competent enough to make the change to allow empty directories has cared enough about this situation to remedy it.
 
 Directories are added automatically when adding files inside them. That is, directories never have to be added to the repository, and are not tracked on their own.
 
@@ -54,7 +54,7 @@ You can say "<code><nowiki>git add <dir></nowiki></code>" and it will add files 
 
 If you really need a directory to exist in checkouts you should create a file in it. .gitignore works well for this purpose (there is also a tool [[MarkEmptyDirs]] which allows to automate this task); you can leave it empty, or fill in the names of files you expect to show up in the directory.
 
-<<[[GitLink]](rename-tracking,Some workflows do not support rename information)>>
+<<[[GitLink]](rename-tracking,Some workflows do not support rename information}}
 == Why does git not "track" renames? ==
 [[Git]] has to interoperate with a lot of different workflows, for example some changes can come from patches, where rename information may not be available. Relying on explicit rename tracking makes it impossible to merge two trees that have done exactly the same thing, except one did it as a patch (create/delete) and one did it using some other heuristic.
 
@@ -66,35 +66,35 @@ As a very special case, <code><nowiki>'git log'</nowiki></code> version 1.5.3 an
 
 * [http://permalink.gmane.org/gmane.comp.version-control.git/217 Mail] by Linus on this topic.
 
-Git has a rename command <b>git mv</b>, but that is just a convenience. The effect is indistinguishable from removing the file and adding another with different name and the same content.
+Git has a rename command ''git mv'', but that is just a convenience. The effect is indistinguishable from removing the file and adding another with different name and the same content.
 
-<<[[GitLink]](no-per-file-history,A git repository's history is not stored by filename)>>
+<<[[GitLink]](no-per-file-history,A git repository's history is not stored by filename}}
 == Why is "git log <filename>" slow? ==
-The answer to the question why <code><nowiki>git log <filename></nowiki></code> takes so long to find a small number of commits which changed a given file lies in the fact that Git looks at <b>all</b> the commits to find that.
+The answer to the question why <code><nowiki>git log <filename></nowiki></code> takes so long to find a small number of commits which changed a given file lies in the fact that Git looks at ''all'' the commits to find that.
 
-Git simply <b>does not have</b> per-file history. Not having per-file history is what allows Git to do <code><nowiki>git log <directory-or-file></nowiki></code> rather than being able to track just one file. You can't do it sanely with per-file history (because to tie the per-file histories back together in a logical sequence, you need the global history to sort it again!).
+Git simply ''does not have'' per-file history. Not having per-file history is what allows Git to do <code><nowiki>git log <directory-or-file></nowiki></code> rather than being able to track just one file. You can't do it sanely with per-file history (because to tie the per-file histories back together in a logical sequence, you need the global history to sort it again!).
 
 That said, you might well need to just run <code><nowiki>git gc</nowiki></code> to make it hugely faster.
 
-Note that <code><nowiki>git log <file1> <file2></nowiki></code> (or <code><nowiki>gitk <file1> <file2></nowiki></code>) is not simply the union of <code><nowiki>git log <file1></nowiki></code> and <code><nowiki>git log <file2></nowiki></code>; it can contain merges which are in neither of the separate histories. Doing the history for two files together is <b>not at all equivalent</b> to doing the history for those files individually and stitching it together.
+Note that <code><nowiki>git log <file1> <file2></nowiki></code> (or <code><nowiki>gitk <file1> <file2></nowiki></code>) is not simply the union of <code><nowiki>git log <file1></nowiki></code> and <code><nowiki>git log <file2></nowiki></code>; it can contain merges which are in neither of the separate histories. Doing the history for two files together is ''not at all equivalent'' to doing the history for those files individually and stitching it together.
 
 To speed up <code><nowiki>git log</nowiki></code>, give it a range of interesting revisions; you can also try <code><nowiki>--remove-empty</nowiki></code> option (with some caveats).
 
 * [http://permalink.gmane.org/gmane.comp.version-control.git/39358 Re: how to speed up "git log"?] by Linus Torvalds on Git mailing list.
 
-<<[[GitLink]](exporting-cdpath-breaks-things,Exporting CDPATH confuses shell scripts)>>
+<<[[GitLink]](exporting-cdpath-breaks-things,Exporting CDPATH confuses shell scripts}}
 == Why is it wrong to export the environment variable CDPATH? ==
-The CDPATH variable is purely for interactive use.  A lot of scripts break if a simple "cd" suddenly outputs a text that was directed at <b>you</b>, the user, and not meant for processing by the script.  Setting, but not exporting, CDPATH will still work as expected, but may break many scripts, including the make procedure of Git.  Having said that, we tried hard to avoid to unset CDPATH everywhere in the Git scripts, and in the Makefiles, but it is well possible that we missed out some places.
+The CDPATH variable is purely for interactive use.  A lot of scripts break if a simple "cd" suddenly outputs a text that was directed at ''you'', the user, and not meant for processing by the script.  Setting, but not exporting, CDPATH will still work as expected, but may break many scripts, including the make procedure of Git.  Having said that, we tried hard to avoid to unset CDPATH everywhere in the Git scripts, and in the Makefiles, but it is well possible that we missed out some places.
 
 In contrast, if you just remove the "export" from your .bashrc, you are guaranteed to never get bitten by that breakage again!
 
 * [http://article.gmane.org/gmane.comp.version-control.git/13736/match=cdpath Re: make install bug?]
 
-<<[[GitLink]](gitweb-in-git,Gitweb is distributed with git now)>>
+<<[[GitLink]](gitweb-in-git,Gitweb is distributed with git now}}
 == How come gitweb suddenly disappeared from the project list at kernel.org/git? ==
 Because it got merged into git. See [http://kernel.org/git/?p=git/git.git;a=commit;h=0a8f4f0020cb35095005852c0797f0b90e9ebb74 the relevant commit].
 
-<<[[GitLink]](merge-vs-rebase,Rebasing rewrites history)>>
+<<[[GitLink]](merge-vs-rebase,Rebasing rewrites history}}
 == What is the difference between a merge and a rebase? ==
 Imagine this history:
 
@@ -117,7 +117,7 @@ after rebase:
 </nowiki></pre>
 So, the merge does not rewrite your commits. They will stay the same. A rebase _will_ rewrite them. The advantage is that the history looks nicer. The disadvantage is that you usually tested more while developing, so that some obscure feature in, say, "G", could work less nicely together with the changes of, say, "B", than you hope for. In other words, G was tested thoroughly, G' was not. As always, it is a trade-off.
 
-<<[[GitLink]](rm-is-shorthand,"git rm" is needed more often than "git rm -&#45;cached")>>
+<<[[GitLink]](rm-is-shorthand,"git rm" is needed more often than "git rm -&#45;cached"}}
 == Why is "git rm" not the inverse of "git add"? ==
 Don't think of 'rm' as the inverse of 'add'.  That would only confuse you.
 
@@ -145,70 +145,70 @@ Obviously, we cannot usefully combine steps 1 and 2.  We could have "git add --c
 
 The fact that steps 3 and 4 can be naturally combined, but steps 1 and 2 cannot be, makes "add" and "rm" not inverse of each other.
 
-* [[http://mid.gmane.org/7vps2y3a4n.fsf@assigned-by-dhcp.cox.net|Re: git-rm isn't the inverse action of git-add]] message by Junio C Hamano.
-* [[http://pivotallabs.com/users/alex/blog/articles/1001-git-unadd|git unadd]] by Alex Chaffee
+* [http://mid.gmane.org/7vps2y3a4n.fsf@assigned-by-dhcp.cox.net Re: git-rm isn't the inverse action of git-add] message by Junio C Hamano.
+* [http://pivotallabs.com/users/alex/blog/articles/1001-git-unadd git unadd] by Alex Chaffee
 
 = Features =
 
-<<[[GitLink]](git-crlf,Yes, with attribute crlf or configuration setting core.autocrlf)>>
+<<[[GitLink]](git-crlf,Yes, with attribute crlf or configuration setting core.autocrlf}}
 == Does git convert between CRLF and LF for different platforms? ==
-Support for this exists in Git versions 1.5 or later.  See [[http://www.kernel.org/pub/software/scm/git/docs/gitattributes.html#_checking_out_and_checking_in|gitattributes(5)]].
+Support for this exists in Git versions 1.5 or later.  See [http://www.kernel.org/pub/software/scm/git/docs/gitattributes.html#_checking_out_and_checking_in gitattributes(5)].
 
-<<Anchor(git-keywords)>>
-<<[[GitLink]](keywords,It's not a good idea but it's possible)>>
+{{anchor|git-keywords}}
+<<[[GitLink]](keywords,It's not a good idea but it's possible}}
 == Does git have keyword expansion? ==
 Not recommended. Keyword expansion causes all sorts of strange problems and isn't really useful anyway, especially within the context of an SCM. Outside git you may perform keyword expansion using a script. The Linux kernel export script does this to set the EXTRA_VERSION variable in the Makefile.
 
-See [[http://www.kernel.org/pub/software/scm/git/docs/gitattributes.html|gitattributes(5)]] if you really want to do this.  If your translation is not reversible (eg SCCS keyword expansion) this may be problematic. (Hint: The supplied [[http://www.kernel.org/pub/software/scm/git/docs/gitattributes.html#_tt_ident_tt|$Id$-expansion]] puts the 40-character hexadecimal blob object name into the id; you can figure out which commits include this blob by using a script like [[http://stackoverflow.com/questions/223678/git-which-commit-has-this-blob|this]].)
+See [http://www.kernel.org/pub/software/scm/git/docs/gitattributes.html gitattributes(5)] if you really want to do this.  If your translation is not reversible (eg SCCS keyword expansion) this may be problematic. (Hint: The supplied [http://www.kernel.org/pub/software/scm/git/docs/gitattributes.html#_tt_ident_tt $Id$-expansion] puts the 40-character hexadecimal blob object name into the id; you can figure out which commits include this blob by using a script like [http://stackoverflow.com/questions/223678/git-which-commit-has-this-blob this].)
 
-See [[http://thread.gmane.org/gmane.comp.version-control.git/44750|here for a discussion]], and [[http://article.gmane.org/gmane.comp.version-control.git/44849|here on how GIT may help anyway]].
+See [http://thread.gmane.org/gmane.comp.version-control.git/44750 here for a discussion], and [http://article.gmane.org/gmane.comp.version-control.git/44849 here on how GIT may help anyway].
 
-<<Anchor(git-filter)>>
+{{anchor|git-filter}}
 == Does git allow arbitrary conversion of contents? ==
-Yes. Not just "keyword expansion" and/or "CRLF conversion", the current version of git allows you to specify filters to munge contents immediately before checking things in. See [[http://www.kernel.org/pub/software/scm/git/docs/gitattributes.html|gitattributes(5)]] man pages for details.
+Yes. Not just "keyword expansion" and/or "CRLF conversion", the current version of git allows you to specify filters to munge contents immediately before checking things in. See [http://www.kernel.org/pub/software/scm/git/docs/gitattributes.html gitattributes(5)] man pages for details.
 
-<<Anchor(git-encoding)>>
+{{anchor|git-encoding}}
 == Does git convert encodings of file names? ==
 No. Filenames are treated as byte sequences.
 
 == Does git convert encodings of comments and committer names or file content? ==
 A git repository can store a flag to register the encoding supposedly used for comments (including author names). File content is not converted unless you are inclined to shoot yourself in the foot and use the filtering mechanism described above.
 
-<<Anchor(git-content-limitations)>>
+{{anchor|git-content-limitations}}
 == Does git track all file data and metadata? ==
 No. Git has a specific notion of tracked "content", which is basically just the file data. It is thus not directly suitable for tracking directories where additional filesystem information is significant, such as "/etc" or home directories. See [[ContentLimitations]] for more details.
 
 = Unexpected behavior =
 
-<<Anchor(git-push non-bare)>>
-<<[[GitLink]](non-bare,Pushing to non-bare repositories is discouraged)>>
+{{anchor|git-push non-bare}}
+<<[[GitLink]](non-bare,Pushing to non-bare repositories is discouraged}}
 == Why won't I see changes in the remote repo after "git push"? ==
 The <code><nowiki>push</nowiki></code> operation is always about propagating the repository history and updating the refs, and never touches the working tree files.  In particular, if you push to update the branch that is checked out in a remote repository the files in the work tree will not be updated.
 
 This is a precautionary design decision.  The remote repository's work tree may have local changes, and there is no way for you, who are pushing into the remote repository, to resolve conflicts between the changes you are pushing and the ones in the work tree.  However, you can easily make a post-update hook to update the working copy of the checked out branch.  The reason for not making this a default example hook is that they only notify the person doing the pushing if there was a problem.  The latest draft post-update hook for this is at [[http://utsl.gen.nz/git/post-update]], which deals with almost all cases, apart from where there is already a conflicted merge on the remote side (as git-stash cannot currently stash this).  It also fails to work in instances where it could, such as none of the files are actually conflicting.
 
-A quick rule of thumb is to <i>never</i> push into a repository that has a work tree attached to it, until you know what you are doing.
+A quick rule of thumb is to ''never'' push into a repository that has a work tree attached to it, until you know what you are doing.
 
-If you are sure what you are doing, you can do a "git reset --hard" on the side you pushed to. Note that this WILL lose ALL changes you made on that side, resetting the working tree to the newest revision you pushed. See [[http://sitaramc.github.com/concepts/bare.html#how_do_I_fix_such_a_non_bare_push_|this article about bare repositories]] for details.
+If you are sure what you are doing, you can do a "git reset --hard" on the side you pushed to. Note that this WILL lose ALL changes you made on that side, resetting the working tree to the newest revision you pushed. See [http://sitaramc.github.com/concepts/bare.html#how_do_I_fix_such_a_non_bare_push_ this article about bare repositories] for details.
 
 See also the entry ([[[#push-is-reverse-of-fetch|How would I use "git push" to sync out of a firewalled host?]]]) in this FAQ for the proper way to work with push with a repository with a work tree.
 
-<<Anchor(git-version)>>
+{{anchor|git-version}}
 == Why is git --version not reporting the "full" version number? ==
 There is a bit of a chicken and egg problem involved. The build procedure wants to have an already installed git to figure out the "full" version number. If you are bootstrapping, make clean and rebuild after you install git once would give you a git binary that knows what version it is.
 
 <code><nowiki>GIT-VERSION-GEN</nowiki></code> script show current (used) git version, <code><nowiki>git --version</nowiki></code> shows git version used at the time git was build.
 
-<<Anchor(reset-hard-leaving-files)>>
+{{anchor|reset-hard-leaving-files}}
 == Why is "git reset --hard" not removing some files? ==
-<code><nowiki>git reset --hard</nowiki></code> doesn't remove the files which are in the <b>current</b> version of <code><nowiki>.gitignore</nowiki></code>. "git reset" won't delete files it doesn't track (particularly when it has been _told_ to ignore them).
+<code><nowiki>git reset --hard</nowiki></code> doesn't remove the files which are in the ''current'' version of <code><nowiki>.gitignore</nowiki></code>. "git reset" won't delete files it doesn't track (particularly when it has been _told_ to ignore them).
 
 If the version you switched to has an earlier (different) version of the <code><nowiki>.gitignore</nowiki></code> file then the files which were not deleted might be not ignored in the reset version, and will for example show in the <code><nowiki>git status</nowiki></code> output.
 
-* See [[http://marc.theaimsgroup.com/?l=git&m=114917892328066|Linus Torvalds]] answer or [[http://marc.theaimsgroup.com/?l=git&m=114917892613019|Sean Estabrooks]] answer at [[GitCommunity|git mailing list]].
-* If you are using cygwin or OSX, you might have be having issues with case sensitivity. See [[http://marc.info/?l=git&w=2&r=1&s=xt_CONNMARK.h&q=b|some discussion here]].
+* See [http://marc.theaimsgroup.com/?l=git&m=114917892328066 Linus Torvalds] answer or [http://marc.theaimsgroup.com/?l=git&m=114917892613019 Sean Estabrooks] answer at [[GitCommunity|git mailing list]].
+* If you are using cygwin or OSX, you might have be having issues with case sensitivity. See [http://marc.info/?l=git&w=2&r=1&s=xt_CONNMARK.h&q=b some discussion here].
 
-<<[[GitLink]](non-ff, Your push would lose changes on the remote)>>
+<<[[GitLink]](non-ff, Your push would lose changes on the remote}}
 == Why is my push rejected with a non-fast forward error? ==
 If you try to push a branch, you might get this error message:
 <pre><nowiki>
@@ -244,8 +244,8 @@ ie, delete the branch remotely first (this is often permitted), then re-push the
 
 Be warned that if you rewind branches, others might get into problem when pulling.  There is the chance that they will merge in the branch that they fetched with the new one that you've published, effectively keeping the changes that you are trying to get rid of.  However, it will only be their copies that have the bad revisions.  For this reason, rewinding branches is considered mildly antisocial.  Nonetheless, it is often appropriate.
 
-<<Anchor(git-push after-rebase)>>
-<<[[GitLink]](push-f, If you use push -f, others might get into problem when pulling)>>
+{{anchor|git-push after-rebase}}
+<<[[GitLink]](push-f, If you use push -f, others might get into problem when pulling}}
 == Why won't "git push" work after I rebased a branch? ==
 
 After you have rebased one of your local branches, you are trying to push your changes to a remote repository. But <code><nowiki>git push</nowiki></code> fails with this error message:
@@ -265,19 +265,19 @@ Most other version control systems will do a full-tree commit, using the content
 
 Git does it differently. By default, git commits the content of the index, and only this. <code><nowiki>git commit -a</nowiki></code> gives roughly the equivalent of what other systems do. Indeed, there are many concrete reasons why git's way to manage the index is good (and leads to unique features of git):
 
-* You can select files to commit with a fine granularity, telling git what you want to do little by little (<code><nowiki>git add </nowiki></code><i>file</i> to add the full content of the file to the index, <code><nowiki>git add -i</nowiki></code> or <code><nowiki>git gui</nowiki></code> to add the content hunk-by-hunk, or even use the hunk splitting feature of <code><nowiki>git add -i</nowiki></code>).
+* You can select files to commit with a fine granularity, telling git what you want to do little by little (<code><nowiki>git add </nowiki></code>''file'' to add the full content of the file to the index, <code><nowiki>git add -i</nowiki></code> or <code><nowiki>git gui</nowiki></code> to add the content hunk-by-hunk, or even use the hunk splitting feature of <code><nowiki>git add -i</nowiki></code>).
 * This fine-grained file selection can help you to keep an uncommited modification in your tree for a reasonably long time. For example, you can increment the version number in the Makefile some time before a release, and use this as a reminder.
 * You can perform several small steps for one commit, checking what you did with git diff, and validating each small step with git add or git add -u. Typically, you can apply a broken patch, updating the index, with <code><nowiki>git apply --index</nowiki></code>, and then fix the patch. <code><nowiki>git diff --cached</nowiki></code> will show you your fixes, while <code><nowiki>git diff HEAD</nowiki></code> will show you the combined diff.
 * This allows excellent management of merge conflicts: <code><nowiki>git diff --base</nowiki></code>, <code><nowiki>git diff --ours</nowiki></code>, <code><nowiki>git diff --theirs</nowiki></code>.
 * This allows <code><nowiki>git commit --amend</nowiki></code> to amend only the log message if the index hasn't been modified in the meantime.
 So, while using <code><nowiki>git commit -a</nowiki></code> is perfectly fine with the simple cycle "edit/review/commit", making it the default would make other workflows less natural.
 
-Indeed, according to Linus, the real reason is more philosophical: git is a content tracker, and a file name has no meaning unless associated to its content. Therefore, the only sane behavior for <code><nowiki>git add </nowiki></code><i>filename</i> is to add the content of the file as well as its name to the index.
+Indeed, according to Linus, the real reason is more philosophical: git is a content tracker, and a file name has no meaning unless associated to its content. Therefore, the only sane behavior for <code><nowiki>git add </nowiki></code>''filename'' is to add the content of the file as well as its name to the index.
 
 See also (mailing list posts):
 
-* [[http://thread.gmane.org/gmane.comp.version-control.git/46341|mailing list post]]: [FAQ?] Rationale for git's way to manage the index
-* [[http://thread.gmane.org/gmane.comp.version-control.git/32452/focus=32610|mailing list post]]: [PATCH 0/2] Making "git commit" to mean "git commit -a"
+* [http://thread.gmane.org/gmane.comp.version-control.git/46341 mailing list post]: [FAQ?] Rationale for git's way to manage the index
+* [http://thread.gmane.org/gmane.comp.version-control.git/32452/focus=32610 mailing list post]: [PATCH 0/2] Making "git commit" to mean "git commit -a"
 == My HTTP repository has updates, which git clone misses. What happened? ==
 If you push via SSH to the repository, you have to enable the post-update hook (chmod a+x hooks/post-update). If you "push" with rsync, you have to make sure to execute "git update-server-info" _before_ pushing. HTTP is a "dumb" transport, which needs some help. This help is provided in the form of the file info/refs, which contains the current refs (names + commit names of the tips).
 
@@ -288,7 +288,7 @@ Now consider what would happen if you check out another branch, and modification
 
 Git sets the current time as the timestamp on every file it modifies, but only those. The other files are left untouched, which means build tools will be able to depend on modification time and rebuild properly. If build rules change, that can cause a failure anyway, but that is a far less common problem than accidentally not rebuilding.
 
-<<[[GitLink]](pager-default, With a pager, it's easy to display interesting information at the top)>>
+<<[[GitLink]](pager-default, With a pager, it's easy to display interesting information at the top}}
 == Why does git use a pager for commands like diff/log and --help? ==
 Usually, you are not interested in the whole log, but only some bits at the beginning.  It would not be useful for "git log" to simply let the output whiz by, leaving you looking at the uninteresting parts at the end.  And if it did it the other way round, showing you the interesting bits last, it would waste a lot of time showing information that you are not interested in at all.  So the only thing that makes sense is to look at the log in a pager.  It also helps searching for keywords.
 
@@ -296,7 +296,7 @@ Note that "--help" just spawns "man", so it is not Git's fault there. But you ca
 
 If you do not like the pager default, you can set <code><nowiki>core.pager = cat</nowiki></code> with <code><nowiki>git config</nowiki></code> or tell your shell about <code><nowiki>GIT_PAGER=cat</nowiki></code>.
 
-<<[[GitLink]](pager-color, Your pager might remove the colors)>>
+<<[[GitLink]](pager-color, Your pager might remove the colors}}
 == Why does diff/log not show color, even though I enabled it? ==
 Set <code><nowiki>core.pager = less -FXRS</nowiki></code> with <code><nowiki>git config</nowiki></code> to fix this. The most likely culprit is the <code><nowiki>LESS</nowiki></code> environment variable. By default, git passes the options <code><nowiki>-FXRS</nowiki></code> to less. The <code><nowiki>-R</nowiki></code> option tells less to interpret color escape sequences. If <code><nowiki>LESS</nowiki></code> is set, however, only those options are used by less.
 
@@ -342,7 +342,7 @@ The reason may be that some commits have been developed starting from a version 
 
 See http://thread.gmane.org/gmane.comp.version-control.git/99967/focus=99977 for more explanations from Linus.
 
-<<[[GitLink]](detached, You are on a detached HEAD and might lose commits.)>>
+<<[[GitLink]](detached, You are on a detached HEAD and might lose commits.}}
 == Why am I "not on any branch"? ==
 
 You are on a detached HEAD and might lose commits.  See
@@ -367,9 +367,9 @@ git log -p -z | perl -ln0e 'print if /[+-].*searchedstring/'
 
 = How do I ... =
 
-<<[[GitLink]](ssh-config,You can setup a new entry in ~/.ssh/config with the right key)>>
+<<[[GitLink]](ssh-config,You can setup a new entry in ~/.ssh/config with the right key}}
 == How do I specify what ssh key git should use? ==
-This is not really a git question. However, you can edit your ~/.ssh/config file in order to tell ssh what key to use. More information about this is in the [[http://www.openbsd.org/cgi-bin/man.cgi?query=ssh_config|ssh config manpage]]. The short version is that you can specify a custom Host with its own [[IdentityFile]], like this:
+This is not really a git question. However, you can edit your ~/.ssh/config file in order to tell ssh what key to use. More information about this is in the [http://www.openbsd.org/cgi-bin/man.cgi?query=ssh_config ssh config manpage]. The short version is that you can specify a custom Host with its own [[IdentityFile]], like this:
 <pre><nowiki>
 Host GitServer
   Hostname=git.example.org
@@ -377,7 +377,7 @@ Host GitServer
 </nowiki></pre>
 Then, you can set up git to use "[[GitServer]]" as the hostname. It will look up the entry and use the specified key and host.
 
-<<Anchor(untrack-file)>>
+{{anchor|untrack-file}}
 == How do I untrack a file? ==
 If you want to keep a file, but not have it in the next revision, do this:
 
@@ -385,7 +385,7 @@ If you want to keep a file, but not have it in the next revision, do this:
 git rm --cached <filename>
 </nowiki></pre>
 
-<<[[GitLink]](branch, to checkout other branches, use git checkout -b somename origin/somename)>>
+<<[[GitLink]](branch, to checkout other branches, use git checkout -b somename origin/somename}}
 == How do I access other branches in a repository? ==
 When a repository is cloned, the clone gets a remote tracking branch for each
 of the original repository's branch heads, but only a single local branch head
@@ -420,13 +420,13 @@ This will create and checkout a branch head called "maint" that starts at the
 same commit that the remote tracking branch "origin/maint" currently
 references.
 
-<<Anchor(repo-sharing)>>
+{{anchor|repo-sharing}}
 == How do I share a git public repository and use it in a CVS way? ==
 You can use <code><nowiki>git --bare init --shared=group</nowiki></code> (or <code><nowiki>git --bare init --shared=all</nowiki></code> for unprivileged gitweb) to initialize a shared repository. All users belonging to your group now have permissions to push their changes to the repository. It's O.K. that refs aren't group writable, it's enough that the directory is.
 
-* See Git's [[http://www.kernel.org/pub/software/scm/git/docs/gitcvs-migration.html|cvs-migration]] doc, "Emulating the CVS Development Model" section for details.
+* See Git's [http://www.kernel.org/pub/software/scm/git/docs/gitcvs-migration.html cvs-migration] doc, "Emulating the CVS Development Model" section for details.
 
-<<Anchor(commit-diff)>>
+{{anchor|commit-diff}}
 == How can I add a diff of the commit into the commit message window? ==
 
 Just call git commit with -v flag:
@@ -435,11 +435,11 @@ Just call git commit with -v flag:
 git commit -v
 </nowiki></pre>
 
-<<Anchor(push-is-reverse-of-fetch)>>
+{{anchor|push-is-reverse-of-fetch}}
 == How would I use "git push" to sync out of a firewalled host? ==
-<<[[GitLink]](mothership-satellite, push is reverse of fetch)>>When you work on two machines, sometimes your firewall would let you make a TCP connection only in one direction but not in the other direction. Suppose you start a project on machine A (mothership), and clone from there to a machine B (satellite). You work on B and would want to propagate the change back to your repository on machine A. Even if you wanted to, you cannot run <code><nowiki>git fetch</nowiki></code> on machine A to fetch from B, as B is firewalled and does not allow incoming connections. What should you do in such a case?
+<<[[GitLink]](mothership-satellite, push is reverse of fetch}}When you work on two machines, sometimes your firewall would let you make a TCP connection only in one direction but not in the other direction. Suppose you start a project on machine A (mothership), and clone from there to a machine B (satellite). You work on B and would want to propagate the change back to your repository on machine A. Even if you wanted to, you cannot run <code><nowiki>git fetch</nowiki></code> on machine A to fetch from B, as B is firewalled and does not allow incoming connections. What should you do in such a case?
 
-Pushing 'master' branch on B to 'master' branch on A, however, is not what you would want to do. Push is a reverse of fetch in the sense that it propagates the objects and update the branch tips, but does not touch the working tree in the target repository, and you will be utterly confused when you go back to machine A after you update 'master' that way. You can realize that a push is a mirror operation of a fetch and take advantage of it. If B were <i>not</i> firewalled, you would instead run fetch on A from B. And such a fetch is arranged to fetch 'master' from B and store that in 'refs/remotes/B/master' in A.
+Pushing 'master' branch on B to 'master' branch on A, however, is not what you would want to do. Push is a reverse of fetch in the sense that it propagates the objects and update the branch tips, but does not touch the working tree in the target repository, and you will be utterly confused when you go back to machine A after you update 'master' that way. You can realize that a push is a mirror operation of a fetch and take advantage of it. If B were ''not'' firewalled, you would instead run fetch on A from B. And such a fetch is arranged to fetch 'master' from B and store that in 'refs/remotes/B/master' in A.
 
 So the simple solution to work around such a firewalled setup is to push 'master' from B into 'refs/remotes/B/master' of A, like this:
 
@@ -463,11 +463,11 @@ machineB$ git push
 </nowiki></pre>
 See also http://thread.gmane.org/gmane.comp.version-control.git/42506/focus=42685
 
-<<Anchor(tag-checkout)>>
+{{anchor|tag-checkout}}
 == How do I check out the tree at a particular tag? ==
 So you cloned that shiny repository and now would like to get the working tree to the state as of some tag? Use <code><nowiki>git tag -l</nowiki></code> to list all available tags, then just do a <code><nowiki>git checkout TAGNAME</nowiki></code>. If you want to build some work on it, use <code><nowiki>git checkout -b newbranch TAGNAME</nowiki></code> instead. If you want to return to your latest revision later, do <code><nowiki>git checkout ORIGINALBRANCH</nowiki></code> (usually it is <code><nowiki>master</nowiki></code>, you can list them with <code><nowiki>git branch</nowiki></code>).
 
-<<Anchor(share-objects)>>
+{{anchor|share-objects}}
 == How to share objects between existing repositories? ==
 Do
 
@@ -479,9 +479,9 @@ and then follow it up with
 <pre><nowiki>
 git repack -a -d -l
 </nowiki></pre>
-where the '-l' means that it will only put <i>local</i> objects in the pack-file (strictly speaking, it will put any loose objects from the alternate tree too, so you'll have a fully packed archive, but it won't duplicate objects that are already packed in the alternate tree).
+where the '-l' means that it will only put ''local'' objects in the pack-file (strictly speaking, it will put any loose objects from the alternate tree too, so you'll have a fully packed archive, but it won't duplicate objects that are already packed in the alternate tree).
 
-<<Anchor(stop-sharing-objects)>>
+{{anchor|stop-sharing-objects}}
 == How to stop sharing objects between repositories? ==
 There doesn't seem to be a built-in way to do this, but you can do it manually by copying over the unique remote objects and then removing the alternate repository pointer:
 <pre><nowiki>
@@ -491,7 +491,7 @@ rm .git/objects/info/alternates
 # or if there's more than one and you're only removing one, edit the alternates file and remove only that pointer
 </nowiki></pre>
 
-<<Anchor(gitignore)>>
+{{anchor|gitignore}}
 == How do I tell git to ignore files? ==
 You can put shell-style globs (e.g. <code><nowiki>*.o</nowiki></code>) in either <code><nowiki>.git/info/exclude</nowiki></code> or <code><nowiki>.gitignore</nowiki></code>.
 
@@ -500,14 +500,14 @@ You can put shell-style globs (e.g. <code><nowiki>*.o</nowiki></code>) in either
 <code><nowiki>.gitignore</nowiki></code> is more commonly used, as it can be checked into the repository and thereby automatically shared with all users of the project.
 
 * See the
- [[http://www.kernel.org/pub/software/scm/git/docs/git-ls-files.html|git-ls-files(1)]] man page, section "Exclude Patterns" for details.
+ [http://www.kernel.org/pub/software/scm/git/docs/git-ls-files.html git-ls-files(1)] man page, section "Exclude Patterns" for details.
 
-<<Anchor(saving-draft)>>
-<<[[GitLink]](stash, Use git stash or a temporary branch to save temporarily)>>
+{{anchor|saving-draft}}
+<<[[GitLink]](stash, Use git stash or a temporary branch to save temporarily}}
 == How do I save some local modifications? ==
 Sometimes it is necessary to put some local changes aside, and come back to them later (typically, when one hits an easily-fixable bug in the middle of non-trivial work, and wants to fix the bug before anything else).
 
-With recent versions of git, you can use [[http://www.kernel.org/pub/software/scm/git/docs/git-stash.html|"git stash"]] to save temporary modifications and come back to a "clean" tree, and then "git stash apply" to re-apply it.
+With recent versions of git, you can use [http://www.kernel.org/pub/software/scm/git/docs/git-stash.html "git stash"] to save temporary modifications and come back to a "clean" tree, and then "git stash apply" to re-apply it.
 
 Alternatively:
 
@@ -525,9 +525,9 @@ Another solution is to save changes in a patch, to apply later:
 $ git diff --binary HEAD > tempPatch.diff
 $ git reset --hard
 </nowiki></pre>
-(<b>warning:</b> <code><nowiki>git reset --hard</nowiki></code> removes changes to the working tree!)
+(''warning:'' <code><nowiki>git reset --hard</nowiki></code> removes changes to the working tree!)
 
-<<Anchor(merge-by-hand)>>
+{{anchor|merge-by-hand}}
 == How to manually resolve conflicts when Git failed to detect rename? ==
 What to do when you renamed a bunch of files, the merge is having a hard time autoresolving, and you have a couple of conflicts? Suppose the project originally had <code><nowiki>util/endian.h</nowiki></code>, and during the course of your development you moved it to <code><nowiki>src/util/endian.h</nowiki></code>. Your friend kept working on <code><nowiki>util/endian.h</nowiki></code> and it is time to merge the two branches. Sometimes recursive merge strategy (the default) detects this situation, and merge the changes your friend made to <code><nowiki>util/endian.h</nowiki></code> to <code><nowiki>src/util/endian.h</nowiki></code> without problems (you may still have to resolve the conflict in the contents of the file). But when git thinks you removed <code><nowiki>util/endian.h</nowiki></code> and created an unrelated <code><nowiki>src/util/endian.h</nowiki></code> file, you will see merge conflicts "your side removed, other side modified" on <code><nowiki>util/endian.h</nowiki></code>.
 
@@ -539,20 +539,20 @@ $ git ls-files --unmerged --abbrev
 100755 33cd1f76... 1 util/endian.h
 100755 7f531bb7... 3 util/endian.h
 </nowiki></pre>
-Then to do merge between the versions for the "undetected rename" file, extract two blobs (whose sha1 you have from [[http://www.kernel.org/pub/software/scm/git/docs/git-ls-files.html|git-ls-files(1)]] or [[http://www.kernel.org/pub/software/scm/git/docs/git-status.html|git-status(1)]] output) to temporary files, and run "merge" command by hand, e.g.
+Then to do merge between the versions for the "undetected rename" file, extract two blobs (whose sha1 you have from [http://www.kernel.org/pub/software/scm/git/docs/git-ls-files.html git-ls-files(1)] or [http://www.kernel.org/pub/software/scm/git/docs/git-status.html git-status(1)] output) to temporary files, and run "merge" command by hand, e.g.
 
 <pre><nowiki>
 $ git cat-file blob 33cd1f76 >endian.h-1
 $ git cat-file blob 7f531bb7 >endian.h-3
 $ merge src/util/endian.h endian.h-1 endian.h-3
 </nowiki></pre>
-(that is merge yours, original and his). Of course instead of <code><nowiki>merge</nowiki></code> from RCS you can use your favorite 3-way file merge program, e.g. [[http://www.delorie.com/gnu/docs/emacs/ediff_2.html|Ediff3 from Emacs]] (see also [[http://www.selenic.com/mercurial/wiki/index.cgi/MergingWithEmacs|[[MergingWithEmacs]]]] at Mercurial wiki), [[http://www.vim.org/htmldoc/diff.html#vimdiff|vimdiff/gvimdiff]], [[http://meld.sourceforge.net/|Meld]], [[http://furius.ca/xxdiff/|xxdiff]] or [[http://kdiff3.sourceforge.net/|KDiff3]]. In newer versions of Git you could use "<i>:<stage>:<filename></i>" instead of SHA1 to extract files to temporary files (<code><nowiki>:1:util/endian.h</nowiki></code> and <code><nowiki>:3:util/endian.h</nowiki></code>, respectively); check [[RevisionSpecification]] and references therein.
+(that is merge yours, original and his). Of course instead of <code><nowiki>merge</nowiki></code> from RCS you can use your favorite 3-way file merge program, e.g. [http://www.delorie.com/gnu/docs/emacs/ediff_2.html Ediff3 from Emacs] (see also [http://www.selenic.com/mercurial/wiki/index.cgi/MergingWithEmacs [[MergingWithEmacs]]] at Mercurial wiki), [http://www.vim.org/htmldoc/diff.html#vimdiff vimdiff/gvimdiff], [http://meld.sourceforge.net/ Meld], [http://furius.ca/xxdiff/ xxdiff] or [http://kdiff3.sourceforge.net/ KDiff3]. In newer versions of Git you could use "'':<stage>:<filename>''" instead of SHA1 to extract files to temporary files (<code><nowiki>:1:util/endian.h</nowiki></code> and <code><nowiki>:3:util/endian.h</nowiki></code>, respectively); check [[RevisionSpecification]] and references therein.
 
 Once you come up with the desired state in your file (<code><nowiki>src/util/endian.h</nowiki></code> in our example), then you have to inform Git that file was renamed, i.e. say "<code><nowiki>git update-index --remove util/endian.h</nowiki></code>" in our example (removing the file from working directory as well, if it exist there) and then "<code><nowiki>git update-index src/util/endian.h</nowiki></code>" (you should have it already in the index, so you do not have to say <code><nowiki>--add</nowiki></code>).
 
-<<Anchor(revert-file-change)>>
+{{anchor|revert-file-change}}
 == How to revert file to version from current commit? ==
-<<[[GitLink]](git-checkout, How do I check out a set of paths from the last commit?)>>
+<<[[GitLink]](git-checkout, How do I check out a set of paths from the last commit?}}
 If you messed up a file, or removed it accidentally, and want to revert file change to version at current commit, you can use:
 
 <pre><nowiki>
@@ -564,7 +564,7 @@ If you want to revert to version in index (i.e. the last version you ran <code><
 git checkout -- <file>
 </nowiki></pre>
 
-<<Anchor(view-old-rev)>>
+{{anchor|view-old-rev}}
 == How to view an old revision of a file or directory? ==
 Use command "git show" with a colon and filename:
 
@@ -594,9 +594,9 @@ As usual, commits can be commit ids, branch names, tags or relative references l
 git diff 06de3718c389fd5038697151c49519f6e9f2dbe0:ChangeLog HEAD~2:ChangeLog.old
 </nowiki></pre>
 
-<<Anchor(fix-broken-repo)>>
+{{anchor|fix-broken-repo}}
 == How to fix a broken repository? ==
-As Linus said ([[http://thread.gmane.org/gmane.comp.version-control.git/40893/focus=40896|on gmane]]):
+As Linus said ([http://thread.gmane.org/gmane.comp.version-control.git/40893/focus=40896 on gmane]):
 
 "Generally, the best way to fix things is (I've written this up at somewhat more length before, but I'm too lazy to find it):
 
@@ -609,7 +609,7 @@ As Linus said ([[http://thread.gmane.org/gmane.comp.version-control.git/40893/fo
 * repack everything to get back to an efficient state again.
 And remember: git does _not_ make backups pointless. It hopefully makes backups *easy* (since cloning and pulling is easy), but the basic need for backups does not go away!"
 
-In another thread ([[http://thread.gmane.org/gmane.comp.version-control.git/64091/focus=64213|on gmane]]) Linus explained how to find and fix a corrupt object:
+In another thread ([http://thread.gmane.org/gmane.comp.version-control.git/64091/focus=64213 on gmane]) Linus explained how to find and fix a corrupt object:
 
 "First off, move the corrupt object away, and *save* it. The most common  cause of corruption so far has been memory corruption, but even so, there  are people who would be interested in seeing the corruption - but it's  basically impossible to judge the corruption until we can also see the  original object, so right now the corrupt object is useless, but it's very  interesting for the future, in the hope that you can re-create a  non-corrupt version.
 
@@ -713,20 +713,20 @@ and just looked for the sha of the missing object (4b9458b..) in that whole thin
 
 Trying to recreate trees and especially commits is *much* harder. So you were lucky that it's a blob. It's quite possible that you can recreate the thing."
 
-<<Anchor(set-up-repo)>>
+{{anchor|set-up-repo}}
 == How to set up a git server? ==
-Look for "Repository Administration" in the [[http://www.kernel.org/pub/software/scm/git/docs/everyday.html#Repository%20Administration|everyday git document]].
+Look for "Repository Administration" in the [http://www.kernel.org/pub/software/scm/git/docs/everyday.html#Repository%20Administration everyday git document].
 
-To setup a git server over http, see [[http://www.kernel.org/pub/software/scm/git/docs/howto/setup-git-server-over-http.txt|the relevant document]].
+To setup a git server over http, see [http://www.kernel.org/pub/software/scm/git/docs/howto/setup-git-server-over-http.txt the relevant document].
 
-As well, it's worth mentioning [[http://scie.nti.st/2007/11/14/hosting-git-repositories-the-easy-and-secure-way|gitosis]] is an excellent tool for setting up secure git servers.
+As well, it's worth mentioning [http://scie.nti.st/2007/11/14/hosting-git-repositories-the-easy-and-secure-way gitosis] is an excellent tool for setting up secure git servers.
 
-<<Anchor(create-project)>>
+{{anchor|create-project}}
 == How to create the first project? ==
-See the [[http://www.kernel.org/pub/software/scm/git/docs/gittutorial.html|Git tutorial]].
+See the [http://www.kernel.org/pub/software/scm/git/docs/gittutorial.html Git tutorial].
 
 == How do I publish my repo via SFTP? ==
-At the moment, git is not able to use a (dumb) sftp protocol for pushing. There is a work around, though: [[http://blog.flameeyes.eu/2007/02/14/how-to-use-git-via-sftp-only|Use sshfs]]. But make sure that you execute 'git update-server-info' in the pushed repository!
+At the moment, git is not able to use a (dumb) sftp protocol for pushing. There is a work around, though: [http://blog.flameeyes.eu/2007/02/14/how-to-use-git-via-sftp-only Use sshfs]. But make sure that you execute 'git update-server-info' in the pushed repository!
 
 Alternatively, you can use whatever means to mirror your .git/ directory to the server (rsync, scp -r, ...). But make sure that 'git update-server-info' was run in that repository _before_ mirroring!
 
@@ -755,7 +755,7 @@ or (to get also the commit message):
     git show --name-only <commit>
 </nowiki></pre>
 
-<<[[GitLink]](fb-prune, Delete backup refs, expire reflog, repack and prune)>>
+<<[[GitLink]](fb-prune, Delete backup refs, expire reflog, repack and prune}}
 == How do I remove all the old objects after using filter-branch? ==
 
 Note: It is recommended you backup your repository before using <code><nowiki>git filter-branch</nowiki></code>.
@@ -783,7 +783,7 @@ And finally, repack and drop all the old unreachable objects:
     git prune # For objects that repack -ad might have left around
 </nowiki></pre>
 
-<<[[GitLink]](svn-mirror, How to mirror SVN to git)>>
+<<[[GitLink]](svn-mirror, How to mirror SVN to git}}
 == How do I mirror a SVN repository to git? ==
 
 Initialize bare repo:
@@ -826,7 +826,7 @@ To enable usage of <code><nowiki>git svn</nowiki></code> in the clone use
     git svn init -s --prefix=origin/ svn://.../project
 </nowiki></pre>
 
-<<[[GitLink]](edit-root, How to edit the root commit)>>
+<<[[GitLink]](edit-root, How to edit the root commit}}
 == How do I edit the root commit? ==
 
 <code><nowiki>git rebase -i</nowiki></code> allows you to conveniently edit any previous commits, except for the root commit. The following commands show you how to do this manually.
@@ -848,12 +848,12 @@ To enable usage of <code><nowiki>git svn</nowiki></code> in the clone use
     git tag -d root
 </nowiki></pre>
 
-<<[[GitLink]](clone-subdir, Git cannot clone subdirectories)>>
+<<[[GitLink]](clone-subdir, Git cannot clone subdirectories}}
 == How do I clone a subdirectory? ==
 
-Currently, you cannot. There are plans for [[http://git.or.cz/gitwiki/SoC2009Ideas#NarrowandSparseclonesupport|narrow and sparse clone support]].
+Currently, you cannot. There are plans for [http://git.or.cz/gitwiki/SoC2009Ideas#NarrowandSparseclonesupport narrow and sparse clone support].
 
-In the meantime, you can use the subdirectory-filter of <code><nowiki>git filter-branch</nowiki></code> to extract a subdirectory. You can also merge changes back using the [[http://www.kernel.org/pub/software/scm/git/docs/howto/using-merge-subtree.html|subtree merge strategy]]. Or you can use [[http://www.kernel.org/pub/software/scm/git/docs/user-manual.html#submodules|submodules]].
+In the meantime, you can use the subdirectory-filter of <code><nowiki>git filter-branch</nowiki></code> to extract a subdirectory. You can also merge changes back using the [http://www.kernel.org/pub/software/scm/git/docs/howto/using-merge-subtree.html subtree merge strategy]. Or you can use [http://www.kernel.org/pub/software/scm/git/docs/user-manual.html#submodules submodules].
 
 It is possible, however, to download subdirectories or even individual files if the server enables the <code><nowiki>upload-archive</nowiki></code> service. The following example retrieves the source code for the main git executable of version 1.6.0.
 
@@ -863,7 +863,7 @@ It is possible, however, to download subdirectories or even individual files if 
 
 Use <code><nowiki>git ls-remote</nowiki></code> to list available versions.
 
-<<[[GitLink]](make-bare, How to convert to bare repository)>>
+<<[[GitLink]](make-bare, How to convert to bare repository}}
 == How do I make existing non-bare repository bare? ==
 
 After making sure that there are no uncommitted changes, etc.:
@@ -881,7 +881,7 @@ The problem with the above process is that it doesn't take into account future i
    * renamed new repository dir to what old repository used to be.
 </nowiki></pre>
 
-<<[[GitLink]](find-large, Howto find large files)>>
+<<[[GitLink]](find-large, Howto find large files}}
 == How do I find large files? ==
 
 Save the following script to <code><nowiki>git-find-large</nowiki></code> in a directory listed in $PATH. The command <code><nowiki>git find-large</nowiki></code> will then list 10 paths corresponding to the largest blobs in your repository. Note that only one path is listed per blob, even if the blob has copies or different names in history.
@@ -918,13 +918,13 @@ git rev-list --all --objects |
 
 = Error diagnostic =
 
-<<Anchor(empty-ident)>>
+{{anchor|empty-ident}}
 == Git commit is dying telling me "fatal: empty ident <user@myhost> not allowed", what's wrong? ==
 Make sure your Full Name is not empty in chsh or the 5th field of your user line in <code><nowiki>/etc/passwd</nowiki></code> isn't empty. You can also set the <code><nowiki>GIT_AUTHOR_NAME</nowiki></code> environment variable. If your @myhost is empty make sure your hostname is correctly set. Use <code><nowiki>git var -l</nowiki></code> to make git display user identity variables.
 
-* See [[http://www.kernel.org/pub/software/scm/git/docs/git-var.html|git-var(1)]]
+* See [http://www.kernel.org/pub/software/scm/git/docs/git-var.html git-var(1)]
 
-<<Anchor(change-branch)>>
+{{anchor|change-branch}}
 == Why won't git let me change to a different branch? ==
 Using <code><nowiki>git checkout <branch></nowiki></code> or <code><nowiki>git checkout -b <branch></nowiki></code> it just says:
 
@@ -937,7 +937,7 @@ You have changes to files in your working directory that will be overwritten, re
 $ git checkout -m -b my-branch
 </nowiki></pre>
 
-<<Anchor(pu)>>
+{{anchor|pu}}
 == refs/heads/pu: does not fast forward to branch 'pu' ==
 The "pu" branch often won't fast forward because some commits have been completely deleted in it since the last time you pulled.
 
@@ -978,16 +978,16 @@ error: failed to push to 'git.exaple.com/wrong-path'
 </nowiki></pre>
 The most likely cause of this error is that you have incorrectly specified the path in the git url.
 
-See the [[http://www.kernel.org/pub/software/scm/git/docs/git-push.html|git-push(1)]] man page for more info on valid git urls.
+See the [http://www.kernel.org/pub/software/scm/git/docs/git-push.html git-push(1)] man page for more info on valid git urls.
 
 == "needs update" and "not uptodate" ==
 <pre><nowiki>
 foo: needs update
 fatal: Entry 'frotz' not uptodate. Cannot merge.
 </nowiki></pre>
-<b>TO DO:</b> <i>Explain first of those messages</i>
+''TO DO:'' ''Explain first of those messages''
 
-Second of those error messages is described in [[http://www.kernel.org/pub/software/scm/git/docs/git-checkout.html|git-checkout(1)]] man page, in the "EXAMPLES" section. It means that you have local modifications to 'frotz', which would be lost on checkout. You can give '-m' option to <code><nowiki>git checkout</nowiki></code>, which would try three-way merge.
+Second of those error messages is described in [http://www.kernel.org/pub/software/scm/git/docs/git-checkout.html git-checkout(1)] man page, in the "EXAMPLES" section. It means that you have local modifications to 'frotz', which would be lost on checkout. You can give '-m' option to <code><nowiki>git checkout</nowiki></code>, which would try three-way merge.
 
 Sometimes the solution is to commit.
 
@@ -1021,54 +1021,54 @@ with %40, like <code><nowiki>git clone https://user%40mail.com@gitserver.com/pat
 
 Explanation : Git delegates the URL handling to curl, which doesn't
 allow '@' signs in usernames because RFC 3986 doesn't allow it. See
-[[http://sourceforge.net/tracker/index.php?func=detail&aid=2826621&group_id=976&atid=100976|this bug report]] for example.
+[http://sourceforge.net/tracker/index.php?func=detail&aid=2826621&group_id=976&atid=100976 this bug report] for example.
 
 = Importing from other revision control systems =
 See the [[InterfacesFrontendsAndTools#rcs-interaction|[[InterfacesFrontendsAndTools]]]] page ("Interaction with other Revision Control Systems" section), for a good reference on how to interact with other revision control systems.
 
 Note that you can add/import old history from other revision control system later, and join the histories using [[GraftPoint|Graft Points]].
 
-<<Anchor(import-tar)>>
+{{anchor|import-tar}}
 == Can I import from tar files (archives)? ==
 To import from archives (one archive file per version), to make Git know which files changed between versions despite the fact that time stamps on everything changed (i.e. <code><nowiki>--atime-preserve</nowiki></code> option of <code><nowiki>tar</nowiki></code> didn't work), use
 
 <pre><nowiki>
 $ git update-index --refresh
 </nowiki></pre>
-between versions, so the index <i>thinks</i> things are newer. It won't touch the "really changed" files.
+between versions, so the index ''thinks'' things are newer. It won't touch the "really changed" files.
 
-<<Anchor(import-cvs)>>
+{{anchor|import-cvs}}
 == Can I import from CVS? ==
-Yes, use [[http://www.kernel.org/pub/software/scm/git/docs/git-cvsimport.html|git-cvsimport(1)]], which needs [[http://www.cobite.com/cvsps/|CVSps]] ([[http://ydirson.free.fr/en/software/scm/cvsps.html|CVSps patches]]), or use [[http://gitweb.freedesktop.org/?p=users-keithp-parsecvs;a=summary|parsecvs]], which parses directly <code><nowiki>,v</nowiki></code> files.
-[[http://cvs2svn.tigris.org/|cvs2svn]] version 2.1 or later has a [[http://cvs2svn.tigris.org/cvs2git.html|git output mode]] in which it creates dump files that can be read by [[http://www.kernel.org/pub/software/scm/git/docs/git-fast-import.html|git fast-import]].
-Lastly, there is also [[http://git.or.cz/gitwiki/InterfacesFrontendsAndTools#fromcvs|FromCVS toGit]], which is a speedy solution with incremental import and branch support, but it currently does not support normal tags.
-* See [[http://www.kernel.org/pub/software/scm/git/docs/gitcvs-migration.html|the CVS migration doc]] for more examples.
-* See [[http://git.or.cz/course/cvs.html|Git - CVS Crash Course]] on [[http://git.or.cz/|Git homepage]]
+Yes, use [http://www.kernel.org/pub/software/scm/git/docs/git-cvsimport.html git-cvsimport(1)], which needs [http://www.cobite.com/cvsps/ CVSps] ([http://ydirson.free.fr/en/software/scm/cvsps.html CVSps patches]), or use [http://gitweb.freedesktop.org/?p=users-keithp-parsecvs;a=summary parsecvs], which parses directly <code><nowiki>,v</nowiki></code> files.
+[http://cvs2svn.tigris.org/ cvs2svn] version 2.1 or later has a [http://cvs2svn.tigris.org/cvs2git.html git output mode] in which it creates dump files that can be read by [http://www.kernel.org/pub/software/scm/git/docs/git-fast-import.html git fast-import].
+Lastly, there is also [http://git.or.cz/gitwiki/InterfacesFrontendsAndTools#fromcvs FromCVS toGit], which is a speedy solution with incremental import and branch support, but it currently does not support normal tags.
+* See [http://www.kernel.org/pub/software/scm/git/docs/gitcvs-migration.html the CVS migration doc] for more examples.
+* See [http://git.or.cz/course/cvs.html Git - CVS Crash Course] on [http://git.or.cz/ Git homepage]
 
-<<Anchor(import-svn)>>
+{{anchor|import-svn}}
 == Can I import from svn? ==
-Yes, use [[http://git-svn.yhbt.net/git-svn.html|git-svn(1)]]. Check also [[InterfacesFrontendsAndTools#git-svnconvert|git-svnconvert]] (in Ruby) in [[InterfacesFrontendsAndTools]]. There is also an idea to use <code><nowiki>svnadmin dump</nowiki></code> [[http://svn.collab.net/repos/svn/trunk/notes/dump-load-format.txt|"dumpfile" format]] as an input for Subversion to Git repository conversion, (similary to what <code><nowiki>parsecvs</nowiki></code> does for CVS repositories).
+Yes, use [http://git-svn.yhbt.net/git-svn.html git-svn(1)]. Check also [[InterfacesFrontendsAndTools#git-svnconvert|git-svnconvert]] (in Ruby) in [[InterfacesFrontendsAndTools]]. There is also an idea to use <code><nowiki>svnadmin dump</nowiki></code> [http://svn.collab.net/repos/svn/trunk/notes/dump-load-format.txt "dumpfile" format] as an input for Subversion to Git repository conversion, (similary to what <code><nowiki>parsecvs</nowiki></code> does for CVS repositories).
 
-Merge tracking information added to svn repositories by [[http://svk.bestpractical.com/|svk]], [[http://www.orcaware.com/svn/wiki/Svnmerge.py|svnmerge]], or version 1.5 or later of [[http://subversion.tigris.org/merge-tracking/|subversion itself]], is not properly converted.
+Merge tracking information added to svn repositories by [http://svk.bestpractical.com/ svk], [http://www.orcaware.com/svn/wiki/Svnmerge.py svnmerge], or version 1.5 or later of [http://subversion.tigris.org/merge-tracking/ subversion itself], is not properly converted.
 
-* See [[http://git.or.cz/course/svn.html|Git - SVN Crash Course]] on [[http://git.or.cz/|Git homepage]]
+* See [http://git.or.cz/course/svn.html Git - SVN Crash Course] on [http://git.or.cz/ Git homepage]
 
-<<Anchor(import-arch)>>
+{{anchor|import-arch}}
 == Can I import from arch/baz/tla? ==
-Yes, use [[http://www.kernel.org/pub/software/scm/git/docs/git-archimport.html|git-archimport(1)]], or bzr-fast-export from `exporters` subdirectory of the [[https://launchpad.net/bzr-fastimport|bzr-fastimport project]].
+Yes, use [http://www.kernel.org/pub/software/scm/git/docs/git-archimport.html git-archimport(1)], or bzr-fast-export from `exporters` subdirectory of the [https://launchpad.net/bzr-fastimport bzr-fastimport project].
 
-<<Anchor(import-perforce)>>
+{{anchor|import-perforce}}
 == Can I import from Perforce? ==
 Yes, there is a number of importers, including one in contrib/ directory of Git source distribution. Search Git mailing list archives for others.
 
-<<Anchor(import-hg)>>
+{{anchor|import-hg}}
 == Can I import from Mercurial? ==
-Yes, use for example Rocco Rutte's hg-fast-export (from fast-export.git on [[http://repo.or.cz/|repo.or.cz]]).
+Yes, use for example Rocco Rutte's hg-fast-export (from fast-export.git on [http://repo.or.cz/ repo.or.cz]).
 
 You can also use hg-git mercurial plugin ([[http://hg-git.github.com/]]) that adds to the Mercurial repository ability to push to and pull from a Git server.
-<<Anchor(import-others)>>
+{{anchor|import-others}}
 == Can I import from other SCMs? ==
-Maybe, check if Tailor ([[http://wiki.darcs.net/DarcsWiki/Tailor|homepage]]) can do it. Take a look at [[InterfacesFrontendsAndTools#rcs-interaction|[[InterfacesFrontendsAndTools]]]] page ("Interaction with other Revision Control Systems" section)
+Maybe, check if Tailor ([http://wiki.darcs.net/DarcsWiki/Tailor homepage]) can do it. Take a look at [[InterfacesFrontendsAndTools#rcs-interaction|[[InterfacesFrontendsAndTools]]]] page ("Interaction with other Revision Control Systems" section)
 
 ----
 = References =
@@ -1076,6 +1076,6 @@ Maybe, check if Tailor ([[http://wiki.darcs.net/DarcsWiki/Tailor|homepage]]) can
 * [[GitCommunity]], mainly Git mailing list.
 * [[WikiPedia:Git_(software)|Git (software)]] article at Wikipedia.
 ----
-[[Category:Glossary]] [[Category:GitDocumentation]]
+[[Category::Glossary]] [[Category::GitDocumentation]]
 
 __NOTOC__
