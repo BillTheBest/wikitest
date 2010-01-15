@@ -221,7 +221,7 @@ All meals with the exception of Tuesday and Wednesday night are free.  Tuesday a
 |  
 |  Petr Baudis 
 |  War story 
-|  Deploying Git in pharma corporation ([http://pasky.or.cz/~pasky/cp/gittogether-novartis.sxi|SXI]],[[attachment:GitTogether08-pasky-Git_at_Novartis-converted.swf|SWF]],[[http://pasky.or.cz/g/gitweb.cgi?p=templatedemo.git;a=summary demo]) 
+|  Deploying Git in pharma corporation ([http://pasky.or.cz/~pasky/cp/gittogether-novartis.sxi|SXI]],attachment:GitTogether08-pasky-Git_at_Novartis-converted.swf|SWF demo]) 
 |  0.5 hour 
 | 
 |-
@@ -347,6 +347,6 @@ If you are traveling far and wish to stay some extra time there are many activit
 * SD Times On The Web mentions GitTogether'08 in [http://www.sdtimes.com/link/33018 Git changes how developers manage source code versions] by Alex Handy
 * Junio C Hamano (Git maintainer) talks about GitTogether'08 in his blog:
 ** [http://gitster.livejournal.com/17222.html Gittogether coming up...]
-** [http://gitster.livejournal.com/18110.html Back from GitTogether]<<BR>> (includes minor correction to SDTimes article mentioned above)
+** [http://gitster.livejournal.com/18110.html Back from GitTogether]<BR> (includes minor correction to SDTimes article mentioned above)
 
 __NOTOC__
