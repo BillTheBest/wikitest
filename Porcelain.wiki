@@ -1,6 +1,6 @@
-<b>Porcelain</b> is cute name for programs and program suites depending on core git, presenting a high level access to core git. Porcelains expose more of a [[SCM]] interface than the "plumbing".
+''Porcelain'' is cute name for programs and program suites depending on core git, presenting a high level access to core git. Porcelains expose more of a [[SCM]] interface than the "plumbing".
 
 ----
-[[CategoryGlossary]]
+[[Category:Glossary]]
 
 __NOTOC__
