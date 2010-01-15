@@ -1,28 +1,28 @@
 Git's application to Google's Summer of Code 2009.
 
 The application questions can be found on
-[[http://socghop.appspot.com/org_app/apply/google/gsoc2009|socghop]].  Also the published [[http://groups.google.com/group/google-summer-of-code-announce/web/notes-on-organization-selection-criteria|notes on organization selection]] may be of interest.
+[http://socghop.appspot.com/org_app/apply/google/gsoc2009 socghop].  Also the published [http://groups.google.com/group/google-summer-of-code-announce/web/notes-on-organization-selection-criteria notes on organization selection] may be of interest.
 
 Shawn Pearce has volunteered to submit the application and serve
 as our group's primary contact.
 
-<b> Link ID </b>
+'' Link ID ''
 
 git
 
-<b> Group Name </b>
+'' Group Name ''
 
 Git Development Community
 
-<b> Home Page URL </b>
+'' Home Page URL ''
 
 [[http://git-scm.com/]]
 
-<b> Public Email </b>
+'' Public Email ''
 
 git@vger.kernel.org
 
-<b> Description </b>
+'' Description ''
 
 As Git approaches its fourth anniversary, it is now the revision
 control system of choice for many of the largest and most successful
@@ -35,7 +35,7 @@ This achievement is the product of the lively Git development
 community, a loose-knit team of developers, technical writers, and
 end users with a passion for high quality open-source development.
 
-<b> Why is your group applying to participate? What do you hope to gain by participating? </b>
+'' Why is your group applying to participate? What do you hope to gain by participating? ''
 
 During GSoC 2007 Git had two successful student projects.  Although
 both students contributed useful code to the community, the biggest
@@ -51,18 +51,18 @@ By participating in GSoC 2009 the Git community hopes to attract
 more new talent to our community, and convert that talent into
 long-term contributors and high-quality enhancements to Git.
 
-<b> What is the main public mailing list for your group? </b>
+'' What is the main public mailing list for your group? ''
 
 git@vger.kernel.org
 
-<b> What is the main IRC channel for your group? </b>
+'' What is the main IRC channel for your group? ''
 
 <!-- #git (on freenode)
  -->
 
-<b> What criteria do you use to select the members of your group?  Please be as specific as possible. </b>
+'' What criteria do you use to select the members of your group?  Please be as specific as possible. ''
 
-<i>(note: they mean "mentors" here, but the language is wrong due to it coming from Melange)</i>
+''(note: they mean "mentors" here, but the language is wrong due to it coming from Melange)''
 
 All mentors volunteered for the specific project(s) that they could
 contribute the most to.  All mentors are active contributors within
@@ -78,7 +78,7 @@ on a Google Summer of Code project.
 All mentors are well known within the Git development community
 for their accomplishments and contributions.
 
-<b> Has your group participated previously?  If so, please summarize your involvement and any past successes and failures. </b>
+'' Has your group participated previously?  If so, please summarize your involvement and any past successes and failures. ''
 
 During GSoC 2007 we had two student projects ("GIT library project",
 "Replace most core scripts with C versions") mentored by two of our
@@ -117,31 +117,31 @@ and the [[GitTorrent]] projects could have shared some effort, and in
 general, the students did not benefit from the competence of the
 non-mentor community members as much as they could have.
 
-<b> If your group has not previously participated, have you applied in the past?  If so, for what sort of participation? </b>
+'' If your group has not previously participated, have you applied in the past?  If so, for what sort of participation? ''
 
 N/A
 
-<b> What license does your project use? </b>
+'' What license does your project use? ''
 
 GPL (GNU Public License), version 2
 
-<b> What is the URL for your ideas page? </b>
+'' What is the URL for your ideas page? ''
 
 [[http://git.or.cz/gitwiki/SoC2009Ideas]]
 
-<b> What is the main development mailing list for your group? </b>
+'' What is the main development mailing list for your group? ''
 
 git@vger.kernel.org
 
-<b> What is the application template you would like contributors to your organization to use. </b>
+'' What is the application template you would like contributors to your organization to use. ''
 
-<i>(note: they mean students here, but its Melange... so...)</i>
+''(note: they mean students here, but its Melange... so...)''
 
 [[http://git.or.cz/gitwiki/SoC2008Template]]
 
-<b> What is your plan for dealing with disappearing contributors? </b>
+'' What is your plan for dealing with disappearing contributors? ''
 
-<i>(note: they mean students here, but its Melange... so...)</i>
+''(note: they mean students here, but its Melange... so...)''
 
 Every reasonable effort will be made to maintain contact with
 students and ensure they are making progress throughout the summer.
@@ -158,9 +158,9 @@ help students to feel like they have accomplished something useful
 sooner, as well as making it easier for the Git community to pick
 up an abandoned project.
 
-<b> What is your plan for dealing with disappearing members? </b>
+'' What is your plan for dealing with disappearing members? ''
 
-<i>(note: they mean mentors here, but its Melange... so...)</i>
+''(note: they mean mentors here, but its Melange... so...)''
 
 Most of our suggested projects have more than one mentor available.
 As a community we plan on making sure all of the active projects have
@@ -179,7 +179,7 @@ discussions on the mailing list.
 ''' What steps will you take to encourage contributors to interact with
 your project's community before, during and after the program? '''
 
-<i>(note: they mean students here, but its Melange... so...)</i>
+''(note: they mean students here, but its Melange... so...)''
 
 Students will be required to join the main development mailing
 list, and post their patches for discussion to same.  All current
@@ -217,7 +217,7 @@ agreed to do so during GSoC '09.
 ''' What will you do to ensure that your accepted contributors stick with
 the project after the program concludes? '''
 
-<i>(note: they mean students here, but its Melange... so...)</i>
+''(note: they mean students here, but its Melange... so...)''
 
 GSoC will be a good introduction to Git (both the technology and the
 community) for the students.  Once they know Git and are "hooked",
@@ -239,7 +239,7 @@ unique opportunity during GSoC and continue staying active within
 the community even after GSoC '09 completes, just like our GSoC
 '08 students did.
 
-<b> Backup organization administrator? </b>
+'' Backup organization administrator? ''
 
 Johannes Schindelin
 
