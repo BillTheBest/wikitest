@@ -185,7 +185,7 @@ No. Git has a specific notion of tracked "content", which is basically just the 
 == Why won't I see changes in the remote repo after "git push"? ==
 The <code><nowiki>push</nowiki></code> operation is always about propagating the repository history and updating the refs, and never touches the working tree files.  In particular, if you push to update the branch that is checked out in a remote repository the files in the work tree will not be updated.
 
-This is a precautionary design decision.  The remote repository's work tree may have local changes, and there is no way for you, who are pushing into the remote repository, to resolve conflicts between the changes you are pushing and the ones in the work tree.  However, you can easily make a post-update hook to update the working copy of the checked out branch.  The reason for not making this a default example hook is that they only notify the person doing the pushing if there was a problem.  The latest draft post-update hook for this is at [[http://utsl.gen.nz/git/post-update]], which deals with almost all cases, apart from where there is already a conflicted merge on the remote side (as git-stash cannot currently stash this).  It also fails to work in instances where it could, such as none of the files are actually conflicting.
+This is a precautionary design decision.  The remote repository's work tree may have local changes, and there is no way for you, who are pushing into the remote repository, to resolve conflicts between the changes you are pushing and the ones in the work tree.  However, you can easily make a post-update hook to update the working copy of the checked out branch.  The reason for not making this a default example hook is that they only notify the person doing the pushing if there was a problem.  The latest draft post-update hook for this is at [http://utsl.gen.nz/git/post-update http://utsl.gen.nz/git/post-update], which deals with almost all cases, apart from where there is already a conflicted merge on the remote side (as git-stash cannot currently stash this).  It also fails to work in instances where it could, such as none of the files are actually conflicting.
 
 A quick rule of thumb is to ''never'' push into a repository that has a work tree attached to it, until you know what you are doing.
 
@@ -1065,7 +1065,7 @@ Yes, there is a number of importers, including one in contrib/ directory of Git 
 == Can I import from Mercurial? ==
 Yes, use for example Rocco Rutte's hg-fast-export (from fast-export.git on [http://repo.or.cz/ repo.or.cz]).
 
-You can also use hg-git mercurial plugin ([[http://hg-git.github.com/]]) that adds to the Mercurial repository ability to push to and pull from a Git server.
+You can also use hg-git mercurial plugin ([http://hg-git.github.com/ http://hg-git.github.com/]) that adds to the Mercurial repository ability to push to and pull from a Git server.
 {{anchor|import-others}}
 == Can I import from other SCMs? ==
 Maybe, check if Tailor ([http://wiki.darcs.net/DarcsWiki/Tailor homepage]) can do it. Take a look at [[InterfacesFrontendsAndTools#rcs-interaction|[[InterfacesFrontendsAndTools]]]] page ("Interaction with other Revision Control Systems" section)
