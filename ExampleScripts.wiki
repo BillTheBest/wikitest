@@ -5,7 +5,7 @@
 
 Often, new users request a new feature of Git, which is very easy to do in a script. In fact, most of Git's user interface originated as a bash or Perl script. As a consequence, the interfaces of core Git programs (e.g. `rev-list` or `diff-tree`) are quite easy to use from scripts.
 
-<b>Table of contents:</b>
+''Table of contents:''
 
 __TOC__
 
@@ -218,7 +218,7 @@ close FH;
 
 == Output a commit graph with [[GraphViz]]' "dot" tool ==
 
-The [[GraphViz]] suite contains programs to render graphs nicely.  Since the revision graph is a <i>DAG</i> (directed acyclic graph), you might want to look at the revision graph in this manner.
+The [[GraphViz]] suite contains programs to render graphs nicely.  Since the revision graph is a ''DAG'' (directed acyclic graph), you might want to look at the revision graph in this manner.
 
 Call this script with rev-list parameters to get input for "dot".
 
@@ -418,7 +418,7 @@ print @canvas;
 git-darcs-record, emulate "darcs record" interface on top of a git repository.
 This is replacement for <code><nowiki>git commit --interactive</nowiki></code>
 
-<b>Reference:</b> [http://raphael.slinckx.net/blog/2007-11-03/git-commit-darcs-record git commit / darcs record] on [http://raphael.slinckx.net/blog/ Raphaël Slinckx blog]
+''Reference:'' [http://raphael.slinckx.net/blog/2007-11-03/git-commit-darcs-record git commit / darcs record] on [http://raphael.slinckx.net/blog/ Raphaël Slinckx blog]
 
 <pre><nowiki>#!python
 #!/usr/bin/env python
@@ -684,6 +684,6 @@ else:
 
 </nowiki></pre>
 
-[[Category:GitDocumentation]]
+[[Category::GitDocumentation]]
 
 __NOTOC__
