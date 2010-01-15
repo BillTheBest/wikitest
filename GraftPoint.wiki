@@ -37,7 +37,7 @@ terminated by a newline. <pre><nowiki>
  the ELinks project.
 
 ----
-[[Category:GitDocumentation]]
-[[Category:Glossary]]
+[[Category::GitDocumentation]]
+[[Category::Glossary]]
 
 __NOTOC__
