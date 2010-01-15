@@ -1,9 +1,9 @@
-<<<!-- ! TOC here -->(2)>>
+__TOC__
 
 ----
-<b>See also:</b>
+'''See also:'''
 * [[GitTips]] page
-* [[http://yuilibrary.com/gitfaq/|Git FAQ at YUI Library]]
+* [http://yuilibrary.com/gitfaq/ Git FAQ at YUI Library]
 
 = General Questions =
 
@@ -35,14 +35,14 @@ The short definition is:
 
 <b>Pull</b>: Fetch (as defined above), and then merge what was downloaded with the current development.
 
-* See the [[http://www.kernel.org/pub/software/scm/git/docs/git-fetch.html|git-fetch(1)]] and [[http://www.kernel.org/pub/software/scm/git/docs/git-pull.html|git-pull(1)]] man pages or the tutorials for more details.
+* See the [http://www.kernel.org/pub/software/scm/git/docs/git-fetch.html git-fetch(1)] and [http://www.kernel.org/pub/software/scm/git/docs/git-pull.html git-pull(1)] man pages or the tutorials for more details.
 
 <<[[GitLink]](public-repo,A daemon like sshd, apache, or git-daemon)>>
 == What can I use to set up a public repository? ==
 A SSH server, an HTTP server, or the git-daemon. Local networks can also use network filesystems, like NFS or SMBFS/CIFS (the Windows networks).
 
 * It seems not everyone thinks that SMBFS is a good idea; several people on #git hold the opinion that SMBFS should not be used with git.
-* See the [[http://www.kernel.org/pub/software/scm/git/docs/gittutorial.html|Git tutorial]] for more details.
+* See the [http://www.kernel.org/pub/software/scm/git/docs/gittutorial.html Git tutorial] for more details.
 
 <<[[GitLink]](empty-dirs,Git only tracks directories with files in them)>>
 == Can I add empty directories? ==
@@ -60,11 +60,11 @@ If you really need a directory to exist in checkouts you should create a file in
 
 On a second note, tracking renames is really just a special case of tracking how content moves in the tree. In some cases, you may instead be interested in querying when a function was added or moved to a different file. By only relying on the ability to recreate this information when needed, Git aims to provide a more flexible way to track how your tree is changing.
 
-However, this does not mean that Git has no support for renames. The diff machinery in Git has support for automatically detecting renames, this is turned on by the <code><nowiki>'-M'</nowiki></code> switch to the <code><nowiki>git-diff-*</nowiki></code> family of commands. The rename detection machinery is used by [[http://www.kernel.org/pub/software/scm/git/docs/git-log.html|git-log(1)]] and [[http://www.kernel.org/pub/software/scm/git/docs/git-whatchanged.html|git-whatchanged(1)]], so for example, <code><nowiki>'git log -M'</nowiki></code> will give the commit history with rename information. Git also supports a limited form of merging across renames. The two tools for assigning blame, [[http://www.kernel.org/pub/software/scm/git/docs/git-blame.html|git-blame(1)]] and [[http://www.kernel.org/pub/software/scm/git/docs/git-annotate.html|git-annotate(1)]] both use the automatic rename detection code to track renames.
+However, this does not mean that Git has no support for renames. The diff machinery in Git has support for automatically detecting renames, this is turned on by the <code><nowiki>'-M'</nowiki></code> switch to the <code><nowiki>git-diff-*</nowiki></code> family of commands. The rename detection machinery is used by [http://www.kernel.org/pub/software/scm/git/docs/git-log.html git-log(1)] and [http://www.kernel.org/pub/software/scm/git/docs/git-whatchanged.html git-whatchanged(1)], so for example, <code><nowiki>'git log -M'</nowiki></code> will give the commit history with rename information. Git also supports a limited form of merging across renames. The two tools for assigning blame, [http://www.kernel.org/pub/software/scm/git/docs/git-blame.html git-blame(1)] and [http://www.kernel.org/pub/software/scm/git/docs/git-annotate.html git-annotate(1)] both use the automatic rename detection code to track renames.
 
 As a very special case, <code><nowiki>'git log'</nowiki></code> version 1.5.3 and later has <code><nowiki>'--follow'</nowiki></code> option that allows you to follow renames when given a single path.
 
-* [[http://permalink.gmane.org/gmane.comp.version-control.git/217|Mail]] by Linus on this topic.
+* [http://permalink.gmane.org/gmane.comp.version-control.git/217 Mail] by Linus on this topic.
 
 Git has a rename command <b>git mv</b>, but that is just a convenience. The effect is indistinguishable from removing the file and adding another with different name and the same content.
 
@@ -80,7 +80,7 @@ Note that <code><nowiki>git log <file1> <file2></nowiki></code> (or <code><nowik
 
 To speed up <code><nowiki>git log</nowiki></code>, give it a range of interesting revisions; you can also try <code><nowiki>--remove-empty</nowiki></code> option (with some caveats).
 
-* [[http://permalink.gmane.org/gmane.comp.version-control.git/39358|Re: how to speed up "git log"?]] by Linus Torvalds on Git mailing list.
+* [http://permalink.gmane.org/gmane.comp.version-control.git/39358 Re: how to speed up "git log"?] by Linus Torvalds on Git mailing list.
 
 <<[[GitLink]](exporting-cdpath-breaks-things,Exporting CDPATH confuses shell scripts)>>
 == Why is it wrong to export the environment variable CDPATH? ==
@@ -88,11 +88,11 @@ The CDPATH variable is purely for interactive use.  A lot of scripts break if a 
 
 In contrast, if you just remove the "export" from your .bashrc, you are guaranteed to never get bitten by that breakage again!
 
-* [[http://article.gmane.org/gmane.comp.version-control.git/13736/match=cdpath|Re: make install bug?]]
+* [http://article.gmane.org/gmane.comp.version-control.git/13736/match=cdpath Re: make install bug?]
 
 <<[[GitLink]](gitweb-in-git,Gitweb is distributed with git now)>>
 == How come gitweb suddenly disappeared from the project list at kernel.org/git? ==
-Because it got merged into git. See [[http://kernel.org/git/?p=git/git.git;a=commit;h=0a8f4f0020cb35095005852c0797f0b90e9ebb74|the relevant commit]].
+Because it got merged into git. See [http://kernel.org/git/?p=git/git.git;a=commit;h=0a8f4f0020cb35095005852c0797f0b90e9ebb74 the relevant commit].
 
 <<[[GitLink]](merge-vs-rebase,Rebasing rewrites history)>>
 == What is the difference between a merge and a rebase? ==
@@ -1072,10 +1072,10 @@ Maybe, check if Tailor ([[http://wiki.darcs.net/DarcsWiki/Tailor|homepage]]) can
 
 ----
 = References =
-* [[http://koalabs.org/~ange/git_faq/faq.html|GIT FAQ by Thomas Riboulet]] (defunct).
+* [http://koalabs.org/~ange/git_faq/faq.html GIT FAQ by Thomas Riboulet] (defunct).
 * [[GitCommunity]], mainly Git mailing list.
 * [[WikiPedia:Git_(software)|Git (software)]] article at Wikipedia.
 ----
-[[CategoryGlossary]] [[CategoryGitDocumentation]]
+[[Category:Glossary]] [[Category:GitDocumentation]]
 
 __NOTOC__
