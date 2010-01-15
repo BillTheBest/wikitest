@@ -11,12 +11,12 @@ Many git commands are currently implemented as scripts, since they are easy to p
 
 Many projects has been converted to builtin code already, and the structure of the code simplifies that task. At present, there are about 10 perl scripts and 32 shell scripts in the Git code implementing essential Git commands, like "git commit", "git merge", "git clone", etc. It has been estimated three days for converting the smaller cases, and a couple of weeks for the larger ones, so most of the scripts would be replaced with this project, allowing easier port of the program to other platforms.
 
-''SoC page:'' [http://code.google.com/soc/git/appinfo.html?csaid=BB370B5D857FA7A Replace most core scripts with C versions.] <<BR>>
-''Webpage:'' [[SoC2007Projects/MoreToolsBuiltin]] <<BR>>
-''Student:'' Carlos Rica Espinosa <<BR>>
-''Mentor:'' Johannes Schindelin <<BR>>
-''Repository:'' git://repo.or.cz/git/builtin-gsoc.git <<BR>>
-''Gitweb:'' http://repo.or.cz/w/git/builtin-gsoc.git <<BR>>
+''SoC page:'' [http://code.google.com/soc/git/appinfo.html?csaid=BB370B5D857FA7A Replace most core scripts with C versions.] <BR>
+''Webpage:'' [[SoC2007Projects/MoreToolsBuiltin]] <BR>
+''Student:'' Carlos Rica Espinosa <BR>
+''Mentor:'' Johannes Schindelin <BR>
+''Repository:'' git://repo.or.cz/git/builtin-gsoc.git <BR>
+''Gitweb:'' http://repo.or.cz/w/git/builtin-gsoc.git <BR>
 
 ''Progress reports:''
 * [http://permalink.gmane.org/gmane.comp.version-control.git/53070 Re: GSoC status report] by Shawn O. Pearce on git mailing list
@@ -30,12 +30,12 @@ Such implementation problems make it hard to write bindings for GIT (e.g. Perl a
 
 This project's goal is to fix the main issues, write an API to retrieve data from GIT and a simple Python binding to demonstrate the API usefulness.
 
-''SoC page:'' [http://code.google.com/soc/git/appinfo.html?csaid=5DB940E4533E058B GIT library project] <<BR>>
-''Webpage:'' [[SoC2007Projects/Libification]] <<BR>>
-''Student:'' Luiz Fernando N. Capitulino <<BR>>
-''Mentor:'' Shawn O. Pearce <<BR>>
-''Repository:'' git://repo.or.cz/git/libgit-gsoc.git <<BR>>
-''Gitweb:'' http://repo.or.cz/w/git/libgit-gsoc.git <<BR>>
+''SoC page:'' [http://code.google.com/soc/git/appinfo.html?csaid=5DB940E4533E058B GIT library project] <BR>
+''Webpage:'' [[SoC2007Projects/Libification]] <BR>
+''Student:'' Luiz Fernando N. Capitulino <BR>
+''Mentor:'' Shawn O. Pearce <BR>
+''Repository:'' git://repo.or.cz/git/libgit-gsoc.git <BR>
+''Gitweb:'' http://repo.or.cz/w/git/libgit-gsoc.git <BR>
 
 ''Progress reports:''
 * [http://permalink.gmane.org/gmane.comp.version-control.git/53070 Re: GSoC status report] by Shawn O. Pearce on git mailing list
@@ -50,12 +50,12 @@ The first goal of the project is to provide working experimental version of this
 
 The code will be written in Python.
 
-''SoC page:'' [http://code.google.com/soc/git/appinfo.html?csaid=130BE24CCA0EFEAC Gittorrent Server and Peer] <<BR>>
-''Webpage:'' [[SoC2007Projects/GitTorrent]] <<BR>>
-''Student:'' Srijak Rijal <<BR>>
-''Mentor:'' Sam Vilain <<BR>>
-''Repository:'' <<BR>>
-''Gitweb:'' <<BR>>
+''SoC page:'' [http://code.google.com/soc/git/appinfo.html?csaid=130BE24CCA0EFEAC Gittorrent Server and Peer] <BR>
+''Webpage:'' [[SoC2007Projects/GitTorrent]] <BR>
+''Student:'' Srijak Rijal <BR>
+''Mentor:'' Sam Vilain <BR>
+''Repository:'' <BR>
+''Gitweb:'' <BR>
 
 ----
 ----
@@ -66,9 +66,9 @@ The code will be written in Python.
 
 The goal of this project is to to write a fully managed library implementing the git source code management system in C#, and use said library to write a versioning plugin for the Tomboy note-taking application. This would accomplish multiple objectives of importance to several FOSS projects: it would provide a managed git library that could be used to provide a git extension to MonoDevelop, as has been requested by the Mono project; provide versioning support to Tomboy, as has been requested by GNOME; and provide the foundations for a Windows port of git that does not rely on Cygwin or other compatibility layers.
 
-''SoC page:'' [http://code.google.com/soc/mono/appinfo.html?csaid=59AC96ED9267FFC3 Managed C# git implementation for use in Tomboy versioning] <<BR>>
-''Organization:'' [http://www.mono-project.com Mono Project] ([http://code.google.com/soc/mono/about.html organization SoC info]) <<BR>>
-''Student:'' Andrew Pendleton <<BR>>
-''Mentor:'' Miguel de Icaza <<BR>>
+''SoC page:'' [http://code.google.com/soc/mono/appinfo.html?csaid=59AC96ED9267FFC3 Managed C# git implementation for use in Tomboy versioning] <BR>
+''Organization:'' [http://www.mono-project.com Mono Project] ([http://code.google.com/soc/mono/about.html organization SoC info]) <BR>
+''Student:'' Andrew Pendleton <BR>
+''Mentor:'' Miguel de Icaza <BR>
 
 __NOTOC__
