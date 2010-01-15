@@ -57,6 +57,6 @@ Basically, you can use all your usual shell script skills.  But there are a few 
 * 'sed' "fixes" a missing newline at the end on some platforms.  If you need to keep the last line without a newline, add the last line with 'echo "..." | tr -d '\n' >> file'.
 
 ----
-[[Category:GitDocumentation]]
+[[Category::GitDocumentation]]
 
 __NOTOC__
