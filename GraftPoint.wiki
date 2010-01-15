@@ -38,6 +38,6 @@ terminated by a newline. <pre><nowiki>
 
 ----
 [[Category:GitDocumentation]]
-[[Category:GitGlossary]]
+[[Category:Glossary]]
 
 __NOTOC__
