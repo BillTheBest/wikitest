@@ -20,14 +20,14 @@ If you have the main development team on linux/unix, and peripheral developers o
 == Others ==
 * EclipseIDE-based GIT client, based on a pure [http://repo.or.cz/w/egit.git Java implementation] of GIT's internals.
 * Windows Explorer extension ([http://code.google.com/p/msysgit/wiki/GitCheetah Git-Cheetah])
-* Git Extensions for Windows and Visual Studio ([[http://sourceforge.net/projects/gitextensions/]])
+* Git Extensions for Windows and Visual Studio ([http://sourceforge.net/projects/gitextensions/ http://sourceforge.net/projects/gitextensions/])
 == OS X ==
 Git for the OS X is installed by using the [http://code.google.com/p/git-osx-installer/downloads/list git-osx-installer] but if you haven't got Leopard you're screwed because there aren't any install scripts and the source won't compile.
 
 Alternatively, you can install Git via [http://www.macports.org/ MacPorts] or [http://www.finkproject.org/ Fink]. Both work with Tiger, but may pull in a couple of dependencies. With [[MacPorts]], be sure to check out possible extra features with <code><nowiki>port variants git-core</nowiki></code>; for example, to install Git with bash completion use <code><nowiki>sudo port install git-core +bash_completion</nowiki></code>.
 
 == Debian / Ubuntu ==
-If you want to build deb packages from upstream Git sources yourself (because the official debs are too old or you want to try some patch, whatever), you could try: [[http://repo.or.cz/w/gitcj-debian.git]]
+If you want to build deb packages from upstream Git sources yourself (because the official debs are too old or you want to try some patch, whatever), you could try: [http://repo.or.cz/w/gitcj-debian.git http://repo.or.cz/w/gitcj-debian.git]
 
 == Getting and installing documentation ==
 You can find all the plain text documentation in the git source tree's [http://www.kernel.org/git/?p=git/git.git;a=tree;f=Documentation Documentation/] directory.
