@@ -1,20 +1,20 @@
 Git's application to Google's Summer of Code 2007.
 
 The application questions can be found on
-[[http://code.google.com/support/bin/answer.py?answer=60303&topic=10727|code.google.com]].
+[http://code.google.com/support/bin/answer.py?answer=60303&topic=10727 code.google.com].
 
 Shawn Pearce has volunteered to submit the application and serve
 as our group's primary contact.
 
-<b> What is your Organization's Name? </b>
+'' What is your Organization's Name? ''
 
 Git Development Community
 
-<b> What is your Organization's Homepage? </b>
+'' What is your Organization's Homepage? ''
 
 [[http://git.or.cz/]]
 
-<b> Describe your organization. </b>
+'' Describe your organization. ''
 
 As Git approaches its second anniversary, it is now the revision control system of choice for many of the largest and most successful open source projects, including the Linux kernel and at least five Google Summer of Code 2006 projects: One Laptop Per Child, Tangram, The Wine Project, XMMS2, and X.org.  Many more are considering Git adoption.
 
@@ -43,19 +43,19 @@ Account information. '''
 
 Shawn O. Pearce (have Google Account)
 
-<b> What license does your project use? </b>
+'' What license does your project use? ''
 
 GPL (GNU Public License)
 
-<b> What is the URL for your ideas page? </b>
+'' What is the URL for your ideas page? ''
 
 [[http://git.or.cz/gitwiki/SoC2007Ideas]]
 
-<b> What is the main development mailing list for your organization? </b>
+'' What is the main development mailing list for your organization? ''
 
 git@vger.kernel.org
 
-<b> What is the main IRC channel for your organization? </b>
+'' What is the main IRC channel for your organization? ''
 
 <!-- #git on irc.freenode.org.
  -->
@@ -90,7 +90,7 @@ Active contributers are defined to be those who have submitted and have had acce
 
 All mentors are well known within the Git development community for their accomplishments and contributions.
 
-<b> What is your plan for dealing with disappearing students? </b>
+'' What is your plan for dealing with disappearing students? ''
 
 Every reasonable effort will be made to maintain contact with students and ensure they are making progress throughout the summer.
 
@@ -98,7 +98,7 @@ In the unfortunate event that a student abandons and does not complete his/her G
 
 Students will also be strongly encouraged by our mentors to work through their project by completing several small milestones throughout the summer.  This strategy of project organization will help students to feel like they have accomplished something useful sooner,  as well as making it easier for the Git community to pick up an abandoned project.
 
-<b> What is your plan for dealing with disappearing mentors? </b>
+'' What is your plan for dealing with disappearing mentors? ''
 
 Most of our suggested projects have more than one mentor available.  As a community we plan on making sure all of the active projects have at least two mentors willing and available to work with the student, reducing the likelihood that the project becomes mentor-less during GSoC '07.
 
