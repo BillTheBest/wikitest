@@ -67,7 +67,7 @@ It is also possible to let [[GitBot]] give links to FAQ entries on the [[GitFaq]
 
 This works by adding a macro on the faq page. For example, the push-f macro above was created by adding :
 <pre><nowiki>
-<<GitLink(push-f, If you use push -f, others might get into when pulling)>>
+<<GitLink(push-f, If you use push -f, others might get into when pulling}}
 </nowiki></pre>
 To the FAQ page at the right place. This means that everybody is able (and invited) to add or change FAQ replies by the bot.
 
