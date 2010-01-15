@@ -25,82 +25,82 @@ Here are few tips for new users, or users that don't like to read the manual:
 * Tip: set your pages language with <code><nowiki>#language en</nowiki></code> processing instruction. See also [[HelpOnLanguages]].
 * Tip: you can add your favorite pages to your navibar. See your Quicklinks list in [[UserPreferences]].
 * Tip: you can search for multiple words, just like Google. See also [[HelpOnSearching]].
-* Tip: get email notification when this page change, by clicking <b><<[[GetText]](subscribe)>></b>.
+* Tip: get email notification when this page change, by clicking ''<<[[GetText]](subscribe}}''.
 
 <!-- ## http://en.wikiquote.org/wiki/Linus_Torvalds
  -->
 <!-- ## and other Linus Torvalds fortune cookies
  -->
-* Given enough eyeballs, all bugs are shallow. <i>(Eric S. Raymond, aka Linus' Law)</i>
-* I'm basically a very lazy person who likes to get credit for things other people actually do. <i>(Eric S. Raymond)</i>
-* We all know Linux is great: it does infinite loops in 5 seconds. <i>(Linus Torvalds)</i>
-* "I name all my projects after myself: first 'Linux', now 'git'". <i>(Linus Torvalds)</i>
-* If you need more than 3 levels of indentation, you're screwed anyway, and should fix your program. <i>(Linux 1.3.53 CodingStyle documentation)</i>
-* You know you're brilliant, but maybe you'd like to understand what you did 2 weeks from now. <i>(Linux 1.3.53 CodingStyle documentation)</i>
-* ... the Linux philosophy is 'laugh in the face of danger'. Oops. Wrong one. 'Do it yourself'. That's it. <i>(Linus Torvalds)</i>
-* Talk is cheap. Show me the code. <i>(Linus Torvalds)</i>
+* Given enough eyeballs, all bugs are shallow. ''(Eric S. Raymond, aka Linus' Law)''
+* I'm basically a very lazy person who likes to get credit for things other people actually do. ''(Eric S. Raymond)''
+* We all know Linux is great: it does infinite loops in 5 seconds. ''(Linus Torvalds)''
+* "I name all my projects after myself: first 'Linux', now 'git'". ''(Linus Torvalds)''
+* If you need more than 3 levels of indentation, you're screwed anyway, and should fix your program. ''(Linux 1.3.53 CodingStyle documentation)''
+* You know you're brilliant, but maybe you'd like to understand what you did 2 weeks from now. ''(Linux 1.3.53 CodingStyle documentation)''
+* ... the Linux philosophy is 'laugh in the face of danger'. Oops. Wrong one. 'Do it yourself'. That's it. ''(Linus Torvalds)''
+* Talk is cheap. Show me the code. ''(Linus Torvalds)''
 * Those that can, do. Those that can't, complain.
-* "Regression testing"? What's that? If it compiles, it is good, if it boots up it is perfect. <i>(Linus Torvalds)</i>
-* Intelligence is the ability to avoid doing work, yet getting the work done. <i>(Linus Torvalds)</i>
-* See, you not only have to be a good coder to create a system like Linux, you have to be a sneaky bastard too. <i>(Linus Torvalds)</i>
-* Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program. <i>(Linus Torvalds)</i>
-* I will, in fact, claim that the difference between a bad programmer and a good one is whether he considers his code or his data structures more important. Bad programmers worry about the code. Good programmers worry about data structures and their relationships. <i>(Linus Torvalds)</i>
-* Really, I’m not out to destroy Microsoft. That will just be a completely unintentional side effect.  <i>(Linus Torvalds)</i>
+* "Regression testing"? What's that? If it compiles, it is good, if it boots up it is perfect. ''(Linus Torvalds)''
+* Intelligence is the ability to avoid doing work, yet getting the work done. ''(Linus Torvalds)''
+* See, you not only have to be a good coder to create a system like Linux, you have to be a sneaky bastard too. ''(Linus Torvalds)''
+* Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program. ''(Linus Torvalds)''
+* I will, in fact, claim that the difference between a bad programmer and a good one is whether he considers his code or his data structures more important. Bad programmers worry about the code. Good programmers worry about data structures and their relationships. ''(Linus Torvalds)''
+* Really, I’m not out to destroy Microsoft. That will just be a completely unintentional side effect.  ''(Linus Torvalds)''
 
 <!-- ## git mailing list
  -->
-* I like colorized diffs, but let's face it, those particular color choices will make most people decide to pick out their eyes with a fondue fork. (...) So in order to avoid a lot of blind git users, please apply this patch. <i>(Linus Torvalds)</i>
-* Case <b>does</b> matter. Anybody who claims otherwise is a total idiot. And no, e e cummings is not an example to the contrary. Quite the reverse. <i>(Linus Torvalds)</i>
-* ... and if it wasn't clear, "helping" CVS users is not in my opinion to try to make git act like CVS, and lettign them do stupid things, but to try to help them become <b>more</b> than CVS users. <i>(Linus Torvalds)</i>
-* The people will complain. On this list. And I have to check the mails before deleting, because the Subject: does not say "I just took the rope, ignored your caveat emptor, and now I am dead. What should I do now?". <i>(Johannes Schindelin)</i>
-* In related news: there is really no question that bike sheds should be painted red. Really. <i>(Johannes Schindelin)</i>
-* Hmm, I don't think I've even <b>noticed</b> a real bike shed in decades.  Perhaps they should be painted purple with yellow polkadots and have the words "BIKE SHED" on a flashing neon sign. <i>(Eric Wong)</i>
-* P.S.: Linus paid for his Caps Lock key, so he might as well use it. <i>(Johannes Schindelin)</i>
-* By "mutual agreement" I mean that I tell you what it looks like and you agree :) <i>(Robin Rosenberg)</i>
-* To be fair, there are uses for XML.  On Halloween, for example.  <i>(Johannes Schindelin)</i>
-* We could put up some commercials [on git homepage] as well and use them for funding pizza distributed in a round-robin fashion between the developers. <i>(Petr "Pasky" Baudis)</i>
-* Repeat after me: in git, *everything* is a SHA1 object! <i>(Linus Torvalds)</i>
-* ... where "core git" originally was about "what I use" and the whole "porcelain" side ends up being "what people who need hand-holding use" ;) <i>(Linus Torvalds)</i>
-* For example, try doing the timings after flushing the disk caches [...] Or do it over NFS.  Yes, even the "fast" case will actually be painfully slow (well, it is for me, people who are used to CVS probably think it's just "normal"). <i>(Linus Torvalds)</i>
-* Linus constantly says that he prefers tools that he can figure out why they did something stupid over tools that try really hard to get it right, and I agree with him 100%, as do most of the core contributors (insofar as I've understood it). <i>(Andreas Ericsson)</i>
-* PS. Ok, so my definition of "plain C" is a bit odd. There's nothing plain about it. It's disgusting C preprocessor misuse. But dang, it's kind of fun to abuse the compiler this way. <i>(Linus Torvalds)</i>
+* I like colorized diffs, but let's face it, those particular color choices will make most people decide to pick out their eyes with a fondue fork. (...) So in order to avoid a lot of blind git users, please apply this patch. ''(Linus Torvalds)''
+* Case ''does'' matter. Anybody who claims otherwise is a total idiot. And no, e e cummings is not an example to the contrary. Quite the reverse. ''(Linus Torvalds)''
+* ... and if it wasn't clear, "helping" CVS users is not in my opinion to try to make git act like CVS, and lettign them do stupid things, but to try to help them become ''more'' than CVS users. ''(Linus Torvalds)''
+* The people will complain. On this list. And I have to check the mails before deleting, because the Subject: does not say "I just took the rope, ignored your caveat emptor, and now I am dead. What should I do now?". ''(Johannes Schindelin)''
+* In related news: there is really no question that bike sheds should be painted red. Really. ''(Johannes Schindelin)''
+* Hmm, I don't think I've even ''noticed'' a real bike shed in decades.  Perhaps they should be painted purple with yellow polkadots and have the words "BIKE SHED" on a flashing neon sign. ''(Eric Wong)''
+* P.S.: Linus paid for his Caps Lock key, so he might as well use it. ''(Johannes Schindelin)''
+* By "mutual agreement" I mean that I tell you what it looks like and you agree :) ''(Robin Rosenberg)''
+* To be fair, there are uses for XML.  On Halloween, for example.  ''(Johannes Schindelin)''
+* We could put up some commercials [on git homepage] as well and use them for funding pizza distributed in a round-robin fashion between the developers. ''(Petr "Pasky" Baudis)''
+* Repeat after me: in git, *everything* is a SHA1 object! ''(Linus Torvalds)''
+* ... where "core git" originally was about "what I use" and the whole "porcelain" side ends up being "what people who need hand-holding use" ;) ''(Linus Torvalds)''
+* For example, try doing the timings after flushing the disk caches [...] Or do it over NFS.  Yes, even the "fast" case will actually be painfully slow (well, it is for me, people who are used to CVS probably think it's just "normal"). ''(Linus Torvalds)''
+* Linus constantly says that he prefers tools that he can figure out why they did something stupid over tools that try really hard to get it right, and I agree with him 100%, as do most of the core contributors (insofar as I've understood it). ''(Andreas Ericsson)''
+* PS. Ok, so my definition of "plain C" is a bit odd. There's nothing plain about it. It's disgusting C preprocessor misuse. But dang, it's kind of fun to abuse the compiler this way. ''(Linus Torvalds)''
 
 <!-- ## blogs
  -->
-* Git is a lot like C. It's incredibly flexible and powerful but it is also incredible flexible and powerful. <i>(Masukomi)</i>
-* If you want to shoot yourself in the foot Git will point you to the gun rack and show you how to load the bullets. <i>(Masukomi)</i>
-* And then there’s `git rebase --interactive`, which is a bit like `git commit --amend` hopped up on acid and holding a chainsaw -- completely insane and quite dangerous but capable of exposing entirely new states of mind. <i>(Ryan Tomayko)</i>
-* Then somebody insisted that all future projects would use CVS. (...) It had quite clearly evolved via the <b>Sticky-Tape and String school of software development</b>, but it worked pretty well [compared to Visual Source Safe]. <i>(Dan Dyer)</i>.
-* “Visual SourceSafe? It would be safer to print out all your code, run it through a shredder, and set it on fire.” <i>(Attributed to an unidentified Microsoft employee)</i>.
-* Meanwhile, there are many happy Visual SourceSafe users (really, there are -- I've met some, they are nice people despite this) who find the idea of a non-exclusive locking source control system to be the very definition of chaos. <i>(Derek Slager)</i>
-* The palest ink is better than the best memory. <i>(Chinese proverb)</i>
+* Git is a lot like C. It's incredibly flexible and powerful but it is also incredible flexible and powerful. ''(Masukomi)''
+* If you want to shoot yourself in the foot Git will point you to the gun rack and show you how to load the bullets. ''(Masukomi)''
+* And then there’s `git rebase --interactive`, which is a bit like `git commit --amend` hopped up on acid and holding a chainsaw -- completely insane and quite dangerous but capable of exposing entirely new states of mind. ''(Ryan Tomayko)''
+* Then somebody insisted that all future projects would use CVS. (...) It had quite clearly evolved via the ''Sticky-Tape and String school of software development'', but it worked pretty well [compared to Visual Source Safe]. ''(Dan Dyer)''.
+* “Visual SourceSafe? It would be safer to print out all your code, run it through a shredder, and set it on fire.” ''(Attributed to an unidentified Microsoft employee)''.
+* Meanwhile, there are many happy Visual SourceSafe users (really, there are -- I've met some, they are nice people despite this) who find the idea of a non-exclusive locking source control system to be the very definition of chaos. ''(Derek Slager)''
+* The palest ink is better than the best memory. ''(Chinese proverb)''
 
 <!-- ## other fortune cookies
  -->
-* Writing a BitKeeper replacement is probably easier at this point than getting its license changed. <i>(Matt Mackall)</i>
+* Writing a BitKeeper replacement is probably easier at this point than getting its license changed. ''(Matt Mackall)''
 * Welcome to FOSS revolution: we fix and modify until it shines.
-* We  reject  kings, presidents,  and  voting.  We  believe in rough consensus and running code. <i>(Dave Clark, 1992 IETF meeting)</i>
-* I've never met a human being who would want to read 17,000 pages of documentation, and if there was, I'd kill him to get him out of the gene pool. <i>(Joseph Costello)</i>
+* We  reject  kings, presidents,  and  voting.  We  believe in rough consensus and running code. ''(Dave Clark, 1992 IETF meeting)''
+* I've never met a human being who would want to read 17,000 pages of documentation, and if there was, I'd kill him to get him out of the gene pool. ''(Joseph Costello)''
 * The world of technical support is like a reflecting pool. To those who exist outside, it appears to be a deep, mystical place; bottomless, terrifying, foreign. The truth, however, is that the pool is only about three feet deep, and the bottom is grainy silt over sharp, hurty rocks.
-* <b>Q:</b> How many hackers does it take to screw in a light bulb?<<BR>><b>A:</b> Huh?...What? Oh, it's dark in here?
-* "The most exciting phrase to hear in science, the one that heralds new discoveries, is not 'Eureka!' but 'That's funny ...'" <i>(Isaac Asimov)</i>
-* Unix <b>*is*</b> user-friendly. It is not ignorant-friendly and idiot-friendly.
-* Remember, Murphy was an optimist. <i>(Peter van Hooft)</i>
+* ''Q:'' How many hackers does it take to screw in a light bulb?<<BR>>''A:'' Huh?...What? Oh, it's dark in here?
+* "The most exciting phrase to hear in science, the one that heralds new discoveries, is not 'Eureka!' but 'That's funny ...'" ''(Isaac Asimov)''
+* Unix ''*is*'' user-friendly. It is not ignorant-friendly and idiot-friendly.
+* Remember, Murphy was an optimist. ''(Peter van Hooft)''
 * You know you're a Unix guy when your dreams start with `#!/bin/sh`.
-* If I had it all to do over again, I'd spell `creat` with an "e". <i>(Brian Kernighan)</i>
-* Anyway the `://` part is an 'emoticon' representing a man with a strip of sticky tape across his mouth. <i>(R. Douglas)</i>
+* If I had it all to do over again, I'd spell `creat` with an "e". ''(Brian Kernighan)''
+* Anyway the `://` part is an 'emoticon' representing a man with a strip of sticky tape across his mouth. ''(R. Douglas)''
 
 <!-- ## [[BrainyQuote]]
  -->
-* Part of the inhumanity of the computer is that, once it is competently programmed and working smoothly, it is completely honest. <i>(Isaac Asimov)</i>
-* I am not the only person who uses his computer mainly for the purpose of diddling with his computer. <i>(Dave Barry)</i>
-* Computer science is no more about computers than astronomy is about telescopes. <i>(Edsger Dijkstra)</i>
-* Home computers are being called upon to perform many new functions, including the consumption of homework formerly eaten by the dog. <i>(Doug Larson)</i>
-* The good news about computers is that they do what you tell them to do. The bad news is that they do what you tell them to do. <i>(Ted Nelson)</i>
-* To err is human - and to blame it on a computer is even more so. <i>(Robert Orben)</i>
-* People think computers will keep them from making mistakes. They're wrong. With computers you make mistakes faster. <i>(Adam Osborne)</i>
-* Treat your password like your toothbrush. Don't let anybody else use it, and get a new one every six months. <i>(Clifford Stoll)</i>
-* Never trust a computer you can't throw out a window. <i>(Steve Wozniak)</i>
+* Part of the inhumanity of the computer is that, once it is competently programmed and working smoothly, it is completely honest. ''(Isaac Asimov)''
+* I am not the only person who uses his computer mainly for the purpose of diddling with his computer. ''(Dave Barry)''
+* Computer science is no more about computers than astronomy is about telescopes. ''(Edsger Dijkstra)''
+* Home computers are being called upon to perform many new functions, including the consumption of homework formerly eaten by the dog. ''(Doug Larson)''
+* The good news about computers is that they do what you tell them to do. The bad news is that they do what you tell them to do. ''(Ted Nelson)''
+* To err is human - and to blame it on a computer is even more so. ''(Robert Orben)''
+* People think computers will keep them from making mistakes. They're wrong. With computers you make mistakes faster. ''(Adam Osborne)''
+* Treat your password like your toothbrush. Don't let anybody else use it, and get a new one every six months. ''(Clifford Stoll)''
+* Never trust a computer you can't throw out a window. ''(Steve Wozniak)''
 
 <!-- ## http://www.emacswiki.org/emacs-en/perlisisms.el
  -->
@@ -110,29 +110,29 @@ Here are few tips for new users, or users that don't like to read the manual:
  -->
 <!-- ### Programming", by Alan J. Perlis of Yale University.
  -->
-* It is easier to write an incorrect program than understand a correct one. <i>(Alan J. Perlis)</i>
-* A programming language is low level when its programs require attention to the irrelevant. <i>(Alan J. Perlis)</i>
-* Everything should be built top-down, except the first time. <i>(Alan J. Perlis)</i>
-* Every program has \(at least\) two purposes: the one for which it was written, and another for which it wasn't. <i>(Alan J. Perlis)</i>
-* If a listener nods his head when you're explaining your program, wake him up. <i>(Alan J. Perlis)</i>
-* Simplicity does not precede complexity, but follows it. <i>(Alan J. Perlis)</i>
-* Programmers are not to be measured by their ingenuity and their logic but by the completeness of their case analysis. <i>(Alan J. Perlis)</i>
-* There are two ways to write error-free programs; only the third one works. <i>(Alan J. Perlis)</i>
-* The best book on programming for the layman is "Alice in Wonderland"; but that's because it's the best book on anything for the layman. <i>(Alan J. Perlis)</i>
-* It is easier to change the specification to fit the program than vice versa. <i>(Alan J. Perlis)</i>
-* Fools ignore complexity. Pragmatists suffer it. Some can avoid it. Geniuses remove it. <i>(Alan J. Perlis)</i>
-* Documentation is like term insurance: It satisfies because almost no one who subscribes to it depends on its benefits. <i>(Alan J. Perlis)</i>
-* Dealing with failure is easy: Work hard to improve. Success is also easy to handle: You've solved the wrong problem. Work hard to improve. <i>(Alan J. Perlis)</i>
-* It goes against the grain of modern education to teach children to program. What fun is there in making plans, acquiring discipline in organizing  thoughts,  devoting attention to detail and learning to be self-critical? <i>(Alan J. Perlis)</i>
+* It is easier to write an incorrect program than understand a correct one. ''(Alan J. Perlis)''
+* A programming language is low level when its programs require attention to the irrelevant. ''(Alan J. Perlis)''
+* Everything should be built top-down, except the first time. ''(Alan J. Perlis)''
+* Every program has \(at least\) two purposes: the one for which it was written, and another for which it wasn't. ''(Alan J. Perlis)''
+* If a listener nods his head when you're explaining your program, wake him up. ''(Alan J. Perlis)''
+* Simplicity does not precede complexity, but follows it. ''(Alan J. Perlis)''
+* Programmers are not to be measured by their ingenuity and their logic but by the completeness of their case analysis. ''(Alan J. Perlis)''
+* There are two ways to write error-free programs; only the third one works. ''(Alan J. Perlis)''
+* The best book on programming for the layman is "Alice in Wonderland"; but that's because it's the best book on anything for the layman. ''(Alan J. Perlis)''
+* It is easier to change the specification to fit the program than vice versa. ''(Alan J. Perlis)''
+* Fools ignore complexity. Pragmatists suffer it. Some can avoid it. Geniuses remove it. ''(Alan J. Perlis)''
+* Documentation is like term insurance: It satisfies because almost no one who subscribes to it depends on its benefits. ''(Alan J. Perlis)''
+* Dealing with failure is easy: Work hard to improve. Success is also easy to handle: You've solved the wrong problem. Work hard to improve. ''(Alan J. Perlis)''
+* It goes against the grain of modern education to teach children to program. What fun is there in making plans, acquiring discipline in organizing  thoughts,  devoting attention to detail and learning to be self-critical? ''(Alan J. Perlis)''
 
 <!-- ## other sources
  -->
 * The first ninety percent of the task takes ninety percent of the time, and the last ten percent takes the other ninety percent.
-* People disagree with me. I just ignore them. <i>(Linus Torvalds, regarding the use of C++ for the Linux kernel.)</i>
-* Anyone can build a fast processor. The trick is to build a fast system. <i>(Seymour Cray)</i>
-* The problem with common sense is that it is not all that common. <i>(Voltaire)</i>
-* The computer "doth make fools of us all," so that any fool without the ability to share a laugh on himself will be unable to tolerate programming for long. <i>(Gerald M. Weinberg)</i>
-* It has been said with great perspicacity that the Programmer's National Anthem is "aaaaahhhhh." <i>(Gerald M. Weinberg)</i>
-* We should forget about small efficiencies, say about 97% of the time: premature optimization is the root of all evil. Yet we should not pass up our opportunities in that critical 3%. <i>(Donald Knuth)</i>
+* People disagree with me. I just ignore them. ''(Linus Torvalds, regarding the use of C++ for the Linux kernel.)''
+* Anyone can build a fast processor. The trick is to build a fast system. ''(Seymour Cray)''
+* The problem with common sense is that it is not all that common. ''(Voltaire)''
+* The computer "doth make fools of us all," so that any fool without the ability to share a laugh on himself will be unable to tolerate programming for long. ''(Gerald M. Weinberg)''
+* It has been said with great perspicacity that the Programmer's National Anthem is "aaaaahhhhh." ''(Gerald M. Weinberg)''
+* We should forget about small efficiencies, say about 97% of the time: premature optimization is the root of all evil. Yet we should not pass up our opportunities in that critical 3%. ''(Donald Knuth)''
 
 __NOTOC__
