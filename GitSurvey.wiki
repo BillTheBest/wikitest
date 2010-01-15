@@ -2,9 +2,9 @@
 (I'm going to summarize git survey incrementally here)
 Note that count is not exactly number of people.
 
-<b>Table of contents:</b>
+''Table of contents:''
 
-<<<!-- ! TOC here -->(2)>>
+__TOC__
 
 == 1. What country are you in? ==
 <pre><nowiki>#!CSV
@@ -474,7 +474,7 @@ Regarding to documentation. Here is some ideas:
 * Comparison with other SCMs
 * Common work flow cases simplified, especially WRT extracting patches for new development in the face of criss-crossed merges.
 * consistency in command options (--blah=bluh and --blah bluh for example)
-* Document <b>every</b> command options. git-diff options especially
+* Document ''every'' command options. git-diff options especially
 * How to deal with failed merges
 * Command classification: plumbing/porcelain/ancillary, C/Python/Bash, works on working tree/index/respository, manipulation/integration/syncing
 * GIT server setup, GIT remote repository setup
@@ -755,6 +755,6 @@ Count;Answer
 * Years of experience with programming, and/or SCMs. Use cases other than programming projects.
 * You may want to ask if somebody asked me for help with git or expressed any opinion about it. You may want to ask how stable and reliable git has been for me.
 ----
-[[CategoryGitHomepage]] [[CategoryStatistics]]
+[[Category:GitHomepage]] [[Category:Statistics]]
 
 __NOTOC__
