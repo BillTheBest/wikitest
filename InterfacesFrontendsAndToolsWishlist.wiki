@@ -2,19 +2,19 @@
 * [[InterfacesFrontendsAndTools]]
 * [http://www.venge.net/monotone/wiki/InterfacesFrontendsAndTools [[InterfacesFrontendsAndTools]]] page on Monotone wiki
 * [http://www.selenic.com/mercurial/wiki/index.cgi/OtherTools Other Tools that work with Mercurial] page on Mercurial wiki
-* [http://wiki.darcs.net/DarcsWiki/[[RelatedSoftware]] Software that works with darcs] page on Darcs wiki
+* [http://wiki.darcs.net/DarcsWiki/RelatedSoftware Software that works with darcs] page on Darcs wiki
 * [http://bazaar-vcs.org/3rdPartyTools Third party tools] and [http://bazaar-vcs.org/PluginRegistry Plugin registry] pages on Bazaar-NG wiki
 
 = Other programs that *should* be taught to work with Git, but haven't been =
 
 ----
-<span style="font-size: smaller">[[[#Bugzilla|Bugzilla]]], [[[#Bonsai|Bonsai]]], [[[#Trac|Trac]]], [[[#TWiki|TWiki]]], [[[#scmbug|SCMBug]]], [[[#be|BugsEverywhere]]], [[[#Savane|Savane]]], [[[#libresource|LibreSource]]], [[[#DVC|DVC (Emacs)]]], [[[#PIDA|PIDA]]], [[[#Eric3|Eric3]]], [[[#xxdiff|xxdiff]]], [[[#Dreamweaver|Dreamweaver]]]</span>
+<span style="font-size: smaller">[[#Bugzilla|Bugzilla]], [[#Bonsai|Bonsai]], [[#Trac|Trac]], [[#TWiki|TWiki]], [[#scmbug|SCMBug]], [[#be|BugsEverywhere]], [[#Savane|Savane]], [[#libresource|LibreSource]], [[[#DVC|DVC (Emacs)]]], [[#PIDA|PIDA]], [[#Eric3|Eric3]], [[#xxdiff|xxdiff]], [[#Dreamweaver|Dreamweaver]]</span>
 ----
 
 ''Bugzilla'' (bugtracker){{anchor|Bugzilla}}{{anchor|Bonsai}}:: <span style="font-size: x-large; color: red">!</span>
     [http://www.bugzilla.org/ Bugzilla] is a "Defect Tracking System" or "Bug-Tracking System".  [http://bugzilla.kernel.org/ Kernel Bug Tracker] for posting bugs against the mainline Linux kernels is based on Bugzilla.
 
-    Patch Viewer is (built in?) an enhancement to Bugzilla designed to provide adequate context for submitted patches through integration with [http://www.mozilla.org/projects/bonsai/ Bonsai], [http://lxr.sourceforge.net/ LXR] and CVS. [http://www.cvszilla.org/ CVSZilla] is a small piece of Perl-glue to integrate either CVS or Subversion with Bugzilla and CVSWeb or ViewCVS. ''See also:'' [[[#scmbug|SCMBug]]] entry below.
+    Patch Viewer is (built in?) an enhancement to Bugzilla designed to provide adequate context for submitted patches through integration with [http://www.mozilla.org/projects/bonsai/ Bonsai], [http://lxr.sourceforge.net/ LXR] and CVS. [http://www.cvszilla.org/ CVSZilla] is a small piece of Perl-glue to integrate either CVS or Subversion with Bugzilla and CVSWeb or ViewCVS. ''See also:'' [[#scmbug|SCMBug]] entry below.
 
     It would be nice to have also Git integration, for example referencing commits and tags, perhaps via making (additionally) Bonsai report against Git. Via hooks, this should be possible using [http://www.liquidx.net/pybugz/ PyBugz]. ''(Perl)''
 
