@@ -1076,6 +1076,6 @@ Maybe, check if Tailor ([http://wiki.darcs.net/DarcsWiki/Tailor homepage]) can d
 * [[GitCommunity]], mainly Git mailing list.
 * [[WikiPedia:Git_(software)|Git (software)]] article at Wikipedia.
 ----
-[[Category::Glossary]] [[Category::GitDocumentation]]
+[[Category:Glossary]] [[Category:GitDocumentation]]
 
 __NOTOC__
