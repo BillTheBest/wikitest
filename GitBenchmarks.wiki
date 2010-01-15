@@ -8,11 +8,11 @@ __TOC__
 
 == Initial patchbomb comparison with Mercurial ==
 
-On Mon, Apr 25, 2005 at 07:08:28PM -0700, Linus Torvalds wrote:<<BR>>
-> <<BR>>
-> To make an interesting benchmark, try applying the first 200 patches in<<BR>> 
-> the current git kernel archive. Can you do them three per second? THAT is<<BR>> 
-> the thing you should optimize for, not checking in huge changes.<<BR>>
+On Mon, Apr 25, 2005 at 07:08:28PM -0700, Linus Torvalds wrote:<BR>
+> <BR>
+> To make an interesting benchmark, try applying the first 200 patches in<BR> 
+> the current git kernel archive. Can you do them three per second? THAT is<BR> 
+> the thing you should optimize for, not checking in huge changes.<BR>
 
 Ok, I've optimized for it a bit. This is basically:
 
@@ -28,7 +28,7 @@ My benchmark is to apply all 819 patches from -mm3 to 2.6.12-rc:
  ||user   || 1m57.195s ||
  ||sys    || 0m14.068s ||
 
- 819/(60+57.195 + 14.068) = 6.239 patches/second  user+sys<<BR>>
+ 819/(60+57.195 + 14.068) = 6.239 patches/second  user+sys<BR>
  repository: before 167M after 173M (3.5% growth)
 
  git (version unknown, as of April 29, 2005)::
@@ -37,7 +37,7 @@ My benchmark is to apply all 819 patches from -mm3 to 2.6.12-rc:
  ||user   || 1m11.196s ||
  ||sys    || 0m50.144s ||
 
- 819/(60+11.196+50.144) = 6.750 patches/second  user+sys<<BR>>
+ 819/(60+11.196+50.144) = 6.750 patches/second  user+sys<BR>
  repository: before 102M after 154M (51% growth)
 
 ''Reference:'' [http://marc.theaimsgroup.com/?l=git&m=111475459526688 Mercurial 0.4b vs git patchbomb benchmark] by Matt Mackall, via [[WikiPedia:Git_(software)|Git (software)]] article at Wikipedia.
@@ -156,7 +156,7 @@ It is not mentioned how time was measured, is it user+sys result, or wallclock (
 "Diff (large)" means diff between 2.6.0 and 2.6.25.2; "Commit (small)" means committing state which differs by one line in single file (MAINTAINERS).
 
 About "Adding files" / "Adding 2.6.0" performance: it was not stated what was command used to add all files for git; note that <code><nowiki>git add .</nowiki></code> has much better performance than <code><nowiki>git add *</nowiki></code> (the performance of latter was since improved).  Note also that `git add` does more than just marking file as being under version control; it has to add content (blob and tree objects) to object database and some more info to index.
-<<BR>>
+<BR>
 
 Repository sizes after all those commands:
 
@@ -331,7 +331,7 @@ Fitting linear function to the size of pack (created <code><nowiki>git pack-obje
  slope = 1.25 kB / revision (for git.git repository)
 
 ''Reference:'' 
- [http://img522.imageshack.us/my.php?image=gitgitpacksizefullgq3.png <<http://img522.imageshack.us/img522/6973/gitgitpacksizefullgq3.th.png>>] <<BR>>
+ [http://img522.imageshack.us/my.php?image=gitgitpacksizefullgq3.png <<http://img522.imageshack.us/img522/6973/gitgitpacksizefullgq3.th.png>>] <BR>
 ''(click on thumbnail to go to the plot)''
 
 == Gains from deltaification: pack size vs size of tarballs ==
