@@ -1,8 +1,8 @@
 == Getting Giddy with Git: GSoC 2008 podcast 18 ==
 
-[[http://google-opensource.blogspot.com/2008/07/getting-giddy-with-git.html|Getting Giddy with Git]] post on [[http://google-opensource.blogspot.com|Google Code: Open Source at Google]] blog contains info and links to [[http://google-developer-podcast.googlecode.com/files/gsocpodcast018.mp3|mp3]] and [[http://google-developer-podcast.googlecode.com/files/gsocpodcast018.ogg|ogg]] GSoC podcast 18: Git.  In it Leslie Hawthorn interviews Shawn O. Pearce (git GSoC administrator) and Johannes Schindelin (backup administrator).  They talk about Git's participation in GSoC, and how Shawn and Dscho (Johannes) experienced GSoC as a mentor as well.  Also the origin of Shawn's forced-upon nickname on #git is explained... :P.
+[http://google-opensource.blogspot.com/2008/07/getting-giddy-with-git.html Getting Giddy with Git] post on [http://google-opensource.blogspot.com Google Code: Open Source at Google] blog contains info and links to [http://google-developer-podcast.googlecode.com/files/gsocpodcast018.mp3 mp3] and [http://google-developer-podcast.googlecode.com/files/gsocpodcast018.ogg ogg] GSoC podcast 18: Git.  In it Leslie Hawthorn interviews Shawn O. Pearce (git GSoC administrator) and Johannes Schindelin (backup administrator).  They talk about Git's participation in GSoC, and how Shawn and Dscho (Johannes) experienced GSoC as a mentor as well.  Also the origin of Shawn's forced-upon nickname on #git is explained... :P.
 
-<b>See also:</b> [[http://thread.gmane.org/gmane.comp.version-control.git/88784|GSoC podcast 18: Git]] thread on git mailing list.
+''See also:'' [http://thread.gmane.org/gmane.comp.version-control.git/88784 GSoC podcast 18: Git] thread on git mailing list.
 
 == Summer of Code 2008 Midterm Summary ==
 
@@ -21,7 +21,7 @@ evaluations, which are after August 11th.
 What follows is a condensed summary of the student responses from
 the mid-term survey.
 
-<b>Q:</b> <i>At what point did you first make contact with your mentoring organization?</i>
+''Q:'' ''At what point did you first make contact with your mentoring organization?''
 
    This was about split 50/50 between "after the organization was accepted" and "during the student application and acceptance phase of the program".  As you may well know, Summer of Code takes a short 'break' between announcing what organizations will participate as mentors, and when students can begin applying.<<BR>>
 
@@ -29,45 +29,45 @@ the mid-term survey.
 
    Since this was a significant part of our application selection process, I am not surprised by this figure.
 
-<b>Q:</b> <i>How often do you and your mentor interact?</i>
+''Q:'' ''How often do you and your mentor interact?''
 
    2 students answered "Every day" and 4 answered "once every few days".  By and large our mentors are active with their students.
 
-<b>Q:</b> <i>How do you communicate with your mentor?</i>
+''Q:'' ''How do you communicate with your mentor?''
 
    Overwhelmingly our students use IRC and private emails to communicate with their mentors.<<BR>>
 
    Most of them also keep a private Git repository with a list of notes they want to share with their mentor, and their mentors monitor this notes file by git-fetch'ing it every so often. It seems we eat our own dog food quite a bit around here.  :-)
 
-<b>Q:</b> <i>How much time have you spent per week interacting with your mentor, on average?</i>
+''Q:'' ''How much time have you spent per week interacting with your mentor, on average?''
 
    All of our students (except 1) said 0-5 hours per week, and the lone dissenter said 6-10 hours per week.  Nearly all of the mentors on the other hand chose 6-10 hours per week in their own surveys.<<BR>>
 
    It may be safe to say that in the average case we are spending about 10 hours per week as mentors just communicating with our students and helping them to meet their goals.
 
-<b>Q:</b> <i>How would you describe your interaction with your overall project community?</i>
+''Q:'' ''How would you describe your interaction with your overall project community?''
 
    5 out of 6 of our students said "Somewhat active (e.g. I read and sometimes responds to mailing lists, some interaction in    community communication channels)".  I think most of them really should have chosen instead "Very active (e.g. I send code reviews to development mailing lists, am active and ask/answer questions in our IRC channel or project forums)".<<BR>>
 
-   Most of our summer of code students <b>are</b> sending code reviews to this mailing list, and are taking advantage of the fantastic contributors we have to help them out.  They also tend to answer questions on IRC and the mailing list when they are pretty sure they know the answer and can take the time to help someone else.<<BR>>
+   Most of our summer of code students ''are'' sending code reviews to this mailing list, and are taking advantage of the fantastic contributors we have to help them out.  They also tend to answer questions on IRC and the mailing list when they are pretty sure they know the answer and can take the time to help someone else.<<BR>>
 
    Certainly our students aren't as active as our intrepid maintainer is, but most of them aren't lurking in the shadows either.
 
-<b>Q:</b> <i>If you cannot reach your mentor, how do you go about getting help when you need it?</i>
+''Q:'' ''If you cannot reach your mentor, how do you go about getting help when you need it?''
 
    3 of our students selected "I hope I can figure it out myself before my mentor resurfaces.".  This is a less-than-optimal result in my opinion.  Despite the prior question indicating that our students may actually be actively involved in the community they don't feel involved enough to obtain assistance without their mentor.<<BR>>
 
    3 students also chose "I ask questions on our project's developer or other main mailing list.".<<BR>>
 
-   This was a multiple choice question, so there is some overlap, but I do know that at least one student chose <b>only</b> "I hope I can figure it out myself before my mentor resurfaces".<<BR>>
+   This was a multiple choice question, so there is some overlap, but I do know that at least one student chose ''only'' "I hope I can figure it out myself before my mentor resurfaces".<<BR>>
 
    In terms of community building this question's answers seem to suggest we need to try harder to make our students included, and get help beyond just their mentor/co-mentor.
 
-<b>Q:</b> <i>How responsive was your mentor to any questions or other requests for communication from you?</i>
+''Q:'' ''How responsive was your mentor to any questions or other requests for communication from you?''
 
    All of our students chose "Mentor responded quickly with the information I requested" (which is the best rating available), though one of them qualified it with "For some values of 'quickly'".  ;-)
 
-<b>Q:</b> <i>Do you feel that you are on track to complete your project?</i>
+''Q:'' ''Do you feel that you are on track to complete your project?''
 
    I'm not sure if this is good or bad.  3 students (50%!) are ahead of schedule, 1 is on schedule, and 2 are behind.<<BR>>
 
@@ -75,7 +75,7 @@ the mid-term survey.
 
    On the other hand I wonder if as mentors we didn't demand enough of our students?  Looking at the students who are ahead of schedule, I know that at least 2 of them had what we thought as mentors to be difficult, time consuming tasks in front them.  So we did intentially try to define the project such that it would be more likely to succeed.
 
-<b>Q:</b> <i>What areas were the most difficult for you in preparing for/working on Summer of Code?</i>
+''Q:'' ''What areas were the most difficult for you in preparing for/working on Summer of Code?''
 
    Most of our students (5/6) had trouble balancing their time between their Git project and school (exams, etc.).  This is a common theme in Summer of Code and Git isn't alone in seeing it.  As I understand it a number of our students are in European based university programs, which causes exams to fall in the early part of the Summer of Code timeline.<<BR>>
 
@@ -84,6 +84,6 @@ the mid-term survey.
    A couple of students have had time-zone issues with their mentors, but looking at the progress of most projects that doesn't seem to be a major issue.
 
 ----
-<b>Source:</b> [[http://permalink.gmane.org/gmane.comp.version-control.git/90294|Summer of Code 2008 Midterm Summary]] post by Shawn O. Pearce on git mailing list.
+''Source:'' [http://permalink.gmane.org/gmane.comp.version-control.git/90294 Summer of Code 2008 Midterm Summary] post by Shawn O. Pearce on git mailing list.
 
 __NOTOC__
