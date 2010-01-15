@@ -122,6 +122,6 @@ Public git repositories should usually not have an 'origin' branch.
 
 TODO: explain how this breaks things, and how to avoid it
 
-Note that newer git is better at this, at least for newly cloned repositories. See "Repository layout and objects transfer" in [[http://www.kernel.org/pub/software/scm/git/docs/v1.5.0/RelNotes-1.5.0.txt]].
+Note that newer git is better at this, at least for newly cloned repositories. See "Repository layout and objects transfer" in [http://www.kernel.org/pub/software/scm/git/docs/v1.5.0/RelNotes-1.5.0.txt http://www.kernel.org/pub/software/scm/git/docs/v1.5.0/RelNotes-1.5.0.txt].
 
 __NOTOC__
