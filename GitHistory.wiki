@@ -1,7 +1,7 @@
 ----
-<b>Table of contents:</b>
+''Table of contents:''
 
-<<<!-- ! TOC here -->(2)>>
+__TOC__
 ----
 == Historical background ==
 
@@ -20,14 +20,14 @@ with BK not being open-source. That actually went on for maybe two months
 or so, and I kept on hoping that we'd find some acceptably middle ground. 
 
 I thought we could find somethign that would actually work for everybody: 
-to hopefully both make BK technically better, <i>and</i> to make the end result 
+to hopefully both make BK technically better, ''and'' to make the end result 
 more palatable to the "free software or bust" contingency.
 
 One of the suggestions that I tried to push as an acceptable middle ground 
 was to make a "generic" BK repository export format, so that people who 
 didn't want to use BK could still get all the information, and not in a 
 broken format like [[CVS]] (yes, CVS makes sense as an interchange format, 
-since <i>everybody</i> speaks CVS, but it's a horrible, horrible, horrible 
+since ''everybody'' speaks CVS, but it's a horrible, horrible, horrible 
 format from any technical standpoint).
 
 My example export format was really a strange mixture of patches with 
@@ -79,15 +79,15 @@ history. Kind of "[[quilt]] with history and an index to speed things up".
 
 The index itself would be backed-up with whole files (all hidden in the 
 ".dircache" directory), and the patch series would thus normally never 
-actually be <i>used</i>. So the inefficiency of working with patches would 
+actually be ''used''. So the inefficiency of working with patches would 
 never be much of an issue. A "commit" would create a new patch from the 
 current working directory and the previous shadow tree, and update the 
 shadow tree and add a new entry to the history list.
 
 And then I found [[Monotone]].
 
-Now, monotone was slow. Monotone was so <i>horrendously</i> slow that I had to 
-do special hacks just to import <i>one</i> version of Linux into it in less 
+Now, monotone was slow. Monotone was so ''horrendously'' slow that I had to 
+do special hacks just to import ''one'' version of Linux into it in less 
 than two hours. It was something stupid like an O(N**3) algorithm in the 
 number of filenames (and the kernel had 17,291 files at that time: 
 v2.6.12-rc2), and it was just totally unusable for me.
@@ -107,15 +107,15 @@ And thus [[git]] was born.
 So git really has three parents. In a very real sense, BK (or, perhaps 
 more appropriately - the way I personally used BK, which is not 
 necessarily how others have used it) was the biggest thing from the 
-standpoint of what I wanted my <i>workflow</i> to be like. It was simply how I 
+standpoint of what I wanted my ''workflow'' to be like. It was simply how I 
 had done things for the last few years, so a lot of my mental model for 
-how things are supposed to <i>work</i> came from BK. 
+how things are supposed to ''work'' came from BK. 
 
 I still don't think people give Larry enough credit for actually pushing 
-this whole distributed SCM thing as a <i>usable</i> model. Very few of the 
+this whole distributed SCM thing as a ''usable'' model. Very few of the 
 open-source distributed SCM's are actually usable even today, and as far 
 as I've been able to gather, the commercial ones aren't really any closer 
-either. Larry didn't have the kind of examples of what <i>can</i> work that I 
+either. Larry didn't have the kind of examples of what ''can'' work that I 
 had.
 
 The other parent was the stupid "series of patches" model, which was what 
@@ -141,14 +141,14 @@ of the previous commit directory layout).
 And finally, Monotone for the "everything is an object named by its SHA1" 
 model, which to some degree is perhaps the central - or at least the most 
 obvious - part of git. It largely was designed really just to be the 
-"backing store" for the "cache", and to not be <i>that</i> important. That also 
+"backing store" for the "cache", and to not be ''that'' important. That also 
 explains why I didn't worry too much about disk usage etc initially: the 
 object store wasn't even the most important part, and I envisioned just 
 moving old objects that weren't needed into some "backup storage" kind of 
 thing.
 
-* Source: Linus [[http://permalink.gmane.org/gmane.comp.version-control.git/19620|e-mail]] on git mailing list.
-* See also: Linus [[http://article.gmane.org/gmane.comp.version-control.bazaar-ng.general/18353|comparison with BitKeeper]].
+* Source: Linus [http://permalink.gmane.org/gmane.comp.version-control.git/19620 e-mail] on git mailing list.
+* See also: Linus [http://article.gmane.org/gmane.comp.version-control.bazaar-ng.general/18353 comparison with BitKeeper].
 
 -----
 == Early history ==
@@ -156,13 +156,13 @@ thing.
 Git development began after many kernel developers were forced to give up access to the proprietary [[BitKeeper]] system (see [[WikiPedia:[[BitKeeper]]#Zero-cost|[[BitKeeper]] for Linux and other open source projects "Zero-cost [[BitKeeper]] for Linux and other open source projects"]]).  Permission to use BitKeeper as freeware had been withdrawn by the copyright holder [[Larry McVoy]] after he accused [[Andrew Tridgell]] of reverse engineering the BitKeeper protocols.
 The development of Git began on April 6, 2005, and proceeded very rapidly.  The first merge of multiple branches was done on April 18, 2005, and two months later (June 16, 2005), the kernel 2.6.12 release was managed by Git.
 
-Linus wanted a distributed system that he could use like BitKeeper, but none of the available free systems met his needs, particularly his performance needs.  From an [[http://marc.theaimsgroup.com/?l=linux-kernel&m=111288700902396|e-mail]] he wrote on April 7, 2005 while writing the first prototype:
+Linus wanted a distributed system that he could use like BitKeeper, but none of the available free systems met his needs, particularly his performance needs.  From an [http://marc.theaimsgroup.com/?l=linux-kernel&m=111288700902396 e-mail] he wrote on April 7, 2005 while writing the first prototype:
 
- However, the SCMs I've looked at make this hard. One of the things (the main thing, in fact) I've been working at is to make that process really <i>efficient</i>. If it takes half a minute to apply a patch and remember the changeset boundary etc. (and quite frankly, that's <i>fast</i> for most SCMs around for a project the size of Linux), then a series of 250 emails (which is not unheard of at all when I sync with Andrew, for example) takes two hours.  If one of the patches in the middle doesn't apply, things are bad bad bad.
+ However, the SCMs I've looked at make this hard. One of the things (the main thing, in fact) I've been working at is to make that process really ''efficient''. If it takes half a minute to apply a patch and remember the changeset boundary etc. (and quite frankly, that's ''fast'' for most SCMs around for a project the size of Linux), then a series of 250 emails (which is not unheard of at all when I sync with Andrew, for example) takes two hours.  If one of the patches in the middle doesn't apply, things are bad bad bad.
 
- Now, BK wasn't a speed deamon either (actually, compared to everything else, BK <i>is</i> a speed deamon, often by one or two orders of magnitude), and took about 10-15 seconds per email when I merged with Andrew.  HOWEVER, with BK that wasn't as big of an issue, since the BK<->BK merges were so easy, so I never had the slow email merges with any of the other main developers.  So a patch-application-based SCM "merger" actually would need to be <i>faster</i> than BK is. Which is really really really hard.
+ Now, BK wasn't a speed deamon either (actually, compared to everything else, BK ''is'' a speed deamon, often by one or two orders of magnitude), and took about 10-15 seconds per email when I merged with Andrew.  HOWEVER, with BK that wasn't as big of an issue, since the BK<->BK merges were so easy, so I never had the slow email merges with any of the other main developers.  So a patch-application-based SCM "merger" actually would need to be ''faster'' than BK is. Which is really really really hard.
 
- So I'm writing some scripts to try to track things a whole lot faster. Initial indications are that I should be able to do it almost as quickly as I can just apply the patch, but quite frankly, I'm at most half done, and if I hit a snag maybe that's not true at all.  Anyway, the reason I can do it quickly is that my scripts will <i>not</i> be an SCM, they'll be a very specific "log Linus' state" kind of thing. That will make the linear patch merge a lot more time-efficient, and thus possible.
+ So I'm writing some scripts to try to track things a whole lot faster. Initial indications are that I should be able to do it almost as quickly as I can just apply the patch, but quite frankly, I'm at most half done, and if I hit a snag maybe that's not true at all.  Anyway, the reason I can do it quickly is that my scripts will ''not'' be an SCM, they'll be a very specific "log Linus' state" kind of thing. That will make the linear patch merge a lot more time-efficient, and thus possible.
 
  (If a patch apply takes three seconds, even a big series of patches is not a problem: if I get notified within a minute or two that it failed half-way, that's fine, I can then just fix it up manually. That's why latency is critical - if I'd have to do things effectively "offline", I'd by definition not be able to fix it up when problems happen).
 
@@ -173,11 +173,11 @@ maintenance on July 26, 2005 to [[Junio C. Hamano]], a major contributor to the 
 Junio was responsible for the 1.0 release on December 21, 2005.
 As of May 2006, the current release is 1.3.3.
 
-* <b>Source:</b> [[WikiPedia:Git_(software)|Git_(software)]] Wikipedia article. 
+* ''Source:'' [[WikiPedia:Git_(software)|Git_(software)]] Wikipedia article. 
 
 -----
 == Git Chronicle ==
 
-On [[GitTogether]] 2008 Junio C Hamano gave a "Git Chronicle" talk about more modern history, and how features were added to Git.  There are [[http://www.kernel.org/~junio/200810-Chron.pdf|slides in PDF]] for this talk.
+On [[GitTogether]] 2008 Junio C Hamano gave a "Git Chronicle" talk about more modern history, and how features were added to Git.  There are [http://www.kernel.org/~junio/200810-Chron.pdf slides in PDF] for this talk.
 
 __NOTOC__
