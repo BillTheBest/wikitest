@@ -6,7 +6,7 @@
 == Git comparisons found on the web: ==
 * [http://www.looble.com/git-vs-svn-which-is-better/ Git vs SVN - Which is Better?]
 * [http://whygitisbetterthanx.com/ whygitisbetterthanx.com]
-* [http://better-scm.berlios.de/comparison/ Better SCM Initiative: Comparison] by Shlomi Fish (includes all systems that make sense, and some more).<<BR>> ''Note'' that as of 1 Dec 2008 information about Git contained there is [http://thread.gmane.org/gmane.comp.version-control.git/95809/focus=97253 inaccurate].
+* [http://better-scm.berlios.de/comparison/ Better SCM Initiative: Comparison] by Shlomi Fish (includes all systems that make sense, and some more).<BR> ''Note'' that as of 1 Dec 2008 information about Git contained there is [http://thread.gmane.org/gmane.comp.version-control.git/95809/focus=97253 inaccurate].
 * [http://versioncontrolblog.com/comparison/ Version control systems comparison] Another interface to Better SCM database.
 * [http://vcscompare.blogspot.com/2008/06/git-mercurial-bazaar-repository-size.html Blogpost comparing Git, Mercurial and Bazaar size]
 * [[WikiPedia:Comparison_of_revision_control_software|Comparison of revision control software]] table at Wikipedia.
