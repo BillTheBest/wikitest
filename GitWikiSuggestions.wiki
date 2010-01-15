@@ -24,7 +24,7 @@ It would be nice to have installed parsers from [[MoinMoin:[[ParserMarket]]|[[Pa
 * diff output parsers from [[MoinMoin:[[ParserMarket]]|[[ParserMarket]]]]: [[MoinMoin:parser/diff.py|parser/diff.py]] by Emilio Lopes.
 
 == Error in GUI editing ==
-When editing in gui mode, and pressing text-mode, all blank lines are removed, and ({) curly-braces are replaced with square ones ([), causing things like \{\{TableOfContents(2)\}\} and \{\{BR\}\} not to work! This especially seams to be a problem on the [[[InterfacesFrontendsAndTools]]] page.
+When editing in gui mode, and pressing text-mode, all blank lines are removed, and ({) curly-braces are replaced with square ones ([), causing things like \{\{TableOfContents(2)\}\} and \{\{BR\}\} not to work! This especially seams to be a problem on the [[InterfacesFrontendsAndTools]] page.
 
 == [[InterWiki]] Links ==
 It would be nice if there were shorter <<[[InterWiki]]>> links for linking to the [[Git]] and [[Cogito]] [[GitDocumentation|documentation]], both HTML version and gitweb sources. One of the way of adding InterWiki link is to modify site's `data/intermap.txt` file.
