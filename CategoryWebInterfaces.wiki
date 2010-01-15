@@ -5,11 +5,11 @@
 
 A category for git web interfaces (tools).
 
-<b>List of pages in this category:</b>
+''List of pages in this category:''
 
-<<[[FullSearch]]()>>
+<<[[FullSearch]](}}
 
 ----
-[[CategoryCategory]]
+[[Category:Category]]
 
 __NOTOC__
