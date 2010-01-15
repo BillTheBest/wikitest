@@ -13,7 +13,7 @@ For further details, see the [[GitTogether]]09 planning page.
 
 == "Alles Wird Git" Berlin [[GitTogether]] '09 ==
 
-See [[AllesWirdGit|'09]].
+See [[AllesWirdGit_'09]].
 
 = [[GitTogether]] '08 =
 [[GitTogether]]08 took place October 27-29 2008 in Mountain View, California, with around 25 developers and users.
