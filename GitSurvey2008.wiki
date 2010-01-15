@@ -1,9 +1,9 @@
 = Git User's Survey 2008 summary =
 
-<b>The Git User's Survey 2008 has been closed on October 14, 2008.</b>
+''The Git User's Survey 2008 has been closed on October 14, 2008.''
 
 The survey could be found here:
-* [[http://www.survs.com/survey?id=M3PIVU72&channel=2WXE4BVTW8|Git User's Survey 2008]] (http://tinyurl.com/[[GitSurvey]]2008) at Survs.com (closed)
+* [http://www.survs.com/survey?id=M3PIVU72&channel=2WXE4BVTW8 Git User's Survey 2008] (http://tinyurl.com/[[GitSurvey]]2008) at Survs.com (closed)
 
 You can get raw data (individual responses) for the survey here:
 * [[Media:Git_User's_Survey_2008_-_Oct_14,_2008.csv.gz‎|Git User's Survey 2008 - Oct 14, 2008.csv.gz]] (CSV, 1.2 MB)
@@ -16,17 +16,17 @@ Or even better, as long as the survey is not 100% evaluated, do
 * commit to a mob branch and push
 
 Results of the survey:
-* [[http://thread.gmane.org/gmane.comp.version-control.git/94797/|partial summary thread on GMANE]]
-* [[http://www.survs.com/shareResults?survey=M3PIVU72&rndm=OKJQ45LAG8|Graphical final results of the survey]] (http://tinyurl.com/[[GitSurvey]]2008Analyze) <<BR>> <b><i>Note:</b> you can use existing on-line filters for basic survey analysis</i>
+* [http://thread.gmane.org/gmane.comp.version-control.git/94797/ partial summary thread on GMANE]
+* [http://www.survs.com/shareResults?survey=M3PIVU72&rndm=OKJQ45LAG8 Graphical final results of the survey] (http://tinyurl.com/[[GitSurvey]]2008Analyze) <<BR>> ''''Note:'' you can use existing on-line filters for basic survey analysis''
 * Further final results will follow and will be put into the wiki.
 
 There were 3236 individual responses, including 21 responses in 'test' channel<<BR>>
 There were 683 individual responses in [[GitSurvey]]2007, and around 117 responses in [[GitSurvey]]2006.
 
-<i>Please do not add survey <b>data</b> on this page</i>
+''Please do not add survey ''data'' on this page''
 ----
-<b>Table of contents:</b>
-<<<!-- ! TOC here -->(3)>>
+''Table of contents:''
+__TOC__
 ----
 
 = Tabular Results =
@@ -429,7 +429,7 @@ There were 683 individual responses in [[GitSurvey]]2007, and around 117 respons
 | <-3>
 | 
 |-
-|  <i>European Union (sum)</i> 
+|  ''European Union (sum)'' 
 |   1142 
 |  40.0% 
 | 
@@ -464,7 +464,7 @@ There were 683 individual responses in [[GitSurvey]]2007, and around 117 respons
 
 As one can easily see, slightly less than third of Git users (30.6%) are in the USA (those who answered this survey).  Next of countries is Germany with around 10.0% responses.  More than third of respondents, around two fifths (40.0%) are in European Union.
 
-You can also take a look at [[http://www.ohloh.net/projects/git/map|Git Activity Map]] at [[http://www.ohloh.net|Ohloh]], where you can see on (large) Google Map locations of selected people who have Git in a [[http://www.ohloh.net/about/faq#stack|stack]], or locations of Git contributors (those with known location).
+You can also take a look at [http://www.ohloh.net/projects/git/map Git Activity Map] at [http://www.ohloh.net Ohloh], where you can see on (large) Google Map locations of selected people who have Git in a [http://www.ohloh.net/about/faq#stack stack], or locations of Git contributors (those with known location).
 
 === 02. How old are you (in years)? ===
 
@@ -801,12 +801,12 @@ This is multiple choice question (you can be proficient in more than one program
 <!-- ##-------------------------------------------
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-|  <b>C</b>               
+|  ''C''               
 |   1780 
 |  55.0% 
 | 
 |-
-|  <b>shell</b>           
+|  ''shell''           
 |   1511 
 |  46.7% 
 | 
@@ -841,7 +841,7 @@ This is multiple choice question (you can be proficient in more than one program
 |  33.5% 
 | 
 |-
-|  <b>Perl</b>            
+|  ''Perl''            
 |    829 
 |  25.6% 
 | 
@@ -876,7 +876,7 @@ This is multiple choice question (you can be proficient in more than one program
 |   3.0% 
 | 
 |-
-|  <b>Tcl/Tk</b>          
+|  ''Tcl/Tk''          
 |     89 
 |   2.8% 
 | 
@@ -1104,7 +1104,7 @@ Around 2893 (89.4%) people answered this question.  C is most popular with 55%; 
 
 And finally 47 responses (around 1.5%) of "I am not a programmer".  That's nice.
 
-[[http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html|TIOBE Programming Community Index]] for October 2008 (gives an indication of the <i>popularity</i> of programming languages) states:
+[http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html TIOBE Programming Community Index] for October 2008 (gives an indication of the ''popularity'' of programming languages) states:
 
 <!-- ## table begin
  -->
@@ -1175,9 +1175,9 @@ And finally 47 responses (around 1.5%) of "I am not a programmer".  That's nice.
 <!-- ##--------------------------------------------------------------
  -->
 
-Programming languages used by Git, not including `contrib/` section, are marked in bold in table of replies.  As one can see C is most popular programming language.  Shell is more known that Perl.  There are a few (below 100 replies for around 3000 responses to this question, i.e. around 2.8%) people who are proficient in Tcl/Tk, the programming language used for [[http://git.or.cz/man/gitk|gitk]] history viewer and [[http://git.or.cz/man/git-gui|git-gui]] commit tool.
+Programming languages used by Git, not including `contrib/` section, are marked in bold in table of replies.  As one can see C is most popular programming language.  Shell is more known that Perl.  There are a few (below 100 replies for around 3000 responses to this question, i.e. around 2.8%) people who are proficient in Tcl/Tk, the programming language used for [http://git.or.cz/man/gitk gitk] history viewer and [http://git.or.cz/man/git-gui git-gui] commit tool.
 
-You can check what are the contributions of each programming language to Git code at [[http://www.ohloh.net/projects/git/analyses/latest|Git Code Analysis at Ohloh]].  In the table below there is shown state on the end of October 2008.
+You can check what are the contributions of each programming language to Git code at [http://www.ohloh.net/projects/git/analyses/latest Git Code Analysis at Ohloh].  In the table below there is shown state on the end of October 2008.
 
 <!-- ## table begin
  -->
@@ -1289,7 +1289,7 @@ You can check what are the contributions of each programming language to Git cod
 | <-3>
 | 
 |-
-|  <i>Other (please specify)</i> 
+|  ''Other (please specify)'' 
 |   226 
 |   8% 
 | 
@@ -1306,8 +1306,8 @@ You can check what are the contributions of each programming language to Git cod
 <!-- ## table end
  -->
 
-Most people heard about Git because some project uses it (or started using it), and from blog posts (39-35%).  Linux kernel news, such as (currently on hiatus) [[http://kerneltrap.org/|KernelTrap]], or (no longer updated) [[http://kerneltraffic.osmirror.nl/|Kernel Traffic]],
-or [[http://lwn.net/|LWN.net]] are third with 27%, close to word of mouth (22%).
+Most people heard about Git because some project uses it (or started using it), and from blog posts (39-35%).  Linux kernel news, such as (currently on hiatus) [http://kerneltrap.org/ KernelTrap], or (no longer updated) [http://kerneltraffic.osmirror.nl/ Kernel Traffic],
+or [http://lwn.net/ LWN.net] are third with 27%, close to word of mouth (22%).
 
 The free-form part of this question is not yet analyzed; but there are only around 8% of free-form answers (i.e. other source).
 
@@ -1920,7 +1920,7 @@ The free-form part of this question is not yet analyzed; but there are only arou
 | <-3>
 | 
 |-
-|  <i>Other (please specify)</i>            
+|  ''Other (please specify)''            
 |    65 
 |   2% 
 | 
@@ -2074,7 +2074,7 @@ Entries in table below are sorted by number of replies; it does not reflect orig
 | <-3>
 | 
 |-
-|  <i>Other, please specify</i>   
+|  ''Other, please specify''   
 |    32 
 |   1% 
 | 
@@ -2093,7 +2093,7 @@ Entries in table below are sorted by number of replies; it does not reflect orig
 
 Other operating systems (excluding distributions of Linux and GNU/Linux wording and similar answers which are listed) that people use Git on include iPhone OS (is there Git for iPhone?), BeOS (but with comment: not really), [[DragonFly]] BSD and GNU/kFreeBSD (both probably should be counted as element of xBSD family), MS Windows/[[AndLinux]], and finally QNX and Plan 9.
 
-Linux dominates (86% replies) as the operating system of Git users (other systems do not cross 50% of replies). This isn't strange, as Git was at least originally developed for Linux and on Linux; it doesn't for example work as well on MS Windows, and lack some of GUI tools (some) MS Windows users expect. Next in popularity is MacOS X with 47% replies, and MS Windows with around 26% replies. The "native" [[http://code.google.com/p/msysgit/|msysGit]] version is more popular than using Git from/via [[http://cygwin.com/|Cygwin]]. The remaining operating systems with more than 1% of responses are various members of xBSD family: FreeBSD, OpenBSD, NetBSD, and (a bit surprisingly for me) (Open)Solaris.
+Linux dominates (86% replies) as the operating system of Git users (other systems do not cross 50% of replies). This isn't strange, as Git was at least originally developed for Linux and on Linux; it doesn't for example work as well on MS Windows, and lack some of GUI tools (some) MS Windows users expect. Next in popularity is MacOS X with 47% replies, and MS Windows with around 26% replies. The "native" [http://code.google.com/p/msysgit/ msysGit] version is more popular than using Git from/via [http://cygwin.com/ Cygwin]. The remaining operating systems with more than 1% of responses are various members of xBSD family: FreeBSD, OpenBSD, NetBSD, and (a bit surprisingly for me) (Open)Solaris.
 
 === 19. What hardware platforms do you use Git on? ===
 
@@ -2132,7 +2132,7 @@ Sidenote: Some responders might have mistaken hardware platforms you use Git on 
 | <-3>
 | 
 |-
-|  <i>other (please specify)</i>  
+|  ''other (please specify)''  
 |    23 
 |   1% 
 | 
@@ -2240,7 +2240,7 @@ This is multiple choice question as one can use different editors in different s
 | <-3>
 | 
 |-
-|  <i>Other, please specify</i>  
+|  ''Other, please specify''  
 |   410 
 |  15% 
 | 
@@ -2290,12 +2290,12 @@ This question intentionally mixes implementations (such as git-core aka. git wri
 |   1% 
 | 
 |-
-|  Cogito <b><i>(DEPRECATED)</b></i>             
+|  Cogito ''''(DEPRECATED)''''             
 |    14 
 |   1% 
 | 
 |-
-|  pg aka Patchy Git <b><i>(DEPRECATED)</b></i>  
+|  pg aka Patchy Git ''''(DEPRECATED)''''  
 |     2 
 |   0% 
 | 
@@ -2336,7 +2336,7 @@ This question intentionally mixes implementations (such as git-core aka. git wri
 | <-3>
 | 
 |-
-|  <i>Other (please specify)</i>                
+|  ''Other (please specify)''                
 |    79 
 |   3% 
 | 
@@ -2483,7 +2483,7 @@ This question is not fully analized (beside lack of tabularization of free-form 
 | <-3>
 | 
 |-
-|  <i>Other, please specify</i>  
+|  ''Other, please specify''  
 |    96 
 |   4% 
 | 
@@ -2507,7 +2507,7 @@ git-forest, git-wtf, gitosis, GitHub, metarw-git, Meld (graphical diff and merge
 
 === 23. Which git web interface do you use for your projects/have installed? ===
 
-<b>Web interfaces used by git hosting sites do not count</b>
+''Web interfaces used by git hosting sites do not count''
 
 (Multiple choice questions with free-form parts.)
 
@@ -2565,7 +2565,7 @@ git-forest, git-wtf, gitosis, GitHub, metarw-git, Meld (graphical diff and merge
 | <-3>
 | 
 |-
-|  <i>Other, please specify</i>  
+|  ''Other, please specify''  
 |  106 
 |  11% 
 | 
@@ -2588,7 +2588,7 @@ Most commonly used (deployed) web interface from this survey is gitweb with 80%,
 
 The free-form part of this question is not yet analyzed.
 
-Web interfaces listed as 'other': GitHub (it is not public; the question was not meant to be about <i>using</i> web interface), Trac and gittrac (bugtracker), Redmine (bugtracker), ikiwiki (wiki compiler with possible git backend), git-browser (graphical history viewer using JavaScript), Sputnik (Lua), internal / my own non public, gitalone, lookgit, gitlocal, Retrospectiva, Version Control API in Drupal (PHP, experimental), Merge Monkey, lxr-cvs with git backend.
+Web interfaces listed as 'other': GitHub (it is not public; the question was not meant to be about ''using'' web interface), Trac and gittrac (bugtracker), Redmine (bugtracker), ikiwiki (wiki compiler with possible git backend), git-browser (graphical history viewer using JavaScript), Sputnik (Lua), internal / my own non public, gitalone, lookgit, gitlocal, Retrospectiva, Version Control API in Drupal (PHP, experimental), Merge Monkey, lxr-cvs with git backend.
 
 === 24. Which git hosting site do you use for your projects? ===
 
@@ -2675,7 +2675,7 @@ The table below is sorted by number of replies, but with 'generic site', 'self h
 | <-3>
 | 
 |-
-|  <i>Other (please specify)</i>        
+|  ''Other (please specify)''        
 |    87 
 |   4% 
 | 
@@ -4484,7 +4484,7 @@ Note that percentages here are relative to number of people who answered this qu
 | <-3>
 | 
 |-
-|  <i>other (please specify)</i>       
+|  ''other (please specify)''       
 |   148  
 |   10%  
 | 
@@ -5060,17 +5060,17 @@ The free-form part of this question is not yet analyzed.  Other channels of aski
 <!-- ## table end
  -->
 
-There has been a useful tip for the mailing list "spamming": <i>I thought it was spam at first[...]. Please include a link to a "trusted site" like git.or.cz which explains the survey.</i>
+There has been a useful tip for the mailing list "spamming": ''I thought it was spam at first[...]. Please include a link to a "trusted site" like git.or.cz which explains the survey.''
 
 Many of the answers in "Crap answer"s are due to the bad English in the question or due to the big amount of questions and people getting tired. The question has been understood as "What do you think about the survey?" and the main answer is: "This survey is much too long!". Some people added that it may help to improve Git.
 
 Regarding the survey itself, there has been some noteworthy tips or notes:
-* <i>Seems like it </i>(the length of the survey)<i> would impact the accuracy of the results, as people pay less attention as the survey goes on.</i>
-* <i>Try to reduce the amount of questions (specially the multiple-choice ones) the next year.</i>
-* <i>Too long! Remove half of the questions. At minimum, supply a link to a forum where each question block can be discussed. I can't imagine that you can use all questions' answers for anything, so please avoid even showing such questions. Or move them to a "Bonus questions" section that you can open after "finishing" the survey. Or just make git run statistics of it's usage and allow ppl to report that, but please _don't_ make ppl report usage statistics manually like in this questionnaire!</i>
-* <i>unsure about optional fields</i> (Note: the header of the survey said that <b>all</b> questions are optional)
+* ''Seems like it ''(the length of the survey)'' would impact the accuracy of the results, as people pay less attention as the survey goes on.''
+* ''Try to reduce the amount of questions (specially the multiple-choice ones) the next year.''
+* ''Too long! Remove half of the questions. At minimum, supply a link to a forum where each question block can be discussed. I can't imagine that you can use all questions' answers for anything, so please avoid even showing such questions. Or move them to a "Bonus questions" section that you can open after "finishing" the survey. Or just make git run statistics of it's usage and allow ppl to report that, but please _don't_ make ppl report usage statistics manually like in this questionnaire!''
+* ''unsure about optional fields'' (Note: the header of the survey said that ''all'' questions are optional)
 
 ----
-[[CategoryStatistics]]
+[[Category:Statistics]]
 
 __NOTOC__
