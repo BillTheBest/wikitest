@@ -7,7 +7,7 @@ The data for 2006 survey was taken from the [[GitSurvey]]2006 and [[GitSurveyDat
 <span style="font-size: smaller">''Table of contents:''</span>
 __TOC__
 ----
-There were 683 individual responses in 2007 survey.<<BR>>
+There were 683 individual responses in 2007 survey.<BR>
 There were around 117 responses in 2006 survey.
 
 There are 62 questions in 2007 survey, and 31 questions (half of the number) in 2006 survey.
