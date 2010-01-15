@@ -1,9 +1,9 @@
-<i>This is transcript of [[http://www.youtube.com/watch?v=4XpnKHJAok8|Tech Talk: Linus Torvalds on Git]] at Google on YouTube.</i>
+''This is transcript of [http://www.youtube.com/watch?v=4XpnKHJAok8 Tech Talk: Linus Torvalds on Git] at Google on YouTube.''
 
 * 토발즈가 git에 대해 강의한 동영상(http://www.youtube.com/watch?v=4XpnKHJAok8 )에 대한 자막용 파일입니다. 
 
 ----
-<b>Andrew:</b>
+''Andrew:''
 
 Thank you, for coming everybody, some of you probably already
 have heard of Linus Torvalds, those of you who haven't, you are
@@ -22,9 +22,9 @@ you doing here?"  Thank you taking the time off.  So Linus is
 here today to explain to us why on earth he wrote a software
 tool which, eh, only he is smart enough to know how to use.
 
-<i>[applause]</i>
+''[applause]''
 
-<b>Linus:</b>
+''Linus:''
 
 So I have a few words of warning which is I do not actually do
 speaking very much, partly because I do not like speaking,
@@ -224,7 +224,7 @@ So before I even start, I'd like to know, how many people are
 used to the notion of a truly distributed source control
 management system?
 
-<i>[audiences raise hands]</i>
+''[audiences raise hands]''
 
 Are most of you kernel developers?  No?  OK, so there were maybe
 ten hands coming up.
@@ -265,17 +265,17 @@ important and it is very different from anybody who is used to
 CVS where branching is considered something that only true gurus
 do.  How many of you have ever used CVS?
 
-<i>[audiences raise hands]</i>
+''[audiences raise hands]''
 
 OK, everybody.  How many of you have really done a branch and
 ever merged it in CVS?
 
-<i>[audiences raise hands]</i>
+''[audiences raise hands]''
 
 Good job.  I mean, it wasn't everybody, but it was actually more
 than I expected.  How many of you enjoyed the experience?
 
-<i>[laughter]</i>
+''[laughter]''
 
 Oooh, OK, so there were a couple.  It is considered hard.  In
 CVS when you merge a branch, I've done it, as little as possible
@@ -307,9 +307,9 @@ CVS, you can't do this, if you use... what do you use here?
 Perforce?  ... Perforce.  Eh ... I'm sorry.  I'm sure it's
 better than CVS.
 
-<i>[whispers]</i> A tiny bit.
+''[whispers]'' A tiny bit.
 
-<i>[audience laugh]</i>
+''[audience laugh]''
 
 So that's part of it.  One of the really nice things which is
 also, maybe you do not have this issue inside a company, but we
@@ -359,19 +359,19 @@ use.
 
 So get rid of Perforce, now.  
 
-<i>[applaud]</i>
+''[applaud]''
 
 It's sad, but it is so so true.  And that was my only real slide
 about distribution.  And I'd love to get questions, because we
 are now moving into other areas.
 
-<b>Audience:</b>
+''Audience:''
 
 Question.  So how would you do it?  If you had this monstrously
 awesomely big codebase and you wanted to use this without
 stopping business for 6 months, how would you do it?
 
-<b>Linus:</b>
+''Linus:''
 
 Stay by the mic, because I could not quite make out your
 question,... OK, he went away.
@@ -453,7 +453,7 @@ real practical advantage.
 
 Somebody else has a question.
 
-<b>Audience:</b>
+''Audience:''
 
 It feels like the politics has just been moved to like an
 indirect political question.  Everybody has an access and they
@@ -461,7 +461,7 @@ are all playing with their branches in their sandbox, but at the
 end of the day, there has to be merging and resolving unless you
 have 80 billion flavors of every Linux kernel.
 
-<b>Linus:</b>
+''Linus:''
 
 Absolutely.  So in practice you will never see, oh, there will
 be a thousand or maybe twenty thousand different branches, but
@@ -530,14 +530,14 @@ fits, you don't even have to have a mental model, it fits how
 we are wired up.  So there's huge advantages to it with this whole
 model of network of trust.
 
-<b>Audience:</b>
+''Audience:''
 
 Do you know of any companies that are using distributed systems
 internally?  It seems like there might be a risk of kind-of
 balkanizing the code base, as in people not being in the same
 sandbox don't contribute back.
 
-<b>Linus:</b>
+''Linus:''
 
 So quite frankly there aren't that many distributed systems.
 There is BitKeeper, it is clearly being used at commercial
@@ -554,12 +554,12 @@ very similar model.  Git just does it better.  Everything else,
 it's either centralized, or it's too unstable or too slow to use
 for anything big.
 
-<b>Audience:</b>
+''Audience:''
 
 Is there an advantage for a company to have everybody playing in
 the same sandbox?
 
-<b>Linus:</b>
+''Linus:''
 
 I think a lot of companies think that there is an advantage to that. I know
 that inside companies, I do not think that 
@@ -587,14 +587,14 @@ people only after they got over the initial hump of
 understanding what distribution really means, but the basic
 stuff is really easy to do.
 
-<b>Audience:</b>
+''Audience:''
 
 One characteristic of a centralized system is that it's the
 original developer who has to resolve any merges, who has to fix
 merges, how do you do that in git?  And how do you minimize merge
 conflicts?
 
-<b>Linus:</b>
+''Linus:''
 
 Thank you for asking me the question.  Did I tell you to ask
 that question?
@@ -641,7 +641,7 @@ being distributed.  It's not something that is special to git.
 Git makes merging easier than anything else, but git does it
 exactly because git is distributed.
 
-<b>Audience:</b>
+''Audience:''
 
 I do not entirely understand why you think it is necessary to
 have a distributed system to have,...  it seems like you get a
@@ -652,7 +652,7 @@ corporate tree, then a centralized system with really cheap
 branches wouldn't that give you pretty much the same effect?
 Or is it just impossible to do?
 
-<b>Linus:</b>
+''Linus:''
 
 I will argue that centralized systems can't work, but it is
 clearly true that if you are in a tightly controlled corporate
@@ -727,21 +727,21 @@ That's the deal.
 
 Anyway, now we are on the Performance slide.
 
-<b>Audience:</b>
+''Audience:''
 
 Can I ask a question?
 
-<b>Linus:</b>
+''Linus:''
 
 Yeah.
 
-<b>Audience:</b>
+''Audience:''
 
 Two questions, actually.  One is, how many files would git take,
 and the second one, let's say you have a humongous tree under
 git, would it be possible to check out a part of the tree.
 
-<b>Linus:</b>
+''Linus:''
 
 Great questions.  Those questions actually kind of dovetail into
 a different issue, even though they are performance related.
@@ -807,11 +807,11 @@ but you keep separate projects separate.
 Then you avoid the problem of "you have to get it all".
 Because with git you do have to get it all.
 
-<b>Audience:</b>
+''Audience:''
 
 What about shared code?
 
-<b>Linus:</b>
+''Linus:''
 
 If they are all shared code, what you can do with git,
 if you actually have a lot of shared stuff, 
@@ -849,12 +849,12 @@ user interfaces right now are definitely lacking.
 There was probably some part of your question that I completely
 forgot.
 
-<b>Audience:</b>
+''Audience:''
 
 Can you have just a part of files pulled 
 out of a repository, not the entire repository?
 
-<b>Linus:</b>
+''Linus:''
 
 You can export things as tarballs, you can export things as
 individual files, you can rewrite the whole history to say "I
@@ -891,7 +891,7 @@ of the things where I think the designers of subversion were
 complete morons.  Strong opinions, that's me, right?
 There are a few of them in the room today, I suspect.  You are stupid.
 
-<i>[laughter]</i>
+''[laughter]''
 
 Subversion for example, talks very loudly about how they do CVS
 right by making branching really cheap.  It's probably on their
@@ -1111,7 +1111,7 @@ So go on spread the word.
 We have one more question I guess.  What is the timing like, I
 dunno... Quickly
 
-<b>Audience:</b>
+''Audience:''
 
 So the reason to switch from Perforce is really scalability and
 performance. Otherwise people would just keep using it.
@@ -1119,7 +1119,7 @@ performance. Otherwise people would just keep using it.
 Would it be exchanging one set of scalability/performance problems
 with another set of scalability/performance problems?
 
-<b>Linus:</b>
+''Linus:''
 
 I already mentioned the fact that I do not know how you maintain
 stuff in Perforce but when and if you do switch over to git what
