@@ -1,6 +1,6 @@
 = [[NetBeans]] Plugin =
 
-New project underway to provide support for Git repositories directly from the [[http://www.netbeans.org/|NetBeans IDE]].
+New project underway to provide support for Git repositories directly from the [http://www.netbeans.org/ NetBeans IDE].
 The module is based on the ![[NetBeans]] Mercurial code and uses the JGit library originally developed as part of the [[EclipsePlugin]].
 
 More information at http://nbgit.googlecode.com/
@@ -24,6 +24,6 @@ git clone http://repo.or.cz/r/nbgit.git
 See also [[EclipsePlugin]]
 
 ----
-[[CategoryTools]]
+[[Category:Tools]]
 
 __NOTOC__
