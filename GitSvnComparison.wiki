@@ -1,9 +1,9 @@
-<i>Note: This page is currently a work in progress.  It started out as a private email to someone who currently uses Subversion.  I decided to make it available and try to extend it further. I'll remove this comment when the page is improved.  :)  -- Shawn Pearce</i>
+''Note: This page is currently a work in progress.  It started out as a private email to someone who currently uses Subversion.  I decided to make it available and try to extend it further. I'll remove this comment when the page is improved.  :)  -- Shawn Pearce''
 
 ----
-Although this page is hosted on a Git-specific Wiki it tries to provide a fair and unbiased comparison of [[http://git-scm.com/|Git]] and [[http://subversion.tigris.org/|Subversion]] to help prospective users of both tools better evaluate their choices.  This page only describes base Subversion and does not discuss the benefits and drawbacks to using [[http://svk.elixus.org/|SVK]], a distributed wrapper around Subversion.
+Although this page is hosted on a Git-specific Wiki it tries to provide a fair and unbiased comparison of [http://git-scm.com/ Git] and [http://subversion.tigris.org/ Subversion] to help prospective users of both tools better evaluate their choices.  This page only describes base Subversion and does not discuss the benefits and drawbacks to using [http://svk.elixus.org/ SVK], a distributed wrapper around Subversion.
 
-<i>Some comments for consideration in the next rev: A distinct bias is evident in the pro-svn section, which attempts to mitigate git's disadvantages (e.g., it talks more about how well git UI's are progressing than how incredibly good Subversion's UI's are; likewise, but less so, in 'Shorter Revision Numbers'). Also not mentioned are Subversion's support for http(s) and WebDAV, and its excellent support for Windows (in stark contrast to git's)</i>
+''Some comments for consideration in the next rev: A distinct bias is evident in the pro-svn section, which attempts to mitigate git's disadvantages (e.g., it talks more about how well git UI's are progressing than how incredibly good Subversion's UI's are; likewise, but less so, in 'Shorter Revision Numbers'). Also not mentioned are Subversion's support for http(s) and WebDAV, and its excellent support for Windows (in stark contrast to git's)''
 
 = Git's Major Features Over Subversion =
 There are a number of key features in Git that really make it stand out when compared to Subversion.  Among them are the following:
@@ -37,7 +37,7 @@ Consequently Git:
 * What additional changes were made to complete the merge successfully.
 ** Any changes made during the merge that is beyond those made on the branch(es) being merged is attributed to the user performing the merge.
 * When the merge was done
-** Why the merge was done (<i>optional; can be supplied by the user</i>).
+** Why the merge was done (''optional; can be supplied by the user'').
 * Automatically starts the next merge at the last merge.
 ** Knowing what revision was last merged is necessary in order to successfully merge the same branches together again in the future.
 This is quite contrary to Subversion's handling of branches.  As of Subversion 1.5:
@@ -47,7 +47,7 @@ This is quite contrary to Subversion's handling of branches.  As of Subversion 1
 * Incomplete merge event record:
 ** Although Subversion records a merge as a commit and thus associates a username and a timestamp to it (like Git) there are some serious flaws in this record.
 ** All changes made on the branch appear to be made by the merging user.
-*** This means that from a historical perspective every line of code modified on the branch will appear in the trunk as though it was written by the user who merged the branch.  <i>This is wrong if there were other users working on that branch.</i>
+*** This means that from a historical perspective every line of code modified on the branch will appear in the trunk as though it was written by the user who merged the branch.  ''This is wrong if there were other users working on that branch.''
 * It's impossible to see only merge related changes.
 ** If the merging user had to modify 12 lines of code to complete the merge successfully you can't tell what those 12 lines were, or how those 12 lines differ from the versions on the branches being merged.
 
@@ -83,10 +83,10 @@ Whilst Git versions prior 1.5.1 never convert files and always assume that every
 Subversion has some notable features that Git currently doesn't have or will never have.
 
 == User Interfaces ==
-Currently Subversion has a wider range of user interface tools than Git.  For example there are SVN plugins available for most popular IDEs.  There is a [[http://tortoisesvn.net/|Windows Explorer shell extension]].  There are a number of native Windows and Mac OS X GUI tools available in ready-to-install packages.
+Currently Subversion has a wider range of user interface tools than Git.  For example there are SVN plugins available for most popular IDEs.  There is a [http://tortoisesvn.net/ Windows Explorer shell extension].  There are a number of native Windows and Mac OS X GUI tools available in ready-to-install packages.
 
-Git's primary user interface is through the command line. There are two graphical interfaces: git-gui (distributed with Git) and [[http://digilander.libero.it/mcostalba/|qgit]], which is making great strides towards providing another feature-complete graphical interface. Also gitk, the graphical history browser, can be more than just a fancy log reader. git-gui and gitk usually work out-of-box for common operating systems, and qgit is being ported to Qt4, which improves its portability.
-There are some user interface tools in development for Git, namely [[http://code.google.com/p/tortoisegit/|TortoiseGit]], a port of TortoiseSVN. There is also [[http://code.google.com/p/gitextensions/|Git Extensions]], another explorer shell extension.
+Git's primary user interface is through the command line. There are two graphical interfaces: git-gui (distributed with Git) and [http://digilander.libero.it/mcostalba/ qgit], which is making great strides towards providing another feature-complete graphical interface. Also gitk, the graphical history browser, can be more than just a fancy log reader. git-gui and gitk usually work out-of-box for common operating systems, and qgit is being ported to Qt4, which improves its portability.
+There are some user interface tools in development for Git, namely [http://code.google.com/p/tortoisegit/ TortoiseGit], a port of TortoiseSVN. There is also [http://code.google.com/p/gitextensions/ Git Extensions], another explorer shell extension.
 
 == Single Repository ==
 Since Subversion only supports a single repository there is little doubt about where something is stored.  Once a user knows the repository URL they can reasonably assume that all materials and all branches related to that project are always available at that location.  Backup to tape/CD/DVD is also simple as there is exactly one location that needs to be backed up regularly.
@@ -102,28 +102,28 @@ Subversion can be used with binary files (it is automatically detected; if that 
 
 Only that with Git, the default is to interpret the files as binary to begin with.  If you _have_ to have CR+LF line endings (even though most modern programs grok the saner LF-only line endings just fine), you have to tell Git so.  Git will then autodetect if a file is text (just like Subversion), and act accordingly.  Analogous to Subversion, you can correct an erroneous autodetection by setting a git attribute.
 
-<i>I'm not sure why this point is here ; both git and svn process content verbatim by default. Neither git or svn will munge line-endings unless you ask them to. svn appears to have one more option for munging (CR), which won't be used often. The chief difference is that git supports path-globbing for attributes, whereas on svn they must be applied on a per-file basis, necessarily so because svn supports checkout of subtrees so you could be decapitating your attribute metadata. Otherwise, on the matter of "not screwing up your files by making assumptions about the content", they seem equal.  </i>
+''I'm not sure why this point is here ; both git and svn process content verbatim by default. Neither git or svn will munge line-endings unless you ask them to. svn appears to have one more option for munging (CR), which won't be used often. The chief difference is that git supports path-globbing for attributes, whereas on svn they must be applied on a per-file basis, necessarily so because svn supports checkout of subtrees so you could be decapitating your attribute metadata. Otherwise, on the matter of "not screwing up your files by making assumptions about the content", they seem equal.  ''
 
-<i>Marking a file with the correct mime-type is important when you do things like surf your repository with a browser (esp. for web content, a browser that respects the mime-type (IE, not IE) will by default, display all HTML as plaintext from mod_dav_svn). svn mime-type autodetection (a subset of the auto-props feature) can be configured to specify a mime-type based on filename extension, as well as the default basic detection of application/octet-stream. You could happily do this with attribute globs on git, if I read the manual right, setting the crlf attribute. One big difference I do see is that if you turn on core.autocrlf, if a file is falsely determined to be text, it will get munged for line endings. On svn you must identify each file that you want line endings munged for manually (or via a manually configured feature). </i>
+''Marking a file with the correct mime-type is important when you do things like surf your repository with a browser (esp. for web content, a browser that respects the mime-type (IE, not IE) will by default, display all HTML as plaintext from mod_dav_svn). svn mime-type autodetection (a subset of the auto-props feature) can be configured to specify a mime-type based on filename extension, as well as the default basic detection of application/octet-stream. You could happily do this with attribute globs on git, if I read the manual right, setting the crlf attribute. One big difference I do see is that if you turn on core.autocrlf, if a file is falsely determined to be text, it will get munged for line endings. On svn you must identify each file that you want line endings munged for manually (or via a manually configured feature). ''
 
-<i>All in all, yes, git has a slightly more convenient properties feature, but scoring for or against either product on these points is marginal ; both deal with binary and text properly, both have metadata features, both let you control EOL munging in an equivalent way. I would be shy about turning on autocrlf globally for git, simply because I don't think it's necessary for the majority of projects.</i> 
+''All in all, yes, git has a slightly more convenient properties feature, but scoring for or against either product on these points is marginal ; both deal with binary and text properly, both have metadata features, both let you control EOL munging in an equivalent way. I would be shy about turning on autocrlf globally for git, simply because I don't think it's necessary for the majority of projects.'' 
 
 === Change Tracking ===
 Seemingly minor changes to binary files, such as adjusting brightness on an image, could be different enough that Git interprets them as a new file, causing the content history to split. Since Subversion tracks by file, history for such changes is maintained.
 
-<i>Note: This claim is incorrect; it may be based on an earlier version of Git. Both minor and major changes to binary files are marked as a modification, Git does not interpret them as a new file. -- Tim Uruski</i>
+''Note: This claim is incorrect; it may be based on an earlier version of Git. Both minor and major changes to binary files are marked as a modification, Git does not interpret them as a new file. -- Tim Uruski''
 
 == Partial Checkout/Used bandwidth ==
 With Subversion, you can check out just a subdirectory of a repository. Such a thing is not possible with Git. For a large project, this means that you always have to download the whole repository, even if you only need the current version of some sub-directory. In times where fast Internet connections are only available in most cities and traffic over mobile internet connections is expensive, git can cost much more time and money in rural areas or with mobile devices.
 
-<i>Note: I believe this can be done with</i> "git checkout <i>commit</i> -- <i>path</i>"
+''Note: I believe this can be done with'' "git checkout ''commit'' -- ''path''"
 
-<i>Note: I think the author of the above note might be misinterpreting SVN's benefit here because of the difference in terminology. If this section was originally written by a SVN user, the equivalent in Git terminology would be that Git doesn't allow you to </i>clone<i> just part of a repository. After all, </i>git checkout<i> operates on some working copy; I tried a couple different versions of that command, and just get </i>fatal: Not a git repository<i>. Furthermore, this point is supported by [[http://book.git-scm.com/5_submodules.html|The Git Community Book]], which says "Git does not allow partial checkouts".</i>
+''Note: I think the author of the above note might be misinterpreting SVN's benefit here because of the difference in terminology. If this section was originally written by a SVN user, the equivalent in Git terminology would be that Git doesn't allow you to ''clone'' just part of a repository. After all, ''git checkout'' operates on some working copy; I tried a couple different versions of that command, and just get ''fatal: Not a git repository''. Furthermore, this point is supported by [http://book.git-scm.com/5_submodules.html The Git Community Book], which says "Git does not allow partial checkouts".''
 
 == Shorter and Predictable Revision Numbers ==
 First, as SVN assigns revision numbers sequentially (starting from 1) even very old projects such as Mozilla have short unique revision numbers (Mozilla is only up to 6 digits in length).  Many users find this convenient when entering revisions for historical research purposes.  They also find this number easy to embed into their product, supposedly making it easy to determine which sources were used to create a particular executable.  However since the revision number is global to the entire repository, including all branches, there is still a question of which branch the revision number corresponds to.
 
-<i>Unless the last committed revision is recorded. Since revisions are global for a repository, the last committed revision makes it possible to determine which branch was used</i>
+''Unless the last committed revision is recorded. Since revisions are global for a repository, the last committed revision makes it possible to determine which branch was used''
 
 As Git uses a SHA1 to uniquely identify a commit each specific revision can only be described by a 40 character hexadecimal string, however this string not only identifies the revision but also the branch it came from.  In practice the first 8 characters tends to be unique for a project, however most users try to not rely on this over the long term.  Rather than embedding long commit SHA1s into executables Git users generate a uniquely named tag.  This is an additional step, but a simple one.
 
@@ -131,7 +131,7 @@ Secondly, SVN's revision numbers are predictable. If the current commit is 435 t
 
 ----
 = The Original Email =
-<i>Provided as reference, until this page is cleaned up.</i>
+''Provided as reference, until this page is cleaned up.''
 
 The key things that I like about Git are:
 
@@ -145,7 +145,7 @@ The key things that I like about Git are:
 * Creating a branch is as simple as writing a 41 byte file to disk.  Deleting a branch is as simple as deleting that file.
  - Unlike Subversion branches carry along their complete history.
 * without having to perform a strange copy and walk through the copy.  When using Subversion I always found it awkward to look at the history of a file on branch that occurred before
-  the branch was created.  <i>from #git: <robinr> spearce: I don't understand one thing about SVN in the page. I made a branch i SVN and browsing the history showed the whole history a file in the branch</i>
+  the branch was created.  ''from #git: <robinr> spearce: I don't understand one thing about SVN in the page. I made a branch i SVN and browsing the history showed the whole history a file in the branch''
  - Branch merging is simpler and more automatic in Git.
 * In Subversion you need to remember what was the last revision you merged from so you can generate the correct merge command. Git does this automatically, and always does it right.  Which means there's less chance of making a mistake when merging two branches together.
  - Branch merges are recorded as part of the proper history of the
