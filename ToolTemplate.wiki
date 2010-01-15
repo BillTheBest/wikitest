@@ -10,7 +10,7 @@
 * ''Author'': J. Random Hacker <J.Hacker@example.com>
 * ''Homepage'': http://example.com/projectname/
 * ''Repository'': http://example.com/projectname/projectname.git/
-* ''gitweb'': http://example.com/gitweb.cgi?p=projectname.git;a=summary <<BR>>''(if exists and is different from repository above)
+* ''gitweb'': http://example.com/gitweb.cgi?p=projectname.git;a=summary <BR>''(if exists and is different from repository above)
 * ''License'': e.g. GPLv2 or later
 
 ----
