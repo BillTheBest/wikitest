@@ -82,8 +82,8 @@ someone@the.inter.net
 ** deeper
 "Long item" list
 
-* I've been so busy with other projects. I didn't realize so many interfaces exist. Thanks to this survey I'll spend some time checking out the wiki for the other interfaces.<<BR>>At the 'Solutions Linux 2007' exhibition in Paris I have been.
- I didn't even know about any of the new git features listed in question 43.<<BR>>I need to get an up to date version as there are things mentioned in this survey that I don't know about.
+* I've been so busy with other projects. I didn't realize so many interfaces exist. Thanks to this survey I'll spend some time checking out the wiki for the other interfaces.<BR>At the 'Solutions Linux 2007' exhibition in Paris I have been.
+ I didn't even know about any of the new git features listed in question 43.<BR>I need to get an up to date version as there are things mentioned in this survey that I don't know about.
 === Glossary ===
 ; Term : Definition
 === Drawing ===
@@ -92,10 +92,10 @@ someone@the.inter.net
 === Macros ===
 
 <code><nowiki>{{BR</nowiki></code>}} (with media4wiki)
-a <<BR>> b
+a <BR> b
 
 <code><nowiki><br></nowiki></code> (classic MoinMoin)
-a <<BR>> b
+a <BR> b
 
 = Heading 1 =
 == Heading 2 ==
@@ -150,8 +150,8 @@ Total (sum);                    656
  ||<rowstyle="BORDER-TOP-STYLE: dotted">hard ||131 ||
  ||hard ||131 ||
  |||| ||
- ||hard [[[#fn_a|(a)]]] ||131 ||
- ||very hard[[[#fn_b|<sup>b</sup>]]] ||33 ||
+ ||hard [[#fn_a|(a)]] ||131 ||
+ ||very hard[[#fn_b|<sup>b</sup>]] ||33 ||
  ||<rowbgcolor="#ccffff" rowstyle="FONT-WEIGHT: bold; FONT-STYLE: italic">Base ||656 / 683 ||
  ||<rowbgcolor="#ccffff" rowstyle="FONT-WEIGHT: bold; FONT-STYLE: italic">Total (sum) ||656 ||
 ''Footnotes (macro):'' <<[[FootNote]]>> ''Footnotes (by hand):''
