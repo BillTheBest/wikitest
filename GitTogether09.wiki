@@ -1,5 +1,5 @@
 = [[GitTogether]] '09 =
-<b>October 26(Mon)-28(Wed) in [[http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=1098+Alta+Ave,+Mountain+View,+CA+94043&sll=37.420123,-122.08592&sspn=0.010123,0.011952&ie=UTF8&t=h&z=17|1098 Alta Ave, Mountain View, California]]</b> (day after the Google SoC Mentor Summit).
+''October 26(Mon)-28(Wed) in [http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=1098+Alta+Ave,+Mountain+View,+CA+94043&sll=37.420123,-122.08592&sspn=0.010123,0.011952&ie=UTF8&t=h&z=17 1098 Alta Ave, Mountain View, California]'' (day after the Google SoC Mentor Summit).
 
 Signup deadline is Oct 14th.  Google needs a final guest list by then to prepare badges, sign in lists for reception, and a final head-count to plan for food.
 
@@ -26,11 +26,11 @@ Any questions, please contact Shawn Pearce ( gsoc@spearce.org ).
 
 Google has us capped at ~25 attendees.
 
-Please join the [[http://lists.utsl.gen.nz/mailman/listinfo.cgi/gittogether|GitTogether mailing list]].  We promise to keep the traffic low and only about this event. Useful information for attendees will be sent to this list as we get closer to the [[GitTogether]].
+Please join the [http://lists.utsl.gen.nz/mailman/listinfo.cgi/gittogether GitTogether mailing list].  We promise to keep the traffic low and only about this event. Useful information for attendees will be sent to this list as we get closer to the [[GitTogether]].
 
 == Approximate Agenda ==
 
-<i>TBD</i>
+''TBD''
 
 Please try to time your arrival to the 9:00-9:30 am window each day.  Googlers will be on hand to help you sign in and find the meeting room.  After 9:30 sign-in will get a little bit more interesting as you may need to work with main reception.
 
@@ -43,77 +43,77 @@ Dinners:
 
 == Speakers ==
 
-<i>TBD</i>
+''TBD''
 
 == Suggested Topics ==
 
-Please propose and vote on topics through [[http://moderator.appspot.com/#15/e=bbfd5&t=bbfd6|the GitTogether '09 moderator series]].  If you propose a topic, please also add it the table below.
+Please propose and vote on topics through [http://moderator.appspot.com/#15/e=bbfd5&t=bbfd6 the GitTogether '09 moderator series].  If you propose a topic, please also add it the table below.
 
 {| border="1" cellpadding="2" cellspacing="0"
-|  <b>Status</b> 
-|  <b>Speaker</b> 
-|  <b>Kind of session</b> 
-|  <b>Title</b> 
-|  <b>Talk Length</b> 
+|  ''Status'' 
+|  ''Speaker'' 
+|  ''Kind of session'' 
+|  ''Title'' 
+|  ''Talk Length'' 
 | 
 |-
-|  [[http://moderator.appspot.com/#15/e=bbfd5&t=bbfd6&q=bcb91|proposed]] 
+|  [http://moderator.appspot.com/#15/e=bbfd5&t=bbfd6&q=bcb91 proposed] 
 |  Shawn Pearce 
 |  Demo, describe challenges, seek feedback 
-|  [[http://code.google.com/p/gerrit/|Gerrit Code Review]] 
+|  [http://code.google.com/p/gerrit/ Gerrit Code Review] 
 |  60 min 
 | 
 |-
-|  [[http://moderator.appspot.com/#15/e=bbfd5&t=bbfd6&q=bbfd7|proposed]] 
+|  [http://moderator.appspot.com/#15/e=bbfd5&t=bbfd6&q=bbfd7 proposed] 
 |  Sverre Rabbelier 
 |  Demo, integration discussion, seek feedback 
-|  [[http://github.com/SRabbelier/hg-git/tree/fast-export|Hg-git and hg fast-export]] 
+|  [http://github.com/SRabbelier/hg-git/tree/fast-export Hg-git and hg fast-export] 
 |  15? min 
 | 
 |-
-|  [[http://moderator.appspot.com/#15/e=bbfd5&t=bbfd6&q=bdb2d|proposed]] 
+|  [http://moderator.appspot.com/#15/e=bbfd5&t=bbfd6&q=bdb2d proposed] 
 |  Scott Chacon 
 |   Demo and feedback 
-|  [[http://github.com/schacon/agitmemnon|Agitmemnon : Cassandra backed Git Daemon]] 
+|  [http://github.com/schacon/agitmemnon Agitmemnon : Cassandra backed Git Daemon] 
 |  15 min 
 | 
 |-
-|  [[http://moderator.appspot.com/#15/e=bbfd5&t=bbfd6&q=bfe72|proposed]] 
+|  [http://moderator.appspot.com/#15/e=bbfd5&t=bbfd6&q=bfe72 proposed] 
 |  Shawn Pearce 
 |  Demo, challenges, future directions 
-|  [[http://code.google.com/p/gimd/|gimd (Git Message Database)]] 
+|  [http://code.google.com/p/gimd/ gimd (Git Message Database)] 
 |  30 min 
 | 
 |-
-|  [[http://moderator.appspot.com/#15/e=bbfd5&t=bbfd6&q=bfe72|proposed]] 
+|  [http://moderator.appspot.com/#15/e=bbfd5&t=bbfd6&q=bfe72 proposed] 
 |  Jeff King 
 |  Flamefest discussion 
 |  Bug-tracking in git.git 
 |  30 min 
 | 
 |-
-|  [[http://moderator.appspot.com/#15/e=bbfd5&t=bbfd6&q=bfe72|proposed]] 
+|  [http://moderator.appspot.com/#15/e=bbfd5&t=bbfd6&q=bfe72 proposed] 
 |  David Brown 
 |  User story 
 |  Git/Gerrit corporately, part 2 
 |  30 min 
 | 
 |-
-|  [[http://moderator.appspot.com/#15/e=bbfd5&t=bbfd6&q=bfe72|proposed]] 
+|  [http://moderator.appspot.com/#15/e=bbfd5&t=bbfd6&q=bfe72 proposed] 
 |  Sam Vilain 
 |  Progress/design session 
 |  Automatic git-daemon mirroring 
 |  30 min 
 | 
 |-
-|  [[http://moderator.appspot.com/#15/e=bbfd5&t=bbfd6&q=bfe72|proposed]] 
+|  [http://moderator.appspot.com/#15/e=bbfd5&t=bbfd6&q=bfe72 proposed] 
 |  Sam Vilain 
 |  GSoC update 
 |  Report on revision caching GSoC 
 |  30 min 
 | 
 |-
-|  [[http://moderator.appspot.com/#15/e=bbfd5&t=bbfd6&q=bfe72|proposed]] 
+|  [http://moderator.appspot.com/#15/e=bbfd5&t=bbfd6&q=bfe72 proposed] 
 |  Shawn Pearce 
 |  Update 
 |  Smart HTTP protocol support 
@@ -124,17 +124,17 @@ Please propose and vote on topics through [[http://moderator.appspot.com/#15/e=b
 == Directions ==
 Its up to you to get to Google each day.  You may want to try and carpool with other attendees staying at nearby hotels.
 
-When mapping driving directions you want to use [[http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=1098+Alta+Ave,+Mountain+View,+CA+94043&sll=37.420123,-122.08592&sspn=0.010123,0.011952&ie=UTF8&t=h&z=17|1098 Alta Ave, Mountain View, California]] as the building street address.
+When mapping driving directions you want to use [http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=1098+Alta+Ave,+Mountain+View,+CA+94043&sll=37.420123,-122.08592&sspn=0.010123,0.011952&ie=UTF8&t=h&z=17 1098 Alta Ave, Mountain View, California] as the building street address.
 
 The meeting space, Eagle Passage Tech Talk, is on the first floor just inside of the lobby of the 1098 Alta Ave building.
 
-<i>Parking:</i> Any parking that is not otherwise reserved for the disabled, expectant mothers, etc., is fair game.  Help yourself.
+''Parking:'' Any parking that is not otherwise reserved for the disabled, expectant mothers, etc., is fair game.  Help yourself.
 
-<i>Sign In:</i> You will need to sign in at reception each day. You will be asked by our system to execute an NDA, which covers anything you may learn about Google during the course of your visit, not the content of the [[GitTogether]]. If you feel strongly about not executing the NDA, you can go right ahead and decline it during sign in. You won't be that close to employee areas, so I don't care if you sign it or not.
+''Sign In:'' You will need to sign in at reception each day. You will be asked by our system to execute an NDA, which covers anything you may learn about Google during the course of your visit, not the content of the [[GitTogether]]. If you feel strongly about not executing the NDA, you can go right ahead and decline it during sign in. You won't be that close to employee areas, so I don't care if you sign it or not.
 
-<i>Photos:</i> Nope. Outside only. Be good.
+''Photos:'' Nope. Outside only. Be good.
 
-<i>Recording:</i> Audio only, no video. Be good.  Since this is a standard Google tech talk room, we may be able to take advantage of the video recording capabilities to record a specific talk or two and post them on [[http://www.youtube.com/|YouTube]] after the event.
+''Recording:'' Audio only, no video. Be good.  Since this is a standard Google tech talk room, we may be able to take advantage of the video recording capabilities to record a specific talk or two and post them on [http://www.youtube.com/ YouTube] after the event.
 
 == Misc. ==
 Google will be serving breakfast and lunch each day, in addition to coffee and beverages during the event.  We will arrange for dinner off-campus, at our own expense.
@@ -144,24 +144,24 @@ Plenty of table space and power outlets will be available in the meeting room.  
 Google has free wireless Internet access available everywhere on the campus ("GoogleGuest").  802.11 wireless support is required to connect to the Internet.  Hardwired LAN connections are not available in our meeting space.  If you think you'll want to get online during the sessions please test your wireless to make sure it is working before you travel.
 
 == Travel Details ==
-Google provides some [[http://code.google.com/events/visitors/|information]] about discounted lodging, visiting and parking.
+Google provides some [http://code.google.com/events/visitors/ information] about discounted lodging, visiting and parking.
 
-Public transit is available in the area, look at [[http://www.google.com/transit|Google Transit]] to help you plan a route.
+Public transit is available in the area, look at [http://www.google.com/transit Google Transit] to help you plan a route.
 
-If you would prefer to spend less than you would on taxi service but would prefer to be picked up at the airport rather than navigate public transport, try [[http://www.supershuttle.com/|Super Shuttle]]. Shared rides (with a van full of other travelers) start at about 35 USD from any of the area airports.
+If you would prefer to spend less than you would on taxi service but would prefer to be picked up at the airport rather than navigate public transport, try [http://www.supershuttle.com/ Super Shuttle]. Shared rides (with a van full of other travelers) start at about 35 USD from any of the area airports.
 
 Nearby airports are, in increasing distance from Google:
 
-* [[http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=SJC&sll=37.0625,-95.677068&sspn=79.498962,97.910156&ie=UTF8&t=h&z=15|SJC]] - San Jose, CA
-* [[http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=SFO&sll=37.366695,-121.925906&sspn=0.04052,0.047808&ie=UTF8&t=h&z=14|SFO]] - San Fransisco, CA
-* [[http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=OAK&sll=37.615223,-122.389979&sspn=0.080771,0.095615&ie=UTF8&t=h&z=14|OAK]] - Oakland, CA
+* [http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=SJC&sll=37.0625,-95.677068&sspn=79.498962,97.910156&ie=UTF8&t=h&z=15 SJC] - San Jose, CA
+* [http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=SFO&sll=37.366695,-121.925906&sspn=0.04052,0.047808&ie=UTF8&t=h&z=14 SFO] - San Fransisco, CA
+* [http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=OAK&sll=37.615223,-122.389979&sspn=0.080771,0.095615&ie=UTF8&t=h&z=14 OAK] - Oakland, CA
 
 == Nearby Activities ==
 If you are traveling far and wish to stay some extra time there are many activities in the bay area.
 
-* [[http://www.onlyinsanfrancisco.com/|San Francisco]] is 45 minutes north of Mountain View.
-* [[http://www.santacruz.org/index.shtml|Santa Cruz]] is 45 minutes south of Mountain View.
-* [[http://www.humboldtredwoods.org/|Redwoods State Park]] is a 4 hour drive from San Francisco.
-* [[http://www.nps.gov/seki/|Sequoia & Kings Canyon National Park]] about a 4 hour drive from Mountain View.
+* [http://www.onlyinsanfrancisco.com/ San Francisco] is 45 minutes north of Mountain View.
+* [http://www.santacruz.org/index.shtml Santa Cruz] is 45 minutes south of Mountain View.
+* [http://www.humboldtredwoods.org/ Redwoods State Park] is a 4 hour drive from San Francisco.
+* [http://www.nps.gov/seki/ Sequoia & Kings Canyon National Park] about a 4 hour drive from Mountain View.
 
 __NOTOC__
