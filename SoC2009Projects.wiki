@@ -1,4 +1,4 @@
-<b>Table of Contents:</b>
+''Table of Contents:''
 __TOC__
 ----
 = Git Community projects =
@@ -10,23 +10,23 @@ and we are looking forward to the successful completion of the
 following interesting projects:
 
 == Interactive graph GUI ==
-<b>Student:</b> Jeff Brantley <BR>
-<b>Mentor:</b>  Johannes Schindelin <BR>
+''Student:'' Jeff Brantley <BR>
+''Mentor:''  Johannes Schindelin <BR>
 
 Git stores a repository’s history as a directed acyclic graph (DAG) of commits and operations performed on the repository translate to changes to this graph. To aid understanding of Git, tutorials tend to include illustrations of this graph.
 
 This project proposes a highly intuitive GUI for Git that lets a user interact directly with an illustration of this underlying DAG, invoking commands on nodes, branches, or tags via context menus.
 
-<b>Programming language:</b> Java (uses JGit) <BR>
-<b>SoC page:</b> [http://socghop.appspot.com/student_project/show/google/gsoc2009/git/t124022376285 Interactive graph GUI] <BR>
+''Programming language:'' Java (uses JGit) <BR>
+''SoC page:'' [http://socghop.appspot.com/student_project/show/google/gsoc2009/git/t124022376285 Interactive graph GUI] <BR>
 
-<b>Progress reports / status:</b> <BR>
+''Progress reports / status:'' <BR>
 Unfortunately, the GSoC project for the graph-based UI failed
 * [http://thread.gmane.org/gmane.comp.version-control.git/123149 &#91;JGIT PATCH 0/3&#93; Request for help: graph-based UI] (this means it is up to all other people to get this idea somewhere)
 
 == Add caching support to git-daemon ==
-<b>Student:</b> Nick Edelen ([http://github.com/sirnot sirnot] on github) <BR>
-<b>Mentor:</b>  Sam Vilain ([http://github.com/samv samv] on github, mugwump on #git) <BR>
+''Student:'' Nick Edelen ([http://github.com/sirnot sirnot] on github) <BR>
+''Mentor:''  Sam Vilain ([http://github.com/samv samv] on github, mugwump on #git) <BR>
 
 Every time git-daemon handles a fetch, it must (re-)enumerate and (re-)pack all the required objects. this is often very inefficient.
 
@@ -34,14 +34,14 @@ I propose maintaining an updated list of commits/objects reachable from HEAD. th
 
 further, 'partial packfiles' could be used to cache slices of the object list. due to the nature of packfiles, these could more-or-less be coalesced to form the majority of the pack.
 
-<b>Idea:</b> [[SoC2009Ideas#Packfilecachingforgit-daemon|Packfile caching for git-daemon]] on [[SoC2009Ideas]] page <BR>
-<b>Programming language:</b> C <BR>
-<b>SoC page:</b> [http://socghop.appspot.com/student_project/show/google/gsoc2009/git/t124022376432 Add caching support to git-daemon] <BR>
-<b>Git repository (web interface):</b>
+''Idea:'' [[SoC2009Ideas#Packfilecachingforgit-daemon|Packfile caching for git-daemon]] on [[SoC2009Ideas]] page <BR>
+''Programming language:'' C <BR>
+''SoC page:'' [http://socghop.appspot.com/student_project/show/google/gsoc2009/git/t124022376432 Add caching support to git-daemon] <BR>
+''Git repository (web interface):''
 * http://github.com/sirnot/git
 * http://github.com/samv/git (mentor)
 
-<b>Progress reports / status:</b>
+''Progress reports / status:''
 * [http://thread.gmane.org/gmane.comp.version-control.git/120752 [PATCH 0/7] [GSoC2009] Revision cache / git-daemon caching plan]] from 2009-06-04.
 * [http://thread.gmane.org/gmane.comp.version-control.git/122698 [RFC/PATCH INTRO] rev-cache] ([http://thread.gmane.org/gmane.comp.version-control.git/122699 1], [http://permalink.gmane.org/gmane.comp.version-control.git/122700 2], [http://permalink.gmane.org/gmane.comp.version-control.git/122701 3], [http://permalink.gmane.org/gmane.comp.version-control.git/122702 4]) from 2009-07-03.
 * [http://thread.gmane.org/gmane.comp.version-control.git/125056 [PATCH 0/5] Suggested for PU: revision caching system to significantly speed up packing/walking] from 2009-08-06, and the following patches.
@@ -52,18 +52,18 @@ further, 'partial packfiles' could be used to cache slices of the object list. d
 
 == Mercurial: Using mercurial as a client for git repositories ==
 
-<b>SoC page:</b> [[http://socghop.appspot.com/student_project/show/google/gsoc2009/hg/t124022472367|Using mercurial as a client for git repositories]] <<BR>>
+''SoC page:'' [http://socghop.appspot.com/student_project/show/google/gsoc2009/hg/t124022472367 Using mercurial as a client for git repositories] <<BR>>
 
 == Mono: Implementing Git as class libraries in C# (also known as "managed code") ==
 
-<b>SoC page:</b> [[http://socghop.appspot.com/student_project/show/google/gsoc2009/mono/t124022708105|Implementing Git as class libraries in managed code]] <<BR>>
+''SoC page:'' [http://socghop.appspot.com/student_project/show/google/gsoc2009/mono/t124022708105 Implementing Git as class libraries in managed code] <<BR>>
 
 == openSUSE: Prototype git backend for OpenSUSE Build Service ==
 
-<b>SoC page:</b> [[http://socghop.appspot.com/student_project/show/google/gsoc2009/opensuse/t124023150939|Prototype git backend for OpenSUSE Build Service]] <<BR>>
+''SoC page:'' [http://socghop.appspot.com/student_project/show/google/gsoc2009/opensuse/t124023150939 Prototype git backend for OpenSUSE Build Service] <<BR>>
 
 == Plan9: GitFS ==
 
-<b>SoC page:</b> [[http://socghop.appspot.com/student_project/show/google/gsoc2009/plan9/t124024225905|GitFS for Plan 9 from Bell Labs]] <<BR>>
+''SoC page:'' [http://socghop.appspot.com/student_project/show/google/gsoc2009/plan9/t124024225905 GitFS for Plan 9 from Bell Labs] <<BR>>
 
 __NOTOC__
