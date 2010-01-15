@@ -15,9 +15,9 @@ See [[Gitweb]] page
 * repository administration (moving branches, signing commits etc.)
 * mod_perl specific support
 * FastCGI specific support
-* native config reading (in Perl) <i>or</i> "git config --dump" (needs core support)
+* native config reading (in Perl) ''or'' "git config --dump" (needs core support)
 * project categories
-* stat plots (like in [[http://statcvs.sourceforge.net/statcvs-stats/|StatCVS]] or [[http://fisheye.codehaus.org/browse/activecluster|FishEye]])
+* stat plots (like in [http://statcvs.sourceforge.net/statcvs-stats/ StatCVS] or [http://fisheye.codehaus.org/browse/activecluster FishEye])
 * (optional) use Git.pm
 * incremental blame (AJAX)
 * following renames in 'history' view (needs core support)
