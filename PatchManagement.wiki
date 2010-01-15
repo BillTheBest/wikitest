@@ -61,6 +61,6 @@ The approach in pg 0.1.7 of using merge commits, while allowing to track the ful
 Todo
 
 ----
-[[Category:GitDocumentation]]
+[[Category::GitDocumentation]]
 
 __NOTOC__
