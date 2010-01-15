@@ -8,11 +8,11 @@
 
 = Git Wiki Homepage =
 
-Welcome to the [[Git]] wiki web site. This wiki is a community effort to provide an accurate source of information for all things related to [[http://git-scm.com|Git]]. Make sure to visit the Git website for current updates and information. The Git [[http://github.com/schacon/gitscm|web site source]] is also managed using Git. The maintainers of the Git website would love patches for improving the website. It's a great way to try out Git. If you come across anything in this wiki or the Git homepage that needs to be fixed; help yourself and fix it. The more people who help work on this wiki the better this site will serve Git users. Think of this site as a Wikipedia for Git. 
+Welcome to the [[Git]] wiki web site. This wiki is a community effort to provide an accurate source of information for all things related to [http://git-scm.com Git]. Make sure to visit the Git website for current updates and information. The Git [http://github.com/schacon/gitscm web site source] is also managed using Git. The maintainers of the Git website would love patches for improving the website. It's a great way to try out Git. If you come across anything in this wiki or the Git homepage that needs to be fixed; help yourself and fix it. The more people who help work on this wiki the better this site will serve Git users. Think of this site as a Wikipedia for Git. 
 
 == Starting points ==
 * [[Installation]]
-* [[InterfacesFrontendsAndTools|Git Tools]]&nbsp;&ndash; <b>Note:</b> <i>Have you written one? Add it here and announce it on the [[GitCommunity|list]]!</i>
+* [[InterfacesFrontendsAndTools|Git Tools]]&nbsp;&ndash; ''Note:'' ''Have you written one? Add it here and announce it on the [[GitCommunity|list]]!''
 * [[GitDocumentation|Git Documentation]]
 * [[GitCommunity|Git Community Support]]
 * [[GitProjects|Projects using Git]]
@@ -26,16 +26,16 @@ Welcome to the [[Git]] wiki web site. This wiki is a community effort to provide
 * April 20, 2009: Google Summer of Code Git projects announced. [[SoC2009Projects|SoC 2009 Git Projects]]
 * April 13, 2009: ![[GitTogether]] '09 announced. [[GitTogether09|[[GitTogether]]'09]]
 * January 07, 2009: Google Summer of Code 2009 pre-announced. [[SoC2009Ideas|2009 Project Ideas]]
-* January 07, 2009: The Git home page moved from [[http://git.or.cz/index.html|git.or.cz]] to [[http://git-scm.com/|git-scm.com]] (the old URL redirects to the new one)
-* December 02, 2008: Webpage [[http://whygitisbetterthanx.com/|whygitisbetterthanx.com]] launches
+* January 07, 2009: The Git home page moved from [http://git.or.cz/index.html git.or.cz] to [http://git-scm.com/ git-scm.com] (the old URL redirects to the new one)
+* December 02, 2008: Webpage [http://whygitisbetterthanx.com/ whygitisbetterthanx.com] launches
 * October 27-29, 2008: [[GitTogether]] '08
-* August 17, 2008: Git Version 1.6.0 now [[http://kernel.org/pub/software/scm/git/|available]][[http://www.kernel.org/pub/software/scm/git/docs/RelNotes-1.6.0.txt|Release Notes]]
-* June 18, 2008: Git Version 1.5.6 now [[http://kernel.org/pub/software/scm/git/|available]][[http://www.kernel.org/pub/software/scm/git/docs/RelNotes-1.5.6.txt|Release Notes]]
-* May 25, 2008: Git Version 1.5.5.2 now [[http://kernel.org/pub/software/scm/git/|available]][[http://www.kernel.org/pub/software/scm/git/docs/RelNotes-1.5.5.2.txt|Release Notes]]
-* May 07, 2008: [[http://www.infoq.com/articles/dvcs-guide|InfoQ compares]] Git with Hg and Bzr with Git leading in performance
+* August 17, 2008: Git Version 1.6.0 now [http://kernel.org/pub/software/scm/git/|available]][[http://www.kernel.org/pub/software/scm/git/docs/RelNotes-1.6.0.txt Release Notes]
+* June 18, 2008: Git Version 1.5.6 now [http://kernel.org/pub/software/scm/git/|available]][[http://www.kernel.org/pub/software/scm/git/docs/RelNotes-1.5.6.txt Release Notes]
+* May 25, 2008: Git Version 1.5.5.2 now [http://kernel.org/pub/software/scm/git/|available]][[http://www.kernel.org/pub/software/scm/git/docs/RelNotes-1.5.5.2.txt Release Notes]
+* May 07, 2008: [http://www.infoq.com/articles/dvcs-guide InfoQ compares] Git with Hg and Bzr with Git leading in performance
 * April 22, 2008: Google Summer of code Git projects announced. [[SoC2008Projects|SoC 2008 Git Projects]]
-* April 20, 2008: Git Version 1.5.5.1 now [[http://kernel.org/pub/software/scm/git/|available]][[http://www.kernel.org/pub/software/scm/git/docs/RelNotes-1.5.5.1.txt|Release Notes]]
-* April 10, 2008: [[http://www.github.com|GitHub]] launches and ends beta opening doors for anyone looking for git hosting
+* April 20, 2008: Git Version 1.5.5.1 now [http://kernel.org/pub/software/scm/git/|available]][[http://www.kernel.org/pub/software/scm/git/docs/RelNotes-1.5.5.1.txt Release Notes]
+* April 10, 2008: [http://www.github.com GitHub] launches and ends beta opening doors for anyone looking for git hosting
 [[News|Older news]]
 
 == Good starting places for developing Git would be ==
@@ -46,7 +46,7 @@ Welcome to the [[Git]] wiki web site. This wiki is a community effort to provide
 * [[UsingWiki]]
 Git is not to be confused with at least these two unrelated projects which also provide commands named git. These should be uninstalled (or renamed) to use this git.
 
-* [[http://hulubei.net/tudor/git/|gnuit (GNU Interactive Tools)]] is a set of file browsing and viewing tools (a text-based file manager).
-* [[http://sourceforge.net/projects/git|Git (Guitar/Instrument Tuner)]] is a defunct portable guitar tuner.
+* [http://hulubei.net/tudor/git/ gnuit (GNU Interactive Tools)] is a set of file browsing and viewing tools (a text-based file manager).
+* [http://sourceforge.net/projects/git Git (Guitar/Instrument Tuner)] is a defunct portable guitar tuner.
 
 __NOTOC__
