@@ -1,4 +1,4 @@
-<i>Note:</i> This survey data is not the only source for [[GitSurvey]] anymore. There was one who [[http://git.or.cz/gitwiki/GitSurvey?action=diff&rev2=15&rev1=14|filled]] the survey directly to [[GitSurvey]], not through http://www.survey.net.nz/, where the below data was collected.
+''Note:'' This survey data is not the only source for [[GitSurvey]] anymore. There was one who [http://git.or.cz/gitwiki/GitSurvey?action=diff&rev2=15&rev1=14 filled] the survey directly to [[GitSurvey]], not through http://www.survey.net.nz/, where the below data was collected.
 
 This page contains the git survey raw data for further reference from [[GitSurvey]]
     Q01. First, a couple of questions about you. What country are you in?
