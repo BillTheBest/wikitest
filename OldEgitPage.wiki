@@ -1,10 +1,10 @@
 = Old Egit Page =
 
-''Please note that this page is kept for historic purposes. For current information about EGit, please see the new homepage at [[http://www.eclipse.org/egit/]]''
+''Please note that this page is kept for historic purposes. For current information about EGit, please see the new homepage at [http://www.eclipse.org/egit/ http://www.eclipse.org/egit/]''
 
 Java GIT/Eclipse GIT (by Shawn Pearce) is a Java GIT library and plugin for [http://www.eclipse.org/ Eclipse IDE].
 
-The ''old'' Eclipse update site for the plugin is (Incubation) <s>[[http://www.jgit.org/updates]]</s>
+The ''old'' Eclipse update site for the plugin is (Incubation) <s>[http://www.jgit.org/updates http://www.jgit.org/updates]</s>
 
 Roadmap of features: [[EclipsePluginWishlist]]
 
@@ -17,7 +17,7 @@ Hence JGit will also get moved to Eclipse. Find the EGit mailing list at [http:/
 before the project actually gets moved to Eclipse premises.
 
 2008-08 Marek Zawirski implemented push. An experimental update site can be found
-on <s>[[http://www.jgit.org]]</s> and an issue tracker on <s>[[http://code.google.com/p/egit]]</s>. Both
+on <s>[http://www.jgit.org http://www.jgit.org]</s> and an issue tracker on <s>[http://code.google.com/p/egit http://code.google.com/p/egit]</s>. Both
 sites are subject to change so if nothing happens on those sites or they disappear, go
 back here and look for clues. Meanwhile, feedback is welcome through the Git mailing list.
 
@@ -70,6 +70,6 @@ Some ways to keep informed about Egit development.
 
 = Historic notes =
 
-This page was the old wiki hosted at git.or.cz. Both EGit and JGit have moved to Eclipse.org; the sources can be found at [[http://wiki.eclipse.org/EGit/Contributor_Guide]]
+This page was the old wiki hosted at git.or.cz. Both EGit and JGit have moved to Eclipse.org; the sources can be found at [http://wiki.eclipse.org/EGit/Contributor_Guide http://wiki.eclipse.org/EGit/Contributor_Guide]
 
 __NOTOC__
