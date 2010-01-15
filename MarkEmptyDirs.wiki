@@ -1,12 +1,12 @@
 = Introduction =
 
-GIT as well as other well-known version control systems cannot version directories. In other words, you cannot add empty directories! A "workaround" for this issue is to use placeholder files which are placed into empty directories. These placeholder files can then be committed into the repository and will make sure that, upon checkout, the directory tree is entirely reconstructed. This solution is also suggested in the [[http://git.or.cz/gitwiki/GitFaq#[[CanIaddemptydirectories]].3F|[[GitFaq]]]]. Note however, that using that workaround might not be a good idea. Creating missing directories during a build process should also be considered as an option.
+GIT as well as other well-known version control systems cannot version directories. In other words, you cannot add empty directories! A "workaround" for this issue is to use placeholder files which are placed into empty directories. These placeholder files can then be committed into the repository and will make sure that, upon checkout, the directory tree is entirely reconstructed. This solution is also suggested in the [http://git.or.cz/gitwiki/GitFaq#[[CanIaddemptydirectories]].3F [[GitFaq]]]. Note however, that using that workaround might not be a good idea. Creating missing directories during a build process should also be considered as an option.
 
 Sometimes a solution where the missing directories are created by some magic is not practicable and people will face the problem of managing such placeholder files. In particular, the problem with using placeholder files is that you need to create them, and delete them, if they are not necessary anymore (because there were added sub-directories or files). With big source trees managing these placeholder files can be cumbersome and error prone.
 
 In the past, I had been confronted with such a situation several times. This is why I decided to write an open source tool which can manage the creation/deletion of such placeholder files automatically. It creates placeholder files in all empty directories. If later on new files or directories are put into such directories, the placeholder files are not necessary anymore and, thus, are removed automatically.
 
-This tool is licensed under the GPLv3 and runs on [[http://mono-project.com/Main_Page|Mono .NET platform]] (available for <b>Linux</b>, <b>MacOS X</b> and <b>Windows</b>) as well as on [[http://www.microsoft.com/NET|Microsoft .NET platform]] (available only for <b>Windows</b>). You can download it here: [[http://code.google.com/p/markemptydirs]].
+This tool is licensed under the GPLv3 and runs on [http://mono-project.com/Main_Page Mono .NET platform] (available for ''Linux'', ''MacOS X'' and ''Windows'') as well as on [http://www.microsoft.com/NET Microsoft .NET platform] (available only for ''Windows''). You can download it here: [[http://code.google.com/p/markemptydirs]].
 
 = Use Cases =
 
@@ -72,9 +72,9 @@ $> MarkEmptyDirs.exe --file template.txt PROJECT
 In both cases you can use template variables in your placeholder content which are evaluated everytime a new placeholder file is to be created. The evaluated results then replace the variables. Currently, the following variables are available:
 
 {| border="1" cellpadding="2" cellspacing="0"
-|  <b>VARIABLE</b> 
-|  <b>DESCRIPTION</b> 
-|  <b>ARGUMENT DESCRIPTION</b> 
+|  ''VARIABLE'' 
+|  ''DESCRIPTION'' 
+|  ''ARGUMENT DESCRIPTION'' 
 | 
 |-
 |  `§datetime[[<format-pattern>]]§` 
@@ -218,6 +218,6 @@ Sometimes you might want to hook into the placeholder creation or deletion proce
 $> MarkEmptyDirs.exe --create-hook="hg add §placeholder§" --delete-hook="hg rm -fA §placeholder§" PROJECT
 </nowiki></pre>
 ----
-[[CategoryTools]] [[CategoryTools]]
+[[Category:Tools]] [[Category:Tools]]
 
 __NOTOC__
