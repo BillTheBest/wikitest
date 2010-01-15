@@ -37,7 +37,7 @@ an example, it lets you record an intermediate state whereby you will be able
 to diff against this particular state instead of the last commit.
 
 ----
-[[CategoryGitDocumentation]]
-[[CategoryGlossary]]
+[[Category:GitDocumentation]]
+[[Category:Glossary]]
 
 __NOTOC__
