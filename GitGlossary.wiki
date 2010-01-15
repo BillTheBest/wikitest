@@ -2,12 +2,12 @@ Wikified version of [http://www.kernel.org/pub/software/scm/git/docs/gitglossary
 
 This list is sorted alphabetically:
 
-; alternate object database :
+; alternate object database : {{anchor|alternate_object_database}}
 	Via the <i>alternates mechanism</i>, a [[#repository|repository]] can inherit part of its
 	[[#object_database|object database]] from another object database, which is called
 	"alternate".
 
-; bare repository :
+; bare repository : {{anchor|bare_repository}}
 	A <i>bare [[#repository|repository]]</i> is normally an appropriately named
 	directory with a `.git` suffix that does not have a
 	[[#working_tree|locally checked-out copy]] of any of the files under revision
@@ -18,10 +18,10 @@ This list is sorted alphabetically:
 	are present and checked out.  Usually publishers of public
 	repositories make bare repositories available.
 
-; blob object :
+; blob object : {{anchor|blob_object}}{{anchor|blob}}
 	Untyped [[#object|object]], e.g. the contents of a file.
 
-; branch : 
+; branch : {{anchor|branch}}
 	A "branch" is an active line of development.  The most recent
 	[[#commit|commit]] on a branch is referred to as the tip of
 	that branch.  The tip of the branch is referenced by a branch
@@ -34,24 +34,24 @@ This list is sorted alphabetically:
 
         See also: [[BranchesInGit]].
 
-; cache : 
+; cache : {{anchor|cache}}
 	Obsolete for: [[#index|index]].
 
-; chain : 
+; chain : {{anchor|chain}}
 	A list of objects, where each [[#object|object]] in the list contains a
 	reference to its successor (for example, the successor of a [[#commit|commit]]
 	could be one of its [[#parent|parents]]).
 
-; changeset : 
+; changeset : {{anchor|changeset}}
 	BitKeeper/cvsps speak for "[[#commit|commit]]". Since git does not store
 	changes, but states, it really does not make sense to use
 	the term "changesets" with git.
 
-; checkout : 
+; checkout : {{anchor|checkout}}
 	The action of updating the [[#working_tree|working tree]] to a [[#revision|revision]] which was
 	stored in the [[#object_database|object database]].
 
-; cherry-picking : 
+; cherry-picking : {{anchor|cherry-picking}}
 	In [[#SCM|SCM]] jargon, <i>"cherry pick"</i> means to choose a subset of
 	changes out of a series of changes (typically commits)
 	and record them as a new series of changes on top of
@@ -62,11 +62,11 @@ This list is sorted alphabetically:
 
         See also: [http://www.kernel.org/pub/software/scm/git/docs/git-cherry-pick.html git-cherry-pick(1)]
 
-; clean : 
+; clean : {{anchor|clean}}
 	A [[#working_tree|working tree]] is <i>clean</i>, if it corresponds to the [[#revision|revision]]
 	referenced by the current [[#head|head]].  Also see "[[#dirty|dirty]]".
 
-; commit : 
+; commit : {{anchor|commit}}
 	<i>As a noun:</i> A single point in the
 	git history; the entire history of a project is represented as a
 	set of interrelated commits.  The word "commit" is often
@@ -79,55 +79,55 @@ This list is sorted alphabetically:
 	state of the [[#index|index]] and advancing current [[#HEAD|HEAD]]
 	(current [[#branch|branch]] [[#head|head]]) to point at the new commit.
 
-; commit object : 
+; commit object : {{anchor|commit_object}}
 	An [[#object|object]] which contains the information about a particular
 	[[#revision|revision]], such as [[#parent|parents]], committer, author, date and the
 	[[#tree_object|tree object]] which corresponds to the [[#directory|top directory]] of the
 	stored revision.
 
-; core git : 
+; core git : {{anchor|core_git}}
 	Fundamental data structures and utilities of git. Exposes only
 	limited source code management ([[#SCM|SCM]]) tools.
 
-; DAG : 
+; DAG : {{anchor|DAG}}
 	Directed acyclic graph. The [[#commit_object|commit objects]] form a directed acyclic
 	graph, because they have parents (directed), and the graph of commit
 	objects is acyclic (there is no [[#chain|chain]] which begins and ends with the
 	same [[#object|object]]).
 
-; dangling object : 
+; dangling object : {{anchor|dangling_object}}
 	An [[#unreachable_object|unreachable object]] which is not
 	[[#reachable|reachable]] even from other unreachable objects; a
 	dangling object has no references to it from any
 	reference or [[#object|object]] in the [[#repository|repository]].
 
-; detached HEAD : 
+; detached HEAD : {{anchor|detached_HEAD}}
 	Normally the [[#HEAD|HEAD]] stores the name of a
 	[[#branch|branch]].  However, git also allows you to 
 	[[#checkout|check out]] an arbitrary [[#commit|commit]] that isn't necessarily the tip of any
 	particular branch.  In this case HEAD is said to be "detached".
 
-; dircache : 
+; dircache : {{anchor|dircache}}
 	You are *waaaaay* behind. See [[#index|index]].
 
-; directory : 
+; directory : {{anchor|directory}}
 	The list you get with "ls" :-)
 
-; dirty : 
+; dirty : {{anchor|dirty}}
 	A [[#working_tree|working tree]] is said to be <i>dirty</i> if it contains modifications
 	which have not been [[#commit|committed]] to the current [[#branch|branch]].
 
-; ent : 
+; ent : {{anchor|ent}}
 	Favorite synonym to "[[#tree-ish|tree-ish]]" by some total geeks. See
 	[[WikiPedia:Ent_(Middle-earth)|Ent (Middle-earth) at Wikipedia]] for an in-depth
 	explanation. Avoid this term, not to confuse people.
 	It should be not used anymore.
 
-; evil merge : 
+; evil merge : {{anchor|evil_merge}}
         An evil merge is a [[#merge|merge]] that introduces changes that do not appear
         in any [[#parent|parent]].
 
-; fast forward : 
+; fast forward : {{anchor|fast_forward}}
 	A <i>fast-forward</i> is a special type of [[#merge|merge]] where you have
 	a [[#revision|revision]] and you are "merging" another [[#branch|branch]]'s changes
 	that happen to be a descendant of what you have.
@@ -136,7 +136,7 @@ This list is sorted alphabetically:
 	instead just update to his revision. This will happen
 	frequently on a [[#tracking_branch|tracking branch]] of a [[#remote_repository|remote repository]].
 
-; fetch : 
+; fetch : {{anchor|fetch}}
 	<i>Fetching a [[#branch|branch]]</i> means to get the [[#branch|branch]]'s 
         [[#head_ref|head ref]] from a [[#remote_repository|remote repository]], 
         to find out which [[#object|objects]] are missing from the local 
@@ -144,15 +144,15 @@ This list is sorted alphabetically:
 
 	See also: [http://www.kernel.org/pub/software/scm/git/docs/git-fetch.html git-fetch(1)].
 
-; file system : 
+; file system : {{anchor|file_system}}
 	[[Linus Torvalds]] originally designed git to be a user space file
 	system, i.e. the infrastructure to hold files and directories.
 	That ensured the efficiency and speed of git.
 
-; git archive : 
+; git archive : {{anchor|git_archive}}
 	Synonym for [[#repository|repository]] (for arch people).
 
-; grafts : 
+; grafts : {{anchor|graft}}{{anchor|grafts}}
 	Grafts enables two otherwise different lines of development to
 	be joined together by recording fake ancestry information for
 	[[#commit|commits]]. This way you can make [[Git]] pretend the set of [[#parent|parents]] 
@@ -161,16 +161,16 @@ This list is sorted alphabetically:
 
 	See also: [[GraftPoint]]
 
-; hash : 
+; hash : {{anchor|hash}}
 	In git's context, synonym to [[#object_name|object name]].
 
-; head : 
+; head : {{anchor|head}}
 	A [[#ref|named reference]] to the [[#commit|commit]] at the tip of a
 	[[#branch|branch]].  Heads are stored in
 	'`$GIT_DIR/refs/heads/`', except when using packed refs. (See
 	[http://www.kernel.org/pub/software/scm/git/docs/git-pack-refs.html git-pack-refs(1)].)
 
-; HEAD : 
+; HEAD : {{anchor|HEAD}}
 	The current [[#branch|branch]].  In more detail: Your [[#working_tree|working tree]]
 	is normally derived from the state of the tree
 	referred to by HEAD.  HEAD is a (symbolic) reference to one of the
@@ -178,10 +178,10 @@ This list is sorted alphabetically:
 	[[#detached_HEAD|detached HEAD]], in which case it may
 	reference an arbitrary commit.
 
-; head ref : 
+; head ref : {{anchor|head_ref}}
 	A synonym for [[#head|head]].
 
-; hook : 
+; hook : {{anchor|hook}}
 	During the normal execution of several git commands,
 	call-outs are made to optional scripts that allow
 	a developer to add functionality or checking.
@@ -194,7 +194,7 @@ This list is sorted alphabetically:
 
         See also: [http://www.kernel.org/pub/software/scm/git/docs/hooks.html Hooks used by git].
 
-; index : 
+; index : {{anchor|index}}
 	A collection of files with stat information, whose contents are
 	stored as [[#object|objects]]. The index is a stored version of your 
         [[#working_tree|working tree]]. Truth be told, it can also contain 
@@ -203,22 +203,22 @@ This list is sorted alphabetically:
 
         See also: [[IndexFile]]
 
-; index entry : 
+; index entry : {{anchor|index_entry}}
 	The information regarding a particular file, stored in the [[#index|index]].
 	An index entry can be unmerged, if a [[#merge|merge]] was started, but not
 	yet finished (i.e. if the index contains multiple versions of
 	that file).
 
-; loose object : 
+; loose object : {{anchor|loose_object}}
 	An object stored by itself in a file (as opposed to being packed together with other objects to save space).
 
-; master : 
+; master : {{anchor|master}}
 	The default development [[#branch|branch]]. Whenever you create a git
 	[[#repository|repository]], a branch named "master" is created, and becomes
 	the active branch. In most cases, this contains the local
 	development, though that is purely conventional and not required.
 
-; merge : 
+; merge : {{anchor|merge}}
 	<i>As a verb:</i> To bring the contents of another
 	[[#branch|branch]] (possibly from an external
 	[[#repository|repository]]) into the current branch.  In the
@@ -239,33 +239,33 @@ This list is sorted alphabetically:
 	This commit is referred to as a "merge commit", or sometimes just as a
 	"merge".
 
-; object : 
+; object : {{anchor|object}}
 	The unit of storage in git. It is uniquely identified by
 	the [[#SHA1|SHA1]] of its contents. Consequently, an object can not
 	be changed.
 
-; object database : 
+; object database : {{anchor|object_database}}
 	Stores a set of "[[#object|objects]]", and an individual [[#object|object]] is identified
 	by its [[#object_name|object name]]. The objects usually live in `$GIT_DIR/objects/`.
 
-; object identifier : 
+; object identifier : {{anchor|object_identifier}}
 	Synonym for [[#object_name|object name]].
 
-; object name : 
+; object name : {{anchor|object_name}}
 	The unique identifier of an [[#object|object]]. The [[#hash|hash]] of the object's contents
 	using the [[WikiPedia:SHA_hash_functions|Secure Hash Algorithm 1]] and usually 
         represented by the 40 character hexadecimal encoding of the hash of the object 
         (possibly followed by a white space).
 
-; object type : 
+; object type : {{anchor|object_type}}
 	One of the identifiers "[[#commit|commit]]","[[#tree|tree]]","[[#tag|tag]]" and "[[#blob|blob]]" describing
 	the type of an [[#object|object]].
 
-; octopus : 
+; octopus : {{anchor|octopus}}
 	To [[#merge|merge]] more than two [[#branch|branches]]. Also denotes an intelligent
 	predator.
 
-; origin : 
+; origin : {{anchor|origin}}
 	The default upstream [[#repository|repository]]. Most projects have
 	at least one upstream project which they track. By default
 	'origin' is used for that purpose. New upstream updates
@@ -280,38 +280,38 @@ This list is sorted alphabetically:
 	were [[#fetch|fetched]] into this branch; you should never commit
 	to it yourself.
 
-; pack : 
+; pack : {{anchor|pack}}
 	A set of [[#object|objects]] which have been compressed into one file (to save
 	space or to transmit them efficiently).
 
-; pack index : 
+; pack index : {{anchor|pack_index}}
 	The list of identifiers, and other information, of the [[#object|objects]] in a
 	[[#pack|pack]], to assist in efficiently accessing the contents of a pack.
 
-; parent : 
+; parent : {{anchor|parent}}
 	A [[#commit_object|commit object]] contains a (possibly empty) list of the logical
 	predecessor(s) in the line of development, i.e. its <i>parents</i>. Ancestry information
         can be changed (faked) using [[#graft|grafts]].
 
-; pickaxe : 
+; pickaxe : {{anchor|pickaxe}}
 	The term <i>pickaxe</i> refers to an option to the diffcore routines
 	that help select changes that add or delete a given text string.
 	With the `--pickaxe-all` option, it can be used to view the
 	full [[#changeset|changeset]] that introduced or removed, say, a particular
 	line of text.  See [http://www.kernel.org/pub/software/scm/git/docs/git-diff.html git-diff(1)].
 
-; plumbing : 
+; plumbing : {{anchor|plumbing}}
 	Cute name for [[#core_git|core git]].
 
-; porcelain : 
+; porcelain : {{anchor|porcelain}}
 	Cute name for programs and program suites depending on [[#core_git|core git]],
 	presenting a high level access to core git. [[Porcelain|Porcelains]] expose
 	more of a [[#SCM|SCM]] interface than the [[#plumbing|plumbing]].
 
-; pull : 
-	<i>Pulling a [[#branch|branch]]</i> means to [[#fetch|fetch]] it and [[#merge|merge]] it. See also [http://www.kernel.org/pub/software/scm/git/docs/git-pull.html git-pull(1)].
+; pull : {{anchor|pull}}
+	<i>Pulling a [[#branch|branch]]</i> means to [[#fetch|fetch]] it and [[#merge|merge]] it. See also [[http://www.kernel.org/pub/software/scm/git/docs/git-pull.html|git-pull(1)]].
 
-; push : 
+; push : {{anchor|push}}
 	<i>Pushing a [[#branch|branch]]</i> means to get the branch's [[#head_ref|head ref]] from 
         a [[#remote_repository|remote repository]] , find out if it is an ancestor to the branch's local
 	head ref is a direct, and in that case, putting all [[#object|objects]], which
@@ -320,7 +320,7 @@ This list is sorted alphabetically:
 	the remote head ref. If the remote head is not an ancestor to the
 	local [[#head|head]], the push fails.
 
-; reachable : 
+; reachable : {{anchor|reachable}}
 	All of the ancestors of a given [[#commit|commit]] are said to be
 	"<i>reachable</i>" from that commit. More
 	generally, one [[#object|object]] is reachable from
@@ -330,18 +330,18 @@ This list is sorted alphabetically:
 	[[#tree_object|trees]] to the trees or [[#blob_object|blobs]]
 	that they contain.
 
-; rebase : 
+; rebase : {{anchor|rebase}}
 	To reapply a series of changes from a [[#branch|branch]] to a
 	different base, and reset the [[#head|head]] of that branch
 	to the result.
 
         See also [http://www.kernel.org/pub/software/scm/git/docs/git-rebase.html git-rebase(1)]
 
-; ref : 
+; ref : {{anchor|ref}}
 	A 40-byte hex representation of a [[#SHA1|SHA1]] or a name that denotes
 	a particular [[#object|object]]. These may be stored in `$GIT_DIR/refs/`.
 
-; refspec : 
+; refspec : {{anchor|refspec}}
 	A <i>refspec</i> is used by [[#fetch|fetch]] and [[#push|push]] to describe the mapping
 	between remote [[#ref|ref]] and local [[#ref|ref]].  They are combined with
 	a colon in the format <code><nowiki><src>:<dst></nowiki></code>, preceded by an optional
@@ -357,31 +357,31 @@ $ git push $URL refs/heads/master:refs/heads/to-upstream</nowiki></pre>
 
         See also [http://www.kernel.org/pub/software/scm/git/docs/git-push.html git-push(1)]
 
-; repository :
+; repository : {{anchor|repository}}{{anchor|remote_repository}}
 	A collection of [[#ref|refs]] together with an [[#object_database|object database]] containing
 	all [[#object|objects]], which are [[#reachable|reachable]] from the refs, possibly accompanied
 	by meta data from one or more [[#porcelain|porcelains]]. A repository can
 	share an object database with other repositories via "[[#alternate_object_database|alternates]]".
 
-; resolve : 
+; resolve : {{anchor|resolve}}
 	The action of fixing up manually what a failed automatic [[#merge|merge]]
 	left behind.
 
-; revision : 
+; revision : {{anchor|revision}}
 	A particular state of files and directories which was stored in
 	the [[#object_database|object database]]. It is referenced by a [[#commit_object|commit object]].
 
-; rewind : 
+; rewind : {{anchor|rewind}}
 	To throw away part of the development, i.e. to assign the [[#head|head]] to
 	an earlier [[#revision|revision]].
 
-; SCM : 
+; SCM : {{anchor|SCM}}
 	Source code management (tool).
 
-; SHA1 : 
+; SHA1 : {{anchor|SHA1}}
 	Synonym for [[#object_name|object name]].
 
-; shallow repository : 
+; shallow repository : {{anchor|shallow_repository}}
 	A shallow [[#repository|repository]] has an incomplete
 	history some of whose [[#commit|commits]] have [[#parent|parents]] cauterized away (in other
 	words, git is told to pretend that these commits do not have the
@@ -391,7 +391,7 @@ $ git push $URL refs/heads/master:refs/heads/to-upstream</nowiki></pre>
 	is created by giving the `--depth` option to [http://www.kernel.org/pub/software/scm/git/docs/git-clone.html git-clone(1)], and
 	its history can be later deepened with [http://www.kernel.org/pub/software/scm/git/docs/git-fetch.html git-fetch(1)].
 
-; symref : 
+; symref : {{anchor|symref}}
 	Symbolic reference: instead of containing the [[#SHA1|SHA1]]
 	id itself, it is of the format '`ref: refs/some/thing`' and when
 	referenced, it recursively dereferences to this reference.
@@ -399,7 +399,7 @@ $ git push $URL refs/heads/master:refs/heads/to-upstream</nowiki></pre>
 	references are manipulated with the [http://www.kernel.org/pub/software/scm/git/docs/git-symbolic-ref.htmlgit-symbolic-ref(1)]
 	command.
 
-; tag : 
+; tag : {{anchor|tag}}
 	A [[#ref|ref]] pointing to a [[#tag_object|tag]] or
 	[[#commit_object|commit object]]. In contrast to a [[#head|head]],
 	a tag is not changed by a [[#commit|commit]]. Tags (not
@@ -409,47 +409,47 @@ $ git push $URL refs/heads/master:refs/heads/to-upstream</nowiki></pre>
 	tag is most typically used to mark a particular point in the
 	commit ancestry [[#chain|chain]].
 
-; tag object : 
+; tag object : {{anchor|tag_object}}
 	An [[#object|object]] containing a [[#ref|ref]] pointing to another [[#object|object]], which can
 	contain a message just like a [[#commit_object|commit object]]. It can also
 	contain a (PGP) [[WikiPedia:Digital_signature|signature]], in which case it is called a "signed tag object".
 
-; topic branch : 
+; topic branch : {{anchor|topic_branch}}
 	A regular git [[#branch|branch]] that is used by a developer to
 	identify a conceptual line of development.  Since branches
 	are very easy and inexpensive, it is often desirable to
 	have several small branches that each contain very well
 	defined concepts or small incremental yet related changes.
 
-; tracking branch : 
+; tracking branch : {{anchor|tracking_branch}}
 	A regular git [[#branch|branch]] that is used to follow changes from
 	another [[#remote_repository|repository]].  A tracking branch should not contain
 	direct modifications or have local [[#commit|commits]] made to it.
 	A tracking branch can usually be identified as the
 	right-hand-side ref in a [[#refspec|refspec]].
 
-; tree : 
+; tree : {{anchor|tree}}
 	Either a [[#working_tree|working tree]], or a [[#tree_object|tree object]] together with the
 	dependent [[#blob|blob]] and tree objects (i.e. a stored representation
 	of a working tree).
 
-; tree object : 
+; tree object : {{anchor|tree_object}}
 	An [[#object|object]] containing a list of file names and modes along with [[#ref|refs]]
 	to the associated [[#blob|blob]] and/or [[#tree_object|tree objects]]. A tree is equivalent
 	to a [[#directory|directory]].
 
-; tree-ish : 
+; tree-ish : {{anchor|tree-ish}}
 	A [[#ref|ref]] pointing to either a [[#commit_object|commit object]], a [[#tree_object|tree object]], or a
 	[[#tag_object|tag object]] pointing to a tag or commit or tree object.
 
-; unmerged index : 
+; unmerged index : {{anchor|unmerged_index}}
 	An [[#index|index]] which contains [[#merge|unmerged]] [[#index_entry|index entries]].
 
-; unreachable object : 
+; unreachable object : {{anchor|unreachable_object}}
 	An [[#object|object]] which is not [[#reachable|reachable]] from a
 	[[#branch|branch]], [[#tag|tag]], or any other reference.
 
-; working tree : 
+; working tree : {{anchor|working_tree}}
 	The tree of actual checked out files.  The working tree is
 	normally equal to the [[#HEAD|HEAD]] plus any local changes
 	that you have made but not yet committed.
