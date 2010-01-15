@@ -2,7 +2,7 @@
 
 Many a times the subject comes up on the mailing list: "Why keep the index?" or, "The index is a performance trick."
 
-<i>The truth is: the index is a staging area. Every SCM has it, but git shows it to you, and uses it effectively.</i>
+''The truth is: the index is a staging area. Every SCM has it, but git shows it to you, and uses it effectively.''
 
 == A staging area ==
 
@@ -15,7 +15,7 @@ cvs commit some.file
 
 The first command, <code><nowiki>cvs add some.file</nowiki></code> does not commit the file, right? Where has it gone? Answer: into the staging area.
 
-With the second command, <code><nowiki>cvs commit some.file</nowiki></code>, you can finally commit. But what happens to the other modified files? Are they committed? Answer: no, the last revision is updated with the new version of <code><nowiki>some.file</nowiki></code>, "in the staging area", and <i>then</i> committed.
+With the second command, <code><nowiki>cvs commit some.file</nowiki></code>, you can finally commit. But what happens to the other modified files? Are they committed? Answer: no, the last revision is updated with the new version of <code><nowiki>some.file</nowiki></code>, "in the staging area", and ''then'' committed.
 
 So really, it is neither a new concept, nor an intimidating one. The index comes naturally to you when you say
 
@@ -23,7 +23,7 @@ So really, it is neither a new concept, nor an intimidating one. The index comes
 git add some.file
 </nowiki></pre>
 
-Now, the file is in the index. And here comes the difference to CVS: once you put something into the index, a simple <code><nowiki>git diff</nowiki></code> will only show differences <i>with respect to the indexed version</i>. Which means that you will not see any differences to <code><nowiki>some.file</nowiki></code>, once you put it into the index. The reason: git assumes that you know what you are doing. If you put something into the staging area with <code><nowiki>git add</nowiki></code>, remove a file with <code><nowiki>git rm</nowiki></code>, or put a modified version of a file into the staging area with <code><nowiki>git update-index some.file</nowiki></code>, git assumes that you want to commit this state, and will not bother you by showing differences you are most likely not interested in.
+Now, the file is in the index. And here comes the difference to CVS: once you put something into the index, a simple <code><nowiki>git diff</nowiki></code> will only show differences ''with respect to the indexed version''. Which means that you will not see any differences to <code><nowiki>some.file</nowiki></code>, once you put it into the index. The reason: git assumes that you know what you are doing. If you put something into the staging area with <code><nowiki>git add</nowiki></code>, remove a file with <code><nowiki>git rm</nowiki></code>, or put a modified version of a file into the staging area with <code><nowiki>git update-index some.file</nowiki></code>, git assumes that you want to commit this state, and will not bother you by showing differences you are most likely not interested in.
 
 One special case exists:
 
@@ -48,6 +48,6 @@ Again, git is intelligent about what to show you upon a <code><nowiki>git diff</
 Now you know what the index is good for.
 
 ----
-[[CategoryGitDocumentation]]
+[[Category:GitDocumentation]]
 
 __NOTOC__
