@@ -1,19 +1,19 @@
 = Project description =
 
-<i>Put project description here, with links to project page, on-line project documentation (if it exists), project screenshots (if they exist).</i>
+''Put project description here, with links to project page, on-line project documentation (if it exists), project screenshots (if they exist).''
 
-* More information <i>(link to documentation)</i> ...
-* Screenshots <i>(link to screenshot(s))</i> ...
+* More information ''(link to documentation)'' ...
+* Screenshots ''(link to screenshot(s))'' ...
 
 = Project information =
 
-* <b>Author</b>: J. Random Hacker <J.Hacker@example.com>
-* <b>Homepage</b>: http://example.com/projectname/
-* <b>Repository</b>: http://example.com/projectname/projectname.git/
-* <b>gitweb</b>: http://example.com/gitweb.cgi?p=projectname.git;a=summary <<BR>>''(if exists and is different from repository above)
-* <b>License</b>: e.g. GPLv2 or later
+* ''Author'': J. Random Hacker <J.Hacker@example.com>
+* ''Homepage'': http://example.com/projectname/
+* ''Repository'': http://example.com/projectname/projectname.git/
+* ''gitweb'': http://example.com/gitweb.cgi?p=projectname.git;a=summary <<BR>>''(if exists and is different from repository above)
+* ''License'': e.g. GPLv2 or later
 
 ----
-[[CategoryTools]]
+[[Category:Tools]]
 
 __NOTOC__
