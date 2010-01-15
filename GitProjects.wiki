@@ -157,9 +157,9 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * CenterIM
 * http://www.centerim.org/index.php/Contribute_Code (development web page)
 * http://repo.or.cz/w/centerim.git (gitweb)
-* [[http://cvs.cinelerra.org/|Cinelerra-CV]] (Mergers and Project enhancements developed in git by a few of the developers. Final patches then into the subversion repo for more public access)
+* [http://cvs.cinelerra.org/ Cinelerra-CV] (Mergers and Project enhancements developed in git by a few of the developers. Final patches then into the subversion repo for more public access)
 * (ask on mailing list for access to git repo as it is hosted on a bandwidth limited server.)
-* [[http://e.kevb.net/lurker/message/20060711.200520.7a9b1e25.en.html|Mail List message]] announcing our first use of git.
+* [http://e.kevb.net/lurker/message/20060711.200520.7a9b1e25.en.html Mail List message] announcing our first use of git.
 * http://www.pipapo.org/gitweb (gitweb)
 * Ceph - A next generation high performance Distributed filesystem for Linux.
 * http://ceph.newdream.net/ (homepage)
@@ -206,7 +206,7 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * http://diracvideo.org/git (repository browser)
 * git://diracvideo.org/git/schroedinger.git (repository)
 * DirectFB (Hardware Accelerated Windowing System)
-* [[http://directfb.org/index.php?path=Development/Source+Code/GIT+Access|http://directfb.org/index.php?path=Development%2FSource+Code%2FGIT+Access]] (description)
+* [http://directfb.org/index.php?path=Development/Source+Code/GIT+Access http://directfb.org/index.php?path=Development%2FSource+Code%2FGIT+Access] (description)
 * git://git.directfb.org/git/directfb/core/DirectFB.git (Primary Repository)
 * http://git.directfb.org/ (repository browser)
 * Dragon3D
@@ -271,7 +271,7 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * Frugalware Linux
 * http://frugalware.org/about (homepage)
 * http://git.frugalware.org/gitweb/gitweb.cgi (gitweb)
-* [[http://www.geda.seul.org/|gEDA]]
+* [http://www.geda.seul.org/ gEDA]
 * http://geda.seul.org/wiki/geda:scm (development)
 * http://git.gpleda.org/ (gitweb)
 * Ganymede (network directory management)
@@ -282,7 +282,7 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * http://repo.or.cz/w/ganymede.git
 * GCC (Gnu Compiler Collection)
 * http://gcc.gnu.org/git/
-* [[http://www.haskell.org/ghc/|GHC]] (Glasgow Haskell Compiler)
+* [http://www.haskell.org/ghc/ GHC] (Glasgow Haskell Compiler)
 * http://darcs.haskell.org/ghc.git
 * GNU Autoconf
 * http://git.sv.gnu.org/gitweb/?p=autoconf.git (gitweb)
@@ -467,7 +467,7 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * http://perl5.git.perl.org/perl.git (gitweb)
 * pmr (Tool for measuring data rate on a command line pipe)
 * http://zakalwe.fi/~shd/foss/pmr/
-* [[http://prototypejs.org/|Prototype]] (AJAX framework)
+* [http://prototypejs.org/ Prototype] (AJAX framework)
 * http://github.com/sstephenson/prototype/tree/master (repository browser)
 * git://github.com/sstephenson/prototype.git (repository)
 * PulseAudio
@@ -477,7 +477,7 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * http://reductivelabs.com/trac/puppet/wiki/[[DownloadingPuppet]] (download)
 * git://reductivelabs.com/puppet (repository)
 * Qt (Cross-platform graphic toolkit), Qt Jambi, Qt Creator
-* [[http://arstechnica.com/news.ars/post/20090114-nokia-qt-lgpl-switch-huge-win-for-cross-platform-development.html|Arstechnica: Nokia Qt LGPL switch huge win for cross-platform development]] (announcement)
+* [http://arstechnica.com/news.ars/post/20090114-nokia-qt-lgpl-switch-huge-win-for-cross-platform-development.html Arstechnica: Nokia Qt LGPL switch huge win for cross-platform development] (announcement)
 * http://www.qtsoftware.com/developer/the-qt-contribution-model/
 * http://qt.gitorious.org/ (Hosting at Gitorious)
 * Quassel IRC
@@ -510,7 +510,7 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * Slind - embedded Linux distribution
 * https://www.slind.org/Downloads:Downloads (download)
 * http://git.slind.org/git (gitweb)
-* [[http://slashcode.com/|Slash]] - the discussion system that powers [[http://slashdot.org|Slashdot]]
+* [http://slashcode.com/ Slash] - the discussion system that powers [http://slashdot.org Slashdot]
 * http://github.com/scc/slash (public mirror)
 * Source Mage GNU/Linux (source-based GNU/Linux distribution)
 * http://www.sourcemage.org/ (description)
@@ -597,13 +597,13 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * xl2tpd
 * http://www.xelerance.com/software/xl2tpd/ (homepage)
 * http://git.openswan.org/cgi-bin/gitweb.cgi?p=xl2tpd (gitweb)
-* XStrikeForce ([[http://wiki.debian.org/XStrikeForce/|XSF]]) / Debian
+* XStrikeForce ([http://wiki.debian.org/XStrikeForce/ XSF]) / Debian
 * http://wiki.debian.org/XStrikeForce/git-usage (wiki)
 * http://git.debian.org/ (gitweb)
 * xwax
 * http://www.xwax.co.uk/devel/source.html (development)
 * http://www.xwax.co.uk/devel/xwax.git (repository)
-* [[http://tukaani.org/xz/|XZ Utils]] (formerly LZMA-Utils)
+* [http://tukaani.org/xz/ XZ Utils] (formerly LZMA-Utils)
 * git://ctrl.tukaani.org/xz.git (repository)
 * YUI3
 * http://tech.groups.yahoo.com/group/yui3/message/206 (announcement)
@@ -632,35 +632,35 @@ See also [[GitHosting]]
 * Public Git hosting site, maintained by Petr Baudis
 ** http://repo.or.cz/
 * http://hosted.fedoraproject.org/ (Primarily Fedora related but open to other Free software projects too)
-* [[http://alioth.debian.org/|Alioth]] (project hosting, modified [[http://gforge.org|GForge]] engine, managed by [[http://www.debian.org/|Debian]] project)
-** [[http://www.debian.org/News/weekly/2006/34/|Debian Weekly News #34 - August 22nd, 2006]] (announcement)
-** [[http://roland.entierement.nu/blog/2006/08/17/bits-about-alioth.html|Roland weblog - Bits about Alioth]] (description)
-** [[http://wiki.debian.org/Alioth/Git|Alioth/Git]] page on [[http://wiki.debian.org/|Debian Wiki]]
+* [http://alioth.debian.org/ Alioth] (project hosting, modified [http://gforge.org GForge] engine, managed by [http://www.debian.org/ Debian] project)
+** [http://www.debian.org/News/weekly/2006/34/ Debian Weekly News #34 - August 22nd, 2006] (announcement)
+** [http://roland.entierement.nu/blog/2006/08/17/bits-about-alioth.html Roland weblog - Bits about Alioth] (description)
+** [http://wiki.debian.org/Alioth/Git Alioth/Git] page on [http://wiki.debian.org/ Debian Wiki]
 ** http://git.debian.org/
 * Savannah git hosting
-** [[http://savannah.gnu.org/maintenance/UsingGit|Document]]
+** [http://savannah.gnu.org/maintenance/UsingGit Document]
 ** http://git.sv.gnu.org/gitweb/
 * Linux related projects
 ** http://www.kernel.org/git
 * Freedesktop (X Window System desktops) projects
 ** http://www.freedesktop.org/wiki/ (homepage)
 ** http://gitweb.freedesktop.org (gitweb)
-* [[http://tuxfamily.org|Tuxfamily]] git hosting (free software only, moderators speak english, french and spanish)
+* [http://tuxfamily.org Tuxfamily] git hosting (free software only, moderators speak english, french and spanish)
 ** http://git.tuxfamily.org/ (gitweb)
-* [[http://gitorious.org/|Gitorious]] (by Johan Sørensen, in Ruby)
-** [[http://rashkovskii.com/articles/2008/1/9/gitorious|Gitorious]] post on [[http://rashkovskii.com/|Yurii Rashkowskii's blog]]
-* [[http://github.com/|GitHub]]
+* [http://gitorious.org/ Gitorious] (by Johan Sørensen, in Ruby)
+** [http://rashkovskii.com/articles/2008/1/9/gitorious Gitorious] post on [http://rashkovskii.com/ Yurii Rashkowskii's blog]
+* [http://github.com/ GitHub]
 ** http://github.com/
-* [[http://www.gitcentral.com/|Gitcentral]]
+* [http://www.gitcentral.com/ Gitcentral]
 ** http://www.gitcentral.com/
-* [[http://www.assembla.com/free_git_hosting|Assembla]]
+* [http://www.assembla.com/free_git_hosting Assembla]
 ** http://www.assembla.com/ - Git+Trac or Git+Integrated tickets
 
 ==== See also ====
-* [[http://bazaar-vcs.org/WhoUsesBzr|Projects using Bazaar]]
-* [[http://wiki.darcs.net/DarcsWiki/[[ProjectsUsingDarcs]]|Projects using Darcs]]
-* [[http://www.selenic.com/mercurial/wiki/index.cgi/ProjectsUsingMercurial|Projects using Mercurial]]
-* [[http://monotone.ca/wiki/ProjectsUsingMonotone/|Projects using Monotone]]
+* [http://bazaar-vcs.org/WhoUsesBzr Projects using Bazaar]
+* [http://wiki.darcs.net/DarcsWiki/[[ProjectsUsingDarcs]] Projects using Darcs]
+* [http://www.selenic.com/mercurial/wiki/index.cgi/ProjectsUsingMercurial Projects using Mercurial]
+* [http://monotone.ca/wiki/ProjectsUsingMonotone/ Projects using Monotone]
 * [[ProjectContacts]]
 
 __NOTOC__
