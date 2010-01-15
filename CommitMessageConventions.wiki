@@ -16,8 +16,8 @@ to the body of the message, starting the body halfway of the sentence.  Instead,
 * git format-patch
 
 ----
-<b>Reference:</b> [http://article.gmane.org/gmane.comp.version-control.git/21987 http://article.gmane.org/gmane.comp.version-control.git/21987] email in the git mailing list
+''Reference:'' [http://article.gmane.org/gmane.comp.version-control.git/21987 http://article.gmane.org/gmane.comp.version-control.git/21987] email in the git mailing list
 ----
-[[Category:GitDocumentation]]
+[[Category::GitDocumentation]]
 
 __NOTOC__
