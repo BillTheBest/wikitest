@@ -1,5 +1,5 @@
 = Eclipse Plugin Wishlist =
-Please file all feature requests in the [[https://bugs.eclipse.org/bugs/enter_bug.cgi?product=EGit|EGit issue tracker]].
+Please file all feature requests in the [https://bugs.eclipse.org/bugs/enter_bug.cgi?product=EGit EGit issue tracker].
 
 = Old Content =
 
@@ -27,7 +27,7 @@ Pushing changes to a remote repository.
 
 Push is fully supported in JGit through the [[PushProcess]] class, for all protocols that fetch is supported on.
 
-<i>(as of mid-August)</i> The Eclipse UI has patches pending from Marek, as a result of his GSoC 2008 project.  We hope to get those merged real soon.
+''(as of mid-August)'' The Eclipse UI has patches pending from Marek, as a result of his GSoC 2008 project.  We hope to get those merged real soon.
 
 == Merge ==
 Merging changes from one local branch to another.
@@ -58,17 +58,17 @@ Ignored files should also be processed for status handling, initial refusal to a
 20091017 I'm having trouble freeing up some time to resume work on implementing support for .gitignore files. Do not expect anything anytime soon. -- Ferry Huberts
 
 == SVN Integration ==
-It would be swell -- but put it at the bottom of your priority list -- to have git-svn interoperability; sadly most of my git usage at the moment is in cloned svn repositories and it would be great if egit could do the right thing when the current git repo is cloned from svn. What "the right thing" is, exactly, is debatable, but I suppose some kind of integration with the Subclipse plugin is one possibility (and if nothing else, that plugin probably has code that can be reused.) I'd like to be able to update from and commit to the parent svn repository. <i>-- Steven Grimm</i>
+It would be swell -- but put it at the bottom of your priority list -- to have git-svn interoperability; sadly most of my git usage at the moment is in cloned svn repositories and it would be great if egit could do the right thing when the current git repo is cloned from svn. What "the right thing" is, exactly, is debatable, but I suppose some kind of integration with the Subclipse plugin is one possibility (and if nothing else, that plugin probably has code that can be reused.) I'd like to be able to update from and commit to the parent svn repository. ''-- Steven Grimm''
 
-I'm considering this to be out of scope for the time being, but if someone takes it on and submits reasonable patches we'll include them. <i>-- Shawn Pearce</i>
+I'm considering this to be out of scope for the time being, but if someone takes it on and submits reasonable patches we'll include them. ''-- Shawn Pearce''
 
 == Support synchronize view and local change sets ==
-It would be really great to have support for Team Synchronize view that would show changed files and also allow to create local outgoing change sets (with those it would be easy to add Mylyn integration to manage them automatically) and maybe incoming change sets too<i> -- Eugene Kuleshov</i>
+It would be really great to have support for Team Synchronize view that would show changed files and also allow to create local outgoing change sets (with those it would be easy to add Mylyn integration to manage them automatically) and maybe incoming change sets too'' -- Eugene Kuleshov''
 
 Also, a simple 'Pending Changes' window would already bring a lot of information to the user. -- Ferry Huberts
 
 == Support for SSH Keys ==
-Could you please add support for SSH Keys. A: AFAIK, we have that <i>-- Robin</i> (to discuss this use the mailing list).
+Could you please add support for SSH Keys. A: AFAIK, we have that ''-- Robin'' (to discuss this use the mailing list).
 
 == Stash ==
 Support the stash functionality of git.
