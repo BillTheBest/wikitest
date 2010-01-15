@@ -1,8 +1,8 @@
-I have first heard about Git on [[http://kerneltrap.org/|KernelTrap]], during the BitKeeper fiasco.
+I have first heard about Git on [http://kerneltrap.org/ KernelTrap], during the BitKeeper fiasco.
 
 My first patch to git was caused by the fact that I couldn't get git-logo.png from gitweb... and as they say the rest is history.  I contribute mainly to [[Gitweb]], a bit to autoconf stuff, some to documentation (including this wiki), and a little bit to core git.
 
 ----
-[[CategoryPeople]]
+[[Category:People]]
 
 __NOTOC__
