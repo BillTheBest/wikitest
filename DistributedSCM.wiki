@@ -9,10 +9,10 @@ Distributed SCMs provide mechanisms for propagating changes between repositories
 Distributed SCMs are in contrast to [[CentralisedSCM]]s.
 
 = Examples =
-* [[http://www.bitkeeper.com/|BitKeeper]] (`bk`) - proprietary (was used in Linux kernel development December 1999 - April 2005)
-* [[http://www.gnu.org/software/gnu-arch/|GNU Arch]] (`tla`) aka. GNU Arch 1 — the original Arch. Created and written mainly by Tom Lord, currently maintained by Andy Tai.
-* [[http://www.bazaar-ng.org/|Bazaar-NG]] (`bzr`) — written in Python. Decentralised and easy to use. Can losslessly import Arch archives. Sponsored by  Canonical Limited
-* [[http://www.venge.net/monotone/|Monotone]] — full-decentralized in a P2P way, with emphasizis on SCM security: e.g. cryptographic version naming and client-side RSA certificates (was considered for Linux kernel development). 
-* [[http://www.selenic.com/mercurial/|Mercurial]] (`hg`) — written in Python. Very fast, lightweight, portable, and easy to use.
+* [http://www.bitkeeper.com/ BitKeeper] (`bk`) - proprietary (was used in Linux kernel development December 1999 - April 2005)
+* [http://www.gnu.org/software/gnu-arch/ GNU Arch] (`tla`) aka. GNU Arch 1 — the original Arch. Created and written mainly by Tom Lord, currently maintained by Andy Tai.
+* [http://www.bazaar-ng.org/ Bazaar-NG] (`bzr`) — written in Python. Decentralised and easy to use. Can losslessly import Arch archives. Sponsored by  Canonical Limited
+* [http://www.venge.net/monotone/ Monotone] — full-decentralized in a P2P way, with emphasizis on SCM security: e.g. cryptographic version naming and client-side RSA certificates (was considered for Linux kernel development). 
+* [http://www.selenic.com/mercurial/ Mercurial] (`hg`) — written in Python. Very fast, lightweight, portable, and easy to use.
 
 __NOTOC__
