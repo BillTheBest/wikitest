@@ -14,7 +14,7 @@ All projects have the following basic requirements:
 * Unless otherwise stated, projects will require programming in C, as nearly all of Git is written in C, for maximum speed and portability.
 * All materials must be released under the [http://www.gnu.org/copyleft/gpl.html GNU Public License (GPL)], version 2.
 * Individual students shall retain copyright on their works.
-* Projects must be tracked and managed in Git, and published on [[http://repo.or.cz]].
+* Projects must be tracked and managed in Git, and published on [http://repo.or.cz http://repo.or.cz].
 * Weekly project status reports should be sent to the project's mentors.  Each status report should outline what was accomplished that week, any issues that prevented that week's goals from being completed, and your goals for the next week.  This will help you to break your project down into manageable chunks, and will also help the project's mentors to better support your efforts.
 
 Interested students are encouraged to read the [http://code.google.com/p/google-summer-of-code/wiki/AdviceforStudents Advice for GSoC Students Page], as it has excellent suggestions that might help you to pick a project and shape your proposal.
@@ -33,48 +33,48 @@ A collection of smaller projects.  Pick one or two and get introduced to the ope
 The Git test suite does not cover enough of the code base, there are still plenty of corners that lack automated and repeatable tests.  Our current set of tests has served us well by catching many regressions before they are published, but more are needed to maintain high quality releases in the future.
 
 The test suite is currently written in Bourne-shell.  Any additions or improvements should also be done in Bourne-shell.
-<<BR>>''Goal:'' Significantly extend the Git test suite.
-<<BR>>''Mentor:'' Shawn O. Pearce (gsoc@spearce.org), Brian Gernhardt (benji@silverinsanity.com), Johannes Schindelin (johannes.schindelin@gmx.de)
-<<BR>>''Suggested by:'' Johannes Schindelin [http://article.gmane.org/gmane.comp.version-control.git/40801 on gmane]
+<BR>''Goal:'' Significantly extend the Git test suite.
+<BR>''Mentor:'' Shawn O. Pearce (gsoc@spearce.org), Brian Gernhardt (benji@silverinsanity.com), Johannes Schindelin (johannes.schindelin@gmx.de)
+<BR>''Suggested by:'' Johannes Schindelin [http://article.gmane.org/gmane.comp.version-control.git/40801 on gmane]
 
 == More tools Builtin ==
 Convert existing shell and Perl scripts to more portable C.  We have generally found that the C version of a tool is more portable and easier to maintain across systems, not to mention faster.
 
 Small cases like git-gc and git-merge are fairly easy, larger cases like git-fetch will require some work.  Figure three days for the smaller cases, and a couple of weeks for the larger ones.  We currently have 33 scripts up for grabs, making a complete conversion more than a full project.  Pick a few to convert, and maybe another small project on the side.
-<<BR>>''Goal:'' Replace most core scripts with C versions.
-<<BR>>''Mentor:'' Shawn O. Pearce (gsoc@spearce.org), Petr Baudis (pasky@suse.cz), Johannes Schindelin (johannes.schindelin@gmx.de)
-<<BR>>''Suggested by:'' Johannes Schindelin [http://article.gmane.org/gmane.comp.version-control.git/40801 on gmane]
+<BR>''Goal:'' Replace most core scripts with C versions.
+<BR>''Mentor:'' Shawn O. Pearce (gsoc@spearce.org), Petr Baudis (pasky@suse.cz), Johannes Schindelin (johannes.schindelin@gmx.de)
+<BR>''Suggested by:'' Johannes Schindelin [http://article.gmane.org/gmane.comp.version-control.git/40801 on gmane]
 
 == One Click Windows Install ==
 Make it so that one .exe click-and-install would make the full power of Git available to users running on Windows (2000/XP/2003/Vista).  The [http://repo.or.cz/w/git/mingw.git MinGW port] somewhat addresses this need,  but much work still remains to make it stable, fully functional, and click-and-installable.
 
 Improvements to [http://repo.or.cz/w/git-gui.git git-gui] (written in Tcl/Tk) might also be implemented as part of this project, as git-gui is rapidly becoming the user-friendly interface to Git. 
-<<BR>>''Goal:'' Stable release-candidate-quality one-click-installable Git for Windows.
-<<BR>>''Mentor:''  Shawn O. Pearce (gsoc@spearce.org), Johannes Schindelin (johannes.schindelin@gmx.de)
-<<BR>>''Suggested by:'' Andy Parkins [http://article.gmane.org/gmane.comp.version-control.git/40904 on gmane]
+<BR>''Goal:'' Stable release-candidate-quality one-click-installable Git for Windows.
+<BR>''Mentor:''  Shawn O. Pearce (gsoc@spearce.org), Johannes Schindelin (johannes.schindelin@gmx.de)
+<BR>''Suggested by:'' Andy Parkins [http://article.gmane.org/gmane.comp.version-control.git/40904 on gmane]
 
 == Lightweight Checkout ==
 ''Otherwise known as the .gitlink idea.''
 
 Have a file that would point to the object directory, refs directory, working directory private index file and `HEAD` file.  This might also help submodule support (providing where to ''search'' for object database, index and refs).  This feature is a bit similar to `CVS/Root` in CVS.  Users might activate this feature by a new option to git-clone.
-<<BR>>''Goal:'' Make it possible to easily use one .git directory with multiple working directories.
-<<BR>>''Mentor:''  Shawn O. Pearce (gsoc@spearce.org), Petr Baudis (pasky@suse.cz)
-<<BR>>''Suggested by:'' Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031 on gmane]
-<<BR>>''See:'' [http://thread.gmane.org/gmane.comp.version-control.git/33755||RFC  Light-weight checkouts via ".gitlink"] thread (started by Josef Weidendorfer)
+<BR>''Goal:'' Make it possible to easily use one .git directory with multiple working directories.
+<BR>''Mentor:''  Shawn O. Pearce (gsoc@spearce.org), Petr Baudis (pasky@suse.cz)
+<BR>''Suggested by:'' Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031 on gmane]
+<BR>''See:'' [http://thread.gmane.org/gmane.comp.version-control.git/33755||RFC  Light-weight checkouts via ".gitlink"] thread (started by Josef Weidendorfer)
 
 == Apply sparse To Fix Errors ==
 Even better, teach [http://kernel.org/pub/linux/kernel/people/josh/sparse/ sparse] how to fix common errors, and then use sparse to actually fix them.  Perhaps more of a sparse project than a Git project.  The community just wants to see Git improved, if sparse is improved at the same time, double bonus points!  :-)
-<<BR>>''Goal:'' Fix existing errors in Git.
-<<BR>>''Mentor:''  Shawn O. Pearce (gsoc@spearce.org), Brian Gernhardt (benji@silverinsanity.com), Johannes Schindelin (johannes.schindelin@gmx.de)
-<<BR>>''Suggested by:'' Johannes Schindelin [http://article.gmane.org/gmane.comp.version-control.git/40801 on gmane]
+<BR>''Goal:'' Fix existing errors in Git.
+<BR>''Mentor:''  Shawn O. Pearce (gsoc@spearce.org), Brian Gernhardt (benji@silverinsanity.com), Johannes Schindelin (johannes.schindelin@gmx.de)
+<BR>''Suggested by:'' Johannes Schindelin [http://article.gmane.org/gmane.comp.version-control.git/40801 on gmane]
 
 == Partial/Sparse Checkouts ==
 Where you can checkout for example only Documentation subdirectory, work on it, but commit full tree. Some workflows may be better suited to this type of usage than using submodules.  Some core support already exists, but some tricks need to be used to get everything working right.  The real work in this project is figuring out how to use those tricks, and using them in the right places.  ;)
 
 Merging is somewhat complicated here as a subdirectory checkout user probably cannot resolve conflicts in parts of the tree that they do not have checked out.  These types of merges would probably need to be detected and stopped.
-<<BR>>''Goal:'' Make it possible to checkout a subdirectory on a branch, commit to it, and merge with another branch.
-<<BR>>''Mentor:'' Shawn O. Pearce (gsoc@spearce.org), Petr Baudis (pasky@suse.cz)
-<<BR>>''Suggested by:'' Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031 on gmane]
+<BR>''Goal:'' Make it possible to checkout a subdirectory on a branch, commit to it, and merge with another branch.
+<BR>''Mentor:'' Shawn O. Pearce (gsoc@spearce.org), Petr Baudis (pasky@suse.cz)
+<BR>''Suggested by:'' Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031 on gmane]
 
 = Larger Projects =
 The following projects are probably more suited to the junio/senior/graduate students.  Pick one and really make it shine.
@@ -83,41 +83,41 @@ The following projects are probably more suited to the junio/senior/graduate stu
 Much talked about (and even has three different independent implementations, none were ever accepted for release).
 
 Subproject (submodule) support would certainly help using Git for large modular projects like KDE, Mozilla or Linux distributions. A submodule (or subproject) is a part of project (usually one subdirectory) that is a separately SCM managed project (it is SVN externals done right).  For example external/separately managed library that other projects uses and probably modifies to meet their own needs.
-<<BR>>''Goal:'' A working subproject implementation that is seriously considered for acceptance into a future release.  Note that the three existing implementations did not make the cut!
-<<BR>>''Mentor:''  Shawn O. Pearce (gsoc@spearce.org), Martin Waitz (tali@admingilde.org), Petr Baudis (pasky@suse.cz)
-<<BR>>''Suggested by:'' Raimund Bauer [http://article.gmane.org/gmane.comp.version-control.git/40911 on gmane], Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031 on gmane]
-<<BR>>''See:'' [[SubprojectSupport]]
+<BR>''Goal:'' A working subproject implementation that is seriously considered for acceptance into a future release.  Note that the three existing implementations did not make the cut!
+<BR>''Mentor:''  Shawn O. Pearce (gsoc@spearce.org), Martin Waitz (tali@admingilde.org), Petr Baudis (pasky@suse.cz)
+<BR>''Suggested by:'' Raimund Bauer [http://article.gmane.org/gmane.comp.version-control.git/40911 on gmane], Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031 on gmane]
+<BR>''See:'' [[SubprojectSupport]]
 
 == Libification ==
 Make more parts of libgit.a reentrant by removing static variables, avoid dying e.g. when malloc() fails, etc.  Most of Git was written with the run-once-and-exit design pattern.  This makes it difficult/impossible to embed core Git data access routines within a scripting language such as Perl or Python, or to embed it in a longer-running server such as an Apache module.  Existing code must be modified to return errors rather than terminating the process, and memory leaks need to be plugged.
-<<BR>>''Goal:'' Usable Perl binding that a future gitweb.cgi could take advantage of, rather than repeatedly forking Git processes.
-<<BR>>''Mentor:''  Shawn O. Pearce (gsoc@spearce.org), Petr Baudis (pasky@suse.cz)
-<<BR>>''Suggested by:'' Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031 on gmane]
+<BR>''Goal:'' Usable Perl binding that a future gitweb.cgi could take advantage of, rather than repeatedly forking Git processes.
+<BR>''Mentor:''  Shawn O. Pearce (gsoc@spearce.org), Petr Baudis (pasky@suse.cz)
+<BR>''Suggested by:'' Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031 on gmane]
 
 == Git Eclipse Plugin ==
 Extend the currently-under-development [http://repo.or.cz/w/egit.git/ Eclipse plugin] so that it is actually useful for daily development work.  The plugin can currently read a Git repository (but not fast enough) and can write new history to the repository, but a lot of Eclipse user interfaces still need to be built to allow an end-user to actually commit changes, or transfer them over the network. This is also one of [http://wiki.eclipse.org/index.php/Google_Summer_of_Code_2007_Ideas Eclipse SoC2007 Ideas] (''More work on git support'').
-<<BR>>''Language:'' Java (Eclipse API, SWT API)
-<<BR>>''Goal:'' Commit, create branches, delete branches, switch between branches.  Maybe also fetch changes to tracking branches and push changes to remote branches, depending on the student's comfort level with the Eclipse API.
-<<BR>>''Mentor:''  Shawn O. Pearce (gsoc@spearce.org)
-<<BR>>''Suggested by:'' Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031 on gmane]
-<<BR>>''See:'' [[EclipsePluginWishlist]]
+<BR>''Language:'' Java (Eclipse API, SWT API)
+<BR>''Goal:'' Commit, create branches, delete branches, switch between branches.  Maybe also fetch changes to tracking branches and push changes to remote branches, depending on the student's comfort level with the Eclipse API.
+<BR>''Mentor:''  Shawn O. Pearce (gsoc@spearce.org)
+<BR>''Suggested by:'' Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031 on gmane]
+<BR>''See:'' [[EclipsePluginWishlist]]
 
 == blame Merge Strategy ==
 A new merge strategy "merge-blame".  By running "git-blame -C $ancestor..$other -- $path", you can find $path contains pieces from other paths (it could be a single other path, in which case you found a wholesale rename).  Then you can run "git-diff $ancestor..$mine -- $other_path" for each of these paths to find out if our branch changes the parts of them and how.  By incorporating these changes you can come up a merged $path that reflects changes made to other paths, in other words, tracking code movements.
 
 This strategy should probably be a function within merge-recursive that is activated only when merge-recursive is invoked as merge-blame (or some perhaps some better name).  Further it probably should only be used when a file fails to be merged cleanly, as a "last resort before asking the developer to do it for me" sort of trick.  Rationale here is the blame computation is non-trivial and will take some CPU time, so we want to avoid that in the common cases of non-moved code.
-<<BR>>''Goal:'' Demonstrate a working merge-blame that can fairly accurately merge changes made to moved code segments.
-<<BR>>''Mentor:'' Shawn O. Pearce (gsoc@spearce.org)
-<<BR>>''Suggested by:'' Anonymously added to the Wiki; [http://article.gmane.org/gmane.comp.version-control.git/42728 on gmane]
+<BR>''Goal:'' Demonstrate a working merge-blame that can fairly accurately merge changes made to moved code segments.
+<BR>''Mentor:'' Shawn O. Pearce (gsoc@spearce.org)
+<BR>''Suggested by:'' Anonymously added to the Wiki; [http://article.gmane.org/gmane.comp.version-control.git/42728 on gmane]
 
 == True Branch Support In cvsserver ==
 This will make it easier for projects to migrate from CVS to Git.  The idea would be to expose the Git branch space as CVS branches (and likewise the Git tag space as CVS tags), permitting existing CVS clients such as [http://www.tortoisecvs.org/ TortoiseCVS] to more easily access these objects.
 
 git-cvsserver is currently written in Perl and makes heavy use of SQLLite.
-<<BR>>''Language:'' Perl, SQL
-<<BR>>''Goal:'' Allow CVS clients to work with Git branches more naturally from within the client itself.
-<<BR>>''Mentor:'' Martin Langhoff
-<<BR>>''Suggested by:'' Martin Langhoff
+<BR>''Language:'' Perl, SQL
+<BR>''Goal:'' Allow CVS clients to work with Git branches more naturally from within the client itself.
+<BR>''Mentor:'' Martin Langhoff
+<BR>''Suggested by:'' Martin Langhoff
 
 == Large Scale Repository Migration ==
 Continue work in large-scale repository migration.  The goal is to demonstrate a successful Mozilla CVS import, based on the work started by Jon Smirl [http://thread.gmane.org/gmane.comp.version-control.git/21124 gmane thread].
@@ -125,10 +125,10 @@ Continue work in large-scale repository migration.  The goal is to demonstrate a
 The conversion tools should take advantage of [http://kernel.org/pub/software/scm/git/docs/git-fast-import.html git-fast-import] to actually create and update the Git repository files, as it was designed and built specifically to support these large scale migration efforts.
 
 Conversion tools might be coded in C, Perl, Python, Ruby, etc., as they are not typically considered to be a core part of the Git system that must be available on all platforms "out of the box".
-<<BR>>''Language:'' Open for proposal.
-<<BR>>''Goal:'' Successfully import the Mozilla CVS repository, including all branches and tags.  Bonus points for also being able to (reasonably) compute branch merge points and record these in Git as proper merge commits.
-<<BR>>''Mentor:'' Martin Langhoff
-<<BR>>''Suggested by:'' Martin Langhoff
+<BR>''Language:'' Open for proposal.
+<BR>''Goal:'' Successfully import the Mozilla CVS repository, including all branches and tags.  Bonus points for also being able to (reasonably) compute branch merge points and record these in Git as proper merge commits.
+<BR>''Mentor:'' Martin Langhoff
+<BR>''Suggested by:'' Martin Langhoff
 
 == Lazy Clone ==
 Aka remote alternates.  The idea here is to be able to remotely access objects from a network based object server, rather than having them all local.  Users could initialize a working directory by fetching only the objects referenced by the tip commit, and then only fetch needed objects on demand in the future.
@@ -136,21 +136,21 @@ Aka remote alternates.  The idea here is to be able to remotely access objects f
 This is an extension of the existing "shallow clone" support as we want to cut not just commits off, but whole blobs and trees to.  In other words, a client might wind up downloading and caching all commits for the past 3 months, but not the blobs or trees associated with them.  Instead it would only have the most recent blobs/trees, such as the tip revision and one or two revisions back.
 
 This is tricky to do right, as git-fsck needs to know what is going on, and many tools assume that if we have a commit, we have all trees/blobs mentioned by that commit.
-<<BR>>''Goal:'' A working lazy clone prototype implementation that could be considered for inclusion.
-<<BR>>''Mentor:'' Shawn O. Pearce (gsoc@spearce.org),  Petr Baudis (pasky@suse.cz)
-<<BR>>''Suggested by:'' Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031 on gmane]
+<BR>''Goal:'' A working lazy clone prototype implementation that could be considered for inclusion.
+<BR>''Mentor:'' Shawn O. Pearce (gsoc@spearce.org),  Petr Baudis (pasky@suse.cz)
+<BR>''Suggested by:'' Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031 on gmane]
 
 == gitweb Caching, gitweb Improvements ==
 Bringing together all gitweb implementations.  Implementing very smart caching in gitweb, to avoid the thundering herd problem on kernel.org whenever a repository gets updated, or at least support for caching engines in the form of generating proper <code><nowiki>Last-Modified:</nowiki></code> and <code><nowiki>ETag:</nowiki></code> headers, and responding to <code><nowiki>If-Modified-Since:</nowiki></code> and <code><nowiki>If-None-Match:</nowiki></code> requests.  Perhaps becoming the gitweb maintainer could come of it, or at least the gitweb admin for kernel.org (sorely needed).
 
-Merging interesting and useful features like the client-side commit graph (gitk like clone) such as on [[http://repo.or.cz/]], or the incremental blame support proposed on the Git mailing list would be nice.  Another idea is to generate some data (such as what is displayed on the front page) on update time, and saved in a format which can be read quickly by Perl.
+Merging interesting and useful features like the client-side commit graph (gitk like clone) such as on [http://repo.or.cz/ http://repo.or.cz/], or the incremental blame support proposed on the Git mailing list would be nice.  Another idea is to generate some data (such as what is displayed on the front page) on update time, and saved in a format which can be read quickly by Perl.
 
 This project might also work nicely in parallel with the Libification project above, as gitweb could really benefit from a libified git.
-<<BR>>''Language:'' Perl; some HTML, CSS, and JavaScript depending on the actual tasks taken on by the student.
-<<BR>>''Goal:'' Improve gitweb performance on large installations like kernel.org; merge some interesting features from other gitweb forks/clones.
-<<BR>>''Mentor:'' Shawn O. Pearce (gsoc@spearce.org),  Petr Baudis (pasky@suse.cz)
-<<BR>>''Suggested by:'' Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031 on gmane]
-<<BR>>''See:'' [[InterfacesFrontendsAndTools#gitweb|gitweb]] entry on [[InterfacesFrontendsAndTools]] page.
+<BR>''Language:'' Perl; some HTML, CSS, and JavaScript depending on the actual tasks taken on by the student.
+<BR>''Goal:'' Improve gitweb performance on large installations like kernel.org; merge some interesting features from other gitweb forks/clones.
+<BR>''Mentor:'' Shawn O. Pearce (gsoc@spearce.org),  Petr Baudis (pasky@suse.cz)
+<BR>''Suggested by:'' Jakub Narebski [http://article.gmane.org/gmane.comp.version-control.git/41031 on gmane]
+<BR>''See:'' [[InterfacesFrontendsAndTools#gitweb|gitweb]] entry on [[InterfacesFrontendsAndTools]] page.
 
 == Checkout Hooks ==
 
@@ -159,19 +159,19 @@ Finish the already started file attribute support.  Currently Git only tracks th
 Another possibility is to use a checkout/checkin hook system to automatically transform OpenOffice document files.  Since these are binary ZIP files they do not delta very well within Git packfiles, by uncompressing the ZIP file and storing the raw XML Git can get good delta compression.  By recreating the ZIP file during checkout, OpenOffice never knows the difference.
 
 This idea can be extended to other compression and archive formats, too.  Sam Vilain made a "git-hash-archive" that transparently stored gzip files, keeping the same content MD-5 hash (though that part was admittedly clinically insane).
-<<BR>>''Goal:'' Improved file attribute support capable of saving/restoring auxiliary attributes associated with files and transforming files to a canonical "in repository" format, and back again.
-<<BR>>''Mentor:'' Shawn O. Pearce (gsoc@spearce.org)
-<<BR>>''Suggested by:'' David Lang, privately suggested by email.
+<BR>''Goal:'' Improved file attribute support capable of saving/restoring auxiliary attributes associated with files and transforming files to a canonical "in repository" format, and back again.
+<BR>''Mentor:'' Shawn O. Pearce (gsoc@spearce.org)
+<BR>''Suggested by:'' David Lang, privately suggested by email.
 
 == Gittorrent Server and Peer ==
 
 Implement a server and P2P client/server for the distributed gittorrent specification (see http://gittorrent.utsl.gen.nz/).  This project has some interesting benefits for larger projects such as kernel.org, where the mirror servers are currently overloaded trying to serve up all of the Git repositories and other files.
 
 There is already an implementation of parts of the protocol as a C library (currently at http://jonas.nitro.dk/gittorrent/gittorrent.git/)  You can use this library, linked with the language of your choice, or re-implement completely in another language.  I'd prefer implementations in C, Perl (any version), Java, Ruby, or Python, but please feel free to ask whether I feel up to assisting you in your favorite language. :-)
-<<BR>>''Language:'' Open for proposal.
-<<BR>>''Goal:'' Hosting of massive projects, massively parallel mirroring.
-<<BR>>''Mentor:'' Sam Vilain (samv@catalyst.net.nz)
-<<BR>>''Suggested by:'' Sam Vilain
+<BR>''Language:'' Open for proposal.
+<BR>''Goal:'' Hosting of massive projects, massively parallel mirroring.
+<BR>''Mentor:'' Sam Vilain (samv@catalyst.net.nz)
+<BR>''Suggested by:'' Sam Vilain
 
 == Git / Subversion Interoperability ==
 
@@ -183,20 +183,20 @@ There are two potential approaches:
 # write a backend for Subversion
 
 In order to do this, you could make use of the reflog support already built into Git.  That enables a you to assign a monotonically increasing number to each commit in a repository, along a single branch, or by combining reflogs, along multiple branches.
-<<BR>>''Language:'' Open for proposal.
-<<BR>>''Goal:'' For projects already using Subversion, they could transparently migrate to using Git (SVN clients, Git server).
-<<BR>>''Mentor:'' Open for proposal.
-<<BR>>''Suggested by:'' Anand Kumria
+<BR>''Language:'' Open for proposal.
+<BR>''Goal:'' For projects already using Subversion, they could transparently migrate to using Git (SVN clients, Git server).
+<BR>''Mentor:'' Open for proposal.
+<BR>''Suggested by:'' Anand Kumria
 
 == HareGIT, a TortoiseCVS Lookalike ==
 
 Many Windows users are already used to TortoiseCVS. Something like this is clearly lacking for Git.
 
 There is a small proof-of-concept code to make a "Shell Extension", i.e. a DLL which adds a menu entry to the context menu in the "Windows Explorer". This proof-of-concept code is meant to be compiled with the MSYS/MinGW combo, so you only need free tools.
-<<BR>>''Language:'' C/COM.
-<<BR>>''Goal:'' Have a TortoiseCVS lookalike for Git.
-<<BR>>''Mentor:'' Johannes Schindelin (johannes.schindelin@gmx.de), ANYONE ELSE?.
-<<BR>>''Suggested by:'' Johannes Schindelin
+<BR>''Language:'' C/COM.
+<BR>''Goal:'' Have a TortoiseCVS lookalike for Git.
+<BR>''Mentor:'' Johannes Schindelin (johannes.schindelin@gmx.de), ANYONE ELSE?.
+<BR>''Suggested by:'' Johannes Schindelin
 
 = Other Resources =
 
