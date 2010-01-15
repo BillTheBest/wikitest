@@ -44,7 +44,7 @@ Miscellaneous git-related links, not including [http://git.or.cz/ Git homepage],
 = Articles about Git =
 
 == Mailing list digests ==
-* [http://www.kerneltraffic.org/git/index.html Git Traffic] - Newsletter that summarises events on the git mailing list<<BR>> (only one issue, for 2 May 2005, seems abandoned)
+* [http://www.kerneltraffic.org/git/index.html Git Traffic] - Newsletter that summarises events on the git mailing list<BR> (only one issue, for 2 May 2005, seems abandoned)
 * [http://lwn.net/ LWN.net] (Linux Weekly News)
   *[http://lwn.net/Articles/131657/ The guts of git]
   *[http://lwn.net/Articles/132796/ A very quick guide to starting with git]
@@ -138,7 +138,7 @@ Also see [[BlogPosts]] for a collection of blog posts on specific Git usage.
 
 Below there are blogs by gitters:
 * [http://gitster.livejournal.com/tag/git gitster's journal], Junio C Hamano (git maintainer) blog (articles tagged ''git'').
-* [http://vilain.net/ (SV*)null - interpretating the void as Sam] blog by Sam Vilain.<<BR>> [http://planet.catalyst.net.nz/blog/blog/samv SamV's blog | planet catalyst]
+* [http://vilain.net/ (SV*)null - interpretating the void as Sam] blog by Sam Vilain.<BR> [http://planet.catalyst.net.nz/blog/blog/samv SamV's blog | planet catalyst]
 
 == Talks ==
 * [http://www.youtube.com/watch?v=4XpnKHJAok8 Tech Talk: Linus Torvalds on Git] at Google on YouTube ([[[LinusTalk]]200705Transcript|transcript])
@@ -214,13 +214,13 @@ Only those including [[Git]] as one of the systems.
 There is place for generic, non SCM specific, links
 * [http://www.dwheeler.com/essays/scm-security.html Software Configuration Management (SCM) Security] by David A. Wheeler (March 13, 2004; Revised May 6, 2005).
 * [http://damonpoole.blogspot.com/ Software Configuration Management (SCM) - Damon's Thoughts] blog (by Damon Poole of AccuRev)  - A discussion of the state of Software Configuration Management (SCM) today.
-* [http://www.usenix.org/events/hotos03/tech/full_papers/henson/henson.pdf An Analysis of Compare-by-hash] (PDF) by Val Henson, in ''Proceedings of HotOS IX: The 9th Workshop on Hot Topics in Operating Systems'', also on [http://infohost.nmt.edu/~val/review/hash.html An Analysis of Compare-by-hash] page with links to [http://infohost.nmt.edu/~val/review/hash.ps PS], [http://infohost.nmt.edu/~val/review/hash.pdf PDF] and [http://infohost.nmt.edu/~val/review/hash/index.html HTML] version.<<BR>> ''Follow-ups:'' [http://monotone.ca/docs/Hash-Integrity.html Hash Integrity] chapter in [http://monotone.ca/docs/index.html Monotone documentation] by Graydon Hoare, [http://www.cs.colorado.edu/~jrblack/papers/cbh.html Compare-by-Hash: A Reasoned Analysis] by John Black, and Henson and Henderson [http://infohost.nmt.edu/~val/review/hash2.html Guidelines for Using Compare-by-hash] ([http://infohost.nmt.edu/~val/review/hash2.ps.gz PS.gz], [http://infohost.nmt.edu/~val/review/hash2.pdf PDF]) self-followup.
+* [http://www.usenix.org/events/hotos03/tech/full_papers/henson/henson.pdf An Analysis of Compare-by-hash] (PDF) by Val Henson, in ''Proceedings of HotOS IX: The 9th Workshop on Hot Topics in Operating Systems'', also on [http://infohost.nmt.edu/~val/review/hash.html An Analysis of Compare-by-hash] page with links to [http://infohost.nmt.edu/~val/review/hash.ps PS], [http://infohost.nmt.edu/~val/review/hash.pdf PDF] and [http://infohost.nmt.edu/~val/review/hash/index.html HTML] version.<BR> ''Follow-ups:'' [http://monotone.ca/docs/Hash-Integrity.html Hash Integrity] chapter in [http://monotone.ca/docs/index.html Monotone documentation] by Graydon Hoare, [http://www.cs.colorado.edu/~jrblack/papers/cbh.html Compare-by-Hash: A Reasoned Analysis] by John Black, and Henson and Henderson [http://infohost.nmt.edu/~val/review/hash2.html Guidelines for Using Compare-by-hash] ([http://infohost.nmt.edu/~val/review/hash2.ps.gz PS.gz], [http://infohost.nmt.edu/~val/review/hash2.pdf PDF]) self-followup.
 * [http://revctrl.org/ Revctrl Wiki], including [http://revctrl.org/CategoryMergeAlgorithm Examples of different merge algorithms] article there.
 * [http://software.ericsink.com/scm/source_control.html Source Control HOWTO] (work in progress) and [http://software.ericsink.com/Beyond_CheckOut_and_CheckIn.html Beyond CheckOut and [[CheckIn]]] by Eric Sink, heavily inspired by Vault and Subversion.
 * [http://ydirson.free.fr/en/software/scm/ SCM - Software Configuration Management] page by Yann Dirson, dedicated to the research of the ultimate free-software SCM system. Includes [http://ydirson.free.fr/en/software/scm/vc.txt Version control according to Yann Dirson] (aka. "Thoughts about the ideal version-control tool") and [http://ydirson.free.fr/en/software/scm/scm-domains.txt SCMs near-distinct sub-domains list].
 * [http://www.isisetup.ch/wiki/IsiSetupRevisionControl Isi Setup Revision Control] page talks about evolution of IsiSetup, and thoughts about using SCMs to manage configuration files.
 * [http://www.linux.com/article.pl?sid=06/03/30/210216 Package management meets version control in rPath] article at Linux.com talks about rPath idea of a source control system married to a package system, in the form of Conary package manager.  Further information can be found at [http://wiki.rpath.com/wiki/Conary:Concepts Conary:Concepts] page at rPath wiki and in [http://www.rpath.com/technology/techoverview/index.html Repository-Based System Management Using Conary] (especially in [http://www.rpath.com/technology/techoverview/conaryintro.html Introduction to Conary] and [http://www.rpath.com/technology/techoverview/distributedversions.html Distributed Version Tree] chapters).
-* [https://wiki.ubuntu.com/NoMoreSourcePackages [[NoMoreSourcePackages]]] page at Ubuntu wiki talks about idea of abandoning source packages, and using revision control system (SCM) instead.  It describes both the Bazaar (in the form of proposed ''loom'' extension / plugin) and Launchpad features that would be needed to do this, and the kinds of work flow that the distro team would like to follow with them.<<BR>>
+* [https://wiki.ubuntu.com/NoMoreSourcePackages [[NoMoreSourcePackages]]] page at Ubuntu wiki talks about idea of abandoning source packages, and using revision control system (SCM) instead.  It describes both the Bazaar (in the form of proposed ''loom'' extension / plugin) and Launchpad features that would be needed to do this, and the kinds of work flow that the distro team would like to follow with them.<BR>
  See also [https://lists.ubuntu.com/archives/ubuntu-devel/2007-March/023399.html bzr for packaging] thread at ubuntu mailing list.
 * Many git related links with maintaining distribution packages at [http://vcs-pkg.org/ vcs-pkg].  The aim of the vcs-pkg project is to investigate the use of version control for distro package maintenance.
 * [http://www.golden-gryphon.com/software/misc/packaging.html Packaging Software using Git] is an analysis of schemes people use for packaging.
@@ -245,7 +245,7 @@ There is place for generic, non SCM specific, links
 
 = Other links =
 * [http://ydirson.free.fr/en/software/scm/cvsps.html CvsPs patches] - collection of patches to CVSps, tool needed for `git-cvsimport` (see [[InterfacesFrontendsAndTools#git-xxximport|[[InterfacesFrontendsAndTools]]]]).
-* [[http://git.rsbx.net]] Git related information by Gitzilla.
+* [http://git.rsbx.net http://git.rsbx.net] Git related information by Gitzilla.
 * [http://gittorrent.utsl.gen.nz/ GitTorrent] idea.
 * [http://www.ext3cow.com/ Ext3cow Versioning Filesystem] is snapshot based, similarly somewhat to git, with sharing the same blocks, but without support for nonlinear history.
 * There is a whole chapter (GIT, QUILT AND BINARY SEARCHING) devoted to binary searching in [http://www.stardust.webpages.pl/files/handbook/handbook-en-0.3-rc1.pdf Linux Kernel Tester's Guide] (PDF)
