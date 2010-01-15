@@ -7,7 +7,7 @@ These are events when git developers (and in one case, one user) physically meet
 
 == [[GitTogether]] '09 ==
 
-<b>October 26(Mon)-28(Wed) in [[http://maps.google.com/maps?f=q&hl=en&q=Amphitheatre+Pkwy,+Mountain+View,+California+94043,+United+States&sll=37.40293,-121.952735&sspn=0.008565,0.012081&ie=UTF8&cd=2&geocode=FcEHOwIdfiW5-A&ll=37.421572,-122.083619&spn=0.017127,0.024161&t=h&z=16&iwloc=addr|Mountain View, California]]</b>
+''October 26(Mon)-28(Wed) in [http://maps.google.com/maps?f=q&hl=en&q=Amphitheatre+Pkwy,+Mountain+View,+California+94043,+United+States&sll=37.40293,-121.952735&sspn=0.008565,0.012081&ie=UTF8&cd=2&geocode=FcEHOwIdfiW5-A&ll=37.421572,-122.083619&spn=0.017127,0.024161&t=h&z=16&iwloc=addr Mountain View, California]''
 
 For further details, see the [[GitTogether]]09 planning page.
 
@@ -22,9 +22,9 @@ See [[[AllesWirdGit|'09]]].
 One such event happened in 2007 with a few developers.  It was an informal, fun time, but not technical.
 
 ----
-<b>Footnotes:</b> <<[[FootNote]]>>
+''Footnotes:'' <<[[FootNote]]>>
 
 -----
-[[CategoryEvents]]
+[[Category:Events]]
 
 __NOTOC__
