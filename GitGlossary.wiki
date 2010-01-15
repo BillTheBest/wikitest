@@ -3,12 +3,12 @@ Wikified version of [http://www.kernel.org/pub/software/scm/git/docs/gitglossary
 This list is sorted alphabetically:
 
 ; alternate object database : {{anchor|alternate_object_database}}
-	Via the <i>alternates mechanism</i>, a [[#repository|repository]] can inherit part of its
+	Via the ''alternates mechanism'', a [[#repository|repository]] can inherit part of its
 	[[#object_database|object database]] from another object database, which is called
 	"alternate".
 
 ; bare repository : {{anchor|bare_repository}}
-	A <i>bare [[#repository|repository]]</i> is normally an appropriately named
+	A ''bare [[#repository|repository]]'' is normally an appropriately named
 	directory with a `.git` suffix that does not have a
 	[[#working_tree|locally checked-out copy]] of any of the files under revision
 	control.  That is, all of the `git` administrative and
@@ -52,7 +52,7 @@ This list is sorted alphabetically:
 	stored in the [[#object_database|object database]].
 
 ; cherry-picking : {{anchor|cherry-picking}}
-	In [[#SCM|SCM]] jargon, <i>"cherry pick"</i> means to choose a subset of
+	In [[#SCM|SCM]] jargon, ''"cherry pick"'' means to choose a subset of
 	changes out of a series of changes (typically commits)
 	and record them as a new series of changes on top of
 	different codebase.  In GIT, this is performed by
@@ -63,18 +63,18 @@ This list is sorted alphabetically:
         See also: [http://www.kernel.org/pub/software/scm/git/docs/git-cherry-pick.html git-cherry-pick(1)]
 
 ; clean : {{anchor|clean}}
-	A [[#working_tree|working tree]] is <i>clean</i>, if it corresponds to the [[#revision|revision]]
+	A [[#working_tree|working tree]] is ''clean'', if it corresponds to the [[#revision|revision]]
 	referenced by the current [[#head|head]].  Also see "[[#dirty|dirty]]".
 
 ; commit : {{anchor|commit}}
-	<i>As a noun:</i> A single point in the
+	''As a noun:'' A single point in the
 	git history; the entire history of a project is represented as a
 	set of interrelated commits.  The word "commit" is often
 	used by git in the same places other revision control systems
 	use the words "revision" or "version".  Also used as a short
 	hand for [[#commit_object|commit object]].
 
-	<i>As a verb:</i> The action of storing a new snapshot of the project's
+	''As a verb:'' The action of storing a new snapshot of the project's
 	state in the git history, by creating a new commit representing the current
 	state of the [[#index|index]] and advancing current [[#HEAD|HEAD]]
 	(current [[#branch|branch]] [[#head|head]]) to point at the new commit.
@@ -114,7 +114,7 @@ This list is sorted alphabetically:
 	The list you get with "ls" :-)
 
 ; dirty : {{anchor|dirty}}
-	A [[#working_tree|working tree]] is said to be <i>dirty</i> if it contains modifications
+	A [[#working_tree|working tree]] is said to be ''dirty'' if it contains modifications
 	which have not been [[#commit|committed]] to the current [[#branch|branch]].
 
 ; ent : {{anchor|ent}}
@@ -128,7 +128,7 @@ This list is sorted alphabetically:
         in any [[#parent|parent]].
 
 ; fast forward : {{anchor|fast_forward}}
-	A <i>fast-forward</i> is a special type of [[#merge|merge]] where you have
+	A ''fast-forward'' is a special type of [[#merge|merge]] where you have
 	a [[#revision|revision]] and you are "merging" another [[#branch|branch]]'s changes
 	that happen to be a descendant of what you have.
 
@@ -137,7 +137,7 @@ This list is sorted alphabetically:
 	frequently on a [[#tracking_branch|tracking branch]] of a [[#remote_repository|remote repository]].
 
 ; fetch : {{anchor|fetch}}
-	<i>Fetching a [[#branch|branch]]</i> means to get the [[#branch|branch]]'s 
+	''Fetching a [[#branch|branch]]'' means to get the [[#branch|branch]]'s 
         [[#head_ref|head ref]] from a [[#remote_repository|remote repository]], 
         to find out which [[#object|objects]] are missing from the local 
         [[#object_database|object database]], and to get them, too.
@@ -185,7 +185,7 @@ This list is sorted alphabetically:
 	During the normal execution of several git commands,
 	call-outs are made to optional scripts that allow
 	a developer to add functionality or checking.
-	Typically, the <i>hooks</i> allow for a command to be pre-verified
+	Typically, the ''hooks'' allow for a command to be pre-verified
 	and potentially aborted, and allow for a post-notification
 	after the operation is done.
 
@@ -219,7 +219,7 @@ This list is sorted alphabetically:
 	development, though that is purely conventional and not required.
 
 ; merge : {{anchor|merge}}
-	<i>As a verb:</i> To bring the contents of another
+	''As a verb:'' To bring the contents of another
 	[[#branch|branch]] (possibly from an external
 	[[#repository|repository]]) into the current branch.  In the
 	case where the merged-in branch is from a different repository,
@@ -232,7 +232,7 @@ This list is sorted alphabetically:
 	conflict, manual intervention may be required to complete the
 	merge.  See also [http://www.kernel.org/pub/software/scm/git/docs/git-merge.html git-merge(1)]
 
-	<i>As a noun:</i> unless it is a [[#fast_forward|fast forward]], a
+	''As a noun:'' unless it is a [[#fast_forward|fast forward]], a
 	successful merge results in the creation of a new [[#commit|commit]]
 	representing the result of the merge, and having as
 	[[#parent|parents]] the tips of the merged [[#branch|branches]].
@@ -273,7 +273,7 @@ This list is sorted alphabetically:
 	origin/name-of-upstream-branch, which you can see using
 	"`git branch -r`".
 
-	<i>Historical:</i> Before separate remotes layout become default, 'origin' was
+	''Historical:'' Before separate remotes layout become default, 'origin' was
 	default upstream [[#tracking_branch|tracking branch]]
 	(usually for [[#master|master]] branch; the rest of remote [[#branch|branches]]
 	were mapped 1:1 directly into local branches).  New upstream updates (from '[[#master|master]]')
@@ -290,11 +290,11 @@ This list is sorted alphabetically:
 
 ; parent : {{anchor|parent}}
 	A [[#commit_object|commit object]] contains a (possibly empty) list of the logical
-	predecessor(s) in the line of development, i.e. its <i>parents</i>. Ancestry information
+	predecessor(s) in the line of development, i.e. its ''parents''. Ancestry information
         can be changed (faked) using [[#graft|grafts]].
 
 ; pickaxe : {{anchor|pickaxe}}
-	The term <i>pickaxe</i> refers to an option to the diffcore routines
+	The term ''pickaxe'' refers to an option to the diffcore routines
 	that help select changes that add or delete a given text string.
 	With the `--pickaxe-all` option, it can be used to view the
 	full [[#changeset|changeset]] that introduced or removed, say, a particular
@@ -309,10 +309,10 @@ This list is sorted alphabetically:
 	more of a [[#SCM|SCM]] interface than the [[#plumbing|plumbing]].
 
 ; pull : {{anchor|pull}}
-	<i>Pulling a [[#branch|branch]]</i> means to [[#fetch|fetch]] it and [[#merge|merge]] it. See also [[http://www.kernel.org/pub/software/scm/git/docs/git-pull.html|git-pull(1)]].
+	''Pulling a [[#branch|branch]]'' means to [[#fetch|fetch]] it and [[#merge|merge]] it. See also [http://www.kernel.org/pub/software/scm/git/docs/git-pull.html git-pull(1)].
 
 ; push : {{anchor|push}}
-	<i>Pushing a [[#branch|branch]]</i> means to get the branch's [[#head_ref|head ref]] from 
+	''Pushing a [[#branch|branch]]'' means to get the branch's [[#head_ref|head ref]] from 
         a [[#remote_repository|remote repository]] , find out if it is an ancestor to the branch's local
 	head ref is a direct, and in that case, putting all [[#object|objects]], which
 	are [[#reachable|reachable]] from the local head ref, and which are missing from
@@ -322,7 +322,7 @@ This list is sorted alphabetically:
 
 ; reachable : {{anchor|reachable}}
 	All of the ancestors of a given [[#commit|commit]] are said to be
-	"<i>reachable</i>" from that commit. More
+	"''reachable''" from that commit. More
 	generally, one [[#object|object]] is reachable from
 	another if we can reach the one from the other by a [[#chain|chain]]
 	that follows [[#tag|tags]] to whatever they tag,
@@ -342,7 +342,7 @@ This list is sorted alphabetically:
 	a particular [[#object|object]]. These may be stored in `$GIT_DIR/refs/`.
 
 ; refspec : {{anchor|refspec}}
-	A <i>refspec</i> is used by [[#fetch|fetch]] and [[#push|push]] to describe the mapping
+	A ''refspec'' is used by [[#fetch|fetch]] and [[#push|push]] to describe the mapping
 	between remote [[#ref|ref]] and local [[#ref|ref]].  They are combined with
 	a colon in the format <code><nowiki><src>:<dst></nowiki></code>, preceded by an optional
 	plus sign, <code><nowiki>+</nowiki></code>.  For example:
@@ -463,6 +463,6 @@ $ git push $URL refs/heads/master:refs/heads/to-upstream</nowiki></pre>
 * Glossary [http://www.kernel.org/git/?p=git/git.git;a=blob;hb=HEAD;f=Documentation/glossary.txt source], HEAD version (in [[AsciiDoc]]).
 
 ----
-[[Category:GitDocumentation]]
+[[Category::GitDocumentation]]
 
 __NOTOC__
