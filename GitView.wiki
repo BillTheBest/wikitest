@@ -1,5 +1,5 @@
 Project page: http://sourceforge.net/projects/gitview
 ----
-[[CategoryTools]]
+[[Category:Tools]]
 
 __NOTOC__
