@@ -7,7 +7,7 @@ Typical workflows:
 
 = Working with foreign repositories =
 
-See [[http://kernel.org/git/?p=git/git.git;a=blob;f=Documentation/howto/using-topic-branches.txt|Using Topic Branches HOWTO]] and [[StGIT]].
+See [http://kernel.org/git/?p=git/git.git;a=blob;f=Documentation/howto/using-topic-branches.txt Using Topic Branches HOWTO] and [[StGIT]].
 
 == CVS ==
 
@@ -27,6 +27,6 @@ git commit -m "Initial import"
 
 See [[InterfacesFrontendsAndTools]] for import scripts.
 
-[[http://bitsko.slc.ut.us/~ken/]] (temporary location, link to this page instead) contains  example images of a multi-repository tree ([[http://bitsko.slc.ut.us/~ken/basic-tree.svg|SVG]], [[http://bitsko.slc.ut.us/~ken/tag-graph.png|PNG]]) imported from several repositories, now including kernel.org (Linus' kernel and stable branches in Git) and Red Hat Enterprise (kernels in RPM via FTP).
+[[http://bitsko.slc.ut.us/~ken/]] (temporary location, link to this page instead) contains  example images of a multi-repository tree ([http://bitsko.slc.ut.us/~ken/basic-tree.svg SVG], [http://bitsko.slc.ut.us/~ken/tag-graph.png PNG]) imported from several repositories, now including kernel.org (Linus' kernel and stable branches in Git) and Red Hat Enterprise (kernels in RPM via FTP).
 
 __NOTOC__
