@@ -52,18 +52,18 @@ further, 'partial packfiles' could be used to cache slices of the object list. d
 
 == Mercurial: Using mercurial as a client for git repositories ==
 
-''SoC page:'' [http://socghop.appspot.com/student_project/show/google/gsoc2009/hg/t124022472367 Using mercurial as a client for git repositories] <<BR>>
+''SoC page:'' [http://socghop.appspot.com/student_project/show/google/gsoc2009/hg/t124022472367 Using mercurial as a client for git repositories] <BR>
 
 == Mono: Implementing Git as class libraries in C# (also known as "managed code") ==
 
-''SoC page:'' [http://socghop.appspot.com/student_project/show/google/gsoc2009/mono/t124022708105 Implementing Git as class libraries in managed code] <<BR>>
+''SoC page:'' [http://socghop.appspot.com/student_project/show/google/gsoc2009/mono/t124022708105 Implementing Git as class libraries in managed code] <BR>
 
 == openSUSE: Prototype git backend for OpenSUSE Build Service ==
 
-''SoC page:'' [http://socghop.appspot.com/student_project/show/google/gsoc2009/opensuse/t124023150939 Prototype git backend for OpenSUSE Build Service] <<BR>>
+''SoC page:'' [http://socghop.appspot.com/student_project/show/google/gsoc2009/opensuse/t124023150939 Prototype git backend for OpenSUSE Build Service] <BR>
 
 == Plan9: GitFS ==
 
-''SoC page:'' [http://socghop.appspot.com/student_project/show/google/gsoc2009/plan9/t124024225905 GitFS for Plan 9 from Bell Labs] <<BR>>
+''SoC page:'' [http://socghop.appspot.com/student_project/show/google/gsoc2009/plan9/t124024225905 GitFS for Plan 9 from Bell Labs] <BR>
 
 __NOTOC__
