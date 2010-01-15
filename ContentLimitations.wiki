@@ -1,4 +1,4 @@
-Git is a <i>content</i> tracker, where <i>content</i> is de facto defined as "whatever is relevant to the state of a typical sourcecode tree". Basically, this is just files' data and "executable" attribute.
+Git is a ''content'' tracker, where ''content'' is de facto defined as "whatever is relevant to the state of a typical sourcecode tree". Basically, this is just files' data and "executable" attribute.
 
 By design, git cannot track other aspects of the filesystem, including:
 
@@ -9,7 +9,7 @@ By design, git cannot track other aspects of the filesystem, including:
 * Hard links
 * Empty directories (although it is not a fundamental limitation, git just automatically removes empty directories and does not add empty directories)
 
-There are some names which are considered <i>special</i> by git:
+There are some names which are considered ''special'' by git:
 * Arbitrary directories called ".git" (these contain the base of a repository),
 * Arbitrary directories containing a ".git" subdirectory with certain content (if "dir/.git" exists and seems to contain a valid head ref, then "git add dir" assumes that "dir" is a submodule)
 * Arbitrary files called ".gitignore" (these have special semantics)
@@ -21,6 +21,6 @@ Consequentially, Git cannot be directly used as a general versioning solution fo
 
 Some of the above items can be represented by tree objects in a git repository, but such tree objects are difficult or impossible to create using the standard git tools.
 
-There exist tools which either help git track full set of file modes etc., for example Metastore by David Hardeman (git://git.hardeman.nu/metastore.git). There also exists configuration versioning tool (APT for your config), based on git, named [[http://www.isisetup.ch/|IsiSetup]]. There is also a tool to backup your home directory with git: [[http://eigenclass.org/hiki/gibak-backup-system-introduction|gibak]]. See [[InterfacesFrontendsAndTools]] page.
+There exist tools which either help git track full set of file modes etc., for example Metastore by David Hardeman (git://git.hardeman.nu/metastore.git). There also exists configuration versioning tool (APT for your config), based on git, named [http://www.isisetup.ch/ IsiSetup]. There is also a tool to backup your home directory with git: [http://eigenclass.org/hiki/gibak-backup-system-introduction gibak]. See [[InterfacesFrontendsAndTools]] page.
 
 __NOTOC__
