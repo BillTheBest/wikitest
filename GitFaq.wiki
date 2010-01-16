@@ -27,7 +27,7 @@ Alternatively, in Linus' own words as the inventor of git: "git" can mean anythi
 * "Global information tracker": you're in a good mood, and it actually works for you. Angels sing, and a light suddenly fills the room.
 * "Goddamn idiotic truckload of sh*t": when it breaks
 
-<<[[GitLink]](fetch-vs-pull, Fetch retrieves objects, pull also merges them in}}
+{{Gitlink|fetch-vs-pull|Fetch retrieves objects, pull also merges them in}}
 == What's the difference between fetch and pull? ==
 The short definition is:
 
@@ -37,14 +37,14 @@ The short definition is:
 
 * See the [http://www.kernel.org/pub/software/scm/git/docs/git-fetch.html git-fetch(1)] and [http://www.kernel.org/pub/software/scm/git/docs/git-pull.html git-pull(1)] man pages or the tutorials for more details.
 
-<<[[GitLink]](public-repo,A daemon like sshd, apache, or git-daemon}}
+{{Gitlink|public-repo|A daemon like sshd, apache, or git-daemon}}
 == What can I use to set up a public repository? ==
 A SSH server, an HTTP server, or the git-daemon. Local networks can also use network filesystems, like NFS or SMBFS/CIFS (the Windows networks).
 
 * It seems not everyone thinks that SMBFS is a good idea; several people on #git hold the opinion that SMBFS should not be used with git.
 * See the [http://www.kernel.org/pub/software/scm/git/docs/gittutorial.html Git tutorial] for more details.
 
-<<[[GitLink]](empty-dirs,Git only tracks directories with files in them}}
+{{Gitlink|empty-dirs|Git only tracks directories with files in them}}
 == Can I add empty directories? ==
 Currently the design of the git index (staging area) only permits ''files'' to be listed, and nobody competent enough to make the change to allow empty directories has cared enough about this situation to remedy it.
 
@@ -54,7 +54,7 @@ You can say "<code><nowiki>git add <dir></nowiki></code>" and it will add files 
 
 If you really need a directory to exist in checkouts you should create a file in it. .gitignore works well for this purpose (there is also a tool [[MarkEmptyDirs]] which allows to automate this task); you can leave it empty, or fill in the names of files you expect to show up in the directory.
 
-<<[[GitLink]](rename-tracking,Some workflows do not support rename information}}
+{{Gitlink|rename-tracking|Some workflows do not support rename information}}
 == Why does git not "track" renames? ==
 [[Git]] has to interoperate with a lot of different workflows, for example some changes can come from patches, where rename information may not be available. Relying on explicit rename tracking makes it impossible to merge two trees that have done exactly the same thing, except one did it as a patch (create/delete) and one did it using some other heuristic.
 
@@ -68,7 +68,7 @@ As a very special case, <code><nowiki>'git log'</nowiki></code> version 1.5.3 an
 
 Git has a rename command ''git mv'', but that is just a convenience. The effect is indistinguishable from removing the file and adding another with different name and the same content.
 
-<<[[GitLink]](no-per-file-history,A git repository's history is not stored by filename}}
+{{Gitlink|no-per-file-history|A git repository's history is not stored by filename}}
 == Why is "git log <filename>" slow? ==
 The answer to the question why <code><nowiki>git log <filename></nowiki></code> takes so long to find a small number of commits which changed a given file lies in the fact that Git looks at ''all'' the commits to find that.
 
@@ -82,7 +82,7 @@ To speed up <code><nowiki>git log</nowiki></code>, give it a range of interestin
 
 * [http://permalink.gmane.org/gmane.comp.version-control.git/39358 Re: how to speed up "git log"?] by Linus Torvalds on Git mailing list.
 
-<<[[GitLink]](exporting-cdpath-breaks-things,Exporting CDPATH confuses shell scripts}}
+{{Gitlink|exporting-cdpath-breaks-things|Exporting CDPATH confuses shell scripts}}
 == Why is it wrong to export the environment variable CDPATH? ==
 The CDPATH variable is purely for interactive use.  A lot of scripts break if a simple "cd" suddenly outputs a text that was directed at ''you'', the user, and not meant for processing by the script.  Setting, but not exporting, CDPATH will still work as expected, but may break many scripts, including the make procedure of Git.  Having said that, we tried hard to avoid to unset CDPATH everywhere in the Git scripts, and in the Makefiles, but it is well possible that we missed out some places.
 
@@ -90,11 +90,11 @@ In contrast, if you just remove the "export" from your .bashrc, you are guarante
 
 * [http://article.gmane.org/gmane.comp.version-control.git/13736/match=cdpath Re: make install bug?]
 
-<<[[GitLink]](gitweb-in-git,Gitweb is distributed with git now}}
+{{Gitlink|gitweb-in-git|Gitweb is distributed with git now}}
 == How come gitweb suddenly disappeared from the project list at kernel.org/git? ==
 Because it got merged into git. See [http://kernel.org/git/?p=git/git.git;a=commit;h=0a8f4f0020cb35095005852c0797f0b90e9ebb74 the relevant commit].
 
-<<[[GitLink]](merge-vs-rebase,Rebasing rewrites history}}
+{{Gitlink|merge-vs-rebase|Rebasing rewrites history}}
 == What is the difference between a merge and a rebase? ==
 Imagine this history:
 
@@ -117,7 +117,7 @@ after rebase:
 </nowiki></pre>
 So, the merge does not rewrite your commits. They will stay the same. A rebase _will_ rewrite them. The advantage is that the history looks nicer. The disadvantage is that you usually tested more while developing, so that some obscure feature in, say, "G", could work less nicely together with the changes of, say, "B", than you hope for. In other words, G was tested thoroughly, G' was not. As always, it is a trade-off.
 
-<<[[GitLink]](rm-is-shorthand,"git rm" is needed more often than "git rm -&#45;cached"}}
+{{Gitlink|rm-is-shorthand|"git rm" is needed more often than "git rm -&#45;cached"}}
 == Why is "git rm" not the inverse of "git add"? ==
 Don't think of 'rm' as the inverse of 'add'.  That would only confuse you.
 
@@ -150,12 +150,12 @@ The fact that steps 3 and 4 can be naturally combined, but steps 1 and 2 cannot 
 
 = Features =
 
-<<[[GitLink]](git-crlf,Yes, with attribute crlf or configuration setting core.autocrlf}}
+{{Gitlink|git-crlf,Yes|with attribute crlf or configuration setting core.autocrlf}}
 == Does git convert between CRLF and LF for different platforms? ==
 Support for this exists in Git versions 1.5 or later.  See [http://www.kernel.org/pub/software/scm/git/docs/gitattributes.html#_checking_out_and_checking_in gitattributes(5)].
 
 {{anchor|git-keywords}}
-<<[[GitLink]](keywords,It's not a good idea but it's possible}}
+{{Gitlink|keywords|It's not a good idea but it's possible}}
 == Does git have keyword expansion? ==
 Not recommended. Keyword expansion causes all sorts of strange problems and isn't really useful anyway, especially within the context of an SCM. Outside git you may perform keyword expansion using a script. The Linux kernel export script does this to set the EXTRA_VERSION variable in the Makefile.
 
@@ -181,7 +181,7 @@ No. Git has a specific notion of tracked "content", which is basically just the 
 = Unexpected behavior =
 
 {{anchor|git-push non-bare}}
-<<[[GitLink]](non-bare,Pushing to non-bare repositories is discouraged}}
+{{Gitlink|non-bare|Pushing to non-bare repositories is discouraged}}
 == Why won't I see changes in the remote repo after "git push"? ==
 The <code><nowiki>push</nowiki></code> operation is always about propagating the repository history and updating the refs, and never touches the working tree files.  In particular, if you push to update the branch that is checked out in a remote repository the files in the work tree will not be updated.
 
@@ -208,7 +208,7 @@ If the version you switched to has an earlier (different) version of the <code><
 * See [http://marc.theaimsgroup.com/?l=git&m=114917892328066 Linus Torvalds] answer or [http://marc.theaimsgroup.com/?l=git&m=114917892613019 Sean Estabrooks] answer at [[GitCommunity|git mailing list]].
 * If you are using cygwin or OSX, you might have be having issues with case sensitivity. See [http://marc.info/?l=git&w=2&r=1&s=xt_CONNMARK.h&q=b some discussion here].
 
-<<[[GitLink]](non-ff, Your push would lose changes on the remote}}
+{{Gitlink|non-ff|Your push would lose changes on the remote}}
 == Why is my push rejected with a non-fast forward error? ==
 If you try to push a branch, you might get this error message:
 <pre><nowiki>
@@ -245,7 +245,7 @@ ie, delete the branch remotely first (this is often permitted), then re-push the
 Be warned that if you rewind branches, others might get into problem when pulling.  There is the chance that they will merge in the branch that they fetched with the new one that you've published, effectively keeping the changes that you are trying to get rid of.  However, it will only be their copies that have the bad revisions.  For this reason, rewinding branches is considered mildly antisocial.  Nonetheless, it is often appropriate.
 
 {{anchor|git-push after-rebase}}
-<<[[GitLink]](push-f, If you use push -f, others might get into problem when pulling}}
+{{Gitlink|push-f|If you use push -f, others might get into problem when pulling}}
 == Why won't "git push" work after I rebased a branch? ==
 
 After you have rebased one of your local branches, you are trying to push your changes to a remote repository. But <code><nowiki>git push</nowiki></code> fails with this error message:
@@ -288,7 +288,7 @@ Now consider what would happen if you check out another branch, and modification
 
 Git sets the current time as the timestamp on every file it modifies, but only those. The other files are left untouched, which means build tools will be able to depend on modification time and rebuild properly. If build rules change, that can cause a failure anyway, but that is a far less common problem than accidentally not rebuilding.
 
-<<[[GitLink]](pager-default, With a pager, it's easy to display interesting information at the top}}
+{{Gitlink|pager-default|With a pager, it's easy to display interesting information at the top}}
 == Why does git use a pager for commands like diff/log and --help? ==
 Usually, you are not interested in the whole log, but only some bits at the beginning.  It would not be useful for "git log" to simply let the output whiz by, leaving you looking at the uninteresting parts at the end.  And if it did it the other way round, showing you the interesting bits last, it would waste a lot of time showing information that you are not interested in at all.  So the only thing that makes sense is to look at the log in a pager.  It also helps searching for keywords.
 
@@ -296,7 +296,7 @@ Note that "--help" just spawns "man", so it is not Git's fault there. But you ca
 
 If you do not like the pager default, you can set <code><nowiki>core.pager = cat</nowiki></code> with <code><nowiki>git config</nowiki></code> or tell your shell about <code><nowiki>GIT_PAGER=cat</nowiki></code>.
 
-<<[[GitLink]](pager-color, Your pager might remove the colors}}
+{{Gitlink|pager-color|Your pager might remove the colors}}
 == Why does diff/log not show color, even though I enabled it? ==
 Set <code><nowiki>core.pager = less -FXRS</nowiki></code> with <code><nowiki>git config</nowiki></code> to fix this. The most likely culprit is the <code><nowiki>LESS</nowiki></code> environment variable. By default, git passes the options <code><nowiki>-FXRS</nowiki></code> to less. The <code><nowiki>-R</nowiki></code> option tells less to interpret color escape sequences. If <code><nowiki>LESS</nowiki></code> is set, however, only those options are used by less.
 
@@ -342,7 +342,7 @@ The reason may be that some commits have been developed starting from a version 
 
 See http://thread.gmane.org/gmane.comp.version-control.git/99967/focus=99977 for more explanations from Linus.
 
-<<[[GitLink]](detached, You are on a detached HEAD and might lose commits.}}
+{{Gitlink|detached|You are on a detached HEAD and might lose commits.}}
 == Why am I "not on any branch"? ==
 
 You are on a detached HEAD and might lose commits.  See
@@ -367,7 +367,7 @@ git log -p -z | perl -ln0e 'print if /[+-].*searchedstring/'
 
 = How do I ... =
 
-<<[[GitLink]](ssh-config,You can setup a new entry in ~/.ssh/config with the right key}}
+{{Gitlink|ssh-config|You can setup a new entry in ~/.ssh/config with the right key}}
 == How do I specify what ssh key git should use? ==
 This is not really a git question. However, you can edit your ~/.ssh/config file in order to tell ssh what key to use. More information about this is in the [http://www.openbsd.org/cgi-bin/man.cgi?query=ssh_config ssh config manpage]. The short version is that you can specify a custom Host with its own [[IdentityFile]], like this:
 <pre><nowiki>
@@ -385,7 +385,7 @@ If you want to keep a file, but not have it in the next revision, do this:
 git rm --cached <filename>
 </nowiki></pre>
 
-<<[[GitLink]](branch, to checkout other branches, use git checkout -b somename origin/somename}}
+{{Gitlink|branch|to checkout other branches, use git checkout -b somename origin/somename}}
 == How do I access other branches in a repository? ==
 When a repository is cloned, the clone gets a remote tracking branch for each
 of the original repository's branch heads, but only a single local branch head
@@ -437,7 +437,7 @@ git commit -v
 
 {{anchor|push-is-reverse-of-fetch}}
 == How would I use "git push" to sync out of a firewalled host? ==
-<<[[GitLink]](mothership-satellite, push is reverse of fetch}}When you work on two machines, sometimes your firewall would let you make a TCP connection only in one direction but not in the other direction. Suppose you start a project on machine A (mothership), and clone from there to a machine B (satellite). You work on B and would want to propagate the change back to your repository on machine A. Even if you wanted to, you cannot run <code><nowiki>git fetch</nowiki></code> on machine A to fetch from B, as B is firewalled and does not allow incoming connections. What should you do in such a case?
+{{Gitlink|mothership-satellite|push is reverse of fetch}}When you work on two machines, sometimes your firewall would let you make a TCP connection only in one direction but not in the other direction. Suppose you start a project on machine A (mothership), and clone from there to a machine B (satellite). You work on B and would want to propagate the change back to your repository on machine A. Even if you wanted to, you cannot run <code><nowiki>git fetch</nowiki></code> on machine A to fetch from B, as B is firewalled and does not allow incoming connections. What should you do in such a case?
 
 Pushing 'master' branch on B to 'master' branch on A, however, is not what you would want to do. Push is a reverse of fetch in the sense that it propagates the objects and update the branch tips, but does not touch the working tree in the target repository, and you will be utterly confused when you go back to machine A after you update 'master' that way. You can realize that a push is a mirror operation of a fetch and take advantage of it. If B were ''not'' firewalled, you would instead run fetch on A from B. And such a fetch is arranged to fetch 'master' from B and store that in 'refs/remotes/B/master' in A.
 
@@ -503,7 +503,7 @@ You can put shell-style globs (e.g. <code><nowiki>*.o</nowiki></code>) in either
  [http://www.kernel.org/pub/software/scm/git/docs/git-ls-files.html git-ls-files(1)] man page, section "Exclude Patterns" for details.
 
 {{anchor|saving-draft}}
-<<[[GitLink]](stash, Use git stash or a temporary branch to save temporarily}}
+{{Gitlink|stash|Use git stash or a temporary branch to save temporarily}}
 == How do I save some local modifications? ==
 Sometimes it is necessary to put some local changes aside, and come back to them later (typically, when one hits an easily-fixable bug in the middle of non-trivial work, and wants to fix the bug before anything else).
 
@@ -552,7 +552,7 @@ Once you come up with the desired state in your file (<code><nowiki>src/util/end
 
 {{anchor|revert-file-change}}
 == How to revert file to version from current commit? ==
-<<[[GitLink]](git-checkout, How do I check out a set of paths from the last commit?}}
+{{Gitlink|git-checkout|How do I check out a set of paths from the last commit?}}
 If you messed up a file, or removed it accidentally, and want to revert file change to version at current commit, you can use:
 
 <pre><nowiki>
@@ -755,7 +755,7 @@ or (to get also the commit message):
     git show --name-only <commit>
 </nowiki></pre>
 
-<<[[GitLink]](fb-prune, Delete backup refs, expire reflog, repack and prune}}
+{{Gitlink|fb-prune|Delete backup refs, expire reflog, repack and prune}}
 == How do I remove all the old objects after using filter-branch? ==
 
 Note: It is recommended you backup your repository before using <code><nowiki>git filter-branch</nowiki></code>.
@@ -783,7 +783,7 @@ And finally, repack and drop all the old unreachable objects:
     git prune # For objects that repack -ad might have left around
 </nowiki></pre>
 
-<<[[GitLink]](svn-mirror, How to mirror SVN to git}}
+{{Gitlink|svn-mirror|How to mirror SVN to git}}
 == How do I mirror a SVN repository to git? ==
 
 Initialize bare repo:
@@ -826,7 +826,7 @@ To enable usage of <code><nowiki>git svn</nowiki></code> in the clone use
     git svn init -s --prefix=origin/ svn://.../project
 </nowiki></pre>
 
-<<[[GitLink]](edit-root, How to edit the root commit}}
+{{Gitlink|edit-root|How to edit the root commit}}
 == How do I edit the root commit? ==
 
 <code><nowiki>git rebase -i</nowiki></code> allows you to conveniently edit any previous commits, except for the root commit. The following commands show you how to do this manually.
@@ -848,7 +848,7 @@ To enable usage of <code><nowiki>git svn</nowiki></code> in the clone use
     git tag -d root
 </nowiki></pre>
 
-<<[[GitLink]](clone-subdir, Git cannot clone subdirectories}}
+{{Gitlink|clone-subdir|Git cannot clone subdirectories}}
 == How do I clone a subdirectory? ==
 
 Currently, you cannot. There are plans for [http://git.or.cz/gitwiki/SoC2009Ideas#NarrowandSparseclonesupport narrow and sparse clone support].
@@ -863,7 +863,7 @@ It is possible, however, to download subdirectories or even individual files if 
 
 Use <code><nowiki>git ls-remote</nowiki></code> to list available versions.
 
-<<[[GitLink]](make-bare, How to convert to bare repository}}
+{{Gitlink|make-bare|How to convert to bare repository}}
 == How do I make existing non-bare repository bare? ==
 
 After making sure that there are no uncommitted changes, etc.:
@@ -881,7 +881,7 @@ The problem with the above process is that it doesn't take into account future i
    * renamed new repository dir to what old repository used to be.
 </nowiki></pre>
 
-<<[[GitLink]](find-large, Howto find large files}}
+{{Gitlink|find-large|Howto find large files}}
 == How do I find large files? ==
 
 Save the following script to <code><nowiki>git-find-large</nowiki></code> in a directory listed in $PATH. The command <code><nowiki>git find-large</nowiki></code> will then list 10 paths corresponding to the largest blobs in your repository. Note that only one path is listed per blob, even if the blob has copies or different names in history.
