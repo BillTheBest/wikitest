@@ -916,7 +916,7 @@ The problem with the above process is that it doesn't take into account future i
 Save the following script to <code><nowiki>git-find-large</nowiki></code> in a directory listed in $PATH. The command <code><nowiki>git find-large</nowiki></code> will then list 10 paths corresponding to the largest blobs in your repository. Note that only one path is listed per blob, even if the blob has copies or different names in history.
 
 <pre><nowiki>
- #!/bin/sh
+#!/bin/sh
 #
 # From http://mid.gmane.org/20090710114316.GA6880@atjola.homenet
 #
