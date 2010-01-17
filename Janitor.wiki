@@ -2,7 +2,7 @@ Here are some simple but useful tasks that can be done on the Git source code.
 
 It's a very good way to get started if you want to start working on Git or learning its internals.
 
-Please be sure to read the [http://git.kernel.org/?p=git/git.git;a=blob;f=Documentation/SubmittingPatches [[SubmittingPatches]]] document before posting your patches. Also please check that your patches apply by sending them to yourself first and then by using "git apply" on what you received.
+Please be sure to read the [http://git.kernel.org/?p=git/git.git;a=blob;f=Documentation/SubmittingPatches SubmittingPatches] document before posting your patches. Also please check that your patches apply by sending them to yourself first and then by using "git apply" on what you received.
 
 Also note that it may happen that this list is not up to date. In this case please send an email to the git mailing list (git@vger.kernel.org). Bonus point if you propose to fix that yourself on the wiki!
 
