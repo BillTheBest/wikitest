@@ -12,7 +12,7 @@ With an empty subject line and the words "subscribe git" in the message body.
 = Mailing List Archives =
 There are several sites that archive all of the mailing list traffic so that you can search for discussions that have happened in the past:
 
-* [http://dir.gmane.org/gmane.comp.version-control.git Gmane archive], with web interface using [http://news.gmane.org/gmane.comp.version-control.git frames], [http://blog.gmane.org/gmane.comp.version-control.git blog-like interface], [[nntp://news.gmane.org/gmane.comp.version-control.git|NNTP interface]] (Usenet interface) and [http://rss.gmane.org/topics/excerpts/gmane.comp.version-control.git RSS feeds].
+* [http://dir.gmane.org/gmane.comp.version-control.git Gmane archive], with web interface using [http://news.gmane.org/gmane.comp.version-control.git frames], [http://blog.gmane.org/gmane.comp.version-control.git blog-like interface], [nntp://news.gmane.org/gmane.comp.version-control.git NNTP interface] (Usenet interface) and [http://rss.gmane.org/topics/excerpts/gmane.comp.version-control.git RSS feeds].
 * [http://marc.theaimsgroup.com/?l=git Git mailing list archive at MARC], Mailing list ARChives, with search.
 * [http://www.gelato.unsw.edu.au/archives/git/ Alternate Australian archive] (<code><nowiki>www.gelato.unsw.edu.au</nowiki></code>) (last updated Feb 2007).
 * [http://www.spinics.net/lists/git/ spinics.net archive] (least used)
