@@ -21,9 +21,6 @@ See [[AllesWirdGit_'09]].
 = Previous [[GitTogether]] =
 One such event happened in 2007 with a few developers.  It was an informal, fun time, but not technical.
 
-----
-''Footnotes:'' <<[[FootNote]]>>
-
 -----
 [[Category:Events]]
 
