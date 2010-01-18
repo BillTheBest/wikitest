@@ -897,14 +897,14 @@ Those "See Q20" answers were removed.
 * If git were to interact transparently with an SVN repository, that would be cool.
 * improve the documentation/wiki visability.
 * Include the GIT package in various kind of Linux or other possible unix like distrubutions by default rather than a extra or make-by-yourself action needed.
-* It is time [[SourceForge]].net dumped CVS. Or at least had support for both (CVS, GIT) at the same time.
+* It is time SourceForge.net dumped CVS. Or at least had support for both (CVS, GIT) at the same time.
 * Make sourceforge use it.
 * Make the novice experience flawless and account for as many newbie mistakes as possible.
 * Political changes in projects. Many people simply aren't ready for distributed version control.
 * Publish a book. ;-)
 * push it for fedora use of repo. have _good_ conversions programms, they are essential as most sucessfull software out there uses a repo.
 * Remove old cruft (f.e. git-resolve). Stop talking about the "stupid content tracker", it confuses people. Move most of the executables to libexec!
-* [[SourceForge]] support Bundle automatically with Mac OS X and other distros.
+* SourceForge support Bundle automatically with Mac OS X and other distros.
 * Stronger promotion of its ability to a) Replicate a CVS server b) Allow hackers to have a personal git repository when hacking on projects with a SVN centralised repository
 * surveys, ask people for new cool features
 * Web marketing and make another big project use it.
@@ -978,7 +978,7 @@ Others:
 * http://alleg.sourceforge.net/api.html
 * http://tapestry.apache.org/tapestry4/
 * Jeff Garzik's documentation
-* [[LaTeX]] companion
+* LaTeX companion
 * Linux Device Drivers by O'Reilly
 * Linux kernel FAQ
 * Microsoft Word 2.0 online help
@@ -988,7 +988,7 @@ Others:
 * Programming Ruby
 * QT documentation
 * step by step approach diving deeper into the subject while *not* sitting at my computer ;-)
-* Sun's [[OpenBoot]] references are very very good
+* Sun's OpenBoot references are very very good
 * texinfo
 * The avr-libc docs, and source. Very well commented.
 * The built-in help for GNU Arch
