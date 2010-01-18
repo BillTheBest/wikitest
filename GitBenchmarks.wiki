@@ -461,22 +461,75 @@ After conversion, pack command was run for the repositories that support this fe
 
 Tests were done using Git v1.5.5.3, Bzr v1.5, Hg v1.0
 
- ||''''Repository''''||<:> ''Git'' ||<:> ''Mercurial'' ||<:> ''Bazaar'' ||
- ||<rowstyle="background-color: #FFFFE0;">||<colspan=3 style="text-align: center; font-size=70%;"> ''Git'' ||
- || Cairo       ||<)>  15MB ||<)>	 24MB ||<)> 	 30MB ||
- || Coreutils   ||<)>  29MB ||<)>	 44MB ||<)>	 76MB ||
- || Samba	||<)>  82MB ||<)>	146MB ||<)>	310MB ||
- ||<rowstyle="background-color: #FFFFE0;">||<colspan=3 style="text-align: center; font-size=70%;"> ''Mercurial'' ||
- || Octave	||<)>  22MB ||<)>	 49MB ||<)>	 57MB ||
- || Mozilla	||<)>  78MB ||<)>	205MB ||<)>	255MB ||
- || Dovecot	||<)>   9MB ||<)>	 14MB ||<)>	 23MB ||
- ||<rowstyle="background-color: #FFFFE0;">||<colspan=3 style="text-align: center; font-size=70%;"> ''Bazaar'' ||
- || Emacs	||<)> 120MB ||<)>	163MB ||<)>	300MB ||
- || Mailman	||<)>  42MB ||<)>	 75MB ||<)>	 73MB ||
- || Pkgconfig	||<)> 1.1MB ||<)>	1.3MB ||<)>	1.8MB ||
- ||<-4 #80FF80>||
- || ''Total''	||<)> 398MB ||<)>	721MB ||<)>       1125MB ||
- || ''Relative''||<)>   1   ||<)>	1.8   ||<)>	   2.8   ||
+ {| border="1" cellpadding="2" cellspacing="0"
+| '''Repository'''
+|  '''Git''' 
+|  '''Mercurial''' 
+|  '''Bazaar''' 
+|-
+| colspan="3" align="center"| ''Git'' 
+|-
+|  Cairo       
+|   15MB 
+| 	 24MB 
+|  	 30MB 
+|-
+|  Coreutils   
+|   29MB 
+| 	 44MB 
+| 	 76MB 
+|-
+|  Samba	
+|   82MB 
+| 	146MB 
+| 	310MB 
+|-
+| colspan="3" align="center"| ''Mercurial'' 
+|-
+|  Octave	
+|   22MB 
+| 	 49MB 
+| 	 57MB 
+|-
+|  Mozilla	
+|   78MB 
+| 	205MB 
+| 	255MB 
+|-
+|  Dovecot	
+|    9MB 
+| 	 14MB 
+| 	 23MB 
+|-
+| colspan=3 align="center"| ''Bazaar'' 
+|-
+|  Emacs	
+|  120MB 
+| 	163MB 
+| 	300MB 
+|-
+|  Mailman	
+|   42MB 
+| 	 75MB 
+| 	 73MB 
+|-
+|  Pkgconfig	
+|  1.1MB 
+| 	1.3MB 
+| 	1.8MB 
+|-
+| colspan="4"|
+|-
+|  ''Total''	
+|  398MB 
+| 	721MB 
+|        1125MB 
+|-
+|  ''Relative''
+|    1   
+| 	1.8   
+| 	   2.8   
+|}
 
 As can be seen from the table, Git really is the most efficient in storing the data. Next up is Mercurial, which also does a nice job. Bazaar is the least efficient by far, taking on average 2.8 times the space of an equivalent Git repository.
 
