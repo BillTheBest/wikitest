@@ -322,12 +322,37 @@ As it can be easily seen Git is faster than Mercurial in all tested areas except
 
 Tests were made on the whole Mozilla tree, with one-line change to one file. All numbers are best of 3 runs, back to back on the same mostly idle computer.
 
- || ''Operation''         ||`bzr (0.12.0c1)`||`hg (0.9)` ||`git (1.4.2.4)` ||
- || diff (top level)        ||<)> 16.957      ||<)> 5.600  ||<)> 1.572       ||
- || diff dom/               ||<)> 10.596      ||<)> 2.240  ||<)> 0.140       ||
- || diff in dom             ||<)> 16.833      ||<)> 5.548  ||<)> 0.136       ||
- || diff ''changed file''   ||<)> 10.472      ||<)> 2.084  ||<)> 0.116       ||
- || diff ''unchanged file'' ||<)> 10.012      ||<)> 2.024  ||<)> 0.088       ||
+{| border="1" cellpadding="2" cellspacing="0"
+|  '''Operation'''         
+| bzr (0.12.0c1)
+| hg (0.9) 
+| git (1.4.2.4) 
+|-
+|  diff (top level)        
+|  16.957      
+|  5.600  
+|  1.572       
+|-
+|  diff dom/               
+|  10.596      
+|  2.240  
+|  0.140       
+|-
+|  diff in dom             
+|  16.833      
+|  5.548  
+|  0.136       
+|-
+|  diff ''changed file''   
+|  10.472      
+|  2.084  
+|  0.116       
+|-
+|  diff ''unchanged file'' 
+|  10.012      
+|  2.024  
+|  0.088       
+|}
 
 ''Reference:'' [http://weblogs.mozillazine.org/jst/archives/2006/11/vcs_performance.html Jst's Blog: bzr/hg/git performance].
 
