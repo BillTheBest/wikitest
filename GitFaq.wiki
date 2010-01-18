@@ -137,16 +137,16 @@ In the case of adding a new file, a natural inverse of 'add' is 'un-add', and th
 
 A life of a file that does _not_ make into a commit goes like this:
 
-* [1]$ edit a-new-file
+ [1]$ edit a-new-file
 This is 'create', not 'add'.  git is not involved in this step.
 
-* [2]$ git add a-new-file
+ [2]$ git add a-new-file
 This is 'add'; place an existing file in the index.  When you do not want it in the index, you 'un-add' it.
 
-* [3]$ git rm --cached a-new-file
+ [3]$ git rm --cached a-new-file
 This removes the entry from the index, without touching the working tree file.  If you do not want that file at all (as opposed to, "I am making a series of partial commits, and the addition of this path does not belong to the first commit of the series, so I am unstaging"), this is followed by
 
-* [4]$ rm -f a-new-file
+ [4]$ rm -f a-new-file
 Again, git is not involved in this step.
 
 People sometimes want to have steps 3 and 4 combined, and it meshes well with the users' expectation when they see the word "rm".  Think of "git rm" without "--cached" as a shorthand to do 3 and 4 in one go to meet that expectation.
