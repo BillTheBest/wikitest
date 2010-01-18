@@ -240,6 +240,30 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 | wxWidgets
 | 
 |-
+| Open Source
+| yes
+| yes
+| yes
+| yes
+| ?
+| yes
+| yes
+| ?
+| ?
+| yes
+| yes
+| ?
+| yes
+| ?
+| no
+| ?
+| ?
+| ?
+| ?
+| ?
+| ?
+| 
+|-
 | last activity 
 | 2008 
 | 2008 
