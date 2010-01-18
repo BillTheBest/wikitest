@@ -239,6 +239,6 @@ This can be useful to use send-email on the output of ''git format-patch --stdou
 Most of the complication is because the last argument must be passed to ''git mailsplit'', while the others must be passed to ''git send-email''.
 
 ----
-[[Category::GitDocumentation]]
+[[Category:GitDocumentation]]
 
 __NOTOC__
