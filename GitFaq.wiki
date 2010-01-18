@@ -204,7 +204,7 @@ A quick rule of thumb is to ''never'' push into a repository that has a work tre
 
 If you are sure what you are doing, you can do a "git reset --hard" on the side you pushed to. Note that this WILL lose ALL changes you made on that side, resetting the working tree to the newest revision you pushed. See [http://sitaramc.github.com/concepts/bare.html#how_do_I_fix_such_a_non_bare_push_ this article about bare repositories] for details.
 
-See also the entry ([[[#push-is-reverse-of-fetch|How would I use "git push" to sync out of a firewalled host?]]]) in this FAQ for the proper way to work with push with a repository with a work tree.
+See also the entry ([[#push-is-reverse-of-fetch|How would I use "git push" to sync out of a firewalled host?]]) in this FAQ for the proper way to work with push with a repository with a work tree.
 
 {{anchor|git-version}}
 == Why is git --version not reporting the "full" version number? ==
@@ -1097,7 +1097,7 @@ Yes, use for example Rocco Rutte's hg-fast-export (from fast-export.git on [http
 You can also use hg-git mercurial plugin ([http://hg-git.github.com/ http://hg-git.github.com/]) that adds to the Mercurial repository ability to push to and pull from a Git server.
 {{anchor|import-others}}
 == Can I import from other SCMs? ==
-Maybe, check if Tailor ([http://wiki.darcs.net/DarcsWiki/Tailor homepage]) can do it. Take a look at [[InterfacesFrontendsAndTools#rcs-interaction|[[InterfacesFrontendsAndTools]]]] page ("Interaction with other Revision Control Systems" section)
+Maybe, check if Tailor ([http://wiki.darcs.net/DarcsWiki/Tailor homepage]) can do it. Take a look at [[InterfacesFrontendsAndTools#rcs-interaction|InterfacesFrontendsAndTools]] page ("Interaction with other Revision Control Systems" section)
 
 ----
 = References =
