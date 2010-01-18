@@ -168,7 +168,7 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <tablestyle="TEXT-ALIGN: center"rowbgcolor="#ffffcc" rowstyle="FONT-WEIGHT: bold">Feature 
+|
 | gitk 
 | git-gui 
 | tig 
@@ -180,16 +180,16 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 | pmpu 
 | Qct 
 | git-cola 
-| [[GitNub]] 
+| GitNub 
 | GitX 
 | Pyrite 
 | gitSafe 
 | teamGit 
 | Git Extensions 
-| [[TortoiseGit]] 
+| TortoiseGit 
 | gitg 
-|  [[SmartGit]] 
-|  [[StupidGit]] 
+| SmartGit 
+| StupidGit 
 | 
 |-
 | written in 
