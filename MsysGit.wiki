@@ -1,0 +1,1 @@
+The [http://msysgit.googlecode.com msysGit project] provides a full (read: no further dependencies required) build environment to be able to build Git for Windows, the easy Git installer.
