@@ -1,6 +1,6 @@
-fatal: 'git.exaple.com/[[GitWrongPath]]': unable to chdir or not a git archive
+fatal: 'git.exaple.com/GitWrongPath': unable to chdir or not a git archive
 fatal: The remote end hung up unexpectedly
-error: failed to push to 'git.exaple.com/[[GitWrongPath]]'
+error: failed to push to 'git.exaple.com/GitWrongPath'
 
 The most likely cause of this error is that you have incorrectly specified the path in the git url.
 
