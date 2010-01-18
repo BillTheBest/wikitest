@@ -153,7 +153,7 @@ thing.
 -----
 == Early history ==
 
-Git development began after many kernel developers were forced to give up access to the proprietary [[BitKeeper]] system (see [[WikiPedia:[[BitKeeper]]#Zero-cost|[[BitKeeper]] for Linux and other open source projects "Zero-cost [[BitKeeper]] for Linux and other open source projects"]]).  Permission to use BitKeeper as freeware had been withdrawn by the copyright holder [[Larry McVoy]] after he accused [[Andrew Tridgell]] of reverse engineering the BitKeeper protocols.
+Git development began after many kernel developers were forced to give up access to the proprietary [[BitKeeper]] system (see [[WikiPedia:BitKeeper#Zero-cost|BitKeeper for Linux and other open source projects "Zero-cost BitKeeper for Linux and other open source projects"]]).  Permission to use BitKeeper as freeware had been withdrawn by the copyright holder [[Larry McVoy]] after he accused [[Andrew Tridgell]] of reverse engineering the BitKeeper protocols.
 The development of Git began on April 6, 2005, and proceeded very rapidly.  The first merge of multiple branches was done on April 18, 2005, and two months later (June 16, 2005), the kernel 2.6.12 release was managed by Git.
 
 Linus wanted a distributed system that he could use like BitKeeper, but none of the available free systems met his needs, particularly his performance needs.  From an [http://marc.theaimsgroup.com/?l=linux-kernel&m=111288700902396 e-mail] he wrote on April 7, 2005 while writing the first prototype:
@@ -176,6 +176,7 @@ As of May 2006, the current release is 1.3.3.
 * ''Source:'' [[WikiPedia:Git_(software)|Git_(software)]] Wikipedia article. 
 
 -----
+
 == Git Chronicle ==
 
 On [[GitTogether]] 2008 Junio C Hamano gave a "Git Chronicle" talk about more modern history, and how features were added to Git.  There are [http://www.kernel.org/~junio/200810-Chron.pdf slides in PDF] for this talk.
