@@ -18,7 +18,7 @@ Welcome to the [[Git]] wiki web site. This wiki is a community effort to provide
 * [[GitProjects|Projects using Git]]
 * [[GitFaq|FAQ]]
 * [[GitHosting|Git Hosting]]
-* [[GitLinks]]
+* [[GitLinks|Links to Git-related websites]]
 * [[GitComparison|Git Compared]]
 
 == News ==
