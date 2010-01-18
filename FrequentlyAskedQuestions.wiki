@@ -1,4 +1,1 @@
-<!-- #REDIRECT [[GitFaq]]
- -->
-
-__NOTOC__
+#REDIRECT [[GitFaq]]
