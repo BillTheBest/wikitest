@@ -322,7 +322,7 @@ So the initial kernel commit is about 49MB in size which is coherent
 with the corresponding compressed tarball.  Subsequent commits are 2KB 
 in size on average.
 
-''Reference:'' Nicolas Pitre's [http://permalink.gmane.org/gmane.comp.version-control.git/21531 email] on [[GitCommunity|[[GitMailingList]]]]
+''Reference:'' Nicolas Pitre's [http://permalink.gmane.org/gmane.comp.version-control.git/21531 email] on [[GitCommunity|GitMailingList]]
 
 == Pack size vs number of commits of git repository ==
 
