@@ -1,19 +1,19 @@
 == Git Documentation ==
-* Git glossary ([[GitGlossary GitWiki version]], [http://www.kernel.org/pub/software/scm/git/docs/gitglossary.html HTML version], [http://www.kernel.org/git/?p=git/git.git;a=blob;hb=HEAD;f=Documentation/glossary.txt source via gitweb])
+* Git glossary ([[GitGlossary|GitWiki version]], [http://www.kernel.org/pub/software/scm/git/docs/gitglossary.html HTML version], [http://www.kernel.org/git/?p=git/git.git;a=blob;hb=HEAD;f=Documentation/glossary.txt source via gitweb])
 * Git [http://www.kernel.org/pub/software/scm/git/docs manual page] - Online version bundled with Git. (The information displayed when using the command ''man git'' or ''git help'')
 * [http://www.kernel.org/pub/software/scm/git/docs/user-manual.html Git User's Manual] - Online version bundled with Git
 * [http://www.kernel.org/pub/software/scm/git/docs/gittutorial.html A tutorial introduction to git] and [http://www.kernel.org/pub/software/scm/git/docs/gittutorial-2.html A tutorial introduction to git: part two] - Online version bundled with Git
 * [http://www.kernel.org/pub/software/scm/git/docs/everyday.html Everyday Git, with 20 commands or so] - Online version bundled with Git
-* Git for [[http://www.kernel.org/pub/software/scm/git/docs/gitcvs-migration.html CVS users] - Online version bundled with Git
-* Git SVN [[http://git.or.cz/course/svn.html crash course]
+* Git for [http://www.kernel.org/pub/software/scm/git/docs/gitcvs-migration.html CVS users] - Online version bundled with Git
+* Git SVN [http://git.or.cz/course/svn.html crash course]
 * Many [http://kernel.org/pub/software/scm/git/docs/howto/ Howto] documents come with git as well
 * [http://repo.or.cz/w/git.git?a=tree;f=Documentation/technical;hb=HEAD Documentation/technical http://repo.or.cz/w/git.git?a=tree;f=Documentation/technical;hb=HEAD Documentation/technical] for all the technical information relating to Git
 * [[TroubleShooting]]
 
 == Documentation on this Wiki ==
-All documentation residing on this wiki is put in the [[Category:GitDocumentation GitDocumentation category]]
+All documentation residing on this wiki is put in the [[Category:GitDocumentation|GitDocumentation category]]
 
-* Git glossary ([[GitGlossary GitWiki version]], [http://www.kernel.org/pub/software/scm/git/docs/gitglossary.html HTML version], [http://www.kernel.org/git/?p=git/git.git;a=blob;hb=HEAD;f=Documentation/glossary.txt source via gitweb])
+* Git glossary ([[GitGlossary|GitWiki version]], [http://www.kernel.org/pub/software/scm/git/docs/gitglossary.html HTML version], [http://www.kernel.org/git/?p=git/git.git;a=blob;hb=HEAD;f=Documentation/glossary.txt source via gitweb])
 * Git [[QuickStart]]
 * [[GitCheatSheet]]
 * An overview of the [[RevisionSpecification]] used by the <code><nowiki>git log</nowiki></code> command and several repository visualizers.
@@ -98,6 +98,6 @@ If you wish that something were documented better (or at all), or would like to 
 ----
 ([http://git.or.cz/#documentation Documentation] )
 
-[[Category::GitDocumentation]]
+[[Category:GitDocumentation]]
 
 __NOTOC__
