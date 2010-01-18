@@ -30,7 +30,7 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * initramfs-tools
 ** http://git.debian.org/?p=kernel/initramfs-tools.git (gitweb)
 * module-init-tools
-** http://www.kerneltools.org/[[KernelTools]].org (wiki)
+** http://www.kerneltools.org/KernelTools.org (wiki)
 * mtd-utils
 ** http://www.linux-mtd.infradead.org/source.html (mtd homepage)
 ** http://git.infradead.org/?p=mtd-utils.git (gitweb)
@@ -622,7 +622,7 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 
 == Publications and web sites ==
 
-* [[LinuxWorld]].com
+* LinuxWorld.com
 ** http://monkey.linuxworld.com/meta/monkey/
 
 == Git hosting ==
