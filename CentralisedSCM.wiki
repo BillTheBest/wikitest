@@ -1,6 +1,6 @@
 = Centralised SCM (Software Configuration Management) =
 
-A centralised [[SCM]] stores all of its metadata in a single authoritative (or "master") database that is not replicated (except possibly for backup purposes), using client-server approach.  [http://www.nongnu.org/cvs/ CVS] (and [http://www.gnu.org/software/rcs/rcs.html RCS] and SCCS) follows this model, as does [http://subversion.tigris.org/ Subversion].
+A centralised SCM stores all of its metadata in a single authoritative (or "master") database that is not replicated (except possibly for backup purposes), using client-server approach.  [http://www.nongnu.org/cvs/ CVS] (and [http://www.gnu.org/software/rcs/rcs.html RCS] and SCCS) follows this model, as does [http://subversion.tigris.org/ Subversion].
 
 [[Git]] is a [[DistributedSCM]], which is a more general model that's a proper superset of the centralised SCM model.  If you want to change your development pattern as little as possible and switch from CVS or Subversion for reasons of non-brokenness (CVS does not have atomic commits), speed, or future flexibility, [[Git]] can be used in a way that's very similar to most centralised SCM systems.  Instructions on how to do this can be found at [http://www.kernel.org/pub/software/scm/git/docs/cvs-migration.html Git for CVS users] tutorial.
 
