@@ -46,16 +46,60 @@ My benchmark is to apply all 819 patches from -mm3 to 2.6.12-rc:
 
 Comparison using linux-2.6.0 and linux-2.6.15.4 as a large source tree to use.
 
- ||<|2> ''Operation''    ||<-2:>`bzr (0.7pre)`||<-2:>`git (0.99.9c)`||
- ||<:>                      ''real''||<:>''user+sys''||<:>''real''||<:>''user+sys''||
- ||<-5>||
- || init               ||<)>    1.593s  ||<)>    0.187s  ||<)>  <u>0.161s</u>||<)>  <u>0.006s</u>||
- || add 2.6.0          ||<)> <u>31.870s</u>||<)> <u>31.592s</u>||<)>   42.121s  ||<)>   35.636s  ||
- || diff 2.6.15.4      ||<)><u>1m13.869s</u>||<)> <u>29.028s</u>||<)> 2m26.982s  ||<)> 2m28.000s  ||
- || initial commit     ||<)> 2m 4.757s  ||<)> 1m22.773s  ||<)> <u>54.964s</u>||<)> <u>53.016s</u>||
- || diff no changes    ||<)> 3m51.918s  ||<)>    9.186s  ||<)>  <u>0.057s</u>||<)>  <u>0.056s</u>||
- || status no changes  ||<)>   19.711s  ||<)>   16.358s  ||<)>  <u>0.442s</u>||<)>  <u>0.458s</u>||
- || commit one file    ||<)> 2m 6.685s  ||<)>   35.192s  ||<)>  <u>7.364s</u>||<)>  <u>7.366s</u>||
+{| border="1" cellpadding="2" cellspacing="0"
+|rowspan="2"| '''Operation'''
+|colspan="2"| bzr (0.7pre)
+|colspan="2"| git (0.99.9c)
+|-
+|'''real'''
+|'''user+sys'''
+|'''real'''
+|'''user+sys'''
+|-
+|colspan="5"| 
+|-
+| init
+| 1.593s
+| 0.187s
+| <u>0.161s</u>
+| <u>0.006s</u>
+|-
+| add 2.6.0
+| <u>31.870s</u>
+| <u>31.592s</u>
+| 42.121s
+| 35.636s
+|-
+| diff 2.6.15.4
+| <u>1m13.869s</u>
+| <u>29.028s</u>
+| 2m26.982s
+| 2m28.000s
+|-
+| initial commit
+| 2m 4.757s
+| 1m22.773s
+| <u>54.964s</u>
+| <u>53.016s</u>
+|-
+| diff no changes
+| 3m51.918s
+| 9.186s
+| <u>0.057s</u>
+| <u>0.056s</u>
+|-
+| status no changes
+| 19.711s
+| 16.358s
+| <u>0.442s</u>
+| <u>0.458s</u>
+|-
+| commit one file
+| 2m 6.685s
+| 35.192s
+| <u>7.364s</u>
+| <u>7.366s</u>
+|}
 
 Note that `git-add` adds contents of a file to repository, and not only marks file for later commit.
 Note also that diff is done before any commit; see "[http://blog.jozilla.net/2008/06/26/bzr-vs-git-the-sequel Bzr vs git, the sequel]".
