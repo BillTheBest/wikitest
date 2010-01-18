@@ -379,11 +379,27 @@ This is ''synthetic'' benchmark comparing mainly transfer over HTTP protocol; no
 
 Repositories were seeded with approximately 1500 files totaling 35 M of data for initial "clone" test.  Then a single file in the repository was then changed 50 times and the clients pulled the updates for "pull" test. The servers were running in Chicago and the clients in Mountain View (51 ms ping time).
 
- ||<|2>''''Operation''''||<|2> ||<|2:>''hg''||<-2:>''git''||
- ||<:>HTTP||<:>git||
- ||''clone'' || ||<)> 8.1 sec ||<)> 178 sec ||<)> 8.7 sec ||
- ||''pull''  || ||<)> 1.5 sec ||<)>  18 sec ||<)> 2.8 sec ||
-
+{| border="1" cellpadding="2" cellspacing="0"
+| rowspan="2" | '''Operation'''
+| rowspan="2" |
+| rowspan="2" | '''hg'''
+| colspan="2" | '''git'''
+|-
+| HTTP
+| git
+|-
+| ''clone'' 
+|  
+|  8.1 sec 
+|  178 sec 
+|  8.7 sec 
+|-
+| ''pull''  
+|  
+|  1.5 sec 
+|   18 sec 
+|  2.8 sec 
+|}
 Git was 22 times slower than Mercurial for clone over HTTP, and 12 times slower for pull over HTTP. Times for smart protocols were similar for Git and for Mercurial.
 
 ''Reference:''
