@@ -231,22 +231,36 @@ For Git and Bazaar repository sizes are after `gc` for git and `pack` for Bazaar
  $ hg qpush -a 2.6.18-rc1-mm2
 </nowiki></pre>
 
- ||real    || 1m18.398s  ||
- ||user    || 0m42.511s  ||
- ||sys     || 0m10.105s  ||
+{| border="1" cellpadding="2" cellspacing="0"
+|real
+| 1m18.398s
+|-
+|user
+| 0m42.511s
+|-
+|sys
+| 0m10.105s
+|}
 
- 773/(42.511+10.105) = 14.691 patches/second  user+sys
+773/(42.511+10.105) = 14.691 patches/second  user+sys
 
 ''Git 1.4.1''
 <pre><nowiki>
  $ git-quilt-import 2.6.18-rc1-mm2
 </nowiki></pre>
 
- ||real    || 2m7.701s   ||
- ||user    || 1m15.953s  ||
- ||sys     || 0m30.186s  ||
+{| border="1" cellpadding="2" cellspacing="0"
+|real
+| 2m7.701s
+|-
+|user
+| 1m15.953s
+|-
+|sys
+| 0m30.186s
+|}
 
- 773/(60+15.953+30.186) = 7.282 patches/second  user+sys
+773/(60+15.953+30.186) = 7.282 patches/second  user+sys
 
 ''Reference:'' Talk by mpm (Matt Mackall), the primary Mercurial author: [http://www.linuxsymposium.org/2006/view_abstract.php?content_key=194 Towards A Better SCM: Revlogs and Mercurial] at [http://www.linuxsymposium.org/2006/ 2006 Ottawa Linux Symposium]. Slides: [http://www.selenic.com/mercurial/wiki/index.cgi/Presentations?action=AttachFile&do=get&target=ols-mercurial.pdf PDF] [http://www.selenic.com/mercurial/wiki/index.cgi/Presentations?action=AttachFile&do=get&target=ols-mercurial.odp ODP] (page 51 of 52).
 
