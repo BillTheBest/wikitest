@@ -1,4 +1,1 @@
-<!-- #REDIRECT [[GitTips]]
- -->
-
-__NOTOC__
+#REDIRECT [[GitTips]]
