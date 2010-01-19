@@ -26,7 +26,7 @@ via more servers than just git.kernel.org.
 ''Pull:'' git://utsl.gen.nz/VCS-Git-Torrent <BR>
 ''Mailing list:'' gittorrent at lists.utsl.gen.nz ([http://lists.utsl.gen.nz/mailman/listinfo.cgi/gittorrent mailman], [http://lists.utsl.gen.nz/pipermail/gittorrent/ archives])
 
-== git-statistics ([[GitStats]]) ==
+== git-statistics (GitStats) ==
 ''Student:'' Sverre Rabbelier <BR>
 ''Mentor:''  David Symonds    <BR>
 
@@ -38,13 +38,13 @@ to more quickly locate individuals who are experienced in
 a particular section of code (e.g. automatically identify
 module maintainers).
 
-''Idea:'' [[http://thread.gmane.org/gmane.comp.version-control.git/77728|[SoC RFC] git statistics - information about commits]] thread on git mailing list <BR>
+''Idea:'' [http://thread.gmane.org/gmane.comp.version-control.git/77728 SoC RFC git statistics - information about commits] thread on git mailing list <BR>
 ''Homepage:'' [http://alturin.googlepages.com/gsoc2008 Sverre Rabbelier GSoC2008 page] (PDFs) <BR>
 ''SoC page:'' [http://code.google.com/soc/2008/git/appinfo.html?csaid=C73DCF4CEBF4295D git statistics] <BR>
 ''Gitweb:'' http://repo.or.cz/w/git-stats.git <BR>
-''See also:'' [[http://thread.gmane.org/gmane.comp.version-control.git/81534|[RFC] Use cases for 'git statistics']] thread on git mailing list.
+''See also:'' [http://thread.gmane.org/gmane.comp.version-control.git/81534 RFC Use cases for 'git statistics'] thread on git mailing list.
 
-''Status:'' [[http://permalink.gmane.org/gmane.comp.version-control.git/90691|[ANNOUNCE] [[GitStats]] development finished (WRT GSoC)]]. As a separate tool it is not expected to be merged in.
+''Status:'' [http://permalink.gmane.org/gmane.comp.version-control.git/90691 &#91;ANNOUNCE&#93; GitStats development finished (WRT GSoC)]. As a separate tool it is not expected to be merged in.
 
 == Gitweb caching ==
 ''Student:'' Lea Wiemann           <BR>
