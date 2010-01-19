@@ -4,10 +4,10 @@
  -->
 == Robin Steven ==
 
-* /[[GitChineseTutor]] : Git中文教程
-* /[[GitUserManualChinese]] : Git 用户手册中文版
+* [[RobinSteven/GitChineseTutor]] : Git中文教程
+* [[RobinSteven/GitUserManualChinese]] : Git 用户手册中文版
 
-Email: <<[[MailTo]](vortune@gmail.com}}
+Email: vortune at gmail.com
 
 ...
 
