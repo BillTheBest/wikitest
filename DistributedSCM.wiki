@@ -1,8 +1,8 @@
 = Distributed SCM (Software Configuration Management) =
 
-A distributed [[SCM]] tool is designed to support a model in which each repository is loosely coupled to many others. Each repository contains a complete set of metadata describing one or more projects. These repositories may be located almost anywhere. Individual developers only need access to their own repositories, not to a central one, in order to commit changes.
+A distributed SCM tool is designed to support a model in which each repository is loosely coupled to many others. Each repository contains a complete set of metadata describing one or more projects. These repositories may be located almost anywhere. Individual developers only need access to their own repositories, not to a central one, in order to commit changes.
 
-In the distributed approach, each developer works directly with their own local repository, and changes are shared between repositories as a separate step. This mode of operation allows developers to work without a network connection, and it also allows developers full revision control capabilities without requiring permissions to be granted by a central authority. One of the leading proponents of distributed revision control is [[Linus Torvalds]], developer of the Linux kernel. Distributed systems inherently allow multiple simultaneous editing.
+In the distributed approach, each developer works directly with their own local repository, and changes are shared between repositories as a separate step. This mode of operation allows developers to work without a network connection, and it also allows developers full revision control capabilities without requiring permissions to be granted by a central authority. One of the leading proponents of distributed revision control is Linus Torvalds, developer of the Linux kernel. Distributed systems inherently allow multiple simultaneous editing.
 
 Distributed SCMs provide mechanisms for propagating changes between repositories.
 
