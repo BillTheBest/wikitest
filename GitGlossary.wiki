@@ -32,7 +32,7 @@ This list is sorted alphabetically:
 	associated with just one of them (the "current" or "checked out"
 	branch), and [[#HEAD|HEAD]] points to that branch.
 
-        See also: [[BranchesInGit]].
+See also: [[BranchesInGit]].
 
 ; cache : {{anchor|cache}}
 	Obsolete for: [[#index|index]].
@@ -60,7 +60,7 @@ This list is sorted alphabetically:
 	introduced by an existing [[#commit|commit]] and to record it based
 	on the tip of the current [[#branch|branch]] as a new [[#commit|commit]].
 
-        See also: [http://www.kernel.org/pub/software/scm/git/docs/git-cherry-pick.html git-cherry-pick(1)]
+See also: [http://www.kernel.org/pub/software/scm/git/docs/git-cherry-pick.html git-cherry-pick(1)]
 
 ; clean : {{anchor|clean}}
 	A [[#working_tree|working tree]] is ''clean'', if it corresponds to the [[#revision|revision]]
@@ -74,10 +74,10 @@ This list is sorted alphabetically:
 	use the words "revision" or "version".  Also used as a short
 	hand for [[#commit_object|commit object]].
 
-	''As a verb:'' The action of storing a new snapshot of the project's
-	state in the git history, by creating a new commit representing the current
-	state of the [[#index|index]] and advancing current [[#HEAD|HEAD]]
-	(current [[#branch|branch]] [[#head|head]]) to point at the new commit.
+''As a verb:'' The action of storing a new snapshot of the project's
+state in the git history, by creating a new commit representing the current
+state of the [[#index|index]] and advancing current [[#HEAD|HEAD]]
+(current [[#branch|branch]] [[#head|head]]) to point at the new commit.
 
 ; commit object : {{anchor|commit_object}}
 	An [[#object|object]] which contains the information about a particular
@@ -124,28 +124,28 @@ This list is sorted alphabetically:
 	It should be not used anymore.
 
 ; evil merge : {{anchor|evil_merge}}
-        An evil merge is a [[#merge|merge]] that introduces changes that do not appear
-        in any [[#parent|parent]].
+	An evil merge is a [[#merge|merge]] that introduces changes that do not appear
+	in any [[#parent|parent]].
 
 ; fast forward : {{anchor|fast_forward}}
 	A ''fast-forward'' is a special type of [[#merge|merge]] where you have
 	a [[#revision|revision]] and you are "merging" another [[#branch|branch]]'s changes
 	that happen to be a descendant of what you have.
 
-	In such these cases, you do not make a new merge [[#commit_object|commit]] but
-	instead just update to his revision. This will happen
-	frequently on a [[#tracking_branch|tracking branch]] of a [[#remote_repository|remote repository]].
+In such these cases, you do not make a new merge [[#commit_object|commit]] but
+instead just update to his revision. This will happen
+frequently on a [[#tracking_branch|tracking branch]] of a [[#remote_repository|remote repository]].
 
 ; fetch : {{anchor|fetch}}
 	''Fetching a [[#branch|branch]]'' means to get the [[#branch|branch]]'s 
-        [[#head_ref|head ref]] from a [[#remote_repository|remote repository]], 
-        to find out which [[#object|objects]] are missing from the local 
-        [[#object_database|object database]], and to get them, too.
+	[[#head_ref|head ref]] from a [[#remote_repository|remote repository]], 
+	to find out which [[#object|objects]] are missing from the local 
+	[[#object_database|object database]], and to get them, too.
 
-	See also: [http://www.kernel.org/pub/software/scm/git/docs/git-fetch.html git-fetch(1)].
+See also: [http://www.kernel.org/pub/software/scm/git/docs/git-fetch.html git-fetch(1)].
 
 ; file system : {{anchor|file_system}}
-	[[Linus Torvalds]] originally designed git to be a user space file
+	Linus Torvalds originally designed git to be a user space file
 	system, i.e. the infrastructure to hold files and directories.
 	That ensured the efficiency and speed of git.
 
@@ -156,10 +156,10 @@ This list is sorted alphabetically:
 	Grafts enables two otherwise different lines of development to
 	be joined together by recording fake ancestry information for
 	[[#commit|commits]]. This way you can make [[Git]] pretend the set of [[#parent|parents]] 
-        a [[#commit|commit]] has is different from what was recorded when the commit was created.
+	a [[#commit|commit]] has is different from what was recorded when the commit was created.
 	Configured via the '`.git/info/grafts`' file.
 
-	See also: [[GraftPoint]]
+See also: [[GraftPoint]]
 
 ; hash : {{anchor|hash}}
 	In git's context, synonym to [[#object_name|object name]].
@@ -189,19 +189,19 @@ This list is sorted alphabetically:
 	and potentially aborted, and allow for a post-notification
 	after the operation is done.
 
-	The hook scripts are found in the `$GIT_DIR/hooks/` directory,
-	and are enabled by simply making them executable.
+The hook scripts are found in the `$GIT_DIR/hooks/` directory,
+and are enabled by simply making them executable.
 
-        See also: [http://www.kernel.org/pub/software/scm/git/docs/hooks.html Hooks used by git].
+See also: [http://www.kernel.org/pub/software/scm/git/docs/hooks.html Hooks used by git].
 
 ; index : {{anchor|index}}
 	A collection of files with stat information, whose contents are
 	stored as [[#object|objects]]. The index is a stored version of your 
-        [[#working_tree|working tree]]. Truth be told, it can also contain 
-        a second, and even a third version of a working tree, which are used
-        when [[#merge|merging]].
+	[[#working_tree|working tree]]. Truth be told, it can also contain 
+	a second, and even a third version of a working tree, which are used
+	when [[#merge|merging]].
 
-        See also: [[IndexFile]]
+See also: [[IndexFile]]
 
 ; index entry : {{anchor|index_entry}}
 	The information regarding a particular file, stored in the [[#index|index]].
@@ -232,12 +232,12 @@ This list is sorted alphabetically:
 	conflict, manual intervention may be required to complete the
 	merge.  See also [http://www.kernel.org/pub/software/scm/git/docs/git-merge.html git-merge(1)]
 
-	''As a noun:'' unless it is a [[#fast_forward|fast forward]], a
-	successful merge results in the creation of a new [[#commit|commit]]
-	representing the result of the merge, and having as
-	[[#parent|parents]] the tips of the merged [[#branch|branches]].
-	This commit is referred to as a "merge commit", or sometimes just as a
-	"merge".
+''As a noun:'' unless it is a [[#fast_forward|fast forward]], a
+successful merge results in the creation of a new [[#commit|commit]]
+representing the result of the merge, and having as
+[[#parent|parents]] the tips of the merged [[#branch|branches]].
+This commit is referred to as a "merge commit", or sometimes just as a
+"merge".
 
 ; object : {{anchor|object}}
 	The unit of storage in git. It is uniquely identified by
@@ -254,8 +254,8 @@ This list is sorted alphabetically:
 ; object name : {{anchor|object_name}}
 	The unique identifier of an [[#object|object]]. The [[#hash|hash]] of the object's contents
 	using the [[WikiPedia:SHA_hash_functions|Secure Hash Algorithm 1]] and usually 
-        represented by the 40 character hexadecimal encoding of the hash of the object 
-        (possibly followed by a white space).
+	represented by the 40 character hexadecimal encoding of the hash of the object 
+	(possibly followed by a white space).
 
 ; object type : {{anchor|object_type}}
 	One of the identifiers "[[#commit|commit]]","[[#tree|tree]]","[[#tag|tag]]" and "[[#blob|blob]]" describing
@@ -273,12 +273,12 @@ This list is sorted alphabetically:
 	origin/name-of-upstream-branch, which you can see using
 	"`git branch -r`".
 
-	''Historical:'' Before separate remotes layout become default, 'origin' was
-	default upstream [[#tracking_branch|tracking branch]]
-	(usually for [[#master|master]] branch; the rest of remote [[#branch|branches]]
-	were mapped 1:1 directly into local branches).  New upstream updates (from '[[#master|master]]')
-	were [[#fetch|fetched]] into this branch; you should never commit
-	to it yourself.
+''Historical:'' Before separate remotes layout become default, 'origin' was
+default upstream [[#tracking_branch|tracking branch]]
+(usually for [[#master|master]] branch; the rest of remote [[#branch|branches]]
+were mapped 1:1 directly into local branches).  New upstream updates (from '[[#master|master]]')
+were [[#fetch|fetched]] into this branch; you should never commit
+to it yourself.
 
 ; pack : {{anchor|pack}}
 	A set of [[#object|objects]] which have been compressed into one file (to save
@@ -291,7 +291,7 @@ This list is sorted alphabetically:
 ; parent : {{anchor|parent}}
 	A [[#commit_object|commit object]] contains a (possibly empty) list of the logical
 	predecessor(s) in the line of development, i.e. its ''parents''. Ancestry information
-        can be changed (faked) using [[#graft|grafts]].
+	can be changed (faked) using [[#graft|grafts]].
 
 ; pickaxe : {{anchor|pickaxe}}
 	The term ''pickaxe'' refers to an option to the diffcore routines
@@ -313,7 +313,7 @@ This list is sorted alphabetically:
 
 ; push : {{anchor|push}}
 	''Pushing a [[#branch|branch]]'' means to get the branch's [[#head_ref|head ref]] from 
-        a [[#remote_repository|remote repository]] , find out if it is an ancestor to the branch's local
+	a [[#remote_repository|remote repository]] , find out if it is an ancestor to the branch's local
 	head ref is a direct, and in that case, putting all [[#object|objects]], which
 	are [[#reachable|reachable]] from the local head ref, and which are missing from
 	the remote repository, into the remote [[#object_database|object database]], and updating
@@ -335,7 +335,7 @@ This list is sorted alphabetically:
 	different base, and reset the [[#head|head]] of that branch
 	to the result.
 
-        See also [http://www.kernel.org/pub/software/scm/git/docs/git-rebase.html git-rebase(1)]
+See also [http://www.kernel.org/pub/software/scm/git/docs/git-rebase.html git-rebase(1)]
 
 ; ref : {{anchor|ref}}
 	A 40-byte hex representation of a [[#SHA1|SHA1]] or a name that denotes
@@ -355,7 +355,7 @@ $ git push $URL refs/heads/master:refs/heads/to-upstream</nowiki></pre>
 	means "publish my master branch head as to-upstream master head
 	at $URL".
 
-        See also [http://www.kernel.org/pub/software/scm/git/docs/git-push.html git-push(1)]
+See also [http://www.kernel.org/pub/software/scm/git/docs/git-push.html git-push(1)]
 
 ; repository : {{anchor|repository}}{{anchor|remote_repository}}
 	A collection of [[#ref|refs]] together with an [[#object_database|object database]] containing
@@ -454,8 +454,8 @@ $ git push $URL refs/heads/master:refs/heads/to-upstream</nowiki></pre>
 	normally equal to the [[#HEAD|HEAD]] plus any local changes
 	that you have made but not yet committed.
 
-	The set of files and directories currently being worked on,
-	i.e. you can work in your working tree without using git at all.
+The set of files and directories currently being worked on,
+i.e. you can work in your working tree without using git at all.
 
 ----
 = References =
@@ -463,6 +463,6 @@ $ git push $URL refs/heads/master:refs/heads/to-upstream</nowiki></pre>
 * Glossary [http://www.kernel.org/git/?p=git/git.git;a=blob;hb=HEAD;f=Documentation/glossary.txt source], HEAD version (in [[AsciiDoc]]).
 
 ----
-[[Category::GitDocumentation]]
+[[Category:GitDocumentation]]
 
 __NOTOC__
