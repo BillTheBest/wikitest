@@ -12,6 +12,6 @@ http://ktown.kde.org/~zrusin/git/git-cheat-sheet-medium.png
 * [http://jan-krueger.net/development/git-cheat-sheet-extended-edition Git cheat sheet, extended edition] prepared by Jan Krueger
 
 ----
-[[Category::GitDocumentation]]
+[[Category:GitDocumentation]]
 
 __NOTOC__
