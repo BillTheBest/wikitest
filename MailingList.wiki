@@ -1,4 +1,1 @@
-<!-- #REDIRECT [[GitCommunity]]
- -->
-
-__NOTOC__
+#REDIRECT [[GitCommunity]]
