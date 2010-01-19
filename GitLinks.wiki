@@ -140,14 +140,14 @@ Below there are blogs by gitters:
 * [http://vilain.net/ (SV*)null - interpretating the void as Sam] blog by Sam Vilain.<BR> [http://planet.catalyst.net.nz/blog/blog/samv SamV's blog | planet catalyst]
 
 == Talks ==
-* [http://www.youtube.com/watch?v=4XpnKHJAok8 Tech Talk: Linus Torvalds on Git] at Google on YouTube ([[[LinusTalk]]200705Transcript|transcript])
+* [http://www.youtube.com/watch?v=4XpnKHJAok8 Tech Talk: Linus Torvalds on Git] at Google on YouTube ([[LinusTalk200705Transcript|transcript]])
 * [http://www.twit.tv/floss19 FLOSS Weekly #19 git] Gitster on FLOSS Weekly
 * [http://video.google.ca/videoplay?docid=1251251453592758541 Tech Talk: Git] at Google by Randal Schwartz ([http://www.youtube.com/watch?v=8dhZ9BXQgc4 YouTube])
 * [http://www.hanselminutes.com/default.aspx?showID=126 Hansel minutes #108] Scott Hanselman sits down with Robby, Gary and Andy from Planet Argon, a local Rails shop in Portland, OR, and talks about their experience as they move from Subversion to Git for their source control (podcast).
 * [http://excess.org/article/2008/07/ogre-git-tutorial/ Git the basics] given by Bart Trojanowski for the Ottawa Ruby group.  Slides have been redone for [http://www.jukie.net/~bart/slides/git-reflections/ ACM Reflections 2009].
 * [http://google-opensource.blogspot.com/2008/07/getting-giddy-with-git.html Getting Giddy with Git] post on [http://google-opensource.blogspot.com Google Code: Open Source at Google] blog: GSoC podcast 18: Git, Shawn Pearce and Johannes Schindelin with Leslie Hawthorn.
 * [http://www.youtube.com/watch?v=j45cs5_nY2k Tech Talk: Contributing with Git] by Johannes Schindelin at [[GitTogether]] 2008 on YouTube.
-* [http://eagain.net/blog/2008/08/11/ep-talk-videos.html Version Control for Du<sup>H</sup>HDevelopers] given by Tommi Virtanen at [[EuroPython]]2008 in Vilnius, Lithuania.
+* [http://eagain.net/blog/2008/08/11/ep-talk-videos.html Version Control for Du^H^HDevelopers] given by Tommi Virtanen at EuroPython2008 in Vilnius, Lithuania.
 
 = Other version control software =
 
