@@ -1,67 +1,85 @@
-{|
-| http://git.or.cz/git-logo.png       | [http://git.or.cz/ Git homepage] |
+{| border="1" cellspacing="0" cellpadding="10"
+| http://git.or.cz/git-logo.png       || [http://git.or.cz/ Git homepage]
 |-
-| http://git.kernel.org/git-logo.png  | [http://www.kernel.org/git/ gitweb at kernel.org] |
+| http://git.kernel.org/git-logo.png  || [http://www.kernel.org/git/ gitweb at kernel.org]
 |}
 
 Logo of [[Git]] [[DistributedSCM|distributed revision control system]]. 
 Used by [[Gitweb]] installations to link to [http://www.kernel.org/pub/software/scm/git/docs/ git(7)], 
 and by [http://git.or.cz/ Git homepage] to link to [http://git.or.cz/index.html Home].
 
- || http://jengelh.medozas.de/images/git-logo-jengelh.png || [http://dev.medozas.de/gitweb.cgi gitweb at dev.medozas.de] ||
+{| border="1" cellspacing="0" cellpadding="10"
+| http://jengelh.medozas.de/images/git-logo-jengelh.png || [http://dev.medozas.de/gitweb.cgi gitweb at dev.medozas.de]
+|}
 
 The source for the last logo (by Jan Engelhardt) is [http://jengelh.medozas.de/images/git-logo-jengelh.svg git-logo-jengelh.svg]
 
-{|
-| [[File:Jk gitlogo 70px.png]] | Another remake of the above logo by Jan Krüger; available as [http://gg.jk.gs/gitlogo2.0beta.svg SVG], too. |
+{| border="1" cellspacing="0" cellpadding="10"
+| [[File:Jk gitlogo 70px.png]] 
+| Another remake of the above logo by Jan Krüger; available as [http://gg.jk.gs/gitlogo2.0beta.svg SVG], too.
 |}
+
 ----
 
- ||http://git.kernel.org/git-favicon.png|| without background ||
- ||<#A0A0A0> http://git.kernel.org/git-favicon.png|| on gray background ||
-
- ||http://git.henrik.nyh.se/favicon.png||[http://henrik.nyh.se/2007/06/alternative-git-logo-and-favicon proposed] by Henrik Nyh ||
- ||<#A0A0A0> http://git.henrik.nyh.se/favicon.png||as above, gray background ||
+{| border="1" cellspacing="0" cellpadding="10"
+| http://git.kernel.org/git-favicon.png || without background 
+|-
+|style="background-color: #A0A0A0"| http://git.kernel.org/git-favicon.png || on gray background
+|}
+{| border="1" cellspacing="0" cellpadding="10"
+| http://git.henrik.nyh.se/favicon.png || [http://henrik.nyh.se/2007/06/alternative-git-logo-and-favicon proposed] by Henrik Nyh
+|-
+|style="background-color: #A0A0A0"| http://git.henrik.nyh.se/favicon.png || as above, gray background
+|}
 
 Proposed [[WikiPedia:Favicon|favicons]] for Git-related web pages.<BR>
 PNG, 16x16, 3 colors including white background.
 
 This favicon is resized fragment of above Git logo.
 
- ||http://github.com/favicon.png||[http://github.com/ GitHub] favicon||
- ||<#A0A0A0> http://github.com/favicon.png||as above, gray background ||
+{| border="1" cellspacing="0" cellpadding="10"
+| http://github.com/favicon.png || [http://github.com/ GitHub] favicon
+|-
+|style="background-color: #A0A0A0"|  http://github.com/favicon.png || as above, gray background
+|}
 
 Favicon of [http://github.com/ GitHub], one of [[GitHosting:git hosting]] sites.<BR>
 PNG, 16x16, grayscale.
 
- ||http://gitorious.org/projects/teamgit/repos/mainline/blobs/raw/HEAD/teamgit_icon.png||[http://www.devslashzero.com/teamgit teamGit] icon||
- ||<#A0A0A0> http://gitorious.org/projects/teamgit/repos/mainline/blobs/raw/HEAD/teamgit_icon.png||as above, gray background ||
+{| border="1" cellspacing="0" cellpadding="10"
+| http://gitorious.org/projects/teamgit/repos/mainline/blobs/raw/HEAD/teamgit_icon.png
+| [http://www.devslashzero.com/teamgit teamGit] icon
+|-
+|style="background-color: #A0A0A0"| http://gitorious.org/projects/teamgit/repos/mainline/blobs/raw/HEAD/teamgit_icon.png
+| as above, gray background
+|}
 
 Icon (logo) of [http://www.devslashzero.com/teamgit TeamGit], one of Git GUIs.<BR>
 PNG, 32x32, color
 
 ----
 
-{|
-| [http://henrik.nyh.se/uploads/git-logo.png] | [[File:gitlogo.svg from msysGit.png]] |
+{| border="1" cellspacing="0" cellpadding="10"
+| http://henrik.nyh.se/uploads/git-logo.png || [[File:gitlogo.svg from msysGit.png]]
 |-
-|by [http://henrik.nyh.se/2007/06/alternative-git-logo-and-favicon Henrik Nyh] | from [http://repo.or.cz/w/msysgit.git?a=blob_plain;f=share/resources/gitlogo.svg;h=c0d67e70ab31394f0635c141998e512437a138b4;hb=HEAD gitlogo.svg] in msysGit |
+| by [http://henrik.nyh.se/2007/06/alternative-git-logo-and-favicon Henrik Nyh] 
+| from [http://repo.or.cz/w/msysgit.git?a=blob_plain;f=share/resources/gitlogo.svg;h=c0d67e70ab31394f0635c141998e512437a138b4;hb=HEAD gitlogo.svg] in msysGit
 |}
 
 Henrik Nyh came up with an alternative logo/favicon to use with gitweb:
 * [http://henrik.nyh.se/2007/06/alternative-git-logo-and-favicon Alternative Git logo and favicon] at his blog: [http://henrik.nyh.se/ The Pug Automatic]
 
 This alternative logo/favicon is used as icon for git-gui (git commit tool in Tcl/Tk).
-{|
-| http://repo.or.cz/w/git-gui.git/:lib/git-gui.ico | | [[File:git-gui-32x32.png]] | [[File:git-gui-16x16.png]] | | [http://www.kernel.org/pub/software/scm/git/docs/git-gui.html git-gui] icon |
+{| border="1" cellspacing="0" cellpadding="10"
+| http://repo.or.cz/w/git-gui.git/:lib/git-gui.ico || [[File:git-gui-32x32.png]] || [[File:git-gui-16x16.png]] || [http://www.kernel.org/pub/software/scm/git/docs/git-gui.html git-gui] icon
 |}
 
 ICO, 32x32 + 16x16, four colors.<BR>
 This favicon is taken from [http://repo.or.cz/w/git-gui.git git-gui.git] repository at [http://repo.or.cz repo.or.cz]
 
 ----
-{|
-| [[File:Michael J Gruber gitlogo.png]] | [[File:Michael J Gruber gitlogo2.png]] |
+{| border="1" cellspacing="0" cellpadding="10"
+| [[File:Michael J Gruber gitlogo.png]] || [[File:Michael J Gruber gitlogo2.png]]
 |}
 
 Yet another alternate Git logo from Michael J Gruber in [http://permalink.gmane.org/gmane.comp.version-control.git/89342 Re: Git Branding Overview, Re: Git.or.cz Experimental Design] post on git mailing list.  The original is pure [[PostScript]], no fonts used.
