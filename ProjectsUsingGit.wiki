@@ -1,4 +1,1 @@
-<!-- #REDIRECT [[GitProjects]]
- -->
-
-__NOTOC__
+#REDIRECT [[GitProjects]]
