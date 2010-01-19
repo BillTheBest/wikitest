@@ -110,11 +110,11 @@ GIT_ALTERNATE_OBJECT_DIRECTORIES=../repo/.git/objects cg-diff -r `GIT_DIR=../rep
 </nowiki></pre>
 {{anchor|opendocument}}
 
-== How to use git to track [[OpenDocument]] ([[OpenOffice]], Koffice) files? ==
+== How to use git to track OpenDocument (OpenOffice, Koffice) files? ==
 === Instructions for Git 1.6.1 or later ===
 Git now comes with the "textconv" features, which allows using an arbitrary command to convert a file to text before diffing. It makes it very easy to set up, and allows keeping all the goodness of git diff like --color, --color-words, ...
 
-First, install [http://stosberg.net/odt2txt/ odt2txt], a simple (and stupid) converter from [[OpenDocument]] to plain text, and configure git to allow it to run it, by adding this to ~/.gitconfig:
+First, install [http://stosberg.net/odt2txt/ odt2txt], a simple (and stupid) converter from OpenDocument to plain text, and configure git to allow it to run it, by adding this to ~/.gitconfig:
 
 <pre><nowiki>
 [diff "odf"]
@@ -130,9 +130,9 @@ Now, for each project, you just need to ask git to use this driver in .gitattrib
 ... and you're done! Enjoy "git diff", "git log -p", "git show" in this project.
 
 === Instructions for older Git's ===
-To view plaintext diff of [[OpenDocument]] files in Git, you can use the GIT_EXTERNAL_DIFF environment variable. First, install :
+To view plaintext diff of OpenDocument files in Git, you can use the GIT_EXTERNAL_DIFF environment variable. First, install :
 
-* [http://stosberg.net/odt2txt/ odt2txt]: A simple (and stupid) converter from [[OpenDocument]] to plain text
+* [http://stosberg.net/odt2txt/ odt2txt]: A simple (and stupid) converter from OpenDocument to plain text
 * [http://www-verimag.imag.fr/~moy/opendocument/git-oodiff git-oodiff]: Wrapper script for odt2txt and diff.
 You can now, for example, do
 
