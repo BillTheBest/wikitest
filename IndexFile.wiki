@@ -19,8 +19,10 @@ While the index file is an essential part of how the low-level content tracking
 works, it can in many circumstances be ignored by the user, since the SCM
 interface will take care of updating the index file. Additionally, understanding
 how the index file affects the different SCM operations may often be hard for new
-users. Thus, [[Cogito]] chooses to ''hide'' the index file completely in order to
-improve usability.
+users. Thus, [[Cogito]] chose to ''hide'' the index file completely in order to
+improve usability. However, it proved that understanding the index was much more
+important than expected, as has been proven by a million too many faulty
+<tt>git commit -a</tt> style commits.
 
 = Examples =
 
