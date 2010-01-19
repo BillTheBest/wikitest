@@ -1,7 +1,7 @@
 = A collection of how Git compares to other version control software: =
 == Git Wiki comparisons: ==
 * [[GitBenchmarks]]
-* [[GitSvnComparsion|[[GitSvnComparison]]]]
+* [[GitSvnComparsion]]
 
 == Git comparisons found on the web: ==
 * [http://www.looble.com/git-vs-svn-which-is-better/ Git vs SVN - Which is Better?]
