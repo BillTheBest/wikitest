@@ -27,7 +27,7 @@ __TOC__
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Date (extended range)          
+| #ffffcc | Date (extended range)          
 |  Count 
 |  Perc. 
 | 
@@ -59,13 +59,10 @@ Most responses are from the start of survey, 20 and 21 August (133 and 103 respo
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <tablestyle="font-size: smaller;" rowstyle="font-weight: bold; background-color: #ffffcc;"> Country 
+| #ffffcc | Country 
 |  Count 
 | 
-|}
-<!-- ##-----------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
+|-
 |  Algeria                        
 |  1   
 | 
@@ -281,15 +278,12 @@ Most responses are from the start of survey, 20 and 21 August (133 and 103 respo
 |  Vietnam                        
 |  1   
 | 
-|}
-<!-- ##-----------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           
+|-
+| #ccffff | Base                           
 |  673 / 683 
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    
+| #ccffff | Total (sum)                    
 |  673       
 | 
 |}
@@ -307,13 +301,10 @@ This is multiple answers question, although most people gave only one preferred 
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <tablestyle="font-size: smaller;" rowstyle="font-weight: bold; background-color: #ffffcc;"> Language 
+| #ffffcc |> Language 
 |  Count 
 | 
-|}
-<!-- ##-----------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
+|-
 |  Afrikaans                      
 |  1   
 | 
@@ -437,26 +428,20 @@ This is multiple answers question, although most people gave only one preferred 
 |  Vietnamese                     
 |  1   
 | 
-|}
-<!-- ## ----------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="border-top: dotted;"> invalid (computer language)    
+|-
+|  invalid (computer language)    
 |  37  
 | 
 |-
 |  not understood                 
 |  4   
 | 
-|}
-<!-- ##-----------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           
+|-
+| #ccffff | Base                           
 |  662 / 683   
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    
+| #ccffff | Total (sum)                    
 |  684         
 | 
 |}
@@ -472,13 +457,10 @@ Around two third of git users prefer English language, at least for dealing with
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer 
+| #ffffcc | Answer 
 |  Count 
 | 
-|}
-<!-- ##-----------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
+|-
 |   < 18                          
 |  11  
 | 
@@ -510,15 +492,12 @@ Around two third of git users prefer English language, at least for dealing with
 |  76+                            
 |  0   
 | 
-|}
-<!-- ##-----------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           
+|-
+| #ccffff | Base                           
 |  667 / 683 
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    
+| #ccffff | Total (sum)                    
 |  667       
 | 
 |}
@@ -530,14 +509,11 @@ Youngest git user who answered this survey is 14 years old, oldest is 74 years o
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer                         
+| #ffffcc | Answer                         
 |  Count 
 |  Perc. 
 | 
-|}
-<!-- ##---------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
+|-
 |  C                       
 |    582 
 |  85.2% 
@@ -562,15 +538,12 @@ Youngest git user who answered this survey is 14 years old, oldest is 74 years o
 |    26  
 |   3.8% 
 | 
-|}
-<!-- ##---------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           
+|-
+| #ccffff | Base                           
 |colspan="2" |   642 / 683   
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    
+| #ccffff | Total (sum)                    
 |colspan="2" |  1617         
 | 
 |}
@@ -586,14 +559,11 @@ You can check what are the contributions of each programming language to Git cod
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Language 
+| #ffffcc | Language 
 |  LoC [%] 
 |  Perc. 
 | 
-|}
-<!-- ##----------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
+|-
 |  C/C++          
 |  51% 
 |  85.2% 
@@ -629,8 +599,6 @@ You can check what are the contributions of each programming language to Git cod
 |        
 | 
 |}
-<!-- ##----------------------------------
- -->
 <!-- ## table end
  -->
 
@@ -643,14 +611,11 @@ Note that LoC sums to 100% (barring rounding errors), while percent of people pr
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer 
+| #ffffcc | Answer 
 |  Count 
 | 
-|}
-<!-- ##-----------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-|  LKML<<[[FootNote]](LKML = Linux Kernel Mailing List}}                           
+|-
+|  LKML<ref>LKML = Linux Kernel Mailing List</ref>                           
 |  109 
 | 
 |-
@@ -686,7 +651,7 @@ Note that LoC sums to 100% (barring rounding errors), while percent of people pr
 |  19  
 | 
 |-
-|  community site<<[[FootNote]](Community site are sites like Digg, Reddit and "planet" sites.}}              
+|  community site<ref>Community site are sites like Digg, Reddit and "planet" sites.</ref>              
 |  12  
 | 
 |-
@@ -694,14 +659,14 @@ Note that LoC sums to 100% (barring rounding errors), while percent of people pr
 |  34  
 | 
 |-
-| <-2>
+| colspan="2" |
 | 
 |-
-|  searching Internet<<[[FootNote]](This includes answer of "Google"}}          
+|  searching Internet<ref>This includes answer of "Google"</ref>          
 |  6   
 | 
 |-
-|  other SCM / SCM research<<[[FootNote]](This includes some other SCM mailing list, VCS comparison, and searching for an SCM.}}    
+|  other SCM / SCM research<ref>This includes some other SCM mailing list, VCS comparison, and searching for an SCM.</ref>    
 |  20  
 | 
 |-
@@ -713,7 +678,7 @@ Note that LoC sums to 100% (barring rounding errors), while percent of people pr
 |  6   
 | 
 |-
-| <-2>
+| colspan="2" |
 | 
 |-
 |  Linux kernel uses it           
@@ -724,10 +689,10 @@ Note that LoC sums to 100% (barring rounding errors), while percent of people pr
 |  47  
 | 
 |-
-| <-2>
+| colspan="2" |
 | 
 |-
-|  developer by name<<[[FootNote]](Linus Torvalds, Carl Worth, Keith Packard, Randal Schwartz,...}}           
+|  developer by name<ref>Linus Torvalds, Carl Worth, Keith Packard, Randal Schwartz,...</ref>           
 |  21  
 | 
 |-
@@ -743,7 +708,7 @@ Note that LoC sums to 100% (barring rounding errors), while percent of people pr
 |  22  
 | 
 |-
-| <-2>
+| colspan="2" |
 | 
 |-
 |  initial GIT announcement       
@@ -754,36 +719,27 @@ Note that LoC sums to 100% (barring rounding errors), while percent of people pr
 |  24  
 | 
 |-
-| <-2>
+| colspan="2" |
 | 
-|}
-<!-- ##-----------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="border-top: dotted;"> don't remember                 
+|-
+|  don't remember                 
 |  13  
 | 
 |-
 |  other / uncategorized          
 |  44  
 | 
-|}
-<!-- ##-----------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                     
+|-
+| #ccffff | Base                     
 |  658 / 683 
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)              
+| #ccffff | Total (sum)              
 |  693       
 | 
 |}
 <!-- ## table end
  -->
-
-''Footnotes:''
-<<[[FootNote]]>>
 
 This was free-form question, and tabulating answers was quite a work.  It is taken as multiple choice question (for example link to Linus presentation at Google found at Slashdot counts as both "Slashdot" and "Linus presentation at Google" answer).
 
@@ -796,7 +752,7 @@ Note that [[GitLinks#head-057cdf07b6c4202733d061096c8ac1aef2f4a232|Linus Torvald
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer 
+| #ffffcc | Answer 
 |  Count 
 |  Perc. 
 | 
@@ -826,11 +782,11 @@ Note that [[GitLinks#head-057cdf07b6c4202733d061096c8ac1aef2f4a232|Linus Torvald
 |   4.8% 
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           
+| #ccffff | Base                           
 |colspan="2" |   656 / 683   
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    
+| #ccffff | Total (sum)                    
 |colspan="2" |   656         
 | 
 |}
@@ -931,13 +887,10 @@ Conclusions:
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer (version) 
+| #ffffcc | Answer (version) 
 |  Count 
 | 
-|}
-<!-- ##-----------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
+|-
 |  (no version string)            
 |  165 
 | 
@@ -973,15 +926,12 @@ Conclusions:
 |  1.5x                           
 |  198 
 | 
-|}
-<!-- ##-----------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                    
+|-
+| #ccffff | Base                    
 |  626 / 683  
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)             
+| #ccffff | Total (sum)             
 |  626        
 | 
 |}
@@ -1001,13 +951,10 @@ This question is not well thought out, as it gathers together (in the free-form 
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <tablestyle="font-size: smaller;" rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer 
+| #ffffcc | Answer 
 |  Count 
 | 
-|}
-<!-- ##-----------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
+|-
 |  AccuRev                      
 |  3   
 | 
@@ -1168,7 +1115,7 @@ This question is not well thought out, as it gathers together (in the free-form 
 |  26  
 | 
 |-
-| <-2>
+| colspan="2" |
 | 
 |-
 |  'cp -a'                        
@@ -1207,7 +1154,7 @@ This question is not well thought out, as it gathers together (in the free-form 
 |  1   
 | 
 |-
-| <-2>
+| colspan="2" |
 | 
 |-
 |  none                           
@@ -1217,15 +1164,12 @@ This question is not well thought out, as it gathers together (in the free-form 
 |  undisclosed                    
 |  1   
 | 
-|}
-<!-- ##-----------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                     
+|-
+| #ccffff | Base                     
 |  654 / 683 
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)              
+| #ccffff | Total (sum)              
 |  1615      
 | 
 |}
@@ -1241,13 +1185,10 @@ Below there is table of SCM used, sorted by the number of responses.  Note that 
 In the table below links are to [http://en.wikipedia.org Wikipedia] article about specified SCM.
 
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer 
+| #ffffcc | Answer 
 |  Count 
 | 
-|}
-<!-- ##--------------------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
+|-
 |  [[WikiPedia:Subversion_(software)|Subversion]]  
 |  524  
 | 
@@ -1280,7 +1221,7 @@ In the table below links are to [http://en.wikipedia.org Wikipedia] article abou
 |  50   
 | 
 |-
-|  [[WikiPedia:IBM_Rational_ClearCase|[[ClearCase]]]]  
+|  [[WikiPedia:IBM_Rational_ClearCase|ClearCase]]  
 |  43   
 | 
 |-
@@ -1288,15 +1229,15 @@ In the table below links are to [http://en.wikipedia.org Wikipedia] article abou
 |  31   
 | 
 |-
-|  [[WikiPedia:[[BitKeeper]]|[[BitKeeper]]]]               
+|  [[WikiPedia:[[BitKeeper]]|BitKeeper]]               
 |  27   
 | 
 |-
-|  [[WikiPedia:Microsoft_Visual_SourceSafe|VSS (MS Visual [[SourceSafe]])]] 
+|  [[WikiPedia:Microsoft_Visual_SourceSafe|VSS (MS Visual SourceSafe)]] 
 |  26   
 | 
 |-
-|  [[WikiPedia:Baz_(software)|Bazaar]]<<[[FootNote]](Bazaar-NG (bzr) might been mistaken for old Bazaar (baz); the tabulation is biased towards Bazaar-NG, e.g. answer of "Bazaar" was taken for Bazaar-NG, only "baz" for Bazaar}} 
+|  [[WikiPedia:Baz_(software)|Bazaar]]<ref>Bazaar-NG (bzr) might been mistaken for old Bazaar (baz); the tabulation is biased towards Bazaar-NG, e.g. answer of "Bazaar" was taken for Bazaar-NG, only "baz" for Bazaar</ref> 
 |  19   
 | 
 |-
@@ -1311,24 +1252,15 @@ In the table below links are to [http://en.wikipedia.org Wikipedia] article abou
 |  [[WikiPedia:PVCS|PVCS]]                         
 |  12   
 | 
-|}
-<!-- ##--------------------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="border-top: dotted;"> tla+baz+bzr<<[[FootNote]](tla+baz+bzr = GNU Arch (tla), old Bazaar (baz), Bazaar-NG (bzr)}} 
+|-
+|  tla+baz+bzr<ref>tla+baz+bzr = GNU Arch (tla), old Bazaar (baz), Bazaar-NG (bzr)</ref> 
 |  129  
 | 
-|}
-<!-- ##--------------------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base 
+|-
+| #ccffff | Base 
 |  654 / 683 
 | 
 |}
-
-''Footnotes:''
-<<[[FootNote]]>>
 
 As you can see two most popular SCMs are Subversion ('svn') and CVS, with Subversion being a bit more popular.  Among distributed SCMs with most count are Mercurial ('hg') and Arch and its descendants ('tla', 'baz', 'bzr'). From proprietary (non-OSS) revision control systems Perforce ('p4'), ClearCase (and ClearCase UCM), BitKeeper ('bk') and Visual SourceSafe (aka. that awful M$ one ;-) got most count.
 
@@ -1337,13 +1269,10 @@ Note that the count for given version control system does not reflect ''preferen
 Compare this to the following table of SCMs popularity, based on the number of people who have given SCM in [http://www.ohloh.net/about/faq#stack "stack"] on [[WikiPedia:Ohloh|Ohloh]].  Note that this data might be biased because Ohloh for now supports only CVS, SVN (Subversion) and Git repositories.  Data taken on 11-11-2007:
 
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Project 
+| #ffffcc | Project 
 |  Stacks 
 | 
-|}
-<!-- ##--------------------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
+|-
 |  Subversion                     
 |  1568 
 | 
@@ -1382,15 +1311,12 @@ Below there is table of [http://popcon.debian.org/ Debian Popularity Contest] (p
 You can also check out [http://people.debian.org/~igloo/popcon-graphs/index.php?packages=git-core+bzr+mercurial+tla&show_installed=on&want_legend=on&want_ticks=on&from_date=&to_date=&hlght_date=&date_fmt=%25Y-%25m&beenhere=1 popcon graph].  Generated graph is for number of installs of git-core, bzr (Bazaar-NG), mercurial and tla (GNU Arch), but you can generate graph for any chosen packages.
 
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> SCM 
+| #ffffcc | SCM 
 |  package 
-|  installed<<[[FootNote]](installed is the number of people who installed this package}} 
-|  vote<<[[FootNote]](vote is the number of people who use this package regularly}} 
+|  installed<ref>installed is the number of people who installed this package</ref> 
+|  vote<ref>vote is the number of people who use this package regularly</ref> 
 | 
-|}
-<!-- ##---------------------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
+|-
 |  CVS         
 |  cvs                         
 |  21778 
@@ -1404,7 +1330,7 @@ You can also check out [http://people.debian.org/~igloo/popcon-graphs/index.php?
 | 
 |-
 |  RCS         
-|  rcs<<[[FootNote]](Some tools require this package, for example for rcsmerge 3-way merge utility}} 
+|  rcs<ref>Some tools require this package, for example for rcsmerge 3-way merge utility</ref> 
 |   7921 
 |  1625 
 | 
@@ -1458,20 +1384,14 @@ You can also check out [http://people.debian.org/~igloo/popcon-graphs/index.php?
 | 
 |}
 
-''Footnotes:''
-<<[[FootNote]]>>
-
 You can also check out [http://upsilon.cc/~zack/stuff/vcs-usage/ (declared) VCS usage for Debian source packages], overview of Version Control System usage to maintain Debian source packages.
 
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> SCM 
+| #ffffcc | SCM 
 |  Vcs-* 
 |  source packages 
 | 
-|}
-<!-- ##-------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
+|-
 |  Arch       
 |  arch  
 |  30   
@@ -1758,7 +1678,7 @@ Other:
 * convincing coworkers / other members / boss<BR> willingness of the other developers to learn to use it
 * training/certification
 * a stop to the constant bashing of other SCMs - this doesn't get you any friends drop the arrogant attitude, work with the rest of the community and try to make something people can understand in an hour
-* http://wiki.FreeBSD.org/[[VersionControl]]
+* http://wiki.FreeBSD.org/VersionControl
 * At work it'd require some kind of miracle.  Huge Perforce repository of highly interrelated stuff in which people can make sweeping changes in a single changelist. Lots of tools that access Perforce.  Slow as hell.
 
 === 14. Did you import your repository from foreign SCM? What SCM? ===
@@ -1766,13 +1686,10 @@ Other:
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer 
+| #ffffcc | Answer 
 |  Count 
 | 
-|}
-<!-- ##-------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
+|-
 |  N/A                            
 |  15    
 | 
@@ -1784,15 +1701,12 @@ Other:
 |  Yes                            
 |  372   
 | 
-|}
-<!-- ##-------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base        
+|-
+| #ccffff | Base        
 |  556 / 683 
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum) 
+| #ccffff | Total (sum) 
 |  556       
 | 
 |}
@@ -1810,13 +1724,10 @@ Note that one can use more than one tool, for example for different repositories
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer 
+| #ffffcc | Answer 
 |  Count 
 | 
-|}
-<!-- ##-----------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
+|-
 |  by hand                        
 |  7   
 | 
@@ -1829,17 +1740,14 @@ Note that one can use more than one tool, for example for different repositories
 |  3   
 | 
 |-
-| <-2>
+| colspan="2" |
 | 
 |-
 |  Tailor                         
 |  28  
 | 
-|}
-<!-- ##-----------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <colspan="2" rowstyle="font-style: italic; background-color: #ffffed; border-top: double;"> CVS import 
+|-
+| colspan="2" #ffffed | CVS import 
 | 
 |-
 |  git-cvsimport                  
@@ -1861,11 +1769,8 @@ Note that one can use more than one tool, for example for different repositories
 |  cvstogit                       
 |  1   
 | 
-|}
-<!-- ##.........................................
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <colspan="2" rowstyle="font-style: italic; background-color: #ffffed; border-top: double;"> Subversion import 
+|
+| colspan="2" #fffed | Subversion import 
 | 
 |-
 |  git-svn                        
@@ -1875,11 +1780,8 @@ Note that one can use more than one tool, for example for different repositories
 |  git-svnimport                  
 |  66  
 | 
-|}
-<!-- ##.........................................
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <colspan="2" rowstyle="font-style: italic; background-color: #ffffed; border-top: double;"> Other SCMs 
+|-
+| colspan="2" #fffed | Other SCMs 
 | 
 |-
 |  git-archimport                 
@@ -1925,26 +1827,20 @@ Note that one can use more than one tool, for example for different repositories
 |  moin2git                       
 |  1   
 | 
-|}
-<!-- ##-----------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="border-top: dotted;"> unspecified                    
+|-
+|  unspecified                    
 |  18   
 | 
 |-
 |  N/A                            
 |  114 
 | 
-|}
-<!-- ##------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base         
+|-
+| #ccffff | Base         
 |  467 / 683 
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)  
+| #ccffff | Total (sum)  
 |  538       
 | 
 |}
@@ -1956,13 +1852,10 @@ Note that one can use more than one tool, for example for different repositories
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer                         
+| #ffffcc | Answer                         
 |  Count 
 | 
-|}
-<!-- ##-------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
+|-
 |  N/A                            
 |  35    
 | 
@@ -1974,15 +1867,12 @@ Note that one can use more than one tool, for example for different repositories
 |  Yes                            
 |  228   
 | 
-|}
-<!-- ##-------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           
+|-
+| #ccffff | Base                           
 |  491 / 683 
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    
+| #ccffff | Total (sum)                    
 |  491   
 | 
 |}
@@ -2000,13 +1890,10 @@ This question is free-form question, but it is treated as multiple-choice questi
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer 
+| #ffffcc | Answer 
 |  Count 
 | 
-|}
-<!-- ##-----------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
+|-
 |  by hand                        
 |  10  
 | 
@@ -2015,7 +1902,7 @@ This question is free-form question, but it is treated as multiple-choice questi
 |  16  
 | 
 |-
-| <-2>
+| colspan="2" |
 | 
 |-
 |  Tailor                         
@@ -2026,7 +1913,7 @@ This question is free-form question, but it is treated as multiple-choice questi
 |  1   
 | 
 |-
-| <-2>
+| colspan="2" |
 | 
 |-
 |  fromcvs                        
@@ -2045,7 +1932,7 @@ This question is free-form question, but it is treated as multiple-choice questi
 |  2   
 | 
 |-
-| <-2>
+| colspan="2" |
 | 
 |-
 |  git-svn                        
@@ -2056,7 +1943,7 @@ This question is free-form question, but it is treated as multiple-choice questi
 |  2   
 | 
 |-
-| <-2>
+| colspan="2" |
 | 
 |-
 |  git-p4                         
@@ -2066,26 +1953,20 @@ This question is free-form question, but it is treated as multiple-choice questi
 |  git-p4import                   
 |  1   
 | 
-|}
-<!-- ##-----------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="border-top: dotted;"> unspecified                    
+|-
+|  unspecified                    
 |  2   
 | 
 |-
 |  N/A                            
 |  153 
 | 
-|}
-<!-- ##-----------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base        
+|-
+| #ccffff | Base        
 |  385 / 683 
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum) 
+| #ccffff | Total (sum) 
 |  388       
 | 
 |}
@@ -2101,14 +1982,11 @@ The only tool which really allows to interact (two-way) with other SCM is git-sv
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer 
+| #ffffcc | Answer 
 |  Count 
 |  Perc. 
 | 
-|}
-<!-- ##----------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
+|-
 |  work                           
 |     56 
 |   8.2% 
@@ -2123,26 +2001,20 @@ The only tool which really allows to interact (two-way) with other SCM is git-sv
 |    377 
 |  55.2% 
 | 
-|}
-<!-- ##----------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <colspan="3" rowstyle="border-top: dotted;">
+|-
+| colspan="3" | 
 | 
 |-
 |   work + both                   
 |    433 
 |  63.4% 
 | 
-|}
-<!-- ##----------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           
+|-
+| #ccffff | Base                           
 |colspan="2" |   645 / 683   
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    
+| #ccffff | Total (sum)                    
 |colspan="2" |   645         
 | 
 |}
@@ -2158,7 +2030,7 @@ See also question 55: "Would commercial (paid) support from a support vendor be 
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer                         
+| #ffffcc | Answer                         
 |  Count 
 |  Perc. 
 | 
@@ -2178,11 +2050,11 @@ See also question 55: "Would commercial (paid) support from a support vendor be 
 |  22.4% 
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           
+| #ccffff | Base                           
 |colspan="2" |   646 / 683   
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    
+| #ccffff | Total (sum)                    
 |colspan="2" |   646         
 | 
 |}
@@ -2198,13 +2070,10 @@ On Linux it was meant to be result of <code><nowiki>uname -i</nowiki></code>.  N
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <tablestyle="font-size: smaller;" rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer 
+| #ffffcc | Answer 
 |  Count 
 | 
-|}
-<!-- ##------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
+|-
 |  Intel                          
 |  73  
 | 
@@ -2249,7 +2118,7 @@ On Linux it was meant to be result of <code><nowiki>uname -i</nowiki></code>.  N
 |  112 
 | 
 |-
-| <-2>
+| colspan="2" |
 | 
 |-
 |  Apple                          
@@ -2276,7 +2145,7 @@ On Linux it was meant to be result of <code><nowiki>uname -i</nowiki></code>.  N
 |  7   
 | 
 |-
-| <-2>
+| colspan="2" |
 | 
 |-
 |  ARM                            
@@ -2334,22 +2203,16 @@ On Linux it was meant to be result of <code><nowiki>uname -i</nowiki></code>.  N
 |  k8                             
 |  1   
 | 
-|}
-<!-- ##-----------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="border-top: dotted;"> unknown 
+|-
+|  unknown 
 |  67  
 | 
-|}
-<!-- ##-----------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base          
+|-
+| #ccffff | Base          
 |  637 / 683 
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)   
+| #ccffff | Total (sum)   
 |  875       
 | 
 |}
@@ -2369,13 +2232,10 @@ Those results probably needs further processing to reduce number of choices, by 
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer 
+| #ffffcc | Answer 
 |  Count 
 | 
-|}
-<!-- ##-----------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
+|-
 |  AIX                            
 |  1   
 | 
@@ -2427,11 +2287,8 @@ Those results probably needs further processing to reduce number of choices, by 
 |  too many to list               
 |  1   
 | 
-|}
-<!-- ##-----------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <colspan="2" rowstyle="border-top: dotted;">
+|-
+| colspan="2" | 
 | 
 |-
 |  MS Windows (together)          
@@ -2445,15 +2302,12 @@ Those results probably needs further processing to reduce number of choices, by 
 |  Unices (together)              
 |  19  
 | 
-|}
-<!-- ##-----------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base         
+|-
+| #ccffff | Base         
 |  645 / 683 
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)  
+| #ccffff | Total (sum)  
 |  775       
 | 
 |}
@@ -2471,22 +2325,16 @@ A note: this question was meant to list projects which one ''tracks'', not the o
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <tablestyle="font-size: smaller;" rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer 
+| #ffffcc | Answer 
 |  Count 
 | 
-|}
-<!-- ##-----------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <-2>
+|-
+| colspan="2" |
 | 
 |-
-| <colspan="2" rowstyle="font-style: italic; background-color: #ffffed;"> undisclosed and own projects 
+| colspan="2" #fffed | undisclosed and own projects 
 | 
-|}
-<!-- ##.........................................
- -->
-{| border="1" cellpadding="2" cellspacing="0"
+|-
 |  own                            
 |  83  
 | 
@@ -2511,15 +2359,12 @@ A note: this question was meant to list projects which one ''tracks'', not the o
 |  31  
 | 
 |-
-| <-2>
+| colspan="2" |
 | 
 |-
-| <colspan="2" rowstyle="font-style: italic; background-color: #ffffed;"> Git related projects 
+| colspan="2" #fffed | Git related projects 
 | 
-|}
-<!-- ##.........................................
- -->
-{| border="1" cellpadding="2" cellspacing="0"
+|-
 |  git                            
 |  133 
 | 
@@ -2580,15 +2425,12 @@ A note: this question was meant to list projects which one ''tracks'', not the o
 |  11  
 | 
 |-
-| <-2>
+| colspan="2" |
 | 
 |-
-| <colspan="2" rowstyle="font-style: italic; background-color: #ffffed;"> Linux kernel and related projects<<[[FootNote]](I have not included there some projects which I have only later checked that are also kernel-related, like blktrace, dkms, ethtool, hostap, open-iscsi, etc.}} 
+| colspan="2" #fffed | Linux kernel and related projects<ref>I have not included there some projects which I have only later checked that are also kernel-related, like blktrace, dkms, ethtool, hostap, open-iscsi, etc.</ref> 
 | 
-|}
-<!-- ##.........................................
- -->
-{| border="1" cellpadding="2" cellspacing="0"
+|-
 |  linux kernel                   
 |  178 
 | 
@@ -2652,26 +2494,20 @@ A note: this question was meant to list projects which one ''tracks'', not the o
 |  wireless-dev                   
 |  3   
 | 
-|}
-<!-- ##.........................................
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <-2>
+|-
+| colspan="2" |
 | 
 |-
 |  kernel related                 
 |  7   
 | 
 |-
-| <-2>
+| colspan="2" |
 | 
 |-
-| <colspan="2" rowstyle="font-style: italic; background-color: #ffffed;"> Freedesktop projects<<[[FootNote]](Some of mentioned projects which are also hosted on freedesktop.org are not included here, neither in the list, not in the count for "freedesktop"}} 
+| colspan="2" #fffed | Freedesktop projects<ref>Some of mentioned projects which are also hosted on freedesktop.org are not included here, neither in the list, not in the count for "freedesktop"</ref> 
 | 
-|}
-<!-- ##.........................................
- -->
-{| border="1" cellpadding="2" cellspacing="0"
+|-
 |  Cairo                          
 |  21  
 | 
@@ -2727,26 +2563,20 @@ A note: this question was meant to list projects which one ''tracks'', not the o
 |  xserver                        
 |  7   
 | 
-|}
-<!-- ##.........................................
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <-2>
+|-
+| colspan="2" |
 | 
 |-
 |  freedesktop                    
 |  16  
 | 
 |-
-| <-2>
+| colspan="2" |
 | 
 |-
-| <colspan="2" rowstyle="font-style: italic; background-color: #ffffed;"> Other projects (only those with count >= 5) 
+| colspan="2" #fffed | Other projects (only those with count >= 5) 
 | 
-|}
-<!-- ##.........................................  
- -->
-{| border="1" cellpadding="2" cellspacing="0"
+|-
 |  ELinks                         
 |  5   
 | 
@@ -2782,27 +2612,21 @@ A note: this question was meant to list projects which one ''tracks'', not the o
 |  XMMS2                          
 |  14  
 | 
-|}
-<!-- ##-----------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Projects shown (around) 
+|-
+| #ccffff | Projects shown (around) 
 |  55  / 76  
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                    
+| #ccffff | Base                    
 |  560 / 683 
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)             
+| #ccffff | Total (sum)             
 |  1123      
 | 
 |}
 <!-- ## table end
  -->
-
-''Footnotes:''
-<<[[FootNote]]>>
 
 Some people wrote URL of hosting site instead of (list of) project names; some wrote 'too many too list' (or equivalent).
 
@@ -2827,13 +2651,10 @@ There are around 100 (?) different projects tracked mentioned in survey (not all
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer 
+| #ffffcc | Answer 
 |  Count 
 | 
-|}
-<!-- ##-----------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
+|-
 |  0                              
 |  116 
 | 
@@ -2894,29 +2715,23 @@ There are around 100 (?) different projects tracked mentioned in survey (not all
 |  8   
 | 
 |-
-| <-2>
+| colspan="2" |
 | 
 |-
-|  unknown number<<[[FootNote]](By unknown number I mean here answers like "git people", or "kernel community", or some text which did not contain a number (or a range).}} 
+|  unknown number<ref>By unknown number I mean here answers like "git people", or "kernel community", or some text which did not contain a number (or a range).</ref> 
 |  79  
 | 
-|}
-<!-- ##-----------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base         
+|-
+| #ccffff | Base         
 |  575 / 683 
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)  
+| #ccffff | Total (sum)  
 |  575       
 | 
 |}
 <!-- ## end table
  -->
-
-''Footnotes:''
-<<[[FootNote]]>>
 
 === 24. How big are the repositories that you work on? ===
 
@@ -2934,13 +2749,10 @@ This was a free-form question. For the table below only first number, or first r
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer (free form) 
+| #ffffcc | Answer (free form) 
 |  Count 
 | 
-|}
-<!-- ##-----------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
+|-
 |  0                              
 |  10  
 | 
@@ -3000,15 +2812,12 @@ This was a free-form question. For the table below only first number, or first r
 |  101+                           
 |  4   
 | 
-|}
-<!-- ##-----------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base         
+|-
+| #ccffff | Base         
 |  577 / 683 
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)  
+| #ccffff | Total (sum)  
 |  553       
 | 
 |}
@@ -3028,14 +2837,11 @@ Multiple answers (one can use more than one porcelain).
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer (multiple choice) 
+| #ffffcc | Answer (multiple choice) 
 |  Count 
 |  Perc. 
 | 
-|}
-<!-- ##--------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
+|-
 |  core-git                       
 |  558 
 |  81.7% 
@@ -3046,17 +2852,14 @@ Multiple answers (one can use more than one porcelain).
 |   8.2% 
 | 
 |-
-| <-3>
+| colspan="3" |
 | 
 |-
-| <rowstyle="background-color: #ffffed;"> Patch management interfaces: 
+| #ffffed | Patch management interfaces: 
 |  57  
 |   8.3% 
 | 
-|}
-<!-- ##..................................................
- -->
-{| border="1" cellpadding="2" cellspacing="0"
+|-
 |  StGIT                        
 |  41  
 |   6.0% 
@@ -3072,7 +2875,7 @@ Multiple answers (one can use more than one porcelain).
 |   0.4% 
 | 
 |-
-| <-3>
+| colspan="3" |
 | 
 |-
 |  own scripts                    
@@ -3084,15 +2887,12 @@ Multiple answers (one can use more than one porcelain).
 |  14  
 |   2.0% 
 | 
-|}
-<!-- ##--------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base         
+|-
+| #ccffff | Base         
 |colspan="2" | 593 / 683 
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)  
+| #ccffff | Total (sum)  
 |colspan="2" | 780       
 | 
 |}
@@ -3116,14 +2916,11 @@ Multiple answers (one can use more than one GUI).  Note that for the first week 
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer (multiple choice) 
+| #ffffcc | Answer (multiple choice) 
 |  Count 
 |  Perc. 
 | 
-|}
-<!-- ##--------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
+|-
 |  CLI (command line)             
 |  398 
 |  58.3% 
@@ -3189,22 +2986,19 @@ Multiple answers (one can use more than one GUI).  Note that for the first week 
 |   2.2% 
 | 
 |-
-| <-3>
+| colspan="3" |
 | 
 |-
 |  giggle + gitview               
 |  63  
 |   9.2% 
 | 
-|}
-<!-- ##--------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base         
+|-
+| #ccffff | Base         
 |colspan="2" | 572 / 683 
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)  
+| #ccffff | Total (sum)  
 |colspan="2" | 1128      
 | 
 |}
@@ -3224,7 +3018,7 @@ Note that this question was single answer.  It is possible to serve the same set
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer 
+| #ffffcc | Answer 
 |  Count 
 |  Perc. 
 | 
@@ -3254,11 +3048,11 @@ Note that this question was single answer.  It is possible to serve the same set
 |   4.0% 
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base         
+| #ccffff | Base         
 |colspan="2" |   422 / 683   
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)  
+| #ccffff | Total (sum)  
 |colspan="2" |   422         
 | 
 |}
@@ -3278,7 +3072,7 @@ Multiple choices, as one can use different methods for different projects, for e
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer                         
+| #ffffcc | Answer                         
 |  Count 
 |  Perc. 
 | 
@@ -3313,11 +3107,11 @@ Multiple choices, as one can use different methods for different projects, for e
 |  10.2% 
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           
+| #ccffff | Base                           
 |colspan="2" |   584 / 683   
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    
+| #ccffff | Total (sum)                    
 |colspan="2" |   996         
 | 
 |}
@@ -3337,7 +3131,7 @@ Sending patches via email is two to three times as popular as sending pull reque
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer 
+| #ffffcc | Answer 
 |  Count 
 |  Perc. 
 | 
@@ -3352,11 +3146,11 @@ Sending patches via email is two to three times as popular as sending pull reque
 |  75.0% 
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base         
+| #ccffff | Base         
 |colspan="2" |   611 / 683   
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)  
+| #ccffff | Total (sum)  
 |colspan="2" |   611         
 | 
 |}
@@ -3372,14 +3166,11 @@ As it can be seen, only (or perhaps it is that many?) around a 6th to 7th of git
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer 
+| #ffffcc | Answer 
 |  Count 
 |  Perc. 
 | 
-|}
-<!-- ##----------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
+|-
 |  Yes                            
 |     49 
 |   7.2% 
@@ -3394,15 +3185,12 @@ As it can be seen, only (or perhaps it is that many?) around a 6th to 7th of git
 |    158 
 |  23.1% 
 | 
-|}
-<!-- ##----------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base         
+|-
+| #ccffff | Base         
 |colspan="2" |   590 / 683   
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)  
+| #ccffff | Total (sum)  
 |colspan="2" |   590         
 | 
 |}
@@ -3423,17 +3211,14 @@ Summary of responses:
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer 
+| #ffffcc | Answer 
 |  Count 
 | 
-|}
-<!-- ##------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <-2>
+|-
+| colspan="2" |
 | 
 |-
-| <rowstyle="background-color: #ffffed;"> Documentation  
+| #ffffed | Documentation  
 |  60 
 | 
 |-
@@ -3461,14 +3246,14 @@ Summary of responses:
 |  1  
 | 
 |-
-| <-2>
+| colspan="2" |
 | 
 |-
-| <rowstyle="background-color: #ffffed;"> User interface 
+| #ffffed | User interface 
 |  26 
 | 
 |-
-| - help<<[[FootNote]](By 'help' I mean here output of "git <cmd> --help" and/or "git <cmd> --usage", but it is not necessarily what user who wrote the answer meant.  This means that this reply might be miscalculated.}} 
+| - help<ref>By 'help' I mean here output of "git <cmd> --help" and/or "git <cmd> --usage", but it is not necessarily what user who wrote the answer meant.  This means that this reply might be miscalculated.</ref> 
 |  9  
 | 
 |-
@@ -3480,10 +3265,10 @@ Summary of responses:
 |  5  
 | 
 |-
-| <-2>
+| colspan="2" |
 | 
 |-
-| <rowstyle="background-color: #ffffed;">  GUI           
+| #ffffed |  GUI           
 |  13 
 | 
 |-
@@ -3499,33 +3284,27 @@ Summary of responses:
 |  1  
 | 
 |-
-| <-2>
+| colspan="2" |
 | 
 |-
-| <rowstyle="border-top: dotted;">  Homepage             
+|   Homepage             
 |  1  
 | 
 |-
 |  Nothing                       
 |  75 
 | 
-|}
-<!-- ##---------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base         
+|-
+| #ccffff | Base         
 |  172 / 683 
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)  
+| #ccffff | Total (sum)  
 |  253       
 | 
 |}
 <!-- ## table end
  -->
-
-''Footnotes:''
-<<[[FootNote]]>>
 
 Answer in subcategory is also counted as answer in category; answers for each of categories or subcategories are counted once.  It means that if one answered that he/she wants to have both man pages and user's manual translated it count as "Documentation" category only once.  Note that there were answers of for example 'documentation' without specifying details (answer in subcategory).
 
@@ -3540,13 +3319,10 @@ Languages for which [http://repo.or.cz/w/git-gui/git-gui-i18n.git git-gui transl
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer 
+| #ffffcc | Answer 
 |  Count 
 | 
-|}
-<!-- ##----------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
+|-
 |  Afrikaans                      
 |  1  
 | 
@@ -3563,7 +3339,7 @@ Languages for which [http://repo.or.cz/w/git-gui/git-gui-i18n.git git-gui transl
 |  2  
 | 
 |-
-|  ''English''<<[[FootNote]](Git messages and documentation _is_ in English}} 
+|  ''English''<ref>Git messages and documentation _is_ in English</ref> 
 |  3  
 | 
 |-
@@ -3650,23 +3426,17 @@ Languages for which [http://repo.or.cz/w/git-gui/git-gui-i18n.git git-gui transl
 |  Ukrainian                      
 |  1  
 | 
-|}
-<!-- ##----------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base 
+|-
+| #ccffff | Base 
 |  143 / 683 
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)<<[[FootNote]](Some answers were: "do not translate".}} 
+| #ccffff | Total (sum)<ref>Some answers were: "do not translate".</ref> 
 |  100      
 | 
 |}
 <!-- ## table end
  -->
-
-''Footnotes:''
-<<[[FootNote]]>>
 
 German and French are most popular. Spanish, Portuguese, Russian, Chinese + Mandarin and Japanese have count 5 or more.
 
@@ -3675,13 +3445,10 @@ The table below show status of git-gui i18n project, as of 12-11-2007. <u>t</u> 
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Language 
+| #ffffcc | Language 
 |  Status 
 | 
-|}
-<!-- ##-------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
+|-
 |  German (de)     
 |  268t           
 | 
@@ -3709,11 +3476,8 @@ The table below show status of git-gui i18n project, as of 12-11-2007. <u>t</u> 
 |  Chinese (zh_cn) 
 |  59t+38f+168u   
 | 
-|}
-<!-- ##-------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> git-gui.pot     
+|-
+| #ccffff | git-gui.pot     
 |  268            
 | 
 |}
@@ -3727,7 +3491,7 @@ The table below show status of git-gui i18n project, as of 12-11-2007. <u>t</u> 
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer                         
+| #ffffcc | Answer                         
 |  Count 
 |  Perc. 
 | 
@@ -3757,11 +3521,11 @@ The table below show status of git-gui i18n project, as of 12-11-2007. <u>t</u> 
 |  16.4% 
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           
+| #ccffff | Base                           
 |colspan="2" |   642 / 683   
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    
+| #ccffff | Total (sum)                    
 |colspan="2" |   642         
 | 
 |}
@@ -3775,7 +3539,7 @@ Nice, git users are mostly very happy with git :-).  13 grumpy users, hmmm...
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer                         
+| #ffffcc | Answer                         
 |  Count 
 |  Perc. 
 | 
@@ -3795,7 +3559,7 @@ Nice, git users are mostly very happy with git :-).  13 grumpy users, hmmm...
 |   4.4% 
 | 
 |-
-| <-3>
+| colspan="3" |
 | 
 |-
 |  N/A                            
@@ -3803,11 +3567,11 @@ Nice, git users are mostly very happy with git :-).  13 grumpy users, hmmm...
 |   7.6% 
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base         
+| #ccffff | Base         
 |colspan="2" |   631 / 683   
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)  
+| #ccffff | Total (sum)  
 |colspan="2" |   631         
 | 
 |}
@@ -3917,14 +3681,14 @@ Generic:
 Portability:
 * Better Windows support, including TortoiseSVN like GUI and explorer extension.
 
- ''(This is I think one of the most requested).''
+: ''(This is I think one of the most requested).''
 
 * Portability, better cross-platform support
 
 User interface:
 * easy-git: simpler, reduced number of user commands
 
- ''(Something like now deprecated Cogito? This probably includes better separation of plumbing and porcelain; plumbing should perhaps be not visible to ordinary user. There was also an idea to fold some commands into one, like git-am and git-apply)''
+: ''(Something like now deprecated Cogito? This probably includes better separation of plumbing and porcelain; plumbing should perhaps be not visible to ordinary user. There was also an idea to fold some commands into one, like git-am and git-apply)''
 
 * Do usability studies
 * Fix inconsistencies and some UI bugs, e.g. too verbose commands. Fix corner cases. 
@@ -3943,13 +3707,13 @@ Documentation:
 Features:
 * Pull and rebase into dirty tree
 
- ''(There was some work on this using git-stash infrastructure)''
+: ''(There was some work on this using git-stash infrastructure)''
 
 * Lightweight working copy a la Bazaar-NG, also known as remote alternates (client-server model)
 * Better submodule support
 * Integrated GUI merge tool
 
- ''(Halfway done - git-mergetool calls user defined GUI merge tool; I think it would be nice if git-gui had GUI merge tool included, perhaps "borrowed" from TkDiff / xxdiff)''
+: ''(Halfway done - git-mergetool calls user defined GUI merge tool; I think it would be nice if git-gui had GUI merge tool included, perhaps "borrowed" from TkDiff / xxdiff)''
 
 * Better support for shared repository
 
@@ -3960,7 +3724,7 @@ Tools, interfaces:
 * Integration with popular IDE: Eclipse, KDevelop, MSVC, xcode, Rails,... (There is work on Eclipse support)
 * More powerful / integrated GUI
 
- ''(Integrated GUI means lost portability; nevertheless it would be nice to have plugins for Konqueror / KDevelop and Explorer / Visual Studio)''
+: ''(Integrated GUI means lost portability; nevertheless it would be nice to have plugins for Konqueror / KDevelop and Explorer / Visual Studio)''
 
 * Better GUI
 * Better webgui (web interface)
@@ -3972,7 +3736,7 @@ Tools, interfaces:
 Other SCMs:
 * Rename commands to be more similar to other SCM
 
- ''(Backward compatibility makes it out of the question).''
+: ''(Backward compatibility makes it out of the question).''
 
 * Better import tools (best if they would be bundled with git), like parsecvs, cvs2git, fromcvs,...
 * Transparent two-way interaction with other SCMs; incremental import; git as fake SCM server, like git-cvsserver or proposed to GSoC git-svnserve
@@ -3989,7 +3753,7 @@ Support and marketing:
 * Distributed SCM advocacy
 * Encourage SourceForge / Savannah / Gna! / BerliOS / Google Code to offer git support: git server and sering via http, gitweb or other git web interface, git projects administration (branches, alternates, grafts, tags,...)
 
- ''(Savannah has some [http://savannah.gnu.org/maintenance/UsingGit git support], Google Code is rather out of the question)''
+: ''(Savannah has some [http://savannah.gnu.org/maintenance/UsingGit git support], Google Code is rather out of the question)''
 
 * Perhaps git repository for CPAN modules
 * Move KDE to git
@@ -4010,14 +3774,11 @@ One of the more striking (and funny):
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer                         
+| #ffffcc | Answer                         
 |  Count 
 |  Perc. 
 | 
-|}
-<!-- ##----------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
+|-
 |  Yes                            
 |     51 
 |   7.5% 
@@ -4027,15 +3788,12 @@ One of the more striking (and funny):
 |    583 
 |  85.4% 
 | 
-|}
-<!-- ##----------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           
+|-
+| #ccffff | Base                           
 |colspan="2" |   634 / 683   
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    
+| #ccffff | Total (sum)                    
 |colspan="2" |   634         
 | 
 |}
@@ -4061,14 +3819,11 @@ Should be: from year ago, or since you started using Git.  No responses (303 / 6
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer                         
+| #ffffcc | Answer                         
 |  Count 
 |  Perc. 
 | 
-|}
-<!-- ##----------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
+|-
 |  Better                         
 |    319 
 |  46.7% 
@@ -4083,15 +3838,12 @@ Should be: from year ago, or since you started using Git.  No responses (303 / 6
 |      1 
 |   0.1% 
 | 
-|}
-<!-- ##----------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           
+|-
+| #ccffff | Base                           
 |colspan="2" |   380 / 683   
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    
+| #ccffff | Total (sum)                    
 |colspan="2" |   380         
 | 
 |}
@@ -4107,14 +3859,11 @@ Multiple choice; the list does not include all new features.  Some new features 
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer                         
+| #ffffcc | Answer                         
 |  Count 
 |  Perc. 
 | 
-|}
-<!-- ##----------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
+|-
 |  git-gui                        
 |    103 
 |  15.1% 
@@ -4184,15 +3933,12 @@ Multiple choice; the list does not include all new features.  Some new features 
 |     17 
 |   2.5% 
 | 
-|}
-<!-- ##----------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           
+|-
+| #ccffff | Base                           
 |colspan="2" |   255 / 683   
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    
+| #ccffff | Total (sum)                    
 |colspan="2" |   687         
 | 
 |}
@@ -4208,24 +3954,21 @@ This table is sorted by count.
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Usefulness of 
+| #ffffcc | Usefulness of 
 |  Yes 
 |  Some 
 |  No  
 |  ''Base'' 
 | 
-|}
-<!-- ##-----------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-|  GIT wiki]         
+|-
+|  GIT wiki         
 |  191 
 |   69  
 |  198 
 |  ''458'' 
 | 
 |-
-|  on line help]     
+|  on line help     
 |  377 
 |  172  
 |   28 
@@ -4238,11 +3981,8 @@ This table is sorted by count.
 |   22 
 |  ''601'' 
 | 
-|}
-<!-- ##-----------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;" style="text-align: center;" colspan="4"> individual responses 
+|-
+|  colspan="4" #ccffff | individual responses 
 |  ''683'' 
 | 
 |}
@@ -4254,7 +3994,7 @@ This table is sorted by count.
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer                         
+| #ffffcc | Answer                         
 |  Count 
 |  Perc. 
 | 
@@ -4269,11 +4009,11 @@ This table is sorted by count.
 |  43.9% 
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           
+| #ccffff | Base                           
 |colspan="2" |   616 / 683   
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    
+| #ccffff | Total (sum)                    
 |colspan="2" |   616         
 | 
 |}
@@ -4285,7 +4025,7 @@ This table is sorted by count.
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer                         
+| #ffffcc | Answer                         
 |  Count 
 |  Perc. 
 | 
@@ -4305,11 +4045,11 @@ This table is sorted by count.
 |  29.0% 
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           
+| #ccffff | Base                           
 |colspan="2" |   458 / 683   
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    
+| #ccffff | Total (sum)                    
 |colspan="2" |   458         
 | 
 |}
@@ -4321,7 +4061,7 @@ This table is sorted by count.
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer                         
+| #ffffcc | Answer                         
 |  Count 
 |  Perc. 
 | 
@@ -4341,11 +4081,11 @@ This table is sorted by count.
 |   6.6% 
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           
+| #ccffff | Base                           
 |colspan="2" |   522 / 683   
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    
+| #ccffff | Total (sum)                    
 |colspan="2" |   522         
 | 
 |}
@@ -4357,7 +4097,7 @@ This table is sorted by count.
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer                         
+| #ffffcc | Answer                         
 |  Count 
 |  Perc. 
 | 
@@ -4377,11 +4117,11 @@ This table is sorted by count.
 |  25.2% 
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           
+| #ccffff | Base                           
 |colspan="2" |   577 / 683   
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    
+| #ccffff | Total (sum)                    
 |colspan="2" |   577         
 | 
 |}
@@ -4395,7 +4135,7 @@ This table is sorted by count.
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer                         
+| #ffffcc | Answer                         
 |  Count 
 |  Perc. 
 | 
@@ -4415,11 +4155,11 @@ This table is sorted by count.
 |  22.5% 
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           
+| #ccffff | Base                           
 |colspan="2" |   601 / 683   
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    
+| #ccffff | Total (sum)                    
 |colspan="2" |   601         
 | 
 |}
@@ -4431,7 +4171,7 @@ This table is sorted by count.
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer                         
+| #ffffcc | Answer                         
 |  Count 
 |  Perc. 
 | 
@@ -4446,11 +4186,11 @@ This table is sorted by count.
 |  80.7% 
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           
+| #ccffff | Base                           
 |colspan="2" |   594 / 683   
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    
+| #ccffff | Total (sum)                    
 |colspan="2" |   594         
 | 
 |}
@@ -4585,79 +4325,79 @@ Here is short summary of most common answers, with a short comment if appropriat
 Generic:
 * Dedicated domain name / site name, e.g. git.org or git.com to have it look less like mirror or unofficial page
 
- ''([http://git.or.cz git.or.cz] still comes first when [http://www.google.com/search?q=git searching Google for "git"]; current domain name was available to homepage admin - historical reason)''
+: ''([http://git.or.cz git.or.cz] still comes first when [http://www.google.com/search?q=git searching Google for "git"]; current domain name was available to homepage admin - historical reason)''
 
- ''DONE:'' git.com and git.org are taken (squatters), [http://git-scm.org git-scm.org] points now to git homepage.
+: ''DONE:'' git.com and git.org are taken (squatters), [http://git-scm.org git-scm.org] points now to git homepage.
 
 * Better design: make it prettier, easier to find information, move more important things first, use sidebar instead of boxes, perhaps divide it into separate pages (again). But make sure it works on Elinks for example.
 
- ''(IIRC pasky is not web designer, so help is appreciated)''
+: ''(IIRC pasky is not web designer, so help is appreciated)''
 
 <BR>
 Documentation:
 * More documentation: tutorials, workflow examples, walkthroughs, SCM commands comparison, interacting with other SCMs, HOWTOs, best practices, recommended tools, fluxograms describing use cases (graphics).  Make link to [http://www.kernel.org/pub/software/scm/git/docs/user-manual.html Git User's Manual] stand out better.
 * Less emphasis on Cogito, mark it more explicitly as deprecated and slowly try to get rid of Cogito references in documentation (e.g. crash courses).
 
- ''(Cogito is officially deprecated from not a long time; the process of removing references to cg in crash courses is AFAIK ongoing)''
+: ''(Cogito is officially deprecated from not a long time; the process of removing references to cg in crash courses is AFAIK ongoing)''
 
- ''Partially DONE''
+: ''Partially DONE''
 
 * More emphasis on "Why git?" and "Why distributed SCM?". A 'git features tour' showing the great features git has. In short: why and when to choose git.
 
- ''(Someone would have to write it)''
+: ''(Someone would have to write it)''
 
 * Simple online demo. The demo could be an applet giving access to a terminal of a running virtual machine with git and some demo repositories.  The virtual machine is reset every full hour.
 
- ''(This might be a good idea, but I think it is a bit hard to do from technical point of view; at least securely, securing against intrusion and, perhaps accidental, denial of service)''
+: ''(This might be a good idea, but I think it is a bit hard to do from technical point of view; at least securely, securing against intrusion and, perhaps accidental, denial of service)''
 
 <BR>
 Downloads:
 * More up-to-date about new git versions.
 
- ''(With one person updating homepage, who is not git maintainer...)''
+: ''(With one person updating homepage, who is not git maintainer...)''
 
- ''DONE.'' The info about latest version is updated using script. If homepage is not updated, then there is bug in this script, and you should [[mailto:pasky@suse.cz|send bugreport]].
+: ''DONE.'' The info about latest version is updated using script. If homepage is not updated, then there is bug in this script, and you should [[mailto:pasky@suse.cz|send bugreport]].
 
 * There should be links to download pu/next/master/maint branches tar.gz trees (snapshots) from gitweb.
 
- ''(The source snapshot part is quite easy to do, but it might increase load on kernel.org / repo.or.cz, unless snapshots are somehow cached)''
+: ''(The source snapshot part is quite easy to do, but it might increase load on kernel.org / repo.or.cz, unless snapshots are somehow cached)''
 
- ''Denied''
+: ''Denied''
 
 * Results of nightly builds and tests. Static binaries for other OS (FreeBSD, MacOS X).
 
- ''(There is a matter of machine park. Somewhere those nightly builds, perhaps together with nightly running of test suite, have to run.)''
+: ''(There is a matter of machine park. Somewhere those nightly builds, perhaps together with nightly running of test suite, have to run.)''
 
 * Information about MS Windows version(s). Link to MSys Git, marking it as under development; perhaps plea for help?
 * Provide processed man pages to install. Provide PDF documentation, at least PDF version of Git User's Manual.
 
- ''(Having PDF version is quite new; there is no manual.pdf target in official Makefile.)''
+: ''(Having PDF version is quite new; there is no manual.pdf target in official Makefile.)''
 
 <BR>
 Information, new links, new features:
 * Link to the latest release announcement (RelNotes) on download page.
 
- ''(Links to RelNotes are in HTML version of git(7) manpage, but I think it is not enough. Fortunately we _have_ release notes.)''
+: ''(Links to RelNotes are in HTML version of git(7) manpage, but I think it is not enough. Fortunately we _have_ release notes.)''
 
- ''DONE''
+: ''DONE''
 
 * News section, info about where things are going (roadmap)
 
- ''(Junio has a hard time maintaining TODO, and git doesn't have roadmap AFAICT)''
+: ''(Junio has a hard time maintaining TODO, and git doesn't have roadmap AFAICT)''
 
 * Provide [http://repo.or.cz/w/git.git?a=blob_plain;f=MaintNotes;hb=todo 'A note from the maintainer'] as a prominent link probably named as 'How the git project is managed and how to participate'
 
- ''(That is a good idea I think, better than having it on [[Notes|GitWiki]].  We can put direct link to [http://repo.or.cz/w/git.git?a=blob_plain;f=Documentation/SubmittingPatches [[SubmittingPatches]]] nearby.)''
+: ''(That is a good idea I think, better than having it on [[Notes|GitWiki]].  We can put direct link to [http://repo.or.cz/w/git.git?a=blob_plain;f=Documentation/SubmittingPatches [[SubmittingPatches]]] nearby.)''
 
 * I wish for Git Traffic: digest of git mailing list discussions. Some type of recent news collected from the mailing list 'what's new in the latest release' or coming-soon previews would be nice.
 
- ''(There was one at http://kerneltraffic.org/git/index.html but it stopped after one issue; [http://www.kerneltraffic.org KernelTraffic] is also no longer updated. Any volunteers?)''
+: ''(There was one at http://kerneltraffic.org/git/index.html but it stopped after one issue; [http://www.kerneltraffic.org KernelTraffic] is also no longer updated. Any volunteers?)''
 
 * Links to more tools, GUIs, version control interface layers. A somewhat related request: copy pages like FAQ or Tips and Tricks, or discussion about branches from GitWiki when they are mature enough.
 
- ''(For example there was requests to put links to / info about Guilt and Giggle on git homepage. Giggle has quite a bit of users among GUIs).''
+: ''(For example there was requests to put links to / info about Guilt and Giggle on git homepage. Giggle has quite a bit of users among GUIs).''
 
- ''ONGOING.'' Lately tig (text interface for git) was added to tools section of git homepage
+: ''ONGOING.'' Lately tig (text interface for git) was added to tools section of git homepage
 
 === 51. What topics would you like to have on GIT wiki? ===
 
@@ -4675,12 +4415,12 @@ Generic:
 * more tips and tricks
 
 Documentation:
-* [[GitRecipes]] / [[GitCookbook]], i.e. examples on how to solve some problem, e.g. two-way interaction between git and svn repos, setting up automatic commit emails, setting up gitweb, setting up git server, pushing through firewall, setting up HTTP server for write / push access, discussion of different workflows
-* [[QuickRef]] / [[GitCheatSheet]]; quick hints, quickref
-* eclectic / untypical use cases, for example: [[GitForBackup]], [[SyncWithGit]], [[GitForDocuments]] ([[LaTeX]], ODF,...), [[MergingProjects]] (for example gitweb, gitk, git-gui with git)
-* [[CentralizedRepository]] / [[CentralRepository]] / [[SharedRepository]] (description of CVS/SVN-like workflow)
-* advanced usage, for example [[FindingErrorsWithBisect]]
-* workflows, usage scenarios, use cases, collaboration paradigms including [[KernelWorkflows]] (kernel maintainer tasks / workflows), [[BestPractices]], etc.
+* GitRecipes / GitCookbook, i.e. examples on how to solve some problem, e.g. two-way interaction between git and svn repos, setting up automatic commit emails, setting up gitweb, setting up git server, pushing through firewall, setting up HTTP server for write / push access, discussion of different workflows
+* QuickRef / [[GitCheatSheet]]; quick hints, quickref
+* eclectic / untypical use cases, for example: GitForBackup, SyncWithGit, GitForDocuments ([[LaTeX]], ODF,...), MergingProjects (for example gitweb, gitk, git-gui with git)
+* CentralizedRepository / CentralRepository / SharedRepository (description of CVS/SVN-like workflow)
+* advanced usage, for example FindingErrorsWithBisect
+* workflows, usage scenarios, use cases, collaboration paradigms including KernelWorkflows (kernel maintainer tasks / workflows), BestPractices, etc.
 * HOWTOs (perhaps wikifying some files from Documentation/howto)
 * Git for newbies: quick start document (rather for homepage)
 * The Git Book (for homepage and/or bundled documentation)
@@ -4690,11 +4430,11 @@ Documentation:
 * git internals intro (?)
 
 Features and planned features:
-* [[MergingStrategies]] / [[MergeStrategies]] i.e. wikified [http://repo.or.cz/w/git.git?a=blob_plain;f=Documentation/merge-strategies.txt Documentation/merge-strategies.txt], perhaps with proposed merge strategies and [http://revctrl.org/CategoryMergeAlgorithm revctrl] / other SCM merge strategies described
-* [[BranchingAndMerging]] (there is [[BranchesInGit]] wiki page)
-* docs for new features, including: [[KeywordExpansion]], [[EolConversion]], [[GitAttributes]], [[ShallowClone]], [[SubmodulesSupport]] / [[SubprojectSupport]], [[DetachedHEAD]], [[BundleTransport]] / [[GitBundle]], [[AutoRepacking]] / [[AutoPacking]]
+* MergingStrategies / MergeStrategies i.e. wikified [http://repo.or.cz/w/git.git?a=blob_plain;f=Documentation/merge-strategies.txt Documentation/merge-strategies.txt], perhaps with proposed merge strategies and [http://revctrl.org/CategoryMergeAlgorithm revctrl] / other SCM merge strategies described
+* BranchingAndMerging (there is [[BranchesInGit]] wiki page)
+* docs for new features, including: KeywordExpansion, EolConversion, GitAttributes, ShallowClone, SubmodulesSupport / [[SubprojectSupport]], DetachedHEAD, BundleTransport / GitBundle, AutoRepacking / AutoPacking
 * concept documentation, including [[BranchesInGit]] (existing), [[WhatIsTheIndex]] (existing), [[GraftPoint]] (existing)
-* [[FileRename]], including discussion on tracking vs detecting renames
+* FileRename, including discussion on tracking vs detecting renames
 
 Maintained:
 * outstanding issues
@@ -4708,14 +4448,14 @@ Other SCMs:
 * SCM migration guides
 
 Examples:
-* [[HooksExamples]] / [[GitHooks]] (example hooks) 
+* HooksExamples / GitHooks (example hooks) 
 
 Other:
-* [[GitConventions]] / [[CommitConventions]] for example commit message conventions, sign-off, etc.
-* [[GitForSingleDeveloper]] (perhaps as a part of [[WhyVersionControl]])
-* [[SyncWithGit]] for example synchronization between laptop and desktop
-* [[PublishingRepository]], i.e. description of most typical workflow with private repository and public bare publishing repository (or repositories)
-* [[GitServerSetup]] (tutorial)
+* GitConventions / CommitConventions for example commit message conventions, sign-off, etc.
+* GitForSingleDeveloper (perhaps as a part of WhyVersionControl)
+* SyncWithGit for example synchronization between laptop and desktop
+* PublishingRepository, i.e. description of most typical workflow with private repository and public bare publishing repository (or repositories)
+* GitServerSetup (tutorial)
 * pitfalls
 * Tips and tricks of the day (short)
 
@@ -4828,15 +4568,12 @@ Other issues:
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Do you use 
+| #ffffcc | Do you use 
 |  Yes 
 |  No  
 |  ''Base'' 
 | 
-|}
-<!-- ##------------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
+|-
 |  GIT wiki                  
 |  316 
 |  300 
@@ -4854,11 +4591,8 @@ Other issues:
 |  376 
 |  ''558'' 
 | 
-|}
-<!-- ##------------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;" style="font-align: center" colspan="3"> individual responses 
+|-
+| colspan="3" #ccffff | individual responses 
 |  683 
 | 
 |}
@@ -4868,16 +4602,13 @@ Other issues:
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Usefulness of 
+| #ffffcc | Usefulness of 
 |  Yes 
 |  Some 
 |  No  
 |  ''Base'' 
 | 
-|}
-<!-- ##-------------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
+|-
 |  GIT wiki           
 |  191 
 |   69  
@@ -4898,11 +4629,8 @@ Other issues:
 |   26 
 |  ''212'' 
 | 
-|}
-<!-- ##-------------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;" style="font-align: center" colspan="4"> individual responses 
+|-
+| colspan="4" #ccffff | individual responses 
 |  683 
 | 
 |}
@@ -4916,7 +4644,7 @@ As one can see mailing list is the primary medium for git, and IRC secondary (au
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer                         
+| #ffffcc | Answer                         
 |  Count 
 |  Perc. 
 | 
@@ -4936,11 +4664,11 @@ As one can see mailing list is the primary medium for git, and IRC secondary (au
 |   9.5% 
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           
+| #ccffff | Base                           
 |colspan="2" |   618 / 683   
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    
+| #ccffff | Total (sum)                    
 |colspan="2" |   618         
 | 
 |}
@@ -4956,7 +4684,7 @@ Half users needed help.  It might be that Git is not documented enough; it might
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer                         
+| #ffffcc | Answer                         
 |  Count 
 |  % sum 
 | 
@@ -4971,11 +4699,11 @@ Half users needed help.  It might be that Git is not documented enough; it might
 |  14.0% 
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           
+| #ccffff | Base                           
 |colspan="2" |   379 / 683   
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    
+| #ccffff | Total (sum)                    
 |colspan="2" |   379         
 | 
 |}
@@ -4991,14 +4719,11 @@ That is I think very good (around 86%) percentage.
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer 
+| #ffffcc | Answer 
 |  Count 
 |  Perc. 
 | 
-|}
-<!-- ##---------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
+|-
 |  Not Applicable                 
 |   203 
 |  29.7% 
@@ -5014,22 +4739,19 @@ That is I think very good (around 86%) percentage.
 |  47.1% 
 | 
 |-
-| <-2>
+| colspan="2" |
 | 
 |-
 |  Yes + No                       
 |   391 
 |  57.2% 
 | 
-|}
-<!-- ##------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           
+|-
+| #ccffff | Base                           
 |colspan="2" |   594 / 683   
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    
+| #ccffff | Total (sum)                    
 |colspan="2" |   594         
 | 
 |}
@@ -5049,14 +4771,11 @@ Note that Git is GPLv2, and it will probably stay that forever, so you are ''fre
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer                         
+| #ffffcc | Answer                         
 |  Count 
 |  Perc. 
 | 
-|}
-<!-- ##----------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
+|-
 |  Yes                            
 |    204 
 |  29.9% 
@@ -5066,15 +4785,12 @@ Note that Git is GPLv2, and it will probably stay that forever, so you are ''fre
 |    406 
 |  59.4% 
 | 
-|}
-<!-- ##----------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           
+|-
+| #ccffff | Base                           
 |colspan="2" |   610 / 683   
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    
+| #ccffff | Total (sum)                    
 |colspan="2" |   610         
 | 
 |}
@@ -5090,14 +4806,11 @@ Note that the number of people who answered question decreases, which probably m
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer                         
+| #ffffcc | Answer                         
 |  Count 
 |  % sum 
 | 
-|}
-<!-- ##-------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
+|-
 |  Yes                     
 |    146 
 |  ''56.4%'' 
@@ -5112,15 +4825,12 @@ Note that the number of people who answered question decreases, which probably m
 |     79 
 |  ''30.5%'' 
 | 
-|}
-<!-- ##-------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           
+|-
+| #ccffff | Base                           
 |colspan="2" |   259 / 683   
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    
+| #ccffff | Total (sum)                    
 |    259 
 |  ''100%'' 
 | 
@@ -5137,14 +4847,11 @@ Only a small percentage of people reading [[MailingLists|git mailing list]] does
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer 
+| #ffffcc | Answer 
 |  Count 
 |  % sum 
 | 
-|}
-<!-- ##--------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
+|-
 |  Yes                      
 |    193 
 |  ''79.5%'' 
@@ -5154,15 +4861,12 @@ Only a small percentage of people reading [[MailingLists|git mailing list]] does
 |     50 
 |  ''20.6%'' 
 | 
-|}
-<!-- ##--------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           
+|-
+| #ccffff | Base                           
 |colspan="2" |   243 / 683   
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    
+| #ccffff | Total (sum)                    
 |  243 
 |  ''100.0%'' 
 | 
@@ -5175,14 +4879,11 @@ Only a small percentage of people reading [[MailingLists|git mailing list]] does
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer 
+| #ffffcc | Answer 
 |  Count 
 |  Perc. 
 | 
-|}
-<!-- ##----------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
+|-
 |  Yes                            
 |    182 
 |  26.6% 
@@ -5192,15 +4893,12 @@ Only a small percentage of people reading [[MailingLists|git mailing list]] does
 |    376 
 |  55.1% 
 | 
-|}
-<!-- ##----------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           
+|-
+| #ccffff | Base                           
 |colspan="2" |   558 / 683   
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    
+| #ccffff | Total (sum)                    
 |  558 
 |  81.7% 
 | 
@@ -5215,14 +4913,11 @@ Lack of answers most probably means either: I did not known about #git channel (
 <!-- ## begin table
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer 
+| #ffffcc | Answer 
 |  Count 
 |  % sum 
 | 
-|}
-<!-- ##------------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
+|-
 |  Yes                            
 |  127 
 |   ''59.9%'' 
@@ -5237,15 +4932,12 @@ Lack of answers most probably means either: I did not known about #git channel (
 |  59  
 |   ''27.8%'' 
 | 
-|}
-<!-- ##-------------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           
+|-
+| #ccffff | Base                           
 |colspan="2" | 212 / 683     
 | 
 |-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    
+| #ccffff | Total (sum)                    
 |  212 
 |  ''100.0%'' 
 | 
@@ -5265,43 +4957,43 @@ Problems and suggestion for mailing list:
 
 * I answered my own question and no one even commented it. User and development discussion should be separated. Just release announcements in the user list.
 
- You need another mailing list for users. The current mailing list is very developer centric.
+: You need another mailing list for users. The current mailing list is very developer centric.
 
- The mailing list feels like it's more for developers rather than users and it's a little intimidating to ask newbie questions there. Maybe separate git-users and git-dev lists would make sense.
+: The mailing list feels like it's more for developers rather than users and it's a little intimidating to ask newbie questions there. Maybe separate git-users and git-dev lists would make sense.
 
- Git mailing list needs a users and developers list. Mixing up the two is intimidating with all the traffic and the number of patches and advanced topics that shoot around.
+: Git mailing list needs a users and developers list. Mixing up the two is intimidating with all the traffic and the number of patches and advanced topics that shoot around.
 
- Having separate git-users and git-devel lists would be nice. I might read both but I hate to ask a newbie question on a list where 50% of the submissions contain patches.
+: Having separate git-users and git-devel lists would be nice. I might read both but I hate to ask a newbie question on a list where 50% of the submissions contain patches.
 
- ''(Other users find mailing list very responsive. Splitting the list into either git-devel and git-users, or git and git-announce has its advantages and disadvantages. You can always filter out patch submission and comments on patches thanks to the "[PATCH]" prefix convention present on mailing list.)''
+: ''(Other users find mailing list very responsive. Splitting the list into either git-devel and git-users, or git and git-announce has its advantages and disadvantages. You can always filter out patch submission and comments on patches thanks to the "[PATCH]" prefix convention present on mailing list.)''
 
 * A question or two with no response at all. In hindsight my query was way too long-winded but it's still frustrating to be ignored.
 
- I answered my own question and no one even commented it.
+: I answered my own question and no one even commented it.
 
- ''(See above.)''
+: ''(See above.)''
 
 * The git mailing list is too high traffic to remain on. Maybe split it into a few lower traffic versions?
 
- Biggest problem is that smaller problems are getting lost in the growing size of the mailing list.
+: Biggest problem is that smaller problems are getting lost in the growing size of the mailing list.
 
- The sheer amount of traffic makes the mailing list hard to deal with sometimes.  Getting your email tools set up correctly can help (i.e. auto tag+archive in GMail), but ultimately you still have to wade around in hundreds of emails you don't care about in order to find the ones you do care about.
+: The sheer amount of traffic makes the mailing list hard to deal with sometimes.  Getting your email tools set up correctly can help (i.e. auto tag+archive in GMail), but ultimately you still have to wade around in hundreds of emails you don't care about in order to find the ones you do care about.
 
- ''(Most people find traffic levels on git mailing list OK, see question 58.)''
+: ''(Most people find traffic levels on git mailing list OK, see question 58.)''
 
 * Will not go through corporate firewall.
 
- ''(I think it was about mailing list, but perhaps it was about IRC)''
+: ''(I think it was about mailing list, but perhaps it was about IRC)''
 
 * I no longer subscribe to the GIT mailing list as ML subscription is forbidden at my new job, and I have no time at home to read it all.
 
- ''(You can read git mailing list through many archives / web interfaces, including MARC and GMane ones, and through NNTP (aka. Usenet, aka news) interface on GMane: see [[MailingLists]]. You don't need to be subscribed to git mailing list to post.)''
+: ''(You can read git mailing list through many archives / web interfaces, including MARC and GMane ones, and through NNTP (aka. Usenet, aka news) interface on GMane: see [[MailingLists]]. You don't need to be subscribed to git mailing list to post.)''
 
 * People responded quickly to mailing list queries usually helpfully. However there was occasionally a touch of annoying 'groupthink' to the responses; sometimes new users are just confused and really would be better served by just changing their working habits, but other times there appeared to be a bit of tunnel-vision on the part of the longtime git users.
 * Trolls could be thrown out ;-) Seriously we had only a few there, but they are mighty annoying.
 * Mostly no. But little help on applying email-patches in win32 using GMail.  I'll get there though :)
 
- ''(Late addition of smtpserver (with ability to select port number), smtpuser, smtppass and smtpssl configuration variables / options to git-send-email should help with <u>sending</u> patches using GMail. As to applying email-patches, git-am understand both mbox and maildir formats, not that it help much with win32 mail programs; but you can always try to save email in raw format from GMail WWW interface)''
+: ''(Late addition of smtpserver (with ability to select port number), smtpuser, smtppass and smtpssl configuration variables / options to git-send-email should help with <u>sending</u> patches using GMail. As to applying email-patches, git-am understand both mbox and maildir formats, not that it help much with win32 mail programs; but you can always try to save email in raw format from GMail WWW interface)''
 
 <BR>
 Problems and suggestions for IRC:
@@ -5310,14 +5002,14 @@ Problems and suggestions for IRC:
 * IRC channel seems to respond to newbie git users quite well, but mid-level experience often gets no response.
 * Traffic on the IRC channel is a bit high. It may need to be split into a few different high-level topics in the near future.
 
- ''(IRC channel or git mailing list? I don't remember IRC channel having high traffic...)
+: ''(IRC channel or git mailing list? I don't remember IRC channel having high traffic...)
 
 * It's hard to improve IRC. It's such a poor medium for understanding the communication going on.
 
- ''(On the other hand it is responsive. I think pastebins helps to sidestep limitations of the medium. Nevertheless the main medium of communication is git mailing list, not #git channel.)
+: ''(On the other hand it is responsive. I think pastebins helps to sidestep limitations of the medium. Nevertheless the main medium of communication is git mailing list, not #git channel.)
 * IRC is blocked from work :-( I may try it by tunneling out.
 
- ''(Any suggestions here?)''
+: ''(Any suggestions here?)''
 
 <BR>
 Generic problems and suggestions:
@@ -5325,13 +5017,13 @@ Generic problems and suggestions:
 * Sometimes you get no answer (on git mailing list or #git channel) but that happens
 * People seem to think the problem isn't with git, and yet I find git extremely buggy and non-intuitive. Your "Git in 5 minutes" doesn't even include +x a hook or mention of hooks; neither does [http://git.or.cz/gitwiki/LinusTalk200705Transcript Linus speech]. If you don't +x a hook, try to figure out what is going on. I dare you. Git fails silently a bunch, maybe half of the time by design. Which shouldn't be acceptable. 
 
- Try addressing an ssh address in URL format: it isn't consistent and it will fail in half the apps. Same thing with git-ls-remote: it might have an --upload-pack that works, but this isn't across the board! From my own debugging none of the shell scripts have an --upload-pack option that work.
+: Try addressing an ssh address in URL format: it isn't consistent and it will fail in half the apps. Same thing with git-ls-remote: it might have an --upload-pack that works, but this isn't across the board! From my own debugging none of the shell scripts have an --upload-pack option that work.
 
- ''(Not here. This is question about getting help from people, not about documentation or what you find hardest in GIT.)''
+: ''(Not here. This is question about getting help from people, not about documentation or what you find hardest in GIT.)''
 
 * After the last thread the GIT FAQ is almost begging for a 'Please don't ask about C++' section.
 
- ''(Truly, [[GitFaq|Git FAQ]] (which resides here on Git wiki, but perhaps we should consider extracting it and adding to distribution tarballs) needs maintenance, updating and adding new frequently asked questions. Currently there is no FAQ maintainer.)''
+: ''(Truly, [[GitFaq|Git FAQ]] (which resides here on Git wiki, but perhaps we should consider extracting it and adding to distribution tarballs) needs maintenance, updating and adding new frequently asked questions. Currently there is no FAQ maintainer.)''
 
 <BR>
 The other side: getting help success stories:
@@ -5341,7 +5033,7 @@ The other side: getting help success stories:
 * Mailing list is very interesting especially as I'm working on [[EclipsePlugin|egit]]. IRC is more immediately helpful.
 * I'd like to say that I consider #git to be the most useful IRC channel I've ever been to when it came to getting answers to my questions. Thanks guys!
 
- The IRC channel is wonderful. The people there do a good job with questions.
+: The IRC channel is wonderful. The people there do a good job with questions.
 
 * No problems. In fact the mailing list/IRC could substitute the documentation but I guess that 
 *# does not work in offline mode
@@ -5361,67 +5053,67 @@ Suggestions for git:
 
 * One of the biggest complaints I hear is that [http://www.selenic.com/mercurial/ Mercurial]'s UI is much more 'intuitive' and user friendly.  Perhaps looking at it's operation and comparing/contrasting would be good.
 
- ''(Note that changing names of commands for example might be impossible because of historical reasons and large usebase. On the other hand perhaps this is just a steep learning curve, unavoidable for a power tool.)''
+: ''(Note that changing names of commands for example might be impossible because of historical reasons and large usebase. On the other hand perhaps this is just a steep learning curve, unavoidable for a power tool.)''
 
 * Mercurial has an excellent tutorial which had my team up and running in less than a hour after a week struggling to make git do anything useful.
 
- ''(I hope that late work on [http://www.kernel.org/pub/software/scm/git/docs/user-manual.html "Git User's Manual"] helps here)''
+: ''(I hope that late work on [http://www.kernel.org/pub/software/scm/git/docs/user-manual.html "Git User's Manual"] helps here)''
 
 * Handling of Unicode (UTF-16 encoded) files is a big pain with git. Even SVN can do a diff of them.
 
- ''(The idea that blob is just a bag of bytes will not change; but we have input/output filters, and soon before-diff filters, connected with [http://www.kernel.org/pub/software/scm/git/docs/gitattributes.html gitattributes])''
+: ''(The idea that blob is just a bag of bytes will not change; but we have input/output filters, and soon before-diff filters, connected with [http://www.kernel.org/pub/software/scm/git/docs/gitattributes.html gitattributes])''
 
 * I like how in Subversion the commands work relative to the current directory. With Git I always seem to be dealing with longer paths and/or have to change to the root.
 
- ''(Running git from within directory deep within repository structure should 'just work'. If not, then it is an error... unless in situation like referring to tree-ish, where path is almost always relative to project root).''
+: ''(Running git from within directory deep within repository structure should 'just work'. If not, then it is an error... unless in situation like referring to tree-ish, where path is almost always relative to project root).''
 
 * Keep up the UI simplification and make sure the docs start off with usage somewhat similar to CVS/SVN. I think many users are scared by Git because they see the more powerful commands thrown around too early and get scared.
 
- Git is just too complicated for a typical project. I understand it's probably great for the Linux kernel but for a smaller project like mine ([http://www.mesa3d.org/ Mesa]) it's overkill and a frustration. (...)  With git everything seems hard. (...)  I've ''wasted hours'' trying to figure out git. That alone is a huge issue. I guess I could go into specific details about my problems with git but I've already spent enough time on this survey.
+: Git is just too complicated for a typical project. I understand it's probably great for the Linux kernel but for a smaller project like mine ([http://www.mesa3d.org/ Mesa]) it's overkill and a frustration. (...)  With git everything seems hard. (...)  I've ''wasted hours'' trying to figure out git. That alone is a huge issue. I guess I could go into specific details about my problems with git but I've already spent enough time on this survey.
 
- ''(If you want git to be improved, you should specify details of your problems with git, either should have in this survey (now closed), or now send email to git mailing list (which does not need subscription to post))''
+: ''(If you want git to be improved, you should specify details of your problems with git, either should have in this survey (now closed), or now send email to git mailing list (which does not need subscription to post))''
 
 * Figure out why people find git hard to learn and eliminate those barriers to entry.  Make git more task-oriented rather than data-model-oriented the way it is now.
 
- It's a great idea and a powerful tool but it's got a long way to go before it reaches wider adoption because it's so damn hard to use.
+: It's a great idea and a powerful tool but it's got a long way to go before it reaches wider adoption because it's so damn hard to use.
 
- (...) I'm evaluating Mercurial despite its being based on Python because it feels cleaner and simpler to use. I would prefer to use Git.
+: (...) I'm evaluating Mercurial despite its being based on Python because it feels cleaner and simpler to use. I would prefer to use Git.
 
- ''(I think the 1.4 and 1.5 series is a good step in simplifying git for simple tasks and ordinary user. Core git porcelain improved much, and now there is no need to use plumbing for every-day tasks.)''
+: ''(I think the 1.4 and 1.5 series is a good step in simplifying git for simple tasks and ordinary user. Core git porcelain improved much, and now there is no need to use plumbing for every-day tasks.)''
 
 * No one-pager cheat sheet with the 6 most basic commands on it so people can go use git.
 
- ''(This got corrected. There is git cheat sheet on the Internet; there is link to it on [[GitLinks#head-6af01ffee87e2fae45f78f5302e1d05b9f773a65|[[GitLinks]]]] page, and you can take a look here: [[GitCheatSheet]].)''
+: ''(This got corrected. There is git cheat sheet on the Internet; there is link to it on [[GitLinks#head-6af01ffee87e2fae45f78f5302e1d05b9f773a65|[[GitLinks]]]] page, and you can take a look here: [[GitCheatSheet]].)''
 * Having a git library where other apps can integrate git, along with bindings for Python would be great.
 
- Make it easier to use by graphical clients like [http://kgit.sourceforge.net/ KGit].
+: Make it easier to use by graphical clients like [http://kgit.sourceforge.net/ KGit].
 
- ''(The [[SoC2007Projects#head-f604c29a605c7c5fe1e993ef5aa74ce34f3fb84e|libification project]] from [http://code.google.com/soc/2007/git/about.html Google Summer of Code] would help there, I think)''
+: ''(The [[SoC2007Projects#head-f604c29a605c7c5fe1e993ef5aa74ce34f3fb84e|libification project]] from [http://code.google.com/soc/2007/git/about.html Google Summer of Code] would help there, I think)''
 * I think that moving away from shell scripts to builtins is a necessary step but I don't really like it. It would help if you kept them around, perhaps in contrib/, so that others can learn how to use the plumbing (I learned a lot about git from reading these shell scripts).
 
- ''(Doing it: shell scripts which are moved to builtin are retired to [http://git.kernel.org/?p=git/git.git;a=tree;f=contrib/examples;hb=HEAD contrib/examples/] directory).''
+: ''(Doing it: shell scripts which are moved to builtin are retired to [http://git.kernel.org/?p=git/git.git;a=tree;f=contrib/examples;hb=HEAD contrib/examples/] directory).''
 
 * Building git is a pain. (SHA1 sources being a problem). Can't git use autoconf? Also I've heard people have issues with git's portability (for example some BSD variant). Shell scrips weren't portable to non bash IIRC and often relied on GNU extensions in some programs. Native Windows port is also important.
 
- Probably the toughest challenge for Git IMO is that Mercurial, Darcs and Bazaar are good and similar. Lack of Windows support makes some people rule out Git altogether even though it may be better overall.
+: Probably the toughest challenge for Git IMO is that Mercurial, Darcs and Bazaar are good and similar. Lack of Windows support makes some people rule out Git altogether even though it may be better overall.
 
- I'd like to just stress support for windows and central repositories. (...) In fact most of my friends really wanted to use git but they wanted a solid native port.
+: I'd like to just stress support for windows and central repositories. (...) In fact most of my friends really wanted to use git but they wanted a solid native port.
 
- I think key to the adoption of git is that it is made to run on Windows as well as the other major OSes.
+: I think key to the adoption of git is that it is made to run on Windows as well as the other major OSes.
 
- ''(Git tries to use autoconf in a way that is totally optional, to do detection and write options for Makefile; you are welcome to contribute to configure.ac.  People work on making git more portable, for example trying to make it work with dash, defining in the meantime minimal POSIX-like shell compatibility required. [http://code.google.com/p/msysgit/ Native MinGW Windows port] is in the development)''
+: ''(Git tries to use autoconf in a way that is totally optional, to do detection and write options for Makefile; you are welcome to contribute to configure.ac.  People work on making git more portable, for example trying to make it work with dash, defining in the meantime minimal POSIX-like shell compatibility required. [http://code.google.com/p/msysgit/ Native MinGW Windows port] is in the development)''
 
 * I think that it is very nice that git is in the native OS repositories for Fedora. The Debian version needs updating.
 
- ''(git Makefile has rpm target, and git.spec target; perhaps this is the cause)''
+: ''(git Makefile has rpm target, and git.spec target; perhaps this is the cause)''
 
 * git-blame is manageable (with gc and reduced history etc) but that slowness still seems to be a negative point for many of my peers. I wouldn't mind better performance there either. Maybe some kind of optional indexing for those who want fast blame?
 
- ''(I recall there were some ideas about how to make git-blame faster on git mailing list.  Making it interactive for graphical blame tools reduced latency; there is I think a bit place for easy improvement for reblaming.  Maybe packv4 would help with blame performance...  What is I think unchangeable is the fact that snapshot driven / whole history driven SCMs <u>always</u> would be slower at least a bit than single-file based SCMs.  This tradeoff is not possible to avoid.  But don't forget that git has other tools for examining history, like path (subsystem) limiting, searching commit messages, pickaxe search and graphical history browsing tools like gitk or qgit.)''
+: ''(I recall there were some ideas about how to make git-blame faster on git mailing list.  Making it interactive for graphical blame tools reduced latency; there is I think a bit place for easy improvement for reblaming.  Maybe packv4 would help with blame performance...  What is I think unchangeable is the fact that snapshot driven / whole history driven SCMs <u>always</u> would be slower at least a bit than single-file based SCMs.  This tradeoff is not possible to avoid.  But don't forget that git has other tools for examining history, like path (subsystem) limiting, searching commit messages, pickaxe search and graphical history browsing tools like gitk or qgit.)''
 
 * Get a mascot perhaps O'Reilly animal for O'Reilly GitBook (Git User's Manual) like the [http://www.oreilly.com/catalog/0596004486/ svnbook].
 
- ''(What animal could Git use for O'Reilly? Herd of horses, or a pony?)''
+: ''(What animal could Git use for O'Reilly? Herd of horses, or a pony?)''
 
 * I'm wondering what the overall goal is - git's origin as a neutral ground was fine but it hasn't seemed to take off as a viable alternative for general use.  Do you care about that?  Is it OK that git is it's own little niche?
 
@@ -5430,47 +5122,47 @@ Suggestions about git mailing list:
 
 * Git adoption will be limited by the actions and attitudes of those on the mailing list. 'If you can't say anything nice...'
 
- ''(We are nice, I think... to a point. But perhaps attitude needs some improving.)''
+: ''(We are nice, I think... to a point. But perhaps attitude needs some improving.)''
 
 * The ML had way too much traffic. I think there should be at least a git-patches@ where people submit there patches and git@ remains for user/dev discussions.
 
- ''(Most users find level of traffic on git mailing list O.K. It is not that hard to separate patch submission and their discussion from the rest of traffic thanks to [PATCH] prefix convention used.)''
+: ''(Most users find level of traffic on git mailing list O.K. It is not that hard to separate patch submission and their discussion from the rest of traffic thanks to [PATCH] prefix convention used.)''
 
 <BR>
 Suggestions and comments about this survey:
 
 * Various questions need 'other' options such as the programming language question. Various questions that already have 'other' as a possible choice need a text box to fill in the specifics.
 
- ''(I am not sure if it is possible mixing radiobutton/checkbox with text field with currently used ''free'' survey service, [http://www.survey.net.nz survey.net.nz])''
+: ''(I am not sure if it is possible mixing radiobutton/checkbox with text field with currently used ''free'' survey service, [http://www.survey.net.nz survey.net.nz])''
 
 * The text fields (and text areas) of this survey are way too small!
 
- ''(I am not sure if changing this is possible with currently used ''free'' survey service, [http://www.survey.net.nz survey.net.nz])''
+: ''(I am not sure if changing this is possible with currently used ''free'' survey service, [http://www.survey.net.nz survey.net.nz])''
 
 * You should do a survey of feature requests.
 
- ''(See questions 13, 38, 41 and especially 37)''
+: ''(See questions 13, 38, 41 and especially 37)''
 
 * Shorten survey length. This survey is too damn long. Make the survey shorter!
 
- Cut down the number of questions on this survey by a factor of 4.
+: Cut down the number of questions on this survey by a factor of 4.
 
- ''(I think removing the questions which asks very similar question but in different context be a good start. But that aside: which questions should be dropped, which concatenated (and which split); which are useful and which are not?)''
+: ''(I think removing the questions which asks very similar question but in different context be a good start. But that aside: which questions should be dropped, which concatenated (and which split); which are useful and which are not?)''
 
 * Questions not asked: what can be improved on [[GitWiki]], workflows used and tools used, kind of repository hosting used for project, programming experience level and version control experience, using git for non-programming repositories like ikiwiki or documents, perceived git stability and number of bugs.
 
- ''(The surveys is very long as it is now. Those questions are nice, but it would make survey too long I think.)''
+: ''(The surveys is very long as it is now. Those questions are nice, but it would make survey too long I think.)''
 
 * The survey asks about new features that are not in a stable version of git yet. git-stash comes to mind. This is silly. Not everybody will track your development branch. I certainly don't. I don't for other SCMs I use either.
 
- ''(I tried to put only features which are in released, i.e. numbered, version. [http://www.kernel.org/pub/software/scm/git/docs/git-stash.html git-stash] is in 1.5.3, see [http://www.kernel.org/pub/software/scm/git/docs/RelNotes-1.5.3.txt Documentation/RelNotes-1.5.3.txt])''
+: ''(I tried to put only features which are in released, i.e. numbered, version. [http://www.kernel.org/pub/software/scm/git/docs/git-stash.html git-stash] is in 1.5.3, see [http://www.kernel.org/pub/software/scm/git/docs/RelNotes-1.5.3.txt Documentation/RelNotes-1.5.3.txt])''
 
 * Regarding Q19 (How do you obtain GIT?). I actually use all three forms on different systems.
 ** Mac: pull from MacPorts
 ** Ubuntu: from git.git
 ** remote systems: tar balls.
 
- ''(Should it be made multiple choice question, then?)''
+: ''(Should it be made multiple choice question, then?)''
 
 * From survey maintainer: reduce number of free-form questions if possible.  Move to multiple choice or single choice questions, with 'other' being one of answers and question below to explain what 'other' mean.  This way we can have easy analysis of coded response form question with flexibility of free-form question.
 
@@ -5479,12 +5171,16 @@ Some other comments:
 
 * I've been so busy with other projects. I didn't realize so many interfaces exist.  Thanks to this survey I'll spend some time checking out the wiki for the other interfaces.
 
- I didn't even know about any of the new git features listed in question 43.
+: I didn't even know about any of the new git features listed in question 43.
 
- I need to get an up to date version as there are things mentioned in this survey that I don't know about.
+: I need to get an up to date version as there are things mentioned in this survey that I don't know about.
 
 * At the 'Solutions Linux 2007' exhibition in Paris I have been looking for a service provider that could propose some training sessions for Git. I couldn't find one. Maybe in 2008...
 * Perhaps we should have git blog, with at least "What's in", "Note from maintainer" and "MSysGit herald" announcements.
+
+= Footnotes =
+
+<references/>
 
 = References =
 
