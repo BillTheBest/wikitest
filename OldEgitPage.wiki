@@ -26,7 +26,7 @@ number of its own. My guess is that this will happen in August. Meanwhile please
 try the master branch. It can clone from Eclipse, the commandline client can fetch
 and push. (see the inconsistency here?, hence no new version). Changes in the repository
 from the command line can be picked up quickly by Eclipse and you can change the baseline
-for [[QuickDiff]].
+for QuickDiff.
 
 LICENSE CHANGE:
 The most interesting change for some people may be the license change. The Eclipse specific
@@ -39,6 +39,7 @@ Some ways to keep informed about Egit development.
 
 * <s>[http://repo.or.cz/w/egit.git?a=log Revision log]</s>
 * [http://git.or.cz/gitwiki/GitCommunity Git Mailing lists, IRC, newsgroups]
+
 = Links =
 * <s>[http://repo.or.cz/w/egit.git gitweb]</s> (clone)
 * Get the source: git clone <s>git://repo.or.cz/egit.git</s>
