@@ -1,6 +1,6 @@
 ''Git'' is a modern [[DistributedSCM|distributed version control system]] focused on speed, efficiency and real-world usability on large projects. More generally, Git can serve as a general tool for directory content tracking.
 
-Git was created by [[Linus Torvalds]] with assistance from a loosely-knit team of hackers across the Net.  It is currently maintained by [[Junio C. Hamano]].  While Git has no official logo the community has adopted a [[GitRelatedLogos|few favorites]].
+Git was created by Linus Torvalds with assistance from a loosely-knit team of hackers across the Net.  It is currently maintained by Junio C. Hamano.  While Git has no official logo the community has adopted a [[GitRelatedLogos|few favorites]].
 
 ----
 ''Table of contents:''
@@ -30,7 +30,7 @@ Git was designed to be extremely fast (seconds per patch), distributed SCM with 
 * ''Cryptographic authentication of history.'' The Git history is stored in such a way that the name of a particular revision (a "commit" in Git terms) depends upon the complete development history leading up to that commit. Once it is published, it is not possible to change the old versions without it being noticed. Also, tags can be cryptographically signed.
 * ''Toolkit design.'' Following the Unix tradition, Git is a collection of many small tools written in C, and a number of scripts that provide convenient wrappers. It is easy to chain the components together to do other clever things.
 * ''Pluggable merge strategies.'' As part of its toolkit design, git has a well-defined model of an incomplete merge, and it has multiple algorithms for completing it, culminating in telling the user that it is unable to complete the merge automatically and manual editing is required. It is thus easy to experiment with new merge algorithms.
-Besides providing a version control system, the Git project provides a generic low-level toolkit for tree history storage and directory content management. Traditionally, the toolkit is called the [[Plumbing|plumbing]]. Several other projects (so-called ''[[Porcelain|porcelains]]'') offer compatible version control interfaces -- see the [http://git.or.cz/#tools related tools page on Git Homepage] and [[InterfacesFrontendsAndTools]] page on this wiki.
+Besides providing a version control system, the Git project provides a generic low-level toolkit for tree history storage and directory content management. Traditionally, the toolkit is called the plumbing. Several other projects (so-called ''[[Porcelain|porcelains]]'') offer compatible version control interfaces -- see the [http://git.or.cz/#tools related tools page on Git Homepage] and [[InterfacesFrontendsAndTools]] page on this wiki.
 
 == Design Consequences ==
 Some might say that these are disadvantages
