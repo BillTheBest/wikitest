@@ -1,25 +1,25 @@
-= [[GitTogether]] =
+= GitTogether =
 These are events when git developers (and in one case, one user) physically meet in the same place.
 
-= [[GitTogether]] '09 =
+= GitTogether '09 =
 
-2 [[GitTogether]] took place in 2009:
+2 GitTogether took place in 2009:
 
-== [[GitTogether]] '09 ==
+== GitTogether '09 ==
 
 ''October 26(Mon)-28(Wed) in [http://maps.google.com/maps?f=q&hl=en&q=Amphitheatre+Pkwy,+Mountain+View,+California+94043,+United+States&sll=37.40293,-121.952735&sspn=0.008565,0.012081&ie=UTF8&cd=2&geocode=FcEHOwIdfiW5-A&ll=37.421572,-122.083619&spn=0.017127,0.024161&t=h&z=16&iwloc=addr Mountain View, California]''
 
-For further details, see the [[GitTogether]]09 planning page.
+For further details, see the [[GitTogether09]] planning page.
 
-== "Alles Wird Git" Berlin [[GitTogether]] '09 ==
+== "Alles Wird Git" Berlin GitTogether '09 ==
 
 See [[AllesWirdGit_'09]].
 
-= [[GitTogether]] '08 =
-[[GitTogether]]08 took place October 27-29 2008 in Mountain View, California, with around 25 developers and users.
+= GitTogether '08 =
+[[GitTogether08]] took place October 27-29 2008 in Mountain View, California, with around 25 developers and users.
 
-= Previous [[GitTogether]] =
-One such event happened in 2007 with a few developers.  It was an informal, fun time, but not technical.
+= Previous GitTogether =
+One such event happened in 2007 with a few developers.  It was an informal, fun time, but not technical.  Dscho was there.  Gitney was there.  And Steven Grimm was there.
 
 -----
 [[Category:Events]]
