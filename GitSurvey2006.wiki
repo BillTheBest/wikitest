@@ -1,4 +1,1 @@
-<!-- #REDIRECT [[GitSurvey]]
- -->
-
-__NOTOC__
+#REDIRECT [[GitSurvey]]
