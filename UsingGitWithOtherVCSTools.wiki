@@ -7,7 +7,7 @@ Typical workflows:
 
 = Working with foreign repositories =
 
-See [http://kernel.org/git/?p=git/git.git;a=blob;f=Documentation/howto/using-topic-branches.txt Using Topic Branches HOWTO] and [[StGIT]].
+See [http://kernel.org/git/?p=git/git.git;a=blob;f=Documentation/howto/using-topic-branches.txt Using Topic Branches HOWTO] and StGIT.
 
 == CVS ==
 
