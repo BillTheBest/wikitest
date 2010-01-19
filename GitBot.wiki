@@ -4,7 +4,7 @@
 
 == Goal ==
 
-[[GitBot]] allows you to scan Git repositories for objects mentioned in an IRC channel. This is useful for referring to a specific commit or file, which can then be viewed online using the link [[GitBot]] provides. Currently, only Gitweb and local repositories are supported. As soon as [[GitHub]] has a suitable API, support for [[GitHub]] will also be added.
+[[GitBot]] allows you to scan Git repositories for objects mentioned in an IRC channel. This is useful for referring to a specific commit or file, which can then be viewed online using the link [[GitBot]] provides. Currently, only Gitweb and local repositories are supported. As soon as GitHub has a suitable API, support for GitHub will also be added.
 
 == Usage ==
 
