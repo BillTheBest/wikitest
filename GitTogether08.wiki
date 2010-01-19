@@ -337,8 +337,8 @@ If you are traveling far and wish to stay some extra time there are many activit
 * [http://www.nps.gov/seki/ Sequoia & Kings Canyon National Park] about a 4 hour drive from Mountain View.
 
 == Photos ==
-* http://gallery.eaglescrag.net/v/Events/[[GitTogether]]+2008/
-* http://picasaweb.google.com/dsymonds/[[GitTogether]]08
+* http://gallery.eaglescrag.net/v/Events/GitTogether+2008/
+* http://picasaweb.google.com/dsymonds/GitTogether08
 * [http://gitster.livejournal.com/17887.html GitTogether Group Photo] by Junio C Hamano
 
 == Trackback and Links ==
