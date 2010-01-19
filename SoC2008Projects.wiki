@@ -159,7 +159,7 @@ There are ''two'' projects dealing with fully managed Git implementation (rewrit
 
 ''Status:'' [http://thread.gmane.org/gmane.comp.version-control.git/100736/focus=7263 Nothing came out of it]. One student was going to focus on the front-end, the other on the back-end.
 
-== [[DocBox]] project ==
+== DocBox project ==
 
 DocBox sits on top of RDoc, uses wiki-like interface, and makes use of either ''Git'' or SVN version control systems.
 
@@ -171,6 +171,7 @@ DocBox sits on top of RDoc, uses wiki-like interface, and makes use of either ''
 
 ----
 ----
+
 = References =
 * [http://permalink.gmane.org/gmane.comp.version-control.git/80050 Welcome to Git's GSoC 2008!] post by Shawn O. Pearce (administrator for GSoC 2008 for git) on git mailing list
 * [http://code.google.com/soc/2008/git/about.html Git Development Community GSoC 2008] page
