@@ -10,13 +10,13 @@ Those are public Git hosting sites where any project can be hosted, perhaps with
 * [http://github.com/ GitHub] is public Git hosting site for both public, open source projects and private, proprietary codes. GitHub is not open source. Free accounts (applicable to Open Source  projects) are limited to 300MB disk space. Also, if the original author chooses to remove her account, it also takes out all the repositories created by her.
 ** [http://railsontherun.com/2008/3/3/how-to-use-github-and-submit-a-patch Rails on the Run - How to use github and submit a patch]
 ** [http://tomayko.com/writings/github-is-myspace-for-hackers GitHub: My Kind of Social Software] by Ryan Tomayko
-** [http://railstips.org/2008/2/16/git-and-github Git and GitHub // [[RailsTips].org by John Nunemaker]]
+** [http://railstips.org/2008/2/16/git-and-github Git and GitHub] on [http://railstips.org RailsTips] by John Nunemaker
 ** [http://pauldowman.com/2008/07/26/got-git/ Paul Dowman » Blog Archive » Got Git] (why people chose GitHub).
 * [http://codebasehq.com Codebase] is a Git hosting service with full online source browser, changeset viewer, deployment tracking, along with ticketing and other project management functionality. Designed for private/company projects.
 ** [http://drewblas.com/2009/03/07/my-new-love-codebase-hq/ Drew Blas on Codebase and Github]
 * [http://unfuddle.com/ Unfuddle] (Software Project Management: Git and Subversion Hosting), free (or different payment plans) but not open source.
 * [http://www.indefero.net InDefero] offers free Git hosting with private/public projects, bug tracking, code review, file sharing and more (it started as a Google Code clone), the full code of InDefero is available (GPL).
-* [http://savannah.gnu.org Savannah] ([http://git.sv.gnu.org/gitweb/ gitweb]) is hosting facility for [http://www.gnu.org/gnu/thegnuproject.html GNU software], with companion site [http://savannah.nongnu.org savannah.nongnu.org] for hosting [http://www.gnu.org/philosophy/free-sw.html Free Software]. Savannah uses [https://savannah.nongnu.org/p/savane-cleanup clean-up branch of Savane], which does have [https://savannah.gnu.org/maintenance/Git Git support]<BR> ''See also:'' [http://savannah.gnu.org/maintenance/UsingGit [[UsingGit]]] (user) documentation.
+* [http://savannah.gnu.org Savannah] ([http://git.sv.gnu.org/gitweb/ gitweb]) is hosting facility for [http://www.gnu.org/gnu/thegnuproject.html GNU software], with companion site [http://savannah.nongnu.org savannah.nongnu.org] for hosting [http://www.gnu.org/philosophy/free-sw.html Free Software]. Savannah uses [https://savannah.nongnu.org/p/savane-cleanup clean-up branch of Savane], which does have [https://savannah.gnu.org/maintenance/Git Git support]<BR> ''See also:'' [http://savannah.gnu.org/maintenance/UsingGit UsingGit] (user) documentation.
 * [http://www.sourceforge.net SourceForge.net] software development site
 * [http://sourceforge.jp/ SourceForge.JP] provides Git hosting for open source projects, including gitweb. See [http://sourceforge.jp/forum/forum.php?forum_id=16362 documentation]
 * [http://sshcontrol.com/ SSHControl.com] provides public free and paid Git, Subversion, and Mercurial project hosting over SSH.
@@ -29,7 +29,7 @@ Those are public Git hosting sites where any project can be hosted, perhaps with
 * [http://www.a2hosting.com/ A2Hosting] provides paid Git hosting over SSH.
 * [http://www.projectlocker.com ProjectLocker] offers Git hosting and integration with Trac. Repositories are private, designed for businesses. Free plans give limited space and users, and paid plans offer increased storage capacity and number of users.
 * [http://sourcerepo.com SourceRepo] provides paid Git hosting along with Trac project management.
-* [http://www.cipherhive.com/ CipherHive] is a free Git/Webdav hosting repository for Open Source Developers. [http://hotpepperhosting.com HotPepperHosting] the developer of ![[CipherHive]] offer custom Git/Webdav repository solutions for proprietary developers needs.
+* [http://www.cipherhive.com/ CipherHive] is a free Git/Webdav hosting repository for Open Source Developers. [http://hotpepperhosting.com HotPepperHosting], the developers of [http://www.cipherhive.com/ CipherHive], offer custom Git/Webdav repository solutions for proprietary developers needs.
 * [http://gitfarm.appspot.com GitFarm] A free private git hosting service built upon Google App Engine technology, good for small groups or individual developers.
 * [http://repositoryhosting.com repositoryhosting.com] one flat price of $6/month, 2GB of space (WebDAV + repo), Trac project management, fully customizable, regular encrypted backups to EC2
 
