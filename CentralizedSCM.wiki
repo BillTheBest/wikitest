@@ -1,4 +1,2 @@
-<!-- #REDIRECT CentralisedSCM
- -->
-
-__NOTOC__
+#REDIRECT CentralisedSCM
+f
