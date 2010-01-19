@@ -58,3 +58,5 @@ to easily extract the documentation.
 For people on OS X (and on distributions that do not manage XML catalog files automatically), write-up by Steven Grimm may be helpful: http://article.gmane.org/gmane.comp.version-control.git/35565
 
 __NOTOC__
+
+[[Category:GitDocumentation]]
