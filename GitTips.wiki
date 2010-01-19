@@ -35,7 +35,7 @@ will let you alter the commit message and will also automatically add a sign-off
 == How to change commits deeper in history ==
 Since history in Git is immutable, fixing anything but the most recent commit (commit which is not branch head) requires that the history is rewritten from the changed commit and forward.
 
-You can use [[StGIT]] for that, initialize branch if necessary, uncommitting up to the commit you want to change, pop to it if necessary, make a change then refresh patch (with <code><nowiki>-e</nowiki></code> option if you want to correct commit message), then push everything and stg commit.
+You can use StGIT for that, initialize branch if necessary, uncommitting up to the commit you want to change, pop to it if necessary, make a change then refresh patch (with <code><nowiki>-e</nowiki></code> option if you want to correct commit message), then push everything and stg commit.
 
 Or you can use rebase to do that. Create new temporary branch, rewind it to the commit you want to change using <code><nowiki>git reset --hard</nowiki></code>, change that commit (it would be top of current head), then rebase branch on top of changed commit, using <code><nowiki>git rebase --onto <tmp branch> <commit after changed> <branch></nowiki></code>.
 
