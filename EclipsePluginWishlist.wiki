@@ -18,14 +18,14 @@ Having several projects in a branch as can be common in maven-based Java project
 == Fetch UI ==
 Fetching changes from a remote repository.
 
-Fetch is fully supported within JGit through the [[FetchProcess]] class, including implementations of git://, git+ssh://, http:// and amazon-s3:// (a modified HTTP specialized for Amazon S3).
+Fetch is fully supported within JGit through the FetchProcess class, including implementations of git://, git+ssh://, http:// and amazon-s3:// (a modified HTTP specialized for Amazon S3).
 
 The Eclipse UI however does not have access to this class, so you can't fetch within the plugin.
 
 == Push ==
 Pushing changes to a remote repository.
 
-Push is fully supported in JGit through the [[PushProcess]] class, for all protocols that fetch is supported on.
+Push is fully supported in JGit through the PushProcess class, for all protocols that fetch is supported on.
 
 ''(as of mid-August)'' The Eclipse UI has patches pending from Marek, as a result of his GSoC 2008 project.  We hope to get those merged real soon.
 
@@ -38,7 +38,7 @@ Again, like fetch I'd like to keep egit/jgit 100% pure Java and implement merge-
 Rebasing one local branch on another, and the rebase workflow.
 
 == Support linked URIs ==
-[[GitProvider]] does not currently support linked URIs
+GitProvider does not currently support linked URIs
 
 Linked directories are mostly supported, but only to your local filesystem.  Linking to another protocol (e.g. http://) will probably never be supported as we cannot (easily) control the contents of a remote HTTP server.
 
@@ -47,8 +47,6 @@ Stacked Git operations. (Personally I have dropped this and will opt for the int
 
 == Tag ==
 Make a tag and delete tags
-
-[[Anchor(gitignore)]]
 
 == Gitignore ==
 Add the "Add to .gitignore" entry menu.
