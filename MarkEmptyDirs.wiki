@@ -180,7 +180,7 @@ Consequently, after updating the placeholder files the tree should look like thi
                 *--.emptydir
 </nowiki></pre>
 
-Using the `[[MarkEmptyDir]]s` tool for synchronization one would simply do (again):
+Using the `MarkEmptyDirs` tool for synchronization one would simply do (again):
 
 <pre><nowiki>
 $> MarkEmptyDirs.exe PROJECT
