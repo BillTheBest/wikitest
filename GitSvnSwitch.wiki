@@ -51,6 +51,6 @@ these settings should never be changed once they are set
 Clearly, here I change the rewriteRoot option in contradition with <code><nowiki>man git-svn</nowiki></code>. So use at your own risk! :)
 
 ----
-* [[Category::GitDocumentation]]
+[[Category:GitDocumentation]]
 
 __NOTOC__
