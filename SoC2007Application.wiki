@@ -1,4 +1,1 @@
-<!-- #REDIRECT Soc2007Application
- -->
-
-__NOTOC__
+#REDIRECT [[Soc2007Application]]
