@@ -16,7 +16,7 @@ $ git commit        # commit all changes, edit changelog entry
 $ git rm --cached <file>... # ridiculously complicated command to undo, in case you forgot .gitignore
 </nowiki></pre>
 
-Git will look for a file named [[.gitignore]] in the root of your
+Git will look for a file named .gitignore in the root of your
 repository which contains a set of shell patterns to ignore in
 file paths.
 
