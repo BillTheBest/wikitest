@@ -30,14 +30,12 @@ terminated by a newline. <pre><nowiki>
 <commit sha1> <parent sha1> [<parent sha1>]*
 </nowiki></pre>
 
-* [http://www.ussg.iu.edu/hypermail/linux/kernel/0604.0/1249.html An example script],
- for downloading the historic linux kernel pack file and inserting grafts point.
+* [http://www.ussg.iu.edu/hypermail/linux/kernel/0604.0/1249.html An example script], for downloading the historic linux kernel pack file and inserting grafts point.
 
-* A more readable [http://repo.or.cz/w/elinks.git?a=blob;f=contrib/grafthistory.sh;hb=HEAD history grafting script] used by
- the ELinks project.
+* A more readable [http://repo.or.cz/w/elinks.git?a=blob;f=contrib/grafthistory.sh;hb=HEAD history grafting script] used by  the ELinks project.
 
 ----
-[[Category::GitDocumentation]]
-[[Category::Glossary]]
+[[Category:GitDocumentation]]
+[[Category:Glossary]]
 
 __NOTOC__
