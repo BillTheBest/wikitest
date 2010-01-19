@@ -216,9 +216,9 @@ close FH;
 
 </nowiki></pre>
 
-== Output a commit graph with [[GraphViz]]' "dot" tool ==
+== Output a commit graph with GraphViz' "dot" tool ==
 
-The [[GraphViz]] suite contains programs to render graphs nicely.  Since the revision graph is a ''DAG'' (directed acyclic graph), you might want to look at the revision graph in this manner.
+The GraphViz suite contains programs to render graphs nicely.  Since the revision graph is a ''DAG'' (directed acyclic graph), you might want to look at the revision graph in this manner.
 
 Call this script with rev-list parameters to get input for "dot".
 
