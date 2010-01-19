@@ -85,8 +85,8 @@ Miscellaneous git-related links, not including [http://git.or.cz/ Git homepage],
 
 == Articles and Papers ==
 * [http://www-128.ibm.com/developerworks/ developerWorks: IBM's resource for developers]
-  *[http://www-128.ibm.com/developerworks/linux/library/l-git/?ca=dgr-lnxw961UsingGit Manage source code using Git] by Eli M. Dow. From 29 Jun 2006, updated 06 Jul 2006. Level: Intermediate.
-  *[http://www-128.ibm.com/developerworks/linux/library/l-vercon/index.html?ca=drs- Version control for Linux] by M. Tim Jones. From 10 Oct 2006, updated 16 Oct 2006. Level: Introductory.
+**[http://www-128.ibm.com/developerworks/linux/library/l-git/?ca=dgr-lnxw961UsingGit Manage source code using Git] by Eli M. Dow. From 29 Jun 2006, updated 06 Jul 2006. Level: Intermediate.
+**[http://www-128.ibm.com/developerworks/linux/library/l-vercon/index.html?ca=drs- Version control for Linux] by M. Tim Jones. From 10 Oct 2006, updated 16 Oct 2006. Level: Introductory.
 * [http://eagain.net/articles/git-for-computer-scientists/ Git for Computer Scientists] by Tv (Tommi Virtanen), on Tv's cobweb.
 * [http://www-cs-students.stanford.edu/~blynn/gitmagic/ Git Magic] by Ben Lynn (a guide to git)
 
