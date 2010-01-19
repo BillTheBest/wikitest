@@ -1,4 +1,4 @@
-This page is for recording (or discussion) of [[GitWikiSuggestions|Suggestions]] about the the [[FrontPage|[[GitWiki]]]] Web site.
+This page is for recording (or discussion) of [[GitWikiSuggestions|Suggestions]] about the the [[FrontPage|GitWiki]] Web site.
 
 Make sure your suggestion doesn’t exist already or that your question has already been answered by checking [[HelpContents]].
 
@@ -19,15 +19,21 @@ I thought it safer and more polite to leave the page rename fix to someone other
 The [[GitSvnComparsion]] page has very good content, but it would be nice to know the differences between the two in how binary files are stored and whether either uses a differential backup vs a file level backup.
 
 == Parsers ==
-It would be nice to have installed parsers from [[MoinMoin:[[ParserMarket]]|[[ParserMarket]]]] (see [[MoinMoin:[[ParserMarket]]#head-17c33967bbb4345a453627b944bad1f1bc4b2791|Installation Instructions]] there) for languages used in [[Git]], [[Cogito]] and examples, i.e for ''Perl'', ''shell'' and e.g. ''diff''.
-* Perl parsers from [[MoinMoin:[[ParserMarket]]|[[ParserMarket]]]]: [[MoinMoin:parser/Perl|parser/Perl]] by Johannes Hoerburger ''(`.py` extension needs to be aded)''.
-* diff output parsers from [[MoinMoin:[[ParserMarket]]|[[ParserMarket]]]]: [[MoinMoin:parser/diff.py|parser/diff.py]] by Emilio Lopes.
+'''Note: these suggestions were moved from a MoinMoin Wiki, so they do not apply in that form anymore.'''
+
+It would be nice to have installed parsers from [http://moinmo.in/ParserMarket ParserMarket] (see [http://moinmo.in/ParserMarket#head-17c33967bbb4345a453627b944bad1f1bc4b2791 Installation Instructions] there) for languages used in [[Git]], [[Cogito]] and examples, i.e for ''Perl'', ''shell'' and e.g. ''diff''.
+* Perl parsers from [http://moinmo.in/ParserMarket ParserMarket]: [http://moinmo.in/parser/Perl parser/Perl] by Johannes Hoerburger ''(`.py` extension needs to be aded)''.
+* diff output parsers from [http://moinmo.in/ParserMarket ParserMarket]: [http://moinmo.in/parser/diff.py parser/diff.py] by Emilio Lopes.
 
 == Error in GUI editing ==
-When editing in gui mode, and pressing text-mode, all blank lines are removed, and ({) curly-braces are replaced with square ones ([), causing things like \{\{TableOfContents(2)\}\} and \{\{BR\}\} not to work! This especially seams to be a problem on the [[InterfacesFrontendsAndTools]] page.
+'''Note: these suggestions were moved from a MoinMoin Wiki, so they do not apply in that form anymore.'''
 
-== [[InterWiki]] Links ==
-It would be nice if there were shorter <<[[InterWiki]]>> links for linking to the [[Git]] and [[Cogito]] [[GitDocumentation|documentation]], both HTML version and gitweb sources. One of the way of adding InterWiki link is to modify site's `data/intermap.txt` file.
+When editing in gui mode, and pressing text-mode, all blank lines are removed, and ({) curly-braces are replaced with square ones ([), causing things like {{TableOfContents(2)}} and {{BR}} not to work! This especially seams to be a problem on the [[InterfacesFrontendsAndTools]] page.
+
+== InterWiki Links ==
+'''Note: these suggestions were moved from a MoinMoin Wiki, so they do not apply in that form anymore.'''
+
+It would be nice if there were shorter <<InterWiki>> links for linking to the [[Git]] and [[Cogito]] [[GitDocumentation|documentation]], both HTML version and gitweb sources. One of the way of adding InterWiki link is to modify site's `data/intermap.txt` file.
 
 For git and cogito manpages online it would mean that instead of writing for example
 <pre><nowiki>
@@ -50,7 +56,7 @@ For links to file in the git.git source via gitweb, instead of using for example
 </nowiki></pre>
 
 ----
-Would be also of use to have [[InterWiki]] links for common [[GitCommunity|[[GitMailingList]]]] archives, i.e. MARC and GMane, similarly like there is now <code><nowiki>MsgID</nowiki></code> InterWiki link?
+Would be also of use to have InterWiki links for common [[GitCommunity|GitMailingList]] archives, i.e. MARC and GMane, similarly like there is now <code><nowiki>MsgID</nowiki></code> InterWiki link?
 
 = New Pages =
 
@@ -77,7 +83,7 @@ Here a few suggestions for new pages.
 
 = Merging pages =
 
-== [[IndexFile]] and [[WhatIsIndex]] ==
+== [[IndexFile]] and [[WhatIsTheIndex]] ==
 
 * [[IndexFile]] and [[WhatIsTheIndex]] pages are about nearly the same topic; perhaps they should be merged into one page.
 
