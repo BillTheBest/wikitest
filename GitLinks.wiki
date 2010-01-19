@@ -45,28 +45,28 @@ Miscellaneous git-related links, not including [http://git.or.cz/ Git homepage],
 == Mailing list digests ==
 * [http://www.kerneltraffic.org/git/index.html Git Traffic] - Newsletter that summarises events on the git mailing list<BR> (only one issue, for 2 May 2005, seems abandoned)
 * [http://lwn.net/ LWN.net] (Linux Weekly News)
-  *[http://lwn.net/Articles/131657/ The guts of git]
-  *[http://lwn.net/Articles/132796/ A very quick guide to starting with git]
-  *[http://lwn.net/Articles/210045/ Branching and merging with git (draft)]
-  *[http://lwn.net/Articles/246381/ Re: clarification on git, central repositories and commit access lists]
-  *[http://lwn.net/Articles/277872/ Bisection divides users and developers]
-  *[http://lwn.net/Articles/317154/ Fully automated bisecting with "git bisect run"]
+**[http://lwn.net/Articles/131657/ The guts of git]
+**[http://lwn.net/Articles/132796/ A very quick guide to starting with git]
+**[http://lwn.net/Articles/210045/ Branching and merging with git (draft)]
+**[http://lwn.net/Articles/246381/ Re: clarification on git, central repositories and commit access lists]
+**[http://lwn.net/Articles/277872/ Bisection divides users and developers]
+**[http://lwn.net/Articles/317154/ Fully automated bisecting with "git bisect run"]
 * [http://kerneltrap.org KernelTrap] (all pre 1.0 release):
-  *[http://kerneltrap.org/node/4982 Managing the Kernel Source With 'git']
-  *[http://kerneltrap.org/node/4998 Continued git Development]
-  *[http://kerneltrap.org/node/5003 Beginner's Guide To Git]
-  *[http://kerneltrap.org/node/5014 Importing The Kernel Into git, Merging]
-  *[http://kerneltrap.org/node/5026 Git Web Interfaces]
-  *[http://kerneltrap.org/node/5059 Official Git Web Interface]
-  *[http://kerneltrap.org/node/5011 git for beginners]
-  *[http://kerneltrap.org/node/5496 Junio Hamano New Git Maintainer]
-  *[http://kerneltrap.org/node/5557 Using Git For More Than The Kernel]
-  *[http://kerneltrap.org/node/5993 Git Milestone, 1.0 Release]
+**[http://kerneltrap.org/node/4982 Managing the Kernel Source With 'git']
+**[http://kerneltrap.org/node/4998 Continued git Development]
+**[http://kerneltrap.org/node/5003 Beginner's Guide To Git]
+**[http://kerneltrap.org/node/5014 Importing The Kernel Into git, Merging]
+**[http://kerneltrap.org/node/5026 Git Web Interfaces]
+**[http://kerneltrap.org/node/5059 Official Git Web Interface]
+**[http://kerneltrap.org/node/5011 git for beginners]
+**[http://kerneltrap.org/node/5496 Junio Hamano New Git Maintainer]
+**[http://kerneltrap.org/node/5557 Using Git For More Than The Kernel]
+**[http://kerneltrap.org/node/5993 Git Milestone, 1.0 Release]
 * [http://kerneltrap.org KernelTrap] (post 1.0 release):
-  *[http://kerneltrap.org/node/11753 Debugging With "git bisect"]
-  *[http://kerneltrap.org/node/13996 Historical Kernel Tree with Git]
-  *[http://kerneltrap.org/node/14205 Graphical Git Statistics]
-  *[http://kerneltrap.org/Linux/Git_Management Git Management] (about git workflows)
+**[http://kerneltrap.org/node/11753 Debugging With "git bisect"]
+**[http://kerneltrap.org/node/13996 Historical Kernel Tree with Git]
+**[http://kerneltrap.org/node/14205 Graphical Git Statistics]
+**[http://kerneltrap.org/Linux/Git_Management Git Management] (about git workflows)
 
 == RSS feeds ==
 
