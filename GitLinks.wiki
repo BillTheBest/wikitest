@@ -19,7 +19,7 @@ Miscellaneous git-related links, not including [http://git.or.cz/ Git homepage],
 
 = "Using Git" pages =
 * [http://www.linux-mips.org/wiki/Git Git] and [http://www.linux-mips.org/wiki/WhatIsGit What Is Git] on Linux/MIPS wiki.
-* [http://wiki.winehq.org/GitWine [[GitWine] tutorial]] at WINE wiki.
+* [http://wiki.winehq.org/GitWine GitWine tutorial] at WINE wiki.
 * [http://freedesktop.org/wiki/Infrastructure/git Using Git] at freedesktop.org
 * [http://www.denx.de/en/Documents/GitDocs Software Configuration Management using `git`] from DENX, home of the U-Boot boot loader.
 * [http://wiki.xmms2.xmms.se/index.php/Download_XMMS2 Download XMMS2] and [http://wiki.xmms2.xmms.se/index.php/Using_Git Using Git] at XMMS2 wiki.
@@ -36,8 +36,7 @@ Miscellaneous git-related links, not including [http://git.or.cz/ Git homepage],
 * [http://wiki.u32.net/index.php?title=Git Git] — some notes taken while was learning git by Subversion user, [http://u32.net/Git/publishing/ Git/publishing] describes how to publish your archive via http and how to setup gitweb. On [http://wiki.u32.net wiki.u32.net] (MediaWiki powered wiki).
 * [http://ktown.kde.org/~zrusin/git/ Git cheat sheet] prepared by Zack Rusin and [http://jan-krueger.net/development/git-cheat-sheet-extended-edition Git cheat sheet, extended edition] prepared by Jan Krueger
 * [http://students.ceid.upatras.gr/~sxanth/ungit.html Complete Introduction to git] (aka "Getting into SCM with git") attempts to explain the git system to people who have no, or minimal experience on SCMs and version control tools.
-* [http://cworth.org/hgbook-git/ Carl Worth's effort] "translating"
- [http://hgbook.red-bean.com/ Brian O'Sullivan's book on Mercurial] to Git
+* [http://cworth.org/hgbook-git/ Carl Worth's effort] "translating" [http://hgbook.red-bean.com/ Brian O'Sullivan's book on Mercurial] to Git
 * [http://sysmonblog.co.uk/misc/git_by_example/ Git by example] simple walk through of common git commands.
 * [http://www.fml.eti.br/wiki/index.php/Git Simple Git guide in Portuguese] guia para preguiçosos em português.
 
