@@ -684,6 +684,6 @@ else:
 
 </nowiki></pre>
 
-[[Category::GitDocumentation]]
+[[Category:GitDocumentation]]
 
 __NOTOC__
