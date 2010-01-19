@@ -1,3 +1,5 @@
+<!-- ## Note that this does not work with MediaWiki (yet).
+ -->
 <!-- ## Please edit system and help pages ONLY in the moinmaster wiki! For more
  -->
 <!-- ## information, please see [[MoinMaster]]:[[MoinPagesEditorGroup]].
@@ -17,15 +19,9 @@
 <!-- #language en
  -->
 
-`[[RandomQuot]]e` macro selects random quotes from list items on this page. See also [[HelpOnMacros]].
-
 Here are few tips for new users, or users that don't like to read the manual:
 
-* Edit the [[FortuneCookies]] page to display randomly selected wisdom here.
-* Tip: set your pages language with <code><nowiki>#language en</nowiki></code> processing instruction. See also [[HelpOnLanguages]].
-* Tip: you can add your favorite pages to your navibar. See your Quicklinks list in [[UserPreferences]].
-* Tip: you can search for multiple words, just like Google. See also [[HelpOnSearching]].
-* Tip: get email notification when this page change, by clicking ''<<[[GetText]](subscribe}}''.
+* Tip: subscribe to the [http://git.wiki.kernel.org/index.php?title=FortuneCookies&feed=rss&action=history RSS feed] to get notification when this page changes.
 
 <!-- ## http://en.wikiquote.org/wiki/Linus_Torvalds
  -->
