@@ -80,6 +80,6 @@ Like everybody else, the git developers like to be praised from time to time, to
 
 * Masukomi has [http://weblog.masukomi.org/2008/2/4/some-thoughts-about-git Some thoughts on Git]
 
-[[Category::GitDocumentation]]
+[[Category:GitDocumentation]]
 
 __NOTOC__
