@@ -388,15 +388,16 @@ git log -p -z | perl -ln0e 'print if /[+-].*searchedstring/'
 <!-- GitLink[ssh-config] You can setup a new entry in ~/.ssh/config with the right key -->
 {{anchor|ssh-config}}
 == How do I specify what ssh key git should use? ==
-This is not really a git question. However, you can edit your ~/.ssh/config file in order to tell ssh what key to use. More information about this is in the [http://www.openbsd.org/cgi-bin/man.cgi?query=ssh_config ssh config manpage]. The short version is that you can specify a custom Host with its own [[IdentityFile]], like this:
+This is not really a git question. However, you can edit your ~/.ssh/config file in order to tell ssh what key to use. More information about this is in the [http://www.openbsd.org/cgi-bin/man.cgi?query=ssh_config ssh config manpage]. The short version is that you can specify a custom Host with its own IdentityFile, like this:
 <pre><nowiki>
 Host GitServer
   Hostname=git.example.org
   IdentityFile=~/.ssh/my_cool_key_rsa
 </nowiki></pre>
-Then, you can set up git to use "[[GitServer]]" as the hostname. It will look up the entry and use the specified key and host.
+Then, you can set up git to use "GitServer" as the hostname. It will look up the entry and use the specified key and host.
 
 {{anchor|untrack-file}}
+
 == How do I untrack a file? ==
 If you want to keep a file, but not have it in the next revision, do this:
 
