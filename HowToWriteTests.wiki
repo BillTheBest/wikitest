@@ -36,6 +36,17 @@ test_tick &&
 git commit -m blub
 </nowiki></pre>
 This enforces reproducible timestamps (and thus, commit names) on the commits.
+* Instead of
+
+ echo A > A &&
+ git add A &&
+ test_tick &&
+ git commit -m A
+
+you can use the shortcut
+
+ test_commit A
+
 * When comparing some output to a given expected output, the common idiom something like this:
 <pre><nowiki>
 cat > expect << \EOF
