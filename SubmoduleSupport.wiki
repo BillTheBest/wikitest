@@ -1,4 +1,1 @@
-<!-- #REDIRECT [[SubprojectSupport]]
- -->
-
-__NOTOC__
+#REDIRECT [[SubprojectSupport]]
