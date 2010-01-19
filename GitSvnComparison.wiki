@@ -136,27 +136,27 @@ Secondly, SVN's revision numbers are predictable. If the current commit is 435 t
 The key things that I like about Git are:
 
 * - It's incredibly fast.
-** No other SCM that I have used has been able to keep up with it, and I've used a lot, including Subversion, Perforce, darcs, [[BitKeeper]], [[ClearCase]] and CVS.
- - It's fully distributed.
-* The repository owner can't dictate how I work.  I can create branches and commit changes while disconnected on my laptop, then later synchronize that with any number of other repositories.
- - Synchronization can occur over many media.
-* An SSH channel, over HTTP via WebDAV, by FTP, or by sending emails holding patches to be applied by the recipient of the message.  A central repository isn't necessary, but can be used.
- - Branches are even cheaper than they are in Subversion.
-* Creating a branch is as simple as writing a 41 byte file to disk.  Deleting a branch is as simple as deleting that file.
- - Unlike Subversion branches carry along their complete history.
-* without having to perform a strange copy and walk through the copy.  When using Subversion I always found it awkward to look at the history of a file on branch that occurred before
-  the branch was created.  ''from #git: <robinr> spearce: I don't understand one thing about SVN in the page. I made a branch i SVN and browsing the history showed the whole history a file in the branch''
- - Branch merging is simpler and more automatic in Git.
-* In Subversion you need to remember what was the last revision you merged from so you can generate the correct merge command. Git does this automatically, and always does it right.  Which means there's less chance of making a mistake when merging two branches together.
- - Branch merges are recorded as part of the proper history of the
-* repository.  If I merge two branches together, or if I merge a branch back into the trunk it came from, that merge operation is recorded as part of the repostory history as having been performed by me, and when.  It's hard to dispute who performed the merge when it's right there in the log.
- - Creating a repository is a trivial operation:
-* mkdir foo; cd foo; git init-db
-* That's it.  Which means I create a Git repository for everything these days.  I tend to use one repository per class.  Most of those repositories are under 1 MB in disk as they only store lecture notes, homework assignments, and my [[LaTeX]] answers.
- - The repository's internal file formats are incredible simple.
-* This means repair is very easy to do, but even better because it's so simple its very hard to get corrupted.  I don't think anyone has ever had a Git repository get corrupted.  I've seen Subversion with fsfs corrupt itself.  And I've seen Berkley DB corrupt itself too many times to trust my code to the bdb backend of Subversion.
- - Git's file format is very good at compressing data, despite
-* it's a very simple format.  The Mozilla project's CVS repository is about 3 GB; it's about 12 GB in Subversion's fsfs format. In Git it's around 300 MB.
+** No other SCM that I have used has been able to keep up with it, and I've used a lot, including Subversion, Perforce, darcs, BitKeeper, ClearCase and CVS.
+* - It's fully distributed.
+** The repository owner can't dictate how I work.  I can create branches and commit changes while disconnected on my laptop, then later synchronize that with any number of other repositories.
+* - Synchronization can occur over many media.
+** An SSH channel, over HTTP via WebDAV, by FTP, or by sending emails holding patches to be applied by the recipient of the message.  A central repository isn't necessary, but can be used.
+* - Branches are even cheaper than they are in Subversion.
+** Creating a branch is as simple as writing a 41 byte file to disk.  Deleting a branch is as simple as deleting that file.
+* - Unlike Subversion branches carry along their complete history.
+** without having to perform a strange copy and walk through the copy.  When using Subversion I always found it awkward to look at the history of a file on branch that occurred before the branch was created.  ''from #git: <robinr> spearce: I don't understand one thing about SVN in the page. I made a branch i SVN and browsing the history showed the whole history a file in the branch''
+* - Branch merging is simpler and more automatic in Git.
+** In Subversion you need to remember what was the last revision you merged from so you can generate the correct merge command. Git does this automatically, and always does it right.  Which means there's less chance of making a mistake when merging two branches together.
+* - Branch merges are recorded as part of the proper history of the
+** repository.  If I merge two branches together, or if I merge a branch back into the trunk it came from, that merge operation is recorded as part of the repostory history as having been performed by me, and when.  It's hard to dispute who performed the merge when it's right there in the log.
+* - Creating a repository is a trivial operation:
+** mkdir foo; cd foo; git init-db
+** That's it.  Which means I create a Git repository for everything these days.  I tend to use one repository per class.  Most of those repositories are under 1 MB in disk as they only store lecture notes, homework assignments, and my LaTeX answers.
+* - The repository's internal file formats are incredible simple.
+** This means repair is very easy to do, but even better because it's so simple its very hard to get corrupted.  I don't think anyone has ever had a Git repository get corrupted.  I've seen Subversion with fsfs corrupt itself.  And I've seen Berkley DB corrupt itself too many times to trust my code to the bdb backend of Subversion.
+* - Git's file format is very good at compressing data, despite
+** it's a very simple format.  The Mozilla project's CVS repository is about 3 GB; it's about 12 GB in Subversion's fsfs format. In Git it's around 300 MB.
+
 = Links =
 * http://utsl.gen.nz/talks/git-svn/intro.html
 * http://techblog.floorplanner.com/2008/12/09/git-vs-svn-for-bosses/
