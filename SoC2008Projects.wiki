@@ -7,7 +7,7 @@ This year Git was fortunate enough to receive funding for 6 students,
 and we are looking forward to the successful completion of the
 following interesting projects:
 
-== [[GitTorrent]] ==
+== GitTorrent ==
 ''Student:'' Joshua Roys <BR>
 ''Mentor:''  Sam Vilain  <BR>
 
@@ -16,7 +16,7 @@ transport via a peer-to-peer system, potentially allowing
 popular projects such as the linux kernel to be available
 via more servers than just git.kernel.org.
 
-''Idea:'' [[SoC2008Ideas#GitTorrent|[[GitTorrent]]]] at SoC2008Ideas <BR>
+''Idea:'' [[SoC2008Ideas#GitTorrent|GitTorrent]] at SoC2008Ideas <BR>
 ''Homepage:'' [http://gittorrent.utsl.gen.nz/rfc.html RFC -- GitTorrent Protocol -- GTP/0.1] <BR>
 ''SoC page:'' [http://code.google.com/soc/2008/git/appinfo.html?csaid=F544F0DAA82AFDFC GitTorrent] <BR>
 ''Google Code:'' [http://code.google.com/p/gittorrent/ GitTorrent - Peer-to-peer Protocol for Synchronizing of Git Repositories] page at Google Code. <BR>
@@ -24,7 +24,7 @@ via more servers than just git.kernel.org.
 * http://utsl.gen.nz/gitweb/?p=VCS-Git-Torrent
 * http://repo.or.cz/w/VCS-Git-Torrent.git (mirror)
 ''Pull:'' git://utsl.gen.nz/VCS-Git-Torrent <BR>
-''Mailing list:'' <<[[MailTo]](gittorrent@lists.utsl.gen.nz}} ([http://lists.utsl.gen.nz/mailman/listinfo.cgi/gittorrent mailman], [http://lists.utsl.gen.nz/pipermail/gittorrent/ archives])
+''Mailing list:'' gittorrent at lists.utsl.gen.nz ([http://lists.utsl.gen.nz/mailman/listinfo.cgi/gittorrent mailman], [http://lists.utsl.gen.nz/pipermail/gittorrent/ archives])
 
 == git-statistics ([[GitStats]]) ==
 ''Student:'' Sverre Rabbelier <BR>
