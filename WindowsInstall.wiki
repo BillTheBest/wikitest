@@ -5,7 +5,7 @@ See [http://msysgit.googlecode.com/ the msysGit project page] for details and do
 
 = Cygwin =
 == Installation ==
-Git is now a cygwin binary package, directly installable without needing to compile it. See [[CygwinBinaryInstall]].
+Git is now a cygwin binary package, directly installable without needing to compile it. See CygwinBinaryInstall.
 
 Otherwise, to be able to build git directly from source, you will need to install cygwin and the following packages:
 
