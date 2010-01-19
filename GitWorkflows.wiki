@@ -82,7 +82,7 @@ $ git-pack-redundant --all | xargs --no-run-if-empty rm
 $ git-prune-packed
 </nowiki></pre>
 
-== How to edit a [[ChangeLog]] entry ==
+== How to edit a ChangeLog entry ==
 
 My changelog for the top patch is wrong, what do I do?
 
