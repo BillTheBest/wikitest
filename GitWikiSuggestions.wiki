@@ -25,11 +25,6 @@ It would be nice to have installed parsers from [http://moinmo.in/ParserMarket P
 * Perl parsers from [http://moinmo.in/ParserMarket ParserMarket]: [http://moinmo.in/parser/Perl parser/Perl] by Johannes Hoerburger ''(`.py` extension needs to be aded)''.
 * diff output parsers from [http://moinmo.in/ParserMarket ParserMarket]: [http://moinmo.in/parser/diff.py parser/diff.py] by Emilio Lopes.
 
-== Error in GUI editing ==
-'''Note: these suggestions were moved from a MoinMoin Wiki, so they do not apply in that form anymore.'''
-
-When editing in gui mode, and pressing text-mode, all blank lines are removed, and ({) curly-braces are replaced with square ones ([), causing things like {{TableOfContents(2)}} and {{BR}} not to work! This especially seams to be a problem on the [[InterfacesFrontendsAndTools]] page.
-
 == InterWiki Links ==
 '''Note: these suggestions were moved from a MoinMoin Wiki, so they do not apply in that form anymore.'''
 
