@@ -1,1 +1,1 @@
-#REDIRECT CentralisedSCM
+#REDIRECT [[CentralisedSCM]]
