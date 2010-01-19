@@ -1,255 +1,272 @@
+Notes:
+* The newest version of this message can be found in the 'todo' branch in git.git, as file [http://repo.or.cz/w/git.git?a=blob_plain;f=MaintNotes;hb=todo MaintNotes].
+* This Wiki page is generated irregularly using [http://repo.or.cz/w/git/dscho.git?a=blob_plain;f=to-wiki.perl;hb=my-todo Dscho's script].
+<br>
+
 == A note from the maintainer ==
 
-* The newest version of this message can be found in the 'todo' branch in git.git,
- as file [http://repo.or.cz/w/git.git?a=blob_plain;f=MaintNotes;hb=todo [[MaintNotes]]].
+Welcome to git development community.
 
-Welcome to git community.
+This message is written by the maintainer and talks about how Git
+project is managed, and how you can work with it.
 
-This message talks about how git.git is managed, and how you can work
-with it.
 
 === IRC and Mailing list ===
 
-Many active members of development community hang around on #git
+Members of the development community can sometimes be found on #git
 IRC channel on Freenode.  Its log is available at:
 
-<pre><nowiki>
-http://colabti.org/irclogger/irclogger_log/git
-</nowiki></pre>
+<blockquote>
+http://colabti.org/irclogger/irclogger_log/git<br>
+</blockquote>
 
-The development however is primarily done on the git mailing list
-(git@vger.kernel.org).  If you have patches, please send them to the
-list, following [http://repo.or.cz/w/git.git?a=blob_plain;f=Documentation/SubmittingPatches Documentation/[[SubmittingPatches]]].
+The development is primarily done on the Git mailing list If you have
+patches, please send them to the list address (git@vger.kernel.org).
+following [http://repo.or.cz/w/git.git?a=blob_plain;f=Documentation/SubmittingPatches Documentation/SubmittingPatches].  You don't have to be
+subscribed to send messages there, and the convention is to Cc:
+everybody involved, so you don't even have to say "Please Cc: me, I am
+not subscribed".
 
-I usually try to read all patches posted to the list, and follow
-almost all the discussions on the list, unless the topic is about an
-obscure corner that I do not personally use.  But I am obviously not
-perfect.  If you sent a patch that you did not hear from anybody for
-three days, that is a very good indication that it was dropped on the
-floor --- please do not hesitate to remind me.
+If you sent a patch and you did not hear any response from anybody for
+several days, it could be that your patch was totally uninteresting, but
+it also is possible that it was simply lost in the noise.  Please do not
+hesitate to send a reminder message politely in such a case.  Messages
+getting lost in the noise is a sign that people involved don't have enough
+mental/time bandwidth to process them right at the moment, and it often
+helps to wait until the list traffic becomes calmer before sending such a
+reminder.
 
 The list archive is available at a few public sites as well:
 
-<pre><nowiki>
-http://news.gmane.org/gmane.comp.version-control.git/
-http://marc.theaimsgroup.com/?l=git
-http://www.spinics.net/lists/git/
-</nowiki></pre>
+<blockquote>
+http://news.gmane.org/gmane.comp.version-control.git/<br>
+http://marc.theaimsgroup.com/?l=git<br>
+http://www.spinics.net/lists/git/<br>
+</blockquote>
 
 and some people seem to prefer to read it over NNTP:
 
-<pre><nowiki>
-nntp://news.gmane.org/gmane.comp.version-control.git
-</nowiki></pre>
+<blockquote>
+nntp://news.gmane.org/gmane.comp.version-control.git<br>
+</blockquote>
 
 When you point at a message in a mailing list archive, using
 gmane is often the easiest to follow by readers, like this:
 
-<pre><nowiki>
-http://thread.gmane.org/gmane.comp.version-control.git/27/focus=217
-</nowiki></pre>
+<blockquote>
+http://thread.gmane.org/gmane.comp.version-control.git/27/focus=217<br>
+</blockquote>
 
 as it also allows people who subscribe to the mailing list as
 gmane newsgroup to "jump to" the article.
+
 
 === Repositories, branches and documentation ===
 
 My public git.git repository is at:
 
-<pre><nowiki>
-git://git.kernel.org/pub/scm/git/git.git/
-</nowiki></pre>
+<blockquote>
+git://git.kernel.org/pub/scm/git/git.git/<br>
+</blockquote>
 
 Immediately after I publish to the primary repository at kernel.org, I
 also push into an alternate here:
 
-<pre><nowiki>
-git://repo.or.cz/alt-git.git/
-</nowiki></pre>
+<blockquote>
+git://repo.or.cz/alt-git.git/<br>
+</blockquote>
 
 Impatient people might have better luck with the latter one.
 
 Their gitweb interfaces are found at:
 
-<pre><nowiki>
-http://git.kernel.org/?p=git/git.git
-http://repo.or.cz/w/alt-git.git
-</nowiki></pre>
+<blockquote>
+http://git.kernel.org/?p=git/git.git<br>
+http://repo.or.cz/w/alt-git.git<br>
+</blockquote>
 
 There are three branches in git.git repository that are not about the
-source tree of git: "todo", "html" and "man".  The first one was meant
-to contain TODO list for me, but I am not good at maintaining such a
-list and it is in an abandoned state.  The branch mostly is used to
-keep some helper scripts I use to maintain git and the regular "What's
-in/cooking" messages these days.
+source tree of git: "todo", "html" and "man".  The first one was meant to
+contain TODO list for me, but I am not good at maintaining such a list and
+it is in an abandoned state.  The branch mostly is used to keep some
+helper scripts I use to maintain git and the regular "What's cooking"
+messages these days.
 
-The "html" and "man" are autogenerated documentation from the
-tip of the "master" branch; the tip of "html" is extracted to be
-visible at kernel.org at:
+The "html" and "man" are autogenerated documentation from the tip of the
+"master" branch; the tip of "html" is extracted to be visible at
+kernel.org at:
 
-<pre><nowiki>
-http://www.kernel.org/pub/software/scm/git/docs/
-</nowiki></pre>
+<blockquote>
+http://www.kernel.org/pub/software/scm/git/docs/<br>
+</blockquote>
 
 The above URL is the top-level documentation page, and it has
 links to documentation of older releases.
 
-The script to maintain these two documentation branches are
-found in "todo" branch as dodoc.sh, if you are interested.  It
-is a good demonstration of how to use a post-update hook to
-automate a task.
+The script to maintain these two documentation branches are found in the
+"todo" branch as dodoc.sh, if you are interested.  It is a demonstration
+of how to use a post-update hook to automate a task after pushing into a
+repository.
 
-There are four branches in git.git repository that track the
-source tree of git: "master", "maint", "next", and "pu".  I may
-add more maintenance branches (e.g. "maint-1.6.3") if we have
-hugely backward incompatible feature updates in the future to keep
-an older release alive; I may not, but the distributed nature of
-git means any volunteer can run a stable-tree like that herself.
+There are four branches in git.git repository that track the source tree
+of git: "master", "maint", "next", and "pu".  I may add more maintenance
+branches (e.g. "maint-1.6.3") if we have hugely backward incompatible
+feature updates in the future to keep an older release alive; I may not,
+but the distributed nature of git means any volunteer can run a
+stable-tree like that herself.
 
-The "master" branch is meant to contain what are very well
-tested and ready to be used in a production setting.  There
-could occasionally be minor breakages or brown paper bag bugs
-but they are not expected to be anything major, and more
-importantly quickly and trivially fixable.  Every now and
-then, a "feature release" is cut from the tip of this branch and
-they typically are named with three dotted decimal digits.  The
-last such release was 1.6.4 done on Jul 29th 2009.  You
-can expect that the tip of the "master" branch is always more
-stable than any of the released versions.
+The "master" branch is meant to contain what are very well tested and
+ready to be used in a production setting.  There could occasionally be
+minor breakages or brown paper bag bugs but they are not expected to be
+anything major, and more importantly quickly and trivially fixable.  Every
+now and then, a "feature release" is cut from the tip of this branch and
+they typically are named with three dotted decimal digits.  The last such
+release was 1.6.6 done on Dec 23rd 2009.  You can expect that the tip of
+the "master" branch is always more stable than any of the released
+versions.
 
-Whenever a feature release is made, "maint" branch is forked off
-from "master" at that point.  Obvious, safe and urgent fixes
-after a feature release are applied to this branch and
-maintenance releases are cut from it.  The maintenance releases
-are named with four dotted decimal, named after the feature
-release they are updates to; the last such release was 1.6.3.4.
-New features never go to this branch.  This branch is also
+Whenever a feature release is made, "maint" branch is forked off from
+"master" at that point.  Obvious, safe and urgent fixes after a feature
+release are applied to this branch and maintenance releases are cut from
+it.  The maintenance releases are named with four dotted decimal, named
+after the feature release they are updates to; the last such release was
+1.6.5.7.  New features never go to this branch.  This branch is also
 merged into "master" to propagate the fixes forward.
 
-A trivial and safe enhancement goes directly on top of "master".
-A new development, either initiated by myself or more often by
-somebody who found his or her own itch to scratch, does not
-usually happen on "master", however.  Instead, a separate topic
-branch is forked from the tip of "master", and it first is
-tested in isolation; I may make minimum fixups at this point.
-Usually there are a handful such topic branches that are running
-ahead of "master" in git.git repository.  I do not publish the
-tip of these branches in my public repository, however, partly
-to keep the number of branches that downstream developers need
-to worry about low, and primarily because I am lazy.
+A trivial and safe enhancement goes directly on top of "master".  A new
+development, either initiated by myself or more often by somebody who
+found his or her own itch to scratch, does not usually happen on "master",
+however.  Instead, a separate topic branch is forked from the tip of
+"master", and it first is tested in isolation; I may make minimum fixups
+at this point.  Usually there are a handful such topic branches that are
+running ahead of "master" in git.git repository.  I do not publish the tip
+of these branches in my public repository, however, partly to keep the
+number of branches that downstream developers need to worry about low, and
+primarily because I am lazy.
 
 The quality of topic branches are judged primarily by the mailing list
-discussions.  Some of them start out as "good idea but obviously is
-broken in some areas (e.g. breaks the existing testsuite)" and then
-with some more work (either by the original contributor's effort or
-help from other people on the list) becomes "more or less done and can
-now be tested by wider audience".  Luckily, most of them start out in
-the latter, better shape.
+discussions.  Some of them start out as "good idea but obviously is broken
+in some areas (e.g. breaks the existing testsuite)" and then with some
+more work (either by the original contributor's effort or help from other
+people on the list) becomes "more or less done and can now be tested by
+wider audience".  Luckily, most of them start out in the latter, better
+shape.
 
-The "next" branch is to merge and test topic branches in the
-latter category.  In general, the branch always contains the tip
-of "master".  It might not be quite rock-solid production ready,
-but is expected to work more or less without major breakage.  I
-usually use "next" version of git for my own work, so it cannot
-be _that_ broken to prevent me from pushing the changes out.
-The "next" branch is where new and exciting things take place.
+The "next" branch is to merge and test topic branches in the latter
+category.  In general, the branch always contains the tip of "master".  It
+might not be quite rock-solid production ready, but is expected to work
+more or less without major breakage.  I usually use "next" version of git
+for my own work, so it cannot be _that_ broken to prevent me from
+integrating and pushing the changes out.  The "next" branch is where new
+and exciting things take place.
 
-The two branches "master" and "maint" are never rewound, and
-"next" usually will not be either (this automatically means the
-topics that have been merged into "next" are usually not
-rebased, and you can find the tip of topic branches you are
-interested in from the output of "git log next"). You should be
-able to safely track them.
+The two branches "master" and "maint" are never rewound, and "next"
+usually will not be either (this automatically means the topics that have
+been merged into "next" are usually not rebased, and you can find the tip
+of topic branches you are interested in from the output of "git log
+next"). You should be able to safely build on top of them.
 
-After a feature release is made from "master", however, "next"
-will be rebuilt from the tip of "master" using the surviving
-topics.  The commit that replaces the tip of the "next" will
-usually have the identical tree, but it will have different ancestry
-from the tip of "master".  An announcement will be made to warn
-people about such a rebasing.
+After a feature release is made from "master", however, "next" will be
+rebuilt from the tip of "master" using the surviving topics.  The commit
+that replaces the tip of the "next" will usually have the identical tree,
+but it will have different ancestry from the tip of "master".
 
-The "pu" (proposed updates) branch bundles all the remainder of
-topic branches.  The "pu" branch, and topic branches that are
-only in "pu", are subject to rebasing in general.  By the above
-definition of how "next" works, you can tell that this branch
-will contain quite experimental and obviously broken stuff.
+The "pu" (proposed updates) branch bundles all the remainder of topic
+branches.  The "pu" branch, and topic branches that are only in "pu", are
+subject to rebasing in general.  By the above definition of how "next"
+works, you can tell that this branch will contain quite experimental and
+obviously broken stuff.
 
-When a topic that was in "pu" proves to be in testable shape, it
-graduates to "next".  I do this with:
+When a topic that was in "pu" proves to be in testable shape, it graduates
+to "next".  I do this with:
 
-<pre><nowiki>
-git checkout next
-git merge that-topic-branch
-</nowiki></pre>
+<blockquote>
+git checkout next<br>
+git merge that-topic-branch<br>
+</blockquote>
 
-Sometimes, an idea that looked promising turns out to be not so
-good and the topic can be dropped from "pu" in such a case.
+Sometimes, an idea that looked promising turns out to be not so good and
+the topic can be dropped from "pu" in such a case.
 
-A topic that is in "next" is expected to be tweaked and fixed to
-perfection before it is merged to "master" (that's why "master"
-can be expected to stay very stable).  Similarly to the above, I
-do it with this:
+A topic that is in "next" is expected to be polished to perfection before
+it is merged to "master" (that's why "master" can be expected to stay more
+stable than any released version).  Similarly to the above, I do it with
+this:
 
-<pre><nowiki>
-git checkout master
-git merge that-topic-branch
-git branch -d that-topic-branch
-</nowiki></pre>
+<blockquote>
+git checkout master<br>
+git merge that-topic-branch<br>
+git branch -d that-topic-branch<br>
+</blockquote>
 
-Note that being in "next" is not a guarantee to appear in the
-next release (being in "master" is such a guarantee, unless it
-is later found seriously broken and reverted), nor even in any
-future release.  There even were cases that topics needed
-reverting a few commits in them before graduating to "master",
-or a topic that already was in "next" were entirely reverted
+Note that being in "next" is not a guarantee to appear in the next release
+(being in "master" is such a guarantee, unless it is later found seriously
+broken and reverted), nor even in any future release.  There even were
+cases that topics needed reverting a few commits in them before graduating
+to "master", or a topic that already was in "next" were entirely reverted
 from "next" because fatal flaws were found in them later.
+
+
 
 === Other people's trees, trusted lieutenants and credits ===
 
-[http://repo.or.cz/w/git.git?a=blob_plain;f=Documentation/SubmittingPatches Documentation/[[SubmittingPatches]]] outlines to whom your proposed
-changes should be sent.  As described in [http://repo.or.cz/w/git.git?a=blob_plain;f=contrib/README contrib/README], I would
-delegate fixes and enhancements in contrib/ area to the primary
-contributors of them.
+[http://repo.or.cz/w/git.git?a=blob_plain;f=Documentation/SubmittingPatches Documentation/SubmittingPatches] outlines to whom your proposed changes
+should be sent.  As described in [http://repo.or.cz/w/git.git?a=blob_plain;f=contrib/README contrib/README], I would delegate fixes
+and enhancements in contrib/ area to the primary contributors of them.
 
-Although the following are included in git.git repository, they
-have their own authoritative repository and maintainers:
+Although the following are included in git.git repository, they have their
+own authoritative repository and maintainers:
 
 * git-gui/ comes from Shawn Pearce's git-gui project:
 
-<pre><nowiki>
-git://repo.or.cz/git-gui.git
-</nowiki></pre>
+<blockquote>
+git://repo.or.cz/git-gui.git<br>
+</blockquote>
 
 * gitk-git/ comes from Paul Mackerras's gitk project:
 
-<pre><nowiki>
-git://git.kernel.org/pub/scm/gitk/gitk.git
-</nowiki></pre>
+<blockquote>
+git://git.kernel.org/pub/scm/gitk/gitk.git<br>
+</blockquote>
 
-I would like to thank everybody who helped to raise git into the
-current shape.  Especially I would like to thank the git list
-regulars whose help I have relied on and expect to continue
-relying on heavily:
+I would like to thank everybody who helped to raise git into the current
+shape.  Especially I would like to thank the git list regulars whose help
+I have relied on and expect to continue relying on heavily:
 
 * Linus on general design issues.
-* Linus, Shawn Pearce, Johannes Schindelin, Nicolas Pitre, René Scharfe, Jeff King and Johannes Sixt on general implementation issues.
+
+* Linus, Shawn Pearce, Johannes Schindelin, Nicolas Pitre, René:Scharfe, Jeff King and Johannes Sixt on general implementation:issues.
+
 * Shawn and Nicolas Pitre on pack issues.
+
 * Martin Langhoff and Frank Lichtenheld on cvsserver and cvsimport.
+
 * Paul Mackerras on gitk.
+
 * Eric Wong on git-svn.
+
 * Simon Hausmann on git-p4.
-* Jakub Narebski, Petr Baudis, Luben Tuikov, Giuseppe Bilotta on gitweb.
-* J. Bruce Fields on documentation (and countless others for proofreading and fixing).
+
+* Jakub Narebski, Petr Baudis, Luben Tuikov, Giuseppe Bilotta on:gitweb.
+
+* J. Bruce Fields on documentation (and countless others for:proofreading and fixing).
+
 * Alexandre Julliard on Emacs integration.
-* Charles Bailey for taking good care of git-mergetool (and Theodore Ts'o for creating it in the first place).
+
+* Charles Bailey for taking good care of git-mergetool (and Theodore:Ts'o for creating it in the first place).
+
 * David Aguilar for git-difftool.
-* Johannes Schindelin, Johannes Sixt and others for their effort to move things forward on the Windows front.
-* People on non-Linux platforms for keeping their eyes on portability; especially, Randal Schwartz, Theodore Ts'o, Jason Riedy, Thomas Glanzmann, Brandon Casey, Jeff King, Alex Riesen and countless others.
+
+* Johannes Schindelin, Johannes Sixt and others for their effort to:move things forward on the Windows front.
+
+* People on non-Linux platforms for keeping their eyes on:portability; especially, Randal Schwartz, Theodore Ts'o, Jason:Riedy, Thomas Glanzmann, Brandon Casey, Jeff King, Alex Riesen and:countless others.
+
 
 == This document ==
 
 The latest copy of this document is found in git.git repository,
-on 'todo' branch, as [http://repo.or.cz/w/git.git?a=blob_plain;f=MaintNotes;hb=todo [[MaintNotes]]].
+on 'todo' branch, as [http://repo.or.cz/w/git.git?a=blob_plain;f=MaintNotes;hb=todo MaintNotes].
+
 
 ----
 == Addendum ==
@@ -260,186 +277,217 @@ The maintainer's git time is spent on three activities.
 
 * Communication (60%)
 
- Mailing list discussions on general design, fielding user questions, diagnosing bug reports; reviewing, commenting on, suggesting alternatives to, and rejecting patches.
+:Mailing list discussions on general design, fielding user:questions, diagnosing bug reports; reviewing, commenting on,:suggesting alternatives to, and rejecting patches.
 
 * Integration (30%)
 
- Applying new patches from the contributors while spotting and correcting minor mistakes, shuffling the integration and testing branches, pushing the results out, cutting the releases, and making announcements.
+:Applying new patches from the contributors while spotting and:correcting minor mistakes, shuffling the integration and:testing branches, pushing the results out, cutting the:releases, and making announcements.
 
 * Own development (10%)
 
- Scratching my own itch and sending proposed patch series out.
+:Scratching my own itch and sending proposed patch series out.
 
-{{BR}}
-=== The policy ===
+
+=== The policy  ===
 
 The policy on Integration is informally mentioned in "A Note
 from the maintainer" message, which is periodically posted to
 this mailing list after each feature release is made.
 
-{{BR}}
-=== The policy ===
-
 The policy.
 
-* Feature releases are numbered as vX.Y.Z and are meant to contain bugfixes and enhancements in any area, including functionality, performance and usability, without regression.
-* Maintenance releases are numbered as vX.Y.Z.W and are meant to contain only bugfixes for the corresponding vX.Y.Z feature release and earlier maintenance releases vX.Y.Z.V (V < W).
-* 'master' branch is used to prepare for the next feature release. In other words, at some point, the tip of 'master' branch is tagged with vX.Y.Z.
-* 'maint' branch is used to prepare for the next maintenance release.  After the feature release vX.Y.Z is made, the tip of 'maint' branch is set to that release, and bugfixes will accumulate on the branch, and at some point, the tip of the branch is tagged with vX.Y.Z.1, vX.Y.Z.2, and so on.
-* 'next' branch is used to publish changes (both enhancements and fixes) that (1) have worthwhile goal, (2) are in a fairly good shape suitable for everyday use, (3) but have not yet demonstrated to be regression free.  New changes are tested in 'next' before merged to 'master'.
-* 'pu' branch is used to publish other proposed changes that do not yet pass the criteria set for 'next'.
-* The tips of 'master', 'maint' and 'next' branches will always fast forward, to allow people to build their own customization on top of them.
-* Usually 'master' contains all of 'maint', 'next' contains all of 'master' and 'pu' contains all of 'next'.
-* The tip of 'master' is meant to be more stable than any tagged releases, and the users are encouraged to follow it.
-* The 'next' branch is where new action takes place, and the users are encouraged to test it so that regressions and bugs are found before new topics are merged to 'master'.
+* Feature releases are numbered as vX.Y.Z and are meant to:contain bugfixes and enhancements in any area, including:functionality, performance and usability, without regression.
 
-{{BR}}
+* Maintenance releases are numbered as vX.Y.Z.W and are meant:to contain only bugfixes for the corresponding vX.Y.Z feature:release and earlier maintenance releases vX.Y.Z.V (V < W).
+
+* 'master' branch is used to prepare for the next feature:release. In other words, at some point, the tip of 'master':branch is tagged with vX.Y.Z.
+
+* 'maint' branch is used to prepare for the next maintenance:release.  After the feature release vX.Y.Z is made, the tip:of 'maint' branch is set to that release, and bugfixes will:accumulate on the branch, and at some point, the tip of the:branch is tagged with vX.Y.Z.1, vX.Y.Z.2, and so on.
+
+* 'next' branch is used to publish changes (both enhancements:and fixes) that (1) have worthwhile goal, (2) are in a fairly:good shape suitable for everyday use, (3) but have not yet:demonstrated to be regression free.  New changes are tested:in 'next' before merged to 'master'.
+
+* 'pu' branch is used to publish other proposed changes that do:not yet pass the criteria set for 'next'.
+
+* The tips of 'master', 'maint' and 'next' branches will always:fast-forward, to allow people to build their own:customization on top of them.
+
+* Usually 'master' contains all of 'maint', 'next' contains all:of 'master' and 'pu' contains all of 'next'.
+
+* The tip of 'master' is meant to be more stable than any:tagged releases, and the users are encouraged to follow it.
+
+* The 'next' branch is where new action takes place, and the:users are encouraged to test it so that regressions and bugs:are found before new topics are merged to 'master'.
+
+
+
 === A typical git day ===
 
 A typical git day for the maintainer implements the above policy
 by doing the following:
 
-* Scan mailing list and #git channel log.  Respond with review comments, suggestions etc.  Kibitz.  Collect potentially usable patches from the mailing list.  Patches about a single topic go to one mailbox (I read my mail in Gnus, and type \C-o to save/append messages in files in mbox format).
-* Review the patches in the saved mailboxes.  Edit proposed log message for typofixes and clarifications, and add Acks collected from the list.  Edit patch to incorporate "Oops, that should have been like this" fixes from the discussion.
-* Classify the collected patches and handle 'master' and 'maint' updates:
-** Obviously correct fixes that pertain to the tip of 'maint' are directly applied to 'maint'.
-** Obviously correct fixes that pertain to the tip of 'master' are directly applied to 'master'.
+* Scan mailing list and #git channel log.  Respond with review:comments, suggestions etc.  Kibitz.  Collect potentially:usable patches from the mailing list.  Patches about a single:topic go to one mailbox (I read my mail in Gnus, and type:\C-o to save/append messages in files in mbox format).
 
- This step is done with "git am".
+* Review the patches in the saved mailboxes.  Edit proposed log:message for typofixes and clarifications, and add Acks:collected from the list.  Edit patch to incorporate "Oops,:that should have been like this" fixes from the discussion.
 
- <pre><nowiki>
- $ git checkout master    ;# or "git checkout maint"
- $ git am -3 -s mailbox
- $ make test
-</nowiki></pre>
+* Classify the collected patches and handle 'master' and:'maint' updates:
+
+** Obviously correct fixes that pertain to the tip of 'maint':are directly applied to 'maint'.
+
+** Obviously correct fixes that pertain to the tip of 'master':are directly applied to 'master'.
+
+:This step is done with "git am".
+
+ <blockquote>
+ $ git checkout master    ;# or "git checkout maint"<br>
+ $ git am -3 -s mailbox<br>
+ $ make test<br>
+</blockquote>
 
 * Merge downwards (maint->master):
 
- <pre><nowiki>
- $ git checkout master
- $ git merge maint
- $ make test
-</nowiki></pre>
+ <blockquote>
+ $ git checkout master<br>
+ $ git merge maint<br>
+ $ make test<br>
+</blockquote>
 
-* Review the last issue of "What's cooking" message, review the topics scheduled for merging upwards (topic->master and topic->maint), and merge.
+* Review the last issue of "What's cooking" message, review the:topics scheduled for merging upwards (topic->master and:topic->maint), and merge.
 
- <pre><nowiki>
- $ git checkout master    ;# or "git checkout maint"
- $ git merge ai/topic     ;# or "git merge ai/maint-topic"
- $ git log -p ORIG_HEAD.. ;# final review
- $ git diff ORIG_HEAD..   ;# final review
- $ make test              ;# final review
- $ git branch -d ai/topic ;# or "git branch -d ai/maint-topic"
-</nowiki></pre>
+ <blockquote>
+ $ git checkout master    ;# or "git checkout maint"<br>
+ $ git merge ai/topic     ;# or "git merge ai/maint-topic"<br>
+ $ git log -p ORIG_HEAD.. ;# final review<br>
+ $ git diff ORIG_HEAD..   ;# final review<br>
+ $ make test              ;# final review<br>
+ $ git branch -d ai/topic ;# or "git branch -d ai/maint-topic"<br>
+</blockquote>
 
 * Merge downwards (maint->master) if needed:
 
- <pre><nowiki>
- $ git checkout master
- $ git merge maint
- $ make test
-</nowiki></pre>
+ <blockquote>
+ $ git checkout master<br>
+ $ git merge maint<br>
+ $ make test<br>
+</blockquote>
 
 * Merge downwards (master->next) if needed:
 
- <pre><nowiki>
- $ git checkout next
- $ git merge master
- $ make test
-</nowiki></pre>
+ <blockquote>
+ $ git checkout next<br>
+ $ git merge master<br>
+ $ make test<br>
+</blockquote>
 
 * Handle the remaining patches:
-** Anything unobvious that is applicable to 'master' (in other words, does not depend on anything that is still in 'next' and not in 'master') is applied to a new topic branch that is forked from the tip of 'master'.  This includes both enhancements and unobvious fixes to 'master'.  A topic branch is named as ai/topic where "ai" is typically author's initial and "topic" is a descriptive name of the topic (in other words, "what's the series is about").
-** An unobvious fix meant for 'maint' is applied to a new topic branch that is forked from the tip of 'maint'.  The topic is named as ai/maint-topic.
-** Changes that pertain to an existing topic are applied to the branch, but:
+
+** Anything unobvious that is applicable to 'master' (in other:words, does not depend on anything that is still in 'next':and not in 'master') is applied to a new topic branch that:is forked from the tip of 'master'.  This includes both:enhancements and unobvious fixes to 'master'.  A topic:branch is named as ai/topic where "ai" is typically:author's initial and "topic" is a descriptive name of the:topic (in other words, "what's the series is about").
+
+** An unobvious fix meant for 'maint' is applied to a new:topic branch that is forked from the tip of 'maint'.  The:topic is named as ai/maint-topic.
+
+** Changes that pertain to an existing topic are applied to:the branch, but:
+
 *** obviously correct ones are applied first;
+
 *** questionable ones are discarded or applied to near the tip;
-* Replacement patches to an existing topic are accepted only for commits not in 'next'.
 
- The above except the "replacement" are all done with:
+** Replacement patches to an existing topic are accepted only:for commits not in 'next'.
 
- <pre><nowiki>
- $ git am -3 -s mailbox
-</nowiki></pre>
+:The above except the "replacement" are all done with:
+
+ <blockquote>
+ $ git am -3 -s mailbox<br>
+</blockquote>
 
 while patch replacement is often done by:
 
- <pre><nowiki>
- $ git format-patch ai/topic~$n..ai/topic ;# export existing
-</nowiki></pre>
+ <blockquote>
+ $ git format-patch ai/topic~$n..ai/topic ;# export existing<br>
+</blockquote>
 
 then replace some parts with the new patch, and reapplying:
 
- <pre><nowiki>
- $ git reset --hard ai/topic~$n
- $ git am -3 -s 000*.txt
-</nowiki></pre>
+ <blockquote>
+ $ git reset --hard ai/topic~$n<br>
+ $ git am -3 -s 000*.txt<br>
+</blockquote>
 
- The full test suite is always run for 'maint' and 'master' after patch application; for topic branches the tests are run as time permits.
+:The full test suite is always run for 'maint' and 'master':after patch application; for topic branches the tests are run:as time permits.
 
-* Update "What's cooking" message to review the updates to existing topics, newly added topics and graduated topics.
+* Update "What's cooking" message to review the updates to:existing topics, newly added topics and graduated topics.
 
- This step is helped with Meta/UWC script (where Meta/ contains a checkout of the 'todo' branch).
+:This step is helped with Meta/UWC script (where Meta/ contains:a checkout of the 'todo' branch).
 
-* Merge topics to 'next'.  For each branch whose tip is not merged to 'next', one of three things can happen:
+* Merge topics to 'next'.  For each branch whose tip is not:merged to 'next', one of three things can happen:
+
 ** The commits are all next-worthy; merge the topic to next:
 
- <pre><nowiki>
- $ git checkout next
- $ git merge ai/topic     ;# or "git merge ai/maint-topic"
- $ make test
-</nowiki></pre>
+ <blockquote>
+ $ git checkout next<br>
+ $ git merge ai/topic     ;# or "git merge ai/maint-topic"<br>
+ $ make test<br>
+</blockquote>
 
-* The new parts are of mixed quality, but earlier ones are next-worthy; merge the early parts to next:
+** The new parts are of mixed quality, but earlier ones are:next-worthy; merge the early parts to next:
 
- <pre><nowiki>
- $ git checkout next
- $ git merge ai/topic~2   ;# the tip two are dubious
- $ make test
-</nowiki></pre>
+ <blockquote>
+ $ git checkout next<br>
+ $ git merge ai/topic~2   ;# the tip two are dubious<br>
+ $ make test<br>
+</blockquote>
 
-* Nothing is next-worthy; do not do anything.
-* Rebase topics that do not have any commit in next yet.  This step is optional but sometimes is worth doing when an old series that is not in next can take advantage of low-level framework change that is merged to 'master' already.
+** Nothing is next-worthy; do not do anything.
 
- <pre><nowiki>
- $ git rebase master ai/topic
-</nowiki></pre>
+* Rebase topics that do not have any commit in next yet.  This:step is optional but sometimes is worth doing when an old:series that is not in next can take advantage of low-level:framework change that is merged to 'master' already.
 
- This step is helped with [http://repo.or.cz/w/git.git?a=blob;f=git-topic.perl;hb=todo Meta/git-topic.perl] script to identify which topic is rebaseable.  There also is a pre-rebase hook to make sure that topics that are already in 'next' are not rebased beyond the merged commit.
+ <blockquote>
+ $ git rebase master ai/topic<br>
+</blockquote>
+
+:This step is helped with [http://repo.or.cz/w/git.git?a=blob;f=git-topic.perl;hb=todo Meta/git-topic.perl] script to:identify which topic is rebaseable.  There also is a:pre-rebase hook to make sure that topics that are already in:'next' are not rebased beyond the merged commit.
 
 * Rebuild "pu" to merge the tips of topics not in 'next'.
 
- <pre><nowiki>
- $ git checkout pu
- $ git reset --hard next
- $ git merge ai/topic     ;# repeat for all remaining topics
- $ make test
-</nowiki></pre>
+ <blockquote>
+ $ git checkout pu<br>
+ $ git reset --hard next<br>
+ $ git merge ai/topic     ;# repeat for all remaining topics<br>
+ $ make test<br>
+</blockquote>
 
- This step is helped with [http://repo.or.cz/w/git.git?a=blob;f=PU;hb=todo Meta/PU] script
+:This step is helped with [http://repo.or.cz/w/git.git?a=blob;f=PU;hb=todo Meta/PU] script
 
-* Push four integration branches to a private repository at k.org and run "make test" on all of them.
-* Push four integration branches to /pub/scm/git/git.git at k.org.  This triggers its post-update hook which:
-*# runs "git pull" in $HOME/git-doc/ repository to pull 'master' just pushed out;
-*# runs "make doc" in $HOME/git-doc/, install the generated documentation in staging areas, which are separate repositories that have 'html' and 'man' branches checked out.
-*# runs "git commit" in the staging areas, and run "git push" back to /pub/scm/git/git.git/ to update the html and man branches.
-*# installs generated documentation to /pub/software/scm/git/docs/ to be viewed from [http://www.kernel.org/pub/software/scm/git/docs/ http://www.kernel.org/]
-* Fetch 'html' and 'man' branches back from k.org, and push four integration branches and the two documentation branches to [[http://repo.or.cz repo.or.cz]]
+* Push four integration branches to a private repository at:k.org and run "make test" on all of them.
+
+* Push four integration branches to /pub/scm/git/git.git at:k.org.  This triggers its post-update hook which:
+
+: 1. runs "git pull" in $HOME/git-doc/ repository to pull:'master' just pushed out;
+
+: 2. runs "make doc" in $HOME/git-doc/, install the generated:documentation in staging areas, which are separate:repositories that have 'html' and 'man' branches checked:out.
+
+: 3. runs "git commit" in the staging areas, and run "git:push" back to /pub/scm/git/git.git/ to update the html:and man branches.
+
+: 4. installs generated documentation to /pub/software/scm/git/docs/:to be viewed from [http://www.kernel.org/pub/software/scm/git/docs/ http://www.kernel.org/]
+
+* Fetch 'html' and 'man' branches back from k.org, and push four:integration branches and the two documentation branches to:[http://repo.or.cz repo.or.cz]
+
 
 === Observations ===
 
 Some observations to be made.
 
-* Each topic is tested individually, and also together with other topics cooking in 'next'.  Until it matures, none part of it is merged to 'master'.
-* A topic already in 'next' can get fixes while still in 'next'.  Such a topic will have many merges to 'next' (in other words, "git log --first-parent next" will show many "Merge ai/topic to next" for the same topic.
-* An unobvious fix for 'maint' is cooked in 'next' and then merged to 'master' to make extra sure it is Ok and then merged to 'maint'.
-* Even when 'next' becomes empty (in other words, all topics prove stable and are merged to 'master' and "git diff master next" shows empty), it has tons of merge commits that will never be in 'master'.
-* In principle, "git log --first-parent master..next" should show nothing but merges (in practice, there are fixup commits and reverts that are not merges).
-* Commits near the tip of a topic branch that are not in 'next' are fair game to be discarded, replaced or rewritten. Commits already merged to 'next' will not be.
-* Being in the 'next' branch is not a guarantee for a topic to be included in the next feature release.  Being in the 'master' branch typically is.
+* Each topic is tested individually, and also together with:other topics cooking in 'next'.  Until it matures, none part:of it is merged to 'master'.
 
-''References:''
-* [[http://permalink.gmane.org/gmane.comp.version-control.git/65722> Addendum to|"MaintNotes"]] post at git mailing list.
+* A topic already in 'next' can get fixes while still in:'next'.  Such a topic will have many merges to 'next' (in:other words, "git log --first-parent next" will show many:"Merge ai/topic to next" for the same topic.
+
+* An unobvious fix for 'maint' is cooked in 'next' and then:merged to 'master' to make extra sure it is Ok and then:merged to 'maint'.
+
+* Even when 'next' becomes empty (in other words, all topics:prove stable and are merged to 'master' and "git diff master:next" shows empty), it has tons of merge commits that will:never be in 'master'.
+
+* In principle, "git log --first-parent master..next" should:show nothing but merges (in practice, there are fixup commits:and reverts that are not merges).
+
+* Commits near the tip of a topic branch that are not in 'next':are fair game to be discarded, replaced or rewritten.:Commits already merged to 'next' will not be.
+
+* Being in the 'next' branch is not a guarantee for a topic to:be included in the next feature release.  Being in the:'master' branch typically is.
+
+
+'''References:'''
+* [http://permalink.gmane.org/gmane.comp.version-control.git/65722 Addendum to "MaintNotes"] post at git mailing list.
 * [http://repo.or.cz/w/git.git?a=blob_plain;f=Documentation/howto/maintain-git.txt Documentation/howto/maintain-git.txt] with foreword by Jeff King.
-
-__NOTOC__
