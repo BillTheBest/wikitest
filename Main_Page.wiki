@@ -22,6 +22,7 @@ Welcome to the [[Git]] wiki web site. This wiki is a community effort to provide
 * [[GitComparison|Git Compared]]
 
 == News ==
+* January 14, 2009: The Git Wiki starts to move to [http://git.wiki.kernel.org/ http://git.wiki.kernel.org/]
 * September 15, 2009: Git User's Survey 2009 has been closed. [[GitSurvey2009]]
 * April 20, 2009: Google Summer of Code Git projects announced. [[SoC2009Projects|SoC 2009 Git Projects]]
 * April 13, 2009: GitTogether '09 announced. [[GitTogether09|GitTogether'09]]
