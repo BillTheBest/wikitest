@@ -176,7 +176,7 @@ Below there are blogs by gitters:
 Only those including [[Git]] as one of the systems.
 * [http://www.looble.com/git-vs-svn-which-is-better/ Git vs SVN - Which is Better?]
 * [[WikiPedia:Comparison_of_revision_control_software|Comparison of revision control software]] table at Wikipedia.
-* [http://bazaar-vcs.org/RcsComparisons?action=recall&rev=98 [[RcsComparisons] rev. 98]] (user-oriented table, removed because it was of limited use), [http://bazaar-vcs.org/RCSChoices RCSChoices] (table of the decisions), [http://bazaar-vcs.org/SCMComparisons SCMComparisons] (lists of features) and [http://bazaar-vcs.org/BzrVsGit [[BzrVsGit]]] at Bazaar-NG wiki. /!\
+* [http://bazaar-vcs.org/RcsComparisons?action=recall&rev=98 RcsComparisons rev. 98] (user-oriented table, removed because it was of limited use), [http://bazaar-vcs.org/RCSChoices RCSChoices] (table of the decisions), [http://bazaar-vcs.org/SCMComparisons SCMComparisons] (lists of features) and [http://bazaar-vcs.org/BzrVsGit BzrVsGit] at Bazaar-NG wiki. !
 * [http://zooko.com/revision_control_quick_ref.html Quick Reference Guide to Free Software Decentralized Revision Control Systems] by Zooko
 * [http://www.dwheeler.com/essays/scm.html Comments on Open Source Software / Free Software (OSS/FS) Software Configuration Management (SCM) Systems] by David A. Wheeler, (April 10, 2004; lightly revised May 18, 2005). Git added at the very end of article.
 * [http://linuxmafia.com/faq/Apps/scm.html Source-code management on Linux] - large list of SCMs with descriptions at LinuxMafia.
