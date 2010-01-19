@@ -74,14 +74,14 @@ Miscellaneous git-related links, not including [http://git.or.cz/ Git homepage],
 
 == Magazines ==
 * [http://www.pcworld.idg.com.au PC World]
-  *[http://www.pcworld.idg.com.au/index.php/id;1852076002;fp;16;fpid;0 After controversy, Torvalds begins work on "git"] by Robert McMillan, 20/04/2005.
+**[http://www.pcworld.idg.com.au/index.php/id;1852076002;fp;16;fpid;0 After controversy, Torvalds begins work on "git"] by Robert McMillan, 20/04/2005.
 * [http://www.eweek.com/ eWeek.com]
-  *[http://www.eweek.com/article2/0,1895,1788876,00.asp Torvalds Gives Inside Skinny on Git] by Steven J. Vaughan-Nichols,  April 22, 2005.
+**[http://www.eweek.com/article2/0,1895,1788876,00.asp Torvalds Gives Inside Skinny on Git] by Steven J. Vaughan-Nichols,  April 22, 2005.
 * [http://www.linux-mag.com Linux Magazine] (requires free subscription)
-  *[http://www.linux-mag.com/content/view/2130 Git With It!], written by Sam Williams 
-  *[http://www.linux-mag.com/content/view/2533 How To Git It], written by Jon Loeliger.  Also available in [http://www.jdl.com/papers/How_To_Git_It.html HTML] and [http://www.jdl.com/papers/How_To_Git_It.pdf PDF] format on Jon Loeliger (jdl) [http://www.jdl.com/papers/ papers] page.
-  *[http://www.linux-mag.com/content/view/2591/ Embracing the Git Index], written by Jon Loeliger (second in series).  Also available in [http://www.jdl.com/papers/Embrace_The_Git_Index.pdf PDF] format on Jon Loeliger (jdl) [http://www.jdl.com/papers/ papers] page.
-  *[http://www.linux-mag.com/id/2695 Collaborating Using Git], written by Jon Loeliger (third in series).  Available in [http://www.jdl.com/papers/Collaborating_Using_Git.pdf PDF] format on Jon Loeliger (jdl) [http://www.jdl.com/papers/ papers] page.
+**[http://www.linux-mag.com/content/view/2130 Git With It!], written by Sam Williams 
+**[http://www.linux-mag.com/content/view/2533 How To Git It], written by Jon Loeliger.  Also available in [http://www.jdl.com/papers/How_To_Git_It.html HTML] and [http://www.jdl.com/papers/How_To_Git_It.pdf PDF] format on Jon Loeliger (jdl) [http://www.jdl.com/papers/ papers] page.
+**[http://www.linux-mag.com/content/view/2591/ Embracing the Git Index], written by Jon Loeliger (second in series).  Also available in [http://www.jdl.com/papers/Embrace_The_Git_Index.pdf PDF] format on Jon Loeliger (jdl) [http://www.jdl.com/papers/ papers] page.
+**[http://www.linux-mag.com/id/2695 Collaborating Using Git], written by Jon Loeliger (third in series).  Available in [http://www.jdl.com/papers/Collaborating_Using_Git.pdf PDF] format on Jon Loeliger (jdl) [http://www.jdl.com/papers/ papers] page.
 
 == Articles and Papers ==
 * [http://www-128.ibm.com/developerworks/ developerWorks: IBM's resource for developers]
