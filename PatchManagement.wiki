@@ -2,7 +2,7 @@
 
 I define "patch management" as a way of dealing with modifications to source code, which emphasizes the importance of changes themselves.
 
-Tools for patch management existed before GIT, most notably [[Quilt]] and [[Darcs]], and patch management tools integrating with other versionning systems exist.  We have already seen a number of patch management tools appear on top of GIT, and they all bring their set of interesting ideas.
+Tools for patch management existed before GIT, most notably Quilt and Darcs, and patch management tools integrating with other versionning systems exist.  We have already seen a number of patch management tools appear on top of GIT, and they all bring their set of interesting ideas.
 
 This page is meant to collect those ideas found in all existing patch-management tools, as well as ideas from users who need better patch management.
 
@@ -43,7 +43,7 @@ Others, like Darcs, are more flexible: instead of forcing upon the user a someti
 
 More precisely:
 * StGIT 0.11 stores a patch as a GIT commit whose single parent is the patch below it in the stack
-* Pg 0.1.7 stores a patch quite similarly to [[StGit]], but also recording as parent the commit representing the previous version of the patch. 
+* Pg 0.1.7 stores a patch quite similarly to StGit, but also recording as parent the commit representing the previous version of the patch. 
 
 === Other ideas ===
 
@@ -55,12 +55,12 @@ One idea, raised by Shawn Pearce (author of Pg) would be to manage independant p
 
 The approach in pg 0.1.7 of using merge commits, while allowing to track the full history of each patch, quickly creates a heavy history, which becomes unusable after commuting patches a couple of times.  Furthermore, that way of doing things turns changes from lower patches indeed part of higher patches (for merging purposes, etc.) - that's what a merge commit means.
 
-[[StGit]] (since 0.11) tracks the history of each patch in a special "log branch".  It is more lightweight than the pg approach, since they do not interfere with the stack itself, but are still of limited interest, since they too get poluted by changes in patches down the stack.
+StGit (since 0.11) tracks the history of each patch in a special "log branch".  It is more lightweight than the pg approach, since they do not interfere with the stack itself, but are still of limited interest, since they too get poluted by changes in patches down the stack.
 
 === What's still missing ===
 Todo
 
 ----
-[[Category::GitDocumentation]]
+[[Category:GitDocumentation]]
 
 __NOTOC__
