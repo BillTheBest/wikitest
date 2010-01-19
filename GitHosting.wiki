@@ -47,7 +47,7 @@ Those are public Git hosting sites where any project can be hosted, perhaps with
 * http://git.postgresql.org/ provides Git hosting for [http://www.postgresql.org/ PostgreSQL] and related projects.
 
 == Other links ==
-* [http://www.simplicidade.org/notes/archives/2008/03/git_hosting_sit.html git hosting sites] article at [http://www.simplicidade.org/notes/ simplicidade blog] (Gitorious and ![[GitHub]]).
+* [http://www.simplicidade.org/notes/archives/2008/03/git_hosting_sit.html git hosting sites] article at [http://www.simplicidade.org/notes/ simplicidade blog] (Gitorious and GitHub).
 * [[WikiPedia:Comparison_of_free_software_hosting_facilities|Comparison of free software hosting facilities]] at Wikipedia.
 ----
 [[Category:People]]
