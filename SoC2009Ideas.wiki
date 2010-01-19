@@ -135,18 +135,18 @@ Caching packfiles is a good solution for infrequently updated repositories (e.g.
 
 == git mirror-sync ==
 
-An extension, rebirth and grand simplification of the key features of the (incomplete) [[GitTorrent]] projects from previous years.
+An extension, rebirth and grand simplification of the key features of the (incomplete) GitTorrent projects from previous years.
 
-Includes extensions to the git daemon protocol to handle automatic registration and verification of mirrors, expedient distribution of updates to the mirrors, mirror selection, and for extra points, download spreading (pulling fractions of bundles from a number of nodes) and/or "mob" fork support.  Thus yielding the major P2P benefits of [[GitTorrent]] in simple, incremental steps.  The result would be faster downloads, lower startup overheads, restartable cloning, a more resilient server network, push to any point in the cloud, etc.
+Includes extensions to the git daemon protocol to handle automatic registration and verification of mirrors, expedient distribution of updates to the mirrors, mirror selection, and for extra points, download spreading (pulling fractions of bundles from a number of nodes) and/or "mob" fork support.  Thus yielding the major P2P benefits of GitTorrent in simple, incremental steps.  The result would be faster downloads, lower startup overheads, restartable cloning, a more resilient server network, push to any point in the cloud, etc.
 
-For use for sites such as git.kernel.org, repo.or.cz, github.com, etc.  Implementations of [[GitTorrent]] exist at http://jonas.nitro.dk/gittorrent/libgtp.git/ and http://git.utsl.gen.nz/VCS-Git-Torrent, but the [[MirrorSync]] proposal is a simpler way forward, integrates better with git and would be preferred to proposals that would attempt to finish the [[GitTorrent]] proofs of concept.
+For use for sites such as git.kernel.org, repo.or.cz, github.com, etc.  Implementations of GitTorrent exist at http://jonas.nitro.dk/gittorrent/libgtp.git/ and http://git.utsl.gen.nz/VCS-Git-Torrent, but the MirrorSync proposal is a simpler way forward, integrates better with git and would be preferred to proposals that would attempt to finish the GitTorrent proofs of concept.
 
-''Goal:'' to implement a useful amount of the [[MirrorSync]] proposal (http://code.google.com/p/gittorrent/wiki/[[MirrorSync]], also http://github.com/samv/git/tree/mirror-sync - see Documentation/git-mirror-sync.txt and Documentation/git-mirror-sync-impl.txt in that tree)
+''Goal:'' to implement a useful amount of the MirrorSync proposal (http://code.google.com/p/gittorrent/wiki/MirrorSync, also http://github.com/samv/git/tree/mirror-sync - see Documentation/git-mirror-sync.txt and Documentation/git-mirror-sync-impl.txt in that tree)
 <BR>''Language:'' Open for proposal.
 <BR>''Suggested mentors:''
 * Jonas Fonseca (designed the original protocol)
 * Johannes Schindelin (interested party) 
-* Sam Vilain (worked on [[GitTorrent]], designed [[MirrorSync]])
+* Sam Vilain (worked on GitTorrent, designed MirrorSync)
 <BR>''See:'' [[SoC2008Projects|2008 GSoC project]]
 
 == Domain specific merge helpers ==
