@@ -1,7 +1,7 @@
 JGIT Package Layout and Notes
 
 {| border="1" cellpadding="2" cellspacing="0"
-| <tablewidth="1197px" tableheight="291px" tablealign="">org.eclipse.jgit.lib
+| org.eclipse.jgit.lib
 | the on disk representation of a repository, reading/writing that data.
 | 
 |-
@@ -34,7 +34,7 @@ JGIT Package Layout and Notes
 | 
 |-
 | org.eclipse.jgit.pgm
-| Currently the best example code in the source distribution for a bird's eye view. Start here with little command line tools like Branch, [[LsTree]] and Log.
+| Currently the best example code in the source distribution for a bird's eye view. Start here with little command line tools like Branch, LsTree and Log.
 | 
 |}
 
