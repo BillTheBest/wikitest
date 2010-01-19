@@ -52,7 +52,7 @@ A tree with the corresponding placeholder files will then look like this:
                 *--.emptydir
 </nowiki></pre>
 
-To create the `.emptydir` files use the `[[MarkEmptyDir]]s` tool simply like this:
+To create the `.emptydir` files use the `MarkEmptyDirs` tool simply like this:
 
 <pre><nowiki>
 $> MarkEmptyDirs.exe PROJECT
@@ -79,7 +79,7 @@ In both cases you can use template variables in your placeholder content which a
 |-
 |  `§datetime[[<format-pattern>]]§` 
 |  get UTC time 
-|  `format-pattern`: C# [[DateTime]] format pattern string 
+|  `format-pattern`: C# DateTime format pattern string 
 | 
 |-
 |  `§dir[[<base|cur.abs|cur.rel>]]§` 
