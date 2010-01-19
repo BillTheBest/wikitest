@@ -1,5 +1,5 @@
 = Git 中文教程 =
 
-* /[[QuickStart]]
+* [[RobinSteven/GitChineseTutor/QuickStart]]
 
 __NOTOC__
