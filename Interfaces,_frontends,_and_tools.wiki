@@ -19,7 +19,7 @@ __TOC__
 === Cogito (deprecated) ===
 * [[Cogito]] for some time was the most popular version control system on top of Git. It aims at seamless user interface and ease of use, providing generally smoother user experience than the "raw" Git interface and indeed also many other version control systems. Note that Cogito is ''no longer maintained or recommended''. Git 1.5.0 and beyond has incorporated many features that make it suitable for direct use without needing additional software.
 
-=== [[IsiSetup]] ===
+=== IsiSetup ===
 * [http://www.isisetup.ch/ IsiSetup] (APT for your config) is a utility to help managing your configuration files with Git as backend. You can rollback changes, explore the history of changes, replicate your configuration, backup your configuration and blame changes to admins.<BR> ''See also:'' [http://kitenet.net/~joey/code/etckeeper/ etckeeper].
 
 === Easy Git ===
