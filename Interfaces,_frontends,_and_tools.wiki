@@ -1003,7 +1003,7 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 ==== bzr-fast-export ====
 * Bazaar frontend for git-fast-import. Announcement [https://lists.ubuntu.com/archives/bazaar/2008q1/038391.html here], lives in the `exporters` subdirectory of the [https://launchpad.net/bzr-fastimport bzr-fastimport project].
 
-==== [[BzrToGit]] ====
+==== BzrToGit ====
 * A shell script that migrates a Bazaar repository to Git, written by Henrik Nilsson and can be found [http://sortedbits.ath.cx/scripts/bzrtogit.sh here].
 
 === Perforce ===
