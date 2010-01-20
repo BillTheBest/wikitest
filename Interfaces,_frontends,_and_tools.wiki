@@ -821,8 +821,8 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 === Gitorious ===
 * [http://gitorious.org/ Gitorious ] provides free open source infrastructure for open source projects that use Git. Open Source and Ruby on Rails based. 
 
-=== [[InDefero]] ===
-* [http://www.indefero.net InDefero] is a clone of [[GoogleCode]] with git, Mercurial and Subversion browser, wiki, download area, issue tracking and code review supporting multiple private/public projects. Using a shared user account with SSH keys you can control the read/write access rights to your repositories from within the web interface. GNU GPL/Clean MVC PHP5 code, very fast and easy to extend. [http://projects.ceondo.com/p/indefero/downloads/ Download], [http://projects.ceondo.com/p/indefero/source/tree/master/ view source]. Free hosting also available.
+=== InDefero ===
+* [http://www.indefero.net InDefero] is a clone of GoogleCode with git, Mercurial and Subversion browser, wiki, download area, issue tracking and code review supporting multiple private/public projects. Using a shared user account with SSH keys you can control the read/write access rights to your repositories from within the web interface. GNU GPL/Clean MVC PHP5 code, very fast and easy to extend. [http://projects.ceondo.com/p/indefero/downloads/ Download], [http://projects.ceondo.com/p/indefero/source/tree/master/ view source]. Free hosting also available.
 
 === Wit ===
 * [[Wit]] (http://dan.chokola.com/software/wit.rhtml) is a Ruby/eRuby web interface to git that provides much easier setup, configuration, maintainability, and customizability than gitweb, all in fewer lines of code and with a prettier interface. It is maintained by [http://dan.chokola.com/ Daniel Chokola] of the XMMS2 project. See it in action [http://dan.chokola.com/wit here]. The website does not seem to be working. Anyone able to find Wit online?
