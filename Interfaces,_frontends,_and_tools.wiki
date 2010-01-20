@@ -1017,8 +1017,8 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 
 === Others ===
 
-==== git-ucmimport (IBM Rational [[ClearCase]]) ====
-* git-ucmimport, also written by Rutger Nijlunsing, is a converter from IBM Rational ClearCase UCM to git. The latest version can be found currently on http://www.wingding.demon.nl (fixme). In Ruby.
+==== git-ucmimport (IBM Rational ClearCase) ====
+* git-ucmimport, also written by Rutger Nijlunsing, is a converter from IBM Rational ClearCase UCM to git. The initial version can be found currently on http://www.gelato.unsw.edu.au/archives/git/0607/23790.html (the link in that mail is now dead). In Ruby.
 
 ==== quilt2git / git2quilt ====
 * These utilities convert patch series in a quilt repository and commit series in git back and forth. You can download files [http://home-tj.org/files/misc here]; they can be found on [http://home-tj.org/wiki/index.php/Misc HomeTJ webpage].
