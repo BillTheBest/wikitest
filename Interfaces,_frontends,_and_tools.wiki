@@ -1189,7 +1189,7 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 * libgit-thin by Luiz Fernando N. Capitulino and Shawn O. Pearce is an ongoing effort to develop a library for git, which started as a [http://code.google.com/p/google-summer-of-code-2007-git/ Google Summer of Code 2007 project]. Read [http://article.gmane.org/gmane.comp.version-control.git/53433 this announcement] for more details. It also comes with Python bindings called PyGit, wich demonstrate the current capabilities. The git repository of this project can be found under http://repo.or.cz/w/git/libgit-gsoc.git.
 
 === git-buildpackage ===
-* [http://packages.debian.org/git-buildpackage git-buildpackage] is a tool for managing the debian packaging of an application in git. [http://honk.sigxcpu.org/projects/git-buildpackage/manual-html/gbp.html Documentation]. There are other solutions and suggestions for debian packaging and git, for example see [http://wiki.debian.org/GitSrc [[GitSrc]]].
+* [http://packages.debian.org/git-buildpackage git-buildpackage] is a tool for managing the debian packaging of an application in git. [http://honk.sigxcpu.org/projects/git-buildpackage/manual-html/gbp.html Documentation]. There are other solutions and suggestions for debian packaging and git, for example see [http://wiki.debian.org/GitSrc GitSrc].
 
 === gear ===
 * [http://en.altlinux.org/Gear Gear] is a tool for building RPM packages from git repositories.
