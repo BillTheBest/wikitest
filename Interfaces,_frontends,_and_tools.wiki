@@ -866,9 +866,9 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 
 == Editors and IDE integration ==
 
-=== Emacs integration (in `contrib/`) ===
-* Preliminary Emacs mode for Git from Alexandre Julliard (in `contrib/emacs` directory) consist of `git.el` which is project tree browser similar to pcl-cvs, and `vc-git.el` which is VC backend (see also vc-git-hacking at [http://www.gnuvola.org/wip/ gnuvola]).<BR> There is also a project, [http://download.gna.org/dvc/ DVC] (Distributed Version Control), on Gna!, by the authors of Xtla, to create a generic library for fancy Emacs interfaces to modern version control systems. Currently it supports [http://www.gnu.org/software/gnu-arch/ GNU Arch] (''tla'') and [http://freshmeat.net/projects/baz/ Bazaar] (''baz''), and has initial support for [http://bazaar-vcs.org/ Bazaar-NG] (''bzr'') and [http://www.selenic.com/mercurial/ Mercurial] (''xhg'').
-* ''See also:'' [[EmacsWiki]]:Git and [[EmacsWiki]]:[[Category:VersionControl]] pages on [http://www.emacswiki.org EmacsWiki]
+=== Emacs integration (in <tt>contrib/</tt>) ===
+* Preliminary Emacs mode for Git from Alexandre Julliard (in <tt>contrib/emacs</tt> directory) consist of `git.el` which is project tree browser similar to pcl-cvs, and <tt>vc-git.el</tt> which is VC backend (see also vc-git-hacking at [http://www.gnuvola.org/wip/ gnuvola]).<BR> There is also a project, [http://download.gna.org/dvc/ DVC] (Distributed Version Control), on Gna!, by the authors of Xtla, to create a generic library for fancy Emacs interfaces to modern version control systems. Currently it supports [http://www.gnu.org/software/gnu-arch/ GNU Arch] (''tla'') and [http://freshmeat.net/projects/baz/ Bazaar] (''baz''), and has initial support for [http://bazaar-vcs.org/ Bazaar-NG] (''bzr'') and [http://www.selenic.com/mercurial/ Mercurial] (''xhg'').
+* ''See also:'' EmacsWiki:Git and EmacsWiki:Category:VersionControl pages on [http://www.emacswiki.org EmacsWiki]
 
 === Java GIT/Eclipse GIT ===
 * [http://repo.or.cz/w/egit.git Java GIT/Eclipse GIT] (repository) originated by Shawn Pearce is a Java GIT library and plugin for [http://www.eclipse.org/ Eclipse] IDE, in very early stages of development. The site no longer seems to have the plugin. Robin Rosenberg has recently been working on history and compare views for the plugin. David Watson contributed GUI for branch handling and commit. Progress is slow but steady. A [[EclipsePluginWishlist]] has been started as a roadmap of features. A page has been started to follow development: [[EclipsePlugin]].
