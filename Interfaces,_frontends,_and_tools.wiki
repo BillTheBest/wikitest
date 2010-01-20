@@ -135,7 +135,7 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 * [http://cola.tuxfamily.org/ git-cola] ([http://repo.or.cz/w/git-cola.git gitweb], [http://github.com/davvid/git-cola/tree/master github], [http://gitorious.org/projects/git-cola/ gitorious]) by David Aguilar is a git commit tool, similar to git-gui, written in PyQt4. You can get tarballs and debian packages at http://cola.tuxfamily.org/.
 
 === teamGit ===
-* [[TeamGit|teamGit]] (http://www.devslashzero.com/teamgit) by Abhijit Bhopatkar is a successor of kgit. It is intended to be a complete developmenet workflow management app with git as a base tool. As of oct 2008 it can be used as a pretty good commit tool. Please see feature table below.
+* teamGit (http://www.devslashzero.com/teamgit) by Abhijit Bhopatkar is a successor of kgit. It is intended to be a complete developmenet workflow management app with git as a base tool. As of oct 2008 it can be used as a pretty good commit tool. Please see feature table below.
 
 === GitX ===
 * GitX ([http://gitx.frim.nl homepage], [http://github.com/pieter/gitx/tree/master github], [http://frim.frim.nl/GitXStable.app.zip download]) by Pieter de Bie is a gitk clone aiming to provide a more native interface to MacOS X users with OS X-only features. It has a native interface and tries to integrate with the operating system as good as possible. Examples of this are drag and drop support and QuickLook support. <BR>''See also:'' [http://permalink.gmane.org/gmane.comp.version-control.git/93980||Announce  GitX v0.1: Gitk clone for OS X] post on git mailing list.
