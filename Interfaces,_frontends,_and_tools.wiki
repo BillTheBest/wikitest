@@ -52,7 +52,7 @@ __TOC__
 === Dulwich ===
 * [http://samba.org/~jelmer/dulwich/ Dulwich] is a pure-Python read-write implementation of the Git file formats and protocols. It is named after the village in which Mr. and Mrs. Git live in the Monty Python sketch. A Git repository ca be found at git://git.samba.org/jelmer/dulwich.git and its gitweb [http://git.samba.org/?p=jelmer/dulwich.git;a=summary here].
 
-=== [[PyGit]] (abandoned?) ===
+=== PyGit (abandoned?) ===
 * Pythonic [http://code.istique.net/?p=pygit.git git bindings] targeted towards porcelains. There is also the [http://code.istique.net/?p=pygit.git;a=shortlog;h=refs/heads/stores "stores" branch] that implements pack and object reading natively in Python.
 
 === Grit ===
