@@ -353,7 +353,7 @@ There are two possible solutions. With first, using Proxy<code><nowiki></nowiki>
 
 <pre><nowiki>
 Host *.foo.internal
-     [[ProxyCommand]] ssh gateway.foo.com exec nc %h %p</nowiki></pre>
+     ProxyCommand ssh gateway.foo.com exec nc %h %p</nowiki></pre>
 (where <code><nowiki>'%h'</nowiki></code> expands to the host you connect to, and <code><nowiki>'%p'</nowiki></code> to the port you are using). You have to have <code><nowiki>nc</nowiki></code> ([http://www.vulnwatch.org/netcat/ netcat] or [http://netcat.sourceforge.net/ GNU Netcat]) installed on gateway, but this should be no problem as it is 22K binary. Note that path is expanded on local side, while it should be to file on gateway side.
 
 Second is slightly faster, doesn't need any tool besides ssh, but you have to run port forwarding command before connecting, must make sure that ssh tunnel is up, and must be set up host for host. In your ssh configuration file, for example <code><nowiki>~/.ssh/config</nowiki></code> put the following:
