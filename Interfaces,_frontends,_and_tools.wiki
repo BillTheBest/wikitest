@@ -158,7 +158,7 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 === Qt Creator ===
 * [http://www.qtsoftware.com/developer/qt-creator Qt Creator] is a lightweight, cross-platform integrated development environment (IDE) for developing with Qt that provides a built in GUI for working with Git repositories.
 
-=== [[SmartGit]] ===
+=== SmartGit ===
 * [http://www.syntevo.com/smartgit SmartGit] by Syntevo GmbH is a graphical Git client which runs on all major platforms (e.g. Linux, Mac OS X, Microsoft Windows). It requires (SUN-) Java 1.5 or newer as well as a Git installation.  Closed source, free of charge for non-commercial usage.
 
 === [[StupidGit]] ===
