@@ -161,7 +161,7 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 === SmartGit ===
 * [http://www.syntevo.com/smartgit SmartGit] by Syntevo GmbH is a graphical Git client which runs on all major platforms (e.g. Linux, Mac OS X, Microsoft Windows). It requires (SUN-) Java 1.5 or newer as well as a Git installation.  Closed source, free of charge for non-commercial usage.
 
-=== [[StupidGit]] ===
+=== StupidGit ===
 * [http://wiki.github.com/gyim/stupidgit StupidGit] by Ákos Gyimesi is a cross-platform git GUI written in wxPython. It tries to be easy to use for beginners and has advanced support for submodules. It is quite early in development, but already implements many features including merge, cherry-pick and easy switching between versions.
 
 === Summary (feature matrix) ===
