@@ -46,7 +46,7 @@ __TOC__
 
 * [http://search.cpan.org/~yanick/Git-CPAN-Patch Git::CPAN::Patch] provides a suite of git commands aimed at making trivially easy the process of grabbing any distribution off CPAN, stuffing it in a local git repository and, once gleeful hacking has been perpetrated, sending back patches to its maintainer.
 
-=== [[GitPython]] ===
+=== GitPython ===
 * A Python module that provides read-only object model access to your Git repositories by calling the Git executables and parsing output. Once you have created a repository object, you can traverse it to find parent commit(s), trees, blobs, etc.. Port of the [http://grit.rubyforge.org/ grit] library in Ruby created by Tom Preston-Werner and Chris Wanstrath. Git repository is [http://gitorious.org/projects/git-python/ available here].
 
 === Dulwich ===
