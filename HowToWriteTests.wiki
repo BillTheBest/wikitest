@@ -47,7 +47,7 @@ you can use the shortcut
 
  test_commit A
 
-* When comparing some output to a given expected output, the common idiom something like this:
+* When comparing some output to a given expected output, the common idiom is something like this:
 <pre><nowiki>
 cat > expect << \EOF
 ...
