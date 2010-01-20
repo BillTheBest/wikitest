@@ -801,8 +801,8 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 ==== gitool (deprecated) ====
 * [[Gitool|gitool]] ([http://thread.gmane.org/gmane.comp.version-control.git/26415 announcement], [http://ozlabs.org/~paulus/gitool download], [http://www.kernel.org/git/?p=gitk/gitk.git;a=shortlog;h=new gitweb]) by Paul Mackerras is a tool for creating commits. Superseded by git-gui (see above). Last development activity in 2007. Written in Tcl/Tk.
 
-==== [[GitNub]] (stalled) ====
-* [[GitNub]] ([http://github.com/Caged/gitnub/wikis homepage], [http://github.com/Caged/gitnub/tree/master github]) by Justin Palmer is an Mac OSX Leopard client for git written in Ruby and Objective-C.
+==== GitNub (stalled) ====
+* GitNub ([http://github.com/Caged/gitnub/wikis homepage], [http://github.com/Caged/gitnub/tree/master github]) by Justin Palmer is an Mac OSX Leopard client for git written in Ruby and Objective-C.
 <!-- ## is it more like gitk or qgit, or more like git-gui?
  -->
 
