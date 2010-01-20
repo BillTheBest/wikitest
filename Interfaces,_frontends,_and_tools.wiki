@@ -91,7 +91,7 @@ __TOC__
 == Patch-management Interface layers ==
 
 === StGIT (Stacked Git) ===
-* [[StGIT]] ([http://www.procode.org/stgit/ homepage]) provides a Quilt-like patch management functionality (i.e. pushing/popping patches to/from a stack) in the Git environment. You can easily manage your patches in the scope of Git until they get merged upstream.<BR> ''See also'': [http://savannah.nongnu.org/projects/quilt/ Quilt project page].
+* StGIT ([http://www.procode.org/stgit/ homepage]) provides a Quilt-like patch management functionality (i.e. pushing/popping patches to/from a stack) in the Git environment. You can easily manage your patches in the scope of Git until they get merged upstream.<BR> ''See also'': [http://savannah.nongnu.org/projects/quilt/ Quilt project page].
 
 === Guilt (formerly Git Queues (gq)) ===
 * [[Guilt|guilt]] ([http://www.kernel.org/pub/linux/kernel/people/jsipek/guilt/ download], [http://www.kernel.org/git/?p=linux/kernel/git/jsipek/guilt.git;a=summary gitweb]) by Josef "Jeff" Sipek is a series of bash scripts which add a [http://www.selenic.com/mercurial/wiki/index.cgi/MqExtension Mercurial queues]-like functionality and interface to git. The one distinguishing feature from other Quilt-like porcelains, is the format of the patches directory. All the information is stored as plain text - a series file and the patches (one per file). This easily lends itself to versioning the patches using any number of of SCMs.
