@@ -888,7 +888,7 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 === PIDA ===
 * [http://pida.co.uk/ PIDA] Integrated development environment supporting GIT, Subversion, Darcs, Mercurial, Monotone, Bazaar-NG (''bzr''). It allows embedding Vim or emacs. ''(Python, GTK)''
 
-=== [[TextMate]] ===
+=== TextMate ===
 * [http://github.com/timcharper/git-tmbundle/ Git-tmBundle] Provides a variety of tools for interacting with Git repositories, such as push, pull, tag, fetch, browse annotations, merge, switching branches, stashing, committing, etc. ''(Ruby)''
 
 === Vim ===
