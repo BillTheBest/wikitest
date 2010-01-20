@@ -144,7 +144,7 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 * [http://pyrite.sophiasuchtig.com/ pyrite] by Govind Salinas is a Git GUI and front end written in Python.
 
 === gitSafe ===
-* gitSafe ([http://www.kodespace.com/gitSafe/ homepage]) by cmroanirgo is a ![[SourceSafe]]-like GUI for git using MFC. ''NOTE:'' This software is Closed Source.
+* gitSafe ([http://www.kodespace.com/gitSafe/ homepage]) by cmroanirgo is a SourceSafe-like GUI for git using MFC. ''NOTE:'' This software is Closed Source.
 
 === Git Extensions ===
 * ''Git Extensions'' ([http://github.com/spdr870/gitextensions/tree/master github]) is a toolkit for Windows users. The main feature is a shell extension that enables a context menu in Windows Exlorer to use most Git functions. The toolkit also contains a standalone GUI and a Visual Studio 2005/2008 plugin. The toolkit is mainly written in C#, the shell extensions code is written in C++. The toolkit is still under development, there is a beta version downloadable here: http://code.google.com/p/gitextensions/ <BR> ''See also:'' [http://permalink.gmane.org/gmane.comp.version-control.git/103371 Announcement: Git Extensions stable (windows shell extensions)] on git mailing list.
