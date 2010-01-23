@@ -9,7 +9,7 @@ Used by [[Gitweb]] installations to link to [http://www.kernel.org/pub/software/
 and by [http://git.or.cz/ Git homepage] to link to [http://git.or.cz/index.html Home].
 
 {| border="1" cellspacing="0" cellpadding="10"
-| http://jengelh.medozas.de/images/git-logo-jengelh.png || [http://dev.medozas.de/gitweb.cgi gitweb at dev.medozas.de]
+| [[File:Git-logo-jengelh.png]] || [http://dev.medozas.de/gitweb.cgi gitweb at dev.medozas.de]
 |}
 
 The source for the last logo (by Jan Engelhardt) is [http://jengelh.medozas.de/images/git-logo-jengelh.svg git-logo-jengelh.svg]
