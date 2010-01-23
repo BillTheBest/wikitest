@@ -74,7 +74,7 @@ __TOC__
 * [http://github.com/schacon/objective-git ObjectiveGit] is an Objective-C partial implementation of Git and a corresponding object level library that can be used to create, read and manipulate Git repositories. It also contains git server implementations (receive-pack and upload-pack).
 
 === JGit (Java) ===
-* See below in Editors and IDE integration
+* [http://www.eclipse.org/jgit/ JGit] is a BSD licensed, pure Java implementation of the Git file format, core algorithms, and network transport protocols.  It can be found embedded inside of many Git related applications, including [http://www.eclipse.org/egit/ EGit], [http://code.google.com/p/gerrit Gerrit Code Review], [http://nbgit.org/ NBGit], and [http://www.jetbrains.com/teamcity/ JetBrains TeamCity].
 
 === JavaGit ===
 * [http://javagit.sourceforge.net JavaGit] is an API providing access to git repositories for Java applications. JavaGit is engineered to provide the developer with access to the raw git commands through a command API as well as an object API designed to represent the .git repository, the working tree and other, familiar git concepts. JavaGit uses the git binaries installed on the host machine to provide git functionality and has been designed to easily accommodate additional methods of access to git repositories. JavaGit is released as open source software under the GNU LGPL license.<BR>''Currently in early alpha version'' <BR>''See also:'' [http://thread.gmane.org/gmane.comp.version-control.git/91381 NYU Open Source Programming Class Releases JavaGit API 0.1.0 Alpha] thread on git mailing list.
@@ -870,8 +870,8 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 * Preliminary Emacs mode for Git from Alexandre Julliard (in <tt>contrib/emacs</tt> directory) consist of `git.el` which is project tree browser similar to pcl-cvs, and <tt>vc-git.el</tt> which is VC backend (see also vc-git-hacking at [http://www.gnuvola.org/wip/ gnuvola]).<BR> There is also a project, [http://download.gna.org/dvc/ DVC] (Distributed Version Control), on Gna!, by the authors of Xtla, to create a generic library for fancy Emacs interfaces to modern version control systems. Currently it supports [http://www.gnu.org/software/gnu-arch/ GNU Arch] (''tla'') and [http://freshmeat.net/projects/baz/ Bazaar] (''baz''), and has initial support for [http://bazaar-vcs.org/ Bazaar-NG] (''bzr'') and [http://www.selenic.com/mercurial/ Mercurial] (''xhg'').
 * ''See also:'' EmacsWiki:Git and EmacsWiki:Category:VersionControl pages on [http://www.emacswiki.org EmacsWiki]
 
-=== Java GIT/Eclipse GIT ===
-* [http://repo.or.cz/w/egit.git Java GIT/Eclipse GIT] (repository) originated by Shawn Pearce is a Java GIT library and plugin for [http://www.eclipse.org/ Eclipse] IDE, in very early stages of development. The site no longer seems to have the plugin. Robin Rosenberg has recently been working on history and compare views for the plugin. David Watson contributed GUI for branch handling and commit. Progress is slow but steady. A [[EclipsePluginWishlist]] has been started as a roadmap of features. A page has been started to follow development: [[EclipsePlugin]].
+=== Ecilpse plugin (EGit) ===
+* [http://www.eclipse.org/egit/ EGit] a plugin for [http://www.eclipse.org/ Eclipse] IDE.
 
 === Git4Idea ===
 * The Git4Idea plugin provides basic Git integration support for the IntelliJ/[[JetBrains]] IDEA (v6 & above) development environment. The Git4Idea plugin can be downloaded from within IDEA itself using the IDE Settings->Plugins config panel. The [http://plugins.intellij.net/plugin?id=3033 plugin home page] contains the latest release information and source code is also available [http://github.com/markscott/git4idea/tree/master here]. Git4Idea uses the git command line tool to work; Cygwin 'git' on Windows is recommended.
