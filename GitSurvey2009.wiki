@@ -2354,7 +2354,7 @@ it on review board (or forum).
 |  1.8 / 3199 
 | 
 |-
-|  git bisect run <cmd>                
+|  git bisect run &lt;cmd&gt;                
 |  2352  
 |  69.9% 
 |  474   
@@ -2406,7 +2406,7 @@ it on review board (or forum).
 |  1.9 / 3119 
 | 
 |-
-|  git blame -L <start>,<end> etc.     
+|  git blame -L &lt;start&gt;,&lt;end&gt; etc.     
 |  2539  
 |  75.5% 
 |  342   
@@ -2523,7 +2523,7 @@ it on review board (or forum).
 |  3.2 / 3040 
 | 
 |-
-|  git commit <file>...                
+|  git commit &lt;file&gt;...                
 |  999   
 |  29.7% 
 |  468   
@@ -2536,7 +2536,7 @@ it on review board (or forum).
 |  2.5 / 3035 
 | 
 |-
-|  git commit -i <file>...             
+|  git commit -i &lt;file&gt;...             
 |  1849  
 |  55.0% 
 |  508   
@@ -2627,7 +2627,7 @@ it on review board (or forum).
 |  1.4 / 3020 
 | 
 |-
-|  git fetch [<options>]               
+|  git fetch [&lt;options&gt;]               
 |  1156  
 |  34.4% 
 |  656   
@@ -2718,7 +2718,7 @@ it on review board (or forum).
 |  2.0 / 3003 
 | 
 |-
-|  git log -S<string> (pickaxe search) 
+|  git log -S&lt;string&gt; (pickaxe search) 
 |  1987  
 |  59.1% 
 |  515   
@@ -2809,7 +2809,7 @@ it on review board (or forum).
 |  2.7 / 2964 
 | 
 |-
-|  git pull --rebase [<options>]       
+|  git pull --rebase [&lt;options&gt;]       
 |  1251  
 |  37.2% 
 |  603   
@@ -2822,7 +2822,7 @@ it on review board (or forum).
 |  2.1 / 2938 
 | 
 |-
-|  git pull <remote>                   
+|  git pull &lt;remote&gt;                   
 |  486   
 |  14.5% 
 |  550   
@@ -2835,7 +2835,7 @@ it on review board (or forum).
 |  2.8 / 2864 
 | 
 |-
-|  git pull <URL> <ref>                
+|  git pull &lt;URL&gt; &lt;ref&gt;                
 |  932   
 |  27.7% 
 |  635   
