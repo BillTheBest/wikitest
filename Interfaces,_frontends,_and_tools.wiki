@@ -261,7 +261,7 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 | ?
 | ?
 | ?
-| ?
+| yes
 | ?
 | ?
 | 
@@ -285,7 +285,7 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 | 2008 
 | 2009 
 | 2009 
-|  2009 
+| 2010
 | 2009
 | 2009
 | 
@@ -477,7 +477,7 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 | X 
 | X 
 | X 
-|  
+| X 
 | X
 | X
 | 
@@ -573,7 +573,7 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 |  
 | X 
 | X 
-|  
+| X 
 |  
 |  
 | 
