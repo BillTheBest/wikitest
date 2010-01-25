@@ -459,28 +459,52 @@ git commit -v
 {{anchor|push-is-reverse-of-fetch}}
 == How would I use "git push" to sync out of a firewalled host? ==
 <!-- GitLink[mothership-satellite] push is reverse of fetch -->
-{{anchor|mothership-satellite}}When you work on two machines, each with its own work tree, a typical way to synchronise between them is to run <code><nowiki>git pull</nowiki></code> from each other. However, you may be able to make a TCP connection only in one direction but not in the other direction in certain situations (e.g. you have a firewall between them). Suppose you start a project on machine A (mothership), and clone from there to a machine B (satellite). You work on B and would want to slurp the change back to your repository on machine A. Even if you wanted to, you cannot run <code><nowiki>git fetch</nowiki></code> on machine A to fetch from B, as B is firewalled and does not allow incoming connections. Or perhaps your satellite machine does not run an SSH daemon. What should you do in such a case?
+{{anchor|mothership-satellite}}When you work on two machines, each with
+its own work tree, a typical way to synchronise between them is to run
+<code><nowiki>git pull</nowiki></code> from each other. However, you may
+be able to make a TCP connection only in one direction but not in the
+other direction in certain situations (e.g. you have a firewall between
+them). Suppose you start a project on machine A (mothership), and clone
+from there to a machine B (satellite). You work on B and would want to
+slurp the change back to your repository on machine A. Even if you
+wanted to, you cannot run <code><nowiki>git fetch</nowiki></code> on
+machine A to fetch from B, as B is firewalled and does not allow
+incoming connections. Or perhaps your satellite machine does not run an
+SSH daemon. What should you do in such a case?
 
-Pushing 'master' branch on B to 'master' branch on A, however, is never what you would want to do in such a case. Push is a reverse of fetch in the sense that it propagates the objects and update the branch tips, but does not touch the working tree in the target repository, and you will be utterly confused when you go back to machine A after you update 'master' that way.
+Pushing 'master' branch on B to 'master' branch on A, however, is never
+what you would want to do in such a case. Push is a reverse of fetch in
+the sense that it propagates the objects and update the branch tips, but
+does not touch the working tree in the target repository, and you will
+be utterly confused when you go back to machine A after you update
+'master' that way.
 
-You can realize that a push is a mirror operation of a fetch and take advantage of it. If B were ''not'' firewalled, you would instead run fetch on A from B. And such a fetch is arranged to fetch 'master' from B and store that in 'refs/remotes/B/master' in A.
+You can realize that a push is a mirror operation of a fetch and take
+advantage of it. If B were ''not'' firewalled, you would instead run
+fetch on A from B. And such a fetch is arranged to fetch 'master' from B
+and store that in 'refs/remotes/B/master' in A.
 
-So the simple solution to work around such a firewalled setup is to push 'master' from B into 'refs/remotes/B/master' of A, like this:
+So the simple solution to work around such a firewalled setup is to push
+'master' from B into 'refs/remotes/B/master' of A, like this:
 
 <pre><nowiki>
 machineB$ git push machineA:repo.git master:refs/remotes/B/master
 </nowiki></pre>
-When you go back to machineA to work further, it is as if you did a <code><nowiki>git fetch</nowiki></code> from machineB, like this:
+When you go back to machineA to work further, it is as if you did a
+<code><nowiki>git fetch</nowiki></code> from machineB, like this:
 
 <pre><nowiki>
 machineA$ git fetch machineB:repo.git master:refs/remotes/B/master
 </nowiki></pre>
-When you are ready to integrate the changes you did on machineB into the master branch on machineA, you can:
+When you are ready to integrate the changes you did on machineB into the
+master branch on machineA, you can:
 
 <pre><nowiki>
 machineA$ git merge B/master ;# shorthand for refs/remotes/B/master
 </nowiki></pre>
-This is no different from the case where you actually pulled from B on A. You can set up your .git/config file to largely automate the above <code><nowiki>git push</nowiki></code>, so that you can just say:
+This is no different from the case where you actually pulled from B on
+A. You can set up your .git/config file to largely automate the above
+<code><nowiki>git push</nowiki></code>, so that you can just say:
 
 <pre><nowiki>
 machineB$ git push
