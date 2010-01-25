@@ -459,9 +459,11 @@ git commit -v
 {{anchor|push-is-reverse-of-fetch}}
 == How would I use "git push" to sync out of a firewalled host? ==
 <!-- GitLink[mothership-satellite] push is reverse of fetch -->
-{{anchor|mothership-satellite}}When you work on two machines, sometimes your firewall would let you make a TCP connection only in one direction but not in the other direction. Suppose you start a project on machine A (mothership), and clone from there to a machine B (satellite). You work on B and would want to propagate the change back to your repository on machine A. Even if you wanted to, you cannot run <code><nowiki>git fetch</nowiki></code> on machine A to fetch from B, as B is firewalled and does not allow incoming connections. What should you do in such a case?
+{{anchor|mothership-satellite}}When you work on two machines, each with its own work tree, a typical way to synchronise between them is to run <code><nowiki>git pull</nowiki></code> from each other. However, you may be able to make a TCP connection only in one direction but not in the other direction in certain situations (e.g. you have a firewall between them). Suppose you start a project on machine A (mothership), and clone from there to a machine B (satellite). You work on B and would want to slurp the change back to your repository on machine A. Even if you wanted to, you cannot run <code><nowiki>git fetch</nowiki></code> on machine A to fetch from B, as B is firewalled and does not allow incoming connections. Or perhaps your satellite machine does not run an SSH daemon. What should you do in such a case?
 
-Pushing 'master' branch on B to 'master' branch on A, however, is not what you would want to do. Push is a reverse of fetch in the sense that it propagates the objects and update the branch tips, but does not touch the working tree in the target repository, and you will be utterly confused when you go back to machine A after you update 'master' that way. You can realize that a push is a mirror operation of a fetch and take advantage of it. If B were ''not'' firewalled, you would instead run fetch on A from B. And such a fetch is arranged to fetch 'master' from B and store that in 'refs/remotes/B/master' in A.
+Pushing 'master' branch on B to 'master' branch on A, however, is never what you would want to do in such a case. Push is a reverse of fetch in the sense that it propagates the objects and update the branch tips, but does not touch the working tree in the target repository, and you will be utterly confused when you go back to machine A after you update 'master' that way.
+
+You can realize that a push is a mirror operation of a fetch and take advantage of it. If B were ''not'' firewalled, you would instead run fetch on A from B. And such a fetch is arranged to fetch 'master' from B and store that in 'refs/remotes/B/master' in A.
 
 So the simple solution to work around such a firewalled setup is to push 'master' from B into 'refs/remotes/B/master' of A, like this:
 
@@ -486,6 +488,7 @@ machineB$ git push
 See also http://thread.gmane.org/gmane.comp.version-control.git/42506/focus=42685
 
 {{anchor|tag-checkout}}
+
 == How do I check out the tree at a particular tag? ==
 So you cloned that shiny repository and now would like to get the working tree to the state as of some tag? Use <code><nowiki>git tag -l</nowiki></code> to list all available tags, then just do a <code><nowiki>git checkout TAGNAME</nowiki></code>. If you want to build some work on it, use <code><nowiki>git checkout -b newbranch TAGNAME</nowiki></code> instead. If you want to return to your latest revision later, do <code><nowiki>git checkout ORIGINALBRANCH</nowiki></code> (usually it is <code><nowiki>master</nowiki></code>, you can list them with <code><nowiki>git branch</nowiki></code>).
 
