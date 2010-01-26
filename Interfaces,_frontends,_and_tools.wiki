@@ -1233,6 +1233,9 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 === bbchop ===
 * ''bbchop'' ([http://github.com/Ealdwulf/bbchop github]) by Ealdwulf Wuffinga is a tool for bisecting on an intermittent bug, using Bayesian decision theory.
 
+=== gitcharts ===
+* ''gitcharts'' ([http://github.com/dabroz/gitcharts github]) by Tomasz Dąbrowski (dabroz) is a small C# app that generates a graph for lines of code in a given git repository over time, and supports multiple projects in one repository.
+
 === gitolite ===
 * ''gitolite'' ([http://github.com/sitaramc/gitolite http://github.com/sitaramc/gitolite]), by Sitaram Chamarty, (sitaramc at gmail), is inspired by gitosis, plus an urgent need to manage per-branch permissions. It is written entirely in perl, and designed to be usable on any Unix machine that managed to install git and perl. It does not require root access to install or use.
 * Other advantages: an "easy install" script + copious documentation to make things as painless as possible, especially with the critical ssh pieces; simpler, yet more powerful config file syntax; ability to split the config into parts and delegate authority to different people; better logging helps figure out exactly what was allowed/denied and why; "personal" branch namespace for developers.  Also there's a version that allows "deny" in the access control list, making it truly powerful for pretty much all sorts of access restriction needs
