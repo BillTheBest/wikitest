@@ -60,6 +60,8 @@ Apparently failed, because it is not listed in the final project list.
 
 ''SoC page:'' [http://socghop.appspot.com/student_project/show/google/gsoc2009/mono/t124022708105 Implementing Git as class libraries in managed code] <BR>
 
+Apparently failed, because it is not listed in the final project list.
+
 == openSUSE: Prototype git backend for OpenSUSE Build Service ==
 
 ''SoC page:'' [http://socghop.appspot.com/student_project/show/google/gsoc2009/opensuse/t124023150939 Prototype git backend for OpenSUSE Build Service] <BR>
