@@ -1,0 +1,32 @@
+''Table of Contents:''
+__TOC__
+----
+= Git Community projects =
+
+Git plans to apply for the Google Summer of Code 2010.  Although we have not been accepted yet, here are a few interesting projects:
+
+== Merge helper for LaTeX files ==
+
+Not everything tracked by Git is source code for programs; Git is actually a fantastic tool to collaborate on writing documents in LaTeX format.
+
+Unfortunately, the merge conflicts created by Git's recursive merge are better suited for C code than for LaTeX, as the latter is frequently written such that a single line will produce a whole paragraph.
+
+Therefore, a tool is needed which uses Git's output to present the differences between the two differing versions and the base version in a nice way.  The tool should also offer an easy method to pick one version over the other, and to edit the result (and still show the three versions, pointing to the position corresponding to the current cursor position).
+
+''Goal:'' Provide a graphical tool to help with merge conflicts specifically in LaTeX files.<br>
+''Language:'' As preferred by the student, but it should be portable between Linux, MacOSX and Windows.<br>
+''Mentor:''  Johannes Schindelin<br>
+
+== An implementation of Git's recursive merge in JGit ==
+
+The recursive merge algorithm is surprisingly powerful for its simplicity. A few fine points have to be taken care of, though, such as rename detection and file/directory conflicts.
+
+The basic building block, however, is a diff algorithm, and JGit recently got its own implementation of that.
+
+An implementation of the recursive merge will allow easy implementation of ''cherry-pick'', and consequently of ''rebase -i'', too.
+
+''Goal:'' Implement the recursive merge algorithm in JGit.<br>
+''Language:'' Java.<br>
+''Mentor:''  Johannes Schindelin<br>
+
+__NOTOC__
