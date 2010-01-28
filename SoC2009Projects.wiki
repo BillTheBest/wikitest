@@ -42,9 +42,9 @@ further, 'partial packfiles' could be used to cache slices of the object list. d
 * http://github.com/samv/git (mentor)
 
 ''Progress reports / status:''
-* [http://thread.gmane.org/gmane.comp.version-control.git/120752 [PATCH 0/7] [GSoC2009] Revision cache / git-daemon caching plan]] from 2009-06-04.
-* [http://thread.gmane.org/gmane.comp.version-control.git/122698 [RFC/PATCH INTRO] rev-cache] ([http://thread.gmane.org/gmane.comp.version-control.git/122699 1], [http://permalink.gmane.org/gmane.comp.version-control.git/122700 2], [http://permalink.gmane.org/gmane.comp.version-control.git/122701 3], [http://permalink.gmane.org/gmane.comp.version-control.git/122702 4]) from 2009-07-03.
-* [http://thread.gmane.org/gmane.comp.version-control.git/125056 [PATCH 0/5] Suggested for PU: revision caching system to significantly speed up packing/walking] from 2009-08-06, and the following patches.
+* [http://thread.gmane.org/gmane.comp.version-control.git/120752 &#91;PATCH 0/7&#93; &#91;GSoC2009&#93; Revision cache / git-daemon caching plan] from 2009-06-04.
+* [http://thread.gmane.org/gmane.comp.version-control.git/122698 &#91;RFC/PATCH INTRO&#93; rev-cache] ([http://thread.gmane.org/gmane.comp.version-control.git/122699 1], [http://permalink.gmane.org/gmane.comp.version-control.git/122700 2], [http://permalink.gmane.org/gmane.comp.version-control.git/122701 3], [http://permalink.gmane.org/gmane.comp.version-control.git/122702 4]) from 2009-07-03.
+* [http://thread.gmane.org/gmane.comp.version-control.git/125056 &#91;PATCH 0/5&#93; Suggested for PU: revision caching system to significantly speed up packing/walking] from 2009-08-06, and the following patches.
 
 ----
 
