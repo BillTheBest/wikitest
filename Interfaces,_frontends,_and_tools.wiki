@@ -1046,6 +1046,10 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 === git-notify ===
 * [http://source.winehq.org/git/tools.git/?a=blob;f=git-notify;hb=HEAD git-notify] is the post-receive hook used by the wine project. It sends one email per commit. It also supports sending cia notifications.
 
+=== archive-tag ===
+
+* [http://git.koumbit.net/?p=tools/git-hooks/.git;a=blob;f=archive-tag archive-tag] is a post-receive/update hook developed by [http://www.koumbit.org/ Koumbit] and used by the [http://groups.drupal.org/aegir Aegir project] to ease maintenance of tarballs associated with a git repository. Archives (and optionnally checksums) are created when tags are pushed to a repository.
+
 == Wikis, blogs, etc. ==
 
 === ikiwiki ===
