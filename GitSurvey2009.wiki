@@ -545,7 +545,7 @@ The conversion from country name to continent was done using [http://p3rl.org/Lo
 |-
 |  76+                            ||      6 ||   0.2% 
 |-
-| colspan="3"
+| colspan="3" |
 |- style="border-top: dotted;"
 |  Not a number                   ||      5 ||   0.1% 
 |- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
@@ -1936,8 +1936,13 @@ out-of-tree, before resubmitting.
 |-
 |  completely ecstatic            ||    711 ||  19.8% 
 |- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
-|  Base             || colspan="2" |   3586 / 3868    
+|  Base             
+| colspan="2" align="center" | 3586 / 3868 
 |}
+
+There were some complaints during planning stage of this year survey that the answers for this question are not symmetric; nevertheless it is set of answers that was used in previous survey(s), and it would help comparing data with previous surveys to keep the current form.
+
+Most responders are ''"very happy"'' with Git, and this answer seems to be a center of responses.  One should take into account that if one is unhappy with Git, it is less likely that one would continue using it (unless other circumstances would force using it, like the project one contributes to using Git as DVCS of choice), thus less likely to be Git user and to participate in this Git User's Survey.  There can be bias because it is '''Git''' survey; it might be different if it was generic survey about (distributed) version control systems.
 
 
 === 21. In your opinion, which areas in Git need improvement? ===
@@ -1998,8 +2003,13 @@ Please state your preference.
 |  1.4 / 3092 
 |- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
 |  Base                       
-|colspan="10" |  3448 / 3868  
+|colspan="10" align="center" | 3448 / 3868 
 |}
+
+Going by average rating (the number before slash '/' in the last column of the table above), it is documentation (2.60) and user-interface (2.59), and then tools (2.51) that needs improvements.  Going by the percantages of respective responses, areas that needs improvement 'much' are tools (24%), UI (22%) and documentation (17%); the same set, different priority.  Areas that needs 'some' improvement are documentation (40%), then UI (33%) and tools (30%).  Areas that 'don't need' improvements are localization (translations) and performance, both with around 69%, then 'more features' with 51%.
+
+The answer about translations might be not representative, because this survey is in English, and it was announced on English-language sites.  So there might be some bias towards using English, and away from using localized version.
+
 
 == Changes in Git (since year ago, or since you started using it) ==
 
@@ -2008,21 +2018,41 @@ Please state your preference.
 
 {| border="1" cellpadding="2" cellspacing="0"
 |- style="font-weight: bold; background-color: #ffffcc;" 
-!  Survey                         !!  Count !!  Perc. 
+!  Survey                         !! resp [%] !! resp [n] !! in year
 |-
-|  in 2006                        ||     92 ||  10.8% 
+|  in 2006                        ||   10.8%  ||      92  ||   117
 |-
-|  in 2007                        ||    263 ||  30.8% 
+|  in 2007                        ||   30.8%  ||     263  ||   683
 |-
-|  in 2008                        ||    828 ||  97.1% 
+|  in 2008                        ||   97.1%  ||     828  ||  3236
 |- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
 |  Base  
-| colspan="2" |   853 / 3868  
+| colspan="3" |   853 / 3868  
 |}
 
-Note that opposed to other questions for this question not answering it is a legitimate answer, and not skipping the answer.
+''Note that opposed to other questions, for this one not answering the question is a legitimate answer, and not skipping it.''
+
+"In year" column refers to number of replies (number of responses) in the Git User's Survey for given year.
 
 Percentages are relative to the number of people who answered this question, not to the number of people who answered (participated in) this survey.
+
+{| border="1" cellpadding="2" cellspacing="0"
+|- style="font-weight: bold; background-color: #ffffcc;" 
+! rowspan="2" | Year    !!   resp !!      resp !! rowspan="2" | in year
+|- style="font-weight: bold; background-color: #ffffcc;" 
+!                          / 3519 !! / in year !!
+|-
+| in 2006               ||   2.5% ||     75.2% ||     117
+|-
+| in 2007               ||   7.1% ||     36.8% ||     683
+|-
+| in 2008               ||  22.8% ||     24.8% ||    3236
+|}
+
+Without further analysis (and the data that we don't have) we can only assume that 2006 survey (narrowly announced) was answered mainly by hard-core Git users and contributors, which follow Git announcements and participate in surveys.  Therefore large number of people who participated in 2006 survey also participated in 2009 survey.
+
+Note that 2008 (previous) and 2009 (this one) surveys were announced in slightly different ways: 2008 was announced on git mailing lists, 2009 was announced on blogs and hosting sites.
+
 
 === 23. How do you compare the current version with the version from one year ago? ===
 (single choice)
@@ -2045,12 +2075,8 @@ Percentages are relative to the number of people who answered this question, not
 |colspan="2" |  3034 / 3868  
 |}
 
-~-
 ''Description:''<BR>
-The version from approximately one year ago is 1.5.6 from 18-06-2008,
-the last version in 1.5.x series (except maintenance releases from
-1.5.6.1 to 1.5.6.6). Major controversial change in 1.6.0 was
-installing most of the programs outside your $PATH.
+The version from approximately one year ago is 1.5.6 from 18-06-2008, the last version in 1.5.x series (except maintenance releases from 1.5.6.1 to 1.5.6.6). Major controversial change in 1.6.0 was installing most of the programs outside your $PATH.
 
 Other changes include:
 * stash never expires by default
@@ -2070,7 +2096,13 @@ Other changes include:
 * git-difftool can run graphical diff tool
 
 (see individual RelNotes for more details)
--~
+
+
+''Analysis:''<BR>
+Most people (50%) think that Git improved since year ago; very few (10 in 2785) think it is worse... but almost as many 'cannot say' (42%) if it is better than year ago.
+
+If we take 'cannot say' as indication that responder didn't use Git a year ago, and that is the reason they cannot do comparison, it seems that there are many new Git users participating in this survey.
+
 
 == Documentation. Getting help. ==
 
@@ -2113,13 +2145,20 @@ Other changes include:
 
 
 ''Description:''<BR>
-* Git Wiki can be found at http://git.or.cz/gitwiki
+* Git Wiki was to be found at http://git.or.cz/gitwiki
 * on-line help includes, among others, Git Homepage (http://git-scm.com) and "Git Community Book" (http://book.git-scm.com)
 * help distributed with git include manpages, manual, tutorials, HOWTO, release notes, technical documentation, contrib/examples/
+
+''Analysis:''<BR>
+Least used form of documentation is Git Wiki (http://git.or.cz/gitwiki at the point of running this survey, http://git.wiki.kernel.org currently) with 36% responders never using it, but those that use it feel that it is "somewhat" useful to "useful".
+
+Both help distributed with Git (manpages, Git User's Manual, HOWTOs, etc.) and on-line help (including but not limited to Git Community Book, and tutorials and guides on Git homepage) are almost the same useful, with help included in Git felt to be more useful than on-line help (49% vs 43% is "useful", 36% vs 40% only "somewhat" useful).
 
 
 === 25. Have you tried to get help regarding Git from other people? ===
 (single choice)
+
+This question, and questions following it were meant to be about ''getting help from other '''people''' '', rather than trying to find help by self.  From the set of "other (please specify)" answers for "help channel", which include among others many instances of "Google search" or equivalent, it looks like it was not entirely clean.
 
 {| border="1" cellpadding="2" cellspacing="0"
 |- style="font-weight: bold; background-color: #ffffcc;" 
@@ -2131,6 +2170,9 @@ Other changes include:
 |- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
 |  Base             || colspan="2" |   3497 / 3868  
 |}
+
+As you can see 2/3 responders tried to get help regarding Git from other people.
+
 
 === 26. If yes, did you get these problems resolved quickly and to your liking? ===
 (single choice)
@@ -2144,9 +2186,14 @@ Other changes include:
 |  No                             ||    133 ||   5.7% 
 |-
 |  Somewhat                       ||    752 ||  32.1% 
-|- wstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"
+|- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
 |  Base             || colspan="2" |   2343 / 3868  
 |}
+
+Consistency check: 2082 people answered that they tried to get help about Git from other people, but we have 2157 responses in this question...
+
+It looks like we have good community surrounding Git, if 2/3 Git questions are resolved quickly and accurately, and only 6% couldn't get quick response and one to their liking.
+
 
 === 27. What channel(s) did you use to request help? ===
 (multiple choice, with other)
@@ -2163,7 +2210,8 @@ Other changes include:
 |-
 |  IRC (other git/SCM related, e.g. #github) ||    227 ||   9.7% 
 |-
-|  request in blog post or on wiki           ||    188 ||   8.1% 
+|  request in blog post or on wiki<ref name="ask:blog">Here I mainly meant asking a question on one's blog, and waiting for response in blog comments, like e.g.       http://jjnapiorkowski.vox.com/library/post/migrating-to-git-from-subversion.html , or asking on Git Wiki (as if it was help forum), or on Talk page    of some other wiki (no example).</ref>
+|                                                  188 ||   8.1% 
 |-
 |  asking git guru/colleague                 ||   1360 ||  58.3% 
 |-
@@ -2173,7 +2221,8 @@ Other changes include:
 |-
 |  instant messaging (IM) like XMPP/Jabber   ||    442 ||  18.9% 
 |-
-|  StackOverflow                             ||    406 ||  17.4% 
+|  StackOverflow<ref name="ask:stackoverflow">StackOverflow is a community driven programming-related Q&A site      http://stackoverflow.com/questions/tagged/git</ref>
+|                                                  406 ||  17.4% 
 |-
 | colspan="3" | 
 |-
@@ -2181,6 +2230,29 @@ Other changes include:
 |- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
 | Base                         || colspan="2" |   2333 / 3868  
 |}
+
+'''Notes:'''<BR>
+<references />
+
+''Analysis:''<BR>
+Most used 'channel' is to simply ask somebody better versed in Git personally (58%), then is #git channel with usually fast real-time response (31%).  Git mailing list has only 12% of replies, below (quite new) forums and project mailing lists (19% - wide category), instant messaging (19%), and quite new StackOverflow (17%), and very similar to microblogging platforms such as Twitter or Identi.ca (also 12%).
+
+"Git for Human Beings" Google Group is rarely used, with only 2% of responses...
+
+As for "other (please specify)" response:
+* There are some responses ("Internet search", "Google", a book) that   show that it was not entirely clear that the question was about   asking _other people_ for help regarding Git, not searching for help   oneself.
+* Some responses (e.g. "colleagues") were variant of provided channel.
+* Some responses were more detailed specification (description) of  channel used; examples include "#dri-devel on freenode", "Rick (friend)", "IRC (channel of project using git)", "Rotating my chair and asking", etc.
+* And there were channels that were not included in the list of  provided answers (some because channel is rare, some because survey author didn't think of such channel):
+** GitHub mailing list / GitHub Google Group
+** asking a guy who gave a talk about git at a conference
+** messages through GitHub
+** private email
+** direct email with tutorial author
+** msysGit mailing list / msysGit Google Group
+** Server Fault (but Stack Overflow is on list)
+** Specialists at the work office
+
 
 === 28. Which communication channel(s) do you use? ===
 
@@ -2206,6 +2278,10 @@ Other changes include:
 |- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
 | Base                   || colspan="2" |    938 / 3868  
 |}
+
+Note that percentage is relative to the (small) number of replies to this question, not relative to the number of all responders.
+
+Among listed channels, most commonly used are #git IRC channel on FreeNode with 54%, and git mailing list (git@vger,kernel.org) with 42%.  Third is #github and #gitorious IRC channels together, with 22% or replies to this question.
 
 
 == About this survey. Open forum. ==
