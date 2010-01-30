@@ -88,7 +88,7 @@ __TOC__
 * [http://github.com/pheew/dotgit/tree/master dotGit] is an experimental implementation for .NET written in C#. It is still in it's early stages but can read objects from packed and loose storage. So all the read-only operations are supported. A diff engine is in the works.
 
 === Git# (GitSharp) ===
-* [http://www.eqqon.com/index.php/GitSharp Git#] for .NET is written in C#. Being a straight port of JGit, Git# is the most advanced and fastest moving of all emerging implementations on Windows. It is aimed to be fully compatible to the original Git and can be either used as stand alone command line application (potentially replacing msysGit) or as library for windows applications such as gui frontends or plugins for IDEs.
+* [http://www.eqqon.com/index.php/GitSharp Git#] for .NET and Mono is written in C#. GitSharp provides a user friendly well documented [http://henon.github.com/GitSharp/ API]. It is aimed to be fully compatible to the original Git and can be either used as stand alone command line application or as library for gui frontends, IDE plugins, etc. The status of the project is beta.
 
 == Patch-management Interface layers ==
 
