@@ -84,7 +84,7 @@ __TOC__
 === glip ===
 * [http://fimml.at/glip glip], the ''git library in PHP'', provides read and write access to Git repositories without using exec() or system() calls. Therefore it works on many shared web hosting accounts.
 
-=== dotGit ===
+=== dotGit (inactive?) ===
 * [http://github.com/pheew/dotgit/tree/master dotGit] is an experimental implementation for .NET written in C#. It is still in it's early stages but can read objects from packed and loose storage. So all the read-only operations are supported. A diff engine is in the works.
 
 === Git# (GitSharp) ===
