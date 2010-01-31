@@ -991,7 +991,7 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 * Having had problems with darcs2git and tailor, [http://www.sanityinc.com/ Steve Purcell] wrote another simple darcs import tool called darcs-to-git, which can incrementally import a single darcs source repo: [http://www.sanityinc.com/articles/converting-darcs-repositories-to-git article] / [http://git.sanityinc.com/?p=darcs-to-git.git darcs-to-git gitweb]
 
 ==== Darcs-Git ====
-* [http://darcs.net/DarcsWiki/DarcsGit Darcs-Git] was an effort to make Darcs work with Git repositories, in particular the Linux kernel repository. It was part Darcs-Unstable branch, available from http://abridgegame.org/repos/darcs-unstable . Unfortunately, both links are now defunct.
+* [http://wiki.darcs.net/DarcsGit Darcs-Git] was an effort to make Darcs work with Git repositories, in particular the Linux kernel repository. It was part Darcs-Unstable branch, available from http://abridgegame.org/repos/darcs-unstable .
 
 ==== darcs-fast-export ====
 * A generic fast-export script for darcs by Miklos Vajna, works with git fast-import, bzr fast-import and hg fastimport. Find it at [http://vmiklos.hu/project/darcs-fast-export here].
