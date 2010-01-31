@@ -9,12 +9,13 @@ The survey could be found there
 * [http://www.survey.net.nz/results.php?94e135ff41e871a1ea5bcda3ee1856d9 Graphical results] of the survey (same site)
 
 You can get raw data on which this summary is based here:
-* [http://git.or.cz/gitwiki/GitSurvey2007?action=AttachFile surveydata.csv]
+* [[Media:Git_User's_Survey_2007_-_Sep_28_-_corrected.csv.txt|Git User's Survey 2007 - Sep 28 - corrected.csv]] (CSV, 2.39MB)
+
 
 There were 683 individual responses.<BR>
 Note that count is not exactly number of people.
 
-''Please do not add survey ''data'' on this page'' 
+''Please do not add survey '''data''' on this page'' 
 ----
 ''Table of contents:''
 __TOC__
@@ -24,268 +25,140 @@ __TOC__
 
 === 00. Date of response ===
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Date (extended range)          
-|  Count 
-|  Perc. 
-| 
+|- style="background-color: #ffffcc;"
+!  Date (extended range)          !!  Count !!  Perc. 
 |-
-|  Before                         
-|      7 
-|   1.0% 
-| 
+|  Before                         ||      7 ||   1.0% 
 |-
-|  During                         
-|    584 
-|  85.5% 
-| 
+|  During                         ||    584 ||  85.5% 
 |-
-|  After                          
-|     92 
-|  13.5% 
-| 
+|  After                          ||     92 ||  13.5% 
 |}
-<!-- ## table end
- -->
 
 The ranges 'before', 'during' and 'after' refers to official duration of Git User's Survey 2007, from 20 August 2007 to 10 September 2007. Actually they are corrected to take into account the fact that local date on surveys server (or UTC date) might be different from local date on user computer, so duration of survey is taken as from 2007-08-19 to 2007-09-11.
 
-Most responses are from the start of survey, 20 and 21 August (133 and 103 responses respectively).  If anyone is interested I can provide full date by date histogram. 
+Most responses are from the start of survey, 20 and 21 August (133 and 103 responses respectively).
+<!--  If anyone is interested I can provide full date by date histogram. -->
+
 
 === 01. What country are you in? ===
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Country 
-|  Count 
-| 
+|- style="background-color: #ffffcc;"
+! Country                         !!  Count 
 |-
-|  Algeria                        
-|  1   
-| 
+|  Algeria                        ||  1   
 |-
-|  Argentina                      
-|  3   
-| 
+|  Argentina                      ||  3   
 |-
-|  Australia                      
-|  25  
-| 
+|  Australia                      ||  25  
 |-
-|  Austria                        
-|  9   
-| 
+|  Austria                        ||  9   
 |-
-|  Belgium                        
-|  5   
-| 
+|  Belgium                        ||  5   
 |-
-|  Brazil                         
-|  20  
-| 
+|  Brazil                         ||  20  
 |-
-|  Bulgaria                       
-|  1   
-| 
+|  Bulgaria                       ||  1   
 |-
-|  Canada                         
-|  44  
-| 
+|  Canada                         ||  44  
 |-
-|  Chile                          
-|  2   
-| 
+|  Chile                          ||  2   
 |-
-|  China                          
-|  4   
-| 
+|  China                          ||  4   
 |-
-|  Colombia                       
-|  2   
-| 
+|  Colombia                       ||  2   
 |-
-|  Czech Republic                 
-|  10  
-| 
+|  Czech Republic                 ||  10  
 |-
-|  Denmark                        
-|  7   
-| 
+|  Denmark                        ||  7   
 |-
-|  Ecuador                        
-|  1   
-| 
+|  Ecuador                        ||  1   
 |-
-|  Estonia                        
-|  1   
-| 
+|  Estonia                        ||  1   
 |-
-|  European Union                 
-|  1   
-| 
+|  European Union                 ||  1   
 |-
-|  Finland                        
-|  23  
-| 
+|  Finland                        ||  23  
 |-
-|  France                         
-|  36  
-| 
+|  France                         ||  36  
 |-
-|  Germany                        
-|  64  
-| 
+|  Germany                        ||  64  
 |-
-|  Greece                         
-|  3   
-| 
+|  Greece                         ||  3   
 |-
-|  Hungary                        
-|  2   
-| 
+|  Hungary                        ||  2   
 |-
-|  India                          
-|  13  
-| 
+|  India                          ||  13  
 |-
-|  Ireland                        
-|  2   
-| 
+|  Ireland                        ||  2   
 |-
-|  Israel                         
-|  6   
-| 
+|  Israel                         ||  6   
 |-
-|  Italy                          
-|  14  
-| 
+|  Italy                          ||  14  
 |-
-|  Japan                          
-|  4   
-| 
+|  Japan                          ||  4   
 |-
-|  Jersey                         
-|  1   
-| 
+|  Jersey                         ||  1   
 |-
-|  Latvia                         
-|  1   
-| 
+|  Latvia                         ||  1   
 |-
-|  Malaysia                       
-|  1   
-| 
+|  Malaysia                       ||  1   
 |-
-|  Mexico                         
-|  1   
-| 
+|  Mexico                         ||  1   
 |-
-|  Netherlands                    
-|  15  
-| 
+|  Netherlands                    ||  15  
 |-
-|  New Zealand                    
-|  5   
-| 
+|  New Zealand                    ||  5   
 |-
-|  Norway                         
-|  14  
-| 
+|  Norway                         ||  14  
 |-
-|  Philippines                    
-|  3   
-| 
+|  Philippines                    ||  3   
 |-
-|  Poland                         
-|  6   
-| 
+|  Poland                         ||  6   
 |-
-|  Portugal                       
-|  2   
-| 
+|  Portugal                       ||  2   
 |-
-|  Puerto Rico                    
-|  1   
-| 
+|  Puerto Rico                    ||  1   
 |-
-|  Romania                        
-|  1   
-| 
+|  Romania                        ||  1   
 |-
-|  Russian Federation             
-|  6   
-| 
+|  Russian Federation             ||  6   
 |-
-|  Samoa                          
-|  1   
-| 
+|  Samoa                          ||  1   
 |-
-|  Serbia                         
-|  1   
-| 
+|  Serbia                         ||  1   
 |-
-|  Singapore                      
-|  2   
-| 
+|  Singapore                      ||  2   
 |-
-|  Slovak Republic                
-|  1   
-| 
+|  Slovak Republic                ||  1   
 |-
-|  Slovenia                       
-|  2   
-| 
+|  Slovenia                       ||  2   
 |-
-|  South Africa                   
-|  4   
-| 
+|  South Africa                   ||  4   
 |-
-|  Spain                          
-|  11  
-| 
+|  Spain                          ||  11  
 |-
-|  Sri Lanka                      
-|  1   
-| 
+|  Sri Lanka                      ||  1   
 |-
-|  Sweden                         
-|  14  
-| 
+|  Sweden                         ||  14  
 |-
-|  Switzerland                    
-|  15  
-| 
+|  Switzerland                    ||  15  
 |-
-|  UK / US                        
-|  1   
-| 
+|  UK / US                        ||  1   
 |-
-|  United Kingdom                 
-|  40  
-| 
+|  United Kingdom                 ||  40  
 |-
-|  United States of America       
-|  218 
-| 
+|  United States of America       ||  218 
 |-
-|  Venezuela                      
-|  1   
-| 
+|  Venezuela                      ||  1   
 |-
-|  Vietnam                        
-|  1   
-| 
-|-
-| #ccffff | Base                           
-|  673 / 683 
-| 
-|-
-| #ccffff | Total (sum)                    
-|  673       
-| 
+|  Vietnam                        ||  1   
+|- style="background-color: #ccffff;"
+|  Base                           ||  673 / 683 
+|- style="background-color: #ccffff;"
+|  Total (sum)                    ||  673       
 |}
 
 England and Scotland counts as United Kingdom here.  UK / US probably means United Kingdom (Great Britain) or United States of America.  Table is sorted in alphabetical order.
@@ -294,261 +167,145 @@ As one can easily see, slightly less than third of GIT users are in the USA (tho
 
 You can also take a look at [http://www.ohloh.net/projects/278/map Git Activity Map], where you can see on (large) Google Map locations of selected people who have Git in a [http://www.ohloh.net/about/faq#stack stack], or locations of Git contributors.
 
+
 === 02. What is your preferred non-programming language? ===
 
 This is multiple answers question, although most people gave only one preferred language.
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc |> Language 
-|  Count 
-| 
+|- style="background-color: #ffffcc;"
+! Language                        !!  Count 
 |-
-|  Afrikaans                      
-|  1   
-| 
+|  Afrikaans                      ||  1   
 |-
-|  Bulgarian                      
-|  1   
-| 
+|  Bulgarian                      ||  1   
 |-
-|  Castellano                     
-|  2   
-| 
+|  Castellano                     ||  2   
 |-
-|  Catalan                        
-|  1   
-| 
+|  Catalan                        ||  1   
 |-
-|  Chinese                        
-|  2   
-| 
+|  Chinese                        ||  2   
 |-
-|  Czech                          
-|  10  
-| 
+|  Czech                          ||  10  
 |-
-|  Danish                         
-|  6   
-| 
+|  Danish                         ||  6   
 |-
-|  Dutch                          
-|  12  
-| 
+|  Dutch                          ||  12  
 |-
-|  English                        
-|  416 
-| 
+|  English                        ||  416 
 |-
-|  Finnish                        
-|  16  
-| 
+|  Finnish                        ||  16  
 |-
-|  French                         
-|  33  
-| 
+|  French                         ||  33  
 |-
-|  Galician                       
-|  1   
-| 
+|  Galician                       ||  1   
 |-
-|  German                         
-|  58  
-| 
+|  German                         ||  58  
 |-
-|  Greek                          
-|  2   
-| 
+|  Greek                          ||  2   
 |-
-|  Hebrew                         
-|  1   
-| 
+|  Hebrew                         ||  1   
 |-
-|  Hungarian                      
-|  3   
-| 
+|  Hungarian                      ||  3   
 |-
-|  Italian                        
-|  9   
-| 
+|  Italian                        ||  9   
 |-
-|  Japanese                       
-|  1   
-| 
+|  Japanese                       ||  1   
 |-
-|  LSF (French sign language)     
-|  1   
-| 
+|  LSF (French sign language)     ||  1   
 |-
-|  Norwegian                      
-|  4   
-| 
+|  Norwegian                      ||  4   
 |-
-|  Polish                         
-|  5   
-| 
+|  Polish                         ||  5   
 |-
-|  Portuguese                     
-|  11  
-| 
+|  Portuguese                     ||  11  
 |-
-|  Romanian                       
-|  1   
-| 
+|  Romanian                       ||  1   
 |-
-|  Russian                        
-|  13  
-| 
+|  Russian                        ||  13  
 |-
-|  Serbian                        
-|  1   
-| 
+|  Serbian                        ||  1   
 |-
-|  Slovenian                      
-|  2   
-| 
+|  Slovenian                      ||  2   
 |-
-|  Spanish                        
-|  13  
-| 
+|  Spanish                        ||  13  
 |-
-|  Swedish                        
-|  13  
-| 
+|  Swedish                        ||  13  
 |-
-|  Swiss                          
-|  1   
-| 
+|  Swiss                          ||  1   
 |-
-|  Ukrainian                      
-|  1   
-| 
+|  Ukrainian                      ||  1   
 |-
-|  Vietnamese                     
-|  1   
-| 
+|  Vietnamese                     ||  1   
 |-
-|  invalid (computer language)    
-|  37  
-| 
+|colspan="2" |
 |-
-|  not understood                 
-|  4   
-| 
+|  invalid (computer language)    ||  37  
 |-
-| #ccffff | Base                           
-|  662 / 683   
-| 
+|  not understood                 ||  4   
 |-
-| #ccffff | Total (sum)                    
-|  684         
-| 
+|colspan="2" |
+|- style="background-color: #ccffff;"
+|  Base                           ||  662 / 683   
+|- style="background-color: #ccffff;"
+|  Total (sum)                    ||  684         
 |}
-<!-- ## table end
- -->
 
 The question itself is not well formulated, as one can see from the number of answers with computer language, and "not understood" answers.  I am not native English speaker, but there were suggestions to use "natural language" instead of "non-programming language".
 
 Around two third of git users prefer English language, at least for dealing with computers.
 
+
 === 03. How old are you? ===
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Answer 
-|  Count 
-| 
+|- style="background-color: #ffffcc;"
+! Answer                          !!  Count 
 |-
-|   < 18                          
-|  11  
-| 
+|   < 18                          ||  11  
 |-
-|  18-21                          
-|  75  
-| 
+|  18-21                          ||  75  
 |-
-|  22-25                          
-|  174 
-| 
+|  22-25                          ||  174 
 |-
-|  26-30                          
-|  203 
-| 
+|  26-30                          ||  203 
 |-
-|  31-40                          
-|  146 
-| 
+|  31-40                          ||  146 
 |-
-|  41-50                          
-|  45  
-| 
+|  41-50                          ||  45  
 |-
-|  51-75                          
-|  13  
-| 
+|  51-75                          ||  13  
 |-
-|  76+                            
-|  0   
-| 
-|-
-| #ccffff | Base                           
-|  667 / 683 
-| 
-|-
-| #ccffff | Total (sum)                    
-|  667       
-| 
+|  76+                            ||  0   
+|- style="background-color: #ccffff;"
+|  Base                           ||  667 / 683 
+|- style="background-color: #ccffff;"
+|  Total (sum)                    ||  667       
 |}
 
 Youngest git user who answered this survey is 14 years old, oldest is 74 years old. This is quite a span, I'd say,  The age of 25 got most count (51 answers).
 
+
 === 04. Which programming languages you are proficient with? ===
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Answer                         
-|  Count 
-|  Perc. 
-| 
+|- style="background-color: #ffffcc;"
+! Answer                   !!  Count !!  Perc. 
 |-
-|  C                       
-|    582 
-|  85.2% 
-| 
+|  C                       ||    582 ||  85.2% 
 |-
-|  shell                   
-|    449 
-|  65.7% 
-| 
+|  shell                   ||    449 ||  65.7% 
 |-
-|  Perl                    
-|    244 
-|  35.7% 
-| 
+|  Perl                    ||    244 ||  35.7% 
 |-
-|  Python                  
-|    316 
-|  46.3% 
-| 
+|  Python                  ||    316 ||  46.3% 
 |-
-|  Tcl/Tk                  
-|    26  
-|   3.8% 
-| 
-|-
-| #ccffff | Base                           
-|colspan="2" |   642 / 683   
-| 
-|-
-| #ccffff | Total (sum)                    
-|colspan="2" |  1617         
-| 
+|  Tcl/Tk                  ||    26  ||   3.8% 
+|- style="background-color: #ccffff;"
+|  Base        ||colspan="2"|   642 / 683   
+|- style="background-color: #ccffff;"
+|  Total (sum) ||colspan="2"|  1617         
 |}
-<!-- ## table end
- -->
 
 The choices include programming languages used by git.  This is multiple choice question (you can be proficient in more than one programming language).
 
@@ -556,244 +313,168 @@ It look like there is only around 3/4 people proficient in Perl as compared to P
 
 You can check what are the contributions of each programming language to Git code at [http://www.ohloh.net/projects/278/analyses/latest Git Code Analysis at Ohloh].  In the table below there is shown state on November 2007 (there are also some lines / files I guess wrongly attributed to Assembly and DOS batch script):
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Language 
-|  LoC [%] 
-|  Perc. 
-| 
+|- style="background-color: #ffffcc;"
+! Language        !!  LoC [%] !!  Perc. 
 |-
-|  C/C++          
-|  51% 
-|  85.2% 
-| 
+|  C/C++          ||     51%  ||  85.2% 
 |-
-|  shell script   
-|  28% 
-|  65.7% 
-| 
+|  shell script   ||     28%  ||  65.7% 
 |-
-|  Perl           
-|  13% 
-|  35.7% 
-| 
+|  Perl           ||     13%  ||  35.7% 
 |-
-|  Tcl            
-|   4% 
-|   3.8% 
-| 
+|  Tcl            ||      4%  ||   3.8% 
 |-
-|  Python         
-|   2% 
-|  46.3% 
-| 
+|  Python         ||      2%  ||  46.3% 
 |-
-|  Emacs Lisp     
-|   1% 
-|        
-| 
+|  Emacs Lisp     ||      1%  ||        
 |-
-|  CSS            
-|  <1% 
-|        
-| 
+|  CSS            ||     <1%  ||        
 |}
-<!-- ## table end
- -->
 
 Note that LoC sums to 100% (barring rounding errors), while percent of people proficient in given language doesn't sum to 100% because one can (and usually is) proficient in more than one programming language.
+
 
 == Getting started with GIT ==
 
 === 05. How did you hear about GIT? ===
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Answer 
-|  Count 
-| 
+|- style="background-color: #ffffcc;"
+!  Answer 
+!  Count 
 |-
 |  LKML<ref>LKML = Linux Kernel Mailing List</ref>                           
 |  109 
-| 
 |-
 |  LWN (Linux Weekly News)        
 |  39  
-| 
 |-
 |  KernelTrap                   
 |  15  
-| 
 |-
 |  KernelTraffic                
 |  1   
-| 
 |-
 |  kernel.org                     
 |  9   
-| 
 |-
 |  freedesktop.org                
 |  5   
-| 
 |-
 |  Linus presentation at Google   
 |  48  
-| 
 |-
 |  Slashdot                       
 |  28  
-| 
 |-
 |  blog                           
 |  19  
-| 
 |-
 |  community site<ref>Community site are sites like Digg, Reddit and "planet" sites.</ref>              
 |  12  
-| 
 |-
 |  news site                      
 |  34  
-| 
 |-
 | colspan="2" |
-| 
 |-
 |  searching Internet<ref>This includes answer of "Google"</ref>          
 |  6   
-| 
 |-
 |  other SCM / SCM research<ref>This includes some other SCM mailing list, VCS comparison, and searching for an SCM.</ref>    
 |  20  
-| 
 |-
 |  Internet                       
 |  32  
-| 
 |-
 |  IRC                            
 |  6   
-| 
 |-
 | colspan="2" |
-| 
 |-
 |  Linux kernel uses it           
 |  73  
-| 
 |-
 |  some project uses git          
 |  47  
-| 
 |-
 | colspan="2" |
-| 
 |-
 |  developer by name<ref>Linus Torvalds, Carl Worth, Keith Packard, Randal Schwartz,...</ref>           
 |  21  
-| 
 |-
 |  friend                         
 |  39  
-| 
 |-
 |  word of mouth                  
 |  15  
-| 
 |-
 |  work / coworker                
 |  22  
-| 
 |-
 | colspan="2" |
-| 
 |-
 |  initial GIT announcement       
 |  12  
-| 
 |-
 |  BitKeeper news               
 |  24  
-| 
 |-
 | colspan="2" |
-| 
 |-
 |  don't remember                 
 |  13  
-| 
 |-
 |  other / uncategorized          
 |  44  
-| 
 |-
-| #ccffff | Base                     
+| colspan="2" |
+|- style="background-color: #ccffff;"
+|  Base                     
 |  658 / 683 
-| 
-|-
-| #ccffff | Total (sum)              
+|- style="background-color: #ccffff;"
+|  Total (sum)              
 |  693       
-| 
 |}
-<!-- ## table end
- -->
+'''Footnotes:'''<BR>
+<references />
+
 
 This was free-form question, and tabulating answers was quite a work.  It is taken as multiple choice question (for example link to Linus presentation at Google found at Slashdot counts as both "Slashdot" and "Linus presentation at Google" answer).
 
 Other / uncategorized includes for example GoogleTalk IM, 3 answers IIRC.  There was one answer of 'through the CPAN module' (?).
 
-Note that [[GitLinks#head-057cdf07b6c4202733d061096c8ac1aef2f4a232|Linus Torvalds presentation]] at [http://video.google.com/videoplay?docid=-2199332044603874737 Google Videos] / [http://www.youtube.com/watch?v4XpnKHJAok8 YouTube] got it's own category, and generated quite a bit of git users.
+Note that Linus Torvalds presentation at [http://video.google.com/videoplay?docid=-2199332044603874737 Google Videos] / [http://www.youtube.com/watch?v4XpnKHJAok8 YouTube] got it's own category, and generated quite a bit of git users.
+
 
 === 06. Did you find GIT easy to learn? ===
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Answer 
-|  Count 
-|  Perc. 
-| 
+|- style="background-color: #ffffcc;"
+!  Answer                         !!  Count !!  Perc. 
 |-
-|  very easy                      
-|     38 
-|   5.6% 
-| 
+|  very easy                      ||     38 ||   5.6% 
 |-
-|  easy                           
-|    136 
-|  19.9% 
-| 
+|  easy                           ||    136 ||  19.9% 
 |-
-|  reasonably                     
-|    318 
-|  46.6% 
-| 
+|  reasonably                     ||    318 ||  46.6% 
 |-
-|  hard                           
-|    131 
-|  19.2% 
-| 
+|  hard                           ||    131 ||  19.2% 
 |-
-|  very hard                      
-|     33 
-|   4.8% 
-| 
+|  very hard                      ||     33 ||   4.8% 
 |-
-| #ccffff | Base                           
+|colspan="3" |
+|- style="background-color: #ccffff;"
+|  Base                           
 |colspan="2" |   656 / 683   
-| 
-|-
-| #ccffff | Total (sum)                    
+|- style="background-color: #ccffff;"
+|  Total (sum)                    
 |colspan="2" |   656         
-| 
 |}
-<!-- ## table end
- -->
 
 Nice Gaussian curve. Most users find it reasonably easy to use. On the other hand git is not considered easy...
+
 
 === 07. What helped you most in learning to use it? ===
 
@@ -825,6 +506,7 @@ Some of the responses:
 
 One of more interesting:
 * We hired a consultant to give us a tutorial
+
 
 === 08. What did you find hardest? ===
 
@@ -880,67 +562,44 @@ Conclusions:
 * doing things "git way", such as making index visible (and requiring 'git commit -a' to commit changes in all files), or rename detection instead of rename tracking, or storing filenames and file contents 'as-is' (without translation) are I think here to stay
 * some of things are intrinsically hard, and would stay that way, for example the distributed SCM concept, or non-linear history.
 
+
 === 09. When did you start using git? From which version? ===
 
 ''TO DO (partial)''
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Answer (version) 
-|  Count 
-| 
+|- style="background-color: #ffffcc;"
+!  Answer (version)               !!  Count 
 |-
-|  (no version string)            
-|  165 
-| 
+|  (no version string)            ||  165 
 |-
-|  0.99x                          
-|  26  
-| 
+|  0.99x                          ||  26  
 |-
-|  0.x                            
-|  12  
-| 
+|  0.x                            ||  12  
 |-
-|  1.0x                           
-|  31  
-| 
+|  1.0x                           ||  31  
 |-
-|  1.1x                           
-|  9   
-| 
+|  1.1x                           ||  9   
 |-
-|  1.2x                           
-|  12  
-| 
+|  1.2x                           ||  12  
 |-
-|  1.3x                           
-|  22  
-| 
+|  1.3x                           ||  22  
 |-
-|  1.4x                           
-|  147 
-| 
+|  1.4x                           ||  147 
 |-
-|  1.5x                           
-|  198 
-| 
+|  1.5x                           ||  198 
 |-
-| #ccffff | Base                    
-|  626 / 683  
-| 
-|-
-| #ccffff | Total (sum)             
-|  626        
-| 
+|colspan="2" |
+|- style="background-color: #ccffff;"
+|  Base                           ||  626 / 683  
+|- style="background-color: #ccffff;"
+|  Total (sum)                    ||  626        
 |}
-<!-- ## table end
- -->
 
-''NOTE!'' This table shows ''only'' answers in which there was given Git version explicitly. Some people gave date, some people wrote how long they have used git. Those answers needs also processing; they are ''not presented'' here.
+'''''NOTE!''''' This table shows ''only'' answers in which there was given Git version explicitly. Some people gave date, some people wrote how long they have used git. Those answers needs also processing; they are ''not presented'' here.
 
 It looks like the Git users community is divided into part of users who started using it from beginning, or almost from beginning, and users which started using git post v1.3.0 (post e.g. making separate remotes the default layout of branches).
+
 
 == Other SCMs ==
 
@@ -948,233 +607,122 @@ It looks like the Git users community is divided into part of users who started 
 
 This question is not well thought out, as it gathers together (in the free-form which is not easy to tabulate with large number of responses we got) SCMs which one used and no longer uses, SCMs which are used in parallel with git, and SCMs which are used instead of git (which are chosen as main SCM for a project). Nevertheless it shows with which VCS, and its concepts, are users familiar with.
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Answer 
-|  Count 
-| 
+|- style="background-color: #ffffcc;"
+! Answer                          !!  Count 
 |-
-|  AccuRev                      
-|  3   
-| 
+|  AccuRev                        ||  3   
 |-
-|  Aegis                          
-|  1   
-| 
+|  Aegis                          ||  1   
 |-
-|  Bazaar                         
-|  19  
-| 
+|  Bazaar                         ||  19  
 |-
-|  Bazaar-NG                      
-|  50  
-| 
+|  Bazaar-NG                      ||  50  
 |-
-|  BitKeeper                    
-|  27  
-| 
+|  BitKeeper                      ||  27  
 |-
-|  CCC                            
-|  1   
-| 
+|  CCC                            ||  1   
 |-
-|  CMS (Digital)                  
-|  1   
-| 
+|  CMS (Digital)                  ||  1   
 |-
-|  CMS (VAX)                      
-|  1   
-| 
+|  CMS (VAX)                      ||  1   
 |-
-|  CMS (VMS)                      
-|  1   
-| 
+|  CMS (VMS)                      ||  1   
 |-
-|  CVCS                           
-|  1   
-| 
+|  CVCS                           ||  1   
 |-
-|  CVS                            
-|  454 
-| 
+|  CVS                            ||  454 
 |-
-|  ClearCase                    
-|  43  
-| 
+|  ClearCase                      ||  43  
 |-
-|  CodeMgr                      
-|  1   
-| 
+|  CodeMgr                        ||  1   
 |-
-|  Continuus                      
-|  1   
-| 
+|  Continuus                      ||  1   
 |-
-|  Darcs                          
-|  78  
-| 
+|  Darcs                          ||  78  
 |-
-|  DesignSync                   
-|  1   
-| 
+|  DesignSync                     ||  1   
 |-
-|  GNU Arch                       
-|  57  
-| 
+|  GNU Arch                       ||  57  
 |-
-|  Mercurial                      
-|  92  
-| 
+|  Mercurial                      ||  92  
 |-
-|  Monotone                       
-|  31  
-| 
+|  Monotone                       ||  31  
 |-
-|  Omniworks                      
-|  1   
-| 
+|  Omniworks                      ||  1   
 |-
-|  OpenCM                       
-|  1   
-| 
+|  OpenCM                         ||  1   
 |-
-|  PRCS                           
-|  1   
-| 
+|  PRCS                           ||  1   
 |-
-|  PVCS                           
-|  12  
-| 
+|  PVCS                           ||  12  
 |-
-|  Perforce                       
-|  50  
-| 
+|  Perforce                       ||  50  
 |-
-|  Quilt                          
-|  2   
-| 
+|  Quilt                          ||  2   
 |-
-|  RCS                            
-|  61  
-| 
+|  RCS                            ||  61  
 |-
-|  SCCS                           
-|  18  
-| 
+|  SCCS                           ||  18  
 |-
-|  SCM                            
-|  1   
-| 
+|  SCM                            ||  1   
 |-
-|  SCSS                           
-|  1   
-| 
+|  SCSS                           ||  1   
 |-
-|  SVK                            
-|  19  
-| 
+|  SVK                            ||  19  
 |-
-|  Serena Version Manager         
-|  1   
-| 
+|  Serena Version Manager         ||  1   
 |-
-|  SourceForge                  
-|  1   
-| 
+|  SourceForge                    ||  1   
 |-
-|  Sourcerer's Apprentice         
-|  1   
-| 
+|  Sourcerer's Apprentice         ||  1   
 |-
-|  StarTeam                     
-|  4   
-| 
+|  StarTeam                       ||  4   
 |-
-|  Subversion                     
-|  524 
-| 
+|  Subversion                     ||  524 
 |-
-|  Sun NSE                        
-|  2   
-| 
+|  Sun NSE                        ||  2   
 |-
-|  Sun TeamWare                 
-|  4   
-| 
+|  Sun TeamWare                   ||  4   
 |-
-|  VCS                            
-|  1   
-| 
+|  VCS                            ||  1   
 |-
-|  VMS                            
-|  1   
-| 
+|  VMS                            ||  1   
 |-
-|  VSS                            
-|  26  
-| 
+|  VSS                            ||  26  
 |-
 | colspan="2" |
-| 
 |-
-|  'cp -a'                        
-|  1   
-| 
+|  'cp -a'                        ||  1   
 |-
-|  akpm patch scripts             
-|  1   
-| 
+|  akpm patch scripts             ||  1   
 |-
-|  custom in-house tools          
-|  1   
-| 
+|  custom in-house tools          ||  1   
 |-
-|  diff patch                     
-|  2   
-| 
+|  diff patch                     ||  2   
 |-
-|  notes-on-paper-made-by-hand    
-|  1   
-| 
+|  notes-on-paper-made-by-hand    ||  1   
 |-
-|  really horrible stuff          
-|  1   
-| 
+|  really horrible stuff          ||  1   
 |-
-|  scripts for 'shadow trees'     
-|  1   
-| 
+|  scripts for 'shadow trees'     ||  1   
 |-
-|  tarballs                       
-|  1   
-| 
+|  tarballs                       ||  1   
 |-
-|  tlib                           
-|  1   
-| 
+|  tlib                           ||  1   
 |-
 | colspan="2" |
-| 
 |-
-|  none                           
-|  9   
-| 
+|  none                           ||  9   
 |-
-|  undisclosed                    
-|  1   
-| 
+|  undisclosed                    ||  1   
 |-
-| #ccffff | Base                     
-|  654 / 683 
-| 
-|-
-| #ccffff | Total (sum)              
-|  1615      
-| 
+| colspan="2" |
+|- style="background-color: #ccffff;"
+|  Base                     ||  654 / 683 
+|- style="background-color: #ccffff;"
+|  Total (sum)              ||  1615      
 |}
-<!-- ## table end
- -->
 
 The above table is in alphabetical order. It was generated from free-form answers, tabulated as multiple choice answer.
 
@@ -1185,82 +733,66 @@ Below there is table of SCM used, sorted by the number of responses.  Note that 
 In the table below links are to [http://en.wikipedia.org Wikipedia] article about specified SCM.
 
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Answer 
-|  Count 
-| 
+|- style="background-color: #ffffcc;"
+!  Answer 
+!  Count 
 |-
 |  [[WikiPedia:Subversion_(software)|Subversion]]  
 |  524  
-| 
 |-
 |  [[WikiPedia:Concurrent_Versions_System|CVS]]    
 |  454  
-| 
 |-
 |  [[WikiPedia:Mercurial_(software)|Mercurial]]    
 |  92   
-| 
 |-
 |  [[WikiPedia:Darcs|Darcs]]                       
 |  78   
-| 
 |-
 |  [[WikiPedia:Revision_Control_System|RCS]]       
 |  61   
-| 
 |-
 |  [[WikiPedia:GNU_arch|GNU Arch]]                 
 |  57   
-| 
 |-
 |  [[WikiPedia:Bazaar_(software)|Bazaar-NG]]       
 |  50   
-| 
 |-
 |  [[WikiPedia:Perforce|Perforce]]                 
 |  50   
-| 
 |-
 |  [[WikiPedia:IBM_Rational_ClearCase|ClearCase]]  
 |  43   
-| 
 |-
 |  [[WikiPedia:Monotone_(software)|Monotone]]      
 |  31   
-| 
 |-
-|  [[WikiPedia:[[BitKeeper]]|BitKeeper]]               
+|  [[WikiPedia:BitKeeper|BitKeeper]]               
 |  27   
-| 
 |-
 |  [[WikiPedia:Microsoft_Visual_SourceSafe|VSS (MS Visual SourceSafe)]] 
 |  26   
-| 
 |-
 |  [[WikiPedia:Baz_(software)|Bazaar]]<ref>Bazaar-NG (bzr) might been mistaken for old Bazaar (baz); the tabulation is biased towards Bazaar-NG, e.g. answer of "Bazaar" was taken for Bazaar-NG, only "baz" for Bazaar</ref> 
 |  19   
-| 
 |-
 |  [[WikiPedia:SVK|SVK]]                           
 |  19   
-| 
 |-
 |  [[WikiPedia:Source_Code_Control_System|SCCS]]   
 |  18   
-| 
 |-
 |  [[WikiPedia:PVCS|PVCS]]                         
 |  12   
-| 
 |-
 |  tla+baz+bzr<ref>tla+baz+bzr = GNU Arch (tla), old Bazaar (baz), Bazaar-NG (bzr)</ref> 
 |  129  
-| 
-|-
-| #ccffff | Base 
+|- style="background-color: #ccffff;"
+|  Base 
 |  654 / 683 
-| 
 |}
+'''Footnotes:'''<BR>
+<references />
 
 As you can see two most popular SCMs are Subversion ('svn') and CVS, with Subversion being a bit more popular.  Among distributed SCMs with most count are Mercurial ('hg') and Arch and its descendants ('tla', 'baz', 'bzr'). From proprietary (non-OSS) revision control systems Perforce ('p4'), ClearCase (and ClearCase UCM), BitKeeper ('bk') and Visual SourceSafe (aka. that awful M$ one ;-) got most count.
 
@@ -1269,41 +801,24 @@ Note that the count for given version control system does not reflect ''preferen
 Compare this to the following table of SCMs popularity, based on the number of people who have given SCM in [http://www.ohloh.net/about/faq#stack "stack"] on [[WikiPedia:Ohloh|Ohloh]].  Note that this data might be biased because Ohloh for now supports only CVS, SVN (Subversion) and Git repositories.  Data taken on 11-11-2007:
 
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Project 
-|  Stacks 
-| 
+|- style="background-color: #ffffcc;"
+!  Project                        !!  Stacks 
 |-
-|  Subversion                     
-|  1568 
-| 
+|  Subversion                     ||  1568 
 |-
-|  CVS                            
-|  223  
-| 
+|  CVS                            ||  223  
 |-
-|  Git                            
-|  212  
-| 
+|  Git                            ||  212  
 |-
-|  Mercurial                      
-|  76   
-| 
+|  Mercurial                      ||  76   
 |-
-|  Bazaar-NG                      
-|  43   
-| 
+|  Bazaar-NG                      ||  43   
 |-
-|  Darcs                          
-|  40   
-| 
+|  Darcs                          ||  40   
 |-
-|  SVK                            
-|  36   
-| 
+|  SVK                            ||  36   
 |-
-|  Monotone                       
-|  16   
-| 
+|  Monotone                       ||  16   
 |}
 
 Below there is table of [http://popcon.debian.org/ Debian Popularity Contest] (popcon) results for SCMs.  Table is sorted by the number of installations.  Note that popcon only reflects 1/10th to 1/100th or less of total users.
@@ -1311,129 +826,113 @@ Below there is table of [http://popcon.debian.org/ Debian Popularity Contest] (p
 You can also check out [http://people.debian.org/~igloo/popcon-graphs/index.php?packages=git-core+bzr+mercurial+tla&show_installed=on&want_legend=on&want_ticks=on&from_date=&to_date=&hlght_date=&date_fmt=%25Y-%25m&beenhere=1 popcon graph].  Generated graph is for number of installs of git-core, bzr (Bazaar-NG), mercurial and tla (GNU Arch), but you can generate graph for any chosen packages.
 
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | SCM 
-|  package 
-|  installed<ref>installed is the number of people who installed this package</ref> 
-|  vote<ref>vote is the number of people who use this package regularly</ref> 
-| 
+|- style="background-color: #ffffcc;"
+!  SCM 
+!  package 
+!  installed<ref>installed is the number of people who installed this package</ref> 
+!  vote<ref>vote is the number of people who use this package regularly</ref> 
 |-
 |  CVS         
 |  cvs                         
 |  21778 
 |  4813 
-| 
 |-
 |  Subversion  
 |  subversion                  
 |  17391 
 |  7275 
-| 
 |-
 |  RCS         
 |  rcs<ref>Some tools require this package, for example for rcsmerge 3-way merge utility</ref> 
 |   7921 
 |  1625 
-| 
-|-
+|- style="background-color: #fffff5;"
 |  ''Git''   
 |  git-core                    
 |   3243 
 |  1533 
-| 
 |-
 |  Mercurial   
 |  mercurial                   
 |   1453 
 |   342 
-| 
 |-
 |  Darcs       
 |  darcs                       
 |   1305 
 |   322 
-| 
 |-
 |  GNU Arch    
 |  tla                         
 |   1059 
 |   167 
-| 
 |-
 |  Bazaar-NG   
 |  bzr                         
 |   1033 
 |   258 
-| 
 |-
 |  SVK         
 |  svk                         
 |    655 
 |   224 
-| 
 |-
 |  Monotone    
 |  monotone                    
 |    408 
 |    91 
-| 
 |-
 |  Aegis       
 |  aegis                       
 |     78 
 |    19 
-| 
 |}
+'''Footnotes:'''<BR>
+<references />
 
 You can also check out [http://upsilon.cc/~zack/stuff/vcs-usage/ (declared) VCS usage for Debian source packages], overview of Version Control System usage to maintain Debian source packages.
 
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | SCM 
-|  Vcs-* 
-|  source packages 
-| 
+|- style="background-color: #ffffcc;"
+!  SCM 
+!  Vcs-* 
+!  source packages 
 |-
 |  Arch       
 |  arch  
 |  30   
-| 
 |-
 |  Bazaar-NG  
 |  bzr   
 |  89   
-| 
 |-
 |  CVS        
 |  cvs   
 |  44   
-| 
 |-
 |  Darcs      
 |  darcs 
 |  27   
-| 
-|-
+|- style="background-color: #fffff5;"
 |  ''Git''  
 |  git   
 |  733  
-| 
 |-
 |  Mercurial  
 |  hg    
 |  27   
-| 
 |-
 |  Monotone   
 |  mtn   
 |  0    
-| 
 |-
 |  Subversion 
 |  svn   
 |  2731 
-| 
 |}
 
 See also question 35:  "How does GIT compare to other SCM?".
+
 
 === 11. Why did you choose GIT? ===
 
@@ -1535,6 +1034,7 @@ Interesting responses:
 
 Note that the answers to this questions are a mix of "why I tried Git" and "why I use Git", with the latter more common.  The question was meant to be about why one uses Git (why remains with Git).
 
+
 === 12. Why did you choose other SCMs? ===
 
 ''TO DO (partial)''<BR>
@@ -1580,6 +1080,7 @@ Personal issues that made people chose other SCMs
 * I don't care enough to switch
 
 One of issues why one used other SCM is that the project predates Git existence (answers like "it was the only one back then).
+
 
 === 13. What would you require from GIT to enable you to change... ? ===
 
@@ -1681,543 +1182,305 @@ Other:
 * http://wiki.FreeBSD.org/VersionControl
 * At work it'd require some kind of miracle.  Huge Perforce repository of highly interrelated stuff in which people can make sweeping changes in a single changelist. Lots of tools that access Perforce.  Slow as hell.
 
+
 === 14. Did you import your repository from foreign SCM? What SCM? ===
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Answer 
-|  Count 
-| 
+|- style="background-color: #ffffcc;"
+! Answer                          !!  Count 
 |-
-|  N/A                            
-|  15    
-| 
+|  N/A                            ||  15    
 |-
-|  No                             
-|  169   
-| 
+|  No                             ||  169   
 |-
-|  Yes                            
-|  372   
-| 
-|-
-| #ccffff | Base        
-|  556 / 683 
-| 
-|-
-| #ccffff | Total (sum) 
-|  556       
-| 
+|  Yes                            ||  372   
+|- style="background-color: #ccffff;"
+|  Base                           ||  556 / 683 
+|- style="background-color: #ccffff;"
+|  Total (sum)                    ||  556       
 |}
-<!-- ## table end
- -->
 
 This is only a partial analysis, as it deals only with first part of question. Second part, which SCM, has free-form structure and needed further processing.
 
 One can see that around half of git users have imported (at least one project) from foreign SCM.
 
+
 === 15. What tool did you use for import? ===
 
 Note that one can use more than one tool, for example for different repositories.
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Answer 
-|  Count 
-| 
+|- style="background-color: #ffffcc;"
+! Answer                          !!  Count 
 |-
-|  by hand                        
-|  7   
-| 
+|  by hand                        ||  7   
 |-
-|  custom script                  
-|  21  
-| 
+|  custom script                  ||  21  
 |-
-|  fast-import script             
-|  3   
-| 
+|  fast-import script             ||  3   
 |-
 | colspan="2" |
-| 
 |-
-|  Tailor                         
-|  28  
-| 
+|  Tailor                         ||  28  
+|- 
+| colspan="2" style="background-color: #ffffed;" | CVS import 
 |-
-| colspan="2" #ffffed | CVS import 
-| 
+|  git-cvsimport                  ||  81  
 |-
-|  git-cvsimport                  
-|  81  
-| 
+|  parsecvs                       ||  12  
 |-
-|  parsecvs                       
-|  12  
-| 
+|  fromcvs                        ||  2   
 |-
-|  fromcvs                        
-|  2   
-| 
+|  cvs2git                        ||  1   
 |-
-|  cvs2git                        
-|  1   
-| 
+|  cvstogit                       ||  1   
 |-
-|  cvstogit                       
-|  1   
-| 
-|
-| colspan="2" #fffed | Subversion import 
-| 
+| colspan="2" style="background-color: #ffffed;" | Subversion import 
 |-
-|  git-svn                        
-|  150 
-| 
+|  git-svn                        ||  150 
 |-
-|  git-svnimport                  
-|  66  
-| 
+|  git-svnimport                  ||  66  
 |-
-| colspan="2" #fffed | Other SCMs 
-| 
+| colspan="2" style="background-color: #ffffed;" | Other SCMs 
 |-
-|  git-archimport                 
-|  15  
-| 
+|  git-archimport                 ||  15  
 |-
-|  bk2git (customized)            
-|  1   
-| 
+|  bk2git (customized)            ||  1   
 |-
-|  darcs2git                      
-|  4   
-| 
+|  darcs2git                      ||  4   
 |-
-|  git-p4                         
-|  4   
-| 
+|  git-p4                         ||  4   
 |-
-|  git-p4import                   
-|  1   
-| 
+|  git-p4import                   ||  1   
 |-
-|  git-ucmimport                  
-|  1   
-| 
+|  git-ucmimport                  ||  1   
 |-
-|  hg-to-git                      
-|  2   
-| 
+|  hg-to-git                      ||  2   
 |-
-|  hg2git                         
-|  2   
-| 
+|  hg2git                         ||  2   
 |-
-|  hgpullsvn                      
-|  1   
-| 
+|  hgpullsvn                      ||  1   
 |-
-|  hgsvn                          
-|  1   
-| 
+|  hgsvn                          ||  1   
 |-
-|  moin2git                       
-|  1   
-| 
+|  moin2git                       ||  1   
 |-
-|  unspecified                    
-|  18   
-| 
+|  unspecified                    ||  18   
 |-
-|  N/A                            
-|  114 
-| 
+|colspan="2" |
 |-
-| #ccffff | Base         
-|  467 / 683 
-| 
-|-
-| #ccffff | Total (sum)  
-|  538       
-| 
+|  N/A                            ||  114 
+|- style="background-color: #ccffff;"
+|  Base         ||  467 / 683 
+|- style="background-color: #ccffff;"
+|  Total (sum)  ||  538       
 |}
-<!-- ## table end
- -->
+
 
 === 16. Do your GIT repository interact with other SCM? Which SCM? ===
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Answer                         
-|  Count 
-| 
+|- style="background-color: #ffffcc;"
+! Answer                          !!  Count 
 |-
-|  N/A                            
-|  35    
-| 
+|  N/A                            ||  35    
 |-
-|  No                             
-|  228   
-| 
+|  No                             ||  228   
 |-
-|  Yes                            
-|  228   
-| 
-|-
-| #ccffff | Base                           
-|  491 / 683 
-| 
-|-
-| #ccffff | Total (sum)                    
-|  491   
-| 
+|  Yes                            ||  228   
+|- style="background-color: #ccffff;"
+|  Base                           ||  491 / 683 
+|- style="background-color: #ccffff;"
+|  Total (sum)                    ||  491   
 |}
-<!-- ## table end
- -->
 
 This is only partial analysis, as it deals only with first part of question. Second part has free-form structure and needs further processing.
 
 One can see that around third of git users interacts (for at least one project) with foreign SCM, as compared to half of git users which have imported other SCM.
 
+
 === 17. What tool did/do you use to interact? ===
 
 This question is free-form question, but it is treated as multiple-choice question for the purposes of creating table of responses.
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Answer 
-|  Count 
-| 
+|- style="background-color: #ffffcc;"
+!  Answer                         !!  Count 
 |-
-|  by hand                        
-|  10  
-| 
+|  by hand                        ||  10  
 |-
-|  custom script                  
-|  16  
-| 
+|  custom script                  ||  16  
 |-
-| colspan="2" |
-| 
+|colspan="2" |
 |-
-|  Tailor                         
-|  4   
-| 
+|  Tailor                         ||  4   
 |-
-|  convert-repo                   
-|  1   
-| 
+|  convert-repo                   ||  1   
 |-
-| colspan="2" |
-| 
+|colspan="2" |
 |-
-|  fromcvs                        
-|  1   
-| 
+|  fromcvs                        ||  1   
 |-
-|  git-cvsexportcommit            
-|  8   
-| 
+|  git-cvsexportcommit            ||  8   
 |-
-|  git-cvsimport                  
-|  19  
-| 
+|  git-cvsimport                  ||  19  
 |-
-|  git-cvsserver                  
-|  2   
-| 
+|  git-cvsserver                  ||  2   
 |-
-| colspan="2" |
-| 
+|colspan="2" |
 |-
-|  git-svn                        
-|  164 
-| 
+|  git-svn                        ||  164 
 |-
-|  git-svnimport                  
-|  2   
-| 
+|  git-svnimport                  ||  2   
 |-
-| colspan="2" |
-| 
+|colspan="2" |
 |-
-|  git-p4                         
-|  4   
-| 
+|  git-p4                         ||  4   
 |-
-|  git-p4import                   
-|  1   
-| 
+|  git-p4import                   ||  1   
 |-
-|  unspecified                    
-|  2   
-| 
+|colspan="2" |
 |-
-|  N/A                            
-|  153 
-| 
+|  unspecified                    ||  2   
 |-
-| #ccffff | Base        
-|  385 / 683 
-| 
-|-
-| #ccffff | Total (sum) 
-|  388       
-| 
+|  N/A                            ||  153 
+|- style="background-color: #ccffff;"
+|  Base                           ||  385 / 683 
+|- style="background-color: #ccffff;"
+|  Total (sum)                    ||  388       
 |}
-<!-- ## table end
- -->
 
 The only tool which really allows to interact (two-way) with other SCM is git-svn (164 / 232). 
+
 
 == How you use GIT ==
 
 === 18. Do you use GIT for work, unpaid projects, or both? ===
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Answer 
-|  Count 
-|  Perc. 
-| 
+|- style="background-color: #ffffcc;"
+! Answer                          !!  Count !|  Perc. 
 |-
-|  work                           
-|     56 
-|   8.2% 
-| 
+|  work                           ||     56 ||   8.2% 
 |-
-|  unpaid projects                
-|    212 
-|  31.0% 
-| 
+|  unpaid projects                ||    212 ||  31.0% 
 |-
-|  both                           
-|    377 
-|  55.2% 
-| 
+|  both                           ||    377 ||  55.2% 
 |-
-| colspan="3" | 
-| 
+|colspan="3" |
 |-
-|   work + both                   
-|    433 
-|  63.4% 
-| 
-|-
-| #ccffff | Base                           
-|colspan="2" |   645 / 683   
-| 
-|-
-| #ccffff | Total (sum)                    
-|colspan="2" |   645         
-| 
+|   work + both                   ||    433 ||  63.4% 
+|- style="background-color: #ccffff;"
+|  Base              ||colspan="2" |   645 / 683   
+|- style="background-color: #ccffff;"
+|  Total (sum)       ||colspan="2" |   645         
 |}
-<!-- ## table end
- -->
 
 Around two third of people use git at work, or for work.  
 
 See also question 55: "Would commercial (paid) support from a support vendor be of interest to you/your organization?"
 
+
 === 19. How do you obtain GIT? ===
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Answer                         
-|  Count 
-|  Perc. 
-| 
+|- style="background-color: #ffffcc;"
+!  Answer                         !!  Count !!  Perc. 
 |-
-|  binary package                 
-|    283 
-|  41.4% 
-| 
+|  binary package                 ||    283 ||  41.4% 
 |-
-|  source tarball                 
-|    210 
-|  30.7% 
-| 
+|  source tarball                 ||    210 ||  30.7% 
 |-
-|  pull from main repository      
-|    153 
-|  22.4% 
-| 
-|-
-| #ccffff | Base                           
-|colspan="2" |   646 / 683   
-| 
-|-
-| #ccffff | Total (sum)                    
-|colspan="2" |   646         
-| 
+|  pull from main repository      ||    153 ||  22.4% 
+|- style="background-color: #ccffff;"
+|  Base              ||colspan="2" |   646 / 683   
+|- style="background-color: #ccffff;"
+|  Total (sum)       ||colspan="2" |   646         
 |}
-<!-- ## table end
- -->
 
 Around half more people use binary packages than source tarball (or source package, I think). More than half of people compile its own git (pull is also followed by compilation).
+
 
 === 20. What hardware platforms do you use GIT on? ===
 
 On Linux it was meant to be result of <code><nowiki>uname -i</nowiki></code>.  Note however that <code><nowiki>uname -i</nowiki></code> does not work on all Unices, as was indicated in help to this question.  I'm sorry for this mistake.
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Answer 
-|  Count 
-| 
+|- style="background-color: #ffffcc;"
+!  Answer                         !!  Count 
 |-
-|  Intel                          
-|  73  
-| 
+|  Intel                          ||  73  
 |-
-|  Athlon                         
-|  2   
-| 
+|  Athlon                         ||  2   
 |-
-|  i386                           
-|  171 
-| 
+|  i386                           ||  171 
 |-
-|  i586                           
-|  9   
-| 
+|  i586                           ||  9   
 |-
-|  i686                           
-|  60  
-| 
+|  i686                           ||  60  
 |-
-|  IA-32                          
-|  6   
-| 
+|  IA-32                          ||  6   
 |-
-|  IA-64                          
-|  8   
-| 
+|  IA-64                          ||  8   
 |-
-|  AMD                            
-|  35  
-| 
+|  AMD                            ||  35  
 |-
-|  amd64                          
-|  48  
-| 
+|  amd64                          ||  48  
 |-
-|  x86                            
-|  156 
-| 
+|  x86                            ||  156 
 |-
-|  x86-64                         
-|  112 
-| 
+|  x86-64                         ||  112 
 |-
-| colspan="2" |
-| 
+|colspan="2" |
 |-
-|  Apple                          
-|  8   
-| 
+|  Apple                          ||  8   
 |-
-|  iMac                         
-|  1   
-| 
+|  iMac                           ||  1   
 |-
-|  MacBook                      
-|  7   
-| 
+|  MacBook                        ||  7   
 |-
-|  PowerBook                    
-|  10  
-| 
+|  PowerBook                      ||  10  
 |-
-|  PPC                            
-|  52  
-| 
+|  PPC                            ||  52  
 |-
-|  ppc64                          
-|  7   
-| 
+|  ppc64                          ||  7   
 |-
-| colspan="2" |
-| 
+|colspan="2" |
 |-
-|  ARM                            
-|  6   
-| 
+|  ARM                            ||  6   
 |-
-|  Alpha                          
-|  2   
-| 
+|  Alpha                          ||  2   
 |-
-|  PA-RISC                        
-|  1   
-| 
+|  PA-RISC                        ||  1   
 |-
-|  parisc64                       
-|  1   
-| 
+|  parisc64                       ||  1   
 |-
-|  MIPS                           
-|  1   
-| 
+|  MIPS                           ||  1   
 |-
-|  mips64                         
-|  1   
-| 
+|  mips64                         ||  1   
 |-
-|  mipsel                         
-|  2   
-| 
+|  mipsel                         ||  2   
 |-
-|  SPARC                          
-|  8   
-| 
+|  SPARC                          ||  8   
 |-
-|  sparc64                        
-|  6   
-| 
+|  sparc64                        ||  6   
 |-
-|  SUNW                           
-|  6   
-| 
+|  SUNW                           ||  6   
 |-
-|  Sun-Fire                       
-|  4   
-| 
+|  Sun-Fire                       ||  4   
 |-
-|  sun4u                          
-|  3   
-| 
+|  sun4u                          ||  3   
 |-
-|  sun4v                          
-|  1   
-| 
+|  sun4v                          ||  1   
 |-
-|  k8                             
-|  1   
-| 
+|  k8                             ||  1   
 |-
-|  unknown 
-|  67  
-| 
-|-
-| #ccffff | Base          
-|  637 / 683 
-| 
-|-
-| #ccffff | Total (sum)   
-|  875       
-| 
+|  ''unknown''                    ||  67  
+|- style="background-color: #ccffff;"
+|  Base                       ||  637 / 683 
+|- style="background-color: #ccffff;"
+|  Total (sum)                ||  875       
 |}
-<!-- ## table end
- -->
 
 The above table is in some arbitrary order. It was generated from free-form answers, tabulated as multiple choice answer, as one person can use git on more than one architecture.
 
@@ -2225,96 +1488,58 @@ Those results probably needs further processing to reduce number of choices, by 
 
 "Unknown" usually means that something else instead of architecture was given (like operating system), or architecture was too generic, like "PC".
 
+
 === 21. What OS do you use GIT on? ===
 
 ''What OS (please include the version) do you use GIT on?''
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Answer 
-|  Count 
-| 
+|- style="background-color: #ffffcc;"
+!  Answer                         !!  Count 
 |-
-|  AIX                            
-|  1   
-| 
+|  AIX                            ||  1   
 |-
-|  FreeBSD                      
-|  16  
-| 
+|  FreeBSD                        ||  16  
 |-
-|  OpenBSD                      
-|  3   
-| 
+|  OpenBSD                        ||  3   
 |-
-|  HP-UX                          
-|  1   
-| 
+|  HP-UX                          ||  1   
 |-
-|  Linux                          
-|  582 
-| 
+|  Linux                          ||  582 
 |-
-|  MS Windows (Cygwin)            
-|  22  
-| 
+|  MS Windows (Cygwin)            ||  22  
 |-
-|  MS Windows (msys)              
-|  1   
-| 
+|  MS Windows (msys)              ||  1   
 |-
-|  MS Windows (unsp.)             
-|  35  
-| 
+|  MS Windows (unsp.)             ||  35  
 |-
-|  MacOS X / Darwin             
-|  94  
-| 
+|  MacOS X / Darwin               ||  94  
 |-
-|  Solaris                        
-|  11  
-| 
+|  Solaris                        ||  11  
 |-
-|  SunOS                        
-|  5   
-| 
+|  SunOS                          ||  5   
 |-
-|  UNIX (unsp.)                   
-|  1   
-| 
+|  UNIX (unsp.)                   ||  1   
 |-
-|  too many to list               
-|  1   
-| 
+|  too many to list               ||  1   
 |-
-| colspan="2" | 
-| 
+|colspan="2" |
 |-
-|  MS Windows (together)          
-|  58  
-| 
+|  MS Windows (together)          ||  58  
 |-
-|  FreeBSD / OpenBSD          
-|  19  
-| 
+|  FreeBSD / OpenBSD              ||  19  
 |-
-|  Unices (together)              
-|  19  
-| 
-|-
-| #ccffff | Base         
-|  645 / 683 
-| 
-|-
-| #ccffff | Total (sum)  
-|  775       
-| 
+|  Unices (together)              ||  19  
+|- style="background-color: #ccffff;"
+|  Base         ||  645 / 683 
+|- style="background-color: #ccffff;"
+|  Total (sum)  ||  775       
 |}
 
 The above was generated from free-form answers, tabulated as multiple choice answer, as one person can use git on more than one operating system.
 
 This is not a full analysis of answers, as it does not include operating system version, or (for Linux) distribution(s) used.
+
 
 === 22. What projects do you track using GIT? ===
 
@@ -2322,311 +1547,166 @@ This is not a full analysis of answers, as it does not include operating system 
 
 A note: this question was meant to list projects which one ''tracks'', not the ones he/she maintains, meaning the projects in the remotes (section); usually project which is "origin".  It was not meant to list all projects which one has under version control using git.
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Answer 
-|  Count 
-| 
+|- style="background-color: #ffffcc;"
+! Answer                          !!  Count 
 |-
 | colspan="2" |
-| 
 |-
-| colspan="2" #fffed | undisclosed and own projects 
-| 
+| colspan="2" style="background-color: #ffffed;" | undisclosed and own projects 
 |-
-|  own                            
-|  83  
-| 
+|  own                            ||  83  
 |-
-|  private                        
-|  19  
-| 
+|  private                        ||  19  
 |-
-|  proprietary                    
-|  2   
-| 
+|  proprietary                    ||  2   
 |-
-|  configuration files            
-|  4   
-| 
+|  configuration files            ||  4   
 |-
-|  work                           
-|  38  
-| 
+|  work                           ||  38  
 |-
-|  unspecified                    
-|  31  
-| 
+|  unspecified                    ||  31  
 |-
 | colspan="2" |
-| 
 |-
-| colspan="2" #fffed | Git related projects 
-| 
+| colspan="2" style="background-color: #ffffed;" | Git related projects 
 |-
-|  git                            
-|  133 
-| 
+|  git                            ||  133 
 |-
-|  git-gui                        
-|  1   
-| 
+|  git-gui                        ||  1   
 |-
-|  git-gui-i18n                   
-|  2   
-| 
+|  git-gui-i18n                   ||  2   
 |-
-|  4msysgit                       
-|  2   
-| 
+|  4msysgit                       ||  2   
 |-
-|  msysgit                        
-|  5   
-| 
+|  msysgit                        ||  5   
 |-
-|  mingw                          
-|  4   
-| 
+|  mingw                          ||  4   
 |-
-|  egit                           
-|  2   
-| 
+|  egit                           ||  2   
 |-
-|  grit                           
-|  1   
-| 
+|  grit                           ||  1   
 |-
-|  stgit                          
-|  5   
-| 
+|  stgit                          ||  5   
 |-
-|  guilt                          
-|  2   
-| 
+|  guilt                          ||  2   
 |-
-|  GSoC projects                
-|  1   
-| 
+|  GSoC projects                  ||  1   
 |-
-|  Giggle                         
-|  6   
-| 
+|  Giggle                         ||  6   
 |-
-|  qgit                           
-|  3   
-| 
+|  qgit                           ||  3   
 |-
-|  qgit4                          
-|  1   
-| 
+|  qgit4                          ||  1   
 |-
-|  tig                            
-|  11  
-| 
+|  tig                            ||  11  
 |-
 | colspan="2" |
-| 
 |-
-| colspan="2" #fffed | Linux kernel and related projects<ref>I have not included there some projects which I have only later checked that are also kernel-related, like blktrace, dkms, ethtool, hostap, open-iscsi, etc.</ref> 
-| 
+| colspan="2"  style="background-color: #ffffed;" | Linux kernel and related projects<ref>I have not included there some projects which I have only later checked that are also kernel-related, like blktrace, dkms, ethtool, hostap, open-iscsi, etc.</ref> 
 |-
-|  linux kernel                   
-|  178 
-| 
+|  linux kernel                   ||  178 
 |-
-|  linux-2.4                      
-|  1   
-| 
+|  linux-2.4                      ||  1   
 |-
-|  linux-2.6                      
-|  15  
-| 
+|  linux-2.6                      ||  15  
 |-
-|  linux-mips                     
-|  3   
-| 
+|  linux-mips                     ||  3   
 |-
-|  linux-mtd                      
-|  1   
-| 
+|  linux-mtd                      ||  1   
 |-
-|  linux-omap                     
-|  3   
-| 
+|  linux-omap                     ||  3   
 |-
-|  iwlwifi                        
-|  5   
-| 
+|  iwlwifi                        ||  5   
 |-
-|  klibc                          
-|  1   
-| 
+|  klibc                          ||  1   
 |-
-|  kvm                            
-|  4   
-| 
+|  kvm                            ||  4   
 |-
-|  module-init-tools              
-|  1   
-| 
+|  module-init-tools              ||  1   
 |-
-|  mtd-utils                      
-|  1   
-| 
+|  mtd-utils                      ||  1   
 |-
-|  rt2x00                         
-|  2   
-| 
+|  rt2x00                         ||  2   
 |-
-|  pahole                         
-|  3   
-| 
+|  pahole                         ||  3   
 |-
-|  sparse                         
-|  12  
-| 
+|  sparse                         ||  12  
 |-
-|  udev                           
-|  6   
-| 
+|  udev                           ||  6   
 |-
-|  wireless-dev                   
-|  3   
-| 
+|  wireless-dev                   ||  3   
 |-
 | colspan="2" |
-| 
 |-
-|  kernel related                 
-|  7   
-| 
+|  kernel related                 ||  7   
 |-
 | colspan="2" |
-| 
 |-
-| colspan="2" #fffed | Freedesktop projects<ref>Some of mentioned projects which are also hosted on freedesktop.org are not included here, neither in the list, not in the count for "freedesktop"</ref> 
-| 
+| colspan="2" style="background-color: #ffffed;" | Freedesktop projects<ref>Some of mentioned projects which are also hosted on freedesktop.org are not included here, neither in the list, not in the count for "freedesktop"</ref> 
 |-
-|  Cairo                          
-|  21  
-| 
+|  Cairo                          ||  21  
 |-
-|  Compiz                         
-|  5   
-| 
+|  Compiz                         ||  5   
 |-
-|  Compiz Fusion                  
-|  6   
-| 
+|  Compiz Fusion                  ||  6   
 |-
-|  D-BUS                          
-|  3   
-| 
+|  D-BUS                          ||  3   
 |-
-|  DRM                            
-|  5   
-| 
+|  DRM                            ||  5   
 |-
-|  HAL                            
-|  7   
-| 
+|  HAL                            ||  7   
 |-
-|  Mesa3D                         
-|  16  
-| 
+|  Mesa3D                         ||  16  
 |-
-|  x86info                        
-|  1   
-| 
+|  x86info                        ||  1   
 |-
-|  xcb                            
-|  2   
-| 
+|  xcb                            ||  2   
 |-
-|  xorg                           
-|  59  
-| 
+|  xorg                           ||  59  
 |-
-|  x drivers                      
-|  3   
-| 
+|  x drivers                      ||  3   
 |-
-|  xf86-video-*                   
-|  6   
-| 
+|  xf86-video-*                   ||  6   
 |-
-|  xorg * drivers                 
-|  5   
-| 
+|  xorg * drivers                 ||  5   
 |-
-|  xserver                        
-|  7   
-| 
+|  xserver                        ||  7   
 |-
 | colspan="2" |
-| 
 |-
-|  freedesktop                    
-|  16  
-| 
+|  freedesktop                    ||  16  
 |-
 | colspan="2" |
-| 
 |-
-| colspan="2" #fffed | Other projects (only those with count >= 5) 
-| 
+| colspan="2" style="background-color: #ffffed;" | Other projects (only those with count >= 5) 
 |-
-|  ELinks                         
-|  5   
-| 
+|  ELinks                         ||  5   
 |-
-|  GNOME (git-svn)                
-|  8   
-| 
+|  GNOME (git-svn)                ||  8   
 |-
-|  LilyPond                     
-|  10  
-| 
+|  LilyPond                       ||  10  
 |-
-|  OLPC                           
-|  12  
-| 
+|  OLPC                           ||  12  
 |-
-|  Rubinius                       
-|  7   
-| 
+|  Rubinius                       ||  7   
 |-
-|  Thousand Parsec                
-|  6   
-| 
+|  Thousand Parsec                ||  6   
 |-
-|  U-Boot                         
-|  8   
-| 
+|  U-Boot                         ||  8   
 |-
-|  WINE                           
-|  29  
-| 
+|  WINE                           ||  29  
 |-
-|  XMMS2                          
-|  14  
-| 
-|-
-| #ccffff | Projects shown (around) 
-|  55  / 76  
-| 
-|-
-| #ccffff | Base                    
-|  560 / 683 
-| 
-|-
-| #ccffff | Total (sum)             
-|  1123      
-| 
+|  XMMS2                          ||  14  
+|- style="background-color: #ccffff;"
+|  Projects shown (around)        ||  55  / 76  
+|- style="background-color: #ccffff;"
+|  Base                           ||  560 / 683 
+|- style="background-color: #ccffff;"
+|  Total (sum)                    ||  1123      
 |}
-<!-- ## table end
- -->
+'''Footnotes:'''<BR>
+<references />
 
 Some people wrote URL of hosting site instead of (list of) project names; some wrote 'too many too list' (or equivalent).
 
@@ -2646,92 +1726,56 @@ I'm not sure if I caught all Linux kernel related projects, and all freedesktop 
 
 There are around 100 (?) different projects tracked mentioned in survey (not all of them ''choose'' git as their SCM; some have unofficial git repositories, some are accessed for example via git-svn).
 
+
 === 23. How many people do you collaborate with using GIT? ===
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Answer 
-|  Count 
-| 
+|- style="background-color: #ffffcc;"
+!  Answer                         !!  Count 
 |-
-|  0                              
-|  116 
-| 
+|  0                              ||  116 
 |-
-|  1                              
-|  50  
-| 
+|  1                              ||  50  
 |-
-|  2                              
-|  45  
-| 
+|  2                              ||  45  
 |-
-|  3                              
-|  48  
-| 
+|  3                              ||  48  
 |-
-|  4                              
-|  23  
-| 
+|  4                              ||  23  
 |-
-|  5                              
-|  41  
-| 
+|  5                              ||  41  
 |-
-|  6                              
-|  12  
-| 
+|  6                              ||  12  
 |-
-|  7                              
-|  5   
-| 
+|  7                              ||  5   
 |-
-|  8                              
-|  11  
-| 
+|  8                              ||  11  
 |-
-|  9-10                           
-|  47  
-| 
+|  9-10                           ||  47  
 |-
-|  11-15                          
-|  30  
-| 
+|  11-15                          ||  30  
 |-
-|  16-25                          
-|  26  
-| 
+|  16-25                          ||  26  
 |-
-|  26-50                          
-|  17  
-| 
+|  26-50                          ||  17  
 |-
-|  51-100                         
-|  17  
-| 
+|  51-100                         ||  17  
 |-
-|  100+                           
-|  8   
-| 
+|  100+                           ||  8   
 |-
-| colspan="2" |
-| 
+|colspan="2" |
 |-
 |  unknown number<ref>By unknown number I mean here answers like "git people", or "kernel community", or some text which did not contain a number (or a range).</ref> 
 |  79  
-| 
-|-
-| #ccffff | Base         
-|  575 / 683 
-| 
-|-
-| #ccffff | Total (sum)  
-|  575       
-| 
+|- style="background-color: #ccffff;"
+|  Base         ||  575 / 683 
+|- style="background-color: #ccffff;"
+|  Total (sum)  ||  575       
 |}
-<!-- ## end table
- -->
+'''Footnotes:'''
+<references />
+
+
 
 === 24. How big are the repositories that you work on? ===
 
@@ -2740,89 +1784,51 @@ There are around 100 (?) different projects tracked mentioned in survey (not all
 
 Some git repositories have more than 50k files, more than 150k commits, more than 100mb largest file (although not single repository has all those).
 
+
 === 25. How many different projects do you manage using GIT? ===
 
 This question was meant to survey number of repositories one fetches from time to time.
 
 This was a free-form question. For the table below only first number, or first range was taken.  For range ('$n-$m' or '$n to $m') the middle of range (($n+m)/2) was used.
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Answer (free form) 
-|  Count 
-| 
+|- style="background-color: #ffffcc;"
+!  Answer (free form)             !!  Count 
 |-
-|  0                              
-|  10  
-| 
+|  0                              ||  10  
 |-
-|  1                              
-|  108 
-| 
+|  1                              ||  108 
 |-
-|  2                              
-|  84  
-| 
+|  2                              ||  84  
 |-
-|  3                              
-|  90  
-| 
+|  3                              ||  90  
 |-
-|  4                              
-|  53  
-| 
+|  4                              ||  53  
 |-
-|  5                              
-|  51  
-| 
+|  5                              ||  51  
 |-
-|  6                              
-|  19  
-| 
+|  6                              ||  19  
 |-
-|  7                              
-|  11  
-| 
+|  7                              ||  11  
 |-
-|  8                              
-|  12  
-| 
+|  8                              ||  12  
 |-
-|  9-10                           
-|  39  
-| 
+|  9-10                           ||  39  
 |-
-|  11-15                          
-|  26  
-| 
+|  11-15                          ||  26  
 |-
-|  16-25                          
-|  22  
-| 
+|  16-25                          ||  22  
 |-
-|  26-50                          
-|  19  
-| 
+|  26-50                          ||  19  
 |-
-|  51-100                         
-|  5   
-| 
+|  51-100                         ||  5   
 |-
-|  101+                           
-|  4   
-| 
-|-
-| #ccffff | Base         
-|  577 / 683 
-| 
-|-
-| #ccffff | Total (sum)  
-|  553       
-| 
+|  101+                           ||  4   
+|- style="background-color: #ccffff;"
+|  Base         ||  577 / 683 
+|- style="background-color: #ccffff;"
+|  Total (sum)  ||  553       
 |}
-<!-- ## table end
- -->
 
 The largest number of projects was 200k (if it is not a mistake), next largest is 410.
 
@@ -2830,74 +1836,39 @@ As one can see we have here nice Poisson-like distribution: concentrated around 
 
 Note that answer of '0' might have been given as no answer, or equivalent of 'N/A'.
 
+
 === 26. Which porcelains do you use? ===
 
 Multiple answers (one can use more than one porcelain).
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Answer (multiple choice) 
-|  Count 
-|  Perc. 
-| 
+|- style="background-color: #ffffcc;"
+!  Answer (multiple choice)       !! Count !!  Perc. 
 |-
-|  core-git                       
-|  558 
-|  81.7% 
-| 
+|  core-git                       ||   558 ||  81.7% 
 |-
-|  Cogito (deprecated)            
-|  56  
-|   8.2% 
-| 
+|  Cogito (deprecated)            ||   56  ||   8.2% 
 |-
-| colspan="3" |
-| 
+|colspan="3" |
+|-  style="background-color: #ffffed;" 
+| Patch management interfaces:    ||   57  ||   8.3% 
 |-
-| #ffffed | Patch management interfaces: 
-|  57  
-|   8.3% 
-| 
+|  StGIT                          ||   41  ||   6.0% 
 |-
-|  StGIT                        
-|  41  
-|   6.0% 
-| 
+|  Guilt (formerly gq)            ||   13  ||   1.9% 
 |-
-|  Guilt (formerly gq)            
-|  13  
-|   1.9% 
-| 
+|  pg (deprecated)                ||   3   ||   0.4% 
 |-
-|  pg (deprecated)                
-|  3   
-|   0.4% 
-| 
+|colspan="3" |
 |-
-| colspan="3" |
-| 
+|  own scripts                    ||   95  ||  13.9% 
 |-
-|  own scripts                    
-|  95  
-|  13.9% 
-| 
-|-
-|  other                          
-|  14  
-|   2.0% 
-| 
-|-
-| #ccffff | Base         
-|colspan="2" | 593 / 683 
-| 
-|-
-| #ccffff | Total (sum)  
-|colspan="2" | 780       
-| 
+|  other                          ||   14  ||   2.0% 
+|- style="background-color: #ccffff;"
+|  Base             || colspan="2" | 593 / 683 
+|- style="background-color: #ccffff;"
+|  Total (sum)      || colspan="2" | 780       
 |}
-<!-- ## table end
- -->
 
 Those 14 "other" answers make me wish to have provided "if other, what it was?" (sub)question; actually not only for this question.
 
@@ -2909,101 +1880,49 @@ Large number of users use their own scripts, more than any non-standard porcelai
 
 14 users choose other... and there is no "what other" question, unfortunately... From the comments on git mailing list some people answered "other" because they consider git-gui (which is not present in above table) as porcelain rather than just git GUI.
 
+
 === 27. Which git GUI do you use? ===
 
 Multiple answers (one can use more than one GUI).  Note that for the first week and a bit of survey "CLI" answer had no explanation that it means command line interface, so results might be bit skewed.
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Answer (multiple choice) 
-|  Count 
-|  Perc. 
-| 
+|- style="background-color: #ffffcc;"
+!  Answer (multiple choice)       !!  Count !!  Perc. 
 |-
-|  CLI (command line)             
-|  398 
-|  58.3% 
-| 
+|  CLI (command line)             ||  398 ||  58.3% 
 |-
-|  gitk                           
-|  347 
-|  50.8% 
-| 
+|  gitk                           ||  347 ||  50.8% 
 |-
-|  git-gui                        
-|  123 
-|  18.0% 
-| 
+|  git-gui                        ||  123 ||  18.0% 
 |-
-|  qgit                           
-|  82  
-|  12.0% 
-| 
+|  qgit                           ||  82  ||  12.0% 
 |-
-|  gitview                        
-|  15  
-|   2.2% 
-| 
+|  gitview                        ||  15  ||   2.2% 
 |-
-|  giggle                         
-|  48  
-|   7.0% 
-| 
+|  giggle                         ||  48  ||   7.0% 
 |-
-|  tig                            
-|  41  
-|   6.0% 
-| 
+|  tig                            ||  41  ||   6.0% 
 |-
-|  instaweb                       
-|  16  
-|   2.3% 
-| 
+|  instaweb                       ||  16  ||   2.3% 
 |-
-|  (h)gct                         
-|  3   
-|   0.4% 
-| 
+|  (h)gct                         ||  3   ||   0.4% 
 |-
-|  qct                            
-|  3   
-|   0.4% 
-| 
+|  qct                            ||  3   ||   0.4% 
 |-
-|  KGit                           
-|  6   
-|   0.9% 
-| 
+|  KGit                           ||  6   ||   0.9% 
 |-
-|  git.el                         
-|  31  
-|   4.5% 
-| 
+|  git.el                         ||  31  ||   4.5% 
 |-
-|  ''other''                      
-|  15  
-|   2.2% 
-| 
+|  ''other''                      ||  15  ||   2.2% 
 |-
 | colspan="3" |
-| 
 |-
-|  giggle + gitview               
-|  63  
-|   9.2% 
-| 
-|-
-| #ccffff | Base         
-|colspan="2" | 572 / 683 
-| 
-|-
-| #ccffff | Total (sum)  
-|colspan="2" | 1128      
-| 
+|  giggle + gitview               ||  63  ||   9.2% 
+|- style="background-color: #ccffff;"
+|  Base             || colspan="2" |  572 / 683 
+|- style="background-color: #ccffff;"
+|  Total (sum)      || colspan="2" |    1128      
 |}
-<!-- ## table end
- -->
 
 As one can see almost as many people use gitk as CLI.  Most used GUI are [http://www.kernel.org/pub/software/scm/git/docs/gitk.html gitk] and [http://www.kernel.org/pub/software/scm/git/docs/git-gui.html git-gui], most probably because they are distributed with Git, and because they are portable.  [http://digilander.libero.it/mcostalba/ QGit] is also quite popular, although GTK+ viewers, namely [http://developer.imendio.com/projects/giggle/ Giggle] and [[GitView]], taken together are also very popular (note that there might be instances of users using both Giggle and GitView).  I am a bit surprised about popularity of Giggle, I'd say.
 
@@ -3011,53 +1930,29 @@ As one can see almost as many people use gitk as CLI.  Most used GUI are [http:/
 
 I wonder what are those 15 other GUI. Why oh why there were no "What is this 'other GUI'?" question...
 
+
 === 28. Which (main) git web interface do you use for your projects? ===
 
 Note that this question was single answer.  It is possible to serve the same set of repositories using two git web interfaces, for example freedesktop uses both [http://gitweb.freedesktop.org/ gitweb] and [http://cgit.freedesktop.org/ cgit] interfaces.
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Answer 
-|  Count 
-|  Perc. 
-| 
+|- style="background-color: #ffffcc;"
+!  Answer                         !!  Count !!  Perc. 
 |-
-|  gitweb                         
-|    382 
-|  55.9% 
-| 
+|  gitweb                         ||    382 ||  55.9% 
 |-
-|  cgit                           
-|      7 
-|   1.0% 
-| 
+|  cgit                           ||      7 ||   1.0% 
 |-
-|  wit (Ruby)                     
-|      5 
-|   0.7% 
-| 
+|  wit (Ruby)                     ||      5 ||   0.7% 
 |-
-|  git-php                        
-|      1 
-|   0.1% 
-| 
+|  git-php                        ||      1 ||   0.1% 
 |-
-|  ''other''                      
-|     27 
-|   4.0% 
-| 
-|-
-| #ccffff | Base         
-|colspan="2" |   422 / 683   
-| 
-|-
-| #ccffff | Total (sum)  
-|colspan="2" |   422         
-| 
+|  ''other''                      ||     27 ||   4.0% 
+|- style="background-color: #ccffff;"
+|  Base             || colspan="2" |   422 / 683   
+|- style="background-color: #ccffff;"
+|  Total (sum)      || colspan="2" |   422         
 |}
-<!-- ## table end
- -->
 
 Around two third (closer to 4/7) of git users use some kind of web interface for their projects.
 
@@ -3065,58 +1960,35 @@ Most use gitweb (which is distributed with git), 7 use cgit, 5 wit (Ruby), most 
 
 Some answered "other" as "N/A" (meaning they do not use web interface) instead, what it is not obvious, not answering this question.  The explanation that this is possible was added later during duration of survey.
 
+
 === 29. How do you publish/propagate your changes? ===
 
 Multiple choices, as one can use different methods for different projects, for example pushing to public repo for a project maintained, and sending patches via email to participate in third person project development.
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Answer                         
-|  Count 
-|  Perc. 
-| 
+|- style="background-color: #ffffcc;"
+!  Answer                         !!  Count !!  Perc. 
 |-
-|  push                           
-|    456 
-|  66.8% 
-| 
+|  push                           ||    456 ||  66.8% 
 |-
-|  pull                           
-|    220 
-|  32.2% 
-| 
+|  pull                           ||    220 ||  32.2% 
 |-
-|  format-patch + email           
-|    172 
-|  25.2% 
-| 
+|  format-patch + email           ||    172 ||  25.2% 
 |-
-|  pull request                   
-|     65 
-|   9.5% 
-| 
+|  pull request                   ||     65 ||   9.5% 
 |-
-|  bundle                         
-|     13 
-|   1.9% 
-| 
+|  bundle                         ||     13 ||   1.9% 
 |-
-|  ''other''                      
-|     70 
-|  10.2% 
-| 
+|colspan="3" |
 |-
-| #ccffff | Base                           
+|  ''other''                      ||     70 ||  10.2% 
+|- style="background-color: #ccffff;"
+|  Base                           
 |colspan="2" |   584 / 683   
-| 
-|-
-| #ccffff | Total (sum)                    
+|- style="background-color: #ccffff;"
+|  Total (sum)                    
 |colspan="2" |   996         
-| 
 |}
-<!-- ## table end
- -->
 
 Here "other" means just not listed workflow, although it would be also interesting to know details.
 
@@ -3126,78 +1998,48 @@ Pull was supposed to mean logging to public server and pulling changes from priv
 
 Sending patches via email is two to three times as popular as sending pull request.
 
+
 === 30. Does git.git repository include code produced by you? ===
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Answer 
-|  Count 
-|  Perc. 
-| 
+|- style="background-color: #ffffcc;"
+!  Answer                         !!  Count !!  Perc. 
 |-
-|  Yes                            
-|     99 
-|  14.5% 
-| 
+|  Yes                            ||     99 ||  14.5% 
 |-
-|  No                             
-|    512 
-|  75.0% 
-| 
-|-
-| #ccffff | Base         
-|colspan="2" |   611 / 683   
-| 
-|-
-| #ccffff | Total (sum)  
-|colspan="2" |   611         
-| 
+|  No                             ||    512 ||  75.0% 
+|- style="background-color: #ccffff;"
+|  Base             || colspan="2" |   611 / 683   
+|- style="background-color: #ccffff;"
+|  Total (sum)      || colspan="2" |   611         
 |}
-<!-- ## table end
- -->
 
 As it can be seen, only (or perhaps it is that many?) around a 6th to 7th of git users participate in its development by providing code. 
+
 
 == Internationalization ==
 
 === 31. Is translating GIT required for wider adoption? ===
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Answer 
-|  Count 
-|  Perc. 
-| 
+|- style="background-color: #ffffcc;"
+!  Answer                         !!  Count !!  Perc. 
 |-
-|  Yes                            
-|     49 
-|   7.2% 
-| 
+|  Yes                            ||     49 ||   7.2% 
 |-
-|  No                             
-|    383 
-|  56.1% 
-| 
+|  No                             ||    383 ||  56.1% 
 |-
-|  Somewhat                       
-|    158 
-|  23.1% 
-| 
-|-
-| #ccffff | Base         
+|  Somewhat                       ||    158 ||  23.1% 
+|- style="background-color: #ccffff;"
+|  Base         
 |colspan="2" |   590 / 683   
-| 
-|-
-| #ccffff | Total (sum)  
+|- style="background-color: #ccffff;"
+|  Total (sum)  
 |colspan="2" |   590         
-| 
 |}
-<!-- ## table end
- -->
 
 More than half of responders doesn't think that translating GIT is required for wider adoption.
+
 
 === 32. What do you need translated? ===
 
@@ -3208,107 +2050,66 @@ Summary of responses:
 * user's manual, tutorials, intro, howtos
 * website / homepage
 
-<!-- ## table begin
- -->
+<BR>
+
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Answer 
-|  Count 
-| 
+|- style="background-color: #ffffcc;"
+!  Answer                        !!  Count 
 |-
-| colspan="2" |
-| 
+|colspan="2" |
+|- style="background-color: #ffffed;" 
+| Documentation                  ||  60 
 |-
-| #ffffed | Documentation  
-|  60 
-| 
+| - man pages                    ||  22 
 |-
-| - man pages                    
-|  22 
-| 
+| - tutorials                    ||  14 
 |-
-| - tutorials                    
-|  14 
-| 
+| - user's manual                ||  7  
 |-
-| - user's manual                
-|  7  
-| 
+| - howto                        ||  2  
 |-
-| - howto                        
-|  2  
-| 
+| - introductory docs            ||  2  
 |-
-| - introductory docs            
-|  2  
-| 
+| - online help                  ||  1  
 |-
-| - online help                  
-|  1  
-| 
-|-
-| colspan="2" |
-| 
-|-
-| #ffffed | User interface 
-|  26 
-| 
+|colspan="2" |
+|-  style="background-color: #ffffed;"
+| User interface                 ||  26 
 |-
 | - help<ref>By 'help' I mean here output of "git <cmd> --help" and/or "git <cmd> --usage", but it is not necessarily what user who wrote the answer meant.  This means that this reply might be miscalculated.</ref> 
 |  9  
-| 
 |-
-| - command output               
-|  7  
-| 
+| - command output               ||  7  
 |-
-| - error messages               
-|  5  
-| 
+| - error messages               ||  5  
 |-
-| colspan="2" |
-| 
+|colspan="2" |
+|- style="background-color: #ffffed;"
+|  GUI                           ||  13 
 |-
-| #ffffed |  GUI           
-|  13 
-| 
+| - git-gui                      ||  6  
 |-
-| - git-gui                      
-|  6  
-| 
+| - gitk                         ||  2  
 |-
-| - gitk                         
-|  2  
-| 
+| - KGit                         ||  1  
 |-
-| - KGit                         
-|  1  
-| 
+|colspan="2" |
 |-
-| colspan="2" |
-| 
+|   Homepage                     ||  1  
 |-
-|   Homepage             
-|  1  
-| 
-|-
-|  Nothing                       
-|  75 
-| 
-|-
-| #ccffff | Base         
-|  172 / 683 
-| 
-|-
-| #ccffff | Total (sum)  
-|  253       
-| 
+|  Nothing                       ||  75 
+|- style="background-color: #ccffff;"
+|  Base                          ||  172 / 683 
+|- style="background-color: #ccffff;"
+|  Total (sum)                   ||  253       
 |}
-<!-- ## table end
- -->
+'''Footnotes:'''
+<references />
 
 Answer in subcategory is also counted as answer in category; answers for each of categories or subcategories are counted once.  It means that if one answered that he/she wants to have both man pages and user's manual translated it count as "Documentation" category only once.  Note that there were answers of for example 'documentation' without specifying details (answer in subcategory).
 
 This free-form question is tabulated (divided into categories) as multiple-choice answer; one can want to have both documentation and user interface translated.
+
 
 === 33. For what language do you need translation for? ===
 
@@ -3316,271 +2117,152 @@ In alphabetic order, free-form question, treated as multiple choice.
 
 Languages for which [http://repo.or.cz/w/git-gui/git-gui-i18n.git git-gui translation] exists are marked in ''italic'' (state for 12.11.2007).
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Answer 
-|  Count 
-| 
+|- style="background-color: #ffffcc;"
+!  Answer                         !!  Count 
 |-
-|  Afrikaans                      
-|  1  
-| 
+|  Afrikaans                      ||  1  
 |-
-|  Belorussian                    
-|  1  
-| 
+|  Belorussian                    ||  1  
 |-
-|  ''Chinese''                    
-|  5  
-| 
+|  ''Chinese''                    ||  5  
 |-
-|  Dutch                          
-|  2  
-| 
+|  Dutch                          ||  2  
 |-
-|  ''English''<ref>Git messages and documentation _is_ in English</ref> 
+|  ''English''<ref>Git messages and documentation '''is''' in English</ref> 
 |  3  
-| 
 |-
-|  Filipino                       
-|  1  
-| 
+|  Filipino                       ||  1  
 |-
-|  Finnish                        
-|  3  
-| 
+|  Finnish                        ||  3  
 |-
-|  French                         
-|  21 
-| 
+|  French                         ||  21 
 |-
-|  ''German''                     
-|  17 
-| 
+|  ''German''                     ||  17 
 |-
-|  Greek                          
-|  1  
-| 
+|  Greek                          ||  1  
 |-
-|  Hebrew                         
-|  1  
-| 
+|  Hebrew                         ||  1  
 |-
-|  Hindi                          
-|  1  
-| 
+|  Hindi                          ||  1  
 |-
-|  ''Hungarian''                  
-|  1  
-| 
+|  ''Hungarian''                  ||  1  
 |-
-|  ''Italian''                    
-|  4  
-| 
+|  ''Italian''                    ||  4  
 |-
-|  ''Japanese''                   
-|  5  
-| 
+|  ''Japanese''                   ||  5  
 |-
-|  Mandarin                       
-|  1  
-| 
+|  Mandarin                       ||  1  
 |-
-|  Norwegian                      
-|  2  
-| 
+|  Norwegian                      ||  2  
 |-
-|  Polish                         
-|  2  
-| 
+|  Polish                         ||  2  
 |-
-|  Portuguese                     
-|  6  
-| 
+|  Portuguese                     ||  6  
 |-
-|  ''Russian''                    
-|  6  
-| 
+|  ''Russian''                    ||  6  
 |-
-|  Serbian                        
-|  2  
-| 
+|  Serbian                        ||  2  
 |-
-|  Slovenian                      
-|  1  
-| 
+|  Slovenian                      ||  1  
 |-
-|  Spanish                        
-|  9  
-| 
+|  Spanish                        ||  9  
 |-
-|  ''Swedish''                    
-|  2  
-| 
+|  ''Swedish''                    ||  2  
 |-
-|  Tagalog                        
-|  1  
-| 
+|  Tagalog                        ||  1  
 |-
-|  Ukrainian                      
-|  1  
-| 
-|-
-| #ccffff | Base 
-|  143 / 683 
-| 
-|-
-| #ccffff | Total (sum)<ref>Some answers were: "do not translate".</ref> 
+|  Ukrainian                      ||  1  
+|- style="background-color: #ccffff;"
+|  Base                           ||  143 / 683 
+|- style="background-color: #ccffff;"
+|  Total (sum)<ref>Some answers were: "do not translate".</ref> 
 |  100      
-| 
 |}
-<!-- ## table end
- -->
+'''Footnotes:'''
+<references />
 
 German and French are most popular. Spanish, Portuguese, Russian, Chinese + Mandarin and Japanese have count 5 or more.
 
-The table below show status of git-gui i18n project, as of 12-11-2007. <u>t</u> is for ''t''ranslated, <u>f</u> is for ''f''uzzy, <u>u</u> is for ''u''ntranslated, and <u>o</u> for ''o''bsolete.  Currently there are glossaries only for German (de) and Simplified Chinese (zh_cn) - 34 entries.
+The table below show status of git-gui i18n project, as of 12-11-2007. <u>t</u> is for '''t'''ranslated, <u>f</u> is for '''f'''uzzy, <u>u</u> is for '''u'''ntranslated, and <u>o</u> for '''o'''bsolete.  Currently there are glossaries only for German (de) and Simplified Chinese (zh_cn) - 34 entries.
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Language 
-|  Status 
-| 
+|- style="background-color: #ffffcc;"
+!  Language        !!  Status 
 |-
-|  German (de)     
-|  268t           
-| 
+|  German (de)     ||  268t           
 |-
-|  Hungarian (hu)  
-|  268t+6o        
-| 
+|  Hungarian (hu)  ||  268t+6o        
 |-
-|  Italian (it)    
-|  268t           
-| 
+|  Italian (it)    ||  268t           
 |-
-|  Japanese (ja)   
-|  267t+1f        
-| 
+|  Japanese (ja)   ||  267t+1f        
 |-
-|  Russian (ru)    
-|  245t+20f+3u+5o 
-| 
+|  Russian (ru)    ||  245t+20f+3u+5o 
 |-
-|  Swedish (sv)    
-|  268t           
-| 
+|  Swedish (sv)    ||  268t           
 |-
-|  Chinese (zh_cn) 
-|  59t+38f+168u   
-| 
-|-
-| #ccffff | git-gui.pot     
-|  268            
-| 
+|  Chinese (zh_cn) ||  59t+38f+168u   
+|- style="background-color: #ccffff;"
+|  git-gui.pot     ||  268            
 |}
-<!-- ## table end
- -->
+
 
 == What you think of GIT ==
 
 === 34. Overall, how happy are you with GIT? ===
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Answer                         
-|  Count 
-|  Perc. 
-| 
+|- style="background-color: #ffffcc;"
+!  Answer                         !!  Count !!  Perc. 
 |-
-|  unhappy                        
-|     13 
-|   1.9% 
-| 
+|  unhappy                        ||     13 ||   1.9% 
 |-
-|  not so happy                   
-|     36 
-|   5.3% 
-| 
+|  not so happy                   ||     36 ||   5.3% 
 |-
-|  happy                          
-|    179 
-|  26.2% 
-| 
+|  happy                          ||    179 ||  26.2% 
 |-
-|  very happy                     
-|    302 
-|  44.2% 
-| 
+|  very happy                     ||    302 ||  44.2% 
 |-
-|  completely ecstatic            
-|    112 
-|  16.4% 
-| 
-|-
-| #ccffff | Base                           
+|  completely ecstatic            ||    112 ||  16.4% 
+|- style="background-color: #ccffff;"
+|  Base                           
 |colspan="2" |   642 / 683   
-| 
-|-
-| #ccffff | Total (sum)                    
+|- style="background-color: #ccffff;"
+|  Total (sum)                    
 |colspan="2" |   642         
-| 
 |}
-<!-- ## table end
- -->
 
 Nice, git users are mostly very happy with git :-).  13 grumpy users, hmmm...
 
+
 === 35. How does GIT compare to other SCM tools you have used? ===
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Answer                         
-|  Count 
-|  Perc. 
-| 
+|- style="background-color: #ffffcc;"
+!  Answer                         !!  Count !!  Perc. 
 |-
-|  Better                         
-|    505 
-|  73.9% 
-| 
+|  Better                         ||    505 ||  73.9% 
 |-
-|  Equal (comparable)             
-|     96 
-|  14.1% 
-| 
+|  Equal (comparable)             ||     96 ||  14.1% 
 |-
-|  Worse                          
-|     30 
-|   4.4% 
-| 
+|  Worse                          ||     30 ||   4.4% 
 |-
-| colspan="3" |
-| 
+|colspan="3" |
 |-
-|  N/A                            
-|     52 
-|   7.6% 
-| 
-|-
-| #ccffff | Base         
+|  N/A                            ||     52 ||   7.6% 
+|- style="background-color: #ccffff;"
+|  Base         
 |colspan="2" |   631 / 683   
-| 
-|-
-| #ccffff | Total (sum)  
+|- style="background-color: #ccffff;"
+|  Total (sum)  
 |colspan="2" |   631         
-| 
 |}
-<!-- ## table end
- -->
 
 Clearly Git is superior SCM! (In the minds of Git users at least) ;-)  Seriously, one should take into consideration that those results are biased, because it is ''Git User's'' Survey, and people usually choose SCM because they think it is best choice.
 
 No answer (null answer) might mean that responder does not use and did not use other SCMs to compare, or at least think that he/she does not have sufficient basis for a comparison.
+
 
 === 36. What do you like about using GIT? ===
 
@@ -3601,6 +2283,7 @@ No full analysis yet, and no count of answers, but it seems that the following a
 * easy merging, includes renames detection
 * push/pull via ssh, pull via plain http -- no server needed
 * easy to install: few dependencies, portable, lightweight
+
 
 === 37. What would you most like to see improved about GIT? ===
 
@@ -3662,6 +2345,7 @@ List of features and improvements mentioned:
 ** checkout/merge/diff/hunk header handlers in distribution for ChangeLog, XML, odf, jar and xul, po files
 
 This is only (large) excerpt, not full list of all requested features.  As one can see tabulating (dividing into categories) this data will be not an easy task.
+
 
 === 38. What is needed for wider GIT adoption? ===
 
@@ -3765,40 +2449,27 @@ One of the more striking (and funny):
 * Big fat posters world-wide with Catherine Zeta-Jones stating how happy she is since she switched to git ;-)<BR> She can actually write C-code.
 * Offer Git stickers to put on laptops and such
 
+
 == Changes in GIT ==
 
 (Since year ago, or since you started using it).
 
 === 39. Did you participate in previous Git User's Survey? ===
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Answer                         
-|  Count 
-|  Perc. 
-| 
+|- style="background-color: #ffffcc;"
+!  Answer                         !!  Count !!  Perc. 
 |-
-|  Yes                            
-|     51 
-|   7.5% 
-| 
+|  Yes                            ||     51 ||   7.5% 
 |-
-|  No                             
-|    583 
-|  85.4% 
-| 
-|-
-| #ccffff | Base                           
+|  No                             ||    583 ||  85.4% 
+|- style="background-color: #ccffff;"
+|  Base                           
 |colspan="2" |   634 / 683   
-| 
-|-
-| #ccffff | Total (sum)                    
+|- style="background-color: #ccffff;"
+|  Total (sum)                    
 |colspan="2" |   634         
-| 
 |}
-<!-- ## table end
- -->
 
 51 people did out of 634 who answered this question, out of 115 (?) who did participate in the previous survey. Around half. Bit curious.
 
@@ -3816,39 +2487,22 @@ One of the more striking (and funny):
 
 Should be: from year ago, or since you started using Git.  No responses (303 / 683) might be caused by the fact that one do not use git for a year, so he/she doesn't know what git looked like year ago.
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Answer                         
-|  Count 
-|  Perc. 
-| 
+|- style="background-color: #ffffcc;"
+!  Answer                         !!  Count !!  Perc. 
 |-
-|  Better                         
-|    319 
-|  46.7% 
-| 
+|  Better                         ||    319 ||  46.7% 
 |-
-|  No changes                     
-|     60 
-|   8.8% 
-| 
+|  No changes                     ||     60 ||   8.8% 
 |-
-|  Worse                          
-|      1 
-|   0.1% 
-| 
-|-
-| #ccffff | Base                           
+|  Worse                          ||      1 ||   0.1% 
+|- style="background-color: #ccffff;"
+|  Base                           
 |colspan="2" |   380 / 683   
-| 
-|-
-| #ccffff | Total (sum)                    
+|- style="background-color: #ccffff;"
+|  Total (sum)                    
 |colspan="2" |   380         
-| 
 |}
-<!-- ## table end
- -->
 
 Most think that git has improved. Single malcontent: only one user thinks that Git is worse than year ago; I wonder why...
 
@@ -3856,350 +2510,181 @@ Most think that git has improved. Single malcontent: only one user thinks that G
 
 Multiple choice; the list does not include all new features.  Some new features are not visible at first glance, and one uses them without conscious choice.
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Answer                         
-|  Count 
-|  Perc. 
-| 
+|- style="background-color: #ffffcc;"
+! Answer                          !!  Count !!  Perc. 
 |-
-|  git-gui                        
-|    103 
-|  15.1% 
-| 
+|  git-gui                        ||    103 ||  15.1% 
 |-
-|  blame improvements             
-|     74 
-|  10.8% 
-| 
+|  blame improvements             ||     74 ||  10.8% 
 |-
-|  detached HEAD                  
-|     71 
-|  10.4% 
-| 
+|  detached HEAD                  ||     71 ||  10.4% 
 |-
-|  stash                          
-|     68 
-|  10.0% 
-| 
+|  stash                          ||     68 ||  10.0% 
 |-
-|  mergetool                      
-|     67 
-|   9.8% 
-| 
+|  mergetool                      ||     67 ||   9.8% 
 |-
-|  interactive rebase             
-|     66 
-|   9.7% 
-| 
+|  interactive rebase             ||     66 ||   9.7% 
 |-
-|  reflog                         
-|     54 
-|   7.9% 
-| 
+|  reflog                         ||     54 ||   7.9% 
 |-
-|  submodules                     
-|     52 
-|   7.6% 
-| 
+|  submodules                     ||     52 ||   7.6% 
 |-
-|  shallow clone                  
-|     31 
-|   4.5% 
-| 
+|  shallow clone                  ||     31 ||   4.5% 
 |-
-|  commit template                
-|     24 
-|   3.5% 
-| 
+|  commit template                ||     24 ||   3.5% 
 |-
-|  eol conversion                 
-|     22 
-|   3.2% 
-| 
+|  eol conversion                 ||     22 ||   3.2% 
 |-
-|  gitattributes                  
-|     21 
-|   3.1% 
-| 
+|  gitattributes                  ||     21 ||   3.1% 
 |-
-|  bundle                         
-|     17 
-|   2.5% 
-| 
+|  bundle                         ||     17 ||   2.5% 
 |-
-|  worktree                       
-|     17 
-|   2.5% 
-| 
-|-
-| #ccffff | Base                           
+|  worktree                       ||     17 ||   2.5% 
+|- style="background-color: #ccffff;"
+|  Base                           
 |colspan="2" |   255 / 683   
-| 
-|-
-| #ccffff | Total (sum)                    
+|- style="background-color: #ccffff;"
+|  Total (sum)                    
 |colspan="2" |   687         
-| 
 |}
-<!-- ## table end
- -->
 
 This table is sorted by count.
 
 [http://www.kernel.org/pub/software/scm/git/docs/glossary.html#def_detached_HEAD Detached HEAD] support and [http://www.kernel.org/pub/software/scm/git/docs/git-stash.html stash] command were long requested; no wonder they are popular.
 
+
 == Documentation ==
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Usefulness of 
-|  Yes 
-|  Some 
-|  No  
-|  ''Base'' 
-| 
+|+ style="font-size: small;" | Summary of "Do you find X useful?" questions
+|- style="background-color: #ffffcc;"
+!  Usefulness of    !!  Yes !!  Some !!  No  !!  ''Base'' 
 |-
-|  GIT wiki         
-|  191 
-|   69  
-|  198 
-|  ''458'' 
-| 
+|  GIT wiki         ||  191 ||   69  ||  198 ||  ''458'' 
 |-
-|  on line help     
-|  377 
-|  172  
-|   28 
-|  ''577'' 
-| 
+|  on line help     ||  377 ||  172  ||   28 ||  ''577'' 
 |-
-|  distributed help  
-|  425 
-|  154  
-|   22 
-|  ''601'' 
-| 
-|-
-|  colspan="4" #ccffff | individual responses 
-|  ''683'' 
-| 
+|  distributed help ||  425 ||  154  ||   22 ||  ''601'' 
+|- style="background-color: #ccffff;"
+|  colspan="4" | individual responses        ||  ''683'' 
 |}
-<!-- ## table end
- -->
 
 === 44. Do you use the GIT wiki? ===
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Answer                         
-|  Count 
-|  Perc. 
-| 
+|- style="background-color: #ffffcc;"
+! Answer                          !!  Count !!  Perc. 
 |-
-|  Yes                            
-|    316 
-|  46.3% 
-| 
+|  Yes                            ||    316 ||  46.3% 
 |-
-|  No                             
-|    300 
-|  43.9% 
-| 
-|-
-| #ccffff | Base                           
+|  No                             ||    300 ||  43.9% 
+|- style="background-color: #ccffff;"
+|  Base                           
 |colspan="2" |   616 / 683   
-| 
-|-
-| #ccffff | Total (sum)                    
+|- style="background-color: #ccffff;"
+|  Total (sum)                    
 |colspan="2" |   616         
-| 
 |}
-<!-- ## table end
- -->
 
 === 45. Do you find GIT wiki useful? ===
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Answer                         
-|  Count 
-|  Perc. 
-| 
+|- style="background-color: #ffffcc;"
+!  Answer                         !!  Count !!  Perc. 
 |-
-|  Yes                            
-|    191 
-|  28.0% 
-| 
+|  Yes                            ||    191 ||  28.0% 
 |-
-|  No                             
-|     69 
-|  10.1% 
-| 
+|  No                             ||     69 ||  10.1% 
 |-
-|  Somewhat                       
-|    198 
-|  29.0% 
-| 
-|-
-| #ccffff | Base                           
+|  Somewhat                       ||    198 ||  29.0% 
+|- style="background-color: #ccffff;"
+|  Base                           
 |colspan="2" |   458 / 683   
-| 
-|-
-| #ccffff | Total (sum)                    
+|- style="background-color: #ccffff;"
+|  Total (sum)                    
 |colspan="2" |   458         
-| 
 |}
-<!-- ## table end
- -->
 
 === 46. Do you contribute to GIT wiki? ===
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Answer                         
-|  Count 
-|  Perc. 
-| 
+|- style="background-color: #ffffcc;"
+!  Answer                         !!  Count !!  Perc. 
 |-
-|  Yes                            
-|     17 
-|   2.5% 
-| 
+|  Yes                            ||     17 ||   2.5% 
 |-
-|  No                             
-|    460 
-|  67.3% 
-| 
+|  No                             ||    460 ||  67.3% 
 |-
-|  Corrections and removing spam  
-|     45 
-|   6.6% 
-| 
-|-
-| #ccffff | Base                           
+|  Corrections and removing spam  ||     45 ||   6.6% 
+|- style="background-color: #ccffff;"
+|  Base                           
 |colspan="2" |   522 / 683   
-| 
-|-
-| #ccffff | Total (sum)                    
+|- style="background-color: #ccffff;"
+|  Total (sum)                    
 |colspan="2" |   522         
-| 
 |}
-<!-- ## table end
- -->
 
 === 47. Do you find GIT on-line help (homepage, documentation) useful? ===
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Answer                         
-|  Count 
-|  Perc. 
-| 
+|- style="background-color: #ffffcc;"
+!  Answer                         !!  Count !!  Perc. 
 |-
-|  Yes                            
-|    377 
-|  55.2% 
-| 
+|  Yes                            ||    377 ||  55.2% 
 |-
-|  No                             
-|     28 
-|   4.1% 
-| 
+|  No                             ||     28 ||   4.1% 
 |-
-|  Somewhat                       
-|    172 
-|  25.2% 
-| 
-|-
-| #ccffff | Base                           
+|  Somewhat                       ||    172 ||  25.2% 
+|- style="background-color: #ccffff;"
+|  Base                           
 |colspan="2" |   577 / 683   
-| 
-|-
-| #ccffff | Total (sum)                    
+|- style="background-color: #ccffff;"
+|  Total (sum)                    
 |colspan="2" |   577         
-| 
 |}
-<!-- ## table end
- -->
 
 === 48. Do you find help distributed with GIT useful? ===
 
 ''Do you find help distributed with GIT useful (manpages, manual, tutorial, HOWTO, release notes)?''
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Answer                         
-|  Count 
-|  Perc. 
-| 
+|- style="background-color: #ffffcc;"
+!  Answer                         !!  Count !!  Perc. 
 |-
-|  Yes                            
-|    425 
-|  62.2% 
-| 
+|  Yes                            ||    425 ||  62.2% 
 |-
-|  No                             
-|     22 
-|   3.2% 
-| 
+|  No                             ||     22 ||   3.2% 
 |-
-|  Somewhat                       
-|    154 
-|  22.5% 
-| 
-|-
-| #ccffff | Base                           
+|  Somewhat                       ||    154 ||  22.5% 
+|- style="background-color: #ccffff;"
+|  Base                           
 |colspan="2" |   601 / 683   
-| 
-|-
-| #ccffff | Total (sum)                    
+|- style="background-color: #ccffff;"
+|  Total (sum)                    
 |colspan="2" |   601         
-| 
 |}
-<!-- ## table end
- -->
 
 === 49. Did/Do you contribute to GIT documentation? ===
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Answer                         
-|  Count 
-|  Perc. 
-| 
+|- style="background-color: #ffffcc;"
+!  Answer                         !!  Count !!  Perc. 
 |-
-|  Yes                            
-|     43 
-|   6.3% 
-| 
+|  Yes                            ||     43 ||   6.3% 
 |-
-|  No                             
-|    551 
-|  80.7% 
-| 
-|-
-| #ccffff | Base                           
+|  No                             ||    551 ||  80.7% 
+|- style="background-color: #ccffff;"
+|  Base                           
 |colspan="2" |   594 / 683   
-| 
-|-
-| #ccffff | Total (sum)                    
+|- style="background-color: #ccffff;"
+|  Total (sum)                    
 |colspan="2" |   594         
-| 
 |}
-<!-- ## table end
- -->
 
 === 50. What could be improved on the GIT homepage? ===
 
-GIT homepage is on http://git.or.cz
+GIT homepage was, at the time of this survey, at http://git.or.cz
 
 ''171 / 683 non-empty responses''
 
@@ -4387,7 +2872,7 @@ Information, new links, new features:
 
 * Provide [http://repo.or.cz/w/git.git?a=blob_plain;f=MaintNotes;hb=todo 'A note from the maintainer'] as a prominent link probably named as 'How the git project is managed and how to participate'
 
-: ''(That is a good idea I think, better than having it on [[Notes|GitWiki]].  We can put direct link to [http://repo.or.cz/w/git.git?a=blob_plain;f=Documentation/SubmittingPatches [[SubmittingPatches]]] nearby.)''
+: ''(That is a good idea I think, better than having it on [[Notes|GitWiki]].  We can put direct link to [http://repo.or.cz/w/git.git?a=blob_plain;f=Documentation/SubmittingPatches SubmittingPatches] nearby.)''
 
 * I wish for Git Traffic: digest of git mailing list discussions. Some type of recent news collected from the mailing list 'what's new in the latest release' or coming-soon previews would be nice.
 
@@ -4399,13 +2884,14 @@ Information, new links, new features:
 
 : ''ONGOING.'' Lately tig (text interface for git) was added to tools section of git homepage
 
+
 === 51. What topics would you like to have on GIT wiki? ===
 
-GIT wiki is on http://git.or.cz/gitwiki
+GIT wiki was, at the time of this survey, at http://git.or.cz/gitwiki
 
 ''134 / 683 non-empty responses''
 
-''See also:'' <<[[WantedPages]]>>
+''See also:'' [[Special:WantedPages|Wanted pages]]
 
 Note that anybody can edit pages on GIT wiki, so if you want to have some information, some topic to be present on wiki, best solution would be to simply create resp. page, or add info to existing page. This question was meant to be the place to gather requests for topics for which one doesn't know enough to write or doesn't have time to write.
 
@@ -4417,7 +2903,7 @@ Generic:
 Documentation:
 * GitRecipes / GitCookbook, i.e. examples on how to solve some problem, e.g. two-way interaction between git and svn repos, setting up automatic commit emails, setting up gitweb, setting up git server, pushing through firewall, setting up HTTP server for write / push access, discussion of different workflows
 * QuickRef / [[GitCheatSheet]]; quick hints, quickref
-* eclectic / untypical use cases, for example: GitForBackup, SyncWithGit, GitForDocuments ([[LaTeX]], ODF,...), MergingProjects (for example gitweb, gitk, git-gui with git)
+* eclectic / untypical use cases, for example: GitForBackup, SyncWithGit, GitForDocuments (LaTeX, ODF,...), MergingProjects (for example gitweb, gitk, git-gui with git)
 * CentralizedRepository / CentralRepository / SharedRepository (description of CVS/SVN-like workflow)
 * advanced usage, for example FindingErrorsWithBisect
 * workflows, usage scenarios, use cases, collaboration paradigms including KernelWorkflows (kernel maintainer tasks / workflows), BestPractices, etc.
@@ -4442,8 +2928,8 @@ Maintained:
 * roadmap
 
 Other SCMs:
-* SCMInteraction <some> SCM (svk/svn/cvs/p4) interaction
-* Git for <some> SCM users, e.g. [[GitSvnComparison]] (rather for homepage)
+* SCMInteraction &lt;some&gt; SCM (svk/svn/cvs/p4) interaction
+* Git for &lt;some&gt; SCM users, e.g. [[GitSvnComparison]] (rather for homepage)
 * SCM commands equiv and concepts comparison aka. SCMRosetta
 * SCM migration guides
 
@@ -4458,6 +2944,7 @@ Other:
 * GitServerSetup (tutorial)
 * pitfalls
 * Tips and tricks of the day (short)
+
 
 === 52. What could be improved in GIT documentation? ===
 
@@ -4565,198 +3052,104 @@ Other issues:
 
 == Getting help, staying in touch ==
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Do you use 
-|  Yes 
-|  No  
-|  ''Base'' 
-| 
+|+ style="font-size: small;" | Summary of "Do you use X?" questions from "Documentation" and "Getting help" sections
+|- style="background-color: #ffffcc;"
+!  Do you use                !!  Yes !!  No  !!  ''Base'' 
 |-
-|  GIT wiki                  
-|  316 
-|  300 
-|  ''616'' 
-| 
+|  GIT wiki                  ||  316 ||  300 ||  ''616'' 
 |-
-|  mailing list              
-|  204 
-|  406 
-|  ''610'' 
-| 
+|  mailing list              ||  204 ||  406 ||  ''610'' 
 |-
-|  IRC channel               
-|  182 
-|  376 
-|  ''558'' 
-| 
-|-
-| colspan="3" #ccffff | individual responses 
-|  683 
-| 
+|  IRC channel               ||  182 ||  376 ||  ''558'' 
+|- style="background-color: #ccffff;"
+| colspan="3" | individual responses         ||  ''683'' 
 |}
-<!-- ## table end
- -->
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Usefulness of 
-|  Yes 
-|  Some 
-|  No  
-|  ''Base'' 
-| 
+|+ style="font-size: small;" | Summary of "Do you find X useful?" question sfrom "Documentation" and "Getting help" sections
+|- style="background-color: #ffffcc;"
+!  Usefulness of      !!  Yes !!  Some !!  No  !!  ''Base'' 
 |-
-|  GIT wiki           
-|  191 
-|   69  
-|  198 
-|  ''458'' 
-| 
+|  GIT wiki           ||  191 ||   69  ||  198 ||  ''458'' 
 |-
-|  mailing list       
-|  146 
-|   79  
-|   34 
-|  ''259'' 
-| 
+|  mailing list       ||  146 ||   79  ||   34 ||  ''259'' 
 |-
-|  IRC channel        
-|  127 
-|   59  
-|   26 
-|  ''212'' 
-| 
-|-
-| colspan="4" #ccffff | individual responses 
-|  683 
-| 
+|  IRC channel        ||  127 ||   59  ||   26 ||  ''212'' 
+|- style="background-color: #ccffff;"
+| colspan="4" | individual responses           ||  ''683''
 |}
-<!-- ## table end
- -->
 
 As one can see mailing list is the primary medium for git, and IRC secondary (auxiliary) one.
 
 === 53. Have you tried to get GIT help from other people? ===
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Answer                         
-|  Count 
-|  Perc. 
-| 
+|- style="background-color: #ffffcc;"
+!  Answer                         !!  Count !!  Perc. 
 |-
-|  Yes                            
-|    357 
-|  52.3% 
-| 
+|  Yes                            ||    357 ||  52.3% 
 |-
-|  No                             
-|    261 
-|  38.2% 
-| 
+|  No                             ||    261 ||  38.2% 
 |-
-|  N/A (no answer)                
-|     65 
-|   9.5% 
-| 
-|-
-| #ccffff | Base                           
+|  N/A (no answer)                ||     65 ||   9.5% 
+|- style="background-color: #ccffff;"
+|  Base                           
 |colspan="2" |   618 / 683   
-| 
-|-
-| #ccffff | Total (sum)                    
+|- style="background-color: #ccffff;"
+|  Total (sum)                    
 |colspan="2" |   618         
-| 
 |}
-<!-- ## table end
- -->
 
 Half users needed help.  It might be that Git is not documented enough; it might be that version control is not an easy task.
+
 
 === 54. If yes, did you get these problems resolved quickly and to your liking? ===
 
 ''NOTE:'' in this table percentage is the number of people who answered this question, not the number of people who participated in the survey, because of ''"if yes"'' part.
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Answer                         
-|  Count 
-|  % sum 
-| 
+|- style="background-color: #ffffcc;"
+!  Answer                         !!  Count !!  % sum 
 |-
-|  Yes                            
-|    326 
-|  86.0% 
-| 
+|  Yes                            ||    326 ||  86.0% 
 |-
-|  No                             
-|     53 
-|  14.0% 
-| 
-|-
-| #ccffff | Base                           
+|  No                             ||     53 ||  14.0% 
+|- style="background-color: #ccffff;"
+|  Base                           
 |colspan="2" |   379 / 683   
-| 
-|-
-| #ccffff | Total (sum)                    
+|- style="background-color: #ccffff;"
+|  Total (sum)                    
 |colspan="2" |   379         
-| 
 |}
-<!-- ## table end
- -->
 
 That is I think very good (around 86%) percentage.
+
 
 === 55. Would commercial support be of interest? ===
 
 ''Would commercial (paid) support from a support vendor be of interest to you/your organization?''
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Answer 
-|  Count 
-|  Perc. 
-| 
+|- style="background-color: #ffffcc;"
+!  Answer                        !!  Count !!  Perc. 
 |-
-|  Not Applicable                 
-|   203 
-|  29.7% 
-| 
+|  Not Applicable                ||    203 ||  29.7% 
 |-
-|  Yes                            
-|    69 
-|  10.1% 
-| 
+|  Yes                           ||     69 ||  10.1% 
 |-
-|  No                             
-|   322 
-|  47.1% 
-| 
+|  No                            ||    322 ||  47.1% 
 |-
-| colspan="2" |
-| 
+|colspan="3" |
 |-
-|  Yes + No                       
-|   391 
-|  57.2% 
-| 
-|-
-| #ccffff | Base                           
+|  Yes + No                      ||    391 ||  57.2% 
+|- style="background-color: #ccffff;"
+|  Base                           
 |colspan="2" |   594 / 683   
-| 
-|-
-| #ccffff | Total (sum)                    
+|- style="background-color: #ccffff;"
+|  Total (sum)                    
 |colspan="2" |   594         
-| 
 |}
-<!-- ## table end
- -->
 
 The percentage in the table above is of number of people participating in survey, not number of people who answered this question.
 
@@ -4768,75 +3161,42 @@ Note that Git is GPLv2, and it will probably stay that forever, so you are ''fre
 
 === 56. Do you read the mailing list? ===
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Answer                         
-|  Count 
-|  Perc. 
-| 
+|- style="background-color: #ffffcc;"
+!  Answer                         !!  Count !!  Perc. 
 |-
-|  Yes                            
-|    204 
-|  29.9% 
-| 
+|  Yes                            ||    204 ||  29.9% 
 |-
-|  No                             
-|    406 
-|  59.4% 
-| 
-|-
-| #ccffff | Base                           
+|  No                             ||    406 ||  59.4% 
+|- style="background-color: #ccffff;"
+|  Base                           
 |colspan="2" |   610 / 683   
-| 
-|-
-| #ccffff | Total (sum)                    
+|- style="background-color: #ccffff;"
+|  Total (sum)                    
 |colspan="2" |   610         
-| 
 |}
-<!-- ## table end
- -->
 
 The fact that only one third of git users are reading mailing list (which is nevertheless quite large percentage) means that features ''have'' to be documented somewhere besides mailing list archive and logs (commit messages).
 
 Note that the number of people who answered question decreases, which probably mean that this survey is just too long. 
 
+
 === 57. If yes, do you find the mailing list useful? ===
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Answer                         
-|  Count 
-|  % sum 
-| 
+|- style="background-color: #ffffcc;"
+!  Answer                  !!  Count !!  % sum 
 |-
-|  Yes                     
-|    146 
-|  ''56.4%'' 
-| 
+|  Yes                     ||    146 ||  ''56.4%'' 
 |-
-|  No                      
-|     34 
-|  ''13.1%'' 
-| 
+|  No                      ||     34 ||  ''13.1%'' 
 |-
-|  Somewhat                
-|     79 
-|  ''30.5%'' 
-| 
-|-
-| #ccffff | Base                           
-|colspan="2" |   259 / 683   
-| 
-|-
-| #ccffff | Total (sum)                    
-|    259 
-|  ''100%'' 
-| 
+|  Somewhat                ||     79 ||  ''30.5%'' 
+|- style="background-color: #ccffff;"
+|  Base      || colspan="2" |     259 / 683   
+|- style="background-color: #ccffff;"
+|  Total (sum)             ||   259  ||  ''100%'' 
 |}
-<!-- ## table end
- -->
 
 Only a small percentage of people reading [[MailingLists|git mailing list]] doesn't find it useful. Good.
 
@@ -4844,106 +3204,54 @@ Only a small percentage of people reading [[MailingLists|git mailing list]] does
 
 ''If'' you read git mailing list of course.
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Answer 
-|  Count 
-|  % sum 
-| 
+|- style="background-color: #ffffcc;"
+!  Answer                   !!  Count !!  % sum 
 |-
-|  Yes                      
-|    193 
-|  ''79.5%'' 
-| 
+|  Yes                      ||    193 ||  ''79.5%'' 
 |-
-|  No                       
-|     50 
-|  ''20.6%'' 
-| 
-|-
-| #ccffff | Base                           
-|colspan="2" |   243 / 683   
-| 
-|-
-| #ccffff | Total (sum)                    
-|  243 
-|  ''100.0%'' 
-| 
+|  No                       ||     50 ||  ''20.6%'' 
+|- style="background-color: #ccffff;"
+|  Base       || colspan="2" |    243 / 683   
+|- style="background-color: #ccffff;"
+|  Total (sum)              ||  243 ||  ''100.0%'' 
 |}
-<!-- ## table end
- -->
 
 === 59. Do you use the IRC channel (#git on irc.freenode.net)? ===
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Answer 
-|  Count 
-|  Perc. 
-| 
+|- style="background-color: #ffffcc;"
+!  Answer                         !!  Count !!  Perc. 
 |-
-|  Yes                            
-|    182 
-|  26.6% 
-| 
+|  Yes                            ||    182 ||  26.6% 
 |-
-|  No                             
-|    376 
-|  55.1% 
-| 
-|-
-| #ccffff | Base                           
+|  No                             ||    376 ||  55.1% 
+|- style="background-color: #ccffff;"
+|  Base                           
 |colspan="2" |   558 / 683   
-| 
-|-
-| #ccffff | Total (sum)                    
-|  558 
-|  81.7% 
-| 
+|- style="background-color: #ccffff;"
+|  Total (sum)                    ||   558 ||  81.7% 
 |}
-<!-- ## table end
- -->
 
 Lack of answers most probably means either: I did not known about #git channel (and therefore do not use it), or that this survey is too long and I didn't answer last questions...
 
 === 60. If yes, do you find IRC channel useful? ===
 
-<!-- ## begin table
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| #ffffcc | Answer 
-|  Count 
-|  % sum 
-| 
+|- style="background-color: #ffffcc;"
+!  Answer                         !! Count !!  % sum 
 |-
-|  Yes                            
-|  127 
-|   ''59.9%'' 
-| 
+|  Yes                            ||   127 ||   ''59.9%'' 
 |-
-|  No                             
-|  26  
-|   ''12.3%'' 
-| 
+|  No                             ||   26  ||   ''12.3%'' 
 |-
-|  Somewhat                       
-|  59  
-|   ''27.8%'' 
-| 
-|-
-| #ccffff | Base                           
+|  Somewhat                       ||   59  ||   ''27.8%'' 
+|- style="background-color: #ccffff;"
+|  Base                           
 |colspan="2" | 212 / 683     
-| 
-|-
-| #ccffff | Total (sum)                    
-|  212 
-|  ''100.0%'' 
-| 
+|- style="background-color: #ccffff;"
+|  Total (sum)                    ||   212 ||  ''100.0%'' 
 |}
-<!-- ## end table
- -->
 
 Most people who use #git channel find it useful.
 
@@ -5015,7 +3323,7 @@ Problems and suggestions for IRC:
 Generic problems and suggestions:
 
 * Sometimes you get no answer (on git mailing list or #git channel) but that happens
-* People seem to think the problem isn't with git, and yet I find git extremely buggy and non-intuitive. Your "Git in 5 minutes" doesn't even include +x a hook or mention of hooks; neither does [http://git.or.cz/gitwiki/LinusTalk200705Transcript Linus speech]. If you don't +x a hook, try to figure out what is going on. I dare you. Git fails silently a bunch, maybe half of the time by design. Which shouldn't be acceptable. 
+* People seem to think the problem isn't with git, and yet I find git extremely buggy and non-intuitive. Your "Git in 5 minutes" doesn't even include +x a hook or mention of hooks; neither does [[LinusTalk200705Transcript|Linus speech]]. If you don't +x a hook, try to figure out what is going on. I dare you. Git fails silently a bunch, maybe half of the time by design. Which shouldn't be acceptable. 
 
 : Try addressing an ssh address in URL format: it isn't consistent and it will fail in half the apps. Same thing with git-ls-remote: it might have an --upload-pack that works, but this isn't across the board! From my own debugging none of the shell scripts have an --upload-pack option that work.
 
@@ -5083,7 +3391,7 @@ Suggestions for git:
 
 * No one-pager cheat sheet with the 6 most basic commands on it so people can go use git.
 
-: ''(This got corrected. There is git cheat sheet on the Internet; there is link to it on [[GitLinks#head-6af01ffee87e2fae45f78f5302e1d05b9f773a65|[[GitLinks]]]] page, and you can take a look here: [[GitCheatSheet]].)''
+: ''(This got corrected. There is git cheat sheet on the Internet; there is link to it on [[GitLinks]] page, and you can take a look here: [[GitCheatSheet]].)''
 * Having a git library where other apps can integrate git, along with bindings for Python would be great.
 
 : Make it easier to use by graphical clients like [http://kgit.sourceforge.net/ KGit].
@@ -5179,18 +3487,16 @@ Some other comments:
 * Perhaps we should have git blog, with at least "What's in", "Note from maintainer" and "MSysGit herald" announcements.
 
 = Footnotes =
-
-<references/>
+<references />
 
 = References =
 
-<!-- ## TODO: links to thread with (partial) survey results
- -->
+<!-- ## TODO: links to thread with (partial) survey results  -->
 * [http://www.survey.net.nz/survey.php?94e135ff41e871a1ea5bcda3ee1856d9 Git User's Survey 2007] at [http://www.survey.net.nz Survey.Net].
 * [http://thread.gmane.org/gmane.comp.version-control.git/53665 Git User's Survey 2007] thread on git mailing list: discussion about questions etc.
 * [[GitSurvey2006]] - previous survey summary
 * [[GitSurvey2006vs2007]] - comparison of 2006 and 2007 (this one) survey results.
-* [http://www.selenic.com/mercurial/wiki/index.cgi/UserSurvey Mercurial [[UserSurvey]]], which inspired first [[GitSurvey2006|Git User's Survey]].<BR> See also [http://www.selenic.com/mercurial/wiki/index.cgi/UserSurvey2007 comments about Mercurial User's Survey 2007]
+* [http://www.selenic.com/mercurial/wiki/index.cgi/UserSurvey Mercurial UserSurvey], which inspired first [[GitSurvey2006|Git User's Survey]].<BR> See also [http://www.selenic.com/mercurial/wiki/index.cgi/UserSurvey2007 comments about Mercurial User's Survey 2007]
 ----
 [[Category:Statistics]]
 
