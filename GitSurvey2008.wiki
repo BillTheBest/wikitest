@@ -3378,7 +3378,7 @@ The foreigh SCM used to publish one's changes include: git-bzr (Bazaar), git-p4 
 |  32.7% 
 | 
 |-
-|  git pull <URL> <ref>                
+|  git pull &lt;URL&gt; &lt;ref&gt;                
 |     805 
 |  24.9% 
 |    510 
