@@ -3,7 +3,7 @@
 ''The Git User's Survey 2008 has been closed on October 14, 2008.''
 
 The survey could be found here:
-* [http://www.survs.com/survey?id=M3PIVU72&channel=2WXE4BVTW8 Git User's Survey 2008] (http://tinyurl.com/[[GitSurvey]]2008) at Survs.com (closed)
+* [http://www.survs.com/survey?id=M3PIVU72&channel=2WXE4BVTW8 Git User's Survey 2008] (http://tinyurl.com/GitSurvey2008) at Survs.com (closed)
 
 You can get raw data (individual responses) for the survey here:
 * [[Media:Git_User's_Survey_2008_-_Oct_14,_2008.csv.gz\u200e|Git User's Survey 2008 - Oct 14, 2008.csv.gz]] (CSV, 1.2 MB)
