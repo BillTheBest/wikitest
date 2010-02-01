@@ -1,8 +1,8 @@
 This is partial comparison of [[GitSurvey2007|Git User's Survey 2007]], (ending at state from 28 September 2007) with previous survey, [[GitSurvey2006|Git User's Survey 2006]].
 
-The data for 2007 survey can be found here: [[attachment:GitSurvey2007/surveydata.csv]]
+The data for 2007 survey can be found here: [[Media:Git_User's_Survey_2007_-_Sep_28_-_corrected.csv.txt|Git User's Survey 2007 - Sep 28 - corrected.csv]]
 
-The data for 2006 survey was taken from the [[GitSurvey]]2006 and [[GitSurveyData]] wiki pages
+The data for 2006 survey was taken from the [[GitSurvey2006]] and [[GitSurveyData]] wiki pages
 ----
 <span style="font-size: smaller">''Table of contents:''</span>
 __TOC__
@@ -16,532 +16,220 @@ There are 62 questions in 2007 survey, and 31 questions (half of the number) in 
 
 === 01/1. What country are you in? ===
 
-<!-- ##------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <tablestyle="font-size: smaller;" rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer 
-|  2006 
-|  2007 
-| 
+{| border="1" cellpadding="2" cellspacing="0" style="font-size: smaller;" 
+|- style="font-weight: bold; background-color: #ffffcc;"
+!  Answer                         !! 2006 !!  2007 
+|-
+|  Algeria                        ||      ||  1   
+|-
+|  Argentina                      ||      ||  3   
+|-
+|  Australia                      ||  3   ||  25  
+|-
+|  Austria                        ||  2   ||  9   
+|-
+|  Belarus                        ||  1   ||      
+|-
+|  Belgium                        ||      ||  5   
+|-
+|  Brazil                         ||  2   ||  20  
+|-
+|  Bulgaria                       ||      ||  1   
+|-
+|  Canada                         ||  3   ||  44  
+|-
+|  Chile                          ||  1   ||  2   
+|-
+|  China                          ||  2   ||  4   
+|-
+|  Colombia                       ||      ||  2   
+|-
+|  Czech Republic                 ||  2   ||  10  
+|-
+|  Denmark                        ||  4   ||  7   
+|-
+|  Ecuador                        ||      ||  1   
+|-
+|  Estonia                        ||  1   ||  1   
+|-
+|  Europe                         ||  1   ||  1   
+|-
+|  Finland                        ||  5   ||  23  
+|-
+|  France                         ||  6   ||  36  
+|-
+|  Germany                        ||  14  ||  64  
+|-
+|  Greece                         ||      ||  3   
+|-
+|  Hungary                        ||      ||  2   
+|-
+|  India                          ||  1   ||  13  
+|-
+|  Ireland                        ||      ||  2   
+|-
+|  Israel                         ||      ||  6   
+|-
+|  Italy                          ||  3   ||  14  
+|-
+|  Japan                          ||      ||  4   
+|-
+|  Jersey                         ||      ||  1   
+|-
+|  Latvia                         ||      ||  1   
+|-
+|  Lithuania                      ||  1   ||      
+|-
+|  Malaysia                       ||      ||  1   
+|-
+|  Mexico                         ||      ||  1   
+|-
+|  Netherlands                    ||  3   ||  15  
+|-
+|  New Zealand                    ||      ||  5   
+|-
+|  Norway                         ||  1   ||  14  
+|-
+|  Philippines                    ||  1   ||  3   
+|-
+|  Poland                         ||  3   ||  6   
+|-
+|  Portugal                       ||      ||  2   
+|-
+|  Puerto Rico                    ||      ||  1   
+|-
+|  Romania                        ||      ||  1   
+|-
+|  Russian Federation             ||  2   ||  6   
+|-
+|  Samoa                          ||      ||  1   
+|-
+|  Serbia                         ||      ||  1   
+|-
+|  Singapore                      ||      ||  2   
+|-
+|  Slovak Republic                ||      ||  1   
+|-
+|  Slovenia                       ||      ||  2   
+|-
+|  South Africa                   ||  1   ||  4   
+|-
+|  Spain                          ||  2   ||  11  
+|-
+|  Sri Lanka                      ||      ||  1   
+|-
+|  Sweden                         ||  6   ||  14  
+|-
+|  Switzerland                    ||  1   ||  15  
+|-
+|  UAE                            ||  1   ||      
+|-
+|  UK / US                        ||      ||  1   
+|-
+|  United Kingdom                 ||  8   ||  40  
+|-
+|  United States of America       ||  35  ||  218 
+|-
+|  Venezuela                      ||      ||  1   
+|-
+|  Vietnam                        ||  1   ||  1   
+|- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
+|  Base                           ||  117 ||  683 
+|- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
+|  Total (sum)                    ||  117 ||  673 
 |}
-<!-- ##------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-|  Algeria                        
-|      
-|  1   
-| 
-|-
-|  Argentina                      
-|      
-|  3   
-| 
-|-
-|  Australia                      
-|  3   
-|  25  
-| 
-|-
-|  Austria                        
-|  2   
-|  9   
-| 
-|-
-|  Belarus                        
-|  1   
-|      
-| 
-|-
-|  Belgium                        
-|      
-|  5   
-| 
-|-
-|  Brazil                         
-|  2   
-|  20  
-| 
-|-
-|  Bulgaria                       
-|      
-|  1   
-| 
-|-
-|  Canada                         
-|  3   
-|  44  
-| 
-|-
-|  Chile                          
-|  1   
-|  2   
-| 
-|-
-|  China                          
-|  2   
-|  4   
-| 
-|-
-|  Colombia                       
-|      
-|  2   
-| 
-|-
-|  Czech Republic                 
-|  2   
-|  10  
-| 
-|-
-|  Denmark                        
-|  4   
-|  7   
-| 
-|-
-|  Ecuador                        
-|      
-|  1   
-| 
-|-
-|  Estonia                        
-|  1   
-|  1   
-| 
-|-
-|  Europe                         
-|  1   
-|  1   
-| 
-|-
-|  Finland                        
-|  5   
-|  23  
-| 
-|-
-|  France                         
-|  6   
-|  36  
-| 
-|-
-|  Germany                        
-|  14  
-|  64  
-| 
-|-
-|  Greece                         
-|      
-|  3   
-| 
-|-
-|  Hungary                        
-|      
-|  2   
-| 
-|-
-|  India                          
-|  1   
-|  13  
-| 
-|-
-|  Ireland                        
-|      
-|  2   
-| 
-|-
-|  Israel                         
-|      
-|  6   
-| 
-|-
-|  Italy                          
-|  3   
-|  14  
-| 
-|-
-|  Japan                          
-|      
-|  4   
-| 
-|-
-|  Jersey                         
-|      
-|  1   
-| 
-|-
-|  Latvia                         
-|      
-|  1   
-| 
-|-
-|  Lithuania                      
-|  1   
-|      
-| 
-|-
-|  Malaysia                       
-|      
-|  1   
-| 
-|-
-|  Mexico                         
-|      
-|  1   
-| 
-|-
-|  Netherlands                    
-|  3   
-|  15  
-| 
-|-
-|  New Zealand                    
-|      
-|  5   
-| 
-|-
-|  Norway                         
-|  1   
-|  14  
-| 
-|-
-|  Philippines                    
-|  1   
-|  3   
-| 
-|-
-|  Poland                         
-|  3   
-|  6   
-| 
-|-
-|  Portugal                       
-|      
-|  2   
-| 
-|-
-|  Puerto Rico                    
-|      
-|  1   
-| 
-|-
-|  Romania                        
-|      
-|  1   
-| 
-|-
-|  Russian Federation             
-|  2   
-|  6   
-| 
-|-
-|  Samoa                          
-|      
-|  1   
-| 
-|-
-|  Serbia                         
-|      
-|  1   
-| 
-|-
-|  Singapore                      
-|      
-|  2   
-| 
-|-
-|  Slovak Republic                
-|      
-|  1   
-| 
-|-
-|  Slovenia                       
-|      
-|  2   
-| 
-|-
-|  South Africa                   
-|  1   
-|  4   
-| 
-|-
-|  Spain                          
-|  2   
-|  11  
-| 
-|-
-|  Sri Lanka                      
-|      
-|  1   
-| 
-|-
-|  Sweden                         
-|  6   
-|  14  
-| 
-|-
-|  Switzerland                    
-|  1   
-|  15  
-| 
-|-
-|  UAE                            
-|  1   
-|      
-| 
-|-
-|  UK / US                        
-|      
-|  1   
-| 
-|-
-|  United Kingdom                 
-|  8   
-|  40  
-| 
-|-
-|  United States of America       
-|  35  
-|  218 
-| 
-|-
-|  Venezuela                      
-|      
-|  1   
-| 
-|-
-|  Vietnam                        
-|  1   
-|  1   
-| 
-|}
-<!-- ##------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base         
-|  117 
-|  683 
-| 
-|-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)  
-|  117 
-|  673 
-| 
-|}
-<!-- ##------------------------------------------------
- -->
 
 England, Scotland and British Isles counts as United Kingdom here. Table is sorted in alphabetical order.
 
 In both surveys most Git users are in the USA.
 
-There are quite a bit of new countries, only two vanished.  Note that 2007 survey has much more responses, so it is expected.
+There are quite a bit of new countries (in 2007 survey, as compared to survey from 2006), only two vanished.  Note that 2007 survey has much more responses, so it is expected.
+
 
 === 02/2. What is your preferred non-programming language? ===
 
 This is multiple answers question, although most people gave only one preferred language.
 
-<!-- ##------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <tablestyle="font-size: smaller;" rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer 
-|  2006 
-|  2007 
-| 
+{| border="1" cellpadding="2" cellspacing="0" style="font-size: smaller;"
+|- style="font-weight: bold; background-color: #ffffcc;"
+!  Answer                         !! 2006 !!  2007 
+|-
+|  Afrikaans                      ||      ||  1   
+|-
+|  Belarusian                     ||  1   ||      
+|-
+|  Bulgarian                      ||      ||  1   
+|-
+|  Castellano                     ||      ||  2   
+|-
+|  Catalan                        ||      ||  1   
+|-
+|  Chinese                        ||  1   ||  2   
+|-
+|  Czech                          ||  2   ||  10  
+|-
+|  Danish                         ||  5   ||  6   
+|-
+|  Dutch                          ||  4   ||  12  
+|-
+|  English                        ||  71  ||  416 
+|-
+|  Estonian                       ||  1   ||      
+|-
+|  Finnish                        ||  4   ||  16  
+|-
+|  French                         ||  5   ||  33  
+|-
+|  Galician                       ||      ||  1   
+|-
+|  German                         ||  12  ||  58  
+|-
+|  Greek                          ||      ||  2   
+|-
+|  Hebrew                         ||      ||  1   
+|-
+|  Hungarian                      ||      ||  3   
+|-
+|  Italian                        ||  3   ||  9   
+|-
+|  Japanese                       ||  1   ||  1   
+|-
+|  LSF (French sign language)     ||      ||  1   
+|-
+|  Norwegian                      ||      ||  4   
+|-
+|  Polish                         ||  3   ||  5   
+|-
+|  Portuguese                     ||      ||  10  
+|-
+|  Romanian                       ||      ||  1   
+|-
+|  Russian                        ||  4   ||  13  
+|-
+|  Serbian                        ||      ||  1   
+|-
+|  Slovenian                      ||      ||  2   
+|-
+|  Spanish                        ||  4   ||  13  
+|-
+|  Swedish                        ||  5   ||  13  
+|-
+|  Swiss                          ||      ||  1   
+|-
+|  Ukrainian                      ||      ||  1   
+|-
+|  Vietnamese                     ||  1   ||  1   
+|-
+|colspan="3" |
+|-
+|  invalid (computer language)    ||  ?   ||  37  
+|-
+|  not understood                 ||  ?   ||  4   
+|- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
+|  Base                           ||  117 ||  683 
+|- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
+|  Total (sum)                    ||  127 ||  662 
 |}
-<!-- ##------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-|  Afrikaans                      
-|      
-|  1   
-| 
-|-
-|  Belarusian                     
-|  1   
-|      
-| 
-|-
-|  Bulgarian                      
-|      
-|  1   
-| 
-|-
-|  Castellano                     
-|      
-|  2   
-| 
-|-
-|  Catalan                        
-|      
-|  1   
-| 
-|-
-|  Chinese                        
-|  1   
-|  2   
-| 
-|-
-|  Czech                          
-|  2   
-|  10  
-| 
-|-
-|  Danish                         
-|  5   
-|  6   
-| 
-|-
-|  Dutch                          
-|  4   
-|  12  
-| 
-|-
-|  English                        
-|  71  
-|  416 
-| 
-|-
-|  Estonian                       
-|  1   
-|      
-| 
-|-
-|  Finnish                        
-|  4   
-|  16  
-| 
-|-
-|  French                         
-|  5   
-|  33  
-| 
-|-
-|  Galician                       
-|      
-|  1   
-| 
-|-
-|  German                         
-|  12  
-|  58  
-| 
-|-
-|  Greek                          
-|      
-|  2   
-| 
-|-
-|  Hebrew                         
-|      
-|  1   
-| 
-|-
-|  Hungarian                      
-|      
-|  3   
-| 
-|-
-|  Italian                        
-|  3   
-|  9   
-| 
-|-
-|  Japanese                       
-|  1   
-|  1   
-| 
-|-
-|  LSF (French sign language)     
-|      
-|  1   
-| 
-|-
-|  Norwegian                      
-|      
-|  4   
-| 
-|-
-|  Polish                         
-|  3   
-|  5   
-| 
-|-
-|  Portuguese                     
-|      
-|  10  
-| 
-|-
-|  Romanian                       
-|      
-|  1   
-| 
-|-
-|  Russian                        
-|  4   
-|  13  
-| 
-|-
-|  Serbian                        
-|      
-|  1   
-| 
-|-
-|  Slovenian                      
-|      
-|  2   
-| 
-|-
-|  Spanish                        
-|  4   
-|  13  
-| 
-|-
-|  Swedish                        
-|  5   
-|  13  
-| 
-|-
-|  Swiss                          
-|      
-|  1   
-| 
-|-
-|  Ukrainian                      
-|      
-|  1   
-| 
-|-
-|  Vietnamese                     
-|  1   
-|  1   
-| 
-|-
-| <-3>
-| 
-|-
-|  invalid (computer language)    
-|  ?   
-|  37  
-| 
-|-
-|  not understood                 
-|  ?   
-|  4   
-| 
-|}
-<!-- ##------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base         
-|  117 
-|  683 
-| 
-|-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)  
-|  127 
-|  662 
-| 
-|}
-<!-- ##------------------------------------------------
- -->
 
 Most of git users prefer English language, at least for dealing with computers, the same as before.
 
@@ -557,6 +245,7 @@ This is new questions, which were not present in previous survey.
 
 This is new questions, which were not present in previous survey.
 
+
 == Getting started with GIT ==
 
 === 05/3. How did you hear about GIT? ===
@@ -569,77 +258,33 @@ Although LKML still dominates the table for current survey, it is not by such a 
 
 But there was no "I wrote it" response in current survey, though...
 
+
 === 06/4. Did you find GIT easy to learn? ===
 
-<!-- ##----------------------------------------------------
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;" rowspan="2"> Answer 
-|<-2:>| 2006 
-|<-2:>| 2007 
-| 
+|- style="font-weight: bold; background-color: #ffffcc;" 
+!rowspan="2" | Answer 
+!colspan="2" align="center" | 2006 
+!colspan="2" align="center" | 2007 
+|- style="font-weight: bold; background-color: #ffffcc;"
+!                      Count !!  % sum !! Count !!  % sum 
 |-
-| <rowstyle="font-weight: bold; background-color: #ffffcc;">      Count 
-|  % sum 
-|  Count 
-|  %sum 
-| 
+|  very easy        ||    6  ||   5.1% ||    38 ||   5.7% 
+|-
+|  easy             ||   21  ||  17.9% ||   136 ||  20.4% 
+|-
+|  reasonably       ||   64  ||  54.4% ||   318 ||  47.7% 
+|-
+|  hard             ||   23  ||  19.6% ||   131 ||  19.8% 
+|-
+|  very hard        ||    3  ||   2.6% ||    33 ||   5.0% 
+|- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
+| Base         
+|colspan="2" align="center" |   117    
+|colspan="2" align="center" |   683    
+|- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
+| Total (sum)       ||   117 ||   100% ||   656 ||   100%  
 |}
-<!-- ##----------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-|  very easy        
-|  6   
-|   5.1% 
-|  38  
-|   5.7% 
-| 
-|-
-|  easy             
-|  21  
-|  17.9% 
-|  136 
-|  20.4% 
-| 
-|-
-|  reasonably       
-|  64  
-|  54.4% 
-|  318 
-|  47.7% 
-| 
-|-
-|  hard             
-|  23  
-|  19.6% 
-|  131 
-|  19.8% 
-| 
-|-
-|  very hard        
-|  3   
-|   2.6% 
-|  33  
-|   5.0% 
-| 
-|}
-<!-- ##----------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base             
-|<-2:>|   117    
-|<-2:>|   683    
-| 
-|-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)      
-|  117 
-|   100% 
-|  656 
-|   100% 
-| 
-|}
-<!-- ##----------------------------------------------------
- -->
 
 Nice gaussian curve both for current survey, and previous year survey data.  Most users find GIT reasonably easy to use.  The distribution changed slightly in the favor of being more easy to use, but it is not statistically significant change.
 
@@ -657,9 +302,11 @@ Nice gaussian curve both for current survey, and previous year survey data.  Mos
 
 ''TO DO.'' Again free-form question.  Note that in previous survey this question consisted only of the first part, and read "When did you start using git?", so it is date that got tabularized, not git version (mostly).  Analysis of current survey data is unfinished, and only answers in which there was given git version explicitely got tabularized.  For comparison we would need analysis of answers giving date; and even then I don't think it would be especially useful, unless very coarse-grained (which year for example).
 
+
 == Other SCMs ==
 
 This whole section (questions 10 to 17) is new, and was not present in previous survey.
+
 
 == How you use GIT ==
 
@@ -668,116 +315,50 @@ This whole section (questions 10 to 17) is new, and was not present in previous 
 This question had slightly different wording in 2006 survey: "How you use GIT? Do you use GIT for ...".
 
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;" rowspan="2"> Answer / Purpose               
-|<-2:>| 2006 
-|<-2:>| 2007 
-| 
+|- style="font-weight: bold; background-color: #ffffcc;"
+!rowspan="2" | Answer / Purpose               
+!colspan="2" align="center" | 2006 
+!colspan="2" align="center" | 2007 
+|- style="font-weight: bold; background-color: #ffffcc;"
+!                                   Count !!  % sum !!Count !!  % sum 
 |-
-| <rowstyle="font-weight: bold; background-color: #ffffcc;">                         Count 
-|  % sum 
-|  Count 
-|  % sum 
-| 
+|  work                           ||  14  ||  12.0% ||  56  ||   8.7% 
+|-
+|  unpaid projects                ||  50  ||  42.8% ||  212 ||  32.9% 
+|-
+|  both                           ||  53  ||  45.3% ||  377 ||  58.4% 
+|- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
+|  Base                           
+|colspan="2" align="center" |  117    
+|colspan="2" align="center" |  683    
+|- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
+|  Total (sum)                    ||  117 ||   100% ||  645 ||   100% 
 |}
-<!-- ##------------------------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-|  work                           
-|  14  
-|  12.0% 
-|  56  
-|   8.7% 
-| 
-|-
-|  unpaid projects                
-|  50  
-|  42.8% 
-|  212 
-|  32.9% 
-| 
-|-
-|  both                           
-|  53  
-|  45.3% 
-|  377 
-|  58.4% 
-| 
-|}
-<!-- ##------------------------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           
-|<-2:>|  117    
-|<-2:>|  683    
-| 
-|-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    
-|  117 
-|   100% 
-|  645 
-|   100% 
-| 
-|}
-<!-- ##------------------------------------------------------------------
- -->
 
 In the previous survey unpaid projects (only unpaid) were slightly less than half of answers (43 %), while current survey shows that [only] around a third of git users use it only for unpaid projects.  So we see more git used for work.
 
 === 19/9. How do you obtain GIT? ===
 
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;" rowspan="2"> Answer               
-|<-2:>| 2006 
-|<-2:>| 2007 
-| 
+|- style="font-weight: bold; background-color: #ffffcc;"
+!rowspan="2" | Answer               
+!colspan="2" align="center" | 2006 
+!colspan="2" align="center" | 2007 
+|- style="font-weight: bold; background-color: #ffffcc;"
+!                                   Count !!  % sum !!Count !!  % sum 
 |-
-| <rowstyle="font-weight: bold; background-color: #ffffcc;">                         Count 
-|  % sum 
-|  Count 
-|  % sum 
-| 
+|  binary package                 ||  31  ||  26.5% ||  283 ||  43.8% 
+|-
+|  source tarball                 ||  33  ||  28.2% ||  210 ||  32.5% 
+|-
+|  pull from main repository      ||  53  ||  45.3% ||  153 ||  23.7% 
+|- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
+|  Base                           
+|colspan="2" align="center" | 117     
+|colspan="2" align="center" | 683     
+|- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
+| Total (sum)                     ||  117 ||   100% ||  646 ||   100% 
 |}
-<!-- ##------------------------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-|  binary package                 
-|  31  
-|  26.5% 
-|  283 
-|  43.8% 
-| 
-|-
-|  source tarball                 
-|  33  
-|  28.2% 
-|  210 
-|  32.5% 
-| 
-|-
-|  pull from main repository      
-|  53  
-|  45.3% 
-|  153 
-|  23.7% 
-| 
-|}
-<!-- ##------------------------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           
-|<-2:>| 117     
-|<-2:>| 683     
-| 
-|-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    
-|  117 
-|   100% 
-|  646 
-|   100% 
-| 
-|}
-<!-- ##------------------------------------------------------------------
- -->
 
 As one can see a year ago (in 2006) pull from main repository dominated, while now binary package dominates, and pull is the method least used.  At least among people who answered Git User's Survey; the difference might be caused by the fact that previous survey was distributed mainly among readers of git mailing list, who run latest 'master' or even 'next' version, and often contribute to git (see also question 30, "Does git.git repository include code produced by you?").
 
@@ -802,76 +383,33 @@ Perhaps we should have provided examples of answers to this question...
 <!-- ##--------------------------------------------------
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer 
-|  2006 
-|  2007 
-| 
+|- style="font-weight: bold; background-color: #ffffcc;"
+!  Answer                         !!  2006 !!  2007 
+|-
+|  AIX                            ||  1    ||  1    
+|-
+|  FreeBSD                        ||  4    ||  16   
+|-
+|  OpenBSD                        ||  -    ||  3    
+|-
+|  NetBSD                         ||  1    ||  -    
+|-
+|  HP-UX                          ||  1    ||  1    
+|-
+|  IRIX                           ||  1    ||  -    
+|-
+|  Linux                          ||  167? ||  582  
+|-
+|  MS Windows (Cygwin)            ||  14   ||  22   
+|-
+|  MS Windows (other)             ||       ||  36   
+|-
+|  MacOS X / Darwin               ||  11   ||  94   
+|-
+|  Solaris                        ||  3    ||  11   
+|-
+|  SunOS                          ||  -    ||  5    
 |}
-<!-- ##--------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-|  AIX                            
-|  1    
-|  1    
-| 
-|-
-|  FreeBSD                        
-|  4    
-|  16   
-| 
-|-
-|  OpenBSD                        
-|  -    
-|  3    
-| 
-|-
-|  NetBSD                         
-|  1    
-|  -    
-| 
-|-
-|  HP-UX                          
-|  1    
-|  1    
-| 
-|-
-|  IRIX                           
-|  1    
-|  -    
-| 
-|-
-|  Linux                          
-|  167? 
-|  582  
-| 
-|-
-|  MS Windows (Cygwin)            
-|  14   
-|  22   
-| 
-|-
-|  MS Windows (other)             
-|       
-|  36   
-| 
-|-
-|  MacOS X / Darwin               
-|  11   
-|  94   
-| 
-|-
-|  Solaris                        
-|  3    
-|  11   
-| 
-|-
-|  SunOS                          
-|  -    
-|  5    
-| 
-|}
-<!-- ##--------------------------------------------------
- -->
 
 Note that one person can use git on more than one operating system.
 
@@ -891,105 +429,47 @@ For current (2007) survey only data with number of people or range of numbers we
 
 In the table below we follow ranes used in Git User's Survey 2007 survey analysis.
 
-<!-- ## table begin
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer 
-|  2006 
-|  2007 
-| 
+|- style="font-weight: bold; background-color: #ffffcc;"
+!  Number of people        !! 2006 !! 2007 
+|-
+|  0                       ||  32  ||  116 
+|-
+|  1                       ||  6   ||  50  
+|-
+|  2                       ||  10  ||  45  
+|-
+|  3                       ||  9   ||  48  
+|-
+|  4                       ||  5   ||  23  
+|-
+|  5                       ||  9   ||  41  
+|-
+|  6                       ||  1   ||  12  
+|-
+|  7                       ||  2   ||  5   
+|-
+|  8                       ||      ||  11  
+|-
+|  9-10                    ||  8   ||  47  
+|-
+|  11-15                   ||  3   ||  30  
+|-
+|  16-25                   ||  5   ||  26  
+|-
+|  26-50                   ||  2   ||  17  
+|-
+|  51-100                  ||  1   ||  17  
+|-
+|  100+                    ||      ||  8   
+|-
+|colspan="3" |
+|-
+|  unknown number<ref>(By unknown number I mean here answers like "git people", or "kernel community", or some text which did not contain a number (or a range).</ref>
+|                              14  ||  79  
 |}
-<!-- ##-----------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-|  0                       
-|  32  
-|  116 
-| 
-|-
-|  1                       
-|  6   
-|  50  
-| 
-|-
-|  2                       
-|  10  
-|  45  
-| 
-|-
-|  3                       
-|  9   
-|  48  
-| 
-|-
-|  4                       
-|  5   
-|  23  
-| 
-|-
-|  5                       
-|  9   
-|  41  
-| 
-|-
-|  6                       
-|  1   
-|  12  
-| 
-|-
-|  7                       
-|  2   
-|  5   
-| 
-|-
-|  8                       
-|      
-|  11  
-| 
-|-
-|  9-10                    
-|  8   
-|  47  
-| 
-|-
-|  11-15                   
-|  3   
-|  30  
-| 
-|-
-|  16-25                   
-|  5   
-|  26  
-| 
-|-
-|  26-50                   
-|  2   
-|  17  
-| 
-|-
-|  51-100                  
-|  1   
-|  17  
-| 
-|-
-|  100+                    
-|      
-|  8   
-| 
-|-
-| <-3>
-| 
-|-
-|  unknown number<<[[FootNote]](By unknown number I mean here answers like "git people", or "kernel community", or some text which did not contain a number (or a range).}} 
-|  14  
-|  79  
-| 
-|}
-<!-- ##-----------------------------------------
- -->
-
-''Footnotes:''
-<<[[FootNote]]>>
+'''Footnotes:'''
+<references />
 
 Note that the 2006 table had count as first column, and number of people (answer) as second column, while table for 2007 survey and above comparison table has number of people (or range) as first column, and values for 2006 and 2007 survey next.
 
@@ -1015,58 +495,25 @@ Note that there is some ambiguity concerning git-gui: it was put in current surv
 
 Multiple answers (one can use more than one porcelain).
 
-<!-- ##------------------------------------------------
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;"> Answer (multiple choice) 
-|  Old 
-|  Count 
-| 
-|}
-<!-- ##------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-|  core-git                       
-|  62  
-|  558 
-| 
+|- style="font-weight: bold; background-color: #ffffcc;"
+!  Answer (multiple choice)       !!  2006 !! 2007 
 |-
-|  cogito (deprecated in 2007)    
-|  22  
-|  56  
-| 
-|}
-<!-- ##................................................
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <-3>
-| 
+|  core-git                       ||  62   ||  558 
 |-
-| <rowstyle="background-color: #ffffed;"> Patch management interface: 
-|  13 
-|  57  
-| 
-|}
-<!-- ##................................................
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-|  StGIT                          
-|  11  
-|  41  
-| 
+|  cogito (deprecated in 2007)    ||  22   ||  56  
 |-
-|  Guilt (formerly gq)            
-|  n/a 
-|  13  
-| 
+|colspan="3" |
+|- style="background-color: #ffffed;"
+| Patch management interface:     ||  13  ||  57  
 |-
-|  pg (deprecated in 2007)        
-|  2   
-|  3   
-| 
+|  StGIT                          ||  11  ||  41  
+|-
+|  Guilt (formerly gq)            ||  n/a ||  13  
+|-
+|  pg (deprecated in 2007)        ||  2   ||  3   
 |}
-<!-- ##------------------------------------------------
- -->
+
 
 One has to take into account the fact that neither Cogito nor pg (Patchy GIT) were deprecated during previous survey.  Cogito got deprecated because all of its functionality got moved in some way to core git, and because Petr 'Pasky' Baudis, main Cogito developer, didn't/doesn't have time for catching up to new git features.
 
@@ -1083,51 +530,23 @@ This question was not present in previous survey.
 <!-- ##----------------------------------------------------
  -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;" rowspan="2"> Answer 
-|<-2:>| 2006 
-|<-2:>| 2007 
-| 
+|- style="font-weight: bold; background-color: #ffffcc;" rowspan="2"
+!  Answer 
+!colspan="2" align="center" | 2006 
+!colspan="2" align="center" | 2007 
+|- style="font-weight: bold; background-color: #ffffcc;"
+!                         Count !!  % sum !! Count !! % sum 
 |-
-| <rowstyle="font-weight: bold; background-color: #ffffcc;">      Count 
-|  % sum 
-|  Count 
-|  %sum 
-| 
-|}
-<!-- ##-------------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-|  Yes                 
-|  34  
-|  31.8% 
-|  99  
-|  16.2% 
-| 
+|  Yes                 ||   34  ||  31.8% ||    99 ||  16.2% 
 |-
-|  No                  
-|  73  
-|  68.2% 
-|  512 
-|  83.8% 
-| 
+|  No                  ||   73  ||  68.2% ||   512 ||  83.8% 
+|- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
+|  Base                
+|colspan="2" align="center" | 117     
+|colspan="2" align="center" | 683     
+|- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
+|  Total (sum)         ||   107 ||   100% ||   611 ||   100% 
 |}
-<!-- ##-------------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                
-|<-2:>| 117     
-|<-2:>| 683     
-| 
-|-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)         
-|  107 
-|   100% 
-|  611 
-|   100% 
-| 
-|}
-<!-- ##-------------------------------------------------------
- -->
 
 The trend is much more emphasized: from around third of people who answered this question having their code in git.git (around 32%) a year ago (2006), to a small amount (around 16%, half of it if counting percentage) currently (2007).
 
@@ -1151,75 +570,30 @@ This whole section (questions 31 to 33) is new, and was not present in previous 
 
 ''Note:'' this question in 2006 survey might have been free-form question.
 
-<!-- ##------------------------------------------------------------------
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;" rowspan="2"> Answer 
-|<-2:>| 2006 
-|<-2:>| 2007 
-| 
+|- style="font-weight: bold; background-color: #ffffcc;" 
+!rowspan="2" | Answer 
+!colspan="2" align="center" | 2006 
+!colspan="2" align="center" | 2007 
+|- style="font-weight: bold; background-color: #ffffcc;"
+!                                   Count !!  % sum !!Count !! % sum 
 |-
-| <rowstyle="font-weight: bold; background-color: #ffffcc;">      Count 
-|  % sum 
-|  Count 
-|  %sum 
-| 
+|  unhappy                        ||  1   ||   0.9% ||  13  ||   2.0% 
+|-
+|  not so happy                   ||  19  ||  16.5% ||  36  ||   5.6% 
+|-
+|  happy                          ||  53  ||  46.1% ||  179 ||  27.9% 
+|-
+|  very happy                     ||  41  ||  35.7% ||  302 ||  47.0% 
+|-
+|  completely ecstatic            ||  1   ||   0.9% ||  112 ||  17.4% 
+|- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
+| Base                           
+|colspan="2" align="center" |     117 
+|colspan="2" align="center" |     683 
+|- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
+| Total (sum)                     ||  115 ||   100% ||  642 ||   100% 
 |}
-<!-- ##------------------------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-|  unhappy                        
-|  1   
-|   0.9% 
-|  13  
-|   2.0% 
-| 
-|-
-|  not so happy                   
-|  19  
-|  16.5% 
-|  36  
-|   5.6% 
-| 
-|-
-|  happy                          
-|  53  
-|  46.1% 
-|  179 
-|  27.9% 
-| 
-|-
-|  very happy                     
-|  41  
-|  35.7% 
-|  302 
-|  47.0% 
-| 
-|-
-|  completely ecstatic            
-|  1   
-|   0.9% 
-|  112 
-|  17.4% 
-| 
-|}
-<!-- ##------------------------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                           
-|<-2:>|     117 
-|<-2:>|     683 
-| 
-|-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)                    
-|  115 
-|   100% 
-|  642 
-|   100% 
-| 
-|}
-<!-- ##------------------------------------------------------------------
- -->
 
 During the year the balance shifted slightly in the positive direction: from mostly happy to very happy, to mostly very happy leaning to happy.  And we have much more percentage of completely ecstatic.
 
@@ -1227,61 +601,26 @@ Good work!
 
 === 35/18. How does GIT compare to other SCM tools you have used? ===
 
-<!-- ##----------------------------------------------------
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;" rowspan="2"> Answer 
-|<-2:>| 2006 
-|<-2:>| 2007 
-| 
+|- style="font-weight: bold; background-color: #ffffcc;" 
+!rowspan="2" | Answer 
+!colspan="2" align="center" | 2006 
+!colspan="2" align="center" | 2007 
+|- style="font-weight: bold; background-color: #ffffcc;"
+!                           Count !!  % sum !!Count !!  % sum 
 |-
-| <rowstyle="font-weight: bold; background-color: #ffffcc;">      Count 
-|  % sum 
-|  Count 
-|  %sum 
-| 
+|  Better                 ||  80  ||  74.1% ||  505 ||  80.0% 
+|-
+|  Equal (comparable)     ||  20  ||  18.5% ||  96  ||  15.2% 
+|-
+|  Worse                  ||  8   ||   7.4% ||  30  ||   4.8% 
+|- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
+| Base                   
+|colspan="2" align="center" |     117 
+|colspan="2" align="center" |     683 
+|- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
+| Total (sum)             ||  108 ||   100% ||  631 ||   100% 
 |}
-<!-- ##----------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-|  Better                 
-|  80  
-|  74.1% 
-|  505 
-|  80.0% 
-| 
-|-
-|  Equal (comparable)     
-|  20  
-|  18.5% 
-|  96  
-|  15.2% 
-| 
-|-
-|  Worse                  
-|  8   
-|   7.4% 
-|  30  
-|   4.8% 
-| 
-|}
-<!-- ##----------------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base                   
-|<-2:>|     117 
-|<-2:>|     683 
-| 
-|-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)            
-|  108 
-|   100% 
-|  631 
-|   100% 
-| 
-|}
-<!-- ##----------------------------------------------------------
- -->
 
 Here not much changed. The shape of this histogram is almost the same, with slight shift towards "better than other SCMs used".
 
@@ -1328,61 +667,26 @@ This question was not present in previous survey.
 
 In 2007 survey there is additional "somewhat useful" answer, which was not present in the 2006 survey.
 
-<!-- ##------------------------------------------------------
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;" rowspan="2"> Answer 
-|<-2:>| 2006 
-|<-2:>| 2007 
-| 
+|- style="font-weight: bold; background-color: #ffffcc;" 
+!rowspan="2" | Answer 
+!colspan="2" align="center" | 2006 
+!colspan="2" align="center" | 2007 
+|- style="font-weight: bold; background-color: #ffffcc;"
+!                       Count !!  % sum !!Count !!  % sum 
 |-
-| <rowstyle="font-weight: bold; background-color: #ffffcc;">      Count 
-|  % sum 
-|  Count 
-|  %sum 
-| 
+|  Yes                ||  88  ||  81.5% ||  377 ||  65.3% 
+|-
+|  No                 ||  20  ||  18.5% ||  28  ||   4.9% 
+|-
+|  Somewhat           ||  -   ||        ||  172 ||  29.8% 
+|- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
+| Base               
+|colspan="2" align="center" |     117 
+|colspan="2" align="center" |     683 
+|- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
+|  Total (sum)        ||  108 ||   100% ||  577 ||   100% 
 |}
-<!-- ##------------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-|  Yes                
-|  88  
-|  81.5% 
-|  377 
-|  65.3% 
-| 
-|-
-|  No                 
-|  20  
-|  18.5% 
-|  28  
-|   4.9% 
-| 
-|-
-|  Somewhat           
-|  -   
-|        
-|  172 
-|  29.8% 
-| 
-|}
-<!-- ##------------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base               
-|<-2:>|     117 
-|<-2:>|     683 
-| 
-|-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)        
-|  108 
-|   100% 
-|  577 
-|   100% 
-| 
-|}
-<!-- ##------------------------------------------------------
- -->
 
 The results are similar: most users find online help useful.
 
@@ -1418,107 +722,47 @@ This questions was not present in previous (2006) survey.
 
 === 53/26. Have you tried to get GIT help from other people? ===
 
-<!-- ##----------------------------------------------------
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;" rowspan="2"> Answer 
-|<-2:>| 2006 
-|<-2:>| 2007 
-| 
+|- style="font-weight: bold; background-color: #ffffcc;" 
+!rowspan="2" | Answer 
+!colspan="2" align="center" | 2006 
+!colspan="2" align="center" | 2007 
+|- style="font-weight: bold; background-color: #ffffcc;"
+!                    Count !!  % sum !!Count !!  % sum 
 |-
-| <rowstyle="font-weight: bold; background-color: #ffffcc;">      Count 
-|  % sum 
-|  Count 
-|  %sum 
-| 
-|}
-<!-- ##---------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-|  Yes             
-|  68  
-|  60.2% 
-|  357 
-|  57.8% 
-| 
+|  Yes             ||  68  ||  60.2% ||  357 ||  57.8% 
 |-
-|  No              
-|  45  
-|  39.8% 
-|  261 
-|  42.2% 
-| 
+|  No              ||  45  ||  39.8% ||  261 ||  42.2% 
+|- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
+| Base            
+|colspan="2" align="center" |     117 
+|colspan="2" align="center" |     683 
+|- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
+|  Total (sum)     ||  113 ||   100% ||  618 ||   100% 
 |}
-<!-- ##---------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base            
-|<-2:>|     117 
-|<-2:>|     683 
-| 
-|-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)     
-|  113 
-|   100% 
-|  618 
-|   100% 
-| 
-|}
-<!-- ##---------------------------------------------------
- -->
 
 Around 60% of people tried to get GIT help from other people, for both current (2007) and previous (2006) survey.
 
 === 54/27. If yes, did you get these problems resolved quickly and to your liking? ===
 
-<!-- ##---------------------------------------------------
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;" rowspan="2"> Answer 
-|<-2:>| 2006 
-|<-2:>| 2007 
-| 
+|- style="font-weight: bold; background-color: #ffffcc;"
+!rowspan="2" | Answer
+!colspan="2" align="center" | 2006 
+!colspan="2" align="center" | 2007 
+|- style="font-weight: bold; background-color: #ffffcc;"
+!                    Count !!  % sum !!Count !!  % sum 
 |-
-| <rowstyle="font-weight: bold; background-color: #ffffcc;">      Count 
-|  % sum 
-|  Count 
-|  %sum 
-| 
-|}
-<!-- ##---------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-|  Yes             
-|  68  
-|  60.2% 
-|  326 
-|  86.0% 
-| 
+|  Yes             ||  68  ||  60.2% ||  326 ||  86.0% 
 |-
-|  No              
-|  45  
-|  39.8% 
-|  53  
-|  14.0% 
-| 
+|  No              ||  45  ||  39.8% ||  53  ||  14.0% 
+|- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
+|  Base            
+|colspan="2" align="center" |     117 
+|colspan="2" align="center" |     683 
+|- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
+|  Total (sum)     ||  113 ||   100% ||  379 ||   100% 
 |}
-<!-- ##---------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base            
-|<-2:>|     117 
-|<-2:>|     683 
-| 
-|-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)     
-|  113 
-|   100% 
-|  379 
-|   100% 
-| 
-|}
-<!-- ##---------------------------------------------------
- -->
 
 The precentage was a bit worse during earlier survey (around 60%) than for corrent one (around 86%).
 
@@ -1532,54 +776,24 @@ This question was not present in previous survey. It was requested during an RFC
 
 === 56/28. Do you read/subscribe the mailing list? ===
 
-<!-- ##---------------------------------------------------
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;" rowspan="2"> Answer 
-|<-2:>| 2006 
-|<-2:>| 2007 
-| 
+|- style="font-weight: bold; background-color: #ffffcc;"
+!rowspan="2" | Answer
+!colspan="2" align="center" | 2006 
+!colspan="2" align="center" | 2007 
+|- style="font-weight: bold; background-color: #ffffcc;"
+!                    Count !!  % sum !!Count !!  % sum 
 |-
-| <rowstyle="font-weight: bold; background-color: #ffffcc;">      Count 
-|  % sum 
-|  Count 
-|  %sum 
-| 
-|}
-<!-- ##---------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-|  Yes             
-|  67  
-|  57.3% 
-|  204 
-|  33.4% 
-| 
+|  Yes             ||  67  ||  57.3% ||  204 ||  33.4% 
 |-
-|  No              
-|  50  
-|  42.7% 
-|  406 
-|  66.6% 
-| 
+|  No              ||  50  ||  42.7% ||  406 ||  66.6% 
+|- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
+|  Base            
+|colspan="2" align="center" |     117 
+|colspan="2" align="center" |     683 
+|- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
+|  Total (sum)     ||  117 ||   100% ||  610 ||   100% 
 |}
-<!-- ##---------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base            
-|<-2:>|     117 
-|<-2:>|     683 
-| 
-|-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)     
-|  117 
-|   100% 
-|  610 
-|   100% 
-| 
-|}
-<!-- ##---------------------------------------------------
- -->
 
 Note that 2006 version had "subscribe" instead of "read" in this question.  Even despite this fact, the number of people reading git mailing list decreased from more than half (around 57%) to around third (around 33%).  This might be caused by the fact that notice / info about Git User's Survey 2006 was distributed mainly among git mailing list and among mailing lists for projects which use git (see also commets to questions 19 and 30).
 
@@ -1592,54 +806,24 @@ Previous (2006) survey has two questions in one here: "If yes, do you find it us
 
 === 59/30. Do you use the IRC channel (#git on irc.freenode.net)? ===
 
-<!-- ##----------------------------------------------------
- -->
 {| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; background-color: #ffffcc;" rowspan="2"> Answer 
-|<-2:>| 2006 
-|<-2:>| 2007 
-| 
+|- style="font-weight: bold; background-color: #ffffcc;"
+!rowspan="2" | Answer
+!colspan="2" align="center" | 2006 
+!colspan="2" align="center" | 2007 
+|- style="font-weight: bold; background-color: #ffffcc;"
+!                     Count !!  % sum !!Count !!  % sum 
 |-
-| <rowstyle="font-weight: bold; background-color: #ffffcc;">      Count 
-|  % sum 
-|  Count 
-|  %sum 
-| 
-|}
-<!-- ##----------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-|  Yes              
-|  23  
-|  19.8% 
-|  182 
-|  32.6% 
-| 
+|  Yes              ||  23  ||  19.8% ||  182 ||  32.6% 
 |-
-|  No               
-|  93  
-|  80.2% 
-|  376 
-|  67.4% 
-| 
+|  No               ||  93  ||  80.2% ||  376 ||  67.4% 
+|- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
+|  Base             
+|colspan="2" align="center" |     117 
+|colspan="2" align="center" |     683 
+|- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
+|  Total (sum)      ||  116 ||   100% ||  558 ||   100% 
 |}
-<!-- ##----------------------------------------------------
- -->
-{| border="1" cellpadding="2" cellspacing="0"
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Base             
-|<-2:>|     117 
-|<-2:>|     683 
-| 
-|-
-| <rowstyle="font-weight: bold; font-style: italic; background-color: #ccffff;"> Total (sum)      
-|  116 
-|   100% 
-|  558 
-|   100% 
-| 
-|}
-<!-- ##----------------------------------------------------
- -->
 
 More people use #git channel now (33% as compared to 20% before).
 
@@ -1664,7 +848,10 @@ This question was not present in previous survey.
 ----
 == References ==
 
-* [[GitSurvey2006]] - Git User's Survey 2006 (previous and first one)
-* [[GitSurvey2007]] - Git User's Survey 2007 (current)
+* [[GitSurvey2006]] - Git User's Survey 2006 (first one)
+* [[GitSurvey2007]] - Git User's Survey 2007
+
+----
+[[Category:Statistics]]
 
 __NOTOC__
