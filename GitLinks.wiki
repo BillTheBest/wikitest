@@ -134,6 +134,7 @@ Also see [[BlogPosts]] for a collection of blog posts on specific Git usage.
 * [http://www.advogato.org/person/apenwarr/diary/371.html Git is the next Unix]: blog by apenwarr.
 * [http://codemac.net/blog/18/ Git's Killer Feature]: blog by Jeff Mickey.
 * [http://gitfu.wordpress.com/ git-fu]: A blog created to make people aware of cool advanced features and dispel myths about git.
+* [http://blogs.intland.com/main/entry/50 Going Agile with Git and codeBeamer]: A tutorial workshop originally developed for telco involved in Android development. Keywords: Git, codeBeamer, agile.
 
 Below there are blogs by gitters:
 * [http://gitster.livejournal.com/tag/git gitster's journal], Junio C Hamano (git maintainer) blog (articles tagged ''git'').
