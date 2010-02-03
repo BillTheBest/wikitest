@@ -150,7 +150,7 @@ The key things that I like about Git are:
 * - Branch merges are recorded as part of the proper history of the
 ** repository.  If I merge two branches together, or if I merge a branch back into the trunk it came from, that merge operation is recorded as part of the repostory history as having been performed by me, and when.  It's hard to dispute who performed the merge when it's right there in the log.
 * - Creating a repository is a trivial operation:
-** mkdir foo; cd foo; git init-db
+** mkdir foo; cd foo; git init
 ** That's it.  Which means I create a Git repository for everything these days.  I tend to use one repository per class.  Most of those repositories are under 1 MB in disk as they only store lecture notes, homework assignments, and my LaTeX answers.
 * - The repository's internal file formats are incredible simple.
 ** This means repair is very easy to do, but even better because it's so simple its very hard to get corrupted.  I don't think anyone has ever had a Git repository get corrupted.  I've seen Subversion with fsfs corrupt itself.  And I've seen Berkley DB corrupt itself too many times to trust my code to the bdb backend of Subversion.
