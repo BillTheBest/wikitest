@@ -381,6 +381,9 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * LiveCD-tools
 ** http://fedoraproject.org/wiki/FedoraLiveCD (homepage)
 ** http://gitweb.freedesktop.org/?p=users/david/livecd-tools.git (gitweb)
+* lpOD (languages & platforms OpenDocument ; to illustrate some typical features of the python API a CookBook and a set of command line tools to manipulate various spreadsheet (ODS), presentation (ODP), and text (ODT) document contents is provide)
+** http://lpod-project.org (homepage)
+** http://code.lpod-project.org (gitweb)
 * LScube projects
 ** http://live.polito.it (homepage)
 ** http://live.polito.it/gitweb (gitweb)
