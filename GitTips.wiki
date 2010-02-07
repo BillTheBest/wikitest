@@ -396,10 +396,30 @@ Host public.host.com
 and now you can ssh to "host.com" using different identities by just using "private.host.com" and "public.host.com" respectively.
 
 = Mail =
+
+{{anchor|gmail}}
+
+== Using gmail to send your patches ==
+git send-email now supports TSL/SSL, so using gmail is as simple as setting the following configuration variables:
+<pre><nowiki>
+[sendemail]
+    smtpencryption = tls
+    smtpserver = smtp.gmai.com
+    smtpuser = yourname@gmail.com
+    smptserverport = 587
+</nowiki></pre>
+
+It'll ask you for your password when you're sending the emails. Like so:
+
+<pre><nowiki>
+git format-patch --no-color -C -M origin/master..topic-branch -o outgoing/
+git send-email --compose outgoing/00*
+</nowiki></pre>
+
 {{anchor|msmtp}}
 
 == Using msmtp to send your patches ==
-NOTE: git send-email supports TLS/SSL now.
+NOTE: git send-email supports TLS/SSL now.  If you are looking for gmail tips see the section above.
 
 Mailing off a set of patches to a mailing list can be quite neatly done by git-send-email. One of the problems you may encounter there is figuring out which machine is going to send your mail. I tried smtp.gmail.com, but that one requires tls and a password, and git-send-email could not handle that.
 
