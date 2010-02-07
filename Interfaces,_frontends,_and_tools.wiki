@@ -134,7 +134,7 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 * [http://qct.sourceforge.net/ Qct] ([http://bitbucket.org/sborho/qct/overview/ hg repo]) by Steve Borho is Qt/PyQt based GUI commit tool, meant to be SCM and platform agnostic. Supports Mercurial (`hg`), Bazaar (`bzr`), Cogito (but not Git directly atm), Subversion (`svn`), Monotone (`mnt`) and CVS. The [http://hg.borho.org/qct/rev/5c5bdab35c08 README] mentions gct (also on this page), as an alternative supporting plain git.
 
 === git-cola ===
-* [http://cola.tuxfamily.org/ git-cola] ([http://repo.or.cz/w/git-cola.git gitweb], [http://github.com/davvid/git-cola/tree/master github], [http://gitorious.org/projects/git-cola/ gitorious]) by David Aguilar is a git commit tool, similar to git-gui, written in PyQt4. You can get tarballs and debian packages at http://cola.tuxfamily.org/.
+* [http://cola.tuxfamily.org/ git-cola] ([http://repo.or.cz/w/git-cola.git gitweb], [http://github.com/davvid/git-cola/tree/master github]) by David Aguilar is a git commit tool, similar to git-gui, written in PyQt4. You can get tarballs at http://cola.tuxfamily.org/.  Native packages exist for Debian, Fedora, and Arch.  Mac OSX and Windows binaries are available on the website.
 
 === teamGit ===
 * teamGit (http://www.devslashzero.com/teamgit) by Abhijit Bhopatkar is a successor of kgit. It is intended to be a complete developmenet workflow management app with git as a base tool. As of oct 2008 it can be used as a pretty good commit tool. Please see feature table below.
@@ -277,7 +277,7 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 | 2007 
 | 2008 
 | 2008 
-| 2009 
+| 2010 
 | 2008 
 | 2008 
 | 2008 
