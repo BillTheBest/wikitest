@@ -303,6 +303,8 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * GNOME : Free Software Desktop Project
 ** http://www.gnome.org/ (home page)
 ** http://git.gnome.org/cgit/ (cgit web interface)
+* Gobby - a free collaborative editor
+** http://gobby.0x539.de/ (hompage)
 * GSL - GNU Scientific Library
 ** http://www.gnu.org/software/gsl/ (homepage)
 ** https://savannah.gnu.org/projects/gsl (project page)
