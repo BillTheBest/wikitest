@@ -51,11 +51,11 @@ All documentation residing on this wiki is put in the [[Category:GitDocumentatio
 * [http://linux.yyz.us/git-howto.html The Kernel Hacker's Git Tutorial] by Jeff Garzik
 * [http://git.rsbx.net/ Documents and Notes] by Raymond S Brand -Out of date? (edit if not)
 * [http://www.golden-gryphon.com/software/misc/packaging.html Packaging Software using Git] is an analysis of schemes people use for packaging.
-  See also [http://vcs-pkg.org/ vcs-pkg] project, aim of which is to investigate the use of version control for distro package maintenance.
+: See also [http://vcs-pkg.org/ vcs-pkg] project, aim of which is to investigate the use of version control for distro package maintenance.
 * [http://www.jinx.de/teclog/Entries/2009/1/15_Git_and_DMG_build_scripts_for_Xcode.html Git scripts for Xcode users] Build and distribution scripts for Xcode can now also found on [http://github.com/jollyjinx/jnxfree github].
 * Slides from [http://www.breitbandig.de/git/git-as-cvs-en.odp Git as cvs replacement talk] (for cvs refugees) and [http://www.breitbandig.de/git/advanced-git-en.odp Advanced Git talk] by Thomas Pasch
 * [http://www.ralfebert.de/blog/tools/visual_git_tutorial_1/ Visual git tutorial] - The visual git tutorial explains how to locally track project files. It shows how to add and commit changes, how to browse the history, revert changes and how to work with tags and branches.
-* [http://www.eqqon.com/index.php/Collaborative_Github_Workflow Collaborative git workflow] explains how to collaborate with git on an open source project that is (not necessarily) hosted on [[GitHub]].
+* [http://www.eqqon.com/index.php/Collaborative_Github_Workflow Collaborative git workflow] explains how to collaborate with git on an open source project that is (not necessarily) hosted on GitHub.
 * [http://wiki.impressive-media.de/doc/git-%C3%BCber-apache-und-webdav-git-%C3%BCber-http HowTo: Installation of Apache WebDAV for git over http]
 * [http://wiki.impressive-media.de/doc/git-165-unter-debian-lenny-bzw-ubuntu-jaunty HowTo: Installation of git 1.6.5 under Debain Lenny and Ubuntu Jaunty]
 * [http://wiki.impressive-media.de/doc/braid-f%C3%BCr-git-installieren-debian-lenny HowTo: Installation and tutorial of Braid (submodule alternative)]
