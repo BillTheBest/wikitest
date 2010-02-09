@@ -404,7 +404,7 @@ git send-email now supports TSL/SSL, so using gmail is as simple as setting the 
 <pre><nowiki>
 [sendemail]
     smtpencryption = tls
-    smtpserver = smtp.gmai.com
+    smtpserver = smtp.gmail.com
     smtpuser = yourname@gmail.com
     smptserverport = 587
 </nowiki></pre>
