@@ -1,27 +1,9 @@
-Git's application to Google's Summer of Code 2009.
-
-'''Note:''' this page assumes that the application questions will be the same as last year for now.
+Git's application to Google's Summer of Code 2010.
 
 Nobody has volunteered to submit the application and serve
 as our group's primary contact yet.
 
-'' Link ID ''
-
-git
-
-'' Group Name ''
-
-Git Development Community
-
-'' Home Page URL ''
-
-[http://git-scm.com/ http://git-scm.com/]
-
-'' Public Email ''
-
-git@vger.kernel.org
-
-'' Description ''
+== Description ==
 
 Git is close to five years old, and it is probably the most successful revision control system in Open Source by now. Many of the largest and most successful
 open source projects use it, including the Linux kernel, X.org, BlueZ, Cairo, DragonFly BSD, Etherboot, One Laptop Per Child, Perl, Samba, Thousand Parsec, The Wine Project, VideoLAN, XMMS2, etc.
@@ -30,7 +12,7 @@ This achievement is the product of the lively Git development
 community, a loose-knit team of developers, technical writers, and
 end users with a passion for high quality open-source development.
 
-'' Why is your group applying to participate? What do you hope to gain by participating? ''
+== Why is your organization applying to participate in GSoC 2010? What do you hope to gain by participating? ==
 
 During GSoC 2007 Git had two successful student projects.  Although
 both students contributed useful code to the community, the biggest
@@ -48,30 +30,7 @@ By participating in GSoC 2010 the Git community hopes to attract
 more new talent to our community, and convert that talent into
 long-term contributors and high-quality enhancements to Git.
 
-'' What is the main public mailing list for your group? ''
-
-git@vger.kernel.org
-
-'' What is the main IRC channel for your group? ''
-
-<nowiki>#git (on freenode)</nowiki>
-
-'' What criteria do you use to select the mentors of your group?  Please be as specific as possible. ''
-
-All mentors volunteered for the specific project(s) that they could
-contribute the most to.  All mentors are active contributors within
-the Git development community.
-
-Active contributors are defined to be those who have submitted and
-have had accepted into a shipped release a substantial amount of
-code. Substantial amount of code is defined to be equal in size (or
-larger) to what might be reasonably expected of a student working
-on a Google Summer of Code project.
-
-All mentors are well known within the Git development community
-for their accomplishments and contributions.
-
-'' Has your group participated previously?  If so, please summarize your involvement and any past successes and failures. ''
+== Did your organization participate in past GSoCs? If so, please summarize your involvement and the successes and challenges of your participation ==
 
 During GSoC 2007 we had two student projects ("GIT library project",
 "Replace most core scripts with C versions") mentored by two of our
@@ -116,27 +75,50 @@ and the GitTorrent projects could have shared some effort, and in
 general, the students did not benefit from the competence of the
 non-mentor community members as much as they could have.
 
-'' If your group has not previously participated, have you applied in the past?  If so, for what sort of participation? ''
+== If your organization has not previously participated in GSoC, have you applied in the past? If so, for what year(s)? ==
 
 N/A
 
-'' What license does your project use? ''
+== What license(s) does your project use? ==
 
 GPL (GNU Public License), version 2
 
-'' What is the URL for your ideas page? ''
+== What is the URL for your ideas page? ==
 
 http://git.wiki.kernel.org/index.php/SoC2010Ideas
 
-'' What is the main development mailing list for your group? ''
+== What is the main development mailing list for your organization? ==
 
 git@vger.kernel.org
 
-'' What is the application template you would like students to your organization to use. ''
+== What is the main IRC channel for your organization? ==
+
+<nowiki>#git (on freenode)</nowiki>
+
+== Does your organization have an application template you would like to see students use? If so, please provide it now ==
 
 http://git.wiki.kernel.org/index.php/SoC2008Template 
 
-'' What is your plan for dealing with disappearing students? ''
+== Who will be your backup organization administrator? ==
+
+Johannes Schindelin
+
+== What criteria did you use to select individuals as mentors? Please be as specific as possible ==
+
+All mentors volunteered for the specific project(s) that they could
+contribute the most to.  All mentors are active contributors within
+the Git development community.
+
+Active contributors are defined to be those who have submitted and
+have had accepted into a shipped release a substantial amount of
+code. Substantial amount of code is defined to be equal in size (or
+larger) to what might be reasonably expected of a student working
+on a Google Summer of Code project.
+
+All mentors are well known within the Git development community
+for their accomplishments and contributions.
+
+== What is your plan for dealing with disappearing students? ==
 
 Every reasonable effort will be made to maintain contact with
 students and ensure they are making progress throughout the summer.
@@ -153,7 +135,7 @@ help students to feel like they have accomplished something useful
 sooner, as well as making it easier for the Git community to pick
 up an abandoned project.
 
-'' What is your plan for dealing with disappearing mentors? ''
+== What is your plan for dealing with disappearing mentors? ==
 
 Most of our suggested projects have more than one mentor available.
 As a community we plan on making sure all of the active projects have
@@ -169,7 +151,7 @@ replacement mentor would already be familiar with the student and
 the project, as many community members routinely review code and
 discussions on the mailing list.
 
-''What steps will you take to encourage students to interact with your project's community before, during and after the program?''
+== What steps will you take to encourage students to interact with your project's community before, during and after the program? ==
 
 Students will be required to join the main development mailing
 list, and post their patches for discussion to same.  All current
@@ -204,7 +186,7 @@ questions and ideas to the mailing list, and to discuss them on #git.
 Most developers either already hold "office-hours" on IRC, or have
 agreed to do so during GSoC '10.
 
-''What will you do to ensure that your accepted students stick with the project after the program concludes?''
+== What will you do to ensure that your accepted students stick with the project after GSoC concludes? ==
 
 GSoC will be a good introduction to Git (both the technology and the
 community) for the students.  Once they know Git and are "hooked",
@@ -225,9 +207,3 @@ the quality of their work.  We hope that students will realize this
 unique opportunity during GSoC and continue staying active within
 the community even after GSoC '10 completes, just like many of our previous GSoC
 students did.
-
-'' Backup organization administrator? ''
-
-Johannes Schindelin
-
-__NOTOC__
