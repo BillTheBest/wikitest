@@ -29,4 +29,16 @@ An implementation of the recursive merge will allow easy implementation of ''che
 ''Language:'' Java.<br>
 ''Mentor:''  Johannes Schindelin<br>
 
+== A remote helper for svn ==
+
+Since the 1.6.6 release git has support for 'remote helpers'. These are standalone programs that allow git to talk to foreign scm's. On the other side, git has had support for 'git-svn' for quite a while now, providing (somewhat clumsy) support for working with svn repositories with git.
+
+In order to make working with svn repositories as easy as working with regular git repositories, a new remote helper needs to be written that will bridge between svn and git. This can be done either by rewriting the current 'git svn' code (which is written in perl, and somewhat arcane), or by creating a helper from scratch, possibly using the svn bindings directly (although that might result in licensing conflicts).
+
+Implementing a remote helper is fairly simple, it can be as simple as hooking up an implementation of fast-export and fast-import for the target source. Doing so has a lot of advantages though, since it allows users to ''natively'' access the other vcs. That is, at the end of the project, 'git clone svn://example.com' will Just Work. Remote helpers can be implemented in any language (as long as they speak the already defined 'remote-helper' protocol), but unless there is a very compelling reason not to, should be implemented in C, perl, or python.
+
+''Goal:'' Create a remote-helper for svn.<br>
+''Language:'' C, perl, or python.<br>
+''Mentor:''  Sverre Rabbelier<br>
+
 __NOTOC__
