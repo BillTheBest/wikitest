@@ -1134,6 +1134,9 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 
 == Other tools ==
 
+=== bup ===
+* ''bup'' ([http://github.com/apenwarr/bup github]) by Avery Pennarun is software that can efficiently backup large amounts of data (hundreds of GB) across large numbers of files (millions), using a git-formatted repository as storage.  It also efficiently stores huge individual files, such as virtual machine disks, and can backup directly to a remote machine rather than using space on the local machine.  A FUSE module is included so you can mount your backup repository as a filesystem and restore files that way.<BR>''See also:'' [http://apenwarr.ca/log/?m=201001#04 Bup: it backs things up] blog post (and [http://news.ycombinator.com/item?id=1029990 comments]).
+
 === git-completion.bash (in `contrib/completion`) ===
 * Bash tab-completion shipped with core Git. Inspired by and superceeds the tab-completion provided by gitcompletion (see below). Completion support is provided for almost all commands, including completion of local and remote reference names and long command line options.
 
