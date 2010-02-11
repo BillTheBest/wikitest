@@ -51,4 +51,15 @@ More details of the proposed updates here (copied from a Google wave page on the
 ''Language:'' C<br>
 ''Possible Mentors:'' Scott Chacon / Sam Vilain<br>
 
+== libgit2 ==
+
+Git's source code was not written to be reentrant, but to execute a program doing a specific task, and then exit. This is not really useful if you want to access a Git repository using a library rather than executing a program, catching and parsing its output. Further, some companies seem to be put off by the GPL that applies to Git's source code, and would prefer a BSD licensed library to base their product on.
+
+Shawn Pearce already started libgit2, but as of now most functions are not implemented. This project's purpose is to implement most of these functions, and maybe provide language bindings for Python, Ruby, etc.
+
+"Goal": Implement enough of libgit2 to access a Git repository from a C program and/or a Python/Ruby/Whatever script. 
+"Language": C, doxygen 
+"Possible Mentors": Andreas Ericsson (ae@op5.com)
+"Suggested By": Scott Chacon
+
 __NOTOC__
