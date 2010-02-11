@@ -166,6 +166,9 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 === StupidGit ===
 * [http://wiki.github.com/gyim/stupidgit StupidGit] by Ákos Gyimesi is a cross-platform git GUI written in wxPython. It tries to be easy to use for beginners and has advanced support for submodules. It is quite early in development, but already implements many features including merge, cherry-pick and easy switching between versions.
 
+=== Gource ===
+* [http://code.google.com/p/gource/ Gource] is a software version control visualization tool.  Software projects are displayed by Gource as an [http://code.google.com/p/gource/wiki/Videos animated] tree with the root directory of the project at its centre. Directories appear as branches with files as leaves. Developers can be seen working on the tree at the times they contributed to the project. 
+
 === Summary (feature matrix) ===
 <!-- ## table begin
  -->
