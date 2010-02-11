@@ -68,7 +68,7 @@ There is plenty of various visual commit history browsers, but little has been t
 
 Petr Baudis already implemented a simple proof-of-concept tool [git://repo.or.cz/giddy.git giddy], however it stopped at providing trivial point-and-click pickaxe interface and visualizing diffs within the file; it cannot visualize the fragment's "path" through history or follow it across changes within the fragment. Giddy might be used as a base for this project, or the implementation could start from scratch. The project will involve combination of routine GUI development, smart UI design and research of proper heuristics to allow compensation against changes within the fragment.
 
-''Goal:'' Graphical application allowing to easily select a content fragment and visualize its history and movement even through smaller changes within the fragment.
+''Goal:'' Graphical application allowing to easily select a content fragment and visualize its history and movement even through smaller changes within the fragment.<br>
 ''Language:'' Reasonably portable with low startup time; ideally C/C++/Perl/Python.<br>
 ''Possible Mentor:'' Petr Baudis<br>
 
