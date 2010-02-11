@@ -57,9 +57,9 @@ Git's source code was not written to be reentrant, but to execute a program doin
 
 Shawn Pearce already started libgit2, but as of now most functions are not implemented. This project's purpose is to implement most of these functions, and maybe provide language bindings for Python, Ruby, etc.
 
-"Goal": Implement enough of libgit2 to access a Git repository from a C program and/or a Python/Ruby/Whatever script. 
-"Language": C, doxygen 
-"Possible Mentors": Andreas Ericsson (ae@op5.com)
-"Suggested By": Scott Chacon
+"Goal": Implement enough of libgit2 to access a Git repository from a C program and/or a Python/Ruby/Whatever script. <br/>
+"Language": C, doxygen <br/>
+"Possible Mentors": Andreas Ericsson (ae@op5.com)<br/>
+"Suggested By": Scott Chacon<br/>
 
 __NOTOC__
