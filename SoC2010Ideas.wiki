@@ -70,6 +70,6 @@ Petr Baudis already implemented a simple proof-of-concept tool [git://repo.or.cz
 
 ''Goal:'' Graphical application allowing to easily select a content fragment and visualize its history and movement even through smaller changes within the fragment.
 ''Language:'' Reasonably portable with low startup time; ideally C/C++/Perl/Python.<br>
-''Mentor:'' Petr Baudis<br>
+''Possible Mentor:'' Petr Baudis<br>
 
 __NOTOC__
