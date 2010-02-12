@@ -87,3 +87,15 @@ An implementation of the recursive merge will allow easy implementation of ''che
 ''Goal:'' Implement the recursive merge algorithm in JGit.<br>
 ''Language:'' Java.<br>
 ''Mentor:''  Johannes Schindelin<br>
+
+== jrebase -i ==
+
+One of the parts of Git most liked by power users is the ''interactive rebase''. This project is about having the same functionality and more in the Java implementation of Git.
+
+With a proper GUI, this could even be used in EGit.
+
+This project relies on the ''recursive merge in JGit'' project.
+
+''Goal:'' Implement 'rebase -i' in JGit.<br>
+''Language:'' Java.<br>
+''Mentor:''  Johannes Schindelin<br>
