@@ -38,7 +38,7 @@ In order to make working with svn repositories as easy as working with regular g
 Implementing a remote helper is fairly simple, it can be as simple as hooking up an implementation of fast-export and fast-import for the target source. Doing so has a lot of advantages though, since it allows users to ''natively'' access the other vcs. That is, at the end of the project, 'git clone svn://example.com' will Just Work. Remote helpers can be implemented in any language (as long as they speak the already defined 'remote-helper' protocol), but unless there is a very compelling reason not to, should be implemented in C, perl, or python.
 
 ''Goal:'' Create a remote-helper for svn.<br>
-''Language:'' C, perl, or python.<br>
+''Language:'' C (preferred), perl, or python.<br>
 ''Mentor:''  Sverre Rabbelier<br>
 
 == Git Fetch/Clone Mirror Support ==
