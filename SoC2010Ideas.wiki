@@ -117,3 +117,21 @@ This project relies on the ''recursive merge in JGit'' project.
 ''Goal:'' Implement 'rebase -i' in JGit.<br>
 ''Language:'' Java.<br>
 ''Mentor:''  Johannes Schindelin<br>
+
+= Platform-specific projects =
+
+== Several small projects improving msysGit ==
+
+The msysGit project provides everything you need to compile Git for Windows (except Windows).
+
+A couple of projects are in early stages, but lack the time of a GSoC project to be completed:
+
+* Add new functions to ''Git Cheetah'', our TortoiseCVS lookalike (which is already cross-platform, thanks to Heiko Voigt, but needs more functions).
+* Provide a script compiling Perl with Subversion bindings for MinGW (rather than MSys). This should make all Perl-related stuff in Git for Windows much, much faster.
+* Provide a script compiling Python within msysGit (we will need Python support once Sverre and Johan manage to finalize their Mercurial and CVS remote helpers, respectively).
+* Provide a recipe how to cross-compile a full Git for Windows installer on Linux (the biggest problem is how to get InnoSetup to run).
+* Describe the common msysGit workflows to increase the bus number of the msysGit project.
+
+''Goal:'' Provide long-needed improvements to msysGit.<br>
+''Language:'' C. Pascal. Wiki markup.<br>
+''Mentor:''  Johannes Schindelin<br>
