@@ -53,17 +53,6 @@ Implementing a remote helper is fairly simple, it can be as simple as hooking up
 ''Language:'' C (preferred), perl, or python.<br>
 ''Mentor:''  Sverre Rabbelier<br>
 
-== libgit2 ==
-
-Git's source code was not written to be reentrant, but to execute a program doing a specific task, and then exit. This is not really useful if you want to access a Git repository using a library rather than executing a program, catching and parsing its output. Further, some companies seem to be put off by the GPL that applies to Git's source code, and would prefer a BSD licensed library to base their product on.
-
-Shawn Pearce already started libgit2, but as of now most functions are not implemented. This project's purpose is to implement most of these functions, and maybe provide language bindings for Python, Ruby, etc.
-
-"Goal": Implement enough of libgit2 to access a Git repository from a C program and/or a Python/Ruby/Whatever script. <br/>
-"Language": C, doxygen <br/>
-"Possible Mentors": Andreas Ericsson (ae@op5.com)<br/>
-"Suggested By": Scott Chacon<br/>
-
 == Content History Browser ==
 
 There is plenty of various visual commit history browsers, but little has been tried yet with regards to the really innovative stuff Git allows thanks to its speedy history access, and what has been envisioned at the dawn of some of Git's basic design choices. This project should try to create a graphical interface where the content is the primary object (instead of the commits) and that allows to easily visually follow history of certain content fragment (simply mouse selection, or auto-selection of certain code block, ...): how it moved within a single file and between files, when did it appear, who changed the code block in which way.
@@ -73,6 +62,19 @@ Petr Baudis already implemented a simple proof-of-concept tool [git://repo.or.cz
 ''Goal:'' Graphical application allowing to easily select a content fragment and visualize its history and movement even through smaller changes within the fragment.<br>
 ''Language:'' Reasonably portable with low startup time; ideally C/C++/Perl/Python.<br>
 ''Possible Mentor:'' Petr Baudis<br>
+
+= libgit2 =
+
+== Complete libgit2 ==
+
+Git's source code was not written to be reentrant, but to execute a program doing a specific task, and then exit. This is not really useful if you want to access a Git repository using a library rather than executing a program, catching and parsing its output. Further, some companies seem to be put off by the GPL that applies to Git's source code, and would prefer a BSD licensed library to base their product on.
+
+Shawn Pearce already started libgit2, but as of now most functions are not implemented. This project's purpose is to implement most of these functions, and maybe provide language bindings for Python, Ruby, etc.
+
+"Goal": Implement enough of libgit2 to access a Git repository from a C program and/or a Python/Ruby/Whatever script. <br/>
+"Language": C, doxygen <br/>
+"Possible Mentors": Andreas Ericsson (ae@op5.com)<br/>
+"Suggested By": Scott Chacon<br/>
 
 = EGit/JGit related projects  =
 
