@@ -72,4 +72,16 @@ Petr Baudis already implemented a simple proof-of-concept tool [git://repo.or.cz
 ''Language:'' Reasonably portable with low startup time; ideally C/C++/Perl/Python.<br>
 ''Possible Mentor:'' Petr Baudis<br>
 
+== git sequencer again ==
+
+There was a "git sequencer" GSoC 2008 project, the student was Stephan Beyer and the mentors were Christian Couder and Daniel Barkalow. This project came up with some working code but it did not get merged.
+
+The goal of this project is to take some features, ideas and/or code from the former git sequencer project and other related efforts by Christian Couder to port "rebase -i" to C, and to step by step get them properly integrated and merged into Git mainline.
+
+One intermediate step could be to have something like "git cherry-pick A..B" that many people have asked for.
+
+''Goal:'' Get some git sequencer related features properly merged.<br>
+''Language:'' C<br>
+''Mentor:''  Christian Couder<br>
+
 __NOTOC__
