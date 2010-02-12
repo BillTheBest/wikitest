@@ -37,7 +37,7 @@ Like "git log", it should be possible to see the commits, the diffs (restricted 
 
 Some of above functionality can be found in graphical blame browsers such like sample program blameview from `contrib/` (Perl, Gtk2), or "git gui blame" (Tcl/Tk), or [http://wiki.github.com/krig/git-age git-age] 'blame visualizer' (PyGTK).
 
-Note that this project is about providing a command line program, accessing the objects directly for better performance. This is not the same as ''Giddy'', which is just a frontend to ''pickaxe''.
+Note that this project is about providing a ''command line'' program working at line level (and certainly accessing the objects directly for best performance). This is not the same as ''Giddy'' (see below), which is a ''graphical'' tool working on arbitrary content fragments (and possibly just using Git's ''pickaxe'' interface).
 
 ''Goal:'' A program that can follow history of line ranges.
 <BR>''Language:'' C
