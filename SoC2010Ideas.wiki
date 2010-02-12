@@ -1,9 +1,33 @@
 ''Table of Contents:''
 __TOC__
 ----
-= Git Community projects =
-
 Git plans to apply for the Google Summer of Code 2010.  Although we have not been accepted yet, here are a few interesting projects:
+
+= Projects touching the core of Git =
+
+== Git Fetch/Clone Mirror Support ==
+
+Git automatic mirroring is a system for making Git repositories distribute automatically. It is the first stage of more general P2P features planned.  The idea is that when fetching data from a server, the server can inform the client of mirrors of the repository, which the client can fetch the majority of the data from, then fetch any remaining objects from the main server.  This way large Git projects can be served from local mirrors for distributed teams, or large hosts such as git.kernel.org or github can effectively offload bandwidth to closer or more lightly loaded servers.
+
+More details of the proposed updates here (copied from a Google wave page on the subject) : http://gist.github.com/301798
+
+''Goal:'' Allow Git fetch (client) and upload-pack (server) commands to list and partially fetch from mirror servers.<br>
+''Language:'' C<br>
+''Possible Mentors:'' Scott Chacon / Sam Vilain<br>
+
+== git sequencer again ==
+
+There was a "git sequencer" GSoC 2008 project, the student was Stephan Beyer and the mentors were Christian Couder and Daniel Barkalow. This project came up with some working code but it did not get merged.
+
+The goal of this project is to take some features, ideas and/or code from the former git sequencer project and other related efforts by Christian Couder to port "rebase -i" to C, and to step by step get them properly integrated and merged into Git mainline.
+
+One intermediate step could be to have something like "git cherry-pick A..B" that many people have asked for.
+
+''Goal:'' Get some git sequencer related features properly merged.<br>
+''Language:'' C<br>
+''Mentor:''  Christian Couder<br>
+
+= Add-ons to Git =
 
 == Merge helper for LaTeX files ==
 
@@ -17,18 +41,6 @@ Therefore, a tool is needed which uses Git's output to present the differences b
 ''Language:'' As preferred by the student, but it should be portable between Linux, MacOSX and Windows.<br>
 ''Mentor:''  Johannes Schindelin<br>
 
-== An implementation of Git's recursive merge in JGit ==
-
-The recursive merge algorithm is surprisingly powerful for its simplicity. A few fine points have to be taken care of, though, such as rename detection and file/directory conflicts.
-
-The basic building block, however, is a diff algorithm, and JGit recently got its own implementation of that.
-
-An implementation of the recursive merge will allow easy implementation of ''cherry-pick'', and consequently of ''rebase -i'', too.
-
-''Goal:'' Implement the recursive merge algorithm in JGit.<br>
-''Language:'' Java.<br>
-''Mentor:''  Johannes Schindelin<br>
-
 == A remote helper for svn ==
 
 Since the 1.6.6 release git has support for 'remote helpers'. These are standalone programs that allow git to talk to foreign scm's. On the other side, git has had support for 'git-svn' for quite a while now, providing (somewhat clumsy) support for working with svn repositories with git.
@@ -40,16 +52,6 @@ Implementing a remote helper is fairly simple, it can be as simple as hooking up
 ''Goal:'' Create a remote-helper for svn.<br>
 ''Language:'' C (preferred), perl, or python.<br>
 ''Mentor:''  Sverre Rabbelier<br>
-
-== Git Fetch/Clone Mirror Support ==
-
-Git automatic mirroring is a system for making Git repositories distribute automatically. It is the first stage of more general P2P features planned.  The idea is that when fetching data from a server, the server can inform the client of mirrors of the repository, which the client can fetch the majority of the data from, then fetch any remaining objects from the main server.  This way large Git projects can be served from local mirrors for distributed teams, or large hosts such as git.kernel.org or github can effectively offload bandwidth to closer or more lightly loaded servers.
-
-More details of the proposed updates here (copied from a Google wave page on the subject) : http://gist.github.com/301798
-
-''Goal:'' Allow Git fetch (client) and upload-pack (server) commands to list and partially fetch from mirror servers.<br>
-''Language:'' C<br>
-''Possible Mentors:'' Scott Chacon / Sam Vilain<br>
 
 == libgit2 ==
 
@@ -72,16 +74,16 @@ Petr Baudis already implemented a simple proof-of-concept tool [git://repo.or.cz
 ''Language:'' Reasonably portable with low startup time; ideally C/C++/Perl/Python.<br>
 ''Possible Mentor:'' Petr Baudis<br>
 
-== git sequencer again ==
+= EGit/JGit related projects  =
 
-There was a "git sequencer" GSoC 2008 project, the student was Stephan Beyer and the mentors were Christian Couder and Daniel Barkalow. This project came up with some working code but it did not get merged.
+== An implementation of Git's recursive merge in JGit ==
 
-The goal of this project is to take some features, ideas and/or code from the former git sequencer project and other related efforts by Christian Couder to port "rebase -i" to C, and to step by step get them properly integrated and merged into Git mainline.
+The recursive merge algorithm is surprisingly powerful for its simplicity. A few fine points have to be taken care of, though, such as rename detection and file/directory conflicts.
 
-One intermediate step could be to have something like "git cherry-pick A..B" that many people have asked for.
+The basic building block, however, is a diff algorithm, and JGit recently got its own implementation of that.
 
-''Goal:'' Get some git sequencer related features properly merged.<br>
-''Language:'' C<br>
-''Mentor:''  Christian Couder<br>
+An implementation of the recursive merge will allow easy implementation of ''cherry-pick'', and consequently of ''rebase -i'', too.
 
-__NOTOC__
+''Goal:'' Implement the recursive merge algorithm in JGit.<br>
+''Language:'' Java.<br>
+''Mentor:''  Johannes Schindelin<br>
