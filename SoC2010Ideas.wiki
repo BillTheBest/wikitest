@@ -5,6 +5,21 @@ Git plans to apply for the Google Summer of Code 2010.  Although we have not bee
 
 = Projects touching the core of Git =
 
+== Git Submodules Enhancements ==
+
+Git submodules are architecturally nice, but could do with more work on its user interface and functionality.  Tasks carried out by tools like repo (used for Android) could be accommodated by core git functionality.
+
+Major bugs:
+* the submodules in a git checkout do not work as regular files do in general through the git plumbing, it would be nice to fix that.  eg, switching between branches with submodules in a different layout should be more transparent.
+* specifying a symbolic branch name to check out in .gitmodules, and making the default behaviour on 'git submodule update' to check out that branch would be useful
+* it's far too easy to create a commit in a supermodule which contains a commit which does not yet exist in the submodule repo.  This should require forcing
+* It should be possible to use relative URLs in .gitmodules
+* Enhancements to tools and CLIs to make working with submodules more easy.
+
+''Goal:'' Get one or more of the above major bugs fixed and the changes accepted into git core.
+''Language:'' C<br>
+
+
 == Git Fetch/Clone Mirror Support ==
 
 Git automatic mirroring is a system for making Git repositories distribute automatically. It is the first stage of more general P2P features planned.  The idea is that when fetching data from a server, the server can inform the client of mirrors of the repository, which the client can fetch the majority of the data from, then fetch any remaining objects from the main server.  This way large Git projects can be served from local mirrors for distributed teams, or large hosts such as git.kernel.org or github can effectively offload bandwidth to closer or more lightly loaded servers.
