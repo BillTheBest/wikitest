@@ -162,6 +162,7 @@ A couple of projects are in early stages, but lack the time of a GSoC project to
 * Provide a script compiling Python within msysGit (we will need Python support once Sverre and Johan manage to finalize their Mercurial and CVS remote helpers, respectively).
 * Provide a recipe how to cross-compile a full Git for Windows installer on Linux (the biggest problem is how to get InnoSetup to run).
 * Describe the common msysGit workflows to increase the bus number of the msysGit project.
+* Provide a recipe to cross-compile Git for 64-bit Windows using the fantastic [http://mingw-w64.sourceforge.net/ MinGW-W64 project].
 
 ''Goal:'' Provide long-needed improvements to msysGit.<br>
 ''Language:'' C. Pascal. Wiki markup.<br>
