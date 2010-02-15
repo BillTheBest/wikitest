@@ -5,6 +5,20 @@ Git plans to apply for the Google Summer of Code 2010.  Although we have not bee
 
 = Projects touching the core of Git =
 
+
+== Unify Pathspec Semantics ==
+
+There is a longstanding inconsistency in pathspec limiting done by various families of commands.  We should unify them.
+
+* The pathspec limiter that originates from "git diff-tree" and shared with "git log" is the most limited.  It only allows you to specify leading paths and limits by leading substring match (anchored at directory boundaries '/'); no globbing is supported.
+* The pathspec limiter used by "git ls-files -- $path" and shared by "git checkout [treeish] -- $path" is more flexible.  In addition to the leading directory match above, it does allow globbing.
+
+The latter unfortunately has at least two different implementations.  The one ls-files and checkout uses is in dir.c; grep uses a different implementation that is more advanced and better suited for a caller that can benefit from being able to skip a whole subdirectory.
+
+''Goal:'' Make "git log 't/*.sh'" work as expected, without introducing unnecessary overhead.
+''Language:'' C<br>
+
+
 == Git Submodules Enhancements ==
 
 Git submodules are architecturally nice, but could do with more work on its user interface and functionality.  Tasks carried out by tools like repo (used for Android) could be accommodated by core git functionality.
