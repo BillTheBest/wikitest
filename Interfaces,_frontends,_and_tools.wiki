@@ -867,6 +867,13 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 === git-browser ===
 * [http://straytree.com/ git-browser] by Arteem Khodush is an experimental gitk-like web interface. It visualizes commit history graph and shows commit diffs. User interface is done in JavaScript, and is rather heavy on the ''client'' side. [http://straytree.com/git-browser/by-commit.html?r=git view online] [http://straytree.com/git-browser.tar.bz2 download] [http://repo.or.cz/gitweb.cgi/git-browser.git gitweb mirror].
 
+== Filesystem interfaces ==
+
+* [http://github.com/g2p/git-fs git fs] A fuse filesystem for browsing git commits and past worktrees.
+* [http://www.qotw.net/~reillyeon/projects/figfs/ figfs] A fuse interface to git, with editable workspace support.
+* [http://www.sfgoth.com/~mitch/linux/gitfs/ gitfs (fuse)] The first fuse interface to git.
+* [http://github.com/manzur/gitfs gitfs (inferno)] A git filesystem translator for inferno, a portable plan9.
+
 = Tools =
 
 == Editors and IDE integration ==
