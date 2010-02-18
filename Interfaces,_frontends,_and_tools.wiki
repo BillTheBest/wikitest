@@ -1002,7 +1002,7 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 * ''darcs2git'' ([http://repo.or.cz/w/darcs2git.git gitweb]) by Han-Wen Nienhuys ([http://www.xs4all.nl/~hanwen/ his homepage]) is a Darcs to Git converter utilizing `git-fast-import`. It tries to map Darcs conflict resolutions onto Git branch merges. Written in Python.<BR> ''See:'' [http://marc.info/?l=git&m=117123822725808&w=2 darcs2git.py - convert darcs repository using gfi] at git mailing list<BR>
 === Bazaar ===
 ==== Git-bzr ====
-* Git-bzr allows bidirectional synchronization between Bazaar and Git repositories, much like git-svn. However, git-bzr is able to keep all merge history etc. Ruby original can be found at [http://github.com/pieter/git-bzr/ github] ([http://github.com/mcepl/git-bzr/ port to shellscript]).
+* Git-bzr allows bidirectional synchronization between Bazaar and Git repositories, much like git-svn. However, git-bzr is able to keep all merge history etc. Ruby original can be found at [http://github.com/pieter/git-bzr/ github] (port to shell script: [http://github.com/mcepl/git-bzr/ mcepl], [http://github.com/kfish/git-bzr kfish]).
 
 ==== bzr-fast-export ====
 * Bazaar frontend for git-fast-import. Announcement [https://lists.ubuntu.com/archives/bazaar/2008q1/038391.html here], lives in the `exporters` subdirectory of the [https://launchpad.net/bzr-fastimport bzr-fastimport project].
