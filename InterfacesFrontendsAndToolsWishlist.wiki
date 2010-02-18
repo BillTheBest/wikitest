@@ -15,8 +15,8 @@
 
 *Another similar project for which would be nice to have Git support is [http://collaboa.org/about Collaboa] and [http://www.atlassian.com/software/jira/ JIRA]. ''(Python for Trac, C for CVSTrac, Ruby on Rails for Collaboa, Java for JIRA)''.
 
-===TWiki (wiki){{anchor|TWiki}}===
-*[http://twiki.org/ TWiki] is a flexible, powerful, and easy to use enterprise collaboration platform and knowledge management system. It includes plugins for integration with bug-tracking software: Bugzilla and GNATS. Plugins are developed under CVS and Subversion; moving to Subversion is encouraged. No support for plugin development under Git. ''(Perl CGI)''
+===Foswiki, TWiki (wiki){{anchor|TWiki}}===
+*[http://twiki.org/ TWiki] is a flexible, powerful, and easy to use enterprise collaboration platform and knowledge management system. [http://foswiki.org/ Foswiki] is the community run fork of Twiki. It includes plugins for integration with bug-tracking software: Bugzilla and GNATS. Plugins are developed under CVS and Subversion. No support for plugin development under Git (might be outdated: foswiki developers have a git mirror). RCS is used to store page history, [http://minersoft.org/twiki/bin/view/TWikiOnGit/WebHome with an experimental plugin providing Git support]. ''(Perl CGI, RCS)''
 
 ===SCMBug (SCM with bugtracking integration){{anchor|scmbug}}===
 *[http://www.mkgnu.net/?q=scmbug Scmbug] is a system that integrates software configuration management (SCM) with bug-tracking. It aims to be a universal tool that will glue any source code version control system (supports CVS and Subversion, no Git support yet) with any bug-tracking system (supports Bugzilla, Mantis and Request Tracker). It is in early version. ''(Perl)''
