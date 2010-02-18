@@ -1033,9 +1033,10 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 * These utilities convert patch series in a quilt repository and commit series in git back and forth. You can download files [http://home-tj.org/files/misc here]; they can be found on [http://home-tj.org/wiki/index.php/Misc HomeTJ webpage].
 
 ==== SCCS import ====
-* There exists proposed `conftib/fast-import/git-sccsimport.py` in [http://marc.info/?i=<c5df85930801200312o7cd5d307v1a39fb35179249a9@mail.gmail.com> fast importer for SCCS files] post by James Youngman on git mailing list, and [http://search.cpan.org/src/HMBRAND/VCS-SCCS-0.11/examples/sccs2git-gfi sccs2git-gfi] importer by Sam Vilain in VCS::SCCS CPAN module.
+* There exists proposed `conftib/fast-import/git-sccsimport.py` in [http://marc.info/?i=c5df85930801200312o7cd5d307v1a39fb35179249a9@mail.gmail.com fast importer for SCCS files] post by James Youngman on git mailing list, and [http://search.cpan.org/src/HMBRAND/VCS-SCCS-0.11/examples/sccs2git-gfi sccs2git-gfi] importer by Sam Vilain in VCS::SCCS CPAN module.
 
 {{anchor|rcs-fast-export}}
+
 ==== rcs-fast-export ====
 * rcs-fast-export ([http://git.oblomov.eu/rcs-fast-export gitweb]) is a Ruby script that can be used to export RCS histories in a form suitable to be piped to fast-import tools (only tested with git's). It parses RCS files directly, without requiring any external tool or library. It exports symbols as lightweight tags, and makes up a decently sensible name for branches, based on their initial revision number. It supports the typical `--authors-file` option to convert from usernames to full author identities, and it has an option to (lightweight) tag each RCS revision with its revision number.
 
