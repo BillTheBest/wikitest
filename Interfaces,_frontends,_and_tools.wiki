@@ -1025,7 +1025,7 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 * Complete Integration between IBM Rational ClearCase and Git from Clearvision.  The CC2Git Bridge allows developers to quickly and easily transport code between the two tools, enabling one continuous integrated SCCM environment with the reduced costs associated with open source software. Looking to Migrate; the CC2Git bridge allows companies to perform a controlled migration within longer timescales, learning and resolving dependencies as they arise, using live data but without affecting project teams.<BR>[http://www.clearvision-cm.com/clearvision-products/clearcase-and-git-bridge-cc2git/ash_flypage.tpl.html Read More on our website: http://www.clearvision-cm.com]
 
 ==== git-ucmimport (IBM Rational ClearCase) ====
-* git-ucmimport, also written by Rutger Nijlunsing, is a converter from IBM Rational ClearCase UCM to git. The initial version can be found currently on http://www.gelato.unsw.edu.au/archives/git/0607/23790.html (the link in that mail is now dead). In Ruby.
+* git-ucmimport, also written by Rutger Nijlunsing, is a converter from IBM Rational ClearCase UCM to git. The current version can be found on http://eludias.dyndns.org/git-ucmimport.rb . The announcement was in http://www.gelato.unsw.edu.au/archives/git/0607/23790.html . In Ruby.
 
 ==== quilt2git / git2quilt ====
 * These utilities convert patch series in a quilt repository and commit series in git back and forth. You can download files [http://home-tj.org/files/misc here]; they can be found on [http://home-tj.org/wiki/index.php/Misc HomeTJ webpage].
