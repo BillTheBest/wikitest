@@ -1,0 +1,107 @@
+== Good morning git land! ==
+
+This lovely morning in York is as good an occasion as any to try a new 
+format for news on msysGit, the effort to bring one of the most powerful 
+Source Code Management systems to the poor souls stuck with Windows.
+
+This is the 1st issue of the Herald (let's see if there are more ;-):
+
+*	WinGit 0.1
+
+*	The war between cmd and bash
+
+*	Missing make.exe, problems to clone
+
+*	msysGit breaks through 1000 downloads
+
+*	No concrete mingw/git.git merge plans yet
+
+
+== WinGit 0.1 ==
+
+Hot from the press: a first installer for native git on Windows has been 
+released, marked as an alpha version.  It is named "WinGit" -- the 
+similarity to "wing it" is purely intentional.
+
+This program installs git and some necessary dependencies from MSys into a 
+directory of your choice.
+
+Then it installs shortcuts on the Desktop, a QuickLaunch and a StartMenu 
+item for a Git Shell.
+
+WinGit is sibling of msysGit (a full blown installer containing the 
+complete development environment needed to hack ''on'' Git, and a checkout 
+of the git source code) and GitMe (a network installer version of 
+msysGit, which clones the repository from repo.or.cz).
+
+
+== The war between cmd and bash ==
+
+Windows does not come with a proper shell, as many of you know, but with a 
+limited command line, called "command" in DOS based Windowses, and "cmd" 
+in NT based ones.  There are a few deviations between the two, and worse, 
+there are deviations between cmds of different Windows versions.
+
+Nevertheless, regular Windows users are used to that program, which is a 
+bit more than just a shell: it is also the window in which that shell 
+runs.  This is in the good tradition of Windows not really separating 
+different tasks cleanly, (at least sometimes) for the benefit of a better 
+user experience.
+
+In the early days of the MinGW port there was no question that git was run 
+in Rxvt, the terminal emulator that comes with MSys, and from bash, which 
+also comes from MSys.
+
+Then, one day came along Johannes Sixt, who was not only interested in 
+getting git to run in that POSIX hostile environment, but also to use it.  
+Which is the perfect pole position to make something work smoothly, as 
+opposed to just make it compile.
+
+Since code talks, those who write the patches get to decide how the 
+program runs, and therefore the MinGW port was soon made to run from 
+within cmd.exe rather than bash.exe.  All the goodies of bash 
+notwithstanding, like tab completion, consistent and portable command set, 
+cmd is the preferred environment of many Windows users.
+
+A big discussion ensued, and is indeed still waging, if cmd or bash should 
+be the default starting point for WinGit.  Probably the best argument for 
+cmd is that Windows people tend to know that, and would have to learn 
+bash.  Probably the best argument for bash is that it is sort of the 
+lingua franca to get help with git.
+
+== Missing make.exe, problems to clone ==
+
+While many people reported success with one or more of the 3 installers, 
+there have been reports that make.exe is not installed, and therefore git 
+cannot be compiled, or that a clone fails (even if the initial cloning of 
+the msysgit repository worked fine).
+
+These issues are not resolved, but are investigated.
+
+== msysGit breaks through 1000 downloads ==
+
+Version 0.6 of msysGit, the first version of msysGit in a "long" time, has 
+been downloaded more than 1000 times.  We're getting popular.
+
+== No concrete mingw/git.git merge plans yet ==
+
+msysgit uses a modified git source code base, maintained in the 4msysgit 
+repository on http://repo.or.cz/w/git/mingw/4msysgit.git/, which is based 
+on the MinGW port on http://repo.or.cz/w/git/mingw.git/, which itself is a 
+fork of git.git.
+
+There are still deviations in 4msysgit.git from mingw.git, since the 
+setups are not quite identical (see cmd/bash war).  So in msysgit, we can 
+rely on a setup which is more or less controlled by us.  We know the 
+precise version of bash, perl or Tcl/Tk, for example.  And we can just add 
+programs as we need them.
+
+There has been a lengthy post to the git mailing list describing what 
+would be needed to merge the MinGW efforts back into git.git, which would 
+be nice in the 1.5.3.* timeframe.
+
+That post contains a long list of pretty well contained tasks.  However, 
+as of time of writing, no volunteer (except for the assiduous-as-ever 
+Johannes Sixt) stepped up to tackle any of the tasks.
+
+[[Category:MSysGit]]
