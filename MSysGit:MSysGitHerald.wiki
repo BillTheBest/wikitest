@@ -1,0 +1,19 @@
+<!-- #summary An occasional status update blog -->
+
+= MSysGitHerald =
+
+This is the place to find occasional project news.  Individual MSysGitHerald updates are listed below.
+
+* [[MSysGit:MSysGitHerald11|MSysGitHerald11]]
+* [[MSysGit:MSysGitHerald10|MSysGitHerald10]]
+* [[MSysGit:MSysGitHerald9|MSysGitHerald9]]
+* [[MSysGit:MSysGitHerald8|MSysGitHerald8]]
+* [[MSysGit:MSysGitHerald7|MSysGitHerald7]]
+* [[MSysGit:MSysGitHerald6|MSysGitHerald6]]
+* [[MSysGit:MSysGitHerald5|MSysGitHerald5]]
+* [[MSysGit:MSysGitHerald4|MSysGitHerald4]]
+* [[MSysGit:MSysGitHerald3|MSysGitHerald3]]
+* [[MSysGit:MSysGitHerald2|MSysGitHerald2]]
+* [[MSysGit:MSysGitHerald1|MSysGitHerald1]]
+
+[[Category:MSysGit]]
