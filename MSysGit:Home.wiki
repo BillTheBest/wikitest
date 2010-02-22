@@ -1,0 +1,49 @@
+<!-- #labels Featured -->
+=Git on Windows http://msysgit.googlecode.com/files/msysgitlogo.png=
+
+[http://git.or.cz Git] is a powerful Source Code Management tool, which was created out of the need to replace BitKeeper -- quickly! -- with something else for the Linux kernel development.
+
+In the meantime it has evolved to be one of the best SCMs around.
+
+Historically, Git on Windows was only [http://git.kernel.org/?p=git/git.git;a=summary officially] supported using Cygwin.  To help make a native Windows version, this project was started, based on the [http://repo.or.cz/w/git/mingw.git fork].
+
+More information:
+
+* [[MSysGit:InstallMSysGit|InstallMSysGit]] or [[MSysGit:UpdatingMSysGit|UpdatingMSysGit]]
+* [[MSysGit:msysGitSources|msysGitSources]]
+* [[MSysGit:FuturePlans|FuturePlans]]
+* [[MSysGit:GitCheetah|GitCheetah]]
+* [[MSysGit:MSysGitHerald|MSysGitHerald]]
+
+== How to get help ==
+
+Please note that there are not enough contributors to the msysGit project to offer commercial-grade support; if you do not have the means to fix your problems (possibly with valuable advice from the [mailto:msysgit@googlegroups.com msysGit mailing list]), or to entice people you can fix them, it is unlikely that your problem is solved.
+
+See also the [[MSysGit:GetHelp|GetHelp]] page on our Wiki.
+
+== How to participate ==
+
+Testing and reporting bugs is really already a big help, especially when you are ready to help resolve the bugs.  Of course, it is even better if you get involved, for example by hacking on mingw.git.
+
+Once you installed msysGit, git will be compiled and the repository will be fetched, so you are good to go.  Play with git a little, and you will find plenty of stuff that is not quite optimal.
+
+For example, [[MSysGit:WhyIsRxvtNotTheDefault|WhyIsRxvtNotTheDefault]].
+
+In most cases, you can work around bugs in msysGit by using cygwin on the same repository.  Yes, that works, except that the index will be dirty all the time, since Cygwin and MinGW have different ideas about the stat data.
+
+If you made some changes to msysGit, you can contribute them back by pushing into the 'mob' branch on repo.or.cz:
+
+* git push ssh://mob@repo.or.cz/srv/git/msysgit.git master:mob
+
+=== Where to discuss issues ===
+
+If you want to report a bug in Git itself, git-svn or git-gui (non-Windows-specific), please send a mail to [mailto:git@vger.kernel.org git@vger.kernel.org].
+
+If you want to report a bug in Git for Windows (Windows-specific), or in msysGit (also Windows-specific), you can add an issue in our [http://code.google.com/p/msysgit/issues/list issue tracker].
+
+If you are not reporting a bug, but want to enhance Git, or have some usability question, please send a message to [mailto:msysgit@googlegroups.com our mailing list], but be aware that posts by non-members, as well as the first post of new members, are moderated.  If your question is not Windows-specific, you might want to send it to the [mailto:git@vger.kernel.org Git mailing list] instead (or at least in addition to the msysGit mailing list).
+
+== How not to participate ==
+
+So you do not want to help?  Then there is nothing to see here, please move along.
+[[Category:MSysGit]]
