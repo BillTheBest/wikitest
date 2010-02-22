@@ -1,0 +1,2 @@
+The old name of msysGit-netinstall was GitMe.
+[[Category:MSysGit]]
