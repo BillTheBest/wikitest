@@ -1,0 +1,65 @@
+<!-- #summary How to send patches with git send-email on Windows. -->
+
+= Introduction =
+When submitting patches to git and/or msysgit, the preferred method is to inline the patch into an e-mail to the mailing list. This can be done through the send-email tool that comes with git.
+
+== Prerequisites ==
+This guide assumes the following:
+* Git for Windows / msysgit '''1.6.4 (or later).
+* An e-mail account that '''supports SMTP.
+
+= Details =
+git send-email for Windows currently supports sending e-mail through [http://msmtp.sourceforge.net/ MSMTP], a command-line tool for sending mail. In order to do this, you need to setup msmtp to send e-mail through your e-mail provider's smtp-server.
+
+== Configuring MSMTP ==
+The msmtp configuration should be located in ''$HOME/msmtprc.txt'' (bash) or ''%USERPROFILE%\msmtprc.txt'' (cmd.exe). If the file doesn't exist, create it. The details on [http://msmtp.sourceforge.net/doc/msmtp.html#Configuration-files how to setup this configuration file] can be found in the [http://msmtp.sourceforge.net/doc/msmtp.html MSMTP Documentation].
+
+=== Example MSMTP configuration for GMail ===
+<pre><nowiki>
+# setup some defaults
+defaults
+tls_trust_file c:/msysgit/mingw/bin/curl-ca-bundle.crt
+logfile ~/.msmtp.log
+
+# create an account called "default"
+account default
+
+# setup server host and port
+host smtp.gmail.com
+port 587
+
+# enable TLS
+tls on
+
+# set FROM address
+from username@gmail.com
+
+# setup authentication
+auth on
+user username@gmail.com
+</nowiki></pre>
+Replace "username" with your own GMail username.
+
+== Testing MSMTP ==
+Execute the command <code>echo "test" | msmtp user@host</code> on the command line (where "user@host" should be your own e-mail address).  This should work both from bash and cmd.exe. If you've set up msmtp to use authentication, you should get a password promtp. The program should exit cleanly, and an e-mail (with empty subject and the body "test") should have been sent to your e-mail account. If you don't get any e-mail, please consult the MSMTP Documentation.
+
+== Configuring git send-email ==
+The Git for Windows installer should setup sendemail.smtpserver to "/mingw/bin/msmtp.exe". This can be verified by executing the command <code>git config sendemail.smtpserver</code>. If this hasn't been set up yet, execute <code>git config --global sendemail.smtpserver /mingw/bin/msmtp.exe</code>
+
+== Testing git send-email ==
+Go to a git-repo, and execute the following command:
+
+<pre><nowiki>
+git send-email --suppress-cc=all --to user@host HEAD^
+</nowiki></pre>
+
+(where user@host is replaced with your e-mail address). This should send the most recent patch from that repo to your e-mail account.
+
+= Troubleshooting =
+== Unable to initialize SMTP ==
+<pre><nowiki>
+Unable to initialize SMTP properly.  Is there something wrong with your config?
+at C:\msysgit/libexec/git-core/git-send-email line 929, <FIN> line 4.
+</nowiki></pre>
+This error is caused by <code>git send-email</code> when it's trying to send the e-mail directly, and not through ESMTP. This can be caused either by lacking git-config, or by your git installation not being up to date.
+[[Category:MSysGit]]
