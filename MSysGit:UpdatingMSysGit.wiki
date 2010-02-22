@@ -1,0 +1,119 @@
+<!-- #summary How to update msysGit. -->
+
+= Introduction =
+
+Together with Git for Windows, the build environment ''msysGit'' advances, too.  If you want to stay on top of those developments, just use Git itself.
+
+
+'''NOTE''': to follow these instructions, you '''really''' have to have installed ''msysGit'', not just ''Git for Windows''.
+
+= Details =
+
+First of all, if you installed msysGit via the ''fullinstall'' package, you will have to run
+
+<pre><nowiki>
+/share/msysGit/initialize.sh
+</nowiki></pre>
+
+to put your setup into the same state as it would have been after running the ''netinstall''.
+
+It is convenient to install shortcuts (such as a QuickLaunch icon) with ''/share/msysGit/add-shortcut.tcl''
+
+After that, you will have to decide what you are interested in:
+
+== The Git submodule ==
+
+Initially, the submodule will be checked out at the revision committed to the super project.  If you want to stay up-to-date with the recent developments in ''4msysgit'' (the msysGit specific fork of the official Git project), you need to set up a tracking branch for the ''devel'' branch:
+
+<pre><nowiki>
+cd /git
+git checkout --track origin/devel
+</nowiki></pre>
+
+This only needs to be done once, all subsequent updates can be performed by
+
+<pre><nowiki>
+cd /git
+git pull
+</nowiki></pre>
+
+(Of course, if you want to track ''master'' instead of ''devel'', you have to adjust the commands appropriately.)
+
+Note that there are several branches in 4msysgit.git; all branches except for ''master'' (the ultra-stable branch) and ''devel'' (the less stable, more current one) are subject to frequent rewinding and developments until they are either merged or scrapped.
+
+=== Checking out the 'devel' branch ===
+
+If you want to help with msysGit (and you do, right, because we are the good guys, right?), you might want to check out and test the changes which are to be in the upcoming release. First, start a Git Bash and switch directory to the Git submodule:
+
+<pre><nowiki>
+cd /git
+</nowiki></pre>
+
+Then, make sure that you're on 'devel' and that you have the newest changes:
+
+<pre><nowiki>
+git fetch origin
+git checkout devel
+git pull origin devel
+</nowiki></pre>
+
+You might not even have a 'devel' branch yet, in which case you have to
+
+<pre><nowiki>
+git fetch origin
+git checkout -t origin/devel
+</nowiki></pre>
+
+Now, build Git:
+
+<pre><nowiki>
+make
+</nowiki></pre>
+
+To run the test suite (which might take a '''long''' time, start the run-tests.sh script:
+
+<pre><nowiki>
+/share/msysGit/run-tests.sh
+</nowiki></pre>
+
+Once this finished, it will tell you which tests failed. These, you have to run manually:
+
+<pre><nowiki>
+cd /git/t
+sh t7200-* -i -v
+</nowiki></pre>
+
+The ''-i'' option tells the test script to stop on failure, and ''-v'' makes it verbose. If the verbosity is not sufficient, try with
+
+<pre><nowiki>
+sh -x t7200-* -i -v
+</nowiki></pre>
+
+which tells the bash to reveal to us what command it just called.
+
+== The superproject ==
+
+'''Note:''' Earlier installers did not set up the ''post-checkout hook'' which is necessary to be able to update the ''bash'' and ''msys-1.0.dll'' components; please check that you have a file ''/.git/hooks/post-checkout'', and if it is missing, copy it from ''/share/msysGit/post-checkout-hook''!
+
+The build environment around Git for Windows is managed in the superproject (AKA msysGit itself).  After installing it with the ''netinstall'' package (or converting a ''fullinstall'' into the same state), updating is just a matter of
+
+<pre><nowiki>
+cd /
+git pull
+</nowiki></pre>
+
+By default, you are on the ''master'' branch, but you can follow the more current ''devel'' branch, too:
+
+<pre><nowiki>
+cd /
+git checkout --track origin/devel
+</nowiki></pre>
+
+The same principle as for the branches of the Git submodule applies to the branches of the superproject msysGit.
+
+== The Git Cheetah submodule ==
+
+As Git Cheetah is much more experimental than Git itself, its development is done directly on the ''master'' branch.
+
+Please see [[MSysGit:GitCheetah|GitCheetah]] for details.
+[[Category:MSysGit]]
