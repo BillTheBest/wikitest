@@ -1,0 +1,11 @@
+<!-- #summary Some links that are loosely related to this project. -->
+
+= Git =
+
+* [http://www.git-scm.com the Git home page]
+* [http://code.google.com/p/vss2git/ Convert a Visual Source Safe repository to Git], written in C#.
+
+= Misc =
+
+* [http://www.cl.cam.ac.uk/~mgk25/ucs/utf-8-history.txt The true story of UTF-8]
+[[Category:MSysGit]]
