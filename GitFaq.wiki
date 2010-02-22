@@ -126,10 +126,11 @@ after rebase:
 <pre><nowiki>
 - A - B - C - D - remote HEAD - E' - F' - G' - local HEAD'
 </nowiki></pre>
-So, the merge does not rewrite your commits. They will stay the same. A rebase _will_ rewrite them. The advantage is that the history looks nicer. The disadvantage is that you usually tested more while developing, so that some obscure feature in, say, "G", could work less nicely together with the changes of, say, "B", than you hope for. In other words, G was tested thoroughly, G' was not. As always, it is a trade-off.
+So, the merge does not rewrite your commits. They will stay the same. A rebase _will_ rewrite them. The advantage is that the history is easier to follow. The disadvantage is that you usually tested more while developing, so that some obscure feature in, say, "G", could work less nicely together with the changes of, say, "B", than you hope for. In other words, G was tested thoroughly, G' was not. As always, it is a trade-off.
 
 <!-- GitLink[rm-is-shorthand] "git rm" is needed more often than "git rm -&#45;cached" -->
 {{anchor|rm-is-shorthand}}
+
 == Why is "git rm" not the inverse of "git add"? ==
 Don't think of 'rm' as the inverse of 'add'.  That would only confuse you.
 
