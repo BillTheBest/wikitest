@@ -1,0 +1,50 @@
+<!-- #summary About git-cheetah as a submodule of msysGit -->
+
+= Git-Cheetah =
+
+TortoiseCVS (and later TortoiseSVN) set the scene for convenient source code management on Windows.  Not to be left behind, git has the beginnings of a clone, called _git-cheetah_.
+
+(Note: in the meantime, people have started their own extensions, since duplicating efforts is so much fun.)
+
+This page is about setting up git-cheetah as a submodule of msysGit and working with it on other platforms such as Linux (Gnome) and Mac OS X see the section *Git-Cheetah on other Platforms*.
+
+= How to compile/install it in msysGit =
+
+The easiest way is to install msysGit-netinstall, then
+
+* fetch all branches: {{{cd / && git fetch}}}
+* then check out the devel branch: {{{git checkout -t origin/devel}}}
+* and then update the git-cheetah submodule: {{{git submodule update --init src/git-cheetah}}}
+
+Then you should "make install-user" in {{{/src/git-cheetah/<your_platform>}}} to build and register git-cheetah.
+
+If you want to get the bleeding edge of development (which picked up some speed again thanks to Kirill & Christian), do this:
+<code>
+       $ cd /src/git-cheetah
+       $ git checkout -t origin/master
+</code>
+and to keep up-to-date, just {{{git pull}}} in that directory.
+
+= Cherry Picking =
+By default, your local git-cheetah repo is (and should) be tracking http://repo.or.cz/w/git-cheetah.git. However, it may also be helpful to cherry-pick from Kirill's work.  Here's a recipe to grab "foo" from his fork:
+
+  # Add the fork as a remote, fetch from there and voila, you have all the commits.
+<code>
+       $ git remote add kirill git://repo.or.cz/git-cheetah/kirill.git
+       $ git fetch kirill
+</code>
+  # Now you can choose to cherry-pick it:
+<code>
+       $ git cherry-pick foo
+</code>
+
+Of course, this recipe works for any remote repo, not just Kirill's fork on repo.or.cz.
+
+= Git-Cheetah on other Platforms (Nautilus, Finder) =
+We are currently working on support for Nautilus and Mac OS X.
+
+* On http://www.hvoigt.net/dev/nautilus-extensions-tutor.html you can find a short tutorial and some resources about developing Nautilus (The Gnome Filemanager) Extensions in C.
+
+= In Summary =
+It would be really awesome if you just scratched your itches, and submit patches back to git-cheetah!
+[[Category:MSysGit]]
