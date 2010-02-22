@@ -1,0 +1,14 @@
+<!-- #summary How to get help -->
+
+If you need help, there are several ways:
+
+* The [http://groups.google.com/group/msysgit msysGit mailing list].  This is the recommended place for questions about Git for Windows (i.e. Windows-specific questions).
+* The [http://vger.kernel.org/vger-lists.html#git Git mailing list] for Git questions in general (i.e. not Windows-specific questions).
+* The [irc://irc.freenode.net/git Git IRC channel #git on freenode]
+* [http://www.google.com Google].  No, really, you can type some appropriate keywords into Google (such as an error message) and more often than not, you get the answer without embarrassing yourself by having to ask publically ;-)
+* The [http://code.google.com/p/msysgit/issues/list issue tracker]
+
+Do <u>not</u> ask your questions in a blog that might, or might not, be found by someone who knows the answer.  That should go without saying, but there are still people who think that it is a wonderful idea to leave questions at a location guaranteed not to be frequented by people who know the answers.
+
+Oh, and certainly do <u>not</u> post questions as comments to the Wiki.  Post comments about the content of a certain Wiki pages, that is fine.  Suggestions how to enhance the contents are especially welcome.  But no questions about Git or requests for assistance, please.
+[[Category:MSysGit]]
