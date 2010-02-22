@@ -1,0 +1,4 @@
+<!-- #summary Our real source repository -->
+
+It would be kind of not-so-intelligent to bother with Subversion, us being Git people.  So there you go, here are the links to our [http://repo.or.cz/w/msysgit.git/ msysGit development environment] and our [http://repo.or.cz/w/git/mingw/4msysgit.git/ Git for Windows] sources.
+[[Category:MSysGit]]
