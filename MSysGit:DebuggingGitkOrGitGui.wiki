@@ -1,0 +1,51 @@
+<!-- #summary Some tips and tricks for Tcl/Tk debugging -->
+= Introduction =
+
+Due to certain limitations of Windows (such as command line length), Git for Windows has more issues than other platforms.  This is especially bad when the window just flashes (i.e. opens and closes right away) without giving the user a hint as to what happened.
+
+This page tries to help debugging such issues.
+
+== Git Gui specific ==
+
+A tip to debug git gui: Add
+
+<pre><nowiki>
+  console show
+</nowiki></pre>
+
+right after exec wish in <code>$GIT''INSTALLATION''ROOT/libexec/git-core/git-gui.tcl</code> or in <code>/git/git-gui/git-gui.sh</code>. If  you do it in the latter file do not forget to <code>make install</code> from inside <code>/git/git-gui</code>. This opens a tcl console whenever you start <code>git gui</code> and you can interact with the full tcl/tk power during runtime. You can adapt this technique to debug <code>gitk</code>.
+
+There is a trace feature build into git gui you can enable it from the tcl console with <code>set _trace 1</code> or pass the commandline option <code>--trace</code> when starting git-gui.
+
+== Basic hints ==
+
+When you have problems with ''gitk'' or ''git gui'', the first thing to do is to call them from Git Bash or Git Cmd, as the error messages and warnings are printed to the console which you would not see otherwise.
+
+== Showing execution traces ==
+
+Since Tcl/Tk 8.4, there is a ''trace'' option, which you can use in combination with the fact that in Tcl, you can override the ''proc'' operator, which defines functions (this tip comes from the [http://wiki.tcl.tk/473 Tcl/Tk Wiki]):
+
+<pre><nowiki>
+rename proc _proc
+_proc proc {name arglist body} {
+    uplevel 1 [list _proc $name $arglist $body]
+    uplevel 1 [list trace add execution $name enterstep [list ::proc_start $name]]
+}
+_proc proc_start {name command op} {
+    puts "$name >> $command"
+}
+</nowiki></pre>
+
+== Showing variable assignments ==
+
+As with execution traces, you can also override the ''set'' operator, which sets variables (this tip comes also from the [http://wiki.tcl.tk/473 Tcl/Tk Wiki]):
+
+<pre><nowiki>
+rename set _set
+proc set {var args} {
+    puts [list set $var $args]
+    uplevel _set $var $args
+}
+</nowiki></pre>
+
+[[Category:MSysGit]]
