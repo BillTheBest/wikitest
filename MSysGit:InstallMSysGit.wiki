@@ -23,7 +23,7 @@ Please see [[MSysGit:WorkingOnMsysGit|WorkingOnMsysGit]].
 '''Note:''' this is not the preferred way, as it does not set up the repositories for msysGit and git, and does not fetch the histories from repo.or.cz.  However, some people cannot freely access the internet, not even with an HTTP proxy.  If this applies to you, this is the installer we intended for you.  In the olden days of this project, it was the only available package, "msysGit", originally not even an installer, but a 48MB zip file!
 
 * Get msysGit-fullinstall from the Download area.
-* Run it, or if you are uncomfortable running executables, get [http://www.7-zip.org] and extract it.  ''(Sidenote: If you are still stuck with WinZip and its nagging screen, why don't you change?  7zip can do everything WinZip can, and more, and it is OpenSource, and there is no nagging screen, and it can compress better, and...)''
+* Run it, or if you are uncomfortable running executables, get [http://www.7-zip.org 7-Zip] and extract it.  ''(Sidenote: If you are still stuck with WinZip and its nagging screen, why don't you change?  7zip can do everything WinZip can, and more, and it is OpenSource, and there is no nagging screen, and it can compress better, and...)''
 * Extract anywhere you like (although it was only really tested on C:\)
 * Go into that directory and double click on msys.bat
 * It will compile & install git (only in MSys, no need to fear), then welcomes you with a note that all is ready
