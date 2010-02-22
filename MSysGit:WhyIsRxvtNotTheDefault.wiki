@@ -1,0 +1,15 @@
+<!-- #summary Explain why rxvt is not the default shell -->
+
+Msys comes with an Rxvt (a terminal window which is resizable, has a scrollback that you can trigger by Shift+!PageUp, and text is easily selectable and pastable) which you can start by clicking on msys-rxvt.bat in the bin/ folder.  However, with Rxvt, these issues are most apparent:
+
+* pushing via ssh is not working right now, it seems,
+* the pager is not called correctly (it is not connected to a tty),
+* stderr does not seem to be shown,
+* when vi is called as the editor for the commit messages, it does not get any input,
+* etc.
+
+So while Rxvt is arguably nicer than cmd, it is not recommended at this time to use it.
+
+The good news is that you can fetch via git:// protocol, and using msys.bat -- which uses the default Windows command line window -- you can use the ssh protocol.
+
+[[Category:MSysGit]]
