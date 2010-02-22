@@ -1,0 +1,53 @@
+<!-- #summary How to install msysGit -->
+
+== How to install it ==
+
+Basically, there are two different types of packages: Git and msysGit.  The former is the Git distribution, meant for the end user.  If you want to hack ''on'' Git, though, you want msysGit: it includes not only the sources for Git, but the complete development environment you need (sans Windows)!
+
+=== If you only want to use Git ===
+
+* Get Git from the [http://code.google.com/p/msysgit/downloads/list download area].  Install it, be happy.
+
+'''Note''': the [http://en.wikipedia.org/wiki/Portable_application portable version] is meant for users who do not want/cannot install Git.
+
+'''Note''': Git for Windows is not as stable as Git for anything else.  There are more issues with the Windows API than there are developers working on them.  So any help is very much appreciated.
+
+'''Note''': this package was known as WinGit, back in the ice age of this project.
+
+=== If you want to help developing Git itself ===
+
+Please see [[MSysGit:WorkingOnMsysGit|WorkingOnMsysGit]].
+
+=== If you want to help developing Git itself, but cannot use the netinstaller ===
+
+'''Note:''' this is not the preferred way, as it does not set up the repositories for msysGit and git, and does not fetch the histories from repo.or.cz.  However, some people cannot freely access the internet, not even with an HTTP proxy.  If this applies to you, this is the installer we intended for you.  In the olden days of this project, it was the only available package, "msysGit", originally not even an installer, but a 48MB zip file!
+
+* Get msysGit-fullinstall from the Download area.
+* Run it, or if you are uncomfortable running executables, get [http://www.7-zip.org] and extract it.  ''(Sidenote: If you are still stuck with WinZip and its nagging screen, why don't you change?  7zip can do everything WinZip can, and more, and it is OpenSource, and there is no nagging screen, and it can compress better, and...)''
+* Extract anywhere you like (although it was only really tested on C:\)
+* Go into that directory and double click on msys.bat
+* It will compile & install git (only in MSys, no need to fear), then welcomes you with a note that all is ready
+
+If installed using the fullinstaller, but want to turn it as if you had cloned the repositories, please initialize like this:
+
+* /share/msysGit/initialize.sh
+
+This will initialize a git repository in /.git, and update your complete msysGit to the current version.
+
+== How to restart msysGit ==
+
+So you installed msysGit, but closed the window, and cannot find a way to restart it?  No need to fear, just execute "msys.bat" in the directory you installed to.
+
+To make it more convenient, you can install a QuickLaunch shortcut with "/share/msysGit/add-shortcut.tcl".
+
+== How to remake the installer ==
+
+* Inside MSys, run the script like this: "/share/msysGit-fullinstall/release.sh VERSION"
+* The result will be in your home directory.
+
+See also /share/WinGit/HowToRelease.txt
+
+== How to keep up-to-date ==
+
+Please refer to [[MSysGit:UpdatingMSysGit|UpdatingMSysGit]].
+[[Category:MSysGit]]
