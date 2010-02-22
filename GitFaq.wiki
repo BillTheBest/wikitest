@@ -92,14 +92,15 @@ To speed up <code><nowiki>git log</nowiki></code>, give it a range of interestin
 <!-- GitLink[exporting-cdpath-breaks-things] Exporting CDPATH confuses shell scripts -->
 {{anchor|exporting-cdpath-breaks-things}}
 == Why is it wrong to export the environment variable CDPATH? ==
-The CDPATH variable is purely for interactive use.  A lot of scripts break if a simple "cd" suddenly outputs a text that was directed at ''you'', the user, and not meant for processing by the script.  Setting, but not exporting, CDPATH will still work as expected, but may break many scripts, including the make procedure of Git.  Having said that, we tried hard to avoid to unset CDPATH everywhere in the Git scripts, and in the Makefiles, but it is well possible that we missed out some places.
+The CDPATH variable is purely for interactive use.  A lot of scripts break if a simple "cd" suddenly outputs a text that was directed at ''you'', the user, and not meant for processing by the script.  Having said that, we tried hard to avoid problems by unsetting CDPATH everywhere in the Git scripts and in the Makefiles, but it is quite possible that we missed some places.
 
-In contrast, if you just remove the "export" from your .bashrc, you are guaranteed to never get bitten by that breakage again!
+By contrast, if you just remove the "export" from your .bashrc, you are guaranteed to never get bitten by that breakage again!
 
 * [http://article.gmane.org/gmane.comp.version-control.git/13736/match=cdpath Re: make install bug?]
 
 <!-- GitLink[gitweb-in-git] Gitweb is distributed with git now -->
 {{anchor|gitweb-in-git}}
+
 == How come gitweb suddenly disappeared from the project list at kernel.org/git? ==
 Because it got merged into git. See [http://kernel.org/git/?p=git/git.git;a=commit;h=0a8f4f0020cb35095005852c0797f0b90e9ebb74 the relevant commit].
 
