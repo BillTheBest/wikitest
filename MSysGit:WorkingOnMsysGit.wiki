@@ -1,0 +1,122 @@
+<!-- #summary Working on msysGit -->
+
+= Beginning to work with msysGit =
+
+Installation of the basic development environment is done using a handy installer [http://code.google.com/p/msysgit/downloads/list msysGit-netinstall] that will construct the necessary msys tree for you can clone some repositories and even does a build of
+git so that you know it works.
+
+Once you have run the netinstaller you will have a properly
+initialized tree with git installed in it:
+
+<pre><nowiki>
+msysGit
+  +- bin             installed binaries: msys,perl,tcl,openssl,svn,ssh.
+                     git binaries are installed from the build.
+  +- cmd             non-msys git and gitk commands (cmd prompt scripts)
+  +- doc             msys and git documentation
+   +- git
+    +- html          submodule: clone of git documentation repository
+  +- etc             msys configuration files
+  +- git             submodule: clone of the standard git repository
+  +- lib
+    - Git.pm         git perl package - installed by build
+   +- engines        openssl plugins
+   +- perl5          perl library files
+  +- libexec
+   +- git-core       installed git runtime (built from /git)
+  +- mingw           mingw-gcc installation
+  +- share
+   +- git-gui        built
+   +- gitk           built
+   +- git-core       built
+   +- msysGit*       msysGit installation scripts
+   +- resources      icons and license
+   +- vim
+   +- WinGit         installer scripts and release notes
+   +- 7-Zip          7zip stuff
+   +- InnoSetup      Installer runtime stuff
+  +- src
+   +- git-cheetah    submodule: clone of git-cheetah source repository
+   +- rt             msys patches
+  +- ssl             openssl configuation files
+</nowiki></pre>
+
+First, note that the top level (msysGit) is a git repository, i.e. bin, cmd, doc, mingw, etc. are all git controlled.  This repository will need to be pulled from time to time; there are two remotes (origin and mob) which are discussed below.
+
+You can reproduce the current release immediately after doing the msysGit-netinstall by calling <code>/share/WinGit/release.sh VERSION</code>.
+
+Once you are familiar with the layout, you'll probably want to work in git and src/git-cheetah.
+
+Some information is in the share/!WinGit/!HowToRelease.txt file on doing
+a release build once you have compiled and installed a new version of Git.
+
+== Shortcuts ==
+
+When you start the net installer, it will first set up all repositories, and build and install Git.  After that, it leaves the window open, so that you can play with Git inside the "Git Bash".
+
+Chances are that you want to have an easy way to restart that Git Bash.  You can install shortcuts in the start menu, on the desktop or in the QuickStart bar by calling the script /share/msysGit/add-shortcut.tcl (call it without parameters to see a short help text).
+
+If you already closed the initial Git Bash window without creating a shortcut, you can start it again double-clicking C:\msysgit\msys in Windows Explorer.
+
+== Remotes ==
+
+Once you have a working setup, you have default remotes installed.  For the superproject (AKA msysGit, or "what we have in /"), those are 'origin' and 'mob'.
+
+The 'mob' repository is actually the same as 'origin', except that it is set up so that you can push to the 'mob' branch.  This branch is meant for contributions from members who do not have write permission to the other branches, thus making it easy for the occasional contributor to send us patches.
+
+In the 'git' submodule (i.e. in the directory /git), 'junio' is git.git, i.e. the official Git repository (not Windows-specific).  'mingw' is the repository Hannes Sixt set up starting with Dscho's rudimentary (and only half-working, but self-hosting nevertheless) MinGW port.  '4msysgit' (the default remote) is our fork of mingw, which 
+basically has fixes we needed for msysGit.
+
+Note that if you cd git && git status you'll be disappointed.  Remember, it is a submodule, and as such, the superproject records a ''commit'' (as opposed to a branch, which would be useless) as current state.  Therefore, the submodule's HEAD is detached.
+
+== Branches ==
+
+Both the toplevel and the git repositories have two main branches: 'master' branch is supposed to contain only stuff that is well tested.  The 'devel' branch is supposed to be the bleeding edge.
+
+For stuff that is not yet tried and tested, or that needs review/work/review, we have topic branches that are subject to rebasing until they are either finished or obsolete.  Then we delete them.
+
+
+== Compiling a new msys dll ==
+Here is a description for the process of adding a change to the msys layer. 
+
+During the whole process, it is sensible to have a ''separate'' installation 
+of Git for Windows: Windows does not allow overwriting files 
+that are in use, such as <code>msys-1.0.dll</code> (which is needed by the shell).  You 
+can quit all msysGit windows, start a Git Bash and fix up things if need 
+be.
+
+ # install a quicklaunch icon: <code>/share/msysGit/add-shortcut.tcl QuickLaunch</code> (or whatever is your preferred method, call <code>add-shortcut.tcl -h</code> to see all options) 
+ # in that shell, fetch all msysGit branches: <code>cd / && git fetch</code> 
+ # Use the seperate Git installation to check out the msys branch: <code>cd / && git checkout -t origin/msys</code> 
+ # BUILD: build msys-1.0.dll: <code>cd /src/rt && ./release.sh</code>. This will clone the msys repository from repo and build it.
+ # The final installation of the dll will fail because its in use. But there will be an icon on you desktop to fixup things so close the current shell, launch it and reopen msysgit.
+ # The source of msys will be under <code>/src/msys</code>, make your changes there and go to BUILD
+ # Once you are finished commit your changes in <code>/src/msys</code> 
+ # export them: <code>git format-patch -1</code> 
+ # move the result into <code>/src/rt/patches/</code> (you need to adjust the number in the file name) 
+ # commit that patch: <code>cd /src/rt/patches && git add . && git commit -s</code> 
+ # export this commit and send it to this list for discussion.
+
+== Using the testsuite ==
+
+The test scripts can be found under <code>/git/t</code>.
+
+There is a nice script under <code>/share/msysGit/run-tests.sh</code> which shows a more condensed output. If you want to disable a test you can set the environment variable GIT''SKIP''TESTS to contain tests you want to skip. For example:
+
+<pre><nowiki>
+$ export GIT_SKIP_TESTS=t5000.12
+</nowiki></pre>
+
+would skip test number 12 from the test <code>t5000-tar-tree.sh</code>
+
+When investigating specific failures you can run the individual test scripts from the git/t/ directory and get a line printed for each test with more verbose output for failing tests. To manually investigate a failing test use the <code>--immediate</code> option (abbreviated to <code>-i</code>) to halt the test as soon as one fails. This leaves the local git state as needed for the failing test. There are a few other options given in the ''test-lib.sh'' file which defines the test library functions and some test constraints in case of conditional tests.
+
+== Make an installer ==
+
+When developing msysGit or Git for Windows, often you want to give testers an installer to try out. Here you go:
+
+<pre><nowiki>
+$ /share/WinGit/release.sh
+</nowiki></pre>
+
+[[Category:MSysGit]]
