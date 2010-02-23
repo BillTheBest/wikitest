@@ -5,6 +5,20 @@ Due to certain limitations of Windows (such as command line length), Git for Win
 
 This page tries to help debugging such issues.
 
+== Show back traces ==
+
+If you define the procedure <code>backTrace</code> as follows, you can call it anywhere to see in which order functions were called to get here (where "here" means wherever you input a call to the procedure):
+
+ proc backTrace {} {
+        set level [info level]
+ 
+        for {set i 1} {$i<$level} {incr i} {
+                puts "$i: [info level -$i]"
+        }
+ }
+
+Of course, on Windows you might want to call <code>console show</code> somewhere before, otherwise you will not see anything :-)
+
 == Git Gui specific ==
 
 A tip to debug git gui: Add
