@@ -21,6 +21,7 @@ Welcome to the [[Git]] wiki web site. This wiki is a community effort to provide
 * [[GitLinks|Links to Git-related websites]]
 * [[GitComparison|Git Compared]]
 * [[SoC2010Ideas|Summer of Code 2010 ideas]]
+* [[MSysGit:Home|Git on Windows]]
 
 == News ==
 * February 12, 2010: Git Version 1.7.0 now [http://kernel.org/pub/software/scm/git/ available] [http://www.kernel.org/pub/software/scm/git/docs/RelNotes-1.7.0.txt Release Notes]
