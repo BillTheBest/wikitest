@@ -451,6 +451,41 @@ You can use <code><nowiki>git --bare init --shared=group</nowiki></code> (or <co
 * See Git's [http://www.kernel.org/pub/software/scm/git/docs/gitcvs-migration.html cvs-migration] doc, "Emulating the CVS Development Model" section for details.
 
 {{anchor|commit-diff}}
+
+== How do I share a git repository using POSIX ACLs? ==
+
+You can use <code>setfacl</code> to give permission to individual users on a repository. Suppose your login is <code>alice</code>, and you want to give permission to <code>charlie</code> and <code>bob</code>. Giving the permissions is done by:
+
+<pre>
+setfacl -Rm u:bob:rwx '/home/alice/path/to/repo'
+setfacl -Rm u:charlie:rwx '/home/alice/path/to/repo'
+</pre>
+
+Now, we have to set the default ACL, so than new files be created with the same permissions:
+
+<pre>
+setfacl -Rm d:u:bob:rwx '/home/alice/path/to/repo'
+setfacl -Rm d:u:charlie:rwx '/home/alice/path/to/repo'
+setfacl -Rm d:u:alice:rwx '/home/alice/path/to/repo'
+</pre>
+
+If needed, we also give the permission to traverse the filesystem up to the repository:
+
+<pre>
+setfacl -m u:bob:x '/home/alice/path/to'
+setfacl -m u:charlie:x '/home/alice/path/to'
+setfacl -m u:bob:x '/home/alice/path'
+setfacl -m u:charlie:x '/home/alice/path'
+setfacl -m u:bob:x '/home/alice'
+setfacl -m u:charlie:x '/home/alice'
+</pre>
+
+Git version <= 1.7.0 will break your ACL mask and create unreadable pack files if you have a umask restricting group access (e.g. umask 077). One can work around this problem by making the repository shared:
+
+<pre>
+git config core.sharedRepository group
+</pre>
+
 == How can I add a diff of the commit into the commit message window? ==
 
 Just call git commit with -v flag:
