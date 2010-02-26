@@ -1,9 +1,9 @@
 Wit is a Ruby/eRuby web interface to git.
 
 Wit provides:
-* more powerful configuration; see the [http://dan.chokola.com/wit/config.yaml easy-to-use YAML configuration]
+* more powerful configuration; see the [http://github.com/dchokola/Wit/blob/master/config.yaml.example easy-to-use YAML configuration]
 * easy YAML configuration (no mucking around in Perl!)
-* highly customizable; CSS styles are configurable and [http://dan.chokola.com/wit/blob.rhtml?group=Pet%20Projects&name=Wit&branch=master&head=3c2c3e582ef0d341dfeefc275c329d011029ef8c&obj=./index.rhtml very elegant eRuby templates] make creating completely custom pages easy.
+* highly customizable; CSS styles are configurable and [http://github.com/dchokola/Wit/blob/master/index.rhtml very elegant eRuby templates] make creating completely custom pages easy.
 * clean code
 ** no more running through 4000+ lines of obfuscated Perl, there's only a few hundred lines of Wit code anyway
 ** elegantly object-oriented with Ruby and split into multiple files so your eyes won't bleed and your webserver will love you
@@ -11,8 +11,6 @@ Wit provides:
 ** last commit is linked right on the index page
 ** redundant summary and shortlog views are combined
 ** commit and diff views are combined
-
-Check out a working example [http://dan.chokola.com/wit/ here].
 ----
 [[Category:Tools]] [[Category:WebInterfaces]]
 
