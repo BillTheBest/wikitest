@@ -1,4 +1,4 @@
-Wit is a Ruby/eRuby web interface to git.
+[http://github.com/dchokola/Wit Wit] is a Ruby/eRuby web interface to git.
 
 Wit provides:
 * more powerful configuration; see the [http://github.com/dchokola/Wit/blob/master/config.yaml.example easy-to-use YAML configuration]
