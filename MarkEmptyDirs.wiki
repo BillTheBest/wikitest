@@ -268,7 +268,7 @@ In this example, `DIR2` contains not only a placeholder but also `tempfile1.dll`
                 *--.emptydir
 </nowiki></pre>
 
-So in order to re-empty directories containg placeholder files you can use MarkEmptyDirs like this:
+So in order to re-empty directories containg placeholder files you can use [[MarkEmptyDirs]] like this:
 
 <pre><nowiki>
 $> MarkEmptyDirs.exe --purge PROJECT
