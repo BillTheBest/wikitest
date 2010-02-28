@@ -217,6 +217,71 @@ Sometimes you might want to hook into the placeholder creation or deletion proce
 <pre><nowiki>
 $> MarkEmptyDirs.exe --create-hook="hg add §placeholder§" --delete-hook="hg rm -fA §placeholder§" PROJECT
 </nowiki></pre>
+
+== Remove everything except placeholder files ==
+
+Sometimes, directories previously marked empty using placeholder files should remain empty. For instance, you might want to checkin an empty `bin` directory without the compiled binary files. Let's assume the following directory tree:
+
+<pre><nowiki>
+[PROJECT]
+        |
+        *--[DIR1]
+        |       |
+        |       *--[DIR1-1]
+        |                 |
+        |                 *--newfile.txt
+        |
+        *--[DIR2]
+        |       |
+        |       *--.emptydir
+        |       |
+        |       *--tempfile1.dll
+        |       |
+        |       *--[DIR2-1]
+        |                 |
+        |                 *--tempfile2.obj
+        |
+        *--[DIR3]
+                |
+                *--.emptydir
+                |
+                *--tempfile3.so
+</nowiki></pre>
+
+In this example, `DIR2` contains not only a placeholder but also `tempfile1.dll` and a subdirectory `DIR2-1` which we want to get rid of. `DIR3` contains `tempfile3.so` which should also be removed. Actually, we want the tree to look like this:
+
+<pre><nowiki>
+[PROJECT]
+        |
+        *--[DIR1]
+        |       |
+        |       *--[DIR1-1]
+        |                 |
+        |                 *--newfile.txt
+        |
+        *--[DIR2]
+        |       |
+        |       *--.emptydir
+        |
+        *--[DIR3]
+                |
+                *--.emptydir
+</nowiki></pre>
+
+So in order to re-empty directories containg placeholder files you can use MarkEmptyDirs like this:
+
+<pre><nowiki>
+$> MarkEmptyDirs.exe --purge PROJECT
+</nowiki></pre>
+
+'''WARNING''': Be careful with this command! If you are not sure what the `--purge` command will do execute a `--dry-run` in combination with `--verbose` option first:
+
+<pre><nowiki>
+$> MarkEmptyDirs.exe --dry-run --verbose --purge PROJECT
+</nowiki></pre>
+
+If your tree contains symbolic links and `--follow-symlinks` option is switched to `true` I would highly recommend to do this in advance!
+
 ----
 [[Category:Tools]] [[Category:Tools]]
 
