@@ -57,10 +57,11 @@ Directories are added automatically when adding files inside them. That is, dire
 
 You can say "<code><nowiki>git add <dir></nowiki></code>" and it will add files in there.
 
-If you really need a directory to exist in checkouts you should create a file in it. .gitignore works well for this purpose (there is also a tool [[MarkEmptyDirs]] which allows to automate this task); you can leave it empty, or fill in the names of files you expect to show up in the directory.
+If you really need a directory to exist in checkouts you should create a file in it. .gitignore works well for this purpose (there is also a tool [[MarkEmptyDirs]] using the .NET framework which allows to automate this task); you can leave it empty, or fill in the names of files you expect to show up in the directory.
 
 <!-- GitLink[rename-tracking] Some workflows do not support rename information -->
 {{anchor|rename-tracking}}
+
 == Why does git not "track" renames? ==
 [[Git]] has to interoperate with a lot of different workflows, for example some changes can come from patches, where rename information may not be available. Relying on explicit rename tracking makes it impossible to merge two trees that have done exactly the same thing, except one did it as a patch (create/delete) and one did it using some other heuristic.
 
