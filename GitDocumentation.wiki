@@ -59,6 +59,7 @@ All documentation residing on this wiki is put in the [[Category:GitDocumentatio
 * [http://www.eqqon.com/index.php/Collaborative_Github_Workflow Collaborative git workflow] explains how to collaborate with git on an open source project that is (not necessarily) hosted on GitHub.
 * [http://wiki.impressive-media.de/doc/git-%C3%BCber-apache-und-webdav-git-%C3%BCber-http HowTo: Installation of Apache WebDAV for git over http]
 * [http://wiki.impressive-media.de/doc/git-165-unter-debian-lenny-bzw-ubuntu-jaunty HowTo: Installation of git 1.6.5 under Debain Lenny and Ubuntu Jaunty]
+* [http://techblog.aasisvinayak.com/git-tutorial-maintain-your-project-easily/ GIT Tutorial: Maintain your project easily (How to: for beginners)]
 * [http://wiki.impressive-media.de/doc/braid-f%C3%BCr-git-installieren-debian-lenny HowTo: Installation and tutorial of Braid (submodule alternative)]
 
 == Man pages ==
