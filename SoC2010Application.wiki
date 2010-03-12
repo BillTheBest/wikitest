@@ -1,7 +1,6 @@
 Git's application to Google's Summer of Code 2010.
 
-Nobody has volunteered to submit the application and serve
-as our group's primary contact yet.
+spearce is the organization admin this year.
 
 == Description ==
 
