@@ -85,6 +85,15 @@ This favicon is taken from [http://repo.or.cz/w/git-gui.git git-gui.git] reposit
 Yet another alternate Git logo from Michael J Gruber in [http://permalink.gmane.org/gmane.comp.version-control.git/89342 Re: Git Branding Overview, Re: Git.or.cz Experimental Design] post on git mailing list.  The original is pure [[PostScript]], no fonts used.
 
 ----
+{| border="1" cellspacing="0" cellpadding="10"
+| [[File:Git-logo-3d.png]]
+|}
+
+Pseudo-3d version of Git logo, similar to the one by Henrik Nyh, found accompanying [http://maketecheasier.com/beginners-guide-to-git/2010/03/11 Beginner’s Guide to Git] blog post by [http://maketecheasier.com/author/joshuaprice/ Joshua Price] (at March 11th, 2010)
+on [http://maketecheasier.com/ MakeTechEasier].
+No attribution was provided for this image in the mentioned blog post.
+
+----
 
 http://repo.or.cz/w/git.git?a=blob_plain;hb=HEAD;f=t/test4012.png
 
