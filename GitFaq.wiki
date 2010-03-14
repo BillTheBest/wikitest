@@ -14,7 +14,7 @@ Git does not use a centralized server.
 
 Git runs on Linux, BSD, Solaris, Darwin, Windows, Android and other operating systems.
 
-== Why the 'git' name? {{Gitlink|git-name|Because Linus is an egotistical git}} ==
+== {{Gitlink|git-name|Because Linus is an egotistical git}} Why the 'git' name? ==
 Quoting Linus: "I'm an egotistical ***, and I name all my projects after myself. First 'Linux', now 'git'".
 
 ('git' is British slang for "pig headed, think they are always correct, argumentative").
