@@ -1,10 +1,5 @@
 __TOC__
 
-----
-'''See also:'''
-* [[GitTips]] page
-* [http://yuilibrary.com/gitfaq/ Git FAQ at YUI Library]
-
 = General Questions =
 
 == What is git ? ==
@@ -1082,10 +1077,12 @@ You can also use hg-git mercurial plugin ([http://hg-git.github.com/ http://hg-g
 Maybe, check if Tailor ([http://wiki.darcs.net/DarcsWiki/Tailor homepage]) can do it. Take a look at [[InterfacesFrontendsAndTools#rcs-interaction|InterfacesFrontendsAndTools]] page ("Interaction with other Revision Control Systems" section)
 
 ----
-= References =
-* [http://koalabs.org/~ange/git_faq/faq.html GIT FAQ by Thomas Riboulet] (defunct).
+= See also =
 * [[GitCommunity]], mainly Git mailing list.
+* [[GitTips]] page
 * [[WikiPedia:Git_(software)|Git (software)]] article at Wikipedia.
+* [http://yuilibrary.com/gitfaq/ Git FAQ at YUI Library]
+* [http://koalabs.org/~ange/git_faq/faq.html GIT FAQ by Thomas Riboulet] (defunct).
 ----
 [[Category:Glossary]] [[Category:GitDocumentation]]
 
