@@ -875,7 +875,7 @@ To enable usage of <code><nowiki>git svn</nowiki></code> in the clone use
 
 == {{Gitlink|clone-subdir|Git cannot clone subdirectories}} How do I clone a subdirectory?  ==
 
-Currently, you cannot. There are plans for [http://git.or.cz/gitwiki/SoC2009Ideas#NarrowandSparseclonesupport narrow and sparse clone support].
+Currently, you cannot. There are plans for [http://git.wiki.kernel.org/index.php/SoC2009Ideas#Narrow_and_Sparse_clone_support narrow and sparse clone support].
 
 In the meantime, you can use the subdirectory-filter of <code><nowiki>git filter-branch</nowiki></code> to extract a subdirectory. You can also merge changes back using the [http://www.kernel.org/pub/software/scm/git/docs/howto/using-merge-subtree.html subtree merge strategy]. Or you can use [http://www.kernel.org/pub/software/scm/git/docs/user-manual.html#submodules submodules].
 
