@@ -12,10 +12,6 @@ More information at http://nbgit.googlecode.com/
 * Mailing List: http://groups.google.com/group/nbgit
 * NetBeans Tracking Bug for Git VCS Support: http://www.netbeans.org/issues/show_bug.cgi?id=131531
 
-== External links ==
-
-* [http://www.bestessays.com.au write my essay]
-
 == Source Code ==
 
 <pre><nowiki>
