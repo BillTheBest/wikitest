@@ -183,12 +183,11 @@ There is a bit of a chicken and egg problem involved. The build procedure wants 
 <code><nowiki>GIT-VERSION-GEN</nowiki></code> script show current (used) git version, <code><nowiki>git --version</nowiki></code> shows git version used at the time git was build.
 
 == {{Gitlink|reset-hard-leaving-files}} Why is "git reset --hard" not removing some files?  ==
-<code><nowiki>git reset --hard</nowiki></code> doesn't remove the files which are in the ''current'' version of <code><nowiki>.gitignore</nowiki></code>. "git reset" won't delete files it doesn't track (particularly when it has been _told_ to ignore them).
 
-If the version you switched to has an earlier (different) version of the <code><nowiki>.gitignore</nowiki></code> file then the files which were not deleted might be not ignored in the reset version, and will for example show in the <code><nowiki>git status</nowiki></code> output.
+"git reset" will not delete files it does not track, including files it is told to ignore. If reset switches to a version with a different <code><nowiki>.gitignore</nowiki></code> file, then some previously ignored files might show up as untracked files in <code><nowiki>git status</nowiki></code> output.
 
-* See [http://marc.theaimsgroup.com/?l=git&m=114917892328066 Linus Torvalds] answer or [http://marc.theaimsgroup.com/?l=git&m=114917892613019 Sean Estabrooks] answer at [[GitCommunity|git mailing list]].
-* If you are using cygwin or OSX, you might have be having issues with case sensitivity. See [http://marc.info/?l=git&w=2&r=1&s=xt_CONNMARK.h&q=b some discussion here].
+* See [http://marc.theaimsgroup.com/?l=git&m=114917892328066 Linus Torvalds] answer or [http://marc.theaimsgroup.com/?l=git&m=114917892613019 Sean Estabrooks] answer on the [[GitCommunity|git mailing list]].
+* If you are using cygwin or OSX, you might be having issues with case sensitivity. See [http://marc.info/?l=git&w=2&r=1&s=xt_CONNMARK.h&q=b some discussion here].
 
 == {{Gitlink|non-ff|Your push would lose changes on the remote}} Why is my push rejected with a non-fast forward error?  ==
 If you try to push a branch, you might get this error message:
