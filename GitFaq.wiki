@@ -1058,7 +1058,7 @@ between versions, so the index ''thinks'' things are newer. It won't touch the "
 == {{Gitlink|import-cvs}} Can I import from CVS?  ==
 Yes, use [http://www.kernel.org/pub/software/scm/git/docs/git-cvsimport.html git-cvsimport(1)], which needs [http://www.cobite.com/cvsps/ CVSps] ([http://ydirson.free.fr/en/software/scm/cvsps.html CVSps patches]), or use [http://gitweb.freedesktop.org/?p=users-keithp-parsecvs;a=summary parsecvs], which parses directly <code><nowiki>,v</nowiki></code> files.
 [http://cvs2svn.tigris.org/ cvs2svn] version 2.1 or later has a [http://cvs2svn.tigris.org/cvs2git.html git output mode] in which it creates dump files that can be read by [http://www.kernel.org/pub/software/scm/git/docs/git-fast-import.html git fast-import].
-Lastly, there is also [http://git.or.cz/gitwiki/InterfacesFrontendsAndTools#fromcvs FromCVS toGit], which is a speedy solution with incremental import and branch support, but it currently does not support normal tags.
+Lastly, there is also [[InterfacesFrontendsAndTools#fromcvs/togit|FromCVS toGit]], which is a speedy solution with incremental import and branch support, but it currently does not support normal tags.
 * See [http://www.kernel.org/pub/software/scm/git/docs/gitcvs-migration.html the CVS migration doc] for more examples.
 * See [http://git.or.cz/course/cvs.html Git - CVS Crash Course] on [http://git.or.cz/ Git homepage]
 
