@@ -38,7 +38,8 @@ Major bugs:
 
 Git automatic mirroring is a system for making Git repositories distribute automatically. It is the first stage of more general P2P features planned.  The idea is that when fetching data from a server, the server can inform the client of mirrors of the repository, which the client can fetch the majority of the data from, then fetch any remaining objects from the main server.  This way large Git projects can be served from local mirrors for distributed teams, or large hosts such as git.kernel.org or github can effectively offload bandwidth to closer or more lightly loaded servers.
 
-More details of the proposed updates here (copied from a Google wave page on the subject) : http://gist.github.com/301798
+More details of the proposed updates are in wave; exported to:
+http://exporty-bot.appspot.com/export?waveId=googlewave.com!w%252BX89ak6dHA
 
 ''Goal:'' Allow Git fetch (client) and upload-pack (server) commands to list and partially fetch from mirror servers.<br>
 ''Language:'' C<br>
