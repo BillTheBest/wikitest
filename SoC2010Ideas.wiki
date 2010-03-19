@@ -1,6 +1,5 @@
 ''Table of Contents:''
 __TOC__
-----
 = Projects touching the core of Git =
 
 
