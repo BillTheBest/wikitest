@@ -1,8 +1,6 @@
 ''Table of Contents:''
 __TOC__
 ----
-Git plans to apply for the Google Summer of Code 2010.  Although we have not been accepted yet, here are a few interesting projects (see also [[SoC2009Ideas|previous ideas]], some of which have been implemented already, though):
-
 = Projects touching the core of Git =
 
 
