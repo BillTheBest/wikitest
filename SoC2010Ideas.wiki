@@ -111,7 +111,7 @@ The project will involve combination of routine GUI development, smart UI design
 == Patch management on top of git ==
 
 Patch management is needed mostly by linux distributions (Debian, Fedora) to manage changes applied to the original upstream tarball of a packaged software. One popular project that tried to provide this feature is topgit. However it seems that topgit is not the best solution to the problem and much to complicate to gain broad addoption.
-An alternative approach the subject has been presented in this mail to the git list: [rethinking patch management with GIT / topgit]. The task of this project would be to work out the details of this idea, provide an implementation an test whether it's usable in distribution packaging.
+An alternative approach the subject has been presented in this mail to the git list: [http://permalink.gmane.org/gmane.comp.version-control.git/142727 rethinking patch management with GIT / topgit]. The task of this project would be to work out the details of this idea, provide an implementation an test whether it's usable in distribution packaging.
 
 ''Language'': Perl, Python, C, shellscript<br>
 ''Possilbe Mentors'': NN, eventually Thomas Koch<br>
