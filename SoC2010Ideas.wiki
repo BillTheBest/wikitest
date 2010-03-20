@@ -12,7 +12,7 @@ There is a longstanding inconsistency in pathspec limiting done by various famil
 
 The latter unfortunately has at least two different implementations.  The one ls-files and checkout uses is in dir.c; grep uses a different implementation that is more advanced and better suited for a caller that can benefit from being able to skip a whole subdirectory.
 
-''Goal:'' Make "git log 't/*.sh'" work as expected, without introducing unnecessary overhead.
+''Goal:'' Make "git log 't/*.sh'" work as expected, without introducing unnecessary overhead.<br>
 ''Language:'' C<br>
 
 
@@ -27,7 +27,7 @@ Major bugs:
 * It should be possible to use relative URLs in .gitmodules
 * Enhancements to tools and CLIs to make working with submodules more easy.
 
-''Goal:'' Get one or more of the above major bugs fixed and the changes accepted into git core.
+''Goal:'' Get one or more of the above major bugs fixed and the changes accepted into git core.<br>
 ''Language:'' C<br>
 
 
@@ -66,9 +66,9 @@ Some of above functionality can be found in graphical blame browsers such like s
 
 Note that this project is about providing a ''command line'' program working at line level (and certainly accessing the objects directly for best performance). This is not the same as ''Giddy'' (see below), which is a ''graphical'' tool working on arbitrary content fragments (and possibly just using Git's ''pickaxe'' interface).
 
-''Goal:'' A program that can follow history of line ranges.
-<BR>''Language:'' C
-<BR>''Mentor:'' Johannes Schindelin (johannes.schindelin@gmx.de)
+''Goal:'' A program that can follow history of line ranges.<BR>
+''Language:'' C<BR>
+''Mentor:'' Johannes Schindelin (johannes.schindelin@gmx.de)
 
 = Add-ons to Git =
 
