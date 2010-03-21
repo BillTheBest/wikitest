@@ -105,6 +105,9 @@ __TOC__
 === git-gui (distributed with Git) ===
 * [[Git-gui|git-gui]] ([http://permalink.gmane.org/gmane.comp.version-control.git/31054 announcement], [http://repo.or.cz/w/git-gui.git gitweb]) by Shawn Pearce is a tool for creating commits and managing branches. It was inspired by and initially based on [[#gitool|gitool]]. Written in Tcl/Tk. Stable versions are shipped with Core Git since version 1.5.
 
+=== RepoWatch (Mac OS X) ===
+* RepoWatch ([http://www.doomstick.com/projects/repowatch/ homepage]) is a graphical client for Mac OS X that provides very quick access to the basics of Git or Mercurial with minimal effort: just press Command-Option-Enter.
+
 === tig (Text-mode Interface for Git) ===
 * [[Tig|tig]] ([http://jonas.nitro.dk/tig/ homepage]) by Jonas Fonseca is a simple git repository browser written using ncurses. Basically, it just acts as a front-end for `git-log` and `git-show`/`git-diff`. Additionally, you can also use it as a pager for git commands.
 
