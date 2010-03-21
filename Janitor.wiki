@@ -16,10 +16,10 @@ Also note that it may happen that this list is not up to date. In this case plea
 ** For example "revision.h" depends on "commit.h" and "diff.h", so "revision.h" should include them.
 ** Of course after that it makes sense to clean up the "*.c" source files that include all these headers, to remove the headers that are no more needed there.
 ** There may be other ways to cleanup header file include directives. 
-* ''Convert code to use "-q" option''
+* ''Convert code to use "-q" option where appropriate''
 ** Many git commands have some "-q" or "--quiet" option to make them "quiet".
-** Despite that, a lot of code in git uses ">/dev/null" or "2>/dev/null" with these commands, instead of the "-q" or "--quiet" option.
-** So it would be a good idea to find such code and change it to use -q option.
+** There are many uses of ">/dev/null" or "2>/dev/null" with these commands, written before "-q" existed.
+** Some of these plases can be converted to use "-q" without changing the semantics.
 * ''Use time_t for timestamps returned by approxidate() instead of unsigned long. This also affects e.g. OPT_DATE options. ''
 ** Review the discussions posted to the list:
 *** [https://kerneltrap.org/mailarchive/git/2008/11/6/4014344 November2008]
