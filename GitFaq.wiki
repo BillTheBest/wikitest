@@ -1077,6 +1077,8 @@ Yes, use [http://git-svn.yhbt.net/git-svn.html git-svn(1)]. Check also [[Interfa
 
 Merge tracking information added to svn repositories by [http://svk.bestpractical.com/ svk], [http://www.orcaware.com/svn/wiki/Svnmerge.py svnmerge], or version 1.5 or later of [http://subversion.tigris.org/merge-tracking/ subversion itself], is not properly converted.
 
+Tag conversion is also not optimal; git-svn and other known importers turn SVN tag directories into branches rather than git tags, even if the tag copy has never been modified.
+
 * See [http://git.or.cz/course/svn.html Git - SVN Crash Course] on [http://git.or.cz/ Git homepage]
 
 == {{Gitlink|import-arch}} Can I import from arch/baz/tla?  ==
