@@ -174,3 +174,11 @@ A couple of projects are in early stages, but lack the time of a GSoC project to
 ''Goal:'' Provide long-needed improvements to msysGit.<br>
 ''Language:'' C. Pascal. Wiki markup.<br>
 ''Mentor:''  Johannes Schindelin<br>
+
+
+= Other sources of ideas =
+
+* Ideas from previous Google Summer of Code.  Note that some of ideas got implemented since then.
+** [[SoC2007Ideas]] (e.g. .gitlink, lazy clone, GitTorrent, blame merge strategy, git-svnserver)
+** [[SoC2008Ideas]] (e.g. resumable clone/fetch, pack v4/v5)
+** [[SoC2009Ideas]] (e.g. packfile caching for git-daemon, git mirror-sync, libgit2, directory renames)
