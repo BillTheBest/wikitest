@@ -316,6 +316,9 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * gPodder - PyGtK podcast catcher / sync program
 ** http://gpodder.org/ (homepage)
 ** http://repo.or.cz/w/gpodder.git (gitweb)
+* GPSD - monitor daemon and tools for GPS sensors and AIS receivers
+** http://gpsd.berlios.de (homepage)
+** http://git.berlios.de/gpsd (gitweb)
 * graph-tool
 ** http://projects.forked.de/graph-tool/wiki/GraphToolDownload
 ** http://git.forked.de/?p=graph-tool (gitweb)
