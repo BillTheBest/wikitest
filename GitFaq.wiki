@@ -253,7 +253,10 @@ See also (mailing list posts):
 * [http://thread.gmane.org/gmane.comp.version-control.git/46341 mailing list post]: [FAQ?] Rationale for git's way to manage the index
 * [http://thread.gmane.org/gmane.comp.version-control.git/32452/focus=32610 mailing list post]: [PATCH 0/2] Making "git commit" to mean "git commit -a"
 == My HTTP repository has updates, which git clone misses. What happened? ==
+
 If you push via SSH to the repository, you have to enable the post-update hook (chmod a+x hooks/post-update). If you "push" with rsync, you have to make sure to execute "git update-server-info" _before_ pushing. HTTP is a "dumb" transport, which needs some help. This help is provided in the form of the file info/refs, which contains the current refs (names + commit names of the tips).
+
+This is not an issue with servers using the smart HTTP transport added in git version 1.6.6. Smart HTTP will also provide a dynamically created info/refs file for older clients. See also [http://www.kernel.org/pub/software/scm/git/docs/git-http-backend.html git-http-backend(1)].
 
 == {{Gitlink|modtime}} Why isn't Git preserving modification time on files? ==
 Modification time on files is a feature that affects build tools. Most build tools compare the timestamp of the source(s) with the timestamp of the derived file(s). If the source is newer, then a rebuild takes place, otherwise nothing happens. This speeds up the build process a lot.
