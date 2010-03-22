@@ -937,6 +937,19 @@ git rev-list --all --objects |
 
 = Error diagnostic =
 
+== {{Gitlink|remote-hangup}} Git push fails with "fatal: The remote end hung up unexpectedly"?  ==
+
+If, when attempting <code><nowiki>git push</nowiki></code>, you get a message that says:
+
+<pre><nowiki>
+fatal: The remote end hung up unexpectedly
+</nowiki></pre>
+
+that's the not-so-helpful way that authorization failures and write refusals are reported. 
+You might be using a git:// URL to push, which has no authorization whatsoever and hence has
+write access disabled by default. Or you might be using an ssh URL that allows write access,
+but not have an ssh public key correctly installed on the remote host. 
+
 == {{Gitlink|empty-ident}} Git commit is dying telling me "fatal: empty ident <user@myhost> not allowed", what's wrong?  ==
 Make sure your Full Name is not empty in chsh or the 5th field of your user line in <code><nowiki>/etc/passwd</nowiki></code> isn't empty. You can also set the <code><nowiki>GIT_AUTHOR_NAME</nowiki></code> environment variable. If your @myhost is empty make sure your hostname is correctly set. Use <code><nowiki>git var -l</nowiki></code> to make git display user identity variables.
 
