@@ -68,7 +68,7 @@ Note that this project is about providing a ''command line'' program working at 
 
 ''Goal:'' A program that can follow history of line ranges.<BR>
 ''Language:'' C<BR>
-''Mentor:'' Johannes Schindelin (johannes.schindelin@gmx.de)
+''Mentor:'' NN<br>
 
 = Add-ons to Git =
 
@@ -82,7 +82,7 @@ Therefore, a tool is needed which uses Git's output to present the differences b
 
 ''Goal:'' Provide a graphical tool to help with merge conflicts specifically in LaTeX files.<br>
 ''Language:'' As preferred by the student, but it should be portable between Linux, MacOSX and Windows.<br>
-''Mentor:''  Johannes Schindelin<br>
+''Mentor:''  NN<br>
 
 == A remote helper for svn ==
 
@@ -142,7 +142,7 @@ An implementation of the recursive merge will allow easy implementation of ''che
 
 ''Goal:'' Implement the recursive merge algorithm in JGit.<br>
 ''Language:'' Java.<br>
-''Mentor:''  Johannes Schindelin<br>
+''Mentor:''  NN<br>
 
 == jrebase -i ==
 
@@ -154,7 +154,7 @@ This project relies on the ''recursive merge in JGit'' project.
 
 ''Goal:'' Implement 'rebase -i' in JGit.<br>
 ''Language:'' Java.<br>
-''Mentor:''  Johannes Schindelin<br>
+''Mentor:''  NN<br>
 
 = Platform-specific projects =
 
@@ -173,7 +173,7 @@ A couple of projects are in early stages, but lack the time of a GSoC project to
 
 ''Goal:'' Provide long-needed improvements to msysGit.<br>
 ''Language:'' C. Pascal. Wiki markup.<br>
-''Mentor:''  Johannes Schindelin<br>
+''Mentor:''  NN<br>
 
 
 = Other sources of ideas =
