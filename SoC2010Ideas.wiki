@@ -125,7 +125,26 @@ Git's source code was not written to be reentrant, but to execute a program doin
 
 Shawn Pearce already started libgit2, but as of now most functions are not implemented. This project's purpose is to implement most of these functions, and maybe provide language bindings for Python, Ruby, etc.
 
-''Goal'': Implement enough of libgit2 to access a Git repository from a C program and/or a Python/Ruby/Whatever script. <br/>
+In order to consider the libgit2 project successful, the library should be able to read and write the git index file as well as reading (and understanding) and writing all kinds of objects and refs (blobs, trees, commits, heads, tags).<br />
+
+Some things are out of scope for the GSoC project, since they're rather specialized areas that not many users would benefit hugely
+from.<br />
+It is not necessary for the library to be able to write packfiles.<br />
+It is not necessary for the library to be able to generate patches.<br />
+It is not necessary for the library to be able to create merges.<br />
+
+It is necessary for the library to be able to read objects from the loose object store as well as from packs (this is already implemented to some degree).<br />
+It is necessary for the library to be able to manipulate the git index file.<br />
+It is necessary for the library to be able to manipulate branch heads and tags (including packed refs).<br />
+It is necessary for the library to understand the configuration file format and certain configuration parameters from the config file.<br />
+It is necessary to properly document each and every publicly available library function with doxygen style comments.<br />
+It is necessary to have unit- and function-tests for all non-trivial code. This is a '''very''' strict requirement.<br />
+
+This covers about 95% of the everyday functionality that git provides to the majority of its userbase.
+
+In essence, one should be able to write "git fsck", "git add", "git rm", "git commit-tree", "git tag" and "git update-ref" type applications using only library calls to access and manipulate the git repository.
+
+''Goal'': Implement enough of libgit2 to access a Git repository from a C program and/or a Python/Ruby/Whatever script.<br/>
 ''Language'': C, doxygen <br/>
 ''Possible Mentors'': Andreas Ericsson (ae@op5.com)<br/>
 ''Suggested By'': Scott Chacon<br/>
