@@ -3,7 +3,7 @@ If your project is not listed, please add it here.
 
 List does not currently include [[Git]] or git-related tools; see [[InterfacesFrontendsAndTools]] page for those.
 
-''''''chandller''''''== Kernel-related projects that use Git for their source code management. ==
+== Kernel-related projects that use Git for their source code management. ==
 
 * Linux Kernel
 ** http://kernel.org
