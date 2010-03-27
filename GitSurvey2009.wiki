@@ -1916,6 +1916,335 @@ out-of-tree, before resubmitting.
 
 1097 / 3868 non-empty responses
 
+''Description:''<br>
+
+'''EXAMPLES:''' partial / subtree checkout, commit annotations aka
+git-notes, refs/replace/* mechanism, "smart" HTTP protocol (git via
+HTTP), resumable clone/fetch, lazy clone (on demand downloading of
+objects), wholesame directory rename detection, syntax highlighting
+and/or side-by-side diffs in gitweb, graphical merge tool integrated
+with git-gui, etc.
+
+''Analysis:''<br>
+
+Below there is summary of around first 50% of responses (proposed features), divided into rough categories.
+
+* performance
+** better support for big files (large media)
+** speed up "resolving deltas" step on large repositories
+** better performance on very large (multiple gigabyte) repositories
+** git-status faster on large binary files
+** "shallow history" binaries (e.g. for large files) / "selective shallow history"
+** unobtrusive incremental repacking (better algorithm)
+
+
+* generic git improvements and new features
+** support for tracking empty directories
+** full ignoring of case, including .gitignore and git-status
+** "partial submodules", mount part of repository in some other repo
+** better shallow clones support
+** better line ending handling
+** filename encoding (in repository vs in filesystem)
+** standarize on UTF-8 for filenames in core
+** standarize on UTF-8 for commit messages, get encoding from locale
+** better support for sharing objects
+** union checkouts (some files from one branch, some from other) (?)
+** git "overlays", i.e. mixing several git repos in one working directory, a bit like unionfs for git working area
+** advisory locking / "this file is being edited"
+** locking / git-lock
+** optional/pluggable user and file edit tracking (advisiory locking?)
+** wholesame directory rename detection / subtree rename detection
+** tracking of multiple worktrees without symlinks
+** warn when commit or merge leave file empty
+** interactive prompts (for new users)
+** rename tracking via annotations
+** repo-specific (local) version number scheme, similar to Mercurial
+** http://nubyonrails.com/articles/five-features-from-mercurial-that-would-make-git-suck-less
+** obsoleting of branches (keep them, use only on demand)
+** ACL
+** grouping files in staging area, comitting by such group (splitting commit) to split changes in working area into two commits
+** local tags
+** comments on branches / descriptions of branches
+** optional metadata storage (permissions, timestamps, EA, ownership)
+** git sequencer merged
+
+
+* safety
+** save unstaged data somewhere for "git reset --hard" to be recoverable
+** make "git stash apply" to not lose index by default
+** track published revisions to warn against rewriting published history (warn before/when rewriting published history)
+** teach reset/checkout to warn about rebase in progress (safety check to warn when/forbid comitting when inside rebase/am)
+** easy way to tell which commits are in local repository only
+** branch.&lt;name&gt;.rebase = true, but rebase only up until the last merge
+** more safety, e.g. for 'git checkout *'
+** robustness, fewer weird errors
+** fix bug: files wrongly deleted when directory replaced by symlink
+
+
+* generic command line improvemenents and new commands
+** undo buffer for reverting a file (single-file stash?)
+** svn/bzr/hg/darcs-like revert (revert-edits)
+** better undo/abort/continue 
+** better oops/undo actions, easier undo features (commit, merge, etc.)
+** 'git undo' (universal undo)
+** git command history, with ability to undo commands (multi-level?) via "git undo"
+** git merge --abort
+** '-n' like option for each command, which describes what would happen
+** preview to what git-revert would do
+** better error messages
+** improve error reporting and frontend usability
+** localization of command-line messages
+** units of all numbers in git commands output
+** alternate, easier to use porcelain
+** zsh command line completion for aliases
+** more informative error messages, e.g. for "git push master origin" instead of "git push origin master" (newbie friendly)
+** hooks / deep integration with ticketing system / issue tracker, like requiring ticket number in commit (?)
+** more hooks
+** clearer error messages (less references to git implementation details)
+** a bit more coherence in terms of interface would be much appreciated
+** better CRLF support, in particular files dirty due to CRLF mismatch
+** git imap-retrieve &lt;msg-id&gt; | git am -3
+** git-kill command (???)
+** built-in tutorial mode
+** aliases for pre-defined --pretty=, like --oneline
+** environmental variable for templates location
+** support multiple template directories in init command (?)
+** git-subtree should be a part of git-core
+** tool to manage git repositories (???: repo, gitosis, gitolite)
+** git cp
+** git-media http://gist.github.com/79247
+** built-in Quilt-like patch management interface (like StGIT or Guilt)
+** "git unstage" (built-in alias for "git reset HEAD")
+** git stage / git unstage
+** setting default options (parameters) in config / aliasing git commands
+
+
+* improvements of transport (git clone, fetch and push)
+** resumable clone/fetch (remote operations)
+** resumable push
+** lazy clone
+** view log without cloning repo (to view changes in remotes)
+** remote operations? git diff/log REMOTE:COMMITISH..REMOTE:COMMITISH
+** fetching reflog from other repository (?)
+** recursively clone submodules (option)
+** git push --create
+** easy way to clone single branch
+** easy way to do shallow clone of a single branch
+** pushing to shallow clones / better shallow clone support
+** shallow cloning/fetch starting at COMMITISH rather than at DEPTH
+** partial clone / clone a subdirectory
+** git push --track / better support for centralized workflows
+** push over ftp
+** SASL authentication on pushes over git://<br>authentication and encryption for git protocol
+** ask for password only once (http(s), ssh, ...)
+** add some curl options to the command line, so .netrc is not required
+** better HTTP/(WebDAV) support with custom ACL
+** mod_git for Apache
+** push to non-bare with automatic checkout (sample hook?)
+** built-in gitjour/bananajour
+** git clone --peer (for multi-peer mothership/satelite setup)
+** distributed distribution protocol, a la GitTorrent
+** BitTorrent-like transfers (GitTorrent) for slow/long-term transport
+** show network progress if verbose (curl has progres option)
+** git-update-server-info should be somehow run automatically
+** simple publishing on restricted servers (no git), e.g. push via ftp
+** git sync &lt;remote&gt;
+** the universal "git update"
+** git pushall and pullall
+** (optional) autostash/unstash around git-pull, when pulling into dirty tree
+
+
+* interacting with remotes and remote-tracking branches<br>see also subsection above
+** remote branches listed with local branches ('git branch -v -v'?)
+** easier way to see which branches are tracking which ones
+** clearer/more intuitive way to clean out remote tracking branches that no longer exist on the remote
+** clearer/more intuitive way to remove remote branches
+** git remote prune --all
+** better remote branch management (?)
+** git_remote_branch ruby gem functionality
+** synchronization of branches withour remote-tracking branches, like in hg
+** a way to refer "last used" remote, or default to last used remote (?)
+** view log without cloning repo (to view changes in remotes)
+** replicated (transferable) per-branch meta-information
+** a command which would show which branches are divergent so that they would create conflict during merge (and support in gitk/git-gui for this)
+
+
+* improvements to diff
+** "show all changes to function X"
+** diff between two different working trees
+** 'git diff -I' (similar to 'cvs diff -I'), i.e. "-I REGEXP:: Ignore changes that just insert or delete lines that match REGEXP."
+** diffs with sub-line granularity
+** diff by author (?)
+** difftool with support for tools that can diff entire tree of files, instead of diff one file at a time (same with mergetool)
+
+
+* improvements to merge
+** A sensible way of delaying conflicts with non-text files e.g.keeping both files around and renaming them for later merging in OpenOffice etc.
+** automatically run merge tool on merge conflict
+** option/command to undo auto-merge to do merge manually
+** better whitespace handling on merges / rebases
+** http://thomas.apestaart.org/log/?p=898 (about git merge conflict)
+
+
+* improvements to other git commands
+** environmental variables in config, expanding ~ and ~user in paths
+** git status --format=...
+** git archive --format=tgz
+** git merge --ff=only (--ff flavors) / git pull --ff=only
+** mass update/rebase of a number of local branches (is it possible?)
+** easier conflict resolution (how?)
+** "longest common changed path" option for log formats
+** 'git log --follow' to follow through evil merges with renames etc.
+** git commit --amend HEAD~2
+** "git commit &lt;file&gt;" for untracked file
+** git commit --interactive &lt;files&gt;
+** git checkout -i, git stash -i
+** git log foo/bar.c:123-150, limiting results to changing given lines
+** multiple indices/staging areas ("git add --to-index &lt;index&gt; &lt;file&gt;")
+** 'git mergetool -t emerge' that works with emacsclient / gnuclient
+** better intergation with KDiff3
+** more grep-specific arguments in git-grep
+** git merge --abort
+** git cherry-pick &lt;revision&gt; -- &lt;file&gt;
+** "git stash apply 1" or "git stash apply &lt;label&gt;", not stash@{1}
+** rebase -i -p with commit reordering (e.g. via git-sequencer)
+** head tips in log --graph
+** 'split' instruction for interactive rebase
+** template for cover letter / input cover letter for git-format-patch
+** make git fetch && git merge be the same as git pull
+
+
+* additional tools
+** interactive blame tool (where did this line come from)
+** graphical interactive rebasing
+** visual map of reflog
+** graphical tool for cherry-picking and squashing
+
+
+* gitweb, web interfaces
+** categories support in gitweb, with collapsible groups
+** syntax highlighting in gitweb
+** side-by-side diffs in gitweb
+** color-words diff in gitweb
+** graphical history view in gitweb
+** gitweb should give more graphics and stats (timeline with commit count per branch, commit graphs,...)
+** (easily) customizable diff formats in gitweb
+** (easy) comparing arbitrary commits in gitweb<br>easy to use/find arbitrary diffs in gitweb
+** nicer URLs in gitweb (like in cgit)
+** RDFa in gitweb
+** commit annotations (committags) in gitweb (probably)
+** admin features in gitweb
+** more advanced search options in gitweb (i.e. expose options such as --since=, --util=)
+** ajax/web 2.0 type web front end
+** git-instaweb should be github-like
+
+
+* submodules
+** submodule interface improvements
+** non-pegged submodules (use most recent HEAD/branch, not sha1) (?)
+** better recursive submodule support
+** support foreign SCM source as submodule
+** read-only submodules
+** "partial submodules", mount part of repository in some other repo
+** submodules autoupdated on pull
+** using tags/branches in git-submodule (?)
+** recursively clone submodules (option)
+** GUI for submodules (or support for submodules in git-gui)
+** submodules and switching branches
+** submodules with ability to set up alternates before submodule checkout
+** support for submodules in git-archive
+** an easy way to remove submodules from a project
+** fix "git add path/" vs "git add path" gotcha with submodules
+** forests (a la Mercurial) - perhaps similar to svn:externals or git-ext
+
+
+* gitk and git-gui (GUI)
+** better integration of git-gui and gitk
+** revert chunks in git-gui
+** GUI for submodules (or support for submodules in git-gui)
+** GUI for rebase in git-gui
+** GUI for creating repository in git-gui
+** GUI tool to manage set of git repositories (config, access,...)
+** merge gitk and git-gui
+** support for ignoring files (adding to .gitignore) in git-gui
+** graphical merge tool integrated with git-gui
+** tips in gitk / git-gui ("Did you know...")
+** "commands issued" (or "command equivalents") in git-gui / gitk
+** gitk more like GitX graphs (complex graphs)
+** make gitk and git-gui friendlier (?)
+** gitk / git-gui supporting list of ref glob patterns<br>(DONE with --glob=&lt;pattern&gt; option to git-rev-list / git-log)
+** autorefresh of refs in gitk and git-gui
+** revert (i.e. delete) single hunk in git-gui ("unstage these lines")
+** syntax highlighting in git-gui
+** font-smoothing in git-gui
+** support for rebasing in git-gui
+** support for undoing local modifications in files in git-gui
+** running diff and merge tool from git-gui
+** better git blame GUI tools
+** support for shallow clones in GUI tools
+** editing commits, etc. in GUI via git-replace/grafts
+** visual map of reflog
+** graphical interactive rebasing
+
+
+* documentation
+** git overview manpage, like perl5 and zsh
+** documentation on commit message templates
+** more examples in manpages
+** example workflows in documentation
+** document centralized (no maintainer) workflow
+** better "getting started" documentation for newbies (git-intro)
+** more topic "How do I ..." style docs
+** remove references to since removed git-svnimport command
+** git-ai: ai help with docs
+** concise help output listing medium/advanced features
+** better documentation (manpages) and error messages
+** tutorial visualization tool (rebase vs merge, reset vs revert)
+
+
+* interacting with other version control tools
+** uniform interface to foreign SCMs repositories (bidirectional)
+** support foreign SCM source as submodule
+** git svn switch
+** SVN metadata outside git commit (extra files, or notes)
+** http://bugs.debian.org/git-svn
+** git-bzr and git-hg
+** git-svnserver and git-bzrserver
+** conversion from bzr, perforce, etc.
+** git-svn on subsection of history / subset of branches
+** partial SVN branch checkouts (tracking only some of branches)
+** git svn partial checkout
+** lazy "git svn clone"
+** proper support for svn:externals in git-svn
+** git-svn support for svn:eol-style native
+** better default hooks for git-svn, e.g. creating new branch in git would create a new branch in svn (partial svn branch integration)
+** git-svn in C, not in Perl (depending on libsvn C API)
+** more flexible git-svn wrt trunk/tags/branch names, or better examples
+** better git-p4
+
+
+* portability
+** git-daemon support in msysGit
+** git-daemon in msysgit
+** easier msysGit upgrading (keep the same options as previous install)
+** better MS Windows suport
+** better encoding support on MS Windows
+** graphical history browser for MS Windows
+** better graphical tool for OSX, with integrated merge tool
+** portable TortoiseGit / Git-Cheetah for USB (PortableApps)
+
+
+* bindings
+** libgit / LGPL libgit
+** Git.pm better supported
+** pull/merge support in EGit/JGit
+** write plugins using scripting languages like Perl or Ruby (?)
+** plugin architecture like bzr and hg has
+** python bindings
+
+
+* installation
+** make uninstall
 
 == What you think of Git ==
 
