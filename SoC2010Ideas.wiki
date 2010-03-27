@@ -201,3 +201,5 @@ A couple of projects are in early stages, but lack the time of a GSoC project to
 ** [[SoC2007Ideas]] (e.g. .gitlink, lazy clone, GitTorrent, blame merge strategy, git-svnserver)
 ** [[SoC2008Ideas]] (e.g. resumable clone/fetch, pack v4/v5)
 ** [[SoC2009Ideas]] (e.g. packfile caching for git-daemon, git mirror-sync, libgit2, directory renames)
+
+* Answers to question [[GitSurvey2009#19._What_features_would_you_like_implemented_in_Git.3F_What_features_are_you_missing.3F|19. What features would you like implemented in Git? What features are you missing?]] in [[GitSurvey2009|Git User's Survey 2009]]<br>(e.g. protect published history, tracking empty directories, advisory locking / edit tracking, universal undo)
