@@ -68,7 +68,7 @@ Note that this project is about providing a ''command line'' program working at 
 
 ''Goal:'' A program that can follow history of line ranges.<BR>
 ''Language:'' C<BR>
-''Mentor:'' NN<br>
+''Mentor:'' Thomas Rast, ''Co-Mentor:'' Jens Lehmann<br>
 
 = Add-ons to Git =
 
