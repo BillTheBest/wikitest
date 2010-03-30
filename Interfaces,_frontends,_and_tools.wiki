@@ -978,7 +978,7 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 * git-svnconvert, written by Rutger Nijlunsing in Ruby, appeared only on git mailing list in post [http://marc.theaimsgroup.com/?l=git&m=114460050718696||ANNOUNCE  git-svnconvert: YASI (Yet Another SVN importer)].
 
 ==== svn-all-fast-export ====
-* svn-all-fast-export ([http://repo.or.cz/w/svn-all-fast-export.git gitweb]) by Thiago Macieira, is a tool that exports from Subversion onto multiple Git repositories via git-fast-import. Written in C++, uses Qt Core library.
+* svn-all-fast-export/svn2git ([http://gitorious.org/svn2git/svn2git Gitorious]) by Thiago Macieira, is a tool that exports from Subversion onto multiple Git repositories via git-fast-import. Written in C++, uses Qt Core library. It came into being to serve KDE's needs for a conversion to Git. It is reportedly faster than git-svn as of 2010-03-30: 8 minutes instead of 110 minutes on a multi-branch 15,5K revisions repository.
 
 ==== svneverever ====
 * [http://git.goodpoint.de/?p=svneverever.git;a=summary svneverever], written by Sebastian Pipping in Python, is a tool that helps understanding history of a subversion repository ''before'' migrating it to Git. It runs through all history collecting additions of directories. In the end it presents a tree of ''all directories ever having existed'' in the repository. This information is a good basis to writing rules files for [[#svn-all-fast-export|svn-all-fast-export/svn2git]]. A more detailed introduction to svneverever can be found in the author's blog post [http://blog.hartwork.org/?p=763 Before svn2git you want to run: svneverever].
