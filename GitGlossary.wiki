@@ -192,7 +192,7 @@ See also: [[GraftPoint]]
 The hook scripts are found in the `$GIT_DIR/hooks/` directory,
 and are enabled by simply making them executable.
 
-See also: [http://www.kernel.org/pub/software/scm/git/docs/hooks.html Hooks used by git].
+See also: [http://www.kernel.org/pub/software/scm/git/docs/githooks.html Hooks used by git].
 
 ; index : {{anchor|index}}
 	A collection of files with stat information, whose contents are
