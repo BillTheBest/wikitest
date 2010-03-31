@@ -12,7 +12,7 @@ __TOC__
 * [[Cogito]] for some time was the most popular version control system on top of Git. It aims at seamless user interface and ease of use, providing generally smoother user experience than the "raw" Git interface and indeed also many other version control systems. Note that Cogito is ''no longer maintained or recommended''. Git 1.5.0 and beyond has incorporated many features that make it suitable for direct use without needing additional software.
 
 === IsiSetup ===
-* [http://www.isisetup.ch/ IsiSetup] (APT for your config) is a utility to help managing your configuration files with Git as backend. You can rollback changes, explore the history of changes, replicate your configuration, backup your configuration and blame changes to admins.<BR> ''See also:'' [http://kitenet.net/~joey/code/etckeeper/ etckeeper].
+* [http://swik.net/IsiSetup/ IsiSetup] (APT for your config) is a utility to help managing your configuration files with Git as backend. You can rollback changes, explore the history of changes, replicate your configuration, backup your configuration and blame changes to admins.<BR> ''See also:'' [http://kitenet.net/~joey/code/etckeeper/ etckeeper].
 
 === Easy Git ===
 * [http://www.gnome.org/~newren/eg/ Easy Git (eg)] Easy Git is a wrapper for Git that is designed to make git easy to learn and use. Easy Git aims to be easily learnable, interchangeable with Git, fully capable, and compatible with Git. Users can move back and forth between using Easy Git and Git itself.
