@@ -18,7 +18,7 @@ and eddited by hand to remove duplicite entries.
 |-
 | Carl Worth <cworth@cworth.org> || http://mid.gmane.org/87eikfhec1.fsf@yoom.home.cworth.org
 |-
-| Clemens Buchacher <drizzd@aon.at> || 
+| Clemens Buchacher <drizzd@aon.at> || http://mid.gmane.org/20100402085208.GA26658@localhost
 |-
 | David Reiss <dreiss@facebook.com> || [http://mid.gmane.org/7vljd6e08i.fsf@alter.siamese.dyndns.org Acked]
 |-
