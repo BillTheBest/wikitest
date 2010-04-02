@@ -84,5 +84,5 @@ and eddited by hand to remove duplicite entries.
 |-
 | Sverre Rabbelier <srabbelier@gmail.com> || Already acked (personal email from Junio) http://mid.gmane.org/alpine.DEB.1.00.1002191138280.20986@pacific.mpi-cbg.de
 |-
-| Thomas Rast <trast@student.ethz.ch> || 
+| Thomas Rast <trast@student.ethz.ch> || http://mid.gmane.org/201004021348.42345.trast@student.ethz.ch
 |}
