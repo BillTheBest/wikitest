@@ -40,17 +40,17 @@ and eddited by hand to remove duplicite entries.
 |-
 | Johan Herland <johan@herland.net> || [http://mid.gmane.org/20100402085932.GB26658@localhost ???]
 |-
-| Johannes Schindelin <Johannes.Schindelin@gmx.de> || Already acked (personal email from Junio) http://mid.gmane.org/alpine.DEB.1.00.1002191138280.20986@pacific.mpi-cbg.de
+| Johannes Schindelin <Johannes.Schindelin@gmx.de> || Already acked (personal email from Junio) [http://mid.gmane.org/alpine.DEB.1.00.1002191138280.20986@pacific.mpi-cbg.de other mail]
 |-
-| Johannes Sixt <j6t@kdbg.org> || Already acked (personal email from Junio) http://mid.gmane.org/4B7ECC08.5000805@kdbg.org
+| Johannes Sixt <j6t@kdbg.org> || Already acked (personal email from Junio) [http://mid.gmane.org/4B7ECC08.5000805@kdbg.org other mail]
 |-
-| Jonathan Nieder <jrnieder@gmail.com> || Already acked (personal email from Junio) http://mid.gmane.org/20100402074326.GA4112@progeny.tock
+| Jonathan Nieder <jrnieder@gmail.com> || Already acked (personal email from Junio) [http://mid.gmane.org/20100402074326.GA4112@progeny.tock other mail]
 |-
 | Josh Triplett <josh@freedesktop.org> || Already acked (personal email from Junio)
 |-
-| Junio C Hamano <gitster@pobox.com> || Already acked (personal email from Junio) http://mid.gmane.org/7vaav8hpfo.fsf@alter.siamese.dyndns.org
+| Junio C Hamano <gitster@pobox.com> || Already acked (personal email from Junio) [http://mid.gmane.org/7vaav8hpfo.fsf@alter.siamese.dyndns.org other mail]
 |-
-| Lea Wiemann <lewiemann@gmail.com> || Already acked (personal email from Junio) http://mid.gmane.org/j2g55af6d7f1004020108zdd477bc1uf6ca44a4f9aacf1f@mail.gmail.com
+| Lea Wiemann <lewiemann@gmail.com> || Already acked (personal email from Junio) [http://mid.gmane.org/j2g55af6d7f1004020108zdd477bc1uf6ca44a4f9aacf1f@mail.gmail.com other mail]
 |-
 | Markus Heidelberg <markus.heidelberg@web.de> || Already acked (personal email from Junio)
 |-
@@ -62,7 +62,7 @@ and eddited by hand to remove duplicite entries.
 |-
 | Michael J Gruber <git@drmicha.warpmail.net> || 
 |-
-| Michele Ballabio <barra_cuda@katamail.com> || Already acked (personal email from Junio) http://mid.gmane.org/201004021013.23063.barra_cuda@katamail.com
+| Michele Ballabio <barra_cuda@katamail.com> || Already acked (personal email from Junio) [http://mid.gmane.org/201004021013.23063.barra_cuda@katamail.com other mail]
 |-
 | Miklos Vajna <vmiklos@frugalware.org> || Already acked (personal email from Junio)
 |-
@@ -72,7 +72,7 @@ and eddited by hand to remove duplicite entries.
 |-
 | Petr Baudis <pasky@ucw.cz> || Already acked (personal email from Junio)
 |-
-| Pierre Habouzit <madcoder@debian.org> || Already acked (personal email from Junio) http://mid.gmane.org/20100219171530.GF7224@madism.org
+| Pierre Habouzit <madcoder@debian.org> || Already acked (personal email from Junio) [http://mid.gmane.org/20100219171530.GF7224@madism.org other mail]
 |-
 | Robin Rosenberg <robin.rosenberg@dewire.com> || Already acked (personal email from Junio)
 |-
@@ -82,7 +82,7 @@ and eddited by hand to remove duplicite entries.
 |-
 | Stephen Boyd <bebarino@gmail.com> || Already acked (personal email from Junio)
 |-
-| Sverre Rabbelier <srabbelier@gmail.com> || Already acked (personal email from Junio) http://mid.gmane.org/alpine.DEB.1.00.1002191138280.20986@pacific.mpi-cbg.de
+| Sverre Rabbelier <srabbelier@gmail.com> || Already acked (personal email from Junio) [http://mid.gmane.org/alpine.DEB.1.00.1002191138280.20986@pacific.mpi-cbg.de other mail]
 |-
 | Thomas Rast <trast@student.ethz.ch> || http://mid.gmane.org/201004021348.42345.trast@student.ethz.ch
 |}
