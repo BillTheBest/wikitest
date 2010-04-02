@@ -42,7 +42,7 @@ and eddited by hand to remove duplicite entries.
 |-
 | Johannes Sixt <j6t@kdbg.org> || http://mid.gmane.org/4B7ECC08.5000805@kdbg.org
 |-
-| Jonathan Nieder <jrnieder@gmail.com> || 
+| Jonathan Nieder <jrnieder@gmail.com> || http://mid.gmane.org/20100402074326.GA4112@progeny.tock
 |-
 | Josh Triplett <josh@freedesktop.org> || 
 |-
