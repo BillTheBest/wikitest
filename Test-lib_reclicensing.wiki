@@ -36,9 +36,9 @@ and eddited by hand to remove duplicite entries.
 |-
 | Jakub Narebski <jnareb@gmail.com> || Already acked (personal email from Junio)
 |-
-| Jeff King <peff@peff.net> || Already acked (personal email from Junio)
+| Jeff King <peff@peff.net> || Already acked (personal email from Junio) [http://mid.gmane.org/20100402165430.GA18576@coredump.intra.peff.net other mail]
 |-
-| Johan Herland <johan@herland.net> || [http://mid.gmane.org/20100402085932.GB26658@localhost ???]
+| Johan Herland <johan@herland.net> || http://mid.gmane.org/20100402085932.GB26658@localhost
 |-
 | Johannes Schindelin <Johannes.Schindelin@gmx.de> || Already acked (personal email from Junio) [http://mid.gmane.org/alpine.DEB.1.00.1002191138280.20986@pacific.mpi-cbg.de other mail]
 |-
