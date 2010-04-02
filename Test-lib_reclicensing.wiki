@@ -56,7 +56,7 @@ and eddited by hand to remove duplicite entries.
 |-
 | Matthew Ogilvie <mmogilvi_git@miniinfo.net> || 
 |-
-| Matthias Lederhofer <matled@gmx.net> || 
+| Matthias Lederhofer <matled@gmx.net> || http://mid.gmane.org/20100402080059.GA30278@moooo.ath.cx
 |-
 | Michael J Gruber <git@drmicha.warpmail.net> || 
 |-
