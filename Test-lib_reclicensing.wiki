@@ -28,7 +28,7 @@ and eddited by hand to remove duplicite entries.
 |-
 | Eric Wong <normalperson@yhbt.net> || Already acked (personal email from Junio)
 |-
-| Fredrik Kuivinen <freku045@student.liu.se> || host qom.unit.liu.se[130.236.230.188] said: 550 5.1.6 Recipient no longer on server: freku045@student.liu.se
+| Fredrik Kuivinen <freku045@student.liu.se> || host qom.unit.liu.se[130.236.230.188] said: 550 5.1.6 Recipient no longer on server: freku045@student.liu.se (request sent again to frekui@gmail.com)
 |-
 | Gerrit Pape <pape@smarden.org> || 
 |-
