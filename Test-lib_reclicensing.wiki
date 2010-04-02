@@ -8,11 +8,11 @@ and eddited by hand to remove duplicite entries.
 
 
 {|
-| Alex Riesen <raa.lkml@gmail.com> || 
+| Alex Riesen <raa.lkml@gmail.com> || [http://mid.gmane.org/7vljd6e08i.fsf@alter.siamese.dyndns.org Acked]
 |-
 | Bert Wesarg <bert.wesarg@googlemail.com> || 
 |-
-| Brandon Casey <drafnel@gmail.com> || 
+| Brandon Casey <drafnel@gmail.com> || [http://mid.gmane.org/7vljd6e08i.fsf@alter.siamese.dyndns.org Acked]
 |-
 | Bryan Donlan <bdonlan@fushizen.net> || 
 |-
@@ -20,11 +20,11 @@ and eddited by hand to remove duplicite entries.
 |-
 | Clemens Buchacher <drizzd@aon.at> || 
 |-
-| David Reiss <dreiss@facebook.com> || 
+| David Reiss <dreiss@facebook.com> || [http://mid.gmane.org/7vljd6e08i.fsf@alter.siamese.dyndns.org Acked]
 |-
-| Emil Sit <sit@emilsit.net> || 
+| Emil Sit <sit@emilsit.net> || [http://mid.gmane.org/7vljd6e08i.fsf@alter.siamese.dyndns.org Acked]
 |-
-| Eric Wong <normalperson@yhbt.net> || 
+| Eric Wong <normalperson@yhbt.net> || [http://mid.gmane.org/7vljd6e08i.fsf@alter.siamese.dyndns.org Acked]
 |-
 | Fredrik Kuivinen <freku045@student.liu.se> || host qom.unit.liu.se[130.236.230.188] said: 550 5.1.6 Recipient no longer on server: freku045@student.liu.se
 |-
@@ -32,55 +32,55 @@ and eddited by hand to remove duplicite entries.
 |-
 | Christian Couder <chriscool@tuxfamily.org> || 
 |-
-| Jakub Narebski <jnareb@gmail.com> || 
+| Jakub Narebski <jnareb@gmail.com> || [http://mid.gmane.org/7vljd6e08i.fsf@alter.siamese.dyndns.org Acked]
 |-
-| Jeff King <peff@peff.net> || 
+| Jeff King <peff@peff.net> || [http://mid.gmane.org/7vljd6e08i.fsf@alter.siamese.dyndns.org Acked]
 |-
 | Johan Herland <johan@herland.net> || 
 |-
-| Johannes Schindelin <Johannes.Schindelin@gmx.de> || http://mid.gmane.org/alpine.DEB.1.00.1002191138280.20986@pacific.mpi-cbg.de
+| Johannes Schindelin <Johannes.Schindelin@gmx.de> || [http://mid.gmane.org/7vljd6e08i.fsf@alter.siamese.dyndns.org Acked] http://mid.gmane.org/alpine.DEB.1.00.1002191138280.20986@pacific.mpi-cbg.de
 |-
-| Johannes Sixt <j6t@kdbg.org> || http://mid.gmane.org/4B7ECC08.5000805@kdbg.org
+| Johannes Sixt <j6t@kdbg.org> || [http://mid.gmane.org/7vljd6e08i.fsf@alter.siamese.dyndns.org Acked] http://mid.gmane.org/4B7ECC08.5000805@kdbg.org
 |-
-| Jonathan Nieder <jrnieder@gmail.com> || http://mid.gmane.org/20100402074326.GA4112@progeny.tock
+| Jonathan Nieder <jrnieder@gmail.com> || [http://mid.gmane.org/7vljd6e08i.fsf@alter.siamese.dyndns.org Acked] http://mid.gmane.org/20100402074326.GA4112@progeny.tock
 |-
-| Josh Triplett <josh@freedesktop.org> || 
+| Josh Triplett <josh@freedesktop.org> || [http://mid.gmane.org/7vljd6e08i.fsf@alter.siamese.dyndns.org Acked]
 |-
-| Junio C Hamano <gitster@pobox.com> || http://mid.gmane.org/7vaav8hpfo.fsf@alter.siamese.dyndns.org
+| Junio C Hamano <gitster@pobox.com> || [http://mid.gmane.org/7vljd6e08i.fsf@alter.siamese.dyndns.org Acked] http://mid.gmane.org/7vaav8hpfo.fsf@alter.siamese.dyndns.org
 |-
-| Lea Wiemann <lewiemann@gmail.com> || http://mid.gmane.org/j2g55af6d7f1004020108zdd477bc1uf6ca44a4f9aacf1f@mail.gmail.com
+| Lea Wiemann <lewiemann@gmail.com> || [http://mid.gmane.org/7vljd6e08i.fsf@alter.siamese.dyndns.org Acked] http://mid.gmane.org/j2g55af6d7f1004020108zdd477bc1uf6ca44a4f9aacf1f@mail.gmail.com
 |-
-| Markus Heidelberg <markus.heidelberg@web.de> || 
+| Markus Heidelberg <markus.heidelberg@web.de> || [http://mid.gmane.org/7vljd6e08i.fsf@alter.siamese.dyndns.org Acked]
 |-
-| Martin Waitz <tali@admingilde.org> || 
+| Martin Waitz <tali@admingilde.org> || [http://mid.gmane.org/7vljd6e08i.fsf@alter.siamese.dyndns.org Acked]
 |-
-| Matthew Ogilvie <mmogilvi_git@miniinfo.net> || 
+| Matthew Ogilvie <mmogilvi_git@miniinfo.net> || [http://mid.gmane.org/7vljd6e08i.fsf@alter.siamese.dyndns.org Acked]
 |-
 | Matthias Lederhofer <matled@gmx.net> || http://mid.gmane.org/20100402080059.GA30278@moooo.ath.cx
 |-
 | Michael J Gruber <git@drmicha.warpmail.net> || 
 |-
-| Michele Ballabio <barra_cuda@katamail.com> || http://mid.gmane.org/201004021013.23063.barra_cuda@katamail.com
+| Michele Ballabio <barra_cuda@katamail.com> || [http://mid.gmane.org/7vljd6e08i.fsf@alter.siamese.dyndns.org Acked] http://mid.gmane.org/201004021013.23063.barra_cuda@katamail.com
 |-
-| Miklos Vajna <vmiklos@frugalware.org> || 
+| Miklos Vajna <vmiklos@frugalware.org> || [http://mid.gmane.org/7vljd6e08i.fsf@alter.siamese.dyndns.org Acked]
 |-
-| Nicolas Pitre <nico@fluxnic.net> || 
+| Nicolas Pitre <nico@fluxnic.net> || [http://mid.gmane.org/7vljd6e08i.fsf@alter.siamese.dyndns.org Acked]
 |-
-| Pavel Roskin <proski@gnu.org> || 
+| Pavel Roskin <proski@gnu.org> || [http://mid.gmane.org/7vljd6e08i.fsf@alter.siamese.dyndns.org Acked]
 |-
-| Petr Baudis <pasky@ucw.cz> || 
+| Petr Baudis <pasky@ucw.cz> || [http://mid.gmane.org/7vljd6e08i.fsf@alter.siamese.dyndns.org Acked]
 |-
-| Pierre Habouzit <madcoder@debian.org> || http://mid.gmane.org/20100219171530.GF7224@madism.org
+| Pierre Habouzit <madcoder@debian.org> || [http://mid.gmane.org/7vljd6e08i.fsf@alter.siamese.dyndns.org Acked] http://mid.gmane.org/20100219171530.GF7224@madism.org
 |-
-| Robin Rosenberg <robin.rosenberg@dewire.com> || 
+| Robin Rosenberg <robin.rosenberg@dewire.com> || [http://mid.gmane.org/7vljd6e08i.fsf@alter.siamese.dyndns.org Acked]
 |-
-| Shawn O. Pearce <spearce@spearce.org> || 
+| Shawn O. Pearce <spearce@spearce.org> || [http://mid.gmane.org/7vljd6e08i.fsf@alter.siamese.dyndns.org Acked]
 |-
 | Stephan Beyer &lt;s-beyer@gmx.net&gt; || 
 |-
-| Stephen Boyd <bebarino@gmail.com> || 
+| Stephen Boyd <bebarino@gmail.com> || [http://mid.gmane.org/7vljd6e08i.fsf@alter.siamese.dyndns.org Acked]
 |-
-| Sverre Rabbelier <srabbelier@gmail.com> || http://mid.gmane.org/alpine.DEB.1.00.1002191138280.20986@pacific.mpi-cbg.de
+| Sverre Rabbelier <srabbelier@gmail.com> || [http://mid.gmane.org/7vljd6e08i.fsf@alter.siamese.dyndns.org Acked] http://mid.gmane.org/alpine.DEB.1.00.1002191138280.20986@pacific.mpi-cbg.de
 |-
 | Thomas Rast <trast@student.ethz.ch> || 
 |}
