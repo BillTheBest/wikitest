@@ -48,7 +48,7 @@ and eddited by hand to remove duplicite entries.
 |-
 | Junio C Hamano <gitster@pobox.com> || http://mid.gmane.org/7vaav8hpfo.fsf@alter.siamese.dyndns.org
 |-
-| Lea Wiemann <lewiemann@gmail.com> || 
+| Lea Wiemann <lewiemann@gmail.com> || http://mid.gmane.org/j2g55af6d7f1004020108zdd477bc1uf6ca44a4f9aacf1f@mail.gmail.com
 |-
 | Markus Heidelberg <markus.heidelberg@web.de> || 
 |-
