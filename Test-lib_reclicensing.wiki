@@ -10,7 +10,7 @@ and eddited by hand to remove duplicite entries.
 {| class="wikitable prettytable sortable"
 ! Contributor || Responses
 |-
-| Alex Riesen <raa.lkml@gmail.com> || Already acked (personal email from Junio)
+| Alex Riesen <raa.lkml@gmail.com> || Already acked (personal email from Junio) [http://mid.gmane.org/l2y81b0412b1004020851ve68480ecrf3d6a6f934a585f1@mail.gmail.com other mail]
 |-
 | Bert Wesarg <bert.wesarg@googlemail.com> || 
 |-
@@ -32,7 +32,7 @@ and eddited by hand to remove duplicite entries.
 |-
 | Gerrit Pape <pape@smarden.org> || 
 |-
-| Christian Couder <chriscool@tuxfamily.org> || 
+| Christian Couder <chriscool@tuxfamily.org> || http://mid.gmane.org/201004021843.07541.chriscool@tuxfamily.org
 |-
 | Jakub Narebski <jnareb@gmail.com> || Already acked (personal email from Junio)
 |-
