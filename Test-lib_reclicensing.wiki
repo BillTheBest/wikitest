@@ -1,0 +1,86 @@
+This page tracks the answers to a request (see [http://mid.gmane.org/871vgmki4f.fsf@steelpick.localdomain here] and here) for t/test-lib.sh relicensing
+
+Bellow is the list of all contributors to test-lib.sh, which was created by
+
+ git log --format="%aN <%aE>" -- t/test-lib.sh|sort -u
+
+and eddited by hand to remove duplicite entries.
+
+
+{|
+| Alex Riesen <raa.lkml@gmail.com> || 
+|-
+| Bert Wesarg <bert.wesarg@googlemail.com> || 
+|-
+| Brandon Casey <drafnel@gmail.com> || 
+|-
+| Bryan Donlan <bdonlan@fushizen.net> || 
+|-
+| Carl Worth <cworth@cworth.org> || http://mid.gmane.org/87eikfhec1.fsf@yoom.home.cworth.org
+|-
+| Clemens Buchacher <drizzd@aon.at> || 
+|-
+| David Reiss <dreiss@facebook.com> || 
+|-
+| Emil Sit <sit@emilsit.net> || 
+|-
+| Eric Wong <normalperson@yhbt.net> || 
+|-
+| Fredrik Kuivinen <freku045@student.liu.se> || 
+|-
+| Gerrit Pape <pape@smarden.org> || 
+|-
+| Christian Couder <chriscool@tuxfamily.org> || 
+|-
+| Jakub Narebski <jnareb@gmail.com> || 
+|-
+| Jeff King <peff@peff.net> || 
+|-
+| Johan Herland <johan@herland.net> || 
+|-
+| Johannes Schindelin <Johannes.Schindelin@gmx.de> || http://mid.gmane.org/alpine.DEB.1.00.1002191138280.20986@pacific.mpi-cbg.de
+|-
+| Johannes Sixt <j6t@kdbg.org> || http://mid.gmane.org/4B7ECC08.5000805@kdbg.org
+|-
+| Jonathan Nieder <jrnieder@gmail.com> || 
+|-
+| Josh Triplett <josh@freedesktop.org> || 
+|-
+| Junio C Hamano <gitster@pobox.com> || http://mid.gmane.org/7vaav8hpfo.fsf@alter.siamese.dyndns.org
+|-
+| Lea Wiemann <lewiemann@gmail.com> || 
+|-
+| Markus Heidelberg <markus.heidelberg@web.de> || 
+|-
+| Martin Waitz <tali@admingilde.org> || 
+|-
+| Matthew Ogilvie <mmogilvi_git@miniinfo.net> || 
+|-
+| Matthias Lederhofer <matled@gmx.net> || 
+|-
+| Michael J Gruber <git@drmicha.warpmail.net> || 
+|-
+| Michele Ballabio <barra_cuda@katamail.com> || 
+|-
+| Miklos Vajna <vmiklos@frugalware.org> || 
+|-
+| Nicolas Pitre <nico@fluxnic.net> || 
+|-
+| Pavel Roskin <proski@gnu.org> || 
+|-
+| Petr Baudis <pasky@ucw.cz> || 
+|-
+| Pierre Habouzit <madcoder@debian.org> || http://mid.gmane.org/20100219171530.GF7224@madism.org
+|-
+| Robin Rosenberg <robin.rosenberg@dewire.com> || 
+|-
+| Shawn O. Pearce <spearce@spearce.org> || 
+|-
+| Stephan Beyer <s-beyer@gmx.net> || 
+|-
+| Stephen Boyd <bebarino@gmail.com> || 
+|-
+| Sverre Rabbelier <srabbelier@gmail.com> || http://mid.gmane.org/alpine.DEB.1.00.1002191138280.20986@pacific.mpi-cbg.de
+|-
+| Thomas Rast <trast@student.ethz.ch> || 
+|}
