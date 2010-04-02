@@ -7,7 +7,9 @@ Bellow is the list of all contributors to test-lib.sh, which was created by
 and eddited by hand to remove duplicite entries.
 
 
-{|
+{| class="wikitable prettytable sortable"
+! Contributor || Responses
+|-
 | Alex Riesen <raa.lkml@gmail.com> || Already acked (personal email from Junio)
 |-
 | Bert Wesarg <bert.wesarg@googlemail.com> || 
