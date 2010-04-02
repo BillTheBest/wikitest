@@ -60,7 +60,7 @@ and eddited by hand to remove duplicite entries.
 |-
 | Michael J Gruber <git@drmicha.warpmail.net> || 
 |-
-| Michele Ballabio <barra_cuda@katamail.com> || 
+| Michele Ballabio <barra_cuda@katamail.com> || http://mid.gmane.org/201004021013.23063.barra_cuda@katamail.com
 |-
 | Miklos Vajna <vmiklos@frugalware.org> || 
 |-
