@@ -64,7 +64,7 @@ and eddited by hand to remove duplicite entries.
 |-
 | Michele Ballabio <barra_cuda@katamail.com> || Already acked (personal email from Junio) [http://mid.gmane.org/201004021013.23063.barra_cuda@katamail.com other mail]
 |-
-| Miklos Vajna <vmiklos@frugalware.org> || Already acked (personal email from Junio)
+| Miklos Vajna <vmiklos@frugalware.org> || Already acked (personal email from Junio) [http://mid.gmane.org/20100402114307.GJ27414@genesis.frugalware.org other mail]
 |-
 | Nicolas Pitre <nico@fluxnic.net> || Already acked (personal email from Junio)
 |-
