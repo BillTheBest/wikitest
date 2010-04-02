@@ -76,7 +76,7 @@ and eddited by hand to remove duplicite entries.
 |-
 | Shawn O. Pearce <spearce@spearce.org> || 
 |-
-| Stephan Beyer <s-beyer@gmx.net> || 
+| Stephan Beyer &lt;s-beyer@gmx.net&gt; || 
 |-
 | Stephen Boyd <bebarino@gmail.com> || 
 |-
