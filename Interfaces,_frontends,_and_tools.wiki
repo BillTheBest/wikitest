@@ -1160,7 +1160,8 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 === CIAbot ===
 [http://cia.navi.cx/ CIA] is a system for tracking open-source project commits in real-time. It needs a script installed as a post-commit or update hook to send git log summary messages to the CIA server,
 * The Version 3 ciabot scripts, [http://www.catb.org/~esr/ciabot/ciabot.py ciabot.py] and [http://www.catb.org/~esr/ciabot/ciabot.sh ciabot.sh], have been rewritten to work well with git version 1.6.0 and later. Use [http://www.catb.org/~esr/ciabot/ciabot.py ciabot.py] unless your hosting site forbids Python hooks; the shell version is more likely to break due to not being able to call out to utilities it needs.
-* Older scripts include [http://www.kernel.org/git/?p=cogito/cogito.git;a=blob;hb=HEAD;f=contrib/ciabot.pl ciabot.pl] by Petr Baudis in the `contrib/` directory of [[Cogito]], and [http://dev.alpinelinux.org/~ncopa/alpine/ciabot.sh ciabot.sh] by Fernando J. Pereda and Natanael Copa. These are fragile and may fail with newer git versions.
+* These scripts evolved by translation from [http://www.kernel.org/git/?p=cogito/cogito.git;a=blob;hb=HEAD;f=contrib/ciabot.pl ciabot.pl] by Petr Baudis in the `contrib/` directory of [[Cogito]]. The ancestral Perl is somewhat fragile and may fail with newer git versions.
+The Version 3 scripts are part of git contrib/ as of 2010-04-02.
 
 === Gitdm ===
 * ''Gitdm'' (the "git data miner") ([http://repo.or.cz/w/git-dm.git gitweb], mirror) is the tool that Greg KH and Jonathan Corbet have used to crank out statistics on where kernel patches come from at LWM ([http://lwn.net/images/gitdm/gitdm-config-2.6.26.tar.bz2 configuration files], tar.bz2). Public repository for gitdm can be found at: git://git.lwn.net/gitdm.git
