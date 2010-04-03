@@ -24,7 +24,7 @@ and eddited by hand to remove duplicite entries.
 |-
 | Clemens Buchacher <drizzd@aon.at> || http://mid.gmane.org/20100402085208.GA26658@localhost
 |-
-| David Reiss <dreiss@facebook.com> || Already acked (personal email from Junio)
+| David Reiss <dreiss@facebook.com> || Already acked (personal email from Junio) [http://mid.gmane.org/4BB61BF1.7060302@facebook.com other mail]
 |-
 | Emil Sit <sit@emilsit.net> || Already acked (personal email from Junio)
 |-
@@ -36,7 +36,7 @@ and eddited by hand to remove duplicite entries.
 |-
 | Christian Couder <chriscool@tuxfamily.org> || http://mid.gmane.org/201004021843.07541.chriscool@tuxfamily.org
 |-
-| Jakub Narebski <jnareb@gmail.com> || Already acked (personal email from Junio)
+| Jakub Narebski <jnareb@gmail.com> || Already acked (personal email from Junio) [http://mid.gmane.org/201004022238.29196.jnareb@gmail.com other mail]
 |-
 | Jeff King <peff@peff.net> || Already acked (personal email from Junio) [http://mid.gmane.org/20100402165430.GA18576@coredump.intra.peff.net other mail]
 |-
