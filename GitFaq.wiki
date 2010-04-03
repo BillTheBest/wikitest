@@ -31,7 +31,7 @@ The short definition is:
 * See the [http://www.kernel.org/pub/software/scm/git/docs/git-fetch.html git-fetch(1)] and [http://www.kernel.org/pub/software/scm/git/docs/git-pull.html git-pull(1)] man pages or the tutorials for more details.
 
 == {{Gitlink|public-repo|A daemon like sshd, apache, or git-daemon}} What can I use to set up a public repository?  ==
-An SSH server, an HTTP server, an rsync server, or the git-daemon. Local networks can also use network filesystems, like NFS or SMBFS/CIFS (the Windows networks).
+An SSH server, an HTTP server, or the git-daemon. Local networks can also use network filesystems, like NFS or SMBFS/CIFS (the Windows networks).
 
 * While there was some controversy over whether SMBFS was a safe solution the [http://permalink.gmane.org/gmane.comp.version-control.git/122670 latest info] indicates that it should be fine. 
 * See the [http://www.kernel.org/pub/software/scm/git/docs/gittutorial.html Git tutorial] for more details.
