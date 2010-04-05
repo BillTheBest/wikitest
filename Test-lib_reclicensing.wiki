@@ -32,7 +32,7 @@ and eddited by hand to remove duplicite entries.
 |-
 | Fredrik Kuivinen <freku045@student.liu.se> || host qom.unit.liu.se[130.236.230.188] said: 550 5.1.6 Recipient no longer on server: freku045@student.liu.se (request sent again to frekui@gmail.com)
 |-
-| Gerrit Pape <pape@smarden.org> || 
+| Gerrit Pape <pape@smarden.org> || http://mid.gmane.org/20100405121630.24336.qmail@ec9d47422e9f37.315fe32.mid.smarden.org
 |-
 | Christian Couder <chriscool@tuxfamily.org> || http://mid.gmane.org/201004021843.07541.chriscool@tuxfamily.org
 |-
@@ -62,7 +62,7 @@ and eddited by hand to remove duplicite entries.
 |-
 | Matthias Lederhofer <matled@gmx.net> || http://mid.gmane.org/20100402080059.GA30278@moooo.ath.cx
 |-
-| Michael J Gruber <git@drmicha.warpmail.net> || 
+| Michael J Gruber <git@drmicha.warpmail.net> || http://mid.gmane.org/1270386694.2526.1368218745@webmail.messagingengine.com
 |-
 | Michele Ballabio <barra_cuda@katamail.com> || Already acked (personal email from Junio) [http://mid.gmane.org/201004021013.23063.barra_cuda@katamail.com other mail]
 |-
