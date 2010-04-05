@@ -17,7 +17,7 @@ More information:
 
 == How to get help ==
 
-Please note that there are not enough contributors to the msysGit project to offer commercial-grade support; if you do not have the means to fix your problems (possibly with valuable advice from the [mailto:msysgit@googlegroups.com msysGit mailing list]), or to entice people who can fix them, it is unlikely that your problem is solved.
+Please note that there are not enough contributors to the msysGit project to offer commercial-grade support; if you do not have the means to fix your problems (possibly with valuable advice from the [mailto:msysgit@googlegroups.com msysGit mailing list]), or to entice people who can fix them, it is unlikely that your problem will be solved.
 
 See also the [[MSysGit:GetHelp|GetHelp]] page on our Wiki.
 
