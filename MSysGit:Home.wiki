@@ -23,7 +23,7 @@ See also the [[MSysGit:GetHelp|GetHelp]] page on our Wiki.
 
 == How to participate ==
 
-Testing and reporting bugs is really already a big help, especially when you are ready to help resolve the bugs.  Of course, it is even better if you get involved, for example by hacking on mingw.git.
+Testing and reporting bugs is already a really big help, especially when you are ready to help resolve the bugs.  Of course, it is even better if you get involved, for example by hacking on mingw.git.
 
 Once you installed msysGit, git will be compiled and the repository will be fetched, so you are good to go.  Play with git a little, and you will find plenty of stuff that is not quite optimal.
 
