@@ -213,6 +213,10 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 ** http://dragon3d.berlios.de/ (homepage)
 ** http://dragon3d.berlios.de/mediawiki/index.php/Version_Control_with_GIT (development)
 ** http://www.cyberroadie.org/gitweb/ (gitweb)
+* DrQueue - the Open Source Distributed Render Queue
+** http://www.drqueue.org (homepage)
+** https://ssl.drqueue.org/redmine/projects/drqueue (development)
+** https://ssl.drqueue.org/gitweb (gitweb)
 * DTC - Domain Technologie Control
 ** http://www.gplhost.com/software-dtc.html (homepage)
 ** http://dtcsupport.gplhost.com/Git/Git (development)
