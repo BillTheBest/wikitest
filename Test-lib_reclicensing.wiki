@@ -30,7 +30,7 @@ and eddited by hand to remove duplicite entries.
 |-
 | Eric Wong <normalperson@yhbt.net> || Already acked (personal email from Junio)
 |-
-| Fredrik Kuivinen <freku045@student.liu.se> || host qom.unit.liu.se[130.236.230.188] said: 550 5.1.6 Recipient no longer on server: freku045@student.liu.se (request sent again to frekui@gmail.com)
+| Fredrik Kuivinen <freku045@student.liu.se> || http://mid.gmane.org/t2s4c8ef71004041128s4eb66383n3f22756612bfb7ba@mail.gmail.com
 |-
 | Gerrit Pape <pape@smarden.org> || http://mid.gmane.org/20100405121630.24336.qmail@ec9d47422e9f37.315fe32.mid.smarden.org
 |-
@@ -58,7 +58,7 @@ and eddited by hand to remove duplicite entries.
 |-
 | Martin Waitz <tali@admingilde.org> || Already acked (personal email from Junio)
 |-
-| Matthew Ogilvie <mmogilvi_git@miniinfo.net> || Already acked (personal email from Junio)
+| Matthew Ogilvie <mmogilvi_git@miniinfo.net> || Already acked (personal email from Junio) [http://mid.gmane.org/20100404174108.GA4707@comcast.net other mail]
 |-
 | Matthias Lederhofer <matled@gmx.net> || http://mid.gmane.org/20100402080059.GA30278@moooo.ath.cx
 |-
@@ -70,13 +70,13 @@ and eddited by hand to remove duplicite entries.
 |-
 | Nicolas Pitre <nico@fluxnic.net> || Already acked (personal email from Junio)
 |-
-| Pavel Roskin <proski@gnu.org> || Already acked (personal email from Junio)
+| Pavel Roskin <proski@gnu.org> || Already acked (personal email from Junio) [http://mid.gmane.org/1270479438.26543.21.camel@mj other mail]
 |-
 | Petr Baudis <pasky@ucw.cz> || Already acked (personal email from Junio)
 |-
 | Pierre Habouzit <madcoder@debian.org> || Already acked (personal email from Junio) [http://mid.gmane.org/20100219171530.GF7224@madism.org other mail]
 |-
-| Robin Rosenberg <robin.rosenberg@dewire.com> || Already acked (personal email from Junio)
+| Robin Rosenberg <robin.rosenberg@dewire.com> || Already acked (personal email from Junio) [http://mid.gmane.org/201004041356.42783.robin.rosenberg@dewire.com other mail]
 |-
 | Shawn O. Pearce <spearce@spearce.org> || Already acked (personal email from Junio)
 |-
