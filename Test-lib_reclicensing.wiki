@@ -26,7 +26,7 @@ and eddited by hand to remove duplicite entries.
 |-
 | David Reiss <dreiss@facebook.com> || Already acked (personal email from Junio) [http://mid.gmane.org/4BB61BF1.7060302@facebook.com other mail]
 |-
-| Emil Sit <sit@emilsit.net> || Already acked (personal email from Junio)
+| Emil Sit <sit@emilsit.net> || Already acked (personal email from Junio) [http://mid.gmane.org/1270497477.16752.1368393965@webmail.messagingengine.com other mail]
 |-
 | Eric Wong <normalperson@yhbt.net> || Already acked (personal email from Junio)
 |-
