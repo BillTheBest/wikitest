@@ -14,11 +14,11 @@ and eddited by hand to remove duplicite entries.
 |-
 | Alex Riesen <raa.lkml@gmail.com> || Already acked (personal email from Junio) [http://mid.gmane.org/l2y81b0412b1004020851ve68480ecrf3d6a6f934a585f1@mail.gmail.com other mail]
 |-
-| Bert Wesarg <bert.wesarg@googlemail.com> || 
+| Bert Wesarg <bert.wesarg@googlemail.com> || [http://repo.or.cz/w/git.git/commit/5565f47c4054e9a1abfad8c4a754e9a6224dc591 not copyrightable]
 |-
 | Brandon Casey <drafnel@gmail.com> || Already acked (personal email from Junio)
 |-
-| Bryan Donlan <bdonlan@fushizen.net> || 
+| Bryan Donlan <bdonlan@fushizen.net> || ??? gitk --author='Bryan Donlan' t/test-lib.sh
 |-
 | Carl Worth <cworth@cworth.org> || http://mid.gmane.org/87eikfhec1.fsf@yoom.home.cworth.org
 |-
@@ -80,7 +80,7 @@ and eddited by hand to remove duplicite entries.
 |-
 | Shawn O. Pearce <spearce@spearce.org> || Already acked (personal email from Junio)
 |-
-| Stephan Beyer &lt;s-beyer@gmx.net&gt; || 
+| Stephan Beyer &lt;s-beyer@gmx.net&gt; || [http://repo.or.cz/w/git.git/commit/5a26973025bce74782571844c7b8091d1cd7c405 not copyrightable]
 |-
 | Stephen Boyd <bebarino@gmail.com> || Already acked (personal email from Junio)
 |-
