@@ -2,11 +2,10 @@
 
 == Future plans ==
 
-The plan is to attract enough Windows developers so that several lieutenants can be assigned for tasks such as
+There are no concrete future plans. Whatever you want to work on, just do it, and do not forget to have fun.
 
-* "make and maintain an easy-to-use installer" (this position is competently held by Steffen; with support from Sebastian),
-* "handle bug reports efficiently", and even
-* "build and maintain GitCheetah" (the beginnings of which are already progressing, in http://repo.or.cz/w/git-cheetah.git/).
+If you run the danger of getting bored, you might want to have a look over the [http://code.google.com/p/msysgit/issues/list bug reports] and help.
 
-Note: there are a few contenders to GitCheetah, which took the unfortunate path of starting with software that is more tuned to the Subversion way to do things.  However, our hope is still that GitCheetah will become the standard tool.
-[[Category:MSysGit]]
+Or you might want to give [[MSysGit:GitCheetah|Git-Cheetah]] a go and improve it.
+
+Or get Python compiled on msysGit. Or a new Subversion.
