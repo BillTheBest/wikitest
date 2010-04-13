@@ -1113,6 +1113,9 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 === OddmuseGit ===
 * [http://www.foo.be/cgi-bin/wiki.pl/OddmuseGit OddmuseGit], two bash scripts to interface between git and the [http://www.oddmuse.org/ Oddmuse] wiki. Handy for merging multiple Wikis or having distributed Oddmuse wikis without changing the existing backend.
 
+=== Levitation (export Wikipedia page history into a Git repository) ===
+* [http://github.com/scy/levitation Levitation] is a project to convert Wikipedia database dumps into Git repositories. It has been successfully tested with a small Wiki (bar.wikipedia.org) having 12,200 articles and 104,000 revisions. Seems to have stalled.
+
 == Bug/issue trackers, etc. ==
 
 === ditz ===
