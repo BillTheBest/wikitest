@@ -6,8 +6,9 @@ Submodules maintain their own identity; the submodule support just stores the su
 For the purposes of the tutorial, the public repositories will be published under your home directory in ~/subtut/public. Let's create the four public submodule repositories first:
 
 <pre><nowiki>
+$ mkdir -p ~/subtut/private
 $ mkdir -p ~/subtut/public
-$ cd ~/subtut/public
+$ cd ~/subtut/private
 $ for mod in a b c d; do
     mkdir $mod
     cd $mod
@@ -15,27 +16,30 @@ $ for mod in a b c d; do
     echo "module $mod" > $mod.txt
     git add $mod.txt
     git commit -m "Initial commit, public module $mod"
+        git clone --bare . ~/subtut/public/$mod.git
+        git remote add origin ~/subtut/public/$mod.git
     cd ..
 done
 </nowiki></pre>
 Now create the public superproject; we won't actually add the submodules yet.
 
 <pre><nowiki>
+$ cd ~/subtut/private
 $ mkdir super
 $ cd super
 $ git init
 $ echo hi > super.txt
 $ git add super.txt
 $ git commit -m "Initial commit of empty superproject"
+$ git clone --bare . ~/subtut/public/super.git
+$ git remote add origin ~/subtut/public/super.git
 </nowiki></pre>
 Check out the superproject somewhere private and add all the submodules.
 
 <pre><nowiki>
-$ mkdir ~/subtut/private
 $ cd ~/subtut/private
-$ git clone ~/subtut/public/super
 $ cd super
-$ for mod in a b c d; do git submodule add ~/subtut/public/$mod $mod; done
+$ for mod in a b c d; do git submodule add ~/subtut/public/$mod.git $mod; done
 $ ls -a
 .  ..  .git  .gitmodules  a  b  c  d  super.txt
 </nowiki></pre>
@@ -48,10 +52,10 @@ The "git submodule add" command does a couple of things:
 $ cat .gitmodules
 [submodule "a"]
         path = a
-        url = /home/moses/subtut/public/a/.git
+        url = /home/moses/subtut/public/a.git
 [submodule "b"]
         path = b
-        url = /home/moses/subtut/public/b/.git
+        url = /home/moses/subtut/public/b.git
         ...
 $ git status
 # On branch master
@@ -80,7 +84,7 @@ It looks just like a regular checkout:
 $ cat .git/config
         ...
         [remote "origin"]
-        url = /home/moses/subtut/public/a/.git
+        url = /home/moses/subtut/public/a.git
         fetch = +refs/heads/*:refs/remotes/origin/*
         ...
 </nowiki></pre>
@@ -104,7 +108,7 @@ Now look at it from the perspective of another developer:
 <pre><nowiki>
 $ mkdir ~/subtut/private2
 $ cd !$
-$ git clone ~/subtut/public/super
+$ git clone ~/subtut/public/super.git
 $ cd super
 $ ls -a
 .  ..  .git  .gitmodules  a  b  c  d  super.txt
@@ -126,7 +130,7 @@ Pulling down the submodules is a two-step process. First run "git submodule init
 $ git submodule init
 $ git config -l
 ...
-submodule.a.url=/home/moses/subtut/public/a/.git
+submodule.a.url=/home/moses/subtut/public/a.git
 </nowiki></pre>
 Now use "git submodule update" to clone the repositories and check out the commits specified in the superproject.
 
