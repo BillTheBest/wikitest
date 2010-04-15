@@ -1,0 +1,59 @@
+So you ran the test suite with ''make test'' and it failed. What now?
+
+You have several options:
+
+== Bisecting ==
+
+If you know that the tests passed just fine, say, yesterday, you can start a bisection:
+
+ git bisect start HEAD HEAD@{yesterday}
+
+Now you can either test manually, or you write a simple script:
+
+ cat > my-test.sh << EOF
+ #!/bin/sh
+ 
+ make && cd t && sh t7002-grep.sh
+ EOF
+ chmod a+x my-test.sh
+
+Of course, you have to replace the filename ''t7002-grep.sh'' with the filename of the test that is failing. Then, you can call
+
+ git bisect run ./my-test.sh
+
+Eventually, ''git bisect'' will tell you the first bad commit.
+
+== Debugging ==
+
+When bisecting points to a commit that adds a test case (i.e. that test case would never pass on your system), or when you do not know a good version, you might need to identify the test case that is failing, and even the code that is responsible for the failure. (You might need to read the documentation about [[HowToWriteTests|how to write tests]] to understand the structure of the test scripts.)
+
+First, run the test with the options ''-i'' (stop on failure) and ''-v'' (verbose):
+
+ cd t && sh t7002-grep.sh -i -v
+
+If it is not obvious which call failed (some authors were happy to add test cases that call 50+ commands and leave it up to you to guess which command actually failed), you can use the shell option ''-x'' to list all commands that were called (indicating the call level by the count of '+' characters at the beginning of the line):
+
+ cd t && sh -x t7002-grep.sh -i -v
+
+The latter outputs really a lot of information, so you might want to use the ''tee'' program to write the output to a file in addition to writing it to the terminal:
+
+ cd t && sh -x t7002-grep.sh -i -v | tee output.txt
+
+You can inspect the state of the files in the directory ''t/trash.t7002-grep/''.
+
+Sometimes, even the verbose log of commands does not help, so you might need to insert debug statements into the test script before running the test again, such as
+
+ echo "The content of blah is now:" &&
+ cat blah &&
+
+Make sure that you do not break the ''&&'' chain, otherwise the test case in question might miraculously pass all of a sudden.
+
+In really hard cases, you might need to run a failing command in the debugger (typically gdb, although you might prefer a graphical version thereof). If you prefix a call with ''gdb'', you might need to pass the ''--args'' option to gdb to prevent gdb from eating Git's command line options (e.g. ''git commit -m initial &&'' becomes now ''gdb --args git commit -m initial''). If you do that, you need to call the test script with ''-v'', otherwise you will not see gdb's output.
+
+An alternative way to debug such hard cases is to introduce debug statements into Git's source code itself. A convenient way is to use the ''error()'' function. For example, when a variable changes its value without apparent reason, but you cannot run it in gdb using the ''watch'' command (e.g. because the Git command is on the receiving side of a pipe, in which case you cannot control gdb interactively), you should litter the code with statements such as
+
+ error("autocrlf1: %d", auto_crlf);
+
+(where you increment the digit everytime you put it somewhere, so that you can find out where the first wrong value appeared.)
+
+The latter approach lends itself to more sophisticated tests. For example, you could check the value of a certain variable before you output debug messages, and you can even use a combined approach where you output conditionally on some value and set a breakpoint in gdb to find out the backtrace (or look around the backtrace interactively) of a certain error condition.
