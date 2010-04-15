@@ -26,6 +26,8 @@ Git for the OS X is installed by using the [http://code.google.com/p/git-osx-ins
 
 Alternatively, you can install Git via [http://www.macports.org/ MacPorts] or [http://www.finkproject.org/ Fink]. Both work with Tiger, but may pull in a couple of dependencies. With MacPorts, be sure to check out possible extra features with <code><nowiki>port variants git-core</nowiki></code>; for example, to install Git with bash completion use <code><nowiki>sudo port install git-core +bash_completion</nowiki></code>.
 
+Another option for Git installation for users running OS X 10.5 or higher on an Intel machine is the [http://mxcl.github.com/homebrew Homebrew] package manager.  Installation is as simple as <code><nowiki>brew install git</nowiki></code>.
+
 == Debian / Ubuntu ==
 If you want to build deb packages from upstream Git sources yourself (because the official debs are too old or you want to try some patch, whatever), you could try: [http://repo.or.cz/w/gitcj-debian.git http://repo.or.cz/w/gitcj-debian.git]
 
