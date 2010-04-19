@@ -703,7 +703,7 @@ error: invalid object 100644 d1209bf8031138df13d5d0eb74fce173a89e0f0d for 'src/r
 error: Error building trees
 </nowiki></pre>
 
-This way you also know which file didn't get correctly written.
+This way you also know what file the corrupt blob came from!
 
 C)
 
