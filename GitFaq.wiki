@@ -656,7 +656,9 @@ $ git fsck --full
 
 Ok, I removed the "dangling commit" messages, because they are just  messages about the fact that you probably have rebased etc, so they're not  at all interesting. But what remains is still very useful. In particular,  we now know which tree points to it!
 
-Now you can do
+A) If you have a "broken link" message:
+
+Now you can do:
 
 <pre><nowiki>
    git ls-tree 2d9263c6d23595e7cb2a21e5ebbb53655278dff8
@@ -682,6 +684,28 @@ and you should now have a line that looks like
 </nowiki></pre>
 
 in the output. This already tells you a *lot* it tells you what file the corrupt blob came from!
+
+Goto C. :)
+
+B) If you don't have a "broken link" message:
+
+ex:
+<pre><nowiki>
+$ git fsck --full
+missing blob d1209bf8031138df13d5d0eb74fce173a89e0f0d
+missing blob 50cf67abff3778083c581408f17be136a94a8f6d
+</nowiki></pre>
+
+Try doing a commit. It should give you an error message similar to the following:
+<pre><nowiki>
+$ git commit -m "fixing git repo"
+error: invalid object 100644 d1209bf8031138df13d5d0eb74fce173a89e0f0d for 'src/removepoints.cpp'
+error: Error building trees
+</nowiki></pre>
+
+This way you also know which file didn't get correctly written.
+
+C)
 
 Now, it doesn't tell you quite enough, though: it doesn't tell what *version* of the file didn't get correctly written! You might be really lucky, and it may be the version that you already have checked out in your  working tree, in which case fixing this problem is really simple, just do
 
