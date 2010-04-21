@@ -39,6 +39,7 @@ Miscellaneous git-related links, not including [http://git.or.cz/ Git homepage],
 * [http://cworth.org/hgbook-git/ Carl Worth's effort] "translating" [http://hgbook.red-bean.com/ Brian O'Sullivan's book on Mercurial] to Git
 * [http://sysmonblog.co.uk/misc/git_by_example/ Git by example] simple walk through of common git commands.
 * [http://www.fml.eti.br/wiki/index.php/Git Simple Git guide in Portuguese] guia para preguiçosos em português.
+* [http://toroid.org/ams/git-central-repo-howto Using Git with a central repository]&mdash;a concise introduction
 
 = Articles about Git =
 
