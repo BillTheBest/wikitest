@@ -17,6 +17,8 @@ First of all, if you installed msysGit via the ''fullinstall'' package, you will
 
 to put your setup into the same state as it would have been after running the ''netinstall''.
 
+'''NOTE''': to follow these instructions, you '''really''' have to have installed ''msysGit'', not just ''Git for Windows''. '''Really.''' If you do not have <nowiki>/share/msysGit/initialize.sh</nowiki>, you have '''Git for Windows''', <u>not</u> '''msysGit'''. If you do not know [[MSysGit:InstallMSysGit#What_is_msysGit.3F|what the difference is]], you will have to learn about that before you can continue.
+
 It is convenient to install shortcuts (such as a QuickLaunch icon) with ''/share/msysGit/add-shortcut.tcl''
 
 After that, you will have to decide what you are interested in:
