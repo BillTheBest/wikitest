@@ -2,7 +2,9 @@
 
 == What is ''msysGit''? ==
 
-''msysGit'' is the development environment to compile Git for Windows.
+''msysGit'' is the development environment to compile Git for Windows. ''msysGit'' is <u>not</u> ''Git for Windows''; that is an installer which installs Git -- and only Git.
+
+It is easy to see the difference: the installers for Git have the prefix ''Git-'', the msysGit installers have the prefix ''msysGit-''. Another telltale is that the ''msysGit'' installers come in two flavors: ''fullinstall'' and ''netinstall''. Further, ''msysGit'' does not install to ''C:\Program Files'' by default. But ''msysGit'' comes with ''gcc'', the GNU C Compiler.
 
 == How to install it ==
 
