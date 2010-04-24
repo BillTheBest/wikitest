@@ -1056,7 +1056,7 @@ $
 Whereas you probably installed git to your $HOME or something like that.  The workarounds include;
 
 * Install git to <code><nowiki>/usr/bin</nowiki></code>
-* Making sure you have the correct path set up in <code><nowiki>.bashrc</nowiki></code> (not only <code><nowiki>.bash_profile</nowiki></code>)
+* Making sure you have the correct path set up in <code><nowiki>.bashrc</nowiki></code> (not only <code><nowiki>.bash_profile</nowiki></code>) if your shell is bash or <code>.zshenv</code> if your shell is zsh.
 * Specify <code><nowiki>--receive-pack=PATH/TO/git-receive-pack</nowiki></code> at push time
 * Set <code><nowiki>remote.<name>.receivepack</nowiki></code> using <code><nowiki>git config</nowiki></code> (see git-config(1))
 
