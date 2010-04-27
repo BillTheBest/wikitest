@@ -40,6 +40,7 @@ following interesting projects:
 ''Programming language:'' C <BR>
 ''SoC page:'' [http://socghop.appspot.com/gsoc/student_project/show/google/gsoc2010/git/t127230759328 Line-level history browser] <BR>
 
+''Progress reports / status:'' <BR>
 
 == Integrated Web Client for git ==
 ''Student:'' Pavan Kumar Sankara<BR>
