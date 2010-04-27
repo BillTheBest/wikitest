@@ -25,10 +25,12 @@ following interesting projects:
 ''Programming language:'' C <BR>
 ''SoC page:'' [http://socghop.appspot.com/gsoc/student_project/show/google/gsoc2010/git/t127230759278 Complete libgit2] <BR>
 ''Git repository (web interface):''
-* http://repos.or.cz/libgit2
+* http://repo.or.cz/w/libgit2.git (official)
+
+''Git repository (for cloning):''
+* git://repo.or.cz/libgit2.git (official)
 
 ''Progress reports / status:''
-
 
 == Line level history browser ==
 ''Student:'' Bo Yang<BR>
