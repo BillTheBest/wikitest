@@ -50,5 +50,8 @@ following interesting projects:
 
 
 = Foreign projects =
-To be filled in
+
+== Eclipse: Improve Eclipse Git Integration ==
+''SoC Page:'' [http://socghop.appspot.com/gsoc/student_project/show/google/gsoc2010/eclipse/t127230758145 Improve Eclipse Git Integration]
+
 __NOTOC__
