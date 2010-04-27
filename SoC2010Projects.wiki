@@ -49,6 +49,7 @@ following interesting projects:
 ''Programming language:'' ? <BR>
 ''SoC page:'' [http://socghop.appspot.com/gsoc/student_project/show/google/gsoc2010/git/t127230759366 Integrated Web Client for git]  <BR>
 
+''Progress reports / status:'' <BR>
 
 = Foreign projects =
 
