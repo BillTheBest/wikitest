@@ -29,6 +29,8 @@ The objective of git-remote-svn is to provide native interaction with SVN reposi
 ''Student:'' Vincent Marti<BR>
 ''Mentor:''  Scott Chacon <BR>
 
+The goal of this application is the completion of several key features which the libgit2 library (a stand-alone git library which is being written from scratch) is currently lacking, and which are required to interoperate with existing git repositories, namely, the revision walking mechanism and the functionality for index and reference manipulation. 
+
 ''Idea:'' [[SoC2010Ideas#Complete_libgit2|Complete libgit2]] on [[SoC2010Ideas]] page <BR>
 ''Programming language:'' C <BR>
 ''SoC page:'' [http://socghop.appspot.com/gsoc/student_project/show/google/gsoc2010/git/t127230759278 Complete libgit2] <BR>
