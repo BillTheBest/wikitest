@@ -1,0 +1,52 @@
+''Table of Contents:''
+__TOC__
+----
+= Git Community projects =
+
+See also [http://socghop.appspot.com/org/home/google/gsoc2010/git the Git GSoC2010 Google page].
+
+This year Git received funding for 4 students,
+and we are looking forward to the successful completion of the
+following interesting projects:
+
+== Native SVN support in git ==
+''Student:'' Ramkumar Ramachandra<BR>
+''Mentor:''  Sverre Rabbelier<BR>
+
+''SoC page:'' [http://socghop.appspot.com/gsoc/student_project/show/google/gsoc2010/git/t127230759234 Native SVN support in Git] <BR>
+
+''Progress reports / status:'' <BR>
+
+== Completing libgit2 ==
+''Student:'' Vincent Marti<BR>
+''Mentor:''  Scott Chacon <BR>
+
+''Idea:'' [[SoC2010Ideas#Complete_libgit2|Complete libgit2]] on [[SoC2010Ideas]] page <BR>
+''Programming language:'' C <BR>
+''SoC page:'' [http://socghop.appspot.com/gsoc/student_project/show/google/gsoc2010/git/t127230759278 Complete libgit2] <BR>
+''Git repository (web interface):''
+* http://repos.or.cz/libgit2
+
+''Progress reports / status:''
+
+
+== Line level history browser ==
+''Student:'' Bo Yang<BR>
+''Mentor:''  Thomas Rast<BR>
+
+''Idea:'' [[SoC2010Ideas#Line-level_history_browser|Line-level history browser]] on [[SoC2010Ideas]] page <BR>
+''Programming language:'' C <BR>
+''SoC page:'' [http://socghop.appspot.com/gsoc/student_project/show/google/gsoc2010/git/t127230759328 Line-level history browser] <BR>
+
+
+== Integrated Web Client for git ==
+''Student:'' Pavan Kumar Sankara<BR>
+''Mentor:''  Christian Couder<BR>
+
+''Programming language:'' ? <BR>
+''SoC page:'' [http://socghop.appspot.com/gsoc/student_project/show/google/gsoc2010/git/t127230759366 Integrated Web Client for git]  <BR>
+
+
+= Foreign projects =
+To be filled in
+__NOTOC__
