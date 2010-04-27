@@ -58,6 +58,8 @@ This project will add a set of new features to 'git log' command. Those features
 ''Student:'' Pavan Kumar Sankara<BR>
 ''Mentor:''  Christian Couder<BR>
 
+This proposal aims at creating a multi-purpose HTML based GUI client for git, the web-based equivalent of git-gui (like gitweb and git-instaweb are web-based equivalents of gitk).
+
 ''Programming language:'' ? <BR>
 ''SoC page:'' [http://socghop.appspot.com/gsoc/student_project/show/google/gsoc2010/git/t127230759366 Integrated Web Client for git]  <BR>
 
