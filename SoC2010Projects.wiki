@@ -52,6 +52,13 @@ This project will add a set of new features to 'git log' command. Those features
 ''Programming language:'' C <BR>
 ''SoC page:'' [http://socghop.appspot.com/gsoc/student_project/show/google/gsoc2010/git/t127230759328 Line-level history browser] <BR>
 
+''Git repository web interface:''
+* http://repo.or.cz/w/line.git
+
+''Git repository clone URL:''
+* git://repo.or.cz/line.git
+The master branch of the repo is for the project.
+
 ''Progress reports / status:'' <BR>
 
 == Integrated Web Client for git ==
