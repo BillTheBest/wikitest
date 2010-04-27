@@ -53,7 +53,12 @@ following interesting projects:
 
 = Foreign projects =
 
-== Eclipse: Improve Eclipse Git Integration ==
-''SoC Page:'' [http://socghop.appspot.com/gsoc/student_project/show/google/gsoc2010/eclipse/t127230758145 Improve Eclipse Git Integration]
+== Eclipse Foundation: Improve Eclipse Git Integration ==
 
+''SoC Page:'' [http://socghop.appspot.com/gsoc/student_project/show/google/gsoc2010/eclipse/t127230758145 Improve Eclipse Git Integration] <BR>
+
+
+== Apache Software Foundation: Subversion: Add support for Git/Mercurial style unidiff format extensions ==
+
+''SoC Page:'' [http://socghop.appspot.com/gsoc/student_project/show/google/gsoc2010/apache/t127230758414 Subversion: Add support for Git/Mercurial style unidiff format extensions] <BR>
 __NOTOC__
