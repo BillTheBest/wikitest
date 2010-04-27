@@ -46,6 +46,8 @@ The goal of this application is the completion of several key features which the
 ''Student:'' Bo Yang<BR>
 ''Mentor:''  Thomas Rast<BR>
 
+This project will add a set of new features to 'git log' command. Those features will allow git users to track change history of any lines of source files. The goal of this project is to provide users with the ability to get insight into the code at line level.
+
 ''Idea:'' [[SoC2010Ideas#Line-level_history_browser|Line-level history browser]] on [[SoC2010Ideas]] page <BR>
 ''Programming language:'' C <BR>
 ''SoC page:'' [http://socghop.appspot.com/gsoc/student_project/show/google/gsoc2010/git/t127230759328 Line-level history browser] <BR>
