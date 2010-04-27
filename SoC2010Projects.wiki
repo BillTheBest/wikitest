@@ -10,12 +10,17 @@ and we are looking forward to the successful completion of the
 following interesting projects:
 
 == Native SVN support in git ==
-''Student:'' Ramkumar Ramachandra<BR>
-''Mentor:''  Sverre Rabbelier<BR>
+''Student:'' Ramkumar Ramachandra ([http://github.com/artagnon artagnon] on GitHub)<BR>
+''Mentor:''  Sverre Rabbelier ([http://github.com/SRabbelier SRabbelier] on GitHub)<BR>
+
+The objective of git-remote-svn is to provide native interaction with SVN repositories in Git, the motivation for which comes from the shortcomings of git-svn. I intend to do this by building a remote helper for SVN. Several good SVN exporters already exist, and using one of them with a remote helper should eliminate a lot of the plumbing that git-svn tackles by hand. Also, using a remote helper to interact will provide a simple and natural UI at no additional cost.
 
 ''SoC page:'' [http://socghop.appspot.com/gsoc/student_project/show/google/gsoc2010/git/t127230759234 Native SVN support in Git] <BR>
-
-''Progress reports / status:'' <BR>
+''Git repository:'' http://repo.or.cz/w/git/artagnon.git <BR>
+''Topics in review:''<BR>
+''Topics merged:''<BR>
+* [http://article.gmane.org/gmane.comp.version-control.git/145194 &#91;PATCH 0/5&#93; Improve remote helper documentation]
+''Status:'' Started.
 
 == Completing libgit2 ==
 ''Student:'' Vincent Marti<BR>
