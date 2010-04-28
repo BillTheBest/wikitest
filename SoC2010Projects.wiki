@@ -58,8 +58,8 @@ The master branch of the repo is for the project.
 
 ''Progress reports / status:'' <BR>
 
-== Splitting gitweb and developing write functionaloties (Integrated web client for git) ==
-''Student:'' Pavan Kumar Sankara<BR>
+== Splitting gitweb and developing write functionalities (Integrated web client for git) ==
+''Student:'' Pavan Kumar Sankara ([http://github.com/pkumar pkumar] on GitHub) <BR>
 ''Mentor:''  Christian Couder<BR>
 ''Co-Mentor:''  Petr Baudis<BR>
 
@@ -67,8 +67,10 @@ This proposal aims at creating a multi-purpose HTML based GUI client for git, th
 
 ''Programming language:'' Perl <BR>
 ''SoC page:'' [http://socghop.appspot.com/gsoc/student_project/show/google/gsoc2010/git/t127230759366 Integrated Web Client for git]  <BR>
+''Git repository:''
+* http://repo.or.cz/w/git/gsoc2010-gitweb.git (Git repository browser)
 
-''Progress reports / status:'' <BR>
+''Progress reports / status:'' Planning Stage<BR>
 
 = Foreign projects =
 
