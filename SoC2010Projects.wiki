@@ -63,7 +63,7 @@ The master branch of the repo is for the project.
 ''Mentor:''  Christian Couder<BR>
 ''Co-Mentor:''  Petr Baudis<BR>
 
-This proposal aims at creating a multi-purpose HTML based GUI client for git, the web-based equivalent of git-gui (like gitweb and git-instaweb are web-based equivalents of gitk).
+This project aims at splitting and organising the 6800 lines code of gitweb.pl into modules. It also aims at developing functionalities for working on a git repository to go along with it's browsing capabilities.
 
 ''Programming language:'' Perl <BR>
 ''SoC page:'' [http://socghop.appspot.com/gsoc/student_project/show/google/gsoc2010/git/t127230759366 Integrated Web Client for git]  <BR>
