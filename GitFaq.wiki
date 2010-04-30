@@ -881,7 +881,7 @@ If <code><nowiki>git svn clone</nowiki></code> return something like this:
 Using higher level of URL: svn://.../project/svn/trunk => svn://.../project/svn
 </nowiki></pre>
 
-you mast clone without ''trunk'' dir.
+you must clone without ''trunk'' dir.
 
 == {{Gitlink|edit-root|How to edit the root commit}} How do I edit the root commit?  ==
 
