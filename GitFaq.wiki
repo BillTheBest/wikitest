@@ -873,6 +873,16 @@ To enable usage of <code><nowiki>git svn</nowiki></code> in the clone use
     git svn init -s --prefix=origin/ svn://.../project
 </nowiki></pre>
 
+=== Troubleshooting ===
+
+If <code><nowiki>git svn clone</nowiki></code> return something like this:
+
+<pre><nowiki>
+Using higher level of URL: svn://.../project/svn/trunk => svn://.../project/svn
+</nowiki></pre>
+
+you mast clone without ''trunk'' dir.
+
 == {{Gitlink|edit-root|How to edit the root commit}} How do I edit the root commit?  ==
 
 <code><nowiki>git rebase -i</nowiki></code> allows you to conveniently edit any previous commits, except for the root commit. The following commands show you how to do this manually.
