@@ -37,11 +37,20 @@ Below I'll explain what's going on here and why.
  # git-p4 needs to know what Perforce client to use
  # when it comes time to submit. It'll get this from your .perforce file
  
- # TELL git-p4 YOUR Peforce username, password, etc... (detailed below)
+ # TELL git-p4 YOUR Perforce username, password, etc... (detailed below)
  git p4 clone //perforce/path/to/your/apps/current/version@all version_number_directory
 
 == Explanation == 
 As you can see, we've created two checkouts of the code that mirror each other. One's set up for Perforce and one's set up for git. git-p4 can check out code directly from Perforce, but Perforce won't let you commit code into it without first running "p4 edit" on a file in the local filesystem, since it's not smart enough to understand to realize what files are changed without you telling it. I'll discuss the use of the Perforce specific directory more in "Submitting changes to Perforce".
+
+In order to pull data from Perforce git-p4 needs to know your username, password, etc. You can configure these in a variety of places but the simplest is in your .gitconfig file
+
+ [git-p4]
+     user = my_username
+     password = my_password
+     port = port_number
+
+If your company uses ssh keys instead of a password you'll probably have a funky looking "rsh:ssh ...." line for you port and no password. Instead of specifying a Perforce Client in your config this example uses a .perforce file so that it can be a different client for each project, but you could achieve the same effect by having a project specific .gitconfig file.
 
 It is important to note the @all that is appended to the end of the Perforce path when you do a "git p4 clone ..." If you include the @all you will get the entire revision history for that branch in Perforce. If you exclude it you'll get just the most recent version of everything in it. 
 
