@@ -1,9 +1,11 @@
 Using git-p4 instead of / with Perforce
 
-There are a number of ways to do this based on your personal work style but some elements are the same for everyone. What follows uses one person's setup as a guide to help you understand how git-p4 works and ways to  fit it into your workflow. It assumes that you know how to configure a Perforce "Client" and out a repository in Perforce. It also assumes that you are familiar with Git's basic usage, including the clone, push, pull, add, and rebase commands. 
+There are a number of ways to do this based on your personal work style but some elements are the same for everyone. What follows uses one person's setup as a guide to help you understand how git-p4 works and ways to  fit it into your workflow. It assumes that you know how to configure a Perforce "Client" and checkout a repository in Perforce. It also assumes that you are familiar with Git's basic usage, including the clone, push, pull, add, and rebase commands. 
 
 What git-p4 does:
-Simply put git-p4 talks perforce so that you don't have to. It does this by running all the Perforce commands you'd have to behind the scenes. In order to do this you need a perforce checkout which it will mark files for editing, and commit your changes to. There are a number of commands that git-p4 understands but are not currently covered in this document. 
+Simply put git-p4 talks perforce so that you don't have to. It does this by running all the Perforce commands you'd have to behind the scenes. In order to do this you need a perforce checkout which it will mark files for editing, and commit your changes to. There are a number of commands that git-p4 understands but are not currently covered in this document. For full usage details check out the git-p4.txt file in contrib/fast-import/git-p4.txt That document also covers the various configuration parameters available to git-p4 that allow you to specify the Perforce port, host, client, etc. without having git-p4 grab it from the environment.
+
+The initial thread discussing git-p4 on the mailing list is [http://marc.info/?l=git&m=117840529828575&w=2 here].
 
 = Setup =
 So, ultimately you'll need 2 copies of each repository you want to work with, one for perforce, and one for git BUT you'll essentially never have to touch the perforce one. 
@@ -84,7 +86,7 @@ The following flow-chart shows the basic steps involved. Keep in mind that it wo
 [[Image:Git_p4_usage_w_server.png]]
 
 
-You could just rsync your files to the server and not even bother with git, but that eliminates the advantage that git gives you of of easily creating, and switching between, topic-branches http://wiki.github.com/dchelimsky/rspec/topic-branches and having multiple roll-back points along the way to completing the feature or fix you're working on. For example, you're working on a bug and complete the changes in the View layer but haven't gotten to the Controller yet. Committing now guarantees that you've got a version controlled copy of that work. Giving that commit to your coworkers would probably make things worse for them but having it now makes things better for you, and Git will let you rebase and merge it in with the other commits you'll be making as you finish your work.
+You could just rsync your files to the server and not even bother with git, but that eliminates the advantage that git gives you of of easily creating, and switching between, [http://wiki.github.com/dchelimsky/rspec/topic-branches topic-branches] and having multiple roll-back points along the way to completing the feature or fix you're working on. For example, you're working on a bug and complete the changes in the View layer but haven't gotten to the Controller yet. Committing now guarantees that you've got a version controlled copy of that work. Giving that commit to your coworkers would probably make things worse for them but having it now makes things better for you, and Git will let you rebase and merge it in with the other commits you'll be making as you finish your work.
 
 
 = Dealing with new Perforce branches = 
