@@ -36,6 +36,8 @@ Below I'll explain what's going on here and why.
  cp ../p4_our_app/.perforce ./
  # git-p4 needs to know what Perforce client to use
  # when it comes time to submit. It'll get this from your .perforce file
+ 
+ # TELL GIT YOUR git-p4 username, password, etc... (detailed below)
  git p4 clone //perforce/path/to/your/apps/current/version@all version_number_directory
 
 == Explanation == 
