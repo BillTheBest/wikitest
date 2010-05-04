@@ -1,0 +1,109 @@
+Using git-p4 instead of / with Perforce
+
+There are a number of ways to do this based on your personal work style but some elements are the same for everyone. What follows uses one person's setup as a guide to help you understand how git-p4 works and ways to  fit it into your workflow. It assumes that you know how to configure a Perforce "Client" and out a repository in Perforce. It also assumes that you are familiar with Git's basic usage, including the clone, push, pull, add, and rebase commands. 
+
+What git-p4 does:
+Simply put git-p4 talks perforce so that you don't have to. It does this by running all the Perforce commands you'd have to behind the scenes. In order to do this you need a perforce checkout which it will mark files for editing, and commit your changes to. There are a number of commands that git-p4 understands but are not currently covered in this document. 
+
+= Setup =
+So, ultimately you'll need 2 copies of each repository you want to work with, one for perforce, and one for git BUT you'll essentially never have to touch the perforce one. 
+
+== Commands ==
+Below I'll explain what's going on here and why.
+
+ cd ~/my_workspace
+ # first setup a repo area for Perforce to work in. You'll never need to interact with this
+ mkdir p4_our_app
+    # prefaced with p4_ just so that us humans can tell it apart from the 
+    # one we'll create for Git 
+ cd p4_our_app
+ vi .perforce 
+ # ...or emacs, or whatever you preferer
+ # edit your .perforce file to reference / create a client just for versions of this app
+ p4 client 
+ # add the current version of your app to the client and have it check out into
+ # a p4_our_app/version_number_directory
+ p4 sync
+ 
+ # now setup an area for git to work in. This is where you'll work. 
+ cd ../
+ mkdir git_our_app
+    # prefaced with git_ just so that us humans can tell it apart from the
+    # one we made for Perforce
+ cd git_our_app
+ cp ../p4_our_app/.perforce ./
+ # git-p4 needs to know what Perforce client to use
+ # when it comes time to submit. It'll get this from your .perforce file
+ git p4 clone //perforce/path/to/your/apps/current/version@all version_number_directory
+
+== Explanation == 
+As you can see, we've created two checkouts of the code that mirror each other. One's set up for Perforce and one's set up for git. git-p4 can check out code directly from Perforce, but Perforce won't let you commit code into it without first running "p4 edit" on a file in the local filesystem, since it's not smart enough to understand to realize what files are changed without you telling it. I'll discuss the use of the Perforce specific directory more in "Submitting changes to Perforce".
+
+It is important to note the @all that is appended to the end of the Perforce path when you do a "git p4 clone ..." If you include the @all you will get the entire revision history for that branch in Perforce. If you exclude it you'll get just the most recent version of everything in it. 
+
+= Pulling down changes from coworkers =
+
+It is recommended that you have no uncommitted code sitting around when you do this. If you do, git-p4 will pull down the changes but not write them to the working directory (they'll be stored in the local copy of the remote branch though). If you're in the middle of something and don't want to  commit it quite yet my recommendation is to run "git stash" beforehand and "git stash pop" afterwards. Just don't forget and leave your work in the stash.
+
+There are a variety of commands you can use in git-p4 but ultimately you only need two: "git p4 rebase" and "git p4 submit".  "git -p4 rebase" will suck down the latest code from your coworkers then rebase any committed changes you have on top of it. I recommend always using this because you're going to need to move your unsubmitted commits so that they come after all the ones from perforce anyway, and if you do that every time you pull code from the server. Reordering commits will introduce some complications when dealing with other repos of yours though. So you may want to just save "git p4 rebase" until the end of your work cycle (just before you submit your changes to Perforce). If that sounds easier to you then you'd do a "git p4 sync" to pull down the changes from coworkers but not rebase and move your commit(s) after theirs.
+
+
+= Submitting changes to Perforce =
+
+Perforce's concept of a changeset isn't very different from Git's concept of a commit. So, simply put, git-p4 will iterate over the commits that haven't been sent to Perforce yet and submit each of them, in order, to Perforce as a new changeset. This is where that p4_our_app checkout becomes important, because while git-p4 can pull from perforce without setting up a local Perforce directory, it can't submit to it without one because of the way Perforce works.
+
+
+== Commands == 
+ # after doing your work and committing your changes to git
+ git p4 rebase
+	# if there are any merge conflicts you'd address them here
+ git p4 submit
+ 
+== Explanation == 
+
+All submissions to Perforce must be preceded by a "git p4 rebase". This guarantees that you've got the latest code from Perforce before submitting AND guarantees that your commits have been moved after all the Perforce changesets in the commit history. Even if you're confident that nothing has changed in Perforce it's good to be in the habit of running this command before "git p4 submit". 
+
+git-p4 will examine the commit history in git looking for commits that don't have a line like this in the commit message:
+ [git-p4: depot-paths = "//perforce/path/to/current/app/version/": change = 6275859]
+
+git-p4 adds that line to every commit it pulls from perforce, and every commit it sends to perforce. It's its internal bookkeeping mechanism, so don't go editing your commit messages and removing them.
+
+When you run "git p4 submit" git-p4 will bring your local Perforce checkout up to date, before running Perforce's edit, and integrate commands (if you've moved or renamed a file), applying your changes, and running "p4 submit".  It will pre-populate your Perforce submit message with the text you used in the commit message you created for Git. So just be sure to write good commit messages your coworkers will be happy with and you'll never even have to read the Perforce submit message. Just save and quit. On most systems it'll come up in vi so you'd just type ":wq".
+
+
+= Working on multiple computers = 
+
+Things get slightly more complicated if you work on multiple computers, but not significantly so. My recommendation is to treat your desktop or laptop where you've checked out the Git and Perforce versions of the repo as a de-facto centralized git repo. Make all your Git commits run through this box. In the long run this will save you a lot of mental bookkeeping, especially if you add a laptop into the mix.
+
+Let's assume you've got a project checked out on your desktop and need to get it on the server for testing. The first thing you need to do, of course, is install git on the server.  Once you've done that you've got a few options for getting it there, the best is probably to run "git init" in the directory you want everything on the server and then pull  from your desktop "git pull my_desktop:path/to/repo" (this assumes you've got an ssh server running on your desktop, but you could also do it via shared file paths or anything else git understands). This method has two advantages: 1) it tells the server's repository that your desktop is its origin. 2) it uses Git's built in file transfer mechanism which is pre-compressed and very fast. 
+
+It's not uncommon though to have a setup where, from your desktop, you can push data to, and pull data from, the server, but you can't do the same from the server to your desktop. In this situation I tend to fall back to the old-school method of compressing the repo on my desktop, transferring it to the server, and just uncompressing it where I want it. Voilla, a git repo on both boxes. It's a slower initial transfer, and the server doesn't know your desktop is its origin, but that doesn't matter since the server can't push to the desktop in your network anyway. 
+
+The following flow-chart shows the basic steps involved. Keep in mind that it would take the same number of steps ANY version control system.  You might argue that there are more commits in the git version of this, as you could get into a loop with a lot of commits, but being able to commit along the way to give yourself multiple roll-back points is actually one of the features of git. You can always merge them and clean them up before sharing them with your team-members.
+
+[[Image:Git_p4_usage_w_server.png]]
+
+
+You could just rsync your files to the server and not even bother with git, but that eliminates the advantage that git gives you of of easily creating, and switching between, topic-branches http://wiki.github.com/dchelimsky/rspec/topic-branches and having multiple roll-back points along the way to completing the feature or fix you're working on. For example, you're working on a bug and complete the changes in the View layer but haven't gotten to the Controller yet. Committing now guarantees that you've got a version controlled copy of that work. Giving that commit to your coworkers would probably make things worse for them but having it now makes things better for you, and Git will let you rebase and merge it in with the other commits you'll be making as you finish your work.
+
+
+= Dealing with new Perforce branches = 
+
+When you're done working on release 2.4 of your app and a new branch is created in Perforce for version 2.5 there is no way to update your 2.4 git checkout to start pointing at the new location. Instead you need to do a new checkout. 
+
+== Commands == 
+ # assuming the same directory structure as in the initial checkout example
+ cd ~/my_workspace/p4_our_app
+ p4 client
+ # edit your client to add the new branch alongside the old one under p4_our_app
+ # so if you had p4_our_app/2_4
+ # you would have it checkout 2.5 to p4_our_app/2_5
+ p4 sync
+ cd ../git_our_app
+ git p4 clone //perforce/path/to/the/2.5/version@all 2_5
+
+== Explanation == 
+
+We're just replicating what we did for the initial branch / version in Perforce for the new version.  Once you've done this you'll switch into the new 2_5 directory and continue working as  you did with the 2_4 version. HOWEVER it must be noted that the old 2_4 version of the repo that you may have on your server or any other box is not compatable with this new version. As far as git is concerned, these codebases are unrelated. So you'll need to replace the version on your server with a 2_5 copy or tell your server to serve files from wherever you uploaded the 2_5 verison to, and when pushing to other boxes you'll just have to remember to push to the new 2_5 repos on them. Remember 2_4 and 2_5 are just hypothetical version numbers. They have no specific meaning.
+
+During the initial setup we copied the .perforce file from p4_our_app into git_our_app. Since this is a level above all the actual git checkouts in your directory structure it will be available to all of them and you'll never have to specify the Perforce Client for this project again.
