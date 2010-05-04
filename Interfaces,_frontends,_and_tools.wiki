@@ -1027,6 +1027,8 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 ==== git-p4 and git-p4-import (Perforce) ====
 * The built-in Perforce importer `git-p4import.py` does not work and is not being actively developed. A replacement, `git-p4` by Simon Hausmann, is now in contrib/fast-import and is highly recommended. See also [http://marc.info/?l=git&m=117861263323170&w=2 Yet another git perforce integration] thread on git mailing list. There is also an older Perl version, `git-p4-import` by Alex Riesen: see [http://marc.info/?l=git&m=117840529828575&w=2 Yet another Perforce importer] email/thread on git mailing list.<BR>
 
+See [[git-p4 Usage]] instructions.
+
 === Monotone ===
 
 ==== mtn2git ====
