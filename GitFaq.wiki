@@ -511,13 +511,17 @@ git repack -a -d -l
 where the '-l' means that it will only put ''local'' objects in the pack-file (strictly speaking, it will put any loose objects from the alternate tree too, so you'll have a fully packed archive, but it won't duplicate objects that are already packed in the alternate tree).
 
 == {{Gitlink|stop-sharing-objects}} How to stop sharing objects between repositories?  ==
-There doesn't seem to be a built-in way to do this, but you can do it manually by copying over the unique remote objects and then removing the alternate repository pointer:
+To copy the shared objects into the local repository, repack without the -l flag
 <pre><nowiki>
-(cd /path/to/alternate/repo.git/objects && tar cp .) | (cd .git/objects && tar xvpk)
-# some objects will already exist and be skipped, leading to an error on exit, which is fine
-rm .git/objects/info/alternates
-# or if there's more than one and you're only removing one, edit the alternates file and remove only that pointer
+git repack -a
 </nowiki></pre>
+
+Then remove the pointer to the alternate object store
+<pre><nowiki>
+rm .git/objects/info/alternates
+</nowiki></pre>
+
+(If the repository is edited between the two steps, it could become corrupted when the alternates file is removed.  If you're unsure, you can use <code><nowiki>git fsck</nowiki></code> to check for corruption.  If things go wrong, you can always recover by replacing the alternates file and starting over).
 
 == {{Gitlink|gitignore}} How do I tell git to ignore files?  ==
 You can put shell-style globs (e.g. <code><nowiki>*.o</nowiki></code>) in either <code><nowiki>.git/info/exclude</nowiki></code> or <code><nowiki>.gitignore</nowiki></code>.
