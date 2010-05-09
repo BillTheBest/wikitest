@@ -19,7 +19,7 @@ I've put an attribution of the wish to the person who wrote the email I found it
 
 ''See also:''
 * [http://www.freedesktop.org/wiki/Infrastructure/git/UIFlaws Git UI flaws] at freedesktop wiki.
-* Debian [http://bugs.debian.org/cgi-bin/pkgreport.cgi?ordering=normal;archive=0;src=git-core;dist=unstable;repeatmerged=0 bug reports].
+* Debian [http://bugs.debian.org/cgi-bin/pkgreport.cgi?ordering=normal;archive=0;src=git;dist=unstable;repeatmerged=0 bug reports].
 
 = Granted Wishes =
 
