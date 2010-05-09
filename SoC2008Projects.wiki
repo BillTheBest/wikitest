@@ -59,9 +59,9 @@ a large number of repositories and users.
 ''Idea:'' [[SoC2008Ideas#gitweb-caching|Gitweb caching]] at SoC2008Ideas <BR>
 ''SoC page:'' [http://code.google.com/soc/2008/git/appinfo.html?csaid=C5B7544DDE4909C3 Gitweb caching] <BR>
 ''Gitweb:'' http://repo.or.cz/w/git/gitweb-caching.git <BR>
-''See also:'' [[http://thread.gmane.org/gmane.comp.version-control.git/77529|[RFD] Gitweb caching]] thread, parts 1-3, by Jakub Narebski
+''See also:'' [http://thread.gmane.org/gmane.comp.version-control.git/77529 &#x5B;RFD&#x5D; Gitweb caching] thread, parts 1-3, by Jakub Narebski
 
-''Status:'' Done, second round of review: [[http://thread.gmane.org/gmane.comp.version-control.git/88068/focus=92875|Re: [PATCH 0/3] Git::Repo API and gitweb caching]].  ''(Unfortunately sending it as huge, large change patches doesn't help reviewability.)''
+''Status:'' Done, second round of review: [http://thread.gmane.org/gmane.comp.version-control.git/88068/focus=92875 Re: &#x5B;PATCH 0/3&#x5D; Git::Repo API and gitweb caching].  ''(Unfortunately sending it as huge, large change patches doesn't help reviewability.)''
 
 == Eclipse plugin push support ==
 ''Student:'' Marek Zawirski  <BR>
