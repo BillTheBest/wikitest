@@ -67,6 +67,7 @@ This project aims at splitting and organising the 6800 lines code of gitweb.pl i
 
 ''Programming language:'' Perl <BR>
 ''SoC page:'' [http://socghop.appspot.com/gsoc/student_project/show/google/gsoc2010/git/t127230759366 Integrated Web Client for git]  <BR>
+''Project Proposal:'' [http://git.wiki.kernel.org/index.php/Splitting-gitweb-GSoC2010 Splitting gitweb and developing write functionalities] <BR>
 ''Git repository:''
 * http://repo.or.cz/w/git/gsoc2010-gitweb.git (Git repository browser)
 
