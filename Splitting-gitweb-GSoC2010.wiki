@@ -6,21 +6,21 @@ functionalities for working on a git repository.
 
 == Project Goals ==
 
-'''1.What is the goal of your project?'''
+'''1.What is the goal of your project?'''<br>
 The project goal is to try and implement write functionalities into
 gitweb to go along with it's browsing functionalities. Another goal is
 to split gitweb Perl script and reorganize its structure. I would like
 to split the gitweb script in such a way that, in the future others
 will be able to develop more functionalities for gitweb (let it be
 'read' or 'write' actions) with the help of the framework like
-structure of the new gitweb.
+structure of the new gitweb.<br><br>
 
-'read' means browsing through the code and repository
-'write' means working on the code and repository.
+'read' means browsing through the code and repository<br>
+'write' means working on the code and repository.<br><br>
 
-I will be describing about them detailedly in the later parts of the proposal.
+I will be describing about them detailedly in the later parts of the proposal.<br>
 
-'''2.How would you measure its success or failure?'''
+'''2.How would you measure its success or failure?'''<br>
 There are two parameters which would majorly determine the success or
 failure of the project.
 
@@ -28,13 +28,13 @@ failure of the project.
    * Working with new addition to gitweb should be as easy as working with other git GUIs (git commit tools)
    * User friendly graphical interface with smart UI design
 
-'''3.Describe your project in more detail.'''
+<br>'''3.Describe your project in more detail.'''<br>
 I would like to split the currently 6800 long piece of code in
 gitweb.pl perl script into small files which will result in better
 readability, maintainability and modifiability. The file structure of
-the new gitweb is given below and I will explain the working after it.
+the new gitweb is given below and I will explain the working after it.<br><br>
 
-(From now on, I would like to call the actions of gitweb as modules of gitweb)
+(From now on, I would like to call the actions of gitweb as modules of gitweb)<br>
 
 ''a) File Structure:''
 
@@ -61,7 +61,7 @@ developing further functionalities easier. The write actions need not
 be working in a gitweb installation like repo.or.cz, so we will also
 have an option to disable the write modules. I will be using a static
 file to maintain the list of repositories which is obtained by
-scanning repositories.
+scanning repositories.<br>
 
 ''b) Read modules of the client: (most of this need not be written, just
 need to be organised)''
@@ -98,11 +98,11 @@ need to be organised)''
 
 Merging two branches can be quite complicated. Simple merge
 mentioned above will be just showing you that there are conflicts. But
-you won't be having options to
+you won't be having options to<br><br>
 
 ''d) Usage of the client:''
 
-This client can be used in 2 ways.
+This client can be used in 2 ways.<br><br>
 
 * Install a local version using instaweb - The gitweb will be only accessible by you. You can browse through the git repository using read modules and simultaneously work on them using write modules.
 * Install on intranet - A company when installs this gitweb along with some other login and account managing scripts will be able to order their employees to login and ask them to work on the code with out the security risk of providing ssh access to the git repository host. The authentication support can be implemented as an optional part of my proposal.
@@ -123,22 +123,22 @@ git-gui and gitweb, giddy, git-age and other git tools into a great
 code. Many of the current git users are dissatisfied with current git
 clients and have always been complaining about them in the IRC. Also
 some of them complain about the complexity of installation of gitweb.
-This project will solve both the problems.
+This project will solve both the problems.<br><br>
 
 I don't know perl but I can learn it's syntax in less than a day and
 as I know the concepts of programming I will try to become proficient
-in perl starting from May 3rd.
+in perl starting from May 3rd.<br><br>
 
 I will try to make sure that the patches to be as small as possible
 and easily reviewable. Also my vacation starts on May 2nd and ends on
 August 1st. So most of the project work will be done during the start
-of the GSoC project rather than in the end.
+of the GSoC project rather than in the end.<br><br>
 
 I agree that as soon as the GSoC really starts, time for abstract
 planning and discussing should be mostly over. I will be ready to
 code, create patches, even if only RFC patches, send them to the list,
 and then discuss them, reply to reviews, improve them and resend and
-try my best to merge them upstream.
+try my best to merge them upstream.<br><br>
 
 ''f) Sample Work - Mockup:''
 
@@ -146,7 +146,7 @@ A small pre-version smaple of the project can seen in my github
 repository named 'gittor' here. It is written in python and just a
 small sampe of my work in write modules. This client is capable of
 building any other functionality and can integrate the functionalities
-of any other git tools.
+of any other git tools.<br><br>
 
 
 
@@ -157,50 +157,50 @@ I strongly believe in Agile methodology and stick to it. Agile
 practices make all the more sense in open source projects like Git,
 where the features are added/modified on the basis of the user's
 feedback. We should have the ability to swiftly modify the product or
-feature on the basis of the feedback from the community.
+feature on the basis of the feedback from the community.<br><br>
 
 The following gives a brief idea about the iteration cycle that I'll
 be following during the development period: The iteration cycle is of
-1 day duration
+1 day duration<br><br>
 
    * Discuss the deliverables for the next iteration with the mentors along with my daily report.
    * Work on the implementation and send patches on implemented functionality in email to developers mailing list.
    * The developers and the mentors review it and try to merge it upstream
    * Fix bugs, tweak UI etc depending on the feedback. Also document everything while its still fresh in my mind.
 
-'''[Prior May 24]'''
+'''[Prior May 24]'''<br>
 Read and understand the code of current gitweb. Discuss with mentors
 and finish abstract planning.
 
-'''[May 4th week - June 1st week]'''
+'''[May 4th week - June 1st week]'''<br>
 Split the whole code of gitweb into proposed structure and setup
 library files along with installation and configuration.
 
-'''[June 2nd week]'''
+'''[June 2nd week]'''<br>
 Move the read modules accordingly
 
-'''[June 3rd week]'''
+'''[June 3rd week]'''<br>
 Complete module from W1 to W3
 
-'''[June 4th week]'''
+'''[June 4th week]'''<br>
 Complete modules from W4 to W7
 
-'''[July 1st week]'''
+'''[July 1st week]'''<br>
 Complete module W8 to W10
 
-'''[July 2nd week]'''
+'''[July 2nd week]'''<br>
 Check for any possible and potential security loopholes or bugs
 
-'''[July 3rd week]'''
+'''[July 3rd week]'''<br>
 Complete modules W11 and W12
 
-'''[July 4th week]'''
+'''[July 4th week]'''<br>
 Complete modules W13 to W15
 
-'''[Aug 1st week]'''
+'''[Aug 1st week]'''<br>
 Complete mdoules W16 and W17
 
-'''[Aug 2nd week]'''
+'''[Aug 2nd week]'''<br>
 Scrub code, Improve Documentation and last minute touches
 
 W means write actions
@@ -214,9 +214,9 @@ I am an Indian student, doing my Bachelor's Degree in Computer Science
 and Engineering at IIT Madras, one of the top Universities in the
 World. I beleive I am a fast learner and have learnt most of the
 famous programming languages in the coding world. I am 19 years old
-and have a keen interest in field of Game programming.
+and have a keen interest in field of Game programming.<br>
 
-'''1. Open Source Experience'''
+'''1. Open Source Experience'''<br>
 
 Open Source Experience is one thing which everyone requires if he want
 to participate in Google Summer of Code. We need to have knowledge of
@@ -224,62 +224,48 @@ version control systems, such as SVN, GIT etc.. . Also they need to
 follow the standard coding pratices and methods either given by the
 project members or community. They should also be able to communicate
 well. I believe I have all these mentioned qualities and have a keen
-interest in field of Open Source programming.
+interest in field of Open Source programming.<br>
 
-''LimeSurvey''
+''LimeSurvey''<br>
 LimeSurvey is self-described as the 'leading open source tool for
 online surveys', which probably isn't much of an exaggeration. I have
 already submitted many patches for bugs and committed a few changes
-myself
+myself<br>
 
-''Charty - Google Wave Gadget''
+''Charty - Google Wave Gadget''<br>
 It is a Google Wave gadget for embedding interactive charts and
 graphs. It uses methods like Google Wave API, XML, JSON and
-javascript. It's source is made open for all.
+javascript. It's source is made open for all.<br>
 
-''BBGFramework''
+''BBGFramework''<br>
 Contributed to the open source PHP5 based Browser Based Gaming
-framework by adding installation package and fixing bugs.
+framework by adding installation package and fixing bugs.<br>
 
-''Hackerz''
+''Hackerz''<br>
 It is an open source Hacking simulation game written in java and
-currently in very early stage with short source control history.
+currently in very early stage with short source control history.<br>
 
-'''2. Coding Expereince'''
+'''2. Coding Expereince'''<br>
 
 There are more to my experience in programming than the ones listed in
-above section. They all are in different languages of programming.
+above section. They all are in different languages of programming.<br>
 
-''My Sport Club Manager - Browser Based Game''
-It is browser based Ice hockey simulation game that runs on PHP and
-mysql and uses other web technologies like AJAX and javascript
-libraries like prototype. Designed a game flow and a database
-structure and implemented the same. It offers a rich gameplay where
-clubs can be managed with parameters like stadium, tactics, formation,
-finance, stats etc.. A runtime commentatory is genertated
-encapsulating all important movements of the game simulation.
+''My Sport Club Manager - Browser Based Game''<br>
+It is browser based Ice hockey simulation game that runs on PHP and mysql and uses other web technologies like AJAX and javascript libraries like prototype. Designed a game flow and a database structure and implemented the same. It offers a rich gameplay where clubs can be managed with parameters like stadium, tactics, formation, finance, stats etc.. A runtime commentatory is genertated encapsulating all important movements of the game simulation.<br>
 
-''Web related works''
-     Created a PHP based file system Database and Query Language for
-small scale database applications.
-     Designed and developed a fully valid CSS for wordpress, the
-famous blogging platform.
-     Developed a single page forum script to avoid space issues and
-optimized database calls to reduce the execution time unlike the
-traditional bulky forums.
-     Incorporated a web-based application that offers flexibility in
-presentation of the information to generate a structured resume
-following pre-defined document standards
+''Web related works''<br>
+     Created a PHP based file system Database and Query Language for small scale database applications.
+     Designed and developed a fully valid CSS for wordpress, the famous blogging platform.
+     Developed a single page forum script to avoid space issues and optimized database calls to reduce the execution time unlike the traditional bulky forums.
+     Incorporated a web-based application that offers flexibility in presentation of the information to generate a structured resume following pre-defined document standards
 
-''Non-web related works''
+''Non-web related works''<br>
      Designed and implemented an 8 bit micro-processor using Verilog, a HWDL
-     Developed an IRC bot for listening and logging a particular
-channel given the required details.
+     Developed an IRC bot for listening and logging a particular channel given the required details.
      Developed an AI for 'Dots and Boxes' game in Java.
-     Designed and developed a small TicTacToe Network game server and
-client in Python
+     Designed and developed a small TicTacToe Network game server and client in Python
 
-'''3. Academic Experience'''
+'''3. Academic Experience'''<br>
 
 I beleive I am a fast learner and have learnt most of the famous
 programming languages in the coding world. Some of the courses which
@@ -292,7 +278,7 @@ are relevant to my GSoC project and proposal are:
 
 The other courses which I have taken and non-relevant to the project
 are Languages Machines and Computations, Switching Circuits and Logic
-Design, Computer Architecture and Organisation.
+Design, Computer Architecture and Organisation.<br><br>
 
 Different Programming languages which I am comfortable with:
 
