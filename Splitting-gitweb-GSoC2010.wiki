@@ -3,6 +3,8 @@ gitweb.pl into modules. Not only providing the browsing
 functionalities in gitweb, but it also aims at developing
 functionalities for working on a git repository.
 
+''Table of Contents:''
+__TOC__
 
 == Project Goals ==
 
@@ -16,7 +18,7 @@ will be able to develop more functionalities for gitweb (let it be
 structure of the new gitweb.<br><br>
 
 'read' means browsing through the code and repository<br>
-'write' means working on the code and repository.<br><br>
+'write' means working on the code and repository.<br>
 
 I will be describing about them detailedly in the later parts of the proposal.<br>
 
