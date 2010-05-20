@@ -629,6 +629,9 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * Yum
 ** http://linux.duke.edu/projects/yum/scm.ptml (development)
 ** http://devel.linux.duke.edu/gitweb/ (gitweb)
+* FreeSWITCH
+** http://www.freeswitch.org/
+** git://git.freeswitch.org/freeswitch.git (repository)
 
 == Git collections ==
 
