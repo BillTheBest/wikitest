@@ -1,7 +1,7 @@
 '''See also:'''
 
 * [[GitFaq]] (Frequently Asked Questions) page.
-* [[GitWorkflows]] which attempts to decribe actual, useful, real-world things that people do with git, step by step.
+* [[GitWorkflows]] which attempts to describe actual, useful, real-world things that people do with git, step by step.
 * [[ExampleScripts]] - You can do a lot by writing a simple script.
 * [[Aliases]] are very powerful ways to avoid writing a script.
 * [http://gitready.com/ git ready - daily tips for the noob to the guru]
@@ -463,7 +463,7 @@ On OS X with macports, msmtp can be installed with 'sudo port install msmtp', an
 == How to use git branches with git svn ==
 [http://www.kernel.org/pub/software/scm/git/docs/git-svn.html git-svn(1)] allows you to use git as an interface to a Subversion repository. However, there are a number of caveats when doing this because Subversion's branching model is less powerful. [http://www.kernel.org/pub/software/scm/git/docs/git-merge.html git-merge(1)] should not be used on the branch you intend to ''git svn dcommit'' from because the merge object cannot be expressed in a useful form to the Subversion repository when committing. This essentially makes it impossible to usefully use git branches for local development - yet the branching/merging mechanism is one of the most powerful features that git provides.
 
-There are two ways to get around the ''git merge'' problem and so be able to use git branches for (local) development. For the following, assume you've branched and the commit geneology looks like:
+There are two ways to get around the ''git merge'' problem and so be able to use git branches for (local) development. For the following, assume you've branched and the commit genealogy looks like:
 
 <pre><nowiki>
      C--E--F branch
