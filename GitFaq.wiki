@@ -228,7 +228,7 @@ After you have rebased one of your local branches, you are trying to push your c
 error: remote 'refs/heads/master' is not a strict subset of local ref 'refs/heads/master'. maybe you are not up-to-date and need to pull first?
 </nowiki></pre>
 
-This is not a bug, but a safety check: "git push" will not update a remote branch if the remote branch is not a parent of the commit you're trying to push. This check prevents you from overwriting a remote branch to which other people have already commited new changes after you fetched it the last time. Their changes would be lost without the check. And it prevents you from overwriting a remote branch with an unrelated local branch.
+This is not a bug, but a safety check: "git push" will not update a remote branch if the remote branch is not a parent of the commit you're trying to push. This check prevents you from overwriting a remote branch to which other people have already committed new changes after you fetched it the last time. Their changes would be lost without the check. And it prevents you from overwriting a remote branch with an unrelated local branch.
 
 When you rebase, you are not continuing the history of the branch from where you currently are. Instead, you are rewriting the history starting from the base you chose for rebasing. So, after rebasing, the remote branch and your new local HEAD are both child commits of that base, but the remote branch is no longer a parent of your new local HEAD. And pushing this new history to the remote branch means replacing a history that other people might already have downloaded.
 
@@ -240,7 +240,7 @@ Most other version control systems will do a full-tree commit, using the content
 Git does it differently. By default, git commits the content of the index, and only this. <code><nowiki>git commit -a</nowiki></code> gives roughly the equivalent of what other systems do. Indeed, there are many concrete reasons why git's way to manage the index is good (and leads to unique features of git):
 
 * You can select files to commit with a fine granularity, telling git what you want to do little by little (<code><nowiki>git add </nowiki></code>''file'' to add the full content of the file to the index, <code><nowiki>git add -i</nowiki></code> or <code><nowiki>git gui</nowiki></code> to add the content hunk-by-hunk, or even use the hunk splitting feature of <code><nowiki>git add -i</nowiki></code>).
-* This fine-grained file selection can help you to keep an uncommited modification in your tree for a reasonably long time. For example, you can increment the version number in the Makefile some time before a release, and use this as a reminder.
+* This fine-grained file selection can help you to keep an uncommitted modification in your tree for a reasonably long time. For example, you can increment the version number in the Makefile some time before a release, and use this as a reminder.
 * You can perform several small steps for one commit, checking what you did with git diff, and validating each small step with git add or git add -u. Typically, you can apply a broken patch, updating the index, with <code><nowiki>git apply --index</nowiki></code>, and then fix the patch. <code><nowiki>git diff --cached</nowiki></code> will show you your fixes, while <code><nowiki>git diff HEAD</nowiki></code> will show you the combined diff.
 * This allows excellent management of merge conflicts: <code><nowiki>git diff --base</nowiki></code>, <code><nowiki>git diff --ours</nowiki></code>, <code><nowiki>git diff --theirs</nowiki></code>.
 * This allows <code><nowiki>git commit --amend</nowiki></code> to amend only the log message if the index hasn't been modified in the meantime.
@@ -327,7 +327,7 @@ excellent discussion of the topic.
 
 The behavior of <code><nowiki>git log -Ssearchstring</nowiki></code> is not to
 compute the diff for each commit and to search for <code><nowiki>searchstring</nowiki></code>
-in it, but to show the commits where the number of occurences of
+in it, but to show the commits where the number of occurrences of
 <code><nowiki>searchstring</nowiki></code> have changed (which is much faster than grepping
 the diff).
 
@@ -1110,7 +1110,7 @@ Lastly, there is also [[InterfacesFrontendsAndTools#fromcvs/togit|FromCVS toGit]
 * See [http://git.or.cz/course/cvs.html Git - CVS Crash Course] on [http://git.or.cz/ Git homepage]
 
 == {{Gitlink|import-svn}} Can I import from svn?  ==
-Yes, use [http://git-svn.yhbt.net/git-svn.html git-svn(1)]. Check also [[InterfacesFrontendsAndTools#git-svnconvert|git-svnconvert]] (in Ruby) in [[InterfacesFrontendsAndTools]]. There is also an idea to use <code><nowiki>svnadmin dump</nowiki></code> [http://svn.collab.net/repos/svn/trunk/notes/dump-load-format.txt "dumpfile" format] as an input for Subversion to Git repository conversion, (similary to what <code><nowiki>parsecvs</nowiki></code> does for CVS repositories).
+Yes, use [http://git-svn.yhbt.net/git-svn.html git-svn(1)]. Check also [[InterfacesFrontendsAndTools#git-svnconvert|git-svnconvert]] (in Ruby) in [[InterfacesFrontendsAndTools]]. There is also an idea to use <code><nowiki>svnadmin dump</nowiki></code> [http://svn.collab.net/repos/svn/trunk/notes/dump-load-format.txt "dumpfile" format] as an input for Subversion to Git repository conversion, (similar to what <code><nowiki>parsecvs</nowiki></code> does for CVS repositories).
 
 Merge tracking information added to svn repositories by [http://svk.bestpractical.com/ svk], [http://www.orcaware.com/svn/wiki/Svnmerge.py svnmerge], or version 1.5 or later of [http://subversion.tigris.org/merge-tracking/ subversion itself], is not properly converted.
 
