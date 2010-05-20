@@ -229,6 +229,13 @@ then define new aliases with:
 $ git alias new_alias original_command
 </nowiki></pre>
 
+Going further, to get a list of your defined aliases:
+
+<pre><nowiki>
+[alias]
+        aliases = !git config --get-regexp 'alias.*' | colrm 1 6 | sed 's/[ ]/ = /'
+</nowiki></pre>
+
 == Sending multiple messages from a single file ==
 This can be useful to use send-email on the output of ''git format-patch --stdout''
 
