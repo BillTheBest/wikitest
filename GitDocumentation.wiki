@@ -58,7 +58,7 @@ All documentation residing on this wiki is put in the [[Category:GitDocumentatio
 *  Mark Lodato made a [http://marklodato.github.com/visual-git-guide/ visual git guide] - with [http://github.com/marklodato/visual-git-guide/ source code repository].
 * [http://www.eqqon.com/index.php/Collaborative_Github_Workflow Collaborative git workflow] explains how to collaborate with git on an open source project that is (not necessarily) hosted on GitHub.
 * [http://wiki.impressive-media.de/doc/git-%C3%BCber-apache-und-webdav-git-%C3%BCber-http HowTo: Installation of Apache WebDAV for git over http]
-* [http://wiki.impressive-media.de/doc/git-165-unter-debian-lenny-bzw-ubuntu-jaunty HowTo: Installation of git 1.6.5 under Debain Lenny and Ubuntu Jaunty]
+* [http://wiki.impressive-media.de/doc/git-165-unter-debian-lenny-bzw-ubuntu-jaunty HowTo: Installation of git 1.6.5 under Debian Lenny and Ubuntu Jaunty]
 * [http://techblog.aasisvinayak.com/git-tutorial-maintain-your-project-easily/ GIT Tutorial: Maintain your project easily (How to: for beginners)]
 * [http://wiki.impressive-media.de/doc/braid-f%C3%BCr-git-installieren-debian-lenny HowTo: Installation and tutorial of Braid (submodule alternative)]
 
@@ -92,7 +92,7 @@ If you wish that something were documented better (or at all), or would like to 
 === Japanese ===
 * [http://www8.atwiki.jp/git_jp/ http://www8.atwiki.jp/git_jp/] - early attempts to translate the manuals.  Has translation of the user-manual (completed).
 === Catalan ===
-* [http://ca.wikibooks.org/wiki/Tutorial_de_git http://ca.wikibooks.org/wiki/Tutorial_de_git] - A basic tutorial in catalan
+* [http://ca.wikibooks.org/wiki/Tutorial_de_git http://ca.wikibooks.org/wiki/Tutorial_de_git] - A basic tutorial in Catalan
 * [http://gabarro.org/wiki/git_mini-howto http://gabarro.org/wiki/git_mini-howto] - A nice mini-howto of distributed workflows
 * [http://comesfa.poble.cat/Manual:GIT http://comesfa.poble.cat/Manual:GIT] - A complete manual
 === Korean ===
