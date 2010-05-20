@@ -59,7 +59,7 @@ __TOC__
 * [http://github.com/minad/gitrb GitRb] is another partial native implementation of Git in Ruby similar to grit.
 
 === v ===
-* [http://github.com/boof/v v] is another Ruby library providing a git adapter that makes working with git repositories easy. Git operations are mapped almost 1:1 to ruby methods and executed in a seperate thread returning futures when they're queued. It supports core git objects and convenience objects (indexes, branches, ...) which will provide a convenient API. It is still under development, means except for few examples there is no real documentation and most of the git operations still need to be implemented (first [[CommandLine]] wrapper (porcelain and plumbing), then pure Ruby (plumbing and then porcelain)).
+* [http://github.com/boof/v v] is another Ruby library providing a git adapter that makes working with git repositories easy. Git operations are mapped almost 1:1 to ruby methods and executed in a separate thread returning futures when they're queued. It supports core git objects and convenience objects (indexes, branches, ...) which will provide a convenient API. It is still under development, means except for few examples there is no real documentation and most of the git operations still need to be implemented (first [[CommandLine]] wrapper (porcelain and plumbing), then pure Ruby (plumbing and then porcelain)).
 
 === Ruby/Git (deprecated) ===
 * [http://jointheconversation.org/rubygit/ Ruby/Git] ([http://github.com/schacon/git-ruby github]) is a Ruby library that can be used to create, read and manipulate Git repositories. Unmaintained, abandoned in favor of mentioned above [http://grit.rubyforge.org/ Grit].
@@ -115,10 +115,10 @@ __TOC__
 * [[Tig|tig]] ([http://jonas.nitro.dk/tig/ homepage]) by Jonas Fonseca is a simple git repository browser written using ncurses. Basically, it just acts as a front-end for `git-log` and `git-show`/`git-diff`. Additionally, you can also use it as a pager for git commands.
 
 === QGit ===
-* QGit ([http://digilander.libero.it/mcostalba/ homepage]) is a Qt GUI for browsing the history of Git repositories. It also acts as a commit tool, like [[#hgct|(h)gct]] and as a graphical interface to [[#StGIT|StGIT]]. There is an experimental version of QGit ported under Qt4.2 libraries, available at http://repo.or.cz/w/qgit4.git. This means that it could be compiled and run as a Windows native application. As of November '09, no developper activity for nearly 6 months.
+* QGit ([http://digilander.libero.it/mcostalba/ homepage]) is a Qt GUI for browsing the history of Git repositories. It also acts as a commit tool, like [[#hgct|(h)gct]] and as a graphical interface to [[#StGIT|StGIT]]. There is an experimental version of QGit ported under Qt4.2 libraries, available at http://repo.or.cz/w/qgit4.git. This means that it could be compiled and run as a Windows native application. As of November '09, no developer activity for nearly 6 months.
 
 === Giggle ===
-* Giggle ([http://live.gnome.org/giggle homepage]) is a graphical frontend for browsing history of Git repositories (think of gitk on GTK+). Result of a Hackathon 2007, later developed by Imendio's Carlos Garnacho and Sven Herzberg. Currently maintained by Mathias Hasselmann. Available from http://github.com/hasselmm/giggle/. As of November '09, no developper activity for more than 6 months.
+* Giggle ([http://live.gnome.org/giggle homepage]) is a graphical frontend for browsing history of Git repositories (think of gitk on GTK+). Result of a Hackathon 2007, later developed by Imendio's Carlos Garnacho and Sven Herzberg. Currently maintained by Mathias Hasselmann. Available from http://github.com/hasselmm/giggle/. As of November '09, no developer activity for more than 6 months.
 
 === gitview (in `contrib/`) ===
 * [[GitView]] is a GTK based repository browser for git written in Python by Aneesh Kumar K.V. It can be found in `contrib/` directory of Git source tree.
@@ -135,7 +135,7 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 * [http://cola.tuxfamily.org/ git-cola] ([http://repo.or.cz/w/git-cola.git gitweb], [http://github.com/davvid/git-cola/tree/master github]) by David Aguilar is a git commit tool, similar to git-gui, written in PyQt4. You can get tarballs at http://cola.tuxfamily.org/.  Native packages exist for Debian, Fedora, and Arch.  Mac OSX and Windows binaries are available on the website.
 
 === teamGit ===
-* teamGit (http://www.devslashzero.com/teamgit) by Abhijit Bhopatkar is a successor of kgit. It is intended to be a complete developmenet workflow management app with git as a base tool. As of oct 2008 it can be used as a pretty good commit tool. Please see feature table below.
+* teamGit (http://www.devslashzero.com/teamgit) by Abhijit Bhopatkar is a successor of kgit. It is intended to be a complete development workflow management app with git as a base tool. As of oct 2008 it can be used as a pretty good commit tool. Please see feature table below.
 
 === GitX ===
 * GitX ([http://gitx.frim.nl homepage], [http://github.com/pieter/gitx/tree/master github], [http://frim.frim.nl/GitXStable.app.zip download]) by Pieter de Bie is a gitk clone aiming to provide a more native interface to MacOS X users with OS X-only features. It has a native interface and tries to integrate with the operating system as good as possible. Examples of this are drag and drop support and QuickLook support. <BR>''See also:'' [http://permalink.gmane.org/gmane.comp.version-control.git/93980||Announce  GitX v0.1: Gitk clone for OS X] post on git mailing list.
@@ -813,10 +813,10 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
  -->
 
 ==== KGit (deprecated) ====
-* [[KGit]] (http://kgit.sourceforge.net/) by Abhijit Bhopatkar is intended to be a small but functional frontend to the popular source control program, git. It is similar to gitk with two significant differences. First of all, it is written in Qt using lop and the KDE libraires. Secondly, it is not only a repository viewer, unlike gitk. It is now defunct and deprecated by the author. Has no future.
+* [[KGit]] (http://kgit.sourceforge.net/) by Abhijit Bhopatkar is intended to be a small but functional frontend to the popular source control program, git. It is similar to gitk with two significant differences. First of all, it is written in Qt using lop and the KDE libraries. Secondly, it is not only a repository viewer, unlike gitk. It is now defunct and deprecated by the author. Has no future.
 
 ==== Push Me Pull You (stalled) ====
-* [http://pmpu.sharesource.org/ pmpu] (Push Me Pull You) by Mark Williamson is a graphical interface for a distributed version control system. Currently it contains proof-of-concept supports the Mercurial, git and bzr systems. PMPU can make use of external history views and commit tools. Preview release. As of November '09, no developper activity for more than 1 year.
+* [http://pmpu.sharesource.org/ pmpu] (Push Me Pull You) by Mark Williamson is a graphical interface for a distributed version control system. Currently it contains proof-of-concept supports the Mercurial, git and bzr systems. PMPU can make use of external history views and commit tools. Preview release. As of November '09, no developer activity for more than 1 year.
 
 {{anchor|web-interface}}
 == Web Interface ==
@@ -857,7 +857,7 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 * [http://hjemli.net/git/cgit/ cgit] is a fast and lightweight webinterface written in C. It uses libgit.a to avoid forking of git commands and an on-disk cache to avoid duplication of expensive repository operations. The repo is hosted on [http://hjemli.net/git/ hjemli.net] and can be cloned from git://hjemli.net/pub/git/cgit. Users of cgit include [http://cgit.freedesktop.org freedesktop.org], [http://cgit.compiz-fusion.org/ compiz-fusion.org], [http://git.dyne.org dyne.org], [http://repo.or.cz/c/ repo.or.cz], [http://git.savannah.gnu.org/cgit/ savannah.gnu.org] and [http://git.gnome.org/cgit/ gnome.org].
 
 === Gitalist ===
-* [http://p3rl.org/Gitalist Gitalist] ([http://git.shadowcat.co.uk/gitweb/gitweb.cgi?p=catagits/Gitalist.git;a=summary gitweb], [http://github.com/broquaint/Gitalist github], [http://goatse.co.uk/~bobtfish/Gitalist/script/gitalist.fcgi/ demo]) is a web frontend for git repositories written in Perl and backed by [http://www.catalystframework.org/ Catalyst] web framework.  It used gitweb.cgi as template, and attempts to be URI compatibile with gitweb.<BR> ''See also:'' [http://conferences.yapceurope.org/lpw2009/talk/2446 Zac Stevens' talk at London Perl Workshop 2009].
+* [http://p3rl.org/Gitalist Gitalist] ([http://git.shadowcat.co.uk/gitweb/gitweb.cgi?p=catagits/Gitalist.git;a=summary gitweb], [http://github.com/broquaint/Gitalist github], [http://goatse.co.uk/~bobtfish/Gitalist/script/gitalist.fcgi/ demo]) is a web frontend for git repositories written in Perl and backed by [http://www.catalystframework.org/ Catalyst] web framework.  It used gitweb.cgi as template, and attempts to be URI compatible with gitweb.<BR> ''See also:'' [http://conferences.yapceurope.org/lpw2009/talk/2446 Zac Stevens' talk at London Perl Workshop 2009].
 
 === GitStat ===
 * ''GitStat'' ([http://sourceforge.net/projects/gitstat SourceForge project]) is a GPL'd, web-based git statistics/monitoring system. It retrieves a specified git tree, analyzes changesets, and shows graphical information like the number of changesets per day, the number of people who submitted changesets for a specific version (tag) etc. Users may subscribe to gitstat so that they automatically receive an email notification if any change is applied to a specified directory. See also [http://permalink.gmane.org/gmane.comp.version-control.git/56161 gitstat 0.1: kernel development statistics / monitoring system] announcement on git mailing list. You are welcome to try gitstat at http://tree.celinuxforum.org/gitstat
@@ -922,7 +922,7 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 * [http://diffuse.sourceforge.net Diffuse] is a graphical tool for merging and comparing text files. Diffuse is able to compare an arbitrary number of files side-by-side and gives users the ability to manually adjust line-matching and directly edit files. Diffuse can also retrieve revisions of files from Bazaar, CVS, Darcs, Git, Mercurial, Monotone, Subversion, and SVK repositories for comparison and merging.
 
 === dirdiff ===
-* [http://www.liacs.nl/~sverdool/gitweb.cgi?p=dirdiff.git dirdiff] (gitweb) is a graphical tool to display the differences (a la diff) between files in directories. Given two or more directory trees, dirdiff will display the differences between them in various glorious colors. It provides merging and the creation of patches. Link is to version modified by Sven Verdoolaege, which adds some more git support, and which is based on [http://samba.org/ftp/paulus/dirdiff-2.1.tar.gz dirdiff-2.1.tar.gz] by Paul Mackerras. Not actively developed. In Tcl/Tk. (To be not conffused with [http://sourceforge.net/projects/dirdiff/ dirdiff] in Perl).
+* [http://www.liacs.nl/~sverdool/gitweb.cgi?p=dirdiff.git dirdiff] (gitweb) is a graphical tool to display the differences (a la diff) between files in directories. Given two or more directory trees, dirdiff will display the differences between them in various glorious colors. It provides merging and the creation of patches. Link is to version modified by Sven Verdoolaege, which adds some more git support, and which is based on [http://samba.org/ftp/paulus/dirdiff-2.1.tar.gz dirdiff-2.1.tar.gz] by Paul Mackerras. Not actively developed. In Tcl/Tk. (To be not confused with [http://sourceforge.net/projects/dirdiff/ dirdiff] in Perl).
 
 === Meld ===
 * [http://meld.sourceforge.net Meld] is a visual diff and merge tool. You can compare two or three files and edit them in place (diffs update dynamically). You can compare two or three folders and launch file comparisons. You can browse and view a working copy from popular version control systems such as Git, CVS, Subversion, Bazaar-ng and Mercurial, etc...
@@ -972,7 +972,7 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 * git2svn ([http://repo.or.cz/w/git2svn.git gitweb]), written by Love Hrnquist strand, is a tool to convert the "git fast-export" dump into a svn dump and load it into a new fresh svn repository. git2svn also supports incremental updates. ''NOTE:'' ''git2svn assumes its the only process that writes into the svn repository''. Written mainly in Perl.<BR> ''See:'' [http://permalink.gmane.org/gmane.comp.version-control.git/79680||ANNOUNCE  git2svn 0.1] post on git mailing list.
 
 ==== git2svn.pl (yet another one) ====
-* git2svn.pl ([http://repo.or.cz/w/nagiosplugins.git?a=blob;f=tools/git2svn.pl gitweb]), by Thomas Guyot-Sionnest, has been written to keep Nagios-plugins SVN tree updated from Git. It uses "git svn set-tree" to update the old subversion repository. Forced updated are possible (with manual intervention) as set-tree just apply a given snapshot with the last commit message. Under normal operation all commits are applied (not just the latest) and a "From:" line is inserted in the message to keep tracks of who commited what from SVN commit logs.
+* git2svn.pl ([http://repo.or.cz/w/nagiosplugins.git?a=blob;f=tools/git2svn.pl gitweb]), by Thomas Guyot-Sionnest, has been written to keep Nagios-plugins SVN tree updated from Git. It uses "git svn set-tree" to update the old subversion repository. Forced updated are possible (with manual intervention) as set-tree just apply a given snapshot with the last commit message. Under normal operation all commits are applied (not just the latest) and a "From:" line is inserted in the message to keep tracks of who committed what from SVN commit logs.
 
 ==== svn2git.py ====
 * svn2git.py ([http://python.ca/nas/python/svn2git.py download]), written by Neil Schemenauer, is a tool to do conversions from SVN (Subversion) to git using a SVN dump. It's in early stages of development. Written in Python.<BR> ''See:'' [http://thread.gmane.org/gmane.comp.version-control.git/101370 New converstion tool: svn2git.py] thread on git mailing list
@@ -1002,7 +1002,7 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 * hg-to-git is Mercurial to git converter, written by Stelian Pop, appeared only on git mailing list in post [http://permalink.gmane.org/gmane.comp.version-control.git/36601 Mercurial to git converter.] It supports incremental conversion, supports (multiple) hg branches and converts hg tags. Written in combination of shell script and Python.<BR>
 
 ==== hg-fast-export ====
-* hg-fast-export is another converter using `git-fast-import` as backend and is written in Python using the mecurial python classes directly. It uses a single pass, supports tags, mercurial named branches, incremental imports and merges. It is quite fast since no subshells and/or pipe communication is used except for the feed to `git-fast-import`. The source is available as part of the fast-export repository at [http://repo.or.cz/w/fast-export.git repo.or.cz].
+* hg-fast-export is another converter using `git-fast-import` as backend and is written in Python using the mercurial python classes directly. It uses a single pass, supports tags, mercurial named branches, incremental imports and merges. It is quite fast since no subshells and/or pipe communication is used except for the feed to `git-fast-import`. The source is available as part of the fast-export repository at [http://repo.or.cz/w/fast-export.git repo.or.cz].
 === Darcs ===
 
 ==== darcs-to-git ====
@@ -1072,7 +1072,7 @@ See [[git-p4 Usage]] instructions.
 
 === archive-tag ===
 
-* [http://git.koumbit.net/?p=tools/git-hooks/.git;a=blob;f=archive-tag archive-tag] is a post-receive/update hook developed by [http://www.koumbit.org/ Koumbit] and used by the [http://groups.drupal.org/aegir Aegir project] to ease maintenance of tarballs associated with a git repository. Archives (and optionnally checksums) are created when tags are pushed to a repository.
+* [http://git.koumbit.net/?p=tools/git-hooks/.git;a=blob;f=archive-tag archive-tag] is a post-receive/update hook developed by [http://www.koumbit.org/ Koumbit] and used by the [http://groups.drupal.org/aegir Aegir project] to ease maintenance of tarballs associated with a git repository. Archives (and optionally checksums) are created when tags are pushed to a repository.
 
 === git-blacklist ===
 
@@ -1198,7 +1198,7 @@ The Version 3 scripts are part of git contrib/ as of 2010-04-02.
 * [http://www.sfgoth.com/~mitch/linux/gitfs/ GitFS] is a FUSE-based filesystem for working with source trees stored in git repositories. The eventual goal is to provide a convenient way to work with lots of branches and patches. Currently (pre-release version 0.03) only very basic functionality is implemented - read-only access to the existing tags and objects.
 
 === chronoversion ===
-* Chronoversion is a simple Python script which attempts to use the git content tracker to provide chronological snapshots similar to Plan 9's ''venti'' filesystem. The two differences are that, being based on git, it isn't a filesystem in the sense of needing kernel support to gain access to the data (so it can be used on systems where you can only install userspace programs) and it allows programatic decisions about what to snapshot, rather than recording everything into the snapshot. By David Tweed. It can be downloaded (at least currently) from [http://www.personal.rdg.ac.uk/~sis05dst/chronoversion.tgz chronoversion.tgz].
+* Chronoversion is a simple Python script which attempts to use the git content tracker to provide chronological snapshots similar to Plan 9's ''venti'' filesystem. The two differences are that, being based on git, it isn't a filesystem in the sense of needing kernel support to gain access to the data (so it can be used on systems where you can only install userspace programs) and it allows programmatic decisions about what to snapshot, rather than recording everything into the snapshot. By David Tweed. It can be downloaded (at least currently) from [http://www.personal.rdg.ac.uk/~sis05dst/chronoversion.tgz chronoversion.tgz].
 
 === Metastore ===
 * [http://david.hardeman.nu/software.php#metastore Metastore] ([http://git.hardeman.nu/?p=metastore.git gitweb]) by David Hardeman is a tool which allows the metadata to be stored in a separate file which can be stored along with the rest of the data in the repo (or separately). This is also useful for tripwire type checks and for other types of storage which drops some of the metadata (tar comes to mind).<BR> ''Repository:'' git://git.hardeman.nu/metastore.git
@@ -1223,7 +1223,7 @@ The Version 3 scripts are part of git contrib/ as of 2010-04-02.
 * ''gitosis'' ([http://eagain.net/gitweb/?p=gitosis.git gitweb], [http://eagain.net/gitweb/?p=gitosis.git;a=blob;f=README.rst;hb=HEAD README] by Tommi 'Tv' Virtanen is a tool to manage git repositories, provide access to them over SSH, with tight access control and not needing shell accounts. Described in [http://eagain.net/blog/2007/10/12/snakepit-and-gitosis.html Tv's cobweb: Snakepit and gitosis, things I've been working on] on author's blog and [http://scie.nti.st/2007/11/14/hosting-git-repositories-the-easy-and-secure-way Hosting Git repositories, The Easy (and Secure) Way] post on [http://scie.nti.st scie.nti.st], Garry Dolley blog. ''(Python, requires setuptools)''
 
 === SCuMD ===
-* ''SCuMD'' ([http://github.com/gaffo/scumd gitweb], by Mike 'gaffo' Gaffney is a tool provide access to git repositories over SSH, with pluggable access controls and withouth the need for shell accounts or the normal ssh daemon exposed. ''(Java, require java 1.6)''
+* ''SCuMD'' ([http://github.com/gaffo/scumd gitweb], by Mike 'gaffo' Gaffney is a tool provide access to git repositories over SSH, with pluggable access controls and without the need for shell accounts or the normal ssh daemon exposed. ''(Java, require java 1.6)''
 
 === ssh_acl ===
 * [http://www.inf.ufpr.br/ribas/ssh_acl.html ssh_acl] by Bruno Ribas is a set of bash scripts which can be used to manage Git repositories access.
