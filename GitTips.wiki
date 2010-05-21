@@ -339,12 +339,23 @@ stg push -n <n>
 {{anchor|RSS}}
 
 == How to generate RSS feed off-line? ==
-You can either adapt [http://bent.latency.net/git2rss git2rss] tool by Bennett Todd to your needs (which is mentioned on [[InterfacesFrontendsAndTools#git2rss|Interfaces Frontends And Tools]] page), or use ''gitweb'' to do that, running it as a script. Assuming that <code><nowiki>gitweb.cgi</nowiki></code> is setup correctly, you can use:
+
+* [http://bent.latency.net/git2rss git2rss]
+
+Perl script by Bennett Todd you can either adapt to your needs (which is mentioned on [[InterfacesFrontendsAndTools#git2rss|Interfaces Frontends And Tools]] page)
+
+* '''[[Gitweb]]'''
+
+May be used as a script. Assuming that <code><nowiki>gitweb.cgi</nowiki></code> is setup correctly, you can use:
 
 <pre><nowiki>
 env REQUEST_METHOD=GET QUERY_STRING='p=git/git.git;a=rss' \
 ./gitweb.cgi | tail -n +2</nowiki></pre>
 where of course instead of <code><nowiki>git/git.git</nowiki></code> you put project (git repository) you are interested in.
+
+* '''[http://github.com/scotchi/gitfeed Gitfeed]'''
+
+Ruby Gem which does Git to RSS conversion and includes a standalone web server for the RSS if desiered.
 
 {{anchor|SSH-tunnel}}
 
