@@ -771,7 +771,7 @@ Look for "Repository Administration" in the [http://www.kernel.org/pub/software/
 
 To setup a git server over http, see [http://www.kernel.org/pub/software/scm/git/docs/howto/setup-git-server-over-http.txt the relevant document].
 
-As well, it's worth mentioning [http://scie.nti.st/2007/11/14/hosting-git-repositories-the-easy-and-secure-way gitosis] is an excellent tool for setting up secure git servers.
+As well, it's worth mentioning both [http://scie.nti.st/2007/11/14/hosting-git-repositories-the-easy-and-secure-way gitosis] and [http://github.com/sitaramc/gitolite gitolite] as excellent tools for setting up secure git servers.
 
 == {{Gitlink|create-project}} How to create the first project?  ==
 See the [http://www.kernel.org/pub/software/scm/git/docs/gittutorial.html Git tutorial].
