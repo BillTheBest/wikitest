@@ -50,7 +50,7 @@ Once you are familiar with the layout, you'll probably want to work in git and s
 Some information is in the share/!WinGit/!HowToRelease.txt file on doing
 a release build once you have compiled and installed a new version of Git.
 
-== Shortcuts ==
+== Shortcuts (AKA How do I run it?!)==
 
 When you start the net installer, it will first set up all repositories, and build and install Git.  After that, it leaves the window open, so that you can play with Git inside the "Git Bash".
 
