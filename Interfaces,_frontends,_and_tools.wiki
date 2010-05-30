@@ -1160,6 +1160,9 @@ See [[git-p4 Usage]] instructions.
 
 == Other tools ==
 
+=== git-ftp ===
+* ''git-ftp'' ([http://github.com/ezyang/git-ftp]) by Edward Z. Yang is a simple script for uploading files in a Git repository via FTP, only transferring new files and removing old files.
+
 === bup ===
 * ''bup'' ([http://github.com/apenwarr/bup github]) by Avery Pennarun is software that can efficiently backup large amounts of data (hundreds of GB) across large numbers of files (millions), using a git-formatted repository as storage.  It also efficiently stores huge individual files, such as virtual machine disks, and can backup directly to a remote machine rather than using space on the local machine.  A FUSE module is included so you can mount your backup repository as a filesystem and restore files that way.<BR>''See also:'' [http://apenwarr.ca/log/?m=201001#04 Bup: it backs things up] blog post (and [http://news.ycombinator.com/item?id=1029990 comments]).
 
