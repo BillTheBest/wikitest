@@ -245,6 +245,28 @@ This can be useful to use send-email on the output of ''git format-patch --stdou
 
 Most of the complication is because the last argument must be passed to ''git mailsplit'', while the others must be passed to ''git send-email''.
 
+== SVN-like aliases ==
+
+Here are some aliases to help git-svn users migrate away from SVN.  Be careful though - trying to completely recreate an SVN environment with aliases will cause problems when commands don't ''quite'' do what you expect.
+
+<pre><nowiki>
+[alias]
+        st = status
+
+        # The next two lines are recommended, as their strengths outweigh their weaknesses.
+        # Strength: they make transitioning from SVN easier
+        # Weakness: they make teaching `git pull` harder when you move to git on the server
+        # Weakness: they encourage people to think that rebasing is a safe default
+        up = svn rebase
+        update = svn rebase
+
+        # The next line *is not* recommended, as its weaknesses outweigh its strengths.
+        # Strength: it makes transitioning from SVN easier
+        # Weakness: it makes teaching `git add`, `git commit -a`, the index, etc. harder
+        # Weakness: it encourages people to think that a git commit is analogous to an SVN commit
+        #ci = commit
+</nowiki></pre>
+
 ----
 [[Category:GitDocumentation]]
 
