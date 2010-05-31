@@ -12,6 +12,7 @@ Those are public Git hosting sites where any project can be hosted, perhaps with
 ** [http://tomayko.com/writings/github-is-myspace-for-hackers GitHub: My Kind of Social Software] by Ryan Tomayko
 ** [http://railstips.org/2008/2/16/git-and-github Git and GitHub] on [http://railstips.org RailsTips] by John Nunemaker
 ** [http://pauldowman.com/2008/07/26/got-git/ Paul Dowman » Blog Archive » Got Git] (why people chose GitHub).
+* [http://codesion.com/ Codesion] Enterprise Git and Subversion hosting, and Software project management. Includes free and open source plans since 2002.
 * [http://codebasehq.com Codebase] is a Git hosting service with full online source browser, changeset viewer, deployment tracking, along with ticketing and other project management functionality. Designed for private/company projects.
 ** [http://drewblas.com/2009/03/07/my-new-love-codebase-hq/ Drew Blas on Codebase and Github]
 * [http://unfuddle.com/ Unfuddle] (Software Project Management: Git and Subversion Hosting), free (or different payment plans) but not open source.
