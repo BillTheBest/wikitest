@@ -253,6 +253,10 @@ Here are some aliases to help git-svn users migrate away from SVN.  Be careful t
 [alias]
         st = status
 
+        # SVN-compatible merge
+        # "merge-svn" is used here instead of "svn-merge" so that it's suggested when people tab-complete "git me..."
+        merge-svn = merge --squash
+
         # The next two lines are recommended, as their strengths outweigh their weaknesses.
         # Strength: they make transitioning from SVN easier
         # Weakness: they make teaching `git pull` harder when you move to git on the server
