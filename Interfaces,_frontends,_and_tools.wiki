@@ -1161,7 +1161,7 @@ See [[git-p4 Usage]] instructions.
 == Other tools ==
 
 === git-ftp.sh ===
-* [http://github.com/resmo/git-ftp git-ftp.sh] by René Moser is a simple shell script for doing FTP the Git way. Use git-ftp.sh to upload only the Git tracked files to a FTP server, which have changed since the last upload. This saves time and bandwith. Even if you play with different branches, git-ftp.sh knows which files are different. No ordinary FTP client can do that.
+* [http://github.com/resmo/git-ftp git-ftp.sh] by René Moser [http://www.renemoser.net/contact/] is a simple shell script for doing FTP the Git way. Use git-ftp.sh to upload only the Git tracked files to a FTP server, which have changed since the last upload. This saves time and bandwith. Even if you play with different branches, git-ftp.sh knows which files are different. No ordinary FTP client can do that.
 
 === git-ftp ===
 * ''git-ftp'' ([http://github.com/ezyang/git-ftp]) by Edward Z. Yang is a simple script written in python for uploading files in a Git repository via FTP, only transferring new files and removing old files.
