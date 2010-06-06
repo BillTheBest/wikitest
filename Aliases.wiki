@@ -255,9 +255,9 @@ Here are some aliases to help git-svn users migrate away from SVN.  Be careful t
 
         # SVN-compatible versions of commands
         # "foo-svn" is used here instead of "svn-foo" so that it's suggested when people tab-complete "git fo..."
-        merge-svn = merge --squash
         cherry-pick-svn = !GIT_EDITOR='sed -i /^git-svn-id:/d' git cherry-pick -e
         branch-svn = svn branch
+        merge-svn = merge --squash
 
         # The next two lines are recommended, as their strengths outweigh their weaknesses.
         # Strength: they make transitioning from SVN easier
