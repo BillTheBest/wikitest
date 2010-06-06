@@ -40,11 +40,11 @@ Most of the issues you face during this stage will be specific to your team - do
 
 One of the hardest issues in migrating from SVN to git is as subtle as it is pervasive: the change of focus from the lines in your commit graph to the points.
 
-SVN users focus on branches as the centre of their development history, and see commits as these funny little things that punctuate the progress of their branches.  But git users focus on commits (or even trees) as the centre of their history, and see branches as just one of many handy labels to track them.
+SVN users focus on branches as the centre of their development history, and see commits as these funny little things that punctuate the progress of their branches.  Git users focus on commits (or even trees) as the centre of their history, and see branches as just one of many handy labels to track them.
 
 This subtle distinction affects many of the expectations people have about version control.  For example, SVN users like to think of a commit as being ''&ldquo;on a branch&rdquo;'', meaning that it marks an event in the lifetime of one SVN directory.  Whereas git users would say a commit is ''&ldquo;reachable from the tip of zero or more branches&rdquo;'', meaning that it informs you about the state of various other commits.
 
-It's very hard to make SVN users grok this change of emphasis.  It can help to explain how git internally stores whole trees instead of just deltas (so you can e.g. diff two arbitrary commits without examining the ones in between).  It can also help to describe SVN as using ''&ldquo;directory-based branches&rdquo;'', compared to git's ''&ldquo;label-based branches&rdquo;''.  Using different names makes it easier to explain that you can do everything with a label-branch that you could do with a directory-branch, but that you can also do other things like making commits that aren't labelled by any branch.  This will still only get you part of the way - if you find something better, please contribute to this guide!
+It's very hard to make SVN users grok this change of emphasis.  It can help to explain how git internally stores whole trees instead of just deltas (so you can e.g. diff two arbitrary commits without examining the ones in between).  It can also help to describe SVN as using ''&ldquo;directory-based branches&rdquo;'', compared to git's ''&ldquo;label-based branches&rdquo;''.  Using different names makes it easier to explain how label-branches let you do things that directory-branches don't, like making commits that aren't associated with any branch.  This will still only get you part of the way - if you find something better, please contribute to this guide!
 
 = Traps for the unwary =
 
