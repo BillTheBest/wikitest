@@ -18,7 +18,7 @@ Textconv drivers must be specified for the files you want to convert.
 
 ==== .gitconfig ====
 
-In your home directory, .gitconfig must indicate the command to execute for the the textconv driver:
+[http://www.kernel.org/pub/software/scm/git/docs/gitconfig.html .gitconfig] must indicate the command to execute for the the textconv driver:
 <pre><nowiki>
 [diff "<driver_name>"]
       textconv=<command>
@@ -37,7 +37,7 @@ Please note that, in this case, odt2txt must have been installed.
 
 ==== .gitattributes ====
 
-In your working directory, .gitattributes must associate files to a driver:
+[http://www.kernel.org/pub/software/scm/git/docs/gitattributes.html .gitattributes] must associate files to a driver:
 <pre><nowiki>
 <file pattern> diff=<driver_name>
 </nowiki></pre>
