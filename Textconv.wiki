@@ -12,36 +12,19 @@ Git is able to use an external driver which converts the real content of an elem
 
 = How to use =
 
-== driver configuration ==
+== Textconv driver configuration ==
 
-Drivers must be specified for the files you want to convert.
-
-==== .gitattributes ====
-
-In your working directory, .gitattributes must associate files to a driver:
-<pre><nowiki>
-<file pattern> diff=<driver_name>
-</nowiki></pre>
-
-Here is an example:
-
-<pre><nowiki>
-*.odf diff=odf
-*.odt diff=odf
-*.odp diff=odf
-</nowiki></pre>
-
-It associates the odf driver for the odf, odt and odp files.
+Textconv drivers must be specified for the files you want to convert.
 
 ==== .gitconfig ====
 
-In your home directory, .gitconfig must indicate the command to execute for the given driver:
+In your home directory, .gitconfig must indicate the command to execute for the the textconv driver:
 <pre><nowiki>
 [diff "<driver_name>"]
       textconv=<command>
 </nowiki></pre>
 
-Here is a continuation of the previous example:
+Here is an example:
 
 <pre><nowiki>
 [diff "odf"]
@@ -51,6 +34,28 @@ Here is a continuation of the previous example:
 odt2txt command is specified for the odf driver. 
 
 Please note that, in this case, odt2txt must have been installed.
+
+==== .gitattributes ====
+
+In your working directory, .gitattributes must associate files to a driver:
+<pre><nowiki>
+<file pattern> diff=<driver_name>
+</nowiki></pre>
+
+Here the continuation of the previous example:
+
+<pre><nowiki>
+*.odf diff=odf
+*.odt diff=odf
+*.odp diff=odf
+</nowiki></pre>
+
+It associates the odf driver for the odf, odt and odp files.
+
+== Blame and diff ==
+
+Now, git blame, git gui blame and git diff will convert files if they have a textconv driver.
+If you want to desactivate the conversion, just use the --no-textconv option.
 
 = Demo =
 
