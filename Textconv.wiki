@@ -83,6 +83,7 @@ The command : git blame textconv_demo.odt gives the following result:
 
 == git gui blame ==
 
+[[File:Demo_git_gui_blame.jpg]]
 
 == git diff ==
 
