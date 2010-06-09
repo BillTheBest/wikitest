@@ -18,7 +18,7 @@ Textconv drivers must be specified for the files you want to convert.
 
 ==== .gitconfig ====
 
-[http://www.kernel.org/pub/software/scm/git/docs/gitconfig.html .gitconfig] must indicate the command to execute for the the textconv driver:
+~/.gitconfig must indicate the command to execute for the the textconv driver:
 <pre><nowiki>
 [diff "<driver_name>"]
       textconv=<command>
