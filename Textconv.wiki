@@ -19,7 +19,7 @@ TODO
 
 Let's take an example with the file textconv_demo.odt.
 
-=== git blame ===
+== git blame ==
 
 The command : git blame textconv_demo.odt gives the following result:
 
@@ -36,4 +36,4 @@ The command : git blame textconv_demo.odt gives the following result:
 00000000 (Not Committed Yet 2010-06-09 17:46:18 +0200 10) 
 </nowiki></pre>
 
-=== git gui blame ===
+== git gui blame ==
