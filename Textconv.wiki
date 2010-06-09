@@ -16,12 +16,14 @@ Git is able to use an external driver which converts the real content of an elem
 
 Drivers must be specified for the files you want to convert.
 
+==== .gitattributes ====
+
 In your working directory, .gitattributes must associate files to a driver:
 <pre><nowiki>
 <file pattern> diff=<driver_name>
 </nowiki></pre>
 
-=== example ===
+Here is an example:
 
 <pre><nowiki>
 *.odf diff=odf
@@ -29,13 +31,15 @@ In your working directory, .gitattributes must associate files to a driver:
 *.odp diff=odf
 </nowiki></pre>
 
-In your home, .gitconfig must indicate the command to execute for the given driver:
+==== .gitconfig ====
+
+In your home directory, .gitconfig must indicate the command to execute for the given driver:
 <pre><nowiki>
 [diff "<driver_name>"]
       textconv=<command>
 </nowiki></pre>
 
-=== example ===
+Here is a continuation of the previous example:
 
 <pre><nowiki>
 [diff "odf"]
