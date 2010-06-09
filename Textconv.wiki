@@ -12,8 +12,33 @@ Git is able to use an external driver which converts the real content of an elem
 
 = How to use =
 
-TODO
+== driver configuration ==
 
+Drivers must be specified for the files you want to convert.
+
+In your working directory, .gitattributes must associate files to a driver:
+<file pattern> diff=<driver_name>
+
+=== example ===
+
+<pre><nowiki>
+*.odf diff=odf
+*.odt diff=odf
+*.odp diff=odf
+</nowiki></pre>
+
+In your home, .gitconfig must indicate the command to execute for the given driver:
+[diff "<driver_name>"]
+      textconv=<command>
+
+=== example ===
+
+<pre><nowiki>
+[diff "odf"]
+      textconv=odt2txt
+</nowiki></pre>
+
+Please note that, in this case, odt2txt must have been installed.
 
 = Demo =
 
