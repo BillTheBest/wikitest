@@ -17,7 +17,9 @@ Git is able to use an external driver which converts the real content of an elem
 Drivers must be specified for the files you want to convert.
 
 In your working directory, .gitattributes must associate files to a driver:
+<pre><nowiki>
 <file pattern> diff=<driver_name>
+</nowiki></pre>
 
 === example ===
 
@@ -28,8 +30,10 @@ In your working directory, .gitattributes must associate files to a driver:
 </nowiki></pre>
 
 In your home, .gitconfig must indicate the command to execute for the given driver:
+<pre><nowiki>
 [diff "<driver_name>"]
       textconv=<command>
+</nowiki></pre>
 
 === example ===
 
