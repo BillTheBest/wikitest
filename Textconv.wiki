@@ -1,9 +1,39 @@
-= Using textconv =
+= Textconv =
 
-== Presentation ==
+''Table of contents:''
+
+__TOC__
+
+----
+
+= Presentation =
 
 Git is able to use an external driver which converts the real content of an element into something else, preferably more useful for the user. Thus the git machinery (diff, blame ...) can do its treatment on the converted data. The basic use of this is the manipulation of binary files, with which "git diff" is almost useless.
 
-== How to use ==
+= How to use =
 
 TODO
+
+
+= Demo =
+
+Let's take an example with the file textconv_demo.odt.
+
+=== git blame ===
+
+The command : git blame textconv_demo.odt gives the following result:
+
+<pre><nowiki>
+2fad25a7 (Diane Gasselin    2010-06-09 16:50:57 +0200  1) 
+2fad25a7 (Diane Gasselin    2010-06-09 16:50:57 +0200  2)   Here is an example of how textconv works with blame.
+2fad25a7 (Diane Gasselin    2010-06-09 16:50:57 +0200  3) 
+1b6ec1d5 (Axel Bonnet       2010-06-09 16:55:54 +0200  4)   This file has been modified by several users.
+1b6ec1d5 (Axel Bonnet       2010-06-09 16:55:54 +0200  5) 
+1b6ec1d5 (Axel Bonnet       2010-06-09 16:55:54 +0200  6)   Instead of having a binary output, it presents a nice and
+1b6ec1d5 (Axel Bonnet       2010-06-09 16:55:54 +0200  7)   readable one.
+1b6ec1d5 (Axel Bonnet       2010-06-09 16:55:54 +0200  8) 
+00000000 (Not Committed Yet 2010-06-09 17:46:18 +0200  9)   You only have to specify a driver in your configuration files.
+00000000 (Not Committed Yet 2010-06-09 17:46:18 +0200 10) 
+</nowiki></pre>
+
+=== git gui blame ===
