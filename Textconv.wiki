@@ -31,9 +31,12 @@ Here is an example:
       textconv=odt2txt
 </nowiki></pre>
 
-odt2txt command is specified for the odf driver. 
+odt2txt command is specified for the odf driver, it is a simple converter from OpenDocument to plain text.
 
 Please note that, in this case, odt2txt must have been installed.
+
+
+To have more information about how to use git to track OpenDocument (OpenOffice, Koffice) files, please refer to [https://git.wiki.kernel.org/index.php/GitTips#How_to_remove_all_files_which_are_missing_from_working_directory.3F this article].
 
 ==== .gitattributes ====
 
