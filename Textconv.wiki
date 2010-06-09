@@ -36,8 +36,6 @@ odt2txt command is specified for the odf driver, it is a simple converter from O
 Please note that, in this case, odt2txt must have been installed.
 
 
-To have more information about how to use git to track OpenDocument (OpenOffice, Koffice) files, please refer to [https://git.wiki.kernel.org/index.php/GitTips#How_to_use_git_to_track_OpenDocument_.28OpenOffice.2C_Koffice.29_files.3F this article].
-
 ==== .gitattributes ====
 
 [http://www.kernel.org/pub/software/scm/git/docs/gitattributes.html .gitattributes] must associate files to a driver:
@@ -54,6 +52,8 @@ Here the continuation of the previous example:
 </nowiki></pre>
 
 It associates the odf driver for the odf, odt and odp files.
+
+To have more information about how to use git to track OpenDocument (OpenOffice, Koffice) files, please refer to [https://git.wiki.kernel.org/index.php/GitTips#How_to_use_git_to_track_OpenDocument_.28OpenOffice.2C_Koffice.29_files.3F this article].
 
 == Blame and diff ==
 
@@ -82,3 +82,19 @@ The command : git blame textconv_demo.odt gives the following result:
 </nowiki></pre>
 
 == git gui blame ==
+
+
+== git diff ==
+
+<pre><nowiki>
+diff --git a/textconv_demo.odt b/textconv_demo.odt
+index b4e6a6d..c08e32e 100644
+--- a/textconv_demo.odt
++++ b/textconv_demo.odt
+@@ -6,3 +6,5 @@
+   Instead of having a binary output, it presents a nice and
+   readable one.
+ 
++  You only have to specify a driver in your configuration files.
++
+</nowiki></pre>
