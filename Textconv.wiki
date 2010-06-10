@@ -88,6 +88,7 @@ The command : git blame textconv_demo.odt gives the following result:
 ''(patch in progress)''
 
 The command : git gui blame textconv_demo.odt gives the following result:
+
 [[File:Demo_git_gui_blame.jpg]]
 
 == git diff ==
