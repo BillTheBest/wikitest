@@ -112,7 +112,7 @@ GIT_ALTERNATE_OBJECT_DIRECTORIES=../repo/.git/objects cg-diff -r `GIT_DIR=../rep
 
 == How to use git to track OpenDocument (OpenOffice, Koffice) files? ==
 === Instructions for Git 1.6.1 or later ===
-Git now comes with the "textconv" features, which allows using an arbitrary command to convert a file to text before diffing. It makes it very easy to set up, and allows keeping all the goodness of git diff like --color, --color-words, ...
+Git now comes with the [[textconv]] features, which allows using an arbitrary command to convert a file to text before diffing. It makes it very easy to set up, and allows keeping all the goodness of git diff like --color, --color-words, ...
 
 First, install [http://stosberg.net/odt2txt/ odt2txt], a simple (and stupid) converter from OpenDocument to plain text, and configure git to allow it to run it, by adding this to ~/.gitconfig:
 
