@@ -92,7 +92,7 @@ The command : git blame textconv_demo.odt gives the following result:
 [[File:Demo_git_gui_blame.jpg]]
 
 == git diff ==
-
+''(Git 1.6.1 or later)''
 <pre><nowiki>
 diff --git a/textconv_demo.odt b/textconv_demo.odt
 index b4e6a6d..c08e32e 100644
