@@ -10,6 +10,12 @@ __TOC__
 
 Git is able to use an external driver which converts the real content of an element into something else, preferably more useful for the user. Thus the git machinery (diff, blame ...) can do its treatment on the converted data. The basic use of this is the manipulation of binary files, with which "git diff" is almost useless.
 
+Textconv support for git-diff is available for Git 1.6.1 or later.
+
+A patches series is currently in progress to add textconv support for git-blame and git-gui blame:
+* git-blame: http://mid.gmane.org/1275921713-3277-1-git-send-email-axel.bonnet@ensimag.imag.fr
+* git-gui blame: http://mid.gmane.org/1276102929-31712-1-git-send-email-clement.poulain@ensimag.imag.fr
+
 = How to use =
 
 == Textconv driver configuration ==
