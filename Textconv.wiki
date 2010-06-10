@@ -4,8 +4,6 @@
 
 __TOC__
 
-----
-
 = Presentation =
 
 Git is able to use an external driver which converts the real content of an element into something else, preferably more useful for the user. Thus the git machinery (diff, blame ...) can do its treatment on the converted data. The basic use of this is the manipulation of binary files, with which "git diff" is almost useless.
