@@ -69,6 +69,7 @@ If you want to desactivate the conversion, just use the --no-textconv option.
 Let's take an example with the file textconv_demo.odt.
 
 == git blame ==
+''(patch in progress)''
 
 The command : git blame textconv_demo.odt gives the following result:
 
@@ -86,7 +87,9 @@ The command : git blame textconv_demo.odt gives the following result:
 </nowiki></pre>
 
 == git gui blame ==
+''(patch in progress)''
 
+The command : git gui blame textconv_demo.odt gives the following result:
 [[File:Demo_git_gui_blame.jpg]]
 
 == git diff ==
