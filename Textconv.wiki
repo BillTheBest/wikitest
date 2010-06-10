@@ -89,7 +89,7 @@ The command : git blame textconv_demo.odt gives the following result:
 
 The command : git gui blame textconv_demo.odt gives the following result:
 
-[[File:Demo_git_gui_blame.jpg]]
+[[File:Demo_git_gui_blame.jpg|center]]
 
 == git diff ==
 ''(Git 1.6.1 or later)''
