@@ -101,6 +101,11 @@ The command : git gui blame textconv_demo.odt gives the following result:
 
 == git diff ==
 ''(Git 1.6.1 or later)''
+
+We are now going to see the results for git diff with and without textconv.
+
+"git diff" gives:
+
 <pre><nowiki>
 diff --git a/textconv_demo.odt b/textconv_demo.odt
 index b4e6a6d..c08e32e 100644
@@ -112,6 +117,14 @@ index b4e6a6d..c08e32e 100644
  
 +  You only have to specify a driver in your configuration files.
 +
+</nowiki></pre>
+
+whereas "git diff --no-textconv" only tells
+
+<pre><nowiki>
+diff --git a/textconv_demo.odt b/textconv_demo.odt
+index b4e6a6d..c08e32e 100644
+Binary files a/textconv_demo.odt and b/textconv_demo.odt differ
 </nowiki></pre>
 
 = References =
