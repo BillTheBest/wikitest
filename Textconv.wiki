@@ -6,7 +6,10 @@ __TOC__
 
 = Presentation =
 
-Git is able to use an external driver which converts the real content of an element into something else, preferably more useful for the user. Thus the git machinery (diff, blame ...) can do its treatment on the converted data. The basic use of this is the manipulation of binary files, with which "git diff" is almost useless.
+Git is able to use an external driver which converts the real content of an element into something else, preferably more useful for the user. Thus the git machinery (diff, blame ...) can operate on converted data.
+ 
+Git diff on binary files used to only detect if the files differ and git blame would just show blame on binary content.
+Thanks to textconv support, git diff and blame on binary files now give an understandable and usable result.
 
 Textconv support for git-diff is available for Git 1.6.1 or later.
 
