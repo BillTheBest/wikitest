@@ -103,6 +103,10 @@ The command : git gui blame textconv_demo.odt gives the following result:
 [[File:Demo_git_gui_blame.jpg|center]]
 
 To enable textconv, launch git gui blame on your binary file. Then, in your file viewer, go to Edit>Options... and deselect the option "Use Textconv For Diffs and Blames".
+You will finaly get as result like:
+
+[[File:Demo_git_gui_blame_no_textconv.jpg|center]]
+
 
 
 == git diff ==
