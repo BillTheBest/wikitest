@@ -36,7 +36,9 @@ All documentation residing on this wiki is put in the [[Category:GitDocumentatio
 
 == User contributed Documentation ==
 * [http://book.git-scm.com/ The Git Community Book] at [http://git-scm.com git-scm.com].
+* [http://progit.org/ Pro Git Book] by Scott Chacon, under [http://creativecommons.org/licenses/by-nc-sa/3.0/us/ Creative Commons BY-NC-SA 3.0] license. 
 * [http://gitready.com/ gitready.com] daily tips for the noob to the guru
+* [http://gitref.org/ Git Reference], a quick reference for learning and remembering the most important and commonly used Git commands.
 * git clone is not resumable - a [http://xanjax.org/#gitnote.xml practical workaround] for unreliable connections / large clones
 * Carl Worth's [http://cworth.org/hgbook-git/tour/ A tour of git: the basics] [http://git-users.googlegroups.com/web/gitbasic.pdf?gda=TjULfjwAAACRcUWZoNoqHn0MmsB4ogNRkdJPXci4pHF-t7wRb-FXv_7_kSc1FlgquWbpkoDUr3jz_JaIg30gP77VRAtzw-G6 Mirror(PDF)] '''Recommended'''
 * John Wiegley's tutorial describing [http://www.newartisans.com/blog_files/git.from.bottom.up.php Git From Bottom Up] Link to PDF, [http://git-users.googlegroups.com/web/gitfrombottomup.pdf?gda=52xMLEQAAACpB0I6kTeoe_gDZwr_Wu3rSzh-BYU3WCJcU16DCLQHrmG1qiJ7UbTIup-M2XPURDRYda-7QfdsxTTX4bqgEJoy1bwkoqS54nAZJJjHLLKkeg Mirror(PDF)] '''Recommended'''
