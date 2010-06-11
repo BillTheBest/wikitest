@@ -64,7 +64,7 @@ To have more information about how to use git to track OpenDocument (OpenOffice,
 
 Now, git blame, git gui blame and git diff will convert files if they have a textconv driver.
 
-If you want to '''disable textconv''':
+If you want to disable textconv:
 * for git diff and git blame: just use the --no-textconv option.
 * for git gui blame: disable the "Use TextConv for Diffs and Blames" in the File Viewer options. For more details, please look at the demo.
 
