@@ -84,6 +84,15 @@ The command : git blame textconv_demo.odt gives the following result:
 00000000 (Not Committed Yet 2010-06-09 17:46:18 +0200 10) 
 </nowiki></pre>
 
+If not using textconv, blame is not human usuable.
+Here is the result of the command: git blame --no-textconv textconv_demo.odt
+
+<pre><nowiki>
+00000000 (Not Committed Yet 2010-06-11 15:10:19 +0200  1) PK^C^D^T^@^@^H^@^@0|<C9><^<C6>2^L'^@^@^@'^@^@^@^H^@^@^@mimetypeapplication/vnd.oasis.opendocument.textPK^C^D^T^@^@^H^@^@0|<C9><^@^@^@^@^@^@^@^@^@^@^@^@^Z^@^@
+00000000 (Not Committed Yet 2010-06-11 15:10:19 +0200  2) ^O<EB><AC>    6<D6>^Mϓ<9D>Q<D2>7Vt<C3>G|i<AC><AF><D3>{<C3><C3><F7>^F^_U<83><A1><9F>^WIZ^R<D2><U+05CA>u<B9>m^B^ڐ+^\w<U+063E>X<CA>i<BB><97><E5><A3>R<8D><C7>
+2fad25a7 (Diane Gasselin    2010-06-09 16:50:57 +0200  3) <AD>^O<9D>"tr<F8>5M<FE><D6>FA>
+</nowiki></pre>
+
 == git gui blame ==
 ''(patch in progress)''
 
