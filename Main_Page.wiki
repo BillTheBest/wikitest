@@ -24,6 +24,7 @@ Welcome to the [[Git]] wiki web site. This wiki is a community effort to provide
 * [[MSysGit:Home|Git on Windows]]
 
 == News ==
+* June 12, 2010: A new contributors-only [http://msysgit.googlecode.com/ Git for Windows] was [http://groups.google.com/group/msysgit/browse_thread/thread/2446b2dc369533bb released].
 * April 26, 2010: [[SoC2010Projects|4 Git projects]] accepted for Google Summer of Code 2010
 * March 22, 2010: Git 1.7.0.3 is [http://www.kernel.org/pub/software/scm/git/docs/RelNotes-1.7.0.3.txt out]
 * March 9, 2010: [http://msysgit.googlecode.com Git for Windows 1.7.0.2] is out.
