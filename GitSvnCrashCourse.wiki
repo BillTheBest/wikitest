@@ -1,3 +1,5 @@
+'''Note:''' This page is '''<u>not</u>''' about [http://www.kernel.org/pub/software/scm/git/docs/git-svn.html '''git svn''']; if you are interested in using an upstream Subversion repository via Git commands, you might want to look [http://www.kernel.org/pub/software/scm/git/docs/git-svn.html here], [http://utsl.gen.nz/talks/git-svn/intro.html here], [http://andy.delcambre.com/2008/03/04/git-svn-workflow.html here], [[GitTips#git_svn|here]] or [[GitSvnSwitch|here]].
+
 Welcome to the Git version control system! Here we will briefly
 introduce you to Git usage based on your current Subversion
 knowledge.  You will need the latest [http://git.or.cz/ Git] installed;
