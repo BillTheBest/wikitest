@@ -135,10 +135,11 @@ The fact that steps 3 and 4 can be naturally combined, but steps 1 and 2 cannot 
 
 = Features =
 
-== {{Gitlink|git-crlf|Yes, with attribute crlf or configuration setting core.autocrlf}} Does git convert between CRLF and LF for different platforms?  ==
+== {{Gitlink|crlf|CRLF conversion with attribute crlf or configuration option core.autocrlf}} Does git convert between CRLF and LF for different platforms? ==
 Support for this exists in Git versions 1.5 or later.  See [http://www.kernel.org/pub/software/scm/git/docs/gitattributes.html#_checking_out_and_checking_in gitattributes(5)].
 
 {{anchor|git-keywords}}
+
 == {{Gitlink|keywords|It's not a good idea but it's possible}} Does git have keyword expansion?  ==
 Not recommended. Keyword expansion causes all sorts of strange problems and isn't really useful anyway, especially within the context of an SCM. Outside git you may perform keyword expansion using a script. The Linux kernel export script does this to set the EXTRA_VERSION variable in the Makefile.
 
