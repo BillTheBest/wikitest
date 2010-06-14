@@ -13,7 +13,7 @@ Thanks to textconv support, git diff and blame on binary files now give an under
 
 Textconv support for git-diff is available for Git 1.6.1 or later.
 
-A patches series is currently in progress to add textconv support for git-blame and git-gui blame: <ref>[http://mid.gmane.org/1275921713-3277-1-git-send-email-axel.bonnet@ensimag.imag.fr] Patch for git-blame on the mailing-list</ref><ref>[http://mid.gmane.org/1276102929-31712-1-git-send-email-clement.poulain@ensimag.imag.fr] Patch for git-gui blame on the mailing-list</ref>
+A serie of patches is currently in progress to add textconv support for git-blame and git-gui blame: <ref>[http://mid.gmane.org/1275921713-3277-1-git-send-email-axel.bonnet@ensimag.imag.fr] Patch for git-blame on the mailing-list</ref><ref>[http://mid.gmane.org/1276102929-31712-1-git-send-email-clement.poulain@ensimag.imag.fr] Patch for git-gui blame on the mailing-list</ref>
 
 = How to use =
 
