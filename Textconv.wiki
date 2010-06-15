@@ -53,7 +53,7 @@ Here the continuation of the previous example:
 
 It associates the odf driver for the odf, odt and odp files.
 
-To have more information about how to use git to track OpenDocument (OpenOffice, Koffice) files, please refer to [https://git.wiki.kernel.org/index.php/GitTips#How_to_use_git_to_track_OpenDocument_.28OpenOffice.2C_Koffice.29_files.3F this article].
+To have more information about how to use git to track OpenDocument (OpenOffice, Koffice) files, please refer to [[GitTips#How_to_use_git_to_track_OpenDocument_.28OpenOffice.2C_Koffice.29_files.3F | this article]].
 
 == Blame and diff ==
 
