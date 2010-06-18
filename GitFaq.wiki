@@ -974,6 +974,31 @@ git rev-list --all --objects |
         sort -n -k1
 </nowiki></pre>
 
+== {{Gitlink|dangling|Howto find dangling objects}} How do I recover uncommitted changes?  ==
+
+Changes that were never <code>add</code>ed <code>stash</code>ed are not known to git and therefore cannot be recovered. Committed changes can generally be recovered using the <code>reflog</code>. The following script can help you recover changes that were <code>add</code>ed to the index, but never committed. It shows a list of dangling blob sha1's. These are generally objects that were discarded from the index. A blob can be dumped to standard output using <code>git show &lt;sha1&gt;</code>.
+
+<pre><nowiki>
+#!/bin/bash
+
+git fsck --no-full | grep "^dangling blob" | cut -f3 -d' ' |
+while read rev
+do
+        f=.git/objects/${rev:0:2}/${rev:2:38}
+        if ! test -f $f
+        then
+                s=0
+        else
+                s=$(stat -c %Y $f)
+        fi
+        echo $s $rev
+done | sort -n |
+while read s rev
+do
+        echo $(date -d "@$s" -R)        $rev
+done
+</nowiki></pre>
+
 = Error diagnostic =
 
 == {{Gitlink|remote-hangup}} Git push fails with "fatal: The remote end hung up unexpectedly"?  ==
