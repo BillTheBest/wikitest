@@ -11,7 +11,7 @@ commands, see the [[GitCheatSheet|Git Cheat Sheet]] (or the
 Many [http://git-scm.com/documentation non-SVN-specifc guides] are
 also available.
 
-For those too impatient to read, here's what you need to use someone else's git project:
+For those too impatient to read, here's what you need to use someone else's Git project:
 {| align="center" style="border: 1px dashed #2F6FAB; border-collapse: collapse"
 | style="padding: 0 2em; background-color: #E0ECF9; width: 50%" |
 '''<tt>git clone ''url''</tt>'''<br/>
@@ -584,7 +584,7 @@ proof-read, you have to wait on your secretary for even the most
 trivial changes, and any mistakes you make are permanently recorded
 for your shame.
 
-With git, you write each letter and put it in an envelope on your desk
+With Git, you write each letter and put it in an envelope on your desk
 (the index).  When you're happy with what you've written, you seal the
 envelope and put it in your outbox (commit it).  Then finally you send
 your letters off (you push your commits) or invite people to come and
@@ -594,11 +594,11 @@ outbox before anyone sees it, or write letters on the train and queue
 them up to be sent, or pass letters around a small team before making
 them widely available.
 
-As you get used to Git, and learn how to manage and correct your own
-mistakes, you stop thinking of yourself as "a stupid developer that
-needs a secretary to look after me", and start thinking of yourself as
-"a smart developer that demands a personalised workflow".  And who
-wouldn't be happier like that?
+As you get used to Git, and learn how to manage your issues and
+correct your mistakes, you stop thinking of yourself as "a stupid
+developer that needs a secretary to look after me", and start thinking
+of yourself as "a smart developer that demands a personalised
+workflow".  And who wouldn't be happier like that?
 
 = See Also =
 
