@@ -1,8 +1,9 @@
 __TOC__
 
-Welcome to the Git crash course for SVN users!  This page is about
-introducing you to Git based on your current Subversion knowledge.  If
-you're looking to migrate your company from SVN to Git, see
+Welcome to the Git crash course for SVN users!
+
+This introduces you to Git based on your current Subversion knowledge.
+If you want to migrate your company from SVN to Git, see
 [[SvnMigration|the SVN migration page]].  If you want a list of common
 commands, see the [[GitCheatSheet|Git Cheat Sheet]] (or the
 [[Media:Git-svn-cheatsheet.pdf|git-svn cheatsheet]] if you are using
@@ -10,7 +11,7 @@ commands, see the [[GitCheatSheet|Git Cheat Sheet]] (or the
 Many [http://git-scm.com/documentation non-SVN-specifc guides] are
 also available.
 
-For those too impatient to read, here's what you need to know to use someone else's git project:
+For those too impatient to read, here's what you need to use someone else's git project:
 {| align="center" style="border: 1px dashed #2F6FAB; border-collapse: collapse"
 | style="padding: 0 2em; background-color: #E0ECF9; width: 50%" |
 '''<tt>git clone ''url''</tt>'''<br/>
@@ -19,7 +20,7 @@ For those too impatient to read, here's what you need to know to use someone els
 | style="padding: 0 2em; background-color: #F9F9F9; width: 50%" | <tt>svn checkout ''url''<br/>svn update<br/>svn commit</tt>
 |}
 
-And here's what you need to know to use an SVN project:
+And here's what you need to use an SVN project:
 {| align="center" style="border: 1px dashed #2F6FAB; border-collapse: collapse;"
 | style="padding: 0 2em; background-color: #E0ECF9; width: 50%" |
 '''<tt>git svn clone --stdlayout ''url''</tt>'''<br/>
@@ -28,7 +29,17 @@ And here's what you need to know to use an SVN project:
 | style="padding: 0 2em; background-color: #F9F9F9; width: 50%" | <tt>svn checkout ''url''<br/>svn update<br/>svn commit</tt>
 |}
 
-= How to Read Me =
+= Before You Start =
+
+SVN is based on an older version control system called ''CVS'', and
+its designers followed a simple rule: ''when in doubt, do like CVS''.
+Git also takes a form of inspiration from CVS, and its designer also
+followed a simple rule:
+''when in doubt, do '''exactly the opposite''' of CVS''.  This
+approach lead to many technical innovations, but also lead to a lot of
+extra headscratching among migraters.  You have been warned.
+
+== How to Read Me ==
 
 This page shows Git commands in a bold, fixed-width font:
 '''<code>git help</code>'''.  Non-git commands are just fixed width:
@@ -43,23 +54,15 @@ skim through its
 [http://www.kernel.org/pub/software/scm/git/docs/ manual page].  Many
 of the commands have very useful and interesting features (that we
 won't list here) and sometimes there are some extra notes you might
-want to know.  You can also get help on any git command by doing
+want to know.  You can also get help on any Git command by doing
 '''<code>git ''command'' -h</code>''' or
 '''<code>git help ''command''</code>'''.
 
-= Before You Start =
-
-SVN is based on an older version control system called ''CVS'', and
-its designers followed a simple rule: ''when in doubt, do like CVS''.
-Git also takes a form of inspiration from CVS, and its designer also
-followed a simple rule:
-''when in doubt, do '''exactly the opposite''' of CVS''.  This
-approach lead to many technical innovations, but also lead to a lot of
-extra headscratching among migraters.  You have been warned.
+== Configuring Git ==
 
 SVN includes your ''username'' in your commits, whereas Git includes
 your ''real name'' and your ''e-mail address''.  You should add these
-before you commit anything:
+before you start using Git:
 
 {| style="border: 1px dashed #2F6FAB; border-collapse: collapse; width: 100%"
 | style="padding: 0 2em; background-color: #E0ECF9" |
@@ -80,56 +83,58 @@ might like to do:
 <tt style="white-space: pre">'''git config -l                         '''# list all configuration options</tt>
 |}
 
-You might also want to look at some more
+You might also want to look at some other
 [[Aliases#SVN-like aliases|SVN-like aliases]].
 
-= Things You Should Know =
+== Things You Should Know ==
 
-Here are some concepts that will help you understand git.  If you are
+Here are some concepts that will help you understand Git.  If you are
 in a hurry, you can skip this section and come back when you get
 confused - you should be able to pick up a lot about Git with just
 your intuition.
 
 '''Checkouts and Repositories.'''  Each Subversion project has one
-central repository which stores all the history.  Everyone has a
+''central repository'' which stores all the history.  Everyone has a
 checkout of the repository, which they ''update from'' and
 ''commit to''.
-Git projects give everyone a fully-functional repository, and lets
-them ''pull from'' and ''push to'' each other.  If that sounds like
-chaos, don't worry - most projects have one "official" repository that
-you can treat like you would an SVN repository.
+Each Git project give everyone a ''personal repository'', and lets
+them ''pull from'' and ''push to'' each other.  Many projects use an
+"official" repository that they agree to treat like an SVN repository.
 
 '''URLs and paths.'''  In Subversion, a ''URL'' identifies the
 location of the repository, and the path inside the repository
 identifies the branch or tag.  So
 <tt><nowiki>svn://svn.example.com/trunk</nowiki></tt> might be the URL
 for the <tt>trunk</tt> branch of your repository.  In Git, the ''URL''
-is still the location of a repository, but branches and tags are just
-labels you access with git commands instead of the filesystem.  So
+is still the location of a repository, but branches and tags are
+labels you access with Git commands.  So
 <tt><nowiki>git://git.example.com/</nowiki></tt> might be the URL for
-a whole git repository.
-
-'''Revisions.'''  Subversion identifies revisions with numbers
-starting at 1 and going up in each revision.  This is fine when one
-central repository keeps track of all the numbers, but who decides the
-next revision number if everyone has their own repository?  Git uses
-unique 40-character identifiers instead -
-[http://en.wikipedia.org/wiki/SHA-1 SHA-1 hashes] that you can think
-of for now as just a random string.  These numbers look kinda scary,
-but you don't actually use them that often - even Git itself will
-usually let you give it just the first half-dozen characters.  Git has
-friendlier names for the most interesting commits, and lets you refer
-to other commits relative to them.  For example, your current commit
-is always called '''<code>HEAD</code>''', the parent of the current
-commit is '''<code>HEAD^</code>''' and the grandparent is
-'''<code>HEAD^^</code>''' (you can go on adding carrets).  See the
-[http://www.kernel.org/pub/software/scm/git/docs/git-rev-parse.html git-rev-parse manpage]
-if you want to know which commit
-'''<code>trunk@{'tea-time on Monday'}~2</code>''' refers to.
+a whole Git repository.
 
 '''Visualize.'''  Git version history can get complicated, especially
 in big projects.  You may like to look at your repository with the
 '''<code>gitk</code>''' viewer to understand what's going on.
+
+'''Revisions.'''  Subversion identifies revisions with numbers
+starting at 1 and going up in each revision.  That's fine when one
+central repository keeps track of all the numbers, but who decides the
+next revision number if everyone has their own repository?  Git uses
+unique 40-character identifiers instead -
+[http://en.wikipedia.org/wiki/SHA-1 SHA-1 hashes] that you can think
+of as random strings.  These numbers look kinda scary, but you don't
+actually use them that often.  Git has nicknames for the commits you
+use most often, has relative names for other interesting commits, and
+lets you refer to the rest by the first half-dozen characters in their
+identifier.  For example, your current commit is always called
+'''<code>HEAD</code>''', the parent of the current commit is
+'''<code>HEAD^</code>''' and the grandparent is
+'''<code>HEAD^^</code>''' (you can go on adding carets).  The commit
+'''<code>abc123def456abc789def012abc345def678abc9</code>''' can be
+referred to as '''<code>abc123</code>''' (and you can use
+'''<code>abc123^</code>''', '''<code>abc123^^</code>''' etc.).  See
+the
+[http://www.kernel.org/pub/software/scm/git/docs/git-rev-parse.html git-rev-parse manpage] if you want to know which commit
+'''<code>trunk@{'tea-time on Monday'}~2</code>''' refers to.
 
 = Creating a New Repository =
 
@@ -157,7 +162,7 @@ would <code>cd</code> to your project directory, then:
 directory and '''<code>git commit</code>''' creates the initial
 import.
 
-If you are downloading someone else's git project, you would do this instead:
+If you are downloading someone else's Git project, you would do this instead:
 
 {| align="center" style="border: 1px dashed #2F6FAB; border-collapse: collapse; width: 100%"
 | style="padding: 0 2em; background-color: #E0ECF9; width: 50%" |
@@ -165,7 +170,7 @@ If you are downloading someone else's git project, you would do this instead:
 | style="padding: 0 2em; background-color: #F9F9F9; width: 50%" | <tt>svn checkout ''url''</tt>
 |}
 
-Or to download an SVN project into git:
+Or to download an SVN project into Git:
 
 {| align="center" style="border: 1px dashed #2F6FAB; border-collapse: collapse; width: 100%"
 | style="padding: 0 2em; background-color: #E0ECF9; width: 50%" |
@@ -175,7 +180,12 @@ Or to download an SVN project into git:
 
 '''<code>git clone</code>''' and '''<code>git svn clone</code>'''
 download the complete contents of a remote repository and create a
-local copy of it.
+local copy of it.  '''<code>--stdlayout</code>''' tells Git that it
+should look in the standard
+<code>trunk</code>/<code>tags</code>/<code>branches</code> directories
+for branches (see the
+[http://www.kernel.org/pub/software/scm/git/docs/git-svn.html git-svn]
+manual if your project uses a different layout).
 
 Now your tree is officially tracked by Git.  One nice thing to note -
 no matter how many subdirectories your project has, there's only one
@@ -239,7 +249,7 @@ the last version you committed:
 | style="padding: 0 2em; background-color: #F9F9F9; width: 50%" | <tt>svn revert ''path''</tt>
 |}
 
-So, it's about time we commit our changes:
+So, it's about time for us to commit our changes:
 
 {| style="border: 1px dashed #2F6FAB; border-collapse: collapse; width: 100%"
 | style="padding: 0 2em; background-color: #E0ECF9; width: 50%" | '''<tt>git commit -a</tt>'''
@@ -252,11 +262,12 @@ First, you have to specify '''<code>-a</code>''' if you want to commit
 ''all'' your files, instead of just those files you've recently done a
 '''<code>git add</code>''' or '''<code>git rm</code>''' on.  This can
 be frustrating at first, but several important techniques are based on
-it (see '''<code>git add -p</code>''' in the
+it (for example, '''<code>git add -p</code>''' lets you add part of a
+file - see the
 [http://www.kernel.org/pub/software/scm/git/docs/git-add.html git-add]
-manual page for a common example).
+manual page for details).
 
-Second, git commits are ''private'' by default - they aren't pushed to
+Second, Git commits are ''private'' by default - they aren't pushed to
 any central server.  We'll talk about pushing changes later, but
 private commits have some important benefits.  For example, when you
 realise you left some debugging in your last commit, or made a typo in
@@ -303,7 +314,7 @@ commit with:
 
 {| style="border: 1px dashed #2F6FAB; border-collapse: collapse; width: 100%"
 | style="padding: 0 2em; background-color: #E0ECF9; width: 50%" |
-'''<tt>git show ''rev'':''path/to/file''<br/>git show ''rev'':''path/to/directory''<br/>git show ''rev''</tt>'''
+'''<tt>git show ''rev'':''path/to/file''<br/>git show ''rev'':''path/to/directory''<br/>git show -s ''rev''<br/>git show ''rev''</tt>'''
 | style="padding: 0 2em; background-color: #F9F9F9; width: 50%" |
 <tt>svn cat ''url''<br/>svn list ''url''<br/>svn log -r''rev'' ''url''<br/>svn diff -c''rev'' ''url''</tt>
 |}
@@ -324,12 +335,12 @@ In Subversion, you create a branch by copying your project to a
 subdirectory.  In Git, you tell it, well, to create a branch:
 
 {| style="border: 1px dashed #2F6FAB; border-collapse: collapse; width: 100%"
-| style="padding: 0 2em; background-color: #E0ECF9; width: 50%" | '''<tt>git branch ''branch''<br/>git checkout ''branch''</tt>'''
+| style="padding: 0 2em; background-color: #E0ECF9; width: 50%" | '''<tt>git branch ''newbranch'' ''old_branch''<br/>git checkout ''new_branch''</tt>'''
 | style="padding: 0 2em; background-color: #F9F9F9; width: 50%" |
-<tt style="white-space: pre">svn copy <nowiki>http://example.com/svn/trunk</nowiki> \
-<nowiki>    http://example.com/svn/branches/</nowiki>''branch''
+<tt style="white-space: pre">svn copy <nowiki>svn://svn.example.com/</nowiki>''old_branch'' \
+<nowiki>    svn://svn.example.com/branches/</nowiki>''new_branch''
 svn switch \
-<nowiki>    http://example.com/svn/branches/</nowiki>''branch''</tt>
+<nowiki>    svn://svn.example.com/branches/</nowiki>''new_branch''</tt>
 |}
 
 The first command creates a branch, the second command switches your
@@ -342,7 +353,7 @@ The '''<code>*</code>''' in the output marks the current branch.
 
 {| style="border: 1px dashed #2F6FAB; border-collapse: collapse; width: 100%"
 | style="padding: 0 2em; background-color: #E0ECF9; width: 50%" | '''<tt>git branch</tt>'''
-| style="padding: 0 2em; background-color: #F9F9F9; width: 50%" | <tt>svn list <nowiki>http://example.com/svn/branches/</nowiki></tt>
+| style="padding: 0 2em; background-color: #F9F9F9; width: 50%" | <tt>svn list <nowiki>svn://svn.example.com/branches/</nowiki></tt>
 |}
 
 To move your tree to some older revision, use:
@@ -358,20 +369,21 @@ revision of the same branch, because you have checked out older files
 in the same directory.  But because a Git branch is just a label for a
 commit, Git would say you are ''not on any branch at all''.  SVN would
 also say that you can't commit until you update your branch to its
-rightful place, but Git will let you commit as much as you like.  
+rightful place.  Git will let you commit as much as you like, although
+you can get in trouble if you don't know what you're doing.
 
-A word of warning: not being on any branch is known as having a
-''detached HEAD'' (because your HEAD commit is not attached to any
-branch).  This is one of the few things in Git that has earnt its
-scary-sounding name - if you make commits on a detached head, then you
-check another branch out, how do you get your old commits back without
-a branch to check out?  Unless you really know what you're doing,
-create a new branch before you make any commits.  In other words, be
-careful and don't lose your HEAD.
+When you are not on a branch, you are known as having a ''detached
+HEAD'' (i.e. your HEAD commit is not attached to any branch).  This is
+one of the few things in Git that has earnt its scary name - if you
+make commits on a detached head, then you check another branch out,
+how do you get your old commits back without a branch to check out?
+You should almost always do
+'''<code>git checkout -b ''new_branch''</code>''' before you make any
+commits.  In other words, be careful and don't lose your HEAD.
 
-Git tags are fairly similar to git branches, but with some extra
+Git tags are fairly similar to Git branches, but with some extra
 tricks.  Git tags can have a date, commiter, and message that act just
-like the equivalents for git commits.  They can also be signed with a
+like the equivalents for Git commits.  They can also be signed with a
 PGP key if you really want to stamp them with your seal of approval.
 This is great if you want to release a public version of your work,
 because you can have one place to store your release announcement and
@@ -381,8 +393,8 @@ it:
 {| style="border: 1px dashed #2F6FAB; border-collapse: collapse; width: 100%"
 | style="padding: 0 2em; background-color: #E0ECF9; width: 50%" | '''<tt>git tag -a ''name''</tt>'''
 | style="padding: 0 2em; background-color: #F9F9F9; width: 50%" |
-<tt style="white-space: pre">svn copy <nowiki>http://example.com/svn/trunk</nowiki> \
-<nowiki>    http://example.com/svn/tags/</nowiki>''name''</tt>
+<tt style="white-space: pre">svn copy <nowiki>svn://svn.example.com/trunk</nowiki> \
+<nowiki>    svn://svn.example.com/tags/</nowiki>''name''</tt>
 |}
 
 To list tags and to show a tag message:
@@ -390,9 +402,9 @@ To list tags and to show a tag message:
 {| style="border: 1px dashed #2F6FAB; border-collapse: collapse; width: 100%"
 | style="padding: 0 2em; background-color: #E0ECF9; width: 50%" | '''<tt>git tag -l<br/>git show ''tag''</tt>'''
 | style="padding: 0 2em; background-color: #F9F9F9; width: 50%" |
-<tt style="white-space: pre">svn list <nowiki>http://example.com/svn/</nowiki>''tags/''
+<tt style="white-space: pre">svn list <nowiki>svn://svn.example.com/</nowiki>''tags/''
 svn log --limit 1 \
-<nowiki>    http://example.com/svn/tags/</nowiki>''tag''</tt>
+<nowiki>    svn://svn.example.com/tags/</nowiki>''tag''</tt>
 |}
 
 = Merging =
@@ -412,17 +424,18 @@ one of the to-be-merged branches and merge the other one now:
 | style="padding: 0 2em; background-color: #F9F9F9; width: 50%" |
 ''(assuming you want to merge everything since revision 20)''<br/>
 <tt style="white-space: pre">svn merge -r 20:HEAD \
-<nowiki>    http://example.com/svn/branches/</nowiki>''branch''</tt>
+<nowiki>    svn://svn.example.com/branches/</nowiki>''branch''</tt>
 |}
 
 If changes were made on only one of the branches since the last merge,
 they are simply replayed on your other branch (a so-called
 ''fast-forward merge'').  If changes were made on both branches, they
 are merged intelligently (a so-called ''three-way merge'').  If the
-tree-way merge doesn't have any merge conflicts, it makes a commit is
-made with a convenient log message (the '''<code>--no-commit</code>'''
+tree-way merge doesn't have any merge conflicts, it makes a commit
+with a convenient log message (the '''<code>--no-commit</code>'''
 option disables this).  If there are merge conflicts,
-'''<code>git merge</code>''' will report them and let you resolve them.
+'''<code>git merge</code>''' will report them and let you resolve
+them.
 
 When you have merge conflicts, you usually want to see a diff of just
 the conflicting changes.  '''<code>git diff</code>''' doesn't normally
@@ -444,9 +457,9 @@ conflicts:
 This has the nice side-effect that files disappear from
 '''<code>git diff</code>''' as you resolve them.
 
-Aside from merging, sometimes you want to just pick one commit from a
-different branch.  To apply the changes in revision ''rev'' and commit
-them to the current branch use:
+Aside from merging, sometimes you want to just pluck one commit out of
+a different branch.  To apply the changes in revision ''rev'' and
+commit them to the current branch use:
 
 {| style="border: 1px dashed #2F6FAB; border-collapse: collapse; width: 100%"
 | style="padding: 0 2em; background-color: #E0ECF9; width: 50%" | '''<tt>git cherry-pick ''rev''</tt>'''
@@ -505,16 +518,22 @@ Again, '''<code>git-svn</code>''' does this a bit differently:
 | style="padding: 0 2em; background-color: #F9F9F9; width: 50%" | <tt>svn update</tt>
 |}
 
+A ''pull'' is technically a bit different to a ''rebase''.  As always, see the 
+[http://www.kernel.org/pub/software/scm/git/docs/git-pull.html releavnt]
+[http://www.kernel.org/pub/software/scm/git/docs/git-merge.html manual]
+[http://www.kernel.org/pub/software/scm/git/docs/git-rebase.html pages]
+for details.
+
 = Sharing your Work =
 
 We saw in the previous section that you can ''pull'' other people's
 work into your repository, but how do your changes get back out?
-Well, your git repository is as good as any other, so you could just
-ask people to '''<code>git pull</code>''' from you the same way you
-'''<code>git pull</code>'''ed from them.  This is fine as far as Git's
-concerned, but what if you have a slow Internet connection, or you are
-behind a firewall, or you like to amend your commits before letting
-people see them?  Most people get around this by having two
+Well, your Git repository is as good as any other repository, so you
+could just ask people to '''<code>git pull</code>''' from you the same
+way you '''<code>git pull</code>'''ed from them.  This is fine as far
+as Git's concerned, but what if you have a slow Internet connection,
+or you are behind a firewall, or you like to amend your commits before
+letting people see them?  Most people get around this by having two
 repositories: a private repository they work on, and a public
 repository for people to pull from.  Some people prefer to share one
 public repository between the whole team, which is basically the same
@@ -527,7 +546,7 @@ different as usual: '''<code>git svn dcommit</code>'''.
 
 Public repositories are generally accessible over SSH or HTTP.  SSH is
 more secure, and it's highly recommended to put your SSH key into an
-SSH agent (such as <code>ssh-agent</code> PuTTY's
+SSH agent (such as <code>ssh-agent</code> or PuTTY's
 <code>pageant</code>) so you don't have to type it in all the time.
 
 If you need to create your own public repository, you should read the
@@ -547,13 +566,48 @@ and apply them with '''<code>git am</code>'''.  To maintain a set of
 patches, you can use <strong>StGIT</strong> (see the
 [http://git.or.cz/course/stgit.html StGIT Crash Course] for details).
 
+= What Has Git Ever Done For Us? =
+
+We've covered the details of how to work with Git, and how to share
+your work with others, but is it really worth the hassle?  We'll end
+with an analogy for why a lot of people are happier when they use Git
+than SVN:
+
+Think of your program as like a complicated machine sitting on your
+desk.  As you make changes to your machine, you write down each of the
+steps you take, with each discrete change in a different letter.
+
+With SVN, you dictate each letter to a secretary, who puts it in an
+envelope and sends it out to everyone.  This is very simple, but also
+quite limiting.  You can't just share your letters with one person to
+proof-read, you have to wait on your secretary for even the most
+trivial changes, and any mistakes you make are permanently recorded
+for your shame.
+
+With git, you write each letter and put it in an envelope on your desk
+(the index).  When you're happy with what you've written, you seal the
+envelope and put it in your outbox (commit it).  Then finally you send
+your letters off (you push your commits) or invite people to come and
+pick them up (they pull your commits).  This is more complicated, but
+it's also liberating.  Now you can tear open an envelope in your
+outbox before anyone sees it, or write letters on the train and queue
+them up to be sent, or pass letters around a small team before making
+them widely available.
+
+As you get used to Git, and learn how to manage and correct your own
+mistakes, you stop thinking of yourself as "a stupid developer that
+needs a secretary to look after me", and start thinking of yourself as
+"a smart developer that demands a personalised workflow".  And who
+wouldn't be happier like that?
+
 = See Also =
 
-* [[SvnMigration|the Migrating a team from SVN]]
+* [[SvnMigration|Migrating a team from SVN]]
 * [[GitCheatSheet|Git Cheat Sheet]]
 * [[Media:Git-svn-cheatsheet.pdf|git-svn cheatsheet]]
 * [http://git-scm.com/documentation non-SVN-specifc guides]
 * [[GitTips#git_svn|git-svn tips]]
+* [http://utsl.gen.nz/talks/git-svn/intro.html An introduction to git-svn for Subversion/SVK users and deserters]
 
 Please contact us at the '''Git mailing list''' if you have any
 questions [mailto:git@vger.kernel.org git@vger.kernel.org].  We hope
