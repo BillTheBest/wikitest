@@ -133,8 +133,9 @@ identifier.  For example, your current commit is always called
 referred to as '''<code>abc123</code>''' (and you can use
 '''<code>abc123^</code>''', '''<code>abc123^^</code>''' etc.).  See
 the
-[http://www.kernel.org/pub/software/scm/git/docs/git-rev-parse.html git-rev-parse manpage] if you want to know which commit
-'''<code>trunk@{'tea-time on Monday'}~2</code>''' refers to.
+[http://www.kernel.org/pub/software/scm/git/docs/git-rev-parse.html git-rev-parse manpage]
+if you want to know which commit
+'''<code>trunk@{'tea-time last Wednesday}~2</code>''' refers to.
 
 = Creating a New Repository =
 
@@ -191,7 +192,7 @@ Now your tree is officially tracked by Git.  One nice thing to note -
 no matter how many subdirectories your project has, there's only one
 '''<code>.git</code>''' directory that contains all the version
 control information.  Do some random changes to your tree now - poke
-into few files or such.
+around in a few files or something.
 
 = Making Changes =
 
@@ -293,11 +294,11 @@ history:
 |}
 
 The '''<code>log</code>''' command is more powerful than in SVN.  For
-example, do '''<code>git log --oneline</code>''' for a more compact
-view of your commit history.  This only shows the first few characters
-of each commit ID and the first line of each commit message.  See the
+example, '''<code>git log --oneline</code>''' only shows the first few
+characters of each commit ID and the first line of each commit
+message.  See the
 [http://www.kernel.org/pub/software/scm/git/docs/git-log.html git-log manual page]
-for some more stuff '''<code>git log</code>''' can do.
+for more stuff '''<code>git log</code>''' can do.
 
 The '''<code>blame</code>''' command is also more powerful than
 SVN, as it can track changes even across file copies and renames.  But
@@ -335,7 +336,7 @@ In Subversion, you create a branch by copying your project to a
 subdirectory.  In Git, you tell it, well, to create a branch:
 
 {| style="border: 1px dashed #2F6FAB; border-collapse: collapse; width: 100%"
-| style="padding: 0 2em; background-color: #E0ECF9; width: 50%" | '''<tt>git branch ''newbranch'' ''old_branch''<br/>git checkout ''new_branch''</tt>'''
+| style="padding: 0 2em; background-color: #E0ECF9; width: 50%" | '''<tt>git branch ''new_branch'' ''old_branch''<br/><br/>git checkout ''new_branch''</tt>'''
 | style="padding: 0 2em; background-color: #F9F9F9; width: 50%" |
 <tt style="white-space: pre">svn copy <nowiki>svn://svn.example.com/</nowiki>''old_branch'' \
 <nowiki>    svn://svn.example.com/branches/</nowiki>''new_branch''
@@ -372,14 +373,16 @@ also say that you can't commit until you update your branch to its
 rightful place.  Git will let you commit as much as you like, although
 you can get in trouble if you don't know what you're doing.
 
-When you are not on a branch, you are known as having a ''detached
-HEAD'' (i.e. your HEAD commit is not attached to any branch).  This is
-one of the few things in Git that has earnt its scary name - if you
-make commits on a detached head, then you check another branch out,
-how do you get your old commits back without a branch to check out?
-You should almost always do
+When you are not on a branch, you are known as having a
+''detached HEAD'' (i.e. your HEAD commit is not attached to any
+branch).  This is one of the few things in Git that has earnt its
+scary name - if you make commits on a detached HEAD, then you do
+'''<code>git checkout some_branch</code>''', what
+'''<code>git checkout</code>''' command would you use to get your
+commits back?  You should almost always do
 '''<code>git checkout -b ''new_branch''</code>''' before you make any
-commits.  In other words, be careful and don't lose your HEAD.
+commits, so you can get back easily later on.  In other words, be
+careful and don't lose your HEAD.
 
 Git tags are fairly similar to Git branches, but with some extra
 tricks.  Git tags can have a date, commiter, and message that act just
@@ -479,13 +482,13 @@ section and come back to it later.
 
 When you cloned your repository, Git downloaded all the branches and
 tags in that repository, and created your '''<code>master</code>'''
-branch based on the '''<code>master</code>''' branch (or the
-'''<code>trunk</code>''' branch if you used
-'''<code>git svn clone</code>''') in that repository.  Even though it
-only used the '''<code>master</code>''' branch, it kept copies of all
-the others in case you needed them.  Copies of branches from a remote
-repository are called ''remote branches'', and don't behave quite like
-the ''local branches'' you've used before.
+branch based on the '''<code>master</code>''' branch in that
+repository (or the '''<code>trunk</code>''' branch if you used
+'''<code>git svn clone</code>''').  Even though it only used the
+'''<code>master</code>''' branch, it kept copies of all the others in
+case you needed them.  Copies of branches from a remote repository are
+called ''remote branches'', and don't behave quite like the ''local
+branches'' you've used before.
 
 For starters, remote branches don't show up in a normal
 '''<code>git branch</code>'''.  Instead, you list remote branches with
@@ -519,7 +522,7 @@ Again, '''<code>git-svn</code>''' does this a bit differently:
 |}
 
 A ''pull'' is technically a bit different to a ''rebase''.  As always, see the 
-[http://www.kernel.org/pub/software/scm/git/docs/git-pull.html releavnt]
+[http://www.kernel.org/pub/software/scm/git/docs/git-pull.html relevant]
 [http://www.kernel.org/pub/software/scm/git/docs/git-merge.html manual]
 [http://www.kernel.org/pub/software/scm/git/docs/git-rebase.html pages]
 for details.
@@ -569,7 +572,7 @@ patches, you can use <strong>StGIT</strong> (see the
 = What Has Git Ever Done For Us? =
 
 We've covered the details of how to work with Git, and how to share
-your work with others, but is it really worth the hassle?  We'll end
+your work with others, but is it really worth the hassle?  Let's end
 with an analogy for why a lot of people are happier when they use Git
 than SVN:
 
