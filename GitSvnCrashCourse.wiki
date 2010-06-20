@@ -58,7 +58,7 @@ You might also want to look at some other [[Aliases#SVN-like aliases|SVN-like al
 
 Here are some concepts that will help you understand Git.  If you are in a hurry, you can skip this section and come back when you get confused - you should be able to pick up a lot about Git with just your intuition.
 
-'''Checkouts and Repositories.'''  Each Subversion project has one ''central repository'' which stores all the history.  Everyone has a checkout of the repository, which they ''update from'' and ''commit to''.  Each Git project give everyone a ''personal repository'', and lets them ''pull from'' and ''push to'' each other.  Many projects use an "official" repository that they agree to treat like an SVN repository.
+'''Checkouts and Repositories.'''  Each Subversion project has one ''central repository'' which stores all the history.  Everyone has a checkout of the repository, which they ''update from'' and ''commit to''.  Each Git project give everyone a ''personal repository'', and lets them ''pull from'' and ''push to'' each other.  Many Git projects use an "official" repository that they agree to treat like an SVN repository.
 
 '''URLs and paths.'''  In Subversion, a ''URL'' identifies the location of the repository, and the path inside the repository identifies the branch or tag.  So <tt><nowiki>svn://svn.example.com/trunk</nowiki></tt> might be the URL for the <tt>trunk</tt> branch of your repository.  In Git, the ''URL'' is still the location of a repository, but branches and tags are labels you access with Git commands.  So <tt><nowiki>git://git.example.com/</nowiki></tt> might be the URL for a whole Git repository.
 
@@ -321,9 +321,9 @@ Finally, some projects hardly bother with public repositories at all - they just
 
 = What Has Git Ever Done For Us? =
 
-We've covered the details of how to work with Git, and how to share your work with others, but is it really worth the hassle?  Let's end with an analogy for why a lot of people are happier when they use Git than SVN:
+We've covered the details of how to work with Git, and how to share your work with others, but is it really worth the hassle?  Let's end with an analogy for why a lot of people are happier when they use Git:
 
-Think of your program as like a complicated machine sitting on your desk.  As you make changes to your machine, you write down each of the steps you take, with each discrete change in a different letter.
+Think of your program as a complicated machine sitting on your desk.  As you make changes to your machine, you write down each of the steps you take, with each discrete change in a different letter.
 
 With SVN, you dictate each letter to a secretary, who puts it in an envelope and sends it out to everyone.  This is very simple, but also quite limiting.  You can't just share your letters with one person to proof-read, you have to wait on your secretary for even the most trivial changes, and any mistakes you make are permanently recorded for your shame.
 
