@@ -874,6 +874,9 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 === pitweb ===
 * [http://pitweb.danfis.cz pitweb] by Daniel Fiser is a web interface for git repositories written in python and licensed under LGPL.
 
+=== PyjamasGitWeb ===
+* PyjamasGitWeb (git clone gitolite@pyjs.org:pyjamasgitweb) is two projects in one: a JSONRPC web service which uses python-git to serve git repository information, and a matching front-end as a pyjamas application.  [http://pyjs.org Pyjamas] can run the front-end either compiled to javascript to run in a web browser or as a Desktop application (pure python).  Demo is at [http://pyjs.org/pygit]
+
 
 == Filesystem interfaces ==
 
