@@ -1,6 +1,10 @@
 = GitTogether =
 These are events when git developers (and in one case, one user) physically meet in the same place.
 
+= GitTogether '10 =
+
+'October 25(Mon)-27(Wed)' in Mountain View, California.  See [[GitTogether10]].
+
 = GitTogether '09 =
 
 2 GitTogether took place in 2009:
