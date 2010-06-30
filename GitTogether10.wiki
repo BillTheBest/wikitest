@@ -11,6 +11,8 @@ Any questions, please contact Shawn Pearce ( gsoc@spearce.org ).
 # Nasser Grainawi
 # Martin Fick
 # Andrew Bayer
+# David Borowitz
+# Jean-Baptiste Queru
 
 Google has us capped at ~30 attendees.
 
