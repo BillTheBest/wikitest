@@ -15,6 +15,8 @@ Any questions, please contact Shawn Pearce ( gsoc@spearce.org ).
 # Jean-Baptiste Queru
 # Avery Pennarun
 # Junio C Hamano
+# Scott Chacon
+# Tom Preston-Werner
 
 Google has us capped at ~30 attendees.
 
@@ -54,6 +56,12 @@ Please propose a topic by adding it to the table below.
 |  Avery Pennarun
 |  Discussion / brainstorm
 |  How can we make git-submodule/[http://github.com/apenwarr/git-subtree git-subtree] usable by mere mortals?
+|  20 min
+|-
+|  Proposed
+|  Scott Chacon
+|  Presentation / Discussion
+|  The state of libgit2 
 |  20 min
 |}
 
