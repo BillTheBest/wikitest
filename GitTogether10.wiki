@@ -14,6 +14,7 @@ Any questions, please contact Shawn Pearce ( gsoc@spearce.org ).
 # David Borowitz
 # Jean-Baptiste Queru
 # Avery Pennarun
+# Junio C Hamano
 
 Google has us capped at ~30 attendees.
 
