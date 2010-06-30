@@ -7,6 +7,7 @@ Any questions, please contact Shawn Pearce ( gsoc@spearce.org ).
 
 == Attendees ==
 # Shawn O. Pearce
+# Rob Heittman
 
 Google has us capped at ~30 attendees.
 
