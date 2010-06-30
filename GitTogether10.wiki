@@ -10,6 +10,7 @@ Any questions, please contact Shawn Pearce ( gsoc@spearce.org ).
 # Rob Heittman
 # Nasser Grainawi
 # Martin Fick
+# Andrew Bayer
 
 Google has us capped at ~30 attendees.
 
