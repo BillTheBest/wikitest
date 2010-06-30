@@ -13,6 +13,7 @@ Any questions, please contact Shawn Pearce ( gsoc@spearce.org ).
 # Andrew Bayer
 # David Borowitz
 # Jean-Baptiste Queru
+# Avery Pennarun
 
 Google has us capped at ~30 attendees.
 
@@ -41,6 +42,18 @@ Please propose a topic by adding it to the table below.
 |  ''Kind of session'' 
 |  ''Title'' 
 |  ''Talk Length'' 
+|-
+|  Proposed
+|  Avery Pennarun
+|  Design presentation + discussion
+|  How [http://github.com/apenwarr/bup bup] stores 1TB+ in git, and what exploded along the way
+|  40 min
+|-
+|  Proposed
+|  Avery Pennarun
+|  Discussion / brainstorm
+|  How can we make git-submodule/[http://github.com/apenwarr/git-subtree git-subtree] usable by mere mortals?
+|  20 min
 |}
 
 == Directions ==
