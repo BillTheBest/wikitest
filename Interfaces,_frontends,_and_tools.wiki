@@ -1,6 +1,6 @@
 __TOC__
 -----
-
+[http://www.arzinger.ua/index.php?page=pract&id=19&lang=en  property tax Ukraine ]
 = Frontends and Interfaces =
 
 == Version Control Interface layers ==
