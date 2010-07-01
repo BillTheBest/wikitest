@@ -18,6 +18,9 @@ Any questions, please contact Shawn Pearce ( gsoc@spearce.org ).
 # Scott Chacon
 # Tom Preston-Werner
 # Maria Gutowski
+# Fredrik Luthander
+# Cecilia Svensson
+# Ulrik Sjölin
 
 Google has us capped at ~30 attendees.
 
