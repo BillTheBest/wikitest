@@ -17,6 +17,7 @@ Any questions, please contact Shawn Pearce ( gsoc@spearce.org ).
 # Junio C Hamano
 # Scott Chacon
 # Tom Preston-Werner
+# Maria Gutowski
 
 Google has us capped at ~30 attendees.
 
