@@ -22,6 +22,7 @@ Any questions, please contact Shawn Pearce ( gsoc@spearce.org ).
 # Cecilia Svensson
 # Ulrik Sjölin
 # Stephen Boyd
+# Christian Couder
 
 Google has us capped at ~30 attendees.
 
