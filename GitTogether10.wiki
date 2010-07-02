@@ -69,6 +69,12 @@ Please propose a topic by adding it to the table below.
 |  Presentation / Discussion
 |  The state of libgit2 
 |  20 min
+|-
+|  Proposed
+|  Christian Couder
+|  Presentation / Discussion
+|  "git bisect" overview 
+|  40 min
 |}
 
 == Directions ==
