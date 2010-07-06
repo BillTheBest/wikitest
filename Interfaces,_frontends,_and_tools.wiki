@@ -82,6 +82,9 @@ __TOC__
 === Git# (GitSharp) ===
 * [http://www.eqqon.com/index.php/GitSharp Git#] for .NET and Mono is written in C#. GitSharp provides a user friendly well documented [http://henon.github.com/GitSharp/ API]. It is aimed to be fully compatible to the original Git and can be either used as stand alone command line application or as library for gui frontends, IDE plugins, etc. The status of the project is beta.
 
+=== hs-libgit ===
+* [http://github.com/vincenthz/hs-libgit/ hs-libgit] provides a lowlevel interface in haskell using git core through fork/exec. The goal is to make use of libgit2 as soon as it's usable.
+
 == Patch-management Interface layers ==
 
 === StGIT (Stacked Git) ===
