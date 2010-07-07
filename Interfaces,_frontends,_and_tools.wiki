@@ -1302,6 +1302,9 @@ The Version 3 scripts are part of git contrib/ as of 2010-04-02.
 * [http://ryppl.org Ryppl] is a a cross-platform package management system designed to accomodate both end-users and developers. Unlike a traditional package manager, which delivers binaries and/or a source snapshot, when ryppl downloads a package, it gives you a clone of a Git repository, with that package's entire development history. It also pulls down the correct versions of any repositories on which the requested repository depends. If you're an ordinary end-user, the fact that they are git repositories may be invisible to you, but if you're a developer, it means you're already prepared to work on the package, keep track of your changes, and submit them to the official maintainer(s).
 * Ryppl includes facilities for building, testing, and installing packages on the local machine. However, it also has integrated support for remote testing. That is, you can arrange that tests be run on build slaves located “out there” on the internet. This allows developers to discover portability issues without having direct access to every build platform.
 
+=== Parabuild ===
+* [http://www.viewtier.com/products/parabuild/index.htm Parabuild] is a Continuous Integration and Release Management system with [http://www.viewtier.com//products/parabuild/git_continuous_integration_release_management.htm native support for Git].
+
 = See also =
 * [[InterfacesFrontendsAndToolsWishlist]]
 * [[Plumbings]]
