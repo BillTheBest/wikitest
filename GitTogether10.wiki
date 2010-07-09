@@ -24,6 +24,7 @@ Any questions, please contact Shawn Pearce ( gsoc@spearce.org ).
 # Stephen Boyd
 # Christian Couder
 # Chris Aniszczyk
+# Thomas Rast
 
 Google has us capped at ~30 attendees.
 
