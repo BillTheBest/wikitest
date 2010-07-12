@@ -6,6 +6,13 @@
 
 The new Git repositories can be found at the [http://wiki.eclipse.org/EGit/Contributor_Guide EGit contributor guide]
 
+= Limitations =
+
+as of 12. July 2010 EGit breaks symlinks, thus restricting the scope of usability
+of Eclipse with integrated Git to more or less Java or projects that are sure
+to never encounter symlinks:
+See [http://code.google.com/p/egit/issues/detail?id=70&colspec=ID%20Type%20Status%20Priority%20Component%20Owner%20Summary EGit Bug #70]
+
 [[OldEgitPage]]
 
 [[Category:Tools]]
