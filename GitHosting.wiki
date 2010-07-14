@@ -35,6 +35,8 @@ Those are public Git hosting sites where any project can be hosted, perhaps with
 * [http://repositoryhosting.com repositoryhosting.com] one flat price of $6/month, 2GB of space (WebDAV + repo), Trac project management, fully customizable, regular encrypted backups to EC2
 * [http://xp-dev.com XP-Dev.com] Provides Git hosting along with Trac project management. Integrates with various other bug/project tracking tools like Fogbugz, Lighthouse & Basecamp. Includes double backups: real-time and nightly offsite backups.
 * [http://trac.usla.org.ar USLA-Tracs] Users Free Software Argentina(USLA) allows the projects to be self-managed, the projects can be created vía web, and allows create a test projects for testing the service. Provides Git hosting with Trac project management.
+* [http://beanstalkapp.com/?ad=git-wiki Beanstalk] A free private Git and Subversion hosting. Integrates with Basecamp, Lighthouse, Zendesk, Harvest, Twitter, Campfire, Freckle, Fogbugz, supports Web hooks. Can deploy your files on each commit to FTP/SFTP server. Has ability to browse source, history; add comments on commits. 
+
 
 === Project specific Git hosting sites ===
 * [http://www.kernel.org Kernel.org] ([http://git.kernel.org/ gitweb]) for Linux kernel related projects. Uses [http://git.kernel.org/?p=git/warthog9/gitweb.git gitweb fork] with caching support.<BR> Kernel.org accounts are not given away very often, usually you need to be making some reasonable amount of contributions to the Linux kernel and have a good reason for wanting / needing an account.
