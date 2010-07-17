@@ -593,8 +593,9 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 ** http://wiki.videolan.org/Git (development)
 ** http://git.videolan.org/?p=vlc.git;a=summary (gitweb)
 * VLE - Virtual Laboratory Environment: a scientific project on multimodeling and simulation based on the DEVS (discrete event system specification) paradigm.
-** http://vle.univ-littoral.fr
-** http://vle.univ-littoral.fr/gitweb
+** http://www.vle-project.org (homepage)
+** http://sourceforge.net/scm/?type=git&group_id=94199 (official repository)
+** http://www.vle-project.org/gitweb (Projects associated with VLE)
 * WeeChat (fast, light and extensible chat client)
 ** http://weechat.flashtux.org/ (homepage)
 ** http://git.savannah.gnu.org/gitweb/?p=weechat.git (repository)
