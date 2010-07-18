@@ -528,6 +528,10 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 ** http://git.slind.org/git (gitweb)
 ** [http://slashcode.com/ Slash] - the discussion system that powers [http://slashdot.org Slashdot]
 ** http://github.com/scc/slash (public mirror)
+* Smuxi IRC client for GNOME / GTK+
+** http://www.smuxi.org/ (homepage)
+** http://www.smuxi.org/project (project page)
+** http://git.qnetp.net/?p=smuxi.git (gitweb)
 * Source Mage GNU/Linux (source-based GNU/Linux distribution)
 ** http://www.sourcemage.org/ (description)
 ** http://wiki.sourcemage.org/Git_Guide (guide)
