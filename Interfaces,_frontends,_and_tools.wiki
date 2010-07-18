@@ -1308,9 +1308,8 @@ The Version 3 scripts are part of git contrib/ as of 2010-04-02.
 = See also =
 * [[InterfacesFrontendsAndToolsWishlist]]
 * [[Plumbings]]
-* [http://git.or.cz/#tools Git - Related Tools] (at Git homepage)
 
 ----
-[[Category:Tools]] [[Category:GitHomepage]] ([http://git.or.cz/#tools Related Tools])
+[[Category:Tools]]
 
 __NOTOC__
