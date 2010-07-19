@@ -1166,6 +1166,10 @@ See [[git-p4 Usage]] instructions.
 
 * ''git-bz'' ([http://git.fishsoup.net/cgit/git-bz/plain/git-bz script], [http://git.fishsoup.net/cgit/git-bz/ cgit]) is a command-line tool for using git with bugzilla. You can file commits (in git-format-patch format) as new bugs, attach them to existing bugs, or apply patches attached to bugs to your working tree. It has some neat features like rewriting the commit to include the URL to the newly filed bug before attaching it to the bug. git-bz is a self-contained Python script that acts as a git subcommand and has no external dependencies other than git.
 
+=== IBM Rational Team Concert ===
+
+* The following [http://jazz.net/library/article/194 article] shows several ways other SCM systems can be used in conjunction with Rational Team Concert 2.x. The main focus of this article is how the integration of Git and IBM Rational Team Concert work items can be achieved using Git hooks.
+
 == Other tools ==
 
 === git-ftp.sh ===
