@@ -1086,6 +1086,10 @@ See [[git-p4 Usage]] instructions.
 
 * [http://github.com/cxreg/git-blacklist git-blacklist] is an update hook which allows a multi-user centralized repository to block known-bad commits and refs from being pushed.
 
+=== IBM Rational Team Concert Work Item Integration ===
+
+* The following [http://jazz.net/library/article/194 article] shows several ways other SCM systems can be used in conjunction with Rational Team Concert 2.x. The main focus of this article is how the integration of Git and IBM Rational Team Concert work items can be achieved using Git hooks.
+
 == Wikis, blogs, etc. ==
 
 === ikiwiki ===
