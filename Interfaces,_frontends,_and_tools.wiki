@@ -1269,7 +1269,7 @@ The Version 3 scripts are part of git contrib/ as of 2010-04-02.
 * Some of [http://unix.schottelius.org/scripts/ Nico Schottelius (unix|linux) scripts] deal with Git: `db-dump+git.sh`, `update-gitweb.sh`, `update-git+cogito.sh`.
 
 === William Morgan git tools ===
-* [http://git-wt-commit.rubyforge.org/ William's miscellaneous git tools] include `git-wtf`, a tool for working with feature branches (and its precursor `git-show-merges`), `git-publish-branch` to ease the task of "publishing" a branch, and `git-rank-contributors` which ranks all the contributors by the size of their diffs (as opposed to <code><nowiki>git shortlog --numbered --summary</nowiki></code> which counts number of commits. By William Morgan and Jeff Balogh ''(Ruby)''
+* [http://git-wt-commit.rubyforge.org/ William's miscellaneous git tools] include `git-wtf`, a tool for working with feature branches (and its precursor `git-show-merges`), `git-publish-branch` to ease the task of "publishing" a branch (mostly superseded by git push -u), and `git-rank-contributors` which ranks all the contributors by the size of their diffs (as opposed to <code><nowiki>git shortlog --numbered --summary</nowiki></code> which counts number of commits). By William Morgan and Jeff Balogh ''(Ruby)''
 
 === git status-report ===
 * <code>git status-report</code> ([http://weblog.masukomi.org/2010/07/16/git-status-report announcement], [http://github.com/masukomi/git_accessories/blob/master/git-status-report github]) by Kate Rhodes (''masukomi'') is a script (in Ruby) that outputs a bullet list of all your commits for the past ''n'' days, or the commits of one of your fellow contributors.  Useful to put together a status report for boss.
