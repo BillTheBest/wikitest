@@ -155,6 +155,9 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 === TortoiseGit ===
 * [http://code.google.com/p/tortoisegit/ TortoiseGit] ([http://repo.or.cz/w/TortoiseGit.git gitweb]) by Li Frank is a port of [http://tortoisesvn.tigris.org/ TortoiseSVN] to Git. It is Microsoft Windows Explorer extension, written in C++. As of February 2010 TortoiseGit is at version 1.3.6.0 and implements most regular tasks such as commit, show log, diff two versions, create branches and tags, create patches etc. It is not yet complete but well worth a try.<BR>''See also:'' [http://github.com/blog/256-tortoisegit-challenge TortoiseGit Challenge] on GitHub.
 
+=== Dreamweaver GIT (GITWeaver Dreamweaver Tortoise Extension) ===
+* [http://github.com/ChrisMcKee/gitweaver GITWeaver] by Chris McKee is an Adobe Dreamweaver (MX->CS5) extension that adds TortoiseGIT functionality to Adobe Dreamweaver. Windows Compatible
+
 === git-cheetah ===
 * [http://git.wiki.kernel.org/index.php/MSysGit:GitCheetah git-cheetah] is a cross platform filemanager plugin. It was started as a Windows explorer extension so the standard gui tools (namely Git Gui, Gitk History, Git Gui Blame) of git would be available from the filemanager. It has been ported to Mac OS X (Finder before 10.6) and Gnome Nautilus. Written completely in C, it has a simple infrastructure ready to add more plugin implementations. You can find the repository at http://repo.or.cz/w/git-cheetah.git.
 
