@@ -1237,6 +1237,7 @@ The Version 3 scripts are part of git contrib/ as of 2010-04-02.
 
 === gitco ===
 * [http://blog.josefsson.org/?p=8 gitco] by Simon Josefsson is a tiny shell script to remove unversioned files from git directories, similar to [http://www.red-bean.com/cvsutils/ cvsutils] 'cvsco' or subversion's svn-clean.
+* The standard [http://www.kernel.org/pub/software/scm/git/docs/git-clean.html git clean] command does this.
 
 === gitlsfiles ===
 * [http://ygingras.net/b/tag/gitlsfiles gitlsfiles] is Git plugin for [http://peak.telecommunity.com/DevCenter/setuptools Setuptools], by Yannick Gingras (Python). Setuptools is a collection of enhancements to the Python distutils that allow you to more easily build and distribute Python packages, especially ones that have dependencies on other packages.
