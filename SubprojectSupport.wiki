@@ -57,6 +57,7 @@ There is an implicit assumption in previous use cases that a subproject is conta
 * [http://git.admingilde.org/tali/git.git/module2 prototype implementation] by Martin Waitz
 * [http://news.gmane.org/find-root.php?message_id=<200612200901.30584.andyparkins@gmail.com> http://news.gmane.org/find-root.php?message_id=%3c200612200901.30584.andyparkins%40gmail.com%3e] A very basic patch to the pre and post commit hooks to track sub-repositories.  No merge, clone, fetch, or anything else support - just notes the latest revision of the submodule in the supermodule.  Read the whole thread to get the fixes to the patch.
 * http://marc.theaimsgroup.com/?l=git&m=115196739921363&w=2
+* [http://wiki.github.com/jlehmann/git-submod-enhancements/ git-submod-enhancements wiki]
 
 ----
 [[Category:GitDocumentation]]
