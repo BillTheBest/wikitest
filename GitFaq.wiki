@@ -999,6 +999,14 @@ do
 done
 </nowiki></pre>
 
+== How do I merge a patch from a gmane.org URL? ==
+
+You can get the raw article by appending <code>/raw</code> to a message URL (reachable from the "Direct link" link at the bottom of the thread view). Then, using wget and git am, you can apply a patch with a single command-line like:
+
+<pre>
+wget 'http://article.gmane.org/gmane.comp.version-control.git/149176/raw' -O - | git am -3
+</pre>
+
 = Error diagnostic =
 
 == {{Gitlink|remote-hangup}} Git push fails with "fatal: The remote end hung up unexpectedly"?  ==
