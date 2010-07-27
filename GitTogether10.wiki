@@ -25,6 +25,7 @@ Any questions, please contact Shawn Pearce ( gsoc@spearce.org ).
 # Christian Couder
 # Chris Aniszczyk
 # Thomas Rast
+# Jelmer Vernooij
 
 Google has us capped at ~30 attendees.
 
@@ -77,6 +78,12 @@ Please propose a topic by adding it to the table below.
 |  Presentation / Discussion
 |  "git bisect" overview 
 |  40 min
+|-
+|  Proposed
+|  Jelmer Vernooij
+|  Presentation / Discussion
+|  [http://samba.org/~jelmer/dulwich Dulwich]
+|  20 min
 |}
 
 == Directions ==
