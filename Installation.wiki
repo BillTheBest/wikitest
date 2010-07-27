@@ -19,8 +19,9 @@ If you have the main development team on linux/unix, and peripheral developers o
 
 == Others ==
 * EclipseIDE-based GIT client, based on a pure [http://repo.or.cz/w/egit.git Java implementation] of GIT's internals.
-* Windows Explorer extension ([http://code.google.com/p/msysgit/wiki/GitCheetah Git-Cheetah])
+* Windows Explorer extension ([[MSysGit:GitCheetah|Git-Cheetah]])
 * Git Extensions for Windows and Visual Studio ([http://sourceforge.net/projects/gitextensions/ http://sourceforge.net/projects/gitextensions/])
+
 == OS X ==
 Git for the OS X is installed by using the [http://code.google.com/p/git-osx-installer/downloads/list git-osx-installer] but if you haven't got Leopard you're screwed because there aren't any install scripts and the source won't compile.
 
