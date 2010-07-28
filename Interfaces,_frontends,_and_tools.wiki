@@ -1072,7 +1072,7 @@ See [[git-p4 Usage]] instructions.
 
 ==== vss2git (Visual Source Safe to Git) ====
 * [http://code.google.com/p/vss2git/ vss2git] is a tool written in C# to convert a Visual Source Safe repository into a Git one. It preserves deleted files and renames, and attempts to construct meaningful changesets based on chronologically grouping individual project/file revisions.
-
+If you happen to delete some files on your computer by accident, you can find out here [http://www.mac-how.net/ how to recover deleted files mac]
 ==== vss2git (Visual SourceSafe to GIT or SVN) ====
 * [http://github.com/Gediminas/vss2git/ vss2git / vss2svn] - tool (written in C++) converts Visual SourceSafe database to GIT / SVN repository.  Does not use direct analysis of VSS database - simple cycle "ss get" "git/svn commit" is used.  Deleted files are skipped during conversion process.  File revisions are grouped by user but split by date.  Only cpp & h files are converted (hardcoded but easy to edit).  (6GB database 10 years development took ~4 hours to convert)
 
