@@ -71,7 +71,7 @@ This project aims at splitting and organising the 6800 lines code of gitweb.pl i
 ''Git repository:''
 * http://repo.or.cz/w/git/gsoc2010-gitweb.git (Git repository browser)
 
-''Progress reports / status:'' Planning Stage<BR>
+''Progress reports / status:'' Failed at midterm evaluation<BR>
 
 = Foreign projects =
 
