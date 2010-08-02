@@ -31,11 +31,6 @@ This page shows Git commands in a bold, fixed-width font: '''<code>git help</cod
 
 Before running any command the first time, it's recommended that you skim through its [http://www.kernel.org/pub/software/scm/git/docs/ manual page].  Many of the commands have very useful and interesting features (that we won't list here) and sometimes there are some extra notes you might want to know.  You can also get help on any Git command by doing '''<code>git ''command'' -h</code>''' or '''<code>git help ''command''</code>'''.
 
-
-==Related Links==
-
-[http://www.cellulite.co.uk/ '''cellulite''']
-
 == Configuring Git ==
 
 SVN includes your ''username'' in your commits, whereas Git includes your ''real name'' and your ''e-mail address''.  You should add these before you start using Git:
