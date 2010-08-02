@@ -2,6 +2,7 @@ See [[Gitweb]] page
 
 == Gitweb wishlist and TODO list ==
 
+* being able to clone a git repo via "git clone http://gitwebserver/repo.git"
 * diffstat in 'commit' and 'commitdiff_plain' views
 * summary of number of lines changed in difftree (not for merges)
 * configurable committags support (e.g. BUG(n))
