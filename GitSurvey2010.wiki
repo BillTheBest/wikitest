@@ -1,0 +1,443 @@
+The "Git User's Survey 2010" has not yet begun.
+
+You will be able to take part in the survey (tentatively) from '''15 August''' to '''15 October, 2010'''
+
+
+= Git User's Survey 2010 (proposal) =
+
+== About you ==
+
+=== 01. What country do you live in (country of residence)? ===
+(free-form single line)
+
+=== 02. How old are you (in years)? ===
+(free-form single line)
+
+
+== Getting started with Git ==
+
+=== 03. Have you found Git easy to learn? ===
+(single choice)
+
+* Very easy
+* Easy
+* Reasonably easy
+* Hard
+* Very hard
+
+=== 04. Have you found Git easy to use? ===
+(single choice)
+
+* Very easy
+* Easy
+* Reasonably easy
+* Hard
+* Very hard
+
+=== 05. Which Git version(s) are you using? ===
+(multiple choice, with other)
+
+* pre 1.3
+* 1.3.x
+* 1.4.x
+* 1.5.x
+* 1.6.x
+* 1.7.x
+
+* minor (maintenance) release 1.x.y.z
+* 'master' branch of official git repository
+* 'next' branch of official git repository
+* 'pu' branch of official git repository
+* version from msysGit / Git for Windows fork repository
+* git-bigfiles fork
+* JGit implementation (e.g. via Eclipse plugin, EGit)
+* other git implementation (Git#, Dulwich, etc.)
+
+* other, please specify
+
+=== 06. Rate your own proficiency with Git: ===
+(single choice)
+
+# novice
+# casual, needs advice
+# everyday use
+# can offer advice
+# know it very well
+
+
+== How you use Git ==
+
+=== 07. I use Git for (check all that apply): ===
+(multiple choice, with other)
+
+* work projects
+* unpaid projects
+
+* proprietary projects
+* OSS development (also public domain, and published & unlicensed)
+* private (unpublished)
+
+* code (programming)
+* personal data
+* documents (data)
+* static website
+* web app
+* large (> 1MB) binary files
+* often changing binary files
+
+* sharing data or sync
+* managing configuration files
+* backup
+* backend for wiki, blog, or other web app
+* frontend to other SCM (e.g. git-svn)
+
+* other (please specify)
+
+
+=== 08. How do/did you obtain Git (install and/or upgrade)? ===
+(multiple choice, with other)
+
+Note that this question is multiple choices question because one can
+install Git in different ways on different machines or on different
+operating systems.
+
+* binary package
+* source package or script
+* source tarball
+* pull from (main) repository
+* preinstalled / sysadmin job
+
+* other - please specify
+
+'''Description:'''<br>
+Explanation: "binary package" covers pre-compiled binary (e.g.  from
+rpm or deb binary packages); "source package" covers things like
+deb-src and SRPMS / *.src.rpm; "source script" is meant to cover
+installation in source-based distributions, like 'emerge' in Gentoo.
+
+Automatic update (apt, yum, etc.) in most cases means binary package
+install; unless one uses source-based distribution like Gentoo, CRUX,
+or SourceMage, where automatic update means using source package (or
+source script).
+
+The option named "preinstalled / sysadmin job" means that either you
+didn't need to install git because it was preinstalled (and you didn't
+upgrade); or that you have to ask system administrator to have git
+installed or upgraded.
+
+Note that this question is multiple choices question because one can
+install Git in different ways on different machines or on different
+operating systems.
+
+=== 09. On which operating system(s) do you use Git? ===
+(multiple choice, with other)
+
+* Linux (includes MeeGo and Moblin)
+* MacOS X (Darwin)
+* MS Windows/msysGit (MINGW)
+* MS Windows/Cygwin
+* FreeBSD, OpenBSD, NetBSD, etc.
+* other Unix
+
+* Other, please specify
+
+
+=== 10. What Git interfaces and frontends do you use? ===
+(multiple choice, with other)
+
+* Cogito (DEPRECATED)
+* Easy Git
+* Pyrite
+* I don't know, I only use (graphical) tools
+
+* pg aka Patchy Git (DEPRECATED)
+* StGIT
+* Guilt
+* TopGit
+
+* other (please specify)
+
+=== 11. What kind of Git tools do you use? ===
+(multiple choice, with other)
+
+If a tool is both history viewer, and commit tool, please choose the
+option that corresponds to how do you use this tool.
+
+* editor/IDE VC integration (e.g. EGit, TextMate bundle, magit)
+* filemanager / shell extension (e.g. git-cheetah, TortoiseGit)
+* graphical history viewer/browser (e.g. gitk)
+* graphical commit tool (e.g. git-gui)
+* graphical diff and/or merge tool (e.g. Kompare, Meld)
+* graphical blame or pickaxe tool
+* git-instaweb, or self-hosted web interface
+* tool to manage git repositories (e.g. Gitosis, Gitolite)
+
+* my own scripts (for daily use)
+* my own scripts (for special tasks)
+
+=== 12. Which git hosting site(s) do you use for your project(s)? ===
+'''Please check only hosting sites where you publish/push to (with git)'''
+
+(multiple choice, with other)
+
+* [http://repo.or.cz repo.or.cz]
+* [http://github.com GitHub]
+* [http://gitorious.org Gitorious]
+* [http://www.indefero.net InDefero]
+* [http://savannah.gnu.org Savannah]
+* [http://sourceforge.net SourceForge]
+* [http://www.assembla.com Assembla]
+* [http://codebasehq.com Codebase]
+* [http://unfuddle.com Unfuddle]
+* [http://codesion.com Codesion]
+* [http://gitfarm.appspot.com GitFarm]
+* [http://www.projectlocker.com ProjectLocker]
+* [http://thechaw.com The Chaw]
+* [http://git.kernel.org kernel.org]
+* [http://www.freedesktop.org/wiki/ freedesktop.org]
+* [http://alioth.debian.org Alioth] (Debian)
+* [http://hosted.fedoraproject.org Fedora Hosted]
+*  git hosting site for related projects
+*  generic site without git support
+*  self hosted
+*  Other (please specify)
+
+=== 13. How do you fetch/get changes from upstream repositories? ===
+(multiple choice, with other)
+
+* git protocol        (e.g. git://git.example.com/repo.git)
+* ssh                 (e.g. ssh+git://git.example.com/repo.git, git.example.com:/srv/scm/repo.git)
+* http                (e.g. http://git.example.com/repo.git)
+* rsync (DEPRECATED)  (e.g. rsync://git.example.com/repo.git)
+* filesystem          (e.g. /path/to/repo.git, file:///path/to/repo.git)
+* via git-bundle
+* foreign SCM (e.g. git-svn)
+
+* Other, please specify
+
+'''Description:'''<br>
+This question asks about how do you get changes (updates) from
+projects you follow into your local repository. It is not about how do
+you get latest version of Git.
+
+=== 14. How do you publish/propagate your changes? ===
+(multiple choice, with other)
+
+* push
+* pull request (+ any form of announcement / notification)
+* format-patch + email
+* format-patch + other (e.g. reviewboard, issue tracker or forum)
+* git bundle
+* git-svn (to Subversion repository)
+* git-p4 (to Perforce repository)
+* foreign SCM interface (other than mentioned above)
+
+* other - please specify
+
+'''Description:'''<br>
+Publishing via bundle could mean sending bundle via email, or posting
+it on review board (or forum).
+
+Instead of git-format-patch there can be utilized other way of
+generating patch (e.g. git-show, git-diff, 'patch' view from gitweb,
+etc.)
+
+=== 15. Which of the following features do you use? ===
+(multiple choice, with other)
+
+* "smart" HTTP protocol
+* git bundle (off-line transport)
+* eol conversion (crlf)
+* gitattributes
+* custom diff/merge driver
+* submodules (subprojects)
+* subtree merge (optionally git-subtree)
+* partial (sparse) checkout, or assume-unchanged bit
+* separate worktree / core.worktree
+* multiple worktrees (git-new-worktree)
+* alternates mechanism (sharing object database)
+* stash (optionally "git stash --keep-index")
+* shallow clone (e.g. "git clone --depth=<n>")
+* detaching HEAD (e.g. "git checkout HEAD^0")
+* interactive rebase (small scale history editing)
+* interactive commit / per-hunk comitting / partial commit
+* commit message templates
+* git-filter-branch or equivalent (large history rewriting)
+* bisect (optionally "git bisect run <script>")
+* committing with dirty tree (keeping some changes uncommitted)
+* non-default hooks (from contrib/hooks/ or other)
+* shell completion of commands
+* git-aware shell prompt
+* git aliases, shell aliases for git, or own git scripts
+* one-way interaction with other SCMs (from SCM to git)
+* two-way interaction with other SCMs (from SCM to git, from git to SCM)
+* git-cvsserver
+* git notes
+
+* Other, please specify
+
+=== 16. Which of the following features would you like to see implemented in git? ===
+(multiple choice)
+
+* better support for big files (large media)
+* resumable clone/fetch (and other remote operations)
+* GitTorrent Protocol, or git-mirror
+* lazy clone / on-demand fetching of object
+* support for tracking empty directories
+* environmental variables in config, and expanding ~ and ~user in paths in config
+* better undo/abort/continue, and for more commands
+* '-n' like option for each command, which describes what would happen
+* side-by-side diffs and/or color-words diff in gitweb
+* admin and/or write features in gitweb
+* graphical history view in gitweb
+* GUI for rebase in git-gui
+* GUI for creating repository in git-gui
+* filename encoding (in repository vs in filesystem)
+* git push --create
+* localization of command-line messages
+* wholesame directory rename detection
+* graphical merge tool integrated with git-gui
+* union checkouts (some files from one branch, some from other)
+* advisory locking / "this file is being edited"
+* "commands issued" (or "command equivalents") in git-gui / gitk
+* warn before/when rewriting published history
+* built-in gitjour/bananajour support
+* syntax highlighting in git-gui
+
+* other (describe below)
+
+=== 17. Describe what features would you like to have in Git, if it is not on the list above? ===
+(free form, essay length)
+
+
+== What you think of Git ==
+
+=== 18. Overall, how happy are you with Git? ===
+(single choice)
+
+* unhappy
+* not so happy
+* happy
+* very happy
+* completely ecstatic
+
+=== 19. In your opinion, which areas in Git need improvement? ===
+'''Please state your preference.'''
+
+(matrix)
+
+''Columns: don't need / a little / some / much''
+
+* user-interface
+* documentation
+* performance
+* more features
+* tools (e.g. GUI)
+* localization (translation)
+* community (on mailing list, IRC channel)
+
+
+== Changes in Git (since year ago, or since you started using it) ==
+
+=== 20. Did you participate in previous Git User's Surveys? ===
+(multiple choice)
+
+* in 2006
+* in 2007
+* in 2008
+* in 2009
+* none of the above (this is my first Git User's Survey)
+
+=== 21. How do you compare the current version with the version from one year ago? ===
+(single choice)
+
+* better
+* no changes
+* worse
+* cannot say
+
+'''Description:'''<br>
+''Here will be list of changes in git since year ago (around 1 August 2009).''
+
+
+== Documentation. Getting help. ==
+
+=== 22. How useful have you found the following forms of Git documentation? ===
+(matrix)
+
+''Columns: never used / not useful / somewhat / useful''
+
+* Git Wiki
+* on-line help
+* help distributed with git
+
+
+'''Description:'''<br />
+* Git Wiki was to be found at http://git.wiki.kernel.org
+* on-line help includes, among others, Git Homepage (http://git-scm.com),  "Git Community Book" (http://book.git-scm.com), "Pro Git" book  (http://progit.org) and Git Reference site (http://gitref.org)
+* help distributed with git include manpages, manual, tutorials, HOWTO, release notes, technical documentation, contrib/examples/
+
+=== 23. Have you tried to get help regarding Git from other people? ===
+(single choice)
+
+* Yes
+* No
+
+=== 24. If yes, did you get these problems resolved quickly and to your liking? ===
+(single choice)
+
+* Yes
+* No
+* Somewhat
+
+=== 25. What channel(s) do you use to request help about git? ===
+(multiple choice, with other)
+
+* git mailing list (git@vger.kernel.org)
+* "Git for Human Beings" Google Group
+* msysGit mailing list / Google Group
+* IRC (#git)
+* IRC (other git/SCM related, e.g. #github)
+* request in blog post or on wiki
+* asking git guru/colleague
+* project mailing list, or IRC, or forum
+* Twitter or other microblogging platform
+* instant messaging (IM) like XMPP/Jabber
+* StackOverflow or other StackExchange site
+
+* other (please specify)
+
+=== 26. Which communication channel(s) do you use? ===
+'''Do you read the mailing list, or watch IRC channel?'''
+
+(multiple choice)
+
+* git@vger.kernel.org (main)
+* Git for Human Beings (Google Group)
+* msysGit
+* #git IRC channel
+* #git-devel IRC channel
+* #github or #gitorious IRC channel
+* #revctrl IRC channel
+
+
+== About this survey. Open forum. ==
+
+=== 27. How did you hear about this Git User's Survey? ===
+(single choice, with other)
+
+* git mailing list
+* git-related mailing list (e.g. msysGit)
+* mailing list or forum of some project
+* #git IRC channel topic
+* announcement on IRC channel
+* git homepage
+* git wiki
+* git hosting site (or blog related to such site)
+* software-related web site
+* news or social news site (e.g. Digg, Reddit)
+* blog (or blog planet)
+* other kind of web site
+* Twitter or other microblogging platform
+
+* other - please specify
