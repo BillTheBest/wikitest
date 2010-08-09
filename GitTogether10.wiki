@@ -26,6 +26,8 @@ Any questions, please contact Shawn Pearce ( gsoc@spearce.org ).
 # Chris Aniszczyk
 # Thomas Rast
 # Jelmer Vernooij
+# Jens Lehmann
+# Heiko Voigt
 
 Google has us capped at ~30 attendees.
 
