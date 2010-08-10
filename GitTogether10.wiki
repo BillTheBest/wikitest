@@ -28,6 +28,7 @@ Any questions, please contact Shawn Pearce ( gsoc@spearce.org ).
 # Jelmer Vernooij
 # Jens Lehmann
 # Heiko Voigt
+# Sverre Rabbelier
 
 Google has us capped at ~30 attendees.
 
