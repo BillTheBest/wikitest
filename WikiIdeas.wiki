@@ -1,0 +1,37 @@
+== More admins ==
+
+Currently there's only one admin ([[User:Dscho|Johannes Schindelin]]), it would be healthy to have more than one.
+
+== Use user talk pages ==
+
+For example [[User_talk:Dscho|this one]]. This way wiki-specific issues can be discussed.
+
+For more information see [http://www.mediawiki.org/wiki/Help:Talk_pages mediawiki's help].
+
+== Stop immediate blocking ==
+
+Up to now, good faithed users have been blocked immediately, and permanently, without a warning. Instead of doing that, a policy like [http://en.wikipedia.org/wiki/Wikipedia:Blocking_policy#Notifying_the_blocked_user wikipedia's one] should be followed:
+
+# Revert the change
+# Notify the user (through user talk pages)
+# If the bad behavior continues, continue with the blocking
+
+Alternatively temporary blocks can be issued.
+
+== Revisit old blocks ==
+
+Some people might have been wrongly blocked. By changing the blocking policy the old blocks might not apply and warnings should be issued instead.
+
+== Allow users to see deleted pages ==
+
+This would allow transparency into the action of the admins.
+
+== Create a patrol group ==
+
+Users, can help to patrol for page vandalism, all that is needed is the creation of a patrol group.
+
+This way the burden of admins is decreased.
+
+== Disallow user pages ==
+
+The community has expressed certain discomfort on letting people have user pages. It might make sense to disallow, or even disable them to avoid future issues.
