@@ -35,3 +35,5 @@ This way the burden of admins is decreased.
 == Disallow user pages ==
 
 The community has expressed certain discomfort on letting people have user pages. It might make sense to disallow, or even disable them to avoid future issues.
+
+: I disagree with this one. They can contain useful information, and unwanted information can be edited out by policy, just like everywhere else. At the very least it should be discussed further. -- [[User:Felipec|Felipec]] 17:46, 10 August 2010 (UTC)
