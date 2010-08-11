@@ -1,3 +1,4 @@
+__NEWSECTIONLINK__
 == More admins ==
 
 Currently there's only one admin ([[User:Dscho|Johannes Schindelin]]), it would be healthy to have more than one.
@@ -37,3 +38,12 @@ This way the burden of admins is decreased.
 The community has expressed certain discomfort on letting people have user pages. It might make sense to disallow, or even disable them to avoid future issues.
 
 : I disagree with this one. They can contain useful information, and unwanted information can be edited out by policy, just like everywhere else. At the very least it should be discussed further. -- [[User:Felipec|Felipec]] 17:46, 10 August 2010 (UTC)
+
+== Create a page for communicating with admins ==
+Wiki pages need to be completely deleted every now and then. It can only be done by an admin. There must be a way for a non-admin user to notify an admin about a page that should be deleted.
+
+In Wikipedia this is usually done using a template that is put on the top of the page and says something like "This template may meet Wikipedia’s criteria for speedy deletion" and puts the page in the "Candidates for speedy deletion" category. (see http://en.wikipedia.org/wiki/Category:Candidates_for_speedy_deletion ). This is useful for Wikipedia, but is a little too much for a small wiki like this one is (at least for now).
+
+A simpler way to do that is to create a page that should be watched by all admins and on which requests to delete pages should be written.
+
+Until such a page is created, i'll report here that the page [[Quick Runescape Experience]] should be deleted. --[[User:Amire80|Amir E. Aharoni]] 20:45, 11 August 2010 (UTC)
