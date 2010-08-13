@@ -1007,7 +1007,7 @@ git rev-list --all --objects |
 
 == {{Gitlink|dangling|Howto find dangling objects}} How do I recover uncommitted changes?  ==
 
-Changes that were never <code>add</code>ed <code>stash</code>ed are not known to git and therefore cannot be recovered. Committed changes can generally be recovered using the <code>reflog</code>. The following script can help you recover changes that were <code>add</code>ed to the index, but never committed. It shows a list of dangling blob sha1's. These are generally objects that were discarded from the index. A blob can be dumped to standard output using <code>git show &lt;sha1&gt;</code>.
+Changes that were never <code>add</code>ed or <code>stash</code>ed are not known to git and therefore cannot be recovered. Committed changes can generally be recovered using the <code>reflog</code>. The following script can help you recover changes that were <code>add</code>ed to the index, but never committed. It shows a list of dangling blob sha1's. These are generally objects that were discarded from the index. A blob can be dumped to standard output using <code>git show &lt;sha1&gt;</code>.
 
 <pre><nowiki>
 #!/bin/bash
