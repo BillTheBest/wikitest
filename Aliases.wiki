@@ -288,6 +288,18 @@ Here are some aliases to help git-svn users migrate away from SVN.  Be careful t
         #ci = commit
 </nowiki></pre>
 
+== Getting pretty logs ==
+
+There is my ''git lg'' alias:
+
+<pre><nowiki>
+[alias]
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+</nowiki></pre>
+
+Full details are in my "[http://www.jukie.net/bart/blog/pimping-out-git-log pimping out git log]" blog entry.
+
+
 ----
 [[Category:GitDocumentation]]
 
