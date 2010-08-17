@@ -29,6 +29,7 @@ Any questions, please contact Shawn Pearce ( gsoc@spearce.org ).
 # Jens Lehmann
 # Heiko Voigt
 # Sverre Rabbelier
+# John 'Warthog9' Hawley
 
 Google has us capped at ~30 attendees.
 
