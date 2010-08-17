@@ -23,7 +23,8 @@ The objective of git-remote-svn is to provide native interaction with SVN reposi
 ''Topics merged:''<BR>
 * [http://article.gmane.org/gmane.comp.version-control.git/145194 &#91;PATCH 0/5&#93; Improve remote helper documentation]
 
-''Progress report / status:'' Started.
+''Progress report / status:'' 
+* Final report: [http://article.gmane.org/gmane.comp.version-control.git/153750 &#91;GSoC update&#93; git-remote-svn: The final one]
 
 == Completing libgit2 ==
 ''Student:'' Vincent Marti<BR>
@@ -40,7 +41,8 @@ The goal of this application is the completion of several key features which the
 ''Git repository (for cloning):''
 * git://repo.or.cz/libgit2.git (official)
 
-''Progress reports / status:''
+''Progress reports / status:'' 
+* Final report: [http://article.gmane.org/gmane.comp.version-control.git/153676 &#91;GSoC&#93; Libgit2, Summer of Code is over]
 
 == Line level history browser ==
 ''Student:'' Bo Yang<BR>
