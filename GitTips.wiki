@@ -111,7 +111,12 @@ GIT_ALTERNATE_OBJECT_DIRECTORIES=../repo/.git/objects cg-diff -r `GIT_DIR=../rep
 {{anchor|opendocument}}
 
 == How to use git to track OpenDocument (OpenOffice, Koffice) files? ==
-=== Instructions for Git 1.6.1 or later ===
+==== Using clean and smudge filters to diff and merge on the XML ====
+http://kerneltrap.org/mailarchive/git/2008/9/15/3305014 suggests a method which stores the unzipped OpenDocument file in git. Thus you should be able to both diff and merge the plain XML of two versions.
+
+===Getting a plain-text diff===
+The alternative is to store the binary, and have an alias to convert to plain text for diffing.
+==== Instructions for Git 1.6.1 or later ====
 Git now comes with the [[textconv]] features, which allows using an arbitrary command to convert a file to text before diffing. It makes it very easy to set up, and allows keeping all the goodness of git diff like --color, --color-words, ...
 To have more information on textconv features, and to see some demos, please refer to this [[textconv | article]]
 
@@ -129,8 +134,7 @@ Now, for each project, you just need to ask git to use this driver in .gitattrib
 *.odp diff=odf
 </nowiki></pre>
 ... and you're done! Enjoy "git diff", "git log -p", "git show" in this project.
-
-=== Instructions for older Git's ===
+==== Instructions for older Git's ====
 To view plaintext diff of OpenDocument files in Git, you can use the GIT_EXTERNAL_DIFF environment variable. First, install :
 
 * [http://stosberg.net/odt2txt/ odt2txt]: A simple (and stupid) converter from OpenDocument to plain text
