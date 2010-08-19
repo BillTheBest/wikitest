@@ -113,6 +113,7 @@ GIT_ALTERNATE_OBJECT_DIRECTORIES=../repo/.git/objects cg-diff -r `GIT_DIR=../rep
 == How to use git to track OpenDocument (OpenOffice, Koffice) files? ==
 === Using clean and smudge filters to diff and merge on the XML ===
 http://kerneltrap.org/mailarchive/git/2008/9/15/3305014 suggests a method which stores the unzipped OpenDocument file in git. Thus you should be able to both diff and merge the plain XML of two versions.
+However, note [http://permalink.gmane.org/gmane.comp.version-control.git/103077 this warning] about the "rezip" approach.
 
 ===Getting a plain-text diff===
 The alternative is to store the binary, and have an alias to convert to plain text for diffing.
