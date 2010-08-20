@@ -59,6 +59,7 @@ This project will add a set of new features to 'git log' command. Those features
 The master branch of the repo is for the project.
 
 ''Progress reports / status:'' <BR>
+* Final report: [http://article.gmane.org/gmane.comp.version-control.git/154040 Wrap up of Line Level History Browser]
 
 == Splitting gitweb and developing write functionalities (Integrated web client for git) ==
 ''Student:'' Pavan Kumar Sankara ([http://github.com/pkumar pkumar] on GitHub) <BR>
