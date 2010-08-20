@@ -18,9 +18,10 @@ Git can be obtained by using the [http://www.cygwin.com/ Cygwin] system and inst
 If you have the main development team on linux/unix, and peripheral developers or translators on Windows, consider using <code><nowiki>git-cvsserver</nowiki></code> to give those users read or read/write access to the GIT tree via the CVS protocol. Committers using <code><nowiki>git-cvsserver</nowiki></code> have some limits: they cannot branch, tag or merge. On the other hand, git-cvsserver works well with Eclipse, TortoiseCVS and other easy-to-use CVS clients. You could also set up a SVN repository and use git-svn to achieve the same thing as using CVS.
 
 == Others ==
-* EclipseIDE-based GIT client, based on a pure [http://repo.or.cz/w/egit.git Java implementation] of GIT's internals.
+* [http://www.eclipse.org/egit/ EclipseIDE-based GIT] client, based on a pure [http://www.eclipse.org/jgit Java implementation] of GIT's internals.
 * Windows Explorer extension ([[MSysGit:GitCheetah|Git-Cheetah]])
 * Git Extensions for Windows and Visual Studio ([http://sourceforge.net/projects/gitextensions/ http://sourceforge.net/projects/gitextensions/])
+* [http://code.google.com/p/tortoisegit/ Tortoise Git] is installed as an extension to the Windows Explorer
 
 == OS X ==
 Git for the OS X is installed by using the [http://code.google.com/p/git-osx-installer/downloads/list git-osx-installer] but if you haven't got Leopard you're screwed because there aren't any install scripts and the source won't compile.
