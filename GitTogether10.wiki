@@ -91,6 +91,12 @@ Please propose a topic by adding it to the table below.
 |  Presentation / Discussion
 |  [http://samba.org/~jelmer/dulwich Dulwich]
 |  20 min
+|-
+|  Proposed
+|  Brad Larson
+|  Presentation / Discussion
+|  [http://hudson-ci.org/ Hudson] and [http://code.google.com/p/gerrit/ Gerrit] integration
+|  20 min
 |}
 
 == Directions ==
