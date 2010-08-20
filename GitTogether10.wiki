@@ -32,6 +32,7 @@ Any questions, please contact Shawn Pearce ( gsoc@spearce.org ).
 # John 'Warthog9' Hawley
 # Patrick Renaud or David Bainbridge
 # Martin von Zweigbergk
+# Brad Larson
 
 Google has us capped at ~30 attendees.
 
