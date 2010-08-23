@@ -30,7 +30,7 @@ Any questions, please contact Shawn Pearce ( gsoc@spearce.org ).
 # Heiko Voigt
 # Sverre Rabbelier
 # John 'Warthog9' Hawley
-# Patrick Renaud or David Bainbridge
+# Patrick Renaud
 # Martin von Zweigbergk
 # Brad Larson
 
