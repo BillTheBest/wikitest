@@ -192,7 +192,13 @@ If you try to push a branch, you might get this error message:
 error: failed to push some refs to 'git@github.com:pieter/gitx.git'
 </nowiki></pre>
 
-This means that your branch is not a strict superset of the remote side. That is, the remote side has commits that your side does not have. If you would push, the other side would lose changes. The most likely reason for this is that you need to pull from the remote first. You can see what changes the remote side has by fetching first and then checking the log. For example,
+This means that your branch is not a strict superset of the remote side. That is, the remote side has commits that your side does not have. If you would push, the other side would lose changes. The most likely reason for this is that you need to
+
+<pre><nowiki>
+	git pull
+</nowiki></pre>
+
+from the remote first. You can see what changes the remote side has by fetching first and then checking the log. For example,
 
 <pre><nowiki>
 	git fetch origin
@@ -221,6 +227,7 @@ ie, delete the branch remotely first (this is often permitted), then re-push the
 Be warned that if you rewind branches, others might get into problem when pulling.  There is the chance that they will merge in the branch that they fetched with the new one that you've published, effectively keeping the changes that you are trying to get rid of.  However, it will only be their copies that have the bad revisions.  For this reason, rewinding branches is considered mildly antisocial.  Nonetheless, it is often appropriate.
 
 {{anchor|git-push after-rebase}}
+
 == {{Gitlink|push-f|If you use push -f, others might get into problem when pulling}} Why won't "git push" work after I rebased a branch?  ==
 
 After you have rebased one of your local branches, you are trying to push your changes to a remote repository. But <code><nowiki>git push</nowiki></code> fails with this error message:
