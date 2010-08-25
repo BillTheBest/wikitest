@@ -22,7 +22,6 @@ Any questions, please contact Shawn Pearce ( gsoc@spearce.org ).
 # Cecilia Svensson
 # Ulrik Sjölin
 # Stephen Boyd
-# Christian Couder
 # Chris Aniszczyk
 # Thomas Rast
 # Jelmer Vernooij
@@ -36,7 +35,7 @@ Any questions, please contact Shawn Pearce ( gsoc@spearce.org ).
 
 Google has us capped at ~30 attendees.
 
-Please join the [http://lists.utsl.gen.nz/mailman/listinfo.cgi/gittogether GitTogether mailing list].  We promise to keep the traffic low and only about this event. Useful information for attendees will be sent to this list as we get closer to the [[GitTogether]].
+Please join the [http://groups.google.com/group/gittogether-2010/ GitTogether mailing list].  We promise to keep the traffic low and only about this event. Useful information for attendees will be sent to this list as we get closer to the [[GitTogether]].
 
 == Approximate Agenda ==
 
