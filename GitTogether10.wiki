@@ -55,37 +55,31 @@ Dinners:
 Please propose a topic by adding it to the table below.
 
 {| border="1" cellpadding="2" cellspacing="0"
-|  ''Status'' 
 |  ''Speaker'' 
 |  ''Kind of session'' 
 |  ''Title'' 
 |  ''Talk Length'' 
 |-
-|  Proposed
 |  Avery Pennarun
 |  Design presentation + discussion
 |  How [http://github.com/apenwarr/bup bup] stores 1TB+ in git, and what exploded along the way
 |  40 min
 |-
-|  Proposed
 |  Avery Pennarun
 |  Discussion / brainstorm
 |  How can we make git-submodule/[http://github.com/apenwarr/git-subtree git-subtree] usable by mere mortals?
 |  20 min
 |-
-|  Proposed
 |  Scott Chacon
 |  Presentation / Discussion
 |  The state of libgit2 
 |  20 min
 |-
-|  Proposed
 |  Jelmer Vernooij
 |  Presentation / Discussion
 |  [http://samba.org/~jelmer/dulwich Dulwich]
 |  20 min
 |-
-|  Proposed
 |  Brad Larson
 |  Presentation / Discussion
 |  [http://hudson-ci.org/ Hudson] and [http://code.google.com/p/gerrit/ Gerrit] integration
