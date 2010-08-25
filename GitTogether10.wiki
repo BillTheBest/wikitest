@@ -84,6 +84,21 @@ Please propose a topic by adding it to the table below.
 |  Presentation / Discussion
 |  [http://hudson-ci.org/ Hudson] and [http://code.google.com/p/gerrit/ Gerrit] integration
 |  20 min
+|-
+|  Shawn Pearce
+|  Presentation
+|  Git on DHTs
+|  15 min
+|-
+|  Shawn Pearce
+|  Discussion
+|  Distributed code reviews
+|  20 min
+|-
+|  Everyone
+|  Ignite/Lighting Talks
+|  How to (not) abuse Git
+|  20/50 min
 |}
 
 == Directions ==
