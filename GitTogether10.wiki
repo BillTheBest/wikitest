@@ -32,6 +32,7 @@ Any questions, please contact Shawn Pearce ( gsoc@spearce.org ).
 # Patrick Renaud
 # Martin von Zweigbergk
 # Brad Larson
+# Magnus Bäck
 
 Google has us capped at ~30 attendees.
 
