@@ -3,16 +3,15 @@ __NOTOC__
 
 <b><font size="large">The "Git User's Survey 2010" has begun.</font></b>
 
-[https://www.survs.com/survey/MUPYR8UJ4B Git User's Survey 2010] is up now!. Please devote a few minutes of your time to fill this simple questionnaire, it will help a lot the Git community to understand your needs, what you like of Git, and of course what you don't like of it.
+The [https://www.survs.com/survey/MUPYR8UJ4B Git User's Survey 2010] is now up! Please devote a few minutes of your time to fill out the simple questionnaire; it'll help the Git community understand your needs, what you like about Git (and what you don't), and overall help us improve it.
 
-You will be able to take part in the survey from '''1 September''' to '''15 October, 2010'''.
+The survey will be open from '''1 September''' to '''15 October, 2010'''.
 
 Have fun!
 
 * http://tinyurl.com/GitSurvey2010 (expands to the link below)
 * https://www.survs.com/survey/MUPYR8UJ4B
 
-There is also alternate version which does not require cookies,
-but it doesn't allow one to go back to response and edit it.  
+There's also an alternate version which doesn't require cookies, but you won't be able to go back and edit your responses.
 
 * https://www.survs.com/survey/AIOREJNBPX
