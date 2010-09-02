@@ -33,6 +33,8 @@ Any questions, please contact Shawn Pearce ( gsoc@spearce.org ).
 # Martin von Zweigbergk
 # Brad Larson
 # Magnus Bäck
+# Jonathan "Duke" Leto
+
 
 Google has us capped at ~30 attendees.
 
