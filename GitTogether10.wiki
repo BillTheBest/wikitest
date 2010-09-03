@@ -35,6 +35,7 @@ Any questions, please contact Shawn Pearce ( gsoc@spearce.org ).
 # Magnus Bäck
 # Jonathan "Duke" Leto
 # Juan "ninja" Delgado
+# Jeff King
 
 
 Google has us capped at ~30 attendees.
