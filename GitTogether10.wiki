@@ -36,6 +36,7 @@ Any questions, please contact Shawn Pearce ( gsoc@spearce.org ).
 # Jonathan "Duke" Leto
 # Juan "ninja" Delgado
 # Jeff King
+# Elijah Newren (hoping "~30 attendees" leaves enough wiggle room)
 
 
 Google has us capped at ~30 attendees.
