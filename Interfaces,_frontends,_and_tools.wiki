@@ -1140,6 +1140,9 @@ See [[git-p4 Usage]] instructions.
 === Levitation (export Wikipedia page history into a Git repository) ===
 * [http://github.com/scy/levitation Levitation] is a project to convert Wikipedia database dumps into Git repositories. It has been successfully tested with a small Wiki (bar.wikipedia.org) having 12,200 articles and 104,000 revisions. Seems to have stalled.
 
+=== Blawd ===
+* [http://github.com/perigrin/blawd Blawd] is a blogging engine written in Perl for generating simple blogs from markdown files stored in Git repositories. It is successfully used in a couple different blogs in the Perl community. It is based upon Moose and Git::PurePerl.
+
 == Bug/issue trackers, etc. ==
 
 === ditz ===
