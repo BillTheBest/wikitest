@@ -36,10 +36,8 @@ Any questions, please contact Shawn Pearce ( gsoc@spearce.org ).
 # Jonathan "Duke" Leto
 # Juan "ninja" Delgado
 # Jeff King
-# Elijah Newren (hoping "~30 attendees" leaves enough wiggle room)
 
-
-Google has us capped at ~30 attendees.
+Google has us capped at 30 attendees.
 
 Please join the [http://groups.google.com/group/gittogether-2010/ GitTogether mailing list].  We promise to keep the traffic low and only about this event. Useful information for attendees will be sent to this list as we get closer to the [[GitTogether]].
 
