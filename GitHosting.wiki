@@ -15,8 +15,7 @@ Those are public Git hosting sites where any project can be hosted, perhaps with
 * [http://codesion.com/ Codesion] Enterprise Git and Subversion hosting, and Software project management. Includes free and open source plans since 2002.
 * [http://codaset.com Codaset] hosts free, private and semi-private Git based projects, and provides each of your projects with web based Git source control, issue/ticket management, a wiki, blog, and an advanced permissions system, amongst others.
 ** [http://ariejan.net/2009/09/08/codaset-com-github-but-better/ Codaset.com: Github, but better]
-** [http://www.pseudocoder.com/archives/interview-with-joel-moss-creator-of-codaset 
-Interview with Joel Moss creator of Codaset]
+** [http://www.pseudocoder.com/archives/interview-with-joel-moss-creator-of-codaset Interview with Joel Moss creator of Codaset]
 * [http://codebasehq.com Codebase] is a Git hosting service with full online source browser, changeset viewer, deployment tracking, along with ticketing and other project management functionality. Designed for private/company projects.
 ** [http://drewblas.com/2009/03/07/my-new-love-codebase-hq/ Drew Blas on Codebase and Github]
 * [http://unfuddle.com/ Unfuddle] (Software Project Management: Git and Subversion Hosting), free (or different payment plans) but not open source.
