@@ -41,7 +41,7 @@ __TOC__
 * [http://p3rl.org/Git::PurePerl Git::PurePerl] is pure Perl interface to Git repositories.  It was mostly based on [http://grit.rubyforge.org/ Grit] (described below).
 
 === Git::Wrapper ===
-* [http://search.cpan.org/dist/Git-Wrapper Git::Wrapper] is a Perl interface to the Git executables. Tt provides an API that uses Perl data structures for argument passing, instead of CLI-style --options as Git.pm does.
+* [http://search.cpan.org/dist/Git-Wrapper Git::Wrapper] is a Perl interface to the Git executables. It provides an API that uses Perl data structures for argument passing, instead of CLI-style --options as Git.pm does.
 
 === GitPython ===
 * A Python module that provides object model access to your Git repositories by calling the Git executables and parsing output. Once you have created a repository object, you can traverse it to find parent commit(s), trees, blobs, etc.. Port of the [http://grit.rubyforge.org/ grit] library in Ruby created by Tom Preston-Werner and Chris Wanstrath. Git repository is [http://gitorious.org/projects/git-python/ available here].
