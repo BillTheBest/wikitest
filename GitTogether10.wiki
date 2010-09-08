@@ -105,6 +105,11 @@ Please propose a topic by adding it to the table below.
 |  Ignite/Lighting Talks
 |  How to (not) abuse Git
 |  20/50 min
+|-
+|  Thomas Rast
+|  Presentation / brainstorming
+|  Resurrecting the exponential-stride/bisection algorithm; practical issues
+|  20 min
 |}
 
 == Directions ==
