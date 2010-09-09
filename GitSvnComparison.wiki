@@ -129,7 +129,7 @@ As Git uses a SHA1 to uniquely identify a commit each specific revision can only
 
 Secondly, SVN's revision numbers are predictable. If the current commit is 435 the next one will be 436. It's very easy then to go through a few sequential revisions to, e.g. look at differences, revert to an old revision to find when a regression was introduced, etc. Furthermore, without looking up any additional information, you know that commit 436 was done after 435. Similar actions and knowledge from git requires looking at the log.
 
-Git provides shorthand syntax to compensate for this by allowing you to add any number of ^ after a revision to indicate how far back to go. e8fa9c^^^..e8fa9c, for instance, would show the history for e8fa9c and it's 3 parent revisions.
+Git provides shorthand syntax to partially compensate for this by allowing you to add any number of ^ after a revision to indicate how far back to go. e8fa9c^^^..e8fa9c, for instance, would show the history for e8fa9c and it's 3 parent revisions. (However, it does not provide any shorthand syntax for going ''forward'' in time.)
 
 ----
 = The Original Email =
