@@ -898,11 +898,11 @@ right by making branching really cheap.  It's probably on their
 main webpage where they probably say branching in subversion is
 O(1) operation, you can do as many cheap branches as you want.
 Nevermind that O(1) is actually with pretty large O I think, but
-even if it takes millionths of a second to do branching, who
-cares?  It's a wrong thing you are measuring.  Nobody is
+even if it takes a millionth of a second to do branching, who
+cares?  It's the wrong thing you are measuring.  Nobody is
 interested in branching, branches are completely useless unless
 you merge them, and CVS cannot merge anything at all.  You can
-merge things once, but CVS then forgets what you did, you can
+merge things once, but because CVS then forgets what you did, you can
 never ever merge anything again without getting horrible
 horrible conflicts.  Merging in subversion is a complete
 disaster. The subversion people kind of acknowledge this and they
