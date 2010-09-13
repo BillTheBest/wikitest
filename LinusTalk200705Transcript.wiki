@@ -877,7 +877,7 @@ true.
 
 [shows "Performance" slide]
 
-That is not performance is all about.  If you can do something
+That is not what performance is all about.  If you can do something
 really fast, really well, people will start using it differently.
 One of the things I wanted to make sure is that merges go really
 really quickly because I want people to merge often and merge
