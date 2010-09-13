@@ -672,7 +672,7 @@ a demonstration, and it's not a very interesting demonstration
 anyway, but this is a laptop that is 4-5 years old. It's like a
 Pentium-M 1.6 GHz thing.  I could show you me doing a full diff
 of the kernel on that laptop in just over a second. On my main
-machine, it just takes less than a tenth of a second. That's the
+machine, it takes less than a tenth of a second. That's the
 kind of performance you simply cannot get if you have to go over
 the network.  We are talking a couple of packets, going over the
 network, and you just blew the performance. So if you have a
