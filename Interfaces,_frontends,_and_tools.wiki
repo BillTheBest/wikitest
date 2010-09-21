@@ -1325,6 +1325,9 @@ The Version 3 scripts are part of git contrib/ as of 2010-04-02.
 === Parabuild ===
 * [http://www.viewtier.com/products/parabuild/index.htm Parabuild] is a Continuous Integration and Release Management system with [http://www.viewtier.com//products/parabuild/git_continuous_integration_release_management.htm native support for Git].
 
+=== fedora-packager ===
+* [https://fedorahosted.org/fedora-packager fedora-packager] is a collection of tools for [http://www.fedoraroject.org Fedora] developers and includes fedpkg which is specifically for managing Fedora packages within Fedora's git based package repository.  Fedpkg thinly wraps common git commands such as clone, commit, pull/push, etc...
+
 = See also =
 * [[InterfacesFrontendsAndToolsWishlist]]
 * [[Plumbings]]
