@@ -40,7 +40,7 @@ $ git config branch.master.remote origin
 $ git config branch.master.merge refs/heads/master
 
 </nowiki></pre>
-Check out the superproject somewhere private and add all the submodules.
+Check out the superproject somewhere private and add all the submodules (note: it's important to give an absolute path for submodules on the local filesystem).
 
 <pre><nowiki>
 $ cd ~/subtut/private
