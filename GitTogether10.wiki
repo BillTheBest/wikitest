@@ -15,7 +15,6 @@ Any questions, please contact Shawn Pearce ( gsoc@spearce.org ).
 # Jean-Baptiste Queru
 # Avery Pennarun
 # Junio C Hamano
-# Scott Chacon
 # Tom Preston-Werner
 # Maria Gutowski
 # Fredrik Luthander
@@ -38,6 +37,7 @@ Any questions, please contact Shawn Pearce ( gsoc@spearce.org ).
 # Jeff King
 # Anush Elangovan
 # Mandeep Baines
+# Benjamin Meyer
 
 Google has us capped at 32 attendees.
 
