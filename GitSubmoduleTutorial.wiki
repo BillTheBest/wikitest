@@ -33,6 +33,9 @@ $ git add super.txt
 $ git commit -m "Initial commit of empty superproject"
 $ git clone --bare . ~/subtut/public/super.git
 $ git remote add origin ~/subtut/public/super.git
+$ git config branch.master.remote origin
+$ git config branch.master.merge refs/heads/master
+
 </nowiki></pre>
 Check out the superproject somewhere private and add all the submodules.
 
