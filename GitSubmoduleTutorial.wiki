@@ -18,6 +18,9 @@ $ for mod in a b c d; do
     git commit -m "Initial commit, public module $mod"
         git clone --bare . ~/subtut/public/$mod.git
         git remote add origin ~/subtut/public/$mod.git
+        git config branch.master.remote origin
+        git config branch.master.merge refs/heads/master
+
     cd ..
 done
 </nowiki></pre>
