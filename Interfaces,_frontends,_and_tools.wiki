@@ -1079,6 +1079,9 @@ See [[git-p4 Usage]] instructions.
 ==== vss2git (Visual SourceSafe to GIT or SVN) ====
 * [http://github.com/Gediminas/vss2git/ vss2git / vss2svn] - tool (written in C++) converts Visual SourceSafe database to GIT / SVN repository.  Does not use direct analysis of VSS database - simple cycle "ss get" "git/svn commit" is used.  Deleted files are skipped during conversion process.  File revisions are grouped by user but split by date.  Only cpp & h files are converted (hardcoded but easy to edit).  (6GB database 10 years development took ~4 hours to convert)
 
+==== tfs2git (Team Foundation Server to Git) ====
+* [http://github.com/WilbertOnGithub/TFS2GIT tfs2git] - Powershell script that converts Team Foundation Server repositories to a Git repository. Replays the history from the Team Foundation Server and adds it to a Git repository.
+
 == Hooks ==
 
 === git-notify ===
