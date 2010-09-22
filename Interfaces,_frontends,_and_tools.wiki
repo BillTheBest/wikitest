@@ -1209,6 +1209,9 @@ The Version 3 scripts are part of git contrib/ as of 2010-04-02.
 === Gitdm ===
 * ''Gitdm'' (the "git data miner") ([http://repo.or.cz/w/git-dm.git gitweb], mirror) is the tool that Greg KH and Jonathan Corbet have used to crank out statistics on where kernel patches come from at LWM ([http://lwn.net/images/gitdm/gitdm-config-2.6.26.tar.bz2 configuration files], tar.bz2). Public repository for gitdm can be found at: git://git.lwn.net/gitdm.git
 
+=== git-what-branch ===
+* [http://github.com/SethRobertson/git-what-branch git-what-branch] by Seth Robertson allows you to perform forensics investigation to discover the merge-path a particular commit took in getting to any named branch or user specified object.
+
 === git2rss ===
 * [http://bent.latency.net/git2rss git2rss] by Bennett Todd is a Perl script to generate an RSS summary of a git repo. Currently to be used rather as example. Similar to [http://darcs.simplicidade.org/repos/darcs2rss/darcs2rss darcs2rss].
 
@@ -1304,6 +1307,9 @@ The Version 3 scripts are part of git contrib/ as of 2010-04-02.
 
 === git-subtree ===
 * ''git-subtree'' ([http://github.com/apenwarr/git-subtree github]) by Avery Pennarun is an experimental alternative to the git-submodule command, making it easier to use workflow which uses "subtree" merge strategy. The series introducing git-subtree was posted twice on git mailing list: [http://thread.gmane.org/gmane.comp.version-control.git/117612 here] and [http://thread.gmane.org/gmane.comp.version-control.git/118635 here].<BR>''See also:'' [http://apenwarr.ca/log/?m=200904#30 A new alternative to git submodules: git subtree] blog post (and [http://news.ycombinator.com/item?id=604889 comments]).
+
+=== gitslave ===
+* [http://gitslave.sourceforge.net gitslave] by Seth Robertson creates a group of related repositories all of which are concurrently developed on and on which all git operations should operate, so when you branch, each repository in the project is branched in turn.  Similarly when you commit, push, pull, merge, tag, checkout, status, log, etc; each git command will run on the superproject and all slave repositories in turn.
 
 === bbchop ===
 * ''bbchop'' ([http://github.com/Ealdwulf/bbchop github]) by Ealdwulf Wuffinga is a tool for bisecting on an intermittent bug, using Bayesian decision theory.
