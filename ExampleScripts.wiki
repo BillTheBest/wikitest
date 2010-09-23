@@ -188,6 +188,10 @@ use strict;
 my %ls = ();
 my $commit_time;
 
+if ($ENV{GIT_DIR}) {
+	chdir($ENV{GIT_DIR}) or die $!;
+}
+
 $/ = "\0";
 open FH, 'git ls-files -z|' or die $!;
 while (<FH>) {
