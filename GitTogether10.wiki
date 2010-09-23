@@ -33,7 +33,7 @@ Any questions, please contact Shawn Pearce ( gsoc@spearce.org ).
 # Brad Larson
 # Magnus Bäck
 # Jonathan "Duke" Leto
-# Juan "ninja" Delgado
+# Juan Delgado
 # Jeff King
 # Anush Elangovan
 # Mandeep Baines
