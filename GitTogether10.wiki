@@ -17,7 +17,6 @@ Any questions, please contact Shawn Pearce ( gsoc@spearce.org ).
 # Junio C Hamano
 # Tom Preston-Werner
 # Maria Gutowski
-# Fredrik Luthander
 # Cecilia Svensson
 # Ulrik Sjölin
 # Stephen Boyd
@@ -39,7 +38,7 @@ Any questions, please contact Shawn Pearce ( gsoc@spearce.org ).
 # Mandeep Baines
 # Benjamin Meyer
 
-Google has us capped at 32 attendees.
+Google has us capped at 31 attendees.
 
 Please join the [http://groups.google.com/group/gittogether-2010/ GitTogether mailing list].  We promise to keep the traffic low and only about this event. Useful information for attendees will be sent to this list as we get closer to the [[GitTogether]].
 
