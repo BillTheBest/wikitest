@@ -17,7 +17,7 @@ Any questions, please contact Shawn Pearce ( gsoc@spearce.org ).
 # Junio C Hamano
 # Tom Preston-Werner
 # Maria Gutowski
-# Cecilia Svensson
+# Fredrik Luthander
 # Ulrik Sjölin
 # Stephen Boyd
 # Chris Aniszczyk
