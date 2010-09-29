@@ -9,6 +9,9 @@ The list volume is around 100 posts per day, to subscribe send an email to:
 * majordomo@vger.kernel.org
 With an empty subject line and the words "subscribe git" in the message body.
 
+There's also a users mailing list where the list volume is much lower. For some users this might be more comfortable.
+* http://groups.google.com/group/git-users
+
 = Mailing List Archives =
 There are several sites that archive all of the mailing list traffic so that you can search for discussions that have happened in the past:
 
