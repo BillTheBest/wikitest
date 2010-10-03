@@ -50,6 +50,7 @@ All documentation residing on this wiki is put in the [[Category:GitDocumentatio
 * [http://jonas.iki.fi/git_guides/HTML/git_guide Git in a Nutshell] by Jonas Jusélius is very well done [http://www.chem.helsinki.fi/~jonas/git_guides/ Mirror(HTML)]
 * [http://jonas.iki.fi/git_guides/HTML/CVS2git CVS to Git transition guide] [http://www.chem.helsinki.fi/~jonas/git_guides/ Mirror(HTML)]
 * An [http://utsl.gen.nz/talks/git-svn/intro.html introduction to git-svn]
+* [http://www.tfnico.com/presentations/git-and-subversion How to use Git and Subversion together], screencasts and blog-posts by Thomas Ferris Nicolaisen
 * [http://www.jdl.com/papers The Git Papers] by Jon Loeliger
 * Git wikibook: [http://en.wikibooks.org/wiki/Source_Control_Management_With_Git Source Control Management With Git]
 * [http://linux.yyz.us/git-howto.html The Kernel Hacker's Git Tutorial] by Jeff Garzik
