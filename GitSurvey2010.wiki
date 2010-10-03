@@ -18,4 +18,5 @@ There's also an alternate version which doesn't require cookies, but you won't b
 
 The live results of the survey can be found at:
 
+* http://tinyurl.com/GitSurvey2010Analysis (expands to the link below)
 * https://www.survs.com/results/33Q0OZZE/MV653KSPI2
