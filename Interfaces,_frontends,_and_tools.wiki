@@ -1340,6 +1340,7 @@ The Version 3 scripts are part of git contrib/ as of 2010-04-02.
 = See also =
 * [[InterfacesFrontendsAndToolsWishlist]]
 * [[Plumbings]]
+* [http://stackoverflow.com/questions/3847740/list-of-useful-git-tools List of useful git tools] question on StackOverflow.
 
 ----
 [[Category:Tools]]
