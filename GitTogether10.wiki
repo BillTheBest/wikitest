@@ -109,6 +109,11 @@ Please propose a topic by adding it to the table below.
 |  Presentation / brainstorming
 |  Resurrecting the exponential-stride/bisection algorithm; practical issues
 |  20 min
+|-
+|  Jonathan "Duke" Leto
+|  Discussion / brainstorming
+|  Git and Encryption : What is the best way to do X ?
+|  30 min
 |}
 
 == Directions ==
