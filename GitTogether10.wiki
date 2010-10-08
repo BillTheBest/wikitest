@@ -75,11 +75,6 @@ Please propose a topic by adding it to the table below.
 |  How can we make git-submodule/[http://github.com/apenwarr/git-subtree git-subtree] usable by mere mortals?
 |  20 min
 |-
-|  Scott Chacon
-|  Presentation / Discussion
-|  The state of libgit2 
-|  20 min
-|-
 |  Jelmer Vernooij
 |  Presentation / Discussion
 |  [http://samba.org/~jelmer/dulwich Dulwich]
