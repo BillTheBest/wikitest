@@ -22,7 +22,7 @@ Any questions, please contact Shawn Pearce ( gsoc@spearce.org ).
 # Stephen Boyd
 # Chris Aniszczyk
 # Thomas Rast
-# Jelmer Vernooij
+# Jelmer Vernooij (tentative)
 # Jens Lehmann
 # Heiko Voigt
 # Sverre Rabbelier
