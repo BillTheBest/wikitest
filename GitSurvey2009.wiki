@@ -11,7 +11,7 @@ You can get raw data (individual responses) for the survey here:
 * [[Media:Git User's Survey 2009 - results num Sep 16, 09.csv.gz|Git User's Survey 2009 - results num Sep 16, 09.csv.gz]] (CSV + gzip,  505 KB)
 * [[Media:Git User's Survey 2009 - results txt Sep 16, 09.xls|Git User's Survey 2009 - results txt Sep 16, 09.xls.zip]] (XLS, 7.24 MB)
 
-You can use [http://github.com/jnareb/GitSurvey-scripts/blob/master/survey_parse_Survs_CSV(num).com.perl survey_parse_Survs_CSV(num).com.perl] script from <http://github.com/jnareb/GitSurvey-scripts> repository to analyze data from CSV export linked above.
+You can use [http://github.com/jnareb/GitSurvey-scripts/blob/master/survey_parse_Survs_CSV(num).com.perl survey_parse_Survs_CSV(num).com.perl] script from http://github.com/jnareb/GitSurvey-scripts repository to analyze data from CSV export linked above.
 
 Results of the survey:
 * "partial summary" threads on git mailing list, via GMANE (done during survey was open)
