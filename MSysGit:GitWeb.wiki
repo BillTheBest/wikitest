@@ -46,3 +46,5 @@ Use always forward slashes in the gitweb.cgi and also in the Apache config!
 
 === GitWeb with IIS ===
 I've no idea - someone else has to add ... :)
+
+[[Category:MSysGit]]
