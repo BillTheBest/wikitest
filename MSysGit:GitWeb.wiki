@@ -28,6 +28,7 @@ and while at Apache config lets also just add the html docs so we can view them 
 Instead of appending the above to Apache's '''httpd.conf''' you can also just create a separate file, f.e. '''C:\git-1.7.2.3\httpd-git.conf''' and then only add one line to '''httpd.conf''' to include this config:
  Include c:/git-1.7.2.3/httpd-git.conf
 Dont forget to restart the Apache service to activate the changes.
+For further docu see also [http://repo.or.cz/w/alt-git.git?a=blob_plain;f=gitweb/README gitweb/README].
 
 The gitweb.cgi does not work with ActivePerl - you will get this in the Apache error.log:
  gitweb.cgi: List form of pipe open not implemented at C:/git-1.7.2.3/share/gitweb/gitweb.cgi line 2709.
