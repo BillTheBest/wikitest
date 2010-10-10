@@ -1,0 +1,47 @@
+== Install GitWeb CGI on Windows ==
+Latest [http://code.google.com/p/msysgit/ msysGit] 1.7.2.3 comes already with gitweb.cgi located in the '''./share/gitweb''' folder. Since I hate installers I personally prefer to use PortableGit [http://www.7-zip.org/ 7-Zip] archive; if you prefer the installer you probably have to adapt the paths.
+So lets assume that you have downloaded the PortableGit 7-Zip archive and extracted with [http://www.7-zip.org/ 7-Zip] to '''C:\git-1.7.2.3'''.
+
+=== GitWeb with Apache ===
+First you need to configure Apache to serve the gitweb directory:
+ # Config to make the gitweb CGI available through Apache.
+ Alias /gitweb "c:/git-1.7.2.3/share/gitweb"
+ <Directory "c:/git-1.7.2.3/share/gitweb">
+   AddHandler cgi-script .cgi
+   <Files ~ "\.cgi$">
+     Options +ExecCGI
+   </Files>
+   AllowOverride None
+   Order allow,deny
+   Allow from all
+   DirectoryIndex gitweb.cgi
+ </Directory>
+and while at Apache config lets also just add the html docs so we can view them from browser too:
+ # Config to make the Git html docu available through Apache.
+ Alias /gitdocs "c:/git-1.7.2.3/doc/git/html"
+ <Directory "c:/git-1.7.2.3/doc/git/html">
+   Options Includes Indexes MultiViews
+   AllowOverride None
+   Order allow,deny
+   Allow from all
+ </Directory>
+Instead of appending the above to Apache's '''httpd.conf''' you can also just create a separate file, f.e. '''C:\git-1.7.2.3\httpd-git.conf''' and then only add one line to '''httpd.conf''' to include this config:
+ Include c:/git-1.7.2.3/httpd-git.conf
+Dont forget to restart the Apache service to activate the changes.
+
+The gitweb.cgi does not work with ActivePerl - you will get this in the Apache error.log:
+ gitweb.cgi: List form of pipe open not implemented at C:/git-1.7.2.3/share/gitweb/gitweb.cgi line 2709.
+fortunately mysysGit comes with its own Perl which does better - unfortunately msysGit 1.7.2.3 Perl lacks of the CGI.pm module which is required for running CGIs; so either download and install it from [http://search.cpan.org/dist/CGI.pm/ CPAN], or if you have an ActivePerl installation somewhere handy just copy it over from there.
+
+Apache evaluates the unix shebang in Perl scripts to determine the script interpreter which should be used; so you need to change the first line in the gitweb.cgi script to look like this:
+ #!C:/git-1.7.2.3/bin/perl
+gitweb.cgi needs to know where to find git.exe, therefore configure in line 71:
+ our $GIT = "C:/git-1.7.2.3/bin/git";
+Now have done almost all preparations, just one thing is missing: the path to your repos. Since git.exe must evaluate this path it must be in msys syntax, f.e. if you have located your git repos at '''D:\git-repos''' then you have to use:
+ our $projectroot = "/d/git-repos";
+That's it! You can now test to access the configured aliases with your browser ...
+==== Caveat ====
+Use always forward slashes in the gitweb.cgi and also in the Apache config!
+
+=== GitWeb with IIS ===
+I've no idea - someone else has to add ... :)
