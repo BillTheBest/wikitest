@@ -904,6 +904,14 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 === Ecilpse plugin (EGit) ===
 * [http://www.eclipse.org/egit/ EGit] a plugin for [http://www.eclipse.org/ Eclipse] IDE.
 
+=== JetBrains IDEs: IntelliJ IDEA 9.0 / PyCharm 1.0 / RubyMine / etc. ===
+* As of October 2010, many (all?) [http://www.jetbrains.com/ JetBrains] IDE products apparently have built-in support for GIT without any plugin downloads required.  Product versions with GIT support include:
+* [http://www.jetbrains.com/idea/ IntelliJ IDEA 9.0+] - for Java
+* [http://www.jetbrains.com/ruby/ RubyMine 2.0+] - for Ruby
+* [http://www.jetbrains.com/pycharm/ PyCharm 1.0+] - for Python, in Beta (as of October 2010)
+* [http://www.jetbrains.com/webstorm/ WebStorm 1.0+] - for Web Dev
+* [http://www.jetbrains.com/phpstorm/ PHPStorm 1.0+] - for PHP
+
 === Git4Idea ===
 * The Git4Idea plugin provides basic Git integration support for the IntelliJ/[[JetBrains]] IDEA (v6 & above) development environment. The Git4Idea plugin can be downloaded from within IDEA itself using the IDE Settings->Plugins config panel. The [http://plugins.intellij.net/plugin?id=3033 plugin home page] contains the latest release information and source code is also available [http://github.com/markscott/git4idea/tree/master here]. Git4Idea uses the git command line tool to work; Cygwin 'git' on Windows is recommended.
 
