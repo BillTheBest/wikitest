@@ -1,9 +1,7 @@
 = [[GitTogether]] '10 =
 ''October 25(Mon)-27(Wed) in [http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=1500+Plymouth+St,+Mountain+View,+CA+94043&sll=37.420123,-122.08592&sspn=0.010123,0.011952&ie=UTF8&t=h&z=17 1500 Plymouth St, Mountain View, California]'' (day after the Google Summer of Code Mentor Summit).
 
-Signup deadline is Oct 12th.  Google needs a final guest list by then to prepare badges, sign in lists for reception, and a final head-count to plan for food.
-
-Any questions, please contact Shawn Pearce ( gsoc@spearce.org ).
+Signup is now CLOSED.
 
 == Attendees ==
 # Shawn O. Pearce
