@@ -1282,6 +1282,9 @@ The Version 3 scripts are part of git contrib/ as of 2010-04-02.
 === gear ===
 * [http://en.altlinux.org/Gear Gear] is a tool for building RPM packages from git repositories.
 
+=== metagit ===
+* [http://github.com/stettberger/metagit metagit] is a tool for defining sets of git (or whatever scm) repositories and perform actions like clone/pull/push on them. It is possible to list repositories on a remote site, e.g. find all repositories in a directory via ssh.
+
 === gitbuilder ===
 * gitbuilder ([http://github.com/apenwarr/gitbuilder/ github], [http://versabanq.com/demo/gitbuild/ demo]) by Avery Pennarun is a set of relatively simple scripts for automatically building git-hosted project, optionally running unit tests, and reporting pass/fail results. In case of failures, it automatically uses [http://www.kernel.org/pub/software/scm/git/docs/git-bisect.html git-bisect(1)] to try to track down the first commit that started failing. It's also smart about branches; it knows how to build each commit only once, no matter how many branches include it, thus greatly simplifying future bisections. <BR>''See also:'' [http://permalink.gmane.org/gmane.comp.version-control.git/94449 Announce: gitbuilder, an autobuilder for git-based projects] post on git mailing list.
 
