@@ -55,7 +55,6 @@ Welcome to the [[Git]] wiki web site. This wiki is a community effort to provide
 * April 20, 2008: Git Version 1.5.5.1 now [http://kernel.org/pub/software/scm/git/ available] [http://www.kernel.org/pub/software/scm/git/docs/RelNotes-1.5.5.1.txt Release Notes]
 * April 10, 2008: [http://www.github.com GitHub] launches and ends beta opening doors for anyone looking for git hosting
 [[News|Older news]]
-[http://www.plazamadness.com/ Cheap Ugg Boots][http://www.plazamadness.com/ Wholesale Ugg Boots][http://www.plazamadness.com/ air force one][http://www.plazamadness.com/ MBT Shoes][http://www.plazamadness.com/ cheap jordan shoes][http://www.plazamadness.com/ Timberland Boots]
 
 == Good starting places for developing Git would be ==
 * [[Janitor]]
