@@ -35,6 +35,7 @@ There even exists a <code><nowiki>git-instaweb</nowiki></code> script to setup g
 * [http://zackb.org/git-php/git.php git-php] ([http://code.google.com/p/git-php/ homepage]) by Zack Bartel in PHP. Goals: robust, customizable. Gitweb look-alike.<BR>
 : [http://people.proekspert.ee/peeter/git/git.php git-php] ([http://people.proekspert.ee/peeter/blog/ blog]) by Peeter Vois in PHP. Continuation of work by Zack Bartel.
 * [http://viewgit.sourceforge.net/ viewgit]: another PHP git repository browser written from scratch.
+* [http://www.gitalist.com/ Gitalist]: by Dan Brook, Tom Doran and Zac Stevens in Perl. Built on Catalyst and inspired by the original <code>gitweb</code>.
 
 ----
 [[Category:Tools]] [[Category:WebInterfaces]]
