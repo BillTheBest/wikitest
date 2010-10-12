@@ -81,7 +81,6 @@ to say "show at most 20 commits from within the last month that changed
 files under the Documentation/ directory." <pre><nowiki>
 $ git log --since=1.month -n20 -- Documentation/
 </nowiki></pre>
-[http://www.plazamadness.com/ Cheap Ugg Boots][http://www.plazamadness.com/ Wholesale Ugg Boots][http://www.plazamadness.com/ air force one][http://www.plazamadness.com/ MBT Shoes][http://www.plazamadness.com/ cheap jordan shoes][http://www.plazamadness.com/ Timberland Boots]
 
 = Examining All Repository References =
 
