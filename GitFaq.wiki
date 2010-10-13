@@ -949,7 +949,7 @@ you must clone without ''trunk'' dir.
 
 == {{Gitlink|clone-subdir|Git cannot clone subdirectories}} How do I clone a subdirectory?  ==
 
-Currently, you cannot. There are plans for [[SoC2009Ideas#Narrow and Sparse clone support|narrow and sparse clone support]].
+Currently, you cannot. Sparse clone is [http://mid.gmane.org/1283645647-1891-1-git-send-email-newren@gmail.com in development].
 
 In the meantime, you can use the subdirectory-filter of <code><nowiki>git filter-branch</nowiki></code> to extract a subdirectory. You can also merge changes back using the [http://www.kernel.org/pub/software/scm/git/docs/howto/using-merge-subtree.html subtree merge strategy]. Or you can use [http://www.kernel.org/pub/software/scm/git/docs/user-manual.html#submodules submodules].
 
