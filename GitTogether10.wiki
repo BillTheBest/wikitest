@@ -28,7 +28,7 @@ Signup is now CLOSED.
 # Patrick Renaud
 # Martin von Zweigbergk
 # Brad Larson
-# Magnus Bäck
+# Scarlette Ng
 # Jonathan "Duke" Leto
 # Juan Delgado
 # Jeff King
