@@ -88,6 +88,9 @@ __TOC__
 === hs-libgit ===
 * [http://github.com/vincenthz/hs-libgit/ hs-libgit] provides a lowlevel interface in haskell using git core through fork/exec. The goal is to make use of libgit2 as soon as it's usable.
 
+=== vcs ===
+* [http://bitbucket.org/marcinkuzminski/vcs/ vcs] is Various Control System abstraction layer written in Python. Uses mix of already mentioned Dulwich and git binary for git backend. Provides simple yet fully featured interface and is under heavy development stage.
+
 == Patch-management Interface layers ==
 
 === StGIT (Stacked Git) ===
