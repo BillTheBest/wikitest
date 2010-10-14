@@ -113,6 +113,11 @@ Please propose a topic by adding it to the table below.
 |  Presentation / Discussion
 |  Using Git in a centralized, Gui based environment - What we achieved and what could be improved
 |  30-40 min
+|-
+|  Jeff King
+|  Discussion / brainstorming
+|  Tolerating clock skew in commit histories
+|  30 min
 |}
 
 == Directions ==
