@@ -134,11 +134,9 @@ The meeting space, Palomar Tech Talk, is on the second floor of the Plymouth 1 b
 ''Recording:'' Audio only, no video. Be good.  Since this is a standard Google tech talk room, we may be able to take advantage of the video recording capabilities to record a specific talk or two and post them on [http://www.youtube.com/ YouTube] after the event.
 
 == Misc. ==
-Google will be serving breakfast and lunch each day, in addition to coffee and beverages during the event.  We will arrange for dinner off-campus, at our own expense.
-
 Plenty of table space and power outlets will be available in the meeting room.  Folks outside the US may need to bring an outlet adapter/voltage converter.  Please make sure to bring your laptop power supply.  Unlike most Google conference rooms our meeting space does not come with built-in laptop power connectors.  Even Googlers need to bring their own power supply.
 
-Google has free wireless Internet access available everywhere on the campus ("GoogleGuest").  802.11 wireless support is required to connect to the Internet.  Hardwired LAN connections are not available in our meeting space.  If you think you'll want to get online during the sessions please test your wireless to make sure it is working before you travel.
+Google has free wireless Internet access available everywhere on the campus ("GoogleGuest").  802.11 wireless support is required to connect to the Internet.  Hardwired LAN connections are not available in our meeting space.
 
 == Travel Details ==
 Google provides some [http://code.google.com/events/visitors/ information] about discounted lodging, visiting and parking.
