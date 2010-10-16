@@ -41,17 +41,15 @@ Google has us capped at 32 attendees.
 
 Please join the [http://groups.google.com/group/gittogether-2010/ GitTogether mailing list].  We promise to keep the traffic low and only about this event. Useful information for attendees will be sent to this list as we get closer to the [[GitTogether]].
 
-== Approximate Agenda ==
+== Agenda ==
 
-''TBD''
+Arrive around 9:00 am each day.  Googlers will be on hand to help you sign in and find the meeting room.  After 9:30 sign-in will be difficult as there is no reception service in our building.
 
-Please try to time your arrival to the 9:00-9:30 am window each day.  Googlers will be on hand to help you sign in and find the meeting room.  After 9:30 sign-in will get a little bit more interesting as you may need to work with main reception.
+Hot breakfast will be catered in the meeting space.  Lunch will be provided in a nearby Google Cafe.  Coffee, beverages and small snacks will also be available throughout the day.
 
-Breakfast and lunch each day will be catered by Google.
-
-Dinners:
-* Dinner on Monday: To be planned, probably at a local restaurant at your own expense.
-* Dinner on Tuesday: To be planned, probably at a local restaurant at your own expense.
+Dinner:
+* Dinner on Monday sponsored by [http://www.github.com/ GitHub]: [http://www.dishdash.net/dinner.htm DishDash] - 190 South Murphy St, Sunnyvale, CA 94086 
+* Dinner on Tuesday: TBD (probably Amarin Thai in Mountain View)
 * Dinner on Wednesday is not pre-arranged.
 
 == Suggested Topics ==
