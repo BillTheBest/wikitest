@@ -4,24 +4,20 @@ The rule of thumb for determining whether a source tree is monolithic or modular
 
 Non-distributed revision control systems such as CVS or SVN do not enforce this distinction; large projects like KDE and GNOME host hundreds of subprojects in a single repository and developers only ever have to check out the module they are working on. Sometimes, release managers, documenters or translators will make single commits that modify files across several modules. Similarly, if a change is made to the public API of a shared library in one module, the developer may update applications in other modules to use the new API as part of the same commit.
 
-Such flexibility is an implicit feature of centralized SCMs, but is much more difficult to implement in a distributed system like git.
+Such flexibility is an implicit feature of centralized SCMs, but it is much more difficult to get it right in a distributed system like git.
 
 == Status ==
-(as of Sep 2, 2007)
+Submodules have been a part of core git
+since [http://www.kernel.org/pub/software/scm/git/docs/RelNotes/1.5.3.txt version 1.5.3].
+Current work (as of October, 2010) is focused on
+[http://github.com/jlehmann/git-submod-enhancements/wiki improving the usability] of commands
+such as <i>git diff</i>, <i>git checkout</i>, and <i>gitk</i> in projects with submodules.
 
-"[http://www.kernel.org/pub/software/scm/git/docs/git-submodule.html git submodule]" support added in 1.5.3 (see also [[GitSubmoduleTutorial]])
-
-(as of May 3, 2007)
-
-Plumbing code is in place since 1.5.2-rc0 [http://thread.gmane.org/gmane.comp.version-control.git/44106 Corresponding thread on Git mailing list]
-
-(as of March 26, 2007)
-
-Martin Waitz' implementation's object-level extensions have been well-reviewed, and are generally accepted as being the way to go at this point. Effectively, they allow tree objects to contain entries which have a special file mode (directory + symlink) which holds a commit from a subproject; the interpretation of this for the filesystem structure is that the commit's tree should be placed rooted at the path of the entry.
-
-The initial implementation ran into scalability constraints when applied to  "vast superprojects". This implementation has not been completed due to these problems.
-
-A newer implementation is in the works which should be able to handle this case efficiently; this implementation does not require changes to the object-level extension proposed previously, so the initial implemention may be used for projects where scalability on this order is not important. The main difference is in where the objects in a subproject are stored.
+See also:
+* The [http://www.kernel.org/pub/software/scm/git/docs/git-submodule.html git submodule] command
+* [[GitSubmoduleTutorial]]
+* [http://thread.gmane.org/gmane.comp.version-control.git/44106 Plumbing code] discussion (May, 2007)
+* Martin Waitz's [http://thread.gmane.org/gmane.comp.version-control.git/31941 design notes] (Nov, 2006) on an object model for submodules, and the resulting discussion.
 
 == Use cases ==
 There are a number of goals which come under the general heading of subprojects, and have been requested by different people at different times. These are listed in rough order of the size of the subproject.
