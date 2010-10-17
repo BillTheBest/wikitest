@@ -1,22 +1,26 @@
 __NOTOC__
-= Git User's Survey 2010 =
+= Git User's Survey 2010 summary =
 
-<b><font size="large">The "Git User's Survey 2010" has begun.</font></b>
+''The "Git User's Survey 2010" has been '''closed''' on October 15, 2010.''
 
-The [https://www.survs.com/survey/MUPYR8UJ4B Git User's Survey 2010] is now up! Please devote a few minutes of your time to fill out the simple questionnaire; it'll help the Git community understand your needs, what you like about Git (and what you don't), and overall help us improve it.
+The survey could be found here:
+* [https://www.survs.com/survey/MUPYR8UJ4B Git User's Survey 2010] (http://tinyurl.com/GitSurvey2010) at Survs.com (''''closed'''').
 
-The survey will be open from '''1 September''' to '''15 October, 2010'''.
+The survey was be open from '''1 September''' to '''15 October, 2010''' (for 1.5. months).
 
-Have fun!
+You can get raw data (individual responses) for the survey here (exported from Survs.com):
+* [[Media:Git User's Survey 2010 - results num.csv.gz|Git User's Survey 2010 - results num.csv.gz]] (CSV + gzip,  748 KB)<BR>Export type: Individual respondents; File type: Comma Separated Values (CSV); Data format: Numerical; Options: Short labels
+* [[Media:Git User's Survey 2010 - results txt.xls|Git User's Survey 2010 - results txt.xls]] (XLS, 9.8 MB)<BR>Export type: Individual respondents; File type: Spreadsheet (Excel); Data format: Textual
 
-* http://tinyurl.com/GitSurvey2010 (expands to the link below)
-* https://www.survs.com/survey/MUPYR8UJ4B
-
-There's also an alternate version which doesn't require cookies, but you won't be able to go back and edit your responses.
-
-* https://www.survs.com/survey/AIOREJNBPX
+You can use [http://github.com/jnareb/GitSurvey-scripts/blob/master/survey_parse_Survs_CSV(num).com.perl survey_parse_Survs_CSV(num).com.perl] script from http://github.com/jnareb/GitSurvey-scripts repository to analyze data from CSV export linked above.
 
 The live results of the survey can be found at:
-
 * http://tinyurl.com/GitSurvey2010Analysis (expands to the link below)
 * https://www.survs.com/results/33Q0OZZE/MV653KSPI2
+
+
+There were 8841 individual responses in '''this survey''' (the 5 responses in 'test' channel were removed).<BR>
+There were 3868 individual responses in [[GitSurvey2009]] (the 30 responses in 'test' channel were removed).<BR>
+There were 3236 individual responses in [[GitSurvey2008]] (including 21 responses in 'test' channel).<BR>
+There were 683 individual responses in [[GitSurvey2007]].<BR>
+There were around 117 responses in [[GitSurvey2006]].
