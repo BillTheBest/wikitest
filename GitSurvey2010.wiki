@@ -482,7 +482,7 @@ system by running 'uname'.
 | 951   || 11.3% 
 | 737   ||  8.7% 
 | 492   ||  5.8% 
-| 1.9 (5) / 8429 ||
+| 1.9 (5) / 8429
 |-
 | filemanager / shell extension (e.g. git-cheetah, TortoiseGit)
 | 6477  || 76.8% 
@@ -490,7 +490,7 @@ system by running 'uname'.
 | 501   ||  5.9% 
 | 325   ||  3.9% 
 | 237   ||  2.8% 
-| 1.4 (5) / 8344 ||
+| 1.4 (5) / 8344
 |-
 | graphical history viewer/browser (e.g. gitk)                 
 | 1794  || 21.3% 
@@ -498,7 +498,7 @@ system by running 'uname'.
 | 1873  || 22.2% 
 | 1912  || 22.7% 
 | 1183  || 14.0% 
-| 2.9 (5) / 8258 ||
+| 2.9 (5) / 8258
 |-
 | graphical commit tool (e.g. git-gui)                         
 | 4710  || 55.9% 
@@ -506,7 +506,7 @@ system by running 'uname'.
 | 785   ||  9.3% 
 | 757   ||  9.0% 
 | 678   ||  8.0% 
-| 2.0 (5) / 8195 ||
+| 2.0 (5) / 8195
 |-
 | graphical diff and/or merge tool (e.g. Kompare, Meld)        
 | 3551  || 42.1% 
@@ -514,7 +514,7 @@ system by running 'uname'.
 | 1391  || 16.5% 
 | 1230  || 14.6% 
 | 673   ||  8.0% 
-| 2.3 (5) / 8146 ||
+| 2.3 (5) / 8146
 |-
 | graphical blame or pickaxe tool                              
 | 6012  || 71.3% 
@@ -522,7 +522,7 @@ system by running 'uname'.
 | 642   ||  7.6% 
 | 288   ||  3.4% 
 | 80    ||  0.9% 
-| 1.4 (5) / 8113 ||
+| 1.4 (5) / 8113
 |-
 | git-instaweb, or self-hosted web interface                   
 | 5889  || 69.9% 
@@ -530,7 +530,7 @@ system by running 'uname'.
 | 646   ||  7.7% 
 | 519   ||  6.2% 
 | 200   ||  2.4% 
-| 1.6 (5) / 8090 ||
+| 1.6 (5) / 8090
 |-
 | tool to manage git repositories (e.g. Gitosis, Gitolite)     
 | 5383  || 63.9% 
@@ -538,7 +538,7 @@ system by running 'uname'.
 | 668   ||  7.9% 
 | 750   ||  8.9% 
 | 558   ||  6.6% 
-| 1.8 (5) / 8048 ||
+| 1.8 (5) / 8048
 |-
 | my own scripts (for daily use)                               
 | 4551  || 54.0% 
@@ -546,7 +546,7 @@ system by running 'uname'.
 | 1037  || 12.3% 
 | 779   ||  9.2% 
 | 446   ||  5.3% 
-| 1.9 (5) / 7917 ||
+| 1.9 (5) / 7917
 |-
 | my own scripts (for special tasks)                           
 | 4110  || 48.8% 
@@ -554,28 +554,19 @@ system by running 'uname'.
 | 1166  || 13.8% 
 | 576   ||  6.8% 
 | 295   ||  3.5% 
-| 1.9 (5) / 7439 ||
-|- style="font-weight: bold; font-style: italic; background-color: #ccffff;"| Base                                                          
-|colspan="12" |  8429 / 8841  
+| 1.9 (5) / 7439
+|- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
+| Base                                                          
+|colspan="12" style="text-align: right" |  8429 / 8841  
 |}
 
 
 '''Description:'''<BR>
-Here graphics diff tool means tools such as Kompare, and graphical
-merge tool means tools such as Meld and KDiff3. Those answers
-include graphical merge and diff tools used by programmers editors
-and IDEs.
+Here graphics diff tool means tools such as Kompare, and graphical merge tool means tools such as Meld and KDiff3. Those answers include graphical merge and diff tools used by programmers editors and IDEs.
 
-"graphical history browser (any)" covers tools such as gitk, QGit,
-Giggle, tig etc., but also built-in git commands such as "git log
---graph" and "git show-branch". If you use one of mentioned tools _as_
-history browser, mark both a tool and "graphical history browser
-(any)"; if you use some graphical history viewer not listed here,
-please both mark this answer and specify it in the "other tool"
-answer.
+"graphical history browser (any)" covers tools such as gitk, QGit, Giggle, tig etc., but also built-in git commands such as "git log --graph" and "git show-branch". If you use one of mentioned tools '''as''' history browser, mark both a tool and "graphical history browser (any)"; if you use some graphical history viewer not listed here, please both mark this answer and specify it in the "other tool" answer.
 
 Similarly for other answers marked "(any)".
-
 
 === 12. What Git GUIs (graphical user interfaces) do you use? ===
 ''(multiple choice, with other)''
