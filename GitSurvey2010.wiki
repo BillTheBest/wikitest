@@ -956,11 +956,11 @@ gitweb, etc.)
 
 
 === 20. In your opinion, which areas in Git need improvement? ===
-'''    Please state your preference.'''
+'''Please state your preference.'''
 
 ''(matrix)''
 
-{| border="1" cellpadding="2" cellspacing="0"
+{| border="1" cellpadding="4" cellspacing="0"
 |- style="font-weight: bold; background-color: #ffffcc;"
 ! Answer
 ! colspan="2" | don't care 
@@ -976,7 +976,7 @@ gitweb, etc.)
 | 2248  || 27.7% 
 | 2090  || 25.8% 
 | 1380  || 17.0% 
-| 3.2 (5) / 8107 ||
+| 3.2 (5) / 8107
 |-
 | documentation                 
 | 420   ||  5.2% 
@@ -984,7 +984,7 @@ gitweb, etc.)
 | 2844  || 35.1% 
 | 2279  || 28.1% 
 | 861   || 10.6% 
-| 3.2 (5) / 7986 ||
+| 3.2 (5) / 7986
 |-
 | performance                   
 | 1167  || 14.4% 
@@ -992,7 +992,7 @@ gitweb, etc.)
 | 1370  || 16.9% 
 | 460   ||  5.7% 
 | 145   ||  1.8% 
-| 2.2 (5) / 7877 ||
+| 2.2 (5) / 7877
 |-
 | more features                 
 | 1203  || 14.8% 
@@ -1000,7 +1000,7 @@ gitweb, etc.)
 | 2680  || 33.1% 
 | 913   || 11.3% 
 | 161   ||  2.0% 
-| 2.5 (5) / 7821 ||
+| 2.5 (5) / 7821
 |-
 | tools (e.g. GUI)              
 | 1628  || 20.1% 
@@ -1008,7 +1008,7 @@ gitweb, etc.)
 | 1722  || 21.2% 
 | 1750  || 21.6% 
 | 1125  || 13.9% 
-| 2.9 (5) / 7776 ||
+| 2.9 (5) / 7776
 |-
 | localization (translation)    
 | 4417  || 54.5% 
@@ -1016,7 +1016,7 @@ gitweb, etc.)
 | 535   ||  6.6% 
 | 293   ||  3.6% 
 | 176   ||  2.2% 
-| 1.6 (5) / 7736 ||
+| 1.6 (5) / 7736
 |-
 | community (mailing list)      
 | 4170  || 51.4% 
@@ -1024,7 +1024,7 @@ gitweb, etc.)
 | 799   ||  9.9% 
 | 203   ||  2.5% 
 | 67    ||  0.8% 
-| 1.6 (5) / 7664 ||
+| 1.6 (5) / 7664
 |-
 | community (IRC)               
 | 4173  || 51.5% 
@@ -1032,12 +1032,11 @@ gitweb, etc.)
 | 734   ||  9.1% 
 | 181   ||  2.2% 
 | 64    ||  0.8% 
-| 1.6 (5) / 7413 ||
-|- style="font-weight: bold; font-style: italic; background-color: #ccffff;"| Base                           
-|colspan="12" |  8107 / 8841  
+| 1.6 (5) / 7413
+|- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
+| Base                        
+|colspan="12" style="text-align: right"|  8107 / 8841  
 |}
-
-
 
 == Changes in Git (since year ago, or since you started using it) ==
 
