@@ -6,7 +6,7 @@ __NOTOC__
 The survey could be found here:
 * [https://www.survs.com/survey/MUPYR8UJ4B Git User's Survey 2010] (http://tinyurl.com/GitSurvey2010) at Survs.com (''''closed'''').
 
-The survey was be open from '''1 September''' to '''15 October, 2010''' (for 1.5. months).
+The survey was be open from '''1 September''' to '''15 October, 2010''' (for 1.5 months).
 
 You can get raw data (individual responses) for the survey here (exported from Survs.com):
 * [[Media:Git User's Survey 2010 - results num.csv.gz|Git User's Survey 2010 - results num.csv.gz]] (CSV + gzip,  748 KB)<BR>Export type: Individual respondents; File type: Comma Separated Values (CSV); Data format: Numerical; Options: Short labels
@@ -19,8 +19,8 @@ The live results of the survey can be found at:
 * https://www.survs.com/results/33Q0OZZE/MV653KSPI2
 
 
-There were 8841 individual responses in '''this survey''' (the 5 responses in 'test' channel were removed).<BR>
-There were 3868 individual responses in [[GitSurvey2009]] (the 30 responses in 'test' channel were removed).<BR>
-There were 3236 individual responses in [[GitSurvey2008]] (including 21 responses in 'test' channel).<BR>
+There were 8841 individual responses in '''this survey''' (the 5 responses in 'test' channel were removed), for 28001 views.<BR>
+There were 3868 individual responses in [[GitSurvey2009]] (the 30 responses in 'test' channel were removed), for 14106 views.<BR>
+There were 3236 individual responses in [[GitSurvey2008]] (including 21 responses in 'test' channel), for 12101 views.<BR>
 There were 683 individual responses in [[GitSurvey2007]].<BR>
 There were around 117 responses in [[GitSurvey2006]].
