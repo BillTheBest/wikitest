@@ -1157,11 +1157,8 @@ Changes since this version include:
 
 '''Description:'''<BR>
 * Git Wiki can be found at http://git.wiki.kernel.org
-* on-line help includes, among others, Git Homepage (http://git-scm.com)
-  and "Git Community Book" (http://book.git-scm.com)
-* help distributed with git include manpages, manual, tutorials, HOWTO,
-  release notes, technical documentation, contrib/examples/
-
+* on-line help includes, among others, Git Homepage (http://git-scm.com) and "Git Community Book" (http://book.git-scm.com)
+* help distributed with git include manpages, manual, tutorials, HOWTO, release notes, technical documentation, contrib/examples/
 
 === 24. Have you tried to get help regarding Git from other people? ===
 ''(single choice)''
