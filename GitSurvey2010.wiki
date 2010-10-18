@@ -31,7 +31,13 @@ There were around 117 responses in [[GitSurvey2006]].
 === 01. What country do you live in (country of residence)? ===
 ''(tabularized free-form single line)''
 
-{| border="1" cellpadding="3" cellspacing="0"
+This table is sorted alphabetically by country name.
+
+The countries where number of responders was less than 10 (less than 0.1%) were gathered together and summed under "''other countries''" label.
+
+Some responders put more than one country in response, or wrote 'multiple' (perhaps double citizenship?).  There were 8 such responses, as can be seen in the row named "''multiple''".
+
+{| border="1" cellpadding="3" cellspacing="0"  style="font-size: smaller;"
 |- style="font-weight: bold; background-color: #ffffcc;"
 ! Country                               !! Count !! Perc. 
 |-
@@ -107,7 +113,7 @@ There were around 117 responses in [[GitSurvey2006]].
 |-
 | Russian Federation                    ||   162 ||  1.9% 
 |-
-| Serbia and Montenegro                 ||    12 ||  0.1% 
+| Serbia                                ||    11 ||  0.1% 
 |-
 | Singapore                             ||    14 ||  0.2% 
 |-
@@ -135,16 +141,48 @@ There were around 117 responses in [[GitSurvey2006]].
 |-
 | United States                         ||  2655 || 31.3% 
 |-
-| colspan="3" | &nbsp;
+| colspan="3" |
 |- style="border-top: dotted;"
-| ''other countries'' (below 10 resp.)  ||   135 ||  1.6% 
+| ''other countries'' (below 10 resp.)  ||   136 ||  1.6% 
 |- 
+| ''multiple''                          ||     8 ||  0.0% 
+|- style="background-color: #f0f0f0;"
 | Invalid answer                        ||     5 ||  0.0% 
 |- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
 | Base                        
 | colspan="2" |  8470 / 8841  
 |}
 
+
+As one can easily see, slightly less than third of Git users (31.3%) are in the USA (those who answered this survey, and this question).   Next of countries is Germany with around 10.3% (or 1/10th) responses.   Third is United Kingdom of Great Britain (including England, Scotland, Wales and Northern Ireland) with 6.9%, and closely following on fourth place is France with 6.1%
+
+The names of the countries were normalized using [http://p3rl.org/Locale::Country Locale::Country] Perl module version 3.14
+
+You can also take a look at [http://www.ohloh.net/projects/git/map Git Activity Map] at [http://www.ohloh.net Ohloh], where you can see on (large) Google Map locations of selected people who have Git in a [http://www.ohloh.net/about/faq#stack stack], or locations of Git contributors (those with known location).
+
+
+It is a bit pity that this survey did not include question "Does git.git repository include code produced by you?" (or equivalent), so we would be able to see where the developers are.
+
+{| border="1" cellpadding="3" cellspacing="1"
+|- style="font-weight: bold; background-color: #ffffcc;"
+! Continent                         !! Count !! Perc. 
+|-
+| Africa                            ||    52 ||  0.6% 
+|-
+| Asia                              ||   450 ||  5.3% 
+|-
+| Europe                            ||  4233 || 50.0% 
+|-
+| North America                     ||  3049 || 36.0% 
+|-
+| South America                     ||   293 ||  3.5% 
+|-
+| Oceania                           ||   370 ||  4.4% 
+|}
+
+In the table above "Oceania" includes (among others) Australia and New Zealand.  As you can see most responders are from Europe (50.0%, a half of responses), followed by North America (36.0% responders).
+
+The conversion from country name to continent was done using [http://p3rl.org/Locale::Object::Country Locale::Object::Country] Perl module from CPAN (version 0.78), which in turn uses data from http://www.worldatlas.com/cntycont.htm
 
 === 02. How old are you (in years)? ===
 ''(tabularized free-form single line)''
