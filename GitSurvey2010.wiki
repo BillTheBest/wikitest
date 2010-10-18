@@ -187,7 +187,11 @@ The conversion from country name to continent was done using [http://p3rl.org/Lo
 === 02. How old are you (in years)? ===
 ''(tabularized free-form single line)''
 
-[[File:GitSurvey2010-age_hist.png|align="right"|Histogram of age of responders]]
+[[File:GitSurvey2010-age_hist.png|Histogram of age of responders|right]]
+
+
+
+
 {| border="1" cellpadding="3" cellspacing="0"
 |- style="font-weight: bold; background-color: #ffffcc;"
 ! Age                            !! Count !! Perc. 
@@ -215,6 +219,7 @@ The conversion from country name to continent was done using [http://p3rl.org/Lo
 | Base                           
 | colspan="2" |  8437 / 8841  
 |}
+<br clear="all">
 
 Discounting joke responses (or errors in parsing), like 3 or 4 years old on one hand side, and 1000000 years old on other side, youngest user who answered this question is 10 years old (next oldest is 12 years old), oldest is 87 (next to oldest is 81).  That is quite a span.
 
