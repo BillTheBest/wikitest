@@ -36,6 +36,10 @@ For quick questions or just to hang out with fellow git enthusiasts, join the #g
 * [http://colabti.org/irclogger/irclogger_logs/git Official #git channel log]
 * [http://pasky.or.cz/~pasky/cp/%23git/ Historical #git channel log]
 
+= Submitting Patches =
+* [http://git.kernel.org/?p=git/git.git;a=blob_plain;f=Documentation/SubmittingPatches;hb=master Documentation/SubmittingPatches]
+* [http://sites.google.com/site/maintnotes/ A note from the maintainer]
+
 = [[GitTogether]] =
 These are events when git developers and users physically meet in the same place.
 See the [[GitTogether]] page for more information.
