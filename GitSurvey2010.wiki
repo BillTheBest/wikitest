@@ -187,7 +187,7 @@ The conversion from country name to continent was done using [http://p3rl.org/Lo
 === 02. How old are you (in years)? ===
 ''(tabularized free-form single line)''
 
-[[File:GitSurvey2010-age_hist.png|Histogram of age of responders|align="right"]]
+[[File:GitSurvey2010-age_hist.png|align="right"|Histogram of age of responders]]
 {| border="1" cellpadding="3" cellspacing="0"
 |- style="font-weight: bold; background-color: #ffffcc;"
 ! Age                            !! Count !! Perc. 
