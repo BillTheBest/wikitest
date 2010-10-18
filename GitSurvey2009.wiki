@@ -526,8 +526,12 @@ The conversion from country name to continent was done using [http://p3rl.org/Lo
 === 02. How old are you (in years)? ===
 (tabularized free-form single line)
 
-[[File:GitSurvey2009-age hist.png|Histogram of age of responders|align="right"]]
-{| border="1" cellpadding="2" cellspacing="0"
+[[File:GitSurvey2009-age hist.png|Histogram of age of responders|right]]
+
+
+
+
+{| border="1" cellpadding="3" cellspacing="0"
 |- style="font-weight: bold; background-color: #ffffcc;" 
 !  Years                          !!  Count !!  Perc. 
 |-
@@ -553,12 +557,12 @@ The conversion from country name to continent was done using [http://p3rl.org/Lo
 |- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
 | Base              || colspan="2" |    3615 / 3868   
 |}
+<br clear="all" style="clear: both" />
 
 Discounting joke responses (or errors in parsing), youngest user who answered this question is 12 years old, oldest is 90 (next to oldest is 68).  That is quite a span.
 
 Most Git users (around one third, 32.3%) fall in the 26-30 range.
 The age of 27 got most responses (in 2007 it was 25, as it was in 2008).
-
 
 == Getting started with Git ==
 
