@@ -978,41 +978,49 @@ Fetching (or rather cloning) via bundle could mean that project publishes ready 
 === 15. How do you publish/propagate your changes? ===
 ''(multiple choice, with other)''
 
-{| border="1" cellpadding="2" cellspacing="0"
+{| border="1" cellpadding="3" cellspacing="0"
 |- style="font-weight: bold; background-color: #ffffcc;"
 ! Answer                                                          !! Count !! Perc. 
+! style="width: 200px;" |
 |-
 | push                                                            ||  7882 || 95.3% 
+| <div style="width: 191px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | pull request (+ any form of announcement / notification)        ||  2765 || 33.4% 
+| <div style="width:  67px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | format-patch + email                                            ||  1322 || 16.0% 
+| <div style="width:  32px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | format-patch + other (e.g. reviewboard, issue tracker or forum) ||   661 ||  8.0% 
+| <div style="width:  16px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | git bundle                                                      ||   144 ||  1.7% 
+| <div style="width:   3px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | git-svn (to Subversion repository)                              ||  1503 || 18.2% 
+| <div style="width:  36px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | git-p4 (to Perforce repository)                                 ||    80 ||  1.0% 
+| <div style="width:   2px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | foreign SCM interface (other than mentioned above)              ||   126 ||  1.5% 
+| <div style="width:   3px; background-color: #ff0f0f;">&nbsp;</div>
+|-
+| colspan="4" |
 |-
 | other - please specify                                          ||   155 ||  1.9% 
+| <div style="width:   4px; background-color: #f00000;">&nbsp;</div>
 |- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
 | Base                                                            
-| colspan="2" |  8272 / 8841  
+| colspan="2" |  8272 / 8841  ||
 |}
 
 
 '''Description:'''<BR>
-Publishing via bundle could mean sending bundle via email, or posting
-it on review board (or forum).
+Publishing via bundle could mean sending bundle via email, or posting it on review board (or forum).
 
-Instead of git-format-patch there can be utilized other way of
-generating patch (e.g. git-show, git-diff, 'patch' view from
-gitweb, etc.)
-
+Instead of git-format-patch there can be utilized other way of generating patch (e.g. git-show, git-diff, 'patch' view from gitweb, etc.)
 
 === 16. Which of the following features do you use? ===
 ''(multiple choice, with other)''
