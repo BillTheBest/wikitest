@@ -925,41 +925,55 @@ http://git.wiki.kernel.org/index.php/GitHosting
 === 14. How do you fetch/get changes from upstream repositories? ===
 ''(multiple choice, with other)''
 
-{| border="1" cellpadding="2" cellspacing="0"
+{| border="1" cellpadding="3" cellspacing="0"
 |- style="font-weight: bold; background-color: #ffffcc;"
-! Answer                                                              !! Count !! Perc. 
+! Answer
+! Count !! Perc. 
+! style="width: 200px;" |
 |-
-| git protocol (e.g. git://example.com/repo.git)                      ||  6485 || 77.6% 
+| git protocol (e.g. <nowiki>git://example.com/repo.git</nowiki>)
+|  6485 || 77.6% 
+| <div style="width: 155px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| ssh (e.g. ssh://example.com/repo.git or user@example.com:/repo.git) ||  5924 || 70.9% 
+| ssh (e.g. <nowiki>ssh://example.com/repo.git</nowiki> or <nowiki>user@example.com:/repo.git</nowiki>)
+|  5924 || 70.9% 
+| <div style="width: 142px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| http (e.g. http://example.com/repo.git)                             ||  3416 || 40.9% 
+| http (e.g. <nowiki>http://example.com/repo.git</nowiki>)
+|  3416 || 40.9% 
+| <div style="width:  82px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| rsync (DEPRECATED) (e.g. rsync://example.com/repo.git)              ||    18 ||  0.2% 
+| rsync (''DEPRECATED'') (e.g. <nowiki>rsync://example.com/repo.git</nowiki>)
+|    18 ||  0.2% 
+| <div style="width:   0px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| filesystem (e.g. /path/to/repo.git or file:///path/to/repo.git)     ||  1687 || 20.2% 
+| filesystem (e.g. /path/to/repo.git or <nowiki>file:///path/to/repo.git</nowiki>)
+|  1687 || 20.2% 
+| <div style="width:  40px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| via git-bundle                                                      ||   118 ||  1.4% 
+| via [http://www.kernel.org/pub/software/scm/git/docs/git-bundle.html git-bundle]
+|   118 ||  1.4% 
+| <div style="width:   3px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| foreign SCM import / script like git-svn                            ||  1299 || 15.5% 
+| foreign SCM import / script like git-svn
+|  1299 || 15.5% 
+| <div style="width:  31px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| Other, please specify                                               ||    87 ||  1.0% 
+| colspan="4" |
+|-
+| ''Other, please specify''
+|    87 ||  1.0% 
+| <div style="width:   2px; background-color: #ff0000;">&nbsp;</div>
 |- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
 | Base                                                                
-| colspan="2" |  8354 / 8841  
+| colspan="2" |  8354 / 8841  ||
 |}
 
 
 '''Description:'''<BR>
-This question asks about how do you get changes (updates) from
-projects you follow into your local repository. It is not about how do
-you get latest version of Git.
+This question asks about how do you get changes (updates) from projects you follow into your local repository. It is not about how do you get latest version of Git.
 
-Fetching (or rather cloning) via bundle could mean that project
-publishes ready for download bundles to reduce traffic and load on
-server (HTTP download [of bundle] can be resumed, git-clone currently
-cannot; one can also distribute bundle using P2P).
-
+Fetching (or rather cloning) via bundle could mean that project publishes ready for download bundles to reduce traffic and load on server (HTTP download [of bundle] can be resumed, git-clone currently cannot; one can also distribute bundle using P2P).
 
 === 15. How do you publish/propagate your changes? ===
 ''(multiple choice, with other)''
