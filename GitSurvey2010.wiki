@@ -728,62 +728,120 @@ Similarly for other answers marked "(any)".
 === 12. What Git GUIs (graphical user interfaces) do you use? ===
 ''(multiple choice, with other)''
 
-{| border="1" cellpadding="2" cellspacing="0"
+{| border="1" cellpadding="3" cellspacing="0"
 |- style="font-weight: bold; background-color: #ffffcc;"
-! Answer                         !! Count !! Perc. 
+! Answer
+! Count !! Perc. 
+! style="width: 200px;" |
 |-
-| gitk                           ||  4042 || 58.4% 
+| '''''gitk'''''                            
+|  4042 || 58.4% 
+| <div style="width: 117px; background-color: #ff0000;">&nbsp;</div>
 |-
-| git gui                        ||  1729 || 25.0% 
+| '''''git gui'''''                        
+|  1729 || 25.0% 
+| <div style="width:  50px; background-color: #ff0000;">&nbsp;</div>
 |-
-| tig                            ||   513 ||  7.4% 
+| colspan="4" style="background-color: #ffffdd;" |
 |-
-| QGit                           ||   449 ||  6.5% 
+| [http://jonas.nitro.dk/tig/ tig]
+|   513 ||  7.4% 
+| <div style="width:  15px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| Qct                            ||     6 ||  0.1% 
+| [http://sourceforge.net/projects/qgit/ QGit] <!-- http://digilander.libero.it/mcostalba/ -->
+|   449 ||  6.5% 
+| <div style="width:  13px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| Giggle                         ||   312 ||  4.5% 
+| [http://qct.sourceforge.net/ Qct]
+|     6 ||  0.1% 
+| <div style="width:   0px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| gitview                        ||    51 ||  0.7% 
+| [http://live.gnome.org/giggle Giggle]
+|   312 ||  4.5% 
+| <div style="width:   9px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| gitg                           ||   507 ||  7.3% 
+| gitview
+|    51 ||  0.7% 
+| <div style="width:   1px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| git-cola                       ||   174 ||  2.5% 
+| [http://trac.novowork.com/gitg/ gitg] <!-- http://git.gnome.org/cgit/gitg/ -->
+|   507 ||  7.3% 
+| <div style="width:  15px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| Pyrite                         ||     6 ||  0.1% 
+| [http://cola.tuxfamily.org/ git-cola]
+|   174 ||  2.5% 
+| <div style="width:   5px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| GitX                           ||  1925 || 27.8% 
+| [http://pyrite.sophiasuchtig.com/ Pyrite]
+|     6 ||  0.1% 
+| <div style="width:   0px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| GitNub                         ||   150 ||  2.2% 
+| [http://gitx.frim.nl GitX]
+|  1925 || 27.8% 
+| <div style="width:  56px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| Katana                         ||     4 ||  0.1% 
+| [http://github.com/Caged/gitnub/wiki GitNub]
+|   150 ||  2.2% 
+| <div style="width:   4px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| RepoWatch                      ||     5 ||  0.1% 
+| [http://dekorte.com/projects/shareware/Katana/ Katana]
+|     4 ||  0.1% 
+| <div style="width:   0px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| teamGit                        ||     5 ||  0.1% 
+| [http://www.doomstick.com/projects/repowatch/ RepoWatch]
+|     5 ||  0.1% 
+| <div style="width:   0px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| gitSafe                        ||     4 ||  0.1% 
+| [http://www.devslashzero.com/teamgit teamGit]
+|     5 ||  0.1% 
+| <div style="width:   0px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| SmartGit                       ||   159 ||  2.3% 
+| [http://www.kodespace.com/gitSafe/ gitSafe]
+|     4 ||  0.1% 
+| <div style="width:   0px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| StupidGit                      ||    10 ||  0.1% 
+| [http://www.syntevo.com/smartgit SmartGit]
+|   159 ||  2.3% 
+| <div style="width:   5px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| git-cheetah                    ||    81 ||  1.2% 
+| [http://wiki.github.com/gyim/stupidgit StupidGit]
+|    10 ||  0.1% 
+| <div style="width:   0px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| TortoiseGit                    ||   799 || 11.5% 
+| [http://git.wiki.kernel.org/index.php/MSysGit:GitCheetah git-cheetah]
+|    81 ||  1.2% 
+| <div style="width:   2px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| Git Extensions                 ||   247 ||  3.6% 
+| [http://code.google.com/p/tortoisegit/ TortoiseGit]
+|   799 || 11.5% 
+| <div style="width:  23px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| EGit (Eclipse)                 ||   640 ||  9.2% 
+| [http://code.google.com/p/gitextensions/ Git Extensions]
+|   247 ||  3.6% 
+| <div style="width:   7px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| other IDE with git support     ||   461 ||  6.7% 
+| [http://www.eclipse.org/egit/ EGit (Eclipse)]
+|   640 ||  9.2% 
+| <div style="width:  18px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| editor with git support        ||   642 ||  9.3% 
+| colspan="4" style="background-color: #ffffdd;" |
 |-
-| Other, please specify          ||   488 ||  7.1% 
+| other IDE with git support     
+|   461 ||  6.7% 
+| <div style="width:  13px; background-color: #f000f0;">&nbsp;</div>
+|-
+| editor with git support        
+|   642 ||  9.3% 
+| <div style="width:  19px; background-color: #f000f0;">&nbsp;</div>
+|-
+| colspan="4" |
+|-
+| ''Other, please specify''
+|   488 ||  7.1% 
+| <div style="width:  14px; background-color: #bb0000;">&nbsp;</div>
 |- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
 | Base                           
-| colspan="2" |  6919 / 8841  
+| colspan="2" |  6919 / 8841  ||
 |}
 
 
@@ -792,6 +850,10 @@ Please select GUI that you use somewhat regularly (at least from time to time).
 
 Similar issue applies to all other "What do you use?" kind of questions.
 
+'''Analysis'''<BR>
+Most popular graphical tool is '''gitk''', a graphical history viewer, with 58% of responses.  Most probably it is because it is the default history viewer, bundled with Git (though if you install git from packages, it usually is in a separate package).
+
+'''git gui''', a commit tool (a git GUI), also distributed with Git, is third with 25%, closely following '''GitX''', a git GUI for MacOS X.
 
 === 13. Which git hosting site(s) do you use for your project(s)? ===
 '''    (Please check only hosting sites where you publish/push to)'''
