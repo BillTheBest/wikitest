@@ -233,7 +233,7 @@ Most Git users (slightly less than one third: 31.4%) fall in the 26-30 range.  T
 {| border="1" cellpadding="3" cellspacing="0"
 |- style="font-weight: bold; background-color: #ffffcc;"
 ! Answer                         !! Count !! Perc. 
-!
+! style="width: 200px" | &nbsp;
 |-
 | Very easy                      ||   408 ||  4.9% 
 | <div style="width:  10px; background-color: #ff0f0f;">&nbsp;</div>
