@@ -1298,26 +1298,37 @@ be Git user and to participate in this Git User's Survey.  There can be bias bec
 === 21. Did you participate in previous Git User's Surveys? ===
 ''(multiple choice)''
 
-{| border="1" cellpadding="2" cellspacing="0"
+{| border="1" cellpadding="3" cellspacing="0"
 |- style="font-weight: bold; background-color: #ffffcc;"
 ! Answer                                                !! Count !! Perc. 
+! style="width: 200px;" |
 |-
 | in 2006                                               ||    64 ||  0.8% 
+| <div style="width:   2px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | in 2007                                               ||   164 ||  2.0% 
+| <div style="width:   4px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | in 2008                                               ||   467 ||  5.6% 
+| <div style="width:  11px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | in 2009                                               ||   912 || 10.9% 
+| <div style="width:  22px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | I don't remember, but I have participated in the past ||   969 || 11.6% 
-|-
+| <div style="width:  23px; background-color: #ff0f0f;">&nbsp;</div>
+|- style="background-color: #f9f9f9;"
 | none of above (first Git User's Survey)               ||  6492 || 77.9% 
+| <div style="width: 156px; background-color: #ff0f0f;">&nbsp;</div>
 |- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
 | Base                                                  
-| colspan="2" |  8332 / 8841  
+| colspan="2" |  8332 / 8841  ||
 |}
 
+'''Analysis:'''<BR>
+Most responders (77.9%) didn't participate in previous surveys.  This answer is explicit rather than implicit (by not answering the question) like in previous surveys.
+
+It is good that "''I don't remember, but I have participated in the past''" got added (thanks to comments during planning stage of this survey); it has most answers (11.6%) next to not answering any of previous surveys.
 
 === 22. How do you compare the current Git version with the version from one year ago? ===
 ''(single choice)''
