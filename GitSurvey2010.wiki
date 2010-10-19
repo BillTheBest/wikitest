@@ -406,55 +406,79 @@ Either Git users don't stay novices long (4%), or survey announcement(s) didn't 
 === 07. I use Git for (check all that apply): ===
 ''(multiple choice, with other)''
 
-{| border="1" cellpadding="2" cellspacing="0"
+{| border="1" cellpadding="3" cellspacing="0"
 |- style="font-weight: bold; background-color: #ffffcc;"
 ! Answer                                   !! Count !! Perc. 
+! style="width: 200px;" |
 |-
 | work projects                            ||  6905 || 80.8% 
+| <div style="width: 162px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | unpaid projects                          ||  6623 || 77.5% 
+| <div style="width: 155px; background-color: #ff0f0f;">&nbsp;</div>
+|-
+| colspan="4" |
 |-
 | proprietary projects                     ||  3365 || 39.4% 
+| <div style="width:  79px; background-color: #ff0f80;">&nbsp;</div>
 |-
 | OSS development                          ||  5556 || 65.0% 
+| <div style="width: 130px; background-color: #ff0f80;">&nbsp;</div>
 |-
 | private (unpublished) code               ||  6335 || 74.1% 
+| <div style="width: 148px; background-color: #ff0f80;">&nbsp;</div>
+|-
+| colspan="4" |
 |-
 | code (programming)                       ||  7819 || 91.4% 
+| <div style="width: 183px; background-color: #0f8fff;">&nbsp;</div>
 |-
 | personal data                            ||  2337 || 27.3% 
+| <div style="width:  55px; background-color: #0f8fff;">&nbsp;</div>
 |-
 | documents (data)                         ||  2528 || 29.6% 
+| <div style="width:  59px; background-color: #0f8fff;">&nbsp;</div>
 |-
 | static website                           ||  2477 || 29.0% 
+| <div style="width:  58px; background-color: #0f8fff;">&nbsp;</div>
 |-
 | web app                                  ||  3892 || 45.5% 
+| <div style="width:  91px; background-color: #0f8fff;">&nbsp;</div>
 |-
 | large (>1 MB) binary files               ||  1484 || 17.4% 
+| <div style="width:  35px; background-color: #0f8fff;">&nbsp;</div>
 |-
 | often changing binary files              ||   611 ||  7.1% 
+| <div style="width:  14px; background-color: #0f8fff;">&nbsp;</div>
 |-
 | sharing data or sync                     ||  1724 || 20.2% 
+| <div style="width:  40px; background-color: #0f8fff;">&nbsp;</div>
 |-
 | managing configuration files             ||  2850 || 33.3% 
+| <div style="width:  67px; background-color: #0f8fff;">&nbsp;</div>
 |-
 | backup                                   ||  1664 || 19.5% 
+| <div style="width:  39px; background-color: #0f8fff;">&nbsp;</div>
 |-
 | backend for wiki, blog, or other web app ||   922 || 10.8% 
+| <div style="width:  22px; background-color: #0f8fff;">&nbsp;</div>
 |-
 | frontend to other SCM (e.g. git-svn)     ||  1809 || 21.2% 
+| <div style="width:  42px; background-color: #0f8fff;">&nbsp;</div>
 |-
-| other (please specify)                   ||   154 ||  1.8% 
+| colspan="4" style="background-color: #404040;" |
+|-
+| ''other (please specify)''               ||   154 ||  1.8% 
+| <div style="width:   4px; background-color: #ff0fff;">&nbsp;</div>
 |- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
-| Base                                     
-| colspan="2" |  8551 / 8841  
+| Base 
+| colspan="2" style="text-align: center;" |  8551 / 8841  ||
 |}
 
 
 '''Description:'''<BR>
 Note that above choices are neither orthogonal nor exclusive.
 You might want to check multiple answers even for a single repository.
-
 
 === 08. How do/did you obtain Git (install and/or upgrade)? ===
 ''(multiple choice, with other)''
