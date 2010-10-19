@@ -1290,6 +1290,9 @@ be Git user and to participate in this Git User's Survey.  There can be bias bec
 |colspan="12" style="text-align: right"|  8107 / 8841  
 |}
 
+
+
+
 == Changes in Git (since year ago, or since you started using it) ==
 
 === 21. Did you participate in previous Git User's Surveys? ===
@@ -1355,8 +1358,6 @@ Changes since this version include:
 * and more...
 
 (see individual RelNotes for more details)
-
-
 
 == Documentation. Getting help. ==
 
