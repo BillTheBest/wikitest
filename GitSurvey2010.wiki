@@ -367,28 +367,39 @@ Only around 17.3% (less than one fifth) of responders use (somewhere) maintenanc
 === 06. Rate your own proficiency with Git: ===
 ''(single choice)''
 
-{| border="1" cellpadding="2" cellspacing="0"
+{| border="1" cellpadding="3" cellspacing="0"
 |- style="font-weight: bold; background-color: #ffffcc;"
 ! Answer                         !! Count !! Perc. 
+! style="width: 200px;" | &nbsp;
 |-
 | 1. novice                      ||   341 ||  4.0% 
+| <div style="width:   8px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | 2. casual, needs advice        ||  1625 || 19.0% 
+| <div style="width:  38px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | 3. everyday use                ||  3308 || 38.7% 
+| <div style="width:  77px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | 4. can offer advice            ||  2703 || 31.6% 
+| <div style="width:  63px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | 5. know it very well           ||   569 ||  6.7% 
+| <div style="width:  13px; background-color: #ff0f0f;">&nbsp;</div>
 |- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
-| Base                           
-| colspan="2" |  8546 / 8841  
+| Base 
+| colspan="2" style="text-align: center;" |  8546 / 8841  
+| 
 |}
 
 
 '''Description:'''<BR>
 You can think of it as 1-5 numerical grade of your proficiency in Git.
 
+'''Analysis:'''<BR>
+As you can see most responders know Git enough for everyday use, or can even offer some Git advice.  If we treat possible answers as a proficiency grade, the average proficiency is around 3.2 &plusmn; 0.9.
+
+Either Git users don't stay novices long (4%), or survey announcement(s) didn't reach many novice users.
 
 == How you use Git ==
 
