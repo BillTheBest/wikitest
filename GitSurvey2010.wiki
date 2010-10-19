@@ -230,24 +230,32 @@ Most Git users (slightly less than one third: 31.4%) fall in the 26-30 range.  T
 === 03. Have you found Git easy to learn? ===
 ''(single choice)''
 
-{| border="1" cellpadding="2" cellspacing="0"
+{| border="1" cellpadding="3" cellspacing="0"
 |- style="font-weight: bold; background-color: #ffffcc;"
 ! Answer                         !! Count !! Perc. 
+!
 |-
 | Very easy                      ||   408 ||  4.9% 
+| <div style="width:  10px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | Easy                           ||  1984 || 23.6% 
+| <div style="width:  47px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | Reasonably easy                ||  4460 || 53.1% 
+| <div style="width: 106px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | Hard                           ||  1413 || 16.8% 
+| <div style="width:  34px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | Very hard                      ||   139 ||  1.7% 
+| <div style="width:   3px; background-color: #ff0f0f;">&nbsp;</div>
 |- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
 | Base                           
-| colspan="2" |  8404 / 8841  
+| colspan="2" style="text-align: center;" |  8404 / 8841 
+|
 |}
 
+Nice Gaussian curve. Most users find it reasonably easy to learn, slightly biased towards easy.
 
 === 04. Have you found Git easy to use? ===
 ''(single choice)''
