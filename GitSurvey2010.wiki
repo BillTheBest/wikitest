@@ -260,24 +260,35 @@ Nice Gaussian curve. Most users find it reasonably easy to learn, slightly biase
 === 04. Have you found Git easy to use? ===
 ''(single choice)''
 
-{| border="1" cellpadding="2" cellspacing="0"
+{| border="1" cellpadding="3" cellspacing="0"
 |- style="font-weight: bold; background-color: #ffffcc;"
 ! Answer                         !! Count !! Perc. 
+! style="width: 200px" | &nbsp;
 |-
 | Very easy                      ||   932 || 11.1% 
+| <div style="width:  22px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | Easy                           ||  3168 || 37.6% 
+| <div style="width:  75px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | Reasonably easy                ||  3575 || 42.5% 
+| <div style="width:  85px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | Hard                           ||   658 ||  7.8% 
+| <div style="width:  16px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | Very hard                      ||    85 ||  1.0% 
+| <div style="width:   2px; background-color: #ff0f0f;">&nbsp;</div>
 |- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
-| Base                           
-| colspan="2" |  8418 / 8841  
+| Base                        
+| colspan="2" style="text-align: center;" |  8418 / 8841  ||
 |}
 
+Most users find it reasonably easy to easy to use Git. 
+
+When analyzing this data (and the data for the question before) you should take into account that somebody considering or finding Git too hard to learn wouldn't be probably Git user, and thus wouldn't fill this survey.  So because it is '''Git User's''' Survey we should consider that results can be skewed towards lower value (easier).
+
+What's interesting is comparing (percentage) results for questions 3. and 4.; how hard is git to learn versus how hard is to use.  It seems like Git is reasonably easy to learn, and reasonably easy to easy to use.  So it looks like Git just have somewhat steep learning curve, and the difficulty to learn pays in being more powerful to use.
 
 === 05. Which Git version(s) are you using? ===
 ''(multiple choice, with other)''
