@@ -1174,27 +1174,38 @@ Instead of git-format-patch there can be utilized other way of generating patch 
 
 == What you think of Git ==
 
-=== 20. Overall, how happy are you with Git? ===
+=== 19. Overall, how happy are you with Git? ===
 ''(single choice)''
 
-{| border="1" cellpadding="2" cellspacing="0"
+{| border="1" cellpadding="3" cellspacing="0"
 |- style="font-weight: bold; background-color: #ffffcc;"
 ! Answer                         !! Count !! Perc. 
+! style="width: 200px;" |
 |-
 | unhappy                        ||    88 ||  1.0% 
+| <div style="width:   2px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | not so happy                   ||   323 ||  3.8% 
+| <div style="width:   8px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | happy                          ||  1897 || 22.4% 
+| <div style="width:  45px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | very happy                     ||  4592 || 54.2% 
+| <div style="width: 108px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | completely ecstatic            ||  1571 || 18.5% 
+| <div style="width:  37px; background-color: #ff0f0f;">&nbsp;</div>
 |- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
-| Base                           
-| colspan="2" |  8471 / 8841  
+| Base 
+| colspan="2" align="center" |  8471 / 8841  ||
 |}
 
+'''Analysis:'''<BR>
+There were some complaints during planning stage of 2009 survey that the answers for this question are not symmetric; nevertheless it is set of answers that was used in previous surveys, and it would help comparing data with previous surveys to keep the current form.
+
+Most responders are ''"very happy"'' with Git, and this answer seems to be a center of responses.  One should take into account that if one is unhappy with Git, it is less likely that one would continue using it (unless other circumstances would force using it, like the project one contributes to using Git as DVCS of choice), thus less likely to
+be Git user and to participate in this Git User's Survey.  There can be bias because it is '''Git''' survey; it might be different if it was generic survey about (distributed) version control systems.
 
 === 20. In your opinion, which areas in Git need improvement? ===
 '''Please state your preference.'''
