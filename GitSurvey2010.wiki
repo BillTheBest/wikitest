@@ -1333,20 +1333,25 @@ It is good that "''I don't remember, but I have participated in the past''" got 
 === 22. How do you compare the current Git version with the version from one year ago? ===
 ''(single choice)''
 
-{| border="1" cellpadding="2" cellspacing="0"
+{| border="1" cellpadding="3" cellspacing="0"
 |- style="font-weight: bold; background-color: #ffffcc;"
 ! Answer                         !! Count !! Perc. 
+! style="width: 200px;" |
 |-
 | better                         ||  3136 || 38.2% 
+| <div style="width:  76px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | no changes                     ||   675 ||  8.2% 
+| <div style="width:  16px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | worse                          ||     9 ||  0.1% 
+| <div style="width:   0px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| cannot say                     ||  4382 || 53.4% 
+| ''cannot say''                 ||  4382 || 53.4% 
+| <div style="width: 107px; background-color: #ff5f0f;">&nbsp;</div>
 |- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
-| Base                           
-| colspan="2" |  8202 / 8841  
+| Base                          
+| colspan="2" |  8202 / 8841  ||
 |}
 
 
@@ -1368,7 +1373,19 @@ Changes since this version include:
 * TAP-ified test output
 * and more...
 
-(see individual RelNotes for more details)
+(see [http://www.kernel.org/pub/software/scm/git/docs/RelNotes/ individual RelNotes] for more details)
+
+'''Disclaimer:'''<BR>
+The original title of this question when starting this survey was "''How do you compare the current version with the version from one year ago?''".   It was noticed during the time when survey was already open that this question is ambiguous and confusing: it is not clear whether 'version' refers to Git or to Git User's Survey.  This was fixed, but in meantime many people seen older version.
+
+It might be the cause of the fact that more than half of responders answered 'cannot say'.
+
+'''Analysis:'''<BR>
+Most people (53.4%, more than half) cannot say if Git improved since year ago or not.  They might have chosen this answer because they didn't use Git a year ago, and that was the reason they could not do a comparison.  This would indicate large number of new Git users participating in this survey.
+
+But this is not the only explanation.  It is possible that at least some of responders selected 'cannot say' answer because of ambiguity of changes: some are for better, some are for worse.  Having the question stated in unclear way (see "Disclaimer" section above) for most of survey duration didn't help matters any.  Yet another possibility that people do not remember version from year ago.  Those different issues should be split as a separate options / separate answers in this single-choice question.
+
+Discounting 'cannot say' answers, most people (38.2% of replies to this question) think that Git improved since year ago; almost none (0.1%, 9 in 8202 responses to this question) think that it is worse.
 
 == Documentation. Getting help. ==
 
