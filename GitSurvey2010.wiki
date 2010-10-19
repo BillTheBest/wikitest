@@ -483,47 +483,48 @@ You might want to check multiple answers even for a single repository.
 === 08. How do/did you obtain Git (install and/or upgrade)? ===
 ''(multiple choice, with other)''
 
-{| border="1" cellpadding="2" cellspacing="0"
+{| border="1" cellpadding="3" cellspacing="0"
 |- style="font-weight: bold; background-color: #ffffcc;"
 ! Answer                                              !! Count !! Perc. 
+! style="width: 200px;" |
 |-
 | binary package                                      ||  6275 || 73.8% 
+| <div style="width: 148px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | source package or script                            ||  2004 || 23.6% 
+| <div style="width:  47px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | source tarball                                      ||  1211 || 14.2% 
+| <div style="width:  28px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | pull from (main) repository                         ||   984 || 11.6% 
+| <div style="width:  23px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | preinstalled / sysadmin job                         ||   789 ||  9.3% 
+| <div style="width:  19px; background-color: #ff0f0f;">&nbsp;</div>
+|-
+| colspan="4" |
 |-
 | other - please specify (if none of the above apply) ||   414 ||  4.9% 
+| <div style="width:  10px; background-color: #e00000;">&nbsp;</div>
 |- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
-| Base                                                
-| colspan="2" |  8505 / 8841  
+| Base 
+| colspan="2" |  8505 / 8841  ||
 |}
 
 
 '''Description:'''<BR>
-Explanation: binary package covers pre-compiled binary (e.g. from rpm
-or deb binary packages); source package covers things like deb-src and
-SRPMS/*.src.rpm; source script is meant to cover installation in
-source-based distributions, like 'emerge' in Gentoo.
+Explanation: "''binary package''" covers pre-compiled binary (e.g. from rpm or deb binary packages); "''source package''" covers things like deb-src and SRPMS/*.src.rpm; "''source script''" is meant to cover installation in source-based distributions, like 'emerge' in Gentoo.
 
-Automatic update (apt, yum, etc.) in most cases means binary package
-install; unless one uses source-based distribution like Gentoo, CRUX,
-or SourceMage, where automatic update means using source package (or
-source script).
+Automatic update (apt, yum, etc.) in most cases means binary package install; unless one uses source-based distribution like Gentoo, CRUX, or SourceMage, where automatic update means using source package (or source script).
 
-The option named "preinstalled / sysadmin job" means that either you
-didn't need to install git because it was preinstalled (and you didn't
-upgrade); or that you have to ask system administrator to have git
-installed or upgraded.
+The option named "''preinstalled / sysadmin job''" means that either you didn't need to install git because it was preinstalled (and you didn't upgrade); or that you have to ask system administrator to have git installed or upgraded.
 
-Note that this question is multiple choices question because one can
-install Git in different ways on different machines or on different
-operating systems.
 
+Note that this question is multiple choices question because one can install Git in different ways on different machines or on different operating systems.
+
+'''Analysis:'''<BR>
+Most people (73.8%) use ready binary packages, which was kind of expected; that is the easiest way.
 
 === 09. On which operating system(s) do you use Git? ===
 ''(multiple choice, with other)''
