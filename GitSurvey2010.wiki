@@ -571,36 +571,54 @@ Most common used operating system is GNU/Linux, next is MacOS X, and then MS Win
 === 10. What Git interfaces, implementations and frontends do you use? ===
 ''(multiple choice, with other)''
 
-{| border="1" cellpadding="2" cellspacing="0"
+{| border="1" cellpadding="3" cellspacing="0"
 |- style="font-weight: bold; background-color: #ffffcc;"
 ! Answer                                              !! Count !! Perc. 
+! style="width: 200px;" |
 |-
 | git (core) commandline                              ||  8285 || 97.9% 
+| <div style="width: 196px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | JGit (Java implementation), e.g. via Eclipse plugin ||   745 ||  8.8% 
+| <div style="width:  18px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| Cogito (DEPRECATED)                                 ||     7 ||  0.1% 
+| Cogito ''(DEPRECATED)''                             ||     7 ||  0.1% 
+| <div style="width:   0px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | Easy Git                                            ||    33 ||  0.4% 
+| <div style="width:   1px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | Pyrite                                              ||     7 ||  0.1% 
+| <div style="width:   0px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | StGIT                                               ||    84 ||  1.0% 
+| <div style="width:   2px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | Guilt                                               ||    14 ||  0.2% 
+| <div style="width:   0px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | TopGit                                              ||    34 ||  0.4% 
+| <div style="width:   1px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| pg aka Patchy Git (DEPRECATED)                      ||     1 ||  0.0% 
+| pg aka Patchy Git ''(DEPRECATED)''                  ||     1 ||  0.0% 
+| <div style="width:   0px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | I don't know, I use only (graphical) tools          ||    86 ||  1.0% 
+| <div style="width:   2px; background-color: #ff0f0f;">&nbsp;</div>
+|-
+| colspan="4" |
 |-
 | Other (please specify)                              ||  1706 || 20.1% 
+| <div style="width:  40px; background-color: #a00000;">&nbsp;</div>
 |- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
-| Base                                                
-| colspan="2" |  8467 / 8841  
+| Base                          
+| colspan="2" |  8467 / 8841  ||
 |}
 
+'''Analysis:'''<BR>
+Using (at least among other implementations) git command line tool dominates with 97.9% responses... but there are responders (2.1%) who do not use command line tools at all.  JGit users have almost one tenth of responses (8.8%).
+
+This question has very large amount of "''other (please specify)''" responses, 20.1% which is around fifth of responders.
 
 === 11. How often do you use following kinds of Git tools? ===
 ''(matrix)''
