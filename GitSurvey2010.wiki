@@ -529,33 +529,44 @@ Most people (73.8%) use ready binary packages, which was kind of expected; that 
 === 09. On which operating system(s) do you use Git? ===
 ''(multiple choice, with other)''
 
-{| border="1" cellpadding="2" cellspacing="0"
+{| border="1" cellpadding="3" cellspacing="0"
 |- style="font-weight: bold; background-color: #ffffcc;"
 ! Operating System                      !! Count !! Perc. 
+! style="width: 200px;" |
 |-
 | GNU/Linux                             ||  7243 || 84.8% 
+| <div style="width: 170px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | *BSD (FreeBSD, OpenBSD, NetBSD, etc.) ||   639 ||  7.5% 
+| <div style="width:  15px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | MacOS X (Darwin)                      ||  3932 || 46.0% 
+| <div style="width:  92px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | MS Windows/Cygwin                     ||   823 ||  9.6% 
+| <div style="width:  19px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | MS Windows/msysGit (MINGW)            ||  2151 || 25.2% 
+| <div style="width:  50px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | other Unix                            ||   211 ||  2.5% 
+| <div style="width:   5px; background-color: #ff0f0f;">&nbsp;</div>
+|-
+| colspan="4" |
 |-
 | Other, please specify                 ||    92 ||  1.1% 
+| <div style="width:   2px; background-color: #f00000;">&nbsp;</div>
 |- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
-| Base                                  
-| colspan="2" |  8541 / 8841  
+| Base                          
+| colspan="2" |  8541 / 8841  ||
 |}
 
 
 '''Description:'''<BR>
-On Unix-based operating system you can get the name of operation
-system by running 'uname'.
+On Unix-based operating system you can get the name of operation system by running '<tt>uname</tt>' (or '<tt>uname -o</tt>').
 
+'''Analysis:'''<BR>
+Most common used operating system is GNU/Linux, next is MacOS X, and then MS Windows (on MS Window dominates msysGit version).  This is quite understandable, as Git was created on Linux and for Linux, and it works best on POSIX-compliant operating systems.
 
 === 10. What Git interfaces, implementations and frontends do you use? ===
 ''(multiple choice, with other)''
