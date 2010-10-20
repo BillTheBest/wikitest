@@ -163,21 +163,29 @@ You can also take a look at [http://www.ohloh.net/projects/git/map Git Activity 
 
 It is a bit pity that this survey did not include question "Does git.git repository include code produced by you?" (or equivalent), so we would be able to see where the developers are.
 
+
 {| border="1" cellpadding="3" cellspacing="1"
 |- style="font-weight: bold; background-color: #ffffcc;"
-! Continent                         !! Count !! Perc. 
+! Continent                                                  !! Count !! Perc. 
+! style="width: 200px;" |
 |-
-| Africa                            ||    52 ||  0.6% 
+| Africa                                                     ||    52 ||  0.6% 
+| <div style="width:   1px; background-color: #0fff0f;">&nbsp;</div>
 |-
-| Asia                              ||   450 ||  5.3% 
+| Asia                                                       ||   441 ||  5.2% 
+| <div style="width:  10px; background-color: #0fff0f;">&nbsp;</div>
 |-
-| Europe                            ||  4233 || 50.0% 
+| Europe                                                     ||  4232 || 50.0% 
+| <div style="width: 100px; background-color: #0fff0f;">&nbsp;</div>
 |-
-| North America                     ||  3049 || 36.0% 
+| North America                                              ||  3049 || 36.0% 
+| <div style="width:  72px; background-color: #0fff0f;">&nbsp;</div>
 |-
-| South America                     ||   293 ||  3.5% 
+| South America                                              ||   288 ||  3.4% 
+| <div style="width:   7px; background-color: #0fff0f;">&nbsp;</div>
 |-
-| Oceania                           ||   370 ||  4.4% 
+| Oceania                                                    ||   370 ||  4.4% 
+| <div style="width:   9px; background-color: #0fff0f;">&nbsp;</div>
 |}
 
 In the table above "Oceania" includes (among others) Australia and New Zealand.  As you can see most responders are from Europe (50.0%, a half of responses), followed by North America (36.0% responders).
