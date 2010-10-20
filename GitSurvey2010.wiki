@@ -1326,12 +1326,13 @@ be Git user and to participate in this Git User's Survey.  There can be bias bec
 {| border="1" cellpadding="4" cellspacing="0"
 |- style="font-weight: bold; background-color: #ffffcc;"
 ! Answer
-! colspan="2" | don't care 
-! colspan="2" | don't need 
-! colspan="2" | a little   
-! colspan="2" | some       
-! colspan="2" | much       
+! colspan="2" style="background-color: #d7d7d7;" | don't care 
+! colspan="2" style="background-color: #9090ff;" | don't need 
+! colspan="2" style="background-color: #a0ffff;" | a little   
+! colspan="2" style="background-color: #fff290;" | some       
+! colspan="2" style="background-color: #ff9090;" | much       
 ! Avg. / Count 
+! style="width: 200px;" |
 |-
 | user-interface                
 | 1180  || 14.6% 
@@ -1339,7 +1340,14 @@ be Git user and to participate in this Git User's Survey.  There can be bias bec
 | 2248  || 27.7% 
 | 2090  || 25.8% 
 | 1380  || 17.0% 
-| 3.2 (5) / 8107
+| 3.2   / 8107     <!-- 8107 -->
+| 
+<div style="width:  29px; background-color: #a6a6a6; float: left;">&nbsp;</div>
+<div style="width:  30px; background-color: #4040ff; float: left;">&nbsp;</div>
+<div style="width:  55px; background-color: #40ffff; float: left;">&nbsp;</div>
+<div style="width:  51px; background-color: #ffe940; float: left;">&nbsp;</div>
+<div style="width:  34px; background-color: #ff0f0f; float: left;">&nbsp;</div>
+<div style="width: 128px; height: 3ex; border-right: 2px solid black; position: relative;">&nbsp;</div>
 |-
 | documentation                 
 | 420   ||  5.2% 
@@ -1347,7 +1355,14 @@ be Git user and to participate in this Git User's Survey.  There can be bias bec
 | 2844  || 35.1% 
 | 2279  || 28.1% 
 | 861   || 10.6% 
-| 3.2 (5) / 7986
+| 3.2   / 7986
+|
+<div style="width:  10px; background-color: #a6a6a6; float: left;">&nbsp;</div>
+<div style="width:  39px; background-color: #4040ff; float: left;">&nbsp;</div>
+<div style="width:  70px; background-color: #40ffff; float: left;">&nbsp;</div>
+<div style="width:  56px; background-color: #ffe940; float: left;">&nbsp;</div>
+<div style="width:  21px; background-color: #ff0f0f; float: left;">&nbsp;</div>
+<div style="width: 128px; height: 3ex; border-right: 2px solid black; position: relative;">&nbsp;</div>
 |-
 | performance                   
 | 1167  || 14.4% 
@@ -1355,7 +1370,14 @@ be Git user and to participate in this Git User's Survey.  There can be bias bec
 | 1370  || 16.9% 
 | 460   ||  5.7% 
 | 145   ||  1.8% 
-| 2.2 (5) / 7877
+| 2.2   / 7877
+|
+<div style="width:  29px; background-color: #a6a6a6; float: left;">&nbsp;</div>
+<div style="width: 117px; background-color: #4040ff; float: left;">&nbsp;</div>
+<div style="width:  34px; background-color: #40ffff; float: left;">&nbsp;</div>
+<div style="width:  11px; background-color: #ffe940; float: left;">&nbsp;</div>
+<div style="width:   4px; background-color: #ff0f0f; float: left;">&nbsp;</div>
+<div style="width:  88px; height: 3ex; border-right: 2px solid black; position: relative;">&nbsp;</div>
 |-
 | more features                 
 | 1203  || 14.8% 
@@ -1363,7 +1385,14 @@ be Git user and to participate in this Git User's Survey.  There can be bias bec
 | 2680  || 33.1% 
 | 913   || 11.3% 
 | 161   ||  2.0% 
-| 2.5 (5) / 7821
+| 2.5   / 7821
+|
+<div style="width:  30px; background-color: #a6a6a6; float: left;">&nbsp;</div>
+<div style="width:  71px; background-color: #4040ff; float: left;">&nbsp;</div>
+<div style="width:  66px; background-color: #40ffff; float: left;">&nbsp;</div>
+<div style="width:  22px; background-color: #ffe940; float: left;">&nbsp;</div>
+<div style="width:   4px; background-color: #ff0f0f; float: left;">&nbsp;</div>
+<div style="width: 100px; height: 3ex; border-right: 2px solid black; position: relative;">&nbsp;</div>
 |-
 | tools (e.g. GUI)              
 | 1628  || 20.1% 
@@ -1371,7 +1400,14 @@ be Git user and to participate in this Git User's Survey.  There can be bias bec
 | 1722  || 21.2% 
 | 1750  || 21.6% 
 | 1125  || 13.9% 
-| 2.9 (5) / 7776
+| 2.9   / 7776
+|
+<div style="width:  40px; background-color: #a6a6a6; float: left;">&nbsp;</div>
+<div style="width:  38px; background-color: #4040ff; float: left;">&nbsp;</div>
+<div style="width:  42px; background-color: #40ffff; float: left;">&nbsp;</div>
+<div style="width:  43px; background-color: #ffe940; float: left;">&nbsp;</div>
+<div style="width:  28px; background-color: #ff0f0f; float: left;">&nbsp;</div>
+<div style="width: 116px; height: 3ex; border-right: 2px solid black; position: relative;">&nbsp;</div>
 |-
 | localization (translation)    
 | 4417  || 54.5% 
@@ -1379,7 +1415,14 @@ be Git user and to participate in this Git User's Survey.  There can be bias bec
 | 535   ||  6.6% 
 | 293   ||  3.6% 
 | 176   ||  2.2% 
-| 1.6 (5) / 7736
+| 1.6   / 7736
+|
+<div style="width: 109px; background-color: #a6a6a6; float: left;">&nbsp;</div>
+<div style="width:  57px; background-color: #4040ff; float: left;">&nbsp;</div>
+<div style="width:  13px; background-color: #40ffff; float: left;">&nbsp;</div>
+<div style="width:   7px; background-color: #ffe940; float: left;">&nbsp;</div>
+<div style="width:   4px; background-color: #ff0f0f; float: left;">&nbsp;</div>
+<div style="width:  64px; height: 3ex; border-right: 2px solid black; position: relative;">&nbsp;</div>
 |-
 | community (mailing list)      
 | 4170  || 51.4% 
@@ -1387,7 +1430,14 @@ be Git user and to participate in this Git User's Survey.  There can be bias bec
 | 799   ||  9.9% 
 | 203   ||  2.5% 
 | 67    ||  0.8% 
-| 1.6 (5) / 7664
+| 1.6   / 7664
+|
+<div style="width: 103px; background-color: #a6a6a6; float: left;">&nbsp;</div>
+<div style="width:  60px; background-color: #4040ff; float: left;">&nbsp;</div>
+<div style="width:  20px; background-color: #40ffff; float: left;">&nbsp;</div>
+<div style="width:   5px; background-color: #ffe940; float: left;">&nbsp;</div>
+<div style="width:   2px; background-color: #ff0f0f; float: left;">&nbsp;</div>
+<div style="width:  64px; height: 3ex; border-right: 2px solid black; position: relative;">&nbsp;</div>
 |-
 | community (IRC)               
 | 4173  || 51.5% 
@@ -1395,14 +1445,18 @@ be Git user and to participate in this Git User's Survey.  There can be bias bec
 | 734   ||  9.1% 
 | 181   ||  2.2% 
 | 64    ||  0.8% 
-| 1.6 (5) / 7413
+| 1.6   / 7413
+|
+<div style="width: 103px; background-color: #a6a6a6; float: left;">&nbsp;</div>
+<div style="width:  56px; background-color: #4040ff; float: left;">&nbsp;</div>
+<div style="width:  18px; background-color: #40ffff; float: left;">&nbsp;</div>
+<div style="width:   4px; background-color: #ffe940; float: left;">&nbsp;</div>
+<div style="width:   1px; background-color: #ff0f0f; float: left;">&nbsp;</div>
+<div style="width:  64px; height: 3ex; border-right: 2px solid black; position: relative;">&nbsp;</div>
 |- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
-| Base                        
-|colspan="12" style="text-align: right"|  8107 / 8841  
+| Base                           
+|colspan="11" align="right" |  8107 / 8841  ||
 |}
-
-
-
 
 == Changes in Git (since year ago, or since you started using it) ==
 
