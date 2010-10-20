@@ -1,6 +1,6 @@
 __TOC__	Welcome to the Git crash course for SVN users!
 
-This introduces you to Git based on your current Subversion knowledge.  If you want to migrate your company from SVN to Git, see [[SvnMigration|the SVN migration page]].  If you want a list of common commands, see the [[GitCheatSheet|Git Cheat Sheet]] (or the [[Media:Git-svn-cheatsheet.pdf|git-svn cheatsheet]] if you are using [http://www.kernel.org/pub/software/scm/git/docs/git-svn.html git-svn]).  Many [http://git-scm.com/documentation non-SVN-specifc guides] are also available. This crash course is based on [http://git.or.cz/course/svn.html|the Pasky's unmaintained version].
+This introduces you to Git based on your current Subversion knowledge.  If you want to migrate your company from SVN to Git, see [[SvnMigration|the SVN migration page]].  If you want a list of common commands, see the [[GitCheatSheet|Git Cheat Sheet]] (or the [[Media:Git-svn-cheatsheet.pdf|git-svn cheatsheet]] if you are using [http://www.kernel.org/pub/software/scm/git/docs/git-svn.html git-svn]).  Many [http://git-scm.com/documentation non-SVN-specifc guides] are also available. This crash course is based on [http://git.or.cz/course/svn.html the Pasky's unmaintained version].
 
 For those too impatient to read, here's what you need to use someone else's Git project:
 {| align="center" style="border: 1px dashed #2F6FAB; border-collapse: collapse"
