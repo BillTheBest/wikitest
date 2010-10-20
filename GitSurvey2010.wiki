@@ -195,38 +195,48 @@ The conversion from country name to continent was done using [http://p3rl.org/Lo
 === 02. How old are you (in years)? ===
 ''(tabularized free-form single line)''
 
-[[File:GitSurvey2010-age_hist.png|Histogram of age of responders|right]]
-
+[[File:GitSurvey2010-age_hist.png|Histogram of age of responders|right|link=]]
 
 
 
 {| border="1" cellpadding="3" cellspacing="0"
 |- style="font-weight: bold; background-color: #ffffcc;"
 ! Age                            !! Count !! Perc. 
+! style="width: 200px;" |
 |-
 | &nbsp;< 18                     ||   147 ||  1.7% 
+| <div style="width:   3px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | 18-21                          ||   711 ||  8.4% 
+| <div style="width:  17px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | 22-25                          ||  1970 || 23.3% 
+| <div style="width:  47px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | 26-30                          ||  2645 || 31.4% 
+| <div style="width:  63px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | 31-40                          ||  2293 || 27.2% 
+| <div style="width:  54px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | 41-50                          ||   514 ||  6.1% 
+| <div style="width:  12px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | 51-75                          ||   144 ||  1.7% 
+| <div style="width:   3px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | 76+                            ||     7 ||  0.1% 
+| <div style="width:   0px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| colspan="3" |
-|- style="background-color: #fdfdfd;"
+| colspan="4" |
+|- style="background-color: #f0f0f0;"
 | Not a number                   ||     6 ||  0.1% 
+| <div style="width:   0px; background-color: #606060;">&nbsp;</div>
 |- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
-| Base                           
-| colspan="2" |  8437 / 8841  
+| Base                                         
+| colspan="2" align="center" |  8437 / 8841  ||
 |}
+
 <br clear="all">
 
 Discounting joke responses (or errors in parsing), like 3 or 4 years old on one hand side, and 1000000 years old on other side, youngest user who answered this question is 10 years old (next oldest is 12 years old), oldest is 87 (next to oldest is 81).  That is quite a span.
