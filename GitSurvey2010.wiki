@@ -1469,40 +1469,69 @@ Discounting 'cannot say' answers, most people (38.2% of replies to this question
 === 26. What channel(s) did you use to request help? ===
 ''(multiple choice, with other)''
 
-{| border="1" cellpadding="2" cellspacing="0"
+{| border="1" cellpadding="3" cellspacing="0"
 |- style="font-weight: bold; background-color: #ffffcc;"
 ! Channel                                   !! Count !! Perc. 
+! style="width: 200px;" |
 |-
 | git mailing list (git@vger.kernel.org)    ||   415 ||  7.2% 
+| <div style="width:  14px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | msysGit mailing list / Google Group       ||    81 ||  1.4% 
+| <div style="width:   3px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | "Git for Human Beings" Google Group       ||   138 ||  2.4% 
+| <div style="width:   5px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | IRC (#git)                                ||  1043 || 18.1% 
+| <div style="width:  36px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | IRC (other git/SCM related, e.g. #github) ||   287 ||  5.0% 
+| <div style="width:  10px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | IRC (other than above)                    ||   632 || 10.9% 
+| <div style="width:  22px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| request in blog post or on wiki           ||   409 ||  7.1% 
+| request in blog post or on wiki<ref name="ask:blog">Here I mainly meant asking a question on one's blog, and waiting for response in blog comments, like e.g. in this blog entry: "[http://jjnapiorkowski.typepad.com/modern-perl/2009/07/migrating-to-git-from-subversion.html#tp Migrating to git from Subversion]", or asking on Git Wiki (as if it was help forum), or on Talk page of some other wiki (no example).</ref>
+|                                                409 ||  7.1% 
+| <div style="width:  14px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | asking git guru/colleague                 ||  3400 || 58.9% 
+| <div style="width: 118px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | project mailing list, or IRC, or forum    ||   533 ||  9.2% 
+| <div style="width:  18px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | Twitter or other microblogging platform   ||   801 || 13.9% 
+| <div style="width:  28px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | instant messaging (IM) like XMPP/Jabber   ||  1017 || 17.6% 
+| <div style="width:  35px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| StackOverflow                             ||  2157 || 37.3% 
+| StackOverflow<ref name="ask:stackoverflow">[http://stackoverflow.com/ StackOverflow] is a community driven programming-related Q&A site<BR> http://stackoverflow.com/questions/tagged/git</ref>
+|                                               2157 || 37.3% 
+| <div style="width:  75px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| other (please specify)                    ||   432 ||  7.5% 
+| colspan="4" |
+|-
+| ''other (please specify)''                ||   432 ||  7.5% 
+| <div style="width:  15px; background-color: #d00000;">&nbsp;</div>
 |- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
-| Base                                      
-| colspan="2" |  5777 / 8841  
+| Base                          
+| colspan="2" |  5777 / 8841  ||
 |}
 
+'''Notes:'''<BR>
+<references />
+
+'''Analysis:'''<BR>
+Most used 'channel' is simply to ask somebody better versed in Git personally, same as in previous surveys, with almost 60%.  This year StackOverflow (a Q&A site) came as second with 37%, moving up from 17% last year when it was a new thing.
+
+The [irc://irc.freenode.net/git #git] IRC channel with usually fast real-time response is now third at 18%, down from 31% in 2009 and 37% in 2008.  Together with other IRC channels (git/SCM related with 7%, other with 11%) it comes up to 34%, close to StackOverflow 37%.  One wonders how disruptive [http://chat.stackoverflow.com/ StackOverflow chat] would be...
+
+Close fourth, with almost 18% of responses is instant messaging (XMPP/Jabber, Google Talk, AIM, QQ, ICQ, etc.), also with real-time response; 2009 survey had similarly 19% of IM users.
+
+Git mailing list is 9th on the list with only 7.2% of replies, down from 12% in 2009 and 19% in 2008.  The "Git for Human Beings" Google Group is down with 2.4%, in next to last place.
 
 === 27. Which communication channel(s) do you use? ===
 '''    Do you read the mailing list, or watch IRC channel?'''
