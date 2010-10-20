@@ -856,71 +856,150 @@ Most popular graphical tool is '''gitk''', a graphical history viewer, with 58% 
 '''git gui''', a commit tool (a git GUI), also distributed with Git, is third with 25%, closely following '''GitX''', a git GUI for MacOS X.
 
 === 13. Which git hosting site(s) do you use for your project(s)? ===
-'''    (Please check only hosting sites where you publish/push to)'''
+'''(Please check only hosting sites where you publish/push to)'''
 
 ''(multiple choice, with other)''
 
-{| border="1" cellpadding="2" cellspacing="0"
+The section of table with generic git hosting sites (first section) is sorted alphabetically by site name.  Write-in (written in "''Other (please specify)''" are <span style="color: #404050; font-style: italic;">marked using different style</span> and use different color of histogram (if it is visible).  Not all write-ins were added.
+
+{| border="1" cellpadding="3" cellspacing="0" style="font-size: 80%;"
 |- style="font-weight: bold; background-color: #ffffcc;"
 ! Answer                                                   !! Count !! Perc. 
+! style="width: 200px;" |
+|- style="color: #404050; font-style: italic;"
+| A2Hosting                                                ||     3 ||  0.0% 
+| <div style="width:   0px; background-color: #770fff;">&nbsp;</div>
 |-
-| repo.or.cz                                               ||   305 ||  3.9% 
+| Assembla                                                 ||   141 ||  1.8%
+| <div style="width:   4px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| GitHub                                                   ||  6107 || 77.1% 
-|-
-| Gitorious                                                ||   936 || 11.8% 
-|-
-| InDefero                                                 ||    61 ||  0.8% 
-|-
-| Savannah                                                 ||    68 ||  0.9% 
-|-
-| SourceForge                                              ||   400 ||  5.0% 
-|-
-| Assembla                                                 ||   140 ||  1.8% 
-|-
-| Codebase                                                 ||   116 ||  1.5% 
-|-
-| Unfuddle                                                 ||   346 ||  4.4% 
-|-
-| Codesion                                                 ||    13 ||  0.2% 
-|-
-| GitFarm                                                  ||     7 ||  0.1% 
-|-
-| ProjectLocker                                            ||    47 ||  0.6% 
-|-
-| The Chaw                                                 ||     9 ||  0.1% 
-|-
-| Beanstalk                                                ||   100 ||  1.3% 
+| Beanstalk                                                ||   101 ||  1.3%
+| <div style="width:   3px; background-color: #ff0f0f;">&nbsp;</div>
+|- style="color: #404050; font-style: italic;"
+| BerliOS                                                  ||    11 ||  0.1% 
+| <div style="width:   0px; background-color: #770fff;">&nbsp;</div>
+|- style="color: #404050; font-style: italic;"
+| BitBucket                                                ||     4 ||  0.1% 
+| <div style="width:   0px; background-color: #770fff;">&nbsp;</div>
+|- style="color: #404050; font-style: italic;"
+| Branchable                                               ||     2 ||  0.0% 
+| <div style="width:   0px; background-color: #770fff;">&nbsp;</div>
 |-
 | CipherHive                                               ||     2 ||  0.0% 
+| <div style="width:   0px; background-color: #ff0f0f;">&nbsp;</div>
+|- style="color: #404050; font-style: italic;"
+| Codaset                                                  ||    54 ||  0.7% 
+| <div style="width:   1px; background-color: #770fff;">&nbsp;</div>
 |-
-| kernel.org                                               ||   102 ||  1.3% 
+| Codebase                                                 ||   118 ||  1.5% 
+| <div style="width:   3px; background-color: #ff0f0f;">&nbsp;</div>
+|- style="color: #404050; font-style: italic;"
+| Codesion                                                 ||    13 ||  0.2% 
+| <div style="width:   0px; background-color: #770fff;">&nbsp;</div>
+|- style="color: #404050; font-style: italic;"
+| Gerrit                                                   ||     6 ||  0.1% 
+| <div style="width:   0px; background-color: #770fff;">&nbsp;</div>
+|-
+| GitFarm                                                  ||     7 ||  0.1% 
+| <div style="width:   0px; background-color: #ff0f0f;">&nbsp;</div>
+|-
+| GitHub                                                   ||  6107 || 77.1% 
+| <div style="width: 154px; background-color: #ff0f0f;">&nbsp;</div>
+|-
+| Gitorious                                                ||   936 || 11.8% 
+| <div style="width:  24px; background-color: #ff0f0f;">&nbsp;</div>
+|- style="color: #404050; font-style: italic;"
+| Google Code                                              ||     4 ||  0.1% 
+| <div style="width:   0px; background-color: #770fff;">&nbsp;</div>
+|- style="color: #404050; font-style: italic;"
+| Heroku                                                   ||    34 ||  0.4% 
+| <div style="width:   1px; background-color: #770fff;">&nbsp;</div>
+|-
+| InDefero                                                 ||    61 ||  0.8% 
+| <div style="width:   2px; background-color: #ff0f0f;">&nbsp;</div>
+|- style="color: #404050; font-style: italic;"
+| Launchpad                                                ||     3 ||  0.0% 
+| <div style="width:   0px; background-color: #770fff;">&nbsp;</div>
+|-
+| ProjectLocker                                            ||    47 ||  0.6% 
+| <div style="width:   1px; background-color: #ff0f0f;">&nbsp;</div>
+|- style="color: #404050; font-style: italic;"
+| Redmine                                                  ||     9 ||  0.1% 
+| <div style="width:   0px; background-color: #770fff;">&nbsp;</div>
+|- style="color: #404050; font-style: italic;"
+| repositoryhosting                                        ||    19 ||  0.2% 
+| <div style="width:   0px; background-color: #770fff;">&nbsp;</div>
+|-
+| repo.or.cz                                               ||   305 ||  3.9% 
+| <div style="width:   8px; background-color: #ff0f0f;">&nbsp;</div>
+|-
+| Savannah                                                 ||    68 ||  0.9% 
+| <div style="width:   2px; background-color: #ff0f0f;">&nbsp;</div>
+|- style="color: #404050; font-style: italic;"
+| SourceRepo                                               ||     3 ||  0.0% 
+| <div style="width:   0px; background-color: #770fff;">&nbsp;</div>
+|-
+| SourceForge                                              ||   400 ||  5.0% 
+| <div style="width:  10px; background-color: #ff0f0f;">&nbsp;</div>
+|- style="color: #404050; font-style: italic;"
+| The Chaw                                                 ||     9 ||  0.1% 
+| <div style="width:   0px; background-color: #770fff;">&nbsp;</div>
+|- style="color: #404050; font-style: italic;"
+| TuxFamily                                                ||     7 ||  0.1% 
+| <div style="width:   0px; background-color: #770fff;">&nbsp;</div>
+|-
+| Unfuddle                                                 ||   349 ||  4.4% 
+| <div style="width:   9px; background-color: #ff0f0f;">&nbsp;</div>
+|- style="color: #404050; font-style: italic;"
+| XP-Dev                                                   ||     4 ||  0.1% 
+| <div style="width:   0px; background-color: #770fff;">&nbsp;</div>
+|-
+| colspan="4" |
+|-
+| kernel.org                                               ||   105 ||  1.3% 
+| <div style="width:   3px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | freedesktop.org                                          ||    76 ||  1.0% 
+| <div style="width:   2px; background-color: #ff0f0f;">&nbsp;</div>
+|- style="color: #404050; font-style: italic;"
+| git.gnome.org                                            ||    27 ||  0.3% 
+| <div style="width:   1px; background-color: #770fff;">&nbsp;</div>
 |-
 | Alioth                                                   ||   121 ||  1.5% 
+| <div style="width:   3px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | debian-hosted                                            ||   100 ||  1.3% 
+| <div style="width:   3px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | Fedora Hosted                                            ||    50 ||  0.6% 
+| <div style="width:   1px; background-color: #ff0f0f;">&nbsp;</div>
+|-
+| colspan="4" |
+|- style="color: #404050; font-style: italic;"
+| company internal                                         ||    34 ||  0.4% 
+| <div style="width:   1px; background-color: #770fff;">&nbsp;</div>
 |-
 | git hosting site for set of related projects (e.g. OLPC) ||   123 ||  1.6% 
+| <div style="width:   3px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | generic site without git support                         ||   166 ||  2.1% 
+| <div style="width:   4px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| self hosted                                              ||  3494 || 44.1% 
+| self hosted                                              ||  3496 || 44.1% 
+| <div style="width:  88px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| Other (please specify)                                   ||   377 ||  4.8% 
+| colspan="4" |
+|-
+| '''''Other (please specify)'''''                         ||   377 ||  4.8% 
+| <div style="width:  10px; background-color: #0f0fff;">&nbsp;</div>
 |- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
 | Base                                                     
-| colspan="2" |  7922 / 8841  
+| colspan="2" |  7922 / 8841  ||
 |}
 
 
 '''Description:'''<BR>
-You can find those and other git hosting sites listed on
-http://git.wiki.kernel.org/index.php/GitHosting
-
+You can find those and other git hosting sites listed on [[GitHosting]] page.
 
 === 14. How do you fetch/get changes from upstream repositories? ===
 ''(multiple choice, with other)''
