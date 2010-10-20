@@ -893,9 +893,9 @@ The section of table with generic git hosting sites (first section) is sorted al
 |-
 | Codebase                                                 ||   118 ||  1.5% 
 | <div style="width:   3px; background-color: #ff0f0f;">&nbsp;</div>
-|- style="color: #404050; font-style: italic;"
+|-
 | Codesion                                                 ||    13 ||  0.2% 
-| <div style="width:   0px; background-color: #770fff;">&nbsp;</div>
+| <div style="width:   0px; background-color: #ff0f0f;">&nbsp;</div>
 |- style="color: #404050; font-style: italic;"
 | Gerrit                                                   ||     6 ||  0.1% 
 | <div style="width:   0px; background-color: #770fff;">&nbsp;</div>
@@ -941,9 +941,9 @@ The section of table with generic git hosting sites (first section) is sorted al
 |-
 | SourceForge                                              ||   400 ||  5.0% 
 | <div style="width:  10px; background-color: #ff0f0f;">&nbsp;</div>
-|- style="color: #404050; font-style: italic;"
+|-
 | The Chaw                                                 ||     9 ||  0.1% 
-| <div style="width:   0px; background-color: #770fff;">&nbsp;</div>
+| <div style="width:   0px; background-color: #ff0f0f;">&nbsp;</div>
 |- style="color: #404050; font-style: italic;"
 | TuxFamily                                                ||     7 ||  0.1% 
 | <div style="width:   0px; background-color: #770fff;">&nbsp;</div>
