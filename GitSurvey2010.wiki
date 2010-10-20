@@ -1534,33 +1534,46 @@ Close fourth, with almost 18% of responses is instant messaging (XMPP/Jabber, Go
 Git mailing list is 9th on the list with only 7.2% of replies, down from 12% in 2009 and 19% in 2008.  The "Git for Human Beings" Google Group is down with 2.4%, in next to last place.
 
 === 27. Which communication channel(s) do you use? ===
-'''    Do you read the mailing list, or watch IRC channel?'''
+'''Do you read the mailing list, or watch IRC channel?'''
 
 ''(multiple choice)''
 
-{| border="1" cellpadding="2" cellspacing="0"
+{| border="1" cellpadding="3" cellspacing="0"
 |- style="font-weight: bold; background-color: #ffffcc;"
 ! Channel                             !! Count !! Perc. 
+! style="width: 200px;" |
 |-
 | git@vger.kernel.org (main)          ||   503 || 34.9% 
+| <div style="width:  70px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | Git for Human Beings (Google Group) ||   178 || 12.4% 
+| <div style="width:  25px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | msysGit                             ||   136 ||  9.4% 
+| <div style="width:  19px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | #git IRC channel                    ||   789 || 54.8% 
+| <div style="width: 110px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | #git-devel IRC channel              ||    36 ||  2.5% 
+| <div style="width:   5px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | #github or #gitorious IRC channel   ||   315 || 21.9% 
+| <div style="width:  44px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | #revctrl IRC channel                ||     7 ||  0.5% 
+| <div style="width:   1px; background-color: #ff0f0f;">&nbsp;</div>
 |- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
 | Base                                
-| colspan="2" |  1441 / 8841  
+| colspan="2" |  1441 / 8841  ||
 |}
 
 
+'''Disclaimer:'''<BR>
+Note that percentage is relative to the (small) number of replies to this question, not relative to the number of all responders.
+
+'''Analysis:'''<BR>
+Among listed channels, most commonly used are #git IRC channel on FreeNode with 55%, and git mailing list (git@vger.kernel.org) with 34% (down from 42% in 2009).  Third is #github and #gitorious IRC channels together, with 22% or replies to this question (same as in 2009).
 
 == About this survey. ==
 
