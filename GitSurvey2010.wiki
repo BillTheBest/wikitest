@@ -1580,44 +1580,55 @@ Among listed channels, most commonly used are #git IRC channel on FreeNode with 
 === 28. How did you hear about this Git User's Survey? ===
 ''(single choice, with other)''
 
-{| border="1" cellpadding="2" cellspacing="0"
+{| border="1" cellpadding="3" cellspacing="0"
 |- style="font-weight: bold; background-color: #ffffcc;"
 ! Answer                                                        !! Count !! Perc. 
+! style="width: 200px;" |
 |-
 | git mailing list                                              ||   313 ||  3.8% 
+| <div style="width:   8px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | git-related mailing list (msysGit, Git for Human Beings, ...) ||    72 ||  0.9% 
+| <div style="width:   2px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | mailing list or forum of some project                         ||   566 ||  6.8% 
+| <div style="width:  14px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | #git IRC channel topic                                        ||    42 ||  0.5% 
+| <div style="width:   1px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | announcement on IRC channel                                   ||    61 ||  0.7% 
+| <div style="width:   1px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | git homepage                                                  ||   408 ||  4.9% 
+| <div style="width:  10px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | git wiki                                                      ||   147 ||  1.8% 
+| <div style="width:   4px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | git hosting site                                              ||  1629 || 19.7% 
+| <div style="width:  39px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | software-related web site                                     ||   563 ||  6.8% 
+| <div style="width:  14px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | news web site or social news site (e.g. Digg, Reddit)         ||   835 || 10.1% 
+| <div style="width:  20px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | blog (or blog planet)                                         ||   885 || 10.7% 
+| <div style="width:  21px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | other kind of web site                                        ||   166 ||  2.0% 
+| <div style="width:   4px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | Twitter or other microblogging platform                       ||  1211 || 14.6% 
+| <div style="width:  29px; background-color: #ff0f0f;">&nbsp;</div>
+|-
+| colspan="4" |
 |-
 | other - please specify                                        ||  1390 || 16.8% 
+| <div style="width:  34px; background-color: #800000;">&nbsp;</div>
 |- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
 | Base                                                          
-| colspan="2" |  8288 / 8841  
+| colspan="2" |  8288 / 8841  ||
 |}
-
-
-----
-[[Category:Statistics]]
-
-__NOTOC__
