@@ -70,10 +70,10 @@ Here are some concepts that will help you understand Git.  If you are in a hurry
 
 Let's step through how you create and update a new project in Git and SVN.
 
-If you are creating a new project, you would <code>cd</code> to a directory that will contain your project, then:
+If you are creating a new project, you would:
 
 {| style="border: 1px dashed #2F6FAB; border-collapse: collapse; width: 100%"
-| style="padding: 0 2em; background-color: #E0ECF9; width: 50%" | '''<tt>git init ''myproject''<br/></tt>'''
+| style="padding: 0 2em; background-color: #E0ECF9; width: 50%" | '''<tt>mkdir ''myproject''; cd ''myproject''<br />git init<br/></tt>'''
 | style="padding: 0 2em; background-color: #F9F9F9; width: 50%" | <tt>svnadmin create ''myproject_repo''<br/>svn checkout ''file://myproject_repo'' ''myproject''</tt>
 |}
 
@@ -85,6 +85,8 @@ If you are putting an existing project under version control, you would <code>cd
 |}
 
 '''<code>git init</code>''' initializes the repository, '''<code>git add .</code>''' adds all the files under the current directory and '''<code>git commit</code>''' creates the initial import.
+
+Remember - Git does not have separate places for a repository and your working copy - the working copy always already contains the repository as well, in the <code>.git</code> subdirectory. (Of course you can have special repositories that do not have a working copy attached - ''bare'' repositories. These are useful for having a repo over at some server where you don't do any actual work but which serves just for pushing and pulling.)
 
 If you are downloading someone else's Git project, you would do this instead:
 
