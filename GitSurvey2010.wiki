@@ -1385,7 +1385,7 @@ Most people (53.4%, more than half) cannot say if Git improved since year ago or
 
 But this is not the only explanation.  It is possible that at least some of responders selected 'cannot say' answer because of ambiguity of changes: some are for better, some are for worse.  Having the question stated in unclear way (see "Disclaimer" section above) for most of survey duration didn't help matters any.  Yet another possibility that people do not remember version from year ago.  Those different issues should be split as a separate options / separate answers in this single-choice question.
 
-Discounting 'cannot say' answers, most people (38.2% of replies to this question) think that Git improved since year ago; almost none (0.1%, 9 in 8202 responses to this question) think that it is worse.
+Discounting 'cannot say' answers, most people (38.2% of replies to this question) think that Git improved since year ago; almost none (0.1%, 9 in 8202 responses to this question) think that Git is worse than it was year ago.
 
 == Documentation. Getting help. ==
 
