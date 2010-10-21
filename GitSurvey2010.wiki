@@ -1,4 +1,3 @@
-__NOTOC__
 = Git User's Survey 2010 summary =
 
 ''The "Git User's Survey 2010" has been '''closed''' on October 15, 2010.''
@@ -24,6 +23,12 @@ There were 3868 individual responses in [[GitSurvey2009]] (the 30 responses in '
 There were 3236 individual responses in [[GitSurvey2008]] (including 21 responses in 'test' channel), for 12101 views.<BR>
 There were 683 individual responses in [[GitSurvey2007]].<BR>
 There were around 117 responses in [[GitSurvey2006]].
+
+
+----
+''Table of contents:''
+__TOC__
+----
 
 
 == About you ==
