@@ -1716,20 +1716,39 @@ Discounting 'cannot say' answers, most people (38.2% of replies to this question
 === 25. If yes, did you get these problems resolved quickly and to your liking? ===
 ''(single choice)''
 
-{| border="1" cellpadding="2" cellspacing="0"
+{| border="1" cellpadding="3" cellspacing="0"
 |- style="font-weight: bold; background-color: #ffffcc;"
 ! Answer                         !! Count !! Perc. 
+! style="width: 200px;" |
 |-
 | Yes                            ||  3610 || 61.8% 
-|-
-| No                             ||   401 ||  6.9% 
+| <div style="width: 124px; background-color: #ff0f0f; float: left;">&nbsp;</div>
+<ref name="resolving-problems:hist-answer">relative to numbers of people who answered this question</ref>
 |-
 | Somewhat                       ||  1835 || 31.4% 
+| <div style="width:  63px; background-color: #ff0f0f; float: left;">&nbsp;</div>
+<ref name="resolving-problems:hist-answer" />
+|-
+| No                             ||   401 ||  6.9% 
+| <div style="width:  14px; background-color: #ff0f0f; float: left;">&nbsp;</div>
+<ref name="resolving-problems:hist-answer" />
 |- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
 | Base                           
-| colspan="2" |  5846 / 8841  
+| colspan="2" align="center" |  5846 / 8841  
+| <!-- style="background-color: #ffffff;" | -->
+<div   style="width: 132px; background-color: #0800ff; float: left;">&nbsp;</div>
+<ref name="resolving-problems:hist-base">relative to numbers of all survey responders</ref>
 |}
 
+<div style="font-size: 80%;">
+'''Notes:'''<BR>
+<references />
+</div>
+
+'''Analysis:'''<BR>
+''Consistency check:'' 5387 people answered that they tried to get help about Git from other people (in previous question), but we have 5846 responses for this question...
+
+It looks like we have good community surrounding Git, if 62% of Git questions are resolved quickly and accurately, and only 7% couldn't get quick response and one to their liking.  Those results are very similar to those from 2009 survey.
 
 === 26. What channel(s) did you use to request help? ===
 ''(multiple choice, with other)''
