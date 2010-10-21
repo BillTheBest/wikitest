@@ -1266,68 +1266,110 @@ Least used, with only 0.5% of responses, is "<tt>git cvsserver</tt>".
 === 17. Which of the following features would you like to see implemented in git? ===
 ''(multiple choice)''
 
-{| border="1" cellpadding="2" cellspacing="0"
+{| border="1" cellpadding="3" cellspacing="0"
 |- style="font-weight: bold; background-color: #ffffcc;"
 ! Answer                                                               !! Count !! Perc. 
+! style="width: 200px;" |
 |-
-| better support for big files (large media)                           ||  2024 || 28.1% 
+| better support for big files (large media)<ref name="feature-request:git-bigfiles">There is [http://caca.zoy.org/wiki/git-bigfiles git-bigfiles] git fork, which means to make life bearable for people using Git on projects hosting very large files (hundreds of megabytes), and to merge back as many changes as possible into upstream Git once they're of acceptable quality</ref>
+|  2024 || 28.1% 
+| <div style="width:  56px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | resumable clone/fetch (and other remote operations)                  ||  1738 || 24.1% 
+| <div style="width:  48px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | GitTorrent Protocol, or git-mirror                                   ||   998 || 13.9% 
+| <div style="width:  28px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | lazy clone / on-demand fetching of object                            ||   814 || 11.3% 
+| <div style="width:  23px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | subtree clone                                                        ||  1167 || 16.2% 
+| <div style="width:  32px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | support for tracking empty directories                               ||  2532 || 35.2% 
+| <div style="width:  70px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | environment variables in config                                      ||   612 ||  8.5% 
+| <div style="width:  17px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | better undo/abort/continue, and for more commands                    ||  1672 || 23.2% 
+| <div style="width:  46px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | '-n' like option for each command, which describes what would happen ||  2413 || 33.5% 
+| <div style="width:  67px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | warn before/when rewriting published history                         ||  1619 || 22.5% 
+| <div style="width:  45px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | side-by-side diffs and/or color-words diff in gitweb                 ||  1386 || 19.2% 
+| <div style="width:  38px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | admin and/or write features in gitweb                                ||   390 ||  5.4% 
+| <div style="width:  11px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | graphical history view in gitweb                                     ||  1188 || 16.5% 
+| <div style="width:  33px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | GUI for rebase in git-gui                                            ||  1302 || 18.1% 
+| <div style="width:  36px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | GUI for creating repository in git-gui                               ||   493 ||  6.8% 
+| <div style="width:  14px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | graphical diff/merge tool integrated with git-gui                    ||  1069 || 14.8% 
+| <div style="width:  30px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | syntax highlighting in git-gui                                       ||   935 || 13.0% 
+| <div style="width:  26px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | filename encoding (in repository vs in filesystem)                   ||   397 ||  5.5% 
+| <div style="width:  11px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| git push --create                                                    ||  1848 || 25.7% 
+| <tt>git push --create</tt>                                           ||  1848 || 25.7% 
+| <div style="width:  51px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | localization of command-line messages (i18n)                         ||   258 ||  3.6% 
+| <div style="width:   7px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | wholesame directory rename detection                                 ||  1149 || 16.0% 
+| <div style="width:  32px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | union checkouts (some files from one branch, some from other)        ||   517 ||  7.2% 
+| <div style="width:  14px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | advisory locking / "this file is being edited"                       ||   467 ||  6.5% 
+| <div style="width:  13px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | "commands issued" (or "command equivalents") in git-gui / gitk       ||   420 ||  5.8% 
+| <div style="width:  12px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | built-in gitjour/bananajour support                                  ||   376 ||  5.2% 
+| <div style="width:  10px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | better support for submodules                                        ||  2070 || 28.7% 
+| <div style="width:  57px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| other (described below)                                              ||   519 ||  7.2% 
+| colspan="4" |
+|-
+| other (''described below'')                                          ||   519 ||  7.2% 
+| <div style="width:  14px; background-color: #a00000;">&nbsp;</div>
 |- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
 | Base                                                                 
-| colspan="2" |  7203 / 8841  
+| colspan="2" |  7203 / 8841  ||
 |}
 
+
+'''Notes:'''<BR>
+<references />
+
+
+'''Analysis:'''<BR>
+One of the most requested features is native support for tracking empty directories, with 35.2%, followed closely by request for '<tt>-n</tt>' like option for ''each'' command, which would print what would happen, but do not actually execute command, with 33.5%.  Both have more than third of responses.
+
+Then there are requests for better support for submodules with 28.7%, and for big files (large media) with 28.1%.  Then there is request for "<tt>git push --create</tt>" i.e. native way of creating repositories remotely, with 25.7% of responders.  Following it closely is request for resumable fetch, clone, and other remote operations, with 24.1% responses.  All those have got than fourth of responses (or close to it).
+
+Least requested are lazy clone with 11.3%, and support for environment variables like <tt>$HOME</tt> in config file, with 8.5%.
 
 === 18. Describe what features would you like to have in Git, ===
 '''    if they are not present on the list above (in previous question)'''
