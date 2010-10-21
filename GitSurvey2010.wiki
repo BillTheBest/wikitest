@@ -1698,18 +1698,20 @@ Discounting 'cannot say' answers, most people (38.2% of replies to this question
 === 24. Have you tried to get help regarding Git from other people? ===
 ''(single choice)''
 
-{| border="1" cellpadding="2" cellspacing="0"
+{| border="1" cellpadding="3" cellspacing="0"
 |- style="font-weight: bold; background-color: #ffffcc;"
 ! Answer                         !! Count !! Perc. 
+! style="width: 200px;" |
 |-
 | Yes                            ||  5387 || 65.0% 
+| <div style="width: 130px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | No                             ||  2907 || 35.0% 
+| <div style="width:  70px; background-color: #ff0f0f;">&nbsp;</div>
 |- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
 | Base                           
-| colspan="2" |  8294 / 8841  
+| colspan="2" align="center" |  8294 / 8841  ||
 |}
-
 
 === 25. If yes, did you get these problems resolved quickly and to your liking? ===
 ''(single choice)''
