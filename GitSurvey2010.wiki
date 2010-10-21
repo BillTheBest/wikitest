@@ -1136,76 +1136,132 @@ Instead of git-format-patch there can be utilized other way of generating patch 
 === 16. Which of the following features do you use? ===
 ''(multiple choice, with other)''
 
-{| border="1" cellpadding="2" cellspacing="0"
+{| border="1" cellpadding="3" cellspacing="0"
 |- style="font-weight: bold; background-color: #ffffcc;"
 ! Answer                                                        !! Count !! Perc. 
+! style="width: 200px;" |
 |-
 | git bundle (off-line transport)                               ||   488 ||  6.9% 
+| <div style="width:  14px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| "smart" HTTP support                                          ||   902 || 12.7% 
+| "smart" HTTP support<ref name="feature:smart-http">Note that '"smart" HTTP support' is a feature that one can be using without knowing about it; it is enough if one uses new enough git, there is new enough git on server, and one uses <nowiki>http://</nowiki> protocol for fetching.</ref>
+|                                                                    902 || 12.7% 
+| <div style="width:  25px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | eol conversion (crlf)                                         ||  1307 || 18.4% 
+| <div style="width:  37px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | custom diff/merge driver                                      ||   697 ||  9.8% 
+| <div style="width:  20px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | textconv                                                      ||    82 ||  1.2% 
+| <div style="width:   2px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| gitattributes (other than above)                              ||   443 ||  6.3% 
+| gitattributes (other than above<ref name="feature:gitattributes">This means gitattributes other than `text`, `eol`, `diff.&lt;name&gt;.command`, `diff.&lt;name&gt;.textconf`, `merge.&lt;name&gt;.command` etc., which means `ident`, `filter`, custom diff hunk-header and word diff, selecting pre-defined merge drivers, `conflict-marker-size`, `whitespace`, `export-ignore`, `export-subst`, `delta`, `encoding`.  See [http://www.kernel.org/pub/software/scm/git/docs/gitattributes.html gitattributes(5)] manpage.</ref>)
+|                                                                    443 ||  6.3% 
+| <div style="width:  13px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | submodules (subprojects)                                      ||  2336 || 33.0% 
+| <div style="width:  66px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| subtree merge (optionally git-subtree)                        ||   364 ||  5.1% 
+| subtree merge (optionally git-subtree<ref name="feature:git-subtree">''[http://github.com/apenwarr/git-subtree git-subtree]'' is an external tool making it easier to use workflow which uses "subtree" merge strategy.  It was at the time of this survey managed as external project.</ref>)                         
+|   364 ||  5.1% 
+| <div style="width:  10px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | partial (sparse) checkout                                     ||   350 ||  4.9% 
+| <div style="width:  10px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | assume-unchanged bit                                          ||   144 ||  2.0% 
+| <div style="width:   4px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | separate worktree / core.worktree                             ||   178 ||  2.5% 
+| <div style="width:   5px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| multiple worktrees (git-new-worktree)                         ||   203 ||  2.9% 
+| multiple worktrees (git-new-workdir<ref name="feature:git-new-workdir">''[http://repo.or.cz/w/git.git/blob/HEAD:/contrib/workdir/git-new-workdir git-new-workdir]'' is a shell script in <tt>contrib/worktree/</tt> which can be used to manage multiple worktrees (working areas) for a single repository.  Uses symbolic links.</ref>)
+|                                                                    203 ||  2.9% 
+| <div style="width:   6px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | alternates mechanism (sharing object database)                ||   160 ||  2.3% 
+| <div style="width:   5px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| stash (optionally "git stash --keep-index")                   ||  4703 || 66.4% 
+| stash (optionally "<tt>git stash --keep-index</tt>")          ||  4703 || 66.4% 
+| <div style="width: 133px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| shallow clone (e.g. "git clone --depth=<n>")                  ||   496 ||  7.0% 
+| shallow clone (e.g. "<tt>git clone --depth=<n></tt>")         ||   496 ||  7.0% 
+| <div style="width:  14px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| detaching HEAD (e.g. "git checkout HEAD^0")                   ||  1367 || 19.3% 
+| detaching HEAD (e.g. "<tt>git checkout HEAD^0</tt>")          ||  1367 || 19.3% 
+| <div style="width:  39px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | interactive rebase (small scale history editing)              ||  3195 || 45.1% 
+| <div style="width:  90px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| interactive commit / per-hunk comitting / partial commit      ||  2869 || 40.5% 
+| interactive commit / per-hunk comitting / partial commit<ref name="feature:interactive-commit">"''interactive / partial commit''" includes using commands like "<tt>git commit --interactive</tt>" or per-chunk comitting in "<tt>git gui</tt>".</ref>
+|                                                                   2869 || 40.5% 
+| <div style="width:  81px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | commit message templates                                      ||   458 ||  6.5% 
+| <div style="width:  13px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | git-filter-branch or equivalent (large history rewriting)     ||   756 || 10.7% 
+| <div style="width:  21px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| bisect (optionally "git bisect run <script>")                 ||  1981 || 28.0% 
+| bisect (optionally "<tt>git bisect run <script></tt>")        ||  1981 || 28.0% 
+| <div style="width:  56px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | committing with dirty tree (keeping some changes uncommitted) ||  3199 || 45.1% 
+| <div style="width:  90px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| non-default hooks (from contrib/hooks/ or other)              ||  1008 || 14.2% 
+| non-default hooks (from <tt>contrib/hooks/</tt> or other place)
+|                                                                   1008 || 14.2% 
+| <div style="width:  28px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | shell completion of commands                                  ||  3684 || 52.0% 
+| <div style="width: 104px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | git-aware shell prompt                                        ||  2503 || 35.3% 
+| <div style="width:  71px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | git aliases, shell aliases for git, or own git scripts        ||  2905 || 41.0% 
+| <div style="width:  82px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | one-way interaction with other SCMs (from SCM to git)         ||   911 || 12.9% 
+| <div style="width:  26px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | two-way interaction with other SCMs (git as fat client)       ||  1213 || 17.1% 
+| <div style="width:  34px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | git cvsserver                                                 ||    33 ||  0.5% 
+| <div style="width:   1px; background-color: #ff0f0f;">&nbsp;</div>
 |-
 | git notes                                                     ||   237 ||  3.3% 
+| <div style="width:   7px; background-color: #ff0f0f;">&nbsp;</div>
 |-
-| Other, please specify                                         ||   100 ||  1.4% 
+| colspan="4" |
+|-
+| ''Other, please specify''                                     ||   100 ||  1.4% 
+| <div style="width:   3px; background-color: #d00000;">&nbsp;</div>
 |- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
 | Base                                                          
-| colspan="2" |  7087 / 8841  
+| colspan="2" |  7087 / 8841  ||
 |}
 
+'''Notes:'''<BR>
+<references />
+
+
+'''Analysis:''' (does not include "''other, please specify''")<BR>
+This question, to avoid complicating it, does not distinguish between features that are used often and features that are used rarely.  Besides, some features are by their very nature to be used more rarely than other features.
+
+Most popular feature, by quite a large margin, is '''''stash''''', with two thirds (66.4%) of responses.  "<tt>git stash</tt>" first appeared in git version 1.5.3, from September 2007.
+
+Second is "''shell completion of commands''", with more than half of responses (52.0%).
+
+Then there are, with percentage of responses from 40% to 45%, comitting with dirty tree and interactive / partial commit, interactive rebase, and aliases (git aliases, shell aliases, one's own git scripts).
+
+More than third of responses have also git-aware shell prompt with 35%, and submodules with 33%.
+
+Least used, with only 0.5% of responses, is "<tt>git cvsserver</tt>".
 
 === 17. Which of the following features would you like to see implemented in git? ===
 ''(multiple choice)''
