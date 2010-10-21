@@ -31,6 +31,16 @@ __TOC__
 ----
 
 
+== Information about survey completion ==
+
+=== Date of response ===
+
+[[File:GitSurvey2010-date_hist.png|center|link=|Histogram of number of responders by date]]
+
+<BR>
+The graph above shows histogram of number of responders by date (in CET / GMT+2 / +0200 timezone).
+
+
 == About you ==
 
 === 01. What country do you live in (country of residence)? ===
