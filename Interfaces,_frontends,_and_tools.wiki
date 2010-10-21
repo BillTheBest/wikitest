@@ -47,7 +47,7 @@ __TOC__
 * A Python module that provides object model access to your Git repositories by calling the Git executables and parsing output. Once you have created a repository object, you can traverse it to find parent commit(s), trees, blobs, etc.. Port of the [http://grit.rubyforge.org/ grit] library in Ruby created by Tom Preston-Werner and Chris Wanstrath. Git repository is [http://gitorious.org/projects/git-python/ available here].
 
 === Dulwich ===
-* [http://samba.org/~jelmer/dulwich/ Dulwich] is a pure-Python read-write implementation of the Git file formats and protocols. It is named after the village in which Mr. and Mrs. Git live in the Monty Python sketch. A Git repository ca be found at git://git.samba.org/jelmer/dulwich.git and its gitweb [http://git.samba.org/?p=jelmer/dulwich.git;a=summary here].
+* [http://samba.org/~jelmer/dulwich/ Dulwich] is a pure-Python read-write implementation of the Git file formats and protocols. It is named after the village in which Mr. and Mrs. Git live in the Monty Python sketch. A Git repository can be found at git://git.samba.org/jelmer/dulwich.git and its gitweb [http://git.samba.org/?p=jelmer/dulwich.git;a=summary here].
 
 === PyGit (abandoned?) ===
 * Pythonic [http://code.istique.net/?p=pygit.git git bindings] targeted towards porcelains. There is also the [http://code.istique.net/?p=pygit.git;a=shortlog;h=refs/heads/stores "stores" branch] that implements pack and object reading natively in Python.
