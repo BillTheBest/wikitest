@@ -41,6 +41,126 @@ __TOC__
 The graph above shows histogram of number of responders by date (in CET / GMT+2 / +0200 timezone).
 
 
+=== Number of replies per question ===
+
+{| border="1" cellpadding="3" cellspacing="0"
+|- style="font-weight: bold; background-color: #ffffcc;"
+! Question                       !! Count !! Perc. 
+! style="width: 200px;" |
+|-
+| colspan="4" style="font-size: 80%; text-align: center" | About you
+|-
+| 01. What country do you live in (country of residence)?                            ||  8470 || 95.8% 
+| <div style="width: 192px; background-color: #0fff0f;">&nbsp;</div>
+|-
+| 02. How old are you (in years)?                                                    ||  8437 || 95.4% 
+| <div style="width: 191px; background-color: #0fff0f;">&nbsp;</div>
+|-
+| colspan="4" style="font-size: 80%; text-align: center" | Getting started with Git
+|-
+| 03. Have you found Git easy to learn?                                              ||  8404 || 95.1% 
+| <div style="width: 190px; background-color: #ff0f0f;">&nbsp;</div>
+|-
+| 04. Have you found Git easy to use?                                                ||  8418 || 95.2% 
+| <div style="width: 190px; background-color: #ff0f0f;">&nbsp;</div>
+|-
+| 05. Which Git version(s) are you using?                                            ||  8481 || 95.9% 
+| <div style="width: 192px; background-color: #ff7f0f;">&nbsp;</div>
+|-
+| 06. Rate your own proficiency with Git:                                            ||  8546 || 96.7% 
+| <div style="width: 193px; background-color: #ff0f0f;">&nbsp;</div>
+|-
+| colspan="4" style="font-size: 80%; text-align: center" | How you use Git
+|-
+| 07. I use Git for (check all that apply):                                          ||  8551 || 96.7% 
+| <div style="width: 193px; background-color: #ff7f0f;">&nbsp;</div>
+|-
+| 08. How do/did you obtain Git (install and/or upgrade)?                            ||  8505 || 96.2% 
+| <div style="width: 192px; background-color: #ff7f0f;">&nbsp;</div>
+|-
+| 09. On which operating system(s) do you use Git?                                   ||  8541 || 96.6% 
+| <div style="width: 193px; background-color: #ff7f0f;">&nbsp;</div>
+|-
+| 10. What Git interfaces, implementations and frontends do you use?                 ||  8467 || 95.8% 
+| <div style="width: 192px; background-color: #ff7f0f;">&nbsp;</div>
+|-
+| 11. How often do you use following kinds of Git tools?                             ||  8429 || 95.3% 
+| <div style="width: 191px; background-color: #dd0fff;">&nbsp;</div>
+|-
+| 12. What Git GUIs (graphical user interfaces) do you use?                          ||  6919 || 78.3% 
+| <div style="width: 157px; background-color: #ff7f0f;">&nbsp;</div>
+|-
+| 13. Which git hosting site(s) do you use for your project(s)?                      ||  7922 || 89.6% 
+| <div style="width: 179px; background-color: #ff7f0f;">&nbsp;</div>
+|-
+| 14. How do you fetch/get changes from upstream repositories?                       ||  8354 || 94.5% 
+| <div style="width: 189px; background-color: #ff7f0f;">&nbsp;</div>
+|-
+| 15. How do you publish/propagate your changes?                                     ||  8272 || 93.6% 
+| <div style="width: 187px; background-color: #ff7f0f;">&nbsp;</div>
+|-
+| 16. Which of the following features do you use?                                    ||  7087 || 80.2% 
+| <div style="width: 160px; background-color: #ff7f0f;">&nbsp;</div>
+|-
+| 17. Which of the following features would you like to see implemented in git?      ||  7203 || 81.5% 
+| <div style="width: 163px; background-color: #ff7f0f;">&nbsp;</div>
+|-
+| 18. Describe what features would you like to have in Git,                          ||  1187 || 13.4% 
+| <div style="width:  27px; background-color: #00a000;">&nbsp;</div>
+|-
+| colspan="4" style="font-size: 80%; text-align: center" | What you think of Git
+|-
+| 19. Overall, how happy are you with Git?                                           ||  8471 || 95.8% 
+| <div style="width: 192px; background-color: #ff0f0f;">&nbsp;</div>
+|-
+| 20. In your opinion, which areas in Git need improvement?                          ||  8107 || 91.7% 
+| <div style="width: 183px; background-color: #dd0fff;">&nbsp;</div>
+|-
+| colspan="4" style="font-size: 80%; text-align: center" | Changes in Git (since year ago, or since you started using it)
+|-
+| 21. Did you participate in previous Git User's Surveys?                            ||  8332 || 94.2% 
+| <div style="width: 188px; background-color: #ff7f0f;">&nbsp;</div>
+|-
+| 22. How do you compare the current Git version with the version from one year ago? ||  8202 || 92.8% 
+| <div style="width: 186px; background-color: #ff0f0f;">&nbsp;</div>
+|-
+| colspan="4" style="font-size: 80%; text-align: center" | Documentation. Getting help.
+|-
+| 23. How useful have you found the following forms of Git documentation?            ||  8240 || 93.2% 
+| <div style="width: 186px; background-color: #dd0fff;">&nbsp;</div>
+|-
+| 24. Have you tried to get help regarding Git from other people?                    ||  8294 || 93.8% 
+| <div style="width: 188px; background-color: #ff0f0f;">&nbsp;</div>
+|-
+| 25. If yes, did you get these problems resolved quickly and to your liking?        ||  5846 || 66.1% 
+| <div style="width: 132px; background-color: #f00000;">&nbsp;</div>
+|-
+| 26. What channel(s) did you use to request help?                                   ||  5777 || 65.3% 
+| <div style="width: 131px; background-color: #ff7f0f;">&nbsp;</div>
+|-
+| 27. Which communication channel(s) do you use?                                     ||  1441 || 16.3% 
+| <div style="width:  33px; background-color: #ff7f0f;">&nbsp;</div>
+|-
+| colspan="4" style="font-size: 80%; text-align: center" | About this survey.
+|-
+| 28. How did you hear about this Git User's Survey?                                 ||  8288 || 93.7% 
+| <div style="width: 187px; background-color: #ff0f0f;">&nbsp;</div>
+|}
+
+'''Legend:'''<BR>
+{|
+|-
+| style="background-color: #0fff0f; width: 5em" | &nbsp; || free-form oneline
+|-
+| style="background-color: #00a000; width: 5em" | &nbsp; || free-form essay
+|-
+| style="background-color: #ff0f0f; width: 5em" | &nbsp; || single choice
+|-
+| style="background-color: #ff7f0f; width: 5em" | &nbsp; || multiple choice
+|-
+| style="background-color: #dd0fff; width: 5em" | &nbsp; || matrix
+|}
+
 == About you ==
 
 === 01. What country do you live in (country of residence)? ===
