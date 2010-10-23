@@ -1793,11 +1793,12 @@ Discounting 'cannot say' answers, most people (38.2% of replies to this question
 {| border="1" cellpadding="3" cellspacing="0"
 |- style="font-weight: bold; background-color: #ffffcc;"
 ! Answer
-! colspan="2" | never used 
-! colspan="2" | not useful 
-! colspan="2" | somewhat   
-! colspan="2" | useful     
+! colspan="2" style="background-color: #d0d0d0;" | never used 
+! colspan="2" style="background-color: #a0a0ff;" | not useful 
+! colspan="2" style="background-color: #a0ffa0;" | somewhat 
+! colspan="2" style="background-color: #ffa0a0;" | useful 
 ! Avg. / Count 
+! style="width: 200px;" | &nbsp;
 |-
 | Git Wiki                      
 | 3308  || 40.1% 
@@ -1805,6 +1806,11 @@ Discounting 'cannot say' answers, most people (38.2% of replies to this question
 | 2786  || 33.8% 
 | 1880  || 22.8% 
 | 2.4 (4) / 8240
+| 
+<div style="width:  80px; background-color: #606060; float: left;">&nbsp;</div>
+<div style="width:   6px; background-color: #0000ff; float: left;">&nbsp;</div>
+<div style="width:  67px; background-color: #00bb00; float: left;">&nbsp;</div>
+<div style="width:  45px; background-color: #ff0000; float: left;">&nbsp;</div>
 |-
 | on-line help                  
 | 1308  || 15.9% 
@@ -1812,6 +1818,11 @@ Discounting 'cannot say' answers, most people (38.2% of replies to this question
 | 3026  || 36.7% 
 | 3586  || 43.5% 
 | 3.1 (4) / 8143
+| 
+<div style="width:  31px; background-color: #606060; float: left;">&nbsp;</div>
+<div style="width:   5px; background-color: #0000ff; float: left;">&nbsp;</div>
+<div style="width:  73px; background-color: #00bb00; float: left;">&nbsp;</div>
+<div style="width:  87px; background-color: #ff0000; float: left;">&nbsp;</div>
 |-
 | help distributed with git     
 | 1125  || 13.7% 
@@ -1819,9 +1830,15 @@ Discounting 'cannot say' answers, most people (38.2% of replies to this question
 | 2798  || 34.0% 
 | 3582  || 43.5% 
 | 3.1 (4) / 7972
+| 
+<div style="width:  27px; background-color: #606060; float: left;">&nbsp;</div>
+<div style="width:  11px; background-color: #0000ff; float: left;">&nbsp;</div>
+<div style="width:  67px; background-color: #00bb00; float: left;">&nbsp;</div>
+<div style="width:  86px; background-color: #ff0000; float: left;">&nbsp;</div>
 |- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
-| Base 
-|colspan="10" style="text-align: right"|  8240 / 8841  
+| Base                           
+| colspan="9" align="right" |  8240 / 8841  
+| 
 |}
 
 
