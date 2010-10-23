@@ -35,7 +35,7 @@ __TOC__
 
 === Number of questions answered per responder ===
 
-[[File:GitSurvey2009-date hist.png|Histogram of the number of answered questions by responder|align="right"]]
+[[File:GitSurvey2009-base hist.png|right|link=|Histogram of the number of answered questions by responder]]
 <!-- ## table begin
  -->
 {| border="1" cellpadding="2" cellspacing="0" style="font-size: smaller;"
@@ -104,7 +104,7 @@ __TOC__
 |-
 |   0    ||  162   ||   4.2% 
 |}
-
+<BR clear="all">
 
 The table above shows histogram of the number of answered questions by responder from the 30 questions in the survey.  Most people answered from 23 to 27 questions from 30.  Average number of skipped (not answered) questions is 6.7 +/- 5.9.
 
