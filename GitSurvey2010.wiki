@@ -46,7 +46,7 @@ The graph above shows histogram of number of responders by date (in CET / GMT+2 
 {| border="1" cellpadding="3" cellspacing="0"
 |- style="font-weight: bold; background-color: #ffffcc;"
 ! Question                       !! Count !! Perc. 
-! style="width: 200px;" |
+! style="width: 200px;" | ''per 8841 responses''
 |-
 | colspan="4" style="font-size: 80%; text-align: center" | About you
 |-
