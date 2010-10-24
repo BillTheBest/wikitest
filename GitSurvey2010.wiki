@@ -382,6 +382,7 @@ The conversion from country name to continent was done using [http://p3rl.org/Lo
 
 <br clear="all">
 
+'''Analysis:'''<BR>
 Discounting joke responses (or errors in parsing), like 3 or 4 years old on one hand side, and 1000000 years old on other side, youngest user who answered this question is 10 years old (next oldest is 12 years old), oldest is 87 (next to oldest is 81).  That is quite a span.
 
 Most Git users (slightly less than one third: 31.4%) fall in the 26-30 range.  The age of 25 got most responses (616 for 8437 responses, or 7.3%).
