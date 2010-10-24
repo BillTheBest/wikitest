@@ -1938,6 +1938,10 @@ Discounting 'cannot say' answers, most people (38.2% of replies to this question
 * on-line help includes, among others, Git Homepage (http://git-scm.com) and "Git Community Book" (http://book.git-scm.com)
 * help distributed with git include manpages, manual, tutorials, HOWTO, release notes, technical documentation, contrib/examples/
 
+
+'''Analysis:'''<BR>
+Git Wiki is least used form of documentation, with 40% of responders never using it.  Generally, all documentation is seen as somewhat useful (34-37%) or useful (44%).  Only Git Wiki, with many people not using it, has only 23% considering it useful and not somewhat useful.
+
 === 24. Have you tried to get help regarding Git from other people? ===
 ''(single choice)''
 
