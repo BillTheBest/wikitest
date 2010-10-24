@@ -296,6 +296,7 @@ Some responders put more than one country in response, or wrote 'multiple' (perh
 |}
 
 
+'''Analysis:'''<BR>
 As one can easily see, slightly less than third of Git users (31.3%) are in the USA (those who answered this survey, and this question).   Next of countries is Germany with around 10.3% (or 1/10th) responses.   Third is United Kingdom of Great Britain (including England, Scotland, Wales and Northern Ireland) with 6.9%, and closely following on fourth place is France with 6.1%
 
 The names of the countries were normalized using [http://p3rl.org/Locale::Country Locale::Country] Perl module version 3.14
