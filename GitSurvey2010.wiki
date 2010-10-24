@@ -1300,6 +1300,10 @@ This question asks about how do you get changes (updates) from projects you foll
 
 Fetching (or rather cloning) via bundle could mean that project publishes ready for download bundles to reduce traffic and load on server (HTTP download [of bundle] can be resumed, git-clone currently cannot; one can also distribute bundle using P2P).
 
+
+'''Analysis:'''<BR>
+<tt>git://</tt> protocol and SSH are almost the same often used to fetch changes: git protocol with 78%, SSH with 71%.  Only 41% responders use HTTP for fetching (from somewhere).
+
 === 15. How do you publish/propagate your changes? ===
 ''(multiple choice, with other)''
 
