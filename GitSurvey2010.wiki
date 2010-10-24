@@ -559,7 +559,7 @@ Only around 17.3% (less than one fifth) of responders use (somewhere) maintenanc
 You can think of it as 1-5 numerical grade of your proficiency in Git.
 
 '''Analysis:'''<BR>
-As you can see most responders know Git enough for everyday use, or can even offer some Git advice.  If we treat possible answers as a proficiency grade, the average proficiency is around 3.2 &plusmn; 0.9.
+As you can see most responders know Git enough for everyday use (39%), or can even offer some Git advice (32%).  If we treat possible answers as a proficiency grade, the average proficiency is around 3.2 &plusmn; 0.9.
 
 Either Git users don't stay novices long (4%), or survey announcement(s) didn't reach many novice users.
 
