@@ -161,6 +161,13 @@ The graph above shows histogram of number of responders by date (in CET / GMT+2 
 | style="background-color: #dd0fff; width: 5em" | &nbsp; || matrix
 |}
 
+
+=== Number of questions answered per responder ===
+
+[[File:GitSurvey2010-base hist.png|center|link=|Histogram of the number of answered questions by responder]]
+
+Most people answered 26 questions, all but 2 questions out of 28 in total.
+
 == About you ==
 
 === 01. What country do you live in (country of residence)? ===
