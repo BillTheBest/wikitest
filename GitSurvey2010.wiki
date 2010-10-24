@@ -1774,6 +1774,14 @@ be Git user and to participate in this Git User's Survey.  There can be bias bec
 |colspan="11" align="right" |  8107 / 8841  ||
 |}
 
+
+'''Analysis:'''<BR>
+From the table and histogram (graph) above one can see that:
+* User interface, tools and documentation all need improvement;
+* Performance rather doesn't need to be improved;
+* More features gets mainly "don't need" and "a little" as answers;
+* People mostly don't care about improving communities or localization (but please remember that this survey was in English, and announced on English-speaking sites / lists).
+
 == Changes in Git (since year ago, or since you started using it) ==
 
 === 21. Did you participate in previous Git User's Surveys? ===
