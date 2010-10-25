@@ -121,6 +121,61 @@ Please propose a topic by adding it to the table below.
 |  Short presentation
 |  Git as Software Freedom Conservancy member project
 |  10 min
+|  Sverre Rabbelier
+|  Presentation
+|  git-remote-hg
+|  ? min
+|-
+|  Juan Delgado
+|  Presentation
+|  git-always-on
+|  ?
+|-
+|  Patrick Renaud
+|  Presentation
+|  Dealing with many large repositories with lots of old data
+|  ?
+|-
+|  Scott Chacon
+|  Presentation
+|  State of libgit2
+|  30 min
+|-
+|  Tom Preston-Werner
+|  Presentation
+|  What's new on github: pull requests, git based wiki etc.
+|  30 min
+|-
+|  Thomas Rast
+|  Presentation
+|  git log -L demo, combination of log and blame
+|  5 min
+|-
+|  Fredrik Luthander
+|  FR/Discussion
+|  RefInsteadOf
+|  ?
+|-
+|  Shawn O. Pearce
+|  Presentation
+|  Project status JGit / Projects using JGit / future roadmap
+|  ?
+|-
+|  Shawn Pearce
+|  Presentation
+|  Git Survey Results / Gerrit Survey Results
+|  ?
+|-
+|  Tom Preston-Werner
+|  Presentation
+|  Git Scalability at GitHub
+|  ?
+|-
+|  Shawn Pearce
+|  Presentation
+|  How to improve Git Together
+|  ?
+|-
 |}
 
 == Session notes ==
