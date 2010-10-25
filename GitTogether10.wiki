@@ -125,7 +125,7 @@ Please propose a topic by adding it to the table below.
 
 == Session notes ==
 
-You can use [http://etherpad.osuosl.org/] to take notes.
+You can use [http://etherpad.osuosl.org/ http://etherpad.osuosl.org/nameofpadhere] to take notes.
 
 * [http://apenwarr.ca/diary/2010-bup-git.odp Slides from the bup presentation]
 ** bup's  [http://github.com/apenwarr/bup/blob/master/DESIGN DESIGN document] discussing the bupsplit algorithm
