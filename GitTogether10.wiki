@@ -121,6 +121,7 @@ Please propose a topic by adding it to the table below.
 |  Short presentation
 |  Git as Software Freedom Conservancy member project
 |  10 min
+|-
 |  Sverre Rabbelier
 |  Presentation
 |  git-remote-hg
