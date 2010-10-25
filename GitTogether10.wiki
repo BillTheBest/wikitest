@@ -132,6 +132,8 @@ You can use [http://etherpad.osuosl.org/] to take notes.
 
 * Meta-notes for the [http://etherpad.osuosl.org/git-submodule-usability submodule talks and brainstorms]
 
+* [http://etherpad.osuosl.org/gitweb-caching Gitweb caching]
+
 (Speakers with slides, please post them.)
 
 == Directions ==
