@@ -104,11 +104,6 @@ Please propose a topic by adding it to the table below.
 |-
 |  Jonathan "Duke" Leto
 |  Discussion / brainstorming
-|  Git and Encryption : What is the best way to do X ?
-|  20 min
-|-
-|  Jonathan "Duke" Leto
-|  Discussion / brainstorming
 |  Git and Big Files
 |  10 min
 |-
