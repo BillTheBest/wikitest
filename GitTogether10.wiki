@@ -134,6 +134,8 @@ You can use [http://etherpad.osuosl.org/] to take notes.
 
 * [http://etherpad.osuosl.org/gitweb-caching Gitweb caching]
 
+* [http://etherpad.osuosl.org/state-of-libgit2 State of libgit2]
+
 (Speakers with slides, please post them.)
 
 == Directions ==
