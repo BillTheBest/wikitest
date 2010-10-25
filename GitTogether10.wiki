@@ -171,7 +171,7 @@ Nearby airports are, in increasing distance from Google:
 If you are traveling far and wish to stay some extra time there are many activities in the bay area.
 
 * [http://www.onlyinsanfrancisco.com/ San Francisco] is 45 minutes north of Mountain View.
-* [http://www.santacruz.org/index.shtml Santa Cruz] is 45 minutes south of Mountain View.
+* [http://www.santacruz.org/ Santa Cruz] is 45 minutes south of Mountain View.
 * [http://www.humboldtredwoods.org/ Redwoods State Park] is a 4 hour drive from San Francisco.
 * [http://www.nps.gov/seki/ Sequoia & Kings Canyon National Park] about a 4 hour drive from Mountain View.
 
