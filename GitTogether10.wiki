@@ -107,6 +107,11 @@ Please propose a topic by adding it to the table below.
 |  Git and Big Files
 |  10 min
 |-
+|  Jonathan "Duke" Leto
+|  Discussion / brainstorming
+|  Git and Encryption : How To Do X
+|  10 min
+|-
 |  Jens Lehmann / Heiko Voigt
 |  Presentation / Discussion
 |  Using Git in a centralized, Gui based environment - What we achieved and what could be improved
