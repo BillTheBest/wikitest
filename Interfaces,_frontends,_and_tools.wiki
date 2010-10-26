@@ -185,6 +185,9 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 === PyjamasGitWeb ===
 * PyjamasGitWeb (git clone gitolite@pyjs.org:pyjamasgitweb) is two projects in one: a JSONRPC web service which uses python-git to serve git repository information, and a matching front-end as a pyjamas application.  [http://pyjs.org Pyjamas] can run the front-end either compiled to javascript to run in a web browser or as a Desktop application (pure python).  Cacheing of answers to queries is performed (in the browser or in the desktop app) so that any file or git link previously clicked on will come up instantly.  Demo is at [http://pyjs.org/pygit http://pyjs.org/pygit]
 
+=== SourceTree ===
+* [http://www.sourcetreeapp.com SourceTree] is a fast and friendly GUI for Git and Mercurial for Mac OS X 10.6+ (closed source, commercial). A trial version is available.
+
 === Summary (feature matrix) ===
 <!-- ## table begin
  -->
@@ -211,7 +214,7 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 | gitg 
 | SmartGit 
 | StupidGit 
-| 
+| SourceTree 
 |-
 | written in 
 | Tcl 
@@ -235,7 +238,7 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 | C 
 | Java
 |  Python 
-| 
+| ObjC
 |-
 | UI toolkit 
 | Tk 
@@ -259,7 +262,7 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 |  GTK+ 
 | Swing
 | wxWidgets
-| 
+| Cocoa
 |-
 | Open Source
 | yes
@@ -283,7 +286,7 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 | yes
 | ?
 | ?
-| 
+| no
 |-
 | last activity 
 | 2008 
@@ -307,7 +310,7 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 | 2010
 | 2009
 | 2009
-| 
+| 2010
 |-
 | tree view 
 | X 
@@ -331,7 +334,7 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 | X 
 | X
 |  
-| 
+| X
 |-
 | history viewer 
 | X 
@@ -355,7 +358,7 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 | X 
 | X
 | X
-| 
+| X
 |-
 | history search 
 | X 
@@ -379,7 +382,7 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 | X 
 | X
 |  
-| 
+| X
 |-
 | (un)stage files 
 |  
@@ -403,7 +406,7 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 | X 
 | X
 | X
-| 
+| X
 |-
 | partial staging 
 |  
@@ -475,7 +478,7 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 | X 
 | X
 | X
-| 
+| X
 |-
 | cherry-pick 
 | X 
@@ -523,7 +526,7 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 | X 
 | X
 | X
-| 
+| X
 |-
 | remote features 
 |  
@@ -547,7 +550,7 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 | some 
 | some
 |  
-| 
+| X
 |-
 | stash 
 |  
@@ -595,7 +598,7 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 | X 
 |  
 |  
-| 
+| X
 |-
 | interfaces w/ external diff viewers 
 |  
@@ -619,7 +622,7 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 |  
 | X
 | X
-| 
+| X
 |-
 | diff +/- highlighting 
 | X 
@@ -643,7 +646,7 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 | X 
 |  
 | X
-| 
+| X
 |-
 | compare commits 
 | X 
@@ -691,7 +694,7 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 | X 
 | X
 | X
-| 
+| X
 |-
 | [http://en.wikipedia.org/wiki/Inotify inotify] support 
 |  
@@ -763,7 +766,7 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 |  
 |  
 |  
-| 
+| X
 |-
 | i18n 
 | de, es, it, sv 
@@ -811,7 +814,7 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 | [http://wiki.github.com/jessevdk/gitg X] 
 |  [http://blog.syntevo.net/images/smartgit/project-window-osx.png X] 
 | [http://lh3.ggpht.com/_BJIQUZdOLVk/SwCoXDR2viI/AAAAAAAAAW0/wCKoGeB_55I/s800/stupidgit1.png X]
-| 
+| [http://www.sourcetreeapp.com/images/commit_full.png X]
 |}
 
 === Deprecated and stalled projects ===
@@ -834,6 +837,7 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 * [http://pmpu.sharesource.org/ pmpu] (Push Me Pull You) by Mark Williamson is a graphical interface for a distributed version control system. Currently it contains proof-of-concept supports the Mercurial, git and bzr systems. PMPU can make use of external history views and commit tools. Preview release. As of November '09, no developer activity for more than 1 year.
 
 {{anchor|web-interface}}
+
 == Web Interfaces ==
 
 === gitweb (distributed with Git) ===
