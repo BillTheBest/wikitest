@@ -205,6 +205,8 @@ You can use [http://etherpad.osuosl.org/ http://etherpad.osuosl.org/nameofpadher
 
 * [https://docs.google.com/present/view?id=dcfz2dg9_3d6qdvqdg Git on Cassandra]
 
+* [http://etherpad.osuosl.org/git-dist-code-reviews Distributed code reviews]
+
 (Speakers with slides, please post them.)
 
 == Directions ==
