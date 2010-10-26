@@ -222,6 +222,8 @@ You can use [http://etherpad.osuosl.org/ http://etherpad.osuosl.org/nameofpadher
 
 * [http://etherpad.osuosl.org/git-cheetah git cheetah]
 
+* [http://etherpad.osuosl.org/gerrit-survey Gerrit Code Review Survey 2010]
+
 (Speakers with slides, please post them.)
 
 == Directions ==
