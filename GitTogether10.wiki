@@ -214,6 +214,10 @@ You can use [http://etherpad.osuosl.org/ http://etherpad.osuosl.org/nameofpadher
 
 * [http://etherpad.osuosl.org/jgit-status-update JGit status update]
 
+* [http://etherpad.osuosl.org/dulwich-overview Dulwich]
+
+* [http://etherpad.osuosl.org/git-remote-hg git-remote-hg]
+
 (Speakers with slides, please post them.)
 
 == Directions ==
