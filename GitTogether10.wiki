@@ -6,8 +6,8 @@ Signup is now CLOSED.
 == Attendees ==
 # Shawn O. Pearce
 # Rob Heittman
-# Nasser Grainawi [mailto:nasser@codeaurora.org]
-# Martin Fick
+# [mailto:nasser@codeaurora.org Nasser Grainawi]
+# [mailto:mfick@codeaurora.org Martin Fick]
 # Andrew Bayer
 # David Borowitz
 # Jean-Baptiste Queru
