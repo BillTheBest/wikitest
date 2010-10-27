@@ -25,8 +25,8 @@ Signup is now CLOSED.
 # Heiko Voigt
 # Sverre Rabbelier
 # John 'Warthog9' Hawley
-# Patrick Renaud
-# Martin von Zweigbergk
+# [mailto:patrick.renaud@ericsson.com Patrick Renaud]
+# [mailto:Martin.von.Zweigbergk@ericsson.com Martin von Zweigbergk]
 # Brad Larson
 # Scarlette Ng
 # Jonathan "Duke" Leto
