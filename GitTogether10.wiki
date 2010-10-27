@@ -41,6 +41,8 @@ Google has us capped at 32 attendees.
 
 Please join the [http://groups.google.com/group/gittogether-2010/ GitTogether mailing list].  We promise to keep the traffic low and only about this event. Useful information for attendees will be sent to this list as we get closer to the [[GitTogether]].
 
+[http://thomasrast.ch/pix/ferien/20101021_san_francisco/DSC_5433.JPG.php Group picture taken on Tuesday]
+
 == Agenda ==
 
 Arrive around 9:00 am each day.  Googlers will be on hand to help you sign in and find the meeting room.  After 9:30 sign-in will be difficult as there is no reception service in our building.
