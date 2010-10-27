@@ -14,7 +14,7 @@ Signup is now CLOSED.
 # Avery Pennarun
 # Junio C Hamano
 # Tom Preston-Werner
-# Maria Gutowski
+# [mailto:maria.gutowski@gmail.com Maria Gutowski]
 # Fredrik Luthander
 # Ulrik Sjölin
 # Stephen Boyd
