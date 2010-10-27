@@ -19,7 +19,7 @@ Signup is now CLOSED.
 # Ulrik Sjölin
 # Stephen Boyd
 # Chris Aniszczyk
-# Thomas Rast
+# Thomas Rast [mailto:trast@student.ethz.ch]
 # Jelmer Vernooij
 # Jens Lehmann
 # Heiko Voigt
