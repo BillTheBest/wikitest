@@ -48,6 +48,7 @@ $ git commit add .gitmodules<br>
 $ git push ssh://localhost/super HEAD:refs/heads/master
 </pre>
 
+=== Test that it works. ===
 Now the basic setup is done. To test that everything is working:
 
 <pre>
@@ -71,6 +72,7 @@ $ git submodule init
 $ git submodule update
 </pre>
 
+=== Create a commit === 
 Create a commit in a submodule:
 
 <pre>
