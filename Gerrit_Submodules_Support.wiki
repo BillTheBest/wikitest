@@ -2,48 +2,83 @@ Gerrit Submodules Support
 
 Below is a short description of how to use the submodule support in Gerrit.
 
-You need to create subprojects  and a number of super projects that contains the subprojects. Once those projects are in place the superprojects needs to be aware of what subprojects to contain. 
+You need to create subprojects and a super project:
 
-<code>git submodule add ssh://localhost/a ./a</code><br>
-<code>git submodule add ssh://localhost/b ./b</code>
+<pre>
+$ ssh user@gerrit -p 29418 gerrit create-project --name super --empty-commit
+$ ssh user@gerrit -p 29418 gerrit create-project --name a --empty-commit
+$ ssh user@gerrit -p 29418 gerrit create-project --name b --empty-commit
+</pre>
 
-edit the .gitmodules file and add <code>revision=.</code>
+Add the subprojects to the super project:
 
-<code>git commit add .gitmodules</code>
-<code>git push ssh://localhost/super HEAD:refs/heads/master</code>
+<pre>
+$ git submodule add ssh://localhost/a ./a
+$ git submodule add ssh://localhost/b ./b
+</pre>
+
+edit the .gitmodules file and add <code>revision=.</code>:
+
+<pre>
+[submodule "a"]
+	path = a
+	url = ssh://localhost/a
+	revision = .
+
+[submodule "b"]
+	path = b
+	url = ssh://localhost/b
+	revision = .
+</pre>
+
+
+Add, commit and push the .gitmodules file:
+
+<pre>
+$ git commit add .gitmodules<br>
+$ git push ssh://localhost/super HEAD:refs/heads/master
+</pre>
 
 Now the basic setup is done. To test that everything is working:
 
-<code>mkdir user1</code>
-<code>cd user1</code>
-<code>git clone ssh://localhost/super</code>
-<code>cd super</code>
-<code>git submodule init</code>
-<code>git submodule update</code>
+<code>
+$ mkdir user1<br>
+$ cd user1<br>
+$ git clone ssh://localhost/super<br>
+$ cd super<br>
+$ git submodule init<br>
+$ git submodule update<br>
+</code>
 
 do the same for a user2:
 
-<code>cd ../..</code>
-<code>mkdir user2</code>
-<code>cd user1</code>
-<code>git clone ssh://localhost/super</code>
-<code>cd super</code>
-<code>git submodule init</code>
-<code>git submodule update</code>
+<code>
+$ cd ../..<br>
+$mkdir user2<br>
+$ cd user1<br>
+$ git clone ssh://localhost/super<br>
+$ cd super<br>
+$ git submodule init<br>
+$ git submodule update<br>
+</code>
 
 Create a commit in a submodule:
 
-<code>cd a</code>
-<code>touch hello</code>
-<code>git add hello</code>
-<code>git commit -m "hello"</code>
-<code>git push ssh://localhost/a HEAD:refs/heads/master</code>
+<code>
+$ cd a<br>
+$ touch hello<br>
+$ git add hello<br>
+$ git commit -m "hello"<br>
+$ git push ssh://localhost/a HEAD:refs/heads/master<br>
+</code>
 
 move into the user1 directory again and pull the superproject:
 
-<code>cd ../../user1</code>
-<code>git pull</code>
-<code>git submodule update</code>
-<code>ls a</code>
+<code>
+cd ../../user1<br>
+git pull<br>
+git submodule update<br>
+ls a<br>
+</code>
 
 make sure that the hello file is in the output.
