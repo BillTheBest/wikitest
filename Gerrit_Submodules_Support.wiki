@@ -41,36 +41,36 @@ $ git push ssh://localhost/super HEAD:refs/heads/master
 
 Now the basic setup is done. To test that everything is working:
 
-<code>
-$ mkdir user1<br>
-$ cd user1<br>
-$ git clone ssh://localhost/super<br>
-$ cd super<br>
-$ git submodule init<br>
-$ git submodule update<br>
-</code>
+<pre>
+$ mkdir user1
+$ cd user1
+$ git clone ssh://localhost/super
+$ cd super
+$ git submodule init
+$ git submodule update
+</pre>
 
 do the same for a user2:
 
-<code>
-$ cd ../..<br>
-$mkdir user2<br>
-$ cd user1<br>
-$ git clone ssh://localhost/super<br>
-$ cd super<br>
-$ git submodule init<br>
-$ git submodule update<br>
-</code>
+<pre>
+$ cd ../..
+$mkdir user2
+$ cd user2
+$ git clone ssh://localhost/super
+$ cd super
+$ git submodule init
+$ git submodule update
+</pre>
 
 Create a commit in a submodule:
 
-<code>
-$ cd a<br>
-$ touch hello<br>
-$ git add hello<br>
-$ git commit -m "hello"<br>
-$ git push ssh://localhost/a HEAD:refs/heads/master<br>
-</code>
+<pre>
+$ cd a
+$ touch hello
+$ git add hello
+$ git commit -m "hello"
+$ git push ssh://localhost/a HEAD:refs/heads/master
+</pre>
 
 move into the user1 directory again and pull the superproject:
 
