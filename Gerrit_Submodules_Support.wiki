@@ -2,7 +2,7 @@ Gerrit Submodules Support
 
 Below is a short description of how to use the submodule support in Gerrit.
 
-You need to create a number subprojects (sub-1..sub-n) and a number of super projects that contains the subprojects. Once those projects are in place the superprojects needs to be aware of what subprojects to contain. 
+You need to create subprojects  and a number of super projects that contains the subprojects. Once those projects are in place the superprojects needs to be aware of what subprojects to contain. 
 
 <code>git submodule add ssh://localhost/a ./a</code>
 <code>git submodule add ssh://localhost/b ./b</code>
@@ -11,3 +11,10 @@ edit the .gitmodules file and add <code>revision=.</code>
 
 <code>git commit add .gitmodules</code>
 <code>git push ssh://localhost/super HEAD:refs/heads/master</code>
+
+Now the basic setup is done. To test that everything is working:
+
+<code>mkdir user1
+cd user1
+git clone ssh://localhost/super
+git submodule update</code>
