@@ -14,7 +14,36 @@ edit the .gitmodules file and add <code>revision=.</code>
 
 Now the basic setup is done. To test that everything is working:
 
-<code>mkdir user1
-cd user1
-git clone ssh://localhost/super
-git submodule update</code>
+<code>mkdir user1</code>
+<code>cd user1</code>
+<code>git clone ssh://localhost/super</code>
+<code>cd super</code>
+<code>git submodule init</code>
+<code>git submodule update</code>
+
+do the same for a user2:
+
+<code>cd ../..</code>
+<code>mkdir user2</code>
+<code>cd user1</code>
+<code>git clone ssh://localhost/super</code>
+<code>cd super</code>
+<code>git submodule init</code>
+<code>git submodule update</code>
+
+Create a commit in a submodule:
+
+<code>cd a</code>
+<code>touch hello</code>
+<code>git add hello</code>
+<code>git commit -m "hello"</code>
+<code>git push ssh://localhost/a HEAD:refs/heads/master</code>
+
+move into the user1 directory again and pull the superproject:
+
+<code>cd ../../user1</code>
+<code>git pull</code>
+<code>git submodule update</code>
+<code>ls a</code>
+
+make sure that the hello file is in the output.
