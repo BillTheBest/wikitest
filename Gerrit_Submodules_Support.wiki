@@ -74,11 +74,11 @@ $ git push ssh://localhost/a HEAD:refs/heads/master
 
 move into the user1 directory again and pull the superproject:
 
-<code>
-cd ../../user1<br>
-git pull<br>
-git submodule update<br>
-ls a<br>
-</code>
+<pre>
+cd ../../user1
+git pull
+git submodule update
+ls a
+</pre>
 
 make sure that the hello file is in the output.
