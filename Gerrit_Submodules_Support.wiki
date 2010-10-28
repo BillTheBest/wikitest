@@ -1,6 +1,9 @@
-Gerrit Submodules Support
+== Gerrit Submodules Support ==
+
 
 Below is a short description of how to use the submodule support in Gerrit.
+
+=== Create projects ===
 
 You need to create subprojects and a super project:
 
@@ -10,6 +13,8 @@ $ ssh user@gerrit -p 29418 gerrit create-project --name a --empty-commit
 $ ssh user@gerrit -p 29418 gerrit create-project --name b --empty-commit
 </pre>
 
+=== Connect projects ===
+
 Add the subprojects to the super project:
 
 <pre>
@@ -17,7 +22,10 @@ $ git submodule add ssh://localhost/a ./a
 $ git submodule add ssh://localhost/b ./b
 </pre>
 
-edit the .gitmodules file and add <code>revision=.</code>:
+
+
+=== edit the .gitmodules file === 
+add <code>revision=.</code>:
 
 <pre>
 [submodule "a"]
@@ -31,6 +39,7 @@ edit the .gitmodules file and add <code>revision=.</code>:
 	revision = .
 </pre>
 
+=== Push to server ===
 
 Add, commit and push the .gitmodules file:
 
