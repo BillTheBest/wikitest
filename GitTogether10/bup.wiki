@@ -1,0 +1,60 @@
+__NOTOC__
+== Bup - Git-based backup system ==
+''by Avery'' 
+
+Backup in O(n) where n = # of bytes changed<BR>
+Backup entire filesystems<BR>
+Direct backups to remotes with metadata<BR>
+Rename handling<BR>
+Deduplication<BR>
+
+git gc explodes, git bigfiles was a lame solution and is now a dead fork<BR>
+zlib's default window size is useless for large files, such as VM images and media files<BR>
+
+bupsplit is a rolling checksum similar to the rsync algorithm<BR>
+There is a 60page PhD thesis de scribing the algorithm<BR>
+
+gzip --rsyncable<BR>
+Reset the gzip buffer at a well-known place<BR>
+Every time we see a certain bit sequence, restart the window<BR>
+Avg chunk size ~ 8kb<BR>
+
+Idea of nested chunks and super-chunks, which have names which are named after the offset of a parent chuunk<BR>
+Tree of trees of blobs -> Tree of (Tree of ...) ... of blobs<BR>
+
+We get a O(log n) tree of smallish objects<BR>
+
+No delta-ification<BR>
+Doesn't care about file formats<BR>
+Diffs are O(log n)<BR>
+Seek is O(log n)<BR>
+bupfuse is a readonly FUSE module to mount the bup index<BR>
+
+When you have lots of files, the .git/index is dog slow, since it is a linear set of files + hashes and has no binary search. Git rewrites the file for every added file.<BR>
+
+.bup/bupindex:<BR>
+* Tree structure with O(log n) seeks
+* Can update entries without rewriting
+
+Problem: Millions of Objects <BR>
+* Only having an 8bit prefix lookup table is not enough -> very slow
+
+.midx - merged idx files<BR>
+log(2.4gb) = 31 bits<BR>
+Only has to binary search the last 7 bits, dirties far fewer pages<BR>
+
+Bloom filters could be used to optimize this even further. Bloom filters probabilistic but have much better average complexity. They are used by the Plan 9 OS in their FS<BR>
+
+Problem: Direct remote backup<BR>
+Git transfer protocol very inefficient for large files, bup only transmits what is necessary.<BR>
+
+<nowiki>tar -cvf - | bup split -n mybackup</nowiki><BR>
+<nowiki>bup join backup | tar -xf -</nowiki><BR>
+
+bup index + bup save are roughly similar to git add<BR>
+
+bup restore ~ git checkout<BR>
+
+Pruning is a future optimization<BR>
+
+Bittorrent-like algorithms could greatly benefit from something like bup -> use already downloaded files to seed larger collections that contain those files<BR>
