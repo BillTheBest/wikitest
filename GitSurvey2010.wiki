@@ -730,6 +730,99 @@ On Unix-based operating system you can get the name of operation system by runni
 '''Analysis:'''<BR>
 Most common used operating system is GNU/Linux, next is MacOS X, and then MS Windows (on MS Window dominates msysGit version).  This is quite understandable, as Git was created on Linux and for Linux, and it works best on POSIX-compliant operating systems.
 
+'''Analysis of "<i>other, please specify</i>" responses:'''<BR>
+Below there is table with analysis of write-in responses in "other".
+
+{| border="1" cellpadding="3" cellspacing="0" style="font-size: 85%;"
+|- style="font-weight: bold; background-color: #ffffcc;"
+! Operating System                            !! Count !! Perc. 
+|-
+| '''''EXPLANATION'''''                       ||    24 ||  0.3% 
+|-
+| colspan="3" |
+|-
+| GNU/Linux                                   ||     9 ||  0.1% 
+|-
+| GNU/Linux distribution                      ||    17 ||  0.2% 
+|-
+| ''GNU/Linux (it was "Linux", not "GNU/Linux")''
+|                                                    4 ||  0.0% 
+|-
+| GNU/Hurd                                    ||    2? ||  0.0% 
+|-
+| GNU/kFreeBSD                                ||     1 ||  0.0% 
+|-
+| *BSD (FreeBSD, OpenBSD, NetBSD, etc.)       ||     1 ||  0.0% 
+|-
+| MacOS X (Darwin)                            ||     2 ||  0.0% 
+|-
+| MacOX X (Homebrew)                          ||     1 ||  0.0% 
+|-
+| MacOS 9/Lamp                                ||     1 ||  0.0% 
+|-
+| MS Windows/unknown                          ||     8 ||  0.1% 
+|-
+| MS Windows (without Cygwin/msysGit)         ||     1 ||  0.0% 
+|-
+| MS Windows msysGit from Cygwin (?)          ||     1 ||  0.0% 
+|-
+| MS Windows/GitExtensions                    ||     1 ||  0.0% 
+|-
+| MS Windows/TortoiseGit                      ||     6 ||  0.1% 
+|-
+| MS Windows/GitSharp                         ||     1 ||  0.0% 
+|-
+| MS Windows/JGit                             ||     6 ||  0.1% 
+|-
+| MS Windows/virtual machine with GNU/Linux   ||     3 ||  0.0% 
+|-
+| JGit                                        ||     9 ||  0.1% 
+|-
+| Emacs                                       ||     1 ||  0.0% 
+|-
+| Haiku (BeOS)                                ||     2 ||  0.0% 
+|-
+| OpenVMS                                     ||     1 ||  0.0% 
+|-
+| Maemo                                       ||     1 ||  0.0% 
+|-
+| iPhone OS (jailbroken)                      ||     2 ||  0.0% 
+|-
+| colspan="3" |
+|-
+| other Unix                                  ||    14 ||  0.2% 
+|-
+| &nbsp;&nbsp; AIX                            ||     1 ||  0.0% 
+|-
+| &nbsp;&nbsp; HP-UX                          ||     1 ||  0.0% 
+|-
+| &nbsp;&nbsp; IRIX                           ||     1 ||  0.0% 
+|-
+| &nbsp;&nbsp; SunOS                          ||     6 ||  0.1% 
+|-
+| &nbsp;&nbsp; Solaris                        ||    24 ||  0.3% 
+|-
+| &nbsp;&nbsp;&nbsp;&nbsp; Joyent             ||     2 ||  0.0% 
+|-
+| &nbsp;&nbsp;&nbsp;&nbsp; OpenIndiana        ||     2 ||  0.0% 
+|-
+| &nbsp;&nbsp;&nbsp;&nbsp; OpenSolaris        ||    12 ||  0.1% 
+|-
+| colspan="3" |
+|-
+| comment                                     ||     2 ||  0.0% 
+|-
+| comment about survey                        ||     1 ||  0.0% 
+|-
+| don't know                                  ||     1 ||  0.0% 
+|}
+
+Here "EXPLANATION" means that code parsing and tabularizing "other, please specify" response found category which was already marked (used).  This most probably meant that responder used "other, please specify" field to explain / describe in more detail their response.
+
+'GNU/Linux (it was "Linux", not "GNU/Linux")' response means people who used "other, please specify" response to tell that it should be 'GNU/Linux' (it was before change of answer from 'Linux' to 'GNU/Linux').
+
+Quite a few responders knew that they use e.g. Ubuntu, but didn't choose 'GNU/Linux' response...
+
 === 10. What Git interfaces, implementations and frontends do you use? ===
 ''(multiple choice, with other)''
 
