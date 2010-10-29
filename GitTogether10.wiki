@@ -190,7 +190,7 @@ Please propose a topic by adding it to the table below.
 
 You can use [http://etherpad.osuosl.org/ http://etherpad.osuosl.org/nameofpadhere] to take notes.
 
-* [http://apenwarr.ca/diary/2010-bup-git.odp Slides from the bup presentation]
+* [http://apenwarr.ca/diary/2010-bup-git.odp Slides from the bup presentation] ([[Media:2010-bup-git.pdf|local copy, PDF]])
 ** bup's  [http://github.com/apenwarr/bup/blob/master/DESIGN DESIGN document] discussing the bupsplit algorithm
 ** [http://etherpad.osuosl.org/bup bup notes] ([[GitTogether10/bup|local copy]])
 
