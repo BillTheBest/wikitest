@@ -93,3 +93,13 @@ ls a
 </pre>
 
 make sure that the hello file is in the output.
+
+== Notes on possible "buildbot" verification implementation ==
+# Poll for changes going into the super project
+# Check approval status of all changes in the super project (ask, "can i verify this?")
+# Pulling into the super project we'll get a merge commit (possibly)
+# Verify that tree
+# Upon success:
+## Upload the superproject merge commit
+## Set verified and merge all submodule changes and all superproject changes in a single 'review' command
+##* <code>ssh -p 29418 review.example.com gerrit review --verified=+1 --submit sub1-commit-id,sub2-commit-id,super-commit-id</code>
