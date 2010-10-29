@@ -2,9 +2,21 @@ Git was originally developed to manage the sources of the Linux kernel, a monoli
 
 The rule of thumb for determining whether a source tree is monolithic or modular is the correlation of subdirectories to release 'tarballs'. The monolithic Linux kernel is released as a single tarball, whereas the modular Xorg project releases dozens of such packages, with each one potentially having its own release schedule.
 
+Other reasons to use subprojects include: distinct pieces of code shared by and developed by multiple projects, large collection of various projects (Android, Gentoo), one app with a lot of sub-libraries (maybe with customizations) and all libraries coming from different upstream repos with lots of library reuse (Ruby on Rails), projects with huge media files (eg. game dev), projects with so many files that git bogs down. (reasons stolen from [http://etherpad.osuosl.org/git-submodule-usability git submodule usability notes])
+
 Non-distributed revision control systems such as CVS or SVN do not enforce this distinction; large projects like KDE and GNOME host hundreds of subprojects in a single repository and developers only ever have to check out the module they are working on. Sometimes, release managers, documenters or translators will make single commits that modify files across several modules. Similarly, if a change is made to the public API of a shared library in one module, the developer may update applications in other modules to use the new API as part of the same commit.
 
 Such flexibility is an implicit feature of centralized SCMs, but it is much more difficult to get it right in a distributed system like git.
+
+In git, there are currently three main techniques for providing subproject support:  submodules, subtrees, and wrappers.
+
+* Submodules provide semi-fixed references from the superproject into subprojects.  It is best used when the subproject is developed by someone else, is not under the administrative control of the superproject, and follows a different release cycle.  This support is integrated into git.  See the [http://www.kernel.org/pub/software/scm/git/docs/git-submodule.html git submodule] command and the [[GitSubmoduleTutorial]].
+
+* Subtrees causes the subproject repository to be imported into the superproject's repository to be a native part of the repository with full history, typically in a specific subdirectory of the superproject.  You are allowed to update as the subproject changes, but exporting changes is more challenging.  See [http://www.kernel.org/pub/software/scm/git/docs/howto/using-merge-subtree.html git merge subtree] for more information.
+
+* Wrappers, which provide multi-repository management functionality to a superproject with associated subprojects.  There are several wrappers which provide this functionality.  The best advertised on this page and arguably the simplest is [http://gitslave.sourceforge.net gitslave] which provides a command called `gits` which under most circumstances takes the same arguments as `git` and performs the same job, except over all repositories registered with the superproject.  Another tool is Google's [http://android.git.kernel.org/?p=tools/repo.git repo] which is used for Android development but does not appear to be well (or at least obviously) documented for non-Android purposes.
+
+The remainder of this page is mostly historical.
 
 == Status ==
 Submodules have been a part of core git
