@@ -33,7 +33,7 @@ Signup is now CLOSED.
 # Juan Delgado
 # Jeff King
 # Anush Elangovan
-# Mandeep Baines
+# [mailto:msb@chromium.org Mandeep Singh Baines]
 # Benjamin Meyer
 # Dmitry Fink
 
