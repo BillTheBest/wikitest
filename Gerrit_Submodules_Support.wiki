@@ -3,6 +3,16 @@
 
 Below is a short description of how to use the submodule support in Gerrit.
 
+=== Configure Gerrit ===
+It is important that the gerrit.canonicalWebUrl is set to a proper value since this used to figure out if a push should be sent to the subscribing superprojects.
+In the example below the gerrit block looks like this:
+
+<pre>
+[gerrit]
+        canonicalWebUrl = http://localhost/
+        basePath = git
+</pre>
+
 === Create projects ===
 
 You need to create subprojects and a super project:
