@@ -192,45 +192,45 @@ You can use [http://etherpad.osuosl.org/ http://etherpad.osuosl.org/nameofpadher
 
 * [http://apenwarr.ca/diary/2010-bup-git.odp Slides from the bup presentation] ([[Media:2010-bup-git.pdf|local copy, PDF]])
 ** bup's  [http://github.com/apenwarr/bup/blob/master/DESIGN DESIGN document] discussing the bupsplit algorithm
-** [http://etherpad.osuosl.org/bup bup notes] ([[GitTogether10/bup|local copy]])
+** [http://etherpad.osuosl.org/bup bup notes] [http://etherpad.osuosl.org/ep/pad/export/bup/latest?format=html (html)] [http://etherpad.osuosl.org/ep/pad/export/bup/latest?format=txt (text)] ([[GitTogether10/bup|local copy]])
 
 * [http://www.hvoigt.net/dev/Git%20in%20a%20centralized%20-%20Gui%20based%20environment.pdf Slides from Git in a centralized, Gui based environment], Forks of work in progress:
 ** http://github.com/jlehmann/git-submod-enhancements
 ** http://github.com/hvoigt/git/tree/hv/gui-improvements
 
-* Meta-notes for the [http://etherpad.osuosl.org/git-submodule-usability submodule talks and brainstorms], [http://etherpad.osuosl.org/git-submodules and also about submodule/subtree].
+* Meta-notes for the [http://etherpad.osuosl.org/git-submodule-usability submodule talks and brainstorms] [http://etherpad.osuosl.org/ep/pad/export/git-submodule-usability/latest?format=html (html)] [http://etherpad.osuosl.org/ep/pad/export/git-submodule-usability/latest?format=txt (text)], [http://etherpad.osuosl.org/git-submodules and also about submodule/subtree].
 
-* [http://etherpad.osuosl.org/gitweb-caching Gitweb caching]
+* [http://etherpad.osuosl.org/gitweb-caching Gitweb caching] [http://etherpad.osuosl.org/ep/pad/export/gitweb-caching/latest?format=html (html)] [http://etherpad.osuosl.org/ep/pad/export/gitweb-caching/latest?format=txt (text)]
 
-* [http://etherpad.osuosl.org/state-of-libgit2 State of libgit2]
+* [http://etherpad.osuosl.org/state-of-libgit2 State of libgit2] [http://etherpad.osuosl.org/ep/pad/export/state-of-libgit2/latest?format=html (html)] [http://etherpad.osuosl.org/ep/pad/export/state-of-libgit2/latest?format=txt (text)]
 
-* [http://etherpad.osuosl.org/git-in-sfc Git in the Software Freedom Conservancy]
+* [http://etherpad.osuosl.org/git-in-sfc Git in the Software Freedom Conservancy] [http://etherpad.osuosl.org/ep/pad/export/git-in-sfc/latest?format=html (html)] [http://etherpad.osuosl.org/ep/pad/export/git-in-sfc/latest?format=txt (text)]
 
 * [https://docs.google.com/present/view?id=dcfz2dg9_3d6qdvqdg Git on Cassandra]
 
-* [http://etherpad.osuosl.org/git-dist-code-reviews Distributed code reviews]
+* [http://etherpad.osuosl.org/git-dist-code-reviews Distributed code reviews] [http://etherpad.osuosl.org/ep/pad/export/git-dist-code-reviews/latest?format=html (html)] [http://etherpad.osuosl.org/ep/pad/export/git-dist-code-reviews/latest?format=txt (text)]
 
-* [http://etherpad.osuosl.org/git-dist-android-build Distributed Android builds]
+* [http://etherpad.osuosl.org/git-dist-android-build Distributed Android builds] [http://etherpad.osuosl.org/ep/pad/export/git-dist-android-build/latest?format=html (html)] [http://etherpad.osuosl.org/ep/pad/export/git-dist-android-build/latest?format=txt (text)]
 
-* [http://etherpad.osuosl.org/git-and-encryption Git and encryption]
+* [http://etherpad.osuosl.org/git-and-encryption Git and encryption] [http://etherpad.osuosl.org/ep/pad/export/git-and-encryption/latest?format=html (html)] [http://etherpad.osuosl.org/ep/pad/export/git-and-encryption/latest?format=txt (text)]
 
-* [http://etherpad.osuosl.org/jgit-status-update JGit status update]
+* [http://etherpad.osuosl.org/jgit-status-update JGit status update] [http://etherpad.osuosl.org/ep/pad/export/jgit-status-update/latest?format=html (html)] [http://etherpad.osuosl.org/ep/pad/export/jgit-status-update/latest?format=txt (text)]
 
-* [http://etherpad.osuosl.org/dulwich-overview Dulwich]
+* [http://etherpad.osuosl.org/dulwich-overview Dulwich] [http://etherpad.osuosl.org/ep/pad/export/dulwich-overview/latest?format=html (html)] [http://etherpad.osuosl.org/ep/pad/export/dulwich-overview/latest?format=txt (text)]
 
-* [http://etherpad.osuosl.org/git-remote-hg git-remote-hg]
+* [http://etherpad.osuosl.org/git-remote-hg git-remote-hg] [http://etherpad.osuosl.org/ep/pad/export/git-remote-hg/latest?format=html (html)] [http://etherpad.osuosl.org/ep/pad/export/git-remote-hg/latest?format=txt (text)]
 
-* [http://etherpad.osuosl.org/managing-large-repos Managing large repos]
+* [http://etherpad.osuosl.org/managing-large-repos Managing large repos] [http://etherpad.osuosl.org/ep/pad/export/managing-large-repos/latest?format=html (html)] [http://etherpad.osuosl.org/ep/pad/export/managing-large-repos/latest?format=txt (text)]
 
-* [http://etherpad.osuosl.org/git-cheetah git cheetah]
+* [http://etherpad.osuosl.org/git-cheetah git cheetah] [http://etherpad.osuosl.org/ep/pad/export/git-cheetah/latest?format=html (html)] [http://etherpad.osuosl.org/ep/pad/export/git-cheetah/latest?format=txt (text)]
 
-* [http://etherpad.osuosl.org/gerrit-survey Gerrit Code Review Survey 2010]
+* [http://etherpad.osuosl.org/gerrit-survey Gerrit Code Review Survey 2010] [http://etherpad.osuosl.org/ep/pad/export/gerrit-survey/latest?format=html (html)] [http://etherpad.osuosl.org/ep/pad/export/gerrit-survey/latest?format=txt (text)]
 
-* [http://etherpad.osuosl.org/git-together-2011 Gittogether next year, what could be improved?]
+* [http://etherpad.osuosl.org/git-together-2011 Gittogether next year, what could be improved?] [http://etherpad.osuosl.org/ep/pad/export/git-together-2011/latest?format=html (html)] [http://etherpad.osuosl.org/ep/pad/export/git-together-2011/latest?format=txt (text)]
 
-* [http://openetherpad.org/git-fetch-negotiation exponential backoff during common commit discovery]
+* [http://openetherpad.org/git-fetch-negotiation exponential backoff during common commit discovery] [http://openetherpad.org/ep/pad/export/git-fetch-negotiation/latest?format=html (html)] [http://openetherpad.org/ep/pad/export/git-fetch-negotiation/latest?format=txt (txt)]
 
-* [http://etherpad.osuosl.org/git-clock-skew Tolerating clock skew]
+* [http://etherpad.osuosl.org/git-clock-skew Tolerating clock skew] [http://etherpad.osuosl.org/ep/pad/export/git-clock-skew/latest?format=html (html)] [http://etherpad.osuosl.org/ep/pad/export/git-clock-skew/latest?format=txt (text)]
 
 * [[Gerrit_Submodules_Support]]
 
