@@ -1203,6 +1203,10 @@ See [[git-p4 Usage]] instructions.
 
 == Other tools ==
 
+=== reposurgeon ===
+
+* ''reposurgeon'' ([http://www.catb.org/~esr/reposurgeon]) is as an editing tool for repository histories that will work with any version-control system supporting import and export of git fast-import streams. It supportes editing old comments and metadata, removing commits, fixing timezones, coalescing single-file commits, and other tricky operations. It can be very helpful in cleaning up cruft from repository conversions.   
+
 === git-ftp.sh ===
 * [http://github.com/resmo/git-ftp git-ftp.sh] by René Moser [http://www.renemoser.net/contact/] is a simple shell script for doing FTP the Git way. Use git-ftp.sh to upload only the Git tracked files to a FTP server, which have changed since the last upload. This saves time and bandwith. Even if you play with different branches, git-ftp.sh knows which files are different. No ordinary FTP client can do that.
 
