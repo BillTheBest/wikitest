@@ -66,6 +66,7 @@ All documentation residing on this wiki is put in the [[Category:GitDocumentatio
 * [http://wiki.impressive-media.de/doc/git-165-unter-debian-lenny-bzw-ubuntu-jaunty HowTo: Installation of git 1.6.5 under Debian Lenny and Ubuntu Jaunty]
 * [http://techblog.aasisvinayak.com/git-tutorial-maintain-your-project-easily/ GIT Tutorial: Maintain your project easily (How to: for beginners)]
 * [http://wiki.impressive-media.de/doc/braid-f%C3%BCr-git-installieren-debian-lenny HowTo: Installation and tutorial of Braid (submodule alternative)]
+* [http://www.ralfebert.de/blog/tools/git_screencast/](Screencast: Git in Action - Introduction to distributed version control with git)
 
 == Man pages ==
 Each git command is documented in its own man page. If the man pages are installed on your local system running:
