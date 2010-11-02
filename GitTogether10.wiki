@@ -15,8 +15,8 @@ Signup is now CLOSED.
 # Junio C Hamano
 # Tom Preston-Werner
 # [mailto:maria.gutowski@gmail.com Maria Gutowski]
-# Fredrik Luthander
-# Ulrik Sjölin
+# [mailto:firstname.lastname@sonyericsson.com Fredrik Luthander]
+# [mailto:firstname.lastname@sonyericsson.com Ulrik Sjölin]
 # Stephen Boyd
 # Chris Aniszczyk
 # Thomas Rast [mailto:trast@student.ethz.ch]
@@ -28,7 +28,7 @@ Signup is now CLOSED.
 # [mailto:patrick.renaud@ericsson.com Patrick Renaud]
 # [mailto:Martin.von.Zweigbergk@ericsson.com Martin von Zweigbergk]
 # Brad Larson
-# Scarlette Ng
+# [mailto:firstname.lastname@sonyericsson.com Scarlette Ng]
 # Jonathan "Duke" Leto
 # Juan Delgado
 # Jeff King
