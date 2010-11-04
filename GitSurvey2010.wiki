@@ -1340,6 +1340,51 @@ The leader here is (like in previous years) GitHub with 77% of responders (up fr
 
 The high position of GitHub migh be at least partially caused by the fact that GitHub has good announcement system for new features, which was used to announce "Git User's Survey 2010" to GitHub users.
 
+
+Below there is table showing how many responders selected how many options.  Note that it does not analyse "''other, plese specify''" answer, which might describe more than one git hosting site on one side, and might say something like "don't use git hosting site" on the other side.
+
+{| border="1" cellpadding="3" cellspacing="0"
+|- style="font-weight: bold; background-color: #ffffcc;"
+! Multiplicity / 24                     !! Count !! Perc. 
+! style="width: 200px;" |
+|-
+| 0                                     ||   919 || 11.6% 
+| <div style="width:  23px; background-color: #ff0f0f;">&nbsp;</div>
+|-
+| 1                                     ||  4129 || 52.1% 
+| <div style="width: 104px; background-color: #ff0f0f;">&nbsp;</div>
+|-
+| 2                                     ||  2676 || 33.8% 
+| <div style="width:  68px; background-color: #ff0f0f;">&nbsp;</div>
+|-
+| 3                                     ||   831 || 10.5% 
+| <div style="width:  21px; background-color: #ff0f0f;">&nbsp;</div>
+|-
+| 4                                     ||   202 ||  2.5% 
+| <div style="width:   5px; background-color: #ff0f0f;">&nbsp;</div>
+|-
+| 5                                     ||    54 ||  0.7% 
+| <div style="width:   1px; background-color: #ff0f0f;">&nbsp;</div>
+|-
+| 6                                     ||    17 ||  0.2% 
+| <div style="width:   0px; background-color: #ff0f0f;">&nbsp;</div>
+|-
+| 7                                     ||     9 ||  0.1% 
+| <div style="width:   0px; background-color: #ff0f0f;">&nbsp;</div>
+|-
+| 8                                     ||     1 ||  0.0% 
+| <div style="width:   0px; background-color: #ff0f0f;">&nbsp;</div>
+|-
+| 9                                     ||     2 ||  0.0% 
+| <div style="width:   0px; background-color: #ff0f0f;">&nbsp;</div>
+|- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
+| Base                                                     
+| colspan="2" |  7922 / 8841  ||
+|}
+
+'''Multiplicity analysis:'''<BR>
+Most responders (52%) use only one git hosting site, around a third (34%) use two git hosting site (or selected one git hosting site and wrote something in "''other, please specify''" choice).
+
 === 14. How do you fetch/get changes from upstream repositories? ===
 ''(multiple choice, with other)''
 
