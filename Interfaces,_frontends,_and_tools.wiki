@@ -885,7 +885,7 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 * ''GitStats'' - with a 's', not the same as GitStat - ([http://sourceforge.net/projects/gitstats/ SourceForge project]) is a statistics generator for git repositories. It examines the repository and produces some interesting statistics from the history. Currently it outputs only HTML. As opposed to GitStat, it generates the HTML statically, and is therefore suitable to generate pages to upload to a dumb HTTP server. Some [http://gitstats.sourceforge.net/examples/ examples] are available.
 
 === git-browser ===
-* [http://straytree.com/ git-browser] by Arteem Khodush is an experimental gitk-like web interface. It visualizes commit history graph and shows commit diffs. User interface is done in JavaScript, and is rather heavy on the ''client'' side. [http://straytree.com/git-browser/by-commit.html?r=git view online] [http://straytree.com/git-browser.tar.bz2 download] [http://repo.or.cz/gitweb.cgi/git-browser.git gitweb mirror].
+* All Links Dead 2010/11/05.  [http://straytree.com/ git-browser] by Arteem Khodush is an experimental gitk-like web interface. It visualizes commit history graph and shows commit diffs. User interface is done in JavaScript, and is rather heavy on the ''client'' side. [http://straytree.com/git-browser/by-commit.html?r=git view online] [http://straytree.com/git-browser.tar.bz2 download] [http://repo.or.cz/gitweb.cgi/git-browser.git gitweb mirror].
 
 === pitweb ===
 * [http://pitweb.danfis.cz pitweb] by Daniel Fiser is a web interface for git repositories written in python and licensed under LGPL.
