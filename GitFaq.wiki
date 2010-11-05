@@ -1181,6 +1181,8 @@ Lastly, there is also [[InterfacesFrontendsAndTools#fromcvs/togit|FromCVS toGit]
 * See [http://www.kernel.org/pub/software/scm/git/docs/gitcvs-migration.html the CVS migration doc] for more examples.
 * See [http://git.or.cz/course/cvs.html Git - CVS Crash Course] on [http://git.or.cz/ Git homepage]
 
+Note: if you are getting "Unknown: error" when running cvsimport, this may be caused by an old version of cvs.  In particular, if you are running Mac OS X and have set the CVS_SERVER to ocvs, this causes git to also run ocvs, which does '''not''' work correctly with cvsimport.  If you unset the environment variable, import will likely succeed.
+
 == {{Gitlink|import-svn}} Can I import from svn?  ==
 Yes, use [http://git-svn.yhbt.net/git-svn.html git-svn(1)]. Check also [[InterfacesFrontendsAndTools#git-svnconvert|git-svnconvert]] (in Ruby) in [[InterfacesFrontendsAndTools]]. There is also an idea to use <code><nowiki>svnadmin dump</nowiki></code> [http://svn.collab.net/repos/svn/trunk/notes/dump-load-format.txt "dumpfile" format] as an input for Subversion to Git repository conversion, (similar to what <code><nowiki>parsecvs</nowiki></code> does for CVS repositories).
 
