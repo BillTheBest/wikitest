@@ -1328,9 +1328,9 @@ You can find those and other git hosting sites listed on [[GitHosting]] page.
 
 
 '''Disclaimer:'''<BR>
-Note that replies might be affected by the fact that announcement about this survey was shown at some git hosting sites, but not at others.  Additionally users of some git hosting sites may skip welcome page more often than for other hosting site; also not all hosting sites have blog or a news / announcements section (or some hosting sites might have better mechanism for annoncements)
+Note that replies might be affected by the fact that announcement about this survey was shown at some git hosting sites, but not at others.  Additionally users of some git hosting sites may skip welcome page more often than for other hosting site; also not all hosting sites have blog or a news / announcements section (or some hosting sites might have better mechanism for announcements)
 
-Note also that there are git hosting sites, like for example Codaset, which were not present as one of choices in the ready list of answers.  They were "write-in", its numbers retrieved by parsing contents of "''other (please specify)''" option.  Nevertheless those write-ins migh be under-represented.
+Note also that there are git hosting sites, like for example Codaset, which were not present as one of choices in the ready list of answers.  They were "write-in", its numbers retrieved by parsing contents of "''other (please specify)''" option.  Nevertheless those write-ins might be under-represented.
 
 The "''company internal''" answer was forgotten when creating this survey, and is also write-in.
 
@@ -1338,10 +1338,10 @@ The "''company internal''" answer was forgotten when creating this survey, and i
 '''Analysis:'''<BR>
 The leader here is (like in previous years) GitHub with 77% of responders (up from 62% in 2009); "''self hosted''" is second with 44%, but it is quite lower than 57% in 2009.
 
-The high position of GitHub migh be at least partially caused by the fact that GitHub has good announcement system for new features, which was used to announce "Git User's Survey 2010" to GitHub users.
+The high position of GitHub might be at least partially caused by the fact that GitHub has good announcement system for new features, which was used to announce "Git User's Survey 2010" to GitHub users.
 
 
-Below there is table showing how many responders selected how many options.  Note that it does not analyse "''other, plese specify''" answer, which might describe more than one git hosting site on one side, and might say something like "don't use git hosting site" on the other side.
+Below there is table showing how many responders selected how many options.  Note that it does not analyse "''other, please specify''" answer, which might describe more than one git hosting site on one side, and might say something like "don't use git hosting site" on the other side.
 
 {| border="1" cellpadding="3" cellspacing="0"
 |- style="font-weight: bold; background-color: #ffffcc;"
