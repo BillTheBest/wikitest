@@ -563,6 +563,66 @@ As you can see most responders know Git enough for everyday use (39%), or can ev
 
 Either Git users don't stay novices long (4%), or survey announcement(s) didn't reach many novice users.
 
+'''Correlations:'''<BR>
+Below there is table of correlations to "04. Have you found Git easy to use?".
+
+<!-- # column (horizontal): 04. Have you found Git easy to use? -->
+<!-- # row    (vertical):   06. Rate your own proficiency with Git: -->
+{| border="1" cellpadding="3" cellspacing="0"
+|- style="font-weight: bold; background-color: #ffffcc;"
+! 
+! style="width: 5em" | Very easy 
+! style="width: 5em" | Easy 
+! style="width: 5em" | Reasonable 
+! style="width: 5em" | Hard 
+! style="width: 5em" | Very hard 
+|-
+| 1. novice
+|   0.2% <br /><sup>''(0.410)''</sup>
+|   1.0% <br /><sup>(0.642)</sup>
+|   1.8% <br /><sup>(1.052)</sup>
+|   0.9% <br /><sup>'''(2.861)'''</sup>
+|   0.2% <br /><sup>'''(4.227)'''</sup>
+|-
+| 2. casual, needs advice
+|   1.3% <br /><sup>(0.624)</sup>
+|   5.9% <br /><sup>(0.820)</sup>
+|   9.1% <br /><sup>(1.128)</sup>
+|   2.3% <br /><sup>(1.557)</sup>
+|   0.4% <br /><sup>'''(2.130)'''</sup>
+|-
+| 3. everyday use
+|   4.5% <br /><sup>(1.048)</sup>
+|  14.3% <br /><sup>(0.982)</sup>
+|  16.6% <br /><sup>(1.011)</sup>
+|   3.0% <br /><sup>(0.981)</sup>
+|   0.3% <br /><sup>(0.831)</sup>
+|-
+| 4. can offer advice
+|   3.9% <br /><sup>(1.115)</sup>
+|  13.5% <br /><sup>(1.131)</sup>
+|  12.8% <br /><sup>(0.950)</sup>
+|   1.4% <br /><sup>(0.567)</sup>
+|   0.1% <br /><sup>''(0.300)''</sup>
+|-
+| 5. know it very well
+|   1.2% <br /><sup>(1.599)</sup>
+|   3.0% <br /><sup>(1.205)</sup>
+|   2.2% <br /><sup>(0.777)</sup>
+|   0.3% <br /><sup>''(0.480)''</sup>
+|   0.0% <br /><sup>''(0.178)''</sup>
+|-
+| colspan="6" |
+|- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
+| Base || colspan="5" | 8395 / 8841
+|}
+
+Percentages are of number of responders that selected given answer to both questions, relative to number of responders that answered both questions (e.g. the 1.0% in first row, second column of above table means that those responders find Git "*easy*" to use, while thinking about themselves as being "*novice*" with Git).
+
+The small number if parentheses below percentage is ratio of responders who selected given answers to both question to the product of number of responsers that chose given answer to first question with number of responders that chose given answer to second question.  This means that value of 1.000 means that the correlation is the same as if distributions were independent: correlation would be the product of distributions in those two questions.
+
+One can see from the percentages that the center of above matrix is in 'easy' to 'reasonable' and 'everyday use' to 'can offer advice'.  The percentages together with correlation ratios shows that answers to those questions are somewhat anti-correlated: more novice users find git harder to use (which is easy to understand).  Though it is more about "novice" users finding it "very hard" to use Git (correlation ratio of 4.227, though only 0.2% of responders) and "know it very well" not finding it "very hard" to use (correlation ratio of 0.178, and below 0.05% of responses), rather than "know it very well" finding it "very easy" to use (correlation ratio of about 1.6, with 1.2% of responders).
+
 == How you use Git ==
 
 === 07. I use Git for (check all that apply): ===
