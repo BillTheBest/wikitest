@@ -173,9 +173,12 @@ Most people answered 26 questions, all but 2 questions out of 28 in total.
 === 01. What country do you live in (country of residence)? ===
 ''(tabularized free-form single line)''
 
+
+[[File:GitSurvey2010-countries_google_chart-default.gif|Geomap of responders per country|Geomap of responders per country|center]]
+
 This table is sorted alphabetically by country name.
 
-The countries where number of responders was less than 10 (less than 0.1%) were gathered together and summed under "''other countries''" label.
+The countries where number of responders was less than 10 (less than 0.1%) were gathered together and summed under "''other countries''" label (this applies both to the table below, and to the geomap visualization above).
 
 Some responders put more than one country in response, or wrote 'multiple' (perhaps double citizenship?).  There were 8 such responses, as can be seen in the row named "''multiple''".
 
