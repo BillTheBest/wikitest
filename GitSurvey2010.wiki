@@ -566,6 +566,8 @@ Either Git users don't stay novices long (4%), or survey announcement(s) didn't 
 '''Correlations:'''<BR>
 Below there is table of correlations to "04. Have you found Git easy to use?".
 
+[[File:GitSurvey2010-corr=6,4-bubbleplot.png|Bubble plot of table of correlations between questions '06. Rate your own proficiency with Git' and '04. Have you found Git easy to use?'|right|link=]]
+
 <!-- # column (horizontal): 04. Have you found Git easy to use? -->
 <!-- # row    (vertical):   06. Rate your own proficiency with Git: -->
 {| border="1" cellpadding="3" cellspacing="0"
@@ -616,12 +618,15 @@ Below there is table of correlations to "04. Have you found Git easy to use?".
 |- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
 | Base || colspan="5" | 8395 / 8841
 |}
+<br clear="all" />
 
 Percentages are of number of responders that selected given answer to both questions, relative to number of responders that answered both questions (e.g. the 1.0% in first row, second column of above table means that those responders find Git "*easy*" to use, while thinking about themselves as being "*novice*" with Git).
 
 The small number if parentheses below percentage is ratio of responders who selected given answers to both question to the product of number of responsers that chose given answer to first question with number of responders that chose given answer to second question.  This means that value of 1.000 means that the correlation is the same as if distributions were independent: correlation would be the product of distributions in those two questions.
 
 One can see from the percentages that the center of above matrix is in 'easy' to 'reasonable' and 'everyday use' to 'can offer advice'.  The percentages together with correlation ratios shows that answers to those questions are somewhat anti-correlated: more novice users find git harder to use (which is easy to understand).  Though it is more about "novice" users finding it "very hard" to use Git (correlation ratio of 4.227, though only 0.2% of responders) and "know it very well" not finding it "very hard" to use (correlation ratio of 0.178, and below 0.05% of responses), rather than "know it very well" finding it "very easy" to use (correlation ratio of about 1.6, with 1.2% of responders).
+
+In the bubble plot on the righs hand side of table, the area of bubble represents correlation (number of responders that selected given answers).
 
 == How you use Git ==
 
