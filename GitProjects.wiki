@@ -324,8 +324,8 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 ** http://gpsd.berlios.de (homepage)
 ** http://git.berlios.de/gpsd (gitweb)
 * graph-tool
-** http://projects.forked.de/graph-tool/wiki/GraphToolDownload
-** http://git.forked.de/?p=graph-tool (gitweb)
+** http://graph-tool.skewed.de (homepage)
+** http://git.skewed.de/?p=graph-tool (gitweb)
 * grml - Debian-based Linux Live-CD for sysadmins / texttool users
 ** http://grml.org/ (homepage)
 ** http://git.grml.org/ (gitweb)
