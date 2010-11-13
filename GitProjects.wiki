@@ -59,47 +59,6 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 
 == Non-kernel projects that use Git for their source code management. ==
 
-* OpenSpliceDDS (Prismtech open source implementation of the OMG Data Distribution Service (DDS))
-** http://www.opensplice.org (homepage)
-** git://www.opensplice.org/opensplice (repository)
-* Google's android
-** http://source.android.com/download
-* Various projects hosted at Freedesktop.org:
-** http://www.freedesktop.org/wiki/Infrastructure/git (description)<BR>
-** http://www.freedesktop.org/wiki/Infrastructure/git/UIFlaws (git UI wishlist)<BR>
-** http://gitweb.freedesktop.org/ (repository, gitweb)<BR>
-** http://cgit.freedesktop.org/ (cgit, alternative web front end)
-** X.Org (X server, X libraries, classic X applictions, drivers)
-*** http://xorg.freedesktop.org/wiki/Development/git (description)
-** Cairo (2D graphics library with support for multiple output devices)
-*** http://cairographics.org (description)
-** The X protocol C-language Binding (XCB)
-*** http://xcb.freedesktop.org/wiki/ (description)
-** HAL (Hardware Abstraction Layer)
-*** http://www.freedesktop.org/wiki/Software_2fhal (description)
-** PolicyKit (Toolkit for controlling privileges for system-wide services)
-*** http://hal.freedesktop.org/docs/PolicyKit/
-** D-Bus (IPC system)
-*** http://dbus.freedesktop.org/wiki/ (description)
-** Mesa3D (graphics library, software OpenGL implementation)
-*** http://www.mesa3d.org/repository.html (description)
-** fontconfig (font management system)
-*** http://fontconfig.org/wiki/
-** Poppler (PDF rendering library)
-*** http://poppler.freedesktop.org/
-* Compiz Fusion (OpenGL based compositing manager, emerged from Compiz and Beryl)
-** http://compiz-fusion.org (description)
-** http://gitweb.compiz-fusion.org/ (gitweb)
-* One Laptop Per Child (OLPC)
-** http://laptop.org
-** http://dev.laptop.org/wiki/CentralTree (basic description)
-** http://dev.laptop.org/browser (gitweb)
-* Sugar Labs (the OLPC desktop)
-** http://sugarlabs.org
-** http://git.sugarlabs.org (Gitorious)
-* Wine (implementation of the Windows API on top of X and Unix)
-** http://wiki.winehq.org/GitWine (description)
-** http://source.winehq.org/git/?p=wine.git;a=summary (gitweb)
 * adesklets (interactive Imlib2 console for the X11, for writing desklets)
 ** http://adesklets.sourceforge.net/ (home page)
 ** http://adesklets.sourceforge.net/cgi-bin/gitweb.cgi (gitweb)
@@ -110,6 +69,8 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * ALT Linux
 ** http://altlinux.org/ (homepage)
 ** http://git.altlinux.org/ (repositories)
+* Android (Google's smartphone OS)
+** http://source.android.com/download
 * Angerwhale
 ** http://www.angerwhale.org/ (homepage)
 ** http://search.cpan.org/dist/Angerwhale/ (CPAN)
@@ -178,6 +139,9 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * collectd (a small daemon  which collects system information every 10 seconds and writes the results in an RRD-file)
 ** http://collectd.org/dev-info.shtml (development web page)
 ** git://git.verplant.org/collectd.git (repository)
+* Compiz Fusion (OpenGL based compositing manager, emerged from Compiz and Beryl)
+** http://compiz-fusion.org (description)
+** http://gitweb.compiz-fusion.org/ (gitweb)
 * Condor - Distributed High Throughput Computing
 ** http://www.cs.wisc.edu/condor (homepage)
 * CRUX Linux distribution
@@ -269,6 +233,29 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 ** http://www.reactivated.net/fprint/
 ** http://www.reactivated.net/fprint/wiki/Libfprint_development (repo info)
 ** http://www.reactivated.net/fprint/wiki/Pam_fprint#Development (repo info)
+* Freedesktop.org hosts many such projects:
+** http://www.freedesktop.org/wiki/Infrastructure/git (description)<BR>
+** http://www.freedesktop.org/wiki/Infrastructure/git/UIFlaws (git UI wishlist)<BR>
+** http://gitweb.freedesktop.org/ (repository, gitweb)<BR>
+** http://cgit.freedesktop.org/ (cgit, alternative web front end)
+** X.Org (X server, X libraries, classic X applictions, drivers)
+*** http://xorg.freedesktop.org/wiki/Development/git (description)
+** Cairo (2D graphics library with support for multiple output devices)
+*** http://cairographics.org (description)
+** The X protocol C-language Binding (XCB)
+*** http://xcb.freedesktop.org/wiki/ (description)
+** HAL (Hardware Abstraction Layer)
+*** http://www.freedesktop.org/wiki/Software_2fhal (description)
+** PolicyKit (Toolkit for controlling privileges for system-wide services)
+*** http://hal.freedesktop.org/docs/PolicyKit/
+** D-Bus (IPC system)
+*** http://dbus.freedesktop.org/wiki/ (description)
+** Mesa3D (graphics library, software OpenGL implementation)
+*** http://www.mesa3d.org/repository.html (description)
+** fontconfig (font management system)
+*** http://fontconfig.org/wiki/
+** Poppler (PDF rendering library)
+*** http://poppler.freedesktop.org/
 * FreeRADIUS
 ** http://freeradius.org/(homepage)
 ** git://git.freeradius.org/freeradius-server.git radiusd (repo)
@@ -440,11 +427,18 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * netconf
 ** http://netconf.alioth.debian.org
 ** http://git.debian.org/?p=netconf/netconf/master.git;a=summary (gitweb)
+* One Laptop Per Child (OLPC)
+** http://laptop.org
+** http://dev.laptop.org/wiki/CentralTree (basic description)
+** http://dev.laptop.org/browser (gitweb)
 * Openbox (A standards compliant light-weight extensible window manager)
 ** http://icculus.org/openbox
 * OpenGrade (software for teachers to keep track of grades)
 ** http://www.lightandmatter.com/ogr/ogr.html
 ** git://github.com/bcrowell/opengrade.git (repository)
+* OpenSpliceDDS (Prismtech open source implementation of the OMG Data Distribution Service (DDS))
+** http://www.opensplice.org (homepage)
+** git://www.opensplice.org/opensplice (repository)
 * Openswan
 ** http://www.openswan.org/development/ (development)
 ** http://git.openswan.org (gitweb)
@@ -546,6 +540,9 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * StreamOS ( a free operating system in Object Pascal)
 ** http://postfactum.pl.ua/streamos/ (homepage)
 ** http://git.hackndev.com/?p=postfactum/streamos.git;a=summary (repository)
+* Sugar Labs (the OLPC desktop)
+** http://sugarlabs.org
+** http://git.sugarlabs.org (Gitorious)
 * SWI-Prolog (A free Prolog environment)
 ** http://www.swi-prolog.org (web page)
 ** http://gollem.science.uva.nl/git/pl.git (gitweb)
@@ -606,6 +603,9 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 ** http://git.savannah.gnu.org/gitweb/?p=weechat/scripts.git;a=summary (scripts repository)
 * Wexus (C++ library for web application development)
 ** http://labs.wexussoftware.com/
+* Wine (implementation of the Windows API on top of X and Unix)
+** http://wiki.winehq.org/GitWine (description)
+** http://source.winehq.org/git/?p=wine.git;a=summary (gitweb)
 * wmiirc-lua (fast and light window manager based on wmii)
 ** http://www.jukie.net/~bart/blog/tag/wmiirc-lua (homepage)
 ** http://repo.or.cz/w/wmiirc-lua.git (gitweb)
