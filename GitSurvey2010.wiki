@@ -623,13 +623,83 @@ Below there is table of correlations to "04. Have you found Git easy to use?".
 |}
 <br clear="all" />
 
-Percentages are of number of responders that selected given answer to both questions, relative to number of responders that answered both questions (e.g. the 1.0% in first row, second column of above table means that those responders find Git "*easy*" to use, while thinking about themselves as being "*novice*" with Git).
+Percentages in the table above are of number of responders that selected given answer to both questions, relative to number of responders that answered both questions (e.g. the 1.0% in first row, second column of above table means that those responders find Git "''easy''" to use, while thinking about themselves as being "''novice''" with Git).
 
-The small number if parentheses below percentage is ratio of responders who selected given answers to both question to the product of number of responsers that chose given answer to first question with number of responders that chose given answer to second question.  This means that value of 1.000 means that the correlation is the same as if distributions were independent: correlation would be the product of distributions in those two questions.
+The small number in parentheses below percentage (e.g. the "(0.642)" in in first row, second column of above table) is ratio of responders who selected given answers to both question to the product of number of responsers that chose given answer to first question with number of responders that chose given answer to second question.  This means that value of 1.000 means that the correlation is the same as if distributions were independent: correlation would be the product of distributions in those two questions.
 
 One can see from the percentages that the center of above matrix is in 'easy' to 'reasonable' and 'everyday use' to 'can offer advice'.  The percentages together with correlation ratios shows that answers to those questions are somewhat anti-correlated: more novice users find git harder to use (which is easy to understand).  Though it is more about "novice" users finding it "very hard" to use Git (correlation ratio of 4.227, though only 0.2% of responders) and "know it very well" not finding it "very hard" to use (correlation ratio of 0.178, and below 0.05% of responses), rather than "know it very well" finding it "very easy" to use (correlation ratio of about 1.6, with 1.2% of responders).
 
-In the bubble plot on the righs hand side of table, the area of bubble represents correlation (number of responders that selected given answers).
+The correlations coefficient support this observation of slight correlation between answers to those questions:
+
+* [[wikipedia:Pearson_product-moment_correlation_coefficient|Pearson's]] r = -0.19 <nowiki>[-1, 1]</nowiki> (linear dependence)
+* [[wikipedia:Spearman's_rank_correlation_coefficient|Spearman's]] &#961; = -0.18 <nowiki>[-1, 1]</nowiki> (monotonic dependence)
+* [[wikipedia:Kendall_tau_rank_correlation_coefficient|Kendall's]] &#964;<sub>b</sub> = -0.16 <nowiki>[-1, 1]</nowiki> (rank correlation)
+
+Pearson's coefficient was calculated using <tt>least_squares_fit</tt> from [http://p3rl.org/Statistics::Descriptive Statistics::Descriptive] Perl module, while both Spearman's and Kendall's coeficients were calculated using [http://p3rl.org/Statistics::RankCorrelation Statistics::RankCorrelation]
+
+In the bubble plot on the right hand side of table it is the area of bubble that represents correlation (number of responders that selected given answers).
+
+<br>
+[[File:GitSurvey2010-corr=6,3-bubbleplot.png|Bubble plot of table of correlations between questions '06. Rate your own proficiency with Git' and '03. Have you found Git easy to learn?'|right|link=]]
+<!-- # column (horizontal): 03. Have you found Git easy to learn? -->
+<!-- # row    (vertical):   06. Rate your own proficiency with Git: -->
+{| border="1" cellpadding="3" cellspacing="0"
+|- style="font-weight: bold; background-color: #ffffcc;"
+! 
+! style="width: 5em" | Very easy 
+! style="width: 5em" | Easy 
+! style="width: 5em" | Reasonable 
+! style="width: 5em" | Hard 
+! style="width: 5em" | Very hard 
+|-
+| 1. novice
+|   0.1% <br /><sup>(0.626)</sup>
+|   0.7% <br /><sup>(0.703)</sup>
+|   1.9% <br /><sup>(0.885)</sup>
+|   1.0% <br /><sup>(1.538)</sup>
+|   0.3% <br /><sup>('''4.537''')</sup>
+|-
+| 2. casual, needs advice
+|   0.8% <br /><sup>(0.820)</sup>
+|   3.7% <br /><sup>(0.829)</sup>
+|  10.0% <br /><sup>(0.991)</sup>
+|   4.0% <br /><sup>(1.250)</sup>
+|   0.5% <br /><sup>(1.699)</sup>
+|-
+| 3. everyday use
+|   2.0% <br /><sup>(1.091)</sup>
+|   9.5% <br /><sup>(1.044)</sup>
+|  20.5% <br /><sup>(0.998)</sup>
+|   6.0% <br /><sup>(0.925)</sup>
+|   0.6% <br /><sup>(0.930)</sup>
+|-
+| 4. can offer advice
+|   1.4% <br /><sup>(0.933)</sup>
+|   7.9% <br /><sup>(1.059)</sup>
+|  17.4% <br /><sup>(1.036)</sup>
+|   4.8% <br /><sup>(0.891)</sup>
+|   0.2% <br /><sup>(''0.318'')</sup>
+|-
+| 5. know it very well
+|   0.5% <br /><sup>(1.532)</sup>
+|   1.8% <br /><sup>(1.129)</sup>
+|   3.3% <br /><sup>(0.935)</sup>
+|   1.0% <br /><sup>(0.918)</sup>
+|   0.1% <br /><sup>(0.542)</sup>
+|-
+| colspan="6" |
+|- style="font-weight: bold; font-style: italic; background-color: #ccffff;"
+| Base || colspan="5" | 8375 / 8841
+|}
+<br clear="all" />
+
+Examining correlations between question "''06. Rate your own proficiency with Git:''" and "''03. Have you found Git easy to learn?''" we see that answers to those questions are almost completly unrelated.
+
+* Pearson's   r = -0.10 <nowiki>[-1, 1]</nowiki> (linear dependence)
+* Spearman's  &#961; = -0.09 <nowiki>[-1, 1]</nowiki> (monotonic dependence)
+* Kendall's   &#964;<sub>b</sub> = -0.08 <nowiki>[-1, 1]</nowiki> (rank correlation)
+
+The very faint hint of anti-correlation might be caused by the fact that people for which Git is ''very hard to learn'' do not become Git guru's (and do not ''know it very well'').
 
 == How you use Git ==
 
