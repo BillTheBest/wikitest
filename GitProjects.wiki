@@ -99,6 +99,10 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * CakePHP (PHP Framework)
 ** http://cakephp.org/ (website)
 ** http://github.com/cakephp/ (github)
+* Charm++ parallel runtime system and related tools
+** http://charm.cs.illinois.edu/ (home page)
+** http://charm.cs.illinois.edu/cgi-bin/gitweb2.cgi (gitweb)
+** git://charm.cs.illinois.edu/charm.git (main project repository)
 * check_postgres (a Nagios plugin for monitoring PostgreSQL databases)
 ** http://bucardo.org/wiki/Check_postgres (homepage)
 ** git://bucardo.org/check_postgres.git/
