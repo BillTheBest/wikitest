@@ -242,7 +242,7 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 ** http://www.freedesktop.org/wiki/Infrastructure/git/UIFlaws (git UI wishlist)<BR>
 ** http://gitweb.freedesktop.org/ (repository, gitweb)<BR>
 ** http://cgit.freedesktop.org/ (cgit, alternative web front end)
-** X.Org (X server, X libraries, classic X applictions, drivers)
+** X.Org (X server, X libraries, classic X applications, drivers)
 *** http://xorg.freedesktop.org/wiki/Development/git (description)
 ** Cairo (2D graphics library with support for multiple output devices)
 *** http://cairographics.org (description)
@@ -279,6 +279,10 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 ** http://gcc.gnu.org/git/
 * [http://www.haskell.org/ghc/ GHC] (Glasgow Haskell Compiler)
 ** http://darcs.haskell.org/ghc.git
+* GemRB (Game engine made with pre-Rendered Background)
+** http://gemrb.sourceforge.net/ (homepage)
+** http://gemrb.git.sourceforge.net/git/gitweb-index.cgi (gitweb)
+** git://gemrb.git.sourceforge.net/gitroot/gemrb/gemrb (repository)
 * GNU Autoconf
 ** http://git.sv.gnu.org/gitweb/?p=autoconf.git (gitweb)
 ** git://git.sv.gnu.org/autoconf.git
@@ -299,7 +303,7 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 ** http://www.gnome.org/ (home page)
 ** http://git.gnome.org/cgit/ (cgit web interface)
 * Gobby - a free collaborative editor
-** http://gobby.0x539.de/ (hompage)
+** http://gobby.0x539.de/ (homepage)
 * GSL - GNU Scientific Library
 ** http://www.gnu.org/software/gsl/ (homepage)
 ** https://savannah.gnu.org/projects/gsl (project page)
