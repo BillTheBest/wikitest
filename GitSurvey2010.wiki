@@ -182,6 +182,11 @@ The countries where number of responders was less than 10 (less than 0.1%) were 
 
 Some responders put more than one country in response, or wrote 'multiple' (perhaps double citizenship?).  There were 8 such responses, as can be seen in the row named "''multiple''".
 
+<div style="float: right; width: 400px;">
+[[File:GitSurvey2010-countries-cht=map-zoom=Europe.png|Europe]]<BR>&nbsp;<BR>
+[[File:GitSurvey2010-countries-cht=map-zoom=North_America.png|North America]]<BR>&nbsp;<BR>
+[[File:GitSurvey2010-countries cht=map-zoom=Asia.png|Asia]]<BR>&nbsp;<BR>
+</div>
 {| border="1" cellpadding="3" cellspacing="0"  style="font-size: smaller;"
 |- style="font-weight: bold; background-color: #ffffcc;"
 ! Country                               !! Count !! Perc. 
@@ -297,7 +302,7 @@ Some responders put more than one country in response, or wrote 'multiple' (perh
 | Base                        
 | colspan="2" |  8470 / 8841  
 |}
-
+<br clear="all" />
 
 '''Analysis:'''<BR>
 As one can easily see, slightly less than third of Git users (31.3%) are in the USA (those who answered this survey, and this question).   Next of countries is Germany with around 10.3% (or 1/10th) responses.   Third is United Kingdom of Great Britain (including England, Scotland, Wales and Northern Ireland) with 6.9%, and closely following on fourth place is France with 6.1%
