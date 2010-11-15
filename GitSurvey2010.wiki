@@ -527,7 +527,7 @@ Different correlation coefficients
 
 * [[wikipedia:Pearson_product-moment_correlation_coefficient|Pearson's]] r = 0.55 <nowiki>[-1, 1]</nowiki> (linear dependence)
 * [[wikipedia:Spearman's_rank_correlation_coefficient|Spearman's]] &#961; = 0.52 <nowiki>[-1, 1]</nowiki> (monotonic dependence)
-* [[wikipedia:Kendall_tau_rank_correlation_coefficient|Kendall's]] &#964;<sup>b</sup> = 0.48 <nowiki>[-1, 1]</nowiki> (rank correlation)
+* [[wikipedia:Kendall_tau_rank_correlation_coefficient|Kendall's]] &#964;<sub>b</sub> = 0.48 <nowiki>[-1, 1]</nowiki> (rank correlation)
 
 show that answers to those questions are correlated quite well; if one finds Git easy to use, he/she would find it easy to use.
 
