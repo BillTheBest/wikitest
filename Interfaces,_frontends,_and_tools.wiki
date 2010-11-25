@@ -888,15 +888,13 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 * [http://pitweb.danfis.cz pitweb] by Daniel Fiser is a web interface for git repositories written in python and licensed under LGPL.
 
 === PyjamasGitWeb ===
-* PyjamasGitWeb (git clone gitolite@pyjs.org:pyjamasgitweb) is two projects in one: a JSONRPC web service which uses python-git to serve git repository information, and a matching front-end as a pyjamas application.  [http://pyjs.org Pyjamas] can run the front-end either compiled to javascript to run in a web browser or as a Desktop application (pure python).  Cacheing of answers to queries is performed (in the browser or in the desktop app) so that any file or git link previously clicked on will come up instantly.  Demo is at [http://pyjs.org/pygit http://pyjs.org/pygit]
+* PyjamasGitWeb (git clone gitolite@pyjs.org:pyjamasgitweb) is two projects in one: a JSONRPC web service which uses python-git to serve git repository information, and a matching front-end as a pyjamas application.  [http://pyjs.org Pyjamas] can run the front-end either compiled to javascript to run in a web browser or as a Desktop application (pure python).  Cacheing of answers to queries is performed (in the browser or in the desktop app) so that any file or git link previously clicked on will come up instantly.  Demo is at [http://pyjs.org/pygit http://pyjs.org/pygit] written in python and licensed under LGPL.
 
 === Git Enablement Server (G.E.S.) ===
 * [http://github.com/dvdotsenko/ges Git Enablement Server] is a combination of Git SmartHTTP server (git_http_backend replacement) and a web interface for consuming and browsing filesystem trees sprinkled with git repositories.
-The front-end is entirely JavaScript (Single page, Sammy.js-based) that talks to server (Python, WSGI-based git_http_backend replacement + JSONRPC server supporting calls from Web client).
-The server is targeting Personal, Small Team use cases. The goal of the project is to make an absurdly simple-to-install-and-use *private* collaboration server. 
-Install is just "git clone URI", "git submodule init", "git submodule update --recursive".
-In it's simplest form, the server is set-up and started just by double-clicking the executable. As of Nov 25, 2010, is tested to work equally well on Linux and Windows.
- written in python and licensed under LGPL. To run, requires only two things: Python and command-line git executable.
+* The front-end is entirely JavaScript (Single page, Sammy.js-based) that talks to server (Python, WSGI-based git_http_backend replacement + JSONRPC server supporting calls from Web client).
+* The server is targeting Personal, Small Team use cases. The goal of the project is to make an absurdly simple-to-install-and-use *private* collaboration server. 
+* Install is just "git clone URI", "git submodule init", "git submodule update --recursive". In it's simplest form, the server is set-up and started just by double-clicking the executable. As of Nov 25, 2010, is tested to work equally well on Linux and Windows. To run, requires only two things: Python and command-line git executable.
 
 == Access control / Project hosting ==
 === gitosis ===
