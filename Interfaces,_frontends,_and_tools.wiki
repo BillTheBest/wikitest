@@ -883,10 +883,13 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 * PyjamasGitWeb (git clone gitolite@pyjs.org:pyjamasgitweb) is two projects in one: a JSONRPC web service which uses python-git to serve git repository information, and a matching front-end as a pyjamas application.  [http://pyjs.org Pyjamas] can run the front-end either compiled to javascript to run in a web browser or as a Desktop application (pure python).  Cacheing of answers to queries is performed (in the browser or in the desktop app) so that any file or git link previously clicked on will come up instantly.  Demo is at [http://pyjs.org/pygit http://pyjs.org/pygit]
 
 == Filesystem interfaces ==
-
+=== git fs ===
 * [http://github.com/g2p/git-fs git fs] A fuse filesystem for browsing git commits and past worktrees.
+=== figfs ===
 * [http://www.qotw.net/~reillyeon/projects/figfs/ figfs] A fuse interface to git, with editable workspace support.
-* [http://www.sfgoth.com/~mitch/linux/gitfs/ gitfs (fuse)] The first fuse interface to git.
+=== GitFS ===
+* [http://www.sfgoth.com/~mitch/linux/gitfs/ GitFS] is a FUSE-based filesystem for working with source trees stored in git repositories. The eventual goal is to provide a convenient way to work with lots of branches and patches. Currently (pre-release version 0.03) only very basic functionality is implemented - read-only access to the existing tags and objects.
+=== Inferno filesystem translator ===
 * [http://github.com/manzur/gitfs gitfs (inferno)] A git filesystem translator for inferno, a portable plan9.
 
 = Tools =
@@ -1208,9 +1211,6 @@ See [[git-p4 Usage]] instructions.
 
 ==== git2rss ====
 * [http://bent.latency.net/git2rss git2rss] by Bennett Todd is a Perl script to generate an RSS summary of a git repo. Currently to be used rather as example. Similar to [http://darcs.simplicidade.org/repos/darcs2rss/darcs2rss darcs2rss].
-
-==== gitfs ====
-* [http://www.sfgoth.com/~mitch/linux/gitfs/ GitFS] is a FUSE-based filesystem for working with source trees stored in git repositories. The eventual goal is to provide a convenient way to work with lots of branches and patches. Currently (pre-release version 0.03) only very basic functionality is implemented - read-only access to the existing tags and objects.
 
 ==== git2cl ====
 * [http://josefsson.org/git2cl/ git2cl] ([http://repo.or.cz/w/git2cl.git gitweb]) by Simon Josefsson is a Perl script to convert git logs to [http://www.gnu.org/prep/standards/html_node/Change-Logs.html GNU ChangeLog] format. The tool expects output from <code><nowiki>git --pretty --numstat --summary</nowiki></code> on standard input. Inspired by [http://www.red-bean.com/cvs2cl/ cvs2cl] tool. ''References:'' [http://permalink.gmane.org/gmane.comp.version-control.git/41170 ANNOUNCE: git2cl] message on git mailing list.
