@@ -128,7 +128,7 @@ Users sometimes want steps 3 and 4 combined, and this meshes well with user expe
 
 Obviously, we cannot usefully combine steps 1 and 2.  We could have "git add --create a-new-file" launch an editor to create a new file, but that would not be very useful in practice.
 
-The fact that steps 3 and 4 can be naturally combined, whereas steps 1 and 2 cannot, means that "add" and "rm" are not inverse of one other.
+The fact that steps 3 and 4 can be naturally combined, whereas steps 1 and 2 cannot, means that "add" and "rm" are not the inverse of one other.
 
 * [http://mid.gmane.org/7vps2y3a4n.fsf@assigned-by-dhcp.cox.net Re: git-rm isn't the inverse action of git-add] message by Junio C Hamano.
 * [http://pivotallabs.com/users/alex/blog/articles/1001-git-unadd git unadd] by Alex Chaffee
