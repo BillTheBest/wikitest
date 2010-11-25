@@ -890,6 +890,23 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 === PyjamasGitWeb ===
 * PyjamasGitWeb (git clone gitolite@pyjs.org:pyjamasgitweb) is two projects in one: a JSONRPC web service which uses python-git to serve git repository information, and a matching front-end as a pyjamas application.  [http://pyjs.org Pyjamas] can run the front-end either compiled to javascript to run in a web browser or as a Desktop application (pure python).  Cacheing of answers to queries is performed (in the browser or in the desktop app) so that any file or git link previously clicked on will come up instantly.  Demo is at [http://pyjs.org/pygit http://pyjs.org/pygit]
 
+== Access control / Project hosting ==
+=== gitosis ===
+* ''gitosis'' ([http://eagain.net/gitweb/?p=gitosis.git gitweb], [http://eagain.net/gitweb/?p=gitosis.git;a=blob;f=README.rst;hb=HEAD README] by Tommi 'Tv' Virtanen is a tool to manage git repositories, provide access to them over SSH, with tight access control and not needing shell accounts. Described in [http://eagain.net/blog/2007/10/12/snakepit-and-gitosis.html Tv's cobweb: Snakepit and gitosis, things I've been working on] on author's blog and [http://scie.nti.st/2007/11/14/hosting-git-repositories-the-easy-and-secure-way Hosting Git repositories, The Easy (and Secure) Way] post on [http://scie.nti.st scie.nti.st], Garry Dolley blog. ''(Python, requires setuptools)''
+
+=== SCuMD ===
+* ''SCuMD'' ([http://github.com/gaffo/scumd gitweb], by Mike 'gaffo' Gaffney is a tool provide access to git repositories over SSH, with pluggable access controls and without the need for shell accounts or the normal ssh daemon exposed. ''(Java, require java 1.6)''
+
+=== ssh_acl ===
+* [http://www.inf.ufpr.br/ribas/ssh_acl.html ssh_acl] by Bruno Ribas is a set of bash scripts which can be used to manage Git repositories access.
+
+=== gitolite ===
+* ''gitolite'' ([http://github.com/sitaramc/gitolite http://github.com/sitaramc/gitolite]), by Sitaram Chamarty, (sitaramc at gmail), is inspired by gitosis, plus an urgent need to manage per-branch permissions. It is written entirely in perl, and designed to be usable on any Unix machine that managed to install git and perl. It does not require root access to install or use.
+* Other advantages: an "easy install" script + copious documentation to make things as painless as possible, especially with the critical ssh pieces; simpler, yet more powerful config file syntax; ability to split the config into parts and delegate authority to different people; better logging helps figure out exactly what was allowed/denied and why; "personal" branch namespace for developers.  Also there's a version that allows "deny" in the access control list, making it truly powerful for pretty much all sorts of access restriction needs
+
+=== Girocco ===
+* ''girocco'' ([http://repo.or.cz/w/girocco.git http://repo.or.cz/w/girocco.git]) by Petr Baudis is a Git project hosting framework, powering e.g. the repo.or.cz hosting site. It supports project forking, both mirror and push project modes, is highly configurable and flexible, but contains just the essential features. It is suitable both for public hosting and intranet Git hosting sites for developers' cooperation within closed shops.
+
 == Filesystem interfaces ==
 === git fs ===
 * [http://github.com/g2p/git-fs git fs] A fuse filesystem for browsing git commits and past worktrees.
@@ -955,6 +972,10 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 
 === Meld ===
 * [http://meld.sourceforge.net Meld] is a visual diff and merge tool. You can compare two or three files and edit them in place (diffs update dynamically). You can compare two or three folders and launch file comparisons. You can browse and view a working copy from popular version control systems such as Git, CVS, Subversion, Bazaar-ng and Mercurial, etc...
+
+== Per-file merge drivers ===
+=== git-merge-changelog ===
+* The estimable Bruno Haible wrote a merge driver for ChangeLog files. The driver currently lives in the [http://git.sv.gnu.org/gitweb/?p=gnulib.git;a=blob;f=lib/git-merge-changelog.c gnulib sources].
 
 {{anchor|rcs-interaction}}
 == Interaction with other Revision Control Systems ==
@@ -1294,23 +1315,6 @@ The Version 3 scripts are part of git contrib/ as of 2010-04-02.
 ==== setuptools_git ====
 * [http://ygingras.net/b/tag/setuptools_git setuptools_git] (formerly gitlsfiles) is Git plugin for [http://peak.telecommunity.com/DevCenter/setuptools Setuptools], by Yannick Gingras (Python). Setuptools is a collection of enhancements to the Python distutils that allow you to more easily build and distribute Python packages, especially ones that have dependencies on other packages.
 
-=== Access control / Project hosting ===
-==== gitosis ====
-* ''gitosis'' ([http://eagain.net/gitweb/?p=gitosis.git gitweb], [http://eagain.net/gitweb/?p=gitosis.git;a=blob;f=README.rst;hb=HEAD README] by Tommi 'Tv' Virtanen is a tool to manage git repositories, provide access to them over SSH, with tight access control and not needing shell accounts. Described in [http://eagain.net/blog/2007/10/12/snakepit-and-gitosis.html Tv's cobweb: Snakepit and gitosis, things I've been working on] on author's blog and [http://scie.nti.st/2007/11/14/hosting-git-repositories-the-easy-and-secure-way Hosting Git repositories, The Easy (and Secure) Way] post on [http://scie.nti.st scie.nti.st], Garry Dolley blog. ''(Python, requires setuptools)''
-
-==== SCuMD ====
-* ''SCuMD'' ([http://github.com/gaffo/scumd gitweb], by Mike 'gaffo' Gaffney is a tool provide access to git repositories over SSH, with pluggable access controls and without the need for shell accounts or the normal ssh daemon exposed. ''(Java, require java 1.6)''
-
-==== ssh_acl ====
-* [http://www.inf.ufpr.br/ribas/ssh_acl.html ssh_acl] by Bruno Ribas is a set of bash scripts which can be used to manage Git repositories access.
-
-==== gitolite ====
-* ''gitolite'' ([http://github.com/sitaramc/gitolite http://github.com/sitaramc/gitolite]), by Sitaram Chamarty, (sitaramc at gmail), is inspired by gitosis, plus an urgent need to manage per-branch permissions. It is written entirely in perl, and designed to be usable on any Unix machine that managed to install git and perl. It does not require root access to install or use.
-* Other advantages: an "easy install" script + copious documentation to make things as painless as possible, especially with the critical ssh pieces; simpler, yet more powerful config file syntax; ability to split the config into parts and delegate authority to different people; better logging helps figure out exactly what was allowed/denied and why; "personal" branch namespace for developers.  Also there's a version that allows "deny" in the access control list, making it truly powerful for pretty much all sorts of access restriction needs
-
-==== Girocco ====
-* ''girocco'' ([http://repo.or.cz/w/girocco.git http://repo.or.cz/w/girocco.git]) by Petr Baudis is a Git project hosting framework, powering e.g. the repo.or.cz hosting site. It supports project forking, both mirror and push project modes, is highly configurable and flexible, but contains just the essential features. It is suitable both for public hosting and intranet Git hosting sites for developers' cooperation within closed shops.
-
 === Packaging and release management ===
 ==== git-buildpackage ====
 * [http://packages.debian.org/git-buildpackage git-buildpackage] is a tool for managing the debian packaging of an application in git. [http://honk.sigxcpu.org/projects/git-buildpackage/manual-html/gbp.html Documentation]. There are other solutions and suggestions for debian packaging and git, for example see [http://wiki.debian.org/GitSrc GitSrc].
@@ -1350,10 +1354,6 @@ The Version 3 scripts are part of git contrib/ as of 2010-04-02.
 
 ==== Parabuild ====
 * [http://www.viewtier.com/products/parabuild/index.htm Parabuild] is a Continuous Integration and Release Management system with [http://www.viewtier.com/products/parabuild/git_continuous_integration_release_management.htm native support for Git].
-
-=== Per-file merge drivers ===
-==== git-merge-changelog ====
-* The estimable Bruno Haible wrote a merge driver for ChangeLog files. The driver currently lives in the [http://git.sv.gnu.org/gitweb/?p=gnulib.git;a=blob;f=lib/git-merge-changelog.c gnulib sources].
 
 === By author ===
 <!-- please split these up by function -->
