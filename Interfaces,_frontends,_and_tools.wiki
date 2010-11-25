@@ -159,6 +159,9 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 === gitg ===
 * gitg ([http://git.gnome.org/cgit/gitg/ gitg]) by Jesse van den Kieboom is a clone of GitX for gtk+/GNOME. As such it tries to follow the implementation of GitX closely, while providing tight integration into the GNOME desktop.
 
+=== git-age ===
+* [http://wiki.github.com/krig/git-age git-age] is a `git blame` visualizer, written using PyGTK. Shows the file with information on author, commit etc on each line. Also colors the background of the line darker for older commits and lighter for newer commits. Useful for quickly seeing what parts of a file have changed recently. Will also attempt to retrieve Gravatars for all authors in the file asynchronously.
+
 === Qt Creator ===
 * [http://www.qtsoftware.com/developer/qt-creator Qt Creator] is a lightweight, cross-platform integrated development environment (IDE) for developing with Qt that provides a built in GUI for working with Git repositories.
 
@@ -1363,10 +1366,6 @@ The Version 3 scripts are part of git contrib/ as of 2010-04-02.
 === Centralized workflow ===
 ==== git-central ====
 * ''git-central'' ([http://github.com/stephenh/git-central github]) by Stephen Haberman is a small collections of hooks, scripts, and practices (documentation) for use with a centralized (non-distributed/corporate) git repo. Those include: svn-like revision numbers, combined diff-enabled commit emails, Hudson hooks, Trac hooks, branch locking, etc.
-
-=== GUI for git blame ===
-==== git-age ====
-* [http://wiki.github.com/krig/git-age git-age] is a `git blame` visualizer, written using PyGTK. Shows the file with information on author, commit etc on each line. Also colors the background of the line darker for older commits and lighter for newer commits. Useful for quickly seeing what parts of a file have changed recently. Will also attempt to retrieve Gravatars for all authors in the file asynchronously.
 
 = See also =
 * [[InterfacesFrontendsAndToolsWishlist]]
