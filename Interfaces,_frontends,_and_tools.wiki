@@ -1109,6 +1109,12 @@ See [[git-p4 Usage]] instructions.
 
 * The following [http://jazz.net/library/article/194 article] shows several ways other SCM systems can be used in conjunction with Rational Team Concert 2.x. The main focus of this article is how the integration of Git and IBM Rational Team Concert work items can be achieved using Git hooks.
 
+=== CIAbot ===
+[http://cia.navi.cx/ CIA] is a system for tracking open-source project commits in real-time. It needs a script installed as a post-commit or update hook to send git log summary messages to the CIA server,
+* The Version 3 ciabot scripts, [http://www.catb.org/~esr/ciabot/ciabot.py ciabot.py] and [http://www.catb.org/~esr/ciabot/ciabot.sh ciabot.sh], have been rewritten to work well with git version 1.6.0 and later. Use [http://www.catb.org/~esr/ciabot/ciabot.py ciabot.py] unless your hosting site forbids Python hooks; the shell version is more likely to break due to not being able to call out to utilities it needs.
+* These scripts evolved by translation from [http://www.kernel.org/git/?p=cogito/cogito.git;a=blob;hb=HEAD;f=contrib/ciabot.pl ciabot.pl] by Petr Baudis in the `contrib/` directory of [[Cogito]]. The ancestral Perl is somewhat fragile and may fail with newer git versions.
+The Version 3 scripts are part of git contrib/ as of 2010-04-02.
+
 == Wikis, blogs, etc. ==
 
 === ikiwiki ===
@@ -1247,13 +1253,6 @@ See [[git-p4 Usage]] instructions.
 
 ==== gitcompletion and generate-completions ====
 * [http://www.hawaga.org.uk/ben/tech/gitcompletion/ gitcompletion] ([http://www.hawaga.org.uk/gitcompletion.git/ git repository]) by Ben Clifford is bash tab-completion for Git, gitk, Cogito (''cg'') and StGIT (''stg''). Cogito has the cogito bits of the above already included. There is also `generate-completions.sh` by Johannes Schindelin, available on git mailing list archive [http://marc.theaimsgroup.com/?l=git&m=114515313911717||FYI  generated completions]. <span style="font-size: smaller">Yet another StGIT completions by Paolo Giarrusso, aka Blaisorblade are available at [http://marc.theaimsgroup.com/?l=git&m=113025114026388 Re: latest stg/git commandline completions code]</span>.
-
-=== Hooks ===
-==== CIAbot ====
-[http://cia.navi.cx/ CIA] is a system for tracking open-source project commits in real-time. It needs a script installed as a post-commit or update hook to send git log summary messages to the CIA server,
-* The Version 3 ciabot scripts, [http://www.catb.org/~esr/ciabot/ciabot.py ciabot.py] and [http://www.catb.org/~esr/ciabot/ciabot.sh ciabot.sh], have been rewritten to work well with git version 1.6.0 and later. Use [http://www.catb.org/~esr/ciabot/ciabot.py ciabot.py] unless your hosting site forbids Python hooks; the shell version is more likely to break due to not being able to call out to utilities it needs.
-* These scripts evolved by translation from [http://www.kernel.org/git/?p=cogito/cogito.git;a=blob;hb=HEAD;f=contrib/ciabot.pl ciabot.pl] by Petr Baudis in the `contrib/` directory of [[Cogito]]. The ancestral Perl is somewhat fragile and may fail with newer git versions.
-The Version 3 scripts are part of git contrib/ as of 2010-04-02.
 
 === Interrogation commands / data mining ===
 ==== Gitdm ====
