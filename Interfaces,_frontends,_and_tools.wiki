@@ -37,6 +37,8 @@ __TOC__
 === C ===
 * [http://repo.or.cz/w/libgit2.git libgit2] is a project to replace the core parts of git with an implementation reusable for language bindings and higher-level applications.
 
+* [http://repo.or.cz/w/git/libgit-gsoc.git libgit-thin] is an older attempt in the same vein which started as a [http://code.google.com/p/google-summer-of-code-2007-git/ Google Summer of Code 2007 project]. Read [http://article.gmane.org/gmane.comp.version-control.git/53433 this announcement] for more details. It also comes with Python bindings called PyGit, which demonstrate the current capabilities.
+
 === Perl ===
 * [http://search.cpan.org/~yanick/Git-CPAN-Patch Git::CPAN::Patch] provides a suite of git commands aimed at making trivially easy the process of grabbing any distribution off CPAN, stuffing it in a local git repository and, once gleeful hacking has been perpetrated, sending back patches to its maintainer.
 
@@ -1308,10 +1310,6 @@ The Version 3 scripts are part of git contrib/ as of 2010-04-02.
 
 ==== Girocco ====
 * ''girocco'' ([http://repo.or.cz/w/girocco.git http://repo.or.cz/w/girocco.git]) by Petr Baudis is a Git project hosting framework, powering e.g. the repo.or.cz hosting site. It supports project forking, both mirror and push project modes, is highly configurable and flexible, but contains just the essential features. It is suitable both for public hosting and intranet Git hosting sites for developers' cooperation within closed shops.
-
-=== Library/bindings ===
-==== libgit-thin ====
-* libgit-thin by Luiz Fernando N. Capitulino and Shawn O. Pearce is an ongoing effort to develop a library for git, which started as a [http://code.google.com/p/google-summer-of-code-2007-git/ Google Summer of Code 2007 project]. Read [http://article.gmane.org/gmane.comp.version-control.git/53433 this announcement] for more details. It also comes with Python bindings called PyGit, wich demonstrate the current capabilities. The git repository of this project can be found under http://repo.or.cz/w/git/libgit-gsoc.git.
 
 === Packaging and release management ===
 ==== git-buildpackage ====
