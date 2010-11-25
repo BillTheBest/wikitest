@@ -34,62 +34,51 @@ __TOC__
 
 == Interfaces to other programming languages ==
 
-=== Git::CPAN::Patch ===
+=== Perl ===
 * [http://search.cpan.org/~yanick/Git-CPAN-Patch Git::CPAN::Patch] provides a suite of git commands aimed at making trivially easy the process of grabbing any distribution off CPAN, stuffing it in a local git repository and, once gleeful hacking has been perpetrated, sending back patches to its maintainer.
 
-=== Git::PurePerl ===
 * [http://p3rl.org/Git::PurePerl Git::PurePerl] is pure Perl interface to Git repositories.  It was mostly based on [http://grit.rubyforge.org/ Grit] (described below).
 
-=== Git::Wrapper ===
 * [http://search.cpan.org/dist/Git-Wrapper Git::Wrapper] is a Perl interface to the Git executables. It provides an API that uses Perl data structures for argument passing, instead of CLI-style --options as Git.pm does.
 
-=== GitPython ===
-* A Python module that provides object model access to your Git repositories by calling the Git executables and parsing output. Once you have created a repository object, you can traverse it to find parent commit(s), trees, blobs, etc.. Port of the [http://grit.rubyforge.org/ grit] library in Ruby created by Tom Preston-Werner and Chris Wanstrath. Git repository is [http://gitorious.org/projects/git-python/ available here].
+=== Python ===
+* [http://gitorious.org/projects/git-python GitPython] is a Python module that provides object model access to your Git repositories by calling the Git executables and parsing output. Once you have created a repository object, you can traverse it to find parent commit(s), trees, blobs, etc.. Port of the [http://grit.rubyforge.org/ grit] library in Ruby created by Tom Preston-Werner and Chris Wanstrath.
 
-=== Dulwich ===
 * [http://samba.org/~jelmer/dulwich/ Dulwich] is a pure-Python read-write implementation of the Git file formats and protocols. It is named after the village in which Mr. and Mrs. Git live in the Monty Python sketch. A Git repository can be found at git://git.samba.org/jelmer/dulwich.git and its gitweb [http://git.samba.org/?p=jelmer/dulwich.git;a=summary here].
 
-=== PyGit (abandoned?) ===
-* Pythonic [http://code.istique.net/?p=pygit.git git bindings] targeted towards porcelains. There is also the [http://code.istique.net/?p=pygit.git;a=shortlog;h=refs/heads/stores "stores" branch] that implements pack and object reading natively in Python.
+* PyGit (abandoned?) is a set of pythonic [http://code.istique.net/?p=pygit.git git bindings] targeted towards porcelains. There is also the [http://code.istique.net/?p=pygit.git;a=shortlog;h=refs/heads/stores "stores" branch] that implements pack and object reading natively in Python.
 
-=== Grit ===
+* [http://bitbucket.org/marcinkuzminski/vcs/ vcs] is Various Control System abstraction layer written in Python. Uses mix of already mentioned Dulwich and git binary for git backend. Provides simple yet fully featured interface and is under heavy development stage.
+
+=== Ruby ===
 * [http://grit.rubyforge.org/ Grit] is a Ruby library for extracting information from a git repository in an object oriented manner. This includes a [http://github.com/blog/107-supercharged-ruby-git partial native Ruby implementation], which is used for a number of the operations.
 
-=== git_store ===
 * [http://github.com/georgi/git_store GitStore] implements a versioned data store based on the revision management system Git. You can store object hierarchies as nested hashes, which will be mapped on the directory structure of a git repository. Basically GitStore checks out the repository into a in-memory representation, which can be modified and finally committed. GitStore reads and writes the git repository natively in Ruby.
 
-=== gitrb ===
 * [http://github.com/minad/gitrb GitRb] is another partial native implementation of Git in Ruby similar to grit.
 
-=== v ===
 * [http://github.com/boof/v v] is another Ruby library providing a git adapter that makes working with git repositories easy. Git operations are mapped almost 1:1 to ruby methods and executed in a separate thread returning futures when they're queued. It supports core git objects and convenience objects (indexes, branches, ...) which will provide a convenient API. It is still under development, means except for few examples there is no real documentation and most of the git operations still need to be implemented (first [[CommandLine]] wrapper (porcelain and plumbing), then pure Ruby (plumbing and then porcelain)).
 
-=== Ruby/Git (deprecated) ===
-* [http://jointheconversation.org/rubygit/ Ruby/Git] ([http://github.com/schacon/git-ruby github]) is a Ruby library that can be used to create, read and manipulate Git repositories. Unmaintained, abandoned in favor of mentioned above [http://grit.rubyforge.org/ Grit].
+* [http://jointheconversation.org/rubygit/ Ruby/Git] (deprecated) is a Ruby library that can be used to create, read and manipulate Git repositories. Unmaintained, abandoned in favor of mentioned above [http://grit.rubyforge.org/ Grit].
 
-=== Objective Git ===
+=== Objective C ===
 * [http://github.com/schacon/objective-git ObjectiveGit] is an Objective-C partial implementation of Git and a corresponding object level library that can be used to create, read and manipulate Git repositories. It also contains git server implementations (receive-pack and upload-pack).
 
-=== JGit (Java) ===
+=== Java ===
 * [http://www.eclipse.org/jgit/ JGit] is a BSD licensed, pure Java implementation of the Git file format, core algorithms, and network transport protocols.  It can be found embedded inside of many Git related applications, including [http://www.eclipse.org/egit/ EGit], [http://code.google.com/p/gerrit Gerrit Code Review], [http://nbgit.org/ NBGit], and [http://www.jetbrains.com/teamcity/ JetBrains TeamCity].
 
-=== JavaGit ===
 * [http://javagit.sourceforge.net JavaGit] is an API providing access to git repositories for Java applications. JavaGit is engineered to provide the developer with access to the raw git commands through a command API as well as an object API designed to represent the .git repository, the working tree and other, familiar git concepts. JavaGit uses the git binaries installed on the host machine to provide git functionality and has been designed to easily accommodate additional methods of access to git repositories. JavaGit is released as open source software under the GNU LGPL license.<BR>''Currently in early alpha version'' <BR>''See also:'' [http://thread.gmane.org/gmane.comp.version-control.git/91381 NYU Open Source Programming Class Releases JavaGit API 0.1.0 Alpha] thread on git mailing list.
 
-=== glip ===
+=== PHP ===
 * [http://fimml.at/glip glip], the ''git library in PHP'', provides read and write access to Git repositories without using exec() or system() calls. Therefore it works on many shared web hosting accounts.
 
-=== dotGit (inactive?) ===
-* [http://github.com/pheew/dotgit/tree/master dotGit] is an experimental implementation for .NET written in C#. It is still in it's early stages but can read objects from packed and loose storage. So all the read-only operations are supported. A diff engine is in the works.
+=== .NET and Mono ===
+* [http://github.com/pheew/dotgit/tree/master dotGit] (inactive?) is an experimental implementation for .NET written in C#. It is still in it's early stages but can read objects from packed and loose storage. So all the read-only operations are supported. A diff engine is in the works.
 
-=== Git# (GitSharp) ===
 * [http://www.eqqon.com/index.php/GitSharp Git#] for .NET and Mono is written in C#. GitSharp provides a user friendly well documented [http://henon.github.com/GitSharp/ API]. It is aimed to be fully compatible to the original Git and can be either used as stand alone command line application or as library for gui frontends, IDE plugins, etc. The status of the project is beta.
 
-=== hs-libgit ===
+=== Haskell ===
 * [http://github.com/vincenthz/hs-libgit/ hs-libgit] provides a lowlevel interface in haskell using git core through fork/exec. The goal is to make use of libgit2 as soon as it's usable.
-
-=== vcs ===
-* [http://bitbucket.org/marcinkuzminski/vcs/ vcs] is Various Control System abstraction layer written in Python. Uses mix of already mentioned Dulwich and git binary for git backend. Provides simple yet fully featured interface and is under heavy development stage.
 
 == Patch-management Interface layers ==
 
