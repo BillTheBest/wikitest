@@ -43,7 +43,7 @@ Directories are added automatically when adding files inside them. That is, dire
 
 You can say "<code><nowiki>git add <dir></nowiki></code>" and it will add the files in there.
 
-If you really need a directory to exist in checkouts you should create a file in it. .gitignore works well for this purpose (there is also a tool [[MarkEmptyDirs]] using the .NET framework which allows to automate this task); you can leave it empty, or fill in the names of files you expect to show up in the directory.
+If you really need a directory to exist in checkouts you should create a file in it. .gitignore works well for this purpose (there is also a tool [[MarkEmptyDirs]] using the .NET framework which allows you to automate this task); you can leave it empty or fill in the names of files you expect to show up in the directory.
 
 == {{Gitlink|rename-tracking|Some workflows do not support rename information}} Why does git not "track" renames?  ==
 [[Git]] has to interoperate with a lot of different workflows, for example some changes can come from patches, where rename information may not be available. Relying on explicit rename tracking makes it impossible to merge two trees that have done exactly the same thing, except one did it as a patch (create/delete) and one did it using some other heuristic.
@@ -56,12 +56,12 @@ As a very special case, <code><nowiki>'git log'</nowiki></code> version 1.5.3 an
 
 * [http://permalink.gmane.org/gmane.comp.version-control.git/217 Mail] by Linus on this topic.
 
-Git has a rename command ''git mv'', but that is just a convenience. The effect is indistinguishable from removing the file and adding another with different name and the same content.
+Git has a rename command ''git mv'', but that is just for convenience. The effect is indistinguishable from removing the file and adding another with different name and the same content.
 
 == {{Gitlink|no-per-file-history|A git repository's history is not stored by filename}} Why is "git log <filename>" slow?  ==
-The answer to the question why <code><nowiki>git log <filename></nowiki></code> takes so long to find a small number of commits which changed a given file lies in the fact that Git looks at ''all'' the commits to find that.
+The answer to the question of why <code><nowiki>git log <filename></nowiki></code> takes so long to find a small number of commits which changed a given file lies in the fact that Git looks at ''all'' the commits to find that.
 
-Git simply ''does not have'' per-file history. Not having per-file history is what allows Git to do <code><nowiki>git log <directory-or-file></nowiki></code> rather than being able to track just one file. You can't do it sanely with per-file history (because to tie the per-file histories back together in a logical sequence, you need the global history to sort it again!).
+Git simply ''does not have'' per-file history. Not having a per-file history is what allows Git to do <code><nowiki>git log <directory-or-file></nowiki></code> rather than being able to track just one file. You can't do it sanely with per-file history (because to tie the per-file histories back together in a logical sequence, you need the global history to sort it again!).
 
 That said, you might well need to just run <code><nowiki>git gc</nowiki></code> to make it hugely faster.
 
@@ -69,7 +69,7 @@ Note that <code><nowiki>git log <file1> <file2></nowiki></code> (or <code><nowik
 
 To speed up <code><nowiki>git log</nowiki></code>, give it a range of interesting revisions; you can also try <code><nowiki>--remove-empty</nowiki></code> option (with some caveats).
 
-* [http://permalink.gmane.org/gmane.comp.version-control.git/39358 Re: how to speed up "git log"?] by Linus Torvalds on Git mailing list.
+* [http://permalink.gmane.org/gmane.comp.version-control.git/39358 Re: how to speed up "git log"?] by Linus Torvalds on the Git mailing list.
 
 == {{Gitlink|exporting-cdpath-breaks-things|Exporting CDPATH confuses shell scripts}} Why is it wrong to export the environment variable CDPATH?  ==
 The CDPATH variable is purely for interactive use.  A lot of scripts break if a simple "cd" suddenly outputs a text that was directed at ''you'', the user, and not meant for processing by the script.  Having said that, we tried hard to avoid problems by unsetting CDPATH everywhere in the Git scripts and in the Makefiles, but it is quite possible that we missed some places.
@@ -101,34 +101,34 @@ after rebase:
 <pre><nowiki>
 - A - B - C - D - remote HEAD - E' - F' - G' - local HEAD'
 </nowiki></pre>
-So, the merge does not rewrite your commits. They will stay the same. A rebase _will_ rewrite them. The advantage is that the history is easier to follow. The disadvantage is that you usually tested more while developing, so that some obscure feature in, say, "G", could work less nicely together with the changes of, say, "B", than you hope for. In other words, G was tested thoroughly, G' was not. As always, it is a trade-off.
+So, the merge does not rewrite your commits. They will stay the same. A rebase _will_ rewrite them. The advantage is that the history is easier to follow. The disadvantage is that you usually tested more while developing, so that some obscure feature in, say, "G", could work less nicely together with the changes of, say, "B", than you hope for. In other words, G was tested thoroughly, G' was not. As always, it's a trade-off.
 
 == {{Gitlink|rm-is-shorthand|"git rm" is needed more often than "git rm -&#45;cached"}} Why is "git rm" not the inverse of "git add"?  ==
-Don't think of 'rm' as the inverse of 'add'.  That would only confuse you.
+Don't think of 'rm' as the inverse of 'add'.  That will only confuse you.
 
 When <code><nowiki>git add</nowiki></code> is used to add changes made to a file already tracked by git, the inverse of 'git add <file>' is 'git reset HEAD -- <file>'.
 
 In the case of adding a new file, a natural inverse of 'add' is 'un-add', and that operation is called 'rm --cached', because we use that to name the option to invoke an "index-only" variant of a command when the command can operate on index and working tree file (e.g. "diff --cached", "apply --cached").
 
-A life of a file that does _not_ make into a commit goes like this:
+The life of a file that does _not_ make into a commit goes like this:
 
  [1]$ edit a-new-file
-This is 'create', not 'add'.  git is not involved in this step.
+The above is a 'create', not an 'add'.  git is not involved in this step.
 
  [2]$ git add a-new-file
-This is 'add'; place an existing file in the index.  When you do not want it in the index, you 'un-add' it.
+This is an 'add' &mdash; the placement of an existing file in the index.  When you do not want it in the index, you 'un-add' it.
 
  [3]$ git rm --cached a-new-file
-This removes the entry from the index, without touching the working tree file.  If you do not want that file at all (as opposed to, "I am making a series of partial commits, and the addition of this path does not belong to the first commit of the series, so I am unstaging"), this is followed by
+This removes the entry from the index, without touching the working tree file.  If you do not want that file at all (as opposed to "I am making a series of partial commits and the addition of this path does not belong to the first commit of the series, so I am unstaging"), this is followed by:
 
  [4]$ rm -f a-new-file
 Again, git is not involved in this step.
 
-People sometimes want to have steps 3 and 4 combined, and it meshes well with the users' expectation when they see the word "rm".  Think of "git rm" without "--cached" as a shorthand to do 3 and 4 in one go to meet that expectation.
+Users sometimes want steps 3 and 4 combined, and this meshes well with user expectations when they see the word "rm".  Think of "git rm" without "--cached" as a shorthand to do steps 3 and 4 in one go to meet that expectation.
 
 Obviously, we cannot usefully combine steps 1 and 2.  We could have "git add --create a-new-file" launch an editor to create a new file, but that would not be very useful in practice.
 
-The fact that steps 3 and 4 can be naturally combined, but steps 1 and 2 cannot be, makes "add" and "rm" not inverse of each other.
+The fact that steps 3 and 4 can be naturally combined, whereas steps 1 and 2 cannot be, means that "add" and "rm" are not inverse of one other.
 
 * [http://mid.gmane.org/7vps2y3a4n.fsf@assigned-by-dhcp.cox.net Re: git-rm isn't the inverse action of git-add] message by Junio C Hamano.
 * [http://pivotallabs.com/users/alex/blog/articles/1001-git-unadd git unadd] by Alex Chaffee
@@ -136,14 +136,14 @@ The fact that steps 3 and 4 can be naturally combined, but steps 1 and 2 cannot 
 = Features =
 
 == {{Gitlink|crlf|CRLF conversion with attribute crlf or configuration option core.autocrlf}} Does git convert between CRLF and LF for different platforms? ==
-Support for this exists in Git versions 1.5 or later.  See [http://www.kernel.org/pub/software/scm/git/docs/gitattributes.html#_checking_out_and_checking_in gitattributes(5)].
+Support for newline conversion is supported from Git version 1.5 onwards.  See [http://www.kernel.org/pub/software/scm/git/docs/gitattributes.html#_checking_out_and_checking_in gitattributes(5)].
 
 {{anchor|git-keywords}}
 
 == {{Gitlink|keywords|It's not a good idea but it's possible}} Does git have keyword expansion?  ==
-Not recommended. Keyword expansion causes all sorts of strange problems and isn't really useful anyway, especially within the context of an SCM. Outside git you may perform keyword expansion using a script. The Linux kernel export script does this to set the EXTRA_VERSION variable in the Makefile.
+Keyword expansion is not recommended. Keyword expansion causes all sorts of strange problems and isn't really useful anyway, especially within the context of an SCM. You can perform keyword expansion outside of git using a custom script. The Linux kernel export script does this to set the EXTRA_VERSION variable in the Makefile.
 
-See [http://www.kernel.org/pub/software/scm/git/docs/gitattributes.html gitattributes(5)] if you really want to do this.  If your translation is not reversible (eg SCCS keyword expansion) this may be problematic. (Hint: The supplied [http://www.kernel.org/pub/software/scm/git/docs/gitattributes.html#_tt_ident_tt $Id$-expansion] puts the 40-character hexadecimal blob object name into the id; you can figure out which commits include this blob by using a script like [http://stackoverflow.com/questions/223678/git-which-commit-has-this-blob this].)
+See [http://www.kernel.org/pub/software/scm/git/docs/gitattributes.html gitattributes(5)] if you really want to do this.  If your translation is not reversible (eg SCCS keyword expansion) this may be problematic. (Hint: the supplied [http://www.kernel.org/pub/software/scm/git/docs/gitattributes.html#_tt_ident_tt $Id$-expansion] puts the 40-character hexadecimal blob object name into the id; you can figure out which commits include this blob by using a script like [http://stackoverflow.com/questions/223678/git-which-commit-has-this-blob this].)
 
 See [http://thread.gmane.org/gmane.comp.version-control.git/44750 here for a discussion], and [http://article.gmane.org/gmane.comp.version-control.git/44849 here on how GIT may help anyway].
 
@@ -154,7 +154,7 @@ Yes. Not just "keyword expansion" and/or "CRLF conversion", the current version 
 No. Filenames are treated as byte sequences.
 
 == Does git convert encodings of comments and committer names or file content? ==
-A git repository can store a flag to register the encoding supposedly used for comments (including author names). File content is not converted unless you are inclined to shoot yourself in the foot and use the filtering mechanism described above.
+A git repository can store a flag to register the encoding supposedly used for comments (including author names). File content is not converted unless you are inclined to want to shoot yourself in the foot, in which case use the filtering mechanism described above.
 
 == {{Gitlink|git-content-limitations}} Does git track all file data and metadata?  ==
 No. Git has a specific notion of tracked "content", which is basically just the file data. It is thus not directly suitable for tracking directories where additional filesystem information is significant, such as "/etc" or home directories. See [[ContentLimitations]] for more details.
@@ -183,7 +183,7 @@ There is a bit of a chicken and egg problem involved. The build procedure wants 
 "git reset" will not delete files it does not track, including files it is told to ignore. If reset switches to a version with a different <code><nowiki>.gitignore</nowiki></code> file, then some previously ignored files might show up as untracked files in <code><nowiki>git status</nowiki></code> output.
 
 * See [http://marc.theaimsgroup.com/?l=git&m=114917892328066 Linus Torvalds] answer or [http://marc.theaimsgroup.com/?l=git&m=114917892613019 Sean Estabrooks] answer on the [[GitCommunity|git mailing list]].
-* If you are using cygwin or OSX, you might be having issues with case sensitivity. See [http://marc.info/?l=git&w=2&r=1&s=xt_CONNMARK.h&q=b some discussion here].
+* If you are using cygwin or OSX, you might be having issues with case sensitivity &mdash; see [http://marc.info/?l=git&w=2&r=1&s=xt_CONNMARK.h&q=b some discussions].
 
 == {{Gitlink|non-ff|Your push would lose changes on the remote}} Why is my push rejected with a non-fast forward error?  ==
 If you try to push a branch, you might get this error message:
@@ -228,9 +228,9 @@ Be warned that if you rewind branches, others might get into problem when pullin
 
 {{anchor|git-push after-rebase}}
 
-== {{Gitlink|push-f|If you use push -f, others might get into problem when pulling}} Why won't "git push" work after I rebased a branch?  ==
+== {{Gitlink|push-f|If you use push -f, others might get into problem when pulling}} Why won't "git push" work after I rebase a branch?  ==
 
-After you have rebased one of your local branches, you are trying to push your changes to a remote repository. But <code><nowiki>git push</nowiki></code> fails with this error message:
+After you have rebased one of your local branches, you try to push your changes to a remote repository &mdash; but <code><nowiki>git push</nowiki></code> fails with this error message:
 
 <pre><nowiki>
 error: remote 'refs/heads/master' is not a strict subset of local ref 'refs/heads/master'. maybe you are not up-to-date and need to pull first?
