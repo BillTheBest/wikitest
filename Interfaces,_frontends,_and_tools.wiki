@@ -34,6 +34,9 @@ __TOC__
 
 == Interfaces to other programming languages ==
 
+=== C ===
+* [http://repo.or.cz/w/libgit2.git libgit2] is a project to replace the core parts of git with an implementation reusable for language bindings and higher-level applications.
+
 === Perl ===
 * [http://search.cpan.org/~yanick/Git-CPAN-Patch Git::CPAN::Patch] provides a suite of git commands aimed at making trivially easy the process of grabbing any distribution off CPAN, stuffing it in a local git repository and, once gleeful hacking has been perpetrated, sending back patches to its maintainer.
 
