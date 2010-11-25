@@ -1235,6 +1235,9 @@ The Version 3 scripts are part of git contrib/ as of 2010-04-02.
 === bup ===
 * ''bup'' ([http://github.com/apenwarr/bup github]) by Avery Pennarun is software that can efficiently backup large amounts of data (hundreds of GB) across large numbers of files (millions), using a git-formatted repository as storage.  It also efficiently stores huge individual files, such as virtual machine disks, and can backup directly to a remote machine rather than using space on the local machine.  A FUSE module is included so you can mount your backup repository as a filesystem and restore files that way.<BR>''See also:'' [http://apenwarr.ca/log/?m=201001#04 Bup: it backs things up] blog post (and [http://news.ycombinator.com/item?id=1029990 comments]).
 
+=== git-annex ===
+* [http://git-annex.branchable.com git-annex] allows git to track files whose content should be tracked out-of-band some other way. This is useful when dealing with files larger than git can currently easily handle, whether due to limitations in memory, checksumming time, or disk space. Annexed files can co-exist in the same git repository with regularly versioned files, which is convenient for maintaining documents, Makefiles, etc that are associated with annexed files but that benefit from full revision control.
+
 === chronoversion ===
 * Chronoversion is a simple Python script which attempts to use the git content tracker to provide chronological snapshots similar to Plan 9's ''venti'' filesystem. The two differences are that, being based on git, it isn't a filesystem in the sense of needing kernel support to gain access to the data (so it can be used on systems where you can only install userspace programs) and it allows programmatic decisions about what to snapshot, rather than recording everything into the snapshot. By David Tweed. It can be downloaded (at least currently) from [http://www.personal.rdg.ac.uk/~sis05dst/chronoversion.tgz chronoversion.tgz].
 
