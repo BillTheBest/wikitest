@@ -1231,6 +1231,24 @@ The Version 3 scripts are part of git contrib/ as of 2010-04-02.
 === IBM Rational Team Concert ===
 
 * The following [http://jazz.net/library/article/194 article] shows several ways other SCM systems can be used in conjunction with Rational Team Concert 2.x. The main focus of this article is how the integration of Git and IBM Rational Team Concert work items can be achieved using Git hooks.
+== Backups, metadata, and large files ==
+=== bup ===
+* ''bup'' ([http://github.com/apenwarr/bup github]) by Avery Pennarun is software that can efficiently backup large amounts of data (hundreds of GB) across large numbers of files (millions), using a git-formatted repository as storage.  It also efficiently stores huge individual files, such as virtual machine disks, and can backup directly to a remote machine rather than using space on the local machine.  A FUSE module is included so you can mount your backup repository as a filesystem and restore files that way.<BR>''See also:'' [http://apenwarr.ca/log/?m=201001#04 Bup: it backs things up] blog post (and [http://news.ycombinator.com/item?id=1029990 comments]).
+
+=== chronoversion ===
+* Chronoversion is a simple Python script which attempts to use the git content tracker to provide chronological snapshots similar to Plan 9's ''venti'' filesystem. The two differences are that, being based on git, it isn't a filesystem in the sense of needing kernel support to gain access to the data (so it can be used on systems where you can only install userspace programs) and it allows programmatic decisions about what to snapshot, rather than recording everything into the snapshot. By David Tweed. It can be downloaded (at least currently) from [http://www.personal.rdg.ac.uk/~sis05dst/chronoversion.tgz chronoversion.tgz].
+
+=== Metastore ===
+* [http://david.hardeman.nu/software.php#metastore Metastore] ([http://git.hardeman.nu/?p=metastore.git gitweb]) by David Hardeman is a tool which allows the metadata to be stored in a separate file which can be stored along with the rest of the data in the repo (or separately). This is also useful for tripwire type checks and for other types of storage which drops some of the metadata (tar comes to mind).<BR> ''Repository:'' git://git.hardeman.nu/metastore.git
+
+=== etckeeper ===
+* [http://kitenet.net/~joey/code/etckeeper/ etckeeper] ([http://git.kitenet.net/?p=etckeeper gitweb], [http://kitenet.net/~joey/blog/entry/announcing_etckeeper/ announcement]) by Joey Hess is a collection of tools to let /etc be stored in a git repository. It hooks into apt to automatically commit changes made to /etc during package upgrades. It uses [http://david.hardeman.nu/software.php metastore] to track file metadata that git does not normally support, but that is important for /etc, such as the permissions of /etc/shadow. It's quite modular and configurable, while also being simple to use if you understand the basics of working with git.<BR> ''See also:'' [http://www.isisetup.ch/ IsiSetup]
+
+=== git-cache-meta ===
+* git-cache-meta by jidanni is minimalistic approach to saving file ownership and permissions. It was submitted to `contrib/metadata` and can be found in [http://permalink.gmane.org/gmane.comp.version-control.git/105133||PATCH  git-cache-meta -- file owner and permissions caching, minimalist approach] post at git mailing list.
+
+=== Flashbake ===
+* [http://bitbucketlabs.net/flashbake/ Flashbake] is something between continuous, automated backup system and version control for writers. It is written in Python and uses Git for storage. <BR>''See also:'' [http://www.boingboing.net/2009/02/13/flashbake-free-versi.html Flashbake: Free version-control for writers using git] by Cory Doctorow on BoingBoing.
 
 == Other tools ==
 === FTP ===
@@ -1253,25 +1271,6 @@ The Version 3 scripts are part of git contrib/ as of 2010-04-02.
 
 ==== git status-report ====
 * <code>git status-report</code> ([http://weblog.masukomi.org/2010/07/16/git-status-report announcement], [http://github.com/masukomi/git_accessories/blob/master/git-status-report github]) by Kate Rhodes (''masukomi'') is a script (in Ruby) that outputs a bullet list of all your commits for the past ''n'' days, or the commits of one of your fellow contributors from any number of branches and repos.  Useful to put together a status report for boss.
-
-=== Backups, metadata, and large files ===
-==== bup ====
-* ''bup'' ([http://github.com/apenwarr/bup github]) by Avery Pennarun is software that can efficiently backup large amounts of data (hundreds of GB) across large numbers of files (millions), using a git-formatted repository as storage.  It also efficiently stores huge individual files, such as virtual machine disks, and can backup directly to a remote machine rather than using space on the local machine.  A FUSE module is included so you can mount your backup repository as a filesystem and restore files that way.<BR>''See also:'' [http://apenwarr.ca/log/?m=201001#04 Bup: it backs things up] blog post (and [http://news.ycombinator.com/item?id=1029990 comments]).
-
-==== chronoversion ====
-* Chronoversion is a simple Python script which attempts to use the git content tracker to provide chronological snapshots similar to Plan 9's ''venti'' filesystem. The two differences are that, being based on git, it isn't a filesystem in the sense of needing kernel support to gain access to the data (so it can be used on systems where you can only install userspace programs) and it allows programmatic decisions about what to snapshot, rather than recording everything into the snapshot. By David Tweed. It can be downloaded (at least currently) from [http://www.personal.rdg.ac.uk/~sis05dst/chronoversion.tgz chronoversion.tgz].
-
-==== Metastore ====
-* [http://david.hardeman.nu/software.php#metastore Metastore] ([http://git.hardeman.nu/?p=metastore.git gitweb]) by David Hardeman is a tool which allows the metadata to be stored in a separate file which can be stored along with the rest of the data in the repo (or separately). This is also useful for tripwire type checks and for other types of storage which drops some of the metadata (tar comes to mind).<BR> ''Repository:'' git://git.hardeman.nu/metastore.git
-
-==== etckeeper ====
-* [http://kitenet.net/~joey/code/etckeeper/ etckeeper] ([http://git.kitenet.net/?p=etckeeper gitweb], [http://kitenet.net/~joey/blog/entry/announcing_etckeeper/ announcement]) by Joey Hess is a collection of tools to let /etc be stored in a git repository. It hooks into apt to automatically commit changes made to /etc during package upgrades. It uses [http://david.hardeman.nu/software.php metastore] to track file metadata that git does not normally support, but that is important for /etc, such as the permissions of /etc/shadow. It's quite modular and configurable, while also being simple to use if you understand the basics of working with git.<BR> ''See also:'' [http://www.isisetup.ch/ IsiSetup]
-
-==== git-cache-meta ====
-* git-cache-meta by jidanni is minimalistic approach to saving file ownership and permissions. It was submitted to `contrib/metadata` and can be found in [http://permalink.gmane.org/gmane.comp.version-control.git/105133||PATCH  git-cache-meta -- file owner and permissions caching, minimalist approach] post at git mailing list.
-
-==== Flashbake ====
-* [http://bitbucketlabs.net/flashbake/ Flashbake] is something between continuous, automated backup system and version control for writers. It is written in Python and uses Git for storage. <BR>''See also:'' [http://www.boingboing.net/2009/02/13/flashbake-free-versi.html Flashbake: Free version-control for writers using git] by Cory Doctorow on BoingBoing.
 
 === Tab completion ===
 ==== git-completion.bash (in `contrib/completion`) ====
