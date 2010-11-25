@@ -1287,10 +1287,9 @@ The Version 3 scripts are part of git contrib/ as of 2010-04-02.
 ==== reposurgeon ====
 * ''reposurgeon'' ([http://www.catb.org/~esr/reposurgeon]) is as an editing tool for repository histories that will work with any version-control system supporting import and export of git fast-import streams. It supportes editing old comments and metadata, removing commits, fixing timezones, coalescing single-file commits, and other tricky operations. It can be very helpful in cleaning up cruft from repository conversions.   
 
-=== git_fast_filter and git-rewrite-commits ===
+==== git_fast_filter and git-rewrite-commits ====
 * ''git_fast_filter'' ([http://gitorious.org/projects/git_fast_filter gitorious]) by Elijah Newren assists with quickly rewriting the history of a repository by making it easy to write scripts whose purpose is to serve as safe filters between [http://www.kernel.org/pub/software/scm/git/docs/git-fast-export.html fast-export] and [http://www.kernel.org/pub/software/scm/git/docs/git-fast-import.html fast-import]. git_fast_filter comes with example programs,and a basic test-suite. <BR>''See'' [http://permalink.gmane.org/gmane.comp.version-control.git/116028 announcement on git mailing list] and the following thread.
 * ''git-rewrite-commits'' by Sven Verdoolaege is an alternate interface to [http://www.kernel.org/pub/software/scm/git/docs/git-filter-branch.html git-filter-branch]-like functionality (more similar to cg-admin-rewritehist from Cogito). It is available from git mailing list archives fro [http://thread.gmane.org/gmane.comp.version-control.git/52323| PATCH 0/6| Add git-rewrite-commits v2] thread.
-
 
 === Other ===
 ==== gitco ====
