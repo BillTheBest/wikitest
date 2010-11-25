@@ -18,7 +18,7 @@ Alternatively, in Linus' own words as the inventor of git: "git" can mean anythi
 
 * Random three-letter combination that is pronounceable, and not actually used by any common UNIX command. The fact that it is a mispronunciation of "get" may or may not be relevant.
 * Stupid. Contemptible and despicable. Simple. Take your pick from the dictionary of slang.
-* "Global information tracker": you're in a good mood, and it actually works for you. Angels sing, and a light suddenly fills the room.
+* "Global information tracker": you're in a good mood, and it actually works for you. Angels sing, and light suddenly fills the room.
 * "Goddamn idiotic truckload of sh*t": when it breaks
 
 == {{Gitlink|fetch-vs-pull|Fetch retrieves objects, pull also merges them in}} What's the difference between fetch and pull?  ==
@@ -41,7 +41,7 @@ Currently the design of the git index (staging area) only permits ''files'' to b
 
 Directories are added automatically when adding files inside them. That is, directories never have to be added to the repository, and are not tracked on their own.
 
-You can say "<code><nowiki>git add <dir></nowiki></code>" and it will add files in there.
+You can say "<code><nowiki>git add <dir></nowiki></code>" and it will add the files in there.
 
 If you really need a directory to exist in checkouts you should create a file in it. .gitignore works well for this purpose (there is also a tool [[MarkEmptyDirs]] using the .NET framework which allows to automate this task); you can leave it empty, or fill in the names of files you expect to show up in the directory.
 
