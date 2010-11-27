@@ -1608,6 +1608,9 @@ Below there is table showing how many responders selected how many options.  Not
 '''Multiplicity analysis:'''<BR>
 Most responders (52%) use only one git hosting site, around a third (34%) use two git hosting site (or selected one git hosting site and wrote something in "''other, please specify''" choice).
 
+'''See also:'''<BR>
+* [http://blogs.msdn.com/b/codeplex/archive/2010/11/27/survey-results-open-source-developer-preferences.aspx Survey results: Open source developer preferences] at CodePlex weblog shows, based on around 500 responses, and shows repository hosting site oreferences and version control system preference by what is preferred operating system for development.
+
 === 14. How do you fetch/get changes from upstream repositories? ===
 ''(multiple choice, with other)''
 
