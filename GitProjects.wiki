@@ -645,6 +645,9 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * FreeSWITCH
 ** http://www.freeswitch.org/ (home page)
 ** git://git.freeswitch.org/freeswitch.git (repository)
+* Drupal
+** http://drupal.org/ (home page)
+** git://git.drupal.org/project/drupal.git (repository)
 
 == Git collections ==
 
