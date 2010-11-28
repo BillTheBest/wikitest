@@ -120,4 +120,26 @@ http://epmills.com/wp-content/uploads/2008/05/merge-made-by-octopus_resized.png
 
 A Git icon in plain SVG (636 bytes) by [http://jblevins.org/ Jason Blevins].
 
+----
+
+Git logo and icon by [http://www.dylanbeattie.net/git_logo/ Dylan Beattie]
+
+{| border="1" cellspacing="0" cellpadding="10"
+| http://www.dylanbeattie.net/git_logo/git_logo_192x106.jpg || Git Logo
+
+[http://www.dylanbeattie.net/git_logo/git_logo.png Fullsize PNG]
+
+[http://www.dylanbeattie.net/git_logo/git_logo.ai Adobe Illustrator] 
+|-
+|| http://www.dylanbeattie.net/git_logo/git_icon_192x192.png || Git Icon
+
+[http://www.dylanbeattie.net/git_logo/git_icon.ico Windows ICO Format]
+
+[http://www.dylanbeattie.net/git_logo/git_icon.icns MacOS .icsn Format] 
+
+[http://www.dylanbeattie.net/git_logo/git_icon.png PNG Format]
+|}
+
+Git Logo and Icon by Dylan Beattie distributed under [http://creativecommons.org/licenses/by-sa/3.0/ Creative Commons Attribution-ShareAlike 3.0 Unported License].
+
 __NOTOC__
