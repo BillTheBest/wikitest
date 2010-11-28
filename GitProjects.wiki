@@ -82,6 +82,7 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 ** http://awesome.naquadah.org (home page)
 ** http://git.naquadah.org/?p=awesome.git;a=summary (gitweb)
 ** git://git.naquadah.org/awesome.git (repository)
+
 * Bacula (Open Source Network Backup Solution)
 ** http://bacula.org/ (homepage)
 ** git://github.com/bacula/bacula.git (repository)
@@ -96,6 +97,7 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 ** http://bucardo.org/ (website)
 ** git://bucardo.org/bucardo.git/ (Bucardo repository)
 ** git://bucardo.org/dbixsafe.git/ (DBIx::Safe repository)
+
 * CakePHP (PHP Framework)
 ** http://cakephp.org/ (website)
 ** http://github.com/cakephp/ (github)
@@ -111,14 +113,6 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * Conky(light-weight system monitor for X)
 ** http://conky.sourceforge.net/
 ** http://git.omp.am/?p=conky.git;a=summary (gitweb)
-* Debian buildd-tools (buildd, sbuild, schroot)
-** http://git.debian.org (gitweb)
-* Debian debpool
-** http://wiki.debian.org/debpool
-** http://git.debian.org/?p=debpool/debpool.git (gitweb)
-* Debian pbuilder
-** http://packages.qa.debian.org/pbuilder
-** http://git.debian.org/?p=pbuilder/pbuilder.git (gitweb)
 * CenterIM
 ** http://www.centerim.org/index.php/Contribute_Code (development web page)
 ** http://repo.or.cz/w/centerim.git (gitweb)
@@ -151,6 +145,7 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * CRUX Linux distribution
 ** http://crux.nu/Main/ContribHowTo (development web page)
 ** http://crux.nu/gitweb/ (gitweb)
+
 * dash (POSIX-compliant shell)
 ** http://gondor.apana.org.au/~herbert/dash/ (description)
 ** http://gondor.apana.org.au/~herbert/dash/dash.git/ (repository)
@@ -162,6 +157,14 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 ** http://rubyforge.org/projects/dorb (project page)
 ** http://github.com/sam/do/tree/master (repository browser)
 ** git://github.com/sam/do.git (repository)
+* Debian buildd-tools (buildd, sbuild, schroot)
+** http://git.debian.org (gitweb)
+* Debian debpool
+** http://wiki.debian.org/debpool
+** http://git.debian.org/?p=debpool/debpool.git (gitweb)
+* Debian pbuilder
+** http://packages.qa.debian.org/pbuilder
+** http://git.debian.org/?p=pbuilder/pbuilder.git (gitweb)
 * DevCamps (better development environments)
 ** http://www.devcamps.org/ (homepage)
 ** http://www.devcamps.org/cgi-bin/gitweb (gitweb)
@@ -185,6 +188,9 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 ** http://www.drqueue.org (homepage)
 ** https://ssl.drqueue.org/redmine/projects/drqueue (development)
 ** https://ssl.drqueue.org/gitweb (gitweb)
+* Drupal
+** http://drupal.org/ (home page)
+** git://git.drupal.org/project/drupal.git (repository)
 * DTC - Domain Technologie Control
 ** http://www.gplhost.com/software-dtc.html (homepage)
 ** http://dtcsupport.gplhost.com/Git/Git (development)
@@ -195,6 +201,7 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * Dyne.org - free software foundry
 ** http://dyne.org (homepage)
 ** http://git.dyne.org (cgit web interface)
+
 * Eddt (A directory browsing plugin written in Python for the Gnome text editor, gedit.)
 ** http://eddt.mbrio.org/ (index page)
 ** git://source.mbrio.org/eddt.git (repository)
@@ -218,6 +225,7 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * Exherbo
 ** http://www.exherbo.org (project)
 ** http://git.exherbo.org (gitweb)
+
 * Fedora
 ** http://hosted.fedoraproject.org/ (some Fedora hosted projects)
 ** http://git.fedoraproject.org/ (gitweb)
@@ -263,9 +271,13 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * FreeRADIUS
 ** http://freeradius.org/(homepage)
 ** git://git.freeradius.org/freeradius-server.git radiusd (repo)
+* FreeSWITCH
+** http://www.freeswitch.org/ (home page)
+** git://git.freeswitch.org/freeswitch.git (repository)
 * Frugalware Linux
 ** http://frugalware.org/about (homepage)
 ** http://git.frugalware.org/gitweb/gitweb.cgi (gitweb)
+
 * [http://www.geda.seul.org/ gEDA]
 ** http://geda.seul.org/wiki/geda:scm (development)
 ** http://git.gpleda.org/ (gitweb)
@@ -295,7 +307,7 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * GNU Guile
 ** http://git.sv.gnu.org/gitweb/?p=guile.git (gitweb)
 ** git://git.sv.gnu.org/guile.git (repository)
-* GNU Lily<code><nowiki></nowiki></code>Pond (program to format music notation)
+* GNU LilyPond (program to format music notation)
 ** http://www.lilypond.org/web/devel/participating/ (contributing web page)
 ** http://git.sv.gnu.org/gitweb/?p=lilypond.git (gitweb)
 ** git://git.sv.gnu.org/lilypond.git (repository)
@@ -334,6 +346,7 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 ** http://www.gnome.org/~alexl/git/gvfs.git (repository)
 * Gromacs (free molecular dynamics simulation package)
 ** http://www.gromacs.org/ (homepage)
+
 * Herrie (minimalistic command line music player)
 ** http://herrie.info/ (development web page)
 ** http://g-rave.nl/gitweb?p=herrie;a=tree;f=herrie (gitweb)
@@ -341,6 +354,7 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * Hypertable (massively parallel database)
 ** http://www.hypertable.org/ (homepage)
 ** git://scm.hypertable.org/pub/repos/hypertable.git (repository)
+
 * iKaaro (A Python CMS, with object database, tracker, wiki, and calendars, based on itools)
 ** http://git.hforge.org/?p=ikaaro.git;a=summary (gitweb)
 * ikiwiki
@@ -362,13 +376,16 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 ** http://git.kernel.org/?p=linux/kernel/git/shemminger/iproute2.git (gitweb)
 * itools (A Python library for web development)
 ** http://www.hforge.org/itools (description)
+
 * jQuery (JavaScript library)
 ** http://jquery.com/
+
 * KDbg (KDE frontend to GDB)
 ** http://www.kdbg.org/
 * Koha (A library catalog system)
 ** http://www.koha.org/ (homepage)
 ** http://git.koha.org/ (gitweb)
+
 * Laconica (Openmicroblogging software)
 ** http://laconi.ca/ (homepage)
 ** http://gitorious.org/projects/laconica (gitorious)
@@ -405,6 +422,7 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * Lumiera (a non-linear video editing application)
 ** http://lumiera.org/ (project)
 ** http://www.lumiera.org/gitweb/ (gitweb)
+
 * MadMutt
 ** http://git.madism.org/?p=madmutt.git (gitweb)
 * Magit (easy-to-use and powerful Emacs mode for Git)
@@ -432,9 +450,11 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * muse.el (Emacs Muse)
 ** http://www.emacswiki.org/cgi-bin/wiki/MuseDevelopment (development)
 ** http://repo.or.cz/w/muse-el.git (gitweb)
+
 * netconf
 ** http://netconf.alioth.debian.org
 ** http://git.debian.org/?p=netconf/netconf/master.git;a=summary (gitweb)
+
 * One Laptop Per Child (OLPC)
 ** http://laptop.org
 ** http://dev.laptop.org/wiki/CentralTree (basic description)
@@ -453,6 +473,7 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * OpenXPKI (git + svn)
 ** http://www.openca.info/docs/git-howto.html (development)
 ** http://repo.or.cz/w/openxpki.git (gitweb)
+
 * PackageKit
 ** http://www.packagekit.org/pk-download.html (download)
 ** http://gitweb.freedesktop.org/?p=packagekit.git (gitweb)
@@ -494,6 +515,7 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * Puppet
 ** http://reductivelabs.com/trac/puppet/wiki/DownloadingPuppet (download)
 ** git://reductivelabs.com/puppet (repository)
+
 * Qt (Cross-platform graphic toolkit), Qt Jambi, Qt Creator
 ** [http://arstechnica.com/news.ars/post/20090114-nokia-qt-lgpl-switch-huge-win-for-cross-platform-development.html Arstechnica: Nokia Qt LGPL switch huge win for cross-platform development] (announcement)
 ** http://www.qtsoftware.com/developer/the-qt-contribution-model/
@@ -501,6 +523,7 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * Quassel IRC
 ** http://quassel-irc.org/ (homepage)
 ** git://git.quassel-irc.org/quassel.git (repository)
+
 * Ready Lisp
 ** http://www.newartisans.com/software/readylisp.html (homepage)
 ** http://git.newartisans.com/?r=ready-lisp (cgit)
@@ -515,6 +538,7 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 ** http://rubyonrails.org/
 ** http://github.com/rails/rails/tree/master
 ** git://github.com/rails/rails.git (clone URL)
+
 * Samba (provides file and print services to all manner of SMB/CIFS clients)
 ** http://wiki.samba.org/index.php/Using_Git_for_Samba_Development (insn)
 ** http://git.samba.org (gitweb)
@@ -563,6 +587,7 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * Syslinux - A suite of bootloaders for Linux
 ** http://syslinux.zytor.com/devel.php (development)
 ** http://git.kernel.org/?p=boot/syslinux/syslinux.git (gitweb)
+
 * Tagua
 ** http://tagua-project.org/wiki/Download (download)
 ** http://repo.or.cz/w/tagua.git (gitweb)
@@ -577,6 +602,7 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 ** http://www.thousandparsec.net/tp/ (home page)
 ** http://git.thousandparsec.net/gitweb/gitweb.cgi (git web)
 ** http://git.thousandparsec.net/git (repositories)
+
 * U-Boot (Universal Bootloader)
 ** http://u-boot.sourceforge.net/ (index page)
 ** http://www.denx.de/en/Documents/GitDocs (git documentation)
@@ -594,6 +620,7 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 * util-linux-ng
 ** http://userweb.kernel.org/~kzak/util-linux-ng/ (homepage)
 ** http://git.kernel.org/?p=utils/util-linux-ng/util-linux-ng.git (gitweb)
+
 * vimblog
 ** http://www.vim.org/scripts/script.php?script_id=2030 (vim scripts page)
 ** http://blog.tquadrado.com/?page_id=146 (homepage)
@@ -605,6 +632,7 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 ** http://www.vle-project.org (homepage)
 ** http://sourceforge.net/scm/?type=git&group_id=94199 (official repository)
 ** http://www.vle-project.org/gitweb (Projects associated with VLE)
+
 * WeeChat (the extensible chat client)
 ** http://www.weechat.org/ (homepage)
 ** http://git.savannah.gnu.org/gitweb/?p=weechat.git (repository)
@@ -618,6 +646,7 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 ** http://www.jukie.net/~bart/blog/tag/wmiirc-lua (homepage)
 ** http://repo.or.cz/w/wmiirc-lua.git (gitweb)
 ** git://repo.or.cz/wmiirc-lua.git (repository)
+
 * xmms2 (audio player)
 ** http://wiki.xmms2.xmms.se/index.php/Download_XMMS2 (description)
 ** http://git.xmms.se/ (repository, gitweb)
@@ -637,17 +666,12 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 ** http://www.xwax.co.uk/devel/xwax.git (repository)
 * [http://tukaani.org/xz/ XZ Utils] (formerly LZMA-Utils)
 ** git://ctrl.tukaani.org/xz.git (repository)
+
 * YUI3
 ** http://tech.groups.yahoo.com/group/yui3/message/206 (announcement)
 * Yum
 ** http://linux.duke.edu/projects/yum/scm.ptml (development)
 ** http://devel.linux.duke.edu/gitweb/ (gitweb)
-* FreeSWITCH
-** http://www.freeswitch.org/ (home page)
-** git://git.freeswitch.org/freeswitch.git (repository)
-* Drupal
-** http://drupal.org/ (home page)
-** git://git.drupal.org/project/drupal.git (repository)
 
 == Git collections ==
 
