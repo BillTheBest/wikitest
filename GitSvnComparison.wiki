@@ -5,6 +5,23 @@
 ----
 Although this page is hosted on a Git-specific Wiki it tries to provide a fair and unbiased comparison of [http://git-scm.com/ Git] and [http://subversion.tigris.org/ Subversion] to help prospective users of both tools better evaluate their choices.  This page only describes base Subversion and does not discuss the benefits and drawbacks to using [http://svk.elixus.org/ SVK], a distributed wrapper around Subversion.
 
+=A summary of differences=
+* Git is incredibly fast compared with svn
+* Git requires you to download the entire repo with history
+* Compared with svn, the repo size is much smaller, for the mozilla project 30x smaller
+* It's been designed to be fully distributed from the start - each developer has full local control 
+* Branches are simpler and less resource heavy
+* Branches carry their entire history
+* Merging does not require you to remember the revision you merged from
+* Better auditing of branch and merge events
+* The repo file formats are simple so repair is easy and corruption is rare.
+* Git's file format is very good at compressing data, despite
+** it's a very simple format.  The Mozilla project's CVS repository is about 3 GB; it's about 12 GB in Subversion's fsfs format. In Git it's around 300 MB.
+* Backing up svn repos centrally is potentially simpler - since you can choose to distributed folders within a repo in git
+* Git automatically creates backups, as each clone is a copy
+* UI maturity is currently better for svn
+* Walking through versions is simpler in svn as it uses an index (1,2,3,..) Git uses Sha1 hashes. You can see backwards from the current revision but not forward.
+
 = Git's Major Features Over Subversion =
 
 == Distributed Nature ==
@@ -77,7 +94,6 @@ Subversion can be easily configured to automatically convert line endings to CRL
 
 Whilst Git versions prior 1.5.1 never convert files and always assume that every file is opaque and should not be modified. Git 1.5.1 and onwards make [[http://www.kernel.org/pub/software/scm/git/docs/gitattributes.html line ending conversion configurable]]. Git's advantage over Subversion is that you do not have to manually specify which files this conversion should be applied to, it happens automatically (hence autocrlf).
 
-----
 = Subversion's Major Features Over Git =
 Subversion has some notable features that Git currently doesn't have or will never have.
 
