@@ -41,5 +41,3 @@ There even exists a <code><nowiki>git-instaweb</nowiki></code> script to setup g
 [[Category:Tools]] [[Category:WebInterfaces]]
 
 __NOTOC__
-
-[http://www.thesiswritingservice.com/ thesis writing service]
