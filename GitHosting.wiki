@@ -40,7 +40,7 @@ Those are public Git hosting sites where any project can be hosted, perhaps with
 * [http://xp-dev.com XP-Dev.com] Provides Git hosting along with Trac project management. Integrates with various other bug/project tracking tools like Fogbugz, Lighthouse & Basecamp. Includes double backups: real-time and nightly offsite backups.
 * [http://trac.usla.org.ar USLA-Tracs] Users Free Software Argentina(USLA) allows the projects to be self-managed, the projects can be created vía web, and allows create a test projects for testing the service. Provides Git hosting with Trac project management.
 * [http://beanstalkapp.com/?ad=git-wiki Beanstalk] A free private Git and Subversion hosting. Integrates with Basecamp, Lighthouse, Zendesk, Harvest, Twitter, Campfire, Freckle, Fogbugz, supports Web hooks. Can deploy your files on each commit to FTP/SFTP server. Has ability to browse source, history; add comments on commits. 
-* [http://www.akirisol.com Akiri Solutions] Akiri Solutions provides an all-in-one virtual appliance for creating git repositories and Trac projects.  The virtual appliance has the control of a do-it-yourself solution and accessibility of the hosted one.
+* [http://www.akirisol.com Akiri Solutions] Akiri Solutions provides an all-in-one virtual appliance for creating git repositories and Trac projects.  The virtual appliance has the control of a do-it-yourself system and accessibility of a hosted solution.
 
 
 === Project specific Git hosting sites ===
