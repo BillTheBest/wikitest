@@ -1264,14 +1264,14 @@ The Version 3 scripts are part of git contrib/ as of 2010-04-02.
 * [http://bitbucketlabs.net/flashbake/ Flashbake] is something between continuous, automated backup system and version control for writers. It is written in Python and uses Git for storage. <BR>''See also:'' [http://www.boingboing.net/2009/02/13/flashbake-free-versi.html Flashbake: Free version-control for writers using git] by Cory Doctorow on BoingBoing.
 
 == Other tools ==
-=== FTP ===
+<!-- FTP -->
 ==== git-ftp.sh ====
 * [http://github.com/resmo/git-ftp git-ftp.sh] by René Moser [http://www.renemoser.net/contact/] is a simple shell script for doing FTP the Git way. Use git-ftp.sh to upload only the Git tracked files to a FTP server, which have changed since the last upload. This saves time and bandwith. Even if you play with different branches, git-ftp.sh knows which files are different. No ordinary FTP client can do that.
 
 ==== git-ftp ====
 * ''git-ftp'' ([http://github.com/ezyang/git-ftp]) by Edward Z. Yang is a simple script written in python for uploading files in a Git repository via FTP, only transferring new files and removing old files.
 
-=== Exporting history ===
+<!-- Exporting history -->
 ==== git-svn-replay ====
 * [http://search.cpan.org/perldoc?git-svn-replay http://search.cpan.org/perldoc?git-svn-replay] by Paul Miller is a Perl script that replays git commits into an svn repo for the purpose of showing changes in packages like Trac, which only understand svn natively, without the need for special plugins. It is probably not useful for anything besides listing changes for packages like Trac. GSR differs from git-svn, which is used for bi-directional commits. GSR works hard to preserve commit times and re-formats commit messages in a way that's nicer for Trac to display.
 
@@ -1285,14 +1285,14 @@ The Version 3 scripts are part of git contrib/ as of 2010-04-02.
 ==== git status-report ====
 * <code>git status-report</code> ([http://weblog.masukomi.org/2010/07/16/git-status-report announcement], [http://github.com/masukomi/git_accessories/blob/master/git-status-report github]) by Kate Rhodes (''masukomi'') is a script (in Ruby) that outputs a bullet list of all your commits for the past ''n'' days, or the commits of one of your fellow contributors from any number of branches and repos.  Useful to put together a status report for boss.
 
-=== Tab completion ===
+<!-- Tab completion -->
 ==== git-completion.bash (in `contrib/completion`) ====
 * Bash tab-completion shipped with core Git. Inspired by and superceeds the tab-completion provided by gitcompletion (see below). Completion support is provided for almost all commands, including completion of local and remote reference names and long command line options.
 
 ==== gitcompletion and generate-completions ====
 * [http://www.hawaga.org.uk/ben/tech/gitcompletion/ gitcompletion] ([http://www.hawaga.org.uk/gitcompletion.git/ git repository]) by Ben Clifford is bash tab-completion for Git, gitk, Cogito (''cg'') and StGIT (''stg''). Cogito has the cogito bits of the above already included. There is also `generate-completions.sh` by Johannes Schindelin, available on git mailing list archive [http://marc.theaimsgroup.com/?l=git&m=114515313911717||FYI  generated completions]. <span style="font-size: smaller">Yet another StGIT completions by Paolo Giarrusso, aka Blaisorblade are available at [http://marc.theaimsgroup.com/?l=git&m=113025114026388 Re: latest stg/git commandline completions code]</span>.
 
-=== Interrogation commands / data mining ===
+<!-- Interrogation commands / data mining -->
 ==== Gitdm ====
 * ''Gitdm'' (the "git data miner") ([http://repo.or.cz/w/git-dm.git gitweb], mirror) is the tool that Greg KH and Jonathan Corbet have used to crank out statistics on where kernel patches come from at LWM ([http://lwn.net/images/gitdm/gitdm-config-2.6.26.tar.bz2 configuration files], tar.bz2). Public repository for gitdm can be found at: git://git.lwn.net/gitdm.git
 
@@ -1308,7 +1308,7 @@ The Version 3 scripts are part of git contrib/ as of 2010-04-02.
 ==== gitcharts ====
 * ''gitcharts'' ([http://github.com/dabroz/gitcharts github]) by Tomasz Dąbrowski (dabroz) is a small C# app that generates a graph for lines of code in a given git repository over time, and supports multiple projects in one repository.
 
-=== History manipulation ===
+<!-- History manipulation -->
 ==== git-split ====
 * [http://people.freedesktop.org/~jamey/git-split git-split] by Jamey Sharp and Josh Triplett is a tool to split the history of a git repository by subdirectories and ranges, for example to break single monolithic repository imported from foreign SCM into smaller modules, easier to manage. Written in Python.
 * The core command [http://www.kernel.org/pub/software/scm/git/docs/git-filter-branch.html git filter-branch] can be used to the same effect - examples here: http://log.emmanuelebassi.net/archives/2007/09/when-the-levee-breaks/ .
@@ -1320,14 +1320,14 @@ The Version 3 scripts are part of git contrib/ as of 2010-04-02.
 * ''git_fast_filter'' ([http://gitorious.org/projects/git_fast_filter gitorious]) by Elijah Newren assists with quickly rewriting the history of a repository by making it easy to write scripts whose purpose is to serve as safe filters between [http://www.kernel.org/pub/software/scm/git/docs/git-fast-export.html fast-export] and [http://www.kernel.org/pub/software/scm/git/docs/git-fast-import.html fast-import]. git_fast_filter comes with example programs,and a basic test-suite. <BR>''See'' [http://permalink.gmane.org/gmane.comp.version-control.git/116028 announcement on git mailing list] and the following thread.
 * ''git-rewrite-commits'' by Sven Verdoolaege is an alternate interface to [http://www.kernel.org/pub/software/scm/git/docs/git-filter-branch.html git-filter-branch]-like functionality (more similar to cg-admin-rewritehist from Cogito). It is available from git mailing list archives fro [http://thread.gmane.org/gmane.comp.version-control.git/52323| PATCH 0/6| Add git-rewrite-commits v2] thread.
 
-=== Other ===
+<!-- Other -->
 ==== gitco ====
 * [http://blog.josefsson.org/?p=8 gitco] by Simon Josefsson is a tiny shell script to remove unversioned files from git directories, similar to [http://www.red-bean.com/cvsutils/ cvsutils] 'cvsco' or subversion's svn-clean.  It basically calls the standard [http://www.kernel.org/pub/software/scm/git/docs/git-clean.html git clean] and [http://www.kernel.org/pub/software/scm/git/docs/git-reset.html git reset --hard] commands.
 
 ==== setuptools_git ====
 * [http://ygingras.net/b/tag/setuptools_git setuptools_git] (formerly gitlsfiles) is Git plugin for [http://peak.telecommunity.com/DevCenter/setuptools Setuptools], by Yannick Gingras (Python). Setuptools is a collection of enhancements to the Python distutils that allow you to more easily build and distribute Python packages, especially ones that have dependencies on other packages.
 
-=== Packaging and release management ===
+<!-- Packaging and release management -->
 ==== git-buildpackage ====
 * [http://packages.debian.org/git-buildpackage git-buildpackage] is a tool for managing the debian packaging of an application in git. [http://honk.sigxcpu.org/projects/git-buildpackage/manual-html/gbp.html Documentation]. There are other solutions and suggestions for debian packaging and git, for example see [http://wiki.debian.org/GitSrc GitSrc].
 
@@ -1347,7 +1347,7 @@ The Version 3 scripts are part of git contrib/ as of 2010-04-02.
 ==== fedora-packager ====
 * [https://fedorahosted.org/fedora-packager fedora-packager] is a collection of tools for [http://www.fedoraroject.org Fedora] developers and includes fedpkg which is specifically for managing Fedora packages within Fedora's git based package repository.  Fedpkg thinly wraps common git commands such as clone, commit, pull/push, etc...
 
-=== Multiple repositories/submodules ===
+<!-- Multiple repositories/submodules -->
 ==== metagit ====
 * [http://github.com/stettberger/metagit metagit] is a tool for defining sets of git (or whatever scm) repositories and perform actions like clone/pull/push on them. It is possible to list repositories on a remote site, e.g. find all repositories in a directory via ssh. The original annoucement is [http://article.gmane.org/gmane.comp.version-control.git/158452 here]
 
@@ -1357,7 +1357,7 @@ The Version 3 scripts are part of git contrib/ as of 2010-04-02.
 ==== gitslave ====
 * [http://gitslave.sourceforge.net gitslave] by Seth Robertson creates a group of related repositories all of which are concurrently developed on and on which all git operations should operate, so when you branch, each repository in the project is branched in turn.  Similarly when you commit, push, pull, merge, tag, checkout, status, log, etc; each git command will run on the superproject and all slave repositories in turn.
 
-=== Testing/Automatic building/git bisect ===
+<!-- Testing/Automatic building/git bisect -->
 ==== gitbuilder ====
 * gitbuilder ([http://github.com/apenwarr/gitbuilder/ github], [http://versabanq.com/demo/gitbuild/ demo]) by Avery Pennarun is a set of relatively simple scripts for automatically building git-hosted project, optionally running unit tests, and reporting pass/fail results. In case of failures, it automatically uses [http://www.kernel.org/pub/software/scm/git/docs/git-bisect.html git-bisect(1)] to try to track down the first commit that started failing. It's also smart about branches; it knows how to build each commit only once, no matter how many branches include it, thus greatly simplifying future bisections. <BR>''See also:'' [http://permalink.gmane.org/gmane.comp.version-control.git/94449 Announce: gitbuilder, an autobuilder for git-based projects] post on git mailing list.
 
@@ -1367,15 +1367,14 @@ The Version 3 scripts are part of git contrib/ as of 2010-04-02.
 ==== Parabuild ====
 * [http://www.viewtier.com/products/parabuild/index.htm Parabuild] is a Continuous Integration and Release Management system with [http://www.viewtier.com/products/parabuild/git_continuous_integration_release_management.htm native support for Git].
 
-=== By author ===
-<!-- please split these up by function -->
+<!-- By author; please split these up by function -->
 ==== Nico Schottelius scripts ====
 * Some of [http://unix.schottelius.org/scripts/ Nico Schottelius (unix|linux) scripts] deal with Git: `db-dump+git.sh`, `update-gitweb.sh`, `update-git+cogito.sh`.
 
 ==== William Morgan git tools ====
 * [http://git-wt-commit.rubyforge.org/ William's miscellaneous git tools] include <code><nowiki>git-wtf</nowiki></code>, a tool for working with feature branches (and its precursor <code><nowiki>git-show-merges</nowiki></code>), <code><nowiki>git-publish-branch</nowiki></code> to ease the task of "publishing" a branch (mostly superseded by <code><nowiki>git push -u <origin> <branch></nowiki></code>), and <code><nowiki>git-rank-contributors</nowiki></code> which ranks all the contributors by the size of their diffs (as opposed to <code><nowiki>git shortlog --numbered --summary</nowiki></code> which counts number of commits). By William Morgan and Jeff Balogh ''(Ruby)''
 
-=== Centralized workflow ===
+<!-- Centralized workflow -->
 ==== git-central ====
 * ''git-central'' ([http://github.com/stephenh/git-central github]) by Stephen Haberman is a small collections of hooks, scripts, and practices (documentation) for use with a centralized (non-distributed/corporate) git repo. Those include: svn-like revision numbers, combined diff-enabled commit emails, Hudson hooks, Trac hooks, branch locking, etc.
 
