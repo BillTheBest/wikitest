@@ -1321,6 +1321,9 @@ The Version 3 scripts are part of git contrib/ as of 2010-04-02.
 * ''git-rewrite-commits'' by Sven Verdoolaege is an alternate interface to [http://www.kernel.org/pub/software/scm/git/docs/git-filter-branch.html git-filter-branch]-like functionality (more similar to cg-admin-rewritehist from Cogito). It is available from git mailing list archives fro [http://thread.gmane.org/gmane.comp.version-control.git/52323| PATCH 0/6| Add git-rewrite-commits v2] thread.
 
 <!-- Other -->
+==== Timetrack ====
+* [http://wadobo.com/trac/dtt git timetrack] is a new git command that allows management of project time dedication by attaching a time-spent note per commit with minimal extra effort for the developers, providing then advanced querying of the dedicated time.
+
 ==== gitco ====
 * [http://blog.josefsson.org/?p=8 gitco] by Simon Josefsson is a tiny shell script to remove unversioned files from git directories, similar to [http://www.red-bean.com/cvsutils/ cvsutils] 'cvsco' or subversion's svn-clean.  It basically calls the standard [http://www.kernel.org/pub/software/scm/git/docs/git-clean.html git clean] and [http://www.kernel.org/pub/software/scm/git/docs/git-reset.html git reset --hard] commands.
 
