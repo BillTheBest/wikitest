@@ -459,6 +459,10 @@ List does not currently include [[Git]] or git-related tools; see [[InterfacesFr
 ** http://laptop.org
 ** http://dev.laptop.org/wiki/CentralTree (basic description)
 ** http://dev.laptop.org/browser (gitweb)
+* OpenAFS (distributed filesystem)
+** http://openafs.org (home)
+** http://git.openafs.org (repository)
+** http://gerrit.openafs.org (development)
 * Openbox (A standards compliant light-weight extensible window manager)
 ** http://icculus.org/openbox
 * OpenGrade (software for teachers to keep track of grades)
