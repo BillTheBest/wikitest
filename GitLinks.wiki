@@ -150,8 +150,8 @@ Below there are blogs by gitters:
 * [http://google-opensource.blogspot.com/2008/07/getting-giddy-with-git.html Getting Giddy with Git] post on [http://google-opensource.blogspot.com Google Code: Open Source at Google] blog: GSoC podcast 18: Git, Shawn Pearce and Johannes Schindelin with Leslie Hawthorn.
 * [http://www.youtube.com/watch?v=j45cs5_nY2k Tech Talk: Contributing with Git] by Johannes Schindelin at [[GitTogether]] 2008 on YouTube.
 * [http://eagain.net/blog/2008/08/11/ep-talk-videos.html Version Control for Du^H^HDevelopers] given by Tommi Virtanen at EuroPython2008 in Vilnius, Lithuania.
-* [http://perl.plover.com/yak/git-is-awesome/ Linus Torvalds' Greatest Invention] by Mark Dominus for the Philadelphia Linux Users' Group
-* [http://www.youtube.com/watch?v=49OYaF_v7EA&p=1242F05D3EA83AB1 Tech Talk: Git Bisect and Testing] at [http://www.gtac.biz/ GTAC 2010]
+* [http://perl.plover.com/yak/git-is-awesome/ Linus Torvalds' Greatest Invention] by Mark Dominus for the Philadelphia Linux Users' Group.
+* [http://www.youtube.com/watch?v=49OYaF_v7EA&p=1242F05D3EA83AB1 Tech Talk: Git Bisect and Testing] by Christian Couder at [http://www.gtac.biz/ GTAC 2010] ([https://docs.google.com/leaf?id=0B4fT-BFGDnQkMDMxYTBjNTktYzQ0NC00NDViLWE0MzAtMmNmM2YyOTA5Y2Fi&sort=name&layout=list&pid=0B4fT-BFGDnQkYzVlMWY4M2EtYjRkYi00MDQ5LTg5ODUtNGQ4ZWU5N2NlMTRl&cindex=6 slides]).
 
 = Other version control software =
 
