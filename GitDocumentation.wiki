@@ -73,7 +73,14 @@ Each git command is documented in its own man page. If the man pages are install
 
 <pre><nowiki>
 $ man git-log</nowiki></pre>
-will give you the man page for the git log command. [http://www.kernel.org/pub/software/scm/git/docs/git.html git(7)] serves as an overview of git commands and man pages.
+will give you the man page for the git log command.
+
+Or you can use (especially on systems where there is no man command):
+<pre><nowiki>
+$ git help log</nowiki></pre>
+if both git and the man pages are installed on your system.
+
+[http://www.kernel.org/pub/software/scm/git/docs/git.html git(7)] serves as an overview of git commands and man pages.
 
 Online versions of the [[Git]] man pages corresponding to the latest development version can be found at:
 
