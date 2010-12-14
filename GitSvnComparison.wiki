@@ -59,8 +59,6 @@ This is different to Subversion's handling of branches.  As of Subversion 1.5:
 
 * Automatically tracks the project revision the branch started from.
 ** Like Git, Subversion remembers where a branch originated.
-* Incomplete merge event record:
-** All changes made on the branch appear to be made by the merging user - not by the code author
 
 * It's impossible to see only merge related changes.
 ** If the merging user had to modify 12 lines of code to complete the merge successfully you can't tell what those 12 lines were, or how those 12 lines differ from the versions on the branches being merged. 'I grant you this point - however, this can be overcome with standards' 
