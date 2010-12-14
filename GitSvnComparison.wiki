@@ -140,6 +140,8 @@ The benefits of Git's branch and merge handling that are mentioned above come wi
 
 As demonstrated by the large number of large projects that use Git for version control, none of these operations are at all essential; however, it's certainly believable that there are use cases where Git's restrictions are an actual impediment. More seriously, these restrictions mean that switching to CVS to Subversion may result in a loss of fidelity in terms of the history of the project.
 
+But it might mean that extra freedom in creating revisions and tags in Subversion brings nothing but a possibility of mishandling and confusion.
+
 ----
 
 = The Original Email =
