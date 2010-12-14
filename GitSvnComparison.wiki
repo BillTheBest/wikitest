@@ -132,7 +132,16 @@ Secondly, SVN's revision numbers are predictable. If the current commit is 435 t
 
 Git provides shorthand syntax to partially compensate for this by allowing you to add any number of ^ after a revision to indicate how far back to go. e8fa9c^^^..e8fa9c, for instance, would show the history for e8fa9c and it's 3 parent revisions. (However, it does not provide any shorthand syntax for going ''forward'' in time.)
 
+== Ability to Represent Richer Histories ==
+
+The benefits of Git's branch and merge handling that are mentioned above come with a downside that can occasionally surface: they slightly restrict your freedom. For instance, it is not possible to commit to two branches at once with Git, but it is in Subversion. There are other restrictions as well; [[http://softwareswirl.blogspot.com/2009/08/git-mercurial-and-bazaarsimplicity.html]] has a brief, unfortunately not-terribly-informative discussion of some of the issues that the team working on cvs2git ran into in terms of Git being less flexible than CVS and Subversion.
+
+[[http://cvs2svn.tigris.org/cvs2git.html]] has another brief discussion, including this quote: "CVS allows a branch or tag to be created from arbitrary combinations of source revisions from multiple source branches. It even allows file revisions that were never contemporaneous to be added to a single branch/tag. Git, on the other hand, only allows the full source tree, as it existed at some instant in the history, to be branched or tagged as a unit. Moreover, the ancestry of a git revision makes implications about the contents of that revision. This difference means that it is fundamentally impossible to represent an arbitrary CVS history in a git repository 100% faithfully."
+
+As demonstrated by the large number of large projects that use Git for version control, none of these operations are at all essential; however, it's certainly believable that there are use cases where Git's restrictions are an actual impediment. More seriously, these restrictions mean that switching to CVS to Subversion may result in a loss of fidelity in terms of the history of the project.
+
 ----
+
 = The Original Email =
 ''Provided as reference, until this page is cleaned up.''
 
