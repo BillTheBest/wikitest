@@ -6,21 +6,19 @@
 Although this page is hosted on a Git-specific Wiki it tries to provide a fair and unbiased comparison of [http://git-scm.com/ Git] and [http://subversion.tigris.org/ Subversion] to help prospective users of both tools better evaluate their choices.  This page only describes base Subversion and does not discuss the benefits and drawbacks to using [http://svk.elixus.org/ SVK], a distributed wrapper around Subversion.
 
 =A summary of differences=
-* Git is incredibly fast compared with svn
-* Git requires you to download the entire repo with history
-* Compared with svn, the repo size is much smaller, for the mozilla project 30x smaller
-* It's been designed to be fully distributed from the start - each developer has full local control 
-* Branches are simpler and less resource heavy
-* Branches carry their entire history
-* Merging does not require you to remember the revision you merged from (this benefit was obviated with the release of Subversion 1.5)
-* Better auditing of branch and merge events
-* The repo file formats are simple so repair is easy and corruption is rare.
-* Git's file format is very good at compressing data, despite
-** it's a very simple format.  The Mozilla project's CVS repository is about 3 GB; it's about 12 GB in Subversion's fsfs format. In Git it's around 300 MB.
-* Backing up svn repos centrally is potentially simpler - since you can choose to distributed folders within a repo in git
-* Git automatically creates backups, as each clone is a copy
-* UI maturity is currently better for svn
-* Walking through versions is simpler in svn as it uses an index (1,2,3,..) Git uses Sha1 hashes. You can see backwards from the current revision but not forward.
+* Git is much faster than Subversion
+* Subversion allows you to check out just a subtree of a repository; Git requires you to clone the entire repository (including history)
+* Git's repositories are much smaller than Subversions (for the Mozilla project, 30x smaller)
+* Git was designed to be fully distributed from the start, allowing each developer to have full local control 
+* Git branches are simpler and less resource heavy than Subversion's
+* Git branches carry their entire history
+* Merging in Git does not require you to remember the revision you merged from (this benefit was obviated with the release of Subversion 1.5)
+* Git provides better auditing of branch and merge events
+* Git's repo file formats are simple, so repair is easy and corruption is rare.
+* Backing up Subversion repositories centrally is potentially simpler - since you can choose to distributed folders within a repo in git
+* Git repository clones act as full repository backups
+* Subversion's UI is more mature than Git's
+* Walking through versions is simpler in Subversion because it uses sequential revision numbers (1,2,3,..); Git uses unpredictable SHA-1 hashes. Walking backwards in Git is easy using the "^" syntax, but there is no easy way to walk forward.
 
 = Git's Major Features Over Subversion =
 
