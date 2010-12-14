@@ -12,7 +12,7 @@ Although this page is hosted on a Git-specific Wiki it tries to provide a fair a
 * It's been designed to be fully distributed from the start - each developer has full local control 
 * Branches are simpler and less resource heavy
 * Branches carry their entire history
-* Merging does not require you to remember the revision you merged from
+* Merging does not require you to remember the revision you merged from (this benefit was obviated with the release of Subversion 1.5)
 * Better auditing of branch and merge events
 * The repo file formats are simple so repair is easy and corruption is rare.
 * Git's file format is very good at compressing data, despite
