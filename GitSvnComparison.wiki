@@ -138,9 +138,9 @@ The benefits of Git's branch and merge handling that are mentioned above come wi
 
 [[http://cvs2svn.tigris.org/cvs2git.html]] has another brief discussion, including this quote: "CVS allows a branch or tag to be created from arbitrary combinations of source revisions from multiple source branches. It even allows file revisions that were never contemporaneous to be added to a single branch/tag. Git, on the other hand, only allows the full source tree, as it existed at some instant in the history, to be branched or tagged as a unit. Moreover, the ancestry of a git revision makes implications about the contents of that revision. This difference means that it is fundamentally impossible to represent an arbitrary CVS history in a git repository 100% faithfully."
 
-As demonstrated by the large number of large projects that use Git for version control, none of these operations are at all essential; however, it's certainly believable that there are use cases where Git's restrictions are an actual impediment. More seriously, these restrictions mean that switching to CVS to Subversion may result in a loss of fidelity in terms of the history of the project.
+As demonstrated by the large number of large projects that use Git for version control, none of these operations are at all essential; however, it's certainly believable that there are use cases where Git's restrictions are an actual impediment. Perhaps more seriously, these restrictions mean that switching from CVS or Subversion to Git may result in a loss of fidelity in terms of the history of the project.
 
-But it might mean that extra freedom in creating revisions and tags in Subversion brings nothing but a possibility of mishandling and confusion.
+However, in most cases the extra freedom in creating revisions and tags in Subversion may bring nothing but a possibility of mishandling and confusion.
 
 ----
 
