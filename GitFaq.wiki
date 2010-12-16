@@ -1045,6 +1045,40 @@ You can get the raw article by appending <code>/raw</code> to a message URL (rea
 wget 'http://article.gmane.org/gmane.comp.version-control.git/149176/raw' -O - | git am -3
 </pre>
 
+== How do I clone a repository with all remotely tracked branches? ==
+
+Suppose you have a repository configured with several remotes: ''origin'' (the default), ''foreign1'', ''foreign2''. You want to do a clone
+but do not want to set up all foreigns again and still be able to checkout any branch from ''foreign1'' or ''foreign2'' (you have ''origin'' for
+free).
+
+There's a git-clone option ''--mirror'' which sets up all remotely tracked branches. So far this is a fundamental knowledge obtained from frequent
+documentation readings *cough*.  But, ''--mirror'' also implies ''--bare'' option, ie. the clone will will not be created as a working copy
+and you cannot checkout the branches. Here's how to fix it:
+
+<pre><nowiki>
+$ git clone --mirror original-repo.git /path/cloned-directory/.git          # (1)
+$ cd /path/cloned-directory
+$ git config --bool core.bare false                                         # (2)
+$ git checkout anybranch
+</nowiki></pre>
+
+(1): Please note that the clone target directory name mimics a working copy of a repository!
+
+(2): Bare repository is turned into working copy as you can see in other tips on this page.
+
+You can check all available branches:
+
+<pre><nowiki>
+$ git branch -a
+anybranch
+origin/HEAD
+origin/master
+origin/anybranch
+foreign1/branch1
+foreign1/branch2
+foreign2/branch2
+</nowiki></pre>
+
 = Error diagnostic =
 
 == {{Gitlink|remote-hangup}} Git push fails with "fatal: The remote end hung up unexpectedly"?  ==
