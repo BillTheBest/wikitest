@@ -903,7 +903,7 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 * Install is just "git clone URI", "git submodule init", "git submodule update --recursive". In it's simplest form, the server is set-up and started just by double-clicking the executable. As of Nov 25, 2010, is tested to work equally well on Linux and Windows. To run, requires only two things: Python and command-line git executable.
 
 == Access control / Project hosting ==
-=== gitosis ===
+=== gitosis (unmaintained ?) ===
 * ''gitosis'' ([http://eagain.net/gitweb/?p=gitosis.git gitweb], [http://eagain.net/gitweb/?p=gitosis.git;a=blob;f=README.rst;hb=HEAD README] by Tommi 'Tv' Virtanen is a tool to manage git repositories, provide access to them over SSH, with tight access control and not needing shell accounts. Described in [http://eagain.net/blog/2007/10/12/snakepit-and-gitosis.html Tv's cobweb: Snakepit and gitosis, things I've been working on] on author's blog and [http://scie.nti.st/2007/11/14/hosting-git-repositories-the-easy-and-secure-way Hosting Git repositories, The Easy (and Secure) Way] post on [http://scie.nti.st scie.nti.st], Garry Dolley blog. ''(Python, requires setuptools)''
 
 === SCuMD ===
