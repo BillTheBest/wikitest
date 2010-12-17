@@ -939,6 +939,7 @@ A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png gi
 
 === Ecilpse plugin (EGit) ===
 * [http://www.eclipse.org/egit/ EGit] a plugin for [http://www.eclipse.org/ Eclipse] IDE.
+* [http://www.javaforge.com/project/EGIT EGit for Mylyn] integrates Git, [http://www.eclipse.org/ Eclipse] and [http://www.eclipse.org/mylyn/ Mylyn].
 
 === JetBrains IDEs: IntelliJ IDEA 9.0 / PyCharm 1.0 / RubyMine / etc. ===
 * As of October 2010, many (all?) [http://www.jetbrains.com/ JetBrains] IDE products apparently have built-in support for GIT without any plugin downloads required.  Product versions with GIT support include:
