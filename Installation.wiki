@@ -12,12 +12,12 @@ The ''main'' place to get Git is at: http://www.kernel.org/pub/software/scm/git/
 
 The latest install directions are included with git under INSTALL and the most current version online is [http://git.kernel.org/?p=git/git.git;a=blob_plain;f=INSTALL;hb=master here].
 
-== Windows Systems ==
+== Sistemas Windows  ==
 Git can be obtained by using the [http://www.cygwin.com/ Cygwin] system and installing Git from within Cygwin. More info at [[CygwinBinaryInstall]]. Another convenient choice is [http://code.google.com/p/msysgit/ msysGit]. If you would like to help develop Git on windows you need to [http://code.google.com/p/msysgit/ install the Git Development Environment for Windows]. Running Git on Windows is working already, but it is recommended only to users who can fix issues themselves, because there are not enough developers in that project yet to take care of all issues.
 
 If you have the main development team on linux/unix, and peripheral developers or translators on Windows, consider using <code><nowiki>git-cvsserver</nowiki></code> to give those users read or read/write access to the GIT tree via the CVS protocol. Committers using <code><nowiki>git-cvsserver</nowiki></code> have some limits: they cannot branch, tag or merge. On the other hand, git-cvsserver works well with Eclipse, TortoiseCVS and other easy-to-use CVS clients. You could also set up a SVN repository and use git-svn to achieve the same thing as using CVS.
 
-== Others ==
+== Otros ==
 * [http://www.eclipse.org/egit/ EclipseIDE-based GIT] client, based on a pure [http://www.eclipse.org/jgit Java implementation] of GIT's internals.
 * Windows Explorer extension ([[MSysGit:GitCheetah|Git-Cheetah]])
 * Git Extensions for Windows and Visual Studio ([http://sourceforge.net/projects/gitextensions/ http://sourceforge.net/projects/gitextensions/])
@@ -33,7 +33,7 @@ Another option for Git installation for users running OS X 10.5 or higher on an 
 == Debian / Ubuntu ==
 If you want to build deb packages from upstream Git sources yourself (because the official debs are too old or you want to try some patch, whatever), you could try: [http://repo.or.cz/w/gitcj-debian.git http://repo.or.cz/w/gitcj-debian.git]
 
-== Getting and installing documentation ==
+== Obteniendo e Instalando la Documentación ==
 You can find all the plain text documentation in the git source tree's [http://www.kernel.org/git/?p=git/git.git;a=tree;f=Documentation Documentation/] directory.
 
 In order to build the HTML version of the documentation you need to have [[AsciiDoc]] version 7.0 or greater installed. Man pages also require that xmlto is installed.
