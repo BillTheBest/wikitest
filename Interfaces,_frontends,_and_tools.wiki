@@ -134,6 +134,11 @@ __TOC__
 
 A screenshot may be found at [http://jengelh.medozas.de/images/git-forest.png git-forest.png]. Written in Perl by Jan Engelhardt.<BR>''See also:'' [http://permalink.gmane.org/gmane.comp.version-control.git/76404 text-based tree visualizer] announcement on git mailing list.
 
+=== GitJungle ===
+
+* ''GitJungle'' ([http://www.plasticscm.com/labs/gitjungle.aspx]) is a graphical branch explorer displaying branch history horizontally instead of vertically as most git graphical tools do. It shows merge links, commits, tags and branches and displays diffs when clicking on a specific commit. It runs on Windows, MacOS X and Linux. It is free and requires Mono to run.
+
+
 === Qct ===
 * [http://qct.sourceforge.net/ Qct] ([http://bitbucket.org/sborho/qct/overview/ hg repo]) by Steve Borho is Qt/PyQt based GUI commit tool, meant to be SCM and platform agnostic. Supports Mercurial (`hg`), Bazaar (`bzr`), Cogito (but not Git directly atm), Subversion (`svn`), Monotone (`mnt`) and CVS. The [http://hg.borho.org/qct/rev/5c5bdab35c08 README] mentions gct (also on this page), as an alternative supporting plain git.
 
