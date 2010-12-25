@@ -258,8 +258,5 @@ There is place for generic, non SCM specific, links
 * [http://stackhopr.com/blog/2009/git-commit git poetry]
 * [http://students.ceid.upatras.gr/~sxanth/pyvm-2.0/ pyvm toolchain] - contains a minimal implementation of git (1500 lines) in a python-like dynamic language.
 * [http://gitignore.com/ gitignore.com] - .gitignore examples for different frameworks/projects.
-* [http://imagefitness.net/hydroxatone-real-review/ '''Hydroxatone''']
-* [http://radialabsreviews.net/ '''Radialabs''']
-* [http://idollashreviews.org/ '''Idol Lash''']
 
 __NOTOC__
