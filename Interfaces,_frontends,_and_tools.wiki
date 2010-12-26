@@ -124,7 +124,7 @@ __TOC__
 * QGit ([http://digilander.libero.it/mcostalba/ homepage]) is a Qt GUI for browsing the history of Git repositories. It also acts as a commit tool, like [[#hgct|(h)gct]] and as a graphical interface to [[#StGIT|StGIT]]. There is an experimental version of QGit ported under Qt4.2 libraries, available at http://repo.or.cz/w/qgit4.git. This means that it could be compiled and run as a Windows native application. As of November '09, no developer activity for nearly 6 months.
 
 === Giggle ===
-* Giggle ([http://live.gnome.org/giggle homepage]) is a graphical frontend for browsing history of Git repositories (think of gitk on GTK+). Result of a Hackathon 2007, later developed by Imendio's Carlos Garnacho and Sven Herzberg. Currently maintained by Mathias Hasselmann. Available from http://github.com/hasselmm/giggle/. As of November '09, no developer activity for more than 6 months.
+* Giggle ([http://live.gnome.org/giggle homepage]) is a graphical frontend for browsing history of Git repositories (think of gitk on GTK+). Result of a Hackathon 2007, later developed by Imendio's Carlos Garnacho and Sven Herzberg and then by Mathias Hasselmann. Currently maintained by the GNOME community. Available from http://git.gnome.org/browse/giggle/
 
 === gitview (in `contrib/`) ===
 * [[GitView]] is a GTK based repository browser for git written in Python by Aneesh Kumar K.V. It can be found in `contrib/` directory of Git source tree.
