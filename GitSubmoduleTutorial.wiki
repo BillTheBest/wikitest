@@ -142,6 +142,10 @@ Now use "git submodule update" to clone the repositories and check out the commi
 
 <pre><nowiki>
 $ git submodule update
+</nowiki></pre>
+The submodule directories have been filled:
+
+<pre><nowiki>
 $ cd a
 $ ls -a
 .  ..  .git  a.txt
