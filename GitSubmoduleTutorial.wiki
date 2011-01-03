@@ -87,17 +87,17 @@ $ git branch
 It looks just like a regular checkout:
 
 <pre><nowiki>
+$ cd ..
 $ cat .git/config
         ...
         [remote "origin"]
-        url = /home/moses/subtut/public/a.git
+        url = /home/moses/subtut/public/super.git
         fetch = +refs/heads/*:refs/remotes/origin/*
         ...
 </nowiki></pre>
 Commit the superproject and publish it:
 
 <pre><nowiki>
-$ cd ..
 $ git commit -m "Add submodules a, b, c, d."
 Created commit fc7c350: Add submodules a, b, c, d.
  5 files changed, 16 insertions(+), 0 deletions(-)
