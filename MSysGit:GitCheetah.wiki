@@ -43,7 +43,7 @@ Of course, this recipe works for any remote repo, not just Kirill's fork on repo
 = Git-Cheetah on other Platforms (Nautilus, Finder) =
 We are currently working on support for Nautilus and Mac OS X.
 
-  * On http://www.hvoigt.net/dev/nautilus-extensions-tutor.html you can find a short tutorial and some resources about developing Nautilus (The Gnome Filemanager) Extensions in C.
+On http://www.hvoigt.net/dev/nautilus-extensions-tutor.html you can find a short tutorial and some resources about developing Nautilus (The Gnome Filemanager) Extensions in C.
 
 = In Summary =
 It would be really awesome if you just scratched your itches, and submit patches back to git-cheetah!
