@@ -28,12 +28,12 @@ and to keep up-to-date, just <code>git pull</code> in that directory.
 = Cherry Picking =
 By default, your local git-cheetah repo is (and should) be tracking http://repo.or.cz/w/git-cheetah.git. However, it may also be helpful to cherry-pick from Kirill's work.  Here's a recipe to grab "foo" from his fork:
 
-  # Add the fork as a remote, fetch from there and voila, you have all the commits.
+Add the fork as a remote, fetch from there and voila, you have all the commits.
 <code>
        $ git remote add kirill git://repo.or.cz/git-cheetah/kirill.git
        $ git fetch kirill
 </code>
-  # Now you can choose to cherry-pick it:
+Now you can choose to cherry-pick it:
 <code>
        $ git cherry-pick foo
 </code>
