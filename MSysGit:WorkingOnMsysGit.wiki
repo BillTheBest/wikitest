@@ -111,6 +111,8 @@ would skip test number 12 from the test <code>t5000-tar-tree.sh</code>
 
 When investigating specific failures you can run the individual test scripts from the git/t/ directory and get a line printed for each test with more verbose output for failing tests. To manually investigate a failing test use the <code>--immediate</code> option (abbreviated to <code>-i</code>) to halt the test as soon as one fails. This leaves the local git state as needed for the failing test. There are a few other options given in the ''test-lib.sh'' file which defines the test library functions and some test constraints in case of conditional tests.
 
+For more complete hints how to handle test failures, please have a look at the page about [[What to do when a test fails]].
+
 == Make an installer ==
 
 When developing msysGit or Git for Windows, often you want to give testers an installer to try out. Here you go:
