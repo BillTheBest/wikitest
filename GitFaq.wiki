@@ -1082,7 +1082,7 @@ foreign2/branch2
 == {{Gitlink|switch-uncommitted|Uncommitted changes are not part of any branch}} How do I remove my uncommitted changes from branch A and add them to a new branch B?  ==
 This question is rooted in a misunderstanding. ''Uncommitted changes are not part of any branch.'' This goes for both unstaged and staged changes. They are a property of the worktree.
 
-''git checkout'' in its various forms will take care to "move along" any uncommitted changes in the tree when completing the branch switch. This may occasionally cause it to refuse the switch, either because it would have to attempt a nontrivial merge inside a file or because it would have to overwrite an untracked file with its tracked counterpart in the target branch.
+''git checkout'' in branch-switching mode will take care to "move along" any uncommitted changes in the tree when completing the branch switch. This may occasionally cause it to refuse the switch, either because it would have to attempt a nontrivial merge inside a file or because it would have to overwrite an untracked file with its tracked counterpart in the target branch.
 
 Most users asking this question did some work on e.g. 'master', but before committing it realized they should commit it to a new branch 'topic' instead of 'master'. This is as easy as
 <pre><nowiki>
