@@ -63,3 +63,4 @@ at C:\msysgit/libexec/git-core/git-send-email line 929, <FIN> line 4.
 </nowiki></pre>
 This error is caused by <code>git send-email</code> when it's trying to send the e-mail directly, and not through ESMTP. This can be caused either by lacking git-config, or by your git installation not being up to date.
 [[Category:MSysGit]]
+[http://www.online-poker-spielen.biz/ poker online spielen]
