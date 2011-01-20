@@ -32,6 +32,9 @@ __TOC__
 === Zit ===
 * [http://git.oblomov.eu/zit Zit] by Giuseppe Bilotta is the Git-based single file content tracker; it uses Git to independently track single files within a directory; sort of like what RCS does, but with the power, flexibility, elegance and ease of use of Git. Still in alpha stage.<BR> You can get it from `git://git.oblomov.eu/zit`
 
+=== fgit ===
+* [https://github.com/l0b0/fgit fgit] (Folder Git) runs any Git command on all repositories in the specified directory. Use to garbage collect, check status, pull or anything else on multiple repositories in a single command.
+
 == Interfaces to other programming languages ==
 
 === C ===
