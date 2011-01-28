@@ -118,7 +118,9 @@ __TOC__
 * RepoWatch ([http://www.doomstick.com/projects/repowatch/ homepage]) is a graphical client for Mac OS X that provides very quick access to the basics of Git or Mercurial with minimal effort: just press Command-Option-Enter.
 
 === GitMac (Mac OS X) ===
-* GitMac ([http://gitmacapp.com/download homepage]) GitMac is an App for Mac OSX attempts to make using Git easy. For developers who are new to Git, transitioning from Subversion, or just want a nice Mac UI alternative.
+* GitMac ([http://gitmacapp.com/comingsoon/download?s=gitwiki homepage]) GitMac is an App for Mac OSX that attempts to make using Git easy. For developers who are new to Git, transitioning from Subversion, or just want a nice Mac UI alternative. Focuses on browsing and managing repositories and branches, and making common operations easy.
+
+Use code '''GITWIKI''' to download the Beta.
 
 === tig (Text-mode Interface for Git) ===
 * [[Tig|tig]] ([http://jonas.nitro.dk/tig/ homepage]) by Jonas Fonseca is a simple git repository browser written using ncurses. Basically, it just acts as a front-end for `git-log` and `git-show`/`git-diff`. Additionally, you can also use it as a pager for git commands.
